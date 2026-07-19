@@ -1,0 +1,41 @@
+{
+  "name": "shadowgrid",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Server-authoritative seasonal strategy MMO",
+  "packageManager": "pnpm@11.1.3",
+  "engines": {
+    "node": ">=22.16.0"
+  },
+  "scripts": {
+    "check:environment": "powershell -ExecutionPolicy Bypass -File scripts/check-environment.ps1",
+    "setup": "powershell -ExecutionPolicy Bypass -File scripts/project.ps1 setup",
+    "dev": "concurrently --kill-others -n api,web -c yellow,cyan \"pnpm dev:api\" \"pnpm --filter @shadowgrid/web dev\"",
+    "dev:api": "node scripts/run-python.mjs --cwd apps/api -m uvicorn shadowgrid.main:app --reload --host 0.0.0.0 --port 8000",
+    "migrate": "node scripts/run-python.mjs --cwd apps/api -m alembic upgrade head",
+    "migrate:rollback": "node scripts/run-python.mjs --cwd apps/api -m alembic downgrade base",
+    "seed": "node scripts/run-python.mjs --cwd apps/api -m shadowgrid.seed",
+    "format:check": "pnpm --recursive --if-present format:check && node scripts/run-python.mjs -m ruff format --check apps tests",
+    "lint": "pnpm --recursive --if-present lint && node scripts/run-python.mjs -m ruff check apps tests",
+    "typecheck": "pnpm --recursive --if-present typecheck && node scripts/run-python.mjs -m mypy apps/api/shadowgrid apps/worker",
+    "test": "pnpm --recursive --if-present test && node scripts/run-python.mjs --cwd apps/api -m pytest tests -q --cov=shadowgrid --cov-report=term --cov-fail-under=65",
+    "test:e2e": "pnpm --filter @shadowgrid/web test:e2e",
+    "test:security": "powershell -ExecutionPolicy Bypass -File scripts/security-scan.ps1",
+    "test:load": "node scripts/run-python.mjs -m pytest tests/load -q",
+    "i18n:extract": "pnpm --filter @shadowgrid/i18n extract",
+    "i18n:validate": "pnpm --filter @shadowgrid/i18n validate",
+    "i18n:pseudo": "pnpm --filter @shadowgrid/i18n pseudo",
+    "i18n:translate": "pnpm --filter @shadowgrid/i18n translate",
+    "i18n:report": "pnpm --filter @shadowgrid/i18n report",
+    "api:generate": "node scripts/run-python.mjs scripts/export-openapi.py && pnpm --filter @shadowgrid/api-client generate",
+    "build": "pnpm --workspace-concurrency=1 --recursive --if-present build",
+    "clean": "powershell -ExecutionPolicy Bypass -File scripts/project.ps1 clean",
+    "validate": "powershell -ExecutionPolicy Bypass -File scripts/project.ps1 validate",
+    "logs": "docker compose logs -f --tail=200",
+    "stop": "docker compose down"
+  },
+  "devDependencies": {
+    "concurrently": "9.2.0",
+    "sharp": "0.34.3"
+  }
+}

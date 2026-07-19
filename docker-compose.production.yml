@@ -1,0 +1,42 @@
+services:
+  postgres:
+    profiles: ["local-database"]
+  redis:
+    profiles: ["local-cache"]
+  mailpit:
+    profiles: ["local-mail"]
+  minio:
+    profiles: ["local-storage"]
+  prometheus:
+    profiles: ["monitoring"]
+  api:
+    environment:
+      APP_ENV: production
+      DATABASE_URL: ${DATABASE_URL:?Managed PostgreSQL URL required}
+      REDIS_URL: ${REDIS_URL:?Managed Redis URL required}
+      SECRET_KEY: ${SECRET_KEY:?SECRET_KEY required}
+      REFRESH_PEPPER: ${REFRESH_PEPPER:?REFRESH_PEPPER required}
+      SEED_SECRET: ${SEED_SECRET:?SEED_SECRET required}
+      WEB_ORIGINS: ${WEB_ORIGINS:?Production web origin required}
+      SMTP_HOST: ${SMTP_HOST:?SMTP host required}
+      SMTP_PORT: ${SMTP_PORT:-587}
+    depends_on: {}
+    restart: always
+  worker:
+    environment:
+      APP_ENV: production
+      DATABASE_URL: ${DATABASE_URL:?Managed PostgreSQL URL required}
+      REDIS_URL: ${REDIS_URL:?Managed Redis URL required}
+      SECRET_KEY: ${SECRET_KEY:?SECRET_KEY required}
+      REFRESH_PEPPER: ${REFRESH_PEPPER:?REFRESH_PEPPER required}
+      SEED_SECRET: ${SEED_SECRET:?SEED_SECRET required}
+      WEB_ORIGINS: ${WEB_ORIGINS:?Production web origin required}
+      SMTP_HOST: ${SMTP_HOST:?SMTP host required}
+      SMTP_PORT: ${SMTP_PORT:-587}
+    depends_on: {}
+    restart: always
+  web:
+    depends_on:
+      api:
+        condition: service_started
+    restart: always

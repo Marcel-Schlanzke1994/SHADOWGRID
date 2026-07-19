@@ -1,0 +1,28 @@
+[tool.ruff]
+target-version = "py313"
+line-length = 100
+extend-exclude = [".venv", "node_modules", "dist"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "S", "ASYNC"]
+ignore = ["E501", "S101"]
+
+[tool.ruff.lint.per-file-ignores]
+"apps/api/tests/*" = ["S105", "S106"]
+"apps/api/shadowgrid/seed.py" = ["S311"]
+
+[tool.mypy]
+python_version = "3.13"
+strict = true
+plugins = ["pydantic.mypy"]
+exclude = ["migrations"]
+
+[tool.pytest.ini_options]
+testpaths = ["apps/api/tests", "tests/load", "tests/security"]
+addopts = "--strict-markers --disable-warnings"
+asyncio_mode = "auto"
+
+[tool.coverage.run]
+source = ["apps/api/shadowgrid"]
+branch = true
+omit = ["apps/api/shadowgrid/seed.py"]
