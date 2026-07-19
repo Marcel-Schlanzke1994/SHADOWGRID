@@ -5,6 +5,7 @@ import json
 import logging
 import time
 from datetime import UTC, datetime
+from pathlib import Path
 from typing import Any
 from uuid import uuid4
 
@@ -13,7 +14,7 @@ import structlog
 from fastapi import FastAPI, HTTPException, Request, WebSocket, WebSocketDisconnect
 from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse, Response
+from fastapi.responses import FileResponse, JSONResponse, Response
 from prometheus_client import CONTENT_TYPE_LATEST, Counter, Histogram, generate_latest
 from starlette.middleware.base import RequestResponseEndpoint
 
@@ -24,6 +25,7 @@ from shadowgrid.models import RefreshSession, User
 from shadowgrid.security import decode_access_token
 
 settings = get_settings()
+WEB_DIST = (settings.web_dist_path or Path(__file__).resolve().parents[1] / "web-dist").resolve()
 logging.basicConfig(level=settings.log_level, format="%(message)s")
 structlog.configure(
     processors=[
@@ -44,8 +46,8 @@ app = FastAPI(
     version="0.1.0",
     description="Server-authoritative API for a fictional seasonal strategy MMO.",
     openapi_url=f"{settings.api_prefix}/openapi.json",
-    docs_url="/docs",
-    redoc_url="/redoc",
+    docs_url=None if settings.app_env == "production" else "/docs",
+    redoc_url=None if settings.app_env == "production" else "/redoc",
 )
 app.add_middleware(
     CORSMiddleware,
@@ -93,9 +95,16 @@ async def security_and_observability(
     response.headers["X-Frame-Options"] = "DENY"
     response.headers["Referrer-Policy"] = "strict-origin-when-cross-origin"
     response.headers["Permissions-Policy"] = "camera=(), microphone=(), geolocation=()"
-    response.headers["Content-Security-Policy"] = (
-        "default-src 'none'; frame-ancestors 'none'; base-uri 'none'"
-    )
+    if WEB_DIST.is_dir() and not request.url.path.startswith(settings.api_prefix):
+        response.headers["Content-Security-Policy"] = (
+            "default-src 'self'; connect-src 'self' ws: wss:; img-src 'self' data:; "
+            "style-src 'self' 'unsafe-inline'; script-src 'self'; font-src 'self'; "
+            "object-src 'none'; base-uri 'self'; frame-ancestors 'none'"
+        )
+    else:
+        response.headers["Content-Security-Policy"] = (
+            "default-src 'none'; frame-ancestors 'none'; base-uri 'none'"
+        )
     logger.info(
         "http_request",
         request_id=request_id,
@@ -217,3 +226,22 @@ async def websocket_updates(websocket: WebSocket) -> None:
     except (WebSocketDisconnect, json.JSONDecodeError, jwt.PyJWTError, TimeoutError):
         if websocket.client_state.name != "DISCONNECTED":
             await websocket.close(code=4401)
+
+
+if WEB_DIST.is_dir():
+
+    @app.get("/", include_in_schema=False)
+    def web_index() -> FileResponse:
+        return FileResponse(WEB_DIST / "index.html", headers={"Cache-Control": "no-cache"})
+
+    @app.get("/{spa_path:path}", include_in_schema=False)
+    def web_spa(spa_path: str) -> FileResponse:
+        candidate = (WEB_DIST / spa_path).resolve()
+        if candidate.is_relative_to(WEB_DIST) and candidate.is_file():
+            cache_control = (
+                "public, max-age=31536000, immutable"
+                if spa_path.startswith("assets/")
+                else "no-cache"
+            )
+            return FileResponse(candidate, headers={"Cache-Control": cache_control})
+        return FileResponse(WEB_DIST / "index.html", headers={"Cache-Control": "no-cache"})

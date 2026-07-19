@@ -1,3 +1,12 @@
+FROM node:22.16-alpine AS web-build
+RUN corepack enable && corepack prepare pnpm@11.1.3 --activate
+WORKDIR /app
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
+COPY packages ./packages
+COPY apps/web ./apps/web
+RUN pnpm install --frozen-lockfile
+RUN pnpm --filter @shadowgrid/web build
+
 FROM python:3.13-slim AS runtime
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
@@ -10,6 +19,7 @@ COPY apps/api/requirements.txt /tmp/requirements.txt
 RUN pip install --no-cache-dir --requirement /tmp/requirements.txt
 COPY apps/api /app/apps/api
 COPY apps/worker /app/apps/worker
+COPY --from=web-build /app/apps/web/dist /app/apps/api/web-dist
 RUN chown -R shadowgrid:shadowgrid /app
 USER shadowgrid
 WORKDIR /app/apps/api

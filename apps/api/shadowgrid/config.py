@@ -35,6 +35,7 @@ class Settings(BaseSettings):
     translation_provider: str = "disabled"
     allow_external_deploy: bool = False
     log_level: str = "INFO"
+    web_dist_path: Path | None = None
     test_operation_seconds: int = Field(default=0, ge=0, le=30)
 
     @field_validator("web_origins", mode="before")

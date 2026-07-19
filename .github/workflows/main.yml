@@ -19,9 +19,40 @@ jobs:
           context: .
           file: apps/api/Dockerfile
           push: false
+          load: true
           tags: shadowgrid-api:${{ github.sha }}
           cache-from: type=gha,scope=api
           cache-to: type=gha,scope=api,mode=max
+      - name: Smoke-test combined web and API container
+        shell: bash
+        run: |
+          set -euo pipefail
+          cleanup() {
+            docker logs shadowgrid-api-smoke || true
+            docker stop shadowgrid-api-smoke || true
+          }
+          trap cleanup EXIT
+          docker run --detach --name shadowgrid-api-smoke \
+            --publish 18000:8000 \
+            --env APP_ENV=production \
+            --env DATABASE_URL=sqlite:////tmp/shadowgrid.db \
+            --env SECRET_KEY=ci-only-secret-key-with-sufficient-length \
+            --env REFRESH_PEPPER=ci-only-refresh-pepper-with-sufficient-length \
+            --env SEED_SECRET=ci-only-seed-secret-with-sufficient-length \
+            --env WEB_ORIGINS=http://127.0.0.1:18000 \
+            shadowgrid-api:${{ github.sha }} \
+            sh -c 'python -m alembic upgrade head && exec python -m uvicorn shadowgrid.main:app --host 0.0.0.0 --port 8000'
+          for attempt in {1..40}; do
+            if curl --fail --silent http://127.0.0.1:18000/api/v1/ready >/dev/null; then
+              break
+            fi
+            if [ "$attempt" -eq 40 ]; then
+              exit 1
+            fi
+            sleep 1
+          done
+          curl --fail --silent http://127.0.0.1:18000/ | grep --quiet 'id="root"'
+          curl --fail --silent http://127.0.0.1:18000/city | grep --quiet 'id="root"'
       - uses: docker/build-push-action@v7
         with:
           context: .
