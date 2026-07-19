@@ -49,7 +49,7 @@ jobs:
             --env SEED_SECRET=ci-only-seed-secret-with-sufficient-length \
             --env WEB_ORIGINS=http://127.0.0.1:18000 \
             shadowgrid-api:${{ github.sha }} \
-            sh -c 'python -m alembic upgrade head && python -m shadowgrid.bootstrap && exec python -m shadowgrid.production'
+            sh -c 'python -m shadowgrid.predeploy && exec python -m shadowgrid.production'
           for attempt in {1..40}; do
             if curl --fail --silent http://127.0.0.1:18000/api/v1/ready >/dev/null; then
               break
