@@ -1,0 +1,17 @@
+.git
+.github
+.venv
+node_modules
+**/node_modules
+**/dist
+**/coverage
+**/__pycache__
+.local
+.env
+.env.local
+*.db
+*.sqlite*
+*.pdf
+backups
+playwright-report
+test-results

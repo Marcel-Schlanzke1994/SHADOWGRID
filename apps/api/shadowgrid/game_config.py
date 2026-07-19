@@ -1,0 +1,347 @@
+from __future__ import annotations
+
+from typing import Final, TypedDict
+
+
+class ResearchDefinition(TypedDict):
+    category: str
+    cash: int
+    capital: int
+    minutes: int
+
+
+START_RESOURCES: Final = {
+    "cash": 80_000,
+    "capital": 25_000,
+    "influence": 10,
+    "intelligence": 15,
+    "logistics_capacity": 10,
+    "personnel_capacity": 8,
+}
+
+ARCHETYPES: Final = {
+    "family_network": {
+        "loyalty": 10,
+        "recruitment_speed": -10,
+        "personal_conflict_impact": 10,
+    },
+    "street_alliance": {"street_presence": 15, "visibility": 10, "loyalty": -8},
+    "business_consortium": {"business_revenue": 10, "legitimacy": 10, "financial_risk": 8},
+    "cyber_collective": {
+        "intelligence_gain": 15,
+        "digital_influence": 15,
+        "physical_presence": -10,
+    },
+}
+
+DISTRICTS: Final = (
+    (
+        "crown-financial",
+        "Crown Financial District",
+        85,
+        82,
+        74,
+        86,
+        92,
+        88,
+        70,
+        66,
+        91,
+        78,
+        70,
+        8,
+        "6,14 30,7 43,23 31,42 8,37",
+    ),
+    (
+        "iron-harbor",
+        "Iron Harbor",
+        56,
+        68,
+        52,
+        78,
+        61,
+        48,
+        45,
+        58,
+        78,
+        54,
+        16,
+        43,
+        "8,42 32,43 38,60 18,74 5,61",
+    ),
+    (
+        "neon-mile",
+        "Neon Mile",
+        72,
+        70,
+        48,
+        64,
+        83,
+        76,
+        58,
+        82,
+        85,
+        57,
+        43,
+        24,
+        "44,18 68,12 75,33 60,47 41,39",
+    ),
+    (
+        "meridian-heights",
+        "Meridian Heights",
+        91,
+        78,
+        88,
+        72,
+        86,
+        95,
+        84,
+        55,
+        72,
+        90,
+        72,
+        44,
+        "64,45 91,39 96,62 79,75 62,63",
+    ),
+    (
+        "southworks",
+        "Southworks",
+        47,
+        63,
+        54,
+        62,
+        55,
+        43,
+        46,
+        48,
+        69,
+        51,
+        38,
+        62,
+        "31,61 60,61 62,82 35,91 17,76",
+    ),
+    (
+        "nexus-campus",
+        "Nexus Campus",
+        82,
+        76,
+        79,
+        67,
+        98,
+        86,
+        77,
+        62,
+        89,
+        81,
+        39,
+        7,
+        "31,4 57,4 63,19 43,22",
+    ),
+    (
+        "old-quarter",
+        "Old Quarter",
+        64,
+        69,
+        66,
+        61,
+        65,
+        79,
+        73,
+        80,
+        74,
+        68,
+        5,
+        78,
+        "4,64 20,76 18,96 2,91",
+    ),
+    (
+        "greybank",
+        "Greybank",
+        34,
+        48,
+        39,
+        58,
+        47,
+        31,
+        32,
+        52,
+        43,
+        37,
+        62,
+        77,
+        "61,76 80,74 94,91 68,96",
+    ),
+)
+
+BUSINESS_TYPES: Final = {
+    "gastronomy": {
+        "price": 25_000,
+        "revenue": 5_200,
+        "cost": 3_400,
+        "personnel": 2,
+        "logistics": 1,
+        "risk": 8,
+    },
+    "event_agency": {
+        "price": 35_000,
+        "revenue": 6_400,
+        "cost": 4_200,
+        "personnel": 2,
+        "logistics": 1,
+        "risk": 12,
+    },
+    "security_company": {
+        "price": 60_000,
+        "revenue": 9_000,
+        "cost": 6_300,
+        "personnel": 3,
+        "logistics": 2,
+        "risk": 16,
+    },
+    "logistics_company": {
+        "price": 90_000,
+        "revenue": 13_000,
+        "cost": 8_500,
+        "personnel": 4,
+        "logistics": 3,
+        "risk": 20,
+    },
+    "technology_company": {
+        "price": 120_000,
+        "revenue": 17_000,
+        "cost": 11_500,
+        "personnel": 5,
+        "logistics": 2,
+        "risk": 18,
+    },
+}
+
+FACILITY_TYPES: Final = {
+    "headquarters": {"cash": 0, "capital": 0, "hours": 0, "max_level": 5},
+    "finance_office": {"cash": 20_000, "capital": 10_000, "hours": 2, "max_level": 5},
+    "intelligence_center": {"cash": 25_000, "capital": 8_000, "hours": 3, "max_level": 5},
+    "logistics_center": {"cash": 30_000, "capital": 15_000, "hours": 4, "max_level": 5},
+    "personnel_academy": {"cash": 22_000, "capital": 12_000, "hours": 3, "max_level": 5},
+    "compliance_office": {"cash": 35_000, "capital": 20_000, "hours": 6, "max_level": 5},
+}
+
+SPECIALIST_ROLES: Final = (
+    "strategist",
+    "finance_director",
+    "district_coordinator",
+    "intelligence_analyst",
+    "negotiator",
+    "security_manager",
+    "personnel_manager",
+    "technology_expert",
+)
+
+OPERATION_TYPES: Final = {
+    "business_expansion": {"minutes": 20, "difficulty": 30, "influence": 2, "pressure": 1},
+    "intelligence_gathering": {"minutes": 15, "difficulty": 35, "intelligence": 5, "pressure": 2},
+    "influence_project": {"minutes": 30, "difficulty": 42, "influence": 5, "pressure": 2},
+    "diplomatic_mission": {"minutes": 25, "difficulty": 40, "influence": 3, "pressure": 1},
+    "covert_market_project": {"minutes": 35, "difficulty": 58, "cash": 15_000, "pressure": 8},
+}
+
+RISK_POSTURES: Final = {
+    "cautious": {"chance": 8, "duration": 1.35, "reward": 0.75, "risk": 0.6},
+    "balanced": {"chance": 0, "duration": 1.0, "reward": 1.0, "risk": 1.0},
+    "aggressive": {"chance": -5, "duration": 0.7, "reward": 1.35, "risk": 1.6},
+}
+
+RESEARCH: Final[dict[str, ResearchDefinition]] = {
+    "distributed_command": {
+        "category": "organization",
+        "cash": 12_000,
+        "capital": 4_000,
+        "minutes": 60,
+    },
+    "market_analytics": {"category": "economy", "cash": 8_000, "capital": 8_000, "minutes": 75},
+    "source_validation": {
+        "category": "information",
+        "cash": 10_000,
+        "capital": 5_000,
+        "minutes": 60,
+    },
+    "risk_early_warning": {"category": "security", "cash": 14_000, "capital": 6_000, "minutes": 90},
+    "mediation_protocols": {
+        "category": "diplomacy",
+        "cash": 9_000,
+        "capital": 4_000,
+        "minutes": 60,
+    },
+    "predictive_systems": {
+        "category": "technology",
+        "cash": 16_000,
+        "capital": 12_000,
+        "minutes": 120,
+    },
+}
+
+WORLD_EVENTS: Final = {
+    "port_strike": {"logistics": -20, "economic_activity": -5},
+    "financial_audit": {"compliance_risk": 15, "revenue": -5},
+    "data_leak": {"intel_visibility": 20, "trust": -5},
+    "economic_crisis": {"revenue": -15, "employment": -8},
+    "media_campaign": {"media_attention": 18, "legitimacy": -4},
+    "technology_boom": {"digital_infrastructure": 12, "research_speed": 10},
+    "major_raid": {"authority_presence": 20, "investigation_pressure": 12},
+    "labor_shortage": {"employment": 8, "operating_cost": 12},
+    "property_boom": {"property_value": 14, "operating_cost": 5},
+    "security_crisis": {"safety": -15, "authority_presence": 10},
+    "peace_initiative": {"treaty_cost": -20, "social_stability": 8},
+    "supply_disruption": {"logistics": -12, "operating_cost": 9},
+}
+
+ROLE_PERMISSIONS: Final = {
+    "director": {"*"},
+    "deputy": {
+        "organization.view",
+        "organization.edit_profile",
+        "organization.invite",
+        "organization.remove_members",
+        "treasury.view",
+        "operations.view",
+        "operations.create",
+        "intel.view_shared",
+        "intel.share",
+        "diplomacy.view",
+        "diplomacy.propose",
+        "diplomacy.accept",
+        "research.view",
+        "research.start",
+        "audit.view",
+    },
+    "finance_lead": {
+        "organization.view",
+        "treasury.view",
+        "treasury.deposit",
+        "treasury.withdraw",
+        "treasury.invest",
+        "audit.view",
+    },
+    "diplomacy_lead": {
+        "organization.view",
+        "diplomacy.view",
+        "diplomacy.propose",
+        "diplomacy.accept",
+        "diplomacy.terminate",
+    },
+    "intelligence_lead": {
+        "organization.view",
+        "intel.view_shared",
+        "intel.share",
+        "operations.view",
+    },
+    "district_lead": {"organization.view", "operations.view", "operations.create"},
+    "member": {
+        "organization.view",
+        "treasury.view",
+        "operations.view",
+        "intel.view_shared",
+        "diplomacy.view",
+        "research.view",
+    },
+    "candidate": {"organization.view"},
+}

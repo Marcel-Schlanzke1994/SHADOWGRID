@@ -1,0 +1,27 @@
+{
+  "name": "@shadowgrid/i18n",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "extract": "tsx scripts/i18n.ts extract",
+    "validate": "tsx scripts/i18n.ts validate",
+    "pseudo": "tsx scripts/i18n.ts pseudo",
+    "translate": "tsx scripts/i18n.ts translate",
+    "report": "tsx scripts/i18n.ts report",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@shadowgrid/game-config": "workspace:*",
+    "i18next": "25.2.1",
+    "i18next-icu": "2.4.1",
+    "react-i18next": "15.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "26.1.1",
+    "tsx": "4.20.3",
+    "typescript": "5.8.3"
+  }
+}

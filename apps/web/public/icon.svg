@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="SHADOWGRID monogram">
+  <rect width="512" height="512" rx="96" fill="#080a0d"/>
+  <path d="M96 132h320M96 256h320M96 380h320M132 96v320M256 96v320M380 96v320" stroke="#384250" stroke-width="16"/>
+  <path d="M142 330c48 58 181 62 228-9 30-46-7-88-61-83l-99 9c-45 4-62-31-34-57 37-34 123-28 168 14" fill="none" stroke="#f1cd79" stroke-width="34" stroke-linecap="round"/>
+</svg>

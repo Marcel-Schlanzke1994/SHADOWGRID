@@ -1,0 +1,9 @@
+-r requirements.txt
+pytest==8.4.1
+pytest-asyncio==1.0.0
+pytest-cov==7.1.0
+hypothesis==6.135.20
+ruff==0.15.22
+mypy==2.3.0
+bandit==1.9.4
+pip-audit==2.9.0
