@@ -4,7 +4,7 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Annotated
 
-from pydantic import Field, SecretStr, field_validator
+from pydantic import EmailStr, Field, SecretStr, field_validator
 from pydantic_settings import BaseSettings, NoDecode, SettingsConfigDict
 
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
@@ -32,10 +32,16 @@ class Settings(BaseSettings):
     smtp_host: str = "localhost"
     smtp_port: int = 1025
     smtp_from: str = "noreply@shadowgrid.local"
+    smtp_username: str | None = None
+    smtp_password: SecretStr | None = None
+    smtp_starttls: bool = False
+    smtp_use_ssl: bool = False
     translation_provider: str = "disabled"
     allow_external_deploy: bool = False
     log_level: str = "INFO"
     web_dist_path: Path | None = None
+    bootstrap_admin_email: EmailStr | None = None
+    bootstrap_admin_password: SecretStr | None = None
     test_operation_seconds: int = Field(default=0, ge=0, le=30)
 
     @field_validator("web_origins", mode="before")

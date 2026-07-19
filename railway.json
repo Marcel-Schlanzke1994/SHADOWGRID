@@ -5,7 +5,7 @@
     "dockerfilePath": "apps/api/Dockerfile"
   },
   "deploy": {
-    "preDeployCommand": ["python -m alembic upgrade head"],
+    "preDeployCommand": ["python -m alembic upgrade head", "python -m shadowgrid.bootstrap"],
     "healthcheckPath": "/api/v1/ready",
     "healthcheckTimeout": 300,
     "restartPolicyType": "ON_FAILURE",

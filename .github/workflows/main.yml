@@ -29,19 +29,27 @@ jobs:
           set -euo pipefail
           cleanup() {
             docker logs shadowgrid-api-smoke || true
-            docker stop shadowgrid-api-smoke || true
+            docker logs shadowgrid-redis-smoke || true
+            docker rm --force shadowgrid-api-smoke shadowgrid-redis-smoke || true
+            docker network rm shadowgrid-smoke || true
           }
           trap cleanup EXIT
+          docker network create shadowgrid-smoke
+          docker run --detach --name shadowgrid-redis-smoke \
+            --network shadowgrid-smoke \
+            redis:8-alpine
           docker run --detach --name shadowgrid-api-smoke \
+            --network shadowgrid-smoke \
             --publish 18000:8000 \
             --env APP_ENV=production \
             --env DATABASE_URL=sqlite:////tmp/shadowgrid.db \
+            --env REDIS_URL=redis://shadowgrid-redis-smoke:6379/0 \
             --env SECRET_KEY=ci-only-secret-key-with-sufficient-length \
             --env REFRESH_PEPPER=ci-only-refresh-pepper-with-sufficient-length \
             --env SEED_SECRET=ci-only-seed-secret-with-sufficient-length \
             --env WEB_ORIGINS=http://127.0.0.1:18000 \
             shadowgrid-api:${{ github.sha }} \
-            sh -c 'python -m alembic upgrade head && exec python -m uvicorn shadowgrid.main:app --host 0.0.0.0 --port 8000'
+            sh -c 'python -m alembic upgrade head && python -m shadowgrid.bootstrap && exec python -m shadowgrid.production'
           for attempt in {1..40}; do
             if curl --fail --silent http://127.0.0.1:18000/api/v1/ready >/dev/null; then
               break

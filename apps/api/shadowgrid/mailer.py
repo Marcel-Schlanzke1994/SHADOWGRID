@@ -25,10 +25,18 @@ def deliver_email(db: Session, message: EmailOutbox, settings: Settings) -> bool
     email["Subject"] = message.subject
     email.set_content(message.body)
     message.attempts += 1
+    smtp_class = smtplib.SMTP_SSL if settings.smtp_use_ssl else smtplib.SMTP
     try:
-        with smtplib.SMTP(settings.smtp_host, settings.smtp_port, timeout=5) as smtp:
+        with smtp_class(settings.smtp_host, settings.smtp_port, timeout=5) as smtp:
+            if settings.smtp_starttls:
+                smtp.starttls()
+            if settings.smtp_username is not None and settings.smtp_password is not None:
+                smtp.login(
+                    settings.smtp_username,
+                    settings.smtp_password.get_secret_value(),
+                )
             smtp.send_message(email)
-    except OSError:
+    except (OSError, smtplib.SMTPException):
         message.status = "retry"
         message.next_attempt_at = datetime.now(UTC) + timedelta(
             minutes=min(60, 2**message.attempts)
