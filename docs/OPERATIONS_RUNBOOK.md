@@ -1,5 +1,7 @@
 # Operations runbook
 
+Production: <https://shadowgrid-production-be34.up.railway.app>
+
 ## Health and observability
 
 - Liveness: `GET /api/v1/health`
@@ -7,6 +9,7 @@
 - Prometheus metrics: `GET /metrics`
 - Every API response includes `X-Request-ID` and `X-Server-Time`; structured logs repeat the request ID.
 - Primary alerts: readiness failure, HTTP 5xx rate, p95 latency, worker retry/failure rate, Redis unavailability, database saturation and negative ledger reconciliation.
+- Railway runtime logs must show both Uvicorn and `Starting worker for 6 functions`; a healthy API alone is insufficient for timed game systems.
 
 ## Triage
 
@@ -15,6 +18,7 @@
 3. Check PostgreSQL and Redis health before restarting application processes.
 4. For stuck due work, restore the worker and let idempotent jobs replay; do not manually alter resource balances.
 5. For an economic discrepancy, compare `resource_balances` with the sum of `ledger_entries`, preserve evidence and ship a corrective ledger mutation.
+6. Treat `.local/production-admin.env` as a local password handoff: do not commit or paste it into tickets, and rotate the account password after first human login.
 
 ## Maintenance and incidents
 

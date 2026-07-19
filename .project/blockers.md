@@ -1,11 +1,10 @@
 # Blockers
 
-No implementation blocker is active.
+No implementation or Railway browser/API deployment blocker is active.
 
-Local environment limitations detected on 2026-07-19:
+External provider inputs still required for optional release channels:
 
-- Docker/Docker Compose are not installed. Compose files and container checks are implemented, while local verification uses native processes and SQLite where a container is not required.
-- GNU Make is not installed. Every Make target has a PowerShell equivalent.
-- Java and Android SDK/ADB are not installed. Expo web/config validation remains available; signed Android/iOS artifacts require the external SDKs and signing accounts described in the release documentation.
+- Transactional registration, verification and password-reset delivery needs a real SMTP host, sender, username/password and TLS mode. The implementation and retrying outbox worker are live, but no provider credentials were supplied.
+- Signed Android/iOS artifacts need EAS, Google Play and Apple signing accounts plus real-device validation. Java and Android SDK/ADB are not installed on this host.
 
-These limitations do not authorize external deployment or app-store submission.
+Local Docker/Docker Compose and GNU Make are absent. Equivalent project scripts are available, and container behavior is verified by GitHub Actions and the successful Railway deployment.

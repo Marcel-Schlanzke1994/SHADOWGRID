@@ -1,6 +1,6 @@
 # Master-goal traceability
 
-This matrix maps the reviewed project briefs and Season 0 design document to the implemented RUN 1 deliverables. The two “Projekt Netzwerke” exports contain the same normalized text and were both reviewed.
+This matrix maps the reviewed project briefs and Season 0 design document to the implemented RUN 1 deliverables and the verified RUN 2 Railway release. The two “Projekt Netzwerke” exports contain the same normalized text and were both reviewed.
 
 | Requirement area | Implementation | Verification |
 | --- | --- | --- |
@@ -16,6 +16,6 @@ This matrix maps the reviewed project briefs and Season 0 design document to the
 | Localization | canonical English, reviewed German, 50 technical fallback locales and `en-XA`/`ar-XB` pseudo-locales | 198-key parity validator and RTL browser tests |
 | Accessibility | semantic landmarks, skip/focus handling, labelled forms, status roles, text alternatives, reduced motion, high contrast and 44+ point mobile controls | component tests, axe critical-page checks, responsive/RTL E2E and accessibility checklist |
 | Security and privacy | Argon2id, short bearer access tokens, hashed refresh tokens, CSP/security headers, CORS allowlist, request limits, explicit permissions, privacy export/delete and audit logs | Bandit, pip-audit, pnpm audit, secret-pattern scan and threat model |
-| Operations and release | Dockerfiles, Compose, PostgreSQL, Redis, Mailpit, MinIO, Prometheus, Nginx, Railway template, migrations, backups, CI and runbooks | config parsing, native health/E2E checks and documented provider-only steps |
+| Operations and release | Dockerfiles, Compose, PostgreSQL, Redis, Mailpit, MinIO, Prometheus, Nginx, atomic Railway pre-deploy, supervised API/worker runtime, backups, CI and runbooks | GitHub container smoke, Railway deployment logs, public HTTPS/headers/readiness, live admin auth and production-world checks |
 
-The broader long-term GDD remains a roadmap beyond the explicitly required Season 0 MVP floor. External deployment and signed store submission belong to a separately authorized RUN 2 and were intentionally not performed in RUN 1.
+The broader long-term GDD remains a roadmap beyond the explicitly required Season 0 MVP floor. The separately authorized RUN 2 browser/API deployment is complete. Signed store submission and outbound SMTP delivery remain provider-account operations and are not claimed as completed.

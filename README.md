@@ -4,6 +4,8 @@
 
 SHADOWGRID is a fictional, server-authoritative seasonal strategy MMO for web, Android and iOS. It combines businesses, districts, specialists, information, diplomacy and organizational stability without teaching actionable real-world crime.
 
+Production web/API: <https://shadowgrid-production-be34.up.railway.app>
+
 ## Fast local start on Windows
 
 Prerequisites: Node 22+, pnpm 11+ and Python 3.13+ (Python 3.12 also works for local validation). Docker is optional for the native development route and required for the full service stack.

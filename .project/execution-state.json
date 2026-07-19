@@ -1,15 +1,20 @@
 {
   "project": "shadowgrid",
-  "phase": "run1_complete",
+  "phase": "run2_railway_live",
   "run1_complete": true,
+  "run2_complete": true,
   "local_build_complete": true,
   "local_tests_passed": true,
   "security_checks_passed": true,
   "production_ready": true,
-  "browser_deployed": false,
+  "browser_deployed": true,
+  "railway_api_deployed": true,
+  "managed_postgres_deployed": true,
+  "managed_redis_deployed": true,
+  "transactional_email_configured": false,
   "android_build_ready": true,
   "ios_build_ready": true,
   "signed_mobile_artifacts_created": false,
-  "external_release_performed": false,
-  "last_updated": "2026-07-19T16:27:33Z"
+  "external_release_performed": true,
+  "last_updated": "2026-07-19T18:20:00Z"
 }
