@@ -45,6 +45,17 @@ class Settings(BaseSettings):
             return [part.strip() for part in value.split(",") if part.strip()]
         return value
 
+    @field_validator("database_url", mode="before")
+    @classmethod
+    def normalize_database_driver(cls, value: object) -> object:
+        if not isinstance(value, str):
+            return value
+        if value.startswith("postgresql://"):
+            return value.replace("postgresql://", "postgresql+psycopg://", 1)
+        if value.startswith("postgres://"):
+            return value.replace("postgres://", "postgresql+psycopg://", 1)
+        return value
+
     @field_validator("translation_provider")
     @classmethod
     def validate_translation_provider(cls, value: str) -> str:
