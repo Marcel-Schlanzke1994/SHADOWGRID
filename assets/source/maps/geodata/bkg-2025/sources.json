@@ -1,0 +1,122 @@
+{
+  "schema": "shadowgrid-bkg-geodata-v1",
+  "coordinate_reference_system": "EPSG:25832",
+  "output_view_box": "0 0 1536 1536",
+  "license": {
+    "id": "dl-de/by-2-0",
+    "url": "https://www.govdata.de/dl-de/by-2-0",
+    "changed": true
+  },
+  "datasets": {
+    "vg250": {
+      "title": "Verwaltungsgebiete 1:250 000, Stand 01.01.2025",
+      "productUrl": "https://gdz.bkg.bund.de/index.php/default/open-data/verwaltungsgebiete-1-250-000-stand-01-01-vg250-01-01.html",
+      "endpoint": "https://sgx.geodatenzentrum.de/wfs_vg250",
+      "attribution": "© BKG 2025 dl-de/by-2-0 (Daten verändert), Datenquellen: https://sgx.geodatenzentrum.de/web_public/gdz/datenquellen/datenquellen_vg_nuts.pdf"
+    },
+    "dlm250": {
+      "title": "Digitales Landschaftsmodell 1:250 000, Stand 31.12.2025",
+      "productUrl": "https://gdz.bkg.bund.de/index.php/default/digitales-landschaftsmodell-1-250-000-ebenen-dlm250-ebenen.html",
+      "endpoint": "https://sgx.geodatenzentrum.de/wfs_dlm250",
+      "attribution": "© GeoBasis-DE / BKG 2025 dl-de/by-2-0 (Daten verändert)"
+    }
+  },
+  "layers": [
+    {
+      "id": "country_land",
+      "dataset": "vg250",
+      "type_name": "vg250:vg250_sta",
+      "filter": "gf=4",
+      "query_url": "https://sgx.geodatenzentrum.de/wfs_vg250?service=WFS&version=2.0.0&request=GetFeature&typeNames=vg250%3Avg250_sta&outputFormat=application%2Fjson&srsName=EPSG%3A25832&CQL_FILTER=gf%3D4",
+      "raw_file": "assets/source/maps/geodata/bkg-2025/country_land.geojson",
+      "feature_count": 1,
+      "bytes": 1963105,
+      "sha256": "55a0379bab2a304a00fb6221efebf8715964e81f9e1a97f5e70b597deb009396"
+    },
+    {
+      "id": "state_borders",
+      "dataset": "vg250",
+      "type_name": "vg250:vg250_li",
+      "filter": "agz=2 AND gmk=0",
+      "query_url": "https://sgx.geodatenzentrum.de/wfs_vg250?service=WFS&version=2.0.0&request=GetFeature&typeNames=vg250%3Avg250_li&outputFormat=application%2Fjson&srsName=EPSG%3A25832&CQL_FILTER=agz%3D2+AND+gmk%3D0",
+      "raw_file": "assets/source/maps/geodata/bkg-2025/state_borders.geojson",
+      "feature_count": 1326,
+      "bytes": 1493836,
+      "sha256": "fe285db8ca529a42ac5f52b152fd4d256b198f1165569ce675fa377473ff4a55"
+    },
+    {
+      "id": "coastlines",
+      "dataset": "vg250",
+      "type_name": "vg250:vg250_li",
+      "filter": "agz=9",
+      "query_url": "https://sgx.geodatenzentrum.de/wfs_vg250?service=WFS&version=2.0.0&request=GetFeature&typeNames=vg250%3Avg250_li&outputFormat=application%2Fjson&srsName=EPSG%3A25832&CQL_FILTER=agz%3D9",
+      "raw_file": "assets/source/maps/geodata/bkg-2025/coastlines.geojson",
+      "feature_count": 281,
+      "bytes": 436610,
+      "sha256": "882a03e2b0d724ee10d41265426c3c7807b5477f568b784e53b83154c366e1b4"
+    },
+    {
+      "id": "wide_river_surfaces",
+      "dataset": "dlm250",
+      "type_name": "dlm250:objart_44001_f",
+      "filter": null,
+      "query_url": "https://sgx.geodatenzentrum.de/wfs_dlm250?service=WFS&version=2.0.0&request=GetFeature&typeNames=dlm250%3Aobjart_44001_f&outputFormat=application%2Fjson&srsName=EPSG%3A25832",
+      "raw_file": "assets/source/maps/geodata/bkg-2025/wide_river_surfaces.geojson",
+      "feature_count": 1211,
+      "bytes": 4718904,
+      "sha256": "23b3c067f7a796ed2341d69cb76db167c6ad4172cd7d7670e2bc99ba761d747e"
+    },
+    {
+      "id": "large_lakes",
+      "dataset": "dlm250",
+      "type_name": "dlm250:objart_44006_f",
+      "filter": "area(geom)>=1000000",
+      "query_url": "https://sgx.geodatenzentrum.de/wfs_dlm250?service=WFS&version=2.0.0&request=GetFeature&typeNames=dlm250%3Aobjart_44006_f&outputFormat=application%2Fjson&srsName=EPSG%3A25832&CQL_FILTER=area%28geom%29%3E%3D1000000",
+      "raw_file": "assets/source/maps/geodata/bkg-2025/large_lakes.geojson",
+      "feature_count": 490,
+      "bytes": 2758521,
+      "sha256": "211aafda70f4e506156b0ee25eede9080b2057fe6076cf12f3e0279a813f7856"
+    },
+    {
+      "id": "major_river_axes",
+      "dataset": "dlm250",
+      "type_name": "dlm250:objart_44004_l",
+      "filter": "gwk IN ('1000000000000000000','1600000000000000000','1800000000000000000','2000000000000000000','2380000000000000000','2400000000000000000','2580000000000000000','2600000000000000000','2760000000000000000','2780000000000000000','3000000000000000000','4000000000000000000','4100000000000000000','4200000000000000000','4800000000000000000','4880000000000000000','5000000000000000000','5600000000000000000','5800000000000000000','5820000000000000000','6000000000000000000','6740000000000000000')",
+      "query_url": "https://sgx.geodatenzentrum.de/wfs_dlm250?service=WFS&version=2.0.0&request=GetFeature&typeNames=dlm250%3Aobjart_44004_l&outputFormat=application%2Fjson&srsName=EPSG%3A25832&CQL_FILTER=gwk+IN+%28%271000000000000000000%27%2C%271600000000000000000%27%2C%271800000000000000000%27%2C%272000000000000000000%27%2C%272380000000000000000%27%2C%272400000000000000000%27%2C%272580000000000000000%27%2C%272600000000000000000%27%2C%272760000000000000000%27%2C%272780000000000000000%27%2C%273000000000000000000%27%2C%274000000000000000000%27%2C%274100000000000000000%27%2C%274200000000000000000%27%2C%274800000000000000000%27%2C%274880000000000000000%27%2C%275000000000000000000%27%2C%275600000000000000000%27%2C%275800000000000000000%27%2C%275820000000000000000%27%2C%276000000000000000000%27%2C%276740000000000000000%27%29",
+      "raw_file": "assets/source/maps/geodata/bkg-2025/major_river_axes.geojson",
+      "feature_count": 1032,
+      "bytes": 1649055,
+      "sha256": "22ab38d2c5acaea179ee7113c67f9cb5763d3429ad6f7040da14593e225eddd4"
+    }
+  ],
+  "generated": [
+    {
+      "asset_id": "map-germany-outline-v1",
+      "path": ".project/generated-geodata/map-germany-outline-v1.svg",
+      "bytes": 79997,
+      "sha256": "9c963f3f6ac4cc6f8bb2a11c6bdbc750556ab6d7e0bc3934448893cafa63b662",
+      "simplification_tolerance_px": 0.35
+    },
+    {
+      "asset_id": "map-federal-state-borders-v1",
+      "path": ".project/generated-geodata/map-federal-state-borders-v1.svg",
+      "bytes": 70581,
+      "sha256": "e711e2f51745615e045c89e5c867e769e903623fd5f9752399d5ca3b7e515fb9",
+      "simplification_tolerance_px": 0.55
+    },
+    {
+      "asset_id": "map-coasts-water-v1",
+      "path": ".project/generated-geodata/map-coasts-water-v1.svg",
+      "bytes": 73096,
+      "sha256": "f7c3487d1108d83a50d513d5d85208a287f3555b17f90a70d201adf143f32115",
+      "simplification_tolerance_px": 1.015
+    },
+    {
+      "asset_id": "map-major-rivers-v1",
+      "path": ".project/generated-geodata/map-major-rivers-v1.svg",
+      "bytes": 75041,
+      "sha256": "f41e1dc84286def02bf7a3e718c36c47a5bd54bbcf00f67f9a5106123ed0e6ab",
+      "simplification_tolerance_px": 0.75
+    }
+  ]
+}

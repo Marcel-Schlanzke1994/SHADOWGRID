@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-muenchen-card-v1",
+  "manifest_order": 97,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "muenchen",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-muenchen-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100097,
+  "content_hash": "01a4b39c3acd85b9e9c9fb604d8e377e913a99c97ee194d3d66714b2a9dad048",
+  "source_file": "assets/source/cities/city-muenchen-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-muenchen-card-v1-320.avif",
+      "bytes": 8642,
+      "sha256": "0a478cad504568e7fb83ce75801c0e5d76d20fce05ef1f22fd06952a5217e633"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-card-v1-320.webp",
+      "bytes": 8488,
+      "sha256": "f2a3c021309e237640ed10bbf6ffeda886241c5290face3dee22ea1e02b10cec"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-card-v1-640.avif",
+      "bytes": 35294,
+      "sha256": "2f4100a9a545dfbab354de0936a6b78fc913869e090ecdca995708f4099c65eb"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-card-v1-640.webp",
+      "bytes": 35026,
+      "sha256": "7d886b49c242f4b41180bb468d8266c52ea1eefb90c309deefe4f2e254bc5538"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-card-v1-960.avif",
+      "bytes": 92716,
+      "sha256": "d38b44fe61368f12b8adaf97716a318b3464b471bbd7259edf09cab17552bf9a"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-card-v1-960.webp",
+      "bytes": 85730,
+      "sha256": "b330e29cd9b36069f7bc3c7d6c21040c9f5fe6659d7a4019ef9cd177b7090496"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-card-v1-1280.avif",
+      "bytes": 132481,
+      "sha256": "ee2eb9edbfbc1a69afabf5fb1c4d3c95aded47bed7a6e3bce4c9beacc027c191"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-card-v1-1280.webp",
+      "bytes": 125988,
+      "sha256": "db00ae86ca691cedfb787395bb7ffd5c926e41e950be3e16902f9bd60b01875f"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-card-v1-1920.avif",
+      "bytes": 195430,
+      "sha256": "3e8230d569a2a258cf4aff7f84aaef539d083214ae6465296528019444abd53b"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-card-v1-1920.webp",
+      "bytes": 193158,
+      "sha256": "a96622c3b011420a2677592e87c5f0edfa3742c16bdee93a6e4eff89514b3aab"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-card-v1-2560.avif",
+      "bytes": 260758,
+      "sha256": "b14b6f3f581d4f8a71b24ee2015a9059c4c303eb2b35392df1500522a353883f"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-card-v1-2560.webp",
+      "bytes": 268934,
+      "sha256": "725d4cf63aad6b41b72e47a9e1691f8e5020d3c03cd6ddc3f244fe32e12579c6"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-card-v1-3840.avif",
+      "bytes": 1680798,
+      "sha256": "5908a54f81c43c729b8036259c15c428871f92b436804f0ecd45c05e1307b9dd"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-card-v1-3840.webp",
+      "bytes": 443508,
+      "sha256": "ee9ec13234ab18feb9fbf7eb62daa3972dbc4dfab739e3d86b727feabb91ea58"
+    },
+    {
+      "path": "assets/production/png/city-muenchen-card-v1-1280.png",
+      "bytes": 2831389,
+      "sha256": "3310e3a15fce089287e9c47facfcd46e807fcfb28429358e6711049abad04d88"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-card-v1-320.avif",
+      "bytes": 8642,
+      "sha256": "0a478cad504568e7fb83ce75801c0e5d76d20fce05ef1f22fd06952a5217e633"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-card-v1-320.webp",
+      "bytes": 8488,
+      "sha256": "f2a3c021309e237640ed10bbf6ffeda886241c5290face3dee22ea1e02b10cec"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-card-v1-640.avif",
+      "bytes": 35294,
+      "sha256": "2f4100a9a545dfbab354de0936a6b78fc913869e090ecdca995708f4099c65eb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-card-v1-640.webp",
+      "bytes": 35026,
+      "sha256": "7d886b49c242f4b41180bb468d8266c52ea1eefb90c309deefe4f2e254bc5538"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-card-v1-960.avif",
+      "bytes": 92716,
+      "sha256": "d38b44fe61368f12b8adaf97716a318b3464b471bbd7259edf09cab17552bf9a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-card-v1-960.webp",
+      "bytes": 85730,
+      "sha256": "b330e29cd9b36069f7bc3c7d6c21040c9f5fe6659d7a4019ef9cd177b7090496"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-card-v1-1280.avif",
+      "bytes": 132481,
+      "sha256": "ee2eb9edbfbc1a69afabf5fb1c4d3c95aded47bed7a6e3bce4c9beacc027c191"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-card-v1-1280.webp",
+      "bytes": 125988,
+      "sha256": "db00ae86ca691cedfb787395bb7ffd5c926e41e950be3e16902f9bd60b01875f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-card-v1-1920.avif",
+      "bytes": 195430,
+      "sha256": "3e8230d569a2a258cf4aff7f84aaef539d083214ae6465296528019444abd53b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-card-v1-1920.webp",
+      "bytes": 193158,
+      "sha256": "a96622c3b011420a2677592e87c5f0edfa3742c16bdee93a6e4eff89514b3aab"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-card-v1-2560.avif",
+      "bytes": 260758,
+      "sha256": "b14b6f3f581d4f8a71b24ee2015a9059c4c303eb2b35392df1500522a353883f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-card-v1-2560.webp",
+      "bytes": 268934,
+      "sha256": "725d4cf63aad6b41b72e47a9e1691f8e5020d3c03cd6ddc3f244fe32e12579c6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-card-v1-3840.avif",
+      "bytes": 1680798,
+      "sha256": "5908a54f81c43c729b8036259c15c428871f92b436804f0ecd45c05e1307b9dd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-card-v1-3840.webp",
+      "bytes": 443508,
+      "sha256": "ee9ec13234ab18feb9fbf7eb62daa3972dbc4dfab739e3d86b727feabb91ea58"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-card-v1-1280.png",
+      "bytes": 2831389,
+      "sha256": "3310e3a15fce089287e9c47facfcd46e807fcfb28429358e6711049abad04d88"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 98.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 98,
+    "lighting_quality": 99,
+    "architecture_plausibility": 98,
+    "ui_suitability": 100,
+    "mobile_suitability": 99,
+    "originality": 97,
+    "safety_compliance": 100,
+    "revision_prompt": "Revise this square fictional München-inspired SHADOWGRID city-card backing plate while preserving the exact 1:1 canvas, daytime lighting, subtle low foothills, fictional pale-stone and technology district, landscaped river, original bridge, park, and premium realistic visual style.\n\nMandatory correction: make the entire bottom 24% a calm, dark, low-detail open-water label-safe band. Remove the detailed lower-right wet-stone terrace, planters, tree, railings, steps, and hard edge wherever they enter that bottom band. Extend physically plausible dark river water across the full width of the bottom 24%, with only very subtle low-contrast ripples and no bright reflection cluster. Keep the terrace, trees, bridge, buildings, and all other important shapes fully above the 76% height line. Blend the revised water naturally into the accepted river above.\n\nRetain overcast post-rain daytime and the original fictional city identity. Do not add any real München landmark, recognizable Isar viewpoint, corporate campus, operational layout, text, UI, logo, person, authority mark, or known photograph.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable identifiers, identifiable people, flags, criminal symbols, extremist symbols, weapons, violence, operational wrongdoing, routes, instructions, fantasy architecture, impossible geometry, dramatic mountains, neon, warning red, blur, or fake writing.\n\nDeliver only the corrected clean premium 1:1 city-card backing plate with the entire lower 24% visibly calm dark water suitable for external localized labels, badges, and one action.",
+    "reference_images": [
+      "assets/source/cities/city-muenchen-desktop-day-v1.png"
+    ],
+    "notes": [
+      "The first square recomposition was held back because a detailed wet-stone terrace, planter, and tree entered the requested lower label-safe band.",
+      "The accepted revision moves all detailed terrace and landscape geometry above the 76 percent height line and extends calm dark river water across the complete lower 24 percent.",
+      "The fictional river, original bridge, landscaped park, pale-stone/technology district, and subtle foothills remain a centered city-card anchor above the label band.",
+      "No recognizable München landmark, corporate campus, exact Isar viewpoint, embedded text, logo, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3962344
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-26T07:27:06.595Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "The first square recomposition was held back because a detailed wet-stone terrace, planter, and tree entered the requested lower label-safe band.",
+    "The accepted revision moves all detailed terrace and landscape geometry above the 76 percent height line and extends calm dark river water across the complete lower 24 percent.",
+    "The fictional river, original bridge, landscaped park, pale-stone/technology district, and subtle foothills remain a centered city-card anchor above the label band.",
+    "No recognizable München landmark, corporate campus, exact Isar viewpoint, embedded text, logo, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

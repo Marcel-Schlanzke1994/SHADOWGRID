@@ -1,0 +1,27 @@
+Use case: stylized-concept
+Asset type: city asset for a cross-platform strategy game
+Primary request: Create a premium ultra-realistic visual asset for the multiplayer strategy game SHADOWGRID.
+Scene/backdrop: Prosperous southern metropolis with high-quality public space, historic regional influence and modern technology districts; Alpine influence only when plausible.
+Subject: München, Bavaria: Square city card
+Category: city.
+Gameplay state: normal.
+Contemporary, fictionalized representation of München; no exact landmark photograph recreation; time=day.
+Style/medium: contemporary Germany; high-end urban economic strategy simulation; cinematic corporate thriller atmosphere; subtle cyber-noir; physically plausible glass, concrete, steel, stone and asphalt; original scene, not a known photograph, film frame, game screenshot or branded design.
+Composition/framing: Wide cinematic establishing composition, human eye-level or plausible elevated viewpoint, controlled depth, and calm negative space on the left for user-interface overlays.
+Lighting/mood: warm late afternoon with natural cinematic lighting, realistic reflections and restrained atmosphere.
+Color palette: black and anthracite framing, cool neutral blue-gray, restrained warm gold accents; warning red only if the gameplay state requires danger.
+Materials/textures: physically plausible dark glass, brushed metal, concrete, stone and asphalt with realistic scale.
+Constraints: no embedded captions or interface text; no real brands; no real authorities; no readable plates or addresses; no recognizable private people; no copied landmark-photo angle; space reserved for UI overlays; suitable for desktop and mobile crops; output aspect ratio 1:1.
+Avoid: Do not include: written words, captions, watermarks, signatures, existing game logos, real company logos, real police insignia, real government insignia, readable private license plates, readable private addresses, recognizable private individuals, celebrities, politicians, real criminal organizations, real gang symbols, extremist symbols, Nazi symbols, graphic violence, visible illegal instructions, firearms as the central subject, drug production, crime tutorials, copied photography, copied landmarks from an identical photo angle, fantasy skyscrapers, impossible architecture, distorted buildings, duplicate people, deformed hands, unrealistic vehicles, floating objects, overexposed neon, cartoon style, anime style, comic style, plastic mobile-game appearance, blurry image, low resolution, compression artifacts, unreadable fake text.
+Seed reference: 100097. Style lock: 1.0.0.
+
+Revision used for the accepted image:
+Revise this square fictional München-inspired SHADOWGRID city-card backing plate while preserving the exact 1:1 canvas, daytime lighting, subtle low foothills, fictional pale-stone and technology district, landscaped river, original bridge, park, and premium realistic visual style.
+
+Mandatory correction: make the entire bottom 24% a calm, dark, low-detail open-water label-safe band. Remove the detailed lower-right wet-stone terrace, planters, tree, railings, steps, and hard edge wherever they enter that bottom band. Extend physically plausible dark river water across the full width of the bottom 24%, with only very subtle low-contrast ripples and no bright reflection cluster. Keep the terrace, trees, bridge, buildings, and all other important shapes fully above the 76% height line. Blend the revised water naturally into the accepted river above.
+
+Retain overcast post-rain daytime and the original fictional city identity. Do not add any real München landmark, recognizable Isar viewpoint, corporate campus, operational layout, text, UI, logo, person, authority mark, or known photograph.
+
+No text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable identifiers, identifiable people, flags, criminal symbols, extremist symbols, weapons, violence, operational wrongdoing, routes, instructions, fantasy architecture, impossible geometry, dramatic mountains, neon, warning red, blur, or fake writing.
+
+Deliver only the corrected clean premium 1:1 city-card backing plate with the entire lower 24% visibly calm dark water suitable for external localized labels, badges, and one action.

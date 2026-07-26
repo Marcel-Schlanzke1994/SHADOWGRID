@@ -1,0 +1,32 @@
+Use case: stylized-concept
+Asset type: city asset for a cross-platform strategy game
+Primary request: Create a premium ultra-realistic visual asset for the multiplayer strategy game SHADOWGRID.
+Scene/backdrop: Major Rhine metropolis with broad river, several bridge structures, dense mixed modern and historic development, media, trade, culture and logistics; a distant church-dominated historic silhouette may appear without recreating a known Cathedral photograph.
+Subject: Köln, North Rhine-Westphalia: Mobile hero, night
+Category: city.
+Gameplay state: normal.
+Contemporary, fictionalized representation of Köln; no exact landmark photograph recreation; time=night.
+Style/medium: contemporary Germany; high-end urban economic strategy simulation; cinematic corporate thriller atmosphere; subtle cyber-noir; physically plausible glass, concrete, steel, stone and asphalt; original scene, not a known photograph, film frame, game screenshot or branded design.
+Composition/framing: Portrait mobile composition with the subject in the middle third, safe areas for a top status bar and bottom controls, and calm negative space for overlays.
+Lighting/mood: realistic urban night with natural cinematic lighting, realistic reflections and restrained atmosphere.
+Color palette: black and anthracite framing, cool neutral blue-gray, restrained warm gold accents; warning red only if the gameplay state requires danger.
+Materials/textures: physically plausible dark glass, brushed metal, concrete, stone and asphalt with realistic scale.
+Constraints: no embedded captions or interface text; no real brands; no real authorities; no readable plates or addresses; no recognizable private people; no copied landmark-photo angle; space reserved for UI overlays; suitable for desktop and mobile crops; output aspect ratio 9:16.
+Avoid: Do not include: written words, captions, watermarks, signatures, existing game logos, real company logos, real police insignia, real government insignia, readable private license plates, readable private addresses, recognizable private individuals, celebrities, politicians, real criminal organizations, real gang symbols, extremist symbols, Nazi symbols, graphic violence, visible illegal instructions, firearms as the central subject, drug production, crime tutorials, copied photography, copied landmarks from an identical photo angle, fantasy skyscrapers, impossible architecture, distorted buildings, duplicate people, deformed hands, unrealistic vehicles, floating objects, overexposed neon, cartoon style, anime style, comic style, plastic mobile-game appearance, blurry image, low resolution, compression artifacts, unreadable fake text.
+Seed reference: 100072. Style lock: 1.0.0.
+
+Accepted generation prompt:
+Create the coordinated 9:16 night counterpart for this accepted fictional Köln-inspired SHADOWGRID mobile hero.
+
+Preserve the exact portrait geometry and mobile information hierarchy: calm upper 32% sky/status area, fictional civic skyline and broad Rhine-like river in the middle third, one original diagonal low-profile bridge in the middle-lower frame, and a quieter darker bottom 18% for one primary control. Keep it clearly the same fictional city and do not crop or move the bridge into the top safe area.
+
+Transform lighting to physically plausible blue-hour-to-night conditions: deep anthracite and cool blue-gray cloud layers, restrained warm-gold city and bridge practical lights, realistic river reflections, readable midtone architecture, and a calm premium corporate-thriller mood. Avoid saturated neon, excessive black crush, emergency lighting, and warning red as a gameplay cue. The top and bottom overlay areas must stay low-detail.
+
+Do not add Cologne Cathedral, twin Gothic spires, the Hohenzollern Bridge, any recognizable real Cologne landmark, or a known photographic viewpoint.
+
+No text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, trafficking routes, fantasy architecture, impossible geometry, excessive neon, blur, low resolution, compression artifacts, or fake writing.
+
+Deliver only the clean premium ultra-realistic 9:16 night environment backing plate, intended final size 1152×2048, with no border, device mockup, or embedded UI.
+
+Style-reference images:
+- assets/source/cities/city-koeln-mobile-day-v1.png

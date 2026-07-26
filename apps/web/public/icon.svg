@@ -1,5 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="SHADOWGRID monogram">
-  <rect width="512" height="512" rx="96" fill="#080a0d"/>
-  <path d="M96 132h320M96 256h320M96 380h320M132 96v320M256 96v320M380 96v320" stroke="#384250" stroke-width="16"/>
-  <path d="M142 330c48 58 181 62 228-9 30-46-7-88-61-83l-99 9c-45 4-62-31-34-57 37-34 123-28 168 14" fill="none" stroke="#f1cd79" stroke-width="34" stroke-linecap="round"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1536" viewBox="0 0 1536 1536" role="img" aria-labelledby="title"><title id="title">App icon master</title><defs>
+    <radialGradient id="brand-bg" cx="32%" cy="22%" r="88%">
+      <stop stop-color="#1b222a"/>
+      <stop offset=".55" stop-color="#0d1116"/>
+      <stop offset="1" stop-color="#06080b"/>
+    </radialGradient>
+    <pattern id="brand-grid" width="96" height="96" patternUnits="userSpaceOnUse">
+      <path d="M96 0H0V96" fill="none" stroke="#8fa0aa" stroke-opacity=".09" stroke-width="3"/>
+    </pattern>
+  </defs>
+      <rect width="1536" height="1536" fill="url(#brand-bg)"/>
+      <rect width="1536" height="1536" fill="url(#brand-grid)"/>
+      <g transform="translate(245.76 245.76) scale(1.04448)">
+    <path d="M500 90 850 290v420L500 910 150 710V290Z" fill="none" stroke="#d8b15b" stroke-width="52" stroke-linejoin="round"/>
+    <path d="M500 260 700 375v250L500 740 300 625V375Z" fill="none" stroke="#d8b15b" stroke-width="34" stroke-linejoin="round" opacity=".72"/>
+       <path d="M500 260v480M300 375l400 250M700 375 300 625" fill="none" stroke="#d8b15b" stroke-width="24" stroke-linecap="round"/>
+       <circle cx="500" cy="500" r="58" fill="#d8b15b"/>
+  </g>
+    </svg>

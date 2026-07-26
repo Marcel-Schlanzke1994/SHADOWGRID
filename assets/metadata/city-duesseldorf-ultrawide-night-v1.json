@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-duesseldorf-ultrawide-night-v1",
+  "manifest_order": 108,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "duesseldorf",
+  "variant": "ultrawide-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-duesseldorf-ultrawide-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100108,
+  "content_hash": "968644b236b150bb69749689e79b52ffa2c2b4b3d8791c713fe113b748b62331",
+  "source_file": "assets/source/cities/city-duesseldorf-ultrawide-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-duesseldorf-ultrawide-night-v1-320.avif",
+      "bytes": 4159,
+      "sha256": "717fd871fc7e3a474c209f590c302ae6f68d1210267abbd1fd047fa49d42b251"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-ultrawide-night-v1-320.webp",
+      "bytes": 3986,
+      "sha256": "d4263c7065affbbcb876a659858ee46fd8d1ed5d2fa375d2d6999adb88a0ec40"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-ultrawide-night-v1-640.avif",
+      "bytes": 14957,
+      "sha256": "c59ee51fc36c2a91c4c29c682cdbd76b8728c102b94eb0b82bce8bef204013c9"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-ultrawide-night-v1-640.webp",
+      "bytes": 15290,
+      "sha256": "009d526881eab5ac3cc4308dd10e8928308d735b5ddcb5dc30ace225171b7d0d"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-ultrawide-night-v1-960.avif",
+      "bytes": 44968,
+      "sha256": "efefe51ca57525435b5ac4b4fad220c3d3cb66d0cef4589955f6d70b56d26ca7"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-ultrawide-night-v1-960.webp",
+      "bytes": 40336,
+      "sha256": "d6b82f059b5da1eb35f6be28012e87e05310dedd94b8d23ee155febaac572d8a"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-ultrawide-night-v1-1280.avif",
+      "bytes": 75493,
+      "sha256": "42d30a3c3cdd6b19bc959ff7ee27593f114ef5e058f0a859051c0c440a188b08"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-ultrawide-night-v1-1280.webp",
+      "bytes": 69544,
+      "sha256": "257ec0e4f06da04899554d88d81fc3f548fd4ddb027cb1be886d07783b947f6f"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-ultrawide-night-v1-1920.avif",
+      "bytes": 141003,
+      "sha256": "757c093dfca63296fb8473c496030b8a8828abd86452d1135d5116075b37d026"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-ultrawide-night-v1-1920.webp",
+      "bytes": 128996,
+      "sha256": "20396d49be3887786de4773c4ba8a85833092d005fca06dd5c72ae2d9cd639ea"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-ultrawide-night-v1-2560.avif",
+      "bytes": 556938,
+      "sha256": "6ba40d2855a370e3de0bafdc6c010bfa1d19689f232e92aba7c899bcfe3a37bc"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-ultrawide-night-v1-2560.webp",
+      "bytes": 179892,
+      "sha256": "dc612e6e0df9b759994eda4fb3e611e648029232c04c5ea81ea32b132820c06e"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-ultrawide-night-v1-3840.avif",
+      "bytes": 965149,
+      "sha256": "8263db66622ec728542a63d53723e78b6f31fea13e9d3b958d6d8628d4244425"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-ultrawide-night-v1-3840.webp",
+      "bytes": 281304,
+      "sha256": "f5d280a3b00f40211ca9df7c2d77bf9df5ef02e7472c2ea445f9749c8e75a2b9"
+    },
+    {
+      "path": "assets/production/png/city-duesseldorf-ultrawide-night-v1-1280.png",
+      "bytes": 1221069,
+      "sha256": "a22f727d38d2db5d11839af290ed8f39edf212ed284169b44a49ec1fb9ea79b3"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-night-v1-320.avif",
+      "bytes": 4159,
+      "sha256": "717fd871fc7e3a474c209f590c302ae6f68d1210267abbd1fd047fa49d42b251"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-night-v1-320.webp",
+      "bytes": 3986,
+      "sha256": "d4263c7065affbbcb876a659858ee46fd8d1ed5d2fa375d2d6999adb88a0ec40"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-night-v1-640.avif",
+      "bytes": 14957,
+      "sha256": "c59ee51fc36c2a91c4c29c682cdbd76b8728c102b94eb0b82bce8bef204013c9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-night-v1-640.webp",
+      "bytes": 15290,
+      "sha256": "009d526881eab5ac3cc4308dd10e8928308d735b5ddcb5dc30ace225171b7d0d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-night-v1-960.avif",
+      "bytes": 44968,
+      "sha256": "efefe51ca57525435b5ac4b4fad220c3d3cb66d0cef4589955f6d70b56d26ca7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-night-v1-960.webp",
+      "bytes": 40336,
+      "sha256": "d6b82f059b5da1eb35f6be28012e87e05310dedd94b8d23ee155febaac572d8a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-night-v1-1280.avif",
+      "bytes": 75493,
+      "sha256": "42d30a3c3cdd6b19bc959ff7ee27593f114ef5e058f0a859051c0c440a188b08"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-night-v1-1280.webp",
+      "bytes": 69544,
+      "sha256": "257ec0e4f06da04899554d88d81fc3f548fd4ddb027cb1be886d07783b947f6f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-night-v1-1920.avif",
+      "bytes": 141003,
+      "sha256": "757c093dfca63296fb8473c496030b8a8828abd86452d1135d5116075b37d026"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-night-v1-1920.webp",
+      "bytes": 128996,
+      "sha256": "20396d49be3887786de4773c4ba8a85833092d005fca06dd5c72ae2d9cd639ea"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-night-v1-2560.avif",
+      "bytes": 556938,
+      "sha256": "6ba40d2855a370e3de0bafdc6c010bfa1d19689f232e92aba7c899bcfe3a37bc"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-night-v1-2560.webp",
+      "bytes": 179892,
+      "sha256": "dc612e6e0df9b759994eda4fb3e611e648029232c04c5ea81ea32b132820c06e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-night-v1-3840.avif",
+      "bytes": 965149,
+      "sha256": "8263db66622ec728542a63d53723e78b6f31fea13e9d3b958d6d8628d4244425"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-night-v1-3840.webp",
+      "bytes": 281304,
+      "sha256": "f5d280a3b00f40211ca9df7c2d77bf9df5ef02e7472c2ea445f9749c8e75a2b9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-night-v1-1280.png",
+      "bytes": 1221069,
+      "sha256": "a22f727d38d2db5d11839af290ed8f39edf212ed284169b44a49ec1fb9ea79b3"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 98.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 99,
+    "lighting_quality": 99,
+    "architecture_plausibility": 98,
+    "ui_suitability": 100,
+    "mobile_suitability": 92,
+    "originality": 96,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create the coordinated 21:9 night counterpart for this accepted fictional Düsseldorf-inspired SHADOWGRID city hero.\n\nPreserve the exact ultra-wide geometry: broad fictional river, original low-profile bridge, elegant landscaped promenade, small original canal basin, refined pale-stone blocks, restrained mid-rise glass-and-metal services offices, layered metropolitan depth, center-right detail placement, and calm dark low-detail left 38% UI safe area. Keep it clearly the same original city composition. Do not reveal or invent any operational river, canal, bridge, street, rail, corporate, media, fashion, fairground, or civic layout.\n\nTransform the scene to physically plausible design-conscious riverfront night after rain: deep anthracite and cool blue-gray clouds, restrained warm-gold irregular office windows and promenade/bridge practical lights, wet pale-stone/metal and water reflections, readable midtone architecture, and realistic dark river/canal water. Keep the left overlay area calm and dark. Avoid billboard-like facade panels, fashion-show lighting, media screens, patterned facade lighting, saturated neon, overexposure, emergency lighting, warning-red gameplay cues, black crush, excessive haze, or spectacle.\n\nDo not add the Rheinturm, recognizable MedienHafen or Gehry buildings, Königsallee, Kö-Bogen, Schlossturm, Düsseldorf Rathaus, Oberkasseler Brücke, Rheinkniebrücke, Theodor-Heuss-Brücke, real fashion houses, real trade-fair structures, corporate logos, exact Rhine promenade layouts, real rail maps, or any known photograph/viewpoint. Do not add an identifiable real media company, luxury brand, authority, or operational transport plan.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, fantasy architecture, impossible bridges, Gehry-like distorted buildings, excessive neon, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 21:9 night riverfront-services-metropolis environment, intended final size 2688×1152, with no border, title, UI, or device mockup.",
+    "reference_images": [
+      "assets/source/cities/city-duesseldorf-ultrawide-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first night-conversion attempt.",
+      "The fictional river, low-profile bridge, landscaped promenade, canal basin, pale-stone district, and restrained services offices remain coordinated with the approved daytime counterpart.",
+      "The left overlay area stays calm and dark while restrained irregular practical light and wet reflections preserve readable architecture without media-screen, fashion-show, billboard, or neon spectacle.",
+      "No Rheinturm, known bridge, MedienHafen or Gehry form, real brand, authority, operational layout, embedded text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 5054822
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-26T09:20:04.807Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first night-conversion attempt.",
+    "The fictional river, low-profile bridge, landscaped promenade, canal basin, pale-stone district, and restrained services offices remain coordinated with the approved daytime counterpart.",
+    "The left overlay area stays calm and dark while restrained irregular practical light and wet reflections preserve readable architecture without media-screen, fashion-show, billboard, or neon spectacle.",
+    "No Rheinturm, known bridge, MedienHafen or Gehry form, real brand, authority, operational layout, embedded text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

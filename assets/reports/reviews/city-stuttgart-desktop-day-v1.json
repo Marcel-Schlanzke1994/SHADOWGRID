@@ -1,0 +1,22 @@
+{
+  "realism": 99,
+  "style_consistency": 100,
+  "composition": 100,
+  "material_quality": 99,
+  "lighting_quality": 99,
+  "architecture_plausibility": 99,
+  "ui_suitability": 100,
+  "mobile_suitability": 94,
+  "originality": 97,
+  "safety_compliance": 100,
+  "accepted_prompt": "Create one distinct clean premium ultra-realistic 16:9 desktop daytime environment backing plate derived from this accepted fictional Stuttgart-inspired SHADOWGRID basin-engineering-metropolis scene.\n\nPreserve the same original city identity and materials: wooded green basin slopes, layered flat-roofed hillside neighborhoods, pale-stone and restrained glass research/services district, linear rainwater garden, planted terraces, native deciduous trees, wet dark foreground terrace, and cool overcast post-rain daylight. Recompose naturally for exact 16:9 landscape, intended final size 2048×1152, as a deliberate desktop hero rather than a mechanical center crop. Reserve the left 32% as genuinely calm, dark, low-detail negative space using shadowed tree canopy, deep green foliage, atmospheric slope, and subdued wet terrace for localized heading, body copy, and controls. Do not place water highlights, pale building edges, rooflines, lamps, paths, railings, vehicles, or other high-contrast detail behind that overlay area. Concentrate the original rainwater garden, pale research/services buildings, layered hillside neighborhoods, and green basin depth center-right. Keep important architecture inside an inner 82% crop-safe region.\n\nMaintain physically plausible pale stone, concrete, brushed metal, dark glass, planted roofs, mature trees, restrained shallow water, and wet-paving reflections, neutral blue-gray atmosphere, subtle warm highlights, premium contemporary architectural photography, realistic lens and depth, and a restrained corporate-thriller mood. Preserve a continuous neutral wooded ridge without any isolated tower, spire, dome, or landmark.\n\nAll streets, paths, water-management features, buildings, campuses, corporate, rail, industrial, and civic geometry must remain fictional and non-operational. Do not include or imitate the Stuttgart Fernsehturm, Schlossplatz, Neues Schloss, Altes Schloss, Stuttgart Hauptbahnhof or its tower, Königstraße, Staatsgalerie, Wilhelma, Mercedes-Benz Museum, Porsche Museum, churches, cathedral spires, monuments, civic towers, antenna landmarks, Mercedes or Porsche logos or products, recognizable automobile plants, real rail corridors, known valley-road arrangements, Cannstatter Wasen, named vineyards, exact hillside neighborhoods, government buildings, corporate campuses, or any known photograph or viewpoint. Do not depict an identifiable real manufacturer, research institution, authority, transit operator, industrial process, factory interior, test track, logistics route, or operational transport plan.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, criminal symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, factory procedures, vehicle schematics, fantasy architecture, impossible slopes or structures, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 16:9 daytime basin-engineering-metropolis environment with a genuinely calm left 32% overlay-safe area, no border, title, UI, or device mockup.",
+  "reference_images": [
+    "assets/source/cities/city-stuttgart-ultrawide-day-v1.png"
+  ],
+  "notes": [
+    "Accepted first generation attempt.",
+    "The deliberate desktop composition preserves the approved fictional green-basin identity while providing a calm dark left 32 percent through trees, foliage, atmospheric slope, and wet terrace.",
+    "The rainwater garden, pale-stone research/services district, planted terraces, and layered hillside neighborhoods remain legible center-right without disclosing an operational layout.",
+    "No real automaker, product, campus, factory, known Stuttgart landmark, tower, spire, authority, text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or wrongdoing is present."
+  ]
+}

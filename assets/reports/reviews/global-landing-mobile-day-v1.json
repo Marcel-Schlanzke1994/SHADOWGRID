@@ -1,0 +1,23 @@
+{
+  "realism": 95,
+  "style_consistency": 95,
+  "composition": 96,
+  "material_quality": 95,
+  "lighting_quality": 95,
+  "architecture_plausibility": 94,
+  "ui_suitability": 94,
+  "mobile_suitability": 97,
+  "originality": 91,
+  "safety_compliance": 100,
+  "accepted_prompt": "Use case: photorealistic-natural\nAsset type: 9:16 mobile landing-page day background for the fictional economic strategy game SHADOWGRID\nInput images: Image 1 is the approved desktop-day landing style and city identity reference. Image 2 is the approved headquarters material reference. Create a new portrait composition; do not crop or edit either input.\nPrimary request: Create an original portrait establishing scene of the same kind of wholly fictional contemporary German river metropolis during daytime, designed from the start for a 9:16 phone screen.\nScene/backdrop: plausible German mixed historic masonry, postwar and modern office districts around a river, ordinary bridges, public transit and riverfront greenery; no real or recognizable city or landmark.\nSubject: a vertical river corridor leading from the lower foreground toward the distant city, with a dark-glass headquarters edge and landscaped terrace in the upper-right quarter. Keep the center moderately calm and slightly darker behind a translucent decision card.\nStyle/medium: ultra-realistic architectural and urban photography; contemporary economic-strategy atmosphere; cinematic corporate thriller; subtle cyber-noir only through restrained grading and materials.\nComposition/framing: native 9:16 portrait; plausible elevated human viewpoint; strong vertical depth; top 18% kept calm for the SHADOWGRID logo and device safe area; main city detail along the outer thirds; center 60% free from high-contrast objects for headline and controls; no desktop-style center crop.\nLighting/mood: natural late-afternoon daylight through broken cloud, realistic haze and reflections, strategic and inviting rather than ominous.\nColor palette: anthracite, cool neutral blue-gray, stone, muted greenery and restrained warm-gold sunlight; no saturated neon or warning red.\nConstraints: no embedded words, fake UI, signage, company logo, authority insignia, readable plates or addresses, recognizable people, famous landmark, copied photograph angle, watermark, weapon, violence, illegal activity, impossible architecture or fantasy skyline. Preserve clean mobile safe areas and physically plausible infrastructure.",
+  "reference_images": [
+    "assets/source/global/global-landing-desktop-day-v1.png",
+    "assets/source/style-proof/style-proof-corporate-headquarters-v1.png"
+  ],
+  "notes": [
+    "Accepted first built-in generation attempt.",
+    "Native portrait composition uses the river as a vertical depth axis and preserves calm sky for the logo safe area.",
+    "No visible logo, readable sign, private identifier, recognizable person, weapon, extremist symbol or explicit wrongdoing.",
+    "The image is an original fictional metropolis and is not a center crop of the desktop master."
+  ]
+}

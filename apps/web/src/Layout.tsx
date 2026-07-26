@@ -2,15 +2,23 @@ import { useEffect, useState } from "react";
 import { NavLink, Outlet, useLocation, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { logout, useAuth } from "./auth";
+import { useMultiplayerRealtime } from "./realtime";
 
 const nav = [
   ["/command", "navCommand"],
   ["/city", "navCity"],
+  ["/germany", "navGermany"],
   ["/network", "navNetwork"],
   ["/businesses", "navBusinesses"],
   ["/specialists", "navSpecialists"],
   ["/operations", "navOperations"],
   ["/organizations", "navOrganization"],
+  ["/pvp", "navPvp"],
+  ["/territories", "navTerritories"],
+  ["/wars", "navWars"],
+  ["/alliances", "navAlliances"],
+  ["/communications", "navCommunications"],
+  ["/market", "navMarket"],
   ["/diplomacy", "navDiplomacy"],
   ["/investigation", "navInvestigation"],
   ["/research", "navResearch"],
@@ -25,6 +33,7 @@ export function Layout() {
   const navigate = useNavigate();
   const location = useLocation();
   const user = useAuth((state) => state.user);
+  useMultiplayerRealtime();
   useEffect(() => setOpen(false), [location.pathname]);
   return (
     <div className="app-shell">
@@ -33,10 +42,11 @@ export function Layout() {
       </a>
       <header className="topbar">
         <NavLink to="/command" className="brand">
-          <span className="brand__mark" aria-hidden="true">
-            SG
-          </span>
-          <span>{t("appName")}</span>
+          <img
+            className="brand__logo"
+            src="/assets/branding/shadowgrid-logo-horizontal-dark.svg"
+            alt={t("appName")}
+          />
         </NavLink>
         <div className="topbar__actions">
           <span className="topbar__user">{user?.display_name}</span>

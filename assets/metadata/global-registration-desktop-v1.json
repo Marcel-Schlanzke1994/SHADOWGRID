@@ -1,0 +1,235 @@
+{
+  "asset_id": "global-registration-desktop-v1",
+  "manifest_order": 26,
+  "category": "global",
+  "batch": "global-backgrounds",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/global-registration-desktop-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100026,
+  "content_hash": "fd857b14bc41864899e6e0aed2a6ea0cd40dcfdf7516c5220c39f37d959a36a1",
+  "source_file": "assets/source/global/global-registration-desktop-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/global-registration-desktop-v1-320.avif",
+      "bytes": 6295,
+      "sha256": "846b19ea7964063f6c843251aaea687dfde88c29e233adbe43bc3ebf80379727"
+    },
+    {
+      "path": "assets/production/webp/global-registration-desktop-v1-320.webp",
+      "bytes": 6170,
+      "sha256": "3eb2e3dd4ba8bda9ba646b7c0d5caad4f1d2b9853d8e522259de276ee37ea0d6"
+    },
+    {
+      "path": "assets/production/avif/global-registration-desktop-v1-640.avif",
+      "bytes": 21335,
+      "sha256": "769756b2b652220e3600540cda8d7f572d0bdaab38503dee81a761cf95a9049c"
+    },
+    {
+      "path": "assets/production/webp/global-registration-desktop-v1-640.webp",
+      "bytes": 21220,
+      "sha256": "ca57b4d9a7c7a9edea5a0386ff8372f754f49b3601cf7c4186daa052cd5481ad"
+    },
+    {
+      "path": "assets/production/avif/global-registration-desktop-v1-960.avif",
+      "bytes": 51410,
+      "sha256": "9e52896c0cd7c134db1e2281f2d1c4e687ca414779b741742fa910633156db53"
+    },
+    {
+      "path": "assets/production/webp/global-registration-desktop-v1-960.webp",
+      "bytes": 48814,
+      "sha256": "dea6df918956b8b81a803e679335e71f97705f93a70580bd85a6bd62af5b3429"
+    },
+    {
+      "path": "assets/production/avif/global-registration-desktop-v1-1280.avif",
+      "bytes": 79118,
+      "sha256": "f46ba9691447ce0796d27bf80f74b470e7cac55c7a89cc423e055bde314240ca"
+    },
+    {
+      "path": "assets/production/webp/global-registration-desktop-v1-1280.webp",
+      "bytes": 76056,
+      "sha256": "281ae381c26d081011c6682f9b37c4a733509935b2d190944ccc87f9c3e93cc6"
+    },
+    {
+      "path": "assets/production/avif/global-registration-desktop-v1-1920.avif",
+      "bytes": 128348,
+      "sha256": "41bd7eda768d5a41b731df6feb08a00e25873374057b292533b8943886ffbf81"
+    },
+    {
+      "path": "assets/production/webp/global-registration-desktop-v1-1920.webp",
+      "bytes": 129620,
+      "sha256": "e9771a3beff79426749fa93980026d326586721a85be83655e523ff3a05dc50c"
+    },
+    {
+      "path": "assets/production/avif/global-registration-desktop-v1-2560.avif",
+      "bytes": 169414,
+      "sha256": "19cb090765a6d16126b7dbf79b741de40b4df81d0eee1339943f5624871aa6cb"
+    },
+    {
+      "path": "assets/production/webp/global-registration-desktop-v1-2560.webp",
+      "bytes": 177944,
+      "sha256": "12c6addbef4851c92df389e079c0b389d442b634eb7bde6d1c7a26104b64f7fa"
+    },
+    {
+      "path": "assets/production/avif/global-registration-desktop-v1-3840.avif",
+      "bytes": 261185,
+      "sha256": "76d7be2252a9d5a8385f0e9db040fc499bf9c966f088a61e670ce10f0ffaf080"
+    },
+    {
+      "path": "assets/production/webp/global-registration-desktop-v1-3840.webp",
+      "bytes": 284200,
+      "sha256": "0d60a3b85893da1d53b60041e3c4c5ffd96091a1673332041c116d0d06482233"
+    },
+    {
+      "path": "assets/production/png/global-registration-desktop-v1-1280.png",
+      "bytes": 1832182,
+      "sha256": "9d92141134601beb0f2f69e6c25c804e89cc3fa123bdb40079e81fdafefcfd3d"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/global/global-registration-desktop-v1-320.avif",
+      "bytes": 6295,
+      "sha256": "846b19ea7964063f6c843251aaea687dfde88c29e233adbe43bc3ebf80379727"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-desktop-v1-320.webp",
+      "bytes": 6170,
+      "sha256": "3eb2e3dd4ba8bda9ba646b7c0d5caad4f1d2b9853d8e522259de276ee37ea0d6"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-desktop-v1-640.avif",
+      "bytes": 21335,
+      "sha256": "769756b2b652220e3600540cda8d7f572d0bdaab38503dee81a761cf95a9049c"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-desktop-v1-640.webp",
+      "bytes": 21220,
+      "sha256": "ca57b4d9a7c7a9edea5a0386ff8372f754f49b3601cf7c4186daa052cd5481ad"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-desktop-v1-960.avif",
+      "bytes": 51410,
+      "sha256": "9e52896c0cd7c134db1e2281f2d1c4e687ca414779b741742fa910633156db53"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-desktop-v1-960.webp",
+      "bytes": 48814,
+      "sha256": "dea6df918956b8b81a803e679335e71f97705f93a70580bd85a6bd62af5b3429"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-desktop-v1-1280.avif",
+      "bytes": 79118,
+      "sha256": "f46ba9691447ce0796d27bf80f74b470e7cac55c7a89cc423e055bde314240ca"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-desktop-v1-1280.webp",
+      "bytes": 76056,
+      "sha256": "281ae381c26d081011c6682f9b37c4a733509935b2d190944ccc87f9c3e93cc6"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-desktop-v1-1920.avif",
+      "bytes": 128348,
+      "sha256": "41bd7eda768d5a41b731df6feb08a00e25873374057b292533b8943886ffbf81"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-desktop-v1-1920.webp",
+      "bytes": 129620,
+      "sha256": "e9771a3beff79426749fa93980026d326586721a85be83655e523ff3a05dc50c"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-desktop-v1-2560.avif",
+      "bytes": 169414,
+      "sha256": "19cb090765a6d16126b7dbf79b741de40b4df81d0eee1339943f5624871aa6cb"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-desktop-v1-2560.webp",
+      "bytes": 177944,
+      "sha256": "12c6addbef4851c92df389e079c0b389d442b634eb7bde6d1c7a26104b64f7fa"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-desktop-v1-3840.avif",
+      "bytes": 261185,
+      "sha256": "76d7be2252a9d5a8385f0e9db040fc499bf9c966f088a61e670ce10f0ffaf080"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-desktop-v1-3840.webp",
+      "bytes": 284200,
+      "sha256": "0d60a3b85893da1d53b60041e3c4c5ffd96091a1673332041c116d0d06482233"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-desktop-v1-1280.png",
+      "bytes": 1832182,
+      "sha256": "9d92141134601beb0f2f69e6c25c804e89cc3fa123bdb40079e81fdafefcfd3d"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 95.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 97,
+    "style_consistency": 98,
+    "composition": 99,
+    "material_quality": 97,
+    "lighting_quality": 97,
+    "architecture_plausibility": 96,
+    "ui_suitability": 99,
+    "mobile_suitability": 81,
+    "originality": 95,
+    "safety_compliance": 100,
+    "accepted_prompt": "Use case: stylized-concept\nAsset type: responsive desktop registration-page background for the fictional cross-platform strategy game SHADOWGRID\nInput images: Image 1 is the approved login-background style and material reference; Image 2 is the approved corporate-architecture reference. Preserve the visual system, but create a completely new scene and a somewhat more open, welcoming daytime mood.\nPrimary request: Create a premium ultra-realistic background of an original contemporary strategy campus reception gallery in a fictional German metropolis, suitable for account registration.\nScene/backdrop: a credible indoor-outdoor glass gallery with dark stone, brushed metal, restrained landscaping, and a glimpse of an entirely fictional urban district; no recognizable location or landmark.\nSubject: architecture only, expressing a threshold into a strategic economic world through scale, material quality, and daylight rather than symbols or text.\nStyle/medium: ultra-realistic architectural photography; high-end urban economic strategy simulation; cinematic corporate-thriller restraint; subtle cyber-noir only in grading and materials; physically plausible construction and reflections.\nComposition/framing: exact 16:9 landscape intent, intended final size 2048x1152; human eye-level wide composition. Reserve the central 48% of the image from about 12% to 92% height as a calm, slightly darker, low-detail surface for a taller registration form. Put the strongest daylight, landscaping, structural rhythm, and visual depth at the far left and right edges. Keep the upper-left quiet enough for the existing horizontal brand mark. No bright window mullion, horizon, furniture, doorway edge, or focal object behind the form-safe center.\nLighting/mood: soft overcast late-afternoon daylight with restrained warm-gold interior accents; more welcoming and forward-looking than the login asset, but still serious, premium, and controlled.\nColor palette: anthracite, dark stone, cool neutral blue-gray, muted natural green, restrained warm gold; no saturated neon or warning red.\nMaterials/textures: physically plausible glass, brushed metal, concrete, stone, subtle planting, realistic floor wear and scale.\nText: none.\nConstraints: wholly original fictional architecture; no people or faces; no text, signage, interface screens, captions, logos, watermarks, signatures, readable plates, addresses, flags, uniforms, authorities, weapons, crime symbols, or real brands. High readability under a centered tall form overlay. Must survive cover-cropping at common desktop ratios without losing the form-safe center.\nAvoid: reproducing the login scene, copied landmark-photo angles, fantasy skyscrapers, impossible geometry, distorted buildings, floating elements, excessive neon, cartoon, anime, comic, plastic mobile-game rendering, blur, low resolution, compression artifacts, fake writing.",
+    "reference_images": [
+      "assets/source/global/global-login-desktop-v1.png",
+      "assets/source/style-proof/style-proof-corporate-headquarters-v1.png"
+    ],
+    "notes": [
+      "Accepted first built-in generation attempt.",
+      "The central dark-stone surface provides an unusually clean safe area for the taller registration form.",
+      "The brighter edge lighting distinguishes registration from login while preserving the frozen style system.",
+      "No visible person, text, logo, private identifier, authority mark, weapon or illicit activity."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 4458885
+    }
+  },
+  "focal_point": {
+    "x": 0.82,
+    "y": 0.48
+  },
+  "safe_area": {
+    "x": 0.28,
+    "y": 0.16,
+    "width": 0.44,
+    "height": 0.72
+  },
+  "created_at": "2026-07-25T16:05:38.824Z",
+  "license": "project-owned-generated-asset",
+  "notes": [
+    "Accepted first built-in generation attempt.",
+    "The central dark-stone surface provides an unusually clean safe area for the taller registration form.",
+    "The brighter edge lighting distinguishes registration from login while preserving the frozen style system.",
+    "No visible person, text, logo, private identifier, authority mark, weapon or illicit activity."
+  ]
+}

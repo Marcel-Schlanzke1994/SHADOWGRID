@@ -1,0 +1,23 @@
+{
+  "realism": 95,
+  "style_consistency": 95,
+  "composition": 96,
+  "material_quality": 95,
+  "lighting_quality": 94,
+  "architecture_plausibility": 93,
+  "ui_suitability": 92,
+  "mobile_suitability": 85,
+  "originality": 91,
+  "safety_compliance": 100,
+  "accepted_prompt": "Use case: photorealistic-natural\nAsset type: 21:9 desktop landing-page hero background for the fictional multiplayer economic strategy game SHADOWGRID\nInput images: Image 1 and Image 2 are approved style references only; preserve their premium architectural realism, anthracite materials, restrained warm-gold light and plausible fictional German urban character, but create a completely new composition and location.\nPrimary request: Create an original ultra-wide establishing scene of a wholly fictional contemporary German river metropolis during daytime, seen from a premium strategic headquarters terrace and public urban overlook.\nScene/backdrop: plausible mixed historic masonry districts, postwar blocks, modern offices, ordinary bridges, public transit, riverfront greenery and a believable economic center; no real or recognizable city, building or landmark.\nSubject: a dark-glass and brushed-metal headquarters structure framing the right third, with the fictional metropolis and river extending through the center; the left third must remain visually calm and slightly darker for large landing-page headline, body copy and two buttons.\nStyle/medium: ultra-realistic architectural and urban photography; contemporary German economic-strategy atmosphere; cinematic corporate thriller; subtle cyber-noir only through restrained grading and materials, never science fiction.\nComposition/framing: very wide 21:9 panorama; plausible elevated human viewpoint; horizon level; strong depth; important subject matter in center-right; unobstructed negative space across the left 35%; preserve a useful central crop for narrower desktop screens.\nLighting/mood: late-afternoon natural daylight through broken cloud, realistic haze and reflections, confident and strategic rather than ominous.\nColor palette: anthracite, cool neutral blue-gray, stone, muted greenery and restrained warm-gold sunlight; no saturated neon and no warning red.\nConstraints: no embedded words, fake interface, signage, company logo, authority insignia, readable plates or addresses, recognizable people, famous landmark, copied photograph angle, watermark, weapon, violence, illegal activity, impossible building or fantasy skyline. Architecture, transport and river infrastructure must be physically plausible.",
+  "reference_images": [
+    "assets/source/style-proof/style-proof-urban-control-center-day-v1.png",
+    "assets/source/style-proof/style-proof-german-metropolis-day-v1.png"
+  ],
+  "notes": [
+    "Accepted first built-in generation attempt.",
+    "No visible logo, readable sign, private identifier, recognizable person, weapon, extremist symbol or explicit wrongdoing.",
+    "The left third remains dark enough for overlay copy; center-right architecture preserves a useful narrower desktop crop.",
+    "The generated panorama is original and does not reproduce a recognizable landmark or known viewpoint."
+  ]
+}

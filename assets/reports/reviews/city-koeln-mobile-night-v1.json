@@ -1,0 +1,22 @@
+{
+  "realism": 98,
+  "style_consistency": 100,
+  "composition": 99,
+  "material_quality": 98,
+  "lighting_quality": 99,
+  "architecture_plausibility": 97,
+  "ui_suitability": 99,
+  "mobile_suitability": 100,
+  "originality": 94,
+  "safety_compliance": 100,
+  "accepted_prompt": "Create the coordinated 9:16 night counterpart for this accepted fictional Köln-inspired SHADOWGRID mobile hero.\n\nPreserve the exact portrait geometry and mobile information hierarchy: calm upper 32% sky/status area, fictional civic skyline and broad Rhine-like river in the middle third, one original diagonal low-profile bridge in the middle-lower frame, and a quieter darker bottom 18% for one primary control. Keep it clearly the same fictional city and do not crop or move the bridge into the top safe area.\n\nTransform lighting to physically plausible blue-hour-to-night conditions: deep anthracite and cool blue-gray cloud layers, restrained warm-gold city and bridge practical lights, realistic river reflections, readable midtone architecture, and a calm premium corporate-thriller mood. Avoid saturated neon, excessive black crush, emergency lighting, and warning red as a gameplay cue. The top and bottom overlay areas must stay low-detail.\n\nDo not add Cologne Cathedral, twin Gothic spires, the Hohenzollern Bridge, any recognizable real Cologne landmark, or a known photographic viewpoint.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, trafficking routes, fantasy architecture, impossible geometry, excessive neon, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic 9:16 night environment backing plate, intended final size 1152×2048, with no border, device mockup, or embedded UI.",
+  "reference_images": [
+    "assets/source/cities/city-koeln-mobile-day-v1.png"
+  ],
+  "notes": [
+    "Accepted first portrait night-conversion attempt.",
+    "The upper status area, middle city-and-river decision area, diagonal bridge, and darker lower control area remain coordinated with the approved portrait daytime counterpart.",
+    "Warm practical lights and river reflections retain structure without saturated neon or emergency cues.",
+    "No recognizable Cologne landmark, copied viewpoint, embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-frankfurt-am-main-ultrawide-night-v1",
+  "manifest_order": 100,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "frankfurt-am-main",
+  "variant": "ultrawide-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-frankfurt-am-main-ultrawide-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100100,
+  "content_hash": "ff77c25f075173f96e8d3fdaa25ace95946a58cd1f7deb218c00ac86bd068461",
+  "source_file": "assets/source/cities/city-frankfurt-am-main-ultrawide-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-ultrawide-night-v1-320.avif",
+      "bytes": 3797,
+      "sha256": "35ed78b746fdeeaa3203293ba52e213bbe7230589abc39217198f789b739489b"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-ultrawide-night-v1-320.webp",
+      "bytes": 3692,
+      "sha256": "652f2308e956a36b029669109dd338c557a3a73ab4682342ae963a636307e601"
+    },
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-ultrawide-night-v1-640.avif",
+      "bytes": 14220,
+      "sha256": "bfc497a3f2bb036e3cc478359d665dd72e152098b0b2625048c32f1497d86567"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-ultrawide-night-v1-640.webp",
+      "bytes": 13840,
+      "sha256": "fcdb3685a4f3c291eae6fa0ea5be52596e14419e7ba1da2bc1cd514f854ec876"
+    },
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-ultrawide-night-v1-960.avif",
+      "bytes": 41401,
+      "sha256": "1251ffae15a51a298c79f48993ae10265d97cb1138fecf1d38d853297b68c0b8"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-ultrawide-night-v1-960.webp",
+      "bytes": 36954,
+      "sha256": "786c21cb6f1cad3842ab940443d299bf4336cef71c6fb1b3daa902da4abe51f0"
+    },
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-ultrawide-night-v1-1280.avif",
+      "bytes": 67262,
+      "sha256": "2bfa0b11cadc283a54c06aaab8bbce86711dec339e03904da4e66632ffb394e7"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-ultrawide-night-v1-1280.webp",
+      "bytes": 62220,
+      "sha256": "98d088ee1b0c500b711ed044608d5818900a8ccae5aac73ec472aacfc8dc1935"
+    },
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-ultrawide-night-v1-1920.avif",
+      "bytes": 124151,
+      "sha256": "2e21717f384637a6296949d88f01bd931ad9d5e58a9b807e9a62fad94cb1e211"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-ultrawide-night-v1-1920.webp",
+      "bytes": 114010,
+      "sha256": "6d67fd4478f7c255bfbb94d6d568b3a91290257c0e1a7240447a1c213cd7d9de"
+    },
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-ultrawide-night-v1-2560.avif",
+      "bytes": 164634,
+      "sha256": "3432e57be10257007d4bd1cc3b06cb261e6d5c5f6e91f5d58d8eb0aa64768758"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-ultrawide-night-v1-2560.webp",
+      "bytes": 158382,
+      "sha256": "bd526bc65d2d41168ab751a8e70d6ef2d422722eba6c8196087fdfb068c7e343"
+    },
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-ultrawide-night-v1-3840.avif",
+      "bytes": 238110,
+      "sha256": "97f4a9f881ec890ce5b0184da084dcd9bce3173f9ae31e8028b3b9a43e1eee27"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-ultrawide-night-v1-3840.webp",
+      "bytes": 240604,
+      "sha256": "b837bade1050375333487d14510c54f416c4d009dbf6a754783bd5f822b81370"
+    },
+    {
+      "path": "assets/production/png/city-frankfurt-am-main-ultrawide-night-v1-1280.png",
+      "bytes": 1153378,
+      "sha256": "60e4f8f8078946a8f13d4028eb505300b7bdd81f00e69c6e18c6abc18c92af10"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-night-v1-320.avif",
+      "bytes": 3797,
+      "sha256": "35ed78b746fdeeaa3203293ba52e213bbe7230589abc39217198f789b739489b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-night-v1-320.webp",
+      "bytes": 3692,
+      "sha256": "652f2308e956a36b029669109dd338c557a3a73ab4682342ae963a636307e601"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-night-v1-640.avif",
+      "bytes": 14220,
+      "sha256": "bfc497a3f2bb036e3cc478359d665dd72e152098b0b2625048c32f1497d86567"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-night-v1-640.webp",
+      "bytes": 13840,
+      "sha256": "fcdb3685a4f3c291eae6fa0ea5be52596e14419e7ba1da2bc1cd514f854ec876"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-night-v1-960.avif",
+      "bytes": 41401,
+      "sha256": "1251ffae15a51a298c79f48993ae10265d97cb1138fecf1d38d853297b68c0b8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-night-v1-960.webp",
+      "bytes": 36954,
+      "sha256": "786c21cb6f1cad3842ab940443d299bf4336cef71c6fb1b3daa902da4abe51f0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-night-v1-1280.avif",
+      "bytes": 67262,
+      "sha256": "2bfa0b11cadc283a54c06aaab8bbce86711dec339e03904da4e66632ffb394e7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-night-v1-1280.webp",
+      "bytes": 62220,
+      "sha256": "98d088ee1b0c500b711ed044608d5818900a8ccae5aac73ec472aacfc8dc1935"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-night-v1-1920.avif",
+      "bytes": 124151,
+      "sha256": "2e21717f384637a6296949d88f01bd931ad9d5e58a9b807e9a62fad94cb1e211"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-night-v1-1920.webp",
+      "bytes": 114010,
+      "sha256": "6d67fd4478f7c255bfbb94d6d568b3a91290257c0e1a7240447a1c213cd7d9de"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-night-v1-2560.avif",
+      "bytes": 164634,
+      "sha256": "3432e57be10257007d4bd1cc3b06cb261e6d5c5f6e91f5d58d8eb0aa64768758"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-night-v1-2560.webp",
+      "bytes": 158382,
+      "sha256": "bd526bc65d2d41168ab751a8e70d6ef2d422722eba6c8196087fdfb068c7e343"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-night-v1-3840.avif",
+      "bytes": 238110,
+      "sha256": "97f4a9f881ec890ce5b0184da084dcd9bce3173f9ae31e8028b3b9a43e1eee27"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-night-v1-3840.webp",
+      "bytes": 240604,
+      "sha256": "b837bade1050375333487d14510c54f416c4d009dbf6a754783bd5f822b81370"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-night-v1-1280.png",
+      "bytes": 1153378,
+      "sha256": "60e4f8f8078946a8f13d4028eb505300b7bdd81f00e69c6e18c6abc18c92af10"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 98.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 99,
+    "lighting_quality": 99,
+    "architecture_plausibility": 98,
+    "ui_suitability": 100,
+    "mobile_suitability": 92,
+    "originality": 96,
+    "safety_compliance": 100,
+    "revision_prompt": "Revise this fictional Frankfurt-inspired SHADOWGRID 21:9 night city backing plate while preserving the exact ultra-wide composition, original river, bridge, lower stone district, tower geometry, dark left UI safe area, wet reflections, and premium realistic night style.\n\nMandatory correction: remove the conspicuous bright white square panel near the crown of the isolated center tower. Replace it with ordinary dark glass and a few restrained warm office windows so it cannot read as a logo, sign, billboard, screen, currency symbol, or corporate identifier. Also reduce the brightest white window bands on the tallest center-right towers to a natural irregular mix of mostly dark glass and restrained warm neutral office light. Do not create scrolling, ticker-like, patterned, animated, or branded facade lighting. Preserve tiny plausible aviation safety points only where necessary.\n\nDo not alter the tower silhouettes into known Frankfurt landmarks. Keep all city, river, bridge, and public-realm geometry fictional and non-operational. No text, letters, numbers, logos, signs, brands, stock tickers, currency symbols, interface, watermarks, identifiable people, authority marks, criminal symbols, extremist symbols, weapons, violence, fraud instructions, operational wrongdoing, routes, neon spectacle, warning-red gameplay cues, blur, or fake writing.\n\nDeliver only the corrected clean premium ultra-realistic 21:9 night environment with no bright sign-like rooftop panel and no ticker-like facade lighting.",
+    "reference_images": [
+      "assets/source/cities/city-frankfurt-am-main-ultrawide-day-v1.png"
+    ],
+    "notes": [
+      "The first night conversion was held back because a bright white square near one tower crown could read as a logo or display, and several white facade bands were too visually regular.",
+      "The accepted revision replaces the square with ordinary dark glass and restrained windows, and converts the brightest tower bands to a natural irregular office-light pattern.",
+      "River, original bridge, compact tower cluster, lower stone district, riverfront, and left UI safe area remain coordinated with the approved daytime counterpart.",
+      "No real financial institution, bank mark, exchange symbol, known landmark, text, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, fraud instruction, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 4648345
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-26T08:12:04.292Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "The first night conversion was held back because a bright white square near one tower crown could read as a logo or display, and several white facade bands were too visually regular.",
+    "The accepted revision replaces the square with ordinary dark glass and restrained windows, and converts the brightest tower bands to a natural irregular office-light pattern.",
+    "River, original bridge, compact tower cluster, lower stone district, riverfront, and left UI safe area remain coordinated with the approved daytime counterpart.",
+    "No real financial institution, bank mark, exchange symbol, known landmark, text, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, fraud instruction, or operational wrongdoing is present."
+  ]
+}

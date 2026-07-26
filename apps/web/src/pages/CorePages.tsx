@@ -20,6 +20,7 @@ import type {
   World,
 } from "@shadowgrid/shared-types";
 import { client } from "../auth";
+import { GlobalBackdrop, GlobalDayNightBackdrop } from "../GlobalBackdrop";
 import {
   Field,
   Metric,
@@ -82,13 +83,19 @@ export function WorldPage() {
     });
   };
   return (
-    <main className="centered-page">
+    <main className="centered-page centered-page--worlds">
       <div className="public-brand">
-        <span className="brand__mark" aria-hidden="true">
-          SG
-        </span>
-        <strong>{t("appName")}</strong>
+        <img
+          className="brand__logo"
+          src="/assets/branding/shadowgrid-logo-horizontal-dark.svg"
+          alt={t("appName")}
+        />
       </div>
+      <GlobalBackdrop
+        desktopAssetId="global-world-selection-desktop-v1"
+        mobileAssetId="global-world-selection-mobile-v1"
+        variant="world"
+      />
       <Panel className="wide-card">
         <h1>{t("worldsTitle")}</h1>
         <StateView
@@ -230,7 +237,12 @@ export function DashboardPage() {
     return <Navigate to="/worlds" replace />;
   const p = profile.data;
   return (
-    <div className="page">
+    <div className="page page--command">
+      <GlobalDayNightBackdrop
+        dayAssetId="global-command-center-day-v1"
+        nightAssetId="global-command-center-night-v1"
+        variant="command"
+      />
       <header className="page-header">
         <p className="eyebrow">{t("liveStateEyebrow")}</p>
         <h1>{t("commandTitle")}</h1>

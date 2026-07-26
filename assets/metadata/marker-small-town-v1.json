@@ -1,0 +1,65 @@
+{
+  "asset_id": "marker-small-town-v1",
+  "manifest_order": 51,
+  "category": "marker",
+  "batch": "map-markers",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "24:24",
+  "width": 24,
+  "height": 24,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/marker-small-town-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100051,
+  "content_hash": "ea44ebfa5df976b8ab711ce8a12c9bbe042ececdeb930f0b48c70d755c10ecfc",
+  "source_file": "assets/source/maps/marker-small-town-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/marker-small-town-v1.svg",
+      "bytes": 584,
+      "sha256": "ea44ebfa5df976b8ab711ce8a12c9bbe042ececdeb930f0b48c70d755c10ecfc"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/markers/marker-small-town-v1.svg",
+      "bytes": 584,
+      "sha256": "ea44ebfa5df976b8ab711ce8a12c9bbe042ececdeb930f0b48c70d755c10ecfc"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 584
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T20:11:31.064Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

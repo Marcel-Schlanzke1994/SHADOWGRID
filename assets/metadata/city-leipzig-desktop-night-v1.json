@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-leipzig-desktop-night-v1",
+  "manifest_order": 126,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "leipzig",
+  "variant": "desktop-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-leipzig-desktop-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100126,
+  "content_hash": "da6696d6ce9118a9962ed664f163f4d1ad477cb67a6e6a36a18a4637108bc2a3",
+  "source_file": "assets/source/cities/city-leipzig-desktop-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-leipzig-desktop-night-v1-320.avif",
+      "bytes": 3993,
+      "sha256": "a394a4789669e8f26dc78d158687999421e31a1a4dcbef4833cb1e1c6f273ed7"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-desktop-night-v1-320.webp",
+      "bytes": 3810,
+      "sha256": "5f4b989d4ebda0864e3e027a4775478dc8f2800691f9a3572f7ba64003b189d9"
+    },
+    {
+      "path": "assets/production/avif/city-leipzig-desktop-night-v1-640.avif",
+      "bytes": 12508,
+      "sha256": "3731abef83c7fbd7f62815e365b6dc250483104ca36a98cbc290451b008f2ead"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-desktop-night-v1-640.webp",
+      "bytes": 13472,
+      "sha256": "b18fb0e613ecf5691d53b878f0543ffdb5e1305aaf6d652bf6cf60ace5522da5"
+    },
+    {
+      "path": "assets/production/avif/city-leipzig-desktop-night-v1-960.avif",
+      "bytes": 37002,
+      "sha256": "b86718a8e79ea0300d30fc8aa1076e27c084c7813d084f3e565f36292f62af46"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-desktop-night-v1-960.webp",
+      "bytes": 34856,
+      "sha256": "d6c681b8932eddeaa4a34db6f54af77a3c42b0640d0742ab0228d40a41450f75"
+    },
+    {
+      "path": "assets/production/avif/city-leipzig-desktop-night-v1-1280.avif",
+      "bytes": 59962,
+      "sha256": "e7b2733c449f5858ef99544b3ebf7d63b1b27571d07064f40e640044bbf9bf4b"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-desktop-night-v1-1280.webp",
+      "bytes": 55786,
+      "sha256": "859dee6ff0da0afe40889590261aa30af71b6f8778207157c69b02badbb16bec"
+    },
+    {
+      "path": "assets/production/avif/city-leipzig-desktop-night-v1-1920.avif",
+      "bytes": 100215,
+      "sha256": "e379a727c9b6d9d16cbdb63a979daf015f74c77d54cbf0ec6119a6b88b4f2450"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-desktop-night-v1-1920.webp",
+      "bytes": 95806,
+      "sha256": "7e0f44a7d1eee43e65ae1cd24faba7ff256f2bfd834016f25aa3377a9a0a3351"
+    },
+    {
+      "path": "assets/production/avif/city-leipzig-desktop-night-v1-2560.avif",
+      "bytes": 529223,
+      "sha256": "c8e525d89a6321a5e307d34f9e28b53b1fa4b4c3fd097af37e8ec78139a377d9"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-desktop-night-v1-2560.webp",
+      "bytes": 130964,
+      "sha256": "9de7bfda8986297b3aa951ea01c4635b5b854ffc12ce32b55dd80248e97ba687"
+    },
+    {
+      "path": "assets/production/avif/city-leipzig-desktop-night-v1-3840.avif",
+      "bytes": 868645,
+      "sha256": "96a3a7a762acbf0fb7b34c3b3f2683bd6057d1bcca1d98c2e5585eb1ec571b30"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-desktop-night-v1-3840.webp",
+      "bytes": 214134,
+      "sha256": "b1b3ed47de899174bd0e1a04332fb80094bf66dc2fdc55a4a27d9ce485b3b552"
+    },
+    {
+      "path": "assets/production/png/city-leipzig-desktop-night-v1-1280.png",
+      "bytes": 1510790,
+      "sha256": "a54978364e54e741793777b60b381f56486128196e1ec22ab1f9c1e9f2dd0942"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-desktop-night-v1-320.avif",
+      "bytes": 3993,
+      "sha256": "a394a4789669e8f26dc78d158687999421e31a1a4dcbef4833cb1e1c6f273ed7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-desktop-night-v1-320.webp",
+      "bytes": 3810,
+      "sha256": "5f4b989d4ebda0864e3e027a4775478dc8f2800691f9a3572f7ba64003b189d9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-desktop-night-v1-640.avif",
+      "bytes": 12508,
+      "sha256": "3731abef83c7fbd7f62815e365b6dc250483104ca36a98cbc290451b008f2ead"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-desktop-night-v1-640.webp",
+      "bytes": 13472,
+      "sha256": "b18fb0e613ecf5691d53b878f0543ffdb5e1305aaf6d652bf6cf60ace5522da5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-desktop-night-v1-960.avif",
+      "bytes": 37002,
+      "sha256": "b86718a8e79ea0300d30fc8aa1076e27c084c7813d084f3e565f36292f62af46"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-desktop-night-v1-960.webp",
+      "bytes": 34856,
+      "sha256": "d6c681b8932eddeaa4a34db6f54af77a3c42b0640d0742ab0228d40a41450f75"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-desktop-night-v1-1280.avif",
+      "bytes": 59962,
+      "sha256": "e7b2733c449f5858ef99544b3ebf7d63b1b27571d07064f40e640044bbf9bf4b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-desktop-night-v1-1280.webp",
+      "bytes": 55786,
+      "sha256": "859dee6ff0da0afe40889590261aa30af71b6f8778207157c69b02badbb16bec"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-desktop-night-v1-1920.avif",
+      "bytes": 100215,
+      "sha256": "e379a727c9b6d9d16cbdb63a979daf015f74c77d54cbf0ec6119a6b88b4f2450"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-desktop-night-v1-1920.webp",
+      "bytes": 95806,
+      "sha256": "7e0f44a7d1eee43e65ae1cd24faba7ff256f2bfd834016f25aa3377a9a0a3351"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-desktop-night-v1-2560.avif",
+      "bytes": 529223,
+      "sha256": "c8e525d89a6321a5e307d34f9e28b53b1fa4b4c3fd097af37e8ec78139a377d9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-desktop-night-v1-2560.webp",
+      "bytes": 130964,
+      "sha256": "9de7bfda8986297b3aa951ea01c4635b5b854ffc12ce32b55dd80248e97ba687"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-desktop-night-v1-3840.avif",
+      "bytes": 868645,
+      "sha256": "96a3a7a762acbf0fb7b34c3b3f2683bd6057d1bcca1d98c2e5585eb1ec571b30"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-desktop-night-v1-3840.webp",
+      "bytes": 214134,
+      "sha256": "b1b3ed47de899174bd0e1a04332fb80094bf66dc2fdc55a4a27d9ce485b3b552"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-desktop-night-v1-1280.png",
+      "bytes": 1510790,
+      "sha256": "a54978364e54e741793777b60b381f56486128196e1ec22ab1f9c1e9f2dd0942"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 98.7,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 99,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 99,
+    "lighting_quality": 99,
+    "architecture_plausibility": 99,
+    "ui_suitability": 100,
+    "mobile_suitability": 94,
+    "originality": 97,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create the coordinated 16:9 desktop night counterpart for this accepted fictional Leipzig-inspired SHADOWGRID daytime canal-culture-research-metropolis hero.\n\nPreserve the exact desktop camera and original geometry: flat green floodplain, broad tree-lined canal bend, restrained low-profile pale-stone and dark-steel bridge entirely center-right, pale sandstone and warm-gray courtyard blocks, restrained research buildings, adapted red-brown brick cultural/workshop halls, landscaped gardens, wet foreground terrace, continuous low neutral skyline, and the genuinely calm dark low-detail left 32% overlay-safe area. Keep it clearly the same original city composition. Do not reveal or invent any operational canal, bridge, street, path, rail, corporate, academic, cultural, trade, logistics, industrial, or civic layout.\n\nTransform the scene to physically plausible post-rain night: deep anthracite and cool blue-gray clouds, restrained irregular warm-neutral windows, subtle low-level garden and bridge practical lights, readable midtone sandstone, aged brick, brushed metal, dark glass, trees, wet paving, and canal reflections, premium contemporary architectural photography, realistic lens and depth, and a restrained corporate-thriller mood. Keep the entire left 32% dark, calm, and low-detail with only black-blue canal water, shadowed tree canopy, floodplain haze, and subdued cloud; do not add lamps, boats, bright reflections, bridge elements, paths, people, signs, screens, or architecture behind the overlay zone.\n\nAvoid concert lighting, event lighting, publishing or media screens, trade-fair illumination, billboard-like facade panels, patterned window lighting, saturated neon, overexposure, emergency lighting, warning-red gameplay cues, black crush, excessive haze, spectacle, freight lighting, or factory-process imagery. Keep every bridge, path, terrace, and garden empty of people.\n\nDo not add or imitate the Monument to the Battle of the Nations, Leipzig City-Hochhaus, Neues Rathaus, Altes Rathaus, Leipzig Hauptbahnhof, Augustusplatz, Leipzig University tower or facade, Gewandhaus, Leipzig Opera, St. Thomas Church, St. Nicholas Church, MDR tower, Leipzig Trade Fair glass hall, zoo landmarks, Baumwollspinnerei, churches, cathedral spires, monuments, civic towers, antenna landmarks, recognizable industrial complexes, real publishing houses, rail corridors, logistics terminals, exact canal routes, known floodplain parks, government buildings, corporate campuses, or any known photograph or viewpoint. Do not add an identifiable real cultural institution, university, publisher, media company, authority, transit operator, industrial process, warehouse operation, freight route, factory interior, logistics hub, or operational transport plan.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, musicians, politicians, crowds, flags, police or government insignia, criminal symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, factory or logistics procedures, fantasy architecture, impossible bridges or structures, excessive neon, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 16:9 night canal-culture-research-metropolis environment, intended final size 2048×1152, with a genuinely calm left 32% overlay-safe area and no border, title, UI, or device mockup.",
+    "reference_images": [
+      "assets/source/cities/city-leipzig-desktop-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first night-conversion attempt.",
+      "The exact desktop camera, fictional canal bend, center-right bridge, pale courtyard blocks, research buildings, adapted brick halls, gardens, wet terrace, low skyline, and calm left overlay area remain coordinated with the approved daytime counterpart.",
+      "Restrained irregular practical and window lighting preserves readable materials without concert, event, publishing-screen, trade-fair, freight, facade-pattern, or factory-process spectacle.",
+      "All public spaces remain empty. No real cultural institution, university, publisher, station, fair, logistics layout, known Leipzig landmark, tower, spire, authority, text, criminal symbol, extremist symbol, weapon, violence, or wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3632276
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-26T12:01:07.865Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first night-conversion attempt.",
+    "The exact desktop camera, fictional canal bend, center-right bridge, pale courtyard blocks, research buildings, adapted brick halls, gardens, wet terrace, low skyline, and calm left overlay area remain coordinated with the approved daytime counterpart.",
+    "Restrained irregular practical and window lighting preserves readable materials without concert, event, publishing-screen, trade-fair, freight, facade-pattern, or factory-process spectacle.",
+    "All public spaces remain empty. No real cultural institution, university, publisher, station, fair, logistics layout, known Leipzig landmark, tower, spire, authority, text, criminal symbol, extremist symbol, weapon, violence, or wrongdoing is present."
+  ]
+}

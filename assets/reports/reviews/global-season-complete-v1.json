@@ -1,0 +1,20 @@
+{
+  "realism": 98,
+  "style_consistency": 98,
+  "composition": 96,
+  "material_quality": 98,
+  "lighting_quality": 98,
+  "architecture_plausibility": 97,
+  "ui_suitability": 94,
+  "mobile_suitability": 91,
+  "originality": 94,
+  "safety_compliance": 100,
+  "accepted_prompt": "Use case: stylized-concept.\nAsset ID: global-season-complete-v1.\nCreate a premium ultra-realistic season-completion background for the fictional seasonal strategy game SHADOWGRID, intended final size 2048x1152, exact 16:9 landscape.\n\nPrimary request: Depict a wholly fictional contemporary German-metropolis observation lounge at the first light of dawn after a long strategic season. The architecture is quiet and immaculate: physically plausible dark glass, graphite stone, brushed metal, and restrained warm-gold details. Beyond broad glazing, show an original generic urban skyline in soft blue-gray dawn light, with no recognizable landmark. Convey dignified closure, reflection, stability, and the promise of a new cycle—not spectacle, victory propaganda, wealth fantasy, or a party.\n\nComposition: wide human-eye-level architectural view. Preserve a broad calm low-detail area across the central 60% for the real season-complete dialog, title, summary, and next action. Keep stronger architectural framing and city detail at the far left/right edges and upper perimeter. The central area must remain dark enough for accessible light text and translucent UI panels. Ensure the composition also survives a narrow centered mobile cover crop.\n\nStyle and mood: ultra-realistic architectural photography; premium economic-strategy interface backdrop; cinematic corporate-thriller restraint; subtle cyber-noir; natural pre-sunrise-to-dawn lighting; original scene, not a known photograph, film frame, game screenshot, or branded design.\n\nPalette: black and anthracite framing, cool neutral blue-gray dawn, small restrained warm-gold reflections; no warning red, saturated neon, confetti, fireworks, trophies, medals, cash, champagne, or celebration clichés.\n\nText: none.\n\nDo not include: written words, letters, numbers, captions, interface panels, scoreboards, rankings, maps, data, logos, watermarks, signatures, real brands, real authorities, flags, readable plates or addresses, recognizable people, crowds, politicians, police or government insignia, weapons, crime imagery, identifiable real geography, recognizable landmarks, fantasy architecture, impossible geometry, copied photo angles, cartoon/anime/comic styling, plastic mobile-game rendering, blurry output, compression artifacts, or fake unreadable writing.\n\nDeliver only the clean 16:9 environment backing plate, with no border, device mockup, or embedded UI.",
+  "reference_images": [],
+  "notes": [
+    "Accepted first built-in generation attempt.",
+    "The dawn observation lounge communicates closure and a new cycle without trophies, confetti, cash, rankings, or embedded results.",
+    "The central glazing and floor remain structurally calm; runtime content must retain its existing dark scrim or opaque status card for WCAG text contrast over the dawn sky.",
+    "No recognizable landmark, visible person, text, map, logo, private identifier, authority mark, weapon, or illicit activity."
+  ]
+}

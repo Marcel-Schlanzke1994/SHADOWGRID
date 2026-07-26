@@ -1,0 +1,153 @@
+{
+  "asset_id": "style-proof-german-metropolis-night-v1",
+  "manifest_order": 4,
+  "category": "style-proof",
+  "batch": "style-proof",
+  "city": null,
+  "variant": "night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/style-proof-german-metropolis-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100004,
+  "content_hash": "00e769b22d9b925fd5d61fc097e01aaa0c673f9c19a7fb96c0f408649b5316a6",
+  "source_file": "assets/source/style-proof/style-proof-german-metropolis-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/style-proof-german-metropolis-night-v1-320.avif",
+      "bytes": 8785,
+      "sha256": "3eba99cd4599087ce66fdc3f81cb3ed2933d6ea27744dde8fb82311acc8b1ebe"
+    },
+    {
+      "path": "assets/production/webp/style-proof-german-metropolis-night-v1-320.webp",
+      "bytes": 8124,
+      "sha256": "31d72aa3a0b6d9a7820450132704e4aefe210826efab628d15c724e52416d9eb"
+    },
+    {
+      "path": "assets/production/avif/style-proof-german-metropolis-night-v1-640.avif",
+      "bytes": 31781,
+      "sha256": "1fed18543c144725d0dcca83d572dd1067836fc7521be733be9fab3695967803"
+    },
+    {
+      "path": "assets/production/webp/style-proof-german-metropolis-night-v1-640.webp",
+      "bytes": 30218,
+      "sha256": "96145d6e83c3e2bf01e4ac4939c0e270bb5ffa76ac1f0690c1587253cfd463f5"
+    },
+    {
+      "path": "assets/production/avif/style-proof-german-metropolis-night-v1-960.avif",
+      "bytes": 82575,
+      "sha256": "815be7c498ba7d525a190df20c7500e3572c765c51ff402cf61600ac58487c52"
+    },
+    {
+      "path": "assets/production/webp/style-proof-german-metropolis-night-v1-960.webp",
+      "bytes": 74068,
+      "sha256": "154d2fb1da37981f5c63f8f6f9424947d973ab240677e1b24b718eb4c6aeae3c"
+    },
+    {
+      "path": "assets/production/avif/style-proof-german-metropolis-night-v1-1280.avif",
+      "bytes": 134276,
+      "sha256": "3aaf72d106fc809bc90fea71368034b37bb66041cdf468a03165fb5c47709cd9"
+    },
+    {
+      "path": "assets/production/webp/style-proof-german-metropolis-night-v1-1280.webp",
+      "bytes": 117814,
+      "sha256": "48ad432eddcd3a931a560b5f70bf9cc2cf46a73a6d826c6ce0f8e3bb4c6ac775"
+    },
+    {
+      "path": "assets/production/avif/style-proof-german-metropolis-night-v1-1920.avif",
+      "bytes": 213424,
+      "sha256": "5a8ccb77ad56490c8c8ef8833e70ee6fe917b67c0d260df4379d2cc5288a50b6"
+    },
+    {
+      "path": "assets/production/webp/style-proof-german-metropolis-night-v1-1920.webp",
+      "bytes": 197706,
+      "sha256": "90c6ae5216e17eb48ac2d72d04a4ec8ce29fe15090ba113f4e8d764e2603d4f7"
+    },
+    {
+      "path": "assets/production/avif/style-proof-german-metropolis-night-v1-2560.avif",
+      "bytes": 274306,
+      "sha256": "46d12393e150cd77abba0848ab35e6c26eeaad70e8be996246cb3a031c7c32bf"
+    },
+    {
+      "path": "assets/production/webp/style-proof-german-metropolis-night-v1-2560.webp",
+      "bytes": 260964,
+      "sha256": "e071be9944a1924ad74e97c3d699319c23cb486ab053e1b7da26ed7e331d41fb"
+    },
+    {
+      "path": "assets/production/avif/style-proof-german-metropolis-night-v1-3840.avif",
+      "bytes": 406965,
+      "sha256": "56985c8fff9959fa59c8e0e304c375cf04e50cadbbfb13f98edd7236e13cd45e"
+    },
+    {
+      "path": "assets/production/webp/style-proof-german-metropolis-night-v1-3840.webp",
+      "bytes": 406644,
+      "sha256": "c16125e865135e116dab7d0e1d75039f20c8cb9f07bb4112badc6934c62dae87"
+    },
+    {
+      "path": "assets/production/png/style-proof-german-metropolis-night-v1-1280.png",
+      "bytes": 1818650,
+      "sha256": "2ee37034ceddf711c41fb04a3852748d3d80107f3892a7c779eaef820e802f2a"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.1,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 94,
+    "style_consistency": 93,
+    "composition": 94,
+    "material_quality": 92,
+    "lighting_quality": 95,
+    "architecture_plausibility": 92,
+    "ui_suitability": 91,
+    "mobile_suitability": 88,
+    "originality": 92,
+    "safety_compliance": 100,
+    "revision_prompt": "Change only the needle-shaped illuminated television tower near the upper center and any distinctive landmark-like tower forms around it. Replace them with original, non-iconic mid-rise office buildings of plausible contemporary German design. Preserve the river, bridges, rail corridor, neighborhoods, roads, lighting, darkness, reflections, haze, framing, UI space and photorealism unchanged.",
+    "notes": [
+      "Accepted second attempt after landmark removal.",
+      "Night lighting remains restrained and physically plausible rather than neon-heavy.",
+      "No visible text, logos, private details, weapons, violence or operational wrongdoing."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 4504228
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T13:22:06.370Z",
+  "license": "project-owned-generated-asset",
+  "notes": [
+    "Accepted second attempt after landmark removal.",
+    "Night lighting remains restrained and physically plausible rather than neon-heavy.",
+    "No visible text, logos, private details, weapons, violence or operational wrongdoing."
+  ],
+  "runtime_files": []
+}

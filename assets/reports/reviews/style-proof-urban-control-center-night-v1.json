@@ -1,0 +1,17 @@
+{
+  "realism": 93,
+  "style_consistency": 93,
+  "composition": 91,
+  "material_quality": 93,
+  "lighting_quality": 95,
+  "architecture_plausibility": 90,
+  "ui_suitability": 89,
+  "mobile_suitability": 84,
+  "originality": 91,
+  "safety_compliance": 100,
+  "notes": [
+    "Accepted first attempt.",
+    "Interior light surfaces remain abstract and contain no legible interface text.",
+    "Dark left-side sky and city field provides usable overlay space."
+  ]
+}

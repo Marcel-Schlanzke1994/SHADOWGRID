@@ -1,0 +1,236 @@
+{
+  "asset_id": "global-landing-desktop-night-v1",
+  "manifest_order": 21,
+  "category": "global",
+  "batch": "global-backgrounds",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/global-landing-desktop-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100021,
+  "content_hash": "fce539c80a7c4cd273815e61d29213c3858fed150a056f5663afd9f398c67a2c",
+  "source_file": "assets/source/global/global-landing-desktop-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/global-landing-desktop-night-v1-320.avif",
+      "bytes": 3761,
+      "sha256": "8d7f65af86c15300811a0ebf1ab7d32fd12c2470e3fb63d08e224d180a536b3a"
+    },
+    {
+      "path": "assets/production/webp/global-landing-desktop-night-v1-320.webp",
+      "bytes": 3694,
+      "sha256": "7c23726e4f3465a8d01571aceba5cd488e0861ab5959154b296e1373d0ef012f"
+    },
+    {
+      "path": "assets/production/avif/global-landing-desktop-night-v1-640.avif",
+      "bytes": 13355,
+      "sha256": "b61e4fc97ff413018ace1d382c94126a8c47cddc54889462e7e496edd0ff9a93"
+    },
+    {
+      "path": "assets/production/webp/global-landing-desktop-night-v1-640.webp",
+      "bytes": 13930,
+      "sha256": "6db8ed1ddfaa8ea57c8f238a10b1df11e24d29495d03dfa1ef51c296e93697cc"
+    },
+    {
+      "path": "assets/production/avif/global-landing-desktop-night-v1-960.avif",
+      "bytes": 38609,
+      "sha256": "e7d65b4289955182b1abe002760db54417651fbb303ff8911851d39fc01f8989"
+    },
+    {
+      "path": "assets/production/webp/global-landing-desktop-night-v1-960.webp",
+      "bytes": 35834,
+      "sha256": "162d6ca87fcde39a1efc0d92e231b0d4dc623e3d4c13d023bb646bc32ed0c9b4"
+    },
+    {
+      "path": "assets/production/avif/global-landing-desktop-night-v1-1280.avif",
+      "bytes": 63278,
+      "sha256": "f737ba37c6acb7272930cfa54e9e604cc3c3b9f2a8c5990da2b7bbcd1cb6ef47"
+    },
+    {
+      "path": "assets/production/webp/global-landing-desktop-night-v1-1280.webp",
+      "bytes": 59240,
+      "sha256": "0d431b6a3f74486a50f9740ae6442f576d228564f3f421c074e94271da03d007"
+    },
+    {
+      "path": "assets/production/avif/global-landing-desktop-night-v1-1920.avif",
+      "bytes": 115881,
+      "sha256": "f2a35c31414e2820b26bd6b81facbaaa8f818770c6841287f8eb7ac4faddee60"
+    },
+    {
+      "path": "assets/production/webp/global-landing-desktop-night-v1-1920.webp",
+      "bytes": 107026,
+      "sha256": "5004f77e66f5f9b3e22296ce20ffaa8a88df9bd959d3f13ffb1ebe358ffb596a"
+    },
+    {
+      "path": "assets/production/avif/global-landing-desktop-night-v1-2560.avif",
+      "bytes": 156957,
+      "sha256": "d56432c221869f2e99a1edfb9ee251c15c83d741f0b8c44194f7e34183b366b1"
+    },
+    {
+      "path": "assets/production/webp/global-landing-desktop-night-v1-2560.webp",
+      "bytes": 149256,
+      "sha256": "bd5a3c48fcb22d2dc7f4792340ebb6344ff268eede9d2f5a59eca35ddc6a1298"
+    },
+    {
+      "path": "assets/production/avif/global-landing-desktop-night-v1-3840.avif",
+      "bytes": 808669,
+      "sha256": "b27034fe3aa73eebbdc4c51d081c95c44cf8aeb4aff1dec258172b1e510b7eca"
+    },
+    {
+      "path": "assets/production/webp/global-landing-desktop-night-v1-3840.webp",
+      "bytes": 231668,
+      "sha256": "f1aa520fb36df3f9628a8de60c95549f39166d702e76432e1cf3624a84397afc"
+    },
+    {
+      "path": "assets/production/png/global-landing-desktop-night-v1-1280.png",
+      "bytes": 1232047,
+      "sha256": "1501442d6d1dc6d42f813dc19515cddf00772ce47ff1eedbf58185de84c1c007"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-night-v1-320.avif",
+      "bytes": 3761,
+      "sha256": "8d7f65af86c15300811a0ebf1ab7d32fd12c2470e3fb63d08e224d180a536b3a"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-night-v1-320.webp",
+      "bytes": 3694,
+      "sha256": "7c23726e4f3465a8d01571aceba5cd488e0861ab5959154b296e1373d0ef012f"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-night-v1-640.avif",
+      "bytes": 13355,
+      "sha256": "b61e4fc97ff413018ace1d382c94126a8c47cddc54889462e7e496edd0ff9a93"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-night-v1-640.webp",
+      "bytes": 13930,
+      "sha256": "6db8ed1ddfaa8ea57c8f238a10b1df11e24d29495d03dfa1ef51c296e93697cc"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-night-v1-960.avif",
+      "bytes": 38609,
+      "sha256": "e7d65b4289955182b1abe002760db54417651fbb303ff8911851d39fc01f8989"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-night-v1-960.webp",
+      "bytes": 35834,
+      "sha256": "162d6ca87fcde39a1efc0d92e231b0d4dc623e3d4c13d023bb646bc32ed0c9b4"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-night-v1-1280.avif",
+      "bytes": 63278,
+      "sha256": "f737ba37c6acb7272930cfa54e9e604cc3c3b9f2a8c5990da2b7bbcd1cb6ef47"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-night-v1-1280.webp",
+      "bytes": 59240,
+      "sha256": "0d431b6a3f74486a50f9740ae6442f576d228564f3f421c074e94271da03d007"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-night-v1-1920.avif",
+      "bytes": 115881,
+      "sha256": "f2a35c31414e2820b26bd6b81facbaaa8f818770c6841287f8eb7ac4faddee60"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-night-v1-1920.webp",
+      "bytes": 107026,
+      "sha256": "5004f77e66f5f9b3e22296ce20ffaa8a88df9bd959d3f13ffb1ebe358ffb596a"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-night-v1-2560.avif",
+      "bytes": 156957,
+      "sha256": "d56432c221869f2e99a1edfb9ee251c15c83d741f0b8c44194f7e34183b366b1"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-night-v1-2560.webp",
+      "bytes": 149256,
+      "sha256": "bd5a3c48fcb22d2dc7f4792340ebb6344ff268eede9d2f5a59eca35ddc6a1298"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-night-v1-3840.avif",
+      "bytes": 808669,
+      "sha256": "b27034fe3aa73eebbdc4c51d081c95c44cf8aeb4aff1dec258172b1e510b7eca"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-night-v1-3840.webp",
+      "bytes": 231668,
+      "sha256": "f1aa520fb36df3f9628a8de60c95549f39166d702e76432e1cf3624a84397afc"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-night-v1-1280.png",
+      "bytes": 1232047,
+      "sha256": "1501442d6d1dc6d42f813dc19515cddf00772ce47ff1eedbf58185de84c1c007"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 94.4,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 96,
+    "style_consistency": 96,
+    "composition": 96,
+    "material_quality": 95,
+    "lighting_quality": 96,
+    "architecture_plausibility": 94,
+    "ui_suitability": 95,
+    "mobile_suitability": 85,
+    "originality": 91,
+    "safety_compliance": 100,
+    "accepted_prompt": "Use case: photorealistic-natural\nAsset type: 21:9 desktop landing-page night hero for the fictional economic strategy game SHADOWGRID\nInput images: Images 1 and 2 are approved night-style references. Image 3 is the matching day composition reference. Create a new, coherent night counterpart rather than editing or copying any input; preserve the same visual identity, plausible German urban scale, right-side headquarters framing and left-side UI-safe composition.\nPrimary request: Create an original ultra-wide establishing scene of a wholly fictional contemporary German river metropolis at night, viewed from a premium strategic headquarters terrace and public urban overlook.\nScene/backdrop: plausible mixed historic masonry districts, postwar blocks, modern offices, ordinary bridges, public transit and riverfront greenery; no real or recognizable city, building or landmark.\nSubject: a dark-glass and brushed-metal headquarters framing the right third, with the river and fictional metropolis through the center; the left 35% must remain calm, darker and low-detail for a large headline, body copy and two buttons.\nStyle/medium: ultra-realistic nighttime architectural and urban photography; contemporary German economic-strategy atmosphere; cinematic corporate thriller; subtle cyber-noir only through restrained blue-gray grading and warm windows, never science fiction.\nComposition/framing: very wide 21:9 panorama; plausible elevated human viewpoint; level horizon; important architecture center-right; unobstructed negative space on the left; preserve a useful central crop for narrower desktop screens.\nLighting/mood: realistic deep blue-hour-to-night sky, controlled warm-gold office and street lighting, subtle haze and river reflections, readable shadow detail, strategic and confident rather than threatening.\nColor palette: anthracite, deep neutral blue-gray and restrained warm gold; no saturated neon and no large warning-red elements.\nConstraints: no embedded words, fake UI, signage, company logo, authority insignia, readable plates or addresses, recognizable people, famous landmark, copied photograph angle, watermark, weapon, violence, illegal activity, impossible architecture or fantasy skyline. Infrastructure must remain physically plausible.",
+    "reference_images": [
+      "assets/source/style-proof/style-proof-urban-control-center-night-v1.png",
+      "assets/source/style-proof/style-proof-german-metropolis-night-v1.png",
+      "assets/source/global/global-landing-desktop-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first built-in generation attempt.",
+      "The left third is calm and dark with readable shadow detail; the headquarters anchors the right side.",
+      "No visible logo, readable sign, private identifier, recognizable person, weapon, extremist symbol or explicit wrongdoing.",
+      "The scene remains a fictional, plausible German river metropolis without a copied landmark viewpoint."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 4983916
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T15:15:02.805Z",
+  "license": "project-owned-generated-asset",
+  "notes": [
+    "Accepted first built-in generation attempt.",
+    "The left third is calm and dark with readable shadow detail; the headquarters anchors the right side.",
+    "No visible logo, readable sign, private identifier, recognizable person, weapon, extremist symbol or explicit wrongdoing.",
+    "The scene remains a fictional, plausible German river metropolis without a copied landmark viewpoint."
+  ]
+}

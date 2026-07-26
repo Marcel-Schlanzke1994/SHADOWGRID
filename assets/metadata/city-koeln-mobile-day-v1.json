@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-koeln-mobile-day-v1",
+  "manifest_order": 71,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "koeln",
+  "variant": "mobile-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-koeln-mobile-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100071,
+  "content_hash": "16773fb6f232fc720eeca9b9876813b82a7564f2ef79622e668bd086fba64358",
+  "source_file": "assets/source/cities/city-koeln-mobile-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-koeln-mobile-day-v1-320.avif",
+      "bytes": 13218,
+      "sha256": "c6d0deaa997378b8fad38f5c1e44be34dd6dbf691656621176acb84c80b21037"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-mobile-day-v1-320.webp",
+      "bytes": 13798,
+      "sha256": "a2260c2eb2159065d701fb7e1b00de0b9afd7b6c0cd336b723f90f9f143148df"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-mobile-day-v1-640.avif",
+      "bytes": 50038,
+      "sha256": "c01673c2f3aea56532f3cef8ed3a5513f073e8bbf852e2e80f6de93398afb436"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-mobile-day-v1-640.webp",
+      "bytes": 52816,
+      "sha256": "bbf563ae392a0b00205f6d8bf3019b67b2bfd7ff62be881e58bb4610dd7e100f"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-mobile-day-v1-960.avif",
+      "bytes": 116066,
+      "sha256": "9061e704eb28c95a0e15830fc990973cc33a7951bb97a55f72b041d18cadda00"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-mobile-day-v1-960.webp",
+      "bytes": 109730,
+      "sha256": "8d3c55932234aff697b1b9cac6524bf351fc6e916cb29de0f326dba20a437749"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-mobile-day-v1-1280.avif",
+      "bytes": 152968,
+      "sha256": "69367e614130cb0d944a375b39e1eec7e4443c145eb03024f957b0aebff3f6da"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-mobile-day-v1-1280.webp",
+      "bytes": 149102,
+      "sha256": "1270d5c8e580f954ce26cb1916d86a666b08290e5a40a4f5c27a8f2bbc7d9147"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-mobile-day-v1-1920.avif",
+      "bytes": 908258,
+      "sha256": "fda3fdbdeda8899981337752979273899fd5f8349a15c2bf611d8f64f74579a9"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-mobile-day-v1-1920.webp",
+      "bytes": 242320,
+      "sha256": "9462dd98749868182c19af021e8b89c77dbe354c00dbf02774d5972646d55eed"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-mobile-day-v1-2560.avif",
+      "bytes": 1300261,
+      "sha256": "ca77b45d5ed0943cdf56f5374c5c174501a69dc1a4a2f5efc9a43d274b2b25b6"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-mobile-day-v1-2560.webp",
+      "bytes": 344526,
+      "sha256": "5944b9641504e9b0c5b4b132bf1c08e7eb95dbb9d0487c32c70e1dd534fedc5b"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-mobile-day-v1-3840.avif",
+      "bytes": 1891154,
+      "sha256": "ebc6367686768375f7d1d0b7474d520a23adebe1a156f0ff7055a0a4e8e1f009"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-mobile-day-v1-3840.webp",
+      "bytes": 575350,
+      "sha256": "3d31f6cca6feaffafd78def50c153057d20c3f7f57ead4b915684a7fe0bec86e"
+    },
+    {
+      "path": "assets/production/png/city-koeln-mobile-day-v1-1152.png",
+      "bytes": 3875651,
+      "sha256": "9e8956f6abef739badf2e7cf5f32c4b042772dab6d0d5ee40fd8b6815640ffc4"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-day-v1-320.avif",
+      "bytes": 13218,
+      "sha256": "c6d0deaa997378b8fad38f5c1e44be34dd6dbf691656621176acb84c80b21037"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-day-v1-320.webp",
+      "bytes": 13798,
+      "sha256": "a2260c2eb2159065d701fb7e1b00de0b9afd7b6c0cd336b723f90f9f143148df"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-day-v1-640.avif",
+      "bytes": 50038,
+      "sha256": "c01673c2f3aea56532f3cef8ed3a5513f073e8bbf852e2e80f6de93398afb436"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-day-v1-640.webp",
+      "bytes": 52816,
+      "sha256": "bbf563ae392a0b00205f6d8bf3019b67b2bfd7ff62be881e58bb4610dd7e100f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-day-v1-960.avif",
+      "bytes": 116066,
+      "sha256": "9061e704eb28c95a0e15830fc990973cc33a7951bb97a55f72b041d18cadda00"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-day-v1-960.webp",
+      "bytes": 109730,
+      "sha256": "8d3c55932234aff697b1b9cac6524bf351fc6e916cb29de0f326dba20a437749"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-day-v1-1280.avif",
+      "bytes": 152968,
+      "sha256": "69367e614130cb0d944a375b39e1eec7e4443c145eb03024f957b0aebff3f6da"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-day-v1-1280.webp",
+      "bytes": 149102,
+      "sha256": "1270d5c8e580f954ce26cb1916d86a666b08290e5a40a4f5c27a8f2bbc7d9147"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-day-v1-1920.avif",
+      "bytes": 908258,
+      "sha256": "fda3fdbdeda8899981337752979273899fd5f8349a15c2bf611d8f64f74579a9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-day-v1-1920.webp",
+      "bytes": 242320,
+      "sha256": "9462dd98749868182c19af021e8b89c77dbe354c00dbf02774d5972646d55eed"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-day-v1-2560.avif",
+      "bytes": 1300261,
+      "sha256": "ca77b45d5ed0943cdf56f5374c5c174501a69dc1a4a2f5efc9a43d274b2b25b6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-day-v1-2560.webp",
+      "bytes": 344526,
+      "sha256": "5944b9641504e9b0c5b4b132bf1c08e7eb95dbb9d0487c32c70e1dd534fedc5b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-day-v1-3840.avif",
+      "bytes": 1891154,
+      "sha256": "ebc6367686768375f7d1d0b7474d520a23adebe1a156f0ff7055a0a4e8e1f009"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-day-v1-3840.webp",
+      "bytes": 575350,
+      "sha256": "3d31f6cca6feaffafd78def50c153057d20c3f7f57ead4b915684a7fe0bec86e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-day-v1-1152.png",
+      "bytes": 3875651,
+      "sha256": "9e8956f6abef739badf2e7cf5f32c4b042772dab6d0d5ee40fd8b6815640ffc4"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 98.4,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 100,
+    "composition": 99,
+    "material_quality": 98,
+    "lighting_quality": 98,
+    "architecture_plausibility": 97,
+    "ui_suitability": 99,
+    "mobile_suitability": 100,
+    "originality": 95,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create a separately composed portrait mobile hero for the same accepted fictional Köln-inspired SHADOWGRID city in the reference.\n\nOutput composition: exact 9:16 portrait, intended final size 1152×2048. Reconstruct the scene vertically rather than cropping the landscape image. Preserve the fictional city identity through a broad Rhine-like river, original generic bridge language, dense but plausible low- and mid-rise civic development, river trade/logistics, cool blue-gray overcast daylight, and restrained warm-gold highlights.\n\nMobile framing: reserve the upper 32% as calm darker low-detail cloudy sky and atmospheric city distance for a status bar, title, and up to three warnings. Place the primary city-and-river decision area in the middle third. Use a single physically plausible bridge crossing diagonally through the middle-lower frame to create depth without blocking content. Keep the bottom 18% quieter and darker for one primary control. No foreground people. The river, bridge, and skyline must remain legible on a narrow phone.\n\nDo not add Cologne Cathedral, twin Gothic spires, the Hohenzollern Bridge, any recognizable real Cologne landmark, or a known photographic viewpoint. All bridge and skyline geometry must remain original and physically plausible.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, trafficking routes, fantasy architecture, impossible geometry, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic 9:16 daytime environment backing plate, with no border, device mockup, or embedded UI.",
+    "reference_images": [
+      "assets/source/cities/city-koeln-desktop-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first portrait recomposition attempt.",
+      "The top sky provides a calm status/title area, the middle third carries the primary city-and-river decision, and the lower frame remains dark enough for a primary control.",
+      "The diagonal low-profile bridge and civic skyline retain the Köln family identity without reproducing a recognizable landmark or known viewpoint.",
+      "No embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3876174
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T20:36:42.597Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first portrait recomposition attempt.",
+    "The top sky provides a calm status/title area, the middle third carries the primary city-and-river decision, and the lower frame remains dark enough for a primary control.",
+    "The diagonal low-profile bridge and civic skyline retain the Köln family identity without reproducing a recognizable landmark or known viewpoint.",
+    "No embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

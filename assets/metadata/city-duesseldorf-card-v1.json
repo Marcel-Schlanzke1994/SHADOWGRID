@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-duesseldorf-card-v1",
+  "manifest_order": 113,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "duesseldorf",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-duesseldorf-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100113,
+  "content_hash": "aeb92e2251269468c151ff05ed8fe8891b718cbed10aa58f8bafccbc59e1d10f",
+  "source_file": "assets/source/cities/city-duesseldorf-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-duesseldorf-card-v1-320.avif",
+      "bytes": 6540,
+      "sha256": "832f8bc04bf3e0e0cd001a36f279f733f5eacdf8b73530b10e4e1c07d3a9e9ac"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-card-v1-320.webp",
+      "bytes": 6964,
+      "sha256": "77c73059d00a6f0fd6d3423d18bb170c95d1882740b0ed2d983371c2b6381bd0"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-card-v1-640.avif",
+      "bytes": 23516,
+      "sha256": "282d68770632b0c1b9b7cf1600d3a857183618e2ec0f527206cbe991a6b13e07"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-card-v1-640.webp",
+      "bytes": 25738,
+      "sha256": "3b68dbfde6446307259b9ce2535cd53523cd03dc51b7975e957d35b6f3e1323d"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-card-v1-960.avif",
+      "bytes": 66384,
+      "sha256": "24784651b06b70d39da96af71f2e96a0373c296f80a4147a32b6d77ded307f8e"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-card-v1-960.webp",
+      "bytes": 65316,
+      "sha256": "989453f53482e29c21f48edf23729a6f158465168628001b81d35602841cbad9"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-card-v1-1280.avif",
+      "bytes": 98761,
+      "sha256": "4f7d48eb968e81754a510c821163b20f0173ae694d5e2b5cf1b4120cbac590ef"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-card-v1-1280.webp",
+      "bytes": 99078,
+      "sha256": "b07dac26fb0fc1ab65bd70098b52aeb668391063ae0a0e5599f0535125a22474"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-card-v1-1920.avif",
+      "bytes": 148952,
+      "sha256": "d8ce321030c9634246af8bafca7767a56388acff44f8a36ef0b3b61cb7a35f53"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-card-v1-1920.webp",
+      "bytes": 157644,
+      "sha256": "153096173325affcfc6314815a5f546239d609fabb1a9df90381433fe5444c26"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-card-v1-2560.avif",
+      "bytes": 201687,
+      "sha256": "cf17fdf5f33330144bd19cc9ac8560401b77a4edddc9c4236e7e4bcce8b59528"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-card-v1-2560.webp",
+      "bytes": 222704,
+      "sha256": "404cd59d68197fe8ff641254c21d75a61f7657f5a7253eefef3ae274b12afde5"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-card-v1-3840.avif",
+      "bytes": 313183,
+      "sha256": "a00b54392faffafef0d3979018faa8d49d5c2e824fa9517aaff85acaf4f2715c"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-card-v1-3840.webp",
+      "bytes": 376842,
+      "sha256": "dc46f43fb219f684643eeeeafac8ad343799e40181172b724e59cea544fbab86"
+    },
+    {
+      "path": "assets/production/png/city-duesseldorf-card-v1-1280.png",
+      "bytes": 2849002,
+      "sha256": "c7bf8c50752ce5c8cb52b231e6bbe0412fadc12acfb09361d33484470434c97a"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-card-v1-320.avif",
+      "bytes": 6540,
+      "sha256": "832f8bc04bf3e0e0cd001a36f279f733f5eacdf8b73530b10e4e1c07d3a9e9ac"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-card-v1-320.webp",
+      "bytes": 6964,
+      "sha256": "77c73059d00a6f0fd6d3423d18bb170c95d1882740b0ed2d983371c2b6381bd0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-card-v1-640.avif",
+      "bytes": 23516,
+      "sha256": "282d68770632b0c1b9b7cf1600d3a857183618e2ec0f527206cbe991a6b13e07"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-card-v1-640.webp",
+      "bytes": 25738,
+      "sha256": "3b68dbfde6446307259b9ce2535cd53523cd03dc51b7975e957d35b6f3e1323d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-card-v1-960.avif",
+      "bytes": 66384,
+      "sha256": "24784651b06b70d39da96af71f2e96a0373c296f80a4147a32b6d77ded307f8e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-card-v1-960.webp",
+      "bytes": 65316,
+      "sha256": "989453f53482e29c21f48edf23729a6f158465168628001b81d35602841cbad9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-card-v1-1280.avif",
+      "bytes": 98761,
+      "sha256": "4f7d48eb968e81754a510c821163b20f0173ae694d5e2b5cf1b4120cbac590ef"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-card-v1-1280.webp",
+      "bytes": 99078,
+      "sha256": "b07dac26fb0fc1ab65bd70098b52aeb668391063ae0a0e5599f0535125a22474"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-card-v1-1920.avif",
+      "bytes": 148952,
+      "sha256": "d8ce321030c9634246af8bafca7767a56388acff44f8a36ef0b3b61cb7a35f53"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-card-v1-1920.webp",
+      "bytes": 157644,
+      "sha256": "153096173325affcfc6314815a5f546239d609fabb1a9df90381433fe5444c26"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-card-v1-2560.avif",
+      "bytes": 201687,
+      "sha256": "cf17fdf5f33330144bd19cc9ac8560401b77a4edddc9c4236e7e4bcce8b59528"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-card-v1-2560.webp",
+      "bytes": 222704,
+      "sha256": "404cd59d68197fe8ff641254c21d75a61f7657f5a7253eefef3ae274b12afde5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-card-v1-3840.avif",
+      "bytes": 313183,
+      "sha256": "a00b54392faffafef0d3979018faa8d49d5c2e824fa9517aaff85acaf4f2715c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-card-v1-3840.webp",
+      "bytes": 376842,
+      "sha256": "dc46f43fb219f684643eeeeafac8ad343799e40181172b724e59cea544fbab86"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-card-v1-1280.png",
+      "bytes": 2849002,
+      "sha256": "c7bf8c50752ce5c8cb52b231e6bbe0412fadc12acfb09361d33484470434c97a"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 99.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 99,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 99,
+    "lighting_quality": 99,
+    "architecture_plausibility": 99,
+    "ui_suitability": 100,
+    "mobile_suitability": 100,
+    "originality": 97,
+    "safety_compliance": 100,
+    "revision_prompt": "Revise this square fictional Düsseldorf-inspired SHADOWGRID city-card backing plate while preserving the exact 1:1 canvas, camera, river, original low-profile bridge, landscaped promenade, canal basin, pale-stone service blocks, restrained glass offices, overcast post-rain daylight, material realism, and the full calm dark lower-water label band.\n\nMandatory correction: remove the single isolated narrow pointed needle or spire on the distant skyline near the horizontal image center. Replace it with a modest low neutral original stone-and-glass urban block with a flat or gently stepped roofline. It must not read as a church, cathedral, steeple, bell tower, monument, civic tower, antenna landmark, Rheinturm, television tower, or recognizable skyline feature. Ensure no other isolated religious, monumental, governmental, fashion-brand, media-brand, or trade-fair silhouette appears. Preserve the rest of the skyline and all fictional river, canal, bridge, promenade, and building geometry.\n\nKeep the entire bottom 24% as uninterrupted calm dark low-detail open river water. Do not add any bridge, promenade, terrace, building, tree, vehicle, lamp cluster, bright reflection, railing, object, or detailed shoreline inside that label-safe band. All layouts remain fictional and non-operational.\n\nNo text, letters, numbers, signs, logos, brands, interface, watermarks, signatures, identifiable people, flags, authority marks, police insignia, criminal symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, fantasy architecture, Gehry-like distorted buildings, impossible geometry, neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the corrected clean premium ultra-realistic fictional 1:1 daytime city-card backing plate with the isolated pointed silhouette removed, the full lower 24% preserved as calm dark water, and no border, title, UI, or device mockup.",
+    "reference_images": [
+      "assets/source/cities/city-duesseldorf-desktop-day-v1.png"
+    ],
+    "notes": [
+      "The first square recomposition was held back because a single narrow pointed silhouette near the distant image center could read as a church, civic tower, or recognizable antenna landmark.",
+      "The accepted revision replaces the isolated point with modest neutral flat-roofed original development without altering the river, bridge, promenade, canal basin, or services district.",
+      "The complete lower 24 percent remains uninterrupted calm dark low-detail river water for external localized labels, badges, and one action.",
+      "No known Düsseldorf landmark, religious or civic silhouette, real brand or authority, operational layout, text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3982194
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-26T09:42:34.652Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "The first square recomposition was held back because a single narrow pointed silhouette near the distant image center could read as a church, civic tower, or recognizable antenna landmark.",
+    "The accepted revision replaces the isolated point with modest neutral flat-roofed original development without altering the river, bridge, promenade, canal basin, or services district.",
+    "The complete lower 24 percent remains uninterrupted calm dark low-detail river water for external localized labels, badges, and one action.",
+    "No known Düsseldorf landmark, religious or civic silhouette, real brand or authority, operational layout, text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

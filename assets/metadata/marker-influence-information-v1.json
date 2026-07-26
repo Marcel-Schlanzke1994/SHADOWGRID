@@ -1,0 +1,65 @@
+{
+  "asset_id": "marker-influence-information-v1",
+  "manifest_order": 58,
+  "category": "marker",
+  "batch": "map-markers",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "24:24",
+  "width": 24,
+  "height": 24,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/marker-influence-information-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100058,
+  "content_hash": "b6fea79109171aaccd84ef5e3559cf3d551936fa61ac8cd8224f2ce0f788daee",
+  "source_file": "assets/source/maps/marker-influence-information-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/marker-influence-information-v1.svg",
+      "bytes": 788,
+      "sha256": "b6fea79109171aaccd84ef5e3559cf3d551936fa61ac8cd8224f2ce0f788daee"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/markers/marker-influence-information-v1.svg",
+      "bytes": 788,
+      "sha256": "b6fea79109171aaccd84ef5e3559cf3d551936fa61ac8cd8224f2ce0f788daee"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 788
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T20:12:11.435Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

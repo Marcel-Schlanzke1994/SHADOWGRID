@@ -1,0 +1,152 @@
+{
+  "asset_id": "style-proof-corporate-headquarters-v1",
+  "manifest_order": 5,
+  "category": "style-proof",
+  "batch": "style-proof",
+  "city": null,
+  "variant": "blue-hour",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/style-proof-corporate-headquarters-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100005,
+  "content_hash": "53807a4a19f2e35c56ed06289bfaddf755373858abebaee2ffacb5db27cbc3f8",
+  "source_file": "assets/source/style-proof/style-proof-corporate-headquarters-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/style-proof-corporate-headquarters-v1-320.avif",
+      "bytes": 9327,
+      "sha256": "43ae0747d1cd0121105b985f08017450bbeea3b5ef36f379efb571bc8b42502a"
+    },
+    {
+      "path": "assets/production/webp/style-proof-corporate-headquarters-v1-320.webp",
+      "bytes": 8520,
+      "sha256": "1275eeabdce516235968a804b0abd3185e91bd386f98d5d18346a1f829abcec7"
+    },
+    {
+      "path": "assets/production/avif/style-proof-corporate-headquarters-v1-640.avif",
+      "bytes": 27329,
+      "sha256": "863b64b1ad0ec44ef3dd86799e3bc3fbddfab3a53abc61a93d1844c535dce704"
+    },
+    {
+      "path": "assets/production/webp/style-proof-corporate-headquarters-v1-640.webp",
+      "bytes": 26748,
+      "sha256": "47841d93ec662f40905570bef4b782534ac4b7eadabc10b5d2fd9bd42ac80dd4"
+    },
+    {
+      "path": "assets/production/avif/style-proof-corporate-headquarters-v1-960.avif",
+      "bytes": 64500,
+      "sha256": "d3a9200ce11237e4355d46eed3ef842797d3e5e1b475157b2743272ef5869506"
+    },
+    {
+      "path": "assets/production/webp/style-proof-corporate-headquarters-v1-960.webp",
+      "bytes": 59688,
+      "sha256": "2dbfd1440ac60623a59d10774f6cc3a90c92234444c19c3e0fe5cfeb15edc713"
+    },
+    {
+      "path": "assets/production/avif/style-proof-corporate-headquarters-v1-1280.avif",
+      "bytes": 101567,
+      "sha256": "ca7ffcf192203b2a5e711b868fe4eb63dd110b8740dc8590a0993dce9e7138ef"
+    },
+    {
+      "path": "assets/production/webp/style-proof-corporate-headquarters-v1-1280.webp",
+      "bytes": 92572,
+      "sha256": "4eb48a1e69ec033c18697ba99b66386f6fe5a3588fafe5f93f319854cec817a6"
+    },
+    {
+      "path": "assets/production/avif/style-proof-corporate-headquarters-v1-1920.avif",
+      "bytes": 162876,
+      "sha256": "e437f96c93ff1845f19f778c80a9fd4173a1611bbf0dbbffaf75e44bf038159c"
+    },
+    {
+      "path": "assets/production/webp/style-proof-corporate-headquarters-v1-1920.webp",
+      "bytes": 159524,
+      "sha256": "be29dc4f8ac3c8f8e1321490438586f30d1b9941eca32658ab5c940e30c2942d"
+    },
+    {
+      "path": "assets/production/avif/style-proof-corporate-headquarters-v1-2560.avif",
+      "bytes": 212714,
+      "sha256": "919750cc911adbe1062523af372ed834cd4fdf5d5a2ad59cfca332b8fd847fd8"
+    },
+    {
+      "path": "assets/production/webp/style-proof-corporate-headquarters-v1-2560.webp",
+      "bytes": 210682,
+      "sha256": "f21183e0db610c227c32f068197fb31251b3d51d5f4ed8ba522b484c419637cb"
+    },
+    {
+      "path": "assets/production/avif/style-proof-corporate-headquarters-v1-3840.avif",
+      "bytes": 987053,
+      "sha256": "dd3133c30edd61465a971a778d0042c0ccc8fb0ee993ad56792b9909326298fa"
+    },
+    {
+      "path": "assets/production/webp/style-proof-corporate-headquarters-v1-3840.webp",
+      "bytes": 335710,
+      "sha256": "49afb623d88824a364f2e3360d87ad4bd43c379a87ac6d98c4f045ad613d3f16"
+    },
+    {
+      "path": "assets/production/png/style-proof-corporate-headquarters-v1-1280.png",
+      "bytes": 2001703,
+      "sha256": "43e98f491539f03766ee6153bb850a0bea413190038bd3a1550def93b03417ed"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.7,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 95,
+    "style_consistency": 94,
+    "composition": 91,
+    "material_quality": 95,
+    "lighting_quality": 95,
+    "architecture_plausibility": 94,
+    "ui_suitability": 83,
+    "mobile_suitability": 88,
+    "originality": 92,
+    "safety_compliance": 100,
+    "notes": [
+      "Accepted first attempt.",
+      "Facade, plaza, transit context and wet-surface reflections are physically plausible.",
+      "No visible corporate brand, readable sign, recognizable person or real authority mark."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 4901485
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T13:22:40.527Z",
+  "license": "project-owned-generated-asset",
+  "notes": [
+    "Accepted first attempt.",
+    "Facade, plaza, transit context and wet-surface reflections are physically plausible.",
+    "No visible corporate brand, readable sign, recognizable person or real authority mark."
+  ],
+  "runtime_files": []
+}

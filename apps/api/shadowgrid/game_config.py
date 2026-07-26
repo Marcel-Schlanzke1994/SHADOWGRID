@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from decimal import Decimal
 from typing import Final, TypedDict
 
 
@@ -250,6 +251,73 @@ RISK_POSTURES: Final = {
     "aggressive": {"chance": -5, "duration": 0.7, "reward": 1.35, "risk": 1.6},
 }
 
+PVP_OPERATION_TYPES: Final = {
+    "intelligence_probe": {
+        "minutes": 10,
+        "cash": 2_500,
+        "influence": 1,
+        "base_power": 24,
+        "effect_cap": 2,
+    },
+    "market_pressure": {
+        "minutes": 20,
+        "cash": 5_000,
+        "influence": 2,
+        "base_power": 30,
+        "effect_cap": 3,
+    },
+    "influence_campaign": {
+        "minutes": 30,
+        "cash": 7_500,
+        "influence": 3,
+        "base_power": 36,
+        "effect_cap": 5,
+    },
+    "abstract_disruption": {
+        "minutes": 40,
+        "cash": 10_000,
+        "influence": 3,
+        "base_power": 40,
+        "effect_cap": 4,
+    },
+    "strategic_confrontation": {
+        "minutes": 60,
+        "cash": 15_000,
+        "influence": 5,
+        "base_power": 44,
+        "effect_cap": 5,
+    },
+}
+
+PVP_DEFENSE_ACTIONS: Final = {
+    "observe": 6,
+    "assign_security": 14,
+    "reassign_specialists": 12,
+    "request_cartel_support": 10,
+    "reduce_business_activity": 16,
+    "secure_information": 14,
+    "attempt_mediation": 9,
+    "prepare_counteroperation": 11,
+}
+
+TERRITORY_CONTROL_POINTS: Final = (
+    "economic_network",
+    "information_center",
+    "logistics_node",
+    "social_access",
+    "digital_node",
+    "coordination_center",
+)
+
+WAR_SCORE_WEIGHTS: Final = {
+    "territorial": Decimal("0.25"),
+    "economic": Decimal("0.20"),
+    "operations": Decimal("0.20"),
+    "intelligence": Decimal("0.15"),
+    "participation": Decimal("0.10"),
+    "stability": Decimal("0.10"),
+}
+
 RESEARCH: Final[dict[str, ResearchDefinition]] = {
     "distributed_command": {
         "category": "organization",
@@ -312,6 +380,25 @@ ROLE_PERMISSIONS: Final = {
         "research.view",
         "research.start",
         "audit.view",
+        "wars.view",
+        "wars.propose",
+        "wars.declare",
+        "wars.prepare",
+        "wars.assign_members",
+        "wars.commit_resources",
+        "wars.negotiate_ceasefire",
+        "wars.view_reports",
+        "territory.view",
+        "territory.claim",
+        "territory.defend",
+        "pvp.view_reports",
+        "pvp.launch",
+        "pvp.support",
+        "pvp.defend",
+        "alliances.view",
+        "alliances.propose",
+        "alliances.accept",
+        "alliances.terminate",
     },
     "finance_lead": {
         "organization.view",
@@ -320,6 +407,8 @@ ROLE_PERMISSIONS: Final = {
         "treasury.withdraw",
         "treasury.invest",
         "audit.view",
+        "wars.commit_resources",
+        "territory.defend",
     },
     "diplomacy_lead": {
         "organization.view",
@@ -327,14 +416,52 @@ ROLE_PERMISSIONS: Final = {
         "diplomacy.propose",
         "diplomacy.accept",
         "diplomacy.terminate",
+        "wars.negotiate_ceasefire",
+        "alliances.view",
+        "alliances.propose",
+        "alliances.accept",
+        "alliances.terminate",
     },
     "intelligence_lead": {
         "organization.view",
         "intel.view_shared",
         "intel.share",
         "operations.view",
+        "pvp.view_reports",
+        "pvp.support",
     },
-    "district_lead": {"organization.view", "operations.view", "operations.create"},
+    "district_lead": {
+        "organization.view",
+        "operations.view",
+        "operations.create",
+        "territory.view",
+        "territory.claim",
+        "territory.defend",
+        "territory.abandon",
+    },
+    "war_lead": {
+        "organization.view",
+        "wars.view",
+        "wars.propose",
+        "wars.declare",
+        "wars.prepare",
+        "wars.assign_members",
+        "wars.commit_resources",
+        "wars.negotiate_ceasefire",
+        "wars.surrender",
+        "wars.view_reports",
+        "pvp.view_reports",
+        "pvp.launch",
+        "pvp.support",
+        "pvp.defend",
+        "territory.view",
+        "territory.defend",
+    },
+    "recruitment_lead": {
+        "organization.view",
+        "organization.invite",
+        "organization.remove_members",
+    },
     "member": {
         "organization.view",
         "treasury.view",
@@ -342,6 +469,15 @@ ROLE_PERMISSIONS: Final = {
         "intel.view_shared",
         "diplomacy.view",
         "research.view",
+        "wars.view",
+        "wars.prepare",
+        "wars.view_reports",
+        "territory.view",
+        "territory.defend",
+        "pvp.view_reports",
+        "pvp.support",
+        "pvp.defend",
+        "alliances.view",
     },
     "candidate": {"organization.view"},
 }

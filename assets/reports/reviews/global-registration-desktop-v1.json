@@ -1,0 +1,23 @@
+{
+  "realism": 97,
+  "style_consistency": 98,
+  "composition": 99,
+  "material_quality": 97,
+  "lighting_quality": 97,
+  "architecture_plausibility": 96,
+  "ui_suitability": 99,
+  "mobile_suitability": 81,
+  "originality": 95,
+  "safety_compliance": 100,
+  "accepted_prompt": "Use case: stylized-concept\nAsset type: responsive desktop registration-page background for the fictional cross-platform strategy game SHADOWGRID\nInput images: Image 1 is the approved login-background style and material reference; Image 2 is the approved corporate-architecture reference. Preserve the visual system, but create a completely new scene and a somewhat more open, welcoming daytime mood.\nPrimary request: Create a premium ultra-realistic background of an original contemporary strategy campus reception gallery in a fictional German metropolis, suitable for account registration.\nScene/backdrop: a credible indoor-outdoor glass gallery with dark stone, brushed metal, restrained landscaping, and a glimpse of an entirely fictional urban district; no recognizable location or landmark.\nSubject: architecture only, expressing a threshold into a strategic economic world through scale, material quality, and daylight rather than symbols or text.\nStyle/medium: ultra-realistic architectural photography; high-end urban economic strategy simulation; cinematic corporate-thriller restraint; subtle cyber-noir only in grading and materials; physically plausible construction and reflections.\nComposition/framing: exact 16:9 landscape intent, intended final size 2048x1152; human eye-level wide composition. Reserve the central 48% of the image from about 12% to 92% height as a calm, slightly darker, low-detail surface for a taller registration form. Put the strongest daylight, landscaping, structural rhythm, and visual depth at the far left and right edges. Keep the upper-left quiet enough for the existing horizontal brand mark. No bright window mullion, horizon, furniture, doorway edge, or focal object behind the form-safe center.\nLighting/mood: soft overcast late-afternoon daylight with restrained warm-gold interior accents; more welcoming and forward-looking than the login asset, but still serious, premium, and controlled.\nColor palette: anthracite, dark stone, cool neutral blue-gray, muted natural green, restrained warm gold; no saturated neon or warning red.\nMaterials/textures: physically plausible glass, brushed metal, concrete, stone, subtle planting, realistic floor wear and scale.\nText: none.\nConstraints: wholly original fictional architecture; no people or faces; no text, signage, interface screens, captions, logos, watermarks, signatures, readable plates, addresses, flags, uniforms, authorities, weapons, crime symbols, or real brands. High readability under a centered tall form overlay. Must survive cover-cropping at common desktop ratios without losing the form-safe center.\nAvoid: reproducing the login scene, copied landmark-photo angles, fantasy skyscrapers, impossible geometry, distorted buildings, floating elements, excessive neon, cartoon, anime, comic, plastic mobile-game rendering, blur, low resolution, compression artifacts, fake writing.",
+  "reference_images": [
+    "assets/source/global/global-login-desktop-v1.png",
+    "assets/source/style-proof/style-proof-corporate-headquarters-v1.png"
+  ],
+  "notes": [
+    "Accepted first built-in generation attempt.",
+    "The central dark-stone surface provides an unusually clean safe area for the taller registration form.",
+    "The brighter edge lighting distinguishes registration from login while preserving the frozen style system.",
+    "No visible person, text, logo, private identifier, authority mark, weapon or illicit activity."
+  ]
+}

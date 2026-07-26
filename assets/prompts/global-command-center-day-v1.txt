@@ -1,0 +1,35 @@
+Use case: stylized-concept
+Asset type: global asset for a cross-platform strategy game
+Primary request: Create a premium ultra-realistic visual asset for the multiplayer strategy game SHADOWGRID.
+Scene/backdrop: Fictional contemporary German urban environment, geographically and architecturally plausible.
+Subject: Global command center, day
+Category: global.
+Gameplay state: normal.
+Style/medium: contemporary Germany; high-end urban economic strategy simulation; cinematic corporate thriller atmosphere; subtle cyber-noir; physically plausible glass, concrete, steel, stone and asphalt; original scene, not a known photograph, film frame, game screenshot or branded design.
+Composition/framing: Wide cinematic establishing composition, human eye-level or plausible elevated viewpoint, controlled depth, and calm negative space on the left for user-interface overlays.
+Lighting/mood: natural daylight with natural cinematic lighting, realistic reflections and restrained atmosphere.
+Color palette: black and anthracite framing, cool neutral blue-gray, restrained warm gold accents; warning red only if the gameplay state requires danger.
+Materials/textures: physically plausible dark glass, brushed metal, concrete, stone and asphalt with realistic scale.
+Constraints: no embedded captions or interface text; no real brands; no real authorities; no readable plates or addresses; no recognizable private people; no copied landmark-photo angle; space reserved for UI overlays; suitable for desktop and mobile crops; output aspect ratio 16:9.
+Avoid: Do not include: written words, captions, watermarks, signatures, existing game logos, real company logos, real police insignia, real government insignia, readable private license plates, readable private addresses, recognizable private individuals, celebrities, politicians, real criminal organizations, real gang symbols, extremist symbols, Nazi symbols, graphic violence, visible illegal instructions, firearms as the central subject, drug production, crime tutorials, copied photography, copied landmarks from an identical photo angle, fantasy skyscrapers, impossible architecture, distorted buildings, duplicate people, deformed hands, unrealistic vehicles, floating objects, overexposed neon, cartoon style, anime style, comic style, plastic mobile-game appearance, blurry image, low resolution, compression artifacts, unreadable fake text.
+Seed reference: 100030. Style lock: 1.0.0.
+
+Accepted generation prompt:
+Use case: stylized-concept
+Asset type: global authenticated command-center background, daytime, for the fictional cross-platform strategy game SHADOWGRID
+Input images: Image 1 is the approved daytime urban-control-center style reference; Image 2 is the approved strategic-observatory material and palette reference. Create a new operational interior and do not reproduce either composition.
+Primary request: Create a premium ultra-realistic contemporary urban strategy command center during daytime, designed to sit behind the real React dashboard.
+Scene/backdrop: a wholly fictional high-level operations floor in a contemporary German metropolis, with dark glass, brushed metal, stone, concrete, restrained workstations at the far edges, and a plausible city view through glazing. Any physical display surfaces must be blank, dark, abstract, or unreadable.
+Subject: the architecture and operational atmosphere only; no people, readable displays, data, maps, diagrams, interface panels, or embedded UI.
+Style/medium: ultra-realistic architectural photography; high-end urban economic-strategy simulation; cinematic corporate-thriller atmosphere; restrained subtle cyber-noir; physically plausible materials, daylight, scale, and reflections.
+Composition/framing: exact 16:9 landscape intent, intended final size 2048x1152; plausible human eye-level wide view. Preserve calm, darker negative space across the left 45% and center for dashboard header, metrics, cards, and mobile cover crops. Concentrate the strongest architectural depth, city view, and restrained workstation silhouettes toward the far right and frame edges. Avoid bright structural lines behind the upper-left title area.
+Lighting/mood: natural overcast-to-broken-cloud daylight, realistic interior adaptation, confident and analytical rather than ominous.
+Color palette: anthracite, black, cool neutral blue-gray, stone, muted daylight, restrained warm-gold accents; no saturated neon and no warning red.
+Materials/textures: physically plausible dark glass, brushed metal, concrete, stone, acoustic surfaces, subtle floor wear, realistic scale.
+Text: none.
+Constraints: wholly original fictional location; no people or faces; no actual map or geography; no text, fake writing, signage, dashboards, screens with data, captions, logos, watermarks, signatures, readable plates, addresses, flags, uniforms, authorities, weapons, crime symbols, or real brands. The result must remain readable beneath a dense real UI and a narrow mobile crop.
+Avoid: recognizable landmarks, copied photo angles, futuristic spaceship bridge, holograms, fantasy architecture, impossible geometry, excessive neon, cartoon, anime, comic, plastic mobile-game rendering, blur, low resolution, compression artifacts.
+
+Style-reference images:
+- assets/source/style-proof/style-proof-urban-control-center-day-v1.png
+- assets/source/global/global-world-selection-desktop-v1.png

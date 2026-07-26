@@ -1,0 +1,233 @@
+{
+  "asset_id": "city-frankfurt-am-main-ultrawide-day-v1",
+  "manifest_order": 99,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "frankfurt-am-main",
+  "variant": "ultrawide-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-frankfurt-am-main-ultrawide-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100099,
+  "content_hash": "eda30e363a87df0feecd78fac5cd0a7f703bf5663056d211cf8795b3d0c2b177",
+  "source_file": "assets/source/cities/city-frankfurt-am-main-ultrawide-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-ultrawide-day-v1-320.avif",
+      "bytes": 4092,
+      "sha256": "0a1dd9c427f2f9dc7e95b916d5b361384ffdee776a87ff5aba4176cf4bea8cf0"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-ultrawide-day-v1-320.webp",
+      "bytes": 3910,
+      "sha256": "c10a01f7cd44fbbadb1222431a852447863e0ee0c4b804826c46ea1239d302fd"
+    },
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-ultrawide-day-v1-640.avif",
+      "bytes": 12335,
+      "sha256": "5030342d6235cfb352237fcc35d56585c543f57b04a8f2fd1ba1967a1aab698c"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-ultrawide-day-v1-640.webp",
+      "bytes": 12710,
+      "sha256": "55210d22ce0a1ca926def57bff2d2123e8328ddfaca5a1ef595ab6c755ee2901"
+    },
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-ultrawide-day-v1-960.avif",
+      "bytes": 33595,
+      "sha256": "517ffe2247fc92234491ffd11bac27979434d2e9719ad049ce40470216fd728c"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-ultrawide-day-v1-960.webp",
+      "bytes": 30746,
+      "sha256": "0ebf15d6441a93d735d359ae88d01639599a5f6e6428b3dc5242c250945d67e8"
+    },
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-ultrawide-day-v1-1280.avif",
+      "bytes": 53141,
+      "sha256": "8ee759b26fe0e9903b87229ad87ab420a3ee5b7b526ae7af3c401030ca3bdc93"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-ultrawide-day-v1-1280.webp",
+      "bytes": 50542,
+      "sha256": "51634d8053142145915cb3964c7a22d4afeafa62018d168da009caf384703615"
+    },
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-ultrawide-day-v1-1920.avif",
+      "bytes": 91781,
+      "sha256": "2a42a89ff6b0d09497e4be080e10f4d7e134c715f758a23950b9b867063b5474"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-ultrawide-day-v1-1920.webp",
+      "bytes": 88000,
+      "sha256": "c28ac4e334b04c98cc6919f7b52d2ada8daa5db3db372ac60bb954deba7f733b"
+    },
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-ultrawide-day-v1-2560.avif",
+      "bytes": 442049,
+      "sha256": "5aed42344751ad38161d74bcd312c823ccba6529718e427ffbe22b08a1b7c7ec"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-ultrawide-day-v1-2560.webp",
+      "bytes": 123666,
+      "sha256": "8657ec62ad1618ab5c9289a3086b3a579913f52fad106bb3b0b68691aa71ca6d"
+    },
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-ultrawide-day-v1-3840.avif",
+      "bytes": 739741,
+      "sha256": "56d9c536336e4bfaffbd85b5839ee8c1c9ad1a28b61c0995ae69d7545b38e74b"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-ultrawide-day-v1-3840.webp",
+      "bytes": 195138,
+      "sha256": "c62c9116f74bdf596e6edb5951f66cb3e1f16729405451790075185ecc2b950e"
+    },
+    {
+      "path": "assets/production/png/city-frankfurt-am-main-ultrawide-day-v1-1280.png",
+      "bytes": 1257010,
+      "sha256": "7605958d66aec91323617594845c18aa6d19de02d3c629e138062d74cfbbf071"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-day-v1-320.avif",
+      "bytes": 4092,
+      "sha256": "0a1dd9c427f2f9dc7e95b916d5b361384ffdee776a87ff5aba4176cf4bea8cf0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-day-v1-320.webp",
+      "bytes": 3910,
+      "sha256": "c10a01f7cd44fbbadb1222431a852447863e0ee0c4b804826c46ea1239d302fd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-day-v1-640.avif",
+      "bytes": 12335,
+      "sha256": "5030342d6235cfb352237fcc35d56585c543f57b04a8f2fd1ba1967a1aab698c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-day-v1-640.webp",
+      "bytes": 12710,
+      "sha256": "55210d22ce0a1ca926def57bff2d2123e8328ddfaca5a1ef595ab6c755ee2901"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-day-v1-960.avif",
+      "bytes": 33595,
+      "sha256": "517ffe2247fc92234491ffd11bac27979434d2e9719ad049ce40470216fd728c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-day-v1-960.webp",
+      "bytes": 30746,
+      "sha256": "0ebf15d6441a93d735d359ae88d01639599a5f6e6428b3dc5242c250945d67e8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-day-v1-1280.avif",
+      "bytes": 53141,
+      "sha256": "8ee759b26fe0e9903b87229ad87ab420a3ee5b7b526ae7af3c401030ca3bdc93"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-day-v1-1280.webp",
+      "bytes": 50542,
+      "sha256": "51634d8053142145915cb3964c7a22d4afeafa62018d168da009caf384703615"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-day-v1-1920.avif",
+      "bytes": 91781,
+      "sha256": "2a42a89ff6b0d09497e4be080e10f4d7e134c715f758a23950b9b867063b5474"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-day-v1-1920.webp",
+      "bytes": 88000,
+      "sha256": "c28ac4e334b04c98cc6919f7b52d2ada8daa5db3db372ac60bb954deba7f733b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-day-v1-2560.avif",
+      "bytes": 442049,
+      "sha256": "5aed42344751ad38161d74bcd312c823ccba6529718e427ffbe22b08a1b7c7ec"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-day-v1-2560.webp",
+      "bytes": 123666,
+      "sha256": "8657ec62ad1618ab5c9289a3086b3a579913f52fad106bb3b0b68691aa71ca6d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-day-v1-3840.avif",
+      "bytes": 739741,
+      "sha256": "56d9c536336e4bfaffbd85b5839ee8c1c9ad1a28b61c0995ae69d7545b38e74b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-day-v1-3840.webp",
+      "bytes": 195138,
+      "sha256": "c62c9116f74bdf596e6edb5951f66cb3e1f16729405451790075185ecc2b950e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-day-v1-1280.png",
+      "bytes": 1257010,
+      "sha256": "7605958d66aec91323617594845c18aa6d19de02d3c629e138062d74cfbbf071"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 98.1,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 99,
+    "composition": 100,
+    "material_quality": 99,
+    "lighting_quality": 99,
+    "architecture_plausibility": 98,
+    "ui_suitability": 100,
+    "mobile_suitability": 92,
+    "originality": 96,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create one clean premium ultra-realistic 21:9 daytime environment backing plate for the fictional seasonal strategy/economy MMO SHADOWGRID, inspired by Frankfurt am Main but not reproducing its real skyline, financial brands, landmarks, or a known river viewpoint.\n\nScene: a plausible contemporary central German finance and services metropolis with a broad urban river, an original compact cluster of physically plausible glass-and-stone office towers, lower historic-influenced stone blocks, restrained mixed-use business districts, landscaped public riverfront, and layered transport-oriented urban depth. Evoke finance, trade, data services, conventions, and civic life through original architecture only. All river, bridge, street, rail, corporate, and civic layouts must be fictional and non-operational.\n\nComposition: exact ultra-wide 21:9 landscape, intended final size 2688×1152. Use a plausible elevated human viewpoint. Reserve the left 38% as calm, dark, low-detail negative space for localized interface overlays. Concentrate the original river crossing, compact tower cluster, lower stone district, and landscaped riverfront center-right. Keep important shapes inside an inner 84% crop-safe area. Use one physically plausible original low-profile bridge. No focal people or crowds.\n\nLighting and style: cool overcast post-rain daylight with restrained cloud breaks, neutral blue-gray atmosphere, subtle warm-gold glass, stone, and window highlights, realistic wet paving, stone, concrete, brushed steel, dark glass, trees, and river reflections, premium contemporary architectural photography, subtle corporate-thriller mood, natural cinematic depth.\n\nDo not include or imitate the Commerzbank Tower, Messeturm, Main Tower, European Central Bank towers, Opernturm, Westend Tower crown, recognizable Frankfurt skyline arrangement, Römer, Frankfurt Cathedral, Eiserner Steg, Holbeinsteg, real trade-fair structures, bank logos, exchange symbols, real rail maps, exact bridge/street layouts, or any known photograph/viewpoint. Do not show an identifiable real financial institution or operational transport plan.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, stock tickers, currency symbols, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, fraud instructions, routes, fantasy architecture, impossible towers or bridges, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 21:9 daytime finance-metropolis environment, with no border, title, UI, or device mockup.",
+    "reference_images": [],
+    "notes": [
+      "Accepted first generation attempt.",
+      "The left 38 percent is calm, dark, and low-detail; the fictional river crossing, compact original tower cluster, lower stone district, and landscaped riverfront are concentrated center-right.",
+      "Tower crowns, skyline arrangement, bridge, riverfront, and transport-oriented geometry are original and non-operational. No tower imitates a named Frankfurt landmark.",
+      "No real financial institution, bank mark, exchange symbol, known viewpoint, embedded text, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, fraud instruction, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 4950729
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-26T08:05:13.683Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first generation attempt.",
+    "The left 38 percent is calm, dark, and low-detail; the fictional river crossing, compact original tower cluster, lower stone district, and landscaped riverfront are concentrated center-right.",
+    "Tower crowns, skyline arrangement, bridge, riverfront, and transport-oriented geometry are original and non-operational. No tower imitates a named Frankfurt landmark.",
+    "No real financial institution, bank mark, exchange symbol, known viewpoint, embedded text, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, fraud instruction, or operational wrongdoing is present."
+  ]
+}

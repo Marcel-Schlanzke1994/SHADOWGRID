@@ -1,0 +1,22 @@
+{
+  "realism": 99,
+  "style_consistency": 100,
+  "composition": 100,
+  "material_quality": 99,
+  "lighting_quality": 99,
+  "architecture_plausibility": 99,
+  "ui_suitability": 100,
+  "mobile_suitability": 100,
+  "originality": 97,
+  "safety_compliance": 100,
+  "revision_prompt": "Revise this fictional Düsseldorf-inspired SHADOWGRID 9:16 daytime mobile city hero while preserving the exact portrait canvas, camera, cloud field, river, original low-profile bridge, promenade, canal basin, pale-stone service blocks, restrained glass offices, wet post-rain materials, upper 32% calm status/title zone, middle city decision area, and bottom 18% calm dark water control zone.\n\nMandatory correction: remove the isolated narrow pointed spire near the distant center-right skyline. Replace it with a modest low neutral original stone-and-glass urban block with a flat or gently stepped roofline. It must not read as a church, cathedral, steeple, bell tower, monument, civic tower, antenna landmark, Rheinturm, or recognizable skyline feature. Also ensure no other religious, monumental, governmental, trade-fair, fashion-brand, or media-brand silhouette appears. Preserve the rest of the skyline and all fictional river, canal, bridge, promenade, and building geometry.\n\nKeep the upper 32% calm low-detail cloud/atmospheric space and the bottom 18% calm dark open water. Do not add any high-contrast object to those interface-safe zones. All layouts remain fictional and non-operational.\n\nNo text, letters, numbers, signs, logos, brands, interface, watermarks, signatures, identifiable people, flags, authority marks, police insignia, criminal symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, fantasy architecture, Gehry-like distorted buildings, impossible geometry, neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the corrected clean premium ultra-realistic fictional 9:16 daytime mobile environment with the pointed spire removed and no border, title, UI, or device mockup.",
+  "reference_images": [
+    "assets/source/cities/city-duesseldorf-desktop-day-v1.png"
+  ],
+  "notes": [
+    "The first portrait recomposition was held back because a narrow isolated pointed silhouette near the distant center-right skyline could read as a real church or cathedral association.",
+    "The accepted revision replaces that silhouette with modest neutral flat-roofed original development while preserving the cloud field, river, bridge, promenade, canal basin, and services district.",
+    "The upper 32 percent remains calm for status/title content, the middle carries one legible city decision, and the bottom 18 percent remains calm dark open water for one primary control.",
+    "No known Düsseldorf landmark, religious or civic silhouette, real brand or authority, operational layout, text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

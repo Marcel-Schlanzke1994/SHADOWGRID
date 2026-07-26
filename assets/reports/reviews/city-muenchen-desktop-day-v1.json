@@ -1,0 +1,22 @@
+{
+  "realism": 98,
+  "style_consistency": 100,
+  "composition": 100,
+  "material_quality": 98,
+  "lighting_quality": 99,
+  "architecture_plausibility": 98,
+  "ui_suitability": 100,
+  "mobile_suitability": 94,
+  "originality": 96,
+  "safety_compliance": 100,
+  "accepted_prompt": "Create a separately composed 16:9 desktop hero for the same accepted fictional München-inspired SHADOWGRID city shown in the reference.\n\nOutput composition: exact 16:9 landscape, intended final size 2048×1152. Reframe and reconstruct the environment for the taller desktop canvas rather than merely cropping the ultra-wide image. Preserve the fictional identity: broad clear urban river, landscaped embankments, original low-profile bridge, high-quality tree-lined public realm, pale-stone historic-influenced blocks with varied pitched roofs, restrained contemporary technology and research offices, and subtle distant foothill terrain. All river, street, transit, campus, corporate, and civic layouts must remain fictional and non-operational.\n\nReserve a calm dark low-detail area across the left 32% for localized UI. Place the principal river, bridge, public realm, and pale-stone/technology district center-right. Add physically plausible foreground depth in the lower right through wet stone terraces, trees, river edge, and original public-space geometry. Keep important shapes inside the inner 84% crop-safe area. No focal people or crowds.\n\nLighting and style: crisp but restrained post-rain southern daylight under layered clouds, cool neutral blue-gray atmosphere, subtle warm-gold stone and window highlights, realistic wet paving, pale stone, timber accents, concrete, steel, glass, trees, and river reflections, premium contemporary architectural photography, subtle corporate-thriller mood.\n\nDo not add the Frauenkirche twin domes, Neues Rathaus, Marienplatz, Residenz, Nymphenburg Palace, Hofbräuhaus, BMW headquarters or museum, Allianz Arena, Olympic Park structures, English Garden landmarks, any exact Isar viewpoint, recognizable church silhouette, real corporate campus, flags, coats of arms, real transit maps, exact street layouts, or any known photograph/viewpoint.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, fantasy architecture, impossible geometry, dramatic fantasy mountains, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 16:9 daytime southern-metropolis environment, with no border, title, UI, or device mockup.",
+  "reference_images": [
+    "assets/source/cities/city-muenchen-ultrawide-day-v1.png"
+  ],
+  "notes": [
+    "Accepted first 16:9 recomposition attempt.",
+    "The taller frame adds plausible lower-right wet-stone terrace, tree, and river-edge depth while retaining the dark low-detail left 32 percent for localized interface content.",
+    "River, landscaped public realm, original bridge, pale-stone district, technology offices, and subtle foothills remain coordinated with the München asset family.",
+    "No recognizable München landmark, corporate campus, exact Isar viewpoint, embedded text, logo, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

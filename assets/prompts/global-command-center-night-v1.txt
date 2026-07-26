@@ -1,0 +1,30 @@
+Use case: stylized-concept
+Asset type: global asset for a cross-platform strategy game
+Primary request: Create a premium ultra-realistic visual asset for the multiplayer strategy game SHADOWGRID.
+Scene/backdrop: Fictional contemporary German urban environment, geographically and architecturally plausible.
+Subject: Global command center, night
+Category: global.
+Gameplay state: normal.
+Style/medium: contemporary Germany; high-end urban economic strategy simulation; cinematic corporate thriller atmosphere; subtle cyber-noir; physically plausible glass, concrete, steel, stone and asphalt; original scene, not a known photograph, film frame, game screenshot or branded design.
+Composition/framing: Wide cinematic establishing composition, human eye-level or plausible elevated viewpoint, controlled depth, and calm negative space on the left for user-interface overlays.
+Lighting/mood: realistic urban night with natural cinematic lighting, realistic reflections and restrained atmosphere.
+Color palette: black and anthracite framing, cool neutral blue-gray, restrained warm gold accents; warning red only if the gameplay state requires danger.
+Materials/textures: physically plausible dark glass, brushed metal, concrete, stone and asphalt with realistic scale.
+Constraints: no embedded captions or interface text; no real brands; no real authorities; no readable plates or addresses; no recognizable private people; no copied landmark-photo angle; space reserved for UI overlays; suitable for desktop and mobile crops; output aspect ratio 16:9.
+Avoid: Do not include: written words, captions, watermarks, signatures, existing game logos, real company logos, real police insignia, real government insignia, readable private license plates, readable private addresses, recognizable private individuals, celebrities, politicians, real criminal organizations, real gang symbols, extremist symbols, Nazi symbols, graphic violence, visible illegal instructions, firearms as the central subject, drug production, crime tutorials, copied photography, copied landmarks from an identical photo angle, fantasy skyscrapers, impossible architecture, distorted buildings, duplicate people, deformed hands, unrealistic vehicles, floating objects, overexposed neon, cartoon style, anime style, comic style, plastic mobile-game appearance, blurry image, low resolution, compression artifacts, unreadable fake text.
+Seed reference: 100031. Style lock: 1.0.0.
+
+Accepted generation prompt:
+Use case: lighting-weather
+Asset type: global authenticated command-center background, nighttime variant, for the fictional cross-platform strategy game SHADOWGRID
+Input images: Image 1 is the approved daytime command-center edit target.
+Primary request: Change only the time of day and corresponding physically plausible lighting so the same fictional command center appears at realistic urban night.
+Invariants: preserve the exact architecture, camera position, framing, room geometry, workstation placement, dark blank displays, left-side UI negative space, city layout, materials, proportions, and all object identities from Image 1. Do not add, remove, move, or redesign objects.
+Lighting/mood: realistic deep-blue urban night outside; warm interior practical lights and restrained warm-gold edge accents; credible exposure adaptation, subtle reflections, and distant city windows. Maintain readable dark negative space across the left 45% and center. Keep the result analytical and controlled, not ominous.
+Color palette: black and anthracite, deep neutral blue-gray, restrained warm gold; no saturated neon and no warning red.
+Text: none.
+Constraints: no people or faces; no readable displays, data, maps, diagrams, interface panels, text, fake writing, signage, captions, logos, watermarks, signatures, readable plates, addresses, flags, uniforms, authorities, weapons, crime symbols, or real brands. Preserve suitability beneath a dense real UI and a narrow mobile cover crop.
+Avoid: geometry drift, extra furniture, newly illuminated screen content, sci-fi holograms, excessive neon, crushed black detail, blown highlights, fantasy skyline, cartoon, anime, comic, plastic mobile-game rendering, blur, low resolution, compression artifacts.
+
+Style-reference images:
+- assets/source/global/global-command-center-day-v1.png

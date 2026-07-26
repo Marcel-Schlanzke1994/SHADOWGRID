@@ -1,0 +1,22 @@
+{
+  "realism": 98,
+  "style_consistency": 100,
+  "composition": 100,
+  "material_quality": 99,
+  "lighting_quality": 99,
+  "architecture_plausibility": 98,
+  "ui_suitability": 100,
+  "mobile_suitability": 92,
+  "originality": 96,
+  "safety_compliance": 100,
+  "revision_prompt": "Revise this fictional Frankfurt-inspired SHADOWGRID 21:9 night city backing plate while preserving the exact ultra-wide composition, original river, bridge, lower stone district, tower geometry, dark left UI safe area, wet reflections, and premium realistic night style.\n\nMandatory correction: remove the conspicuous bright white square panel near the crown of the isolated center tower. Replace it with ordinary dark glass and a few restrained warm office windows so it cannot read as a logo, sign, billboard, screen, currency symbol, or corporate identifier. Also reduce the brightest white window bands on the tallest center-right towers to a natural irregular mix of mostly dark glass and restrained warm neutral office light. Do not create scrolling, ticker-like, patterned, animated, or branded facade lighting. Preserve tiny plausible aviation safety points only where necessary.\n\nDo not alter the tower silhouettes into known Frankfurt landmarks. Keep all city, river, bridge, and public-realm geometry fictional and non-operational. No text, letters, numbers, logos, signs, brands, stock tickers, currency symbols, interface, watermarks, identifiable people, authority marks, criminal symbols, extremist symbols, weapons, violence, fraud instructions, operational wrongdoing, routes, neon spectacle, warning-red gameplay cues, blur, or fake writing.\n\nDeliver only the corrected clean premium ultra-realistic 21:9 night environment with no bright sign-like rooftop panel and no ticker-like facade lighting.",
+  "reference_images": [
+    "assets/source/cities/city-frankfurt-am-main-ultrawide-day-v1.png"
+  ],
+  "notes": [
+    "The first night conversion was held back because a bright white square near one tower crown could read as a logo or display, and several white facade bands were too visually regular.",
+    "The accepted revision replaces the square with ordinary dark glass and restrained windows, and converts the brightest tower bands to a natural irregular office-light pattern.",
+    "River, original bridge, compact tower cluster, lower stone district, riverfront, and left UI safe area remain coordinated with the approved daytime counterpart.",
+    "No real financial institution, bank mark, exchange symbol, known landmark, text, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, fraud instruction, or operational wrongdoing is present."
+  ]
+}

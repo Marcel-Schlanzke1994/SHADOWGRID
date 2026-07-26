@@ -1,0 +1,65 @@
+{
+  "asset_id": "marker-influence-street-v1",
+  "manifest_order": 57,
+  "category": "marker",
+  "batch": "map-markers",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "24:24",
+  "width": 24,
+  "height": 24,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/marker-influence-street-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100057,
+  "content_hash": "d85814264246017c722c4113c49dfe78f5ed728eae0802efab4c818644a0b648",
+  "source_file": "assets/source/maps/marker-influence-street-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/marker-influence-street-v1.svg",
+      "bytes": 713,
+      "sha256": "d85814264246017c722c4113c49dfe78f5ed728eae0802efab4c818644a0b648"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/markers/marker-influence-street-v1.svg",
+      "bytes": 713,
+      "sha256": "d85814264246017c722c4113c49dfe78f5ed728eae0802efab4c818644a0b648"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 713
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T20:12:05.278Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

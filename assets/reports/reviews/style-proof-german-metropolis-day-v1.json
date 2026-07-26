@@ -1,0 +1,18 @@
+{
+  "realism": 94,
+  "style_consistency": 90,
+  "composition": 93,
+  "material_quality": 91,
+  "lighting_quality": 94,
+  "architecture_plausibility": 92,
+  "ui_suitability": 86,
+  "mobile_suitability": 87,
+  "originality": 91,
+  "safety_compliance": 100,
+  "revision_prompt": "Change only the tall needle-shaped television tower on the far-right skyline and the tiny similar mast near the center. Replace both with original, non-iconic mid-rise German office and residential structures. Preserve the river, bridges, transit corridor, architecture, greenery, clouds, sunlight, reflections, framing, UI space and photorealism unchanged.",
+  "notes": [
+    "Accepted second attempt after removing landmark-like towers.",
+    "Infrastructure and architecture are coherent for a fictional German river metropolis.",
+    "No visible branding, readable identifiers or recognizable individuals."
+  ]
+}

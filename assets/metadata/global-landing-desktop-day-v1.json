@@ -1,0 +1,235 @@
+{
+  "asset_id": "global-landing-desktop-day-v1",
+  "manifest_order": 20,
+  "category": "global",
+  "batch": "global-backgrounds",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/global-landing-desktop-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100020,
+  "content_hash": "1a2e1ea8d751eeab02d44b729d37bc67e9a622cfafbcf3ae60d75e2a751379cf",
+  "source_file": "assets/source/global/global-landing-desktop-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/global-landing-desktop-day-v1-320.avif",
+      "bytes": 5219,
+      "sha256": "eff651a91be608f2b111bf3be39aa7397d4ee76fe55cc55d997bd738e06edbc3"
+    },
+    {
+      "path": "assets/production/webp/global-landing-desktop-day-v1-320.webp",
+      "bytes": 5224,
+      "sha256": "2222c49029a16316567d66478edf22e4aa3c6979fcb09f9a58e2e3dfe3b3c247"
+    },
+    {
+      "path": "assets/production/avif/global-landing-desktop-day-v1-640.avif",
+      "bytes": 15915,
+      "sha256": "f5771d6caa286e10451c5f6bb47dff97b30f54dbb46fc9c70c0142bb6878d278"
+    },
+    {
+      "path": "assets/production/webp/global-landing-desktop-day-v1-640.webp",
+      "bytes": 16434,
+      "sha256": "61820ebade26b98ea938d1339ebfa4fafdecb2e1b27063c8202efa0c939323cd"
+    },
+    {
+      "path": "assets/production/avif/global-landing-desktop-day-v1-960.avif",
+      "bytes": 40996,
+      "sha256": "ac0e9037c5da31cf37c0e3bd2ba7f8bbf34940082633aa1a89811dd8cb564689"
+    },
+    {
+      "path": "assets/production/webp/global-landing-desktop-day-v1-960.webp",
+      "bytes": 38324,
+      "sha256": "705d2c231244ed064d59fc8a7cc877096ddc75930e5ccee4dae7cc7546cf4d75"
+    },
+    {
+      "path": "assets/production/avif/global-landing-desktop-day-v1-1280.avif",
+      "bytes": 63649,
+      "sha256": "2025d7e191704339df922fc302b8a743941e10111124b9aba62b77e6b3e8e680"
+    },
+    {
+      "path": "assets/production/webp/global-landing-desktop-day-v1-1280.webp",
+      "bytes": 60870,
+      "sha256": "3f2320b8cb76b58577f08e5766960fa14b43ab275dca755149e1dab1a20bb45c"
+    },
+    {
+      "path": "assets/production/avif/global-landing-desktop-day-v1-1920.avif",
+      "bytes": 105692,
+      "sha256": "16465724188ff3af1542ab6fc81472e2fb15e0b783a22b358f0fac1cc0906581"
+    },
+    {
+      "path": "assets/production/webp/global-landing-desktop-day-v1-1920.webp",
+      "bytes": 105694,
+      "sha256": "7a47b0c15e056467a1361c68176bf1fc06bbceda533a8755e3762985148bd07f"
+    },
+    {
+      "path": "assets/production/avif/global-landing-desktop-day-v1-2560.avif",
+      "bytes": 143367,
+      "sha256": "aa818f59a697e000cdd5618c260a7a37125052a9b58328de760b53347dde7058"
+    },
+    {
+      "path": "assets/production/webp/global-landing-desktop-day-v1-2560.webp",
+      "bytes": 145922,
+      "sha256": "15cf3849d863678b26f897b85aef9bc333b1ded5959b914b9cbdd39f7c57e63d"
+    },
+    {
+      "path": "assets/production/avif/global-landing-desktop-day-v1-3840.avif",
+      "bytes": 209601,
+      "sha256": "d2432d7963dc1e50b34d149b28dab60ddb376b683109e4234cb78aa5005df51b"
+    },
+    {
+      "path": "assets/production/webp/global-landing-desktop-day-v1-3840.webp",
+      "bytes": 227128,
+      "sha256": "9ee451594e4af012e430c75011427116d53185cac31ba787977e37c491a4ecc2"
+    },
+    {
+      "path": "assets/production/png/global-landing-desktop-day-v1-1280.png",
+      "bytes": 1405076,
+      "sha256": "39986c137f1d5e5deb320e8d823ba81c6b1c4f31a91030a9cbaa545d779b6ce7"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-day-v1-320.avif",
+      "bytes": 5219,
+      "sha256": "eff651a91be608f2b111bf3be39aa7397d4ee76fe55cc55d997bd738e06edbc3"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-day-v1-320.webp",
+      "bytes": 5224,
+      "sha256": "2222c49029a16316567d66478edf22e4aa3c6979fcb09f9a58e2e3dfe3b3c247"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-day-v1-640.avif",
+      "bytes": 15915,
+      "sha256": "f5771d6caa286e10451c5f6bb47dff97b30f54dbb46fc9c70c0142bb6878d278"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-day-v1-640.webp",
+      "bytes": 16434,
+      "sha256": "61820ebade26b98ea938d1339ebfa4fafdecb2e1b27063c8202efa0c939323cd"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-day-v1-960.avif",
+      "bytes": 40996,
+      "sha256": "ac0e9037c5da31cf37c0e3bd2ba7f8bbf34940082633aa1a89811dd8cb564689"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-day-v1-960.webp",
+      "bytes": 38324,
+      "sha256": "705d2c231244ed064d59fc8a7cc877096ddc75930e5ccee4dae7cc7546cf4d75"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-day-v1-1280.avif",
+      "bytes": 63649,
+      "sha256": "2025d7e191704339df922fc302b8a743941e10111124b9aba62b77e6b3e8e680"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-day-v1-1280.webp",
+      "bytes": 60870,
+      "sha256": "3f2320b8cb76b58577f08e5766960fa14b43ab275dca755149e1dab1a20bb45c"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-day-v1-1920.avif",
+      "bytes": 105692,
+      "sha256": "16465724188ff3af1542ab6fc81472e2fb15e0b783a22b358f0fac1cc0906581"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-day-v1-1920.webp",
+      "bytes": 105694,
+      "sha256": "7a47b0c15e056467a1361c68176bf1fc06bbceda533a8755e3762985148bd07f"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-day-v1-2560.avif",
+      "bytes": 143367,
+      "sha256": "aa818f59a697e000cdd5618c260a7a37125052a9b58328de760b53347dde7058"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-day-v1-2560.webp",
+      "bytes": 145922,
+      "sha256": "15cf3849d863678b26f897b85aef9bc333b1ded5959b914b9cbdd39f7c57e63d"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-day-v1-3840.avif",
+      "bytes": 209601,
+      "sha256": "d2432d7963dc1e50b34d149b28dab60ddb376b683109e4234cb78aa5005df51b"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-day-v1-3840.webp",
+      "bytes": 227128,
+      "sha256": "9ee451594e4af012e430c75011427116d53185cac31ba787977e37c491a4ecc2"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-desktop-day-v1-1280.png",
+      "bytes": 1405076,
+      "sha256": "39986c137f1d5e5deb320e8d823ba81c6b1c4f31a91030a9cbaa545d779b6ce7"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 95,
+    "style_consistency": 95,
+    "composition": 96,
+    "material_quality": 95,
+    "lighting_quality": 94,
+    "architecture_plausibility": 93,
+    "ui_suitability": 92,
+    "mobile_suitability": 85,
+    "originality": 91,
+    "safety_compliance": 100,
+    "accepted_prompt": "Use case: photorealistic-natural\nAsset type: 21:9 desktop landing-page hero background for the fictional multiplayer economic strategy game SHADOWGRID\nInput images: Image 1 and Image 2 are approved style references only; preserve their premium architectural realism, anthracite materials, restrained warm-gold light and plausible fictional German urban character, but create a completely new composition and location.\nPrimary request: Create an original ultra-wide establishing scene of a wholly fictional contemporary German river metropolis during daytime, seen from a premium strategic headquarters terrace and public urban overlook.\nScene/backdrop: plausible mixed historic masonry districts, postwar blocks, modern offices, ordinary bridges, public transit, riverfront greenery and a believable economic center; no real or recognizable city, building or landmark.\nSubject: a dark-glass and brushed-metal headquarters structure framing the right third, with the fictional metropolis and river extending through the center; the left third must remain visually calm and slightly darker for large landing-page headline, body copy and two buttons.\nStyle/medium: ultra-realistic architectural and urban photography; contemporary German economic-strategy atmosphere; cinematic corporate thriller; subtle cyber-noir only through restrained grading and materials, never science fiction.\nComposition/framing: very wide 21:9 panorama; plausible elevated human viewpoint; horizon level; strong depth; important subject matter in center-right; unobstructed negative space across the left 35%; preserve a useful central crop for narrower desktop screens.\nLighting/mood: late-afternoon natural daylight through broken cloud, realistic haze and reflections, confident and strategic rather than ominous.\nColor palette: anthracite, cool neutral blue-gray, stone, muted greenery and restrained warm-gold sunlight; no saturated neon and no warning red.\nConstraints: no embedded words, fake interface, signage, company logo, authority insignia, readable plates or addresses, recognizable people, famous landmark, copied photograph angle, watermark, weapon, violence, illegal activity, impossible building or fantasy skyline. Architecture, transport and river infrastructure must be physically plausible.",
+    "reference_images": [
+      "assets/source/style-proof/style-proof-urban-control-center-day-v1.png",
+      "assets/source/style-proof/style-proof-german-metropolis-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first built-in generation attempt.",
+      "No visible logo, readable sign, private identifier, recognizable person, weapon, extremist symbol or explicit wrongdoing.",
+      "The left third remains dark enough for overlay copy; center-right architecture preserves a useful narrower desktop crop.",
+      "The generated panorama is original and does not reproduce a recognizable landmark or known viewpoint."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 5460935
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T14:27:22.723Z",
+  "license": "project-owned-generated-asset",
+  "notes": [
+    "Accepted first built-in generation attempt.",
+    "No visible logo, readable sign, private identifier, recognizable person, weapon, extremist symbol or explicit wrongdoing.",
+    "The left third remains dark enough for overlay copy; center-right architecture preserves a useful narrower desktop crop.",
+    "The generated panorama is original and does not reproduce a recognizable landmark or known viewpoint."
+  ]
+}

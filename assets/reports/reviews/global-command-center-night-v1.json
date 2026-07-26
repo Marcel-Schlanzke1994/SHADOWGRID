@@ -1,0 +1,22 @@
+{
+  "realism": 98,
+  "style_consistency": 99,
+  "composition": 98,
+  "material_quality": 98,
+  "lighting_quality": 99,
+  "architecture_plausibility": 97,
+  "ui_suitability": 98,
+  "mobile_suitability": 87,
+  "originality": 94,
+  "safety_compliance": 100,
+  "accepted_prompt": "Use case: lighting-weather\nAsset type: global authenticated command-center background, nighttime variant, for the fictional cross-platform strategy game SHADOWGRID\nInput images: Image 1 is the approved daytime command-center edit target.\nPrimary request: Change only the time of day and corresponding physically plausible lighting so the same fictional command center appears at realistic urban night.\nInvariants: preserve the exact architecture, camera position, framing, room geometry, workstation placement, dark blank displays, left-side UI negative space, city layout, materials, proportions, and all object identities from Image 1. Do not add, remove, move, or redesign objects.\nLighting/mood: realistic deep-blue urban night outside; warm interior practical lights and restrained warm-gold edge accents; credible exposure adaptation, subtle reflections, and distant city windows. Maintain readable dark negative space across the left 45% and center. Keep the result analytical and controlled, not ominous.\nColor palette: black and anthracite, deep neutral blue-gray, restrained warm gold; no saturated neon and no warning red.\nText: none.\nConstraints: no people or faces; no readable displays, data, maps, diagrams, interface panels, text, fake writing, signage, captions, logos, watermarks, signatures, readable plates, addresses, flags, uniforms, authorities, weapons, crime symbols, or real brands. Preserve suitability beneath a dense real UI and a narrow mobile cover crop.\nAvoid: geometry drift, extra furniture, newly illuminated screen content, sci-fi holograms, excessive neon, crushed black detail, blown highlights, fantasy skyline, cartoon, anime, comic, plastic mobile-game rendering, blur, low resolution, compression artifacts.",
+  "reference_images": [
+    "assets/source/global/global-command-center-day-v1.png"
+  ],
+  "notes": [
+    "Accepted first built-in lighting edit.",
+    "Architecture, camera, workstation placement, blank displays and UI-safe negative space remain consistent with the daytime asset.",
+    "Only physically plausible time-of-day lighting, reflections and distant city windows changed.",
+    "No visible person, text, map, interface, logo, private identifier, authority mark, weapon or illicit activity."
+  ]
+}

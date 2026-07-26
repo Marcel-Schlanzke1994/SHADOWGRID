@@ -1,0 +1,17 @@
+{
+  "realism": 95,
+  "style_consistency": 94,
+  "composition": 91,
+  "material_quality": 95,
+  "lighting_quality": 95,
+  "architecture_plausibility": 94,
+  "ui_suitability": 83,
+  "mobile_suitability": 88,
+  "originality": 92,
+  "safety_compliance": 100,
+  "notes": [
+    "Accepted first attempt.",
+    "Facade, plaza, transit context and wet-surface reflections are physically plausible.",
+    "No visible corporate brand, readable sign, recognizable person or real authority mark."
+  ]
+}

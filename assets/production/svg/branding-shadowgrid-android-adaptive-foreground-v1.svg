@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1536" viewBox="0 0 1536 1536" role="img" aria-labelledby="title"><title id="title">Android adaptive icon foreground</title><defs>
+    <radialGradient id="brand-bg" cx="32%" cy="22%" r="88%">
+      <stop stop-color="#1b222a"/>
+      <stop offset=".55" stop-color="#0d1116"/>
+      <stop offset="1" stop-color="#06080b"/>
+    </radialGradient>
+    <pattern id="brand-grid" width="96" height="96" patternUnits="userSpaceOnUse">
+      <path d="M96 0H0V96" fill="none" stroke="#8fa0aa" stroke-opacity=".09" stroke-width="3"/>
+    </pattern>
+  </defs>
+      <g transform="translate(337.91999999999996 337.91999999999996) scale(0.86016)">
+    <path d="M500 90 850 290v420L500 910 150 710V290Z" fill="none" stroke="#d8b15b" stroke-width="52" stroke-linejoin="round"/>
+    <path d="M500 260 700 375v250L500 740 300 625V375Z" fill="none" stroke="#d8b15b" stroke-width="34" stroke-linejoin="round" opacity=".72"/>
+       <path d="M500 260v480M300 375l400 250M700 375 300 625" fill="none" stroke="#d8b15b" stroke-width="24" stroke-linecap="round"/>
+       <circle cx="500" cy="500" r="58" fill="#d8b15b"/>
+  </g>
+    </svg>

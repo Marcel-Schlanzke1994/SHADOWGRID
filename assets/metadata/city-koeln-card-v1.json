@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-koeln-card-v1",
+  "manifest_order": 73,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "koeln",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-koeln-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100073,
+  "content_hash": "7b7f45bd7604458bfec74a7e470d7d0e9e79f511ef7daae174d57ce5d1161d0c",
+  "source_file": "assets/source/cities/city-koeln-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-koeln-card-v1-320.avif",
+      "bytes": 7511,
+      "sha256": "e7201bdc143510324b4c662cfb9c14342cc168da9b702ae86117349da8be59ab"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-card-v1-320.webp",
+      "bytes": 7764,
+      "sha256": "7b7d39530875ddd18fba05b57504689fdeb13c929a97c63967b0a67d26828010"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-card-v1-640.avif",
+      "bytes": 28284,
+      "sha256": "f6a2def6d4df54f5912d247353c639111e016f1ab603dcba521876ac43529dcc"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-card-v1-640.webp",
+      "bytes": 29894,
+      "sha256": "13265ea6c545df6636398a841905c3e59e8b0d6690bf310580ae578b2f910ff0"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-card-v1-960.avif",
+      "bytes": 78616,
+      "sha256": "ee0010b31679d6cae6a548253c291008da42c4f4a10898879167ef7575bfb98f"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-card-v1-960.webp",
+      "bytes": 72892,
+      "sha256": "d7486c8e295c0288266d7c630c0a7cfa3861ae65626d66b0fa13e52906bafac5"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-card-v1-1280.avif",
+      "bytes": 115676,
+      "sha256": "4f58b9d610e16750cb9b9528ded4ea11bcbb49f33a5539b097420f2564deefff"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-card-v1-1280.webp",
+      "bytes": 110690,
+      "sha256": "ec58bc57d243990368f6851c13a98c9a75dd96c5c2f728aa7583abda362c2992"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-card-v1-1920.avif",
+      "bytes": 624751,
+      "sha256": "f703949bdaa6ff0a3c5b93ed98aac1d44dd7933fa22b5f6d0dcc1bb0926cf702"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-card-v1-1920.webp",
+      "bytes": 170844,
+      "sha256": "e05008bc98ada13968cc896a461aa87ec674d8f5b947e18b4333c69a6152bdf9"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-card-v1-2560.avif",
+      "bytes": 932082,
+      "sha256": "4330caf13f3885684768758371894ac7a8ab9b92660ece623f005433f5878675"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-card-v1-2560.webp",
+      "bytes": 239782,
+      "sha256": "7e895fbc4f0fcc19cdf7329dd1f4928fddfc619539f2b454b1b2d3966e2cb30c"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-card-v1-3840.avif",
+      "bytes": 1530298,
+      "sha256": "417f30eebaaafefe011945f11ea14f3c8568be7f79e101a588b6042a88361618"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-card-v1-3840.webp",
+      "bytes": 401120,
+      "sha256": "b654df2bb359aa4a5b4fac658f0845b1d0babc808cdaf55051c05107c87da78c"
+    },
+    {
+      "path": "assets/production/png/city-koeln-card-v1-1280.png",
+      "bytes": 2817642,
+      "sha256": "88b382e5078bec5faa85b7fe9a0d56b3a96294db6999299c1b6525bdb3cbf36b"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-card-v1-320.avif",
+      "bytes": 7511,
+      "sha256": "e7201bdc143510324b4c662cfb9c14342cc168da9b702ae86117349da8be59ab"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-card-v1-320.webp",
+      "bytes": 7764,
+      "sha256": "7b7d39530875ddd18fba05b57504689fdeb13c929a97c63967b0a67d26828010"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-card-v1-640.avif",
+      "bytes": 28284,
+      "sha256": "f6a2def6d4df54f5912d247353c639111e016f1ab603dcba521876ac43529dcc"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-card-v1-640.webp",
+      "bytes": 29894,
+      "sha256": "13265ea6c545df6636398a841905c3e59e8b0d6690bf310580ae578b2f910ff0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-card-v1-960.avif",
+      "bytes": 78616,
+      "sha256": "ee0010b31679d6cae6a548253c291008da42c4f4a10898879167ef7575bfb98f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-card-v1-960.webp",
+      "bytes": 72892,
+      "sha256": "d7486c8e295c0288266d7c630c0a7cfa3861ae65626d66b0fa13e52906bafac5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-card-v1-1280.avif",
+      "bytes": 115676,
+      "sha256": "4f58b9d610e16750cb9b9528ded4ea11bcbb49f33a5539b097420f2564deefff"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-card-v1-1280.webp",
+      "bytes": 110690,
+      "sha256": "ec58bc57d243990368f6851c13a98c9a75dd96c5c2f728aa7583abda362c2992"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-card-v1-1920.avif",
+      "bytes": 624751,
+      "sha256": "f703949bdaa6ff0a3c5b93ed98aac1d44dd7933fa22b5f6d0dcc1bb0926cf702"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-card-v1-1920.webp",
+      "bytes": 170844,
+      "sha256": "e05008bc98ada13968cc896a461aa87ec674d8f5b947e18b4333c69a6152bdf9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-card-v1-2560.avif",
+      "bytes": 932082,
+      "sha256": "4330caf13f3885684768758371894ac7a8ab9b92660ece623f005433f5878675"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-card-v1-2560.webp",
+      "bytes": 239782,
+      "sha256": "7e895fbc4f0fcc19cdf7329dd1f4928fddfc619539f2b454b1b2d3966e2cb30c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-card-v1-3840.avif",
+      "bytes": 1530298,
+      "sha256": "417f30eebaaafefe011945f11ea14f3c8568be7f79e101a588b6042a88361618"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-card-v1-3840.webp",
+      "bytes": 401120,
+      "sha256": "b654df2bb359aa4a5b4fac658f0845b1d0babc808cdaf55051c05107c87da78c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-card-v1-1280.png",
+      "bytes": 2817642,
+      "sha256": "88b382e5078bec5faa85b7fe9a0d56b3a96294db6999299c1b6525bdb3cbf36b"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 98.4,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 100,
+    "composition": 99,
+    "material_quality": 98,
+    "lighting_quality": 99,
+    "architecture_plausibility": 97,
+    "ui_suitability": 100,
+    "mobile_suitability": 98,
+    "originality": 95,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create a separately composed square city-card image for the same accepted fictional Köln-inspired SHADOWGRID city.\n\nOutput composition: exact 1:1 square, intended final size 1536×1536. Reconstruct the view for a premium city-selection card rather than cropping the desktop hero. Preserve the family identity: broad Rhine-like river, one original low-profile truss bridge, generic low- and mid-rise civic skyline, restrained media/trade/logistics cues, cool neutral blue-gray atmosphere, and warm late-afternoon gold highlights.\n\nPlace the river bend and original bridge as a strong centered geometric anchor. Keep the fictional skyline in the upper-middle third, with realistic atmospheric depth and physically plausible architecture. Reserve a slightly darker, lower-detail bottom 24% for external localized city name, status badges, and one action; do not embed any of that UI. Keep all important shapes inside an inner 82% safe area for rounded card masks. No focal people.\n\nDo not add Cologne Cathedral, twin Gothic spires, the Hohenzollern Bridge, any recognizable real Cologne landmark, or a known photographic viewpoint. The scene must be an original fictionalized Rhine metropolis.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, trafficking routes, fantasy architecture, impossible bridge geometry, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic 1:1 daytime city-card backing plate with no border, rounded mask, title, or device mockup.",
+    "reference_images": [
+      "assets/source/cities/city-koeln-desktop-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first square-card recomposition attempt.",
+      "The river bend and original bridge form a centered anchor, while the fictional skyline remains within the inner card-safe area.",
+      "The lower quarter is dark and lower-detail for external localized labels, badges, and one action.",
+      "No recognizable Cologne landmark, copied viewpoint, embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3933506
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T20:44:07.923Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first square-card recomposition attempt.",
+    "The river bend and original bridge form a centered anchor, while the fictional skyline remains within the inner card-safe area.",
+    "The lower quarter is dark and lower-detail for external localized labels, badges, and one action.",
+    "No recognizable Cologne landmark, copied viewpoint, embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

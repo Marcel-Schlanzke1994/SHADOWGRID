@@ -1,0 +1,22 @@
+{
+  "realism": 98,
+  "style_consistency": 100,
+  "composition": 100,
+  "material_quality": 98,
+  "lighting_quality": 99,
+  "architecture_plausibility": 97,
+  "ui_suitability": 100,
+  "mobile_suitability": 92,
+  "originality": 95,
+  "safety_compliance": 100,
+  "accepted_prompt": "Create the coordinated 21:9 night counterpart for this accepted fictional Hamburg-inspired SHADOWGRID city hero.\n\nPreserve the exact ultra-wide canvas and accepted fictional geometry: the broad interconnected waterways, original brick warehouse peninsula, restrained contemporary waterfront offices, small generic work vessels, low-profile bridges, layered northern metropolis, center-right detail placement, and calm dark low-detail left 38% UI safe area. Keep it clearly the same original city composition and do not reveal or invent any operational port layout.\n\nTransform the scene to physically plausible maritime blue-hour-to-night conditions: deep anthracite and cool blue-gray rain clouds, restrained warm-gold warehouse and office windows, subtle quay and bridge safety lighting, wet stone and steel reflections, and realistic dark water. Retain readable midtone detail in the fictional brick, glass, bridges, and water without crushing blacks. The left overlay area must remain calm and dark. Avoid saturated neon, overexposure, warning-red gameplay cues, emergency lighting, spectacle, or excessive haze.\n\nDo not add the Elbphilharmonie, recognizable Speicherstadt arrangements or viewpoints, St. Michael's Church, Hamburg Rathaus, Köhlbrand Bridge, Landungsbrücken, any exact real landmark silhouette, real shipping terminal, sensitive port infrastructure, or known photograph/viewpoint. Do not add real company liveries or infrastructure identifiers.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, trafficking routes, instructions, fantasy architecture, impossible bridge geometry, excessive neon, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 21:9 night city environment, intended final size 2688×1152, with no border, title, UI, or device mockup.",
+  "reference_images": [
+    "assets/source/cities/city-hamburg-ultrawide-day-v1.png"
+  ],
+  "notes": [
+    "Accepted first night-conversion attempt.",
+    "Waterways, fictional brick district, contemporary offices, bridges, vessels, and the left 38 percent UI safe area remain coordinated with the approved daytime counterpart.",
+    "Warm practical lights and wet reflections remain restrained, while bridge, masonry, glass, and water retain readable midtone detail.",
+    "No recognizable Hamburg landmark, sensitive port layout, text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

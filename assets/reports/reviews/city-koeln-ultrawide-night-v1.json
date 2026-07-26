@@ -1,0 +1,23 @@
+{
+  "realism": 97,
+  "style_consistency": 100,
+  "composition": 99,
+  "material_quality": 97,
+  "lighting_quality": 98,
+  "architecture_plausibility": 97,
+  "ui_suitability": 100,
+  "mobile_suitability": 92,
+  "originality": 93,
+  "safety_compliance": 100,
+  "accepted_prompt": "Create the coordinated night counterpart for this accepted fictional Köln-inspired SHADOWGRID city hero.\n\nPreserve the exact 21:9 canvas, broad Rhine-like river, original low-profile foreground truss bridge, generic distant cable-stayed bridge, fictional low- and mid-rise civic skyline, center-right detail placement, and dark low-detail left 38% UI safe area. Keep the geometry consistent enough to read as the same fictionalized city, while making the night image a separately finished premium environment backing plate.\n\nTransform lighting to a physically plausible blue-hour-to-night urban scene: deep anthracite sky with subtle cloud texture, cool blue-gray ambient light, restrained warm-gold window and riverside practical lights, realistic reflections on river water, bridges safely but subtly illuminated. Avoid overexposure and avoid saturated neon. The skyline must remain legible without brightening the left UI-safe area. No dramatic emergency or danger cues.\n\nDo not add Cologne Cathedral, a twin-spired cathedral, the Hohenzollern Bridge, or any recognizable real landmark. Do not change the generic bridges into known Cologne bridge designs. No exact real-world viewpoint.\n\nNo written words, letters, numbers, signage, captions, UI, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, crowds, flags, real authority marks, police insignia, criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, trafficking routes, fantasy architecture, impossible geometry, excessive neon, warning red, blur, compression artifacts, or fake writing.\n\nDeliver only the clean ultra-realistic 21:9 night environment backing plate, intended final size 2688×1152, with no border or embedded interface.",
+  "reference_images": [
+    "assets/source/cities/city-koeln-ultrawide-day-v1.png"
+  ],
+  "notes": [
+    "Accepted first night-conversion attempt based on the approved fictional daytime city.",
+    "River, low-profile truss bridge, generic cable-stayed bridge, civic skyline, and UI safe area remain coordinated with the day counterpart.",
+    "Warm practical lights and cool ambient illumination remain restrained and physically plausible, with readable reflections rather than saturated neon.",
+    "Tiny distant aviation lights are environmental safety details and do not communicate a gameplay warning state.",
+    "No recognizable Cologne landmark, exact real-world viewpoint, text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

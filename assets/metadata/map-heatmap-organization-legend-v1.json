@@ -1,0 +1,65 @@
+{
+  "asset_id": "map-heatmap-organization-legend-v1",
+  "manifest_order": 46,
+  "category": "map",
+  "batch": "germany-map",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/map-heatmap-organization-legend-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100046,
+  "content_hash": "0def2a97baad3e4094abc1dfbf623a24fac672132271208b8b8379a385cca8dd",
+  "source_file": "assets/source/maps/map-heatmap-organization-legend-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/map-heatmap-organization-legend-v1.svg",
+      "bytes": 3693,
+      "sha256": "0def2a97baad3e4094abc1dfbf623a24fac672132271208b8b8379a385cca8dd"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/maps/map-heatmap-organization-legend-v1.svg",
+      "bytes": 3693,
+      "sha256": "0def2a97baad3e4094abc1dfbf623a24fac672132271208b8b8379a385cca8dd"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 3693
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T19:42:07.037Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

@@ -1,0 +1,153 @@
+{
+  "asset_id": "style-proof-urban-control-center-day-v1",
+  "manifest_order": 1,
+  "category": "style-proof",
+  "batch": "style-proof",
+  "city": null,
+  "variant": "day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/style-proof-urban-control-center-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100001,
+  "content_hash": "49a71023cd7d08f75c3d18b91b1b15ea7c3cbfc524b9e80231fa2d33ce21be5f",
+  "source_file": "assets/source/style-proof/style-proof-urban-control-center-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/style-proof-urban-control-center-day-v1-320.avif",
+      "bytes": 6461,
+      "sha256": "f8a09604005b9fbf492dff6eb080f59a31008a1eed2c50ab2079671b352422cb"
+    },
+    {
+      "path": "assets/production/webp/style-proof-urban-control-center-day-v1-320.webp",
+      "bytes": 6498,
+      "sha256": "d083ce9efe680d87dc20a11c616a95df8ca9627a2eecaf454e004f0537bad61b"
+    },
+    {
+      "path": "assets/production/avif/style-proof-urban-control-center-day-v1-640.avif",
+      "bytes": 19264,
+      "sha256": "f512b756fa642bea28d85363ccade3d5ebb967a1e397720ea3a7a5134e81fcef"
+    },
+    {
+      "path": "assets/production/webp/style-proof-urban-control-center-day-v1-640.webp",
+      "bytes": 20232,
+      "sha256": "de81f195fe24fcf7195b604f8dc96194c21cfd532ab8a8aaae6a392b1f0859e4"
+    },
+    {
+      "path": "assets/production/avif/style-proof-urban-control-center-day-v1-960.avif",
+      "bytes": 44738,
+      "sha256": "9b73f9c89243e2a85e01ed5981a5284a46857a7116d7a0bd08bb6df3b90bcacf"
+    },
+    {
+      "path": "assets/production/webp/style-proof-urban-control-center-day-v1-960.webp",
+      "bytes": 43876,
+      "sha256": "acdf84736b729d2cffd6b7b037be12f7534e566db31b783965b46a64d5880c17"
+    },
+    {
+      "path": "assets/production/avif/style-proof-urban-control-center-day-v1-1280.avif",
+      "bytes": 66778,
+      "sha256": "9eeafa33663d6922b9c7bfb9ea9e3ad2600d714cf8b3ce72c8cc409fc1d86e77"
+    },
+    {
+      "path": "assets/production/webp/style-proof-urban-control-center-day-v1-1280.webp",
+      "bytes": 66580,
+      "sha256": "4ae881507a3f189e3da2ce73d9bfd18f53c25d3085657ecbc15e966e257fa32d"
+    },
+    {
+      "path": "assets/production/avif/style-proof-urban-control-center-day-v1-1920.avif",
+      "bytes": 104333,
+      "sha256": "25093a41979cc7f2ff2c06225b7edf2724c420f05b7028a08781cf3cb2dea2a8"
+    },
+    {
+      "path": "assets/production/webp/style-proof-urban-control-center-day-v1-1920.webp",
+      "bytes": 111982,
+      "sha256": "4df8b04bcecf03520755b90c56f402bea67634aafacdbd27d0e1c753c628f307"
+    },
+    {
+      "path": "assets/production/avif/style-proof-urban-control-center-day-v1-2560.avif",
+      "bytes": 136429,
+      "sha256": "f5bd9b23010471df4f4f96d554ffe6d17c00d98a2052f49820ea95765056f0ea"
+    },
+    {
+      "path": "assets/production/webp/style-proof-urban-control-center-day-v1-2560.webp",
+      "bytes": 144318,
+      "sha256": "9b7e79b9105b48393c8beb0666137b69febb364d31d2aee08de4e7f18ece5785"
+    },
+    {
+      "path": "assets/production/avif/style-proof-urban-control-center-day-v1-3840.avif",
+      "bytes": 761318,
+      "sha256": "96a77315bb3534e9a207df101b467e19fb6a7ec08f90aaf695df25b44d20eed0"
+    },
+    {
+      "path": "assets/production/webp/style-proof-urban-control-center-day-v1-3840.webp",
+      "bytes": 227932,
+      "sha256": "697b3a58655420aa44dee536e829636e99bf8ca5973fd7a95ae0f64e9efc705c"
+    },
+    {
+      "path": "assets/production/png/style-proof-urban-control-center-day-v1-1280.png",
+      "bytes": 1711709,
+      "sha256": "3a31238635bb439e1ef285d737ff8b0357a3cf046ffca370736be53c117fa8f8"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 94,
+    "style_consistency": 92,
+    "composition": 94,
+    "material_quality": 95,
+    "lighting_quality": 93,
+    "architecture_plausibility": 93,
+    "ui_suitability": 92,
+    "mobile_suitability": 86,
+    "originality": 91,
+    "safety_compliance": 100,
+    "revision_prompt": "Change only the distant city skyline so it becomes a wholly fictional, generic contemporary German metropolis. Remove the recognizable Berlin TV tower and any other identifiable landmark silhouette. Replace them with plausible mid-rise German mixed-use architecture and one or two original, non-iconic modern office towers. Preserve the foreground control-center architecture, terrace, materials, camera, composition, UI space, daylight and reflections unchanged.",
+    "notes": [
+      "Accepted second attempt after removing a recognizable landmark silhouette.",
+      "No visible text, logo, private identifier, person, weapon, extremist symbol or explicit wrongdoing.",
+      "Large left-side sky and city area remains suitable for interface overlays."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 4044309
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T13:20:28.488Z",
+  "license": "project-owned-generated-asset",
+  "notes": [
+    "Accepted second attempt after removing a recognizable landmark silhouette.",
+    "No visible text, logo, private identifier, person, weapon, extremist symbol or explicit wrongdoing.",
+    "Large left-side sky and city area remains suitable for interface overlays."
+  ],
+  "runtime_files": []
+}

@@ -1,0 +1,32 @@
+{
+  "geographic_fidelity": 100,
+  "geometry_quality": 98,
+  "composition": 98,
+  "small_size_legibility": 96,
+  "contrast": 98,
+  "ui_suitability": 98,
+  "mobile_suitability": 94,
+  "originality": 95,
+  "technical_quality": 100,
+  "safety_compliance": 100,
+  "license": "dl-de/by-2-0",
+  "process_documentation": "Fetched the official BKG VG250 boundary-line layer in EPSG:25832 through WFS 2.0, selected federal-state boundaries with AGZ=2 and land boundaries with GMK=0, projected them into the same 1536×1536 north-up view box as the country outline, simplified them deterministically by 0.55 px, and emitted a transparent SVG overlay without labels or invented borders.",
+  "provenance": {
+    "schema": "shadowgrid-bkg-geodata-v1",
+    "provider": "Bundesamt für Kartographie und Geodäsie (BKG)",
+    "product": "Verwaltungsgebiete 1:250 000, Stand 01.01.2025",
+    "coordinate_reference_system": "EPSG:25832",
+    "source_record": "assets/source/maps/geodata/bkg-2025/sources.json",
+    "input_layer": "state_borders",
+    "input_filter": "agz=2 AND gmk=0",
+    "input_sha256": "fe285db8ca529a42ac5f52b152fd4d256b198f1165569ce675fa377473ff4a55",
+    "output_sha256": "e711e2f51745615e045c89e5c867e769e903623fd5f9752399d5ca3b7e515fb9",
+    "license_url": "https://www.govdata.de/dl-de/by-2-0",
+    "attribution": "© BKG 2025 dl-de/by-2-0 (Daten verändert), Datenquellen: https://sgx.geodatenzentrum.de/web_public/gdz/datenquellen/datenquellen_vg_nuts.pdf"
+  },
+  "notes": [
+    "Visual inspection confirms the internal boundaries align with the Germany outline and remain readable at the 1024 px proof size.",
+    "The gold line treatment is distinguishable from water by both hue and line structure and is intended as an overlay, not a standalone map.",
+    "No labels, disputed claims, invented borders, external resources, scripts, or raster data are embedded."
+  ]
+}

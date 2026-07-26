@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-hamburg-mobile-day-v1",
+  "manifest_order": 79,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "hamburg",
+  "variant": "mobile-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-hamburg-mobile-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100079,
+  "content_hash": "ddc702a76d9ad6f0cbcecfd2b0bfc608a30a020eb264dfa6f429076b3046db50",
+  "source_file": "assets/source/cities/city-hamburg-mobile-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-hamburg-mobile-day-v1-320.avif",
+      "bytes": 16044,
+      "sha256": "dffd625fb5790b9bfc3db6ed1228b9437a2e46fbdd43a6b37c619df116f0fe02"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-mobile-day-v1-320.webp",
+      "bytes": 16050,
+      "sha256": "4fffb7749bdb9a15e1435544e3d4c8a8af1e7371135795ea5ee02787a0fab859"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-mobile-day-v1-640.avif",
+      "bytes": 58138,
+      "sha256": "227ab5ce3a6f99a0ca30c7d6dadce9340a3bc14e460ae44c4182872e1f175c4c"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-mobile-day-v1-640.webp",
+      "bytes": 60520,
+      "sha256": "86182478c367d20170022a56ce056fcf4f33850acaa40feb90396bb27466f4bc"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-mobile-day-v1-960.avif",
+      "bytes": 132174,
+      "sha256": "e9cc8848c6b657059163c6b0b1da0dfced2244cef8de98de1d335b0ca021b2fa"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-mobile-day-v1-960.webp",
+      "bytes": 124798,
+      "sha256": "1d709416de71f2da704577a54920b4a2dbb0db751612311a0e12806d50c2b5f7"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-mobile-day-v1-1280.avif",
+      "bytes": 172341,
+      "sha256": "3f518fd94ba5ef48c752e2a71bb6d440a173926df78faa8f323fc227995fc3df"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-mobile-day-v1-1280.webp",
+      "bytes": 166634,
+      "sha256": "dbef8f9fdc95493160726bc01fc966a29a705f7b53569dc73478c90704b7a8ef"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-mobile-day-v1-1920.avif",
+      "bytes": 259963,
+      "sha256": "a68b75b1154c06ac4b359ef5c1a4de325ab9f7e4f7b7cf425dcc915532c04772"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-mobile-day-v1-1920.webp",
+      "bytes": 268562,
+      "sha256": "762a5fa8173c6032bfcb5194bf80ea5358d4141517ae680542c872e260fad0f3"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-mobile-day-v1-2560.avif",
+      "bytes": 349331,
+      "sha256": "4d62b039d96ee3f778c2180c155d8a8d258aa59f008ba8fcc116a7e6e4cbd048"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-mobile-day-v1-2560.webp",
+      "bytes": 381762,
+      "sha256": "a54816efbacf986f1e8a43f3ad4db89a77a3ce429455fc739e01b7de8d3901c1"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-mobile-day-v1-3840.avif",
+      "bytes": 2075237,
+      "sha256": "f989f143821e27c95a79d0a86cf6870985ad9b5fef79f2ba8536c0a57e24c420"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-mobile-day-v1-3840.webp",
+      "bytes": 631736,
+      "sha256": "0e6d8e3ec23f58d197d96ee873912d57fa559903faff59dd8311d98be1589fc2"
+    },
+    {
+      "path": "assets/production/png/city-hamburg-mobile-day-v1-1152.png",
+      "bytes": 4120577,
+      "sha256": "8f8ea7b5f108ac0bbbf57e80bc239d03ab281d9b985e929739b75fb5c9db29da"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-day-v1-320.avif",
+      "bytes": 16044,
+      "sha256": "dffd625fb5790b9bfc3db6ed1228b9437a2e46fbdd43a6b37c619df116f0fe02"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-day-v1-320.webp",
+      "bytes": 16050,
+      "sha256": "4fffb7749bdb9a15e1435544e3d4c8a8af1e7371135795ea5ee02787a0fab859"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-day-v1-640.avif",
+      "bytes": 58138,
+      "sha256": "227ab5ce3a6f99a0ca30c7d6dadce9340a3bc14e460ae44c4182872e1f175c4c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-day-v1-640.webp",
+      "bytes": 60520,
+      "sha256": "86182478c367d20170022a56ce056fcf4f33850acaa40feb90396bb27466f4bc"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-day-v1-960.avif",
+      "bytes": 132174,
+      "sha256": "e9cc8848c6b657059163c6b0b1da0dfced2244cef8de98de1d335b0ca021b2fa"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-day-v1-960.webp",
+      "bytes": 124798,
+      "sha256": "1d709416de71f2da704577a54920b4a2dbb0db751612311a0e12806d50c2b5f7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-day-v1-1280.avif",
+      "bytes": 172341,
+      "sha256": "3f518fd94ba5ef48c752e2a71bb6d440a173926df78faa8f323fc227995fc3df"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-day-v1-1280.webp",
+      "bytes": 166634,
+      "sha256": "dbef8f9fdc95493160726bc01fc966a29a705f7b53569dc73478c90704b7a8ef"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-day-v1-1920.avif",
+      "bytes": 259963,
+      "sha256": "a68b75b1154c06ac4b359ef5c1a4de325ab9f7e4f7b7cf425dcc915532c04772"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-day-v1-1920.webp",
+      "bytes": 268562,
+      "sha256": "762a5fa8173c6032bfcb5194bf80ea5358d4141517ae680542c872e260fad0f3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-day-v1-2560.avif",
+      "bytes": 349331,
+      "sha256": "4d62b039d96ee3f778c2180c155d8a8d258aa59f008ba8fcc116a7e6e4cbd048"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-day-v1-2560.webp",
+      "bytes": 381762,
+      "sha256": "a54816efbacf986f1e8a43f3ad4db89a77a3ce429455fc739e01b7de8d3901c1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-day-v1-3840.avif",
+      "bytes": 2075237,
+      "sha256": "f989f143821e27c95a79d0a86cf6870985ad9b5fef79f2ba8536c0a57e24c420"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-day-v1-3840.webp",
+      "bytes": 631736,
+      "sha256": "0e6d8e3ec23f58d197d96ee873912d57fa559903faff59dd8311d98be1589fc2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-day-v1-1152.png",
+      "bytes": 4120577,
+      "sha256": "8f8ea7b5f108ac0bbbf57e80bc239d03ab281d9b985e929739b75fb5c9db29da"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 98.7,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 98,
+    "lighting_quality": 98,
+    "architecture_plausibility": 97,
+    "ui_suitability": 100,
+    "mobile_suitability": 100,
+    "originality": 96,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create a separately composed portrait mobile hero for the same accepted fictional Hamburg-inspired SHADOWGRID city in the reference.\n\nOutput composition: exact 9:16 portrait, intended final size 1152×2048. Reconstruct the environment vertically rather than cropping the landscape image. Preserve the fictional identity through broad layered waterways, an original brick waterfront district, generic low-profile bridge language, restrained contemporary waterfront offices, small unbranded work vessels, northern maritime weather, and plausible urban depth. All waterway, quay, and infrastructure arrangements must remain fictional and non-operational.\n\nMobile hierarchy: reserve the upper 32% as calm darker low-detail cloud and atmospheric city distance for a status bar, localized title, and no more than three warnings. Place the main brick-waterfront-and-water decision area in the middle third. Use one original physically plausible low-profile bridge crossing diagonally through the middle-lower frame to create depth without blocking content. Keep the bottom 18% quieter and darker for one primary control. Ensure water, brick district, bridge, and contemporary city remain legible on a narrow phone. No focal people.\n\nLighting and style: overcast northern daylight after light rain, cool neutral blue-gray atmosphere, restrained warm-gold material and window highlights, realistic wet brick, stone, steel, glass, concrete, and water reflections, subtle corporate-thriller mood, premium contemporary architectural photography.\n\nDo not add the Elbphilharmonie, recognizable Speicherstadt arrangements or viewpoints, St. Michael's Church, Hamburg Rathaus, Köhlbrand Bridge, Landungsbrücken, any exact real landmark silhouette, real shipping terminal, sensitive port infrastructure, real company livery, infrastructure identifier, or known photograph/viewpoint.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, trafficking routes, instructions, fantasy architecture, impossible bridge geometry, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 9:16 daytime city environment, with no border, title, UI, or device mockup.",
+    "reference_images": [
+      "assets/source/cities/city-hamburg-desktop-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first portrait recomposition attempt.",
+      "The upper sky provides a calm status and title area, the middle carries the city-and-water decision, and the lower water remains dark and quiet for one primary control.",
+      "The diagonal original bridge, layered waterways, fictional brick waterfront, and contemporary offices retain the Hamburg family identity on a narrow phone without depicting a real port.",
+      "No recognizable Hamburg landmark, sensitive port layout, embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 4121100
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T21:15:24.649Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first portrait recomposition attempt.",
+    "The upper sky provides a calm status and title area, the middle carries the city-and-water decision, and the lower water remains dark and quiet for one primary control.",
+    "The diagonal original bridge, layered waterways, fictional brick waterfront, and contemporary offices retain the Hamburg family identity on a narrow phone without depicting a real port.",
+    "No recognizable Hamburg landmark, sensitive port layout, embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

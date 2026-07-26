@@ -1,0 +1,15 @@
+{
+  "project": "shadowgrid",
+  "manifest_version": "1.0.0",
+  "total_assets": 896,
+  "completed_assets": 128,
+  "approved_assets": 127,
+  "review_required_assets": 1,
+  "failed_assets": 0,
+  "rejected_assets": 0,
+  "pending_assets": 768,
+  "current_batch": null,
+  "current_asset_id": null,
+  "last_completed_asset_id": "city-leipzig-mobile-night-v1",
+  "updated_at": "2026-07-26T12:19:18.934Z"
+}

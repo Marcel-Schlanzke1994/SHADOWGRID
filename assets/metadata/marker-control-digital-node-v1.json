@@ -1,0 +1,65 @@
+{
+  "asset_id": "marker-control-digital-node-v1",
+  "manifest_order": 65,
+  "category": "marker",
+  "batch": "map-markers",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "24:24",
+  "width": 24,
+  "height": 24,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/marker-control-digital-node-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100065,
+  "content_hash": "bacdf2f9be91e543400a24642381d3eb3a0aa79201b09d97b4b17f55d79d6181",
+  "source_file": "assets/source/maps/marker-control-digital-node-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/marker-control-digital-node-v1.svg",
+      "bytes": 743,
+      "sha256": "bacdf2f9be91e543400a24642381d3eb3a0aa79201b09d97b4b17f55d79d6181"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/markers/marker-control-digital-node-v1.svg",
+      "bytes": 743,
+      "sha256": "bacdf2f9be91e543400a24642381d3eb3a0aa79201b09d97b4b17f55d79d6181"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 743
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T20:12:50.661Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

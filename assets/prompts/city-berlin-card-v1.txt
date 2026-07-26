@@ -1,0 +1,34 @@
+Use case: stylized-concept
+Asset type: city asset for a cross-platform strategy game
+Primary request: Create a premium ultra-realistic visual asset for the multiplayer strategy game SHADOWGRID.
+Scene/backdrop: Large diverse capital with broad streets and mixed historic, postwar and contemporary architecture; no government logos or copied tourism viewpoint.
+Subject: Berlin, Berlin: Square city card
+Category: city.
+Gameplay state: normal.
+Contemporary, fictionalized representation of Berlin; no exact landmark photograph recreation; time=day.
+Style/medium: contemporary Germany; high-end urban economic strategy simulation; cinematic corporate thriller atmosphere; subtle cyber-noir; physically plausible glass, concrete, steel, stone and asphalt; original scene, not a known photograph, film frame, game screenshot or branded design.
+Composition/framing: Wide cinematic establishing composition, human eye-level or plausible elevated viewpoint, controlled depth, and calm negative space on the left for user-interface overlays.
+Lighting/mood: warm late afternoon with natural cinematic lighting, realistic reflections and restrained atmosphere.
+Color palette: black and anthracite framing, cool neutral blue-gray, restrained warm gold accents; warning red only if the gameplay state requires danger.
+Materials/textures: physically plausible dark glass, brushed metal, concrete, stone and asphalt with realistic scale.
+Constraints: no embedded captions or interface text; no real brands; no real authorities; no readable plates or addresses; no recognizable private people; no copied landmark-photo angle; space reserved for UI overlays; suitable for desktop and mobile crops; output aspect ratio 1:1.
+Avoid: Do not include: written words, captions, watermarks, signatures, existing game logos, real company logos, real police insignia, real government insignia, readable private license plates, readable private addresses, recognizable private individuals, celebrities, politicians, real criminal organizations, real gang symbols, extremist symbols, Nazi symbols, graphic violence, visible illegal instructions, firearms as the central subject, drug production, crime tutorials, copied photography, copied landmarks from an identical photo angle, fantasy skyscrapers, impossible architecture, distorted buildings, duplicate people, deformed hands, unrealistic vehicles, floating objects, overexposed neon, cartoon style, anime style, comic style, plastic mobile-game appearance, blurry image, low resolution, compression artifacts, unreadable fake text.
+Seed reference: 100089. Style lock: 1.0.0.
+
+Accepted generation prompt:
+Create a separately composed square city-card image for the same accepted fictional Berlin-inspired SHADOWGRID city.
+
+Output composition: exact 1:1 square, intended final size 1536×1536. Reconstruct the view for a premium city-selection card rather than cropping the desktop hero. Preserve the family identity: fictional modest canal, one original low-profile bridge, broad tree-lined urban axis, mixed historic stone blocks, restrained postwar modernism, adaptive-reuse brick, contemporary civic and creative offices, cool neutral blue-gray atmosphere, and subtle warm-gold highlights. All street, canal, transit, and civic arrangements must remain fictional and non-operational.
+
+Use the canal bend, original bridge, trees, and mixed-architecture district as a strong centered geometric anchor. Keep the fictional skyline in the upper-middle third with realistic atmospheric depth and physically plausible architecture. Reserve the entire bottom 24% as darker calm low-detail canal water and a subtle shadowed edge for an external localized city name, status badges, and one action. Do not place a bridge, focal building, vehicle, bright lamp cluster, or high-contrast reflection inside that bottom band. Do not embed any UI. Keep important shapes inside an inner 82% safe area for rounded card masks. No focal people or crowds.
+
+Lighting and style: cool overcast daylight after light rain with a restrained cloud break, neutral blue-gray atmosphere, subtle warm-gold material and window highlights, realistic wet stone, brick, concrete, glass, trees, and canal reflections, premium contemporary architectural photography, subtle corporate-thriller mood.
+
+Do not add the Brandenburg Gate, Reichstag, Berlin TV Tower, Victory Column, Berlin Cathedral, Museum Island, East Side Gallery, Oberbaum Bridge, Potsdamer Platz, Alexanderplatz, government complexes, embassies, monuments, flags, real transit maps, exact street layouts, recognizable authority buildings, or any known photograph/viewpoint.
+
+No text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, surveillance instructions, routes, fantasy architecture, impossible geometry, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.
+
+Deliver only the clean premium ultra-realistic fictional 1:1 daytime city-card backing plate, with no border, rounded mask, title, UI, or device mockup.
+
+Style-reference images:
+- assets/source/cities/city-berlin-desktop-day-v1.png

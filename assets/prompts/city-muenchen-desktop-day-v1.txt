@@ -1,0 +1,34 @@
+Use case: stylized-concept
+Asset type: city asset for a cross-platform strategy game
+Primary request: Create a premium ultra-realistic visual asset for the multiplayer strategy game SHADOWGRID.
+Scene/backdrop: Prosperous southern metropolis with high-quality public space, historic regional influence and modern technology districts; Alpine influence only when plausible.
+Subject: München, Bavaria: Desktop hero, day
+Category: city.
+Gameplay state: normal.
+Contemporary, fictionalized representation of München; no exact landmark photograph recreation; time=day.
+Style/medium: contemporary Germany; high-end urban economic strategy simulation; cinematic corporate thriller atmosphere; subtle cyber-noir; physically plausible glass, concrete, steel, stone and asphalt; original scene, not a known photograph, film frame, game screenshot or branded design.
+Composition/framing: Wide cinematic establishing composition, human eye-level or plausible elevated viewpoint, controlled depth, and calm negative space on the left for user-interface overlays.
+Lighting/mood: natural daylight with natural cinematic lighting, realistic reflections and restrained atmosphere.
+Color palette: black and anthracite framing, cool neutral blue-gray, restrained warm gold accents; warning red only if the gameplay state requires danger.
+Materials/textures: physically plausible dark glass, brushed metal, concrete, stone and asphalt with realistic scale.
+Constraints: no embedded captions or interface text; no real brands; no real authorities; no readable plates or addresses; no recognizable private people; no copied landmark-photo angle; space reserved for UI overlays; suitable for desktop and mobile crops; output aspect ratio 16:9.
+Avoid: Do not include: written words, captions, watermarks, signatures, existing game logos, real company logos, real police insignia, real government insignia, readable private license plates, readable private addresses, recognizable private individuals, celebrities, politicians, real criminal organizations, real gang symbols, extremist symbols, Nazi symbols, graphic violence, visible illegal instructions, firearms as the central subject, drug production, crime tutorials, copied photography, copied landmarks from an identical photo angle, fantasy skyscrapers, impossible architecture, distorted buildings, duplicate people, deformed hands, unrealistic vehicles, floating objects, overexposed neon, cartoon style, anime style, comic style, plastic mobile-game appearance, blurry image, low resolution, compression artifacts, unreadable fake text.
+Seed reference: 100093. Style lock: 1.0.0.
+
+Accepted generation prompt:
+Create a separately composed 16:9 desktop hero for the same accepted fictional München-inspired SHADOWGRID city shown in the reference.
+
+Output composition: exact 16:9 landscape, intended final size 2048×1152. Reframe and reconstruct the environment for the taller desktop canvas rather than merely cropping the ultra-wide image. Preserve the fictional identity: broad clear urban river, landscaped embankments, original low-profile bridge, high-quality tree-lined public realm, pale-stone historic-influenced blocks with varied pitched roofs, restrained contemporary technology and research offices, and subtle distant foothill terrain. All river, street, transit, campus, corporate, and civic layouts must remain fictional and non-operational.
+
+Reserve a calm dark low-detail area across the left 32% for localized UI. Place the principal river, bridge, public realm, and pale-stone/technology district center-right. Add physically plausible foreground depth in the lower right through wet stone terraces, trees, river edge, and original public-space geometry. Keep important shapes inside the inner 84% crop-safe area. No focal people or crowds.
+
+Lighting and style: crisp but restrained post-rain southern daylight under layered clouds, cool neutral blue-gray atmosphere, subtle warm-gold stone and window highlights, realistic wet paving, pale stone, timber accents, concrete, steel, glass, trees, and river reflections, premium contemporary architectural photography, subtle corporate-thriller mood.
+
+Do not add the Frauenkirche twin domes, Neues Rathaus, Marienplatz, Residenz, Nymphenburg Palace, Hofbräuhaus, BMW headquarters or museum, Allianz Arena, Olympic Park structures, English Garden landmarks, any exact Isar viewpoint, recognizable church silhouette, real corporate campus, flags, coats of arms, real transit maps, exact street layouts, or any known photograph/viewpoint.
+
+No text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, fantasy architecture, impossible geometry, dramatic fantasy mountains, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.
+
+Deliver only the clean premium ultra-realistic fictional 16:9 daytime southern-metropolis environment, with no border, title, UI, or device mockup.
+
+Style-reference images:
+- assets/source/cities/city-muenchen-ultrawide-day-v1.png

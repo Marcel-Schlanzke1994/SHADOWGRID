@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-duesseldorf-desktop-day-v1",
+  "manifest_order": 109,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "duesseldorf",
+  "variant": "desktop-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-duesseldorf-desktop-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100109,
+  "content_hash": "0a983eca48d2342e8cceeb1cc8160173f0b943bdae6bc5184048776c19f20bbe",
+  "source_file": "assets/source/cities/city-duesseldorf-desktop-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-duesseldorf-desktop-day-v1-320.avif",
+      "bytes": 3483,
+      "sha256": "e6534019c6989c07c55838377acd596610284af595bd0950113928f47e6edb34"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-desktop-day-v1-320.webp",
+      "bytes": 3550,
+      "sha256": "5218c2132deef54d374160f3368fb128cca70b54153534f0914199d1d160c80a"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-desktop-day-v1-640.avif",
+      "bytes": 11364,
+      "sha256": "27e3b2b028ada8cea3a58ef0a03d309c6077665e6792604a1b4f14b811b008cf"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-desktop-day-v1-640.webp",
+      "bytes": 12188,
+      "sha256": "7f33f2398c063366937cbab24cb9e8ca83de9a80604526328410720a5157a561"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-desktop-day-v1-960.avif",
+      "bytes": 33778,
+      "sha256": "e2eb635fd3692f5b280f68d65ad5106716731b0582b59f19a39072590c145be1"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-desktop-day-v1-960.webp",
+      "bytes": 33136,
+      "sha256": "abeee3c161ea77b7031a7c18a28e11ca04150b00e269cca38c8ba48a9d237f09"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-desktop-day-v1-1280.avif",
+      "bytes": 56523,
+      "sha256": "a98fd7db2550424c7c5c5e2a6a6c1244d4a5de6631d88d1c897255cdd1194eef"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-desktop-day-v1-1280.webp",
+      "bytes": 55586,
+      "sha256": "49cc61489dc2df73a52f88891af8352e977fc5ebe5a652b2ca83a562be991e98"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-desktop-day-v1-1920.avif",
+      "bytes": 96639,
+      "sha256": "9392541e59f0c01898edbd6d84e82255a6d5038276fbf48fe18b56e37c1a94e1"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-desktop-day-v1-1920.webp",
+      "bytes": 96968,
+      "sha256": "2701cabca447eabca23f009b12b094932708b4c4992b09b3b32424bb76a0e529"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-desktop-day-v1-2560.avif",
+      "bytes": 571491,
+      "sha256": "6c6722a2062d329c9530ccf5a6a6cb28f319dead8afde10f06cce8aba6151b1c"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-desktop-day-v1-2560.webp",
+      "bytes": 133598,
+      "sha256": "ef70647814a999c3b1b3d013bdb6a89fd5dfd045f136e232662a150374127ac3"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-desktop-day-v1-3840.avif",
+      "bytes": 929925,
+      "sha256": "78bf55078a6d6daea414d8be5d6a494c4bbd9bd994c7b8b5b1c029625c92b837"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-desktop-day-v1-3840.webp",
+      "bytes": 220156,
+      "sha256": "d9d52dcd86cadf6a67875c262a21a4919945899f5ec006a8fd96a641be8c817c"
+    },
+    {
+      "path": "assets/production/png/city-duesseldorf-desktop-day-v1-1280.png",
+      "bytes": 1613319,
+      "sha256": "09aaadaab3299c015c938e5c70c77e739ff5f9e5b2918c7a0934e289b3cb0e16"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-desktop-day-v1-320.avif",
+      "bytes": 3483,
+      "sha256": "e6534019c6989c07c55838377acd596610284af595bd0950113928f47e6edb34"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-desktop-day-v1-320.webp",
+      "bytes": 3550,
+      "sha256": "5218c2132deef54d374160f3368fb128cca70b54153534f0914199d1d160c80a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-desktop-day-v1-640.avif",
+      "bytes": 11364,
+      "sha256": "27e3b2b028ada8cea3a58ef0a03d309c6077665e6792604a1b4f14b811b008cf"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-desktop-day-v1-640.webp",
+      "bytes": 12188,
+      "sha256": "7f33f2398c063366937cbab24cb9e8ca83de9a80604526328410720a5157a561"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-desktop-day-v1-960.avif",
+      "bytes": 33778,
+      "sha256": "e2eb635fd3692f5b280f68d65ad5106716731b0582b59f19a39072590c145be1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-desktop-day-v1-960.webp",
+      "bytes": 33136,
+      "sha256": "abeee3c161ea77b7031a7c18a28e11ca04150b00e269cca38c8ba48a9d237f09"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-desktop-day-v1-1280.avif",
+      "bytes": 56523,
+      "sha256": "a98fd7db2550424c7c5c5e2a6a6c1244d4a5de6631d88d1c897255cdd1194eef"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-desktop-day-v1-1280.webp",
+      "bytes": 55586,
+      "sha256": "49cc61489dc2df73a52f88891af8352e977fc5ebe5a652b2ca83a562be991e98"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-desktop-day-v1-1920.avif",
+      "bytes": 96639,
+      "sha256": "9392541e59f0c01898edbd6d84e82255a6d5038276fbf48fe18b56e37c1a94e1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-desktop-day-v1-1920.webp",
+      "bytes": 96968,
+      "sha256": "2701cabca447eabca23f009b12b094932708b4c4992b09b3b32424bb76a0e529"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-desktop-day-v1-2560.avif",
+      "bytes": 571491,
+      "sha256": "6c6722a2062d329c9530ccf5a6a6cb28f319dead8afde10f06cce8aba6151b1c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-desktop-day-v1-2560.webp",
+      "bytes": 133598,
+      "sha256": "ef70647814a999c3b1b3d013bdb6a89fd5dfd045f136e232662a150374127ac3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-desktop-day-v1-3840.avif",
+      "bytes": 929925,
+      "sha256": "78bf55078a6d6daea414d8be5d6a494c4bbd9bd994c7b8b5b1c029625c92b837"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-desktop-day-v1-3840.webp",
+      "bytes": 220156,
+      "sha256": "d9d52dcd86cadf6a67875c262a21a4919945899f5ec006a8fd96a641be8c817c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-desktop-day-v1-1280.png",
+      "bytes": 1613319,
+      "sha256": "09aaadaab3299c015c938e5c70c77e739ff5f9e5b2918c7a0934e289b3cb0e16"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 98.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 99,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 99,
+    "lighting_quality": 99,
+    "architecture_plausibility": 99,
+    "ui_suitability": 100,
+    "mobile_suitability": 94,
+    "originality": 96,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create one distinct clean premium ultra-realistic 16:9 desktop daytime environment backing plate derived from this accepted fictional Düsseldorf-inspired SHADOWGRID city scene.\n\nPreserve the same original city identity and materials: broad fictional river, elegant landscaped promenade, original low-profile bridge, small original canal basin, refined pale-stone urban blocks, restrained mid-rise glass-and-metal services offices, layered metropolitan depth, and cool overcast post-rain daylight. Recompose naturally for exact 16:9 landscape, intended final size 1920×1080, as a deliberate desktop hero rather than a mechanical center crop. Keep the fictional riverfront, promenade, canal basin, and design-conscious services district concentrated center-right. Reserve the left 32% as calm, dark, low-detail negative space for localized heading, body copy, and controls; do not place railings, lamps, trees, building edges, bridge elements, bright reflections, or other high-contrast details behind that overlay area. Keep important architecture inside an inner 82% crop-safe region.\n\nMaintain physically plausible pale stone, concrete, brushed metal, dark glass, trees, river water, restrained wet reflections, neutral blue-gray atmosphere, subtle warm highlights, premium contemporary architectural photography, realistic lens and depth, and a quiet corporate-thriller mood. Preserve a legible distinction between river, canal basin, promenade, and original bridge without exposing an operational layout.\n\nAll river, canal, bridge, street, rail, corporate, media, fashion, fairground, and civic geometry must remain fictional and non-operational. Do not include the Rheinturm, recognizable MedienHafen or Gehry buildings, Königsallee, Kö-Bogen, Schlossturm, Düsseldorf Rathaus, Oberkasseler Brücke, Rheinkniebrücke, Theodor-Heuss-Brücke, real fashion houses, real trade-fair structures, corporate logos, exact Rhine promenade layouts, real rail maps, or any known photograph or viewpoint. Do not depict an identifiable real media company, luxury brand, authority, or operational transport plan.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, fantasy architecture, impossible bridges, Gehry-like distorted buildings, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 16:9 daytime riverfront-services-metropolis environment with a genuinely calm left 32% overlay-safe area, no border, title, UI, or device mockup.",
+    "reference_images": [
+      "assets/source/cities/city-duesseldorf-ultrawide-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first generation attempt.",
+      "The deliberate desktop composition preserves the approved fictional riverfront identity while giving localized copy and controls a calm dark left 32 percent.",
+      "Promenade, original bridge, canal basin, pale-stone district, and restrained services offices remain legible center-right without disclosing an operational layout.",
+      "No known Düsseldorf landmark, real fashion or media brand, authority, text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3915413
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-26T09:23:11.067Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first generation attempt.",
+    "The deliberate desktop composition preserves the approved fictional riverfront identity while giving localized copy and controls a calm dark left 32 percent.",
+    "Promenade, original bridge, canal basin, pale-stone district, and restrained services offices remain legible center-right without disclosing an operational layout.",
+    "No known Düsseldorf landmark, real fashion or media brand, authority, text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "asset_id": "style-proof-german-metropolis-day-v1",
+  "manifest_order": 3,
+  "category": "style-proof",
+  "batch": "style-proof",
+  "city": null,
+  "variant": "day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/style-proof-german-metropolis-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100003,
+  "content_hash": "d61eaa9467b7687f7f4678a5c3d988734059e5d98e109db25a9c968c49a94a86",
+  "source_file": "assets/source/style-proof/style-proof-german-metropolis-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/style-proof-german-metropolis-day-v1-320.avif",
+      "bytes": 10610,
+      "sha256": "f6e962203322a8d7dacd1423299f5621810ddf44dcd06e060759bb8866e8152a"
+    },
+    {
+      "path": "assets/production/webp/style-proof-german-metropolis-day-v1-320.webp",
+      "bytes": 9840,
+      "sha256": "4d5f3bc7fb06da9cb326e8af49001d3d0cf0454b07aea9629905db9240ed0952"
+    },
+    {
+      "path": "assets/production/avif/style-proof-german-metropolis-day-v1-640.avif",
+      "bytes": 34320,
+      "sha256": "784412eb67a99fc8ba07f8d896255e5d5e7416384c2b9d64bab206571c2fe5e8"
+    },
+    {
+      "path": "assets/production/webp/style-proof-german-metropolis-day-v1-640.webp",
+      "bytes": 33268,
+      "sha256": "035867d800afa1bd3216ae82a9cbeca424c91bdd3fc1f740a0efccd2446174b4"
+    },
+    {
+      "path": "assets/production/avif/style-proof-german-metropolis-day-v1-960.avif",
+      "bytes": 84348,
+      "sha256": "eb66e988844e38917755a225bf5a932015d4f7e49ff17f943b0abe88702739b8"
+    },
+    {
+      "path": "assets/production/webp/style-proof-german-metropolis-day-v1-960.webp",
+      "bytes": 75744,
+      "sha256": "b88ffa428e394e7bd320b0ccbb14202deada81ff4852a5bdb252a2cd8fe911f9"
+    },
+    {
+      "path": "assets/production/avif/style-proof-german-metropolis-day-v1-1280.avif",
+      "bytes": 127625,
+      "sha256": "69e2ede4b4343899c3d4f47289cb5c5f6dc336b401b0dcffd613cf13e5736bd8"
+    },
+    {
+      "path": "assets/production/webp/style-proof-german-metropolis-day-v1-1280.webp",
+      "bytes": 118672,
+      "sha256": "0b167384d84a0a009d0853b07c6f18beffc403828fa33463856d6feae2bf7075"
+    },
+    {
+      "path": "assets/production/avif/style-proof-german-metropolis-day-v1-1920.avif",
+      "bytes": 210209,
+      "sha256": "381e8a8f8d03b6f7a5d0ae243a966fafbe78d89483b456423f1d1a8897a7002f"
+    },
+    {
+      "path": "assets/production/webp/style-proof-german-metropolis-day-v1-1920.webp",
+      "bytes": 202242,
+      "sha256": "ac0b8a08278d01a4adca63467e3944c46e9564dade010e629c9e1cf8d0000866"
+    },
+    {
+      "path": "assets/production/avif/style-proof-german-metropolis-day-v1-2560.avif",
+      "bytes": 272098,
+      "sha256": "62b3232a73ff62cf170279e547dda0cf7ab9a733f89800ad700c1d90960c5950"
+    },
+    {
+      "path": "assets/production/webp/style-proof-german-metropolis-day-v1-2560.webp",
+      "bytes": 269176,
+      "sha256": "4bcf4b389abd36c7b30e2b8b529547eb4a655c5dd0e973eb7fe742adf94d5549"
+    },
+    {
+      "path": "assets/production/avif/style-proof-german-metropolis-day-v1-3840.avif",
+      "bytes": 407699,
+      "sha256": "efa3ac2c98f704a9333e486b610c367c59b0b0e6932b5f1f68eaf80ee5839e10"
+    },
+    {
+      "path": "assets/production/webp/style-proof-german-metropolis-day-v1-3840.webp",
+      "bytes": 424208,
+      "sha256": "ec5ce6f4e216472988dfa49a43ff8a326627c5330ea5a99beb5ba1eb2c027ec1"
+    },
+    {
+      "path": "assets/production/png/style-proof-german-metropolis-day-v1-1280.png",
+      "bytes": 2079379,
+      "sha256": "d9ec28f754c73ed6d82a36f3976685bc6ba33407280654806c167223bfa2ada5"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 91.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 94,
+    "style_consistency": 90,
+    "composition": 93,
+    "material_quality": 91,
+    "lighting_quality": 94,
+    "architecture_plausibility": 92,
+    "ui_suitability": 86,
+    "mobile_suitability": 87,
+    "originality": 91,
+    "safety_compliance": 100,
+    "revision_prompt": "Change only the tall needle-shaped television tower on the far-right skyline and the tiny similar mast near the center. Replace both with original, non-iconic mid-rise German office and residential structures. Preserve the river, bridges, transit corridor, architecture, greenery, clouds, sunlight, reflections, framing, UI space and photorealism unchanged.",
+    "notes": [
+      "Accepted second attempt after removing landmark-like towers.",
+      "Infrastructure and architecture are coherent for a fictional German river metropolis.",
+      "No visible branding, readable identifiers or recognizable individuals."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 5144094
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T13:21:32.190Z",
+  "license": "project-owned-generated-asset",
+  "notes": [
+    "Accepted second attempt after removing landmark-like towers.",
+    "Infrastructure and architecture are coherent for a fictional German river metropolis.",
+    "No visible branding, readable identifiers or recognizable individuals."
+  ],
+  "runtime_files": []
+}

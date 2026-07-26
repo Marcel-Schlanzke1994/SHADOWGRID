@@ -1,0 +1,29 @@
+Use case: stylized-concept
+Asset type: city asset for a cross-platform strategy game
+Primary request: Create a premium ultra-realistic visual asset for the multiplayer strategy game SHADOWGRID.
+Scene/backdrop: Plausible contemporary German city, with locally coherent architecture, economy, transport and public space; fictionalized rather than copied from a photograph.
+Subject: Stuttgart, Baden-Württemberg: Ultra-wide hero, day
+Category: city.
+Gameplay state: normal.
+Contemporary, fictionalized representation of Stuttgart; no exact landmark photograph recreation; time=day.
+Style/medium: contemporary Germany; high-end urban economic strategy simulation; cinematic corporate thriller atmosphere; subtle cyber-noir; physically plausible glass, concrete, steel, stone and asphalt; original scene, not a known photograph, film frame, game screenshot or branded design.
+Composition/framing: Wide cinematic establishing composition, human eye-level or plausible elevated viewpoint, controlled depth, and calm negative space on the left for user-interface overlays.
+Lighting/mood: natural daylight with natural cinematic lighting, realistic reflections and restrained atmosphere.
+Color palette: black and anthracite framing, cool neutral blue-gray, restrained warm gold accents; warning red only if the gameplay state requires danger.
+Materials/textures: physically plausible dark glass, brushed metal, concrete, stone and asphalt with realistic scale.
+Constraints: no embedded captions or interface text; no real brands; no real authorities; no readable plates or addresses; no recognizable private people; no copied landmark-photo angle; space reserved for UI overlays; suitable for desktop and mobile crops; output aspect ratio 21:9.
+Avoid: Do not include: written words, captions, watermarks, signatures, existing game logos, real company logos, real police insignia, real government insignia, readable private license plates, readable private addresses, recognizable private individuals, celebrities, politicians, real criminal organizations, real gang symbols, extremist symbols, Nazi symbols, graphic violence, visible illegal instructions, firearms as the central subject, drug production, crime tutorials, copied photography, copied landmarks from an identical photo angle, fantasy skyscrapers, impossible architecture, distorted buildings, duplicate people, deformed hands, unrealistic vehicles, floating objects, overexposed neon, cartoon style, anime style, comic style, plastic mobile-game appearance, blurry image, low resolution, compression artifacts, unreadable fake text.
+Seed reference: 100115. Style lock: 1.0.0.
+
+Revision used for the accepted image:
+Revise this fictional Stuttgart-inspired SHADOWGRID 21:9 daytime basin-city backing plate while preserving its premium ultra-realistic post-rain style, wooded green slopes, layered hillside neighborhoods, pale-stone and restrained glass research/services district, linear rainwater garden, wet terrace materials, and original non-operational geometry.
+
+Mandatory UI composition correction: make the entire left 38% genuinely calm, dark, and low-detail for localized interface overlays. Extend the shadowed mature tree canopy, deep green foliage, subdued atmospheric slope, and dark wet terrace across that left safe area. Move or visually suppress the currently bright linear water, pale building edge, bright roofline, and other high-contrast detail that enters the left 38%; the rainwater garden and first pale service building must begin only center-right. Do not add lamps, paths, railings, vehicles, people, signs, or bright reflections behind the overlay zone. Keep the right and center-right city identity readable and preserve important forms inside the inner 84% crop-safe region.
+
+Mandatory skyline correction: remove the single isolated narrow tower or spire on the far hillside near the center-left horizon. Replace it with continuous wooded ridge and modest low flat-roofed original hillside development. It must not read as the Stuttgart Fernsehturm, church, cathedral, civic tower, antenna, monument, or recognizable landmark. Ensure no other isolated spire, tower, dome, government silhouette, brand-associated form, museum form, or transport landmark appears.
+
+All streets, paths, water-management features, buildings, campuses, corporate, rail, industrial, and civic geometry remain fictional and non-operational. Do not add Schlossplatz, Neues Schloss, Stuttgart Hauptbahnhof or tower, Königstraße, Staatsgalerie, Wilhelma, Mercedes-Benz Museum, Porsche Museum, real automaker logos or products, automobile plants, rail corridors, test tracks, logistics routes, or operational factory detail.
+
+No text, letters, numbers, signs, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, criminal symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, factory procedures, vehicle schematics, fantasy architecture, impossible slopes, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.
+
+Deliver only the corrected clean premium ultra-realistic fictional 21:9 daytime basin-engineering-metropolis environment with the full left 38% calm and dark and the isolated distant tower removed, no border, title, UI, or device mockup.

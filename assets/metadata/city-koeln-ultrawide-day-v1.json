@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-koeln-ultrawide-day-v1",
+  "manifest_order": 67,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "koeln",
+  "variant": "ultrawide-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-koeln-ultrawide-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100067,
+  "content_hash": "835fcc0d9160ffe6fe2ca3164cecf1d014bddf3a6e8ffeb87505c2507838cc74",
+  "source_file": "assets/source/cities/city-koeln-ultrawide-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-koeln-ultrawide-day-v1-320.avif",
+      "bytes": 4387,
+      "sha256": "d818f88619d2f8f31b957f4727d61ec4ddd648c51867b561a3218f801cb3020c"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-ultrawide-day-v1-320.webp",
+      "bytes": 4384,
+      "sha256": "2e8fee59cff336bcee9fbde0cc62509f75f1f592d24a855f4a48a93a2299e966"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-ultrawide-day-v1-640.avif",
+      "bytes": 14963,
+      "sha256": "b924952d94ea52d770189a2fd7cdbcbe231ef382e15d7237a966bc63134e9974"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-ultrawide-day-v1-640.webp",
+      "bytes": 15034,
+      "sha256": "b7c19f04144703e9a895519151e947d770f92d07bde7c985dda4bc2ab26e25e4"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-ultrawide-day-v1-960.avif",
+      "bytes": 41740,
+      "sha256": "7b9e0c018bb4de3c97c7f85ae4d853bf45fb5ace64eaa6a9deff287682881c96"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-ultrawide-day-v1-960.webp",
+      "bytes": 38368,
+      "sha256": "7f1e000fb8a338bd8b0636bbce1273f236e2b26939bbfd6ff9087acf991b281a"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-ultrawide-day-v1-1280.avif",
+      "bytes": 151393,
+      "sha256": "745526f549a961e86226a85920bf04cdc27849d7dd1e91446adffe8aaa9d8e1f"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-ultrawide-day-v1-1280.webp",
+      "bytes": 62790,
+      "sha256": "18a5ddb6e48a254c3175becaa045368fb1fad488f8499778a22f659de7d0f132"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-ultrawide-day-v1-1920.avif",
+      "bytes": 302338,
+      "sha256": "e5ebdf856dfee9c9f25bedee9ccfb6533b1a2473d3311ff9115fd3f85e502c77"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-ultrawide-day-v1-1920.webp",
+      "bytes": 110376,
+      "sha256": "724891ce30e1d46dfe5e7bc80fa987c322913bab9992b524c7ad25f73d58a79e"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-ultrawide-day-v1-2560.avif",
+      "bytes": 488578,
+      "sha256": "b966308b9f7fa82b66edbf3160ab8047bc37c8bf9cdb5e16a04f6d6904987501"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-ultrawide-day-v1-2560.webp",
+      "bytes": 150024,
+      "sha256": "04fb392a02b72903e8c8240e987c340c66cc166fd69c7742538499e1a4707875"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-ultrawide-day-v1-3840.avif",
+      "bytes": 845606,
+      "sha256": "fb6db4be67462d6ba6d453c6c113f10dba54b74bd940adde939ff5d2b773c168"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-ultrawide-day-v1-3840.webp",
+      "bytes": 234998,
+      "sha256": "87f7fa00bb061ec4451259f27fa692b7378fa76aa6e0b049e6f7635db8cd4568"
+    },
+    {
+      "path": "assets/production/png/city-koeln-ultrawide-day-v1-1280.png",
+      "bytes": 1315522,
+      "sha256": "1f0451882b41d0e787049f012c5097814ac220a04f1ddf32d5c83e379ef22d40"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-day-v1-320.avif",
+      "bytes": 4387,
+      "sha256": "d818f88619d2f8f31b957f4727d61ec4ddd648c51867b561a3218f801cb3020c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-day-v1-320.webp",
+      "bytes": 4384,
+      "sha256": "2e8fee59cff336bcee9fbde0cc62509f75f1f592d24a855f4a48a93a2299e966"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-day-v1-640.avif",
+      "bytes": 14963,
+      "sha256": "b924952d94ea52d770189a2fd7cdbcbe231ef382e15d7237a966bc63134e9974"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-day-v1-640.webp",
+      "bytes": 15034,
+      "sha256": "b7c19f04144703e9a895519151e947d770f92d07bde7c985dda4bc2ab26e25e4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-day-v1-960.avif",
+      "bytes": 41740,
+      "sha256": "7b9e0c018bb4de3c97c7f85ae4d853bf45fb5ace64eaa6a9deff287682881c96"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-day-v1-960.webp",
+      "bytes": 38368,
+      "sha256": "7f1e000fb8a338bd8b0636bbce1273f236e2b26939bbfd6ff9087acf991b281a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-day-v1-1280.avif",
+      "bytes": 151393,
+      "sha256": "745526f549a961e86226a85920bf04cdc27849d7dd1e91446adffe8aaa9d8e1f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-day-v1-1280.webp",
+      "bytes": 62790,
+      "sha256": "18a5ddb6e48a254c3175becaa045368fb1fad488f8499778a22f659de7d0f132"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-day-v1-1920.avif",
+      "bytes": 302338,
+      "sha256": "e5ebdf856dfee9c9f25bedee9ccfb6533b1a2473d3311ff9115fd3f85e502c77"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-day-v1-1920.webp",
+      "bytes": 110376,
+      "sha256": "724891ce30e1d46dfe5e7bc80fa987c322913bab9992b524c7ad25f73d58a79e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-day-v1-2560.avif",
+      "bytes": 488578,
+      "sha256": "b966308b9f7fa82b66edbf3160ab8047bc37c8bf9cdb5e16a04f6d6904987501"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-day-v1-2560.webp",
+      "bytes": 150024,
+      "sha256": "04fb392a02b72903e8c8240e987c340c66cc166fd69c7742538499e1a4707875"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-day-v1-3840.avif",
+      "bytes": 845606,
+      "sha256": "fb6db4be67462d6ba6d453c6c113f10dba54b74bd940adde939ff5d2b773c168"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-day-v1-3840.webp",
+      "bytes": 234998,
+      "sha256": "87f7fa00bb061ec4451259f27fa692b7378fa76aa6e0b049e6f7635db8cd4568"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-day-v1-1280.png",
+      "bytes": 1315522,
+      "sha256": "1f0451882b41d0e787049f012c5097814ac220a04f1ddf32d5c83e379ef22d40"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 96.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 97,
+    "style_consistency": 98,
+    "composition": 99,
+    "material_quality": 96,
+    "lighting_quality": 98,
+    "architecture_plausibility": 96,
+    "ui_suitability": 100,
+    "mobile_suitability": 91,
+    "originality": 94,
+    "safety_compliance": 100,
+    "revision_prompt": "Revise this SHADOWGRID city backing plate while preserving the exact 21:9 canvas, the excellent dark low-detail UI safe area across the left 38%, the broad Rhine-like river, the restrained overcast daylight, the center-right detail placement, and the premium realistic architectural-photography style.\n\nMandatory correction: remove the recognizable twin-spired Cologne Cathedral-like building and remove the recognizable Hohenzollern Bridge-like multi-arch railway bridge. Replace the dominant cathedral with a wholly fictional, modest historic civic-and-church district: varied low and mid-rise stone roofs, no twin-spired cathedral, no monumental Gothic church, no famous skyline silhouette. Replace the foreground bridge with an original contemporary low-profile steel-and-stone urban bridge using a simple asymmetric truss and broad piers; it must not resemble any known Cologne bridge. Keep the farther bridge generic and physically plausible. Rework adjacent buildings enough that the viewpoint cannot be matched to a known Cologne photograph.\n\nThe result should still evoke a contemporary major Rhine metropolis inspired by Köln through river scale, urban density, trade, culture, media, and logistics, but it must remain an original fictionalized city view with no exact landmark reproduction.\n\nKeep all geometry physically plausible. Preserve clean negative space and crop safety. No text, letters, numbers, signage, logos, watermarks, brands, readable plates, addresses, recognizable people, flags, real authority marks, police insignia, criminal symbols, extremist symbols, weapons, violence, operational wrongdoing, fantasy architecture, impossible bridges, excessive neon, warning red, blur, or fake writing.\n\nDeliver only the revised clean 21:9 environment backing plate with no UI or border.",
+    "reference_images": [],
+    "notes": [
+      "The first generated attempt was rejected because its dominant twin-spired cathedral and multi-arch bridge too closely evoked a recognizable Cologne landmark combination.",
+      "The accepted revision replaces both landmarks with a fictional low- and mid-rise civic district, a modest varied historic silhouette, and generic physically plausible bridge structures.",
+      "The broad river, urban density, media/trade/logistics cues, overcast daylight, and restrained palette retain a credible Köln-inspired identity without matching a known photograph.",
+      "The left 38 percent is dark and low-detail for localized UI; important river and skyline detail remains in the center-right.",
+      "No visible text, logo, watermark, readable plate, address, identifiable person, real authority mark, real criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 5223744
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T20:23:10.383Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "The first generated attempt was rejected because its dominant twin-spired cathedral and multi-arch bridge too closely evoked a recognizable Cologne landmark combination.",
+    "The accepted revision replaces both landmarks with a fictional low- and mid-rise civic district, a modest varied historic silhouette, and generic physically plausible bridge structures.",
+    "The broad river, urban density, media/trade/logistics cues, overcast daylight, and restrained palette retain a credible Köln-inspired identity without matching a known photograph.",
+    "The left 38 percent is dark and low-detail for localized UI; important river and skyline detail remains in the center-right.",
+    "No visible text, logo, watermark, readable plate, address, identifiable person, real authority mark, real criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "asset_id": "city-koeln-ultrawide-night-v1",
+  "manifest_order": 68,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "koeln",
+  "variant": "ultrawide-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-koeln-ultrawide-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100068,
+  "content_hash": "87a6a561e02d9ff06242950a76dcab04e7a2ed62ed79db9be5b573ec1f2a1618",
+  "source_file": "assets/source/cities/city-koeln-ultrawide-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-koeln-ultrawide-night-v1-320.avif",
+      "bytes": 9678,
+      "sha256": "89a933b48603fd6d5ca648ddb9187402b2e97b7d5c22b7b89d13c213a39b57aa"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-ultrawide-night-v1-320.webp",
+      "bytes": 3360,
+      "sha256": "f7cc28a1333dbd6fe1b4950fd800dee0934347744ecb38bf4ae15c680dfd9b75"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-ultrawide-night-v1-640.avif",
+      "bytes": 37374,
+      "sha256": "d6a9cb2ca1c53157137040282b2b1be574c815ed960473db22940c04984f7b3c"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-ultrawide-night-v1-640.webp",
+      "bytes": 12976,
+      "sha256": "0a9f8dab9c8bbf4c2de131d9a8e2242b1796304178d169ccb46585407a560faf"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-ultrawide-night-v1-960.avif",
+      "bytes": 87616,
+      "sha256": "6d8eb9e7641c7ee081e3442a631b39487b1d0a98f03b09892c8608b539f76d10"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-ultrawide-night-v1-960.webp",
+      "bytes": 33590,
+      "sha256": "484027a8d21bec7b5086816503f7dfa23d408dcfc74aefc7a078dcbd1dfd1488"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-ultrawide-night-v1-1280.avif",
+      "bytes": 140549,
+      "sha256": "a1404a31404b09e598a204505577ab039fcabf22542787ffbed6d72f1e0428de"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-ultrawide-night-v1-1280.webp",
+      "bytes": 57384,
+      "sha256": "36c4b2e9bb62d6e03d07b961621c3a4451a17d656ba702dceb5e28ae4f977582"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-ultrawide-night-v1-1920.avif",
+      "bytes": 278604,
+      "sha256": "48de40650aaf5af819210254ed4891c3ba5c273afc22c2e6116c2b70be8c2fa0"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-ultrawide-night-v1-1920.webp",
+      "bytes": 99610,
+      "sha256": "74a38fae3b87a94b4e5edfcb3190dc6175124c86209cd6f7590130ca95aea3e5"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-ultrawide-night-v1-2560.avif",
+      "bytes": 441490,
+      "sha256": "43ec51c47b02d25eba87e2ce0ab9b3124697939cc32887a31adadc0f050c08b9"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-ultrawide-night-v1-2560.webp",
+      "bytes": 138930,
+      "sha256": "7a495ec2f64124309999b4fd7e6ab98d74ad0d9809f7973a403adc58541f0e73"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-ultrawide-night-v1-3840.avif",
+      "bytes": 765744,
+      "sha256": "43936705cb1492dc35970bc666fa45e3c6ca5645e5639bcc26170aaccf074ed9"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-ultrawide-night-v1-3840.webp",
+      "bytes": 217714,
+      "sha256": "3372c4fd4eb8c226ef447f71134b8085ed7d6531bebadf09c3bc7f654ae9fd3b"
+    },
+    {
+      "path": "assets/production/png/city-koeln-ultrawide-night-v1-1280.png",
+      "bytes": 1158564,
+      "sha256": "a72b2c6055f3e280b875c9315391969c572c51d1357c9e7f03cc3e6c88f3286f"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-night-v1-320.avif",
+      "bytes": 9678,
+      "sha256": "89a933b48603fd6d5ca648ddb9187402b2e97b7d5c22b7b89d13c213a39b57aa"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-night-v1-320.webp",
+      "bytes": 3360,
+      "sha256": "f7cc28a1333dbd6fe1b4950fd800dee0934347744ecb38bf4ae15c680dfd9b75"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-night-v1-640.avif",
+      "bytes": 37374,
+      "sha256": "d6a9cb2ca1c53157137040282b2b1be574c815ed960473db22940c04984f7b3c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-night-v1-640.webp",
+      "bytes": 12976,
+      "sha256": "0a9f8dab9c8bbf4c2de131d9a8e2242b1796304178d169ccb46585407a560faf"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-night-v1-960.avif",
+      "bytes": 87616,
+      "sha256": "6d8eb9e7641c7ee081e3442a631b39487b1d0a98f03b09892c8608b539f76d10"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-night-v1-960.webp",
+      "bytes": 33590,
+      "sha256": "484027a8d21bec7b5086816503f7dfa23d408dcfc74aefc7a078dcbd1dfd1488"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-night-v1-1280.avif",
+      "bytes": 140549,
+      "sha256": "a1404a31404b09e598a204505577ab039fcabf22542787ffbed6d72f1e0428de"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-night-v1-1280.webp",
+      "bytes": 57384,
+      "sha256": "36c4b2e9bb62d6e03d07b961621c3a4451a17d656ba702dceb5e28ae4f977582"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-night-v1-1920.avif",
+      "bytes": 278604,
+      "sha256": "48de40650aaf5af819210254ed4891c3ba5c273afc22c2e6116c2b70be8c2fa0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-night-v1-1920.webp",
+      "bytes": 99610,
+      "sha256": "74a38fae3b87a94b4e5edfcb3190dc6175124c86209cd6f7590130ca95aea3e5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-night-v1-2560.avif",
+      "bytes": 441490,
+      "sha256": "43ec51c47b02d25eba87e2ce0ab9b3124697939cc32887a31adadc0f050c08b9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-night-v1-2560.webp",
+      "bytes": 138930,
+      "sha256": "7a495ec2f64124309999b4fd7e6ab98d74ad0d9809f7973a403adc58541f0e73"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-night-v1-3840.avif",
+      "bytes": 765744,
+      "sha256": "43936705cb1492dc35970bc666fa45e3c6ca5645e5639bcc26170aaccf074ed9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-night-v1-3840.webp",
+      "bytes": 217714,
+      "sha256": "3372c4fd4eb8c226ef447f71134b8085ed7d6531bebadf09c3bc7f654ae9fd3b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-ultrawide-night-v1-1280.png",
+      "bytes": 1158564,
+      "sha256": "a72b2c6055f3e280b875c9315391969c572c51d1357c9e7f03cc3e6c88f3286f"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 97.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 97,
+    "style_consistency": 100,
+    "composition": 99,
+    "material_quality": 97,
+    "lighting_quality": 98,
+    "architecture_plausibility": 97,
+    "ui_suitability": 100,
+    "mobile_suitability": 92,
+    "originality": 93,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create the coordinated night counterpart for this accepted fictional Köln-inspired SHADOWGRID city hero.\n\nPreserve the exact 21:9 canvas, broad Rhine-like river, original low-profile foreground truss bridge, generic distant cable-stayed bridge, fictional low- and mid-rise civic skyline, center-right detail placement, and dark low-detail left 38% UI safe area. Keep the geometry consistent enough to read as the same fictionalized city, while making the night image a separately finished premium environment backing plate.\n\nTransform lighting to a physically plausible blue-hour-to-night urban scene: deep anthracite sky with subtle cloud texture, cool blue-gray ambient light, restrained warm-gold window and riverside practical lights, realistic reflections on river water, bridges safely but subtly illuminated. Avoid overexposure and avoid saturated neon. The skyline must remain legible without brightening the left UI-safe area. No dramatic emergency or danger cues.\n\nDo not add Cologne Cathedral, a twin-spired cathedral, the Hohenzollern Bridge, or any recognizable real landmark. Do not change the generic bridges into known Cologne bridge designs. No exact real-world viewpoint.\n\nNo written words, letters, numbers, signage, captions, UI, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, crowds, flags, real authority marks, police insignia, criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, trafficking routes, fantasy architecture, impossible geometry, excessive neon, warning red, blur, compression artifacts, or fake writing.\n\nDeliver only the clean ultra-realistic 21:9 night environment backing plate, intended final size 2688×1152, with no border or embedded interface.",
+    "reference_images": [
+      "assets/source/cities/city-koeln-ultrawide-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first night-conversion attempt based on the approved fictional daytime city.",
+      "River, low-profile truss bridge, generic cable-stayed bridge, civic skyline, and UI safe area remain coordinated with the day counterpart.",
+      "Warm practical lights and cool ambient illumination remain restrained and physically plausible, with readable reflections rather than saturated neon.",
+      "Tiny distant aviation lights are environmental safety details and do not communicate a gameplay warning state.",
+      "No recognizable Cologne landmark, exact real-world viewpoint, text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 4568194
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T20:27:12.041Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first night-conversion attempt based on the approved fictional daytime city.",
+    "River, low-profile truss bridge, generic cable-stayed bridge, civic skyline, and UI safe area remain coordinated with the day counterpart.",
+    "Warm practical lights and cool ambient illumination remain restrained and physically plausible, with readable reflections rather than saturated neon.",
+    "Tiny distant aviation lights are environmental safety details and do not communicate a gameplay warning state.",
+    "No recognizable Cologne landmark, exact real-world viewpoint, text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

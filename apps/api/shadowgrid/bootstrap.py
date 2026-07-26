@@ -7,8 +7,16 @@ from sqlalchemy.orm import Session
 
 from shadowgrid.config import Settings, get_settings
 from shadowgrid.database import SessionLocal
-from shadowgrid.game_config import DISTRICTS, WORLD_EVENTS
-from shadowgrid.models import District, User, World, WorldEvent
+from shadowgrid.game_config import DISTRICTS, TERRITORY_CONTROL_POINTS, WORLD_EVENTS
+from shadowgrid.models import (
+    City,
+    CityMarket,
+    District,
+    TerritoryControlPoint,
+    User,
+    World,
+    WorldEvent,
+)
 from shadowgrid.security import hash_password
 
 
@@ -27,6 +35,25 @@ def bootstrap_world(db: Session, settings: Settings) -> World:
         db.add(world)
         db.flush()
 
+    city = db.scalar(
+        select(City).where(
+            City.world_id == world.id,
+            City.slug == "vesper-metropolitan",
+            City.instance_key == "sector-a",
+        )
+    )
+    if city is None:
+        city = City(
+            world_id=world.id,
+            slug="vesper-metropolitan",
+            name="Vesper Metropolitan Zone",
+            region_key="vesper-region",
+            instance_key="sector-a",
+            market_state_json={"sentiment": 50, "volatility": 10},
+        )
+        db.add(city)
+        db.flush()
+
     for data in DISTRICTS:
         district = db.scalar(
             select(District).where(District.world_id == world.id, District.slug == data[0])
@@ -35,6 +62,7 @@ def bootstrap_world(db: Session, settings: Settings) -> World:
             db.add(
                 District(
                     world_id=world.id,
+                    city_id=city.id,
                     slug=data[0],
                     name=data[1],
                     prosperity=data[2],
@@ -52,6 +80,51 @@ def bootstrap_world(db: Session, settings: Settings) -> World:
                     map_points=data[14],
                 )
             )
+        elif district.city_id is None:
+            district.city_id = city.id
+
+    db.flush()
+    for resource_key, price in (
+        ("capital", 100),
+        ("influence", 250),
+        ("intelligence", 175),
+        ("logistics_capacity", 125),
+        ("personnel_capacity", 150),
+    ):
+        market = db.scalar(
+            select(CityMarket).where(
+                CityMarket.city_id == city.id,
+                CityMarket.resource_key == resource_key,
+            )
+        )
+        if market is None:
+            db.add(
+                CityMarket(
+                    world_id=world.id,
+                    city_id=city.id,
+                    resource_key=resource_key,
+                    price=price,
+                )
+            )
+
+    districts = list(db.scalars(select(District).where(District.world_id == world.id)))
+    for district in districts:
+        for point_type in TERRITORY_CONTROL_POINTS:
+            point = db.scalar(
+                select(TerritoryControlPoint).where(
+                    TerritoryControlPoint.district_id == district.id,
+                    TerritoryControlPoint.point_type == point_type,
+                )
+            )
+            if point is None:
+                db.add(
+                    TerritoryControlPoint(
+                        world_id=world.id,
+                        city_id=city.id,
+                        district_id=district.id,
+                        point_type=point_type,
+                    )
+                )
 
     existing_event_keys = set(
         db.scalars(select(WorldEvent.event_key).where(WorldEvent.world_id == world.id))

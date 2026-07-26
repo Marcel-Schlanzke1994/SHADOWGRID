@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import { useTranslation } from "react-i18next";
 import { ApiError } from "@shadowgrid/api-client";
+import { GlobalStateBackdrop } from "./GlobalBackdrop";
 
 export const Panel = ({
   title,
@@ -74,8 +75,11 @@ export const StateView = ({
   if (error) {
     const apiError = error instanceof ApiError ? error : null;
     const offline = !navigator.onLine || error instanceof TypeError;
-    return (
-      <div className="state state--error" role="alert">
+    const errorState = (
+      <div
+        className={`state state--error ${offline ? "state--offline" : ""}`}
+        role="alert"
+      >
         <h2>{t(offline ? "offlineTitle" : "errorTitle")}</h2>
         <p>
           {offline ? t("offlineBody") : (apiError?.message ?? t("errorTitle"))}
@@ -88,6 +92,13 @@ export const StateView = ({
             {t("retry")}
           </button>
         )}
+      </div>
+    );
+    if (!offline) return errorState;
+    return (
+      <div className="system-state system-state--offline">
+        <GlobalStateBackdrop assetId="global-offline-v1" variant="offline" />
+        {errorState}
       </div>
     );
   }

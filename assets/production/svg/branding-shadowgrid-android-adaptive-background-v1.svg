@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1536" viewBox="0 0 1536 1536" role="img" aria-labelledby="title"><title id="title">Android adaptive icon background</title><defs>
+    <radialGradient id="brand-bg" cx="32%" cy="22%" r="88%">
+      <stop stop-color="#1b222a"/>
+      <stop offset=".55" stop-color="#0d1116"/>
+      <stop offset="1" stop-color="#06080b"/>
+    </radialGradient>
+    <pattern id="brand-grid" width="96" height="96" patternUnits="userSpaceOnUse">
+      <path d="M96 0H0V96" fill="none" stroke="#8fa0aa" stroke-opacity=".09" stroke-width="3"/>
+    </pattern>
+  </defs>
+      <rect width="1536" height="1536" fill="url(#brand-bg)"/>
+      <rect width="1536" height="1536" fill="url(#brand-grid)"/>
+      <circle cx="768" cy="768" r="491.52" fill="none" stroke="#d8b15b" stroke-width="9.216000000000001" opacity=".12"/>
+    </svg>

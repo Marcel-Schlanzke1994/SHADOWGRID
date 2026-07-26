@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-stuttgart-card-v1",
+  "manifest_order": 121,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "stuttgart",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-stuttgart-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100121,
+  "content_hash": "392d3a12932965695a97f4ade30db93d91f45592c602326db07af70b53a9f10a",
+  "source_file": "assets/source/cities/city-stuttgart-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-stuttgart-card-v1-320.avif",
+      "bytes": 11818,
+      "sha256": "0ea4fb68de5c6152b3c0896d678e8e4a884ff8923a8b7fb06d49142d69939e48"
+    },
+    {
+      "path": "assets/production/webp/city-stuttgart-card-v1-320.webp",
+      "bytes": 11924,
+      "sha256": "bd71ccc9d1fd589e87f39e7aba57a84dba2f9f7b345c1119d5d31e86ce73718e"
+    },
+    {
+      "path": "assets/production/avif/city-stuttgart-card-v1-640.avif",
+      "bytes": 49384,
+      "sha256": "92ebd4cafc2016da5a9526300483638fc39918527c9d10cb74b74c5ed146d036"
+    },
+    {
+      "path": "assets/production/webp/city-stuttgart-card-v1-640.webp",
+      "bytes": 50206,
+      "sha256": "95a1438bf18318e547111ab13e145aaa78c10359c6c40b8e8d2d2a31e0ba5869"
+    },
+    {
+      "path": "assets/production/avif/city-stuttgart-card-v1-960.avif",
+      "bytes": 129456,
+      "sha256": "a806af7ac9d517b66cd6d0b43806742d3736e41967c9b8c61625349ae2527d86"
+    },
+    {
+      "path": "assets/production/webp/city-stuttgart-card-v1-960.webp",
+      "bytes": 117646,
+      "sha256": "c3f031c262152bad1730d089825592605ab4814dc0054a688975ea7e02aa9906"
+    },
+    {
+      "path": "assets/production/avif/city-stuttgart-card-v1-1280.avif",
+      "bytes": 184882,
+      "sha256": "35272ef66529ad7608d5ef8353b3121fe8d911ea63ec1c0894a0cbba3292f2c9"
+    },
+    {
+      "path": "assets/production/webp/city-stuttgart-card-v1-1280.webp",
+      "bytes": 174908,
+      "sha256": "96dd387d41d2102f9022863db7bec609e55f24911200cfb685233b9dba9b5951"
+    },
+    {
+      "path": "assets/production/avif/city-stuttgart-card-v1-1920.avif",
+      "bytes": 268963,
+      "sha256": "8522ad3597f01bac818054ec3934d181745f845e06cfd901e4dbbe388d8a5171"
+    },
+    {
+      "path": "assets/production/webp/city-stuttgart-card-v1-1920.webp",
+      "bytes": 259588,
+      "sha256": "04bcad06a1565923bdfac95615912df3c07b0a1cdb51974a473efff14ee17163"
+    },
+    {
+      "path": "assets/production/avif/city-stuttgart-card-v1-2560.avif",
+      "bytes": 355305,
+      "sha256": "4cd710dcd4be95b1924614545ee937fef8cfa98837a037f00df08f01d0a6c4a5"
+    },
+    {
+      "path": "assets/production/webp/city-stuttgart-card-v1-2560.webp",
+      "bytes": 360082,
+      "sha256": "1f2caa3e50dbaa380c4f06a1d02c4466f59fe5674a61713aae9b123e62ee33c0"
+    },
+    {
+      "path": "assets/production/avif/city-stuttgart-card-v1-3840.avif",
+      "bytes": 530782,
+      "sha256": "f3605505e24b0d114b0e64ca344cd24182dcd6b60c6658912fbb3cfead5fa3f2"
+    },
+    {
+      "path": "assets/production/webp/city-stuttgart-card-v1-3840.webp",
+      "bytes": 574236,
+      "sha256": "c364cd423c156a9189c74521d16c51a965f48be6d22d67bd6ab69d852cee80c1"
+    },
+    {
+      "path": "assets/production/png/city-stuttgart-card-v1-1280.png",
+      "bytes": 3103894,
+      "sha256": "1a78366e8793d92a4e68eacc7470403ec0ffbbf8ea898039049e0c0742c1ebe3"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-card-v1-320.avif",
+      "bytes": 11818,
+      "sha256": "0ea4fb68de5c6152b3c0896d678e8e4a884ff8923a8b7fb06d49142d69939e48"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-card-v1-320.webp",
+      "bytes": 11924,
+      "sha256": "bd71ccc9d1fd589e87f39e7aba57a84dba2f9f7b345c1119d5d31e86ce73718e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-card-v1-640.avif",
+      "bytes": 49384,
+      "sha256": "92ebd4cafc2016da5a9526300483638fc39918527c9d10cb74b74c5ed146d036"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-card-v1-640.webp",
+      "bytes": 50206,
+      "sha256": "95a1438bf18318e547111ab13e145aaa78c10359c6c40b8e8d2d2a31e0ba5869"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-card-v1-960.avif",
+      "bytes": 129456,
+      "sha256": "a806af7ac9d517b66cd6d0b43806742d3736e41967c9b8c61625349ae2527d86"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-card-v1-960.webp",
+      "bytes": 117646,
+      "sha256": "c3f031c262152bad1730d089825592605ab4814dc0054a688975ea7e02aa9906"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-card-v1-1280.avif",
+      "bytes": 184882,
+      "sha256": "35272ef66529ad7608d5ef8353b3121fe8d911ea63ec1c0894a0cbba3292f2c9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-card-v1-1280.webp",
+      "bytes": 174908,
+      "sha256": "96dd387d41d2102f9022863db7bec609e55f24911200cfb685233b9dba9b5951"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-card-v1-1920.avif",
+      "bytes": 268963,
+      "sha256": "8522ad3597f01bac818054ec3934d181745f845e06cfd901e4dbbe388d8a5171"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-card-v1-1920.webp",
+      "bytes": 259588,
+      "sha256": "04bcad06a1565923bdfac95615912df3c07b0a1cdb51974a473efff14ee17163"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-card-v1-2560.avif",
+      "bytes": 355305,
+      "sha256": "4cd710dcd4be95b1924614545ee937fef8cfa98837a037f00df08f01d0a6c4a5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-card-v1-2560.webp",
+      "bytes": 360082,
+      "sha256": "1f2caa3e50dbaa380c4f06a1d02c4466f59fe5674a61713aae9b123e62ee33c0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-card-v1-3840.avif",
+      "bytes": 530782,
+      "sha256": "f3605505e24b0d114b0e64ca344cd24182dcd6b60c6658912fbb3cfead5fa3f2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-card-v1-3840.webp",
+      "bytes": 574236,
+      "sha256": "c364cd423c156a9189c74521d16c51a965f48be6d22d67bd6ab69d852cee80c1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-card-v1-1280.png",
+      "bytes": 3103894,
+      "sha256": "1a78366e8793d92a4e68eacc7470403ec0ffbbf8ea898039049e0c0742c1ebe3"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 99.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 99,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 99,
+    "lighting_quality": 99,
+    "architecture_plausibility": 99,
+    "ui_suitability": 100,
+    "mobile_suitability": 100,
+    "originality": 97,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create one separately composed square 1:1 city-card backing plate for the same accepted fictional Stuttgart-inspired SHADOWGRID basin-engineering-metropolis in the reference.\n\nOutput composition: exact 1:1 square, intended final size 1536×1536. Reconstruct the scene for a compact selection card rather than mechanically cropping the desktop image. Preserve the fictional identity through a broad green urban basin, continuous wooded slopes, layered flat-roofed hillside neighborhoods, refined pale-stone and restrained glass research/services buildings, a small original linear rainwater garden, planted terraces, mature deciduous trees, and precise high-quality public space. All streets, paths, water-management features, buildings, campuses, corporate, rail, industrial, factory, and civic layouts must remain fictional and non-operational.\n\nCard hierarchy: place one clean recognizable cluster of the pale research/services district, linear rainwater garden, planted terraces, and layered wooded hillside neighborhood in the upper-middle area. Preserve a continuous neutral ridge without any isolated tower, spire, dome, or landmark. Keep the entire bottom 24% as uninterrupted calm dark low-detail wet stone terrace and deep shadowed foliage for external localized title, badges, and one action. Do not place any rainwater channel, building, vehicle, rail, sign, lamp cluster, bright reflection, detailed path, railing, object, bench, or bright leaf edge inside that lower 24% safe band. Keep important architecture away from all outer 8% edges. No focal people or crowds.\n\nLighting and style: cool overcast post-rain daylight with restrained cloud breaks, neutral blue-gray atmosphere, subtle warm-gold stone, wood, metal, and window highlights, realistic wet paving, pale stone, concrete, brushed steel, dark glass, planted roofs, trees, and shallow-water reflections, premium contemporary architectural photography, realistic lens and depth, and a restrained corporate-thriller mood. Keep the lower terrace/foliage label band dark and visually quiet.\n\nDo not include or imitate the Stuttgart Fernsehturm, Schlossplatz, Neues Schloss, Altes Schloss, Stuttgart Hauptbahnhof or its tower, Königstraße, Staatsgalerie, Wilhelma, Mercedes-Benz Museum, Porsche Museum, churches, cathedral spires, monuments, civic towers, antenna landmarks, Mercedes or Porsche logos or products, recognizable automobile plants, real rail corridors, known valley-road arrangements, Cannstatter Wasen, named vineyards, exact hillside neighborhoods, government buildings, corporate campuses, or any known photograph or viewpoint. Do not show an identifiable real manufacturer, research institution, authority, transit operator, industrial process, factory interior, test track, logistics route, or operational transport plan.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, criminal symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, factory procedures, vehicle schematics, fantasy architecture, impossible slopes or structures, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 1:1 daytime basin-engineering-metropolis card backing plate with the full lower 24% preserved as calm dark terrace and foliage, and no border, title, UI, or device mockup.",
+    "reference_images": [
+      "assets/source/cities/city-stuttgart-desktop-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first square recomposition attempt.",
+      "The card preserves the fictional green-basin, wooded-slope, research/services, rainwater-garden, and planted-terrace identity as a compact original composition.",
+      "The complete lower 24 percent remains uninterrupted calm dark low-detail wet terrace and shadowed foliage for external localized labels, badges, and one action.",
+      "No real automaker, product, campus, factory, known Stuttgart landmark, tower, spire, authority, operational layout, text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 4371529
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-26T11:14:55.504Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first square recomposition attempt.",
+    "The card preserves the fictional green-basin, wooded-slope, research/services, rainwater-garden, and planted-terrace identity as a compact original composition.",
+    "The complete lower 24 percent remains uninterrupted calm dark low-detail wet terrace and shadowed foliage for external localized labels, badges, and one action.",
+    "No real automaker, product, campus, factory, known Stuttgart landmark, tower, spire, authority, operational layout, text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or wrongdoing is present."
+  ]
+}

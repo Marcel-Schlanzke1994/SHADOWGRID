@@ -127,6 +127,7 @@ class ResourceView(ORMModel):
 class ProfileView(ORMModel):
     id: str
     world_id: str
+    city_id: str | None
     codename: str
     archetype: str
     home_district_id: str | None
@@ -139,6 +140,7 @@ class ProfileView(ORMModel):
     stability: int
     operation_slots: int
     protected_until: datetime
+    recovery_until: datetime | None
     resources: ResourceView
 
 
@@ -264,11 +266,15 @@ class IntelReportView(ORMModel):
 class OrganizationView(ORMModel):
     id: str
     world_id: str
+    city_id: str | None
     name: str
     tag: str
     archetype: str
     description: str
+    governance_model: str
     stability: int
+    reputation: int
+    investigation_pressure: int
     treasury_cash: Decimal
     treasury_capital: Decimal
     member_limit: int
@@ -287,7 +293,7 @@ class OrganizationMemberView(BaseModel):
 
 class UpdateOrganizationRoleRequest(BaseModel):
     role: str = Field(
-        pattern=r"^(candidate|member|district_lead|intelligence_lead|diplomacy_lead|finance_lead|deputy)$"
+        pattern=r"^(candidate|member|district_lead|intelligence_lead|diplomacy_lead|finance_lead|war_lead|recruitment_lead|deputy)$"
     )
 
 
@@ -296,6 +302,10 @@ class CreateOrganizationRequest(BaseModel):
     tag: str = Field(min_length=2, max_length=8, pattern=r"^[A-Za-z0-9]+$")
     archetype: str
     description: str = Field(default="", max_length=500)
+    governance_model: str = Field(
+        default="directorate",
+        pattern=r"^(directorate|council|federation|collective)$",
+    )
 
 
 class InviteRequest(BaseModel):

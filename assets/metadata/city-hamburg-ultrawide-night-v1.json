@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-hamburg-ultrawide-night-v1",
+  "manifest_order": 76,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "hamburg",
+  "variant": "ultrawide-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-hamburg-ultrawide-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100076,
+  "content_hash": "7ffb105e11abec2c5c2ee9c63e2fa624e13533e3d9d5221a71c5b22caaeffbe8",
+  "source_file": "assets/source/cities/city-hamburg-ultrawide-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-hamburg-ultrawide-night-v1-320.avif",
+      "bytes": 3331,
+      "sha256": "e11dce2dc0d307a845e301c799627b4a03bb6619581caa8b0401e3d2114d8cf3"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-ultrawide-night-v1-320.webp",
+      "bytes": 2984,
+      "sha256": "65df97321ad3af1f5b207f6d6cdbeaa3b4c6d9e66c29d46c037e62e3bcb0970e"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-ultrawide-night-v1-640.avif",
+      "bytes": 12530,
+      "sha256": "063c91b5033a763ad846af0872da8d540bc58c8fed2768bfaf139eb7b81ca08e"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-ultrawide-night-v1-640.webp",
+      "bytes": 11788,
+      "sha256": "09796fbbc801543bb952fcf4dc6fd141da942bd4a5c718c0cfcd2a303d9ad181"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-ultrawide-night-v1-960.avif",
+      "bytes": 36634,
+      "sha256": "c3c524cc69ad617496feef7523fe21e0df24e267fcf1832503c2e5c511276f60"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-ultrawide-night-v1-960.webp",
+      "bytes": 31910,
+      "sha256": "691c1d5884b25d8770d5ae5cee0b8432b706917e06bccbbaf0cdf03d8d629a75"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-ultrawide-night-v1-1280.avif",
+      "bytes": 60423,
+      "sha256": "838f5b9374c74b033d36a9c53121d3b0b82f9931c2c3c26d16dc8e26dc54b22c"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-ultrawide-night-v1-1280.webp",
+      "bytes": 53902,
+      "sha256": "57aa79729a8a251342d299d6845c0354dabfba20ddf1c35d7ea746ff50f246c9"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-ultrawide-night-v1-1920.avif",
+      "bytes": 110104,
+      "sha256": "0226e5cb4df48c00f9613207fce771fca32a9f5369e4317447124dc085b4ffa5"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-ultrawide-night-v1-1920.webp",
+      "bytes": 99012,
+      "sha256": "e8242a57d210570922de2be829590d8aff753716ed5d25240504399d1b7f7e6f"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-ultrawide-night-v1-2560.avif",
+      "bytes": 499253,
+      "sha256": "669ac83542c3289f84fd1a5518c434468b486320225ec6b350daf65e235a8e96"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-ultrawide-night-v1-2560.webp",
+      "bytes": 139592,
+      "sha256": "ed5fcf91767bda75687259103c5f25ce6b4607a1c42635cebc9c3b6cf4605684"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-ultrawide-night-v1-3840.avif",
+      "bytes": 835120,
+      "sha256": "7fa657c0850a295e4a4bdccf87351853c4b18845b60e7cc674bea694608560aa"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-ultrawide-night-v1-3840.webp",
+      "bytes": 216624,
+      "sha256": "ea09d3f74aa6ac4f2da550884c6bc9fe1e08c17e73f4c664ce0d265d691581f2"
+    },
+    {
+      "path": "assets/production/png/city-hamburg-ultrawide-night-v1-1280.png",
+      "bytes": 1130855,
+      "sha256": "b2453dde507f6c1af708f180029871c38a0c81c78a1b8fdaa10009d7d9778948"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-night-v1-320.avif",
+      "bytes": 3331,
+      "sha256": "e11dce2dc0d307a845e301c799627b4a03bb6619581caa8b0401e3d2114d8cf3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-night-v1-320.webp",
+      "bytes": 2984,
+      "sha256": "65df97321ad3af1f5b207f6d6cdbeaa3b4c6d9e66c29d46c037e62e3bcb0970e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-night-v1-640.avif",
+      "bytes": 12530,
+      "sha256": "063c91b5033a763ad846af0872da8d540bc58c8fed2768bfaf139eb7b81ca08e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-night-v1-640.webp",
+      "bytes": 11788,
+      "sha256": "09796fbbc801543bb952fcf4dc6fd141da942bd4a5c718c0cfcd2a303d9ad181"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-night-v1-960.avif",
+      "bytes": 36634,
+      "sha256": "c3c524cc69ad617496feef7523fe21e0df24e267fcf1832503c2e5c511276f60"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-night-v1-960.webp",
+      "bytes": 31910,
+      "sha256": "691c1d5884b25d8770d5ae5cee0b8432b706917e06bccbbaf0cdf03d8d629a75"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-night-v1-1280.avif",
+      "bytes": 60423,
+      "sha256": "838f5b9374c74b033d36a9c53121d3b0b82f9931c2c3c26d16dc8e26dc54b22c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-night-v1-1280.webp",
+      "bytes": 53902,
+      "sha256": "57aa79729a8a251342d299d6845c0354dabfba20ddf1c35d7ea746ff50f246c9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-night-v1-1920.avif",
+      "bytes": 110104,
+      "sha256": "0226e5cb4df48c00f9613207fce771fca32a9f5369e4317447124dc085b4ffa5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-night-v1-1920.webp",
+      "bytes": 99012,
+      "sha256": "e8242a57d210570922de2be829590d8aff753716ed5d25240504399d1b7f7e6f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-night-v1-2560.avif",
+      "bytes": 499253,
+      "sha256": "669ac83542c3289f84fd1a5518c434468b486320225ec6b350daf65e235a8e96"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-night-v1-2560.webp",
+      "bytes": 139592,
+      "sha256": "ed5fcf91767bda75687259103c5f25ce6b4607a1c42635cebc9c3b6cf4605684"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-night-v1-3840.avif",
+      "bytes": 835120,
+      "sha256": "7fa657c0850a295e4a4bdccf87351853c4b18845b60e7cc674bea694608560aa"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-night-v1-3840.webp",
+      "bytes": 216624,
+      "sha256": "ea09d3f74aa6ac4f2da550884c6bc9fe1e08c17e73f4c664ce0d265d691581f2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-night-v1-1280.png",
+      "bytes": 1130855,
+      "sha256": "b2453dde507f6c1af708f180029871c38a0c81c78a1b8fdaa10009d7d9778948"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 97.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 98,
+    "lighting_quality": 99,
+    "architecture_plausibility": 97,
+    "ui_suitability": 100,
+    "mobile_suitability": 92,
+    "originality": 95,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create the coordinated 21:9 night counterpart for this accepted fictional Hamburg-inspired SHADOWGRID city hero.\n\nPreserve the exact ultra-wide canvas and accepted fictional geometry: the broad interconnected waterways, original brick warehouse peninsula, restrained contemporary waterfront offices, small generic work vessels, low-profile bridges, layered northern metropolis, center-right detail placement, and calm dark low-detail left 38% UI safe area. Keep it clearly the same original city composition and do not reveal or invent any operational port layout.\n\nTransform the scene to physically plausible maritime blue-hour-to-night conditions: deep anthracite and cool blue-gray rain clouds, restrained warm-gold warehouse and office windows, subtle quay and bridge safety lighting, wet stone and steel reflections, and realistic dark water. Retain readable midtone detail in the fictional brick, glass, bridges, and water without crushing blacks. The left overlay area must remain calm and dark. Avoid saturated neon, overexposure, warning-red gameplay cues, emergency lighting, spectacle, or excessive haze.\n\nDo not add the Elbphilharmonie, recognizable Speicherstadt arrangements or viewpoints, St. Michael's Church, Hamburg Rathaus, Köhlbrand Bridge, Landungsbrücken, any exact real landmark silhouette, real shipping terminal, sensitive port infrastructure, or known photograph/viewpoint. Do not add real company liveries or infrastructure identifiers.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, trafficking routes, instructions, fantasy architecture, impossible bridge geometry, excessive neon, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 21:9 night city environment, intended final size 2688×1152, with no border, title, UI, or device mockup.",
+    "reference_images": [
+      "assets/source/cities/city-hamburg-ultrawide-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first night-conversion attempt.",
+      "Waterways, fictional brick district, contemporary offices, bridges, vessels, and the left 38 percent UI safe area remain coordinated with the approved daytime counterpart.",
+      "Warm practical lights and wet reflections remain restrained, while bridge, masonry, glass, and water retain readable midtone detail.",
+      "No recognizable Hamburg landmark, sensitive port layout, text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 4580353
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T21:06:10.162Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first night-conversion attempt.",
+    "Waterways, fictional brick district, contemporary offices, bridges, vessels, and the left 38 percent UI safe area remain coordinated with the approved daytime counterpart.",
+    "Warm practical lights and wet reflections remain restrained, while bridge, masonry, glass, and water retain readable midtone detail.",
+    "No recognizable Hamburg landmark, sensitive port layout, text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

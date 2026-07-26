@@ -41,11 +41,18 @@ export const de: Record<MessageKey, string> = {
   playNow: "Lokal spielen",
   navCommand: "Kommando",
   navCity: "Stadt",
+  navGermany: "Deutschland",
   navNetwork: "Netzwerk",
   navBusinesses: "Unternehmen",
   navSpecialists: "Spezialisten",
   navOperations: "Operationen",
   navOrganization: "Organisation",
+  navPvp: "Rivalenoperationen",
+  navTerritories: "Gebiete",
+  navWars: "Kartellkriege",
+  navAlliances: "Allianzen",
+  navCommunications: "Kommunikation",
+  navMarket: "Markt",
   navDiplomacy: "Diplomatie",
   navInvestigation: "Ermittlungsakte",
   navResearch: "Forschung",
@@ -54,6 +61,62 @@ export const de: Record<MessageKey, string> = {
   navSettings: "Einstellungen",
   navAdmin: "Administration",
   navModeration: "Moderation",
+  pvpTitle: "Rivalenoperationen",
+  pvpDescription:
+    "Plane begrenzte Operationen gegen zulässige Rivalen. Kosten, Schutz und Abklingzeiten erzwingt der Server.",
+  pvpTargets: "Zulässige Ziele",
+  independent: "Unabhängig",
+  pvpPlan: "Operationsvorschau",
+  preview: "Vorschau",
+  confirmPvpLaunch:
+    "Diese Rivalenoperation mit den angezeigten Kosten und Abklingfolgen starten?",
+  launch: "Starten",
+  duration: "Dauer",
+  chanceBand: "Geschätzter Bereich",
+  pvpOperations: "Meine Rivalenoperationen",
+  defend: "Verteidigen",
+  report: "Bericht",
+  territoriesTitle: "Gebietskontrolle",
+  territoriesDescription:
+    "Baue sichtbare Ansprüche durch Beiträge auf und konkurriere um abstrakte Kontrollpunkte.",
+  claimStrength: "Anspruchsstärke",
+  confirmTerritoryClaim:
+    "Diesen sichtbaren Gebietsanspruch erstellen und Einfluss einsetzen?",
+  claim: "Beanspruchen",
+  support: "Unterstützen",
+  warsTitle: "Kartellkriege",
+  warsDescription:
+    "Ultimatum, Vorbereitung, aktive Punktephase und Waffenruhe werden als persistente Phasen erfasst.",
+  currentPassword: "Aktuelles Passwort für kritische Aktion",
+  declare: "Erklären",
+  join: "Beitreten",
+  warPropose: "Ultimatum stellen",
+  district: "Bezirk",
+  reason: "Begründung",
+  demand: "Forderung",
+  peaceConditions: "Friedensbedingungen",
+  propose: "Vorschlagen",
+  alliancesTitle: "Allianzen",
+  alliancesDescription:
+    "Erstelle kartellübergreifende Koordination mit eindeutigen Mitgliedschaften, Rollen und Beitragsgrenzen.",
+  allianceCreate: "Allianz gründen",
+  charter: "Charta",
+  communicationsTitle: "Kommunikation",
+  communicationsDescription:
+    "Moderierte Stadt-, Kartell-, Allianz- und Kriegsräume mit Sperren für Direktnachrichten.",
+  channels: "Kanäle",
+  message: "Nachricht",
+  send: "Senden",
+  directMessages: "Direktnachrichten",
+  marketTitle: "Stadtmarkt",
+  marketDescription:
+    "Spielerangebote werden über das autoritative Ledger und begrenzte städtische Referenzpreise abgewickelt.",
+  offerCreate: "Angebot erstellen",
+  resource: "Ressource",
+  amount: "Menge",
+  unitPrice: "Stückpreis",
+  logistics: "Logistik",
+  personnel: "Personal",
   worldsTitle: "Spielwelt wählen",
   joinWorld: "Welt beitreten",
   codename: "Codename",
@@ -91,6 +154,127 @@ export const de: Record<MessageKey, string> = {
   cityTitle: "Vesper-Kartenebenen",
   citySubtitle:
     "Eine schematische fiktive Karte; wähle einen Bezirk für autoritative Werte.",
+  germanyMapTitle: "Strategiekarte Deutschland",
+  germanyMapSubtitle:
+    "Eine lizenzierte geografische Referenzebene für die fiktive SHADOWGRID-Welt. Sie zeigt keine autoritativen Spielergebnisse.",
+  germanyMapTheme: "Kartendarstellung",
+  germanyMapThemeDay: "Tag",
+  germanyMapThemeNight: "Nacht",
+  germanyMapThemeNeutral: "Neutral",
+  germanyMapLegend: "Heatmap-Legende",
+  germanyMapHeatmapEconomy: "Wirtschaft",
+  germanyMapHeatmapInformation: "Informationen",
+  germanyMapHeatmapAuthority: "Behördenaktivität",
+  germanyMapHeatmapOrganization: "Organisationspräsenz",
+  germanyMapHeatmapEvent: "Ereignisse",
+  germanyMapDescription:
+    "Ein nordorientierter Deutschlandumriss mit Bundeslandgrenzen, Küsten, großen Gewässern und größeren Flüssen.",
+  germanyMapCaption:
+    "Nur geografische Referenz. Dynamische Stadtmarker und Spielwerte bleiben serverautoritativ.",
+  germanyMapAttribution: "Quellenangaben der Kartendaten",
+  germanyMapAttributionVgOwner: "© BKG 2025",
+  germanyMapAttributionDlmOwner: "© GeoBasis-DE / BKG 2025",
+  germanyMapAttributionLicense: "dl-de/by-2-0",
+  germanyMapAttributionVgSuffix: "(Daten verändert), Datenquellen:",
+  germanyMapAttributionChanged: "(Daten verändert)",
+  germanyMapAttributionSourcesUrl:
+    "https://sgx.geodatenzentrum.de/web_public/gdz/datenquellen/datenquellen_vg_nuts.pdf",
+  germanyMapSelectedLegend: "Ausgewählte visuelle Skala",
+  germanyMapIntensityScale: "Barrierearme fünfstufige Intensitätsskala",
+  germanyMapIntensityVeryLow: "Sehr niedrig",
+  germanyMapIntensityLow: "Niedrig",
+  germanyMapIntensityMedium: "Mittel",
+  germanyMapIntensityHigh: "Hoch",
+  germanyMapIntensityVeryHigh: "Sehr hoch",
+  germanyMapAccessibleLayers: "Kartenebenen",
+  germanyMapLayerOutline: "Landesumriss Deutschland",
+  germanyMapLayerWater: "Küsten, breite Flüsse und große Seen",
+  germanyMapLayerRivers: "Strategisches Netz größerer Flüsse",
+  germanyMapLayerStates: "Bundeslandgrenzen",
+  germanyMapReferenceNote:
+    "Liste und Intensitätsskala bilden die visuellen Ebenen unabhängig von Farbe ab. Aus dieser Referenzansicht wird kein aktueller Spielzustand abgeleitet.",
+  germanyMapMarkerCatalog: "Legende der Marker und Kontrollpunkte",
+  germanyMapMarkerCatalogDescription:
+    "Die Textbezeichnung bestimmt die Bedeutung jedes Markers; Form und Kategoriefarbe sind zusätzliche visuelle Hinweise.",
+  germanyMapMarkerCities: "Stadtmarker",
+  germanyMapMarkerInfluence: "Einflussmarker",
+  germanyMapMarkerControlPoints: "Kontrollpunkte",
+  germanyMapMarkerMetropolis: "Metropole",
+  germanyMapMarkerLargeCity: "Großstadt",
+  germanyMapMarkerMediumCity: "Mittelstadt",
+  germanyMapMarkerSmallTown: "Kleinstadt",
+  germanyMapMarkerHomeCity: "Heimatstadt",
+  germanyMapMarkerOrganizationHeadquarters: "Organisationshauptsitz",
+  germanyMapMarkerContestedCity: "Umkämpfte Stadt",
+  germanyMapMarkerSeasonalEvent: "Saisonales Ereignis",
+  germanyMapMarkerEconomy: "Wirtschaftlicher Einfluss",
+  germanyMapMarkerStreet: "Einfluss im Stadtraum",
+  germanyMapMarkerInformation: "Informationseinfluss",
+  germanyMapMarkerSociety: "Gesellschaftlicher Einfluss",
+  germanyMapMarkerDigital: "Digitaler Einfluss",
+  germanyMapMarkerEconomicNetwork: "Wirtschaftsnetzwerk",
+  germanyMapMarkerInformationCenter: "Informationszentrum",
+  germanyMapMarkerLogisticsNode: "Logistikknoten",
+  germanyMapMarkerSocialAccess: "Gesellschaftlicher Zugang",
+  germanyMapMarkerDigitalNode: "Digitaler Knoten",
+  germanyMapMarkerCoordinationCenter: "Koordinationszentrum",
+  germanyMapCityPackages: "Premium-Stadtpakete",
+  germanyMapCityPackagesDescription:
+    "Responsive Stadtmotive bilden eine fiktiv interpretierte visuelle Identität. Aktuelle Spielwerte und Stadtverfügbarkeit bleiben serverautoritativ.",
+  germanyMapCityKoeln: "Von Köln inspirierte Rheinmetropole",
+  germanyMapCityKoelnDescription:
+    "Eine eigenständige fiktive Stadtfamilie mit Fluss, Handel, Kultur, Medien und Logistik, ohne bekannte Landmarke oder Fotografie nachzubilden.",
+  germanyMapCityKoelnHeroAlt:
+    "Fiktive, von Köln inspirierte Rheinmetropole mit eigenständiger Brücke und dichter Stadtsilhouette",
+  germanyMapCityHeroCaption:
+    "Das angezeigte Hero-Motiv passt sich an Ultra-Wide, Desktop, Mobil, Tag und Nacht an.",
+  germanyMapCityKoelnCardAlt:
+    "Quadratische fiktive, von Köln inspirierte Stadtkarte mit Fluss und eigenständiger Brücke",
+  germanyMapCityHamburg: "Von Hamburg inspirierte maritime Metropole",
+  germanyMapCityHamburgDescription:
+    "Eine eigenständige fiktive Hafenstadtfamilie mit Wasserwegen, Backsteintradition, Handel, Medien und Stadtleben, ohne einen realen Hafenplan abzubilden.",
+  germanyMapCityHamburgHeroAlt:
+    "Fiktive, von Hamburg inspirierte maritime Metropole mit gestaffelten Wasserwegen und eigenständiger Backstein-Waterfront",
+  germanyMapCityHamburgCardAlt:
+    "Quadratische fiktive, von Hamburg inspirierte Stadtkarte mit Wasserwegen, Backsteinviertel und eigenständiger Brücke",
+  germanyMapCityBerlin: "Von Berlin inspirierte vielfältige Hauptstadt",
+  germanyMapCityBerlinDescription:
+    "Eine eigenständige fiktive Hauptstadtfamilie mit baumbestandenem Kanal, gemischten Bauperioden, Kultur, Forschung, Medien und Stadtleben, ohne einen realen Regierungs- oder Straßenplan abzubilden.",
+  germanyMapCityBerlinHeroAlt:
+    "Fiktive, von Berlin inspirierte Hauptstadt mit baumbestandenem Kanal, eigenständigen Brücken und gemischter historischer und zeitgenössischer Architektur",
+  germanyMapCityBerlinCardAlt:
+    "Quadratische fiktive, von Berlin inspirierte Stadtkarte mit Kanal, Bäumen, eigenständiger Brücke und gemischter Architektur",
+  germanyMapCityMuenchen: "Von München inspirierte südliche Metropole",
+  germanyMapCityMuenchenDescription:
+    "Eine eigenständige fiktive süddeutsche Stadtfamilie mit begrüntem Fluss, hellen Steinquartieren, hochwertigem öffentlichem Raum, Forschung, Technik und dezenter Hügelferne, ohne reale Landmarke oder Firmenstandort nachzubilden.",
+  germanyMapCityMuenchenHeroAlt:
+    "Fiktive, von München inspirierte südliche Metropole mit begrüntem Fluss, eigenständiger Brücke, hellem Steinquartier und dezenter Hügelferne",
+  germanyMapCityMuenchenCardAlt:
+    "Quadratische fiktive, von München inspirierte Stadtkarte mit begrüntem Fluss, hellem Steinquartier, eigenständiger Brücke und ruhigem Wasser für Beschriftungen",
+  germanyMapCityFrankfurt: "Von Frankfurt inspirierte Finanzmetropole",
+  germanyMapCityFrankfurtDescription:
+    "Eine eigenständige fiktive Finanz- und Dienstleistungsstadtfamilie mit breitem Fluss, kompaktem markenfreiem Hochhauscluster, niedrigem Steinquartier, Handel, Datendiensten und öffentlichem Ufer, ohne reale Skyline oder Finanzinstitution nachzubilden.",
+  germanyMapCityFrankfurtHeroAlt:
+    "Fiktive, von Frankfurt inspirierte Finanzmetropole mit breitem Fluss, eigenständiger Brücke, kompaktem Glashochhauscluster und niedrigem Steinquartier",
+  germanyMapCityFrankfurtCardAlt:
+    "Quadratische fiktive, von Frankfurt inspirierte Stadtkarte mit markenfreiem Hochhauscluster, niedrigem Steinquartier, eigenständiger Brücke und ruhigem Fluss für Beschriftungen",
+  germanyMapCityDuesseldorf:
+    "Von Düsseldorf inspirierte Dienstleistungsmetropole",
+  germanyMapCityDuesseldorfDescription:
+    "Eine eigenständige fiktive Dienstleistungs-, Mode-, Handels- und Medienstadtfamilie mit breitem Fluss, begrünter Promenade, kleinem Kanalbecken, hellem Steinquartier und zurückhaltenden designorientierten Büros, ohne reale Landmarke, Marke oder Verkehrsplanung nachzubilden.",
+  germanyMapCityDuesseldorfHeroAlt:
+    "Fiktive, von Düsseldorf inspirierte Dienstleistungsmetropole mit breitem Fluss, eigenständiger Brücke, begrünter Promenade, Kanalbecken, hellem Steinquartier und zurückhaltenden Glasbüros",
+  germanyMapCityDuesseldorfCardAlt:
+    "Quadratische fiktive, von Düsseldorf inspirierte Stadtkarte mit Kanalbecken, hellem Dienstleistungsquartier, eigenständiger Brücke und ruhigem Fluss für Beschriftungen",
+  germanyMapCityStuttgart: "Von Stuttgart inspirierte Ingenieursmetropole",
+  germanyMapCityStuttgartDescription:
+    "Eine eigenständige fiktive Ingenieurs-, Forschungs-, Bildungs- und Dienstleistungsstadtfamilie mit grünem Talkessel, bewaldeten Hängen, gestaffelten Hangquartieren, hellen Forschungsbezirken und linearem Regenwassergarten, ohne reale Landmarke, Automarke, Fabrik, Campus oder Verkehrsplanung nachzubilden.",
+  germanyMapCityStuttgartHeroAlt:
+    "Fiktive, von Stuttgart inspirierte Ingenieursmetropole mit bewaldeten Talkessel-Hängen, gestaffelten Hangquartieren, hellen Forschungsbauten, bepflanzten Terrassen und linearem Regenwassergarten",
+  germanyMapCityStuttgartCardAlt:
+    "Quadratische fiktive, von Stuttgart inspirierte Stadtkarte mit bewaldetem Talkessel, Hangquartieren, hellem Forschungsbezirk, Regenwassergarten und ruhiger Terrasse für Beschriftungen",
+  germanyMapCitySilhouetteCaption:
+    "Textfreie Vektorsilhouette für Overlays und kompakte Layouts.",
   layerEconomic: "Wirtschaft",
   layerAuthority: "Behörden",
   layerSocial: "Soziale Stabilität",

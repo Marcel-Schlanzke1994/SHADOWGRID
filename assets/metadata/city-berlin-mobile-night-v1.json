@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-berlin-mobile-night-v1",
+  "manifest_order": 88,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "berlin",
+  "variant": "mobile-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-berlin-mobile-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100088,
+  "content_hash": "ed092f0fa3e382ac3c04f7ffcbd8c44cfcaa4ebc64ba91cf6fa319e85988d676",
+  "source_file": "assets/source/cities/city-berlin-mobile-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-berlin-mobile-night-v1-320.avif",
+      "bytes": 14675,
+      "sha256": "bd46d84319a765dfa5bc0178b16ac6b0bf10000b3a1f6a9ba62024b79a9adc7d"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-mobile-night-v1-320.webp",
+      "bytes": 15314,
+      "sha256": "0d9fafefae65dfb4c0b63effbc369a54c490e4896bb04adc2eb7f1d69d3d19d6"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-mobile-night-v1-640.avif",
+      "bytes": 54379,
+      "sha256": "c31a4f990b64f0edadcf2426c2824d9743d7e84f87ea14b36603589cc80de9df"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-mobile-night-v1-640.webp",
+      "bytes": 57874,
+      "sha256": "8f9dbf0e293643ae72cbe065e0ee31aae8710f6e8c6b246129080b4008f56092"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-mobile-night-v1-960.avif",
+      "bytes": 123656,
+      "sha256": "a381719ef5ed3fb9fdef0c2a8f5a22d67f410aea910d0dbf7d7d779723c3134c"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-mobile-night-v1-960.webp",
+      "bytes": 115800,
+      "sha256": "4193cf8b66f9e6b1377feaf07292d8888e7cf830172d66d145b9bf0647556d56"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-mobile-night-v1-1280.avif",
+      "bytes": 160597,
+      "sha256": "70031d6f47c2503d967c798ec6a87bda2d55af616d85218a25bcc38c9f472d9d"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-mobile-night-v1-1280.webp",
+      "bytes": 156840,
+      "sha256": "9b99938bc347bae4f5ce2c640dc7a188227cf4a50697fda27b45230a83ce2ab5"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-mobile-night-v1-1920.avif",
+      "bytes": 829744,
+      "sha256": "44352ff81180d79894f245b7c06aa7feb934ee3d557f3b73feaf75e30df01a65"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-mobile-night-v1-1920.webp",
+      "bytes": 246616,
+      "sha256": "a399df4d39ced566758a1da9ca0ac05f9d004aea9fb45524ee86d3ecac225542"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-mobile-night-v1-2560.avif",
+      "bytes": 1148850,
+      "sha256": "26922c5f90c97fac644f607e230c41f8dc794094acf7ecdc1af3ce853ec25382"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-mobile-night-v1-2560.webp",
+      "bytes": 346378,
+      "sha256": "1f3d62d3aecbe4a2a3361c7cd146a799e3ac33800418e977ee79040dc56b82cf"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-mobile-night-v1-3840.avif",
+      "bytes": 1667040,
+      "sha256": "b9a87167fbac17e859da56a7cea7990f68aaf6d3e4ca5ef1d847930a0cc2b00d"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-mobile-night-v1-3840.webp",
+      "bytes": 573120,
+      "sha256": "ced16464ce91ebb951c1b7a075af377530dc716fbec371db377a36088343f22f"
+    },
+    {
+      "path": "assets/production/png/city-berlin-mobile-night-v1-1152.png",
+      "bytes": 3654142,
+      "sha256": "c901773bf3d985824fa4b9962c923b0d422c6d27da2b1a2713329f36e273dc5b"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-night-v1-320.avif",
+      "bytes": 14675,
+      "sha256": "bd46d84319a765dfa5bc0178b16ac6b0bf10000b3a1f6a9ba62024b79a9adc7d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-night-v1-320.webp",
+      "bytes": 15314,
+      "sha256": "0d9fafefae65dfb4c0b63effbc369a54c490e4896bb04adc2eb7f1d69d3d19d6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-night-v1-640.avif",
+      "bytes": 54379,
+      "sha256": "c31a4f990b64f0edadcf2426c2824d9743d7e84f87ea14b36603589cc80de9df"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-night-v1-640.webp",
+      "bytes": 57874,
+      "sha256": "8f9dbf0e293643ae72cbe065e0ee31aae8710f6e8c6b246129080b4008f56092"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-night-v1-960.avif",
+      "bytes": 123656,
+      "sha256": "a381719ef5ed3fb9fdef0c2a8f5a22d67f410aea910d0dbf7d7d779723c3134c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-night-v1-960.webp",
+      "bytes": 115800,
+      "sha256": "4193cf8b66f9e6b1377feaf07292d8888e7cf830172d66d145b9bf0647556d56"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-night-v1-1280.avif",
+      "bytes": 160597,
+      "sha256": "70031d6f47c2503d967c798ec6a87bda2d55af616d85218a25bcc38c9f472d9d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-night-v1-1280.webp",
+      "bytes": 156840,
+      "sha256": "9b99938bc347bae4f5ce2c640dc7a188227cf4a50697fda27b45230a83ce2ab5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-night-v1-1920.avif",
+      "bytes": 829744,
+      "sha256": "44352ff81180d79894f245b7c06aa7feb934ee3d557f3b73feaf75e30df01a65"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-night-v1-1920.webp",
+      "bytes": 246616,
+      "sha256": "a399df4d39ced566758a1da9ca0ac05f9d004aea9fb45524ee86d3ecac225542"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-night-v1-2560.avif",
+      "bytes": 1148850,
+      "sha256": "26922c5f90c97fac644f607e230c41f8dc794094acf7ecdc1af3ce853ec25382"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-night-v1-2560.webp",
+      "bytes": 346378,
+      "sha256": "1f3d62d3aecbe4a2a3361c7cd146a799e3ac33800418e977ee79040dc56b82cf"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-night-v1-3840.avif",
+      "bytes": 1667040,
+      "sha256": "b9a87167fbac17e859da56a7cea7990f68aaf6d3e4ca5ef1d847930a0cc2b00d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-night-v1-3840.webp",
+      "bytes": 573120,
+      "sha256": "ced16464ce91ebb951c1b7a075af377530dc716fbec371db377a36088343f22f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-night-v1-1152.png",
+      "bytes": 3654142,
+      "sha256": "c901773bf3d985824fa4b9962c923b0d422c6d27da2b1a2713329f36e273dc5b"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 98.7,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 98,
+    "lighting_quality": 99,
+    "architecture_plausibility": 97,
+    "ui_suitability": 100,
+    "mobile_suitability": 100,
+    "originality": 95,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create the coordinated 9:16 night counterpart for this accepted fictional Berlin-inspired SHADOWGRID mobile hero.\n\nPreserve the exact portrait geometry and mobile hierarchy: calm upper 32% cloud/status area, layered fictional capital skyline and mixed architecture in the middle third, tree-lined canal and broad axis, one original diagonal low-profile bridge in the middle-lower frame, and a quieter darker bottom 18% canal area for one primary control. Keep it clearly the same fictional city and do not crop or move the bridge into the upper safe area. Do not reveal or invent any operational street, transit, government, surveillance, or civic layout.\n\nTransform the lighting to physically plausible capital-city night after rain: deep anthracite and cool blue-gray clouds, restrained warm-gold windows and street/bridge practical lights, wet stone and canal reflections, realistic dark trees and water, and readable midtone architecture. Preserve a calm low-detail upper overlay zone and dark lower action zone. Avoid saturated neon, overexposure, emergency lighting, warning-red gameplay cues, black crush, excessive haze, or spectacle.\n\nDo not add the Brandenburg Gate, Reichstag, Berlin TV Tower, Victory Column, Berlin Cathedral, Museum Island, East Side Gallery, Oberbaum Bridge, Potsdamer Platz, Alexanderplatz, government complexes, embassies, monuments, flags, real transit maps, exact street layouts, recognizable authority buildings, or any known photograph/viewpoint.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, surveillance instructions, routes, fantasy architecture, impossible geometry, excessive neon, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 9:16 night capital-city environment, intended final size 1152×2048, with no border, title, UI, or device mockup.",
+    "reference_images": [
+      "assets/source/cities/city-berlin-mobile-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first portrait night-conversion attempt.",
+      "The upper status area, middle skyline/canal decision, diagonal bridge, and darker lower control area remain coordinated with the approved portrait daytime counterpart.",
+      "Warm practical lights and wet reflections preserve city depth without saturated neon, emergency cues, or loss of content-region midtones.",
+      "No known landmark, government site, street layout, embedded text, logo, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3654665
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T22:11:42.153Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first portrait night-conversion attempt.",
+    "The upper status area, middle skyline/canal decision, diagonal bridge, and darker lower control area remain coordinated with the approved portrait daytime counterpart.",
+    "Warm practical lights and wet reflections preserve city depth without saturated neon, emergency cues, or loss of content-region midtones.",
+    "No known landmark, government site, street layout, embedded text, logo, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

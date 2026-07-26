@@ -1,0 +1,236 @@
+{
+  "asset_id": "global-landing-mobile-night-v1",
+  "manifest_order": 23,
+  "category": "global",
+  "batch": "global-backgrounds",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/global-landing-mobile-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100023,
+  "content_hash": "ef7cd6d8f9f02f530c11c1a0b50e30e089268552a578f9df03e10cadbe5caaa4",
+  "source_file": "assets/source/global/global-landing-mobile-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/global-landing-mobile-night-v1-320.avif",
+      "bytes": 15288,
+      "sha256": "6088ddbf19117c6dcf1c47e8e86762ecf9d10603a0352bd27064c6bab99bea2f"
+    },
+    {
+      "path": "assets/production/webp/global-landing-mobile-night-v1-320.webp",
+      "bytes": 15350,
+      "sha256": "72033eb12854691c7d1c9f93f0f445ab9cab072e945399e99d34e5901819b9d1"
+    },
+    {
+      "path": "assets/production/avif/global-landing-mobile-night-v1-640.avif",
+      "bytes": 59843,
+      "sha256": "bc56f6f208c853ab2ef14fcd1812db1eccfe2d237b596c8ad71a11686ec26c7d"
+    },
+    {
+      "path": "assets/production/webp/global-landing-mobile-night-v1-640.webp",
+      "bytes": 62094,
+      "sha256": "e043482625012c7c83a9210dbe99513b2af5d7ab079d40e8ac07441fd30c6545"
+    },
+    {
+      "path": "assets/production/avif/global-landing-mobile-night-v1-960.avif",
+      "bytes": 140257,
+      "sha256": "acb9442c500eafcc3ebae51389b942ce705007f7aa2fea55159b16a600021f3e"
+    },
+    {
+      "path": "assets/production/webp/global-landing-mobile-night-v1-960.webp",
+      "bytes": 131762,
+      "sha256": "468b8f7727476e2c6f605e99485c23526fe1e163cead49d624d4f155c61a915d"
+    },
+    {
+      "path": "assets/production/avif/global-landing-mobile-night-v1-1280.avif",
+      "bytes": 183501,
+      "sha256": "e27f37a05d9a251414d9ff32610d1a2aecc972a08173e64d38d5f076ada240d4"
+    },
+    {
+      "path": "assets/production/webp/global-landing-mobile-night-v1-1280.webp",
+      "bytes": 175856,
+      "sha256": "0160f20b36eef23ff48c6bbfa9fbb2b42e52b0ad78105e61dabd31668930a3ff"
+    },
+    {
+      "path": "assets/production/avif/global-landing-mobile-night-v1-1920.avif",
+      "bytes": 968200,
+      "sha256": "186e4440dcb10e3e8bac74c02f606d752aa8e41ec4b0843e51981488da567016"
+    },
+    {
+      "path": "assets/production/webp/global-landing-mobile-night-v1-1920.webp",
+      "bytes": 275854,
+      "sha256": "0a477a0c33dc0cf892f874cf8879d18df7710c645c32f9e87a48a04e60af963e"
+    },
+    {
+      "path": "assets/production/avif/global-landing-mobile-night-v1-2560.avif",
+      "bytes": 1379243,
+      "sha256": "8bf0d4de9d80aa853a3e34f36e5e64cb82faf0fb078ca99106d3eea8824d5c2c"
+    },
+    {
+      "path": "assets/production/webp/global-landing-mobile-night-v1-2560.webp",
+      "bytes": 388340,
+      "sha256": "da88cc29b3d8b163dbc47038259722624f2a7e9b959f6f92fe0a539c039447e6"
+    },
+    {
+      "path": "assets/production/avif/global-landing-mobile-night-v1-3840.avif",
+      "bytes": 1999222,
+      "sha256": "81ed6ee71989b57cfe18796aea09907732d64da289062f10bcacb8e8aca042fd"
+    },
+    {
+      "path": "assets/production/webp/global-landing-mobile-night-v1-3840.webp",
+      "bytes": 645236,
+      "sha256": "6e54fe653848fe670adadb6e4ea3cefc1f95c405179dfc9ed3fc5e69c031b49a"
+    },
+    {
+      "path": "assets/production/png/global-landing-mobile-night-v1-1152.png",
+      "bytes": 3923492,
+      "sha256": "850e69ce70f08266409d3383321c1c19352bf96162cc76df599fa55c667e1bdd"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-night-v1-320.avif",
+      "bytes": 15288,
+      "sha256": "6088ddbf19117c6dcf1c47e8e86762ecf9d10603a0352bd27064c6bab99bea2f"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-night-v1-320.webp",
+      "bytes": 15350,
+      "sha256": "72033eb12854691c7d1c9f93f0f445ab9cab072e945399e99d34e5901819b9d1"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-night-v1-640.avif",
+      "bytes": 59843,
+      "sha256": "bc56f6f208c853ab2ef14fcd1812db1eccfe2d237b596c8ad71a11686ec26c7d"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-night-v1-640.webp",
+      "bytes": 62094,
+      "sha256": "e043482625012c7c83a9210dbe99513b2af5d7ab079d40e8ac07441fd30c6545"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-night-v1-960.avif",
+      "bytes": 140257,
+      "sha256": "acb9442c500eafcc3ebae51389b942ce705007f7aa2fea55159b16a600021f3e"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-night-v1-960.webp",
+      "bytes": 131762,
+      "sha256": "468b8f7727476e2c6f605e99485c23526fe1e163cead49d624d4f155c61a915d"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-night-v1-1280.avif",
+      "bytes": 183501,
+      "sha256": "e27f37a05d9a251414d9ff32610d1a2aecc972a08173e64d38d5f076ada240d4"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-night-v1-1280.webp",
+      "bytes": 175856,
+      "sha256": "0160f20b36eef23ff48c6bbfa9fbb2b42e52b0ad78105e61dabd31668930a3ff"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-night-v1-1920.avif",
+      "bytes": 968200,
+      "sha256": "186e4440dcb10e3e8bac74c02f606d752aa8e41ec4b0843e51981488da567016"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-night-v1-1920.webp",
+      "bytes": 275854,
+      "sha256": "0a477a0c33dc0cf892f874cf8879d18df7710c645c32f9e87a48a04e60af963e"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-night-v1-2560.avif",
+      "bytes": 1379243,
+      "sha256": "8bf0d4de9d80aa853a3e34f36e5e64cb82faf0fb078ca99106d3eea8824d5c2c"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-night-v1-2560.webp",
+      "bytes": 388340,
+      "sha256": "da88cc29b3d8b163dbc47038259722624f2a7e9b959f6f92fe0a539c039447e6"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-night-v1-3840.avif",
+      "bytes": 1999222,
+      "sha256": "81ed6ee71989b57cfe18796aea09907732d64da289062f10bcacb8e8aca042fd"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-night-v1-3840.webp",
+      "bytes": 645236,
+      "sha256": "6e54fe653848fe670adadb6e4ea3cefc1f95c405179dfc9ed3fc5e69c031b49a"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-night-v1-1152.png",
+      "bytes": 3923492,
+      "sha256": "850e69ce70f08266409d3383321c1c19352bf96162cc76df599fa55c667e1bdd"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 95.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 96,
+    "style_consistency": 96,
+    "composition": 97,
+    "material_quality": 95,
+    "lighting_quality": 96,
+    "architecture_plausibility": 94,
+    "ui_suitability": 96,
+    "mobile_suitability": 98,
+    "originality": 91,
+    "safety_compliance": 100,
+    "accepted_prompt": "Use case: photorealistic-natural\nAsset type: 9:16 mobile landing-page night background for the fictional economic strategy game SHADOWGRID\nInput images: Image 1 is the approved mobile-day composition reference. Image 2 is the approved desktop-night atmosphere reference. Image 3 defines headquarters materials. Create a new native portrait night scene; do not darken, crop or edit an input.\nPrimary request: Create an original portrait establishing scene of a wholly fictional contemporary German river metropolis at night, designed specifically for a 9:16 phone screen.\nScene/backdrop: plausible German mixed historic masonry, postwar and modern office districts around a river, ordinary bridges, public transit and riverfront greenery; no real or recognizable city or landmark.\nSubject: a vertical river corridor leading from the lower foreground into the illuminated city, with a dark-glass headquarters edge and landscaped terrace in the upper-right quarter. Keep the central region controlled and low-detail behind a translucent decision card.\nStyle/medium: ultra-realistic night architectural and urban photography; contemporary economic-strategy atmosphere; cinematic corporate thriller; restrained cyber-noir through deep blue-gray ambient light and warm windows only.\nComposition/framing: native 9:16 portrait; plausible elevated human viewpoint; strong vertical depth; calm dark top 18% for the SHADOWGRID logo and device safe area; city lights concentrated along outer thirds and river edges; center 60% avoids isolated bright objects behind headline and buttons.\nLighting/mood: realistic blue-hour-to-night sky, warm-gold street and office lighting, subtle haze and river reflections, readable shadow detail, strategic and composed rather than threatening.\nColor palette: anthracite, deep neutral blue-gray and restrained warm gold; no saturated neon, magenta or large warning-red elements.\nConstraints: no embedded words, fake UI, signage, company logo, authority insignia, readable plates or addresses, recognizable people, famous landmark, copied photograph angle, watermark, weapon, violence, illegal activity, impossible architecture or fantasy skyline. Preserve clean mobile safe areas and physically plausible infrastructure.",
+    "reference_images": [
+      "assets/source/global/global-landing-mobile-day-v1.png",
+      "assets/source/global/global-landing-desktop-night-v1.png",
+      "assets/source/style-proof/style-proof-corporate-headquarters-v1.png"
+    ],
+    "notes": [
+      "Accepted first built-in generation attempt.",
+      "Native portrait composition provides a calm dark device-safe top area and a controlled central overlay zone.",
+      "Warm lighting is restrained, physically plausible and free of saturated cyberpunk neon.",
+      "No visible logo, readable sign, private identifier, recognizable person, weapon, extremist symbol or explicit wrongdoing."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3924015
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T15:28:30.339Z",
+  "license": "project-owned-generated-asset",
+  "notes": [
+    "Accepted first built-in generation attempt.",
+    "Native portrait composition provides a calm dark device-safe top area and a controlled central overlay zone.",
+    "Warm lighting is restrained, physically plausible and free of saturated cyberpunk neon.",
+    "No visible logo, readable sign, private identifier, recognizable person, weapon, extremist symbol or explicit wrongdoing."
+  ]
+}

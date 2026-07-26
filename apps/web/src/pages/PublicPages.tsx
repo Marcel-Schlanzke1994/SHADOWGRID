@@ -9,16 +9,24 @@ import {
 import { useTranslation } from "react-i18next";
 import { client, login, useAuth } from "../auth";
 import { Field, Panel, StateView } from "../components";
+import { GlobalBackdrop } from "../GlobalBackdrop";
+
+const globalAssetWidths = [320, 640, 960, 1280, 1920, 2560, 3840];
+const globalAssetSrcSet = (assetId: string, format: "avif" | "webp") =>
+  globalAssetWidths
+    .map((width) => `/assets/global/${assetId}-${width}.${format} ${width}w`)
+    .join(", ");
 
 const PublicFrame = ({ children }: { children: React.ReactNode }) => {
   const { t } = useTranslation();
   return (
     <main className="public-shell">
       <div className="public-brand">
-        <span className="brand__mark" aria-hidden="true">
-          SG
-        </span>
-        <strong>{t("appName")}</strong>
+        <img
+          className="brand__logo"
+          src="/assets/branding/shadowgrid-logo-horizontal-dark.svg"
+          alt={t("appName")}
+        />
       </div>
       {children}
     </main>
@@ -29,7 +37,75 @@ export function LandingPage() {
   const { t } = useTranslation();
   return (
     <PublicFrame>
-      <section className="hero">
+      <picture className="landing-backdrop" aria-hidden="true">
+        <source
+          type="image/avif"
+          media="(max-width: 600px) and (prefers-color-scheme: dark)"
+          srcSet={globalAssetSrcSet("global-landing-mobile-night-v1", "avif")}
+          sizes="100vw"
+        />
+        <source
+          type="image/avif"
+          media="(max-width: 600px)"
+          srcSet={globalAssetSrcSet("global-landing-mobile-day-v1", "avif")}
+          sizes="100vw"
+        />
+        <source
+          type="image/avif"
+          media="(prefers-color-scheme: dark)"
+          srcSet={globalAssetSrcSet("global-landing-desktop-night-v1", "avif")}
+          sizes="100vw"
+        />
+        <source
+          type="image/avif"
+          srcSet={globalAssetSrcSet("global-landing-desktop-day-v1", "avif")}
+          sizes="100vw"
+        />
+        <source
+          type="image/webp"
+          media="(max-width: 600px) and (prefers-color-scheme: dark)"
+          srcSet={globalAssetSrcSet("global-landing-mobile-night-v1", "webp")}
+          sizes="100vw"
+        />
+        <source
+          type="image/webp"
+          media="(max-width: 600px)"
+          srcSet={globalAssetSrcSet("global-landing-mobile-day-v1", "webp")}
+          sizes="100vw"
+        />
+        <source
+          type="image/webp"
+          media="(prefers-color-scheme: dark)"
+          srcSet={globalAssetSrcSet("global-landing-desktop-night-v1", "webp")}
+          sizes="100vw"
+        />
+        <source
+          type="image/webp"
+          srcSet={globalAssetSrcSet("global-landing-desktop-day-v1", "webp")}
+          sizes="100vw"
+        />
+        <source
+          type="image/png"
+          media="(max-width: 600px) and (prefers-color-scheme: dark)"
+          srcSet="/assets/global/global-landing-mobile-night-v1-1152.png"
+        />
+        <source
+          type="image/png"
+          media="(max-width: 600px)"
+          srcSet="/assets/global/global-landing-mobile-day-v1-1152.png"
+        />
+        <source
+          type="image/png"
+          media="(prefers-color-scheme: dark)"
+          srcSet="/assets/global/global-landing-desktop-night-v1-1280.png"
+        />
+        <img
+          src="/assets/global/global-landing-desktop-day-v1-1280.png"
+          alt=""
+        />
+      </picture>
+      <div className="landing-backdrop__shade" aria-hidden="true" />
+      <section className="hero hero--landing">
         <p className="eyebrow">{t("seasonEyebrow")}</p>
         <h1>{t("landingTitle")}</h1>
         <p>{t("landingBody")}</p>
@@ -85,6 +161,11 @@ export function LoginPage() {
   };
   return (
     <PublicFrame>
+      <GlobalBackdrop
+        desktopAssetId="global-login-desktop-v1"
+        mobileAssetId="global-login-mobile-v1"
+        variant="auth"
+      />
       <Panel className="auth-card">
         <h1>{t("authWelcome")}</h1>
         <StateView error={error} loading={busy}>
@@ -157,6 +238,11 @@ export function RegisterPage() {
   };
   return (
     <PublicFrame>
+      <GlobalBackdrop
+        desktopAssetId="global-registration-desktop-v1"
+        mobileAssetId="global-registration-mobile-v1"
+        variant="auth"
+      />
       <Panel className="auth-card">
         <h1>{t("register")}</h1>
         <p>{t("authRegisterIntro")}</p>

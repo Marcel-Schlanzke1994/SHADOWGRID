@@ -1,0 +1,234 @@
+{
+  "asset_id": "global-command-center-night-v1",
+  "manifest_order": 31,
+  "category": "global",
+  "batch": "global-backgrounds",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/global-command-center-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100031,
+  "content_hash": "54e4ace00509c8f3aa3417561802fe1abdfd817065d4874b75ceb66fddcc1d1b",
+  "source_file": "assets/source/global/global-command-center-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/global-command-center-night-v1-320.avif",
+      "bytes": 2653,
+      "sha256": "f678f177e5b3fb4eb732c0a1fdb7d608b6d3bd1f3dbe04e369bd17def55ae6b9"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-night-v1-320.webp",
+      "bytes": 2672,
+      "sha256": "c1b846f87933b75f1c8170bebf23143211404d515dae204f994e3b5ba76ce236"
+    },
+    {
+      "path": "assets/production/avif/global-command-center-night-v1-640.avif",
+      "bytes": 8120,
+      "sha256": "2c941b444312c2bd7c77fae875a017c0a2448d1d13f289c26c6a902bd3624f1d"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-night-v1-640.webp",
+      "bytes": 8300,
+      "sha256": "37a900bb0b1f74d2980d50ad58cfda088b95a272d11274910ba4572791b5ff13"
+    },
+    {
+      "path": "assets/production/avif/global-command-center-night-v1-960.avif",
+      "bytes": 77745,
+      "sha256": "5a1f037d16a3a42627160e5e26aa5970659afdbf67a7ffd47860f8558cd20dda"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-night-v1-960.webp",
+      "bytes": 19768,
+      "sha256": "c07c3488af82428e57aea793ff45008ec43c096033dd0e517b014251f12075ec"
+    },
+    {
+      "path": "assets/production/avif/global-command-center-night-v1-1280.avif",
+      "bytes": 133325,
+      "sha256": "91eda53c70a4e4b03f17d36f16704bdba9f661baa3dff044069e53a1aac83cd7"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-night-v1-1280.webp",
+      "bytes": 31724,
+      "sha256": "d5f319493073c83b54e9755746cda627c7fe315f8e4ad3bc95fcfb00fb6d8d65"
+    },
+    {
+      "path": "assets/production/avif/global-command-center-night-v1-1920.avif",
+      "bytes": 296796,
+      "sha256": "8eb6362b43989d84880c7767344b1a19c180602fbf0f9cc0c9c4bbe9747eedd5"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-night-v1-1920.webp",
+      "bytes": 55522,
+      "sha256": "95656ea6ad256a0e28a8a9503f6f4e6d3e0e4f1b9baac226accd44c32d98509c"
+    },
+    {
+      "path": "assets/production/avif/global-command-center-night-v1-2560.avif",
+      "bytes": 434556,
+      "sha256": "8aa13f267f4f16b88c0128d45e704e86e7a78d44caf12ff6b82de8b037725889"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-night-v1-2560.webp",
+      "bytes": 76650,
+      "sha256": "b3c682fcdbafca0e7c2e8a362ac074927c894874c5e3d1a6199ce1815d197ca1"
+    },
+    {
+      "path": "assets/production/avif/global-command-center-night-v1-3840.avif",
+      "bytes": 706608,
+      "sha256": "9869b2345727f887c6de152b64005f161391bd5e895a45b19bec7953d5c713ce"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-night-v1-3840.webp",
+      "bytes": 130614,
+      "sha256": "f0f114db5f9af259351a2f6ffd6332c55b1ccb8fa169db6d475de4699baeed38"
+    },
+    {
+      "path": "assets/production/png/global-command-center-night-v1-1280.png",
+      "bytes": 1324144,
+      "sha256": "81427830c89b23996f2aab9351b33025cbb57bb131042f3c6d1e878753051294"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/global/global-command-center-night-v1-320.avif",
+      "bytes": 2653,
+      "sha256": "f678f177e5b3fb4eb732c0a1fdb7d608b6d3bd1f3dbe04e369bd17def55ae6b9"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-night-v1-320.webp",
+      "bytes": 2672,
+      "sha256": "c1b846f87933b75f1c8170bebf23143211404d515dae204f994e3b5ba76ce236"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-night-v1-640.avif",
+      "bytes": 8120,
+      "sha256": "2c941b444312c2bd7c77fae875a017c0a2448d1d13f289c26c6a902bd3624f1d"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-night-v1-640.webp",
+      "bytes": 8300,
+      "sha256": "37a900bb0b1f74d2980d50ad58cfda088b95a272d11274910ba4572791b5ff13"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-night-v1-960.avif",
+      "bytes": 77745,
+      "sha256": "5a1f037d16a3a42627160e5e26aa5970659afdbf67a7ffd47860f8558cd20dda"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-night-v1-960.webp",
+      "bytes": 19768,
+      "sha256": "c07c3488af82428e57aea793ff45008ec43c096033dd0e517b014251f12075ec"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-night-v1-1280.avif",
+      "bytes": 133325,
+      "sha256": "91eda53c70a4e4b03f17d36f16704bdba9f661baa3dff044069e53a1aac83cd7"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-night-v1-1280.webp",
+      "bytes": 31724,
+      "sha256": "d5f319493073c83b54e9755746cda627c7fe315f8e4ad3bc95fcfb00fb6d8d65"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-night-v1-1920.avif",
+      "bytes": 296796,
+      "sha256": "8eb6362b43989d84880c7767344b1a19c180602fbf0f9cc0c9c4bbe9747eedd5"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-night-v1-1920.webp",
+      "bytes": 55522,
+      "sha256": "95656ea6ad256a0e28a8a9503f6f4e6d3e0e4f1b9baac226accd44c32d98509c"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-night-v1-2560.avif",
+      "bytes": 434556,
+      "sha256": "8aa13f267f4f16b88c0128d45e704e86e7a78d44caf12ff6b82de8b037725889"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-night-v1-2560.webp",
+      "bytes": 76650,
+      "sha256": "b3c682fcdbafca0e7c2e8a362ac074927c894874c5e3d1a6199ce1815d197ca1"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-night-v1-3840.avif",
+      "bytes": 706608,
+      "sha256": "9869b2345727f887c6de152b64005f161391bd5e895a45b19bec7953d5c713ce"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-night-v1-3840.webp",
+      "bytes": 130614,
+      "sha256": "f0f114db5f9af259351a2f6ffd6332c55b1ccb8fa169db6d475de4699baeed38"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-night-v1-1280.png",
+      "bytes": 1324144,
+      "sha256": "81427830c89b23996f2aab9351b33025cbb57bb131042f3c6d1e878753051294"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 96.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 99,
+    "composition": 98,
+    "material_quality": 98,
+    "lighting_quality": 99,
+    "architecture_plausibility": 97,
+    "ui_suitability": 98,
+    "mobile_suitability": 87,
+    "originality": 94,
+    "safety_compliance": 100,
+    "accepted_prompt": "Use case: lighting-weather\nAsset type: global authenticated command-center background, nighttime variant, for the fictional cross-platform strategy game SHADOWGRID\nInput images: Image 1 is the approved daytime command-center edit target.\nPrimary request: Change only the time of day and corresponding physically plausible lighting so the same fictional command center appears at realistic urban night.\nInvariants: preserve the exact architecture, camera position, framing, room geometry, workstation placement, dark blank displays, left-side UI negative space, city layout, materials, proportions, and all object identities from Image 1. Do not add, remove, move, or redesign objects.\nLighting/mood: realistic deep-blue urban night outside; warm interior practical lights and restrained warm-gold edge accents; credible exposure adaptation, subtle reflections, and distant city windows. Maintain readable dark negative space across the left 45% and center. Keep the result analytical and controlled, not ominous.\nColor palette: black and anthracite, deep neutral blue-gray, restrained warm gold; no saturated neon and no warning red.\nText: none.\nConstraints: no people or faces; no readable displays, data, maps, diagrams, interface panels, text, fake writing, signage, captions, logos, watermarks, signatures, readable plates, addresses, flags, uniforms, authorities, weapons, crime symbols, or real brands. Preserve suitability beneath a dense real UI and a narrow mobile cover crop.\nAvoid: geometry drift, extra furniture, newly illuminated screen content, sci-fi holograms, excessive neon, crushed black detail, blown highlights, fantasy skyline, cartoon, anime, comic, plastic mobile-game rendering, blur, low resolution, compression artifacts.",
+    "reference_images": [
+      "assets/source/global/global-command-center-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first built-in lighting edit.",
+      "Architecture, camera, workstation placement, blank displays and UI-safe negative space remain consistent with the daytime asset.",
+      "Only physically plausible time-of-day lighting, reflections and distant city windows changed.",
+      "No visible person, text, map, interface, logo, private identifier, authority mark, weapon or illicit activity."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3165165
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T17:45:22.507Z",
+  "license": "project-owned-generated-asset",
+  "notes": [
+    "Accepted first built-in lighting edit.",
+    "Architecture, camera, workstation placement, blank displays and UI-safe negative space remain consistent with the daytime asset.",
+    "Only physically plausible time-of-day lighting, reflections and distant city windows changed.",
+    "No visible person, text, map, interface, logo, private identifier, authority mark, weapon or illicit activity."
+  ]
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="#e8e5dc" role="img" aria-labelledby="title description">
+    <title id="title">Map marker: control digital node</title>
+    <path d="M12 2.5 20 7v10l-8 4.5L4 17V7Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+    <circle cx="12" cy="12" r="2.4" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M12 4v5.5m0 5V20M4 12h5.5m5 0H20M6.5 6.5l3.9 3.9m3.2 3.2 3.9 3.9m0-11-3.9 3.9m-3.2 3.2-3.9 3.9" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+      <circle cx="12" cy="12" r=".9" fill="currentColor"/>
+    <desc id="description">Distinct text-free SHADOWGRID strategy-map marker.</desc>
+  </svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="1152" viewBox="0 0 2048 1152" role="img" aria-labelledby="title description">
+    <title id="title">Map background, night</title>
+    <desc id="description">Text-free night strategy-map background with a restrained grid and contour texture.</desc>
+    <defs>
+      <radialGradient id="map-base" cx="44%" cy="38%" r="78%">
+        <stop stop-color="#36566b"/>
+        <stop offset=".5" stop-color="#111b23"/>
+        <stop offset="1" stop-color="#04070a"/>
+      </radialGradient>
+      <pattern id="map-grid-small" width="48" height="48" patternUnits="userSpaceOnUse">
+        <path d="M48 0H0V48" fill="none" stroke="#8fb3c5" stroke-opacity=".055" stroke-width="2"/>
+      </pattern>
+      <pattern id="map-grid-large" width="240" height="240" patternUnits="userSpaceOnUse">
+        <path d="M240 0H0V240" fill="none" stroke="#8fb3c5" stroke-opacity=".1" stroke-width="3"/>
+      </pattern>
+      <linearGradient id="map-vignette" x1="0" y1="0" x2="1" y2="1">
+        <stop stop-color="#000000" stop-opacity=".2"/>
+        <stop offset=".45" stop-color="#000000" stop-opacity="0"/>
+        <stop offset="1" stop-color="#000000" stop-opacity=".34"/>
+      </linearGradient>
+    </defs>
+    <rect width="2048" height="1152" fill="url(#map-base)"/>
+    <rect width="2048" height="1152" fill="url(#map-grid-small)"/>
+    <rect width="2048" height="1152" fill="url(#map-grid-large)"/>
+    <g fill="none" stroke="#d8b15b" stroke-opacity=".075" stroke-width="3">
+      <path d="M-120 262C214 62 484 102 750 256s574 172 876 18 466-98 650 16"/>
+      <path d="M-160 426C146 232 438 240 702 400s584 186 890 26 492-86 676 88"/>
+      <path d="M-140 654C186 448 502 486 744 632s534 176 842 24 504-82 682 76"/>
+      <path d="M-180 888C168 674 462 704 746 856s562 162 852 20 474-72 668 96"/>
+    </g>
+    <path d="M0 207.35999999999999H2048M0 944.64H2048" stroke="#8fb3c5" stroke-opacity=".06" stroke-width="2"/>
+    <rect width="2048" height="1152" fill="url(#map-vignette)"/>
+    <rect x="32" y="32" width="1984" height="1088" rx="24" fill="none" stroke="#8fb3c5" stroke-opacity=".12" stroke-width="3"/>
+    </svg>

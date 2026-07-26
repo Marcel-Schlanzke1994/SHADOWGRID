@@ -14,9 +14,9 @@ os.environ["ALLOW_EXTERNAL_DEPLOY"] = "false"
 import pytest
 from fastapi.testclient import TestClient
 from shadowgrid.database import Base, SessionLocal, engine
-from shadowgrid.game_config import DISTRICTS
+from shadowgrid.game_config import DISTRICTS, TERRITORY_CONTROL_POINTS
 from shadowgrid.main import app
-from shadowgrid.models import District, User, World
+from shadowgrid.models import City, CityMarket, District, TerritoryControlPoint, User, World
 from shadowgrid.security import hash_password
 from sqlalchemy import select
 
@@ -35,27 +35,58 @@ def clean_database() -> Generator[None]:
     )
     db.add(world)
     db.flush()
-    for data in DISTRICTS:
+    city = City(
+        world_id=world.id,
+        slug="vesper-metropolitan",
+        name="Vesper Metropolitan Zone",
+        region_key="vesper-region",
+        instance_key="sector-test",
+        status="active",
+    )
+    db.add(city)
+    db.flush()
+    for resource_key, price in (("cash", 1), ("capital", 1), ("intelligence", 120)):
         db.add(
-            District(
+            CityMarket(
                 world_id=world.id,
-                slug=data[0],
-                name=data[1],
-                prosperity=data[2],
-                employment=data[3],
-                safety=data[4],
-                authority_presence=data[5],
-                digital_infrastructure=data[6],
-                property_value=data[7],
-                public_trust=data[8],
-                media_attention=data[9],
-                economic_activity=data[10],
-                social_stability=data[11],
-                map_x=data[12],
-                map_y=data[13],
-                map_points=data[14],
+                city_id=city.id,
+                resource_key=resource_key,
+                price=price,
+                supply=10_000,
+                demand=10_000,
             )
         )
+    for data in DISTRICTS:
+        district = District(
+            world_id=world.id,
+            city_id=city.id,
+            slug=data[0],
+            name=data[1],
+            prosperity=data[2],
+            employment=data[3],
+            safety=data[4],
+            authority_presence=data[5],
+            digital_infrastructure=data[6],
+            property_value=data[7],
+            public_trust=data[8],
+            media_attention=data[9],
+            economic_activity=data[10],
+            social_stability=data[11],
+            map_x=data[12],
+            map_y=data[13],
+            map_points=data[14],
+        )
+        db.add(district)
+        db.flush()
+        for point_type in TERRITORY_CONTROL_POINTS:
+            db.add(
+                TerritoryControlPoint(
+                    world_id=world.id,
+                    city_id=city.id,
+                    district_id=district.id,
+                    point_type=point_type,
+                )
+            )
     db.commit()
     db.close()
     yield

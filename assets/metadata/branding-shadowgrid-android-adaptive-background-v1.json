@@ -1,0 +1,90 @@
+{
+  "asset_id": "branding-shadowgrid-android-adaptive-background-v1",
+  "manifest_order": 18,
+  "category": "branding",
+  "batch": "branding",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/branding-shadowgrid-android-adaptive-background-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100018,
+  "content_hash": "4a1db67403062fe0c8a76af8e25f4dfc645b91d3e53c9e282d62585ea403e079",
+  "source_file": "assets/source/branding/branding-shadowgrid-android-adaptive-background-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/branding-shadowgrid-android-adaptive-background-v1.svg",
+      "bytes": 867,
+      "sha256": "4a1db67403062fe0c8a76af8e25f4dfc645b91d3e53c9e282d62585ea403e079"
+    },
+    {
+      "path": "assets/production/png/branding-shadowgrid-android-adaptive-background-v1-1536.png",
+      "bytes": 147573,
+      "sha256": "5a1537b5a885174f896504e79ce818dbd13cf8988d5c1a3a9e647f574d44ac7b"
+    },
+    {
+      "path": "assets/production/webp/branding-shadowgrid-android-adaptive-background-v1-1536.webp",
+      "bytes": 68374,
+      "sha256": "ce69017fb18d7e227427014bac3c934d0d63e8d2891d8a78cf77fb49708916cb"
+    }
+  ],
+  "runtime_files": [],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 94.4,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "vector-branding-v1",
+    "reviewer": "codex-visual",
+    "reviewed_at": "2026-07-25T14:01:32.891Z",
+    "scores": {
+      "style_consistency": 95,
+      "composition": 93,
+      "small_size_legibility": 90,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "ui_suitability": 94,
+      "mobile_suitability": 97,
+      "originality": 90,
+      "technical_quality": 96,
+      "safety_compliance": 100
+    },
+    "notes": [
+      "All fourteen assets use the same hexagonal network mark, restrained gold, anthracite and off-white system.",
+      "No firearm, skull, gang, extremist, authority or real-company symbol is present.",
+      "Transparent variants were checked on dark and light preview backgrounds.",
+      "Neutral full-bleed background complements the adaptive foreground without encoding state by color."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 867
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T13:56:52.558Z",
+  "license": "project-owned-generated-asset",
+  "notes": []
+}

@@ -1,0 +1,22 @@
+{
+  "realism": 99,
+  "style_consistency": 100,
+  "composition": 100,
+  "material_quality": 99,
+  "lighting_quality": 99,
+  "architecture_plausibility": 99,
+  "ui_suitability": 100,
+  "mobile_suitability": 91,
+  "originality": 97,
+  "safety_compliance": 100,
+  "accepted_prompt": "Create the coordinated 21:9 night counterpart for this accepted fictional Stuttgart-inspired SHADOWGRID basin-engineering-metropolis hero.\n\nPreserve the exact ultra-wide camera and original geometry: wooded green basin slopes, layered hillside neighborhoods, restrained flat-roofed skyline, pale-stone and glass research/services district, linear rainwater garden, planted terraces, center-right architectural focus, dark wet foreground terrace, and the full calm dark low-detail left 38% overlay-safe area. Keep it clearly the same original city composition. Do not reveal or invent any operational street, path, water-management, rail, corporate, industrial, factory, campus, or civic layout.\n\nTransform the scene to physically plausible post-rain night: deep anthracite and cool blue-gray clouds, restrained irregular warm-neutral windows, subtle low-level path and rainwater-garden practical lights, readable midtone pale stone, brushed metal, dark glass, trees, planted roofs, wet terrace, and shallow-water reflections, premium contemporary architectural photography, realistic lens and depth, and a restrained corporate-thriller mood. Keep the entire left 38% dark, calm, and low-detail without lamps, bright reflections, building edges, signs, screens, vehicles, or other high-contrast detail. Preserve a continuous neutral wooded ridge without any isolated tower or spire.\n\nAvoid automobile-show lighting, showroom displays, bright branded facade panels, media screens, patterned window lighting, saturated neon, overexposure, emergency lighting, warning-red gameplay cues, black crush, excessive haze, spectacle, test-track lighting, or factory-process imagery.\n\nDo not add or imitate the Stuttgart Fernsehturm, Schlossplatz, Neues Schloss, Altes Schloss, Stuttgart Hauptbahnhof or tower, Königstraße, Staatsgalerie, Wilhelma, Mercedes-Benz Museum, Porsche Museum, churches, cathedral spires, monuments, civic towers, antenna landmarks, Mercedes or Porsche logos or products, recognizable automobile plants, real rail corridors, known valley-road arrangements, Cannstatter Wasen, named vineyards, exact hillside neighborhoods, government buildings, corporate campuses, or any known photograph or viewpoint. Do not add an identifiable real manufacturer, research institution, authority, transit operator, industrial process, factory interior, test track, logistics route, or operational transport plan.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, criminal symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, factory procedures, vehicle schematics, fantasy architecture, impossible slopes or structures, excessive neon, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 21:9 night basin-engineering-metropolis environment, intended final size 2688×1152, with no border, title, UI, or device mockup.",
+  "reference_images": [
+    "assets/source/cities/city-stuttgart-ultrawide-day-v1.png"
+  ],
+  "notes": [
+    "Accepted first night-conversion attempt.",
+    "The exact fictional basin, wooded slopes, layered hillside neighborhoods, pale-stone research/services district, rainwater garden, wet terrace, and left overlay zone remain coordinated with the approved daytime counterpart.",
+    "Restrained irregular practical and window light preserves readable architecture without showroom lighting, branding, facade screens, test-track cues, or factory-process imagery.",
+    "No real automaker, product, campus, factory, known Stuttgart landmark, tower, spire, authority, operational layout, embedded text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or wrongdoing is present."
+  ]
+}

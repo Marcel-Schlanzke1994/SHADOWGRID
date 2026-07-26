@@ -1,0 +1,132 @@
+{
+  "asset_id": "map-major-rivers-v1",
+  "manifest_order": 39,
+  "category": "map",
+  "batch": "germany-map",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "svg-geodata",
+  "provider": "bkg-wfs",
+  "model": null,
+  "prompt_file": "assets/prompts/map-major-rivers-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100039,
+  "content_hash": "f41e1dc84286def02bf7a3e718c36c47a5bd54bbcf00f67f9a5106123ed0e6ab",
+  "source_file": "assets/source/maps/map-major-rivers-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/map-major-rivers-v1.svg",
+      "bytes": 75041,
+      "sha256": "f41e1dc84286def02bf7a3e718c36c47a5bd54bbcf00f67f9a5106123ed0e6ab"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/maps/map-major-rivers-v1.svg",
+      "bytes": 75041,
+      "sha256": "f41e1dc84286def02bf7a3e718c36c47a5bd54bbcf00f67f9a5106123ed0e6ab"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 97,
+  "quality_status": "approved",
+  "review_status": "codex-geodata-approved",
+  "visual_review": {
+    "geographic_fidelity": 99,
+    "geometry_quality": 97,
+    "composition": 97,
+    "small_size_legibility": 94,
+    "contrast": 98,
+    "ui_suitability": 97,
+    "mobile_suitability": 93,
+    "originality": 95,
+    "technical_quality": 100,
+    "safety_compliance": 100,
+    "license": "dl-de/by-2-0",
+    "process_documentation": "Fetched official BKG DLM250 water surfaces and watercourse axes in EPSG:25832 through WFS 2.0. Selected the named strategic-scale river network by canonical GWK watercourse identifiers, combined broad rivers represented as surfaces with narrower rivers represented as axes, projected the result into the shared 1536×1536 north-up view box, simplified it deterministically by 0.75 px, and emitted a transparent SVG without labels, invented routes, or generated geography.",
+    "provenance": {
+      "schema": "shadowgrid-bkg-geodata-v1",
+      "provider": "Bundesamt für Kartographie und Geodäsie (BKG)",
+      "product": "Digitales Landschaftsmodell 1:250 000, Stand 31.12.2025",
+      "coordinate_reference_system": "EPSG:25832",
+      "source_record": "assets/source/maps/geodata/bkg-2025/sources.json",
+      "selection_method": "Canonical DLM250 GWK identifiers documented by the reproducible build script and source record",
+      "input_layers": [
+        {
+          "id": "wide_river_surfaces",
+          "sha256": "23b3c067f7a796ed2341d69cb76db167c6ad4172cd7d7670e2bc99ba761d747e"
+        },
+        {
+          "id": "major_river_axes",
+          "feature_count": 1032,
+          "sha256": "22ab38d2c5acaea179ee7113c67f9cb5763d3429ad6f7040da14593e225eddd4"
+        }
+      ],
+      "output_sha256": "f41e1dc84286def02bf7a3e718c36c47a5bd54bbcf00f67f9a5106123ed0e6ab",
+      "license_url": "https://www.govdata.de/dl-de/by-2-0",
+      "attribution": "© GeoBasis-DE / BKG 2025 dl-de/by-2-0 (Daten verändert)"
+    },
+    "notes": [
+      "The initial width-only selection was rejected during visual inspection because it produced disconnected fragments.",
+      "The accepted GWK-based revision preserves broad main rivers as surfaces and connects the narrower official axes across the combined proof.",
+      "Visual inspection of both the standalone and four-layer combined 1024 px proofs confirms legibility and exact alignment.",
+      "No labels, trafficking routes, covert procedures, real-world targets, scripts, external resources, or raster payloads are embedded."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 75041
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T19:35:24.330Z",
+  "license": "dl-de/by-2-0",
+  "provenance": {
+    "schema": "shadowgrid-bkg-geodata-v1",
+    "provider": "Bundesamt für Kartographie und Geodäsie (BKG)",
+    "product": "Digitales Landschaftsmodell 1:250 000, Stand 31.12.2025",
+    "coordinate_reference_system": "EPSG:25832",
+    "source_record": "assets/source/maps/geodata/bkg-2025/sources.json",
+    "selection_method": "Canonical DLM250 GWK identifiers documented by the reproducible build script and source record",
+    "input_layers": [
+      {
+        "id": "wide_river_surfaces",
+        "sha256": "23b3c067f7a796ed2341d69cb76db167c6ad4172cd7d7670e2bc99ba761d747e"
+      },
+      {
+        "id": "major_river_axes",
+        "feature_count": 1032,
+        "sha256": "22ab38d2c5acaea179ee7113c67f9cb5763d3429ad6f7040da14593e225eddd4"
+      }
+    ],
+    "output_sha256": "f41e1dc84286def02bf7a3e718c36c47a5bd54bbcf00f67f9a5106123ed0e6ab",
+    "license_url": "https://www.govdata.de/dl-de/by-2-0",
+    "attribution": "© GeoBasis-DE / BKG 2025 dl-de/by-2-0 (Daten verändert)"
+  },
+  "notes": [
+    "The initial width-only selection was rejected during visual inspection because it produced disconnected fragments.",
+    "The accepted GWK-based revision preserves broad main rivers as surfaces and connects the narrower official axes across the combined proof.",
+    "Visual inspection of both the standalone and four-layer combined 1024 px proofs confirms legibility and exact alignment.",
+    "No labels, trafficking routes, covert procedures, real-world targets, scripts, external resources, or raster payloads are embedded."
+  ]
+}

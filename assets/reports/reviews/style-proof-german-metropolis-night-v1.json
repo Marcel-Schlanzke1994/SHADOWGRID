@@ -1,0 +1,18 @@
+{
+  "realism": 94,
+  "style_consistency": 93,
+  "composition": 94,
+  "material_quality": 92,
+  "lighting_quality": 95,
+  "architecture_plausibility": 92,
+  "ui_suitability": 91,
+  "mobile_suitability": 88,
+  "originality": 92,
+  "safety_compliance": 100,
+  "revision_prompt": "Change only the needle-shaped illuminated television tower near the upper center and any distinctive landmark-like tower forms around it. Replace them with original, non-iconic mid-rise office buildings of plausible contemporary German design. Preserve the river, bridges, rail corridor, neighborhoods, roads, lighting, darkness, reflections, haze, framing, UI space and photorealism unchanged.",
+  "notes": [
+    "Accepted second attempt after landmark removal.",
+    "Night lighting remains restrained and physically plausible rather than neon-heavy.",
+    "No visible text, logos, private details, weapons, violence or operational wrongdoing."
+  ]
+}

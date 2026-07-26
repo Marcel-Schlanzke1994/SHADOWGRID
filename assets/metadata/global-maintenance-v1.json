@@ -1,0 +1,232 @@
+{
+  "asset_id": "global-maintenance-v1",
+  "manifest_order": 34,
+  "category": "global",
+  "batch": "global-backgrounds",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/global-maintenance-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100034,
+  "content_hash": "9416e956deeeefc9b947fb7d1d1cd946692b00c246f196c2ce6e223bd552377f",
+  "source_file": "assets/source/global/global-maintenance-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/global-maintenance-v1-320.avif",
+      "bytes": 7857,
+      "sha256": "3caf6cf422f9d0f2dd1a4d9f9331883c231027de383bc20c261fb6e2e327ff9b"
+    },
+    {
+      "path": "assets/production/webp/global-maintenance-v1-320.webp",
+      "bytes": 1962,
+      "sha256": "f16e9767d86067034bee50951a684a275dcdea104986f847c8f654a87eb4d954"
+    },
+    {
+      "path": "assets/production/avif/global-maintenance-v1-640.avif",
+      "bytes": 31105,
+      "sha256": "a7481a83525752257568942b409ad51cf9579c15b7297225dea0a44b1b37d6eb"
+    },
+    {
+      "path": "assets/production/webp/global-maintenance-v1-640.webp",
+      "bytes": 6042,
+      "sha256": "4c0587e29a329002eb50cd14496d027ee869f80baddb1e440940d352492e03fe"
+    },
+    {
+      "path": "assets/production/avif/global-maintenance-v1-960.avif",
+      "bytes": 74164,
+      "sha256": "34ab28c05438c15453bfe01458f1ff6b47986cd97294d200f01c1b7029cfc451"
+    },
+    {
+      "path": "assets/production/webp/global-maintenance-v1-960.webp",
+      "bytes": 14150,
+      "sha256": "5770a0dc9622a60dfcf984946876f6817dedc92bc7734f140adc406a4c611dd3"
+    },
+    {
+      "path": "assets/production/avif/global-maintenance-v1-1280.avif",
+      "bytes": 130987,
+      "sha256": "152748330558a8f94f49ab993785faf3bd1cdaa4b58976fa7026415afdeac156"
+    },
+    {
+      "path": "assets/production/webp/global-maintenance-v1-1280.webp",
+      "bytes": 23600,
+      "sha256": "e4cfebf89dacdfa08bccf2fcf717a2cf714db290737c91c51679800cb8135390"
+    },
+    {
+      "path": "assets/production/avif/global-maintenance-v1-1920.avif",
+      "bytes": 261140,
+      "sha256": "ab8c3229f6b2dc1effad178f1b734d9dc908a8044440c83aaf5c7f32fa0a17b1"
+    },
+    {
+      "path": "assets/production/webp/global-maintenance-v1-1920.webp",
+      "bytes": 43304,
+      "sha256": "042eb1100016f361db63bec5ea0dc79fc6881d8f608965f9c257f643a3dc3e0b"
+    },
+    {
+      "path": "assets/production/avif/global-maintenance-v1-2560.avif",
+      "bytes": 368361,
+      "sha256": "d0681bc9855c4fd1cd5a48747fe83acf5fdc8bd890713ffb6027a5d999c61fb1"
+    },
+    {
+      "path": "assets/production/webp/global-maintenance-v1-2560.webp",
+      "bytes": 60734,
+      "sha256": "59cc20a7dd3b4bf208732ab04ffcd4f0e5ec2a896558fc392480691827ceb2d9"
+    },
+    {
+      "path": "assets/production/avif/global-maintenance-v1-3840.avif",
+      "bytes": 566413,
+      "sha256": "e35bdedfe23e1e173707f258a6b49fa84f5a8ab32a5941eb59beb8d7c15b219b"
+    },
+    {
+      "path": "assets/production/webp/global-maintenance-v1-3840.webp",
+      "bytes": 105998,
+      "sha256": "3ea79d87d3feb8725b7a744c44f58d84443be8b10ee0078cadd52c0f8a6c2e05"
+    },
+    {
+      "path": "assets/production/png/global-maintenance-v1-1280.png",
+      "bytes": 1185440,
+      "sha256": "dd3822e71aabfd5425638070759f36b3d7bf1dbe6424fcc9617bc63908fdc3ca"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/global/global-maintenance-v1-320.avif",
+      "bytes": 7857,
+      "sha256": "3caf6cf422f9d0f2dd1a4d9f9331883c231027de383bc20c261fb6e2e327ff9b"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-maintenance-v1-320.webp",
+      "bytes": 1962,
+      "sha256": "f16e9767d86067034bee50951a684a275dcdea104986f847c8f654a87eb4d954"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-maintenance-v1-640.avif",
+      "bytes": 31105,
+      "sha256": "a7481a83525752257568942b409ad51cf9579c15b7297225dea0a44b1b37d6eb"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-maintenance-v1-640.webp",
+      "bytes": 6042,
+      "sha256": "4c0587e29a329002eb50cd14496d027ee869f80baddb1e440940d352492e03fe"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-maintenance-v1-960.avif",
+      "bytes": 74164,
+      "sha256": "34ab28c05438c15453bfe01458f1ff6b47986cd97294d200f01c1b7029cfc451"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-maintenance-v1-960.webp",
+      "bytes": 14150,
+      "sha256": "5770a0dc9622a60dfcf984946876f6817dedc92bc7734f140adc406a4c611dd3"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-maintenance-v1-1280.avif",
+      "bytes": 130987,
+      "sha256": "152748330558a8f94f49ab993785faf3bd1cdaa4b58976fa7026415afdeac156"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-maintenance-v1-1280.webp",
+      "bytes": 23600,
+      "sha256": "e4cfebf89dacdfa08bccf2fcf717a2cf714db290737c91c51679800cb8135390"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-maintenance-v1-1920.avif",
+      "bytes": 261140,
+      "sha256": "ab8c3229f6b2dc1effad178f1b734d9dc908a8044440c83aaf5c7f32fa0a17b1"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-maintenance-v1-1920.webp",
+      "bytes": 43304,
+      "sha256": "042eb1100016f361db63bec5ea0dc79fc6881d8f608965f9c257f643a3dc3e0b"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-maintenance-v1-2560.avif",
+      "bytes": 368361,
+      "sha256": "d0681bc9855c4fd1cd5a48747fe83acf5fdc8bd890713ffb6027a5d999c61fb1"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-maintenance-v1-2560.webp",
+      "bytes": 60734,
+      "sha256": "59cc20a7dd3b4bf208732ab04ffcd4f0e5ec2a896558fc392480691827ceb2d9"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-maintenance-v1-3840.avif",
+      "bytes": 566413,
+      "sha256": "e35bdedfe23e1e173707f258a6b49fa84f5a8ab32a5941eb59beb8d7c15b219b"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-maintenance-v1-3840.webp",
+      "bytes": 105998,
+      "sha256": "3ea79d87d3feb8725b7a744c44f58d84443be8b10ee0078cadd52c0f8a6c2e05"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-maintenance-v1-1280.png",
+      "bytes": 1185440,
+      "sha256": "dd3822e71aabfd5425638070759f36b3d7bf1dbe6424fcc9617bc63908fdc3ca"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 98.1,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 99,
+    "composition": 99,
+    "material_quality": 98,
+    "lighting_quality": 98,
+    "architecture_plausibility": 97,
+    "ui_suitability": 100,
+    "mobile_suitability": 97,
+    "originality": 95,
+    "safety_compliance": 100,
+    "accepted_prompt": "Use case: stylized-concept.\nAsset ID: global-maintenance-v1.\nCreate a premium ultra-realistic planned-maintenance background for the fictional seasonal strategy game SHADOWGRID, intended final size 2048x1152, exact 16:9 landscape.\n\nPrimary request: Depict a wholly fictional contemporary operations atrium during a calm scheduled service window at night. The facility is clean, intact, secure, and temporarily quiet: dark glass walls, graphite stone, brushed metal, closed architectural panels, blank inactive display surfaces, and a few restrained warm-gold service lights. Through distant glazing, suggest only soft rain and a generic defocused urban glow. Convey controlled upkeep and temporary pause—not an emergency, breach, disaster, outage panic, or abandonment.\n\nComposition: wide plausible human-eye-level architectural view. Preserve a broad dark, low-detail central 60% for the real localized maintenance title, explanation, status, and retry action. Place subtle structural depth and material detail at the far edges. Avoid bright lines, lamps, or visual clutter behind the central content. The center crop must also work on a narrow mobile viewport.\n\nStyle and mood: ultra-realistic architectural photography; premium economic-strategy interface backdrop; cinematic corporate-thriller restraint; subtle cyber-noir; physically plausible materials and low-key night lighting; original scene, not a known photograph, film frame, game screenshot, or branded design.\n\nPalette: black, anthracite, cool neutral blue-gray, restrained warm-gold maintenance lighting; no saturated neon and no warning red.\n\nText: none.\n\nDo not include: written words, letters, numbers, captions, maintenance signs, hazard tape, interface panels, error codes, progress bars, maps, data, logos, watermarks, signatures, real brands, real authorities, uniforms, flags, readable screens, plates or addresses, identifiable people, technicians, police or government insignia, weapons, crime imagery, damaged equipment, broken glass, smoke, fire, sparks, flooding, emergency vehicles, identifiable real geography, recognizable landmarks, fantasy architecture, impossible geometry, copied photo angles, cartoon/anime/comic styling, plastic mobile-game rendering, blurry output, compression artifacts, or fake unreadable writing.\n\nDeliver only the clean 16:9 environment backing plate, with no border, device mockup, or embedded UI.",
+    "reference_images": [],
+    "notes": [
+      "Accepted first built-in generation attempt.",
+      "The intact, empty atrium communicates a controlled service pause without emergency or failure theatrics.",
+      "The central area is exceptionally calm and dark for localized status copy and a retry action on desktop or a centered mobile crop.",
+      "The small edge terminal has no readable content; no visible person, text, map, logo, private identifier, authority mark, weapon, damage, or illicit activity."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 2730375
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T18:35:49.498Z",
+  "license": "project-owned-generated-asset",
+  "notes": [
+    "Accepted first built-in generation attempt.",
+    "The intact, empty atrium communicates a controlled service pause without emergency or failure theatrics.",
+    "The central area is exceptionally calm and dark for localized status copy and a retry action on desktop or a centered mobile crop.",
+    "The small edge terminal has no readable content; no visible person, text, map, logo, private identifier, authority mark, weapon, damage, or illicit activity."
+  ]
+}

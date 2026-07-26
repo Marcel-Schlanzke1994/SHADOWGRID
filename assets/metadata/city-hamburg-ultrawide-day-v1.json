@@ -1,0 +1,233 @@
+{
+  "asset_id": "city-hamburg-ultrawide-day-v1",
+  "manifest_order": 75,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "hamburg",
+  "variant": "ultrawide-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-hamburg-ultrawide-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100075,
+  "content_hash": "d12a6f6f8dd84fb438964280339235d1a11ed0edcc909c9d760bf63bf63c721e",
+  "source_file": "assets/source/cities/city-hamburg-ultrawide-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-hamburg-ultrawide-day-v1-320.avif",
+      "bytes": 4148,
+      "sha256": "fd66bc2c912ff5df206ae257d23e304898189468f8eadbc32544130169bee0f7"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-ultrawide-day-v1-320.webp",
+      "bytes": 3604,
+      "sha256": "9825dbbb46a654c2eaa972fa127c74bed8d8826948cfaecbf515a7d59135ca6d"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-ultrawide-day-v1-640.avif",
+      "bytes": 14120,
+      "sha256": "0d6a9da52b6ed091cb80e2fc6b5c33c628ba2ecfbe939de4b96374b9f54f4710"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-ultrawide-day-v1-640.webp",
+      "bytes": 13200,
+      "sha256": "2d556ee3f589c9f25afb78a6947d39269b70d7e18787c1556a15544477d1f701"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-ultrawide-day-v1-960.avif",
+      "bytes": 40704,
+      "sha256": "34d4289724b19e28af5de632641f5fce9d5e87705d2fa95d5b137e5f7e669520"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-ultrawide-day-v1-960.webp",
+      "bytes": 34878,
+      "sha256": "3a21992775f6a0f2358b02773bef2aa89abcf55222d86272855e3357ddfe5eae"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-ultrawide-day-v1-1280.avif",
+      "bytes": 67698,
+      "sha256": "d9d2fdf84289e0539744e2d784c36e9ac49ba12cb58f3ad72fc2cd88a18f4d44"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-ultrawide-day-v1-1280.webp",
+      "bytes": 60554,
+      "sha256": "d3151ce43c15859d55b2ba0400b70ad976704920dd67492296b3cf77b0974d4e"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-ultrawide-day-v1-1920.avif",
+      "bytes": 119507,
+      "sha256": "67fd29d5b4779e0ac67b7db6060f5262d3209b4aa10e27319e87927aedeaaa9c"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-ultrawide-day-v1-1920.webp",
+      "bytes": 112130,
+      "sha256": "e1f0de0c0d76ec62be2db22e74ebe6a922e82f0438f19ca4f439a247bed22bd6"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-ultrawide-day-v1-2560.avif",
+      "bytes": 164598,
+      "sha256": "6e86ef68bd182c3c459e48dab2e0702c083a6e1f6684b90f00747c60f35e653b"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-ultrawide-day-v1-2560.webp",
+      "bytes": 158860,
+      "sha256": "59e05b961556efd37304f65293eac7cc2ed76023d39c46ffb02ccb4db8727073"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-ultrawide-day-v1-3840.avif",
+      "bytes": 972758,
+      "sha256": "6b0ce80f36e692080fae42bdd837cf51abf15b1ec46175160db88fab1788781c"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-ultrawide-day-v1-3840.webp",
+      "bytes": 246642,
+      "sha256": "a52d483064031c6e9661611ef37601c0e9516eab56e2bbe46517fd464754b7b5"
+    },
+    {
+      "path": "assets/production/png/city-hamburg-ultrawide-day-v1-1280.png",
+      "bytes": 1262324,
+      "sha256": "26757fa483bb099124abda8db9feb75b263933da974650ee7264ad5a10063d69"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-day-v1-320.avif",
+      "bytes": 4148,
+      "sha256": "fd66bc2c912ff5df206ae257d23e304898189468f8eadbc32544130169bee0f7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-day-v1-320.webp",
+      "bytes": 3604,
+      "sha256": "9825dbbb46a654c2eaa972fa127c74bed8d8826948cfaecbf515a7d59135ca6d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-day-v1-640.avif",
+      "bytes": 14120,
+      "sha256": "0d6a9da52b6ed091cb80e2fc6b5c33c628ba2ecfbe939de4b96374b9f54f4710"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-day-v1-640.webp",
+      "bytes": 13200,
+      "sha256": "2d556ee3f589c9f25afb78a6947d39269b70d7e18787c1556a15544477d1f701"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-day-v1-960.avif",
+      "bytes": 40704,
+      "sha256": "34d4289724b19e28af5de632641f5fce9d5e87705d2fa95d5b137e5f7e669520"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-day-v1-960.webp",
+      "bytes": 34878,
+      "sha256": "3a21992775f6a0f2358b02773bef2aa89abcf55222d86272855e3357ddfe5eae"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-day-v1-1280.avif",
+      "bytes": 67698,
+      "sha256": "d9d2fdf84289e0539744e2d784c36e9ac49ba12cb58f3ad72fc2cd88a18f4d44"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-day-v1-1280.webp",
+      "bytes": 60554,
+      "sha256": "d3151ce43c15859d55b2ba0400b70ad976704920dd67492296b3cf77b0974d4e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-day-v1-1920.avif",
+      "bytes": 119507,
+      "sha256": "67fd29d5b4779e0ac67b7db6060f5262d3209b4aa10e27319e87927aedeaaa9c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-day-v1-1920.webp",
+      "bytes": 112130,
+      "sha256": "e1f0de0c0d76ec62be2db22e74ebe6a922e82f0438f19ca4f439a247bed22bd6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-day-v1-2560.avif",
+      "bytes": 164598,
+      "sha256": "6e86ef68bd182c3c459e48dab2e0702c083a6e1f6684b90f00747c60f35e653b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-day-v1-2560.webp",
+      "bytes": 158860,
+      "sha256": "59e05b961556efd37304f65293eac7cc2ed76023d39c46ffb02ccb4db8727073"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-day-v1-3840.avif",
+      "bytes": 972758,
+      "sha256": "6b0ce80f36e692080fae42bdd837cf51abf15b1ec46175160db88fab1788781c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-day-v1-3840.webp",
+      "bytes": 246642,
+      "sha256": "a52d483064031c6e9661611ef37601c0e9516eab56e2bbe46517fd464754b7b5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-day-v1-1280.png",
+      "bytes": 1262324,
+      "sha256": "26757fa483bb099124abda8db9feb75b263933da974650ee7264ad5a10063d69"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 97.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 99,
+    "composition": 100,
+    "material_quality": 98,
+    "lighting_quality": 98,
+    "architecture_plausibility": 97,
+    "ui_suitability": 100,
+    "mobile_suitability": 92,
+    "originality": 96,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create one clean premium ultra-realistic 21:9 daytime environment backing plate for the fictional seasonal strategy/economy MMO SHADOWGRID, inspired by Hamburg but not reproducing real landmarks or a real port layout.\n\nScene: a large contemporary northern German maritime metropolis with broad interconnected waterways, original brick warehouse districts, restrained contemporary waterfront offices, plausible quays, small generic work vessels, maritime weather, and layered urban depth. It should evoke trade, logistics, media, and civic life through architecture only. All city geometry and waterway arrangements must be fictional and non-operational.\n\nComposition: exact ultra-wide 21:9 landscape, intended final size 2688×1152. Use a plausible elevated human viewpoint. Reserve the left 38% as calm, dark, low-detail negative space for localized interface overlays. Put the principal fictional waterfront, original brick district, bridges, and city detail center-right. Keep important shapes inside an inner 84% crop-safe area. Use one or two physically plausible original low-profile bridges that do not resemble known Hamburg bridges. No focal people.\n\nLighting and style: overcast northern daylight after light rain, cool neutral blue-gray atmosphere, restrained warm-gold window and material highlights, realistic wet stone, brick, steel, glass, concrete, water reflections, subtle corporate-thriller mood, high-end contemporary architectural photography, natural cinematic depth, no spectacle.\n\nDo not include the Elbphilharmonie, Speicherstadt's recognizable real arrangement or viewpoints, St. Michael's Church, Hamburg Rathaus, Köhlbrand Bridge, Landungsbrücken, any exact real landmark silhouette, real shipping terminals, cranes arranged as an operational port map, or a known photograph/viewpoint. Do not reproduce real company liveries or port infrastructure identifiers.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, trafficking routes, instructions, fantasy architecture, impossible bridge geometry, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 21:9 daytime city environment, with no border, title, UI, or device mockup.",
+    "reference_images": [],
+    "notes": [
+      "Accepted first generation attempt.",
+      "The left 38 percent is calm, dark, and low-detail for localized interface overlays; the fictional brick waterfront, waterways, bridges, and contemporary offices are concentrated center-right.",
+      "Waterway and quay geometry is fictional and non-operational. No sensitive real port layout, terminal identifier, shipping-company livery, or real infrastructure mark is visible.",
+      "No recognizable Hamburg landmark, exact real-world viewpoint, embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 5196783
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T21:03:10.575Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first generation attempt.",
+    "The left 38 percent is calm, dark, and low-detail for localized interface overlays; the fictional brick waterfront, waterways, bridges, and contemporary offices are concentrated center-right.",
+    "Waterway and quay geometry is fictional and non-operational. No sensitive real port layout, terminal identifier, shipping-company livery, or real infrastructure mark is visible.",
+    "No recognizable Hamburg landmark, exact real-world viewpoint, embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

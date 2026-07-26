@@ -1,0 +1,23 @@
+{
+  "realism": 97,
+  "style_consistency": 98,
+  "composition": 97,
+  "material_quality": 98,
+  "lighting_quality": 97,
+  "architecture_plausibility": 96,
+  "ui_suitability": 97,
+  "mobile_suitability": 86,
+  "originality": 94,
+  "safety_compliance": 100,
+  "accepted_prompt": "Use case: stylized-concept\nAsset type: global authenticated command-center background, daytime, for the fictional cross-platform strategy game SHADOWGRID\nInput images: Image 1 is the approved daytime urban-control-center style reference; Image 2 is the approved strategic-observatory material and palette reference. Create a new operational interior and do not reproduce either composition.\nPrimary request: Create a premium ultra-realistic contemporary urban strategy command center during daytime, designed to sit behind the real React dashboard.\nScene/backdrop: a wholly fictional high-level operations floor in a contemporary German metropolis, with dark glass, brushed metal, stone, concrete, restrained workstations at the far edges, and a plausible city view through glazing. Any physical display surfaces must be blank, dark, abstract, or unreadable.\nSubject: the architecture and operational atmosphere only; no people, readable displays, data, maps, diagrams, interface panels, or embedded UI.\nStyle/medium: ultra-realistic architectural photography; high-end urban economic-strategy simulation; cinematic corporate-thriller atmosphere; restrained subtle cyber-noir; physically plausible materials, daylight, scale, and reflections.\nComposition/framing: exact 16:9 landscape intent, intended final size 2048x1152; plausible human eye-level wide view. Preserve calm, darker negative space across the left 45% and center for dashboard header, metrics, cards, and mobile cover crops. Concentrate the strongest architectural depth, city view, and restrained workstation silhouettes toward the far right and frame edges. Avoid bright structural lines behind the upper-left title area.\nLighting/mood: natural overcast-to-broken-cloud daylight, realistic interior adaptation, confident and analytical rather than ominous.\nColor palette: anthracite, black, cool neutral blue-gray, stone, muted daylight, restrained warm-gold accents; no saturated neon and no warning red.\nMaterials/textures: physically plausible dark glass, brushed metal, concrete, stone, acoustic surfaces, subtle floor wear, realistic scale.\nText: none.\nConstraints: wholly original fictional location; no people or faces; no actual map or geography; no text, fake writing, signage, dashboards, screens with data, captions, logos, watermarks, signatures, readable plates, addresses, flags, uniforms, authorities, weapons, crime symbols, or real brands. The result must remain readable beneath a dense real UI and a narrow mobile crop.\nAvoid: recognizable landmarks, copied photo angles, futuristic spaceship bridge, holograms, fantasy architecture, impossible geometry, excessive neon, cartoon, anime, comic, plastic mobile-game rendering, blur, low resolution, compression artifacts.",
+  "reference_images": [
+    "assets/source/style-proof/style-proof-urban-control-center-day-v1.png",
+    "assets/source/global/global-world-selection-desktop-v1.png"
+  ],
+  "notes": [
+    "Accepted first built-in generation attempt.",
+    "The left side remains dark and calm while the operational architecture stays on the right.",
+    "All physical display surfaces are dark and contain no readable interface or data.",
+    "No visible person, text, map, logo, private identifier, authority mark, weapon or illicit activity."
+  ]
+}

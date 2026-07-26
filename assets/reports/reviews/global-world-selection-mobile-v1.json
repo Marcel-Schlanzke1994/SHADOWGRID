@@ -1,0 +1,23 @@
+{
+  "realism": 97,
+  "style_consistency": 99,
+  "composition": 99,
+  "material_quality": 97,
+  "lighting_quality": 98,
+  "architecture_plausibility": 96,
+  "ui_suitability": 99,
+  "mobile_suitability": 99,
+  "originality": 94,
+  "safety_compliance": 100,
+  "accepted_prompt": "Use case: stylized-concept\nAsset type: native portrait mobile game-world-selection background for the fictional cross-platform strategy game SHADOWGRID\nInput images: Image 1 is the approved desktop world-selection scene and defines the observatory world, materials, and blue-hour palette; Image 2 is an approved portrait safe-area reference. Create a new native portrait composition rather than cropping either image.\nPrimary request: Create a premium ultra-realistic 9:16 view inside an original strategic observation gallery in a fictional German metropolis, suitable behind a long game-world-selection form.\nScene/backdrop: vertically framed dark-stone and glass observatory architecture, distant fictional city glimpses confined to the outer edges, brushed metal, subtle floor inlays, and restrained warm-gold light channels; no actual map or embedded interface.\nSubject: architecture and strategic scale only; no people, screens, labels, maps, selectable cards, or UI elements in the image.\nStyle/medium: ultra-realistic architectural photography; contemporary German urban economic-strategy atmosphere; cinematic corporate thriller; restrained subtle cyber-noir; physically plausible construction, scale, and reflections.\nComposition/framing: native exact 9:16 portrait intent, intended final size 1152x2048; human eye-level vertical composition for 320–600 px viewports. Keep the central 84% of the image from about 10% to 94% height calm, dark, and low-detail for a tall wide-selection form. Confine city depth, structural lines, and cool/warm light to the extreme side edges, upper rim, and lower floor. Preserve a quiet upper-left brand region. No horizon, bright mullion, furniture, floor line, map motif, or focal object may cross the form-safe center.\nLighting/mood: early-evening blue hour outside with restrained warm-gold architectural illumination; expansive, anticipatory, credible, and calm.\nColor palette: black and anthracite, cool blue-gray, restrained warm gold, muted stone; no saturated neon and no warning red.\nMaterials/textures: physically plausible dark glass, brushed metal, concrete, stone, understated floor inlays, realistic material imperfections.\nText: none.\nConstraints: wholly original fictional location; no actual German map or geography; no people or faces; no text, fake writing, signage, screens, captions, logos, watermarks, signatures, readable plates, addresses, flags, uniforms, authorities, weapons, crime symbols, or real brands. Maintain strong UI readability at 320 px width and 200% zoom. Do not derive this by simply cropping the desktop reference.\nAvoid: recognizable landmarks, copied photo angles, fantasy skyline, impossible geometry, excessive neon, sci-fi holograms, cartoon, anime, comic, plastic mobile-game rendering, blur, low resolution, compression artifacts.",
+  "reference_images": [
+    "assets/source/global/global-world-selection-desktop-v1.png",
+    "assets/source/global/global-registration-mobile-v1.png"
+  ],
+  "notes": [
+    "Accepted first built-in generation attempt.",
+    "This is a native portrait composition, not a crop of the desktop asset.",
+    "The central stone surface remains clear for the full world-selection form.",
+    "No visible person, text, map, interface, logo, private identifier, authority mark, weapon or illicit activity."
+  ]
+}

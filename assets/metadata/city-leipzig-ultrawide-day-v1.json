@@ -1,0 +1,233 @@
+{
+  "asset_id": "city-leipzig-ultrawide-day-v1",
+  "manifest_order": 123,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "leipzig",
+  "variant": "ultrawide-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-leipzig-ultrawide-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100123,
+  "content_hash": "7139d6761306ae40fec7279b83f13fe8b261b2c9cffc59d978158e34d15e82f5",
+  "source_file": "assets/source/cities/city-leipzig-ultrawide-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-leipzig-ultrawide-day-v1-320.avif",
+      "bytes": 3639,
+      "sha256": "80d04f83eee1f98201cb5347acd896ab83dda532b1c4c9d1a7af4549d6471609"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-ultrawide-day-v1-320.webp",
+      "bytes": 3448,
+      "sha256": "d173195b77663d8d7274c92414fd105dde33621b60be6d7e743471852f269388"
+    },
+    {
+      "path": "assets/production/avif/city-leipzig-ultrawide-day-v1-640.avif",
+      "bytes": 12075,
+      "sha256": "2637d483b9695571b02a56b877342692d4a800dc68c25edde6b160cfe284c8a2"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-ultrawide-day-v1-640.webp",
+      "bytes": 12242,
+      "sha256": "b9fda27cb4827062a00962d70476199726996f4a352da86dc437e6b0c9ea4a23"
+    },
+    {
+      "path": "assets/production/avif/city-leipzig-ultrawide-day-v1-960.avif",
+      "bytes": 34779,
+      "sha256": "faec3c55a1e9d931084712804e964fecde0d6b0aaef9bde3a71740a30c7ebe9c"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-ultrawide-day-v1-960.webp",
+      "bytes": 30956,
+      "sha256": "23898d5d2025ed7813db465d95919466236185f246534d3adbca7e704f39bd2a"
+    },
+    {
+      "path": "assets/production/avif/city-leipzig-ultrawide-day-v1-1280.avif",
+      "bytes": 55890,
+      "sha256": "fe88da77fe5fb76e9d25d25b6fa1a4c7a333379c76abaf99ab283e82ce3b214d"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-ultrawide-day-v1-1280.webp",
+      "bytes": 51360,
+      "sha256": "099f14d8c6636c06cde89feba6eacdc6497793955ab1b59b7219a78e43e723d7"
+    },
+    {
+      "path": "assets/production/avif/city-leipzig-ultrawide-day-v1-1920.avif",
+      "bytes": 283777,
+      "sha256": "b255bc52f649016525ffc0639a72367d8a13c2f956fed27528a54b5efb5661d9"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-ultrawide-day-v1-1920.webp",
+      "bytes": 90854,
+      "sha256": "3b6a597a671846baa6911966dcd2de6ce508dea61854272802780b4f4d78b2ca"
+    },
+    {
+      "path": "assets/production/avif/city-leipzig-ultrawide-day-v1-2560.avif",
+      "bytes": 451459,
+      "sha256": "8565714a52ce93bfc8311bb95d4ce3b751b69c363e20a5d5083219d01076af02"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-ultrawide-day-v1-2560.webp",
+      "bytes": 124530,
+      "sha256": "c4f919b5dc9a5c55e67267a1213959b421e34097140c8869bf41a9bae0fbf6e9"
+    },
+    {
+      "path": "assets/production/avif/city-leipzig-ultrawide-day-v1-3840.avif",
+      "bytes": 783902,
+      "sha256": "028ce94ae8c0f54679418f72ef69bead28ebc71d71d607984beb51d181107e92"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-ultrawide-day-v1-3840.webp",
+      "bytes": 196654,
+      "sha256": "cae20107c96e68fae0f0ce092c54008ffb8a92a7311115faf15beb3eed412815"
+    },
+    {
+      "path": "assets/production/png/city-leipzig-ultrawide-day-v1-1280.png",
+      "bytes": 1239062,
+      "sha256": "d8271f7e70da27b7777252b8c9adb487a8094f5842666169652897a32bf59b49"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-ultrawide-day-v1-320.avif",
+      "bytes": 3639,
+      "sha256": "80d04f83eee1f98201cb5347acd896ab83dda532b1c4c9d1a7af4549d6471609"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-ultrawide-day-v1-320.webp",
+      "bytes": 3448,
+      "sha256": "d173195b77663d8d7274c92414fd105dde33621b60be6d7e743471852f269388"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-ultrawide-day-v1-640.avif",
+      "bytes": 12075,
+      "sha256": "2637d483b9695571b02a56b877342692d4a800dc68c25edde6b160cfe284c8a2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-ultrawide-day-v1-640.webp",
+      "bytes": 12242,
+      "sha256": "b9fda27cb4827062a00962d70476199726996f4a352da86dc437e6b0c9ea4a23"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-ultrawide-day-v1-960.avif",
+      "bytes": 34779,
+      "sha256": "faec3c55a1e9d931084712804e964fecde0d6b0aaef9bde3a71740a30c7ebe9c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-ultrawide-day-v1-960.webp",
+      "bytes": 30956,
+      "sha256": "23898d5d2025ed7813db465d95919466236185f246534d3adbca7e704f39bd2a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-ultrawide-day-v1-1280.avif",
+      "bytes": 55890,
+      "sha256": "fe88da77fe5fb76e9d25d25b6fa1a4c7a333379c76abaf99ab283e82ce3b214d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-ultrawide-day-v1-1280.webp",
+      "bytes": 51360,
+      "sha256": "099f14d8c6636c06cde89feba6eacdc6497793955ab1b59b7219a78e43e723d7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-ultrawide-day-v1-1920.avif",
+      "bytes": 283777,
+      "sha256": "b255bc52f649016525ffc0639a72367d8a13c2f956fed27528a54b5efb5661d9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-ultrawide-day-v1-1920.webp",
+      "bytes": 90854,
+      "sha256": "3b6a597a671846baa6911966dcd2de6ce508dea61854272802780b4f4d78b2ca"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-ultrawide-day-v1-2560.avif",
+      "bytes": 451459,
+      "sha256": "8565714a52ce93bfc8311bb95d4ce3b751b69c363e20a5d5083219d01076af02"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-ultrawide-day-v1-2560.webp",
+      "bytes": 124530,
+      "sha256": "c4f919b5dc9a5c55e67267a1213959b421e34097140c8869bf41a9bae0fbf6e9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-ultrawide-day-v1-3840.avif",
+      "bytes": 783902,
+      "sha256": "028ce94ae8c0f54679418f72ef69bead28ebc71d71d607984beb51d181107e92"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-ultrawide-day-v1-3840.webp",
+      "bytes": 196654,
+      "sha256": "cae20107c96e68fae0f0ce092c54008ffb8a92a7311115faf15beb3eed412815"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-ultrawide-day-v1-1280.png",
+      "bytes": 1239062,
+      "sha256": "d8271f7e70da27b7777252b8c9adb487a8094f5842666169652897a32bf59b49"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 98.5,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 99,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 99,
+    "lighting_quality": 99,
+    "architecture_plausibility": 99,
+    "ui_suitability": 100,
+    "mobile_suitability": 92,
+    "originality": 97,
+    "safety_compliance": 100,
+    "revision_prompt": "Revise this fictional Leipzig-inspired SHADOWGRID 21:9 daytime canal-city backing plate while preserving its premium ultra-realistic post-rain style, flat green floodplain, original canal identity, pale sandstone and warm-gray courtyard blocks, restrained research buildings, adapted red-brown brick cultural/workshop halls, landscaped public gardens, and original non-operational geometry.\n\nMandatory UI composition correction: make the entire left 38% genuinely calm, dark, and low-detail for localized interface overlays. Keep only broad shadowed canal water, deep low-detail tree canopy along the far bank, subdued floodplain haze, and darker neutral blue-gray cloud in that safe area. Move the current bridge start, bright foreground tree, pale stone posts, railings, bright terrace edge, and any other high-contrast object fully to the right of the 38% boundary. The first visible bridge element and first bright architecture must begin center-right. Darken the bright cloud break over the left safe area while preserving physically plausible overcast daylight center-right. Do not add lamps, boats, paths, railings, vehicles, people, signs, or bright reflections behind the overlay zone.\n\nMandatory bridge and people correction: replace the somewhat ornate historic-looking bridge with one restrained original low-profile crossing using simple pale stone abutments, a thin dark-steel span, and minimal unbranded railings. It must not resemble a known Leipzig bridge or reveal an operational route. Remove every tiny person or human silhouette from the bridge, terrace, garden, and canal edge. Preserve the canal bend and keep the bridge entirely center-right.\n\nPreserve a continuous low neutral skyline without church spires, towers, domes, monuments, civic landmarks, trade-fair forms, station forms, or recognizable cultural buildings. All canal, bridge, street, path, rail, corporate, academic, cultural, trade, logistics, industrial, and civic geometry remains fictional and non-operational.\n\nDo not add or imitate the Monument to the Battle of the Nations, Leipzig City-Hochhaus, Neues Rathaus, Altes Rathaus, Leipzig Hauptbahnhof, Augustusplatz, Leipzig University tower or facade, Gewandhaus, Leipzig Opera, St. Thomas Church, St. Nicholas Church, MDR tower, Leipzig Trade Fair glass hall, zoo landmarks, Baumwollspinnerei, recognizable industrial complexes, real publishing houses, rail corridors, logistics terminals, exact canal routes, known floodplain parks, government buildings, or corporate campuses.\n\nNo text, letters, numbers, signs, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, musicians, politicians, crowds, flags, police or government insignia, criminal symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, factory or logistics procedures, fantasy architecture, impossible bridges, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the corrected clean premium ultra-realistic fictional 21:9 daytime canal-culture-research-metropolis environment with the full left 38% calm and dark, all bridge detail center-right, and no people, border, title, UI, or device mockup.",
+    "reference_images": [],
+    "notes": [
+      "The first generation was held back because the bridge, a bright foreground tree, and high-contrast detail entered the left overlay zone, the cloud field there was too bright, and tiny human silhouettes were visible.",
+      "The accepted revision leaves only dark canal water, low-detail tree canopy, floodplain haze, and darker cloud across the full left 38 percent; bridge and architecture begin center-right.",
+      "The ornate-looking crossing is replaced by a restrained original low-profile pale-stone and dark-steel bridge, and every visible person is removed.",
+      "The documented fictional profile uses flat green floodplain, canal, pale courtyard blocks, adapted brick halls, research buildings, culture, publishing, education, and trade without a real institution, fair, station, landmark, logistics layout, operational detail, text, criminal symbol, extremist symbol, weapon, violence, or wrongdoing."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 4872721
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-26T11:37:21.018Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "The first generation was held back because the bridge, a bright foreground tree, and high-contrast detail entered the left overlay zone, the cloud field there was too bright, and tiny human silhouettes were visible.",
+    "The accepted revision leaves only dark canal water, low-detail tree canopy, floodplain haze, and darker cloud across the full left 38 percent; bridge and architecture begin center-right.",
+    "The ornate-looking crossing is replaced by a restrained original low-profile pale-stone and dark-steel bridge, and every visible person is removed.",
+    "The documented fictional profile uses flat green floodplain, canal, pale courtyard blocks, adapted brick halls, research buildings, culture, publishing, education, and trade without a real institution, fair, station, landmark, logistics layout, operational detail, text, criminal symbol, extremist symbol, weapon, violence, or wrongdoing."
+  ]
+}

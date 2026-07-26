@@ -1,0 +1,20 @@
+{
+  "realism": 98,
+  "style_consistency": 99,
+  "composition": 100,
+  "material_quality": 98,
+  "lighting_quality": 98,
+  "architecture_plausibility": 97,
+  "ui_suitability": 100,
+  "mobile_suitability": 92,
+  "originality": 96,
+  "safety_compliance": 100,
+  "accepted_prompt": "Create one clean premium ultra-realistic 21:9 daytime environment backing plate for the fictional seasonal strategy/economy MMO SHADOWGRID, inspired by Hamburg but not reproducing real landmarks or a real port layout.\n\nScene: a large contemporary northern German maritime metropolis with broad interconnected waterways, original brick warehouse districts, restrained contemporary waterfront offices, plausible quays, small generic work vessels, maritime weather, and layered urban depth. It should evoke trade, logistics, media, and civic life through architecture only. All city geometry and waterway arrangements must be fictional and non-operational.\n\nComposition: exact ultra-wide 21:9 landscape, intended final size 2688×1152. Use a plausible elevated human viewpoint. Reserve the left 38% as calm, dark, low-detail negative space for localized interface overlays. Put the principal fictional waterfront, original brick district, bridges, and city detail center-right. Keep important shapes inside an inner 84% crop-safe area. Use one or two physically plausible original low-profile bridges that do not resemble known Hamburg bridges. No focal people.\n\nLighting and style: overcast northern daylight after light rain, cool neutral blue-gray atmosphere, restrained warm-gold window and material highlights, realistic wet stone, brick, steel, glass, concrete, water reflections, subtle corporate-thriller mood, high-end contemporary architectural photography, natural cinematic depth, no spectacle.\n\nDo not include the Elbphilharmonie, Speicherstadt's recognizable real arrangement or viewpoints, St. Michael's Church, Hamburg Rathaus, Köhlbrand Bridge, Landungsbrücken, any exact real landmark silhouette, real shipping terminals, cranes arranged as an operational port map, or a known photograph/viewpoint. Do not reproduce real company liveries or port infrastructure identifiers.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, trafficking routes, instructions, fantasy architecture, impossible bridge geometry, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 21:9 daytime city environment, with no border, title, UI, or device mockup.",
+  "reference_images": [],
+  "notes": [
+    "Accepted first generation attempt.",
+    "The left 38 percent is calm, dark, and low-detail for localized interface overlays; the fictional brick waterfront, waterways, bridges, and contemporary offices are concentrated center-right.",
+    "Waterway and quay geometry is fictional and non-operational. No sensitive real port layout, terminal identifier, shipping-company livery, or real infrastructure mark is visible.",
+    "No recognizable Hamburg landmark, exact real-world viewpoint, embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

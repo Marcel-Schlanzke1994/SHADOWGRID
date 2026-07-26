@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-berlin-desktop-day-v1",
+  "manifest_order": 85,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "berlin",
+  "variant": "desktop-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-berlin-desktop-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100085,
+  "content_hash": "8255736ae7cf72bf415545dc5dee56eadba3da44b1183996e36223f58e3b92e9",
+  "source_file": "assets/source/cities/city-berlin-desktop-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-berlin-desktop-day-v1-320.avif",
+      "bytes": 4733,
+      "sha256": "8a59c02da6ce8edbdd7cabcae0306611ade74e80a55edb17e4232b4f7ecfe9f5"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-desktop-day-v1-320.webp",
+      "bytes": 4528,
+      "sha256": "ff120971d41364487171b0ad00414d922ee3864f79834cfcb4c6be2b50b0291d"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-desktop-day-v1-640.avif",
+      "bytes": 45890,
+      "sha256": "9c4e597e4d1859fed1cef6d06c822d3f6d30b786b2466fe8ea6bd24d149ba5ee"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-desktop-day-v1-640.webp",
+      "bytes": 16270,
+      "sha256": "faad9487987eb5824f7dc64ccf2e327c251c7298ebe826dd1f64f78cba0ea6a8"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-desktop-day-v1-960.avif",
+      "bytes": 104117,
+      "sha256": "9d3b8740e6423ec9e9160b8b7ceae40dace17a632bfcb728e142d4cb550a0f9e"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-desktop-day-v1-960.webp",
+      "bytes": 38894,
+      "sha256": "c9ef6e2edb8ba8ab129b048c387e57726d23d8d4928ce409f609972e58fea9ef"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-desktop-day-v1-1280.avif",
+      "bytes": 169061,
+      "sha256": "3a36f588023975580495c16e36c17df6a7404aacad06ffd52e9bd9370da011ee"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-desktop-day-v1-1280.webp",
+      "bytes": 61898,
+      "sha256": "87dd0b0c22ebbd8da2bd1bb07f2e63e84449d74cea4ae36b171e50db3c60fa03"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-desktop-day-v1-1920.avif",
+      "bytes": 347666,
+      "sha256": "272518adc2642ee333c607373dbb09e711d9c02db1d6b66492afd6011399bfa7"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-desktop-day-v1-1920.webp",
+      "bytes": 104376,
+      "sha256": "2f5b6c677abcde2961855ccb393706a7c6efa3e057b2788a914b7e97a2962049"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-desktop-day-v1-2560.avif",
+      "bytes": 520858,
+      "sha256": "5e99cda8b0f5db397f6851e92057ecbf3a74a7e445699313a075a19696c548ac"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-desktop-day-v1-2560.webp",
+      "bytes": 140234,
+      "sha256": "ddc899d18cc23078045fedfb93e91334e2fc099cb0af87f5d79a19b17b657355"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-desktop-day-v1-3840.avif",
+      "bytes": 860196,
+      "sha256": "51adda4e4dda023eafcdd81c347f4650af69a44a2180fb62ba4df9f2a3209b29"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-desktop-day-v1-3840.webp",
+      "bytes": 224314,
+      "sha256": "67a6175a242f1f0f1f32cb429e2b41b90df8fe0adae584ce3bd95d9e01d8394c"
+    },
+    {
+      "path": "assets/production/png/city-berlin-desktop-day-v1-1280.png",
+      "bytes": 1625126,
+      "sha256": "af1add6ddc776b911236781e9b7772873a8ca69be7aaa66070ea7064bef69117"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-desktop-day-v1-320.avif",
+      "bytes": 4733,
+      "sha256": "8a59c02da6ce8edbdd7cabcae0306611ade74e80a55edb17e4232b4f7ecfe9f5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-desktop-day-v1-320.webp",
+      "bytes": 4528,
+      "sha256": "ff120971d41364487171b0ad00414d922ee3864f79834cfcb4c6be2b50b0291d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-desktop-day-v1-640.avif",
+      "bytes": 45890,
+      "sha256": "9c4e597e4d1859fed1cef6d06c822d3f6d30b786b2466fe8ea6bd24d149ba5ee"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-desktop-day-v1-640.webp",
+      "bytes": 16270,
+      "sha256": "faad9487987eb5824f7dc64ccf2e327c251c7298ebe826dd1f64f78cba0ea6a8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-desktop-day-v1-960.avif",
+      "bytes": 104117,
+      "sha256": "9d3b8740e6423ec9e9160b8b7ceae40dace17a632bfcb728e142d4cb550a0f9e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-desktop-day-v1-960.webp",
+      "bytes": 38894,
+      "sha256": "c9ef6e2edb8ba8ab129b048c387e57726d23d8d4928ce409f609972e58fea9ef"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-desktop-day-v1-1280.avif",
+      "bytes": 169061,
+      "sha256": "3a36f588023975580495c16e36c17df6a7404aacad06ffd52e9bd9370da011ee"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-desktop-day-v1-1280.webp",
+      "bytes": 61898,
+      "sha256": "87dd0b0c22ebbd8da2bd1bb07f2e63e84449d74cea4ae36b171e50db3c60fa03"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-desktop-day-v1-1920.avif",
+      "bytes": 347666,
+      "sha256": "272518adc2642ee333c607373dbb09e711d9c02db1d6b66492afd6011399bfa7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-desktop-day-v1-1920.webp",
+      "bytes": 104376,
+      "sha256": "2f5b6c677abcde2961855ccb393706a7c6efa3e057b2788a914b7e97a2962049"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-desktop-day-v1-2560.avif",
+      "bytes": 520858,
+      "sha256": "5e99cda8b0f5db397f6851e92057ecbf3a74a7e445699313a075a19696c548ac"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-desktop-day-v1-2560.webp",
+      "bytes": 140234,
+      "sha256": "ddc899d18cc23078045fedfb93e91334e2fc099cb0af87f5d79a19b17b657355"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-desktop-day-v1-3840.avif",
+      "bytes": 860196,
+      "sha256": "51adda4e4dda023eafcdd81c347f4650af69a44a2180fb62ba4df9f2a3209b29"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-desktop-day-v1-3840.webp",
+      "bytes": 224314,
+      "sha256": "67a6175a242f1f0f1f32cb429e2b41b90df8fe0adae584ce3bd95d9e01d8394c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-desktop-day-v1-1280.png",
+      "bytes": 1625126,
+      "sha256": "af1add6ddc776b911236781e9b7772873a8ca69be7aaa66070ea7064bef69117"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 98.1,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 98,
+    "lighting_quality": 99,
+    "architecture_plausibility": 97,
+    "ui_suitability": 100,
+    "mobile_suitability": 94,
+    "originality": 95,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create a separately composed 16:9 desktop hero for the same accepted fictional Berlin-inspired SHADOWGRID city shown in the reference.\n\nOutput composition: exact 16:9 landscape, intended final size 2048×1152. Reframe and reconstruct the environment for the taller desktop canvas rather than merely cropping the ultra-wide image. Preserve the fictional identity: modest canal, original low-profile bridges, broad tree-lined urban axis, mixed historic stone blocks, restrained postwar modernism, adaptive-reuse brick structures, contemporary glass-and-concrete civic and creative offices, and layered capital-city depth. All street, canal, transit, and civic arrangements must remain fictional and non-operational.\n\nReserve a calm dark low-detail area across the left 32% for localized UI. Place the principal canal, bridge, and mixed-architecture district center-right. Add physically plausible foreground depth in the lower right through wet stone architecture, trees, canal edge, and original public-realm geometry without depicting a real government or street plan. Keep important shapes within the inner 84% crop-safe area. No focal people or crowds.\n\nLighting and style: cool overcast daylight after light rain with a restrained cloud break, neutral blue-gray atmosphere, subtle warm-gold window and material highlights, realistic wet asphalt, stone, brick, concrete, steel, glass, trees, and canal reflections, premium contemporary architectural photography, subtle corporate-thriller mood.\n\nDo not add the Brandenburg Gate, Reichstag, Berlin TV Tower, Victory Column, Berlin Cathedral, Museum Island, East Side Gallery, Oberbaum Bridge, Potsdamer Platz, Alexanderplatz, government complexes, embassies, monuments, flags, real transit maps, exact street layouts, recognizable authority buildings, or any known photograph/viewpoint.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, surveillance instructions, routes, fantasy architecture, impossible geometry, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 16:9 daytime capital-city environment, with no border, title, UI, or device mockup.",
+    "reference_images": [
+      "assets/source/cities/city-berlin-ultrawide-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first 16:9 recomposition attempt.",
+      "The taller frame adds plausible lower-right canal-edge, public-realm, tree, and stone-architecture depth while retaining the left 32 percent UI safe area.",
+      "Canal, original bridges, mixed architectural eras, and broad urban axis remain coordinated with the Berlin asset family without reproducing a real street or government plan.",
+      "No known landmark, exact viewpoint, embedded text, logo, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3871846
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T21:53:27.226Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first 16:9 recomposition attempt.",
+    "The taller frame adds plausible lower-right canal-edge, public-realm, tree, and stone-architecture depth while retaining the left 32 percent UI safe area.",
+    "Canal, original bridges, mixed architectural eras, and broad urban axis remain coordinated with the Berlin asset family without reproducing a real street or government plan.",
+    "No known landmark, exact viewpoint, embedded text, logo, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "asset_id": "branding-shadowgrid-app-icon-master-v1",
+  "manifest_order": 16,
+  "category": "branding",
+  "batch": "branding",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/branding-shadowgrid-app-icon-master-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100016,
+  "content_hash": "4302db7dec4a9263c240e4772ceea293f50a571a4777a4ddfe640cb492ddffd6",
+  "source_file": "assets/source/branding/branding-shadowgrid-app-icon-master-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/branding-shadowgrid-app-icon-master-v1.svg",
+      "bytes": 1260,
+      "sha256": "4302db7dec4a9263c240e4772ceea293f50a571a4777a4ddfe640cb492ddffd6"
+    },
+    {
+      "path": "assets/production/png/branding-shadowgrid-app-icon-master-v1-1536.png",
+      "bytes": 141514,
+      "sha256": "0644cf4264245f615ae936d665416e06602992af38792c48e1dc9a012a158ba9"
+    },
+    {
+      "path": "assets/production/webp/branding-shadowgrid-app-icon-master-v1-1536.webp",
+      "bytes": 69106,
+      "sha256": "6396732a5439357bdc150468c0daa02e4be1ae8e80f5b3660cb8218c6aebb85e"
+    },
+    {
+      "path": "assets/production/png/branding-shadowgrid-app-icon-master-v1-1024.png",
+      "bytes": 86717,
+      "sha256": "c3b4bd16cc46ee53319671db03b2b43bc25929b69038137052593e4202cb07a0"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/mobile/assets/icon.png",
+      "bytes": 86717,
+      "sha256": "c3b4bd16cc46ee53319671db03b2b43bc25929b69038137052593e4202cb07a0"
+    },
+    {
+      "path": "apps/mobile/assets/icon-source.svg",
+      "bytes": 1260,
+      "sha256": "4302db7dec4a9263c240e4772ceea293f50a571a4777a4ddfe640cb492ddffd6"
+    },
+    {
+      "path": "apps/web/public/icon.svg",
+      "bytes": 1260,
+      "sha256": "4302db7dec4a9263c240e4772ceea293f50a571a4777a4ddfe640cb492ddffd6"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 94.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "vector-branding-v1",
+    "reviewer": "codex-visual",
+    "reviewed_at": "2026-07-25T14:01:32.835Z",
+    "scores": {
+      "style_consistency": 95,
+      "composition": 93,
+      "small_size_legibility": 92,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "ui_suitability": 94,
+      "mobile_suitability": 98,
+      "originality": 90,
+      "technical_quality": 98,
+      "safety_compliance": 100
+    },
+    "notes": [
+      "All fourteen assets use the same hexagonal network mark, restrained gold, anthracite and off-white system.",
+      "No firearm, skull, gang, extremist, authority or real-company symbol is present.",
+      "Transparent variants were checked on dark and light preview backgrounds.",
+      "Full-bleed opaque square; no pre-rounded transparent corners; platform mask safe."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 1260
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T13:56:14.351Z",
+  "license": "project-owned-generated-asset",
+  "notes": []
+}

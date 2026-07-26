@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-hamburg-desktop-night-v1",
+  "manifest_order": 78,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "hamburg",
+  "variant": "desktop-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-hamburg-desktop-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100078,
+  "content_hash": "f46aa073bdbac4109267f069d841ae0ebc65985aaee0171478f670fb86be4cc9",
+  "source_file": "assets/source/cities/city-hamburg-desktop-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-hamburg-desktop-night-v1-320.avif",
+      "bytes": 4976,
+      "sha256": "42ad381ea588392fc5a681bb16474dd30679b4d59f28577a5d78c7a6b73e96ab"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-desktop-night-v1-320.webp",
+      "bytes": 4670,
+      "sha256": "e159db49a5a0cdb7931b77bfeede743feba21926a387b2bcd6bda7e9c32fcb45"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-desktop-night-v1-640.avif",
+      "bytes": 19694,
+      "sha256": "017809e3044b09e2c3b3a046a4478d6933b36b2c915cb8761e14ff6441aebdb2"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-desktop-night-v1-640.webp",
+      "bytes": 19126,
+      "sha256": "3084ba52ea63ea77fce7e60e88757482ea7025a88f3c960614e710e56d020a58"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-desktop-night-v1-960.avif",
+      "bytes": 54312,
+      "sha256": "308320804dd5cad7ea604af692ee79ff8f96e0e9618aaf5e16f405a622648a28"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-desktop-night-v1-960.webp",
+      "bytes": 49308,
+      "sha256": "4ee799c149139a68c67a1d24e901eb39d05cef4f764c0d479067f7a32957dcb9"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-desktop-night-v1-1280.avif",
+      "bytes": 92889,
+      "sha256": "9f98a9a0f4fc42ccdf6d98939f2e8876f7e345e0b48cdd6da3309561e5e17890"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-desktop-night-v1-1280.webp",
+      "bytes": 80988,
+      "sha256": "dd92884566a80a499801de5d33000dd3caca71229328b5cc96df168b74a0d937"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-desktop-night-v1-1920.avif",
+      "bytes": 425298,
+      "sha256": "ef4ea360d38286142f20842739d4727bf30f65a13dea0316bcc3a6f6f5ad6321"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-desktop-night-v1-1920.webp",
+      "bytes": 138186,
+      "sha256": "d4511f88b0715b8e0760e366bcd7f3ba51260048c4673c3ca3a8a9b403bbb95c"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-desktop-night-v1-2560.avif",
+      "bytes": 635885,
+      "sha256": "7a6ab91c9aa1d9128615b7c9ddd372fa7e4b065d5bdfe4470a4832c1382c5dab"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-desktop-night-v1-2560.webp",
+      "bytes": 183962,
+      "sha256": "58ac00bf4fffe495bdd2450acae39a41617f0de0866dfe112c4cd840228dde70"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-desktop-night-v1-3840.avif",
+      "bytes": 1055000,
+      "sha256": "330ba4c638b7a63f16f8a718c9d981b6bd5706632ae7fa0efe630588a785039f"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-desktop-night-v1-3840.webp",
+      "bytes": 291976,
+      "sha256": "a22ede9438cd390f87c5087f17cd41c56c01fd7f49393e352a9a8c2a4a5865e8"
+    },
+    {
+      "path": "assets/production/png/city-hamburg-desktop-night-v1-1280.png",
+      "bytes": 1547229,
+      "sha256": "8444627d43734955685d33d7363b850b0cee82bb212db9ca6df2969c21f9ff04"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-desktop-night-v1-320.avif",
+      "bytes": 4976,
+      "sha256": "42ad381ea588392fc5a681bb16474dd30679b4d59f28577a5d78c7a6b73e96ab"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-desktop-night-v1-320.webp",
+      "bytes": 4670,
+      "sha256": "e159db49a5a0cdb7931b77bfeede743feba21926a387b2bcd6bda7e9c32fcb45"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-desktop-night-v1-640.avif",
+      "bytes": 19694,
+      "sha256": "017809e3044b09e2c3b3a046a4478d6933b36b2c915cb8761e14ff6441aebdb2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-desktop-night-v1-640.webp",
+      "bytes": 19126,
+      "sha256": "3084ba52ea63ea77fce7e60e88757482ea7025a88f3c960614e710e56d020a58"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-desktop-night-v1-960.avif",
+      "bytes": 54312,
+      "sha256": "308320804dd5cad7ea604af692ee79ff8f96e0e9618aaf5e16f405a622648a28"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-desktop-night-v1-960.webp",
+      "bytes": 49308,
+      "sha256": "4ee799c149139a68c67a1d24e901eb39d05cef4f764c0d479067f7a32957dcb9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-desktop-night-v1-1280.avif",
+      "bytes": 92889,
+      "sha256": "9f98a9a0f4fc42ccdf6d98939f2e8876f7e345e0b48cdd6da3309561e5e17890"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-desktop-night-v1-1280.webp",
+      "bytes": 80988,
+      "sha256": "dd92884566a80a499801de5d33000dd3caca71229328b5cc96df168b74a0d937"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-desktop-night-v1-1920.avif",
+      "bytes": 425298,
+      "sha256": "ef4ea360d38286142f20842739d4727bf30f65a13dea0316bcc3a6f6f5ad6321"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-desktop-night-v1-1920.webp",
+      "bytes": 138186,
+      "sha256": "d4511f88b0715b8e0760e366bcd7f3ba51260048c4673c3ca3a8a9b403bbb95c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-desktop-night-v1-2560.avif",
+      "bytes": 635885,
+      "sha256": "7a6ab91c9aa1d9128615b7c9ddd372fa7e4b065d5bdfe4470a4832c1382c5dab"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-desktop-night-v1-2560.webp",
+      "bytes": 183962,
+      "sha256": "58ac00bf4fffe495bdd2450acae39a41617f0de0866dfe112c4cd840228dde70"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-desktop-night-v1-3840.avif",
+      "bytes": 1055000,
+      "sha256": "330ba4c638b7a63f16f8a718c9d981b6bd5706632ae7fa0efe630588a785039f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-desktop-night-v1-3840.webp",
+      "bytes": 291976,
+      "sha256": "a22ede9438cd390f87c5087f17cd41c56c01fd7f49393e352a9a8c2a4a5865e8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-desktop-night-v1-1280.png",
+      "bytes": 1547229,
+      "sha256": "8444627d43734955685d33d7363b850b0cee82bb212db9ca6df2969c21f9ff04"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 98.1,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 98,
+    "lighting_quality": 99,
+    "architecture_plausibility": 97,
+    "ui_suitability": 100,
+    "mobile_suitability": 94,
+    "originality": 95,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create the coordinated 16:9 night counterpart for this accepted fictional Hamburg-inspired SHADOWGRID desktop hero.\n\nPreserve the exact desktop geometry: broad fictional waterways, original brick warehouse peninsula, generic low-profile bridges, restrained contemporary waterfront offices, small unbranded work vessels, lower-right quay depth, center-right detail, and the calm dark low-detail left 32% UI safe area. Keep it unmistakably the same fictional city composition and do not reveal or invent any operational port layout.\n\nConvert the lighting to physically plausible maritime night: deep anthracite and cool blue-gray rain clouds, restrained warm-gold windows and quay lamps, subtle bridge safety lighting, wet masonry and glass reflections, realistic dark water, and readable midtone structure. Keep the left safe area calm and dark. Avoid saturated neon, overexposure, emergency lighting, warning-red gameplay cues, black crush, excessive haze, or spectacle.\n\nDo not add the Elbphilharmonie, recognizable Speicherstadt arrangements or viewpoints, St. Michael's Church, Hamburg Rathaus, Köhlbrand Bridge, Landungsbrücken, any exact real landmark silhouette, real shipping terminal, sensitive port infrastructure, real company livery, infrastructure identifier, or known photograph/viewpoint.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, trafficking routes, instructions, fantasy architecture, impossible bridge geometry, excessive neon, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 16:9 night city environment, intended final size 2048×1152, with no border, title, UI, or device mockup.",
+    "reference_images": [
+      "assets/source/cities/city-hamburg-desktop-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first desktop night-conversion attempt.",
+      "The desktop waterways, brick peninsula, bridges, offices, lower-right quay depth, and left UI safe area remain coordinated with the approved daytime counterpart.",
+      "Warm practical lights and wet reflections remain restrained while masonry, bridge, glass, and water structure stays readable.",
+      "No recognizable Hamburg landmark, sensitive port layout, embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3768454
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T21:12:24.043Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first desktop night-conversion attempt.",
+    "The desktop waterways, brick peninsula, bridges, offices, lower-right quay depth, and left UI safe area remain coordinated with the approved daytime counterpart.",
+    "Warm practical lights and wet reflections remain restrained while masonry, bridge, glass, and water structure stays readable.",
+    "No recognizable Hamburg landmark, sensitive port layout, embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

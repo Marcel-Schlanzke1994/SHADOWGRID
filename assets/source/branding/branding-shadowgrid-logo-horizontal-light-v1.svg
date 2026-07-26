@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3200" height="1000" viewBox="0 0 3200 1000" role="img" aria-labelledby="title"><title id="title">Main horizontal logo, light background</title><defs>
+    <radialGradient id="brand-bg" cx="32%" cy="22%" r="88%">
+      <stop stop-color="#1b222a"/>
+      <stop offset=".55" stop-color="#0d1116"/>
+      <stop offset="1" stop-color="#06080b"/>
+    </radialGradient>
+    <pattern id="brand-grid" width="96" height="96" patternUnits="userSpaceOnUse">
+      <path d="M96 0H0V96" fill="none" stroke="#8fa0aa" stroke-opacity=".09" stroke-width="3"/>
+    </pattern>
+  </defs><rect width="3200" height="1000" fill="#f3f0e8"/>
+      <g transform="translate(100 100) scale(0.8)">
+    <path d="M500 90 850 290v420L500 910 150 710V290Z" fill="none" stroke="#080a0d" stroke-width="52" stroke-linejoin="round"/>
+    <path d="M500 260 700 375v250L500 740 300 625V375Z" fill="none" stroke="#080a0d" stroke-width="34" stroke-linejoin="round" opacity=".72"/>
+       <path d="M500 260v480M300 375l400 250M700 375 300 625" fill="none" stroke="#080a0d" stroke-width="24" stroke-linecap="round"/>
+       <circle cx="500" cy="500" r="58" fill="#080a0d"/>
+  </g>
+      <text x="1020" y="604" fill="#080a0d" font-family="Arial, Helvetica, sans-serif" font-size="280" font-weight="700" letter-spacing="20" textLength="2020" lengthAdjust="spacing">SHADOWGRID</text>
+    </svg>

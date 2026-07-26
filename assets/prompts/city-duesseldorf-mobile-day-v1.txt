@@ -1,0 +1,27 @@
+Use case: stylized-concept
+Asset type: city asset for a cross-platform strategy game
+Primary request: Create a premium ultra-realistic visual asset for the multiplayer strategy game SHADOWGRID.
+Scene/backdrop: Plausible contemporary German city, with locally coherent architecture, economy, transport and public space; fictionalized rather than copied from a photograph.
+Subject: Düsseldorf, North Rhine-Westphalia: Mobile hero, day
+Category: city.
+Gameplay state: normal.
+Contemporary, fictionalized representation of Düsseldorf; no exact landmark photograph recreation; time=day.
+Style/medium: contemporary Germany; high-end urban economic strategy simulation; cinematic corporate thriller atmosphere; subtle cyber-noir; physically plausible glass, concrete, steel, stone and asphalt; original scene, not a known photograph, film frame, game screenshot or branded design.
+Composition/framing: Portrait mobile composition with the subject in the middle third, safe areas for a top status bar and bottom controls, and calm negative space for overlays.
+Lighting/mood: natural daylight with natural cinematic lighting, realistic reflections and restrained atmosphere.
+Color palette: black and anthracite framing, cool neutral blue-gray, restrained warm gold accents; warning red only if the gameplay state requires danger.
+Materials/textures: physically plausible dark glass, brushed metal, concrete, stone and asphalt with realistic scale.
+Constraints: no embedded captions or interface text; no real brands; no real authorities; no readable plates or addresses; no recognizable private people; no copied landmark-photo angle; space reserved for UI overlays; suitable for desktop and mobile crops; output aspect ratio 9:16.
+Avoid: Do not include: written words, captions, watermarks, signatures, existing game logos, real company logos, real police insignia, real government insignia, readable private license plates, readable private addresses, recognizable private individuals, celebrities, politicians, real criminal organizations, real gang symbols, extremist symbols, Nazi symbols, graphic violence, visible illegal instructions, firearms as the central subject, drug production, crime tutorials, copied photography, copied landmarks from an identical photo angle, fantasy skyscrapers, impossible architecture, distorted buildings, duplicate people, deformed hands, unrealistic vehicles, floating objects, overexposed neon, cartoon style, anime style, comic style, plastic mobile-game appearance, blurry image, low resolution, compression artifacts, unreadable fake text.
+Seed reference: 100111. Style lock: 1.0.0.
+
+Revision used for the accepted image:
+Revise this fictional Düsseldorf-inspired SHADOWGRID 9:16 daytime mobile city hero while preserving the exact portrait canvas, camera, cloud field, river, original low-profile bridge, promenade, canal basin, pale-stone service blocks, restrained glass offices, wet post-rain materials, upper 32% calm status/title zone, middle city decision area, and bottom 18% calm dark water control zone.
+
+Mandatory correction: remove the isolated narrow pointed spire near the distant center-right skyline. Replace it with a modest low neutral original stone-and-glass urban block with a flat or gently stepped roofline. It must not read as a church, cathedral, steeple, bell tower, monument, civic tower, antenna landmark, Rheinturm, or recognizable skyline feature. Also ensure no other religious, monumental, governmental, trade-fair, fashion-brand, or media-brand silhouette appears. Preserve the rest of the skyline and all fictional river, canal, bridge, promenade, and building geometry.
+
+Keep the upper 32% calm low-detail cloud/atmospheric space and the bottom 18% calm dark open water. Do not add any high-contrast object to those interface-safe zones. All layouts remain fictional and non-operational.
+
+No text, letters, numbers, signs, logos, brands, interface, watermarks, signatures, identifiable people, flags, authority marks, police insignia, criminal symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, fantasy architecture, Gehry-like distorted buildings, impossible geometry, neon, warning red, blur, low resolution, compression artifacts, or fake writing.
+
+Deliver only the corrected clean premium ultra-realistic fictional 9:16 daytime mobile environment with the pointed spire removed and no border, title, UI, or device mockup.

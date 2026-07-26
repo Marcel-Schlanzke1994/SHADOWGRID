@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-muenchen-desktop-night-v1",
+  "manifest_order": 94,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "muenchen",
+  "variant": "desktop-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-muenchen-desktop-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100094,
+  "content_hash": "f50db35d841fdb6f53b16735baaad295d8f0959fce0fbd55cd25f3dc182a7206",
+  "source_file": "assets/source/cities/city-muenchen-desktop-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-muenchen-desktop-night-v1-320.avif",
+      "bytes": 12003,
+      "sha256": "5f2bc572fd8e6dc179e4beee231374905bcde502c5deadea7d22eb3a6e339aa2"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-desktop-night-v1-320.webp",
+      "bytes": 4120,
+      "sha256": "dd7e0cf6b95fb1914b72cc19a8ce3f49d456555e10584bf314d8ca3c2b434dac"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-desktop-night-v1-640.avif",
+      "bytes": 47988,
+      "sha256": "eaea0bc565560519959dcd8bddfc4b355b52f629e5c797483b9675784a9c78ed"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-desktop-night-v1-640.webp",
+      "bytes": 15830,
+      "sha256": "828b4c48c77a66fc35170a048fcb37b14a164ea0034db92e8de14044262966cb"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-desktop-night-v1-960.avif",
+      "bytes": 110601,
+      "sha256": "59ffc6c5682226226b2f44d096c3d9da0e06e6da0f3b71d752b0456966c77008"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-desktop-night-v1-960.webp",
+      "bytes": 40890,
+      "sha256": "1e31e09e555b82378acb964d848f1d742a33a10e96584b38dc55bf839bf5af34"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-desktop-night-v1-1280.avif",
+      "bytes": 178001,
+      "sha256": "c6131c97e6fec7f651e32d693b621d689e1cefb236afdeef8fa7d6cd84bbe786"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-desktop-night-v1-1280.webp",
+      "bytes": 66236,
+      "sha256": "00c84129109603f9f3ba85512576d2acc9f8c371474100272c7517a30fe7e4de"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-desktop-night-v1-1920.avif",
+      "bytes": 364116,
+      "sha256": "ea0b2c3103c3d312a4c4e93c647ed386c424ce53601d7457b8499ff1f198d0de"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-desktop-night-v1-1920.webp",
+      "bytes": 114818,
+      "sha256": "016a22bbd0a3645d8e54ddc1237bbc92d3f5765ba3e2d52f2a80f139ed633f18"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-desktop-night-v1-2560.avif",
+      "bytes": 559301,
+      "sha256": "0e0aebc306cabf1471541ab0469ceee885f26f3588852c4683b9deee11003d2f"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-desktop-night-v1-2560.webp",
+      "bytes": 153362,
+      "sha256": "cbc70076d16ce9834dd43bdf74cee3092610d4f26690a20c6be9ca76900bfdf6"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-desktop-night-v1-3840.avif",
+      "bytes": 935386,
+      "sha256": "eeb27827310e7ef946b6581ce964cbc07dd1a8ef987469d0b34224979867fa25"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-desktop-night-v1-3840.webp",
+      "bytes": 247442,
+      "sha256": "77a82cc808a26b9471143b09ffa5ca8bb90e88dd169623af595b4b00ef74f140"
+    },
+    {
+      "path": "assets/production/png/city-muenchen-desktop-night-v1-1280.png",
+      "bytes": 1507630,
+      "sha256": "6cb985858d397541b278d6ef918c35e1fb1c7d874962d419105e8fa0094ec074"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-night-v1-320.avif",
+      "bytes": 12003,
+      "sha256": "5f2bc572fd8e6dc179e4beee231374905bcde502c5deadea7d22eb3a6e339aa2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-night-v1-320.webp",
+      "bytes": 4120,
+      "sha256": "dd7e0cf6b95fb1914b72cc19a8ce3f49d456555e10584bf314d8ca3c2b434dac"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-night-v1-640.avif",
+      "bytes": 47988,
+      "sha256": "eaea0bc565560519959dcd8bddfc4b355b52f629e5c797483b9675784a9c78ed"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-night-v1-640.webp",
+      "bytes": 15830,
+      "sha256": "828b4c48c77a66fc35170a048fcb37b14a164ea0034db92e8de14044262966cb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-night-v1-960.avif",
+      "bytes": 110601,
+      "sha256": "59ffc6c5682226226b2f44d096c3d9da0e06e6da0f3b71d752b0456966c77008"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-night-v1-960.webp",
+      "bytes": 40890,
+      "sha256": "1e31e09e555b82378acb964d848f1d742a33a10e96584b38dc55bf839bf5af34"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-night-v1-1280.avif",
+      "bytes": 178001,
+      "sha256": "c6131c97e6fec7f651e32d693b621d689e1cefb236afdeef8fa7d6cd84bbe786"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-night-v1-1280.webp",
+      "bytes": 66236,
+      "sha256": "00c84129109603f9f3ba85512576d2acc9f8c371474100272c7517a30fe7e4de"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-night-v1-1920.avif",
+      "bytes": 364116,
+      "sha256": "ea0b2c3103c3d312a4c4e93c647ed386c424ce53601d7457b8499ff1f198d0de"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-night-v1-1920.webp",
+      "bytes": 114818,
+      "sha256": "016a22bbd0a3645d8e54ddc1237bbc92d3f5765ba3e2d52f2a80f139ed633f18"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-night-v1-2560.avif",
+      "bytes": 559301,
+      "sha256": "0e0aebc306cabf1471541ab0469ceee885f26f3588852c4683b9deee11003d2f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-night-v1-2560.webp",
+      "bytes": 153362,
+      "sha256": "cbc70076d16ce9834dd43bdf74cee3092610d4f26690a20c6be9ca76900bfdf6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-night-v1-3840.avif",
+      "bytes": 935386,
+      "sha256": "eeb27827310e7ef946b6581ce964cbc07dd1a8ef987469d0b34224979867fa25"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-night-v1-3840.webp",
+      "bytes": 247442,
+      "sha256": "77a82cc808a26b9471143b09ffa5ca8bb90e88dd169623af595b4b00ef74f140"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-night-v1-1280.png",
+      "bytes": 1507630,
+      "sha256": "6cb985858d397541b278d6ef918c35e1fb1c7d874962d419105e8fa0094ec074"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 98.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 98,
+    "lighting_quality": 99,
+    "architecture_plausibility": 98,
+    "ui_suitability": 100,
+    "mobile_suitability": 94,
+    "originality": 96,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create the coordinated 16:9 night counterpart for this accepted fictional München-inspired SHADOWGRID desktop hero.\n\nPreserve the exact desktop geometry: broad fictional urban river, landscaped embankments, original low-profile bridge, tree-lined public realm, pale-stone historic-influenced blocks, restrained technology and research offices, lower-right wet-stone terrace and river-edge depth, subtle distant foothills, center-right detail, and calm dark low-detail left 32% UI safe area. Keep it unmistakably the same fictional city composition. Do not reveal or invent any operational street, transit, campus, corporate, or civic layout.\n\nConvert the lighting to physically plausible prosperous southern-city night after rain: deep anthracite and cool blue-gray clouds, restrained warm-gold windows and public-space practical lights, subtle bridge lighting, wet pale-stone and river reflections, realistic dark trees and water, and readable midtone architecture. Keep the left safe area calm and dark. Keep the distant terrain barely visible and natural. Avoid saturated neon, overexposure, emergency lighting, warning-red gameplay cues, black crush, excessive haze, or spectacle.\n\nDo not add the Frauenkirche twin domes, Neues Rathaus, Marienplatz, Residenz, Nymphenburg Palace, Hofbräuhaus, BMW headquarters or museum, Allianz Arena, Olympic Park structures, English Garden landmarks, any exact Isar viewpoint, recognizable church silhouette, real corporate campus, flags, coats of arms, real transit maps, exact street layouts, or any known photograph/viewpoint.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, fantasy architecture, impossible geometry, dramatic fantasy mountains, excessive neon, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 16:9 night southern-metropolis environment, intended final size 2048×1152, with no border, title, UI, or device mockup.",
+    "reference_images": [
+      "assets/source/cities/city-muenchen-desktop-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first desktop night-conversion attempt.",
+      "River, bridge, park, pale-stone district, technology offices, lower-right terrace, subtle foothills, and left UI safe area remain coordinated with the approved desktop daytime counterpart.",
+      "Warm public-space lights and wet reflections preserve depth without saturated neon, emergency cues, or loss of content-region midtones.",
+      "No recognizable München landmark, corporate campus, exact Isar viewpoint, embedded text, logo, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3636229
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-26T07:08:38.697Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first desktop night-conversion attempt.",
+    "River, bridge, park, pale-stone district, technology offices, lower-right terrace, subtle foothills, and left UI safe area remain coordinated with the approved desktop daytime counterpart.",
+    "Warm public-space lights and wet reflections preserve depth without saturated neon, emergency cues, or loss of content-region midtones.",
+    "No recognizable München landmark, corporate campus, exact Isar viewpoint, embedded text, logo, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

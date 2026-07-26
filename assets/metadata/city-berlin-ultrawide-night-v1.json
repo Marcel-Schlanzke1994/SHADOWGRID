@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-berlin-ultrawide-night-v1",
+  "manifest_order": 84,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "berlin",
+  "variant": "ultrawide-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-berlin-ultrawide-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100084,
+  "content_hash": "a42288c600a4dddc0760b1cfa7e9adac5b40577cf16f484ae26045785df26c23",
+  "source_file": "assets/source/cities/city-berlin-ultrawide-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-berlin-ultrawide-night-v1-320.avif",
+      "bytes": 11066,
+      "sha256": "6e4375bca6216f29b836066dc83b25ba537ccd8b5414c2e5455808e7f383eeec"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-ultrawide-night-v1-320.webp",
+      "bytes": 4322,
+      "sha256": "1d04e7ce93305908613ab162b545a9490ad208ba3307a667619c8552ccea6bba"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-ultrawide-night-v1-640.avif",
+      "bytes": 40085,
+      "sha256": "8609171fd9b2cf43d4c7d482f25b02d2a3d041c7d5ed6dc79f8006192b39ecac"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-ultrawide-night-v1-640.webp",
+      "bytes": 15832,
+      "sha256": "5547ed01c29397270acc4e2caa5c94218a629b18ef2fb349a607433b5bf10c00"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-ultrawide-night-v1-960.avif",
+      "bytes": 94194,
+      "sha256": "e58b4ed3f342bc4c15f434e549cb36947c64148ecb1b09939d1a870b517a95a8"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-ultrawide-night-v1-960.webp",
+      "bytes": 40092,
+      "sha256": "9c3980b3077efa0c1f886a04f5d5c6fab9c087399e2cd03a90885664655e4e1d"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-ultrawide-night-v1-1280.avif",
+      "bytes": 157672,
+      "sha256": "fa79057e64e3b822a26a04cd43a47fcde13a02b773e71b5b468b8eee584130b7"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-ultrawide-night-v1-1280.webp",
+      "bytes": 66816,
+      "sha256": "2e00a3bdfa196dcdac9be367aa788ba295454600bb819d13aee83d87df3361c8"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-ultrawide-night-v1-1920.avif",
+      "bytes": 311848,
+      "sha256": "2cf7f98ad97ea83de4412adffdf4a4b1d558662afa69755f729edc9d618ab8bd"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-ultrawide-night-v1-1920.webp",
+      "bytes": 118112,
+      "sha256": "5f5c3e2491fab01554add4ca20608f296813f5d82c34a191d6f933e70b0941e0"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-ultrawide-night-v1-2560.avif",
+      "bytes": 492545,
+      "sha256": "8ecebf7538dd7b05b43948699d15e572c778647df4ae3e41182df89ccebd0b9f"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-ultrawide-night-v1-2560.webp",
+      "bytes": 162548,
+      "sha256": "a4661218e4af0ffafe33a15c9d7be6b41fdf3d8e6f4ac3f69dba68f1249ee1a2"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-ultrawide-night-v1-3840.avif",
+      "bytes": 841929,
+      "sha256": "63713f4cd7ab67e9808c106f6ddc2cbdd7bbd90d38552beb52a3f7e75d47772e"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-ultrawide-night-v1-3840.webp",
+      "bytes": 250264,
+      "sha256": "1c49768a370d3228a2509390f6fecd04782e241f8dbf9b646a54608c716df84d"
+    },
+    {
+      "path": "assets/production/png/city-berlin-ultrawide-night-v1-1280.png",
+      "bytes": 1211434,
+      "sha256": "6f7cc5ca540908a2a682e106105da6a8af391bb1f6ce0a1e42cbd411742a24cf"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-night-v1-320.avif",
+      "bytes": 11066,
+      "sha256": "6e4375bca6216f29b836066dc83b25ba537ccd8b5414c2e5455808e7f383eeec"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-night-v1-320.webp",
+      "bytes": 4322,
+      "sha256": "1d04e7ce93305908613ab162b545a9490ad208ba3307a667619c8552ccea6bba"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-night-v1-640.avif",
+      "bytes": 40085,
+      "sha256": "8609171fd9b2cf43d4c7d482f25b02d2a3d041c7d5ed6dc79f8006192b39ecac"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-night-v1-640.webp",
+      "bytes": 15832,
+      "sha256": "5547ed01c29397270acc4e2caa5c94218a629b18ef2fb349a607433b5bf10c00"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-night-v1-960.avif",
+      "bytes": 94194,
+      "sha256": "e58b4ed3f342bc4c15f434e549cb36947c64148ecb1b09939d1a870b517a95a8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-night-v1-960.webp",
+      "bytes": 40092,
+      "sha256": "9c3980b3077efa0c1f886a04f5d5c6fab9c087399e2cd03a90885664655e4e1d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-night-v1-1280.avif",
+      "bytes": 157672,
+      "sha256": "fa79057e64e3b822a26a04cd43a47fcde13a02b773e71b5b468b8eee584130b7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-night-v1-1280.webp",
+      "bytes": 66816,
+      "sha256": "2e00a3bdfa196dcdac9be367aa788ba295454600bb819d13aee83d87df3361c8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-night-v1-1920.avif",
+      "bytes": 311848,
+      "sha256": "2cf7f98ad97ea83de4412adffdf4a4b1d558662afa69755f729edc9d618ab8bd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-night-v1-1920.webp",
+      "bytes": 118112,
+      "sha256": "5f5c3e2491fab01554add4ca20608f296813f5d82c34a191d6f933e70b0941e0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-night-v1-2560.avif",
+      "bytes": 492545,
+      "sha256": "8ecebf7538dd7b05b43948699d15e572c778647df4ae3e41182df89ccebd0b9f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-night-v1-2560.webp",
+      "bytes": 162548,
+      "sha256": "a4661218e4af0ffafe33a15c9d7be6b41fdf3d8e6f4ac3f69dba68f1249ee1a2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-night-v1-3840.avif",
+      "bytes": 841929,
+      "sha256": "63713f4cd7ab67e9808c106f6ddc2cbdd7bbd90d38552beb52a3f7e75d47772e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-night-v1-3840.webp",
+      "bytes": 250264,
+      "sha256": "1c49768a370d3228a2509390f6fecd04782e241f8dbf9b646a54608c716df84d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-night-v1-1280.png",
+      "bytes": 1211434,
+      "sha256": "6f7cc5ca540908a2a682e106105da6a8af391bb1f6ce0a1e42cbd411742a24cf"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 97.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 98,
+    "lighting_quality": 99,
+    "architecture_plausibility": 97,
+    "ui_suitability": 100,
+    "mobile_suitability": 92,
+    "originality": 95,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create the coordinated 21:9 night counterpart for this accepted fictional Berlin-inspired SHADOWGRID city hero.\n\nPreserve the exact ultra-wide geometry: fictional modest canal, original low-profile bridges, broad tree-lined axis, mixed historic stone blocks, restrained postwar modernism, adaptive-reuse brick structures, contemporary glass-and-concrete civic and creative offices, layered metropolitan depth, center-right detail placement, and calm dark low-detail left 38% UI safe area. Keep it clearly the same original city composition. Do not reveal, label, or invent any operational street, transit, government, surveillance, or civic layout.\n\nTransform the scene to physically plausible capital-city night after rain: deep anthracite and cool blue-gray clouds, restrained warm-gold windows and street practical lights, subtle original bridge lighting, wet asphalt and canal reflections, and readable midtone stone, brick, concrete, trees, and glass. Keep the left overlay area calm and dark. Avoid saturated neon, overexposure, emergency lighting, warning-red gameplay cues, black crush, excessive haze, or spectacle.\n\nDo not add the Brandenburg Gate, Reichstag, Berlin TV Tower, Victory Column, Berlin Cathedral, Museum Island, East Side Gallery, Oberbaum Bridge, Potsdamer Platz, Alexanderplatz, government complexes, embassies, monuments, flags, real transit maps, exact street layouts, or any known photograph/viewpoint. Do not create a recognizable real authority building or sensitive civic layout.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, surveillance instructions, routes, fantasy architecture, impossible geometry, excessive neon, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 21:9 night capital-city environment, intended final size 2688×1152, with no border, title, UI, or device mockup.",
+    "reference_images": [
+      "assets/source/cities/city-berlin-ultrawide-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first night-conversion attempt.",
+      "Canal, original bridges, mixed architectural eras, tree-lined axis, and left 38 percent UI safe area remain coordinated with the approved daytime counterpart.",
+      "Warm practical lights and wet reflections remain restrained. Tiny distant aviation lights are environmental safety details and do not communicate a gameplay warning.",
+      "No real government site, known landmark, exact street layout, text, logo, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 4856032
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T21:48:52.990Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first night-conversion attempt.",
+    "Canal, original bridges, mixed architectural eras, tree-lined axis, and left 38 percent UI safe area remain coordinated with the approved daytime counterpart.",
+    "Warm practical lights and wet reflections remain restrained. Tiny distant aviation lights are environmental safety details and do not communicate a gameplay warning.",
+    "No real government site, known landmark, exact street layout, text, logo, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

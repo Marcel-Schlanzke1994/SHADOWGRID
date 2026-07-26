@@ -1,0 +1,65 @@
+{
+  "asset_id": "marker-influence-economy-v1",
+  "manifest_order": 56,
+  "category": "marker",
+  "batch": "map-markers",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "24:24",
+  "width": 24,
+  "height": 24,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/marker-influence-economy-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100056,
+  "content_hash": "c59c14e5db23198b750ba86b1a70dd168457081c328ab373bb50b02e550ec1da",
+  "source_file": "assets/source/maps/marker-influence-economy-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/marker-influence-economy-v1.svg",
+      "bytes": 764,
+      "sha256": "c59c14e5db23198b750ba86b1a70dd168457081c328ab373bb50b02e550ec1da"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/markers/marker-influence-economy-v1.svg",
+      "bytes": 764,
+      "sha256": "c59c14e5db23198b750ba86b1a70dd168457081c328ab373bb50b02e550ec1da"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 764
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T20:12:00.126Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "realism": 97,
+  "style_consistency": 98,
+  "composition": 99,
+  "material_quality": 97,
+  "lighting_quality": 97,
+  "architecture_plausibility": 97,
+  "ui_suitability": 99,
+  "mobile_suitability": 99,
+  "originality": 95,
+  "safety_compliance": 100,
+  "accepted_prompt": "Use case: stylized-concept\nAsset type: native portrait mobile registration-page background for the fictional cross-platform strategy game SHADOWGRID\nInput images: Image 1 is the approved desktop registration scene and defines the more welcoming daylight mood; Image 2 is the approved mobile-login composition and defines portrait safe-area discipline. Create a new portrait composition rather than cropping either reference.\nPrimary request: Create a premium ultra-realistic 9:16 portrait view of an original contemporary strategy campus reception gallery in a fictional German metropolis, suitable behind a long account-registration form.\nScene/backdrop: a vertically framed dark-stone gallery opening toward glass architecture and restrained landscaped daylight at the extreme edges; physically plausible, entirely fictional, and without a recognizable location.\nSubject: architecture only, communicating a threshold into a sophisticated strategic economic world through material, depth, and light.\nStyle/medium: ultra-realistic architectural photography; high-end urban economic strategy simulation; cinematic corporate-thriller restraint; subtle cyber-noir only in color grading and materials; realistic construction, wear, and reflections.\nComposition/framing: native exact 9:16 portrait intent, intended final size 1152x2048; human eye-level vertical composition for 320–600 px phone viewports. Keep the central 84% of the image from about 10% to 94% height calm, darker, and very low-detail for a tall registration card. Place controlled daylight, glass depth, warm-gold light, and muted planting only at the extreme side edges, upper edge, and lower background. Preserve a quiet upper-left region for the existing brand. No bright mullion, horizon, tree branch, doorway edge, furniture, or focal object behind the central form-safe region.\nLighting/mood: soft late-afternoon daylight at the outer edges with restrained warm-gold architectural illumination; welcoming and forward-looking but serious, premium, and controlled.\nColor palette: anthracite, dark stone, cool neutral blue-gray, muted natural green, restrained warm gold; no saturated neon and no warning red.\nMaterials/textures: physically plausible glass, brushed metal, concrete, stone, subtle planting, realistic floor texture and scale.\nText: none.\nConstraints: wholly original fictional architecture; no people or faces; no text, signage, screens, captions, logos, watermarks, signatures, readable plates, addresses, flags, uniforms, authorities, weapons, crime symbols, or real brands. Maintain readable UI contrast at 320 px width and 200% zoom. Do not derive this by simply cropping the desktop reference.\nAvoid: reproducing either reference composition, copied landmark-photo angles, impossible geometry, distorted buildings, floating elements, excessive neon, cartoon, anime, comic, plastic mobile-game rendering, blur, low resolution, compression artifacts, fake writing.",
+  "reference_images": [
+    "assets/source/global/global-registration-desktop-v1.png",
+    "assets/source/global/global-login-mobile-v1.png"
+  ],
+  "notes": [
+    "Accepted first built-in generation attempt.",
+    "This is a native portrait composition, not a crop of the desktop asset.",
+    "The central dark-stone surface remains clear for the full-height registration form.",
+    "No visible person, text, logo, private identifier, authority mark, weapon or illicit activity."
+  ]
+}

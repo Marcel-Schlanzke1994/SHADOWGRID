@@ -11,6 +11,7 @@
     "typecheck": "tsc -b --pretty false",
     "test": "vitest run --coverage",
     "test:e2e": "playwright test",
+    "test:e2e:assets": "playwright test --config=playwright.assets.config.ts e2e/landing-assets.spec.ts e2e/auth-assets.spec.ts e2e/world-assets.spec.ts e2e/command-assets.spec.ts e2e/germany-assets.spec.ts",
     "format:check": "prettier --check src"
   },
   "dependencies": {

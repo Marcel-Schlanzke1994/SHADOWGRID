@@ -1,0 +1,35 @@
+Use case: stylized-concept
+Asset type: global asset for a cross-platform strategy game
+Primary request: Create a premium ultra-realistic visual asset for the multiplayer strategy game SHADOWGRID.
+Scene/backdrop: Fictional contemporary German urban environment, geographically and architecturally plausible.
+Subject: Login mobile background
+Category: global.
+Gameplay state: normal.
+Style/medium: contemporary Germany; high-end urban economic strategy simulation; cinematic corporate thriller atmosphere; subtle cyber-noir; physically plausible glass, concrete, steel, stone and asphalt; original scene, not a known photograph, film frame, game screenshot or branded design.
+Composition/framing: Portrait mobile composition with the subject in the middle third, safe areas for a top status bar and bottom controls, and calm negative space for overlays.
+Lighting/mood: warm late afternoon with natural cinematic lighting, realistic reflections and restrained atmosphere.
+Color palette: black and anthracite framing, cool neutral blue-gray, restrained warm gold accents; warning red only if the gameplay state requires danger.
+Materials/textures: physically plausible dark glass, brushed metal, concrete, stone and asphalt with realistic scale.
+Constraints: no embedded captions or interface text; no real brands; no real authorities; no readable plates or addresses; no recognizable private people; no copied landmark-photo angle; space reserved for UI overlays; suitable for desktop and mobile crops; output aspect ratio 9:16.
+Avoid: Do not include: written words, captions, watermarks, signatures, existing game logos, real company logos, real police insignia, real government insignia, readable private license plates, readable private addresses, recognizable private individuals, celebrities, politicians, real criminal organizations, real gang symbols, extremist symbols, Nazi symbols, graphic violence, visible illegal instructions, firearms as the central subject, drug production, crime tutorials, copied photography, copied landmarks from an identical photo angle, fantasy skyscrapers, impossible architecture, distorted buildings, duplicate people, deformed hands, unrealistic vehicles, floating objects, overexposed neon, cartoon style, anime style, comic style, plastic mobile-game appearance, blurry image, low resolution, compression artifacts, unreadable fake text.
+Seed reference: 100025. Style lock: 1.0.0.
+
+Accepted generation prompt:
+Use case: stylized-concept
+Asset type: native portrait mobile login-page background for the fictional cross-platform strategy game SHADOWGRID
+Input images: Image 1 is the approved desktop login background and defines the architectural world, materials, and restrained gold lighting; Image 2 is an approved mobile composition reference. Create a new portrait composition rather than cropping either image.
+Primary request: Create a premium ultra-realistic 9:16 portrait view through the same kind of calm, original contemporary corporate access atrium in a fictional German metropolis.
+Scene/backdrop: vertically framed dark-stone and glass arrival space with brushed metal, a hint of exterior city light through side glazing, and physically plausible architecture; no identifiable location.
+Subject: architecture only. The environment should suggest controlled institutional access and strategic scale without depicting any illicit activity.
+Style/medium: ultra-realistic architectural photography; contemporary urban economic-strategy simulation; cinematic corporate-thriller atmosphere; restrained subtle cyber-noir; realistic material texture and reflections.
+Composition/framing: native exact 9:16 portrait intent, intended final size 1152x2048; human eye-level vertical composition designed for a 320–600 px phone viewport. Keep the broad central area from about 8% to 92% width and 14% to 90% height darker, calm, and low-detail for the full login form. Confine the strongest architectural lines and warm highlights to the upper-right, extreme side edges, and lower background. Preserve a quiet upper-left region for the existing horizontal brand mark. Do not place a bright horizon, mullion, doorway edge, furniture, or focal object behind the form-safe center.
+Lighting/mood: blue-hour ambient light with restrained warm-gold interior illumination; calm, secure, credible, serious but welcoming.
+Color palette: black, anthracite, cool blue-gray, restrained warm gold; no saturated neon and no warning red.
+Materials/textures: dark glass, brushed metal, concrete, stone, subtle floor grain; physically plausible scale.
+Text: none.
+Constraints: entirely original fictional architecture; no people or faces; no text, signs, screens, captions, logos, watermarks, signatures, readable plates, addresses, flags, uniforms, authorities, weapons, crime symbols, or real brands. Maintain clear UI contrast at 320 px width and 200% zoom. Do not derive this by simply cropping the desktop reference.
+Avoid: copied landmark-photo angles, impossible geometry, distorted buildings, floating elements, excessive neon, cartoon, anime, comic, plastic mobile-game rendering, blur, low resolution, compression artifacts, fake writing.
+
+Style-reference images:
+- assets/source/global/global-login-desktop-v1.png
+- assets/source/global/global-landing-mobile-night-v1.png

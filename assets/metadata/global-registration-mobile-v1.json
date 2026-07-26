@@ -1,0 +1,235 @@
+{
+  "asset_id": "global-registration-mobile-v1",
+  "manifest_order": 27,
+  "category": "global",
+  "batch": "global-backgrounds",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/global-registration-mobile-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100027,
+  "content_hash": "b10bcb261e0737efe1761276898d9592d69e159d5baf18defc7efc3eaf5f34ca",
+  "source_file": "assets/source/global/global-registration-mobile-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/global-registration-mobile-v1-320.avif",
+      "bytes": 10018,
+      "sha256": "48d37014f111f3a6f08c2450347c29be196704646d8660607b52ec8742660926"
+    },
+    {
+      "path": "assets/production/webp/global-registration-mobile-v1-320.webp",
+      "bytes": 10792,
+      "sha256": "66cfcc297552c4323564640bc92a913ce4df3d1fc76172b29fc8485e37ec4221"
+    },
+    {
+      "path": "assets/production/avif/global-registration-mobile-v1-640.avif",
+      "bytes": 32124,
+      "sha256": "f9ba32ff43ae4d6d39e6d17d4e91d5c1b7ff760d1f5a8585c15a16b876b053bc"
+    },
+    {
+      "path": "assets/production/webp/global-registration-mobile-v1-640.webp",
+      "bytes": 36132,
+      "sha256": "e805b37cc9869d2abf1337518a4cf08b6488bd6914fb54aba12275073ad2d264"
+    },
+    {
+      "path": "assets/production/avif/global-registration-mobile-v1-960.avif",
+      "bytes": 73697,
+      "sha256": "854e48654d8521fb382fcd26b2ee354ac79ecdba3fea67d19a1c6171b4a18826"
+    },
+    {
+      "path": "assets/production/webp/global-registration-mobile-v1-960.webp",
+      "bytes": 73894,
+      "sha256": "7c98f830d1a6610fe78badba190861e63d8890b5feee4b75e2eaf796174514ce"
+    },
+    {
+      "path": "assets/production/avif/global-registration-mobile-v1-1280.avif",
+      "bytes": 98901,
+      "sha256": "23934e31c602360e5d3b6ca956d2a8b15ce7eb14ead83fb946cfa173023ec635"
+    },
+    {
+      "path": "assets/production/webp/global-registration-mobile-v1-1280.webp",
+      "bytes": 102350,
+      "sha256": "5575b30228a55dd80776e09d197cdafe3101bfe129f386a2322e2ac8d0ff806f"
+    },
+    {
+      "path": "assets/production/avif/global-registration-mobile-v1-1920.avif",
+      "bytes": 739401,
+      "sha256": "4ad2d4a8d727d316ff9ef2298df3eeb65361200e7e21f1fabed433aab6bb3e23"
+    },
+    {
+      "path": "assets/production/webp/global-registration-mobile-v1-1920.webp",
+      "bytes": 167898,
+      "sha256": "26dfb5b9d3587b348625d3f33f22ed163de40046320cfb450902c5a7c2955876"
+    },
+    {
+      "path": "assets/production/avif/global-registration-mobile-v1-2560.avif",
+      "bytes": 1015371,
+      "sha256": "243acb509bccb78e60815bf2f95df2fa5ef4b3c81add58892a65987c66c11be7"
+    },
+    {
+      "path": "assets/production/webp/global-registration-mobile-v1-2560.webp",
+      "bytes": 242708,
+      "sha256": "82708bfb01e4d25c1aa625d0c4e1e684085687e6b570829770a225e41b55e9f8"
+    },
+    {
+      "path": "assets/production/avif/global-registration-mobile-v1-3840.avif",
+      "bytes": 1528650,
+      "sha256": "02ffdcbd4893649aec2100ec2356fa9fb47b0ff06364b6e7ada2ebf064aa6a0b"
+    },
+    {
+      "path": "assets/production/webp/global-registration-mobile-v1-3840.webp",
+      "bytes": 417456,
+      "sha256": "e5c3752447d9c6b9290b3da5e1fd0f1fa6129b3ea80b700eff794348c3a84f04"
+    },
+    {
+      "path": "assets/production/png/global-registration-mobile-v1-1152.png",
+      "bytes": 3838070,
+      "sha256": "1f818c56ec7720fb0c5c1b83e07794d7017a9956814882d2fba791cace42a811"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/global/global-registration-mobile-v1-320.avif",
+      "bytes": 10018,
+      "sha256": "48d37014f111f3a6f08c2450347c29be196704646d8660607b52ec8742660926"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-mobile-v1-320.webp",
+      "bytes": 10792,
+      "sha256": "66cfcc297552c4323564640bc92a913ce4df3d1fc76172b29fc8485e37ec4221"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-mobile-v1-640.avif",
+      "bytes": 32124,
+      "sha256": "f9ba32ff43ae4d6d39e6d17d4e91d5c1b7ff760d1f5a8585c15a16b876b053bc"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-mobile-v1-640.webp",
+      "bytes": 36132,
+      "sha256": "e805b37cc9869d2abf1337518a4cf08b6488bd6914fb54aba12275073ad2d264"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-mobile-v1-960.avif",
+      "bytes": 73697,
+      "sha256": "854e48654d8521fb382fcd26b2ee354ac79ecdba3fea67d19a1c6171b4a18826"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-mobile-v1-960.webp",
+      "bytes": 73894,
+      "sha256": "7c98f830d1a6610fe78badba190861e63d8890b5feee4b75e2eaf796174514ce"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-mobile-v1-1280.avif",
+      "bytes": 98901,
+      "sha256": "23934e31c602360e5d3b6ca956d2a8b15ce7eb14ead83fb946cfa173023ec635"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-mobile-v1-1280.webp",
+      "bytes": 102350,
+      "sha256": "5575b30228a55dd80776e09d197cdafe3101bfe129f386a2322e2ac8d0ff806f"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-mobile-v1-1920.avif",
+      "bytes": 739401,
+      "sha256": "4ad2d4a8d727d316ff9ef2298df3eeb65361200e7e21f1fabed433aab6bb3e23"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-mobile-v1-1920.webp",
+      "bytes": 167898,
+      "sha256": "26dfb5b9d3587b348625d3f33f22ed163de40046320cfb450902c5a7c2955876"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-mobile-v1-2560.avif",
+      "bytes": 1015371,
+      "sha256": "243acb509bccb78e60815bf2f95df2fa5ef4b3c81add58892a65987c66c11be7"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-mobile-v1-2560.webp",
+      "bytes": 242708,
+      "sha256": "82708bfb01e4d25c1aa625d0c4e1e684085687e6b570829770a225e41b55e9f8"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-mobile-v1-3840.avif",
+      "bytes": 1528650,
+      "sha256": "02ffdcbd4893649aec2100ec2356fa9fb47b0ff06364b6e7ada2ebf064aa6a0b"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-mobile-v1-3840.webp",
+      "bytes": 417456,
+      "sha256": "e5c3752447d9c6b9290b3da5e1fd0f1fa6129b3ea80b700eff794348c3a84f04"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-registration-mobile-v1-1152.png",
+      "bytes": 3838070,
+      "sha256": "1f818c56ec7720fb0c5c1b83e07794d7017a9956814882d2fba791cace42a811"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 97.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 97,
+    "style_consistency": 98,
+    "composition": 99,
+    "material_quality": 97,
+    "lighting_quality": 97,
+    "architecture_plausibility": 97,
+    "ui_suitability": 99,
+    "mobile_suitability": 99,
+    "originality": 95,
+    "safety_compliance": 100,
+    "accepted_prompt": "Use case: stylized-concept\nAsset type: native portrait mobile registration-page background for the fictional cross-platform strategy game SHADOWGRID\nInput images: Image 1 is the approved desktop registration scene and defines the more welcoming daylight mood; Image 2 is the approved mobile-login composition and defines portrait safe-area discipline. Create a new portrait composition rather than cropping either reference.\nPrimary request: Create a premium ultra-realistic 9:16 portrait view of an original contemporary strategy campus reception gallery in a fictional German metropolis, suitable behind a long account-registration form.\nScene/backdrop: a vertically framed dark-stone gallery opening toward glass architecture and restrained landscaped daylight at the extreme edges; physically plausible, entirely fictional, and without a recognizable location.\nSubject: architecture only, communicating a threshold into a sophisticated strategic economic world through material, depth, and light.\nStyle/medium: ultra-realistic architectural photography; high-end urban economic strategy simulation; cinematic corporate-thriller restraint; subtle cyber-noir only in color grading and materials; realistic construction, wear, and reflections.\nComposition/framing: native exact 9:16 portrait intent, intended final size 1152x2048; human eye-level vertical composition for 320–600 px phone viewports. Keep the central 84% of the image from about 10% to 94% height calm, darker, and very low-detail for a tall registration card. Place controlled daylight, glass depth, warm-gold light, and muted planting only at the extreme side edges, upper edge, and lower background. Preserve a quiet upper-left region for the existing brand. No bright mullion, horizon, tree branch, doorway edge, furniture, or focal object behind the central form-safe region.\nLighting/mood: soft late-afternoon daylight at the outer edges with restrained warm-gold architectural illumination; welcoming and forward-looking but serious, premium, and controlled.\nColor palette: anthracite, dark stone, cool neutral blue-gray, muted natural green, restrained warm gold; no saturated neon and no warning red.\nMaterials/textures: physically plausible glass, brushed metal, concrete, stone, subtle planting, realistic floor texture and scale.\nText: none.\nConstraints: wholly original fictional architecture; no people or faces; no text, signage, screens, captions, logos, watermarks, signatures, readable plates, addresses, flags, uniforms, authorities, weapons, crime symbols, or real brands. Maintain readable UI contrast at 320 px width and 200% zoom. Do not derive this by simply cropping the desktop reference.\nAvoid: reproducing either reference composition, copied landmark-photo angles, impossible geometry, distorted buildings, floating elements, excessive neon, cartoon, anime, comic, plastic mobile-game rendering, blur, low resolution, compression artifacts, fake writing.",
+    "reference_images": [
+      "assets/source/global/global-registration-desktop-v1.png",
+      "assets/source/global/global-login-mobile-v1.png"
+    ],
+    "notes": [
+      "Accepted first built-in generation attempt.",
+      "This is a native portrait composition, not a crop of the desktop asset.",
+      "The central dark-stone surface remains clear for the full-height registration form.",
+      "No visible person, text, logo, private identifier, authority mark, weapon or illicit activity."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3838593
+    }
+  },
+  "focal_point": {
+    "x": 0.76,
+    "y": 0.34
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.14,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T16:09:23.632Z",
+  "license": "project-owned-generated-asset",
+  "notes": [
+    "Accepted first built-in generation attempt.",
+    "This is a native portrait composition, not a crop of the desktop asset.",
+    "The central dark-stone surface remains clear for the full-height registration form.",
+    "No visible person, text, logo, private identifier, authority mark, weapon or illicit activity."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "realism": 98,
+  "style_consistency": 100,
+  "composition": 100,
+  "material_quality": 99,
+  "lighting_quality": 99,
+  "architecture_plausibility": 98,
+  "ui_suitability": 100,
+  "mobile_suitability": 100,
+  "originality": 96,
+  "safety_compliance": 100,
+  "accepted_prompt": "Create the coordinated 9:16 night counterpart for this accepted fictional Frankfurt-am-Main-inspired SHADOWGRID mobile hero.\n\nPreserve the exact portrait geometry and mobile hierarchy: calm upper 32% cloud/status area, compact original glass-and-stone tower cluster and lower stone district in the middle third, landscaped fictional riverfront, one original diagonal low-profile bridge in the middle-lower frame, and a quieter darker bottom 18% open-river area for one primary control. Keep it clearly the same fictional city. Do not reveal or invent any operational bridge, street, rail, corporate, financial, data-center, or civic layout.\n\nTransform the lighting to physically plausible finance-district night after rain: deep anthracite and cool blue-gray clouds, restrained warm-gold irregular office windows and riverfront/bridge practical lights, wet stone/glass and river reflections, realistic dark water, and readable midtone towers and lower blocks. Preserve calm upper and lower overlay zones. All tower crowns must remain unbranded dark glass without bright panels. Avoid stock-ticker-like bands, patterned facade lighting, saturated neon, overexposure, emergency lighting, warning-red gameplay cues, black crush, excessive haze, or spectacle.\n\nDo not add or imitate the Commerzbank Tower, Messeturm, Main Tower, European Central Bank towers, Opernturm, Westend Tower crown, recognizable Frankfurt skyline arrangement, Römer, Frankfurt Cathedral, Eiserner Steg, Holbeinsteg, real trade-fair structures, bank logos, exchange symbols, real rail maps, exact bridge/street layouts, or any known photograph/viewpoint. Do not add an identifiable real financial institution or operational transport plan.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, stock tickers, currency symbols, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, fraud instructions, routes, fantasy architecture, impossible towers or bridges, excessive neon, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 9:16 night finance-metropolis environment, intended final size 1152×2048, with no border, title, UI, or device mockup.",
+  "reference_images": [
+    "assets/source/cities/city-frankfurt-am-main-mobile-day-v1.png"
+  ],
+  "notes": [
+    "Accepted first portrait night-conversion attempt.",
+    "The upper status area, middle tower/stone-district decision, diagonal bridge, and darker lower open-river control area remain coordinated with the approved portrait daytime counterpart.",
+    "Tower crowns remain unbranded dark glass; irregular warm office windows and narrow wet reflections preserve depth without ticker-like facade lighting.",
+    "No real financial institution, bank mark, exchange symbol, known landmark, text, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, fraud instruction, or operational wrongdoing is present."
+  ]
+}

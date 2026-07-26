@@ -1,0 +1,65 @@
+{
+  "asset_id": "city-koeln-silhouette-v1",
+  "manifest_order": 74,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "koeln",
+  "variant": "silhouette",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:5",
+  "width": 3200,
+  "height": 1000,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/city-koeln-silhouette-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100074,
+  "content_hash": "95b8ce7290facd447ec628bec3877d91574858e808fa6068127e2b94e49af70a",
+  "source_file": "assets/source/cities/city-koeln-silhouette-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/city-koeln-silhouette-v1.svg",
+      "bytes": 3723,
+      "sha256": "95b8ce7290facd447ec628bec3877d91574858e808fa6068127e2b94e49af70a"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-silhouette-v1.svg",
+      "bytes": 3723,
+      "sha256": "95b8ce7290facd447ec628bec3877d91574858e808fa6068127e2b94e49af70a"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 3723
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T20:47:44.571Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

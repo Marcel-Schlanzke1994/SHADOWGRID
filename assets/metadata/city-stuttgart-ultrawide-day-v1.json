@@ -1,0 +1,233 @@
+{
+  "asset_id": "city-stuttgart-ultrawide-day-v1",
+  "manifest_order": 115,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "stuttgart",
+  "variant": "ultrawide-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-stuttgart-ultrawide-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100115,
+  "content_hash": "9c2227abbffc6af7d90e55484ca3a966b0483a5a1aaea346d63a4e296d141380",
+  "source_file": "assets/source/cities/city-stuttgart-ultrawide-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-stuttgart-ultrawide-day-v1-320.avif",
+      "bytes": 5917,
+      "sha256": "d5660e15e8969cb7947c720dceb81a1af95df0dfd376623492c4965402db8bdb"
+    },
+    {
+      "path": "assets/production/webp/city-stuttgart-ultrawide-day-v1-320.webp",
+      "bytes": 5806,
+      "sha256": "00d7889b863f29bf03a1ae21a1a18734572f8aa87b47c4cea69c06a4173265eb"
+    },
+    {
+      "path": "assets/production/avif/city-stuttgart-ultrawide-day-v1-640.avif",
+      "bytes": 22530,
+      "sha256": "851e99d490bb1931d0aa3988f59a94bf5a3558f2f9f42b82a71a0b5f05fff34d"
+    },
+    {
+      "path": "assets/production/webp/city-stuttgart-ultrawide-day-v1-640.webp",
+      "bytes": 22554,
+      "sha256": "6ea3815a99c901e9df9e9bfd2e674cf8019f16b4f1bcd888e9585037adb9ea9a"
+    },
+    {
+      "path": "assets/production/avif/city-stuttgart-ultrawide-day-v1-960.avif",
+      "bytes": 65788,
+      "sha256": "c8b0bb997b45868c5ef037a4a48bddb4843b8e14d851c7551124211dbdd217ec"
+    },
+    {
+      "path": "assets/production/webp/city-stuttgart-ultrawide-day-v1-960.webp",
+      "bytes": 59698,
+      "sha256": "c0745b3dadd65b9e74b293470075ee18b53f952d6a83aaf2cfc6407821bc2a0f"
+    },
+    {
+      "path": "assets/production/avif/city-stuttgart-ultrawide-day-v1-1280.avif",
+      "bytes": 105957,
+      "sha256": "6fd6012b83432082d998229c6d4b04da2d73af6987490ad8624a94b7bb6677c6"
+    },
+    {
+      "path": "assets/production/webp/city-stuttgart-ultrawide-day-v1-1280.webp",
+      "bytes": 96910,
+      "sha256": "967c7aec60259adb6adc534d1a53a0fbe87a81ee5a0ad609dcfcd286a01113b5"
+    },
+    {
+      "path": "assets/production/avif/city-stuttgart-ultrawide-day-v1-1920.avif",
+      "bytes": 180823,
+      "sha256": "9d4cceb67c073928ac2d5ebae8551d76bed1cd300246e4b0bd4e98afe9e54ea7"
+    },
+    {
+      "path": "assets/production/webp/city-stuttgart-ultrawide-day-v1-1920.webp",
+      "bytes": 168216,
+      "sha256": "34d087e3f4fa902cabd10237c93c45ce4cc24d756490a7d40989ef79ebbb02dc"
+    },
+    {
+      "path": "assets/production/avif/city-stuttgart-ultrawide-day-v1-2560.avif",
+      "bytes": 241749,
+      "sha256": "5cb43017aa9a79f4c4739a4e1a9a0215316662b332a0c5a053c1929483351941"
+    },
+    {
+      "path": "assets/production/webp/city-stuttgart-ultrawide-day-v1-2560.webp",
+      "bytes": 233540,
+      "sha256": "25d4f62a1147069bba7fb7d7522523e4a27ea9cd5987749791c053b06110677a"
+    },
+    {
+      "path": "assets/production/avif/city-stuttgart-ultrawide-day-v1-3840.avif",
+      "bytes": 345578,
+      "sha256": "9c5b75ea7376adeeb38bbe6276b1e07e495f0e70d2890e37bfcea740403a7b86"
+    },
+    {
+      "path": "assets/production/webp/city-stuttgart-ultrawide-day-v1-3840.webp",
+      "bytes": 341676,
+      "sha256": "5541df2223d26f6087b237d7aa155a8b14c63319968ee6525b0b63120a771c69"
+    },
+    {
+      "path": "assets/production/png/city-stuttgart-ultrawide-day-v1-1280.png",
+      "bytes": 1368739,
+      "sha256": "6c124c1652e86939ed35528da46224cead14262ce10e3984a836289e8516d9d4"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-ultrawide-day-v1-320.avif",
+      "bytes": 5917,
+      "sha256": "d5660e15e8969cb7947c720dceb81a1af95df0dfd376623492c4965402db8bdb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-ultrawide-day-v1-320.webp",
+      "bytes": 5806,
+      "sha256": "00d7889b863f29bf03a1ae21a1a18734572f8aa87b47c4cea69c06a4173265eb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-ultrawide-day-v1-640.avif",
+      "bytes": 22530,
+      "sha256": "851e99d490bb1931d0aa3988f59a94bf5a3558f2f9f42b82a71a0b5f05fff34d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-ultrawide-day-v1-640.webp",
+      "bytes": 22554,
+      "sha256": "6ea3815a99c901e9df9e9bfd2e674cf8019f16b4f1bcd888e9585037adb9ea9a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-ultrawide-day-v1-960.avif",
+      "bytes": 65788,
+      "sha256": "c8b0bb997b45868c5ef037a4a48bddb4843b8e14d851c7551124211dbdd217ec"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-ultrawide-day-v1-960.webp",
+      "bytes": 59698,
+      "sha256": "c0745b3dadd65b9e74b293470075ee18b53f952d6a83aaf2cfc6407821bc2a0f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-ultrawide-day-v1-1280.avif",
+      "bytes": 105957,
+      "sha256": "6fd6012b83432082d998229c6d4b04da2d73af6987490ad8624a94b7bb6677c6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-ultrawide-day-v1-1280.webp",
+      "bytes": 96910,
+      "sha256": "967c7aec60259adb6adc534d1a53a0fbe87a81ee5a0ad609dcfcd286a01113b5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-ultrawide-day-v1-1920.avif",
+      "bytes": 180823,
+      "sha256": "9d4cceb67c073928ac2d5ebae8551d76bed1cd300246e4b0bd4e98afe9e54ea7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-ultrawide-day-v1-1920.webp",
+      "bytes": 168216,
+      "sha256": "34d087e3f4fa902cabd10237c93c45ce4cc24d756490a7d40989ef79ebbb02dc"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-ultrawide-day-v1-2560.avif",
+      "bytes": 241749,
+      "sha256": "5cb43017aa9a79f4c4739a4e1a9a0215316662b332a0c5a053c1929483351941"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-ultrawide-day-v1-2560.webp",
+      "bytes": 233540,
+      "sha256": "25d4f62a1147069bba7fb7d7522523e4a27ea9cd5987749791c053b06110677a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-ultrawide-day-v1-3840.avif",
+      "bytes": 345578,
+      "sha256": "9c5b75ea7376adeeb38bbe6276b1e07e495f0e70d2890e37bfcea740403a7b86"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-ultrawide-day-v1-3840.webp",
+      "bytes": 341676,
+      "sha256": "5541df2223d26f6087b237d7aa155a8b14c63319968ee6525b0b63120a771c69"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-ultrawide-day-v1-1280.png",
+      "bytes": 1368739,
+      "sha256": "6c124c1652e86939ed35528da46224cead14262ce10e3984a836289e8516d9d4"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 98.4,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 99,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 99,
+    "lighting_quality": 99,
+    "architecture_plausibility": 99,
+    "ui_suitability": 100,
+    "mobile_suitability": 91,
+    "originality": 97,
+    "safety_compliance": 100,
+    "revision_prompt": "Revise this fictional Stuttgart-inspired SHADOWGRID 21:9 daytime basin-city backing plate while preserving its premium ultra-realistic post-rain style, wooded green slopes, layered hillside neighborhoods, pale-stone and restrained glass research/services district, linear rainwater garden, wet terrace materials, and original non-operational geometry.\n\nMandatory UI composition correction: make the entire left 38% genuinely calm, dark, and low-detail for localized interface overlays. Extend the shadowed mature tree canopy, deep green foliage, subdued atmospheric slope, and dark wet terrace across that left safe area. Move or visually suppress the currently bright linear water, pale building edge, bright roofline, and other high-contrast detail that enters the left 38%; the rainwater garden and first pale service building must begin only center-right. Do not add lamps, paths, railings, vehicles, people, signs, or bright reflections behind the overlay zone. Keep the right and center-right city identity readable and preserve important forms inside the inner 84% crop-safe region.\n\nMandatory skyline correction: remove the single isolated narrow tower or spire on the far hillside near the center-left horizon. Replace it with continuous wooded ridge and modest low flat-roofed original hillside development. It must not read as the Stuttgart Fernsehturm, church, cathedral, civic tower, antenna, monument, or recognizable landmark. Ensure no other isolated spire, tower, dome, government silhouette, brand-associated form, museum form, or transport landmark appears.\n\nAll streets, paths, water-management features, buildings, campuses, corporate, rail, industrial, and civic geometry remain fictional and non-operational. Do not add Schlossplatz, Neues Schloss, Stuttgart Hauptbahnhof or tower, Königstraße, Staatsgalerie, Wilhelma, Mercedes-Benz Museum, Porsche Museum, real automaker logos or products, automobile plants, rail corridors, test tracks, logistics routes, or operational factory detail.\n\nNo text, letters, numbers, signs, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, criminal symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, factory procedures, vehicle schematics, fantasy architecture, impossible slopes, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the corrected clean premium ultra-realistic fictional 21:9 daytime basin-engineering-metropolis environment with the full left 38% calm and dark and the isolated distant tower removed, no border, title, UI, or device mockup.",
+    "reference_images": [],
+    "notes": [
+      "The first generation was held back because bright water and building detail entered the left overlay zone and an isolated distant tower silhouette could create a Stuttgart landmark association.",
+      "The accepted revision extends shadowed tree canopy, foliage, atmospheric slope, and wet terrace across the full left 38 percent while moving the rainwater garden and first pale service building center-right.",
+      "The isolated distant tower is replaced by continuous wooded ridge and modest neutral flat-roofed hillside development.",
+      "The documented fictional profile uses green basin topography, layered hillside neighborhoods, research and advanced-services architecture, pale stone, and a linear rainwater garden without a real automaker, campus, factory, landmark, transport plan, operational detail, embedded text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or wrongdoing."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 5607319
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-26T10:32:13.981Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "The first generation was held back because bright water and building detail entered the left overlay zone and an isolated distant tower silhouette could create a Stuttgart landmark association.",
+    "The accepted revision extends shadowed tree canopy, foliage, atmospheric slope, and wet terrace across the full left 38 percent while moving the rainwater garden and first pale service building center-right.",
+    "The isolated distant tower is replaced by continuous wooded ridge and modest neutral flat-roofed hillside development.",
+    "The documented fictional profile uses green basin topography, layered hillside neighborhoods, research and advanced-services architecture, pale stone, and a linear rainwater garden without a real automaker, campus, factory, landmark, transport plan, operational detail, embedded text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or wrongdoing."
+  ]
+}

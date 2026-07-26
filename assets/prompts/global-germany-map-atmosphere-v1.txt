@@ -1,0 +1,32 @@
+Use case: stylized-concept
+Asset type: global asset for a cross-platform strategy game
+Primary request: Create a premium ultra-realistic visual asset for the multiplayer strategy game SHADOWGRID.
+Scene/backdrop: Fictional contemporary German urban environment, geographically and architecturally plausible.
+Subject: Atmospheric Germany map background
+Category: global.
+Gameplay state: normal.
+Style/medium: contemporary Germany; high-end urban economic strategy simulation; cinematic corporate thriller atmosphere; subtle cyber-noir; physically plausible glass, concrete, steel, stone and asphalt; original scene, not a known photograph, film frame, game screenshot or branded design.
+Composition/framing: Wide cinematic establishing composition, human eye-level or plausible elevated viewpoint, controlled depth, and calm negative space on the left for user-interface overlays.
+Lighting/mood: warm late afternoon with natural cinematic lighting, realistic reflections and restrained atmosphere.
+Color palette: black and anthracite framing, cool neutral blue-gray, restrained warm gold accents; warning red only if the gameplay state requires danger.
+Materials/textures: physically plausible dark glass, brushed metal, concrete, stone and asphalt with realistic scale.
+Constraints: no embedded captions or interface text; no real brands; no real authorities; no readable plates or addresses; no recognizable private people; no copied landmark-photo angle; space reserved for UI overlays; suitable for desktop and mobile crops; output aspect ratio 16:9.
+Avoid: Do not include: written words, captions, watermarks, signatures, existing game logos, real company logos, real police insignia, real government insignia, readable private license plates, readable private addresses, recognizable private individuals, celebrities, politicians, real criminal organizations, real gang symbols, extremist symbols, Nazi symbols, graphic violence, visible illegal instructions, firearms as the central subject, drug production, crime tutorials, copied photography, copied landmarks from an identical photo angle, fantasy skyscrapers, impossible architecture, distorted buildings, duplicate people, deformed hands, unrealistic vehicles, floating objects, overexposed neon, cartoon style, anime style, comic style, plastic mobile-game appearance, blurry image, low resolution, compression artifacts, unreadable fake text.
+Seed reference: 100032. Style lock: 1.0.0.
+
+Accepted generation prompt:
+Use case: stylized-concept.
+Asset ID: global-germany-map-atmosphere-v1.
+Create a premium ultra-realistic atmospheric backing plate for a fictional seasonal strategy game's Germany map screen, 2048x1152, exact 16:9 landscape.
+
+Primary request: Show a physically plausible dark architectural strategy-table surface seen from a restrained, slightly elevated camera angle inside a contemporary fictional operations room. The image is only the atmosphere beneath a separately rendered, licensed vector map. Keep the central 70% broad, calm, low-detail, and evenly legible for a future geographic overlay. Use subtle graphite stone, smoked glass, brushed dark metal, very faint diffuse haze, restrained warm-gold reflections near the outer edges, and cool blue-gray ambient light. Add only soft material seams and natural reflections that cannot be mistaken for cartography. Preserve a sophisticated cinematic corporate-thriller mood and subtle cyber-noir restraint consistent with SHADOWGRID's frozen style lock. No people.
+
+Critical geography constraint: do not depict Germany or any other place. Do not invent or suggest a country silhouette, state shape, border, coastline, river, road, rail line, district, terrain, contour line, geographic grid, route, node network, or recognizable real geography. The future map geometry will come exclusively from licensed geographic data and is intentionally absent from this image.
+
+Composition: wide 16:9 backing plate; calm central overlay-safe region; slightly richer physical material detail only at the outer perimeter; no focal object that competes with the map; no crop-dependent content; suitable beneath desktop UI.
+
+Lighting and palette: natural low-key architectural lighting, black and anthracite base, cool neutral blue-gray, restrained warm gold accents, realistic reflections, no excessive neon, no warning red.
+
+Do not include: text, captions, letters, numbers, labels, interface panels, icons, legends, compass, scale bar, maps, diagrams, logos, watermarks, signatures, brands, government or police insignia, readable screens, identifiable persons, weapons, crime imagery, fantasy architecture, cartoon/anime/comic styling, plastic mobile-game appearance, copied game or film imagery, blurry output, compression artifacts, or fake unreadable writing.
+
+Deliver a clean original 16:9 environment backing plate only; no border or mockup frame.

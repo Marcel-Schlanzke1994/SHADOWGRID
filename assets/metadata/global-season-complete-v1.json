@@ -1,0 +1,232 @@
+{
+  "asset_id": "global-season-complete-v1",
+  "manifest_order": 33,
+  "category": "global",
+  "batch": "global-backgrounds",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/global-season-complete-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100033,
+  "content_hash": "ad87c2de7ea0aa31d55cead249c9dc3316866ce9cc1cfda3bf82153fdb7213a6",
+  "source_file": "assets/source/global/global-season-complete-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/global-season-complete-v1-320.avif",
+      "bytes": 3997,
+      "sha256": "2a9b491f76e70630c1ddd9d6f8bed96573942dec26f3364e2cabf79a59443a89"
+    },
+    {
+      "path": "assets/production/webp/global-season-complete-v1-320.webp",
+      "bytes": 3730,
+      "sha256": "650315aff0a5863f178d68aec6e4b4109b99babd36201989d17b60f418e12cd1"
+    },
+    {
+      "path": "assets/production/avif/global-season-complete-v1-640.avif",
+      "bytes": 11380,
+      "sha256": "65588c48710f323cfa453cd490eb587d689df944d3b0b7be8928d1f1a2dd90ff"
+    },
+    {
+      "path": "assets/production/webp/global-season-complete-v1-640.webp",
+      "bytes": 11394,
+      "sha256": "a919453b30c83bfacd8fa5aa6be80d8ad8303ddf072391c4874955869e98e1bd"
+    },
+    {
+      "path": "assets/production/avif/global-season-complete-v1-960.avif",
+      "bytes": 28026,
+      "sha256": "73f68978b21523b0b35eea9b42cf11e7f902be8b3f4c8e2dc6304afb29a7589a"
+    },
+    {
+      "path": "assets/production/webp/global-season-complete-v1-960.webp",
+      "bytes": 26352,
+      "sha256": "7b520cd70cb24bdf6e3c511f98dbfc7ed54a1b74322a396a82a17ee4653946c3"
+    },
+    {
+      "path": "assets/production/avif/global-season-complete-v1-1280.avif",
+      "bytes": 45444,
+      "sha256": "c53953dd931aa1b2ca5d337eb8ad68ae366e403d56f0d901d9832424b1139242"
+    },
+    {
+      "path": "assets/production/webp/global-season-complete-v1-1280.webp",
+      "bytes": 41316,
+      "sha256": "5c2f54d5a7514863ae90fc9995d0599aa106854824e5b2807d75191cc59313b1"
+    },
+    {
+      "path": "assets/production/avif/global-season-complete-v1-1920.avif",
+      "bytes": 75111,
+      "sha256": "f7bce794c370d9d3cabec2a2c109452a1b8bff66bd862c94acc32de00be45bb4"
+    },
+    {
+      "path": "assets/production/webp/global-season-complete-v1-1920.webp",
+      "bytes": 71810,
+      "sha256": "3f75b10dc0d0a86a6cf7debb9e4e629a2ae3416757d9731322f68c2e283c1960"
+    },
+    {
+      "path": "assets/production/avif/global-season-complete-v1-2560.avif",
+      "bytes": 99303,
+      "sha256": "ad2758acc2f0a97be12069b2faf166c8a9502ce3881120d9383e8cf9ee95df5c"
+    },
+    {
+      "path": "assets/production/webp/global-season-complete-v1-2560.webp",
+      "bytes": 99736,
+      "sha256": "c317df3674e4dc3a2ba17bb685e06ca561f42fdb8e9860c88dfc71ae0e0a9395"
+    },
+    {
+      "path": "assets/production/avif/global-season-complete-v1-3840.avif",
+      "bytes": 718551,
+      "sha256": "379c20e6c8c0d9e4707a105a29c4ac79431203e4b16ad91f6795e74ce4d9558d"
+    },
+    {
+      "path": "assets/production/webp/global-season-complete-v1-3840.webp",
+      "bytes": 166212,
+      "sha256": "a1c214a462b749e786bb132130aab0018f182d03e44b7b12ed2cfff7a621b143"
+    },
+    {
+      "path": "assets/production/png/global-season-complete-v1-1280.png",
+      "bytes": 1537610,
+      "sha256": "1c17d4d8bee1ae428fa613e804287bc12348c3e8c9dca11cf4780a76c868427c"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/global/global-season-complete-v1-320.avif",
+      "bytes": 3997,
+      "sha256": "2a9b491f76e70630c1ddd9d6f8bed96573942dec26f3364e2cabf79a59443a89"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-season-complete-v1-320.webp",
+      "bytes": 3730,
+      "sha256": "650315aff0a5863f178d68aec6e4b4109b99babd36201989d17b60f418e12cd1"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-season-complete-v1-640.avif",
+      "bytes": 11380,
+      "sha256": "65588c48710f323cfa453cd490eb587d689df944d3b0b7be8928d1f1a2dd90ff"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-season-complete-v1-640.webp",
+      "bytes": 11394,
+      "sha256": "a919453b30c83bfacd8fa5aa6be80d8ad8303ddf072391c4874955869e98e1bd"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-season-complete-v1-960.avif",
+      "bytes": 28026,
+      "sha256": "73f68978b21523b0b35eea9b42cf11e7f902be8b3f4c8e2dc6304afb29a7589a"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-season-complete-v1-960.webp",
+      "bytes": 26352,
+      "sha256": "7b520cd70cb24bdf6e3c511f98dbfc7ed54a1b74322a396a82a17ee4653946c3"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-season-complete-v1-1280.avif",
+      "bytes": 45444,
+      "sha256": "c53953dd931aa1b2ca5d337eb8ad68ae366e403d56f0d901d9832424b1139242"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-season-complete-v1-1280.webp",
+      "bytes": 41316,
+      "sha256": "5c2f54d5a7514863ae90fc9995d0599aa106854824e5b2807d75191cc59313b1"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-season-complete-v1-1920.avif",
+      "bytes": 75111,
+      "sha256": "f7bce794c370d9d3cabec2a2c109452a1b8bff66bd862c94acc32de00be45bb4"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-season-complete-v1-1920.webp",
+      "bytes": 71810,
+      "sha256": "3f75b10dc0d0a86a6cf7debb9e4e629a2ae3416757d9731322f68c2e283c1960"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-season-complete-v1-2560.avif",
+      "bytes": 99303,
+      "sha256": "ad2758acc2f0a97be12069b2faf166c8a9502ce3881120d9383e8cf9ee95df5c"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-season-complete-v1-2560.webp",
+      "bytes": 99736,
+      "sha256": "c317df3674e4dc3a2ba17bb685e06ca561f42fdb8e9860c88dfc71ae0e0a9395"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-season-complete-v1-3840.avif",
+      "bytes": 718551,
+      "sha256": "379c20e6c8c0d9e4707a105a29c4ac79431203e4b16ad91f6795e74ce4d9558d"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-season-complete-v1-3840.webp",
+      "bytes": 166212,
+      "sha256": "a1c214a462b749e786bb132130aab0018f182d03e44b7b12ed2cfff7a621b143"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-season-complete-v1-1280.png",
+      "bytes": 1537610,
+      "sha256": "1c17d4d8bee1ae428fa613e804287bc12348c3e8c9dca11cf4780a76c868427c"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 96.4,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 98,
+    "composition": 96,
+    "material_quality": 98,
+    "lighting_quality": 98,
+    "architecture_plausibility": 97,
+    "ui_suitability": 94,
+    "mobile_suitability": 91,
+    "originality": 94,
+    "safety_compliance": 100,
+    "accepted_prompt": "Use case: stylized-concept.\nAsset ID: global-season-complete-v1.\nCreate a premium ultra-realistic season-completion background for the fictional seasonal strategy game SHADOWGRID, intended final size 2048x1152, exact 16:9 landscape.\n\nPrimary request: Depict a wholly fictional contemporary German-metropolis observation lounge at the first light of dawn after a long strategic season. The architecture is quiet and immaculate: physically plausible dark glass, graphite stone, brushed metal, and restrained warm-gold details. Beyond broad glazing, show an original generic urban skyline in soft blue-gray dawn light, with no recognizable landmark. Convey dignified closure, reflection, stability, and the promise of a new cycle—not spectacle, victory propaganda, wealth fantasy, or a party.\n\nComposition: wide human-eye-level architectural view. Preserve a broad calm low-detail area across the central 60% for the real season-complete dialog, title, summary, and next action. Keep stronger architectural framing and city detail at the far left/right edges and upper perimeter. The central area must remain dark enough for accessible light text and translucent UI panels. Ensure the composition also survives a narrow centered mobile cover crop.\n\nStyle and mood: ultra-realistic architectural photography; premium economic-strategy interface backdrop; cinematic corporate-thriller restraint; subtle cyber-noir; natural pre-sunrise-to-dawn lighting; original scene, not a known photograph, film frame, game screenshot, or branded design.\n\nPalette: black and anthracite framing, cool neutral blue-gray dawn, small restrained warm-gold reflections; no warning red, saturated neon, confetti, fireworks, trophies, medals, cash, champagne, or celebration clichés.\n\nText: none.\n\nDo not include: written words, letters, numbers, captions, interface panels, scoreboards, rankings, maps, data, logos, watermarks, signatures, real brands, real authorities, flags, readable plates or addresses, recognizable people, crowds, politicians, police or government insignia, weapons, crime imagery, identifiable real geography, recognizable landmarks, fantasy architecture, impossible geometry, copied photo angles, cartoon/anime/comic styling, plastic mobile-game rendering, blurry output, compression artifacts, or fake unreadable writing.\n\nDeliver only the clean 16:9 environment backing plate, with no border, device mockup, or embedded UI.",
+    "reference_images": [],
+    "notes": [
+      "Accepted first built-in generation attempt.",
+      "The dawn observation lounge communicates closure and a new cycle without trophies, confetti, cash, rankings, or embedded results.",
+      "The central glazing and floor remain structurally calm; runtime content must retain its existing dark scrim or opaque status card for WCAG text contrast over the dawn sky.",
+      "No recognizable landmark, visible person, text, map, logo, private identifier, authority mark, weapon, or illicit activity."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3651754
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T18:31:33.687Z",
+  "license": "project-owned-generated-asset",
+  "notes": [
+    "Accepted first built-in generation attempt.",
+    "The dawn observation lounge communicates closure and a new cycle without trophies, confetti, cash, rankings, or embedded results.",
+    "The central glazing and floor remain structurally calm; runtime content must retain its existing dark scrim or opaque status card for WCAG text contrast over the dawn sky.",
+    "No recognizable landmark, visible person, text, map, logo, private identifier, authority mark, weapon, or illicit activity."
+  ]
+}

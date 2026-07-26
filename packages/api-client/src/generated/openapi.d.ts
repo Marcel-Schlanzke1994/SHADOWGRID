@@ -21,6 +21,109 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/alliances": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Alliance List */
+        get: operations["alliance_list_api_v1_alliances_get"];
+        put?: never;
+        /** Alliance Create */
+        post: operations["alliance_create_api_v1_alliances_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/alliances/{alliance_id}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Alliance Get */
+        get: operations["alliance_get_api_v1_alliances__alliance_id__get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/alliances/{alliance_id}/accept": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Alliance Accept */
+        post: operations["alliance_accept_api_v1_alliances__alliance_id__accept_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/alliances/{alliance_id}/invite": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Alliance Invite */
+        post: operations["alliance_invite_api_v1_alliances__alliance_id__invite_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/alliances/{alliance_id}/leave": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Alliance Leave */
+        post: operations["alliance_leave_api_v1_alliances__alliance_id__leave_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/alliances/{alliance_id}/treaties": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Alliance Treaty Create */
+        post: operations["alliance_treaty_create_api_v1_alliances__alliance_id__treaties_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/auth/2fa/confirm": {
         parameters: {
             query?: never;
@@ -225,6 +328,23 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/blocks": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** User Block Create */
+        post: operations["user_block_create_api_v1_blocks_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/businesses": {
         parameters: {
             query?: never;
@@ -254,6 +374,296 @@ export interface paths {
         put?: never;
         /** Upgrade Business */
         post: operations["upgrade_business_api_v1_businesses__business_id__upgrade_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cartel-wars": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Cartel War List */
+        get: operations["cartel_war_list_api_v1_cartel_wars_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cartel-wars/propose": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Cartel War Propose */
+        post: operations["cartel_war_propose_api_v1_cartel_wars_propose_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cartel-wars/{war_id}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Cartel War Get */
+        get: operations["cartel_war_get_api_v1_cartel_wars__war_id__get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cartel-wars/{war_id}/accept-ceasefire": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Cartel War Accept Ceasefire */
+        post: operations["cartel_war_accept_ceasefire_api_v1_cartel_wars__war_id__accept_ceasefire_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cartel-wars/{war_id}/commit-resources": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Cartel War Commit */
+        post: operations["cartel_war_commit_api_v1_cartel_wars__war_id__commit_resources_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cartel-wars/{war_id}/declare": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Cartel War Declare */
+        post: operations["cartel_war_declare_api_v1_cartel_wars__war_id__declare_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cartel-wars/{war_id}/events": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Cartel War Events */
+        get: operations["cartel_war_events_api_v1_cartel_wars__war_id__events_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cartel-wars/{war_id}/join": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Cartel War Join */
+        post: operations["cartel_war_join_api_v1_cartel_wars__war_id__join_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cartel-wars/{war_id}/launch-operation": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Cartel War Operation */
+        post: operations["cartel_war_operation_api_v1_cartel_wars__war_id__launch_operation_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cartel-wars/{war_id}/offer-ceasefire": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Cartel War Offer Ceasefire */
+        post: operations["cartel_war_offer_ceasefire_api_v1_cartel_wars__war_id__offer_ceasefire_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cartel-wars/{war_id}/reports": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Cartel War Reports */
+        get: operations["cartel_war_reports_api_v1_cartel_wars__war_id__reports_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cartel-wars/{war_id}/score": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Cartel War Score */
+        get: operations["cartel_war_score_api_v1_cartel_wars__war_id__score_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cartel-wars/{war_id}/surrender": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Cartel War Surrender */
+        post: operations["cartel_war_surrender_api_v1_cartel_wars__war_id__surrender_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/chat/channels": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Chat Channel List */
+        get: operations["chat_channel_list_api_v1_chat_channels_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/chat/channels/{channel_id}/messages": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Chat Message List */
+        get: operations["chat_message_list_api_v1_chat_channels__channel_id__messages_get"];
+        put?: never;
+        /** Chat Message Create */
+        post: operations["chat_message_create_api_v1_chat_channels__channel_id__messages_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cities": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** City List */
+        get: operations["city_list_api_v1_cities_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cities/{city_id}/market": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** City Market */
+        get: operations["city_market_api_v1_cities__city_id__market_get"];
+        put?: never;
+        post?: never;
         delete?: never;
         options?: never;
         head?: never;
@@ -397,6 +807,59 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/market/offers": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Market Offer List */
+        get: operations["market_offer_list_api_v1_market_offers_get"];
+        put?: never;
+        /** Market Offer Create */
+        post: operations["market_offer_create_api_v1_market_offers_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/market/offers/{offer_id}/accept": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Market Offer Accept */
+        post: operations["market_offer_accept_api_v1_market_offers__offer_id__accept_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/messages": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Direct Message List */
+        get: operations["direct_message_list_api_v1_messages_get"];
+        put?: never;
+        /** Direct Message Create */
+        post: operations["direct_message_create_api_v1_messages_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/moderation/audit": {
         parameters: {
             query?: never;
@@ -408,6 +871,23 @@ export interface paths {
         get: operations["moderation_audit_api_v1_moderation_audit_get"];
         put?: never;
         post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/moderation/reports": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Moderation Report Create */
+        post: operations["moderation_report_create_api_v1_moderation_reports_post"];
         delete?: never;
         options?: never;
         head?: never;
@@ -689,6 +1169,194 @@ export interface paths {
         patch: operations["tutorial_api_v1_profiles_me_tutorial_patch"];
         trace?: never;
     };
+    "/api/v1/pvp/operations": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Pvp Operation List */
+        get: operations["pvp_operation_list_api_v1_pvp_operations_get"];
+        put?: never;
+        /** Pvp Operation Create */
+        post: operations["pvp_operation_create_api_v1_pvp_operations_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/pvp/operations/{operation_id}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Pvp Operation Get */
+        get: operations["pvp_operation_get_api_v1_pvp_operations__operation_id__get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/pvp/operations/{operation_id}/cancel": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Pvp Operation Cancel */
+        post: operations["pvp_operation_cancel_api_v1_pvp_operations__operation_id__cancel_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/pvp/operations/{operation_id}/defend": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Pvp Operation Defend */
+        post: operations["pvp_operation_defend_api_v1_pvp_operations__operation_id__defend_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/pvp/operations/{operation_id}/resolve": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Pvp Operation Resolve */
+        post: operations["pvp_operation_resolve_api_v1_pvp_operations__operation_id__resolve_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/pvp/operations/{operation_id}/support": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Pvp Operation Support */
+        post: operations["pvp_operation_support_api_v1_pvp_operations__operation_id__support_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/pvp/preview": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Pvp Preview */
+        post: operations["pvp_preview_api_v1_pvp_preview_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/pvp/protection": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Pvp Protection */
+        get: operations["pvp_protection_api_v1_pvp_protection_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/pvp/reports/{report_id}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Pvp Report */
+        get: operations["pvp_report_api_v1_pvp_reports__report_id__get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/pvp/reputation/{profile_id}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Pvp Reputation */
+        get: operations["pvp_reputation_api_v1_pvp_reputation__profile_id__get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/pvp/targets": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Pvp Target List */
+        get: operations["pvp_target_list_api_v1_pvp_targets_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/rankings": {
         parameters: {
             query?: never;
@@ -770,6 +1438,125 @@ export interface paths {
         put?: never;
         /** Specialist Recruit */
         post: operations["specialist_recruit_api_v1_specialists_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/territories": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Territory List */
+        get: operations["territory_list_api_v1_territories_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/territories/{district_id}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Territory Get */
+        get: operations["territory_get_api_v1_territories__district_id__get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/territories/{district_id}/abandon": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Territory Abandon */
+        post: operations["territory_abandon_api_v1_territories__district_id__abandon_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/territories/{district_id}/challenge": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Territory Challenge */
+        post: operations["territory_challenge_api_v1_territories__district_id__challenge_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/territories/{district_id}/claim": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Territory Claim */
+        post: operations["territory_claim_api_v1_territories__district_id__claim_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/territories/{district_id}/history": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Territory History */
+        get: operations["territory_history_api_v1_territories__district_id__history_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/territories/{district_id}/support": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Territory Support */
+        post: operations["territory_support_api_v1_territories__district_id__support_post"];
         delete?: never;
         options?: never;
         head?: never;
@@ -883,6 +1670,84 @@ export interface paths {
 export type webhooks = Record<string, never>;
 export interface components {
     schemas: {
+        /** AllianceCreateRequest */
+        AllianceCreateRequest: {
+            /**
+             * Charter
+             * @default
+             */
+            charter: string;
+            /**
+             * Governance Model
+             * @default council
+             */
+            governance_model: string;
+            /** Name */
+            name: string;
+            /** Tag */
+            tag: string;
+        };
+        /** AllianceInviteRequest */
+        AllianceInviteRequest: {
+            /** Cartel Id */
+            cartel_id: string;
+            /**
+             * Contribution Limit
+             * @default 25
+             */
+            contribution_limit: number | string;
+        };
+        /** AllianceTreatyRequest */
+        AllianceTreatyRequest: {
+            /** Counterparty Id */
+            counterparty_id: string;
+            /** Counterparty Type */
+            counterparty_type: string;
+            /**
+             * Duration Days
+             * @default 14
+             */
+            duration_days: number;
+            /**
+             * Terms
+             * @default {}
+             */
+            terms: {
+                [key: string]: unknown;
+            };
+            /** Treaty Type */
+            treaty_type: string;
+        };
+        /** AllianceView */
+        AllianceView: {
+            /** Charter */
+            charter: string;
+            /** Governance Model */
+            governance_model: string;
+            /** Id */
+            id: string;
+            /**
+             * Member Count
+             * @default 0
+             */
+            member_count: number;
+            /** Member Limit */
+            member_limit: number;
+            /** My Cartel Id */
+            my_cartel_id?: string | null;
+            /** My Role */
+            my_role?: string | null;
+            /** Name */
+            name: string;
+            /** Status */
+            status: string;
+            /** Tag */
+            tag: string;
+            /** Trust Score */
+            trust_score: number;
+            /** World Id */
+            world_id: string;
+        };
         /** BusinessView */
         BusinessView: {
             /** Business Type */
@@ -925,6 +1790,238 @@ export interface components {
             /** Name */
             name: string;
         };
+        /** CartelWarCommitRequest */
+        CartelWarCommitRequest: {
+            /** Amount */
+            amount: number | string;
+            /** Resource Type */
+            resource_type: string;
+        };
+        /** CartelWarEventView */
+        CartelWarEventView: {
+            /** Actor Cartel Id */
+            actor_cartel_id: string | null;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Event Type */
+            event_type: string;
+            /** Id */
+            id: string;
+            /** Public Payload */
+            public_payload: {
+                [key: string]: unknown;
+            };
+        };
+        /** CartelWarJoinRequest */
+        CartelWarJoinRequest: {
+            /** Side */
+            side: string;
+        };
+        /** CartelWarOperationRequest */
+        CartelWarOperationRequest: {
+            /**
+             * Cash
+             * @default 0
+             */
+            cash: number | string;
+            /** District Id */
+            district_id?: string | null;
+            /**
+             * Influence
+             * @default 0
+             */
+            influence: number | string;
+            /** Operation Type */
+            operation_type: string;
+        };
+        /** CartelWarProposeRequest */
+        CartelWarProposeRequest: {
+            /** City Id */
+            city_id?: string | null;
+            /** Declaration Reason */
+            declaration_reason: string;
+            /** Defender Cartel Id */
+            defender_cartel_id: string;
+            /** Demand */
+            demand: string;
+            /** District Id */
+            district_id?: string | null;
+            /** Peace Conditions */
+            peace_conditions: string;
+            /**
+             * War Type
+             * @default district_control
+             */
+            war_type: string;
+        };
+        /** CartelWarScoreView */
+        CartelWarScoreView: {
+            /** Cartel Id */
+            cartel_id: string;
+            /** Economic */
+            economic: string;
+            /** Intelligence */
+            intelligence: string;
+            /** Operations */
+            operations: string;
+            /** Participation */
+            participation: string;
+            /** Penalties */
+            penalties: string;
+            /** Stability */
+            stability: string;
+            /** Territorial */
+            territorial: string;
+            /** Total */
+            total: string;
+            /** Version */
+            version: number;
+        };
+        /** CartelWarView */
+        CartelWarView: {
+            /** Active Ends At */
+            active_ends_at: string | null;
+            /** Active Starts At */
+            active_starts_at: string | null;
+            /** Aftermath Ends At */
+            aftermath_ends_at: string | null;
+            /** Attacker Cartel Id */
+            attacker_cartel_id: string;
+            /** Attacker Score */
+            attacker_score: string;
+            /** City Id */
+            city_id: string | null;
+            /** Declaration Reason */
+            declaration_reason: string;
+            /** Defender Cartel Id */
+            defender_cartel_id: string;
+            /** Defender Score */
+            defender_score: string;
+            /** Id */
+            id: string;
+            /** My Cartel Id */
+            my_cartel_id?: string | null;
+            /** My Side */
+            my_side?: string | null;
+            /** Objective Config */
+            objective_config: {
+                [key: string]: unknown;
+            };
+            /** Preparation Starts At */
+            preparation_starts_at: string | null;
+            /** Resolution Type */
+            resolution_type: string | null;
+            /** Rules Config */
+            rules_config: {
+                [key: string]: unknown;
+            };
+            /** War Status */
+            war_status: string;
+            /** War Type */
+            war_type: string;
+            /** Winner Cartel Id */
+            winner_cartel_id: string | null;
+            /** World Id */
+            world_id: string;
+        };
+        /** CeasefireOfferRequest */
+        CeasefireOfferRequest: {
+            /**
+             * Terms
+             * @default {}
+             */
+            terms: {
+                [key: string]: unknown;
+            };
+        };
+        /** ChatChannelView */
+        ChatChannelView: {
+            /** Channel Type */
+            channel_type: string;
+            /** Id */
+            id: string;
+            /** Moderated */
+            moderated: boolean;
+            /** Name */
+            name: string;
+            /** Scope Id */
+            scope_id: string;
+            /** Status */
+            status: string;
+        };
+        /** ChatMessageCreate */
+        ChatMessageCreate: {
+            /** Body */
+            body: string;
+        };
+        /** ChatMessageView */
+        ChatMessageView: {
+            /** Body */
+            body: string;
+            /** Channel Id */
+            channel_id: string;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Id */
+            id: string;
+            /** Moderation State */
+            moderation_state: string;
+            /** Sender Profile Id */
+            sender_profile_id: string;
+        };
+        /** CityMarketView */
+        CityMarketView: {
+            /** Demand */
+            demand: string;
+            /** Price */
+            price: string;
+            /** Resource Key */
+            resource_key: string;
+            /** Supply */
+            supply: string;
+            /**
+             * Updated At
+             * Format: date-time
+             */
+            updated_at: string;
+            /** Version */
+            version: number;
+        };
+        /** CityView */
+        CityView: {
+            /**
+             * Active Cartels
+             * @default 0
+             */
+            active_cartels: number;
+            /**
+             * Active Players
+             * @default 0
+             */
+            active_players: number;
+            /** Id */
+            id: string;
+            /** Instance Key */
+            instance_key: string;
+            /** Max Players */
+            max_players: number;
+            /** Name */
+            name: string;
+            /** Region Key */
+            region_key: string;
+            /** Slug */
+            slug: string;
+            /** Status */
+            status: string;
+            /** World Id */
+            world_id: string;
+        };
         /** CreateOrganizationRequest */
         CreateOrganizationRequest: {
             /** Archetype */
@@ -934,6 +2031,11 @@ export interface components {
              * @default
              */
             description: string;
+            /**
+             * Governance Model
+             * @default directorate
+             */
+            governance_model: string;
             /** Name */
             name: string;
             /** Tag */
@@ -959,6 +2061,38 @@ export interface components {
              * @default public
              */
             visibility: string;
+        };
+        /** CriticalReauthRequest */
+        CriticalReauthRequest: {
+            /** Password */
+            password: string;
+        };
+        /** DirectMessageCreate */
+        DirectMessageCreate: {
+            /** Body */
+            body: string;
+            /** Recipient Profile Id */
+            recipient_profile_id: string;
+        };
+        /** DirectMessageView */
+        DirectMessageView: {
+            /** Body */
+            body: string;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Id */
+            id: string;
+            /** Read At */
+            read_at: string | null;
+            /** Recipient Profile Id */
+            recipient_profile_id: string;
+            /** Sender Profile Id */
+            sender_profile_id: string;
+            /** Status */
+            status: string;
         };
         /** DistrictView */
         DistrictView: {
@@ -1095,10 +2229,84 @@ export interface components {
             /** Totp Code */
             totp_code?: string | null;
         };
+        /** MarketOfferCreate */
+        MarketOfferCreate: {
+            /** Amount */
+            amount: number | string;
+            /** Resource Type */
+            resource_type: string;
+            /** Unit Price */
+            unit_price: number | string;
+        };
+        /** MarketOfferView */
+        MarketOfferView: {
+            /** Amount */
+            amount: string;
+            /** City Id */
+            city_id: string;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /**
+             * Expires At
+             * Format: date-time
+             */
+            expires_at: string;
+            /** Id */
+            id: string;
+            /** Resource Type */
+            resource_type: string;
+            /** Seller Profile Id */
+            seller_profile_id: string;
+            /** Status */
+            status: string;
+            /** Unit Price */
+            unit_price: string;
+        };
+        /** MarketTradeView */
+        MarketTradeView: {
+            /** Amount */
+            amount: string;
+            /** Buyer Profile Id */
+            buyer_profile_id: string;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Id */
+            id: string;
+            /** Offer Id */
+            offer_id: string;
+            /** Resource Type */
+            resource_type: string;
+            /** Review State */
+            review_state: string;
+            /** Seller Profile Id */
+            seller_profile_id: string;
+            /** Total Price */
+            total_price: string;
+        };
         /** MessageResponse */
         MessageResponse: {
             /** Message */
             message: string;
+        };
+        /** ModerationReportCreate */
+        ModerationReportCreate: {
+            /** Category */
+            category: string;
+            /**
+             * Description
+             * @default
+             */
+            description: string;
+            /** Target Id */
+            target_id: string;
+            /** Target Type */
+            target_type: string;
         };
         /** NetworkEdge */
         NetworkEdge: {
@@ -1198,10 +2406,16 @@ export interface components {
         OrganizationView: {
             /** Archetype */
             archetype: string;
+            /** City Id */
+            city_id: string | null;
             /** Description */
             description: string;
+            /** Governance Model */
+            governance_model: string;
             /** Id */
             id: string;
+            /** Investigation Pressure */
+            investigation_pressure: number;
             /**
              * Member Count
              * @default 0
@@ -1213,6 +2427,8 @@ export interface components {
             my_role?: string | null;
             /** Name */
             name: string;
+            /** Reputation */
+            reputation: number;
             /** Stability */
             stability: number;
             /** Tag */
@@ -1243,6 +2459,8 @@ export interface components {
         ProfileView: {
             /** Archetype */
             archetype: string;
+            /** City Id */
+            city_id: string | null;
             /** Codename */
             codename: string;
             /** Fear */
@@ -1264,6 +2482,8 @@ export interface components {
              * Format: date-time
              */
             protected_until: string;
+            /** Recovery Until */
+            recovery_until: string | null;
             resources: components["schemas"]["ResourceView"];
             /** Stability */
             stability: number;
@@ -1273,6 +2493,249 @@ export interface components {
             tutorial_step: number;
             /** World Id */
             world_id: string;
+        };
+        /** PvpDefenseRequest */
+        PvpDefenseRequest: {
+            /** Action Type */
+            action_type: string;
+            /**
+             * Commitment
+             * @default {}
+             */
+            commitment: {
+                [key: string]: unknown;
+            };
+        };
+        /** PvpOperationCreate */
+        PvpOperationCreate: {
+            /** Defender Profile Id */
+            defender_profile_id: string;
+            /** District Id */
+            district_id?: string | null;
+            /** Operation Type */
+            operation_type: string;
+            /**
+             * Risk Posture
+             * @default balanced
+             */
+            risk_posture: string;
+        };
+        /** PvpOperationView */
+        PvpOperationView: {
+            /** Attacker Cartel Id */
+            attacker_cartel_id: string | null;
+            /** Attacker Profile Id */
+            attacker_profile_id: string;
+            /** City Id */
+            city_id: string;
+            /** Defender Cartel Id */
+            defender_cartel_id: string | null;
+            /** Defender Profile Id */
+            defender_profile_id: string;
+            /**
+             * Defense Submitted
+             * @default false
+             */
+            defense_submitted: boolean;
+            /** District Id */
+            district_id: string | null;
+            /** Id */
+            id: string;
+            /** My Report Id */
+            my_report_id?: string | null;
+            /**
+             * My Side
+             * @default participant
+             */
+            my_side: string;
+            /** Operation Type */
+            operation_type: string;
+            /** Resolved At */
+            resolved_at: string | null;
+            /**
+             * Resolves At
+             * Format: date-time
+             */
+            resolves_at: string;
+            /**
+             * Response Deadline At
+             * Format: date-time
+             */
+            response_deadline_at: string;
+            /** Result Payload */
+            result_payload: {
+                [key: string]: unknown;
+            } | null;
+            /** Risk Posture */
+            risk_posture: string;
+            /**
+             * Starts At
+             * Format: date-time
+             */
+            starts_at: string;
+            /** Status */
+            status: string;
+            /** Target Id */
+            target_id: string;
+            /** Target Type */
+            target_type: string;
+            /**
+             * Warning At
+             * Format: date-time
+             */
+            warning_at: string;
+            /** World Id */
+            world_id: string;
+        };
+        /** PvpPreviewRequest */
+        PvpPreviewRequest: {
+            /** Defender Profile Id */
+            defender_profile_id: string;
+            /** District Id */
+            district_id?: string | null;
+            /** Operation Type */
+            operation_type: string;
+            /**
+             * Risk Posture
+             * @default balanced
+             */
+            risk_posture: string;
+        };
+        /** PvpPreviewView */
+        PvpPreviewView: {
+            /** Can Launch */
+            can_launch: boolean;
+            /** Defender Profile Id */
+            defender_profile_id: string;
+            /** Estimated Cost Cash */
+            estimated_cost_cash: string;
+            /** Estimated Cost Influence */
+            estimated_cost_influence: string;
+            /** Estimated Minutes */
+            estimated_minutes: number;
+            /** Estimated Success Band */
+            estimated_success_band: string;
+            /** Operation Type */
+            operation_type: string;
+            /** Protection Status */
+            protection_status: string;
+            /** Reasons */
+            reasons: string[];
+            /** Repetition Multiplier */
+            repetition_multiplier: string;
+            /** Reward Multiplier */
+            reward_multiplier: string;
+            /** Treaty Status */
+            treaty_status: string | null;
+        };
+        /** PvpProtectionView */
+        PvpProtectionView: {
+            /** Offensive Lock */
+            offensive_lock: boolean;
+            /** Protected Until */
+            protected_until: string | null;
+            /** Reasons */
+            reasons: string[];
+            /** Recovery Until */
+            recovery_until: string | null;
+            /** Status */
+            status: string;
+        };
+        /** PvpReportView */
+        PvpReportView: {
+            /** Confidence */
+            confidence: number;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Details Json */
+            details_json: {
+                [key: string]: unknown;
+            };
+            /** Id */
+            id: string;
+            /** Operation Id */
+            operation_id: string;
+            /** Perspective */
+            perspective: string;
+            /** Profile Id */
+            profile_id: string;
+            /** Summary */
+            summary: string;
+        };
+        /** PvpReputationView */
+        PvpReputationView: {
+            /** Aggression */
+            aggression: number;
+            /** Attack Count */
+            attack_count: number;
+            /** Defense */
+            defense: number;
+            /** Defense Count */
+            defense_count: number;
+            /** Diplomacy */
+            diplomacy: number;
+            /** Economic Strength */
+            economic_strength: number;
+            /** Profile Id */
+            profile_id: string;
+            /** Reliability */
+            reliability: number;
+            /** Stability */
+            stability: number;
+            /** Treaty Breaches */
+            treaty_breaches: number;
+        };
+        /** PvpSupportRequest */
+        PvpSupportRequest: {
+            /**
+             * Cash
+             * @default 0
+             */
+            cash: number | string;
+            /**
+             * Influence
+             * @default 0
+             */
+            influence: number | string;
+            /** Side */
+            side: string;
+        };
+        /** PvpTargetView */
+        PvpTargetView: {
+            /** Cartel Id */
+            cartel_id: string | null;
+            /** Cartel Name */
+            cartel_name: string | null;
+            /** City Id */
+            city_id: string;
+            /** Codename */
+            codename: string;
+            /** Estimated Strength */
+            estimated_strength: string;
+            /** Known Businesses */
+            known_businesses: number;
+            /** Known District Presence */
+            known_district_presence: string[];
+            /**
+             * Last Public Activity
+             * Format: date-time
+             */
+            last_public_activity: string;
+            /** Profile Id */
+            profile_id: string;
+            /** Protection Status */
+            protection_status: string;
+            /** Public Reputation */
+            public_reputation: {
+                [key: string]: number;
+            };
+            /** Recommendation */
+            recommendation: string;
+            /** Treaty Status */
+            treaty_status: string | null;
         };
         /** RecruitSpecialistRequest */
         RecruitSpecialistRequest: {
@@ -1418,6 +2881,84 @@ export interface components {
             /** Research Key */
             research_key: string;
         };
+        /** TerritoryChallengeRequest */
+        TerritoryChallengeRequest: {
+            /**
+             * Amount
+             * @default 5
+             */
+            amount: number | string;
+        };
+        /** TerritoryClaimRequest */
+        TerritoryClaimRequest: {
+            /**
+             * Claim Type
+             * @default influence
+             */
+            claim_type: string;
+        };
+        /** TerritoryClaimView */
+        TerritoryClaimView: {
+            /** Cartel Id */
+            cartel_id: string;
+            /** Claim Strength */
+            claim_strength: string;
+            /** District Id */
+            district_id: string;
+            /**
+             * Expires At
+             * Format: date-time
+             */
+            expires_at: string;
+            /** Id */
+            id: string;
+            /** Status */
+            status: string;
+            /** Version */
+            version: number;
+            /** Visibility */
+            visibility: number;
+        };
+        /** TerritoryContributionRequest */
+        TerritoryContributionRequest: {
+            /** Amount */
+            amount: number | string;
+            /**
+             * Contribution Type
+             * @default influence
+             */
+            contribution_type: string;
+        };
+        /** TerritoryControlPointView */
+        TerritoryControlPointView: {
+            /** Control Value */
+            control_value: string;
+            /** Controlling Cartel Id */
+            controlling_cartel_id: string | null;
+            /** Id */
+            id: string;
+            /** Point Type */
+            point_type: string;
+            /** Status */
+            status: string;
+            /** Version */
+            version: number;
+        };
+        /** TerritoryView */
+        TerritoryView: {
+            /** Active Claims */
+            active_claims: components["schemas"]["TerritoryClaimView"][];
+            /** Control Points */
+            control_points: components["schemas"]["TerritoryControlPointView"][];
+            /** Controlling Cartel Id */
+            controlling_cartel_id: string | null;
+            /** District Id */
+            district_id: string;
+            /** District Name */
+            district_name: string;
+            /** Status */
+            status: string;
+        };
         /** TokenPair */
         TokenPair: {
             /** Access Token */
@@ -1476,6 +3017,11 @@ export interface components {
         UpdateOrganizationRoleRequest: {
             /** Role */
             role: string;
+        };
+        /** UserBlockRequest */
+        UserBlockRequest: {
+            /** Blocked Profile Id */
+            blocked_profile_id: string;
         };
         /** UserView */
         UserView: {
@@ -1565,6 +3111,247 @@ export interface operations {
                     "application/json": {
                         [key: string]: number;
                     };
+                };
+            };
+        };
+    };
+    alliance_list_api_v1_alliances_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["AllianceView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    alliance_create_api_v1_alliances_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["AllianceCreateRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["AllianceView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    alliance_get_api_v1_alliances__alliance_id__get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                alliance_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["AllianceView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    alliance_accept_api_v1_alliances__alliance_id__accept_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                alliance_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MessageResponse"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    alliance_invite_api_v1_alliances__alliance_id__invite_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                alliance_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["AllianceInviteRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MessageResponse"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    alliance_leave_api_v1_alliances__alliance_id__leave_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                alliance_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MessageResponse"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    alliance_treaty_create_api_v1_alliances__alliance_id__treaties_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                alliance_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["AllianceTreatyRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": {
+                        [key: string]: unknown;
+                    };
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
                 };
             };
         };
@@ -1913,6 +3700,39 @@ export interface operations {
             };
         };
     };
+    user_block_create_api_v1_blocks_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["UserBlockRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MessageResponse"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
     businesses_api_v1_businesses_get: {
         parameters: {
             query?: never;
@@ -2001,6 +3821,638 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["BusinessView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_war_list_api_v1_cartel_wars_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelWarView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_war_propose_api_v1_cartel_wars_propose_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["CartelWarProposeRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelWarView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_war_get_api_v1_cartel_wars__war_id__get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                war_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelWarView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_war_accept_ceasefire_api_v1_cartel_wars__war_id__accept_ceasefire_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                war_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": {
+                        [key: string]: unknown;
+                    };
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_war_commit_api_v1_cartel_wars__war_id__commit_resources_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                war_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["CartelWarCommitRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelWarView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_war_declare_api_v1_cartel_wars__war_id__declare_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                war_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["CriticalReauthRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelWarView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_war_events_api_v1_cartel_wars__war_id__events_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                war_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelWarEventView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_war_join_api_v1_cartel_wars__war_id__join_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                war_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["CartelWarJoinRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": {
+                        [key: string]: unknown;
+                    };
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_war_operation_api_v1_cartel_wars__war_id__launch_operation_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                war_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["CartelWarOperationRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": {
+                        [key: string]: unknown;
+                    };
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_war_offer_ceasefire_api_v1_cartel_wars__war_id__offer_ceasefire_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                war_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["CeasefireOfferRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": {
+                        [key: string]: unknown;
+                    };
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_war_reports_api_v1_cartel_wars__war_id__reports_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                war_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": {
+                        [key: string]: unknown;
+                    }[];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_war_score_api_v1_cartel_wars__war_id__score_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                war_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelWarScoreView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_war_surrender_api_v1_cartel_wars__war_id__surrender_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                war_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["CriticalReauthRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelWarView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    chat_channel_list_api_v1_chat_channels_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ChatChannelView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    chat_message_list_api_v1_chat_channels__channel_id__messages_get: {
+        parameters: {
+            query?: {
+                limit?: number;
+            };
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                channel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ChatMessageView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    chat_message_create_api_v1_chat_channels__channel_id__messages_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                channel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["ChatMessageCreate"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ChatMessageView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    city_list_api_v1_cities_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CityView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    city_market_api_v1_cities__city_id__market_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                city_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CityMarketView"][];
                 };
             };
             /** @description Validation Error */
@@ -2286,6 +4738,173 @@ export interface operations {
             };
         };
     };
+    market_offer_list_api_v1_market_offers_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MarketOfferView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    market_offer_create_api_v1_market_offers_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["MarketOfferCreate"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MarketOfferView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    market_offer_accept_api_v1_market_offers__offer_id__accept_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                offer_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MarketTradeView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    direct_message_list_api_v1_messages_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["DirectMessageView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    direct_message_create_api_v1_messages_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["DirectMessageCreate"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["DirectMessageView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
     moderation_audit_api_v1_moderation_audit_get: {
         parameters: {
             query?: never;
@@ -2304,6 +4923,41 @@ export interface operations {
                     "application/json": {
                         [key: string]: unknown;
                     }[];
+                };
+            };
+        };
+    };
+    moderation_report_create_api_v1_moderation_reports_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["ModerationReportCreate"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MessageResponse"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
                 };
             };
         };
@@ -2913,6 +5567,410 @@ export interface operations {
             };
         };
     };
+    pvp_operation_list_api_v1_pvp_operations_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["PvpOperationView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    pvp_operation_create_api_v1_pvp_operations_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["PvpOperationCreate"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["PvpOperationView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    pvp_operation_get_api_v1_pvp_operations__operation_id__get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                operation_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["PvpOperationView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    pvp_operation_cancel_api_v1_pvp_operations__operation_id__cancel_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                operation_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["PvpOperationView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    pvp_operation_defend_api_v1_pvp_operations__operation_id__defend_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                operation_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["PvpDefenseRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["PvpOperationView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    pvp_operation_resolve_api_v1_pvp_operations__operation_id__resolve_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                operation_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["PvpOperationView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    pvp_operation_support_api_v1_pvp_operations__operation_id__support_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                operation_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["PvpSupportRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["PvpOperationView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    pvp_preview_api_v1_pvp_preview_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["PvpPreviewRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["PvpPreviewView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    pvp_protection_api_v1_pvp_protection_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["PvpProtectionView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    pvp_report_api_v1_pvp_reports__report_id__get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                report_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["PvpReportView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    pvp_reputation_api_v1_pvp_reputation__profile_id__get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                profile_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["PvpReputationView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    pvp_target_list_api_v1_pvp_targets_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["PvpTargetView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
     rankings_api_v1_rankings_get: {
         parameters: {
             query?: never;
@@ -3120,6 +6178,252 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["SpecialistView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    territory_list_api_v1_territories_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["TerritoryView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    territory_get_api_v1_territories__district_id__get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                district_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["TerritoryView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    territory_abandon_api_v1_territories__district_id__abandon_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                district_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["TerritoryClaimView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    territory_challenge_api_v1_territories__district_id__challenge_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                district_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["TerritoryChallengeRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["TerritoryClaimView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    territory_claim_api_v1_territories__district_id__claim_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                district_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["TerritoryClaimRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["TerritoryClaimView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    territory_history_api_v1_territories__district_id__history_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                district_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": {
+                        [key: string]: unknown;
+                    }[];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    territory_support_api_v1_territories__district_id__support_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                district_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["TerritoryContributionRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["TerritoryClaimView"];
                 };
             };
             /** @description Validation Error */

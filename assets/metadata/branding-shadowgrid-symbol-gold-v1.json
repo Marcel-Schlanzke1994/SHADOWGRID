@@ -1,0 +1,89 @@
+{
+  "asset_id": "branding-shadowgrid-symbol-gold-v1",
+  "manifest_order": 10,
+  "category": "branding",
+  "batch": "branding",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/branding-shadowgrid-symbol-gold-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100010,
+  "content_hash": "8e3ca2e2aef0e58d34d1f56d3562718d81ffb0ad2646a85f926265b0673e48c5",
+  "source_file": "assets/source/branding/branding-shadowgrid-symbol-gold-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/branding-shadowgrid-symbol-gold-v1.svg",
+      "bytes": 1157,
+      "sha256": "8e3ca2e2aef0e58d34d1f56d3562718d81ffb0ad2646a85f926265b0673e48c5"
+    },
+    {
+      "path": "assets/production/png/branding-shadowgrid-symbol-gold-v1-1536.png",
+      "bytes": 40643,
+      "sha256": "91d05afe3adf0df78d2360f1473269231cae03bae021a28874fed698598c782f"
+    },
+    {
+      "path": "assets/production/webp/branding-shadowgrid-symbol-gold-v1-1536.webp",
+      "bytes": 10726,
+      "sha256": "14ea99c35470f1c80617bc2f4f0be2856b421b45deea0d9a507de3cb7c8b6783"
+    }
+  ],
+  "runtime_files": [],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "vector-branding-v1",
+    "reviewer": "codex-visual",
+    "reviewed_at": "2026-07-25T14:01:32.609Z",
+    "scores": {
+      "style_consistency": 95,
+      "composition": 93,
+      "small_size_legibility": 88,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "ui_suitability": 94,
+      "mobile_suitability": 94,
+      "originality": 90,
+      "technical_quality": 96,
+      "safety_compliance": 100
+    },
+    "notes": [
+      "All fourteen assets use the same hexagonal network mark, restrained gold, anthracite and off-white system.",
+      "No firearm, skull, gang, extremist, authority or real-company symbol is present.",
+      "Transparent variants were checked on dark and light preview backgrounds."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 1157
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T13:48:18.595Z",
+  "license": "project-owned-generated-asset",
+  "notes": []
+}

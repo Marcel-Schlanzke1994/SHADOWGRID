@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-stuttgart-desktop-day-v1",
+  "manifest_order": 117,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "stuttgart",
+  "variant": "desktop-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-stuttgart-desktop-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100117,
+  "content_hash": "eb20e74c9ca73152ac6eae510fd4bf2d6f616f6e7780573922a4ddc736db3a06",
+  "source_file": "assets/source/cities/city-stuttgart-desktop-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-stuttgart-desktop-day-v1-320.avif",
+      "bytes": 6204,
+      "sha256": "594e3fe128a31eb96ff71c572f4fd7c764b95728558d24cbea385a0cc0cca537"
+    },
+    {
+      "path": "assets/production/webp/city-stuttgart-desktop-day-v1-320.webp",
+      "bytes": 6158,
+      "sha256": "e6c0e09392d30c9ebfd7f1f711951389a10e89e9107bbd8241ff7c2b21e8ed51"
+    },
+    {
+      "path": "assets/production/avif/city-stuttgart-desktop-day-v1-640.avif",
+      "bytes": 24326,
+      "sha256": "ddcf62dae312eee75d89f3b738eaad76e2150a13179dd8e248dac15a88fce8be"
+    },
+    {
+      "path": "assets/production/webp/city-stuttgart-desktop-day-v1-640.webp",
+      "bytes": 25404,
+      "sha256": "dde79d07ec97f2fdde8042a8872cbe5cce66462d80a6cc78472573113b1fb049"
+    },
+    {
+      "path": "assets/production/avif/city-stuttgart-desktop-day-v1-960.avif",
+      "bytes": 70889,
+      "sha256": "fd802bf3d357708c56fb65a29a595cb8403df5087050446535c39163e93ec35d"
+    },
+    {
+      "path": "assets/production/webp/city-stuttgart-desktop-day-v1-960.webp",
+      "bytes": 64468,
+      "sha256": "8d165ab9438f7fac85bdd151f7c1db0711c5108694de2e837b4b8d9d2bbd028f"
+    },
+    {
+      "path": "assets/production/avif/city-stuttgart-desktop-day-v1-1280.avif",
+      "bytes": 111817,
+      "sha256": "72c0169851a8c5e38d15b4722812927faf57b5d104674511955aa3e313578c82"
+    },
+    {
+      "path": "assets/production/webp/city-stuttgart-desktop-day-v1-1280.webp",
+      "bytes": 103198,
+      "sha256": "f2c66b16196de5c77734580599d7027b917423a1a237c7d2db20739851fd669e"
+    },
+    {
+      "path": "assets/production/avif/city-stuttgart-desktop-day-v1-1920.avif",
+      "bytes": 181333,
+      "sha256": "e815d1a83151c7e62833d9b2c1e6c3911fba760f95249dc68c6e1c4395170181"
+    },
+    {
+      "path": "assets/production/webp/city-stuttgart-desktop-day-v1-1920.webp",
+      "bytes": 175902,
+      "sha256": "fa685b68eaf409f837b8e6cc51bc8427d47f9fd24e75d8da8d9996670c6d5252"
+    },
+    {
+      "path": "assets/production/avif/city-stuttgart-desktop-day-v1-2560.avif",
+      "bytes": 233270,
+      "sha256": "d7b94bafa04460097f6aa4907d562227215182b5a763b7179ed1ccde76333ba4"
+    },
+    {
+      "path": "assets/production/webp/city-stuttgart-desktop-day-v1-2560.webp",
+      "bytes": 228872,
+      "sha256": "a626d6cbb0d23799ab704808cef131c3030d25445443f08292ef1cd29cb77452"
+    },
+    {
+      "path": "assets/production/avif/city-stuttgart-desktop-day-v1-3840.avif",
+      "bytes": 345345,
+      "sha256": "267540916e7447fc2bb2543fef06ccfc97ef267d12411b01181ed521a9c5bf07"
+    },
+    {
+      "path": "assets/production/webp/city-stuttgart-desktop-day-v1-3840.webp",
+      "bytes": 363166,
+      "sha256": "eafc28bed9bccaf2fd65d75d0bb69e7fdfe1596e4c5ff84f288911b04acdddb3"
+    },
+    {
+      "path": "assets/production/png/city-stuttgart-desktop-day-v1-1280.png",
+      "bytes": 1783603,
+      "sha256": "d610ee8e6e0fb5619c35a2aa105b4badd9569d266e21f9716ac657d028169680"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-desktop-day-v1-320.avif",
+      "bytes": 6204,
+      "sha256": "594e3fe128a31eb96ff71c572f4fd7c764b95728558d24cbea385a0cc0cca537"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-desktop-day-v1-320.webp",
+      "bytes": 6158,
+      "sha256": "e6c0e09392d30c9ebfd7f1f711951389a10e89e9107bbd8241ff7c2b21e8ed51"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-desktop-day-v1-640.avif",
+      "bytes": 24326,
+      "sha256": "ddcf62dae312eee75d89f3b738eaad76e2150a13179dd8e248dac15a88fce8be"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-desktop-day-v1-640.webp",
+      "bytes": 25404,
+      "sha256": "dde79d07ec97f2fdde8042a8872cbe5cce66462d80a6cc78472573113b1fb049"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-desktop-day-v1-960.avif",
+      "bytes": 70889,
+      "sha256": "fd802bf3d357708c56fb65a29a595cb8403df5087050446535c39163e93ec35d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-desktop-day-v1-960.webp",
+      "bytes": 64468,
+      "sha256": "8d165ab9438f7fac85bdd151f7c1db0711c5108694de2e837b4b8d9d2bbd028f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-desktop-day-v1-1280.avif",
+      "bytes": 111817,
+      "sha256": "72c0169851a8c5e38d15b4722812927faf57b5d104674511955aa3e313578c82"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-desktop-day-v1-1280.webp",
+      "bytes": 103198,
+      "sha256": "f2c66b16196de5c77734580599d7027b917423a1a237c7d2db20739851fd669e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-desktop-day-v1-1920.avif",
+      "bytes": 181333,
+      "sha256": "e815d1a83151c7e62833d9b2c1e6c3911fba760f95249dc68c6e1c4395170181"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-desktop-day-v1-1920.webp",
+      "bytes": 175902,
+      "sha256": "fa685b68eaf409f837b8e6cc51bc8427d47f9fd24e75d8da8d9996670c6d5252"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-desktop-day-v1-2560.avif",
+      "bytes": 233270,
+      "sha256": "d7b94bafa04460097f6aa4907d562227215182b5a763b7179ed1ccde76333ba4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-desktop-day-v1-2560.webp",
+      "bytes": 228872,
+      "sha256": "a626d6cbb0d23799ab704808cef131c3030d25445443f08292ef1cd29cb77452"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-desktop-day-v1-3840.avif",
+      "bytes": 345345,
+      "sha256": "267540916e7447fc2bb2543fef06ccfc97ef267d12411b01181ed521a9c5bf07"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-desktop-day-v1-3840.webp",
+      "bytes": 363166,
+      "sha256": "eafc28bed9bccaf2fd65d75d0bb69e7fdfe1596e4c5ff84f288911b04acdddb3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-stuttgart-desktop-day-v1-1280.png",
+      "bytes": 1783603,
+      "sha256": "d610ee8e6e0fb5619c35a2aa105b4badd9569d266e21f9716ac657d028169680"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 98.7,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 99,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 99,
+    "lighting_quality": 99,
+    "architecture_plausibility": 99,
+    "ui_suitability": 100,
+    "mobile_suitability": 94,
+    "originality": 97,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create one distinct clean premium ultra-realistic 16:9 desktop daytime environment backing plate derived from this accepted fictional Stuttgart-inspired SHADOWGRID basin-engineering-metropolis scene.\n\nPreserve the same original city identity and materials: wooded green basin slopes, layered flat-roofed hillside neighborhoods, pale-stone and restrained glass research/services district, linear rainwater garden, planted terraces, native deciduous trees, wet dark foreground terrace, and cool overcast post-rain daylight. Recompose naturally for exact 16:9 landscape, intended final size 2048×1152, as a deliberate desktop hero rather than a mechanical center crop. Reserve the left 32% as genuinely calm, dark, low-detail negative space using shadowed tree canopy, deep green foliage, atmospheric slope, and subdued wet terrace for localized heading, body copy, and controls. Do not place water highlights, pale building edges, rooflines, lamps, paths, railings, vehicles, or other high-contrast detail behind that overlay area. Concentrate the original rainwater garden, pale research/services buildings, layered hillside neighborhoods, and green basin depth center-right. Keep important architecture inside an inner 82% crop-safe region.\n\nMaintain physically plausible pale stone, concrete, brushed metal, dark glass, planted roofs, mature trees, restrained shallow water, and wet-paving reflections, neutral blue-gray atmosphere, subtle warm highlights, premium contemporary architectural photography, realistic lens and depth, and a restrained corporate-thriller mood. Preserve a continuous neutral wooded ridge without any isolated tower, spire, dome, or landmark.\n\nAll streets, paths, water-management features, buildings, campuses, corporate, rail, industrial, and civic geometry must remain fictional and non-operational. Do not include or imitate the Stuttgart Fernsehturm, Schlossplatz, Neues Schloss, Altes Schloss, Stuttgart Hauptbahnhof or its tower, Königstraße, Staatsgalerie, Wilhelma, Mercedes-Benz Museum, Porsche Museum, churches, cathedral spires, monuments, civic towers, antenna landmarks, Mercedes or Porsche logos or products, recognizable automobile plants, real rail corridors, known valley-road arrangements, Cannstatter Wasen, named vineyards, exact hillside neighborhoods, government buildings, corporate campuses, or any known photograph or viewpoint. Do not depict an identifiable real manufacturer, research institution, authority, transit operator, industrial process, factory interior, test track, logistics route, or operational transport plan.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, criminal symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, factory procedures, vehicle schematics, fantasy architecture, impossible slopes or structures, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 16:9 daytime basin-engineering-metropolis environment with a genuinely calm left 32% overlay-safe area, no border, title, UI, or device mockup.",
+    "reference_images": [
+      "assets/source/cities/city-stuttgart-ultrawide-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first generation attempt.",
+      "The deliberate desktop composition preserves the approved fictional green-basin identity while providing a calm dark left 32 percent through trees, foliage, atmospheric slope, and wet terrace.",
+      "The rainwater garden, pale-stone research/services district, planted terraces, and layered hillside neighborhoods remain legible center-right without disclosing an operational layout.",
+      "No real automaker, product, campus, factory, known Stuttgart landmark, tower, spire, authority, text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 4368945
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-26T10:42:34.579Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first generation attempt.",
+    "The deliberate desktop composition preserves the approved fictional green-basin identity while providing a calm dark left 32 percent through trees, foliage, atmospheric slope, and wet terrace.",
+    "The rainwater garden, pale-stone research/services district, planted terraces, and layered hillside neighborhoods remain legible center-right without disclosing an operational layout.",
+    "No real automaker, product, campus, factory, known Stuttgart landmark, tower, spire, authority, text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or wrongdoing is present."
+  ]
+}

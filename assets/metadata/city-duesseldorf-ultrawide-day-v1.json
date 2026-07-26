@@ -1,0 +1,233 @@
+{
+  "asset_id": "city-duesseldorf-ultrawide-day-v1",
+  "manifest_order": 107,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "duesseldorf",
+  "variant": "ultrawide-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-duesseldorf-ultrawide-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100107,
+  "content_hash": "8b48484e2bb51e567d931fa36b4e355120b4450bfa87cc0a90eba1a317700699",
+  "source_file": "assets/source/cities/city-duesseldorf-ultrawide-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-duesseldorf-ultrawide-day-v1-320.avif",
+      "bytes": 4669,
+      "sha256": "c6b568f71039f0307a6c68042659b3cef0974d73b33b69041de1921984aa7d53"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-ultrawide-day-v1-320.webp",
+      "bytes": 4388,
+      "sha256": "5c0eb4c4057b1dee03730f97b0cdd18a63f3ab385ba8f9a26bc8c9a609e735db"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-ultrawide-day-v1-640.avif",
+      "bytes": 14679,
+      "sha256": "825b8a93ab7b380dc60607bfe52a7486238e90267b06f782a03f1d447830c9e5"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-ultrawide-day-v1-640.webp",
+      "bytes": 14856,
+      "sha256": "658783cc19d7afe5805580314707f6364d03d0ea4496f46f5c55e1786613073b"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-ultrawide-day-v1-960.avif",
+      "bytes": 41564,
+      "sha256": "0ce4e582d668576c418a90a194d796e3bee52d04a0bd8126adace7bc5cca7f84"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-ultrawide-day-v1-960.webp",
+      "bytes": 37560,
+      "sha256": "21cc918ff81e7d340b4e37a0760dd20e42b803d64d33ce44eec15b76ae4b73fa"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-ultrawide-day-v1-1280.avif",
+      "bytes": 69448,
+      "sha256": "d7b091534e4d3175e6db5bdca79040a40892870a2d25d9d97bffc07cbefb014b"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-ultrawide-day-v1-1280.webp",
+      "bytes": 63942,
+      "sha256": "2850289175434c88b4041fa1a00560b113497cecfb7cefdc438d3ed181ee5bf9"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-ultrawide-day-v1-1920.avif",
+      "bytes": 325160,
+      "sha256": "6ff72f9789e2fb030064a9c46a403dedf9e3f753003c79a4e6a42141dbadfcce"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-ultrawide-day-v1-1920.webp",
+      "bytes": 120294,
+      "sha256": "969c58e40e8806c6ea5c6f4a2ce0991b67e305fc9dbcec1bb6ff849d754a12ec"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-ultrawide-day-v1-2560.avif",
+      "bytes": 525990,
+      "sha256": "2866dd06f1f07d71e609509df70789f3de32d78bf26039bb65c17b9a305e7166"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-ultrawide-day-v1-2560.webp",
+      "bytes": 167822,
+      "sha256": "5dbe9edfdce3d1e07f54ca72a96cd03997d68164f08df05983bf1321887f3d57"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-ultrawide-day-v1-3840.avif",
+      "bytes": 900375,
+      "sha256": "2ef1886e178138d18901408be93fad5c44c163c967633c6545cff96d4e3ff224"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-ultrawide-day-v1-3840.webp",
+      "bytes": 260724,
+      "sha256": "8b42694e17f4517e7c42e542dd19ebc4872e86aef5798c607656fe43e00cfde6"
+    },
+    {
+      "path": "assets/production/png/city-duesseldorf-ultrawide-day-v1-1280.png",
+      "bytes": 1357924,
+      "sha256": "ae6f6d3c5289cf53aa516efff03bc98c33b1cbec88302962b26e6a8589a4a4fe"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-day-v1-320.avif",
+      "bytes": 4669,
+      "sha256": "c6b568f71039f0307a6c68042659b3cef0974d73b33b69041de1921984aa7d53"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-day-v1-320.webp",
+      "bytes": 4388,
+      "sha256": "5c0eb4c4057b1dee03730f97b0cdd18a63f3ab385ba8f9a26bc8c9a609e735db"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-day-v1-640.avif",
+      "bytes": 14679,
+      "sha256": "825b8a93ab7b380dc60607bfe52a7486238e90267b06f782a03f1d447830c9e5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-day-v1-640.webp",
+      "bytes": 14856,
+      "sha256": "658783cc19d7afe5805580314707f6364d03d0ea4496f46f5c55e1786613073b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-day-v1-960.avif",
+      "bytes": 41564,
+      "sha256": "0ce4e582d668576c418a90a194d796e3bee52d04a0bd8126adace7bc5cca7f84"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-day-v1-960.webp",
+      "bytes": 37560,
+      "sha256": "21cc918ff81e7d340b4e37a0760dd20e42b803d64d33ce44eec15b76ae4b73fa"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-day-v1-1280.avif",
+      "bytes": 69448,
+      "sha256": "d7b091534e4d3175e6db5bdca79040a40892870a2d25d9d97bffc07cbefb014b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-day-v1-1280.webp",
+      "bytes": 63942,
+      "sha256": "2850289175434c88b4041fa1a00560b113497cecfb7cefdc438d3ed181ee5bf9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-day-v1-1920.avif",
+      "bytes": 325160,
+      "sha256": "6ff72f9789e2fb030064a9c46a403dedf9e3f753003c79a4e6a42141dbadfcce"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-day-v1-1920.webp",
+      "bytes": 120294,
+      "sha256": "969c58e40e8806c6ea5c6f4a2ce0991b67e305fc9dbcec1bb6ff849d754a12ec"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-day-v1-2560.avif",
+      "bytes": 525990,
+      "sha256": "2866dd06f1f07d71e609509df70789f3de32d78bf26039bb65c17b9a305e7166"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-day-v1-2560.webp",
+      "bytes": 167822,
+      "sha256": "5dbe9edfdce3d1e07f54ca72a96cd03997d68164f08df05983bf1321887f3d57"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-day-v1-3840.avif",
+      "bytes": 900375,
+      "sha256": "2ef1886e178138d18901408be93fad5c44c163c967633c6545cff96d4e3ff224"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-day-v1-3840.webp",
+      "bytes": 260724,
+      "sha256": "8b42694e17f4517e7c42e542dd19ebc4872e86aef5798c607656fe43e00cfde6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-ultrawide-day-v1-1280.png",
+      "bytes": 1357924,
+      "sha256": "ae6f6d3c5289cf53aa516efff03bc98c33b1cbec88302962b26e6a8589a4a4fe"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 98.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 99,
+    "composition": 100,
+    "material_quality": 99,
+    "lighting_quality": 99,
+    "architecture_plausibility": 98,
+    "ui_suitability": 100,
+    "mobile_suitability": 92,
+    "originality": 97,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create one clean premium ultra-realistic 21:9 daytime environment backing plate for the fictional seasonal strategy/economy MMO SHADOWGRID, inspired by Düsseldorf but not reproducing real landmarks, fashion brands, media-harbor architecture, or a known Rhine viewpoint.\n\nScene: a prosperous contemporary western German services, fashion, trade, and media metropolis with a broad river, elegant landscaped public promenade, an original low-profile bridge, refined pale-stone urban blocks, restrained mid-rise glass-and-metal offices, a small original canal basin, and layered metropolitan depth. The visual identity should feel design-conscious and international without logos or spectacle. Evoke professional services, conventions, culture, media, and civic life through original architecture only. All river, canal, bridge, street, rail, corporate, fairground, and civic layouts must be fictional and non-operational.\n\nComposition: exact ultra-wide 21:9 landscape, intended final size 2688×1152. Use a plausible elevated human viewpoint. Reserve the left 38% as calm, dark, low-detail negative space for localized interface overlays. Concentrate the original river crossing, promenade, pale-stone district, canal basin, and restrained design-oriented offices center-right. Keep important shapes inside an inner 84% crop-safe area. No focal people or crowds.\n\nLighting and style: cool overcast post-rain daylight with restrained cloud breaks, neutral blue-gray atmosphere, subtle warm-gold stone, metal, and window highlights, realistic wet paving, pale stone, concrete, brushed steel, dark glass, trees, and river reflections, premium contemporary architectural photography, subtle corporate-thriller mood, natural cinematic depth.\n\nDo not include the Rheinturm, recognizable MedienHafen or Gehry buildings, Königsallee, Kö-Bogen, Schlossturm, Düsseldorf Rathaus, Oberkasseler Brücke, Rheinkniebrücke, Theodor-Heuss-Brücke, real fashion houses, real trade-fair structures, corporate logos, exact Rhine promenade layouts, real rail maps, or any known photograph/viewpoint. Do not show an identifiable real media company, luxury brand, authority, or operational transport plan.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, fantasy architecture, impossible bridges, Gehry-like distorted buildings, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 21:9 daytime riverfront-services-metropolis environment, with no border, title, UI, or device mockup.",
+    "reference_images": [],
+    "notes": [
+      "Accepted first generation attempt.",
+      "The left 38 percent is calm, dark, and low-detail; the fictional river crossing, promenade, canal basin, pale-stone district, and restrained mid-rise service offices are concentrated center-right.",
+      "River, canal, bridge, promenade, corporate, fairground, and civic geometry is original and non-operational. No Rheinturm, known bridge, MedienHafen form, or Gehry-like building is present.",
+      "No real media company, fashion or luxury brand, authority, known viewpoint, embedded text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 5478890
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-26T09:13:03.140Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first generation attempt.",
+    "The left 38 percent is calm, dark, and low-detail; the fictional river crossing, promenade, canal basin, pale-stone district, and restrained mid-rise service offices are concentrated center-right.",
+    "River, canal, bridge, promenade, corporate, fairground, and civic geometry is original and non-operational. No Rheinturm, known bridge, MedienHafen form, or Gehry-like building is present.",
+    "No real media company, fashion or luxury brand, authority, known viewpoint, embedded text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

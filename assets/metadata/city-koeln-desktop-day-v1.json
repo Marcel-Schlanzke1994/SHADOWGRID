@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-koeln-desktop-day-v1",
+  "manifest_order": 69,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "koeln",
+  "variant": "desktop-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-koeln-desktop-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100069,
+  "content_hash": "41e82836da2bf0dcca13368cce71690d9fcc99d0af43af3632572f2c39e3ab5c",
+  "source_file": "assets/source/cities/city-koeln-desktop-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-koeln-desktop-day-v1-320.avif",
+      "bytes": 4731,
+      "sha256": "381c44ae5be6e00368897cc9dc89569594ab3485c24ee5bcd172dba8aabac7eb"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-desktop-day-v1-320.webp",
+      "bytes": 4650,
+      "sha256": "6c6d85db4ff4a739fbfae505b7280cc6e8d9a201a0509acdb8ac749a12f974a8"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-desktop-day-v1-640.avif",
+      "bytes": 49784,
+      "sha256": "2a75dd674003e09c1017efa7070820102650d8808bc62ebcf2f8f2f9559505cd"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-desktop-day-v1-640.webp",
+      "bytes": 16848,
+      "sha256": "dd0fd04d3eca2bbaa306ceac9668d8cd831f454c12aff959d8e811090fcc3617"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-desktop-day-v1-960.avif",
+      "bytes": 114397,
+      "sha256": "96d74814b4f6a5f7cb3c62093a6f19dd1c9671e532065682248dcfa4fcfdec0a"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-desktop-day-v1-960.webp",
+      "bytes": 42202,
+      "sha256": "627ebd2994e7561fcbe06344691286280abdf960c98a2881835555aa51aecd7d"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-desktop-day-v1-1280.avif",
+      "bytes": 185483,
+      "sha256": "0ec280fb9007f27dc48df54a2b6a54e7124777b90158130f2f30d0266cd25587"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-desktop-day-v1-1280.webp",
+      "bytes": 68478,
+      "sha256": "a0d97b68cdc0b4814f4b4502e0785475568354e2f4573f15b15192e6b17e0ce8"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-desktop-day-v1-1920.avif",
+      "bytes": 373462,
+      "sha256": "25fbc09f973a4162f08acbebfc02762267ae707307ea697fd41564e71b6829ae"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-desktop-day-v1-1920.webp",
+      "bytes": 116364,
+      "sha256": "6a16f0c0aebb07cd55e1a4d10029f3d7928b0b53b01fad25ae6ffe5ff0f708d0"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-desktop-day-v1-2560.avif",
+      "bytes": 573868,
+      "sha256": "f046a8a83d81ffdf6568cdeccc8271ee7bc94c11d4589dabde16ea52a5d2a584"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-desktop-day-v1-2560.webp",
+      "bytes": 157152,
+      "sha256": "9cb243df15665dd4645f9066d12de73ee6889f1daeae62befcae4f4371b9b88a"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-desktop-day-v1-3840.avif",
+      "bytes": 968301,
+      "sha256": "14bafd5129c705982ea68c298e846be5969e86bce29711832a4d74663366e271"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-desktop-day-v1-3840.webp",
+      "bytes": 254584,
+      "sha256": "ecdfd35ea5bb5a2bbc02929784f6c9937aab37a52ef023c33f19d182e6ea26dd"
+    },
+    {
+      "path": "assets/production/png/city-koeln-desktop-day-v1-1280.png",
+      "bytes": 1677263,
+      "sha256": "87f1ba97246c045af50d7fcb0216f32582451aa23fbce8e580e113959c912bec"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-day-v1-320.avif",
+      "bytes": 4731,
+      "sha256": "381c44ae5be6e00368897cc9dc89569594ab3485c24ee5bcd172dba8aabac7eb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-day-v1-320.webp",
+      "bytes": 4650,
+      "sha256": "6c6d85db4ff4a739fbfae505b7280cc6e8d9a201a0509acdb8ac749a12f974a8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-day-v1-640.avif",
+      "bytes": 49784,
+      "sha256": "2a75dd674003e09c1017efa7070820102650d8808bc62ebcf2f8f2f9559505cd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-day-v1-640.webp",
+      "bytes": 16848,
+      "sha256": "dd0fd04d3eca2bbaa306ceac9668d8cd831f454c12aff959d8e811090fcc3617"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-day-v1-960.avif",
+      "bytes": 114397,
+      "sha256": "96d74814b4f6a5f7cb3c62093a6f19dd1c9671e532065682248dcfa4fcfdec0a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-day-v1-960.webp",
+      "bytes": 42202,
+      "sha256": "627ebd2994e7561fcbe06344691286280abdf960c98a2881835555aa51aecd7d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-day-v1-1280.avif",
+      "bytes": 185483,
+      "sha256": "0ec280fb9007f27dc48df54a2b6a54e7124777b90158130f2f30d0266cd25587"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-day-v1-1280.webp",
+      "bytes": 68478,
+      "sha256": "a0d97b68cdc0b4814f4b4502e0785475568354e2f4573f15b15192e6b17e0ce8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-day-v1-1920.avif",
+      "bytes": 373462,
+      "sha256": "25fbc09f973a4162f08acbebfc02762267ae707307ea697fd41564e71b6829ae"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-day-v1-1920.webp",
+      "bytes": 116364,
+      "sha256": "6a16f0c0aebb07cd55e1a4d10029f3d7928b0b53b01fad25ae6ffe5ff0f708d0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-day-v1-2560.avif",
+      "bytes": 573868,
+      "sha256": "f046a8a83d81ffdf6568cdeccc8271ee7bc94c11d4589dabde16ea52a5d2a584"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-day-v1-2560.webp",
+      "bytes": 157152,
+      "sha256": "9cb243df15665dd4645f9066d12de73ee6889f1daeae62befcae4f4371b9b88a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-day-v1-3840.avif",
+      "bytes": 968301,
+      "sha256": "14bafd5129c705982ea68c298e846be5969e86bce29711832a4d74663366e271"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-day-v1-3840.webp",
+      "bytes": 254584,
+      "sha256": "ecdfd35ea5bb5a2bbc02929784f6c9937aab37a52ef023c33f19d182e6ea26dd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-day-v1-1280.png",
+      "bytes": 1677263,
+      "sha256": "87f1ba97246c045af50d7fcb0216f32582451aa23fbce8e580e113959c912bec"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 97.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 100,
+    "composition": 99,
+    "material_quality": 98,
+    "lighting_quality": 98,
+    "architecture_plausibility": 97,
+    "ui_suitability": 100,
+    "mobile_suitability": 94,
+    "originality": 94,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create a separately composed 16:9 desktop hero for the same accepted fictional Köln-inspired SHADOWGRID city shown in the reference.\n\nOutput composition: exact 16:9 landscape, intended final size 2048×1152. Reframe and reconstruct the scene for the taller desktop canvas rather than merely cropping the ultra-wide image. Preserve the fictional city identity: broad Rhine-like river, original low-profile steel truss bridge, generic distant cable-stayed bridge, plausible low- and mid-rise civic skyline, river trade and logistics, restrained overcast daylight, cool blue-gray and warm-gold palette. Keep the skyline and bridge geometry original and physically plausible.\n\nReserve a calm dark low-detail area across the left 32% for localized UI. Place the principal river, bridges, and city detail center-right. Add realistic foreground depth with unobtrusive riverbank architecture and vegetation at the lower right; avoid any foreground person. Ensure the center crop remains useful.\n\nDo not add Cologne Cathedral, a twin-spired cathedral, the Hohenzollern Bridge, or any recognizable real Cologne landmark. Do not reproduce a known photograph or exact real-world viewpoint.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, trafficking routes, fantasy architecture, impossible bridge geometry, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic 16:9 daytime environment backing plate, no border or device mockup.",
+    "reference_images": [
+      "assets/source/cities/city-koeln-ultrawide-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first 16:9 recomposition attempt based on the approved fictional ultra-wide day scene.",
+      "The taller frame adds plausible lower-right riverbank depth while retaining a dark low-detail left 32 percent for localized interface content.",
+      "River, original truss bridge, generic cable-stayed bridge, and civic skyline remain coordinated with the Köln asset family.",
+      "No recognizable Cologne landmark, copied viewpoint, embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 4031908
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T20:30:14.310Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first 16:9 recomposition attempt based on the approved fictional ultra-wide day scene.",
+    "The taller frame adds plausible lower-right riverbank depth while retaining a dark low-detail left 32 percent for localized interface content.",
+    "River, original truss bridge, generic cable-stayed bridge, and civic skyline remain coordinated with the Köln asset family.",
+    "No recognizable Cologne landmark, copied viewpoint, embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

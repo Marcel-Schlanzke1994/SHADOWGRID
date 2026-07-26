@@ -1,0 +1,27 @@
+Use case: stylized-concept
+Asset type: city asset for a cross-platform strategy game
+Primary request: Create a premium ultra-realistic visual asset for the multiplayer strategy game SHADOWGRID.
+Scene/backdrop: Plausible contemporary German city, with locally coherent architecture, economy, transport and public space; fictionalized rather than copied from a photograph.
+Subject: Frankfurt am Main, Hesse: Square city card
+Category: city.
+Gameplay state: normal.
+Contemporary, fictionalized representation of Frankfurt am Main; no exact landmark photograph recreation; time=day.
+Style/medium: contemporary Germany; high-end urban economic strategy simulation; cinematic corporate thriller atmosphere; subtle cyber-noir; physically plausible glass, concrete, steel, stone and asphalt; original scene, not a known photograph, film frame, game screenshot or branded design.
+Composition/framing: Wide cinematic establishing composition, human eye-level or plausible elevated viewpoint, controlled depth, and calm negative space on the left for user-interface overlays.
+Lighting/mood: warm late afternoon with natural cinematic lighting, realistic reflections and restrained atmosphere.
+Color palette: black and anthracite framing, cool neutral blue-gray, restrained warm gold accents; warning red only if the gameplay state requires danger.
+Materials/textures: physically plausible dark glass, brushed metal, concrete, stone and asphalt with realistic scale.
+Constraints: no embedded captions or interface text; no real brands; no real authorities; no readable plates or addresses; no recognizable private people; no copied landmark-photo angle; space reserved for UI overlays; suitable for desktop and mobile crops; output aspect ratio 1:1.
+Avoid: Do not include: written words, captions, watermarks, signatures, existing game logos, real company logos, real police insignia, real government insignia, readable private license plates, readable private addresses, recognizable private individuals, celebrities, politicians, real criminal organizations, real gang symbols, extremist symbols, Nazi symbols, graphic violence, visible illegal instructions, firearms as the central subject, drug production, crime tutorials, copied photography, copied landmarks from an identical photo angle, fantasy skyscrapers, impossible architecture, distorted buildings, duplicate people, deformed hands, unrealistic vehicles, floating objects, overexposed neon, cartoon style, anime style, comic style, plastic mobile-game appearance, blurry image, low resolution, compression artifacts, unreadable fake text.
+Seed reference: 100105. Style lock: 1.0.0.
+
+Revision used for the accepted image:
+Revise this square fictional Frankfurt-inspired SHADOWGRID city-card backing plate while preserving the exact 1:1 canvas, original river, bridge, compact unbranded tower cluster, lower stone district, calm dark lower-water label band, overcast daylight, and premium realistic visual style.
+
+Mandatory correction: remove the isolated pointed church/cathedral spire on the far-right skyline. Replace it with low neutral original stone and glass urban blocks whose rooflines are modest, varied, physically plausible, and not religious, monumental, governmental, or recognizable. Do not add any dome, bell tower, steeple, monument, antenna landmark, real skyline element, sign, or logo. Preserve the rest of the skyline and all river/bridge geometry.
+
+Keep the entire bottom 24% calm dark low-detail water with no bridge, building, vehicle, bright lamp cluster, or detailed terrace in that label-safe band. All tower crowns must remain unbranded dark glass without bright sign-like panels.
+
+No text, letters, numbers, signs, logos, brands, stock tickers, currency symbols, interface, watermarks, identifiable people, flags, authority marks, criminal symbols, extremist symbols, weapons, violence, fraud instructions, operational wrongdoing, routes, fantasy architecture, impossible geometry, neon, warning red, blur, or fake writing.
+
+Deliver only the corrected clean premium 1:1 city-card backing plate with no isolated religious spire and with the full lower 24% preserved as calm dark water.

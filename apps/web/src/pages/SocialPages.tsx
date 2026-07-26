@@ -30,6 +30,8 @@ const assignableOrganizationRoles = [
   "intelligence_lead",
   "diplomacy_lead",
   "finance_lead",
+  "war_lead",
+  "recruitment_lead",
   "deputy",
 ] as const;
 

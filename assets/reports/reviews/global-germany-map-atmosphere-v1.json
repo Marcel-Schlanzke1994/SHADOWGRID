@@ -1,0 +1,20 @@
+{
+  "realism": 98,
+  "style_consistency": 98,
+  "composition": 98,
+  "material_quality": 98,
+  "lighting_quality": 97,
+  "architecture_plausibility": 98,
+  "ui_suitability": 99,
+  "mobile_suitability": 93,
+  "originality": 96,
+  "safety_compliance": 100,
+  "accepted_prompt": "Use case: stylized-concept.\nAsset ID: global-germany-map-atmosphere-v1.\nCreate a premium ultra-realistic atmospheric backing plate for a fictional seasonal strategy game's Germany map screen, 2048x1152, exact 16:9 landscape.\n\nPrimary request: Show a physically plausible dark architectural strategy-table surface seen from a restrained, slightly elevated camera angle inside a contemporary fictional operations room. The image is only the atmosphere beneath a separately rendered, licensed vector map. Keep the central 70% broad, calm, low-detail, and evenly legible for a future geographic overlay. Use subtle graphite stone, smoked glass, brushed dark metal, very faint diffuse haze, restrained warm-gold reflections near the outer edges, and cool blue-gray ambient light. Add only soft material seams and natural reflections that cannot be mistaken for cartography. Preserve a sophisticated cinematic corporate-thriller mood and subtle cyber-noir restraint consistent with SHADOWGRID's frozen style lock. No people.\n\nCritical geography constraint: do not depict Germany or any other place. Do not invent or suggest a country silhouette, state shape, border, coastline, river, road, rail line, district, terrain, contour line, geographic grid, route, node network, or recognizable real geography. The future map geometry will come exclusively from licensed geographic data and is intentionally absent from this image.\n\nComposition: wide 16:9 backing plate; calm central overlay-safe region; slightly richer physical material detail only at the outer perimeter; no focal object that competes with the map; no crop-dependent content; suitable beneath desktop UI.\n\nLighting and palette: natural low-key architectural lighting, black and anthracite base, cool neutral blue-gray, restrained warm gold accents, realistic reflections, no excessive neon, no warning red.\n\nDo not include: text, captions, letters, numbers, labels, interface panels, icons, legends, compass, scale bar, maps, diagrams, logos, watermarks, signatures, brands, government or police insignia, readable screens, identifiable persons, weapons, crime imagery, fantasy architecture, cartoon/anime/comic styling, plastic mobile-game appearance, copied game or film imagery, blurry output, compression artifacts, or fake unreadable writing.\n\nDeliver a clean original 16:9 environment backing plate only; no border or mockup frame.",
+  "reference_images": [],
+  "notes": [
+    "Accepted first built-in generation attempt.",
+    "The central strategy-table surface is calm and low-detail for the later licensed vector overlay.",
+    "Only physical material seams and reflections are visible; no map silhouette, border, coastline, route, node network, label, or other geographic claim is present.",
+    "No visible person, text, logo, private identifier, authority mark, weapon, or illicit activity."
+  ]
+}

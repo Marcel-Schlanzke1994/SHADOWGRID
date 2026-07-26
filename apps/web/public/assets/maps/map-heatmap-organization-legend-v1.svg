@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="1152" viewBox="0 0 2048 1152" role="img" aria-labelledby="title description">
+    <title id="title">Organization presence heatmap legend</title>
+    <desc id="description">Text-free five-step organization heatmap legend. Increasing dot count and density duplicate the color progression.</desc>
+    <defs>
+      <radialGradient id="legend-background" cx="50%" cy="44%" r="72%">
+        <stop stop-color="#253039"/>
+        <stop offset=".58" stop-color="#10161b"/>
+        <stop offset="1" stop-color="#06090c"/>
+      </radialGradient>
+      <pattern id="legend-grid" width="64" height="64" patternUnits="userSpaceOnUse">
+        <path d="M64 0H0V64" fill="none" stroke="#c9d0d3" stroke-opacity=".045" stroke-width="2"/>
+      </pattern>
+    </defs>
+    <rect width="2048" height="1152" fill="url(#legend-background)"/>
+    <rect width="2048" height="1152" fill="url(#legend-grid)"/>
+    <g>
+      <g>
+        <rect x="307.2" y="437.76" width="286.72" height="276.48" fill="#171a20"/>
+        <circle cx="450.56" cy="576" r="10" fill="#ffffff" fill-opacity="0.24"/>
+        <path d="M593.9200000000001 437.76V714.24" stroke="#f4f1e8" stroke-opacity=".28" stroke-width="3"/>
+      </g><g>
+        <rect x="593.9200000000001" y="437.76" width="286.72" height="276.48" fill="#3d334e"/>
+        <circle cx="718.6432000000001" cy="576" r="12" fill="#ffffff" fill-opacity="0.33999999999999997"/><circle cx="755.9168000000001" cy="576" r="12" fill="#ffffff" fill-opacity="0.33999999999999997"/>
+        <path d="M880.6400000000001 437.76V714.24" stroke="#f4f1e8" stroke-opacity=".28" stroke-width="3"/>
+      </g><g>
+        <rect x="880.6400000000001" y="437.76" width="286.72" height="276.48" fill="#67527c"/>
+        <circle cx="986.7264000000001" cy="576" r="14" fill="#ffffff" fill-opacity="0.44"/><circle cx="1024" cy="576" r="14" fill="#ffffff" fill-opacity="0.44"/><circle cx="1061.2736000000002" cy="576" r="14" fill="#ffffff" fill-opacity="0.44"/>
+        <path d="M1167.3600000000001 437.76V714.24" stroke="#f4f1e8" stroke-opacity=".28" stroke-width="3"/>
+      </g><g>
+        <rect x="1167.3600000000001" y="437.76" width="286.72" height="276.48" fill="#a08273"/>
+        <circle cx="1254.8096" cy="576" r="16" fill="#ffffff" fill-opacity="0.54"/><circle cx="1292.0832" cy="576" r="16" fill="#ffffff" fill-opacity="0.54"/><circle cx="1329.3568" cy="576" r="16" fill="#ffffff" fill-opacity="0.54"/><circle cx="1366.6304000000002" cy="576" r="16" fill="#ffffff" fill-opacity="0.54"/>
+        <path d="M1454.0800000000002 437.76V714.24" stroke="#f4f1e8" stroke-opacity=".28" stroke-width="3"/>
+      </g><g>
+        <rect x="1454.0800000000002" y="437.76" width="286.72" height="276.48" fill="#d8b15b"/>
+        <circle cx="1522.8928" cy="576" r="18" fill="#ffffff" fill-opacity="0.64"/><circle cx="1560.1664" cy="576" r="18" fill="#ffffff" fill-opacity="0.64"/><circle cx="1597.44" cy="576" r="18" fill="#ffffff" fill-opacity="0.64"/><circle cx="1634.7136000000003" cy="576" r="18" fill="#ffffff" fill-opacity="0.64"/><circle cx="1671.9872000000003" cy="576" r="18" fill="#ffffff" fill-opacity="0.64"/>
+        <path d="M1740.8000000000002 437.76V714.24" stroke="#f4f1e8" stroke-opacity=".28" stroke-width="3"/>
+      </g>
+      <rect x="307.2" y="437.76" width="1433.6000000000001" height="276.48" rx="18" fill="none" stroke="#f4f1e8" stroke-opacity=".62" stroke-width="5"/>
+    </g>
+    <path d="M307.2 768.24H1740.8000000000002" stroke="#d8b15b" stroke-opacity=".42" stroke-width="3"/>
+    <rect x="32" y="32" width="1984" height="1088" rx="24" fill="none" stroke="#d8b15b" stroke-opacity=".14" stroke-width="3"/>
+    </svg>

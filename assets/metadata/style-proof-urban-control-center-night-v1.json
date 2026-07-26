@@ -1,0 +1,152 @@
+{
+  "asset_id": "style-proof-urban-control-center-night-v1",
+  "manifest_order": 2,
+  "category": "style-proof",
+  "batch": "style-proof",
+  "city": null,
+  "variant": "night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/style-proof-urban-control-center-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100002,
+  "content_hash": "a0af38b1d2515865dc88c63181e92a220ce9b09de3766c92916ec4bf45cf6ca7",
+  "source_file": "assets/source/style-proof/style-proof-urban-control-center-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/style-proof-urban-control-center-night-v1-320.avif",
+      "bytes": 6978,
+      "sha256": "078f275878d684435324e200e1b5429c8a38c0b030c04d4ad6a382283869c071"
+    },
+    {
+      "path": "assets/production/webp/style-proof-urban-control-center-night-v1-320.webp",
+      "bytes": 6816,
+      "sha256": "fee3a1ce896fddbaf4d7dfeeda19fda219dfcf410fd063cc9fadb4e29d77c300"
+    },
+    {
+      "path": "assets/production/avif/style-proof-urban-control-center-night-v1-640.avif",
+      "bytes": 24366,
+      "sha256": "5551dcc4330ab57ba754da9047f1b9f846a6a4cdbc96b16d6525653be1c9f188"
+    },
+    {
+      "path": "assets/production/webp/style-proof-urban-control-center-night-v1-640.webp",
+      "bytes": 24462,
+      "sha256": "4c6af872095fa5ab25ee380b519754441648abbf8c1d0e8e8194de8ba8f4e2d1"
+    },
+    {
+      "path": "assets/production/avif/style-proof-urban-control-center-night-v1-960.avif",
+      "bytes": 60566,
+      "sha256": "d4ea25b04184256ddd005978cd46cf221e6e2ab5b386d84089ffa70329c31933"
+    },
+    {
+      "path": "assets/production/webp/style-proof-urban-control-center-night-v1-960.webp",
+      "bytes": 56194,
+      "sha256": "3bb9d2c16434e1289fd8671614c1313d6eae1da1c72ee5f5235b743b09b2a031"
+    },
+    {
+      "path": "assets/production/avif/style-proof-urban-control-center-night-v1-1280.avif",
+      "bytes": 98770,
+      "sha256": "0f68ddf7d4579284a2b0d9389dc835d1020e4fa3fe9f84c087bae525e1ac3c12"
+    },
+    {
+      "path": "assets/production/webp/style-proof-urban-control-center-night-v1-1280.webp",
+      "bytes": 86122,
+      "sha256": "bae5495387cfac5f651639b31b9b320a25f9b6800bc0d3589092c9b8c7dd65eb"
+    },
+    {
+      "path": "assets/production/avif/style-proof-urban-control-center-night-v1-1920.avif",
+      "bytes": 154225,
+      "sha256": "020b097954d0edef3b730699d610c5d72296a76d8f368bd10390c0e9234edae8"
+    },
+    {
+      "path": "assets/production/webp/style-proof-urban-control-center-night-v1-1920.webp",
+      "bytes": 141360,
+      "sha256": "9c8bc1b41810d81038cfaa85fce4855822ba0fd67d6427ed6ab52426bc2eaa1b"
+    },
+    {
+      "path": "assets/production/avif/style-proof-urban-control-center-night-v1-2560.avif",
+      "bytes": 550504,
+      "sha256": "085dcc59e246e90e285280d86570c6f6daa89f1d64c4857809b5477de5d606af"
+    },
+    {
+      "path": "assets/production/webp/style-proof-urban-control-center-night-v1-2560.webp",
+      "bytes": 185848,
+      "sha256": "c93adedb82b98feb859a55bb6fb4d9fd4df1525ab8eb8a2ff50229996428dcbb"
+    },
+    {
+      "path": "assets/production/avif/style-proof-urban-control-center-night-v1-3840.avif",
+      "bytes": 905404,
+      "sha256": "272593c45149c821ec909fc6f735dc714ae7fcc169385e049d47b532748c7c42"
+    },
+    {
+      "path": "assets/production/webp/style-proof-urban-control-center-night-v1-3840.webp",
+      "bytes": 291210,
+      "sha256": "5082341e4459c5bb2c2b3fabba32c9976eef6de9ce0f44fe750c771256067777"
+    },
+    {
+      "path": "assets/production/png/style-proof-urban-control-center-night-v1-1280.png",
+      "bytes": 1627228,
+      "sha256": "1b6ed6fdfb8c5d502818dd6a72d914f8e3f49048b01d7320a382f8c9f3edd54d"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 91.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 93,
+    "style_consistency": 93,
+    "composition": 91,
+    "material_quality": 93,
+    "lighting_quality": 95,
+    "architecture_plausibility": 90,
+    "ui_suitability": 89,
+    "mobile_suitability": 84,
+    "originality": 91,
+    "safety_compliance": 100,
+    "notes": [
+      "Accepted first attempt.",
+      "Interior light surfaces remain abstract and contain no legible interface text.",
+      "Dark left-side sky and city field provides usable overlay space."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3925506
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T13:21:05.465Z",
+  "license": "project-owned-generated-asset",
+  "notes": [
+    "Accepted first attempt.",
+    "Interior light surfaces remain abstract and contain no legible interface text.",
+    "Dark left-side sky and city field provides usable overlay space."
+  ],
+  "runtime_files": []
+}

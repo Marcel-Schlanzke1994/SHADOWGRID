@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-muenchen-desktop-day-v1",
+  "manifest_order": 93,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "muenchen",
+  "variant": "desktop-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-muenchen-desktop-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100093,
+  "content_hash": "27ce1e84b8eb0c26999745b13c570a739989c1cba41938018a11a55c68eab129",
+  "source_file": "assets/source/cities/city-muenchen-desktop-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-muenchen-desktop-day-v1-320.avif",
+      "bytes": 4745,
+      "sha256": "35fbfc1835a48bdf9cbfdc406942ac3a6cd7dae810863d1ad0e26c2d3153c6f0"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-desktop-day-v1-320.webp",
+      "bytes": 4574,
+      "sha256": "26799dc7b4f2fe762518aaddeae3d1f25afefa98854bb7b3da15d76be075e461"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-desktop-day-v1-640.avif",
+      "bytes": 15944,
+      "sha256": "a7ca0212b9083d18a60c07f0c4d9fa2700d291b584740f2321bc782285babf81"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-desktop-day-v1-640.webp",
+      "bytes": 16588,
+      "sha256": "6367a529f7671118ac247f8f6c6461d9b41cc4380446b130b9be55dec004dbc2"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-desktop-day-v1-960.avif",
+      "bytes": 107700,
+      "sha256": "9f06ef402b8ea1371a2b686b2070ddbd69b271faee9de821069eee62a88f0591"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-desktop-day-v1-960.webp",
+      "bytes": 40358,
+      "sha256": "ca1a7a3bddaf43ca2fcd5e85c904ccdac76c1695a1c1e60f27195d3bca1231b2"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-desktop-day-v1-1280.avif",
+      "bytes": 174575,
+      "sha256": "f757ff4256b00217a6757c7da401838fb9cc27168c86127c738318418c9be583"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-desktop-day-v1-1280.webp",
+      "bytes": 65576,
+      "sha256": "b05e58fcf9fa0a0dad5c73b791413775ce6f22deaf1911b1634f44773760f21a"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-desktop-day-v1-1920.avif",
+      "bytes": 351294,
+      "sha256": "caef808a90c95e54371f9505fd0bd33126707b7a684ee367102d29681a24f957"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-desktop-day-v1-1920.webp",
+      "bytes": 112232,
+      "sha256": "872b017ba28dd75a77bc88c583aa8553f5a1bac4ea8f8f9d387f1f51bb28cdc3"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-desktop-day-v1-2560.avif",
+      "bytes": 527723,
+      "sha256": "e9347241df41abe9e05aaccf16d6acc9dc19504f3b7c6423ac589e3c581eb913"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-desktop-day-v1-2560.webp",
+      "bytes": 150878,
+      "sha256": "5f90a7894c4c4794a28bd3801b0257e478d8bf70711e7064cb4273f0be4ddcb5"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-desktop-day-v1-3840.avif",
+      "bytes": 880361,
+      "sha256": "bbaf253fa9e426379df42885f7f87871772ba89aed120f592bf4c047a32f4cb9"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-desktop-day-v1-3840.webp",
+      "bytes": 243136,
+      "sha256": "c20889a95951b2db11aaef6ce8859e0186b71aad4ef6872c3c7fb0ad6fefc4a9"
+    },
+    {
+      "path": "assets/production/png/city-muenchen-desktop-day-v1-1280.png",
+      "bytes": 1643775,
+      "sha256": "78e8d675d1cf1c10cf125c075466197f30889ce79f455316013974e5cce2f358"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-day-v1-320.avif",
+      "bytes": 4745,
+      "sha256": "35fbfc1835a48bdf9cbfdc406942ac3a6cd7dae810863d1ad0e26c2d3153c6f0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-day-v1-320.webp",
+      "bytes": 4574,
+      "sha256": "26799dc7b4f2fe762518aaddeae3d1f25afefa98854bb7b3da15d76be075e461"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-day-v1-640.avif",
+      "bytes": 15944,
+      "sha256": "a7ca0212b9083d18a60c07f0c4d9fa2700d291b584740f2321bc782285babf81"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-day-v1-640.webp",
+      "bytes": 16588,
+      "sha256": "6367a529f7671118ac247f8f6c6461d9b41cc4380446b130b9be55dec004dbc2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-day-v1-960.avif",
+      "bytes": 107700,
+      "sha256": "9f06ef402b8ea1371a2b686b2070ddbd69b271faee9de821069eee62a88f0591"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-day-v1-960.webp",
+      "bytes": 40358,
+      "sha256": "ca1a7a3bddaf43ca2fcd5e85c904ccdac76c1695a1c1e60f27195d3bca1231b2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-day-v1-1280.avif",
+      "bytes": 174575,
+      "sha256": "f757ff4256b00217a6757c7da401838fb9cc27168c86127c738318418c9be583"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-day-v1-1280.webp",
+      "bytes": 65576,
+      "sha256": "b05e58fcf9fa0a0dad5c73b791413775ce6f22deaf1911b1634f44773760f21a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-day-v1-1920.avif",
+      "bytes": 351294,
+      "sha256": "caef808a90c95e54371f9505fd0bd33126707b7a684ee367102d29681a24f957"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-day-v1-1920.webp",
+      "bytes": 112232,
+      "sha256": "872b017ba28dd75a77bc88c583aa8553f5a1bac4ea8f8f9d387f1f51bb28cdc3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-day-v1-2560.avif",
+      "bytes": 527723,
+      "sha256": "e9347241df41abe9e05aaccf16d6acc9dc19504f3b7c6423ac589e3c581eb913"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-day-v1-2560.webp",
+      "bytes": 150878,
+      "sha256": "5f90a7894c4c4794a28bd3801b0257e478d8bf70711e7064cb4273f0be4ddcb5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-day-v1-3840.avif",
+      "bytes": 880361,
+      "sha256": "bbaf253fa9e426379df42885f7f87871772ba89aed120f592bf4c047a32f4cb9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-day-v1-3840.webp",
+      "bytes": 243136,
+      "sha256": "c20889a95951b2db11aaef6ce8859e0186b71aad4ef6872c3c7fb0ad6fefc4a9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-desktop-day-v1-1280.png",
+      "bytes": 1643775,
+      "sha256": "78e8d675d1cf1c10cf125c075466197f30889ce79f455316013974e5cce2f358"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 98.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 98,
+    "lighting_quality": 99,
+    "architecture_plausibility": 98,
+    "ui_suitability": 100,
+    "mobile_suitability": 94,
+    "originality": 96,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create a separately composed 16:9 desktop hero for the same accepted fictional München-inspired SHADOWGRID city shown in the reference.\n\nOutput composition: exact 16:9 landscape, intended final size 2048×1152. Reframe and reconstruct the environment for the taller desktop canvas rather than merely cropping the ultra-wide image. Preserve the fictional identity: broad clear urban river, landscaped embankments, original low-profile bridge, high-quality tree-lined public realm, pale-stone historic-influenced blocks with varied pitched roofs, restrained contemporary technology and research offices, and subtle distant foothill terrain. All river, street, transit, campus, corporate, and civic layouts must remain fictional and non-operational.\n\nReserve a calm dark low-detail area across the left 32% for localized UI. Place the principal river, bridge, public realm, and pale-stone/technology district center-right. Add physically plausible foreground depth in the lower right through wet stone terraces, trees, river edge, and original public-space geometry. Keep important shapes inside the inner 84% crop-safe area. No focal people or crowds.\n\nLighting and style: crisp but restrained post-rain southern daylight under layered clouds, cool neutral blue-gray atmosphere, subtle warm-gold stone and window highlights, realistic wet paving, pale stone, timber accents, concrete, steel, glass, trees, and river reflections, premium contemporary architectural photography, subtle corporate-thriller mood.\n\nDo not add the Frauenkirche twin domes, Neues Rathaus, Marienplatz, Residenz, Nymphenburg Palace, Hofbräuhaus, BMW headquarters or museum, Allianz Arena, Olympic Park structures, English Garden landmarks, any exact Isar viewpoint, recognizable church silhouette, real corporate campus, flags, coats of arms, real transit maps, exact street layouts, or any known photograph/viewpoint.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, fantasy architecture, impossible geometry, dramatic fantasy mountains, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 16:9 daytime southern-metropolis environment, with no border, title, UI, or device mockup.",
+    "reference_images": [
+      "assets/source/cities/city-muenchen-ultrawide-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first 16:9 recomposition attempt.",
+      "The taller frame adds plausible lower-right wet-stone terrace, tree, and river-edge depth while retaining the dark low-detail left 32 percent for localized interface content.",
+      "River, landscaped public realm, original bridge, pale-stone district, technology offices, and subtle foothills remain coordinated with the München asset family.",
+      "No recognizable München landmark, corporate campus, exact Isar viewpoint, embedded text, logo, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3880875
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-26T07:04:41.961Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first 16:9 recomposition attempt.",
+    "The taller frame adds plausible lower-right wet-stone terrace, tree, and river-edge depth while retaining the dark low-detail left 32 percent for localized interface content.",
+    "River, landscaped public realm, original bridge, pale-stone district, technology offices, and subtle foothills remain coordinated with the München asset family.",
+    "No recognizable München landmark, corporate campus, exact Isar viewpoint, embedded text, logo, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

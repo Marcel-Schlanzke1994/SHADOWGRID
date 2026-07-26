@@ -1,0 +1,32 @@
+Use case: stylized-concept
+Asset type: city asset for a cross-platform strategy game
+Primary request: Create a premium ultra-realistic visual asset for the multiplayer strategy game SHADOWGRID.
+Scene/backdrop: Large diverse capital with broad streets and mixed historic, postwar and contemporary architecture; no government logos or copied tourism viewpoint.
+Subject: Berlin, Berlin: Mobile hero, night
+Category: city.
+Gameplay state: normal.
+Contemporary, fictionalized representation of Berlin; no exact landmark photograph recreation; time=night.
+Style/medium: contemporary Germany; high-end urban economic strategy simulation; cinematic corporate thriller atmosphere; subtle cyber-noir; physically plausible glass, concrete, steel, stone and asphalt; original scene, not a known photograph, film frame, game screenshot or branded design.
+Composition/framing: Portrait mobile composition with the subject in the middle third, safe areas for a top status bar and bottom controls, and calm negative space for overlays.
+Lighting/mood: realistic urban night with natural cinematic lighting, realistic reflections and restrained atmosphere.
+Color palette: black and anthracite framing, cool neutral blue-gray, restrained warm gold accents; warning red only if the gameplay state requires danger.
+Materials/textures: physically plausible dark glass, brushed metal, concrete, stone and asphalt with realistic scale.
+Constraints: no embedded captions or interface text; no real brands; no real authorities; no readable plates or addresses; no recognizable private people; no copied landmark-photo angle; space reserved for UI overlays; suitable for desktop and mobile crops; output aspect ratio 9:16.
+Avoid: Do not include: written words, captions, watermarks, signatures, existing game logos, real company logos, real police insignia, real government insignia, readable private license plates, readable private addresses, recognizable private individuals, celebrities, politicians, real criminal organizations, real gang symbols, extremist symbols, Nazi symbols, graphic violence, visible illegal instructions, firearms as the central subject, drug production, crime tutorials, copied photography, copied landmarks from an identical photo angle, fantasy skyscrapers, impossible architecture, distorted buildings, duplicate people, deformed hands, unrealistic vehicles, floating objects, overexposed neon, cartoon style, anime style, comic style, plastic mobile-game appearance, blurry image, low resolution, compression artifacts, unreadable fake text.
+Seed reference: 100088. Style lock: 1.0.0.
+
+Accepted generation prompt:
+Create the coordinated 9:16 night counterpart for this accepted fictional Berlin-inspired SHADOWGRID mobile hero.
+
+Preserve the exact portrait geometry and mobile hierarchy: calm upper 32% cloud/status area, layered fictional capital skyline and mixed architecture in the middle third, tree-lined canal and broad axis, one original diagonal low-profile bridge in the middle-lower frame, and a quieter darker bottom 18% canal area for one primary control. Keep it clearly the same fictional city and do not crop or move the bridge into the upper safe area. Do not reveal or invent any operational street, transit, government, surveillance, or civic layout.
+
+Transform the lighting to physically plausible capital-city night after rain: deep anthracite and cool blue-gray clouds, restrained warm-gold windows and street/bridge practical lights, wet stone and canal reflections, realistic dark trees and water, and readable midtone architecture. Preserve a calm low-detail upper overlay zone and dark lower action zone. Avoid saturated neon, overexposure, emergency lighting, warning-red gameplay cues, black crush, excessive haze, or spectacle.
+
+Do not add the Brandenburg Gate, Reichstag, Berlin TV Tower, Victory Column, Berlin Cathedral, Museum Island, East Side Gallery, Oberbaum Bridge, Potsdamer Platz, Alexanderplatz, government complexes, embassies, monuments, flags, real transit maps, exact street layouts, recognizable authority buildings, or any known photograph/viewpoint.
+
+No text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, surveillance instructions, routes, fantasy architecture, impossible geometry, excessive neon, blur, low resolution, compression artifacts, or fake writing.
+
+Deliver only the clean premium ultra-realistic fictional 9:16 night capital-city environment, intended final size 1152×2048, with no border, title, UI, or device mockup.
+
+Style-reference images:
+- assets/source/cities/city-berlin-mobile-day-v1.png

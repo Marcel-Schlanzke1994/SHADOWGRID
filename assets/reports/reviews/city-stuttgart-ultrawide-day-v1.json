@@ -1,0 +1,20 @@
+{
+  "realism": 99,
+  "style_consistency": 100,
+  "composition": 100,
+  "material_quality": 99,
+  "lighting_quality": 99,
+  "architecture_plausibility": 99,
+  "ui_suitability": 100,
+  "mobile_suitability": 91,
+  "originality": 97,
+  "safety_compliance": 100,
+  "revision_prompt": "Revise this fictional Stuttgart-inspired SHADOWGRID 21:9 daytime basin-city backing plate while preserving its premium ultra-realistic post-rain style, wooded green slopes, layered hillside neighborhoods, pale-stone and restrained glass research/services district, linear rainwater garden, wet terrace materials, and original non-operational geometry.\n\nMandatory UI composition correction: make the entire left 38% genuinely calm, dark, and low-detail for localized interface overlays. Extend the shadowed mature tree canopy, deep green foliage, subdued atmospheric slope, and dark wet terrace across that left safe area. Move or visually suppress the currently bright linear water, pale building edge, bright roofline, and other high-contrast detail that enters the left 38%; the rainwater garden and first pale service building must begin only center-right. Do not add lamps, paths, railings, vehicles, people, signs, or bright reflections behind the overlay zone. Keep the right and center-right city identity readable and preserve important forms inside the inner 84% crop-safe region.\n\nMandatory skyline correction: remove the single isolated narrow tower or spire on the far hillside near the center-left horizon. Replace it with continuous wooded ridge and modest low flat-roofed original hillside development. It must not read as the Stuttgart Fernsehturm, church, cathedral, civic tower, antenna, monument, or recognizable landmark. Ensure no other isolated spire, tower, dome, government silhouette, brand-associated form, museum form, or transport landmark appears.\n\nAll streets, paths, water-management features, buildings, campuses, corporate, rail, industrial, and civic geometry remain fictional and non-operational. Do not add Schlossplatz, Neues Schloss, Stuttgart Hauptbahnhof or tower, Königstraße, Staatsgalerie, Wilhelma, Mercedes-Benz Museum, Porsche Museum, real automaker logos or products, automobile plants, rail corridors, test tracks, logistics routes, or operational factory detail.\n\nNo text, letters, numbers, signs, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, criminal symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, factory procedures, vehicle schematics, fantasy architecture, impossible slopes, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the corrected clean premium ultra-realistic fictional 21:9 daytime basin-engineering-metropolis environment with the full left 38% calm and dark and the isolated distant tower removed, no border, title, UI, or device mockup.",
+  "reference_images": [],
+  "notes": [
+    "The first generation was held back because bright water and building detail entered the left overlay zone and an isolated distant tower silhouette could create a Stuttgart landmark association.",
+    "The accepted revision extends shadowed tree canopy, foliage, atmospheric slope, and wet terrace across the full left 38 percent while moving the rainwater garden and first pale service building center-right.",
+    "The isolated distant tower is replaced by continuous wooded ridge and modest neutral flat-roofed hillside development.",
+    "The documented fictional profile uses green basin topography, layered hillside neighborhoods, research and advanced-services architecture, pale stone, and a linear rainwater garden without a real automaker, campus, factory, landmark, transport plan, operational detail, embedded text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or wrongdoing."
+  ]
+}

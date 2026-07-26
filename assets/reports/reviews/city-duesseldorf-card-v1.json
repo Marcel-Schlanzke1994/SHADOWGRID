@@ -1,0 +1,22 @@
+{
+  "realism": 99,
+  "style_consistency": 100,
+  "composition": 100,
+  "material_quality": 99,
+  "lighting_quality": 99,
+  "architecture_plausibility": 99,
+  "ui_suitability": 100,
+  "mobile_suitability": 100,
+  "originality": 97,
+  "safety_compliance": 100,
+  "revision_prompt": "Revise this square fictional Düsseldorf-inspired SHADOWGRID city-card backing plate while preserving the exact 1:1 canvas, camera, river, original low-profile bridge, landscaped promenade, canal basin, pale-stone service blocks, restrained glass offices, overcast post-rain daylight, material realism, and the full calm dark lower-water label band.\n\nMandatory correction: remove the single isolated narrow pointed needle or spire on the distant skyline near the horizontal image center. Replace it with a modest low neutral original stone-and-glass urban block with a flat or gently stepped roofline. It must not read as a church, cathedral, steeple, bell tower, monument, civic tower, antenna landmark, Rheinturm, television tower, or recognizable skyline feature. Ensure no other isolated religious, monumental, governmental, fashion-brand, media-brand, or trade-fair silhouette appears. Preserve the rest of the skyline and all fictional river, canal, bridge, promenade, and building geometry.\n\nKeep the entire bottom 24% as uninterrupted calm dark low-detail open river water. Do not add any bridge, promenade, terrace, building, tree, vehicle, lamp cluster, bright reflection, railing, object, or detailed shoreline inside that label-safe band. All layouts remain fictional and non-operational.\n\nNo text, letters, numbers, signs, logos, brands, interface, watermarks, signatures, identifiable people, flags, authority marks, police insignia, criminal symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, fantasy architecture, Gehry-like distorted buildings, impossible geometry, neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the corrected clean premium ultra-realistic fictional 1:1 daytime city-card backing plate with the isolated pointed silhouette removed, the full lower 24% preserved as calm dark water, and no border, title, UI, or device mockup.",
+  "reference_images": [
+    "assets/source/cities/city-duesseldorf-desktop-day-v1.png"
+  ],
+  "notes": [
+    "The first square recomposition was held back because a single narrow pointed silhouette near the distant image center could read as a church, civic tower, or recognizable antenna landmark.",
+    "The accepted revision replaces the isolated point with modest neutral flat-roofed original development without altering the river, bridge, promenade, canal basin, or services district.",
+    "The complete lower 24 percent remains uninterrupted calm dark low-detail river water for external localized labels, badges, and one action.",
+    "No known Düsseldorf landmark, religious or civic silhouette, real brand or authority, operational layout, text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

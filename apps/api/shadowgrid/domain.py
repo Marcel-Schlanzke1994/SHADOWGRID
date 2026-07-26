@@ -200,6 +200,7 @@ def create_player_profile(
     profile = PlayerProfile(
         user_id=user.id,
         world_id=world.id,
+        city_id=home_district.city_id,
         codename=codename,
         archetype=archetype,
         home_district_id=home_district.id,
@@ -773,8 +774,10 @@ def settle_businesses(db: Session, at: datetime | None = None) -> int:
 
 
 def resolve_due(db: Session, settings: Settings) -> dict[str, int]:
+    from shadowgrid.multiplayer_domain import advance_due_wars, resolve_due_pvp
+
     now = datetime.now(UTC)
-    counts = {"operations": 0, "facilities": 0, "research": 0}
+    counts = {"operations": 0, "facilities": 0, "research": 0, "pvp": 0, "wars": 0}
     for operation in db.scalars(
         select(Operation)
         .where(Operation.status == "running", Operation.finishes_at <= now)
@@ -798,6 +801,8 @@ def resolve_due(db: Session, settings: Settings) -> dict[str, int]:
         project.status = "completed"
         project.resolved_at = now
         counts["research"] += 1
+    counts["pvp"] = resolve_due_pvp(db, settings, now)
+    counts["wars"] = advance_due_wars(db, now)
     db.commit()
     return counts
 

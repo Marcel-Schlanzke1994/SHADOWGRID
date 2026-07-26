@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-muenchen-ultrawide-night-v1",
+  "manifest_order": 92,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "muenchen",
+  "variant": "ultrawide-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-muenchen-ultrawide-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100092,
+  "content_hash": "cb03c2302ead8ae43d79011894419064d4156869f40091c7506a067c327629a7",
+  "source_file": "assets/source/cities/city-muenchen-ultrawide-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-muenchen-ultrawide-night-v1-320.avif",
+      "bytes": 3632,
+      "sha256": "8706e9e218ec803f2f0ba08443b8137664d6135130ab36c95dcda641939e2edd"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-ultrawide-night-v1-320.webp",
+      "bytes": 3530,
+      "sha256": "ed916655c2d73acd16cf569477d412d20be65fe7c3af54dfce74fdf0f96d2ac8"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-ultrawide-night-v1-640.avif",
+      "bytes": 40141,
+      "sha256": "6dc26daf46e9155356e49376b86d43cf46cbc96f6e58f25e2d522f76f25ee67e"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-ultrawide-night-v1-640.webp",
+      "bytes": 13132,
+      "sha256": "0ddf55e70471ff3a2e793513d23d4214423390bd758db55f9cba3a453b449d9f"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-ultrawide-night-v1-960.avif",
+      "bytes": 92684,
+      "sha256": "fb7173e697538611922d562deb002cd50f097dde2ea09c46785d5ecc66c32b05"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-ultrawide-night-v1-960.webp",
+      "bytes": 33652,
+      "sha256": "a232fb146e3348a9b362d1a2fbf308a7f5c2f2b62c27630b852085fa3928d49c"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-ultrawide-night-v1-1280.avif",
+      "bytes": 150694,
+      "sha256": "deab5b5a6525771eb57ff6111f7655d93171f989c43c6001f223018bd1e1dce7"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-ultrawide-night-v1-1280.webp",
+      "bytes": 55560,
+      "sha256": "10ccd6e8c1d55a6cc974b71ddd49ff38ca7a73035b18bd01cb7ca33ed1d47dfb"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-ultrawide-night-v1-1920.avif",
+      "bytes": 287777,
+      "sha256": "7b634a746e1502b32143c8d85c636d7b07c6e486c53ac0c8b0e4b5c0616d09e1"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-ultrawide-night-v1-1920.webp",
+      "bytes": 99570,
+      "sha256": "ba15ac2be7ac3f03f52e4b232877c1638c35b7bf99f910d69d875ef2039834b5"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-ultrawide-night-v1-2560.avif",
+      "bytes": 460711,
+      "sha256": "99c7e29e53534b21ec7ef121e6c7a669aff2eccc9468d6ef516bca082ec90f98"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-ultrawide-night-v1-2560.webp",
+      "bytes": 139238,
+      "sha256": "c686a8ff287c729108e91fffd7509c77c522152509027af36d99166629867bac"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-ultrawide-night-v1-3840.avif",
+      "bytes": 786966,
+      "sha256": "71fd6b6b6aa7e698c717a40183c3fd72f4d7e49b4262f39ba44027a9a0c2bec8"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-ultrawide-night-v1-3840.webp",
+      "bytes": 218186,
+      "sha256": "5b7663c30fb5596e1714d6a4b7680e76a941f5e419c00a85136134a12369663d"
+    },
+    {
+      "path": "assets/production/png/city-muenchen-ultrawide-night-v1-1280.png",
+      "bytes": 1166335,
+      "sha256": "9c30677aa894bc3c8365695f0ff0c03b09c8a46816008a92569375c5ff36ba2a"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-night-v1-320.avif",
+      "bytes": 3632,
+      "sha256": "8706e9e218ec803f2f0ba08443b8137664d6135130ab36c95dcda641939e2edd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-night-v1-320.webp",
+      "bytes": 3530,
+      "sha256": "ed916655c2d73acd16cf569477d412d20be65fe7c3af54dfce74fdf0f96d2ac8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-night-v1-640.avif",
+      "bytes": 40141,
+      "sha256": "6dc26daf46e9155356e49376b86d43cf46cbc96f6e58f25e2d522f76f25ee67e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-night-v1-640.webp",
+      "bytes": 13132,
+      "sha256": "0ddf55e70471ff3a2e793513d23d4214423390bd758db55f9cba3a453b449d9f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-night-v1-960.avif",
+      "bytes": 92684,
+      "sha256": "fb7173e697538611922d562deb002cd50f097dde2ea09c46785d5ecc66c32b05"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-night-v1-960.webp",
+      "bytes": 33652,
+      "sha256": "a232fb146e3348a9b362d1a2fbf308a7f5c2f2b62c27630b852085fa3928d49c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-night-v1-1280.avif",
+      "bytes": 150694,
+      "sha256": "deab5b5a6525771eb57ff6111f7655d93171f989c43c6001f223018bd1e1dce7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-night-v1-1280.webp",
+      "bytes": 55560,
+      "sha256": "10ccd6e8c1d55a6cc974b71ddd49ff38ca7a73035b18bd01cb7ca33ed1d47dfb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-night-v1-1920.avif",
+      "bytes": 287777,
+      "sha256": "7b634a746e1502b32143c8d85c636d7b07c6e486c53ac0c8b0e4b5c0616d09e1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-night-v1-1920.webp",
+      "bytes": 99570,
+      "sha256": "ba15ac2be7ac3f03f52e4b232877c1638c35b7bf99f910d69d875ef2039834b5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-night-v1-2560.avif",
+      "bytes": 460711,
+      "sha256": "99c7e29e53534b21ec7ef121e6c7a669aff2eccc9468d6ef516bca082ec90f98"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-night-v1-2560.webp",
+      "bytes": 139238,
+      "sha256": "c686a8ff287c729108e91fffd7509c77c522152509027af36d99166629867bac"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-night-v1-3840.avif",
+      "bytes": 786966,
+      "sha256": "71fd6b6b6aa7e698c717a40183c3fd72f4d7e49b4262f39ba44027a9a0c2bec8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-night-v1-3840.webp",
+      "bytes": 218186,
+      "sha256": "5b7663c30fb5596e1714d6a4b7680e76a941f5e419c00a85136134a12369663d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-night-v1-1280.png",
+      "bytes": 1166335,
+      "sha256": "9c30677aa894bc3c8365695f0ff0c03b09c8a46816008a92569375c5ff36ba2a"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 98.1,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 98,
+    "lighting_quality": 99,
+    "architecture_plausibility": 98,
+    "ui_suitability": 100,
+    "mobile_suitability": 92,
+    "originality": 96,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create the coordinated 21:9 night counterpart for this accepted fictional München-inspired SHADOWGRID city hero.\n\nPreserve the exact ultra-wide geometry: broad fictional urban river, landscaped embankments, original low-profile bridge, tree-lined public realm, pale-stone historic-influenced blocks, restrained contemporary technology and research offices, subtle distant foothill terrain, center-right detail placement, and calm dark low-detail left 38% UI safe area. Keep it clearly the same original city composition. Do not reveal or invent any operational street, transit, campus, corporate, or civic layout.\n\nTransform the scene to physically plausible prosperous southern-city night after rain: deep anthracite and cool blue-gray clouds, restrained warm-gold windows and public-realm practical lights, subtle bridge lighting, wet pale-stone and river reflections, realistic dark trees and water, and readable midtone architecture. Keep the left overlay area calm and dark. The distant terrain should remain barely visible and natural. Avoid saturated neon, overexposure, emergency lighting, warning-red gameplay cues, black crush, excessive haze, or spectacle.\n\nDo not add the Frauenkirche twin domes, Neues Rathaus, Marienplatz, Residenz, Nymphenburg Palace, Hofbräuhaus, BMW headquarters or museum, Allianz Arena, Olympic Park structures, English Garden landmarks, any exact Isar viewpoint, recognizable church silhouette, real corporate campus, flags, coats of arms, real transit maps, exact street layouts, or any known photograph/viewpoint.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, fantasy architecture, impossible geometry, dramatic fantasy mountains, excessive neon, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 21:9 night southern-metropolis environment, intended final size 2688×1152, with no border, title, UI, or device mockup.",
+    "reference_images": [
+      "assets/source/cities/city-muenchen-ultrawide-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first night-conversion attempt.",
+      "River, landscaped embankments, original bridge, pale-stone district, technology offices, subtle foothills, and left 38 percent UI safe area remain coordinated with the approved daytime counterpart.",
+      "Warm public-realm lighting and wet reflections remain restrained; distant terrain stays low and natural without spectacle.",
+      "No recognizable München landmark, corporate campus, exact Isar viewpoint, embedded text, logo, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 4622856
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T22:44:44.879Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first night-conversion attempt.",
+    "River, landscaped embankments, original bridge, pale-stone district, technology offices, subtle foothills, and left 38 percent UI safe area remain coordinated with the approved daytime counterpart.",
+    "Warm public-realm lighting and wet reflections remain restrained; distant terrain stays low and natural without spectacle.",
+    "No recognizable München landmark, corporate campus, exact Isar viewpoint, embedded text, logo, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

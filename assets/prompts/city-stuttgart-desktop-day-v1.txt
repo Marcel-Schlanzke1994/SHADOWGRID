@@ -1,0 +1,32 @@
+Use case: stylized-concept
+Asset type: city asset for a cross-platform strategy game
+Primary request: Create a premium ultra-realistic visual asset for the multiplayer strategy game SHADOWGRID.
+Scene/backdrop: Plausible contemporary German city, with locally coherent architecture, economy, transport and public space; fictionalized rather than copied from a photograph.
+Subject: Stuttgart, Baden-Württemberg: Desktop hero, day
+Category: city.
+Gameplay state: normal.
+Contemporary, fictionalized representation of Stuttgart; no exact landmark photograph recreation; time=day.
+Style/medium: contemporary Germany; high-end urban economic strategy simulation; cinematic corporate thriller atmosphere; subtle cyber-noir; physically plausible glass, concrete, steel, stone and asphalt; original scene, not a known photograph, film frame, game screenshot or branded design.
+Composition/framing: Wide cinematic establishing composition, human eye-level or plausible elevated viewpoint, controlled depth, and calm negative space on the left for user-interface overlays.
+Lighting/mood: natural daylight with natural cinematic lighting, realistic reflections and restrained atmosphere.
+Color palette: black and anthracite framing, cool neutral blue-gray, restrained warm gold accents; warning red only if the gameplay state requires danger.
+Materials/textures: physically plausible dark glass, brushed metal, concrete, stone and asphalt with realistic scale.
+Constraints: no embedded captions or interface text; no real brands; no real authorities; no readable plates or addresses; no recognizable private people; no copied landmark-photo angle; space reserved for UI overlays; suitable for desktop and mobile crops; output aspect ratio 16:9.
+Avoid: Do not include: written words, captions, watermarks, signatures, existing game logos, real company logos, real police insignia, real government insignia, readable private license plates, readable private addresses, recognizable private individuals, celebrities, politicians, real criminal organizations, real gang symbols, extremist symbols, Nazi symbols, graphic violence, visible illegal instructions, firearms as the central subject, drug production, crime tutorials, copied photography, copied landmarks from an identical photo angle, fantasy skyscrapers, impossible architecture, distorted buildings, duplicate people, deformed hands, unrealistic vehicles, floating objects, overexposed neon, cartoon style, anime style, comic style, plastic mobile-game appearance, blurry image, low resolution, compression artifacts, unreadable fake text.
+Seed reference: 100117. Style lock: 1.0.0.
+
+Accepted generation prompt:
+Create one distinct clean premium ultra-realistic 16:9 desktop daytime environment backing plate derived from this accepted fictional Stuttgart-inspired SHADOWGRID basin-engineering-metropolis scene.
+
+Preserve the same original city identity and materials: wooded green basin slopes, layered flat-roofed hillside neighborhoods, pale-stone and restrained glass research/services district, linear rainwater garden, planted terraces, native deciduous trees, wet dark foreground terrace, and cool overcast post-rain daylight. Recompose naturally for exact 16:9 landscape, intended final size 2048×1152, as a deliberate desktop hero rather than a mechanical center crop. Reserve the left 32% as genuinely calm, dark, low-detail negative space using shadowed tree canopy, deep green foliage, atmospheric slope, and subdued wet terrace for localized heading, body copy, and controls. Do not place water highlights, pale building edges, rooflines, lamps, paths, railings, vehicles, or other high-contrast detail behind that overlay area. Concentrate the original rainwater garden, pale research/services buildings, layered hillside neighborhoods, and green basin depth center-right. Keep important architecture inside an inner 82% crop-safe region.
+
+Maintain physically plausible pale stone, concrete, brushed metal, dark glass, planted roofs, mature trees, restrained shallow water, and wet-paving reflections, neutral blue-gray atmosphere, subtle warm highlights, premium contemporary architectural photography, realistic lens and depth, and a restrained corporate-thriller mood. Preserve a continuous neutral wooded ridge without any isolated tower, spire, dome, or landmark.
+
+All streets, paths, water-management features, buildings, campuses, corporate, rail, industrial, and civic geometry must remain fictional and non-operational. Do not include or imitate the Stuttgart Fernsehturm, Schlossplatz, Neues Schloss, Altes Schloss, Stuttgart Hauptbahnhof or its tower, Königstraße, Staatsgalerie, Wilhelma, Mercedes-Benz Museum, Porsche Museum, churches, cathedral spires, monuments, civic towers, antenna landmarks, Mercedes or Porsche logos or products, recognizable automobile plants, real rail corridors, known valley-road arrangements, Cannstatter Wasen, named vineyards, exact hillside neighborhoods, government buildings, corporate campuses, or any known photograph or viewpoint. Do not depict an identifiable real manufacturer, research institution, authority, transit operator, industrial process, factory interior, test track, logistics route, or operational transport plan.
+
+No text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, criminal symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, factory procedures, vehicle schematics, fantasy architecture, impossible slopes or structures, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.
+
+Deliver only the clean premium ultra-realistic fictional 16:9 daytime basin-engineering-metropolis environment with a genuinely calm left 32% overlay-safe area, no border, title, UI, or device mockup.
+
+Style-reference images:
+- assets/source/cities/city-stuttgart-ultrawide-day-v1.png

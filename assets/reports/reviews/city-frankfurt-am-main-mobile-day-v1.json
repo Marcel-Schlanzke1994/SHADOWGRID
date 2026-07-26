@@ -1,0 +1,22 @@
+{
+  "realism": 98,
+  "style_consistency": 100,
+  "composition": 100,
+  "material_quality": 99,
+  "lighting_quality": 99,
+  "architecture_plausibility": 98,
+  "ui_suitability": 100,
+  "mobile_suitability": 100,
+  "originality": 96,
+  "safety_compliance": 100,
+  "accepted_prompt": "Create a separately composed portrait mobile hero for the same accepted fictional Frankfurt-am-Main-inspired SHADOWGRID city in the reference.\n\nOutput composition: exact 9:16 portrait, intended final size 1152×2048. Reconstruct the environment vertically rather than cropping the landscape image. Preserve the fictional identity through a broad urban river, original low-profile bridge language, compact original glass-and-stone office-tower cluster, lower historic-influenced stone blocks, landscaped public riverfront, and restrained transport-oriented business depth. All river, bridge, street, rail, corporate, financial, data-center, and civic layouts must remain fictional and non-operational.\n\nMobile hierarchy: reserve the upper 32% as calm darker low-detail layered cloud and atmospheric distance for a status bar, localized title, and no more than three warnings. Place the compact original tower cluster, lower stone district, and landscaped riverfront in the middle third. Use one physically plausible original low-profile bridge crossing diagonally through the middle-lower frame without blocking content. Keep the bottom 18% quieter and darker through open river water and a subtle shadowed edge for one primary control. Ensure towers, lower blocks, bridge, and river remain legible on a narrow phone. No focal people or crowds.\n\nLighting and style: cool overcast post-rain daylight with restrained cloud breaks, neutral blue-gray atmosphere, subtle warm-gold glass, stone, and window highlights, realistic wet paving, stone, concrete, brushed steel, dark glass, trees, and river reflections, premium contemporary architectural photography, subtle corporate-thriller mood.\n\nDo not include or imitate the Commerzbank Tower, Messeturm, Main Tower, European Central Bank towers, Opernturm, Westend Tower crown, recognizable Frankfurt skyline arrangement, Römer, Frankfurt Cathedral, Eiserner Steg, Holbeinsteg, real trade-fair structures, bank logos, exchange symbols, real rail maps, exact bridge/street layouts, or any known photograph/viewpoint. Do not show an identifiable real financial institution or operational transport plan.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, stock tickers, currency symbols, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, fraud instructions, routes, fantasy architecture, impossible towers or bridges, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 9:16 daytime finance-metropolis environment, with no border, title, UI, or device mockup.",
+  "reference_images": [
+    "assets/source/cities/city-frankfurt-am-main-desktop-day-v1.png"
+  ],
+  "notes": [
+    "Accepted first portrait recomposition attempt.",
+    "The upper cloud field provides a calm status/title area, the middle carries the tower/stone-district and riverfront decision, and the lower open river remains dark enough for one primary control.",
+    "The diagonal original bridge, compact tower cluster, lower stone district, and landscaped riverfront retain the Frankfurt family identity without reproducing its real skyline.",
+    "No real financial institution, bank mark, exchange symbol, known landmark, text, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, fraud instruction, or operational wrongdoing is present."
+  ]
+}

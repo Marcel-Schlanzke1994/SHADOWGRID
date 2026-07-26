@@ -1,0 +1,34 @@
+Use case: stylized-concept
+Asset type: city asset for a cross-platform strategy game
+Primary request: Create a premium ultra-realistic visual asset for the multiplayer strategy game SHADOWGRID.
+Scene/backdrop: Plausible contemporary German city, with locally coherent architecture, economy, transport and public space; fictionalized rather than copied from a photograph.
+Subject: Leipzig, Saxony: Ultra-wide hero, night
+Category: city.
+Gameplay state: normal.
+Contemporary, fictionalized representation of Leipzig; no exact landmark photograph recreation; time=night.
+Style/medium: contemporary Germany; high-end urban economic strategy simulation; cinematic corporate thriller atmosphere; subtle cyber-noir; physically plausible glass, concrete, steel, stone and asphalt; original scene, not a known photograph, film frame, game screenshot or branded design.
+Composition/framing: Wide cinematic establishing composition, human eye-level or plausible elevated viewpoint, controlled depth, and calm negative space on the left for user-interface overlays.
+Lighting/mood: realistic urban night with natural cinematic lighting, realistic reflections and restrained atmosphere.
+Color palette: black and anthracite framing, cool neutral blue-gray, restrained warm gold accents; warning red only if the gameplay state requires danger.
+Materials/textures: physically plausible dark glass, brushed metal, concrete, stone and asphalt with realistic scale.
+Constraints: no embedded captions or interface text; no real brands; no real authorities; no readable plates or addresses; no recognizable private people; no copied landmark-photo angle; space reserved for UI overlays; suitable for desktop and mobile crops; output aspect ratio 21:9.
+Avoid: Do not include: written words, captions, watermarks, signatures, existing game logos, real company logos, real police insignia, real government insignia, readable private license plates, readable private addresses, recognizable private individuals, celebrities, politicians, real criminal organizations, real gang symbols, extremist symbols, Nazi symbols, graphic violence, visible illegal instructions, firearms as the central subject, drug production, crime tutorials, copied photography, copied landmarks from an identical photo angle, fantasy skyscrapers, impossible architecture, distorted buildings, duplicate people, deformed hands, unrealistic vehicles, floating objects, overexposed neon, cartoon style, anime style, comic style, plastic mobile-game appearance, blurry image, low resolution, compression artifacts, unreadable fake text.
+Seed reference: 100124. Style lock: 1.0.0.
+
+Accepted generation prompt:
+Create the coordinated 21:9 night counterpart for this accepted fictional Leipzig-inspired SHADOWGRID canal-culture-research-metropolis hero.
+
+Preserve the exact ultra-wide camera and original geometry: flat green floodplain, broad tree-lined canal bend, restrained low-profile pale-stone and dark-steel bridge entirely center-right, pale sandstone and warm-gray courtyard blocks, restrained contemporary research buildings, adapted red-brown brick cultural/workshop halls, landscaped gardens, wet foreground terrace, continuous low neutral skyline, and the full calm dark low-detail left 38% overlay-safe area. Keep it clearly the same original city composition. Do not reveal or invent any operational canal, bridge, street, path, rail, corporate, academic, cultural, trade, logistics, industrial, or civic layout.
+
+Transform the scene to physically plausible post-rain night: deep anthracite and cool blue-gray clouds, restrained irregular warm-neutral windows, subtle low-level garden and bridge practical lights, readable midtone sandstone, aged brick, brushed metal, dark glass, trees, wet paving, and canal reflections, premium contemporary architectural photography, realistic lens and depth, and a restrained corporate-thriller mood. Keep the entire left 38% dark, calm, and low-detail with only black-blue canal water, shadowed tree canopy, floodplain haze, and subdued cloud; do not add lamps, boats, bright reflections, bridge elements, paths, people, signs, screens, or architecture behind the overlay zone.
+
+Avoid concert lighting, event lighting, publishing or media screens, trade-fair illumination, billboard-like facade panels, patterned window lighting, saturated neon, overexposure, emergency lighting, warning-red gameplay cues, black crush, excessive haze, spectacle, freight lighting, or factory-process imagery. Keep all paths, bridge surfaces, terraces, and gardens empty of people.
+
+Do not add or imitate the Monument to the Battle of the Nations, Leipzig City-Hochhaus, Neues Rathaus, Altes Rathaus, Leipzig Hauptbahnhof, Augustusplatz, Leipzig University tower or facade, Gewandhaus, Leipzig Opera, St. Thomas Church, St. Nicholas Church, MDR tower, Leipzig Trade Fair glass hall, zoo landmarks, Baumwollspinnerei, churches, cathedral spires, monuments, civic towers, antenna landmarks, recognizable industrial complexes, real publishing houses, rail corridors, logistics terminals, exact canal routes, known floodplain parks, government buildings, corporate campuses, or any known photograph or viewpoint. Do not add an identifiable real cultural institution, university, publisher, media company, authority, transit operator, industrial process, warehouse operation, freight route, factory interior, logistics hub, or operational transport plan.
+
+No text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, musicians, politicians, crowds, flags, police or government insignia, criminal symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, factory or logistics procedures, fantasy architecture, impossible bridges or structures, excessive neon, blur, low resolution, compression artifacts, or fake writing.
+
+Deliver only the clean premium ultra-realistic fictional 21:9 night canal-culture-research-metropolis environment, intended final size 2688×1152, with no border, title, UI, or device mockup.
+
+Style-reference images:
+- assets/source/cities/city-leipzig-ultrawide-day-v1.png

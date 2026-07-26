@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-frankfurt-am-main-mobile-day-v1",
+  "manifest_order": 103,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "frankfurt-am-main",
+  "variant": "mobile-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-frankfurt-am-main-mobile-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100103,
+  "content_hash": "538383ed9ede7a6f7716da5ede1cc96b75d60b9c9b3790f5cfb720474334367f",
+  "source_file": "assets/source/cities/city-frankfurt-am-main-mobile-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-mobile-day-v1-320.avif",
+      "bytes": 13918,
+      "sha256": "8961e8c698da794e2ec943003e5d94cb2dc729998ec39aa77c3991f45100dff5"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-mobile-day-v1-320.webp",
+      "bytes": 14664,
+      "sha256": "fc68006752e12bfb2829ec4ef732c715d750e621a8f4a225deffd964ec2a03a7"
+    },
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-mobile-day-v1-640.avif",
+      "bytes": 50611,
+      "sha256": "0a1b246ebde276c0860c4abc0cf114254c413bce3cfd66d9af5be7250c9d1b4e"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-mobile-day-v1-640.webp",
+      "bytes": 54946,
+      "sha256": "74b7fd70b323354422dccef12b62ccc085fcf8fdc5107367b2852a6b61af18a7"
+    },
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-mobile-day-v1-960.avif",
+      "bytes": 111721,
+      "sha256": "e3f1db83e276bc68e83cd40186808deeb3af6fb24ee82421a367096ed04a7260"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-mobile-day-v1-960.webp",
+      "bytes": 111052,
+      "sha256": "ddb3b86e7ebfb22731ab31e7d471f836a5749747a78a9e203bbf06e1591ec09c"
+    },
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-mobile-day-v1-1280.avif",
+      "bytes": 146245,
+      "sha256": "d6e6db7b831016dcf5521dbba266b65bcd18b5f37d2aae0c5cd52d41fd0e33fb"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-mobile-day-v1-1280.webp",
+      "bytes": 149722,
+      "sha256": "16e22db403133bca1d2104d758772786cdf691b5bc7d55c74b6e654348c7bb95"
+    },
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-mobile-day-v1-1920.avif",
+      "bytes": 219494,
+      "sha256": "a266c6538c8b2d78a26b78285e3b8cb8ec2a933b99a5ed1f9c4af4af947eb9bf"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-mobile-day-v1-1920.webp",
+      "bytes": 238632,
+      "sha256": "accd06937e54c8b32acb90f82fe506a506ce2b30539b6714235aa6445da86e8d"
+    },
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-mobile-day-v1-2560.avif",
+      "bytes": 1205157,
+      "sha256": "dff2679bafb2944de3291d313561c0660e2a58036978cf0a0eb34e1688d0e032"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-mobile-day-v1-2560.webp",
+      "bytes": 334238,
+      "sha256": "77f9860e5ceacaad60058c7cb5f9928b053ea63ada7deff82cc79a0d429e854a"
+    },
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-mobile-day-v1-3840.avif",
+      "bytes": 1747505,
+      "sha256": "71d41f13245087271e1d70b4ea4d1e535a416c665ecb19dfff0178102c2d164f"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-mobile-day-v1-3840.webp",
+      "bytes": 558644,
+      "sha256": "d749680dc90087971391e5527e1c157ce2bf075fc10188c9013eac14e7c5ead5"
+    },
+    {
+      "path": "assets/production/png/city-frankfurt-am-main-mobile-day-v1-1152.png",
+      "bytes": 4048311,
+      "sha256": "1cb4374ed926c59c0d7ad7acb603db09b5776932ff6d5767a38b9253c3d147a7"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-mobile-day-v1-320.avif",
+      "bytes": 13918,
+      "sha256": "8961e8c698da794e2ec943003e5d94cb2dc729998ec39aa77c3991f45100dff5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-mobile-day-v1-320.webp",
+      "bytes": 14664,
+      "sha256": "fc68006752e12bfb2829ec4ef732c715d750e621a8f4a225deffd964ec2a03a7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-mobile-day-v1-640.avif",
+      "bytes": 50611,
+      "sha256": "0a1b246ebde276c0860c4abc0cf114254c413bce3cfd66d9af5be7250c9d1b4e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-mobile-day-v1-640.webp",
+      "bytes": 54946,
+      "sha256": "74b7fd70b323354422dccef12b62ccc085fcf8fdc5107367b2852a6b61af18a7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-mobile-day-v1-960.avif",
+      "bytes": 111721,
+      "sha256": "e3f1db83e276bc68e83cd40186808deeb3af6fb24ee82421a367096ed04a7260"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-mobile-day-v1-960.webp",
+      "bytes": 111052,
+      "sha256": "ddb3b86e7ebfb22731ab31e7d471f836a5749747a78a9e203bbf06e1591ec09c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-mobile-day-v1-1280.avif",
+      "bytes": 146245,
+      "sha256": "d6e6db7b831016dcf5521dbba266b65bcd18b5f37d2aae0c5cd52d41fd0e33fb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-mobile-day-v1-1280.webp",
+      "bytes": 149722,
+      "sha256": "16e22db403133bca1d2104d758772786cdf691b5bc7d55c74b6e654348c7bb95"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-mobile-day-v1-1920.avif",
+      "bytes": 219494,
+      "sha256": "a266c6538c8b2d78a26b78285e3b8cb8ec2a933b99a5ed1f9c4af4af947eb9bf"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-mobile-day-v1-1920.webp",
+      "bytes": 238632,
+      "sha256": "accd06937e54c8b32acb90f82fe506a506ce2b30539b6714235aa6445da86e8d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-mobile-day-v1-2560.avif",
+      "bytes": 1205157,
+      "sha256": "dff2679bafb2944de3291d313561c0660e2a58036978cf0a0eb34e1688d0e032"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-mobile-day-v1-2560.webp",
+      "bytes": 334238,
+      "sha256": "77f9860e5ceacaad60058c7cb5f9928b053ea63ada7deff82cc79a0d429e854a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-mobile-day-v1-3840.avif",
+      "bytes": 1747505,
+      "sha256": "71d41f13245087271e1d70b4ea4d1e535a416c665ecb19dfff0178102c2d164f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-mobile-day-v1-3840.webp",
+      "bytes": 558644,
+      "sha256": "d749680dc90087971391e5527e1c157ce2bf075fc10188c9013eac14e7c5ead5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-mobile-day-v1-1152.png",
+      "bytes": 4048311,
+      "sha256": "1cb4374ed926c59c0d7ad7acb603db09b5776932ff6d5767a38b9253c3d147a7"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 99,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 99,
+    "lighting_quality": 99,
+    "architecture_plausibility": 98,
+    "ui_suitability": 100,
+    "mobile_suitability": 100,
+    "originality": 96,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create a separately composed portrait mobile hero for the same accepted fictional Frankfurt-am-Main-inspired SHADOWGRID city in the reference.\n\nOutput composition: exact 9:16 portrait, intended final size 1152×2048. Reconstruct the environment vertically rather than cropping the landscape image. Preserve the fictional identity through a broad urban river, original low-profile bridge language, compact original glass-and-stone office-tower cluster, lower historic-influenced stone blocks, landscaped public riverfront, and restrained transport-oriented business depth. All river, bridge, street, rail, corporate, financial, data-center, and civic layouts must remain fictional and non-operational.\n\nMobile hierarchy: reserve the upper 32% as calm darker low-detail layered cloud and atmospheric distance for a status bar, localized title, and no more than three warnings. Place the compact original tower cluster, lower stone district, and landscaped riverfront in the middle third. Use one physically plausible original low-profile bridge crossing diagonally through the middle-lower frame without blocking content. Keep the bottom 18% quieter and darker through open river water and a subtle shadowed edge for one primary control. Ensure towers, lower blocks, bridge, and river remain legible on a narrow phone. No focal people or crowds.\n\nLighting and style: cool overcast post-rain daylight with restrained cloud breaks, neutral blue-gray atmosphere, subtle warm-gold glass, stone, and window highlights, realistic wet paving, stone, concrete, brushed steel, dark glass, trees, and river reflections, premium contemporary architectural photography, subtle corporate-thriller mood.\n\nDo not include or imitate the Commerzbank Tower, Messeturm, Main Tower, European Central Bank towers, Opernturm, Westend Tower crown, recognizable Frankfurt skyline arrangement, Römer, Frankfurt Cathedral, Eiserner Steg, Holbeinsteg, real trade-fair structures, bank logos, exchange symbols, real rail maps, exact bridge/street layouts, or any known photograph/viewpoint. Do not show an identifiable real financial institution or operational transport plan.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, stock tickers, currency symbols, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, fraud instructions, routes, fantasy architecture, impossible towers or bridges, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 9:16 daytime finance-metropolis environment, with no border, title, UI, or device mockup.",
+    "reference_images": [
+      "assets/source/cities/city-frankfurt-am-main-desktop-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first portrait recomposition attempt.",
+      "The upper cloud field provides a calm status/title area, the middle carries the tower/stone-district and riverfront decision, and the lower open river remains dark enough for one primary control.",
+      "The diagonal original bridge, compact tower cluster, lower stone district, and landscaped riverfront retain the Frankfurt family identity without reproducing its real skyline.",
+      "No real financial institution, bank mark, exchange symbol, known landmark, text, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, fraud instruction, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 4048834
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-26T08:43:00.553Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first portrait recomposition attempt.",
+    "The upper cloud field provides a calm status/title area, the middle carries the tower/stone-district and riverfront decision, and the lower open river remains dark enough for one primary control.",
+    "The diagonal original bridge, compact tower cluster, lower stone district, and landscaped riverfront retain the Frankfurt family identity without reproducing its real skyline.",
+    "No real financial institution, bank mark, exchange symbol, known landmark, text, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, fraud instruction, or operational wrongdoing is present."
+  ]
+}

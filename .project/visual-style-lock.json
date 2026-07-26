@@ -1,0 +1,72 @@
+{
+  "project": "SHADOWGRID",
+  "version": "1.0.0",
+  "status": "frozen",
+  "frozen_at": "2026-07-25T13:22:47.837Z",
+  "visual_identity": [
+    "ultra-realistic contemporary German urban environments",
+    "premium economic strategy interface",
+    "cinematic urban thriller atmosphere",
+    "subtle cyber-noir",
+    "dark glass and brushed metal",
+    "restrained gold accents",
+    "warning red only for danger",
+    "physically plausible materials",
+    "natural cinematic lighting",
+    "high readability under UI overlays"
+  ],
+  "forbidden_styles": [
+    "cartoon",
+    "anime",
+    "comic",
+    "mobile game plastic look",
+    "fantasy city",
+    "excessive neon",
+    "steampunk",
+    "retro 1930s mafia",
+    "copied movie aesthetic",
+    "copied game aesthetic"
+  ],
+  "color_intent": {
+    "base": "black and anthracite",
+    "primary_accent": "restrained warm gold",
+    "danger": "dark warning red",
+    "information": "cool neutral blue-gray",
+    "success": "muted green"
+  },
+  "lighting": [
+    "natural daylight",
+    "warm dusk",
+    "realistic urban night",
+    "subtle volumetric atmosphere"
+  ],
+  "camera": [
+    "cinematic establishing shots",
+    "architectural photography",
+    "controlled depth",
+    "no extreme fisheye",
+    "no impossible drone angles"
+  ],
+  "style_proof_assets": [
+    {
+      "asset_id": "style-proof-urban-control-center-day-v1",
+      "status": "approved"
+    },
+    {
+      "asset_id": "style-proof-urban-control-center-night-v1",
+      "status": "approved"
+    },
+    {
+      "asset_id": "style-proof-german-metropolis-day-v1",
+      "status": "approved"
+    },
+    {
+      "asset_id": "style-proof-german-metropolis-night-v1",
+      "status": "approved"
+    },
+    {
+      "asset_id": "style-proof-corporate-headquarters-v1",
+      "status": "approved"
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-berlin-card-v1",
+  "manifest_order": 89,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "berlin",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-berlin-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100089,
+  "content_hash": "c1bfc9254bb16fbfd28a6fce9cbfb2d959a8e4465e2ece6cc671881ba70cdf44",
+  "source_file": "assets/source/cities/city-berlin-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-berlin-card-v1-320.avif",
+      "bytes": 9433,
+      "sha256": "1c2acf7b5caad10b7dfdaf3acbf741d9bc9cfe90483a06db60eb414ae68bf4ec"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-card-v1-320.webp",
+      "bytes": 9480,
+      "sha256": "214621ef8880b4bd5fa41ab2ec7d8fd377bcba2436d4165b1d1a861dc4396c24"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-card-v1-640.avif",
+      "bytes": 33411,
+      "sha256": "c9b361d28564b2f2bfbf7dea8c2d2c9a2b87d79677891769192abb88f1f147c8"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-card-v1-640.webp",
+      "bytes": 34660,
+      "sha256": "05e3b28b4150aae2035fd1f3863da8641f052235c8e99b4eb917a296e0f20815"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-card-v1-960.avif",
+      "bytes": 83513,
+      "sha256": "a996af0c7ff51a038c3dbc50239350d40efbaffb123134da5ea9d5dc3f4acc74"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-card-v1-960.webp",
+      "bytes": 77954,
+      "sha256": "ebc76fdc55030ad86cd1cf03d374a5a07ac25d75034c1e4aec3bca02710963e7"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-card-v1-1280.avif",
+      "bytes": 117897,
+      "sha256": "97b17194c258bbd658e46edbe228335aea7e24dab53d91efc968876dd9cf442c"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-card-v1-1280.webp",
+      "bytes": 112414,
+      "sha256": "0f1c573dcc3a39035bc9af992c02be65cf3d3f494a5809c26680b1d2e82ed65c"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-card-v1-1920.avif",
+      "bytes": 172960,
+      "sha256": "8594026f5d00192188c1cc2b199218b2827c0d43c27fc0f55158da21fa9f2ab3"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-card-v1-1920.webp",
+      "bytes": 173086,
+      "sha256": "507fde4129742ee5e15eda7264df7f90ea8e7649d720c3c3f84eefc55a009a1a"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-card-v1-2560.avif",
+      "bytes": 229805,
+      "sha256": "87c02db05569925340c210a94eb309340ea33e4fded8bf8c91da95766b03e7a3"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-card-v1-2560.webp",
+      "bytes": 242516,
+      "sha256": "c1767e13ec774ffb82237e6e9b780f32436e2bf05fc151b06fa0d9128d51c342"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-card-v1-3840.avif",
+      "bytes": 1365942,
+      "sha256": "423d1e820be3cdaf6b7769523c5ad7aae75e191d62f29d8d26c6aae6580a3e83"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-card-v1-3840.webp",
+      "bytes": 394768,
+      "sha256": "00d64b84f4530759164481feee79efa331fa1c6246fb46a9985bd291dea0b708"
+    },
+    {
+      "path": "assets/production/png/city-berlin-card-v1-1280.png",
+      "bytes": 2987019,
+      "sha256": "85899f9aec75960b0783e8e2fb4f06fb002da63baaf059e7ef053979e60b3bdc"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-card-v1-320.avif",
+      "bytes": 9433,
+      "sha256": "1c2acf7b5caad10b7dfdaf3acbf741d9bc9cfe90483a06db60eb414ae68bf4ec"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-card-v1-320.webp",
+      "bytes": 9480,
+      "sha256": "214621ef8880b4bd5fa41ab2ec7d8fd377bcba2436d4165b1d1a861dc4396c24"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-card-v1-640.avif",
+      "bytes": 33411,
+      "sha256": "c9b361d28564b2f2bfbf7dea8c2d2c9a2b87d79677891769192abb88f1f147c8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-card-v1-640.webp",
+      "bytes": 34660,
+      "sha256": "05e3b28b4150aae2035fd1f3863da8641f052235c8e99b4eb917a296e0f20815"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-card-v1-960.avif",
+      "bytes": 83513,
+      "sha256": "a996af0c7ff51a038c3dbc50239350d40efbaffb123134da5ea9d5dc3f4acc74"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-card-v1-960.webp",
+      "bytes": 77954,
+      "sha256": "ebc76fdc55030ad86cd1cf03d374a5a07ac25d75034c1e4aec3bca02710963e7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-card-v1-1280.avif",
+      "bytes": 117897,
+      "sha256": "97b17194c258bbd658e46edbe228335aea7e24dab53d91efc968876dd9cf442c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-card-v1-1280.webp",
+      "bytes": 112414,
+      "sha256": "0f1c573dcc3a39035bc9af992c02be65cf3d3f494a5809c26680b1d2e82ed65c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-card-v1-1920.avif",
+      "bytes": 172960,
+      "sha256": "8594026f5d00192188c1cc2b199218b2827c0d43c27fc0f55158da21fa9f2ab3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-card-v1-1920.webp",
+      "bytes": 173086,
+      "sha256": "507fde4129742ee5e15eda7264df7f90ea8e7649d720c3c3f84eefc55a009a1a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-card-v1-2560.avif",
+      "bytes": 229805,
+      "sha256": "87c02db05569925340c210a94eb309340ea33e4fded8bf8c91da95766b03e7a3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-card-v1-2560.webp",
+      "bytes": 242516,
+      "sha256": "c1767e13ec774ffb82237e6e9b780f32436e2bf05fc151b06fa0d9128d51c342"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-card-v1-3840.avif",
+      "bytes": 1365942,
+      "sha256": "423d1e820be3cdaf6b7769523c5ad7aae75e191d62f29d8d26c6aae6580a3e83"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-card-v1-3840.webp",
+      "bytes": 394768,
+      "sha256": "00d64b84f4530759164481feee79efa331fa1c6246fb46a9985bd291dea0b708"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-card-v1-1280.png",
+      "bytes": 2987019,
+      "sha256": "85899f9aec75960b0783e8e2fb4f06fb002da63baaf059e7ef053979e60b3bdc"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 98.7,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 98,
+    "lighting_quality": 99,
+    "architecture_plausibility": 97,
+    "ui_suitability": 100,
+    "mobile_suitability": 99,
+    "originality": 96,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create a separately composed square city-card image for the same accepted fictional Berlin-inspired SHADOWGRID city.\n\nOutput composition: exact 1:1 square, intended final size 1536×1536. Reconstruct the view for a premium city-selection card rather than cropping the desktop hero. Preserve the family identity: fictional modest canal, one original low-profile bridge, broad tree-lined urban axis, mixed historic stone blocks, restrained postwar modernism, adaptive-reuse brick, contemporary civic and creative offices, cool neutral blue-gray atmosphere, and subtle warm-gold highlights. All street, canal, transit, and civic arrangements must remain fictional and non-operational.\n\nUse the canal bend, original bridge, trees, and mixed-architecture district as a strong centered geometric anchor. Keep the fictional skyline in the upper-middle third with realistic atmospheric depth and physically plausible architecture. Reserve the entire bottom 24% as darker calm low-detail canal water and a subtle shadowed edge for an external localized city name, status badges, and one action. Do not place a bridge, focal building, vehicle, bright lamp cluster, or high-contrast reflection inside that bottom band. Do not embed any UI. Keep important shapes inside an inner 82% safe area for rounded card masks. No focal people or crowds.\n\nLighting and style: cool overcast daylight after light rain with a restrained cloud break, neutral blue-gray atmosphere, subtle warm-gold material and window highlights, realistic wet stone, brick, concrete, glass, trees, and canal reflections, premium contemporary architectural photography, subtle corporate-thriller mood.\n\nDo not add the Brandenburg Gate, Reichstag, Berlin TV Tower, Victory Column, Berlin Cathedral, Museum Island, East Side Gallery, Oberbaum Bridge, Potsdamer Platz, Alexanderplatz, government complexes, embassies, monuments, flags, real transit maps, exact street layouts, recognizable authority buildings, or any known photograph/viewpoint.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, surveillance instructions, routes, fantasy architecture, impossible geometry, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 1:1 daytime city-card backing plate, with no border, rounded mask, title, UI, or device mockup.",
+    "reference_images": [
+      "assets/source/cities/city-berlin-desktop-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first square-card recomposition attempt.",
+      "Canal bend, original bridge, trees, and the mixed-architecture district form a centered anchor above the label band.",
+      "The full lower 24 percent is calm dark canal water with only a narrow low-contrast shadowed edge, suitable for external localized labels, badges, and one action.",
+      "No known landmark, government site, exact street layout, embedded text, logo, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 4156095
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T22:16:51.567Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first square-card recomposition attempt.",
+    "Canal bend, original bridge, trees, and the mixed-architecture district form a centered anchor above the label band.",
+    "The full lower 24 percent is calm dark canal water with only a narrow low-contrast shadowed edge, suitable for external localized labels, badges, and one action.",
+    "No known landmark, government site, exact street layout, embedded text, logo, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

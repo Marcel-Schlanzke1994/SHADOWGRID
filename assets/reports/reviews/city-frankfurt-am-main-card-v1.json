@@ -1,0 +1,22 @@
+{
+  "realism": 98,
+  "style_consistency": 100,
+  "composition": 100,
+  "material_quality": 99,
+  "lighting_quality": 99,
+  "architecture_plausibility": 98,
+  "ui_suitability": 100,
+  "mobile_suitability": 99,
+  "originality": 97,
+  "safety_compliance": 100,
+  "revision_prompt": "Revise this square fictional Frankfurt-inspired SHADOWGRID city-card backing plate while preserving the exact 1:1 canvas, original river, bridge, compact unbranded tower cluster, lower stone district, calm dark lower-water label band, overcast daylight, and premium realistic visual style.\n\nMandatory correction: remove the isolated pointed church/cathedral spire on the far-right skyline. Replace it with low neutral original stone and glass urban blocks whose rooflines are modest, varied, physically plausible, and not religious, monumental, governmental, or recognizable. Do not add any dome, bell tower, steeple, monument, antenna landmark, real skyline element, sign, or logo. Preserve the rest of the skyline and all river/bridge geometry.\n\nKeep the entire bottom 24% calm dark low-detail water with no bridge, building, vehicle, bright lamp cluster, or detailed terrace in that label-safe band. All tower crowns must remain unbranded dark glass without bright sign-like panels.\n\nNo text, letters, numbers, signs, logos, brands, stock tickers, currency symbols, interface, watermarks, identifiable people, flags, authority marks, criminal symbols, extremist symbols, weapons, violence, fraud instructions, operational wrongdoing, routes, fantasy architecture, impossible geometry, neon, warning red, blur, or fake writing.\n\nDeliver only the corrected clean premium 1:1 city-card backing plate with no isolated religious spire and with the full lower 24% preserved as calm dark water.",
+  "reference_images": [
+    "assets/source/cities/city-frankfurt-am-main-desktop-day-v1.png"
+  ],
+  "notes": [
+    "The first square recomposition was held back because an isolated pointed church spire on the far-right skyline could read as a real cathedral association.",
+    "The accepted revision replaces the spire with modest neutral original stone and glass blocks, without altering the tower cluster, river, bridge, or lower stone district.",
+    "The complete lower 24 percent remains calm dark low-detail river water for external localized labels, badges, and one action.",
+    "No real financial institution, bank mark, exchange symbol, known landmark, religious silhouette, text, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, fraud instruction, or operational wrongdoing is present."
+  ]
+}

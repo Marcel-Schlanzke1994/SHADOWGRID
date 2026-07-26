@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-berlin-mobile-day-v1",
+  "manifest_order": 87,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "berlin",
+  "variant": "mobile-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-berlin-mobile-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100087,
+  "content_hash": "9ae6ddc4855a8e3afe220ee2d640ce8ed9e8cc422f69ee830cca533a45d37429",
+  "source_file": "assets/source/cities/city-berlin-mobile-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-berlin-mobile-day-v1-320.avif",
+      "bytes": 19448,
+      "sha256": "a156bbab18d1b5540a339acf778878fca2210fa1c53aa83554f19b73a0ab48fe"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-mobile-day-v1-320.webp",
+      "bytes": 19274,
+      "sha256": "133eccc98181e182d9f07a7cf70550f881fff2b971a93d72ef203e39973611f9"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-mobile-day-v1-640.avif",
+      "bytes": 68070,
+      "sha256": "33c78a5c660551ccb896d917f2a55a7d07183a218be26a2855af63da8bee70a8"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-mobile-day-v1-640.webp",
+      "bytes": 69428,
+      "sha256": "1c054fb68d110d04c636423f5192325c6d6233616bc558c9c373b5d731891cb2"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-mobile-day-v1-960.avif",
+      "bytes": 146922,
+      "sha256": "f6fecab1d1fef96e9c6d11ff7f6d4e322053ac09fb1045df42b11b879950efde"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-mobile-day-v1-960.webp",
+      "bytes": 139086,
+      "sha256": "d19ecb6c730aaa6399d5d41d964d9a788e9eedf5f4589660c50992303d087681"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-mobile-day-v1-1280.avif",
+      "bytes": 189744,
+      "sha256": "864000073170b2ddb6ae96ade44002db2197f0278b5dfc28871020d588e28b39"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-mobile-day-v1-1280.webp",
+      "bytes": 182440,
+      "sha256": "eb0de422d44d84b999d2e71676a29440354bc6a149be4b40b47341f7b778f333"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-mobile-day-v1-1920.avif",
+      "bytes": 280041,
+      "sha256": "750b05ffff7e250afa9a3554bd638def0c134efc70215f5383c9d7090c0cd586"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-mobile-day-v1-1920.webp",
+      "bytes": 284336,
+      "sha256": "31f5eacd4f59ea88e15b7393c72b85eaff909b2545445c2eaa66d2aaa3eba7eb"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-mobile-day-v1-2560.avif",
+      "bytes": 1319358,
+      "sha256": "cc8233756ef9bdda432f831fd2e93ab592942a6dccefbbbd08eab919280ed14f"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-mobile-day-v1-2560.webp",
+      "bytes": 401750,
+      "sha256": "a08cc7d11e07ca052655706fe53333491b973133cf6a329bd430dc166d50ef37"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-mobile-day-v1-3840.avif",
+      "bytes": 1859978,
+      "sha256": "6db329c5b57602f6d2009181bb2ace1dbb0b855af1607d7533f1223c312f4177"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-mobile-day-v1-3840.webp",
+      "bytes": 661214,
+      "sha256": "6378d20b964d9b03aa90075ed3cc60533af161c93c2e495236d63be32387017a"
+    },
+    {
+      "path": "assets/production/png/city-berlin-mobile-day-v1-1152.png",
+      "bytes": 4353674,
+      "sha256": "a3bfcb63221877983226208d606608206f094d4d635d75182782740fed9cf1aa"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-day-v1-320.avif",
+      "bytes": 19448,
+      "sha256": "a156bbab18d1b5540a339acf778878fca2210fa1c53aa83554f19b73a0ab48fe"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-day-v1-320.webp",
+      "bytes": 19274,
+      "sha256": "133eccc98181e182d9f07a7cf70550f881fff2b971a93d72ef203e39973611f9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-day-v1-640.avif",
+      "bytes": 68070,
+      "sha256": "33c78a5c660551ccb896d917f2a55a7d07183a218be26a2855af63da8bee70a8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-day-v1-640.webp",
+      "bytes": 69428,
+      "sha256": "1c054fb68d110d04c636423f5192325c6d6233616bc558c9c373b5d731891cb2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-day-v1-960.avif",
+      "bytes": 146922,
+      "sha256": "f6fecab1d1fef96e9c6d11ff7f6d4e322053ac09fb1045df42b11b879950efde"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-day-v1-960.webp",
+      "bytes": 139086,
+      "sha256": "d19ecb6c730aaa6399d5d41d964d9a788e9eedf5f4589660c50992303d087681"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-day-v1-1280.avif",
+      "bytes": 189744,
+      "sha256": "864000073170b2ddb6ae96ade44002db2197f0278b5dfc28871020d588e28b39"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-day-v1-1280.webp",
+      "bytes": 182440,
+      "sha256": "eb0de422d44d84b999d2e71676a29440354bc6a149be4b40b47341f7b778f333"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-day-v1-1920.avif",
+      "bytes": 280041,
+      "sha256": "750b05ffff7e250afa9a3554bd638def0c134efc70215f5383c9d7090c0cd586"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-day-v1-1920.webp",
+      "bytes": 284336,
+      "sha256": "31f5eacd4f59ea88e15b7393c72b85eaff909b2545445c2eaa66d2aaa3eba7eb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-day-v1-2560.avif",
+      "bytes": 1319358,
+      "sha256": "cc8233756ef9bdda432f831fd2e93ab592942a6dccefbbbd08eab919280ed14f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-day-v1-2560.webp",
+      "bytes": 401750,
+      "sha256": "a08cc7d11e07ca052655706fe53333491b973133cf6a329bd430dc166d50ef37"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-day-v1-3840.avif",
+      "bytes": 1859978,
+      "sha256": "6db329c5b57602f6d2009181bb2ace1dbb0b855af1607d7533f1223c312f4177"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-day-v1-3840.webp",
+      "bytes": 661214,
+      "sha256": "6378d20b964d9b03aa90075ed3cc60533af161c93c2e495236d63be32387017a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-mobile-day-v1-1152.png",
+      "bytes": 4353674,
+      "sha256": "a3bfcb63221877983226208d606608206f094d4d635d75182782740fed9cf1aa"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 98.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 98,
+    "lighting_quality": 99,
+    "architecture_plausibility": 97,
+    "ui_suitability": 100,
+    "mobile_suitability": 100,
+    "originality": 96,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create a separately composed portrait mobile hero for the same accepted fictional Berlin-inspired SHADOWGRID city in the reference.\n\nOutput composition: exact 9:16 portrait, intended final size 1152×2048. Reconstruct the environment vertically rather than cropping the landscape image. Preserve the fictional identity through a modest canal, original low-profile bridge language, a broad tree-lined urban axis, mixed historic stone blocks, restrained postwar modernism, adaptive-reuse brick, contemporary civic and creative offices, and layered capital-city depth. All street, canal, transit, and civic layouts must remain fictional and non-operational.\n\nMobile hierarchy: reserve the upper 32% as calm darker low-detail cloud and atmospheric city distance for a status bar, localized title, and no more than three warnings. Place the principal canal, mixed-architecture district, and broad urban axis in the middle third. Use one original physically plausible low-profile bridge crossing diagonally through the middle-lower frame without blocking content. Keep the bottom 18% quieter and darker through canal water and shadowed edge for one primary control. Ensure the canal, bridge, trees, and mixed architecture remain legible on a narrow phone. No focal people or crowds.\n\nLighting and style: cool overcast daylight after light rain with a restrained cloud break, neutral blue-gray atmosphere, subtle warm-gold material and window highlights, realistic wet asphalt, stone, brick, concrete, steel, glass, trees, and canal reflections, premium contemporary architectural photography, subtle corporate-thriller mood.\n\nDo not add the Brandenburg Gate, Reichstag, Berlin TV Tower, Victory Column, Berlin Cathedral, Museum Island, East Side Gallery, Oberbaum Bridge, Potsdamer Platz, Alexanderplatz, government complexes, embassies, monuments, flags, real transit maps, exact street layouts, recognizable authority buildings, or any known photograph/viewpoint.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, surveillance instructions, routes, fantasy architecture, impossible geometry, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 9:16 daytime capital-city environment, with no border, title, UI, or device mockup.",
+    "reference_images": [
+      "assets/source/cities/city-berlin-desktop-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first portrait recomposition attempt.",
+      "The upper cloud field provides a calm status/title area, the middle carries the canal-and-city decision, and the lower canal remains dark enough for one primary control.",
+      "The diagonal original bridge, tree-lined canal, mixed architectural eras, and layered skyline retain the Berlin family identity on a narrow phone without reproducing a real civic layout.",
+      "No known landmark, government site, exact street plan, embedded text, logo, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 4354197
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T22:05:44.947Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first portrait recomposition attempt.",
+    "The upper cloud field provides a calm status/title area, the middle carries the canal-and-city decision, and the lower canal remains dark enough for one primary control.",
+    "The diagonal original bridge, tree-lined canal, mixed architectural eras, and layered skyline retain the Berlin family identity on a narrow phone without reproducing a real civic layout.",
+    "No known landmark, government site, exact street plan, embedded text, logo, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

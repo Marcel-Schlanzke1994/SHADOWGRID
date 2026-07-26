@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-koeln-desktop-night-v1",
+  "manifest_order": 70,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "koeln",
+  "variant": "desktop-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-koeln-desktop-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100070,
+  "content_hash": "73861d3050995a8e4e187a697e73774a6c175329cb888c53ee2c86fa2d74bfd7",
+  "source_file": "assets/source/cities/city-koeln-desktop-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-koeln-desktop-night-v1-320.avif",
+      "bytes": 12120,
+      "sha256": "0f4873c65eab6bffedda66d43fd26401ba0030b3c82b9abff160fdcf21f2981b"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-desktop-night-v1-320.webp",
+      "bytes": 4386,
+      "sha256": "5f15c82b1f244734c8431482110cf0615047517fb4bb7ab6fe226ed0a778bc4e"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-desktop-night-v1-640.avif",
+      "bytes": 45426,
+      "sha256": "8b9f4c87293a5da7d62672aeb7ab17cd52e0b41fe0666a409c133931d352e1af"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-desktop-night-v1-640.webp",
+      "bytes": 16524,
+      "sha256": "adbabcaf9f082119a4f99656c47c8f8e86e2eb383c8d79add69ef0638a631bab"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-desktop-night-v1-960.avif",
+      "bytes": 108470,
+      "sha256": "23e177a977756693157980ac4da2e03bd9243be91ec800e091871f25a6e5b42d"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-desktop-night-v1-960.webp",
+      "bytes": 41772,
+      "sha256": "2f849a15ffa0fb095ef7f6f1e61b52b3b61f96af867a14f484280cf7a2d056ce"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-desktop-night-v1-1280.avif",
+      "bytes": 172591,
+      "sha256": "5f95dfdf3352054291a5cfd78ed7a4a6d8fa57f4199cc607fe56813a32be543a"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-desktop-night-v1-1280.webp",
+      "bytes": 68238,
+      "sha256": "bb8b2973d372c0cf5edacfb711db4053c351182e1ee0a55321f10d1f12cb7227"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-desktop-night-v1-1920.avif",
+      "bytes": 346498,
+      "sha256": "53edd0b7ffe4ebe05bed448ed1c4982d64745f15f4f61fd2477be9f7cb0715f5"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-desktop-night-v1-1920.webp",
+      "bytes": 118782,
+      "sha256": "556e2e24435aa9e95d525bdecc9fbc84fc4009265752c5699ce0ba8bf00c33ad"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-desktop-night-v1-2560.avif",
+      "bytes": 525201,
+      "sha256": "8c6e69baec00ccfff767684242b0622d126f996c9f5e1a781fd10adb1d77c8ee"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-desktop-night-v1-2560.webp",
+      "bytes": 161336,
+      "sha256": "697c3d684a7a16c354c586550609722b39916ff49f515c2221523b1077df535e"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-desktop-night-v1-3840.avif",
+      "bytes": 894542,
+      "sha256": "54d79431a8f6fdaf9bfce409763b5cce1688afa169eb894a68125443667baec7"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-desktop-night-v1-3840.webp",
+      "bytes": 260096,
+      "sha256": "21e2e0d87be8cac431b8394fab25279c575fb906e50843e05c956b55920fa706"
+    },
+    {
+      "path": "assets/production/png/city-koeln-desktop-night-v1-1280.png",
+      "bytes": 1440708,
+      "sha256": "dfd5191f01dc1d195d88cd08e1d3b0aca803aced397aae54e4bf7391e56b29a0"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-night-v1-320.avif",
+      "bytes": 12120,
+      "sha256": "0f4873c65eab6bffedda66d43fd26401ba0030b3c82b9abff160fdcf21f2981b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-night-v1-320.webp",
+      "bytes": 4386,
+      "sha256": "5f15c82b1f244734c8431482110cf0615047517fb4bb7ab6fe226ed0a778bc4e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-night-v1-640.avif",
+      "bytes": 45426,
+      "sha256": "8b9f4c87293a5da7d62672aeb7ab17cd52e0b41fe0666a409c133931d352e1af"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-night-v1-640.webp",
+      "bytes": 16524,
+      "sha256": "adbabcaf9f082119a4f99656c47c8f8e86e2eb383c8d79add69ef0638a631bab"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-night-v1-960.avif",
+      "bytes": 108470,
+      "sha256": "23e177a977756693157980ac4da2e03bd9243be91ec800e091871f25a6e5b42d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-night-v1-960.webp",
+      "bytes": 41772,
+      "sha256": "2f849a15ffa0fb095ef7f6f1e61b52b3b61f96af867a14f484280cf7a2d056ce"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-night-v1-1280.avif",
+      "bytes": 172591,
+      "sha256": "5f95dfdf3352054291a5cfd78ed7a4a6d8fa57f4199cc607fe56813a32be543a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-night-v1-1280.webp",
+      "bytes": 68238,
+      "sha256": "bb8b2973d372c0cf5edacfb711db4053c351182e1ee0a55321f10d1f12cb7227"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-night-v1-1920.avif",
+      "bytes": 346498,
+      "sha256": "53edd0b7ffe4ebe05bed448ed1c4982d64745f15f4f61fd2477be9f7cb0715f5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-night-v1-1920.webp",
+      "bytes": 118782,
+      "sha256": "556e2e24435aa9e95d525bdecc9fbc84fc4009265752c5699ce0ba8bf00c33ad"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-night-v1-2560.avif",
+      "bytes": 525201,
+      "sha256": "8c6e69baec00ccfff767684242b0622d126f996c9f5e1a781fd10adb1d77c8ee"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-night-v1-2560.webp",
+      "bytes": 161336,
+      "sha256": "697c3d684a7a16c354c586550609722b39916ff49f515c2221523b1077df535e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-night-v1-3840.avif",
+      "bytes": 894542,
+      "sha256": "54d79431a8f6fdaf9bfce409763b5cce1688afa169eb894a68125443667baec7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-night-v1-3840.webp",
+      "bytes": 260096,
+      "sha256": "21e2e0d87be8cac431b8394fab25279c575fb906e50843e05c956b55920fa706"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-desktop-night-v1-1280.png",
+      "bytes": 1440708,
+      "sha256": "dfd5191f01dc1d195d88cd08e1d3b0aca803aced397aae54e4bf7391e56b29a0"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 97.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 100,
+    "composition": 99,
+    "material_quality": 98,
+    "lighting_quality": 99,
+    "architecture_plausibility": 97,
+    "ui_suitability": 100,
+    "mobile_suitability": 94,
+    "originality": 93,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create the coordinated 16:9 night counterpart for this accepted fictional Köln-inspired SHADOWGRID desktop hero.\n\nPreserve the exact 16:9 canvas and the accepted fictional city geometry: broad Rhine-like river, low-profile foreground truss bridge, generic distant cable-stayed bridge, low- and mid-rise civic skyline, lower-right riverbank depth, center-right detail, and dark low-detail left 32% UI safe area. Keep it clearly the same original city composition.\n\nConvert the scene to physically plausible urban night under a deep anthracite and cool blue-gray cloudy sky. Use restrained warm-gold windows, riverside lamps, and bridge safety lighting with realistic river reflections. Maintain enough midtone detail in buildings, water, and bridge structure for interface use. Do not add saturated neon, emergency lighting, warning red as a gameplay cue, or excessive contrast. Keep the left safe area calm and dark.\n\nDo not add Cologne Cathedral, twin Gothic spires, the Hohenzollern Bridge, any recognizable real Cologne landmark, or a known photographic viewpoint.\n\nNo written words, letters, numbers, signs, captions, UI, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, trafficking routes, fantasy architecture, impossible bridge geometry, excessive neon, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic 16:9 night environment backing plate, intended final size 2048×1152, with no border or device mockup.",
+    "reference_images": [
+      "assets/source/cities/city-koeln-desktop-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first desktop night-conversion attempt.",
+      "The 16:9 geometry, lower-right depth, bridges, skyline, and left UI safe area remain coordinated with the approved desktop daytime counterpart.",
+      "Warm practical lighting and river reflections are restrained; shadow detail remains sufficient for a premium game backdrop without neon spectacle.",
+      "No recognizable Cologne landmark, copied viewpoint, embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3432242
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T20:32:59.994Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first desktop night-conversion attempt.",
+    "The 16:9 geometry, lower-right depth, bridges, skyline, and left UI safe area remain coordinated with the approved desktop daytime counterpart.",
+    "Warm practical lighting and river reflections are restrained; shadow detail remains sufficient for a premium game backdrop without neon spectacle.",
+    "No recognizable Cologne landmark, copied viewpoint, embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

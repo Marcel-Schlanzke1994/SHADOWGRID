@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-muenchen-mobile-day-v1",
+  "manifest_order": 95,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "muenchen",
+  "variant": "mobile-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-muenchen-mobile-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100095,
+  "content_hash": "c7b2837a5a8c8ce921be4b585be4a779b42d5ccd4c31cde9a0966cb975ee946f",
+  "source_file": "assets/source/cities/city-muenchen-mobile-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-muenchen-mobile-day-v1-320.avif",
+      "bytes": 18869,
+      "sha256": "b62c676b4c4c73c2101c86157bfb7236aa093ffbe59a2b6b3121b49dbad981ca"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-mobile-day-v1-320.webp",
+      "bytes": 18922,
+      "sha256": "d4cc0915b8c47bf54428ceae088328d75214462bd10903302e6c74ff783c6bb1"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-mobile-day-v1-640.avif",
+      "bytes": 69548,
+      "sha256": "ad494326eacb39995158ed3e3f4dc8ea47c144c1f833ae499b907de5d69bef96"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-mobile-day-v1-640.webp",
+      "bytes": 71890,
+      "sha256": "b0d27171e1db02b51b0fd434f53a40950d3e0c4f97c1214166c178c098055a05"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-mobile-day-v1-960.avif",
+      "bytes": 154449,
+      "sha256": "04de1417578463a801bcb1ab6a9c85570020abc512bcdb9f46299ef9fc38d23c"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-mobile-day-v1-960.webp",
+      "bytes": 147876,
+      "sha256": "6bc6b8c7f386e5c5a93991f56d9ac95a377915b89acb45ce25d481ccf8b4bcd1"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-mobile-day-v1-1280.avif",
+      "bytes": 201728,
+      "sha256": "0313b051669b31af8edccdc617829a3a38c89c5bd25bfd5eed65e10278247a09"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-mobile-day-v1-1280.webp",
+      "bytes": 196000,
+      "sha256": "399e06077bc934a97097f4c9c17acea3c2828fa3159b0d6da8fbb66b1a719ebe"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-mobile-day-v1-1920.avif",
+      "bytes": 302566,
+      "sha256": "7cbbfd1ac102da4a9e4774214c1ff961ef596a2ec73fa568397187c6a1c69b27"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-mobile-day-v1-1920.webp",
+      "bytes": 310380,
+      "sha256": "cb1a7fed74ddf5a78cfc9886ab5c8ac8ba987d42108a4d9d712ce0fc3538e717"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-mobile-day-v1-2560.avif",
+      "bytes": 1474340,
+      "sha256": "a1c67fbd388fa6b68e944d3bb79e269c4775f1d6893573cfe2661eae4cb07406"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-mobile-day-v1-2560.webp",
+      "bytes": 428334,
+      "sha256": "0eaf7981635bfe0abd9f28424f11329e22e5787d54e38f752ff97cf2aac67019"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-mobile-day-v1-3840.avif",
+      "bytes": 1971526,
+      "sha256": "b207eb49c67cc4cbf6315356d69e2d7d26edd1bebfde2abcd5ddf4e1386ea143"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-mobile-day-v1-3840.webp",
+      "bytes": 701604,
+      "sha256": "9505a9a0f5eb3a0b9234311261c4e75f4284868dbeffebe6e53e533fe98f240b"
+    },
+    {
+      "path": "assets/production/png/city-muenchen-mobile-day-v1-1152.png",
+      "bytes": 4337205,
+      "sha256": "a003e0b6b1bdf1b27e4408dc8aed224dced19ed3173b3f9a2e87d96ac839f0cd"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-mobile-day-v1-320.avif",
+      "bytes": 18869,
+      "sha256": "b62c676b4c4c73c2101c86157bfb7236aa093ffbe59a2b6b3121b49dbad981ca"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-mobile-day-v1-320.webp",
+      "bytes": 18922,
+      "sha256": "d4cc0915b8c47bf54428ceae088328d75214462bd10903302e6c74ff783c6bb1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-mobile-day-v1-640.avif",
+      "bytes": 69548,
+      "sha256": "ad494326eacb39995158ed3e3f4dc8ea47c144c1f833ae499b907de5d69bef96"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-mobile-day-v1-640.webp",
+      "bytes": 71890,
+      "sha256": "b0d27171e1db02b51b0fd434f53a40950d3e0c4f97c1214166c178c098055a05"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-mobile-day-v1-960.avif",
+      "bytes": 154449,
+      "sha256": "04de1417578463a801bcb1ab6a9c85570020abc512bcdb9f46299ef9fc38d23c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-mobile-day-v1-960.webp",
+      "bytes": 147876,
+      "sha256": "6bc6b8c7f386e5c5a93991f56d9ac95a377915b89acb45ce25d481ccf8b4bcd1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-mobile-day-v1-1280.avif",
+      "bytes": 201728,
+      "sha256": "0313b051669b31af8edccdc617829a3a38c89c5bd25bfd5eed65e10278247a09"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-mobile-day-v1-1280.webp",
+      "bytes": 196000,
+      "sha256": "399e06077bc934a97097f4c9c17acea3c2828fa3159b0d6da8fbb66b1a719ebe"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-mobile-day-v1-1920.avif",
+      "bytes": 302566,
+      "sha256": "7cbbfd1ac102da4a9e4774214c1ff961ef596a2ec73fa568397187c6a1c69b27"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-mobile-day-v1-1920.webp",
+      "bytes": 310380,
+      "sha256": "cb1a7fed74ddf5a78cfc9886ab5c8ac8ba987d42108a4d9d712ce0fc3538e717"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-mobile-day-v1-2560.avif",
+      "bytes": 1474340,
+      "sha256": "a1c67fbd388fa6b68e944d3bb79e269c4775f1d6893573cfe2661eae4cb07406"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-mobile-day-v1-2560.webp",
+      "bytes": 428334,
+      "sha256": "0eaf7981635bfe0abd9f28424f11329e22e5787d54e38f752ff97cf2aac67019"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-mobile-day-v1-3840.avif",
+      "bytes": 1971526,
+      "sha256": "b207eb49c67cc4cbf6315356d69e2d7d26edd1bebfde2abcd5ddf4e1386ea143"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-mobile-day-v1-3840.webp",
+      "bytes": 701604,
+      "sha256": "9505a9a0f5eb3a0b9234311261c4e75f4284868dbeffebe6e53e533fe98f240b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-mobile-day-v1-1152.png",
+      "bytes": 4337205,
+      "sha256": "a003e0b6b1bdf1b27e4408dc8aed224dced19ed3173b3f9a2e87d96ac839f0cd"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 99,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 98,
+    "lighting_quality": 99,
+    "architecture_plausibility": 98,
+    "ui_suitability": 100,
+    "mobile_suitability": 100,
+    "originality": 97,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create a separately composed portrait mobile hero for the same accepted fictional München-inspired SHADOWGRID city in the reference.\n\nOutput composition: exact 9:16 portrait, intended final size 1152×2048. Reconstruct the environment vertically rather than cropping the landscape image. Preserve the fictional identity through a broad clear urban river, landscaped embankments, original low-profile bridge language, high-quality tree-lined public realm, pale-stone historic-influenced blocks, restrained contemporary technology and research offices, and only subtle low distant foothill terrain. All river, street, transit, campus, corporate, and civic layouts must remain fictional and non-operational.\n\nMobile hierarchy: reserve the upper 32% as calm darker low-detail layered cloud and subtle distant terrain for a status bar, localized title, and no more than three warnings. Place the principal river, public realm, pale-stone district, and technology offices in the middle third. Use one original physically plausible low-profile bridge crossing diagonally through the middle-lower frame without blocking content. Keep the bottom 18% quieter and darker through open river water and a shadowed edge for one primary control. Ensure river, bridge, trees, and pale-stone/technology architecture remain legible on a narrow phone. No focal people or crowds.\n\nLighting and style: crisp but restrained post-rain southern daylight under layered clouds, cool neutral blue-gray atmosphere, subtle warm-gold stone and window highlights, realistic wet paving, pale stone, timber accents, concrete, steel, glass, trees, and river reflections, premium contemporary architectural photography, subtle corporate-thriller mood.\n\nDo not add the Frauenkirche twin domes, Neues Rathaus, Marienplatz, Residenz, Nymphenburg Palace, Hofbräuhaus, BMW headquarters or museum, Allianz Arena, Olympic Park structures, English Garden landmarks, any exact Isar viewpoint, recognizable church silhouette, real corporate campus, flags, coats of arms, real transit maps, exact street layouts, or any known photograph/viewpoint.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, fantasy architecture, impossible geometry, dramatic fantasy mountains, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 9:16 daytime southern-metropolis environment, with no border, title, UI, or device mockup.",
+    "reference_images": [
+      "assets/source/cities/city-muenchen-desktop-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first portrait recomposition attempt.",
+      "The upper cloud field provides a calm status/title area, the middle carries the river-and-city decision, and the lower open river remains dark enough for one primary control.",
+      "The main diagonal original bridge, landscaped embankments, pale-stone district, technology offices, and subtle foothills retain the München family identity. A smaller distant crossing remains background context and does not block UI.",
+      "No recognizable München landmark, corporate campus, exact Isar viewpoint, embedded text, logo, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 4337728
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-26T07:14:41.990Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first portrait recomposition attempt.",
+    "The upper cloud field provides a calm status/title area, the middle carries the river-and-city decision, and the lower open river remains dark enough for one primary control.",
+    "The main diagonal original bridge, landscaped embankments, pale-stone district, technology offices, and subtle foothills retain the München family identity. A smaller distant crossing remains background context and does not block UI.",
+    "No recognizable München landmark, corporate campus, exact Isar viewpoint, embedded text, logo, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

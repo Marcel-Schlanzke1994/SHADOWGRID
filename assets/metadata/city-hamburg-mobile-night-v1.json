@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-hamburg-mobile-night-v1",
+  "manifest_order": 80,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "hamburg",
+  "variant": "mobile-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-hamburg-mobile-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100080,
+  "content_hash": "f5c452578896fbb2ff44a24a4a6f43d5cf29a4ee42b2ce8d5657b72e0c5266c9",
+  "source_file": "assets/source/cities/city-hamburg-mobile-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-hamburg-mobile-night-v1-320.avif",
+      "bytes": 13491,
+      "sha256": "8b47ce3858fd5216f0cfba5fab34592292e8d85c1540bbb8b04ab22c757479fe"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-mobile-night-v1-320.webp",
+      "bytes": 12960,
+      "sha256": "6cd6ad95899cc236d7ed18f8570523aaaf94bb266936cea2e176263f7bb9cdbc"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-mobile-night-v1-640.avif",
+      "bytes": 49767,
+      "sha256": "42d23e616dd25588ee5bef7d44f79e09f74a710b40ee2ec1114aa307cd601e37"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-mobile-night-v1-640.webp",
+      "bytes": 50114,
+      "sha256": "8bba83c93e9f04c45718ca267eea2a9974fd283ec18111a5a86c8cd80245390d"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-mobile-night-v1-960.avif",
+      "bytes": 117847,
+      "sha256": "317cc52545bc3827943af63d11cf80d4d198146d5db3e9519b583b51f3eda8c5"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-mobile-night-v1-960.webp",
+      "bytes": 105290,
+      "sha256": "b01548af15815c054e795d905c5b5eaa6d907b7029127d7eff33a95d1c858c9d"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-mobile-night-v1-1280.avif",
+      "bytes": 153358,
+      "sha256": "57e7142397be26a0c37df805dba617801fc15cc5d949ab6d3eddb7e44c71232b"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-mobile-night-v1-1280.webp",
+      "bytes": 140396,
+      "sha256": "2ee7fceaa2926acc1ce8d516678072878e1f1e4b46937d780fd59d506c54b9c4"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-mobile-night-v1-1920.avif",
+      "bytes": 230400,
+      "sha256": "05f6a13c564e11749a9c672754157381a26b4c6b4965c12a10df5216f38559db"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-mobile-night-v1-1920.webp",
+      "bytes": 226988,
+      "sha256": "15b3a81b03e0eb83c65efd3870a40148659ca809064c22b17f5fc0fe443345ac"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-mobile-night-v1-2560.avif",
+      "bytes": 1246065,
+      "sha256": "3c1a8dfef44598932d65902220654f4418d01717a9237ab7e8a65307d70568e5"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-mobile-night-v1-2560.webp",
+      "bytes": 324262,
+      "sha256": "71e78f1cab0ca421278909e8d4d95dd283700419a5f6965feebc6f12614df781"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-mobile-night-v1-3840.avif",
+      "bytes": 1825313,
+      "sha256": "b2b81cf0455e104141ab8985d329b52ca8ccc6f78a07d2897cad42ba88400839"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-mobile-night-v1-3840.webp",
+      "bytes": 545878,
+      "sha256": "8d894633a4cd52836734ede60b67e1e0016458cf01465c86a25747509d61496b"
+    },
+    {
+      "path": "assets/production/png/city-hamburg-mobile-night-v1-1152.png",
+      "bytes": 3695637,
+      "sha256": "690973008074e291813e8311174b8cacf6d6fa2001862fbc80de5df8b08a3253"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-night-v1-320.avif",
+      "bytes": 13491,
+      "sha256": "8b47ce3858fd5216f0cfba5fab34592292e8d85c1540bbb8b04ab22c757479fe"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-night-v1-320.webp",
+      "bytes": 12960,
+      "sha256": "6cd6ad95899cc236d7ed18f8570523aaaf94bb266936cea2e176263f7bb9cdbc"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-night-v1-640.avif",
+      "bytes": 49767,
+      "sha256": "42d23e616dd25588ee5bef7d44f79e09f74a710b40ee2ec1114aa307cd601e37"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-night-v1-640.webp",
+      "bytes": 50114,
+      "sha256": "8bba83c93e9f04c45718ca267eea2a9974fd283ec18111a5a86c8cd80245390d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-night-v1-960.avif",
+      "bytes": 117847,
+      "sha256": "317cc52545bc3827943af63d11cf80d4d198146d5db3e9519b583b51f3eda8c5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-night-v1-960.webp",
+      "bytes": 105290,
+      "sha256": "b01548af15815c054e795d905c5b5eaa6d907b7029127d7eff33a95d1c858c9d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-night-v1-1280.avif",
+      "bytes": 153358,
+      "sha256": "57e7142397be26a0c37df805dba617801fc15cc5d949ab6d3eddb7e44c71232b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-night-v1-1280.webp",
+      "bytes": 140396,
+      "sha256": "2ee7fceaa2926acc1ce8d516678072878e1f1e4b46937d780fd59d506c54b9c4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-night-v1-1920.avif",
+      "bytes": 230400,
+      "sha256": "05f6a13c564e11749a9c672754157381a26b4c6b4965c12a10df5216f38559db"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-night-v1-1920.webp",
+      "bytes": 226988,
+      "sha256": "15b3a81b03e0eb83c65efd3870a40148659ca809064c22b17f5fc0fe443345ac"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-night-v1-2560.avif",
+      "bytes": 1246065,
+      "sha256": "3c1a8dfef44598932d65902220654f4418d01717a9237ab7e8a65307d70568e5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-night-v1-2560.webp",
+      "bytes": 324262,
+      "sha256": "71e78f1cab0ca421278909e8d4d95dd283700419a5f6965feebc6f12614df781"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-night-v1-3840.avif",
+      "bytes": 1825313,
+      "sha256": "b2b81cf0455e104141ab8985d329b52ca8ccc6f78a07d2897cad42ba88400839"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-night-v1-3840.webp",
+      "bytes": 545878,
+      "sha256": "8d894633a4cd52836734ede60b67e1e0016458cf01465c86a25747509d61496b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-mobile-night-v1-1152.png",
+      "bytes": 3695637,
+      "sha256": "690973008074e291813e8311174b8cacf6d6fa2001862fbc80de5df8b08a3253"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 98.7,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 98,
+    "lighting_quality": 99,
+    "architecture_plausibility": 97,
+    "ui_suitability": 100,
+    "mobile_suitability": 100,
+    "originality": 95,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create the coordinated 9:16 night counterpart for this accepted fictional Hamburg-inspired SHADOWGRID mobile hero.\n\nPreserve the exact portrait geometry and mobile hierarchy: calm upper 32% sky and status area, layered fictional waterways and brick waterfront city in the middle third, one original diagonal low-profile bridge in the middle-lower frame, contemporary waterfront offices, small unbranded work vessels, and a quieter darker bottom 18% for one primary control. Keep it clearly the same fictional city and do not crop or move the bridge into the upper safe area. Do not reveal or invent any operational port layout.\n\nTransform the lighting to physically plausible northern maritime night: deep anthracite and cool blue-gray rain clouds, restrained warm-gold windows and bridge/quay practical lights, wet masonry and glass reflections, realistic dark water, and readable midtone city structure. Preserve a calm low-detail upper overlay zone and dark lower action zone. Avoid saturated neon, overexposure, emergency lighting, warning-red gameplay cues, black crush, excessive haze, or spectacle.\n\nDo not add the Elbphilharmonie, recognizable Speicherstadt arrangements or viewpoints, St. Michael's Church, Hamburg Rathaus, Köhlbrand Bridge, Landungsbrücken, any exact real landmark silhouette, real shipping terminal, sensitive port infrastructure, real company livery, infrastructure identifier, or known photograph/viewpoint.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, trafficking routes, instructions, fantasy architecture, impossible bridge geometry, excessive neon, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 9:16 night city environment, intended final size 1152×2048, with no border, title, UI, or device mockup.",
+    "reference_images": [
+      "assets/source/cities/city-hamburg-mobile-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first portrait night-conversion attempt.",
+      "The upper status area, middle city-and-water decision, diagonal bridge, and darker lower control area remain coordinated with the approved portrait daytime counterpart.",
+      "Warm practical lights and wet reflections preserve depth without saturated neon, emergency cues, or loss of midtone structure.",
+      "No recognizable Hamburg landmark, sensitive port layout, embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3696160
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T21:18:40.033Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first portrait night-conversion attempt.",
+    "The upper status area, middle city-and-water decision, diagonal bridge, and darker lower control area remain coordinated with the approved portrait daytime counterpart.",
+    "Warm practical lights and wet reflections preserve depth without saturated neon, emergency cues, or loss of midtone structure.",
+    "No recognizable Hamburg landmark, sensitive port layout, embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

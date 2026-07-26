@@ -1,0 +1,65 @@
+{
+  "asset_id": "marker-cartel-headquarters-v1",
+  "manifest_order": 53,
+  "category": "marker",
+  "batch": "map-markers",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "24:24",
+  "width": 24,
+  "height": 24,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/marker-cartel-headquarters-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100053,
+  "content_hash": "c063b92dc8b5dde6d8ca0444e11e720b565c7b37caf4ada57182b8fef7d6180d",
+  "source_file": "assets/source/maps/marker-cartel-headquarters-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/marker-cartel-headquarters-v1.svg",
+      "bytes": 662,
+      "sha256": "c063b92dc8b5dde6d8ca0444e11e720b565c7b37caf4ada57182b8fef7d6180d"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/markers/marker-cartel-headquarters-v1.svg",
+      "bytes": 662,
+      "sha256": "c063b92dc8b5dde6d8ca0444e11e720b565c7b37caf4ada57182b8fef7d6180d"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 662
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T20:11:42.545Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

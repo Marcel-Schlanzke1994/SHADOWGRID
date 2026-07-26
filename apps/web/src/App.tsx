@@ -24,6 +24,7 @@ import {
   IntelPage,
   InvestigationPage,
 } from "./pages/CorePages";
+import { GermanyPage } from "./pages/GermanyPage";
 import {
   OrganizationsPage,
   DiplomacyPage,
@@ -34,6 +35,14 @@ import {
   AdminPage,
   ModerationPage,
 } from "./pages/SocialPages";
+import {
+  AlliancesPage,
+  CommunicationsPage,
+  MarketPage,
+  PvpPage,
+  TerritoriesPage,
+  WarsPage,
+} from "./pages/MultiplayerPages";
 
 function Protected({ children }: { children: React.ReactNode }) {
   const status = useAuth((state) => state.status);
@@ -91,6 +100,7 @@ export function App() {
         <Route path="/command" element={<DashboardPage />} />
         <Route path="/city" element={<CityPage />} />
         <Route path="/city/:districtId" element={<CityPage />} />
+        <Route path="/germany" element={<GermanyPage />} />
         <Route path="/businesses" element={<BusinessesPage />} />
         <Route path="/businesses/:businessId" element={<BusinessesPage />} />
         <Route path="/facilities" element={<FacilitiesPage />} />
@@ -110,6 +120,12 @@ export function App() {
           element={<OrganizationsPage />}
         />
         <Route path="/diplomacy" element={<DiplomacyPage />} />
+        <Route path="/pvp" element={<PvpPage />} />
+        <Route path="/territories" element={<TerritoriesPage />} />
+        <Route path="/wars" element={<WarsPage />} />
+        <Route path="/alliances" element={<AlliancesPage />} />
+        <Route path="/communications" element={<CommunicationsPage />} />
+        <Route path="/market" element={<MarketPage />} />
         <Route path="/research" element={<ResearchPage />} />
         <Route path="/news" element={<NewsPage />} />
         <Route path="/rankings" element={<RankingsPage />} />

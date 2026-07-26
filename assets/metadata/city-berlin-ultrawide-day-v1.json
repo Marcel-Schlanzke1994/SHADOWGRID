@@ -1,0 +1,233 @@
+{
+  "asset_id": "city-berlin-ultrawide-day-v1",
+  "manifest_order": 83,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "berlin",
+  "variant": "ultrawide-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-berlin-ultrawide-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100083,
+  "content_hash": "9d8336e44f91f47e4d1d2660990a95eb3102a972d6a1b7f554b1bb5a61edb4b6",
+  "source_file": "assets/source/cities/city-berlin-ultrawide-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-berlin-ultrawide-day-v1-320.avif",
+      "bytes": 11355,
+      "sha256": "5b54a06fac26400a7eb69e48ef228475894d18f79a3fd3ca4fca22b254a7b9f5"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-ultrawide-day-v1-320.webp",
+      "bytes": 5076,
+      "sha256": "976393287d8f3d2257ef549fe9b21a8de59583956bfbb584b4d17ebb84722546"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-ultrawide-day-v1-640.avif",
+      "bytes": 41402,
+      "sha256": "60f0b370b29a0b75f42352a86928b0ae539dc3ae57deef2d4d78e3087942c8c9"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-ultrawide-day-v1-640.webp",
+      "bytes": 17566,
+      "sha256": "86b8688913e5e6f19de94e0f7e4bd4ddc91df3596b0eeb9a1a10686c921974a3"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-ultrawide-day-v1-960.avif",
+      "bytes": 96285,
+      "sha256": "d94cded34600dc3db648902f8ecd0b86ea800a5721b7fcc1c77a5d00a2e7c4cb"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-ultrawide-day-v1-960.webp",
+      "bytes": 42602,
+      "sha256": "0ec0426cbeffab1b66529e735a0cf90d6e1cc7d098309d8f3569ddd6b883b58c"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-ultrawide-day-v1-1280.avif",
+      "bytes": 161042,
+      "sha256": "c69efed819959fe654a49ca6d2372f9c30cb56c7084e285afca459f9d067f97e"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-ultrawide-day-v1-1280.webp",
+      "bytes": 70142,
+      "sha256": "c8efec44005775a43896351029b9cae0355462b7d1da218a186a87f41c14e9fe"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-ultrawide-day-v1-1920.avif",
+      "bytes": 316212,
+      "sha256": "a7270957625fdb8ef4a3bd250af9c0d35f82cffac9a29003aff46ceaded0b163"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-ultrawide-day-v1-1920.webp",
+      "bytes": 121638,
+      "sha256": "cd91a8d5eb4024be1b5da1cd0f9046c547164582681f3c56f562a8fea1a079fa"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-ultrawide-day-v1-2560.avif",
+      "bytes": 504289,
+      "sha256": "2671d0670c8bd263f19ffd7754424c87ea4e6686a140ca1cd23f3e3689bf637d"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-ultrawide-day-v1-2560.webp",
+      "bytes": 168492,
+      "sha256": "b88b71da82705e4ed5292dfdafc5c6305c4328599343461e4536cc676dda2900"
+    },
+    {
+      "path": "assets/production/avif/city-berlin-ultrawide-day-v1-3840.avif",
+      "bytes": 850930,
+      "sha256": "9a97b85f906ab88da2ae911afeccb162c8d9f9602bc28f67ed8893133c361264"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-ultrawide-day-v1-3840.webp",
+      "bytes": 258490,
+      "sha256": "7ee89731376458be3c4cd97e86a41091678d1dab54e5d54db27a00629a0c0b79"
+    },
+    {
+      "path": "assets/production/png/city-berlin-ultrawide-day-v1-1280.png",
+      "bytes": 1359803,
+      "sha256": "b2bf4aaecd479140bcffdaa3f04eee127e6132eb40d4c08dae72bdafc6bfa5b3"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-day-v1-320.avif",
+      "bytes": 11355,
+      "sha256": "5b54a06fac26400a7eb69e48ef228475894d18f79a3fd3ca4fca22b254a7b9f5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-day-v1-320.webp",
+      "bytes": 5076,
+      "sha256": "976393287d8f3d2257ef549fe9b21a8de59583956bfbb584b4d17ebb84722546"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-day-v1-640.avif",
+      "bytes": 41402,
+      "sha256": "60f0b370b29a0b75f42352a86928b0ae539dc3ae57deef2d4d78e3087942c8c9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-day-v1-640.webp",
+      "bytes": 17566,
+      "sha256": "86b8688913e5e6f19de94e0f7e4bd4ddc91df3596b0eeb9a1a10686c921974a3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-day-v1-960.avif",
+      "bytes": 96285,
+      "sha256": "d94cded34600dc3db648902f8ecd0b86ea800a5721b7fcc1c77a5d00a2e7c4cb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-day-v1-960.webp",
+      "bytes": 42602,
+      "sha256": "0ec0426cbeffab1b66529e735a0cf90d6e1cc7d098309d8f3569ddd6b883b58c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-day-v1-1280.avif",
+      "bytes": 161042,
+      "sha256": "c69efed819959fe654a49ca6d2372f9c30cb56c7084e285afca459f9d067f97e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-day-v1-1280.webp",
+      "bytes": 70142,
+      "sha256": "c8efec44005775a43896351029b9cae0355462b7d1da218a186a87f41c14e9fe"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-day-v1-1920.avif",
+      "bytes": 316212,
+      "sha256": "a7270957625fdb8ef4a3bd250af9c0d35f82cffac9a29003aff46ceaded0b163"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-day-v1-1920.webp",
+      "bytes": 121638,
+      "sha256": "cd91a8d5eb4024be1b5da1cd0f9046c547164582681f3c56f562a8fea1a079fa"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-day-v1-2560.avif",
+      "bytes": 504289,
+      "sha256": "2671d0670c8bd263f19ffd7754424c87ea4e6686a140ca1cd23f3e3689bf637d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-day-v1-2560.webp",
+      "bytes": 168492,
+      "sha256": "b88b71da82705e4ed5292dfdafc5c6305c4328599343461e4536cc676dda2900"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-day-v1-3840.avif",
+      "bytes": 850930,
+      "sha256": "9a97b85f906ab88da2ae911afeccb162c8d9f9602bc28f67ed8893133c361264"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-day-v1-3840.webp",
+      "bytes": 258490,
+      "sha256": "7ee89731376458be3c4cd97e86a41091678d1dab54e5d54db27a00629a0c0b79"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-ultrawide-day-v1-1280.png",
+      "bytes": 1359803,
+      "sha256": "b2bf4aaecd479140bcffdaa3f04eee127e6132eb40d4c08dae72bdafc6bfa5b3"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 97.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 99,
+    "composition": 100,
+    "material_quality": 98,
+    "lighting_quality": 99,
+    "architecture_plausibility": 97,
+    "ui_suitability": 100,
+    "mobile_suitability": 92,
+    "originality": 96,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create one clean premium ultra-realistic 21:9 daytime environment backing plate for the fictional seasonal strategy/economy MMO SHADOWGRID, inspired by Berlin but not reproducing real landmarks, government sites, or a known tourism viewpoint.\n\nScene: a large diverse contemporary central-European capital with broad tree-lined urban axes, plausible mixed historic stone blocks, restrained postwar modernism, adaptive-reuse brick structures, contemporary glass-and-concrete civic and creative offices, a modest canal, and layered metropolitan depth. Evoke culture, media, research, technology, administration, and dense civic life through original architecture only. All street, rail, canal, and civic layouts must be fictional and non-operational.\n\nComposition: exact ultra-wide 21:9 landscape, intended final size 2688×1152. Use a plausible elevated human viewpoint. Reserve the left 38% as calm, dark, low-detail negative space for localized interface overlays. Concentrate the principal mixed-architecture district, original canal crossing, and broad city axis center-right. Keep important shapes inside an inner 84% crop-safe area. Use physically plausible original bridges and street geometry. No focal people or crowds.\n\nLighting and style: cool overcast daylight after light rain with a restrained break in the clouds, neutral blue-gray atmosphere, subtle warm-gold material and window highlights, realistic wet asphalt, stone, brick, concrete, steel, glass, trees, and canal reflections, premium contemporary architectural photography, subtle corporate-thriller mood, natural cinematic depth.\n\nDo not include the Brandenburg Gate, Reichstag, Berlin TV Tower, Victory Column, Berlin Cathedral, Museum Island, East Side Gallery, Oberbaum Bridge, Potsdamer Platz, Alexanderplatz, government complexes, embassies, monuments, flags, real transit maps, exact street layouts, or any known photograph/viewpoint. Do not create a recognizable real authority building or sensitive civic layout.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, surveillance instructions, routes, fantasy architecture, impossible geometry, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 21:9 daytime capital-city environment, with no border, title, UI, or device mockup.",
+    "reference_images": [],
+    "notes": [
+      "Accepted first generation attempt.",
+      "The left 38 percent is calm, dark, and low-detail; the fictional canal, mixed architectural eras, broad tree-lined axis, and civic/creative district are concentrated center-right.",
+      "Street, canal, bridge, and civic geometry is original and non-operational. The distant narrow tower has no sphere, known profile, or recognizable Berlin landmark geometry.",
+      "No real government site, authority mark, exact street layout, known viewpoint, embedded text, logo, identifiable person, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 5362850
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T21:43:34.189Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first generation attempt.",
+    "The left 38 percent is calm, dark, and low-detail; the fictional canal, mixed architectural eras, broad tree-lined axis, and civic/creative district are concentrated center-right.",
+    "Street, canal, bridge, and civic geometry is original and non-operational. The distant narrow tower has no sphere, known profile, or recognizable Berlin landmark geometry.",
+    "No real government site, authority mark, exact street layout, known viewpoint, embedded text, logo, identifiable person, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

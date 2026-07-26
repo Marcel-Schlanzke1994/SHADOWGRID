@@ -1,0 +1,90 @@
+{
+  "asset_id": "branding-shadowgrid-wordmark-compact-v1",
+  "manifest_order": 15,
+  "category": "branding",
+  "batch": "branding",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/branding-shadowgrid-wordmark-compact-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100015,
+  "content_hash": "449155f34f86a3d9878ef603b3d0e10f2abf5b7771769606188aef2f801fe4d3",
+  "source_file": "assets/source/branding/branding-shadowgrid-wordmark-compact-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/branding-shadowgrid-wordmark-compact-v1.svg",
+      "bytes": 951,
+      "sha256": "449155f34f86a3d9878ef603b3d0e10f2abf5b7771769606188aef2f801fe4d3"
+    },
+    {
+      "path": "assets/production/png/branding-shadowgrid-wordmark-compact-v1-1536.png",
+      "bytes": 45340,
+      "sha256": "ebb54e4fe10bf56a6b75eefb6bb99ffbe8ee1b2d184a297cd851ad8525da925a"
+    },
+    {
+      "path": "assets/production/webp/branding-shadowgrid-wordmark-compact-v1-1536.webp",
+      "bytes": 18794,
+      "sha256": "c7c30d94bf837a5f0e44fc74ea16b41bb86f81d4b352a24d2363526437696587"
+    }
+  ],
+  "runtime_files": [],
+  "contains_text": true,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "vector-branding-v1",
+    "reviewer": "codex-visual",
+    "reviewed_at": "2026-07-25T14:01:32.805Z",
+    "scores": {
+      "style_consistency": 95,
+      "composition": 92,
+      "small_size_legibility": 86,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "ui_suitability": 94,
+      "mobile_suitability": 94,
+      "originality": 90,
+      "technical_quality": 96,
+      "safety_compliance": 100
+    },
+    "notes": [
+      "All fourteen assets use the same hexagonal network mark, restrained gold, anthracite and off-white system.",
+      "No firearm, skull, gang, extremist, authority or real-company symbol is present.",
+      "Transparent variants were checked on dark and light preview backgrounds.",
+      "Accepted after centering both lines and increasing their safe margins."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 951
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T13:51:24.385Z",
+  "license": "project-owned-generated-asset",
+  "notes": []
+}

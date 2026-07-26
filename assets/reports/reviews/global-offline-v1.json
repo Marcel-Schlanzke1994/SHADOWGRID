@@ -1,0 +1,21 @@
+{
+  "realism": 98,
+  "style_consistency": 99,
+  "composition": 99,
+  "material_quality": 98,
+  "lighting_quality": 98,
+  "architecture_plausibility": 98,
+  "ui_suitability": 100,
+  "mobile_suitability": 98,
+  "originality": 96,
+  "safety_compliance": 100,
+  "accepted_prompt": "Use case: stylized-concept.\nAsset ID: global-offline-v1.\nCreate a premium ultra-realistic offline-state background for the fictional seasonal strategy game SHADOWGRID, intended final size 2048x1152, exact 16:9 landscape.\n\nPrimary request: Depict a wholly fictional contemporary high-rise strategy lounge in a calm local-only state before dawn. The interior remains powered, intact, and safe, but dense blue-gray fog and rain beyond broad glazing obscure the distant generic city, creating a clear sense of temporary disconnection and limited visibility without depicting a technical diagnosis. Use physically plausible dark glass, graphite stone, brushed metal, a restrained warm-gold practical lamp at the far edge, and realistic rain reflections. No people and no visible active displays.\n\nComposition: wide plausible human-eye-level architectural view. Preserve a broad dark, low-detail central 60% for the real localized offline title, cached-state explanation, and reconnect action. Keep the fog-softened glazing and small material details toward the outer edges. Avoid bright window mullions or lamps behind the central content. The center crop must remain effective on a narrow mobile viewport.\n\nStyle and mood: ultra-realistic architectural photography; premium economic-strategy interface backdrop; cinematic corporate-thriller restraint; subtle cyber-noir; quiet resilience rather than emergency, fear, damage, or abandonment; original scene, not a known photograph, film frame, game screenshot, or branded design.\n\nPalette: black, anthracite, cool neutral fog blue-gray, restrained warm gold at the perimeter; no saturated neon and no warning red.\n\nText: none.\n\nDo not include: written words, letters, numbers, captions, offline labels, Wi-Fi or signal icons, broken-link symbols, cables as symbols, interface panels, error codes, progress bars, maps, node diagrams, data, logos, watermarks, signatures, real brands, real authorities, uniforms, flags, readable screens, plates or addresses, identifiable people, police or government insignia, weapons, crime imagery, damaged equipment, broken glass, smoke, fire, sparks, flooding, emergency vehicles, identifiable real geography, recognizable landmarks, fantasy architecture, impossible geometry, copied photo angles, cartoon/anime/comic styling, plastic mobile-game rendering, blurry foreground, compression artifacts, or fake unreadable writing.\n\nDeliver only the clean 16:9 environment backing plate, with no border, device mockup, or embedded UI.",
+  "reference_images": [],
+  "notes": [
+    "Accepted first built-in generation attempt.",
+    "Rain and fog at the outer glazing communicate limited connectivity without asserting a technical cause.",
+    "The powered, intact room and warm perimeter lighting avoid emergency, damage, or abandonment cues.",
+    "The central wall is calm and dark for localized offline copy and a reconnect action on desktop or mobile.",
+    "No signal icon, error code, active screen, visible person, text, map, logo, private identifier, authority mark, weapon, damage, or illicit activity."
+  ]
+}

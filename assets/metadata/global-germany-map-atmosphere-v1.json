@@ -1,0 +1,232 @@
+{
+  "asset_id": "global-germany-map-atmosphere-v1",
+  "manifest_order": 32,
+  "category": "global",
+  "batch": "global-backgrounds",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/global-germany-map-atmosphere-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100032,
+  "content_hash": "8c30767f2408b9176208b6f28d9ddd17659c38ac1898d9bd4366f75f6bd94984",
+  "source_file": "assets/source/global/global-germany-map-atmosphere-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/global-germany-map-atmosphere-v1-320.avif",
+      "bytes": 2436,
+      "sha256": "b7ed9b615a07c31589c790a454bcc8ea8a8d598f7075d6d276e7767bfa26750d"
+    },
+    {
+      "path": "assets/production/webp/global-germany-map-atmosphere-v1-320.webp",
+      "bytes": 2200,
+      "sha256": "957a6bdc40f70d8bcafe5cfdab1f6adec9cc7073b6d57f1a3672b0907e85d888"
+    },
+    {
+      "path": "assets/production/avif/global-germany-map-atmosphere-v1-640.avif",
+      "bytes": 5861,
+      "sha256": "3b0691d5c6bd20826919c66711d53f4442b314699d0addc8bf716e324fe9295a"
+    },
+    {
+      "path": "assets/production/webp/global-germany-map-atmosphere-v1-640.webp",
+      "bytes": 5918,
+      "sha256": "b3c784b734650176720f013322eed2c9c1f275f80c44f893458bc416c8931096"
+    },
+    {
+      "path": "assets/production/avif/global-germany-map-atmosphere-v1-960.avif",
+      "bytes": 12326,
+      "sha256": "5f5cf06771376bdbbf1172e4d4f40947fb271949a1a1bb5d232340a961c1d698"
+    },
+    {
+      "path": "assets/production/webp/global-germany-map-atmosphere-v1-960.webp",
+      "bytes": 12024,
+      "sha256": "f96053302962a3a8508af3f5550a2f68b5ec46c28a4be7b7b4daf64edcc2c9f8"
+    },
+    {
+      "path": "assets/production/avif/global-germany-map-atmosphere-v1-1280.avif",
+      "bytes": 18095,
+      "sha256": "b50025cc2490709422804d76e3a3c241f619327633f62f973d7553a7f0381944"
+    },
+    {
+      "path": "assets/production/webp/global-germany-map-atmosphere-v1-1280.webp",
+      "bytes": 18202,
+      "sha256": "115c13309d216bdd7f7a3e1c97c191c3185a6318fd3624d18db66f30cc005ce8"
+    },
+    {
+      "path": "assets/production/avif/global-germany-map-atmosphere-v1-1920.avif",
+      "bytes": 30048,
+      "sha256": "1cacfeb4f67b559475519a1db742dd38c1c780be7d7f7ad51562a84f561f18b6"
+    },
+    {
+      "path": "assets/production/webp/global-germany-map-atmosphere-v1-1920.webp",
+      "bytes": 32268,
+      "sha256": "b73878df4a5985ffbefc6595c7a98eebe4f72d196741a114a8828c5381899bda"
+    },
+    {
+      "path": "assets/production/avif/global-germany-map-atmosphere-v1-2560.avif",
+      "bytes": 43792,
+      "sha256": "a5e3404f0aec021a8837562a6ce42ab6932841d192c4da9d3827cddd10a02ff4"
+    },
+    {
+      "path": "assets/production/webp/global-germany-map-atmosphere-v1-2560.webp",
+      "bytes": 49196,
+      "sha256": "756bada9e36b91b89a828cefc28f52edbc22e5aec8996c9116f23a1cf225c2bc"
+    },
+    {
+      "path": "assets/production/avif/global-germany-map-atmosphere-v1-3840.avif",
+      "bytes": 661565,
+      "sha256": "d0f166d76b7f58375811d42db227e444709556d6bc4cf66acab452752bff95b9"
+    },
+    {
+      "path": "assets/production/webp/global-germany-map-atmosphere-v1-3840.webp",
+      "bytes": 92300,
+      "sha256": "49c0ea3e908f3aadc5e3a031470598dcc575bf03dbb6ab11db638c874cf18fbf"
+    },
+    {
+      "path": "assets/production/png/global-germany-map-atmosphere-v1-1280.png",
+      "bytes": 1451174,
+      "sha256": "ea0efa08511f0d4de05326a7851ae9d7a5da5ae1335b26b33d8145ebb02d3cb9"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/global/global-germany-map-atmosphere-v1-320.avif",
+      "bytes": 2436,
+      "sha256": "b7ed9b615a07c31589c790a454bcc8ea8a8d598f7075d6d276e7767bfa26750d"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-germany-map-atmosphere-v1-320.webp",
+      "bytes": 2200,
+      "sha256": "957a6bdc40f70d8bcafe5cfdab1f6adec9cc7073b6d57f1a3672b0907e85d888"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-germany-map-atmosphere-v1-640.avif",
+      "bytes": 5861,
+      "sha256": "3b0691d5c6bd20826919c66711d53f4442b314699d0addc8bf716e324fe9295a"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-germany-map-atmosphere-v1-640.webp",
+      "bytes": 5918,
+      "sha256": "b3c784b734650176720f013322eed2c9c1f275f80c44f893458bc416c8931096"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-germany-map-atmosphere-v1-960.avif",
+      "bytes": 12326,
+      "sha256": "5f5cf06771376bdbbf1172e4d4f40947fb271949a1a1bb5d232340a961c1d698"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-germany-map-atmosphere-v1-960.webp",
+      "bytes": 12024,
+      "sha256": "f96053302962a3a8508af3f5550a2f68b5ec46c28a4be7b7b4daf64edcc2c9f8"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-germany-map-atmosphere-v1-1280.avif",
+      "bytes": 18095,
+      "sha256": "b50025cc2490709422804d76e3a3c241f619327633f62f973d7553a7f0381944"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-germany-map-atmosphere-v1-1280.webp",
+      "bytes": 18202,
+      "sha256": "115c13309d216bdd7f7a3e1c97c191c3185a6318fd3624d18db66f30cc005ce8"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-germany-map-atmosphere-v1-1920.avif",
+      "bytes": 30048,
+      "sha256": "1cacfeb4f67b559475519a1db742dd38c1c780be7d7f7ad51562a84f561f18b6"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-germany-map-atmosphere-v1-1920.webp",
+      "bytes": 32268,
+      "sha256": "b73878df4a5985ffbefc6595c7a98eebe4f72d196741a114a8828c5381899bda"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-germany-map-atmosphere-v1-2560.avif",
+      "bytes": 43792,
+      "sha256": "a5e3404f0aec021a8837562a6ce42ab6932841d192c4da9d3827cddd10a02ff4"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-germany-map-atmosphere-v1-2560.webp",
+      "bytes": 49196,
+      "sha256": "756bada9e36b91b89a828cefc28f52edbc22e5aec8996c9116f23a1cf225c2bc"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-germany-map-atmosphere-v1-3840.avif",
+      "bytes": 661565,
+      "sha256": "d0f166d76b7f58375811d42db227e444709556d6bc4cf66acab452752bff95b9"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-germany-map-atmosphere-v1-3840.webp",
+      "bytes": 92300,
+      "sha256": "49c0ea3e908f3aadc5e3a031470598dcc575bf03dbb6ab11db638c874cf18fbf"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-germany-map-atmosphere-v1-1280.png",
+      "bytes": 1451174,
+      "sha256": "ea0efa08511f0d4de05326a7851ae9d7a5da5ae1335b26b33d8145ebb02d3cb9"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 97.5,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 98,
+    "composition": 98,
+    "material_quality": 98,
+    "lighting_quality": 97,
+    "architecture_plausibility": 98,
+    "ui_suitability": 99,
+    "mobile_suitability": 93,
+    "originality": 96,
+    "safety_compliance": 100,
+    "accepted_prompt": "Use case: stylized-concept.\nAsset ID: global-germany-map-atmosphere-v1.\nCreate a premium ultra-realistic atmospheric backing plate for a fictional seasonal strategy game's Germany map screen, 2048x1152, exact 16:9 landscape.\n\nPrimary request: Show a physically plausible dark architectural strategy-table surface seen from a restrained, slightly elevated camera angle inside a contemporary fictional operations room. The image is only the atmosphere beneath a separately rendered, licensed vector map. Keep the central 70% broad, calm, low-detail, and evenly legible for a future geographic overlay. Use subtle graphite stone, smoked glass, brushed dark metal, very faint diffuse haze, restrained warm-gold reflections near the outer edges, and cool blue-gray ambient light. Add only soft material seams and natural reflections that cannot be mistaken for cartography. Preserve a sophisticated cinematic corporate-thriller mood and subtle cyber-noir restraint consistent with SHADOWGRID's frozen style lock. No people.\n\nCritical geography constraint: do not depict Germany or any other place. Do not invent or suggest a country silhouette, state shape, border, coastline, river, road, rail line, district, terrain, contour line, geographic grid, route, node network, or recognizable real geography. The future map geometry will come exclusively from licensed geographic data and is intentionally absent from this image.\n\nComposition: wide 16:9 backing plate; calm central overlay-safe region; slightly richer physical material detail only at the outer perimeter; no focal object that competes with the map; no crop-dependent content; suitable beneath desktop UI.\n\nLighting and palette: natural low-key architectural lighting, black and anthracite base, cool neutral blue-gray, restrained warm gold accents, realistic reflections, no excessive neon, no warning red.\n\nDo not include: text, captions, letters, numbers, labels, interface panels, icons, legends, compass, scale bar, maps, diagrams, logos, watermarks, signatures, brands, government or police insignia, readable screens, identifiable persons, weapons, crime imagery, fantasy architecture, cartoon/anime/comic styling, plastic mobile-game appearance, copied game or film imagery, blurry output, compression artifacts, or fake unreadable writing.\n\nDeliver a clean original 16:9 environment backing plate only; no border or mockup frame.",
+    "reference_images": [],
+    "notes": [
+      "Accepted first built-in generation attempt.",
+      "The central strategy-table surface is calm and low-detail for the later licensed vector overlay.",
+      "Only physical material seams and reflections are visible; no map silhouette, border, coastline, route, node network, label, or other geographic claim is present.",
+      "No visible person, text, logo, private identifier, authority mark, weapon, or illicit activity."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3441421
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T18:27:09.742Z",
+  "license": "project-owned-generated-asset",
+  "notes": [
+    "Accepted first built-in generation attempt.",
+    "The central strategy-table surface is calm and low-detail for the later licensed vector overlay.",
+    "Only physical material seams and reflections are visible; no map silhouette, border, coastline, route, node network, label, or other geographic claim is present.",
+    "No visible person, text, logo, private identifier, authority mark, weapon, or illicit activity."
+  ]
+}

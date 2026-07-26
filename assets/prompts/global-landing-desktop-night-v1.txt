@@ -1,0 +1,33 @@
+Use case: stylized-concept
+Asset type: global asset for a cross-platform strategy game
+Primary request: Create a premium ultra-realistic visual asset for the multiplayer strategy game SHADOWGRID.
+Scene/backdrop: Fictional contemporary German urban environment, geographically and architecturally plausible.
+Subject: Landing page desktop, night
+Category: global.
+Gameplay state: normal.
+Style/medium: contemporary Germany; high-end urban economic strategy simulation; cinematic corporate thriller atmosphere; subtle cyber-noir; physically plausible glass, concrete, steel, stone and asphalt; original scene, not a known photograph, film frame, game screenshot or branded design.
+Composition/framing: Wide cinematic establishing composition, human eye-level or plausible elevated viewpoint, controlled depth, and calm negative space on the left for user-interface overlays.
+Lighting/mood: realistic urban night with natural cinematic lighting, realistic reflections and restrained atmosphere.
+Color palette: black and anthracite framing, cool neutral blue-gray, restrained warm gold accents; warning red only if the gameplay state requires danger.
+Materials/textures: physically plausible dark glass, brushed metal, concrete, stone and asphalt with realistic scale.
+Constraints: no embedded captions or interface text; no real brands; no real authorities; no readable plates or addresses; no recognizable private people; no copied landmark-photo angle; space reserved for UI overlays; suitable for desktop and mobile crops; output aspect ratio 21:9.
+Avoid: Do not include: written words, captions, watermarks, signatures, existing game logos, real company logos, real police insignia, real government insignia, readable private license plates, readable private addresses, recognizable private individuals, celebrities, politicians, real criminal organizations, real gang symbols, extremist symbols, Nazi symbols, graphic violence, visible illegal instructions, firearms as the central subject, drug production, crime tutorials, copied photography, copied landmarks from an identical photo angle, fantasy skyscrapers, impossible architecture, distorted buildings, duplicate people, deformed hands, unrealistic vehicles, floating objects, overexposed neon, cartoon style, anime style, comic style, plastic mobile-game appearance, blurry image, low resolution, compression artifacts, unreadable fake text.
+Seed reference: 100021. Style lock: 1.0.0.
+
+Accepted generation prompt:
+Use case: photorealistic-natural
+Asset type: 21:9 desktop landing-page night hero for the fictional economic strategy game SHADOWGRID
+Input images: Images 1 and 2 are approved night-style references. Image 3 is the matching day composition reference. Create a new, coherent night counterpart rather than editing or copying any input; preserve the same visual identity, plausible German urban scale, right-side headquarters framing and left-side UI-safe composition.
+Primary request: Create an original ultra-wide establishing scene of a wholly fictional contemporary German river metropolis at night, viewed from a premium strategic headquarters terrace and public urban overlook.
+Scene/backdrop: plausible mixed historic masonry districts, postwar blocks, modern offices, ordinary bridges, public transit and riverfront greenery; no real or recognizable city, building or landmark.
+Subject: a dark-glass and brushed-metal headquarters framing the right third, with the river and fictional metropolis through the center; the left 35% must remain calm, darker and low-detail for a large headline, body copy and two buttons.
+Style/medium: ultra-realistic nighttime architectural and urban photography; contemporary German economic-strategy atmosphere; cinematic corporate thriller; subtle cyber-noir only through restrained blue-gray grading and warm windows, never science fiction.
+Composition/framing: very wide 21:9 panorama; plausible elevated human viewpoint; level horizon; important architecture center-right; unobstructed negative space on the left; preserve a useful central crop for narrower desktop screens.
+Lighting/mood: realistic deep blue-hour-to-night sky, controlled warm-gold office and street lighting, subtle haze and river reflections, readable shadow detail, strategic and confident rather than threatening.
+Color palette: anthracite, deep neutral blue-gray and restrained warm gold; no saturated neon and no large warning-red elements.
+Constraints: no embedded words, fake UI, signage, company logo, authority insignia, readable plates or addresses, recognizable people, famous landmark, copied photograph angle, watermark, weapon, violence, illegal activity, impossible architecture or fantasy skyline. Infrastructure must remain physically plausible.
+
+Style-reference images:
+- assets/source/style-proof/style-proof-urban-control-center-night-v1.png
+- assets/source/style-proof/style-proof-german-metropolis-night-v1.png
+- assets/source/global/global-landing-desktop-day-v1.png

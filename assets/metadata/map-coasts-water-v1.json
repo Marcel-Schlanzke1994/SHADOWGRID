@@ -1,0 +1,152 @@
+{
+  "asset_id": "map-coasts-water-v1",
+  "manifest_order": 38,
+  "category": "map",
+  "batch": "germany-map",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "svg-geodata",
+  "provider": "bkg-wfs",
+  "model": null,
+  "prompt_file": "assets/prompts/map-coasts-water-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100038,
+  "content_hash": "f7c3487d1108d83a50d513d5d85208a287f3555b17f90a70d201adf143f32115",
+  "source_file": "assets/source/maps/map-coasts-water-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/map-coasts-water-v1.svg",
+      "bytes": 73096,
+      "sha256": "f7c3487d1108d83a50d513d5d85208a287f3555b17f90a70d201adf143f32115"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/maps/map-coasts-water-v1.svg",
+      "bytes": 73096,
+      "sha256": "f7c3487d1108d83a50d513d5d85208a287f3555b17f90a70d201adf143f32115"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 96.9,
+  "quality_status": "approved",
+  "review_status": "codex-geodata-approved",
+  "visual_review": {
+    "geographic_fidelity": 100,
+    "geometry_quality": 98,
+    "composition": 97,
+    "small_size_legibility": 94,
+    "contrast": 97,
+    "ui_suitability": 96,
+    "mobile_suitability": 92,
+    "originality": 95,
+    "technical_quality": 100,
+    "safety_compliance": 100,
+    "license": "dl-de/by-2-0",
+    "process_documentation": "Fetched official BKG VG250 coastline geometry with AGZ=9 and BKG DLM250 river-surface and standing-water geometry in EPSG:25832 through WFS 2.0. Selected standing water of at least 1 km², projected all inputs into the shared 1536×1536 north-up view box, simplified the combined geometry deterministically to the 95 KB SVG budget, and emitted a transparent water overlay without labels or invented features.",
+    "provenance": {
+      "schema": "shadowgrid-bkg-geodata-v1",
+      "provider": "Bundesamt für Kartographie und Geodäsie (BKG)",
+      "products": [
+        "Verwaltungsgebiete 1:250 000, Stand 01.01.2025",
+        "Digitales Landschaftsmodell 1:250 000, Stand 31.12.2025"
+      ],
+      "coordinate_reference_system": "EPSG:25832",
+      "source_record": "assets/source/maps/geodata/bkg-2025/sources.json",
+      "input_layers": [
+        {
+          "id": "coastlines",
+          "filter": "agz=9",
+          "sha256": "882a03e2b0d724ee10d41265426c3c7807b5477f568b784e53b83154c366e1b4"
+        },
+        {
+          "id": "wide_river_surfaces",
+          "filter": null,
+          "sha256": "23b3c067f7a796ed2341d69cb76db167c6ad4172cd7d7670e2bc99ba761d747e"
+        },
+        {
+          "id": "large_lakes",
+          "filter": "area(geom)>=1000000",
+          "sha256": "211aafda70f4e506156b0ee25eede9080b2057fe6076cf12f3e0279a813f7856"
+        }
+      ],
+      "output_sha256": "f7c3487d1108d83a50d513d5d85208a287f3555b17f90a70d201adf143f32115",
+      "license_url": "https://www.govdata.de/dl-de/by-2-0",
+      "attribution": [
+        "© BKG 2025 dl-de/by-2-0 (Daten verändert), Datenquellen: https://sgx.geodatenzentrum.de/web_public/gdz/datenquellen/datenquellen_vg_nuts.pdf",
+        "© GeoBasis-DE / BKG 2025 dl-de/by-2-0 (Daten verändert)"
+      ]
+    },
+    "notes": [
+      "Visual inspection confirms the coastline, broad rivers, and large lakes align with the country and state-boundary proofs.",
+      "Dense small water geometry is intentionally subordinate; major rivers receive a separate higher-contrast overlay.",
+      "No label, route, real-world operational guidance, script, external resource, or raster payload is embedded."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 73096
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T19:34:49.010Z",
+  "license": "dl-de/by-2-0",
+  "provenance": {
+    "schema": "shadowgrid-bkg-geodata-v1",
+    "provider": "Bundesamt für Kartographie und Geodäsie (BKG)",
+    "products": [
+      "Verwaltungsgebiete 1:250 000, Stand 01.01.2025",
+      "Digitales Landschaftsmodell 1:250 000, Stand 31.12.2025"
+    ],
+    "coordinate_reference_system": "EPSG:25832",
+    "source_record": "assets/source/maps/geodata/bkg-2025/sources.json",
+    "input_layers": [
+      {
+        "id": "coastlines",
+        "filter": "agz=9",
+        "sha256": "882a03e2b0d724ee10d41265426c3c7807b5477f568b784e53b83154c366e1b4"
+      },
+      {
+        "id": "wide_river_surfaces",
+        "filter": null,
+        "sha256": "23b3c067f7a796ed2341d69cb76db167c6ad4172cd7d7670e2bc99ba761d747e"
+      },
+      {
+        "id": "large_lakes",
+        "filter": "area(geom)>=1000000",
+        "sha256": "211aafda70f4e506156b0ee25eede9080b2057fe6076cf12f3e0279a813f7856"
+      }
+    ],
+    "output_sha256": "f7c3487d1108d83a50d513d5d85208a287f3555b17f90a70d201adf143f32115",
+    "license_url": "https://www.govdata.de/dl-de/by-2-0",
+    "attribution": [
+      "© BKG 2025 dl-de/by-2-0 (Daten verändert), Datenquellen: https://sgx.geodatenzentrum.de/web_public/gdz/datenquellen/datenquellen_vg_nuts.pdf",
+      "© GeoBasis-DE / BKG 2025 dl-de/by-2-0 (Daten verändert)"
+    ]
+  },
+  "notes": [
+    "Visual inspection confirms the coastline, broad rivers, and large lakes align with the country and state-boundary proofs.",
+    "Dense small water geometry is intentionally subordinate; major rivers receive a separate higher-contrast overlay.",
+    "No label, route, real-world operational guidance, script, external resource, or raster payload is embedded."
+  ]
+}

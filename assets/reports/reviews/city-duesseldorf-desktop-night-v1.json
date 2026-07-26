@@ -1,0 +1,22 @@
+{
+  "realism": 99,
+  "style_consistency": 100,
+  "composition": 100,
+  "material_quality": 99,
+  "lighting_quality": 99,
+  "architecture_plausibility": 99,
+  "ui_suitability": 100,
+  "mobile_suitability": 94,
+  "originality": 96,
+  "safety_compliance": 100,
+  "accepted_prompt": "Create the coordinated 16:9 desktop night counterpart for this accepted fictional Düsseldorf-inspired SHADOWGRID daytime city hero.\n\nPreserve the exact desktop geometry and camera: broad fictional river, original low-profile bridge, landscaped promenade, small original canal basin, refined pale-stone blocks, restrained mid-rise glass-and-metal services offices, center-right architectural focus, and the genuinely calm low-detail left 32% overlay-safe area. Keep it clearly the same original city composition. Do not reveal or invent any operational river, canal, bridge, street, rail, corporate, media, fashion, fairground, or civic layout.\n\nTransform the scene to physically plausible post-rain night: deep anthracite and cool blue-gray clouds, restrained irregular warm-neutral office windows, subtle promenade and bridge practical lights, readable midtone stone and metal, wet paving and water reflections, realistic dark river and canal water, premium contemporary architectural photography, realistic lens and depth, and a quiet corporate-thriller mood. Keep the left 32% dark, calm, and free of lamps, bright reflections, facade edges, billboards, signs, or other high-contrast details behind localized heading, body copy, and controls. Avoid fashion-show lighting, media screens, patterned facade light, saturated neon, overexposure, emergency light, warning-red gameplay cues, black crush, excessive haze, or spectacle.\n\nDo not add the Rheinturm, recognizable MedienHafen or Gehry buildings, Königsallee, Kö-Bogen, Schlossturm, Düsseldorf Rathaus, Oberkasseler Brücke, Rheinkniebrücke, Theodor-Heuss-Brücke, real fashion houses, real trade-fair structures, corporate logos, exact Rhine promenade layouts, real rail maps, or any known photograph or viewpoint. Do not add an identifiable real media company, luxury brand, authority, or operational transport plan.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, fantasy architecture, impossible bridges, Gehry-like distorted buildings, excessive neon, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 16:9 night riverfront-services-metropolis environment, intended final size 1920×1080, with a genuinely calm left 32% overlay-safe area and no border, title, UI, or device mockup.",
+  "reference_images": [
+    "assets/source/cities/city-duesseldorf-desktop-day-v1.png"
+  ],
+  "notes": [
+    "Accepted first night-conversion attempt.",
+    "The exact desktop camera, fictional riverfront geometry, original bridge, promenade, canal basin, services district, and calm left overlay zone remain coordinated with the approved daytime counterpart.",
+    "Irregular restrained office and practical lighting preserves legible materials without billboards, media screens, fashion-show light, patterned facades, neon spectacle, or warning-red cues.",
+    "No known Düsseldorf landmark, real brand or authority, operational layout, embedded text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

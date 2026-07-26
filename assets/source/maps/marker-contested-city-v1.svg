@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="#d8b15b" role="img" aria-labelledby="title description">
+    <title id="title">Map marker: contested city</title><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.7" stroke-dasharray="5 2"/>
+      <path d="M5.5 9.5h5l-2-2m10 7h-5l2 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="m9 15 6-6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+    <desc id="description">Distinct text-free SHADOWGRID strategy-map marker.</desc>
+  </svg>

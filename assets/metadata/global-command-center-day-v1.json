@@ -1,0 +1,235 @@
+{
+  "asset_id": "global-command-center-day-v1",
+  "manifest_order": 30,
+  "category": "global",
+  "batch": "global-backgrounds",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/global-command-center-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100030,
+  "content_hash": "a1239b47e4dc0d8ea2e3a0fac8b2646caea974749bd1d215569d32db83335504",
+  "source_file": "assets/source/global/global-command-center-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/global-command-center-day-v1-320.avif",
+      "bytes": 4101,
+      "sha256": "4a8d9fab5fa70f830c96e819361ed274085b3984c60e708a2d5e6c6cefc94ebf"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-day-v1-320.webp",
+      "bytes": 4408,
+      "sha256": "ac9f099cc71f805e6d48b26f0b79eb90b33f8561d0e4b7596c1955f835468a1c"
+    },
+    {
+      "path": "assets/production/avif/global-command-center-day-v1-640.avif",
+      "bytes": 38023,
+      "sha256": "c4a78e17ec6589c0b5c5129f2c9ec5b67b6d879c66aaa5e78f9c22358c3f17ed"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-day-v1-640.webp",
+      "bytes": 13400,
+      "sha256": "1b239f3bad6e3bfc10d26119d1a474ad6a9413f88d4554950d69f4a481f473f2"
+    },
+    {
+      "path": "assets/production/avif/global-command-center-day-v1-960.avif",
+      "bytes": 86844,
+      "sha256": "0d2f3bc16090559c94c0271c9f72b6f8ac5a4b1893bdb473c56f1d4e793c789a"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-day-v1-960.webp",
+      "bytes": 29562,
+      "sha256": "0c1fbfa012a920235d8019de14da1cbdd6159637ba7b6ccad73fdc80544cc4ff"
+    },
+    {
+      "path": "assets/production/avif/global-command-center-day-v1-1280.avif",
+      "bytes": 140596,
+      "sha256": "ffffd936777d2a712efeb987af0fac85253290fa9d7be5a59926acb89fdc8b81"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-day-v1-1280.webp",
+      "bytes": 46000,
+      "sha256": "0d1f71a655807eccbd15206522d82d4ae282c72658f78bebdb91edf82a792ac9"
+    },
+    {
+      "path": "assets/production/avif/global-command-center-day-v1-1920.avif",
+      "bytes": 275267,
+      "sha256": "a00f19d3018b2e8b8b76ae012b24a24548bc41c0e453d7962801e300ce911bd5"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-day-v1-1920.webp",
+      "bytes": 76958,
+      "sha256": "ecc58aa7b9eee222b0f90a47128910ce09ac4e845297707c0ca47607c52b5465"
+    },
+    {
+      "path": "assets/production/avif/global-command-center-day-v1-2560.avif",
+      "bytes": 411405,
+      "sha256": "8b2952a57b3f33bc86e84d9017377570cff8f94960a21dc9d525129a821140f5"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-day-v1-2560.webp",
+      "bytes": 103940,
+      "sha256": "7da6e5ae1c01424e704d1649ceee1d9dbb19a25ecdb879bc48b6795c7b7a402c"
+    },
+    {
+      "path": "assets/production/avif/global-command-center-day-v1-3840.avif",
+      "bytes": 658118,
+      "sha256": "a0e768ed19728a9467877c64f29b3e1e4fe0083914767acc91f9b02e851c5bdc"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-day-v1-3840.webp",
+      "bytes": 171452,
+      "sha256": "6ed47ca2d1eb520e67de3fe47babac1591da68e4e44fd6c0c03a5555928d5358"
+    },
+    {
+      "path": "assets/production/png/global-command-center-day-v1-1280.png",
+      "bytes": 1494267,
+      "sha256": "f3c976d8891bc8cfc6b5c0bbbd211fae62691f3b2fa8f40fa465736e4d5ed7e9"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/global/global-command-center-day-v1-320.avif",
+      "bytes": 4101,
+      "sha256": "4a8d9fab5fa70f830c96e819361ed274085b3984c60e708a2d5e6c6cefc94ebf"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-day-v1-320.webp",
+      "bytes": 4408,
+      "sha256": "ac9f099cc71f805e6d48b26f0b79eb90b33f8561d0e4b7596c1955f835468a1c"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-day-v1-640.avif",
+      "bytes": 38023,
+      "sha256": "c4a78e17ec6589c0b5c5129f2c9ec5b67b6d879c66aaa5e78f9c22358c3f17ed"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-day-v1-640.webp",
+      "bytes": 13400,
+      "sha256": "1b239f3bad6e3bfc10d26119d1a474ad6a9413f88d4554950d69f4a481f473f2"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-day-v1-960.avif",
+      "bytes": 86844,
+      "sha256": "0d2f3bc16090559c94c0271c9f72b6f8ac5a4b1893bdb473c56f1d4e793c789a"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-day-v1-960.webp",
+      "bytes": 29562,
+      "sha256": "0c1fbfa012a920235d8019de14da1cbdd6159637ba7b6ccad73fdc80544cc4ff"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-day-v1-1280.avif",
+      "bytes": 140596,
+      "sha256": "ffffd936777d2a712efeb987af0fac85253290fa9d7be5a59926acb89fdc8b81"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-day-v1-1280.webp",
+      "bytes": 46000,
+      "sha256": "0d1f71a655807eccbd15206522d82d4ae282c72658f78bebdb91edf82a792ac9"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-day-v1-1920.avif",
+      "bytes": 275267,
+      "sha256": "a00f19d3018b2e8b8b76ae012b24a24548bc41c0e453d7962801e300ce911bd5"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-day-v1-1920.webp",
+      "bytes": 76958,
+      "sha256": "ecc58aa7b9eee222b0f90a47128910ce09ac4e845297707c0ca47607c52b5465"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-day-v1-2560.avif",
+      "bytes": 411405,
+      "sha256": "8b2952a57b3f33bc86e84d9017377570cff8f94960a21dc9d525129a821140f5"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-day-v1-2560.webp",
+      "bytes": 103940,
+      "sha256": "7da6e5ae1c01424e704d1649ceee1d9dbb19a25ecdb879bc48b6795c7b7a402c"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-day-v1-3840.avif",
+      "bytes": 658118,
+      "sha256": "a0e768ed19728a9467877c64f29b3e1e4fe0083914767acc91f9b02e851c5bdc"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-day-v1-3840.webp",
+      "bytes": 171452,
+      "sha256": "6ed47ca2d1eb520e67de3fe47babac1591da68e4e44fd6c0c03a5555928d5358"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-day-v1-1280.png",
+      "bytes": 1494267,
+      "sha256": "f3c976d8891bc8cfc6b5c0bbbd211fae62691f3b2fa8f40fa465736e4d5ed7e9"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 96,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 97,
+    "style_consistency": 98,
+    "composition": 97,
+    "material_quality": 98,
+    "lighting_quality": 97,
+    "architecture_plausibility": 96,
+    "ui_suitability": 97,
+    "mobile_suitability": 86,
+    "originality": 94,
+    "safety_compliance": 100,
+    "accepted_prompt": "Use case: stylized-concept\nAsset type: global authenticated command-center background, daytime, for the fictional cross-platform strategy game SHADOWGRID\nInput images: Image 1 is the approved daytime urban-control-center style reference; Image 2 is the approved strategic-observatory material and palette reference. Create a new operational interior and do not reproduce either composition.\nPrimary request: Create a premium ultra-realistic contemporary urban strategy command center during daytime, designed to sit behind the real React dashboard.\nScene/backdrop: a wholly fictional high-level operations floor in a contemporary German metropolis, with dark glass, brushed metal, stone, concrete, restrained workstations at the far edges, and a plausible city view through glazing. Any physical display surfaces must be blank, dark, abstract, or unreadable.\nSubject: the architecture and operational atmosphere only; no people, readable displays, data, maps, diagrams, interface panels, or embedded UI.\nStyle/medium: ultra-realistic architectural photography; high-end urban economic-strategy simulation; cinematic corporate-thriller atmosphere; restrained subtle cyber-noir; physically plausible materials, daylight, scale, and reflections.\nComposition/framing: exact 16:9 landscape intent, intended final size 2048x1152; plausible human eye-level wide view. Preserve calm, darker negative space across the left 45% and center for dashboard header, metrics, cards, and mobile cover crops. Concentrate the strongest architectural depth, city view, and restrained workstation silhouettes toward the far right and frame edges. Avoid bright structural lines behind the upper-left title area.\nLighting/mood: natural overcast-to-broken-cloud daylight, realistic interior adaptation, confident and analytical rather than ominous.\nColor palette: anthracite, black, cool neutral blue-gray, stone, muted daylight, restrained warm-gold accents; no saturated neon and no warning red.\nMaterials/textures: physically plausible dark glass, brushed metal, concrete, stone, acoustic surfaces, subtle floor wear, realistic scale.\nText: none.\nConstraints: wholly original fictional location; no people or faces; no actual map or geography; no text, fake writing, signage, dashboards, screens with data, captions, logos, watermarks, signatures, readable plates, addresses, flags, uniforms, authorities, weapons, crime symbols, or real brands. The result must remain readable beneath a dense real UI and a narrow mobile crop.\nAvoid: recognizable landmarks, copied photo angles, futuristic spaceship bridge, holograms, fantasy architecture, impossible geometry, excessive neon, cartoon, anime, comic, plastic mobile-game rendering, blur, low resolution, compression artifacts.",
+    "reference_images": [
+      "assets/source/style-proof/style-proof-urban-control-center-day-v1.png",
+      "assets/source/global/global-world-selection-desktop-v1.png"
+    ],
+    "notes": [
+      "Accepted first built-in generation attempt.",
+      "The left side remains dark and calm while the operational architecture stays on the right.",
+      "All physical display surfaces are dark and contain no readable interface or data.",
+      "No visible person, text, map, logo, private identifier, authority mark, weapon or illicit activity."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3495462
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T17:40:07.993Z",
+  "license": "project-owned-generated-asset",
+  "notes": [
+    "Accepted first built-in generation attempt.",
+    "The left side remains dark and calm while the operational architecture stays on the right.",
+    "All physical display surfaces are dark and contain no readable interface or data.",
+    "No visible person, text, map, logo, private identifier, authority mark, weapon or illicit activity."
+  ]
+}

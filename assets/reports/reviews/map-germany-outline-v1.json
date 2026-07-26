@@ -1,0 +1,32 @@
+{
+  "geographic_fidelity": 100,
+  "geometry_quality": 99,
+  "composition": 98,
+  "small_size_legibility": 98,
+  "contrast": 99,
+  "ui_suitability": 98,
+  "mobile_suitability": 97,
+  "originality": 95,
+  "technical_quality": 100,
+  "safety_compliance": 100,
+  "license": "dl-de/by-2-0",
+  "process_documentation": "Fetched the official BKG VG250 state-area layer in EPSG:25832 through WFS 2.0, selected land geometry with GF=4, projected the result into a shared 1536×1536 north-up view box, simplified it deterministically by 0.35 px, and emitted a transparent SVG without raster content, scripts, labels, or invented geography.",
+  "provenance": {
+    "schema": "shadowgrid-bkg-geodata-v1",
+    "provider": "Bundesamt für Kartographie und Geodäsie (BKG)",
+    "product": "Verwaltungsgebiete 1:250 000, Stand 01.01.2025",
+    "coordinate_reference_system": "EPSG:25832",
+    "source_record": "assets/source/maps/geodata/bkg-2025/sources.json",
+    "input_layer": "country_land",
+    "input_filter": "gf=4",
+    "input_sha256": "55a0379bab2a304a00fb6221efebf8715964e81f9e1a97f5e70b597deb009396",
+    "output_sha256": "9c963f3f6ac4cc6f8bb2a11c6bdbc750556ab6d7e0bc3934448893cafa63b662",
+    "license_url": "https://www.govdata.de/dl-de/by-2-0",
+    "attribution": "© BKG 2025 dl-de/by-2-0 (Daten verändert), Datenquellen: https://sgx.geodatenzentrum.de/web_public/gdz/datenquellen/datenquellen_vg_nuts.pdf"
+  },
+  "notes": [
+    "Visual inspection of the 1024 px raster proof confirms a correct north-up Germany silhouette, including the North Sea and Baltic Sea islands.",
+    "The transparent layer aligns exactly with the federal-state, water, and river proofs in the shared view box.",
+    "No text, logo, real person, operational wrongdoing, raster payload, script, or external resource is embedded."
+  ]
+}

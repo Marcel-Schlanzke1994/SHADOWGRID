@@ -16,12 +16,14 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse, Response
 from prometheus_client import CONTENT_TYPE_LATEST, Counter, Histogram, generate_latest
+from sqlalchemy import and_, or_, select
 from starlette.middleware.base import RequestResponseEndpoint
 
 from shadowgrid.api import router
 from shadowgrid.config import get_settings
 from shadowgrid.database import SessionLocal
-from shadowgrid.models import RefreshSession, User
+from shadowgrid.models import PlayerProfile, RealtimeEvent, RefreshSession, User
+from shadowgrid.multiplayer_api import router as multiplayer_router
 from shadowgrid.security import decode_access_token
 
 settings = get_settings()
@@ -176,6 +178,7 @@ def metrics() -> Response:
 
 
 app.include_router(router, prefix=settings.api_prefix)
+app.include_router(multiplayer_router, prefix=settings.api_prefix)
 
 
 @app.websocket(f"{settings.api_prefix}/ws")
@@ -185,6 +188,7 @@ async def websocket_updates(websocket: WebSocket) -> None:
         first = await asyncio.wait_for(websocket.receive_text(), timeout=8)
         message = json.loads(first)
         token = str(message.get("access_token", ""))
+        requested_world_id = str(message.get("world_id", "")).strip() or None
         payload = decode_access_token(token, settings)
         db = SessionLocal()
         try:
@@ -193,19 +197,32 @@ async def websocket_updates(websocket: WebSocket) -> None:
             if user is None or session is None or session.revoked_at is not None:
                 await websocket.close(code=4401)
                 return
+            profile_query = select(PlayerProfile).where(PlayerProfile.user_id == user.id)
+            if requested_world_id is not None:
+                profile_query = profile_query.where(PlayerProfile.world_id == requested_world_id)
+            profile = db.scalar(profile_query.order_by(PlayerProfile.created_at).limit(1))
+            if profile is None:
+                await websocket.close(code=4403)
+                return
+            profile_id = profile.id
+            world_id = profile.world_id
         finally:
             db.close()
-        event_id = str(uuid4())
+        connected_at = datetime.now(UTC)
+        last_event_at = connected_at
+        last_event_id = ""
+        last_heartbeat = time.monotonic()
         await websocket.send_json(
             {
-                "event_id": event_id,
+                "event_id": str(uuid4()),
                 "type": "connected",
-                "server_time": datetime.now(UTC).isoformat(),
+                "payload": {"world_id": world_id, "profile_id": profile_id},
+                "server_time": connected_at.isoformat(),
             }
         )
         while True:
             try:
-                raw = await asyncio.wait_for(websocket.receive_text(), timeout=30)
+                raw = await asyncio.wait_for(websocket.receive_text(), timeout=2)
                 incoming = json.loads(raw)
                 if incoming.get("type") == "ping":
                     await websocket.send_json(
@@ -216,13 +233,55 @@ async def websocket_updates(websocket: WebSocket) -> None:
                         }
                     )
             except TimeoutError:
+                pass
+
+            now = datetime.now(UTC)
+            db = SessionLocal()
+            try:
+                events = list(
+                    db.scalars(
+                        select(RealtimeEvent)
+                        .where(
+                            RealtimeEvent.world_id == world_id,
+                            or_(
+                                RealtimeEvent.profile_id.is_(None),
+                                RealtimeEvent.profile_id == profile_id,
+                            ),
+                            RealtimeEvent.expires_at > now,
+                            or_(
+                                RealtimeEvent.created_at > last_event_at,
+                                and_(
+                                    RealtimeEvent.created_at == last_event_at,
+                                    RealtimeEvent.id > last_event_id,
+                                ),
+                            ),
+                        )
+                        .order_by(RealtimeEvent.created_at, RealtimeEvent.id)
+                        .limit(100)
+                    )
+                )
+            finally:
+                db.close()
+            for event in events:
+                await websocket.send_json(
+                    {
+                        "event_id": event.id,
+                        "type": event.event_type,
+                        "payload": event.payload_json,
+                        "server_time": event.created_at.isoformat(),
+                    }
+                )
+                last_event_at = event.created_at
+                last_event_id = event.id
+            if time.monotonic() - last_heartbeat >= 30:
                 await websocket.send_json(
                     {
                         "event_id": str(uuid4()),
                         "type": "heartbeat",
-                        "server_time": datetime.now(UTC).isoformat(),
+                        "server_time": now.isoformat(),
                     }
                 )
+                last_heartbeat = time.monotonic()
     except (WebSocketDisconnect, json.JSONDecodeError, jwt.PyJWTError, TimeoutError):
         if websocket.client_state.name != "DISCONNECTED":
             await websocket.close(code=4401)

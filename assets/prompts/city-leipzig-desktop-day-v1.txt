@@ -1,0 +1,34 @@
+Use case: stylized-concept
+Asset type: city asset for a cross-platform strategy game
+Primary request: Create a premium ultra-realistic visual asset for the multiplayer strategy game SHADOWGRID.
+Scene/backdrop: Plausible contemporary German city, with locally coherent architecture, economy, transport and public space; fictionalized rather than copied from a photograph.
+Subject: Leipzig, Saxony: Desktop hero, day
+Category: city.
+Gameplay state: normal.
+Contemporary, fictionalized representation of Leipzig; no exact landmark photograph recreation; time=day.
+Style/medium: contemporary Germany; high-end urban economic strategy simulation; cinematic corporate thriller atmosphere; subtle cyber-noir; physically plausible glass, concrete, steel, stone and asphalt; original scene, not a known photograph, film frame, game screenshot or branded design.
+Composition/framing: Wide cinematic establishing composition, human eye-level or plausible elevated viewpoint, controlled depth, and calm negative space on the left for user-interface overlays.
+Lighting/mood: natural daylight with natural cinematic lighting, realistic reflections and restrained atmosphere.
+Color palette: black and anthracite framing, cool neutral blue-gray, restrained warm gold accents; warning red only if the gameplay state requires danger.
+Materials/textures: physically plausible dark glass, brushed metal, concrete, stone and asphalt with realistic scale.
+Constraints: no embedded captions or interface text; no real brands; no real authorities; no readable plates or addresses; no recognizable private people; no copied landmark-photo angle; space reserved for UI overlays; suitable for desktop and mobile crops; output aspect ratio 16:9.
+Avoid: Do not include: written words, captions, watermarks, signatures, existing game logos, real company logos, real police insignia, real government insignia, readable private license plates, readable private addresses, recognizable private individuals, celebrities, politicians, real criminal organizations, real gang symbols, extremist symbols, Nazi symbols, graphic violence, visible illegal instructions, firearms as the central subject, drug production, crime tutorials, copied photography, copied landmarks from an identical photo angle, fantasy skyscrapers, impossible architecture, distorted buildings, duplicate people, deformed hands, unrealistic vehicles, floating objects, overexposed neon, cartoon style, anime style, comic style, plastic mobile-game appearance, blurry image, low resolution, compression artifacts, unreadable fake text.
+Seed reference: 100125. Style lock: 1.0.0.
+
+Accepted generation prompt:
+Create one distinct clean premium ultra-realistic 16:9 desktop daytime environment backing plate derived from this accepted fictional Leipzig-inspired SHADOWGRID canal-culture-research-metropolis scene.
+
+Preserve the same original city identity and materials: flat green floodplain, broad tree-lined canal bend, restrained original low-profile pale-stone and dark-steel bridge, pale sandstone and warm-gray courtyard blocks, restrained contemporary research buildings, adapted red-brown brick cultural/workshop halls, landscaped gardens, wet foreground terrace, continuous low neutral skyline, and cool overcast post-rain daylight. Recompose naturally for exact 16:9 landscape, intended final size 2048×1152, as a deliberate desktop hero rather than a mechanical center crop.
+
+Reserve the left 32% as genuinely calm, dark, low-detail negative space using broad shadowed canal water, deep low-detail far-bank tree canopy, floodplain haze, and darker neutral cloud for localized heading, body copy, and controls. Do not place bridge elements, architecture, pale posts, railings, paths, lamps, boats, vehicles, people, signs, screens, or bright reflections behind that overlay area. Concentrate the original canal crossing, pale courtyard district, restrained research buildings, adapted brick halls, public gardens, and wet terrace center-right. Keep the first visible bridge element to the right of the 32% boundary and important architecture inside an inner 82% crop-safe region.
+
+Maintain physically plausible sandstone, aged brick, concrete, brushed metal, dark glass, mature trees, canal water, and wet-paving reflections, neutral blue-gray atmosphere, subtle warm highlights, premium contemporary architectural photography, realistic lens and depth, and a restrained corporate-thriller mood. Preserve a continuous low neutral skyline without an isolated tower, spire, dome, monument, station, trade-fair form, or recognizable cultural building. Keep every bridge, path, terrace, and garden empty of people.
+
+All canal, bridge, street, path, rail, corporate, academic, cultural, trade, logistics, industrial, and civic geometry must remain fictional and non-operational. Do not include or imitate the Monument to the Battle of the Nations, Leipzig City-Hochhaus, Neues Rathaus, Altes Rathaus, Leipzig Hauptbahnhof, Augustusplatz, Leipzig University tower or facade, Gewandhaus, Leipzig Opera, St. Thomas Church, St. Nicholas Church, MDR tower, Leipzig Trade Fair glass hall, zoo landmarks, Baumwollspinnerei, recognizable industrial complexes, real publishing houses, rail corridors, logistics terminals, exact canal routes, known floodplain parks, government buildings, corporate campuses, or any known photograph or viewpoint. Do not depict an identifiable real cultural institution, university, publisher, media company, authority, transit operator, industrial process, warehouse operation, freight route, factory interior, logistics hub, or operational transport plan.
+
+No text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, musicians, politicians, crowds, flags, police or government insignia, criminal symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, factory or logistics procedures, fantasy architecture, impossible bridges or structures, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.
+
+Deliver only the clean premium ultra-realistic fictional 16:9 daytime canal-culture-research-metropolis environment with a genuinely calm left 32% overlay-safe area, no border, title, UI, or device mockup.
+
+Style-reference images:
+- assets/source/cities/city-leipzig-ultrawide-day-v1.png

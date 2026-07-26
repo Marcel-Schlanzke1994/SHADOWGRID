@@ -11,6 +11,8 @@ import {
   Status,
 } from "../components";
 import { formatCurrency, formatDate, formatNumber } from "../format";
+import { GlobalStateBackdrop } from "../GlobalBackdrop";
+import { GermanyPage } from "../pages/GermanyPage";
 
 describe("accessible data primitives", () => {
   it("renders a metric label and value", () => {
@@ -76,9 +78,87 @@ describe("accessible data primitives", () => {
     expect(retry).toHaveBeenCalledOnce();
   });
 
+  it("renders the decorative offline asset for network failures", () => {
+    const { container } = render(
+      <StateView error={new TypeError("Network request failed")}>
+        content
+      </StateView>,
+    );
+
+    expect(
+      screen.getByRole("heading", { name: "Connection interrupted" }),
+    ).toBeVisible();
+    expect(container.querySelector(".system-state--offline")).toBeVisible();
+    expect(
+      container.querySelector<HTMLImageElement>(
+        ".system-state-backdrop--offline img",
+      ),
+    ).toHaveAttribute("src", "/assets/global/global-offline-v1-1280.png");
+  });
+
+  it("provides production paths for server-authoritative system states", () => {
+    const { container } = render(
+      <>
+        <GlobalStateBackdrop
+          assetId="global-maintenance-v1"
+          variant="maintenance"
+        />
+        <GlobalStateBackdrop
+          assetId="global-season-complete-v1"
+          variant="season-complete"
+        />
+      </>,
+    );
+    const images = [...container.querySelectorAll("img")];
+
+    expect(images[0]).toHaveAttribute(
+      "src",
+      "/assets/global/global-maintenance-v1-1280.png",
+    );
+    expect(images[1]).toHaveAttribute(
+      "src",
+      "/assets/global/global-season-complete-v1-1280.png",
+    );
+  });
+
   it("formats localized values deterministically", () => {
     expect(formatCurrency(1234, "en-US")).toContain("1,234");
     expect(formatNumber(12.34, "en-US")).toBe("12.3");
     expect(formatDate("2026-01-02T12:00:00Z", "en-US")).toContain("2026");
+  });
+
+  it("renders licensed Germany map layers with non-color equivalents", () => {
+    const { container } = render(<GermanyPage />);
+
+    expect(
+      screen.getByRole("heading", { name: "Germany strategy map" }),
+    ).toBeVisible();
+    expect(container.querySelectorAll(".germany-map__layer")).toHaveLength(4);
+    expect(
+      container.querySelectorAll(".germany-map-marker-groups img"),
+    ).toHaveLength(19);
+    expect(
+      container.querySelectorAll(".germany-city-package picture source"),
+    ).toHaveLength(42);
+    expect(
+      container.querySelectorAll(".germany-city-package img"),
+    ).toHaveLength(21);
+    expect(
+      screen.getByLabelText("Accessible five-step intensity scale"),
+    ).toHaveTextContent("Very low");
+
+    fireEvent.click(screen.getByRole("button", { name: "Day" }));
+    expect(container.querySelector(".germany-map__background")).toHaveAttribute(
+      "src",
+      "/assets/maps/map-map-background-day-v1.svg",
+    );
+
+    fireEvent.click(screen.getByRole("button", { name: "Information" }));
+    expect(
+      container.querySelector(".germany-map-legend-preview"),
+    ).toHaveAttribute(
+      "src",
+      "/assets/maps/map-heatmap-information-legend-v1.svg",
+    );
   });
 });

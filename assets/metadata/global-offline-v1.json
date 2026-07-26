@@ -1,0 +1,234 @@
+{
+  "asset_id": "global-offline-v1",
+  "manifest_order": 35,
+  "category": "global",
+  "batch": "global-backgrounds",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/global-offline-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100035,
+  "content_hash": "5c012429073402e687ab9f5a2dc9c97481fa2bcec9c09822d11a8f5b545f6cee",
+  "source_file": "assets/source/global/global-offline-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/global-offline-v1-320.avif",
+      "bytes": 2713,
+      "sha256": "8a30214175dfdacdad3d2669c2c6883334c8a558febc4b64b0ce3540c7146f2d"
+    },
+    {
+      "path": "assets/production/webp/global-offline-v1-320.webp",
+      "bytes": 2628,
+      "sha256": "1df2979c6cd08f89bdbbcab3b685357935e000bf03d02b0ab8c19955921d2f37"
+    },
+    {
+      "path": "assets/production/avif/global-offline-v1-640.avif",
+      "bytes": 7171,
+      "sha256": "d62c942b2babafc1202df7582508e27e77b7919b0fefbf0887844c8cade0fc5f"
+    },
+    {
+      "path": "assets/production/webp/global-offline-v1-640.webp",
+      "bytes": 7730,
+      "sha256": "7c70523bed1acfb24336c7571d2d52994cd67e73482b82c980e6b42ae1a59585"
+    },
+    {
+      "path": "assets/production/avif/global-offline-v1-960.avif",
+      "bytes": 84209,
+      "sha256": "ffb8df070327fb603b3b464367407d7ee84e9b5d6fd9c02c3b8681e16e2a9631"
+    },
+    {
+      "path": "assets/production/webp/global-offline-v1-960.webp",
+      "bytes": 18552,
+      "sha256": "5118e29e8f141f8350fb4291eaf77082e9aac44068353ecf101c313814cf2471"
+    },
+    {
+      "path": "assets/production/avif/global-offline-v1-1280.avif",
+      "bytes": 142884,
+      "sha256": "feb09ad34b9b5846f28e93756b99e4cbe2dd69d6b2e9160ec32376bdd42b87d1"
+    },
+    {
+      "path": "assets/production/webp/global-offline-v1-1280.webp",
+      "bytes": 31660,
+      "sha256": "1cf7b7324d977223ab81bd5eee7055b28db06c19194fcbcd063833570d109d98"
+    },
+    {
+      "path": "assets/production/avif/global-offline-v1-1920.avif",
+      "bytes": 300882,
+      "sha256": "7eb0df08889726afd3080087a35f9695d0d6f310a7c696f7b5899a7ea9d788a4"
+    },
+    {
+      "path": "assets/production/webp/global-offline-v1-1920.webp",
+      "bytes": 59082,
+      "sha256": "dfd4d1673725e453c2bed34d77b0d3f71efc27d34f9799398e69a9ca448dbcd4"
+    },
+    {
+      "path": "assets/production/avif/global-offline-v1-2560.avif",
+      "bytes": 439175,
+      "sha256": "14eb7b5a2629274ba7a3d91077d1670372a926a55c96d8b4a771879c29251250"
+    },
+    {
+      "path": "assets/production/webp/global-offline-v1-2560.webp",
+      "bytes": 82366,
+      "sha256": "b73181f0931c930362e4ddd07341b80642c3751ac9b7bc1892701985f3baaba9"
+    },
+    {
+      "path": "assets/production/avif/global-offline-v1-3840.avif",
+      "bytes": 716599,
+      "sha256": "6d7c1c5fa4610fa05f4fd2ac292b13feb8031c8bfdc20aad707563c2d9db274b"
+    },
+    {
+      "path": "assets/production/webp/global-offline-v1-3840.webp",
+      "bytes": 142882,
+      "sha256": "b18e5ed4414fd59ae60306cb5477667d838f43946cb470c863d67b724d413742"
+    },
+    {
+      "path": "assets/production/png/global-offline-v1-1280.png",
+      "bytes": 1401116,
+      "sha256": "4232c928b576bd6d86353b5256b36c15a6874b1c1a9b86103345374b3fa724eb"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/global/global-offline-v1-320.avif",
+      "bytes": 2713,
+      "sha256": "8a30214175dfdacdad3d2669c2c6883334c8a558febc4b64b0ce3540c7146f2d"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-offline-v1-320.webp",
+      "bytes": 2628,
+      "sha256": "1df2979c6cd08f89bdbbcab3b685357935e000bf03d02b0ab8c19955921d2f37"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-offline-v1-640.avif",
+      "bytes": 7171,
+      "sha256": "d62c942b2babafc1202df7582508e27e77b7919b0fefbf0887844c8cade0fc5f"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-offline-v1-640.webp",
+      "bytes": 7730,
+      "sha256": "7c70523bed1acfb24336c7571d2d52994cd67e73482b82c980e6b42ae1a59585"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-offline-v1-960.avif",
+      "bytes": 84209,
+      "sha256": "ffb8df070327fb603b3b464367407d7ee84e9b5d6fd9c02c3b8681e16e2a9631"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-offline-v1-960.webp",
+      "bytes": 18552,
+      "sha256": "5118e29e8f141f8350fb4291eaf77082e9aac44068353ecf101c313814cf2471"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-offline-v1-1280.avif",
+      "bytes": 142884,
+      "sha256": "feb09ad34b9b5846f28e93756b99e4cbe2dd69d6b2e9160ec32376bdd42b87d1"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-offline-v1-1280.webp",
+      "bytes": 31660,
+      "sha256": "1cf7b7324d977223ab81bd5eee7055b28db06c19194fcbcd063833570d109d98"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-offline-v1-1920.avif",
+      "bytes": 300882,
+      "sha256": "7eb0df08889726afd3080087a35f9695d0d6f310a7c696f7b5899a7ea9d788a4"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-offline-v1-1920.webp",
+      "bytes": 59082,
+      "sha256": "dfd4d1673725e453c2bed34d77b0d3f71efc27d34f9799398e69a9ca448dbcd4"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-offline-v1-2560.avif",
+      "bytes": 439175,
+      "sha256": "14eb7b5a2629274ba7a3d91077d1670372a926a55c96d8b4a771879c29251250"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-offline-v1-2560.webp",
+      "bytes": 82366,
+      "sha256": "b73181f0931c930362e4ddd07341b80642c3751ac9b7bc1892701985f3baaba9"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-offline-v1-3840.avif",
+      "bytes": 716599,
+      "sha256": "6d7c1c5fa4610fa05f4fd2ac292b13feb8031c8bfdc20aad707563c2d9db274b"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-offline-v1-3840.webp",
+      "bytes": 142882,
+      "sha256": "b18e5ed4414fd59ae60306cb5477667d838f43946cb470c863d67b724d413742"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-offline-v1-1280.png",
+      "bytes": 1401116,
+      "sha256": "4232c928b576bd6d86353b5256b36c15a6874b1c1a9b86103345374b3fa724eb"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 98.4,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 99,
+    "composition": 99,
+    "material_quality": 98,
+    "lighting_quality": 98,
+    "architecture_plausibility": 98,
+    "ui_suitability": 100,
+    "mobile_suitability": 98,
+    "originality": 96,
+    "safety_compliance": 100,
+    "accepted_prompt": "Use case: stylized-concept.\nAsset ID: global-offline-v1.\nCreate a premium ultra-realistic offline-state background for the fictional seasonal strategy game SHADOWGRID, intended final size 2048x1152, exact 16:9 landscape.\n\nPrimary request: Depict a wholly fictional contemporary high-rise strategy lounge in a calm local-only state before dawn. The interior remains powered, intact, and safe, but dense blue-gray fog and rain beyond broad glazing obscure the distant generic city, creating a clear sense of temporary disconnection and limited visibility without depicting a technical diagnosis. Use physically plausible dark glass, graphite stone, brushed metal, a restrained warm-gold practical lamp at the far edge, and realistic rain reflections. No people and no visible active displays.\n\nComposition: wide plausible human-eye-level architectural view. Preserve a broad dark, low-detail central 60% for the real localized offline title, cached-state explanation, and reconnect action. Keep the fog-softened glazing and small material details toward the outer edges. Avoid bright window mullions or lamps behind the central content. The center crop must remain effective on a narrow mobile viewport.\n\nStyle and mood: ultra-realistic architectural photography; premium economic-strategy interface backdrop; cinematic corporate-thriller restraint; subtle cyber-noir; quiet resilience rather than emergency, fear, damage, or abandonment; original scene, not a known photograph, film frame, game screenshot, or branded design.\n\nPalette: black, anthracite, cool neutral fog blue-gray, restrained warm gold at the perimeter; no saturated neon and no warning red.\n\nText: none.\n\nDo not include: written words, letters, numbers, captions, offline labels, Wi-Fi or signal icons, broken-link symbols, cables as symbols, interface panels, error codes, progress bars, maps, node diagrams, data, logos, watermarks, signatures, real brands, real authorities, uniforms, flags, readable screens, plates or addresses, identifiable people, police or government insignia, weapons, crime imagery, damaged equipment, broken glass, smoke, fire, sparks, flooding, emergency vehicles, identifiable real geography, recognizable landmarks, fantasy architecture, impossible geometry, copied photo angles, cartoon/anime/comic styling, plastic mobile-game rendering, blurry foreground, compression artifacts, or fake unreadable writing.\n\nDeliver only the clean 16:9 environment backing plate, with no border, device mockup, or embedded UI.",
+    "reference_images": [],
+    "notes": [
+      "Accepted first built-in generation attempt.",
+      "Rain and fog at the outer glazing communicate limited connectivity without asserting a technical cause.",
+      "The powered, intact room and warm perimeter lighting avoid emergency, damage, or abandonment cues.",
+      "The central wall is calm and dark for localized offline copy and a reconnect action on desktop or mobile.",
+      "No signal icon, error code, active screen, visible person, text, map, logo, private identifier, authority mark, weapon, damage, or illicit activity."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3362001
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T18:40:05.435Z",
+  "license": "project-owned-generated-asset",
+  "notes": [
+    "Accepted first built-in generation attempt.",
+    "Rain and fog at the outer glazing communicate limited connectivity without asserting a technical cause.",
+    "The powered, intact room and warm perimeter lighting avoid emergency, damage, or abandonment cues.",
+    "The central wall is calm and dark for localized offline copy and a reconnect action on desktop or mobile.",
+    "No signal icon, error code, active screen, visible person, text, map, logo, private identifier, authority mark, weapon, damage, or illicit activity."
+  ]
+}

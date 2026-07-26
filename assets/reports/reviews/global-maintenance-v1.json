@@ -1,0 +1,20 @@
+{
+  "realism": 98,
+  "style_consistency": 99,
+  "composition": 99,
+  "material_quality": 98,
+  "lighting_quality": 98,
+  "architecture_plausibility": 97,
+  "ui_suitability": 100,
+  "mobile_suitability": 97,
+  "originality": 95,
+  "safety_compliance": 100,
+  "accepted_prompt": "Use case: stylized-concept.\nAsset ID: global-maintenance-v1.\nCreate a premium ultra-realistic planned-maintenance background for the fictional seasonal strategy game SHADOWGRID, intended final size 2048x1152, exact 16:9 landscape.\n\nPrimary request: Depict a wholly fictional contemporary operations atrium during a calm scheduled service window at night. The facility is clean, intact, secure, and temporarily quiet: dark glass walls, graphite stone, brushed metal, closed architectural panels, blank inactive display surfaces, and a few restrained warm-gold service lights. Through distant glazing, suggest only soft rain and a generic defocused urban glow. Convey controlled upkeep and temporary pause—not an emergency, breach, disaster, outage panic, or abandonment.\n\nComposition: wide plausible human-eye-level architectural view. Preserve a broad dark, low-detail central 60% for the real localized maintenance title, explanation, status, and retry action. Place subtle structural depth and material detail at the far edges. Avoid bright lines, lamps, or visual clutter behind the central content. The center crop must also work on a narrow mobile viewport.\n\nStyle and mood: ultra-realistic architectural photography; premium economic-strategy interface backdrop; cinematic corporate-thriller restraint; subtle cyber-noir; physically plausible materials and low-key night lighting; original scene, not a known photograph, film frame, game screenshot, or branded design.\n\nPalette: black, anthracite, cool neutral blue-gray, restrained warm-gold maintenance lighting; no saturated neon and no warning red.\n\nText: none.\n\nDo not include: written words, letters, numbers, captions, maintenance signs, hazard tape, interface panels, error codes, progress bars, maps, data, logos, watermarks, signatures, real brands, real authorities, uniforms, flags, readable screens, plates or addresses, identifiable people, technicians, police or government insignia, weapons, crime imagery, damaged equipment, broken glass, smoke, fire, sparks, flooding, emergency vehicles, identifiable real geography, recognizable landmarks, fantasy architecture, impossible geometry, copied photo angles, cartoon/anime/comic styling, plastic mobile-game rendering, blurry output, compression artifacts, or fake unreadable writing.\n\nDeliver only the clean 16:9 environment backing plate, with no border, device mockup, or embedded UI.",
+  "reference_images": [],
+  "notes": [
+    "Accepted first built-in generation attempt.",
+    "The intact, empty atrium communicates a controlled service pause without emergency or failure theatrics.",
+    "The central area is exceptionally calm and dark for localized status copy and a retry action on desktop or a centered mobile crop.",
+    "The small edge terminal has no readable content; no visible person, text, map, logo, private identifier, authority mark, weapon, damage, or illicit activity."
+  ]
+}

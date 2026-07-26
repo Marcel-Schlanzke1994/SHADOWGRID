@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-hamburg-card-v1",
+  "manifest_order": 81,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "hamburg",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-hamburg-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100081,
+  "content_hash": "2a23e7d9acc91f3956264083f9ee6f20a70d9a46837a6a84861853311f173168",
+  "source_file": "assets/source/cities/city-hamburg-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-hamburg-card-v1-320.avif",
+      "bytes": 6302,
+      "sha256": "58456933744820cf32b7885548e135eff09d0932e7eb138712fb0481d528651f"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-card-v1-320.webp",
+      "bytes": 6458,
+      "sha256": "ba68196f9d8761c833d414e9cbddcc965d40c8756f4781a67581a297dd877389"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-card-v1-640.avif",
+      "bytes": 27847,
+      "sha256": "61f9763c4669d1ee6b177141e2d2d75d4dd2e713b8153a5ea1999d56cb83a398"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-card-v1-640.webp",
+      "bytes": 29682,
+      "sha256": "5832098274888edc7d96c1aa05e9154e9e1a20763929aa5e4e027b41977c8b9a"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-card-v1-960.avif",
+      "bytes": 85362,
+      "sha256": "63d49a6f357d9cc78af1fa0f237c446d700253c94e03bfe6e09f494195f3fbcf"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-card-v1-960.webp",
+      "bytes": 82896,
+      "sha256": "518a8f498796e93fd0a0d2c5c3f584f0004323ab69bfb9a7b6af1410057a9466"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-card-v1-1280.avif",
+      "bytes": 126827,
+      "sha256": "c734e9cfc53c2c0745b55725cd786a2d168cf949842a62d27591431c9ef14adf"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-card-v1-1280.webp",
+      "bytes": 126104,
+      "sha256": "958d52257fcd2bae0001862f3d6dd0afbd7973a58cfd4b980201d7ca3b792222"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-card-v1-1920.avif",
+      "bytes": 190516,
+      "sha256": "6be61d6f134b3657cafeb76d9f3b377f357800bf29c1c4790ef91b7674f5b35a"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-card-v1-1920.webp",
+      "bytes": 199606,
+      "sha256": "ec7dc2b1616a731daa072309f01210fe61e234b59e2708fd35cee55a56b544e5"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-card-v1-2560.avif",
+      "bytes": 257415,
+      "sha256": "754eadbee4813f0b4b83f73aa0f0e540b541090b8a146f9c138e90fd3006065d"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-card-v1-2560.webp",
+      "bytes": 278990,
+      "sha256": "8d2da49492a22237eef24f5f5d28b9ed4ce31ef9e16588d83b731762e39079e9"
+    },
+    {
+      "path": "assets/production/avif/city-hamburg-card-v1-3840.avif",
+      "bytes": 396758,
+      "sha256": "a1376a8e28cca933db70796f4cf555edffe900060d8de7d9503c782c557926e2"
+    },
+    {
+      "path": "assets/production/webp/city-hamburg-card-v1-3840.webp",
+      "bytes": 464834,
+      "sha256": "835b5421016aef8291fb09e55659ebe6287a44387f8867c88c9cee11cb6f7111"
+    },
+    {
+      "path": "assets/production/png/city-hamburg-card-v1-1280.png",
+      "bytes": 2804560,
+      "sha256": "671e3329402df03c0ee6db2ff1d71e8dc2af60fec5e7fe47d6de7a50a5fccfae"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-card-v1-320.avif",
+      "bytes": 6302,
+      "sha256": "58456933744820cf32b7885548e135eff09d0932e7eb138712fb0481d528651f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-card-v1-320.webp",
+      "bytes": 6458,
+      "sha256": "ba68196f9d8761c833d414e9cbddcc965d40c8756f4781a67581a297dd877389"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-card-v1-640.avif",
+      "bytes": 27847,
+      "sha256": "61f9763c4669d1ee6b177141e2d2d75d4dd2e713b8153a5ea1999d56cb83a398"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-card-v1-640.webp",
+      "bytes": 29682,
+      "sha256": "5832098274888edc7d96c1aa05e9154e9e1a20763929aa5e4e027b41977c8b9a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-card-v1-960.avif",
+      "bytes": 85362,
+      "sha256": "63d49a6f357d9cc78af1fa0f237c446d700253c94e03bfe6e09f494195f3fbcf"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-card-v1-960.webp",
+      "bytes": 82896,
+      "sha256": "518a8f498796e93fd0a0d2c5c3f584f0004323ab69bfb9a7b6af1410057a9466"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-card-v1-1280.avif",
+      "bytes": 126827,
+      "sha256": "c734e9cfc53c2c0745b55725cd786a2d168cf949842a62d27591431c9ef14adf"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-card-v1-1280.webp",
+      "bytes": 126104,
+      "sha256": "958d52257fcd2bae0001862f3d6dd0afbd7973a58cfd4b980201d7ca3b792222"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-card-v1-1920.avif",
+      "bytes": 190516,
+      "sha256": "6be61d6f134b3657cafeb76d9f3b377f357800bf29c1c4790ef91b7674f5b35a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-card-v1-1920.webp",
+      "bytes": 199606,
+      "sha256": "ec7dc2b1616a731daa072309f01210fe61e234b59e2708fd35cee55a56b544e5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-card-v1-2560.avif",
+      "bytes": 257415,
+      "sha256": "754eadbee4813f0b4b83f73aa0f0e540b541090b8a146f9c138e90fd3006065d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-card-v1-2560.webp",
+      "bytes": 278990,
+      "sha256": "8d2da49492a22237eef24f5f5d28b9ed4ce31ef9e16588d83b731762e39079e9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-card-v1-3840.avif",
+      "bytes": 396758,
+      "sha256": "a1376a8e28cca933db70796f4cf555edffe900060d8de7d9503c782c557926e2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-card-v1-3840.webp",
+      "bytes": 464834,
+      "sha256": "835b5421016aef8291fb09e55659ebe6287a44387f8867c88c9cee11cb6f7111"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hamburg-card-v1-1280.png",
+      "bytes": 2804560,
+      "sha256": "671e3329402df03c0ee6db2ff1d71e8dc2af60fec5e7fe47d6de7a50a5fccfae"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 98.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 98,
+    "lighting_quality": 98,
+    "architecture_plausibility": 97,
+    "ui_suitability": 100,
+    "mobile_suitability": 99,
+    "originality": 96,
+    "safety_compliance": 100,
+    "revision_prompt": "Revise this square fictional Hamburg-inspired SHADOWGRID city-card backing plate while preserving the exact 1:1 canvas, stormy daylight, fictional brick waterfront peninsula, centered water-and-bridge anchor, skyline, original architecture, and premium realistic visual style.\n\nMandatory correction: simplify the entire bottom 24% into a darker, calm, low-detail external-label safe area. Remove the two prominent foreground vessels, remove the bright detailed lower-right office/quay frontage from that bottom band, and replace them with physically plausible dark open water plus a subtle shadowed quay edge whose reflections are very restrained. Keep the bottom band free of high-contrast lights, focal objects, fine architecture, and intersecting bridge geometry. Blend the revision naturally into the accepted water and city above. Keep all important city, bridge, and brick-district shapes inside the upper 76% and inner 82% card-safe area.\n\nDo not change the image into night; retain overcast northern daytime after rain. Do not add any real Hamburg landmark, recognizable real port layout, operational infrastructure, company livery, or known viewpoint.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, flags, authority marks, criminal symbols, extremist symbols, weapons, violence, operational wrongdoing, routes, instructions, fantasy architecture, impossible geometry, neon, warning red, blur, or fake writing.\n\nDeliver only the corrected clean premium 1:1 city-card backing plate with the entire lower 24% visibly calm and suitable for external localized labels, badges, and one action.",
+    "reference_images": [
+      "assets/source/cities/city-hamburg-desktop-day-v1.png"
+    ],
+    "notes": [
+      "The first square recomposition was held back because two foreground vessels and a bright lower-right office/quay frontage made the requested bottom label area too detailed.",
+      "The accepted revision replaces the full lower 24 percent with calm dark water and a subtle shadowed edge, leaving localized labels, badges, and one action a reliable low-detail surface.",
+      "The fictional brick peninsula, original bridge, layered waterways, and skyline remain a centered city-card anchor above the label-safe band.",
+      "No recognizable Hamburg landmark, sensitive port layout, embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3931901
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T21:23:45.492Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "The first square recomposition was held back because two foreground vessels and a bright lower-right office/quay frontage made the requested bottom label area too detailed.",
+    "The accepted revision replaces the full lower 24 percent with calm dark water and a subtle shadowed edge, leaving localized labels, badges, and one action a reliable low-detail surface.",
+    "The fictional brick peninsula, original bridge, layered waterways, and skyline remain a centered city-card anchor above the label-safe band.",
+    "No recognizable Hamburg landmark, sensitive port layout, embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

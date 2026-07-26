@@ -21,6 +21,7 @@ export default function TabsLayout() {
       <Tabs.Screen name="index" options={{ title: t("navCommand") }} />
       <Tabs.Screen name="businesses" options={{ title: t("navBusinesses") }} />
       <Tabs.Screen name="operations" options={{ title: t("navOperations") }} />
+      <Tabs.Screen name="multiplayer" options={{ title: t("navPvp") }} />
       <Tabs.Screen
         name="organization"
         options={{ title: t("navOrganization") }}

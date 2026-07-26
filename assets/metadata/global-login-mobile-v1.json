@@ -1,0 +1,235 @@
+{
+  "asset_id": "global-login-mobile-v1",
+  "manifest_order": 25,
+  "category": "global",
+  "batch": "global-backgrounds",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/global-login-mobile-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100025,
+  "content_hash": "97a4b9235ea88458eec5b1611574b5fd43e0c05c743259d3b7723b6e7bce48f7",
+  "source_file": "assets/source/global/global-login-mobile-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/global-login-mobile-v1-320.avif",
+      "bytes": 7362,
+      "sha256": "6db427c7e414115ade6c1b5b6b72b93c1b3168bfb8f72528bc24a8ed3e15c2ac"
+    },
+    {
+      "path": "assets/production/webp/global-login-mobile-v1-320.webp",
+      "bytes": 7554,
+      "sha256": "5ce424ffa43ca27aae8a64c743bb52f17c81f4d0075ef2d62f4d6f105ff316e7"
+    },
+    {
+      "path": "assets/production/avif/global-login-mobile-v1-640.avif",
+      "bytes": 22727,
+      "sha256": "630a77e37aba36da13b9f972f8edb727c6b0094f28bc5b133dff017ce491dfc2"
+    },
+    {
+      "path": "assets/production/webp/global-login-mobile-v1-640.webp",
+      "bytes": 26314,
+      "sha256": "a6a7087eaf4e454fb19f82cbf17ca8d99c79d38ebfdb1fce50135b8221901694"
+    },
+    {
+      "path": "assets/production/avif/global-login-mobile-v1-960.avif",
+      "bytes": 276068,
+      "sha256": "8157d3f65cb9f84b37d0c62a99752d75216dc675de1b3e534878a97b5d9134ef"
+    },
+    {
+      "path": "assets/production/webp/global-login-mobile-v1-960.webp",
+      "bytes": 56536,
+      "sha256": "044b8bb7dcb96e5944aa57c9c12181bd0dc95ac8e73e7a9f8b6c94f7798443cb"
+    },
+    {
+      "path": "assets/production/avif/global-login-mobile-v1-1280.avif",
+      "bytes": 418740,
+      "sha256": "3eaf932836366fc928f6b5d5d5779cd9a13f86856707fc06c8c3f5a4e0f6b898"
+    },
+    {
+      "path": "assets/production/webp/global-login-mobile-v1-1280.webp",
+      "bytes": 81266,
+      "sha256": "0f7ee892e73c753060864edd0e9fea1d2a2f5f4cfb8228f93f40091859371146"
+    },
+    {
+      "path": "assets/production/avif/global-login-mobile-v1-1920.avif",
+      "bytes": 690806,
+      "sha256": "6ea74828c190e4bf3ed5337490a4e237ce0a2e8ddc422861af1b7b1b8049255b"
+    },
+    {
+      "path": "assets/production/webp/global-login-mobile-v1-1920.webp",
+      "bytes": 138220,
+      "sha256": "63490e92a52de91b6d24126807118dffa2d4be420caa715482b49f6fe8a5ae67"
+    },
+    {
+      "path": "assets/production/avif/global-login-mobile-v1-2560.avif",
+      "bytes": 945618,
+      "sha256": "63716f9b580bcebee7629193e675d379e5ebf62fa1afb79733b6620eb55b87cf"
+    },
+    {
+      "path": "assets/production/webp/global-login-mobile-v1-2560.webp",
+      "bytes": 203830,
+      "sha256": "aaccad9616352d56857b6e948d73b094ee78b495eaf67e386f964b1a44e7533e"
+    },
+    {
+      "path": "assets/production/avif/global-login-mobile-v1-3840.avif",
+      "bytes": 1458195,
+      "sha256": "13e100e58915fabadc9f2d63f178224af0c336f6bce3ea312a2013d29dfdbafb"
+    },
+    {
+      "path": "assets/production/webp/global-login-mobile-v1-3840.webp",
+      "bytes": 353656,
+      "sha256": "0aba079a847b8c04eec18c34f4c592c520891ac08b9bdb08688809696ec61a95"
+    },
+    {
+      "path": "assets/production/png/global-login-mobile-v1-1152.png",
+      "bytes": 3466334,
+      "sha256": "c743e15c7b27f0e9696ab007f86c1ac062d8ca2c9167a53cad36236504708fa2"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/global/global-login-mobile-v1-320.avif",
+      "bytes": 7362,
+      "sha256": "6db427c7e414115ade6c1b5b6b72b93c1b3168bfb8f72528bc24a8ed3e15c2ac"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-login-mobile-v1-320.webp",
+      "bytes": 7554,
+      "sha256": "5ce424ffa43ca27aae8a64c743bb52f17c81f4d0075ef2d62f4d6f105ff316e7"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-login-mobile-v1-640.avif",
+      "bytes": 22727,
+      "sha256": "630a77e37aba36da13b9f972f8edb727c6b0094f28bc5b133dff017ce491dfc2"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-login-mobile-v1-640.webp",
+      "bytes": 26314,
+      "sha256": "a6a7087eaf4e454fb19f82cbf17ca8d99c79d38ebfdb1fce50135b8221901694"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-login-mobile-v1-960.avif",
+      "bytes": 276068,
+      "sha256": "8157d3f65cb9f84b37d0c62a99752d75216dc675de1b3e534878a97b5d9134ef"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-login-mobile-v1-960.webp",
+      "bytes": 56536,
+      "sha256": "044b8bb7dcb96e5944aa57c9c12181bd0dc95ac8e73e7a9f8b6c94f7798443cb"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-login-mobile-v1-1280.avif",
+      "bytes": 418740,
+      "sha256": "3eaf932836366fc928f6b5d5d5779cd9a13f86856707fc06c8c3f5a4e0f6b898"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-login-mobile-v1-1280.webp",
+      "bytes": 81266,
+      "sha256": "0f7ee892e73c753060864edd0e9fea1d2a2f5f4cfb8228f93f40091859371146"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-login-mobile-v1-1920.avif",
+      "bytes": 690806,
+      "sha256": "6ea74828c190e4bf3ed5337490a4e237ce0a2e8ddc422861af1b7b1b8049255b"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-login-mobile-v1-1920.webp",
+      "bytes": 138220,
+      "sha256": "63490e92a52de91b6d24126807118dffa2d4be420caa715482b49f6fe8a5ae67"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-login-mobile-v1-2560.avif",
+      "bytes": 945618,
+      "sha256": "63716f9b580bcebee7629193e675d379e5ebf62fa1afb79733b6620eb55b87cf"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-login-mobile-v1-2560.webp",
+      "bytes": 203830,
+      "sha256": "aaccad9616352d56857b6e948d73b094ee78b495eaf67e386f964b1a44e7533e"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-login-mobile-v1-3840.avif",
+      "bytes": 1458195,
+      "sha256": "13e100e58915fabadc9f2d63f178224af0c336f6bce3ea312a2013d29dfdbafb"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-login-mobile-v1-3840.webp",
+      "bytes": 353656,
+      "sha256": "0aba079a847b8c04eec18c34f4c592c520891ac08b9bdb08688809696ec61a95"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-login-mobile-v1-1152.png",
+      "bytes": 3466334,
+      "sha256": "c743e15c7b27f0e9696ab007f86c1ac062d8ca2c9167a53cad36236504708fa2"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 97.1,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 96,
+    "style_consistency": 98,
+    "composition": 98,
+    "material_quality": 96,
+    "lighting_quality": 96,
+    "architecture_plausibility": 96,
+    "ui_suitability": 98,
+    "mobile_suitability": 99,
+    "originality": 94,
+    "safety_compliance": 100,
+    "accepted_prompt": "Use case: stylized-concept\nAsset type: native portrait mobile login-page background for the fictional cross-platform strategy game SHADOWGRID\nInput images: Image 1 is the approved desktop login background and defines the architectural world, materials, and restrained gold lighting; Image 2 is an approved mobile composition reference. Create a new portrait composition rather than cropping either image.\nPrimary request: Create a premium ultra-realistic 9:16 portrait view through the same kind of calm, original contemporary corporate access atrium in a fictional German metropolis.\nScene/backdrop: vertically framed dark-stone and glass arrival space with brushed metal, a hint of exterior city light through side glazing, and physically plausible architecture; no identifiable location.\nSubject: architecture only. The environment should suggest controlled institutional access and strategic scale without depicting any illicit activity.\nStyle/medium: ultra-realistic architectural photography; contemporary urban economic-strategy simulation; cinematic corporate-thriller atmosphere; restrained subtle cyber-noir; realistic material texture and reflections.\nComposition/framing: native exact 9:16 portrait intent, intended final size 1152x2048; human eye-level vertical composition designed for a 320–600 px phone viewport. Keep the broad central area from about 8% to 92% width and 14% to 90% height darker, calm, and low-detail for the full login form. Confine the strongest architectural lines and warm highlights to the upper-right, extreme side edges, and lower background. Preserve a quiet upper-left region for the existing horizontal brand mark. Do not place a bright horizon, mullion, doorway edge, furniture, or focal object behind the form-safe center.\nLighting/mood: blue-hour ambient light with restrained warm-gold interior illumination; calm, secure, credible, serious but welcoming.\nColor palette: black, anthracite, cool blue-gray, restrained warm gold; no saturated neon and no warning red.\nMaterials/textures: dark glass, brushed metal, concrete, stone, subtle floor grain; physically plausible scale.\nText: none.\nConstraints: entirely original fictional architecture; no people or faces; no text, signs, screens, captions, logos, watermarks, signatures, readable plates, addresses, flags, uniforms, authorities, weapons, crime symbols, or real brands. Maintain clear UI contrast at 320 px width and 200% zoom. Do not derive this by simply cropping the desktop reference.\nAvoid: copied landmark-photo angles, impossible geometry, distorted buildings, floating elements, excessive neon, cartoon, anime, comic, plastic mobile-game rendering, blur, low resolution, compression artifacts, fake writing.",
+    "reference_images": [
+      "assets/source/global/global-login-desktop-v1.png",
+      "assets/source/global/global-landing-mobile-night-v1.png"
+    ],
+    "notes": [
+      "Accepted first built-in generation attempt.",
+      "This is a native portrait composition, not a crop of the desktop asset.",
+      "The broad central form-safe area remains calm and low-detail at phone widths.",
+      "No visible person, text, logo, private identifier, authority mark, weapon or illicit activity."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3466857
+    }
+  },
+  "focal_point": {
+    "x": 0.76,
+    "y": 0.34
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.14,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T16:00:39.203Z",
+  "license": "project-owned-generated-asset",
+  "notes": [
+    "Accepted first built-in generation attempt.",
+    "This is a native portrait composition, not a crop of the desktop asset.",
+    "The broad central form-safe area remains calm and low-detail at phone widths.",
+    "No visible person, text, logo, private identifier, authority mark, weapon or illicit activity."
+  ]
+}

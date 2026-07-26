@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-frankfurt-am-main-card-v1",
+  "manifest_order": 105,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "frankfurt-am-main",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-frankfurt-am-main-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100105,
+  "content_hash": "689e590435af10b185f0721f7baea34c105e31d9c88702f43cc74becb53998ae",
+  "source_file": "assets/source/cities/city-frankfurt-am-main-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-card-v1-320.avif",
+      "bytes": 7470,
+      "sha256": "c3b831fca5e4e6ae2f32e3ac0246aa5bae6cd52e6232bd1b88e9cc637ec8793b"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-card-v1-320.webp",
+      "bytes": 7544,
+      "sha256": "a41736e85105f20eaeff4296665f4ac3e3ad8fb290564ff2eb273b40275f2c0b"
+    },
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-card-v1-640.avif",
+      "bytes": 27155,
+      "sha256": "7aaa4258826f4fd84758e5bfa76afba87e2365c016fe30db9164c04b68f0d32c"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-card-v1-640.webp",
+      "bytes": 28364,
+      "sha256": "7b6a85a374cea56c2d9cc21a60f15f8ab7fc898d24893f735eee2515103a9f46"
+    },
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-card-v1-960.avif",
+      "bytes": 73606,
+      "sha256": "6d1e55fb81760b74701ee50669414e929f19ddf7b852bb713c9afcbbe5fad77f"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-card-v1-960.webp",
+      "bytes": 71056,
+      "sha256": "cd72e7cc93a21900e1f7d0731c957ca28070bf78bfbf4d022f91e5db4c0dede0"
+    },
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-card-v1-1280.avif",
+      "bytes": 109235,
+      "sha256": "c92232103274f1bd06b159e5e1b67052e8adb5333d802f17bcb55d0a24b42362"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-card-v1-1280.webp",
+      "bytes": 106384,
+      "sha256": "8c9e40f25b3d205db50e9878895d497ef3d632d07a6cf90d31692e1830ac67a7"
+    },
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-card-v1-1920.avif",
+      "bytes": 162312,
+      "sha256": "e1faa708890f8d80472203073c8c613f251c44cda2140b8fcf4523a2fd45f9f0"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-card-v1-1920.webp",
+      "bytes": 167396,
+      "sha256": "43be4f0ee78309e929d70e67fb137ee69a4235fa332558c69117598f8fc49b18"
+    },
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-card-v1-2560.avif",
+      "bytes": 217935,
+      "sha256": "e4c32ba6bc9a217c9418b8a73054ac24b5b9dc6a50e5b31b545bd5053fc66108"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-card-v1-2560.webp",
+      "bytes": 237712,
+      "sha256": "f27e6f461605f4d83ef0688f011274519ad5551742254eb9b43ccc95c486b819"
+    },
+    {
+      "path": "assets/production/avif/city-frankfurt-am-main-card-v1-3840.avif",
+      "bytes": 335084,
+      "sha256": "9130d0b494dd0b9353fbc1f6129031b844a4b7f6b52869e79df34b87b8a2a1a6"
+    },
+    {
+      "path": "assets/production/webp/city-frankfurt-am-main-card-v1-3840.webp",
+      "bytes": 385924,
+      "sha256": "851ef1fcbc4c8096602b16a19eda644eb8191735e861ed324a4cfbd949c1ae6b"
+    },
+    {
+      "path": "assets/production/png/city-frankfurt-am-main-card-v1-1280.png",
+      "bytes": 2892910,
+      "sha256": "2ed5faaf7f3eaf4d9a4a61db7c6f38a69d86ad5157e4c472169dcf1e54003f5e"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-card-v1-320.avif",
+      "bytes": 7470,
+      "sha256": "c3b831fca5e4e6ae2f32e3ac0246aa5bae6cd52e6232bd1b88e9cc637ec8793b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-card-v1-320.webp",
+      "bytes": 7544,
+      "sha256": "a41736e85105f20eaeff4296665f4ac3e3ad8fb290564ff2eb273b40275f2c0b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-card-v1-640.avif",
+      "bytes": 27155,
+      "sha256": "7aaa4258826f4fd84758e5bfa76afba87e2365c016fe30db9164c04b68f0d32c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-card-v1-640.webp",
+      "bytes": 28364,
+      "sha256": "7b6a85a374cea56c2d9cc21a60f15f8ab7fc898d24893f735eee2515103a9f46"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-card-v1-960.avif",
+      "bytes": 73606,
+      "sha256": "6d1e55fb81760b74701ee50669414e929f19ddf7b852bb713c9afcbbe5fad77f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-card-v1-960.webp",
+      "bytes": 71056,
+      "sha256": "cd72e7cc93a21900e1f7d0731c957ca28070bf78bfbf4d022f91e5db4c0dede0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-card-v1-1280.avif",
+      "bytes": 109235,
+      "sha256": "c92232103274f1bd06b159e5e1b67052e8adb5333d802f17bcb55d0a24b42362"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-card-v1-1280.webp",
+      "bytes": 106384,
+      "sha256": "8c9e40f25b3d205db50e9878895d497ef3d632d07a6cf90d31692e1830ac67a7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-card-v1-1920.avif",
+      "bytes": 162312,
+      "sha256": "e1faa708890f8d80472203073c8c613f251c44cda2140b8fcf4523a2fd45f9f0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-card-v1-1920.webp",
+      "bytes": 167396,
+      "sha256": "43be4f0ee78309e929d70e67fb137ee69a4235fa332558c69117598f8fc49b18"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-card-v1-2560.avif",
+      "bytes": 217935,
+      "sha256": "e4c32ba6bc9a217c9418b8a73054ac24b5b9dc6a50e5b31b545bd5053fc66108"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-card-v1-2560.webp",
+      "bytes": 237712,
+      "sha256": "f27e6f461605f4d83ef0688f011274519ad5551742254eb9b43ccc95c486b819"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-card-v1-3840.avif",
+      "bytes": 335084,
+      "sha256": "9130d0b494dd0b9353fbc1f6129031b844a4b7f6b52869e79df34b87b8a2a1a6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-card-v1-3840.webp",
+      "bytes": 385924,
+      "sha256": "851ef1fcbc4c8096602b16a19eda644eb8191735e861ed324a4cfbd949c1ae6b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-frankfurt-am-main-card-v1-1280.png",
+      "bytes": 2892910,
+      "sha256": "2ed5faaf7f3eaf4d9a4a61db7c6f38a69d86ad5157e4c472169dcf1e54003f5e"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 99,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 99,
+    "lighting_quality": 99,
+    "architecture_plausibility": 98,
+    "ui_suitability": 100,
+    "mobile_suitability": 99,
+    "originality": 97,
+    "safety_compliance": 100,
+    "revision_prompt": "Revise this square fictional Frankfurt-inspired SHADOWGRID city-card backing plate while preserving the exact 1:1 canvas, original river, bridge, compact unbranded tower cluster, lower stone district, calm dark lower-water label band, overcast daylight, and premium realistic visual style.\n\nMandatory correction: remove the isolated pointed church/cathedral spire on the far-right skyline. Replace it with low neutral original stone and glass urban blocks whose rooflines are modest, varied, physically plausible, and not religious, monumental, governmental, or recognizable. Do not add any dome, bell tower, steeple, monument, antenna landmark, real skyline element, sign, or logo. Preserve the rest of the skyline and all river/bridge geometry.\n\nKeep the entire bottom 24% calm dark low-detail water with no bridge, building, vehicle, bright lamp cluster, or detailed terrace in that label-safe band. All tower crowns must remain unbranded dark glass without bright sign-like panels.\n\nNo text, letters, numbers, signs, logos, brands, stock tickers, currency symbols, interface, watermarks, identifiable people, flags, authority marks, criminal symbols, extremist symbols, weapons, violence, fraud instructions, operational wrongdoing, routes, fantasy architecture, impossible geometry, neon, warning red, blur, or fake writing.\n\nDeliver only the corrected clean premium 1:1 city-card backing plate with no isolated religious spire and with the full lower 24% preserved as calm dark water.",
+    "reference_images": [
+      "assets/source/cities/city-frankfurt-am-main-desktop-day-v1.png"
+    ],
+    "notes": [
+      "The first square recomposition was held back because an isolated pointed church spire on the far-right skyline could read as a real cathedral association.",
+      "The accepted revision replaces the spire with modest neutral original stone and glass blocks, without altering the tower cluster, river, bridge, or lower stone district.",
+      "The complete lower 24 percent remains calm dark low-detail river water for external localized labels, badges, and one action.",
+      "No real financial institution, bank mark, exchange symbol, known landmark, religious silhouette, text, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, fraud instruction, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 4035983
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-26T08:55:45.919Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "The first square recomposition was held back because an isolated pointed church spire on the far-right skyline could read as a real cathedral association.",
+    "The accepted revision replaces the spire with modest neutral original stone and glass blocks, without altering the tower cluster, river, bridge, or lower stone district.",
+    "The complete lower 24 percent remains calm dark low-detail river water for external localized labels, badges, and one action.",
+    "No real financial institution, bank mark, exchange symbol, known landmark, religious silhouette, text, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, fraud instruction, or operational wrongdoing is present."
+  ]
+}

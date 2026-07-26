@@ -1,0 +1,233 @@
+{
+  "asset_id": "city-muenchen-ultrawide-day-v1",
+  "manifest_order": 91,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "muenchen",
+  "variant": "ultrawide-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-muenchen-ultrawide-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100091,
+  "content_hash": "6a9fa292a42b1f1639beb66dd613ad98cf44da2d7b4d7520cecd04c79bec6657",
+  "source_file": "assets/source/cities/city-muenchen-ultrawide-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-muenchen-ultrawide-day-v1-320.avif",
+      "bytes": 4430,
+      "sha256": "7aadfd61cf6b83892441e48dd7511fbc34b0be9165696b10255d9a6ba642b61b"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-ultrawide-day-v1-320.webp",
+      "bytes": 4198,
+      "sha256": "391f185928837fc4357d61b319cc8730dc1355141de1718dfdd89367947b475d"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-ultrawide-day-v1-640.avif",
+      "bytes": 15066,
+      "sha256": "82d36f42a0eff7aa3e1b0b4d601058be3fe35ba684995a9d00652deb4643a22e"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-ultrawide-day-v1-640.webp",
+      "bytes": 15028,
+      "sha256": "1fb03ef69e7b890493f15beb39c522c6008ace640f10fec9608d8bb3ffeab986"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-ultrawide-day-v1-960.avif",
+      "bytes": 41380,
+      "sha256": "ae3d5a80cefad77356ac643f23fa4d8cbbf63904f17bb55024c0451e9e780664"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-ultrawide-day-v1-960.webp",
+      "bytes": 37350,
+      "sha256": "9aa70d666d854f668fcb9d57b768f928c2abb872cfaedd997a102bb6e41238be"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-ultrawide-day-v1-1280.avif",
+      "bytes": 66578,
+      "sha256": "c7c7bf75fa5f786491443ab2a1eb74c65a59573fa38bd81c50d3bf12eb84bfc9"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-ultrawide-day-v1-1280.webp",
+      "bytes": 62208,
+      "sha256": "d62b9b613ee58311bb93e914e8148744548cb5c769129c8ba50d955002c5644c"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-ultrawide-day-v1-1920.avif",
+      "bytes": 113458,
+      "sha256": "54430625e717d150875879373c6295e6b761f4850be319d9bb97f3492ccdf910"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-ultrawide-day-v1-1920.webp",
+      "bytes": 109488,
+      "sha256": "5eebe2a1ae69c2f8f454eccd714942117c2c094c2fe7bd068c15cf61022b5dc4"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-ultrawide-day-v1-2560.avif",
+      "bytes": 498747,
+      "sha256": "db3e4bfcc6a8c970fe9c15704c0ff5b15da9bd1d9c0f7d9ff617b4de08a935d7"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-ultrawide-day-v1-2560.webp",
+      "bytes": 153766,
+      "sha256": "a274de07f4f3285772e695f9e7529c330bec0a8b39c9b7052d597e20a2dc4e5d"
+    },
+    {
+      "path": "assets/production/avif/city-muenchen-ultrawide-day-v1-3840.avif",
+      "bytes": 844295,
+      "sha256": "a44264ff08f961796ef827cefc2f3228de4f27da44a171cb1671c18e18f9f109"
+    },
+    {
+      "path": "assets/production/webp/city-muenchen-ultrawide-day-v1-3840.webp",
+      "bytes": 241032,
+      "sha256": "917c4155135bfe675ddf816971b9cb879241e8fdd13af2a73dd130488a0c9a27"
+    },
+    {
+      "path": "assets/production/png/city-muenchen-ultrawide-day-v1-1280.png",
+      "bytes": 1350289,
+      "sha256": "3366ec2f7254e8b145a86e990167139547089bfdcce2711fb1f309a5b45aeb13"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-day-v1-320.avif",
+      "bytes": 4430,
+      "sha256": "7aadfd61cf6b83892441e48dd7511fbc34b0be9165696b10255d9a6ba642b61b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-day-v1-320.webp",
+      "bytes": 4198,
+      "sha256": "391f185928837fc4357d61b319cc8730dc1355141de1718dfdd89367947b475d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-day-v1-640.avif",
+      "bytes": 15066,
+      "sha256": "82d36f42a0eff7aa3e1b0b4d601058be3fe35ba684995a9d00652deb4643a22e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-day-v1-640.webp",
+      "bytes": 15028,
+      "sha256": "1fb03ef69e7b890493f15beb39c522c6008ace640f10fec9608d8bb3ffeab986"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-day-v1-960.avif",
+      "bytes": 41380,
+      "sha256": "ae3d5a80cefad77356ac643f23fa4d8cbbf63904f17bb55024c0451e9e780664"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-day-v1-960.webp",
+      "bytes": 37350,
+      "sha256": "9aa70d666d854f668fcb9d57b768f928c2abb872cfaedd997a102bb6e41238be"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-day-v1-1280.avif",
+      "bytes": 66578,
+      "sha256": "c7c7bf75fa5f786491443ab2a1eb74c65a59573fa38bd81c50d3bf12eb84bfc9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-day-v1-1280.webp",
+      "bytes": 62208,
+      "sha256": "d62b9b613ee58311bb93e914e8148744548cb5c769129c8ba50d955002c5644c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-day-v1-1920.avif",
+      "bytes": 113458,
+      "sha256": "54430625e717d150875879373c6295e6b761f4850be319d9bb97f3492ccdf910"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-day-v1-1920.webp",
+      "bytes": 109488,
+      "sha256": "5eebe2a1ae69c2f8f454eccd714942117c2c094c2fe7bd068c15cf61022b5dc4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-day-v1-2560.avif",
+      "bytes": 498747,
+      "sha256": "db3e4bfcc6a8c970fe9c15704c0ff5b15da9bd1d9c0f7d9ff617b4de08a935d7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-day-v1-2560.webp",
+      "bytes": 153766,
+      "sha256": "a274de07f4f3285772e695f9e7529c330bec0a8b39c9b7052d597e20a2dc4e5d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-day-v1-3840.avif",
+      "bytes": 844295,
+      "sha256": "a44264ff08f961796ef827cefc2f3228de4f27da44a171cb1671c18e18f9f109"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-day-v1-3840.webp",
+      "bytes": 241032,
+      "sha256": "917c4155135bfe675ddf816971b9cb879241e8fdd13af2a73dd130488a0c9a27"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenchen-ultrawide-day-v1-1280.png",
+      "bytes": 1350289,
+      "sha256": "3366ec2f7254e8b145a86e990167139547089bfdcce2711fb1f309a5b45aeb13"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 98.1,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 99,
+    "composition": 100,
+    "material_quality": 98,
+    "lighting_quality": 99,
+    "architecture_plausibility": 98,
+    "ui_suitability": 100,
+    "mobile_suitability": 92,
+    "originality": 97,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create one clean premium ultra-realistic 21:9 daytime environment backing plate for the fictional seasonal strategy/economy MMO SHADOWGRID, inspired by München but not reproducing real landmarks, corporate campuses, or a known tourism viewpoint.\n\nScene: a prosperous contemporary southern German metropolis with high-quality tree-lined public space, a broad clear urban river and landscaped embankments, original low- and mid-rise pale-stone historic-influenced blocks with varied pitched roofs, restrained contemporary technology and research offices, compact transit-oriented density, and layered urban depth. Suggest a distant Alpine foothill atmosphere only through subtle hazy terrain on the far horizon, never as a dramatic fantasy mountain wall. Evoke research, engineering, finance, culture, and civic life through original architecture only. All river, street, transit, campus, and civic layouts must be fictional and non-operational.\n\nComposition: exact ultra-wide 21:9 landscape, intended final size 2688×1152. Use a plausible elevated human viewpoint. Reserve the left 38% as calm, dark, low-detail negative space for localized interface overlays. Concentrate the original river crossing, landscaped public realm, mixed pale-stone district, and restrained technology offices center-right. Keep important shapes inside an inner 84% crop-safe area. Use one physically plausible original low-profile bridge. No focal people or crowds.\n\nLighting and style: crisp but restrained post-rain southern daylight under layered clouds, cool neutral blue-gray atmosphere, subtle warm-gold stone and window highlights, realistic wet paving, pale stone, timber accents, concrete, steel, glass, trees, and river reflections, premium contemporary architectural photography, subtle corporate-thriller mood, natural cinematic depth.\n\nDo not include the Frauenkirche twin domes, Neues Rathaus, Marienplatz, Residenz, Nymphenburg Palace, Hofbräuhaus, BMW headquarters or museum, Allianz Arena, Olympic Park structures, English Garden landmarks, any exact Isar viewpoint, recognizable church silhouette, real corporate campus, flags, coats of arms, real transit maps, exact street layouts, or any known photograph/viewpoint.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, fantasy architecture, impossible geometry, dramatic fantasy mountains, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 21:9 daytime southern-metropolis environment, with no border, title, UI, or device mockup.",
+    "reference_images": [],
+    "notes": [
+      "Accepted first generation attempt.",
+      "The left 38 percent is calm, dark, and low-detail; the fictional river, original bridge, landscaped public realm, pale-stone district, and restrained technology offices are concentrated center-right.",
+      "The distant terrain is low, hazy, and physically plausible rather than a dramatic Alpine fantasy. River, campus, street, and civic geometry is original and non-operational.",
+      "No recognizable München landmark, real corporate campus, exact Isar viewpoint, embedded text, logo, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 5267163
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T22:38:54.174Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first generation attempt.",
+    "The left 38 percent is calm, dark, and low-detail; the fictional river, original bridge, landscaped public realm, pale-stone district, and restrained technology offices are concentrated center-right.",
+    "The distant terrain is low, hazy, and physically plausible rather than a dramatic Alpine fantasy. River, campus, street, and civic geometry is original and non-operational.",
+    "No recognizable München landmark, real corporate campus, exact Isar viewpoint, embedded text, logo, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

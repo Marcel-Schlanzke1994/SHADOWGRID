@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1536" viewBox="0 0 1536 1536" role="img" aria-labelledby="title"><title id="title">Compact wordmark</title><defs>
+    <radialGradient id="brand-bg" cx="32%" cy="22%" r="88%">
+      <stop stop-color="#1b222a"/>
+      <stop offset=".55" stop-color="#0d1116"/>
+      <stop offset="1" stop-color="#06080b"/>
+    </radialGradient>
+    <pattern id="brand-grid" width="96" height="96" patternUnits="userSpaceOnUse">
+      <path d="M96 0H0V96" fill="none" stroke="#8fa0aa" stroke-opacity=".09" stroke-width="3"/>
+    </pattern>
+  </defs>
+      <text x="768" y="690" text-anchor="middle" fill="#f6f4ee" font-family="Arial, Helvetica, sans-serif" font-size="250" font-weight="700" letter-spacing="22">SHADOW</text>
+      <text x="768" y="1060" text-anchor="middle" fill="#d8b15b" font-family="Arial, Helvetica, sans-serif" font-size="310" font-weight="700" letter-spacing="52">GRID</text>
+    </svg>

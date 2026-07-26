@@ -1,0 +1,235 @@
+{
+  "asset_id": "global-landing-mobile-day-v1",
+  "manifest_order": 22,
+  "category": "global",
+  "batch": "global-backgrounds",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/global-landing-mobile-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100022,
+  "content_hash": "cddcb463f0efffd4b365c436d65f62ad687506c1f2c8816e08e337682b12e46e",
+  "source_file": "assets/source/global/global-landing-mobile-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/global-landing-mobile-day-v1-320.avif",
+      "bytes": 20136,
+      "sha256": "02bd8c1495b31af0b07ce4772cc6bd740d6f1e896922f6e7589b45ed663a9434"
+    },
+    {
+      "path": "assets/production/webp/global-landing-mobile-day-v1-320.webp",
+      "bytes": 20590,
+      "sha256": "ba2428d169d79e7981b32c91196847837d83d59e3713c464e39b616d7dfc238a"
+    },
+    {
+      "path": "assets/production/avif/global-landing-mobile-day-v1-640.avif",
+      "bytes": 68303,
+      "sha256": "756069678fa7929a3d1da82d1168e836c979aeec30728dea9149b0ae231858da"
+    },
+    {
+      "path": "assets/production/webp/global-landing-mobile-day-v1-640.webp",
+      "bytes": 72512,
+      "sha256": "9d88d92a131f16279cddf14afd955f6efc4aa6c64d15d75772fc8cf9095ece65"
+    },
+    {
+      "path": "assets/production/avif/global-landing-mobile-day-v1-960.avif",
+      "bytes": 151865,
+      "sha256": "d5dc6a09a5b99c277389b04cbccb6db5bf777413d5b5dc4d19e2e86b75202664"
+    },
+    {
+      "path": "assets/production/webp/global-landing-mobile-day-v1-960.webp",
+      "bytes": 146992,
+      "sha256": "30f8892732e8cb0c4df1735b47d96ace25e2cd147c9dda2747923f6478d41315"
+    },
+    {
+      "path": "assets/production/avif/global-landing-mobile-day-v1-1280.avif",
+      "bytes": 198298,
+      "sha256": "e45128c0eddfbcfb68595d95580a6a18a32859eb2cdec6d951d79bc1bc84ca82"
+    },
+    {
+      "path": "assets/production/webp/global-landing-mobile-day-v1-1280.webp",
+      "bytes": 198410,
+      "sha256": "6a2944138126abb570cca570a818e4efce0d35711a28d3561ca9319c01072df4"
+    },
+    {
+      "path": "assets/production/avif/global-landing-mobile-day-v1-1920.avif",
+      "bytes": 299162,
+      "sha256": "6fe48125f70d3b3ceb8a2f553e2fecefa2e614ae505566d0be741154fe1ba7a0"
+    },
+    {
+      "path": "assets/production/webp/global-landing-mobile-day-v1-1920.webp",
+      "bytes": 310552,
+      "sha256": "64395e16cf566d0e6c8b851b39eba19920e6c6607db0e82b798e1f7d7e47598d"
+    },
+    {
+      "path": "assets/production/avif/global-landing-mobile-day-v1-2560.avif",
+      "bytes": 400662,
+      "sha256": "d192710238c87f8e367841116182084c1c19ef4b08fdb6075e8bc7cffbb26eed"
+    },
+    {
+      "path": "assets/production/webp/global-landing-mobile-day-v1-2560.webp",
+      "bytes": 440126,
+      "sha256": "d254bec5d992654181593154e7ab0cd7a192c907f09cb297a490748cf094b1d6"
+    },
+    {
+      "path": "assets/production/avif/global-landing-mobile-day-v1-3840.avif",
+      "bytes": 613614,
+      "sha256": "4a57c6ad992a277d322a67b9a4827c4cf5e84aa93d4f7aa705dba53a31f093d6"
+    },
+    {
+      "path": "assets/production/webp/global-landing-mobile-day-v1-3840.webp",
+      "bytes": 722970,
+      "sha256": "daab9ee11f0579a863f3518ae72ea68c01a5131093c1214fb5f3927fc8c75768"
+    },
+    {
+      "path": "assets/production/png/global-landing-mobile-day-v1-1152.png",
+      "bytes": 4724844,
+      "sha256": "d745277c80c7ce70e3347f273d8f7ad2837f893e9050706567112a4d4361d70b"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-day-v1-320.avif",
+      "bytes": 20136,
+      "sha256": "02bd8c1495b31af0b07ce4772cc6bd740d6f1e896922f6e7589b45ed663a9434"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-day-v1-320.webp",
+      "bytes": 20590,
+      "sha256": "ba2428d169d79e7981b32c91196847837d83d59e3713c464e39b616d7dfc238a"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-day-v1-640.avif",
+      "bytes": 68303,
+      "sha256": "756069678fa7929a3d1da82d1168e836c979aeec30728dea9149b0ae231858da"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-day-v1-640.webp",
+      "bytes": 72512,
+      "sha256": "9d88d92a131f16279cddf14afd955f6efc4aa6c64d15d75772fc8cf9095ece65"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-day-v1-960.avif",
+      "bytes": 151865,
+      "sha256": "d5dc6a09a5b99c277389b04cbccb6db5bf777413d5b5dc4d19e2e86b75202664"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-day-v1-960.webp",
+      "bytes": 146992,
+      "sha256": "30f8892732e8cb0c4df1735b47d96ace25e2cd147c9dda2747923f6478d41315"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-day-v1-1280.avif",
+      "bytes": 198298,
+      "sha256": "e45128c0eddfbcfb68595d95580a6a18a32859eb2cdec6d951d79bc1bc84ca82"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-day-v1-1280.webp",
+      "bytes": 198410,
+      "sha256": "6a2944138126abb570cca570a818e4efce0d35711a28d3561ca9319c01072df4"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-day-v1-1920.avif",
+      "bytes": 299162,
+      "sha256": "6fe48125f70d3b3ceb8a2f553e2fecefa2e614ae505566d0be741154fe1ba7a0"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-day-v1-1920.webp",
+      "bytes": 310552,
+      "sha256": "64395e16cf566d0e6c8b851b39eba19920e6c6607db0e82b798e1f7d7e47598d"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-day-v1-2560.avif",
+      "bytes": 400662,
+      "sha256": "d192710238c87f8e367841116182084c1c19ef4b08fdb6075e8bc7cffbb26eed"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-day-v1-2560.webp",
+      "bytes": 440126,
+      "sha256": "d254bec5d992654181593154e7ab0cd7a192c907f09cb297a490748cf094b1d6"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-day-v1-3840.avif",
+      "bytes": 613614,
+      "sha256": "4a57c6ad992a277d322a67b9a4827c4cf5e84aa93d4f7aa705dba53a31f093d6"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-day-v1-3840.webp",
+      "bytes": 722970,
+      "sha256": "daab9ee11f0579a863f3518ae72ea68c01a5131093c1214fb5f3927fc8c75768"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-landing-mobile-day-v1-1152.png",
+      "bytes": 4724844,
+      "sha256": "d745277c80c7ce70e3347f273d8f7ad2837f893e9050706567112a4d4361d70b"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 95.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 95,
+    "style_consistency": 95,
+    "composition": 96,
+    "material_quality": 95,
+    "lighting_quality": 95,
+    "architecture_plausibility": 94,
+    "ui_suitability": 94,
+    "mobile_suitability": 97,
+    "originality": 91,
+    "safety_compliance": 100,
+    "accepted_prompt": "Use case: photorealistic-natural\nAsset type: 9:16 mobile landing-page day background for the fictional economic strategy game SHADOWGRID\nInput images: Image 1 is the approved desktop-day landing style and city identity reference. Image 2 is the approved headquarters material reference. Create a new portrait composition; do not crop or edit either input.\nPrimary request: Create an original portrait establishing scene of the same kind of wholly fictional contemporary German river metropolis during daytime, designed from the start for a 9:16 phone screen.\nScene/backdrop: plausible German mixed historic masonry, postwar and modern office districts around a river, ordinary bridges, public transit and riverfront greenery; no real or recognizable city or landmark.\nSubject: a vertical river corridor leading from the lower foreground toward the distant city, with a dark-glass headquarters edge and landscaped terrace in the upper-right quarter. Keep the center moderately calm and slightly darker behind a translucent decision card.\nStyle/medium: ultra-realistic architectural and urban photography; contemporary economic-strategy atmosphere; cinematic corporate thriller; subtle cyber-noir only through restrained grading and materials.\nComposition/framing: native 9:16 portrait; plausible elevated human viewpoint; strong vertical depth; top 18% kept calm for the SHADOWGRID logo and device safe area; main city detail along the outer thirds; center 60% free from high-contrast objects for headline and controls; no desktop-style center crop.\nLighting/mood: natural late-afternoon daylight through broken cloud, realistic haze and reflections, strategic and inviting rather than ominous.\nColor palette: anthracite, cool neutral blue-gray, stone, muted greenery and restrained warm-gold sunlight; no saturated neon or warning red.\nConstraints: no embedded words, fake UI, signage, company logo, authority insignia, readable plates or addresses, recognizable people, famous landmark, copied photograph angle, watermark, weapon, violence, illegal activity, impossible architecture or fantasy skyline. Preserve clean mobile safe areas and physically plausible infrastructure.",
+    "reference_images": [
+      "assets/source/global/global-landing-desktop-day-v1.png",
+      "assets/source/style-proof/style-proof-corporate-headquarters-v1.png"
+    ],
+    "notes": [
+      "Accepted first built-in generation attempt.",
+      "Native portrait composition uses the river as a vertical depth axis and preserves calm sky for the logo safe area.",
+      "No visible logo, readable sign, private identifier, recognizable person, weapon, extremist symbol or explicit wrongdoing.",
+      "The image is an original fictional metropolis and is not a center crop of the desktop master."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 4725367
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T15:22:33.903Z",
+  "license": "project-owned-generated-asset",
+  "notes": [
+    "Accepted first built-in generation attempt.",
+    "Native portrait composition uses the river as a vertical depth axis and preserves calm sky for the logo safe area.",
+    "No visible logo, readable sign, private identifier, recognizable person, weapon, extremist symbol or explicit wrongdoing.",
+    "The image is an original fictional metropolis and is not a center crop of the desktop master."
+  ]
+}

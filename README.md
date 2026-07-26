@@ -48,6 +48,7 @@ Install Chromium once with `pnpm --filter @shadowgrid/web exec playwright instal
 - [Backup/restore](docs/BACKUP_RESTORE.md)
 - [Testing](docs/TESTING.md) and [accessibility](docs/ACCESSIBILITY.md)
 - [Mobile release](docs/MOBILE_RELEASE.md), [privacy](docs/PRIVACY.md) and [localization quality](docs/localization/TRANSLATION_QUALITY.md)
+- [Multiplayer architecture](MULTIPLAYER_ARCHITECTURE_REPORT.md), [PvP balance](PVP_BALANCE_REPORT.md), [cartel wars](CARTEL_WAR_SYSTEM_REPORT.md), [multiplayer security](MULTIPLAYER_SECURITY_REPORT.md) and [load results](MULTIPLAYER_LOAD_TEST_REPORT.md)
 
 ## Safety boundary
 

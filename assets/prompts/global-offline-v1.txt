@@ -1,0 +1,34 @@
+Use case: stylized-concept
+Asset type: global asset for a cross-platform strategy game
+Primary request: Create a premium ultra-realistic visual asset for the multiplayer strategy game SHADOWGRID.
+Scene/backdrop: Fictional contemporary German urban environment, geographically and architecturally plausible.
+Subject: Offline mode background
+Category: global.
+Gameplay state: normal.
+Style/medium: contemporary Germany; high-end urban economic strategy simulation; cinematic corporate thriller atmosphere; subtle cyber-noir; physically plausible glass, concrete, steel, stone and asphalt; original scene, not a known photograph, film frame, game screenshot or branded design.
+Composition/framing: Wide cinematic establishing composition, human eye-level or plausible elevated viewpoint, controlled depth, and calm negative space on the left for user-interface overlays.
+Lighting/mood: warm late afternoon with natural cinematic lighting, realistic reflections and restrained atmosphere.
+Color palette: black and anthracite framing, cool neutral blue-gray, restrained warm gold accents; warning red only if the gameplay state requires danger.
+Materials/textures: physically plausible dark glass, brushed metal, concrete, stone and asphalt with realistic scale.
+Constraints: no embedded captions or interface text; no real brands; no real authorities; no readable plates or addresses; no recognizable private people; no copied landmark-photo angle; space reserved for UI overlays; suitable for desktop and mobile crops; output aspect ratio 16:9.
+Avoid: Do not include: written words, captions, watermarks, signatures, existing game logos, real company logos, real police insignia, real government insignia, readable private license plates, readable private addresses, recognizable private individuals, celebrities, politicians, real criminal organizations, real gang symbols, extremist symbols, Nazi symbols, graphic violence, visible illegal instructions, firearms as the central subject, drug production, crime tutorials, copied photography, copied landmarks from an identical photo angle, fantasy skyscrapers, impossible architecture, distorted buildings, duplicate people, deformed hands, unrealistic vehicles, floating objects, overexposed neon, cartoon style, anime style, comic style, plastic mobile-game appearance, blurry image, low resolution, compression artifacts, unreadable fake text.
+Seed reference: 100035. Style lock: 1.0.0.
+
+Accepted generation prompt:
+Use case: stylized-concept.
+Asset ID: global-offline-v1.
+Create a premium ultra-realistic offline-state background for the fictional seasonal strategy game SHADOWGRID, intended final size 2048x1152, exact 16:9 landscape.
+
+Primary request: Depict a wholly fictional contemporary high-rise strategy lounge in a calm local-only state before dawn. The interior remains powered, intact, and safe, but dense blue-gray fog and rain beyond broad glazing obscure the distant generic city, creating a clear sense of temporary disconnection and limited visibility without depicting a technical diagnosis. Use physically plausible dark glass, graphite stone, brushed metal, a restrained warm-gold practical lamp at the far edge, and realistic rain reflections. No people and no visible active displays.
+
+Composition: wide plausible human-eye-level architectural view. Preserve a broad dark, low-detail central 60% for the real localized offline title, cached-state explanation, and reconnect action. Keep the fog-softened glazing and small material details toward the outer edges. Avoid bright window mullions or lamps behind the central content. The center crop must remain effective on a narrow mobile viewport.
+
+Style and mood: ultra-realistic architectural photography; premium economic-strategy interface backdrop; cinematic corporate-thriller restraint; subtle cyber-noir; quiet resilience rather than emergency, fear, damage, or abandonment; original scene, not a known photograph, film frame, game screenshot, or branded design.
+
+Palette: black, anthracite, cool neutral fog blue-gray, restrained warm gold at the perimeter; no saturated neon and no warning red.
+
+Text: none.
+
+Do not include: written words, letters, numbers, captions, offline labels, Wi-Fi or signal icons, broken-link symbols, cables as symbols, interface panels, error codes, progress bars, maps, node diagrams, data, logos, watermarks, signatures, real brands, real authorities, uniforms, flags, readable screens, plates or addresses, identifiable people, police or government insignia, weapons, crime imagery, damaged equipment, broken glass, smoke, fire, sparks, flooding, emergency vehicles, identifiable real geography, recognizable landmarks, fantasy architecture, impossible geometry, copied photo angles, cartoon/anime/comic styling, plastic mobile-game rendering, blurry foreground, compression artifacts, or fake unreadable writing.
+
+Deliver only the clean 16:9 environment backing plate, with no border, device mockup, or embedded UI.

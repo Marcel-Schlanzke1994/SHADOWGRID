@@ -1,0 +1,86 @@
+{
+  "schema": "vector-branding-v1",
+  "batch": "branding",
+  "reviewer": "codex-visual",
+  "scores": {
+    "style_consistency": 95,
+    "composition": 93,
+    "small_size_legibility": 88,
+    "contrast": 95,
+    "geometry_quality": 94,
+    "ui_suitability": 94,
+    "mobile_suitability": 94,
+    "originality": 90,
+    "technical_quality": 96,
+    "safety_compliance": 100
+  },
+  "notes": [
+    "All fourteen assets use the same hexagonal network mark, restrained gold, anthracite and off-white system.",
+    "No firearm, skull, gang, extremist, authority or real-company symbol is present.",
+    "Transparent variants were checked on dark and light preview backgrounds."
+  ],
+  "assets": {
+    "branding-shadowgrid-logo-vertical-dark-v1": {
+      "scores": {
+        "small_size_legibility": 85
+      },
+      "notes": [
+        "Accepted after reducing and centering the vertical wordmark to remove right-edge clipping."
+      ]
+    },
+    "branding-shadowgrid-logo-vertical-light-v1": {
+      "scores": {
+        "small_size_legibility": 85
+      },
+      "notes": [
+        "Accepted after reducing and centering the vertical wordmark to remove right-edge clipping."
+      ]
+    },
+    "branding-shadowgrid-wordmark-compact-v1": {
+      "scores": {
+        "small_size_legibility": 86,
+        "composition": 92
+      },
+      "notes": [
+        "Accepted after centering both lines and increasing their safe margins."
+      ]
+    },
+    "branding-shadowgrid-app-icon-master-v1": {
+      "scores": {
+        "small_size_legibility": 92,
+        "mobile_suitability": 98,
+        "technical_quality": 98
+      },
+      "notes": [
+        "Full-bleed opaque square; no pre-rounded transparent corners; platform mask safe."
+      ]
+    },
+    "branding-shadowgrid-android-adaptive-foreground-v1": {
+      "scores": {
+        "small_size_legibility": 91,
+        "mobile_suitability": 98
+      },
+      "notes": [
+        "Transparent foreground remains inside the Android adaptive safe region."
+      ]
+    },
+    "branding-shadowgrid-android-adaptive-background-v1": {
+      "scores": {
+        "small_size_legibility": 90,
+        "mobile_suitability": 97
+      },
+      "notes": [
+        "Neutral full-bleed background complements the adaptive foreground without encoding state by color."
+      ]
+    },
+    "branding-shadowgrid-favicon-v1": {
+      "scores": {
+        "small_size_legibility": 94,
+        "technical_quality": 98
+      },
+      "notes": [
+        "Simplified single-ring mark remains recognizable at 16 pixels; runtime PNG is 64 × 64."
+      ]
+    }
+  }
+}

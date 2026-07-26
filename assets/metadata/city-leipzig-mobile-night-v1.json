@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-leipzig-mobile-night-v1",
+  "manifest_order": 128,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "leipzig",
+  "variant": "mobile-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-leipzig-mobile-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100128,
+  "content_hash": "c9f219e3bda0d3f6ad3d092eea5d62c86a9bf7cdecf8bfe38012f6b9011d15ae",
+  "source_file": "assets/source/cities/city-leipzig-mobile-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-leipzig-mobile-night-v1-320.avif",
+      "bytes": 5515,
+      "sha256": "fa55c533fbbb9db21ede73ea73938655c3ef220759483b4e8fa39f8fec2c747f"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-mobile-night-v1-320.webp",
+      "bytes": 5666,
+      "sha256": "97de44fade5c84831f0c5252ed36cc4a744fb71c1fda426b05b243388e07ffa6"
+    },
+    {
+      "path": "assets/production/avif/city-leipzig-mobile-night-v1-640.avif",
+      "bytes": 19242,
+      "sha256": "f2e9dc13492d6d4001ea4e5a0607825068c5f52f19c3a80df077498f266342f2"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-mobile-night-v1-640.webp",
+      "bytes": 20986,
+      "sha256": "56f283c839ffaec9b1435138481e2a85d549d53524887c21c3c6777be781877d"
+    },
+    {
+      "path": "assets/production/avif/city-leipzig-mobile-night-v1-960.avif",
+      "bytes": 48269,
+      "sha256": "5f1e2e6dd8283960b4f9a652a5b793482ef2da199a3c491210104a14bbb62cc7"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-mobile-night-v1-960.webp",
+      "bytes": 46726,
+      "sha256": "5f83e98a3d55c8c16570ef9628d5e957950841e4161ec13ec55124d7c8a96c91"
+    },
+    {
+      "path": "assets/production/avif/city-leipzig-mobile-night-v1-1280.avif",
+      "bytes": 64774,
+      "sha256": "242ba1fb02e3c8a166c9899ebbc93384c9ebe6f44085eedfde3a4e0dac885085"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-mobile-night-v1-1280.webp",
+      "bytes": 66218,
+      "sha256": "c015950af5c2817931be97d65e91d003afd784fbb5bafaacdf496a1f009c852a"
+    },
+    {
+      "path": "assets/production/avif/city-leipzig-mobile-night-v1-1920.avif",
+      "bytes": 721767,
+      "sha256": "d4d58b95d21dabb741ff074b5d5d99848c9a5b8f936939a656da702f0030a4d5"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-mobile-night-v1-1920.webp",
+      "bytes": 113660,
+      "sha256": "2f4b392a99c198ede9a3943f892cd3a2f70022b58e15774408374710b5199fc0"
+    },
+    {
+      "path": "assets/production/avif/city-leipzig-mobile-night-v1-2560.avif",
+      "bytes": 953172,
+      "sha256": "d837508f672df82f286e23474e1354853137bcd6b57cbe48c684c83fc6377632"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-mobile-night-v1-2560.webp",
+      "bytes": 168584,
+      "sha256": "d7e60ceffd3d9d88cfcef87c9fe5737cf0528dcdc30c63496414674f000bdc09"
+    },
+    {
+      "path": "assets/production/avif/city-leipzig-mobile-night-v1-3840.avif",
+      "bytes": 1382851,
+      "sha256": "be349aa56468de3b03c00497e7fa69e7d26ca9a3d47f86a5f922668367b9d77d"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-mobile-night-v1-3840.webp",
+      "bytes": 302886,
+      "sha256": "e668b8cc6df01a41566de82f319aa0243e93ebd280ca56f0a4376a14e15e92c3"
+    },
+    {
+      "path": "assets/production/png/city-leipzig-mobile-night-v1-1152.png",
+      "bytes": 2921773,
+      "sha256": "cd4acf6492b31395f1beb8af473f59d073a8a7015ba5684b572cb46a33164061"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-mobile-night-v1-320.avif",
+      "bytes": 5515,
+      "sha256": "fa55c533fbbb9db21ede73ea73938655c3ef220759483b4e8fa39f8fec2c747f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-mobile-night-v1-320.webp",
+      "bytes": 5666,
+      "sha256": "97de44fade5c84831f0c5252ed36cc4a744fb71c1fda426b05b243388e07ffa6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-mobile-night-v1-640.avif",
+      "bytes": 19242,
+      "sha256": "f2e9dc13492d6d4001ea4e5a0607825068c5f52f19c3a80df077498f266342f2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-mobile-night-v1-640.webp",
+      "bytes": 20986,
+      "sha256": "56f283c839ffaec9b1435138481e2a85d549d53524887c21c3c6777be781877d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-mobile-night-v1-960.avif",
+      "bytes": 48269,
+      "sha256": "5f1e2e6dd8283960b4f9a652a5b793482ef2da199a3c491210104a14bbb62cc7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-mobile-night-v1-960.webp",
+      "bytes": 46726,
+      "sha256": "5f83e98a3d55c8c16570ef9628d5e957950841e4161ec13ec55124d7c8a96c91"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-mobile-night-v1-1280.avif",
+      "bytes": 64774,
+      "sha256": "242ba1fb02e3c8a166c9899ebbc93384c9ebe6f44085eedfde3a4e0dac885085"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-mobile-night-v1-1280.webp",
+      "bytes": 66218,
+      "sha256": "c015950af5c2817931be97d65e91d003afd784fbb5bafaacdf496a1f009c852a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-mobile-night-v1-1920.avif",
+      "bytes": 721767,
+      "sha256": "d4d58b95d21dabb741ff074b5d5d99848c9a5b8f936939a656da702f0030a4d5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-mobile-night-v1-1920.webp",
+      "bytes": 113660,
+      "sha256": "2f4b392a99c198ede9a3943f892cd3a2f70022b58e15774408374710b5199fc0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-mobile-night-v1-2560.avif",
+      "bytes": 953172,
+      "sha256": "d837508f672df82f286e23474e1354853137bcd6b57cbe48c684c83fc6377632"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-mobile-night-v1-2560.webp",
+      "bytes": 168584,
+      "sha256": "d7e60ceffd3d9d88cfcef87c9fe5737cf0528dcdc30c63496414674f000bdc09"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-mobile-night-v1-3840.avif",
+      "bytes": 1382851,
+      "sha256": "be349aa56468de3b03c00497e7fa69e7d26ca9a3d47f86a5f922668367b9d77d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-mobile-night-v1-3840.webp",
+      "bytes": 302886,
+      "sha256": "e668b8cc6df01a41566de82f319aa0243e93ebd280ca56f0a4376a14e15e92c3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-mobile-night-v1-1152.png",
+      "bytes": 2921773,
+      "sha256": "cd4acf6492b31395f1beb8af473f59d073a8a7015ba5684b572cb46a33164061"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 99.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 99,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 99,
+    "lighting_quality": 99,
+    "architecture_plausibility": 99,
+    "ui_suitability": 100,
+    "mobile_suitability": 100,
+    "originality": 97,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create the coordinated 9:16 portrait mobile night counterpart for this accepted fictional Leipzig-inspired SHADOWGRID daytime canal-culture-research-metropolis hero.\n\nPreserve the exact portrait camera and original geometry: calm cloud and floodplain atmosphere across the full upper 32%, first low neutral skyline below that safe-zone boundary, broad tree-lined canal, restrained original low-profile pale-stone and dark-steel bridge, pale courtyard blocks, restrained research buildings, adapted red-brown brick cultural/workshop hall, landscaped gardens, middle city decision area, and more than the full bottom 18% uninterrupted open canal-water primary-control zone. Keep it clearly the same original city composition. Do not reveal or invent any operational canal, bridge, street, path, rail, corporate, academic, cultural, trade, logistics, industrial, or civic layout.\n\nTransform the scene to physically plausible post-rain night: deep anthracite and cool blue-gray cloud layers, restrained irregular warm-neutral windows, subtle low-level garden and bridge practical lights, readable midtone sandstone, aged brick, brushed metal, dark glass, trees, wet paving, and canal reflections, premium contemporary architectural photography, realistic lens and depth, and a restrained corporate-thriller mood. Keep the entire upper 32% calm, dark, and low-detail without a bright cloud break, skyline intrusion, tower, spire, dome, lamp, sign, screen, aircraft, bird, or high-contrast object. Keep the entire bottom 18% as dark calm open canal water without a bridge pier, bank, terrace, boat, vehicle, person, lamp, bright reflection streak, railing, sign, or object.\n\nAvoid concert lighting, event lighting, publishing or media screens, trade-fair illumination, billboard-like facade panels, patterned window lighting, saturated neon, overexposure, emergency lighting, warning-red gameplay cues, black crush, excessive haze, spectacle, freight lighting, or factory-process imagery. Keep every bridge, path, terrace, and garden empty of people.\n\nDo not add or imitate the Monument to the Battle of the Nations, Leipzig City-Hochhaus, Neues Rathaus, Altes Rathaus, Leipzig Hauptbahnhof, Augustusplatz, Leipzig University tower or facade, Gewandhaus, Leipzig Opera, St. Thomas Church, St. Nicholas Church, MDR tower, Leipzig Trade Fair glass hall, zoo landmarks, Baumwollspinnerei, churches, cathedral spires, monuments, civic towers, antenna landmarks, recognizable industrial complexes, real publishing houses, rail corridors, logistics terminals, exact canal routes, known floodplain parks, government buildings, corporate campuses, or any known photograph or viewpoint. Do not add an identifiable real cultural institution, university, publisher, media company, authority, transit operator, industrial process, warehouse operation, freight route, factory interior, logistics hub, or operational transport plan.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, musicians, politicians, crowds, flags, police or government insignia, criminal symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, factory or logistics procedures, fantasy architecture, impossible bridges or structures, excessive neon, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 9:16 night canal-culture-research-metropolis environment, intended final size 1152×2048, with no border, title, UI, or device mockup.",
+    "reference_images": [
+      "assets/source/cities/city-leipzig-mobile-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first night-conversion attempt.",
+      "The exact portrait camera, upper cloud safe zone, low skyline, canal, simple bridge, pale courtyard blocks, adapted brick hall, garden decision area, and lower open-water control zone remain coordinated with the approved daytime counterpart.",
+      "Restrained irregular practical and window lighting preserves readable materials without title-zone intrusion, concert, event, publishing-screen, trade-fair, freight, facade-pattern, or factory-process spectacle.",
+      "All public spaces remain empty. No real cultural institution, university, publisher, station, fair, logistics layout, known Leipzig landmark, tower, spire, authority, text, criminal symbol, extremist symbol, weapon, violence, or wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 2922296
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-26T12:24:45.107Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first night-conversion attempt.",
+    "The exact portrait camera, upper cloud safe zone, low skyline, canal, simple bridge, pale courtyard blocks, adapted brick hall, garden decision area, and lower open-water control zone remain coordinated with the approved daytime counterpart.",
+    "Restrained irregular practical and window lighting preserves readable materials without title-zone intrusion, concert, event, publishing-screen, trade-fair, freight, facade-pattern, or factory-process spectacle.",
+    "All public spaces remain empty. No real cultural institution, university, publisher, station, fair, logistics layout, known Leipzig landmark, tower, spire, authority, text, criminal symbol, extremist symbol, weapon, violence, or wrongdoing is present."
+  ]
+}

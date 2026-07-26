@@ -1,0 +1,235 @@
+{
+  "asset_id": "global-world-selection-mobile-v1",
+  "manifest_order": 29,
+  "category": "global",
+  "batch": "global-backgrounds",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/global-world-selection-mobile-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100029,
+  "content_hash": "9badd0560fe3e00837db2715c2bb8387a47bd99b832b96432772421197d00a0e",
+  "source_file": "assets/source/global/global-world-selection-mobile-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/global-world-selection-mobile-v1-320.avif",
+      "bytes": 7937,
+      "sha256": "9423ac545564e4d41bfc491654e52288b8541d2ea4a878301e7ae58aa62c3600"
+    },
+    {
+      "path": "assets/production/webp/global-world-selection-mobile-v1-320.webp",
+      "bytes": 8070,
+      "sha256": "ae5dac675f86cd1540838ed35841ddf1c71ccd2d332115669309ddddeafde30c"
+    },
+    {
+      "path": "assets/production/avif/global-world-selection-mobile-v1-640.avif",
+      "bytes": 25831,
+      "sha256": "778358b42eeca2d537d75218f8361e410c6a8c546d35b84028494ce534425f24"
+    },
+    {
+      "path": "assets/production/webp/global-world-selection-mobile-v1-640.webp",
+      "bytes": 29650,
+      "sha256": "1980bb34fa6534b9c7769cd86d53f90560b471bf6e04ab7238628aca6316d1b6"
+    },
+    {
+      "path": "assets/production/avif/global-world-selection-mobile-v1-960.avif",
+      "bytes": 66233,
+      "sha256": "b6cafe4796c3e88a31e85adc4aa78f1ebd4fa238ba99728949658c06be003d4c"
+    },
+    {
+      "path": "assets/production/webp/global-world-selection-mobile-v1-960.webp",
+      "bytes": 64866,
+      "sha256": "e8dd94a67c7250f38e76c8ba6ce5f7e2760f32e61cc55431ff9695bf7c1b8bd4"
+    },
+    {
+      "path": "assets/production/avif/global-world-selection-mobile-v1-1280.avif",
+      "bytes": 87005,
+      "sha256": "b3fc1bc272c6c7ec437edb4671d78f204990fb30167e12a9cc098664dee3b0e2"
+    },
+    {
+      "path": "assets/production/webp/global-world-selection-mobile-v1-1280.webp",
+      "bytes": 90648,
+      "sha256": "81c075c7afe965488229e6e333402ad59d5cedc5064d808ee4157f072d1315dd"
+    },
+    {
+      "path": "assets/production/avif/global-world-selection-mobile-v1-1920.avif",
+      "bytes": 138455,
+      "sha256": "206e3bb48dfc66eaf616e045ebe30e172621dfabf25a1812c2a4e772d5868916"
+    },
+    {
+      "path": "assets/production/webp/global-world-selection-mobile-v1-1920.webp",
+      "bytes": 156384,
+      "sha256": "8f17e204142b70123af89b648116207c192cbb10eeec222279fba987fb26e467"
+    },
+    {
+      "path": "assets/production/avif/global-world-selection-mobile-v1-2560.avif",
+      "bytes": 1083072,
+      "sha256": "1cdaf84c334fd739f6313d935b9f5dc922cded559ae3619f81cf8b785f099b5b"
+    },
+    {
+      "path": "assets/production/webp/global-world-selection-mobile-v1-2560.webp",
+      "bytes": 229062,
+      "sha256": "26764dce1072ad89729c8789a942f4e1cb7b4f3cca77eba79fa8e0b7b1e5d799"
+    },
+    {
+      "path": "assets/production/avif/global-world-selection-mobile-v1-3840.avif",
+      "bytes": 1684217,
+      "sha256": "69eb4c7c8a56f5d4e8487428257bfd1aed404e0b2436cf23f2a676ef05f5083a"
+    },
+    {
+      "path": "assets/production/webp/global-world-selection-mobile-v1-3840.webp",
+      "bytes": 404958,
+      "sha256": "20f084e1ddb947624712ecd78b93bea9d25a33fcbd6c781168e85cc395ab346c"
+    },
+    {
+      "path": "assets/production/png/global-world-selection-mobile-v1-1152.png",
+      "bytes": 3656123,
+      "sha256": "894e1995292231bad184a24a510a5bb1ec9845d57d91be722a22cab3954eee0c"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/global/global-world-selection-mobile-v1-320.avif",
+      "bytes": 7937,
+      "sha256": "9423ac545564e4d41bfc491654e52288b8541d2ea4a878301e7ae58aa62c3600"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-world-selection-mobile-v1-320.webp",
+      "bytes": 8070,
+      "sha256": "ae5dac675f86cd1540838ed35841ddf1c71ccd2d332115669309ddddeafde30c"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-world-selection-mobile-v1-640.avif",
+      "bytes": 25831,
+      "sha256": "778358b42eeca2d537d75218f8361e410c6a8c546d35b84028494ce534425f24"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-world-selection-mobile-v1-640.webp",
+      "bytes": 29650,
+      "sha256": "1980bb34fa6534b9c7769cd86d53f90560b471bf6e04ab7238628aca6316d1b6"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-world-selection-mobile-v1-960.avif",
+      "bytes": 66233,
+      "sha256": "b6cafe4796c3e88a31e85adc4aa78f1ebd4fa238ba99728949658c06be003d4c"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-world-selection-mobile-v1-960.webp",
+      "bytes": 64866,
+      "sha256": "e8dd94a67c7250f38e76c8ba6ce5f7e2760f32e61cc55431ff9695bf7c1b8bd4"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-world-selection-mobile-v1-1280.avif",
+      "bytes": 87005,
+      "sha256": "b3fc1bc272c6c7ec437edb4671d78f204990fb30167e12a9cc098664dee3b0e2"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-world-selection-mobile-v1-1280.webp",
+      "bytes": 90648,
+      "sha256": "81c075c7afe965488229e6e333402ad59d5cedc5064d808ee4157f072d1315dd"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-world-selection-mobile-v1-1920.avif",
+      "bytes": 138455,
+      "sha256": "206e3bb48dfc66eaf616e045ebe30e172621dfabf25a1812c2a4e772d5868916"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-world-selection-mobile-v1-1920.webp",
+      "bytes": 156384,
+      "sha256": "8f17e204142b70123af89b648116207c192cbb10eeec222279fba987fb26e467"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-world-selection-mobile-v1-2560.avif",
+      "bytes": 1083072,
+      "sha256": "1cdaf84c334fd739f6313d935b9f5dc922cded559ae3619f81cf8b785f099b5b"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-world-selection-mobile-v1-2560.webp",
+      "bytes": 229062,
+      "sha256": "26764dce1072ad89729c8789a942f4e1cb7b4f3cca77eba79fa8e0b7b1e5d799"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-world-selection-mobile-v1-3840.avif",
+      "bytes": 1684217,
+      "sha256": "69eb4c7c8a56f5d4e8487428257bfd1aed404e0b2436cf23f2a676ef05f5083a"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-world-selection-mobile-v1-3840.webp",
+      "bytes": 404958,
+      "sha256": "20f084e1ddb947624712ecd78b93bea9d25a33fcbd6c781168e85cc395ab346c"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-world-selection-mobile-v1-1152.png",
+      "bytes": 3656123,
+      "sha256": "894e1995292231bad184a24a510a5bb1ec9845d57d91be722a22cab3954eee0c"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 97.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 97,
+    "style_consistency": 99,
+    "composition": 99,
+    "material_quality": 97,
+    "lighting_quality": 98,
+    "architecture_plausibility": 96,
+    "ui_suitability": 99,
+    "mobile_suitability": 99,
+    "originality": 94,
+    "safety_compliance": 100,
+    "accepted_prompt": "Use case: stylized-concept\nAsset type: native portrait mobile game-world-selection background for the fictional cross-platform strategy game SHADOWGRID\nInput images: Image 1 is the approved desktop world-selection scene and defines the observatory world, materials, and blue-hour palette; Image 2 is an approved portrait safe-area reference. Create a new native portrait composition rather than cropping either image.\nPrimary request: Create a premium ultra-realistic 9:16 view inside an original strategic observation gallery in a fictional German metropolis, suitable behind a long game-world-selection form.\nScene/backdrop: vertically framed dark-stone and glass observatory architecture, distant fictional city glimpses confined to the outer edges, brushed metal, subtle floor inlays, and restrained warm-gold light channels; no actual map or embedded interface.\nSubject: architecture and strategic scale only; no people, screens, labels, maps, selectable cards, or UI elements in the image.\nStyle/medium: ultra-realistic architectural photography; contemporary German urban economic-strategy atmosphere; cinematic corporate thriller; restrained subtle cyber-noir; physically plausible construction, scale, and reflections.\nComposition/framing: native exact 9:16 portrait intent, intended final size 1152x2048; human eye-level vertical composition for 320–600 px viewports. Keep the central 84% of the image from about 10% to 94% height calm, dark, and low-detail for a tall wide-selection form. Confine city depth, structural lines, and cool/warm light to the extreme side edges, upper rim, and lower floor. Preserve a quiet upper-left brand region. No horizon, bright mullion, furniture, floor line, map motif, or focal object may cross the form-safe center.\nLighting/mood: early-evening blue hour outside with restrained warm-gold architectural illumination; expansive, anticipatory, credible, and calm.\nColor palette: black and anthracite, cool blue-gray, restrained warm gold, muted stone; no saturated neon and no warning red.\nMaterials/textures: physically plausible dark glass, brushed metal, concrete, stone, understated floor inlays, realistic material imperfections.\nText: none.\nConstraints: wholly original fictional location; no actual German map or geography; no people or faces; no text, fake writing, signage, screens, captions, logos, watermarks, signatures, readable plates, addresses, flags, uniforms, authorities, weapons, crime symbols, or real brands. Maintain strong UI readability at 320 px width and 200% zoom. Do not derive this by simply cropping the desktop reference.\nAvoid: recognizable landmarks, copied photo angles, fantasy skyline, impossible geometry, excessive neon, sci-fi holograms, cartoon, anime, comic, plastic mobile-game rendering, blur, low resolution, compression artifacts.",
+    "reference_images": [
+      "assets/source/global/global-world-selection-desktop-v1.png",
+      "assets/source/global/global-registration-mobile-v1.png"
+    ],
+    "notes": [
+      "Accepted first built-in generation attempt.",
+      "This is a native portrait composition, not a crop of the desktop asset.",
+      "The central stone surface remains clear for the full world-selection form.",
+      "No visible person, text, map, interface, logo, private identifier, authority mark, weapon or illicit activity."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3656646
+    }
+  },
+  "focal_point": {
+    "x": 0.76,
+    "y": 0.34
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.14,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T17:18:36.679Z",
+  "license": "project-owned-generated-asset",
+  "notes": [
+    "Accepted first built-in generation attempt.",
+    "This is a native portrait composition, not a crop of the desktop asset.",
+    "The central stone surface remains clear for the full world-selection form.",
+    "No visible person, text, map, interface, logo, private identifier, authority mark, weapon or illicit activity."
+  ]
+}

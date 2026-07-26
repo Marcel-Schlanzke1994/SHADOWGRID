@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-duesseldorf-mobile-day-v1",
+  "manifest_order": 111,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "duesseldorf",
+  "variant": "mobile-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-duesseldorf-mobile-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100111,
+  "content_hash": "4dffec2508d8dab49e0dec00551e78ab1acf41a14c9bf809d0c26942b50711a4",
+  "source_file": "assets/source/cities/city-duesseldorf-mobile-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-duesseldorf-mobile-day-v1-320.avif",
+      "bytes": 11724,
+      "sha256": "afd5a02e2bb7850b7f9970ce8b18e23445cb324f8e0b84bf9b7241b1fa8dd1dd"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-mobile-day-v1-320.webp",
+      "bytes": 12950,
+      "sha256": "d8a8b8b681d3774cd047ad4ae401fb1ee6afd7d9c5f62460b6da236fc2dd1bfe"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-mobile-day-v1-640.avif",
+      "bytes": 48757,
+      "sha256": "d384813096d3d07d292b88451526692d55939bc57e9fbd7e2aae9f7508662428"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-mobile-day-v1-640.webp",
+      "bytes": 54338,
+      "sha256": "075d17cfcdea43bfe710c23d9b59de0a669096d3a71917f24ca765a60ddabe84"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-mobile-day-v1-960.avif",
+      "bytes": 113284,
+      "sha256": "00e6ac915ad03d34f339762d1e2ed53234da0047a0a4a357095252338ad52d75"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-mobile-day-v1-960.webp",
+      "bytes": 113836,
+      "sha256": "100894907ca68b3412a214207f3df0ae5bbda4bdaeea106fb3ab083541b1e4d4"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-mobile-day-v1-1280.avif",
+      "bytes": 147880,
+      "sha256": "fdada93bdd32c0015b11d47a4187296a0169418ac9270298017e1d8123f145bc"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-mobile-day-v1-1280.webp",
+      "bytes": 152774,
+      "sha256": "fa82ae05072b23dfff1797a9304f3081f4ebd4c6407888f0399c3888c26fc714"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-mobile-day-v1-1920.avif",
+      "bytes": 220452,
+      "sha256": "bb619af1301f961de646391190ee8d340339e70a0992b03465d350b579a3190e"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-mobile-day-v1-1920.webp",
+      "bytes": 247450,
+      "sha256": "d7898bf344a88dc5b268f3f4784af8acc4d1b41ec6c07d4bdd73b83fffe79ab5"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-mobile-day-v1-2560.avif",
+      "bytes": 296502,
+      "sha256": "edb74293e322f0ab40219364d0fde60b0878d4bb2d654ff55cc60cc50c6da7ff"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-mobile-day-v1-2560.webp",
+      "bytes": 350164,
+      "sha256": "b817d01f3bd36b40f7fc51632c1d56755ec8f551fc9c7522757421eb5380fd9a"
+    },
+    {
+      "path": "assets/production/avif/city-duesseldorf-mobile-day-v1-3840.avif",
+      "bytes": 1983788,
+      "sha256": "a203010bb793cb974054dd1cd81faff5dc2a0991ca9a0bb8d1535e5a38c33f7c"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-mobile-day-v1-3840.webp",
+      "bytes": 593208,
+      "sha256": "a6753ce9e604c7f5c02591ea44cca7d2b9600e4e807762e63889ff91734d5be4"
+    },
+    {
+      "path": "assets/production/png/city-duesseldorf-mobile-day-v1-1152.png",
+      "bytes": 4105193,
+      "sha256": "c2580e6fbff9a32ad89df564ebe3e1fb7c5a122227a4234dbc84a21e527acfda"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-mobile-day-v1-320.avif",
+      "bytes": 11724,
+      "sha256": "afd5a02e2bb7850b7f9970ce8b18e23445cb324f8e0b84bf9b7241b1fa8dd1dd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-mobile-day-v1-320.webp",
+      "bytes": 12950,
+      "sha256": "d8a8b8b681d3774cd047ad4ae401fb1ee6afd7d9c5f62460b6da236fc2dd1bfe"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-mobile-day-v1-640.avif",
+      "bytes": 48757,
+      "sha256": "d384813096d3d07d292b88451526692d55939bc57e9fbd7e2aae9f7508662428"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-mobile-day-v1-640.webp",
+      "bytes": 54338,
+      "sha256": "075d17cfcdea43bfe710c23d9b59de0a669096d3a71917f24ca765a60ddabe84"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-mobile-day-v1-960.avif",
+      "bytes": 113284,
+      "sha256": "00e6ac915ad03d34f339762d1e2ed53234da0047a0a4a357095252338ad52d75"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-mobile-day-v1-960.webp",
+      "bytes": 113836,
+      "sha256": "100894907ca68b3412a214207f3df0ae5bbda4bdaeea106fb3ab083541b1e4d4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-mobile-day-v1-1280.avif",
+      "bytes": 147880,
+      "sha256": "fdada93bdd32c0015b11d47a4187296a0169418ac9270298017e1d8123f145bc"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-mobile-day-v1-1280.webp",
+      "bytes": 152774,
+      "sha256": "fa82ae05072b23dfff1797a9304f3081f4ebd4c6407888f0399c3888c26fc714"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-mobile-day-v1-1920.avif",
+      "bytes": 220452,
+      "sha256": "bb619af1301f961de646391190ee8d340339e70a0992b03465d350b579a3190e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-mobile-day-v1-1920.webp",
+      "bytes": 247450,
+      "sha256": "d7898bf344a88dc5b268f3f4784af8acc4d1b41ec6c07d4bdd73b83fffe79ab5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-mobile-day-v1-2560.avif",
+      "bytes": 296502,
+      "sha256": "edb74293e322f0ab40219364d0fde60b0878d4bb2d654ff55cc60cc50c6da7ff"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-mobile-day-v1-2560.webp",
+      "bytes": 350164,
+      "sha256": "b817d01f3bd36b40f7fc51632c1d56755ec8f551fc9c7522757421eb5380fd9a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-mobile-day-v1-3840.avif",
+      "bytes": 1983788,
+      "sha256": "a203010bb793cb974054dd1cd81faff5dc2a0991ca9a0bb8d1535e5a38c33f7c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-mobile-day-v1-3840.webp",
+      "bytes": 593208,
+      "sha256": "a6753ce9e604c7f5c02591ea44cca7d2b9600e4e807762e63889ff91734d5be4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-mobile-day-v1-1152.png",
+      "bytes": 4105193,
+      "sha256": "c2580e6fbff9a32ad89df564ebe3e1fb7c5a122227a4234dbc84a21e527acfda"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 99.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 99,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 99,
+    "lighting_quality": 99,
+    "architecture_plausibility": 99,
+    "ui_suitability": 100,
+    "mobile_suitability": 100,
+    "originality": 97,
+    "safety_compliance": 100,
+    "revision_prompt": "Revise this fictional Düsseldorf-inspired SHADOWGRID 9:16 daytime mobile city hero while preserving the exact portrait canvas, camera, cloud field, river, original low-profile bridge, promenade, canal basin, pale-stone service blocks, restrained glass offices, wet post-rain materials, upper 32% calm status/title zone, middle city decision area, and bottom 18% calm dark water control zone.\n\nMandatory correction: remove the isolated narrow pointed spire near the distant center-right skyline. Replace it with a modest low neutral original stone-and-glass urban block with a flat or gently stepped roofline. It must not read as a church, cathedral, steeple, bell tower, monument, civic tower, antenna landmark, Rheinturm, or recognizable skyline feature. Also ensure no other religious, monumental, governmental, trade-fair, fashion-brand, or media-brand silhouette appears. Preserve the rest of the skyline and all fictional river, canal, bridge, promenade, and building geometry.\n\nKeep the upper 32% calm low-detail cloud/atmospheric space and the bottom 18% calm dark open water. Do not add any high-contrast object to those interface-safe zones. All layouts remain fictional and non-operational.\n\nNo text, letters, numbers, signs, logos, brands, interface, watermarks, signatures, identifiable people, flags, authority marks, police insignia, criminal symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, fantasy architecture, Gehry-like distorted buildings, impossible geometry, neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the corrected clean premium ultra-realistic fictional 9:16 daytime mobile environment with the pointed spire removed and no border, title, UI, or device mockup.",
+    "reference_images": [
+      "assets/source/cities/city-duesseldorf-desktop-day-v1.png"
+    ],
+    "notes": [
+      "The first portrait recomposition was held back because a narrow isolated pointed silhouette near the distant center-right skyline could read as a real church or cathedral association.",
+      "The accepted revision replaces that silhouette with modest neutral flat-roofed original development while preserving the cloud field, river, bridge, promenade, canal basin, and services district.",
+      "The upper 32 percent remains calm for status/title content, the middle carries one legible city decision, and the bottom 18 percent remains calm dark open water for one primary control.",
+      "No known Düsseldorf landmark, religious or civic silhouette, real brand or authority, operational layout, text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 4105716
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-26T09:31:15.756Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "The first portrait recomposition was held back because a narrow isolated pointed silhouette near the distant center-right skyline could read as a real church or cathedral association.",
+    "The accepted revision replaces that silhouette with modest neutral flat-roofed original development while preserving the cloud field, river, bridge, promenade, canal basin, and services district.",
+    "The upper 32 percent remains calm for status/title content, the middle carries one legible city decision, and the bottom 18 percent remains calm dark open water for one primary control.",
+    "No known Düsseldorf landmark, religious or civic silhouette, real brand or authority, operational layout, text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

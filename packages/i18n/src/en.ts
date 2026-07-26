@@ -39,11 +39,18 @@ export const en = {
   playNow: "Play locally",
   navCommand: "Command",
   navCity: "City",
+  navGermany: "Germany",
   navNetwork: "Network",
   navBusinesses: "Businesses",
   navSpecialists: "Specialists",
   navOperations: "Operations",
   navOrganization: "Organization",
+  navPvp: "Rival operations",
+  navTerritories: "Territories",
+  navWars: "Cartel wars",
+  navAlliances: "Alliances",
+  navCommunications: "Communications",
+  navMarket: "Market",
   navDiplomacy: "Diplomacy",
   navInvestigation: "Investigation file",
   navResearch: "Research",
@@ -52,6 +59,62 @@ export const en = {
   navSettings: "Settings",
   navAdmin: "Administration",
   navModeration: "Moderation",
+  pvpTitle: "Rival operations",
+  pvpDescription:
+    "Plan bounded operations against eligible rivals. Costs, protection, and cooldowns are enforced by the server.",
+  pvpTargets: "Eligible targets",
+  independent: "Independent",
+  pvpPlan: "Operation preview",
+  preview: "Preview",
+  confirmPvpLaunch:
+    "Launch this rival operation with the displayed costs and cooldown consequences?",
+  launch: "Launch",
+  duration: "Duration",
+  chanceBand: "Estimated band",
+  pvpOperations: "My rival operations",
+  defend: "Defend",
+  report: "Report",
+  territoriesTitle: "Territory control",
+  territoriesDescription:
+    "Build visible claims through contributions and compete for abstract control points.",
+  claimStrength: "Claim strength",
+  confirmTerritoryClaim:
+    "Create this visible territory claim and spend influence?",
+  claim: "Claim",
+  support: "Support",
+  warsTitle: "Cartel wars",
+  warsDescription:
+    "Ultimatums, preparation, active score windows, and ceasefires are recorded as persistent phases.",
+  currentPassword: "Current password for critical action",
+  declare: "Declare",
+  join: "Join",
+  warPropose: "Issue ultimatum",
+  district: "District",
+  reason: "Reason",
+  demand: "Demand",
+  peaceConditions: "Peace conditions",
+  propose: "Propose",
+  alliancesTitle: "Alliances",
+  alliancesDescription:
+    "Create cross-cartel coordination with explicit membership, roles, and contribution limits.",
+  allianceCreate: "Create alliance",
+  charter: "Charter",
+  communicationsTitle: "Communications",
+  communicationsDescription:
+    "Moderated city, cartel, alliance, and war channels with private-message blocking.",
+  channels: "Channels",
+  message: "Message",
+  send: "Send",
+  directMessages: "Direct messages",
+  marketTitle: "City market",
+  marketDescription:
+    "Player offers settle through the authoritative ledger and bounded city reference prices.",
+  offerCreate: "Create offer",
+  resource: "Resource",
+  amount: "Amount",
+  unitPrice: "Unit price",
+  logistics: "Logistics",
+  personnel: "Personnel",
   worldsTitle: "Choose a world",
   joinWorld: "Join world",
   codename: "Codename",
@@ -89,6 +152,126 @@ export const en = {
   cityTitle: "Vesper city layers",
   citySubtitle:
     "A schematic fictional map; select a district for authoritative values.",
+  germanyMapTitle: "Germany strategy map",
+  germanyMapSubtitle:
+    "A licensed geographic reference layer for the fictional SHADOWGRID world. It does not display authoritative gameplay outcomes.",
+  germanyMapTheme: "Map appearance",
+  germanyMapThemeDay: "Day",
+  germanyMapThemeNight: "Night",
+  germanyMapThemeNeutral: "Neutral",
+  germanyMapLegend: "Heatmap legend",
+  germanyMapHeatmapEconomy: "Economy",
+  germanyMapHeatmapInformation: "Information",
+  germanyMapHeatmapAuthority: "Authority activity",
+  germanyMapHeatmapOrganization: "Organization presence",
+  germanyMapHeatmapEvent: "Events",
+  germanyMapDescription:
+    "A north-up outline of Germany with federal-state boundaries, coastlines, large water bodies, and major rivers.",
+  germanyMapCaption:
+    "Geographic reference only. Dynamic city markers and game values remain server-authoritative.",
+  germanyMapAttribution: "Map data attribution",
+  germanyMapAttributionVgOwner: "© BKG 2025",
+  germanyMapAttributionDlmOwner: "© GeoBasis-DE / BKG 2025",
+  germanyMapAttributionLicense: "dl-de/by-2-0",
+  germanyMapAttributionVgSuffix: "(Daten verändert), Datenquellen:",
+  germanyMapAttributionChanged: "(Daten verändert)",
+  germanyMapAttributionSourcesUrl:
+    "https://sgx.geodatenzentrum.de/web_public/gdz/datenquellen/datenquellen_vg_nuts.pdf",
+  germanyMapSelectedLegend: "Selected visual scale",
+  germanyMapIntensityScale: "Accessible five-step intensity scale",
+  germanyMapIntensityVeryLow: "Very low",
+  germanyMapIntensityLow: "Low",
+  germanyMapIntensityMedium: "Medium",
+  germanyMapIntensityHigh: "High",
+  germanyMapIntensityVeryHigh: "Very high",
+  germanyMapAccessibleLayers: "Map layers",
+  germanyMapLayerOutline: "Germany land outline",
+  germanyMapLayerWater: "Coastlines, broad rivers, and large lakes",
+  germanyMapLayerRivers: "Strategic-scale major river network",
+  germanyMapLayerStates: "Federal-state boundaries",
+  germanyMapReferenceNote:
+    "The list and intensity scale provide a non-color equivalent for the visual layers. No current game state is inferred from this reference view.",
+  germanyMapMarkerCatalog: "Marker and control-point key",
+  germanyMapMarkerCatalogDescription:
+    "Text labels are the authoritative meaning of each marker; shape and category color are redundant visual cues.",
+  germanyMapMarkerCities: "City markers",
+  germanyMapMarkerInfluence: "Influence markers",
+  germanyMapMarkerControlPoints: "Control points",
+  germanyMapMarkerMetropolis: "Metropolis",
+  germanyMapMarkerLargeCity: "Large city",
+  germanyMapMarkerMediumCity: "Medium city",
+  germanyMapMarkerSmallTown: "Small town",
+  germanyMapMarkerHomeCity: "Home city",
+  germanyMapMarkerOrganizationHeadquarters: "Organization headquarters",
+  germanyMapMarkerContestedCity: "Contested city",
+  germanyMapMarkerSeasonalEvent: "Seasonal event",
+  germanyMapMarkerEconomy: "Economic influence",
+  germanyMapMarkerStreet: "Street influence",
+  germanyMapMarkerInformation: "Information influence",
+  germanyMapMarkerSociety: "Social influence",
+  germanyMapMarkerDigital: "Digital influence",
+  germanyMapMarkerEconomicNetwork: "Economic network",
+  germanyMapMarkerInformationCenter: "Information center",
+  germanyMapMarkerLogisticsNode: "Logistics node",
+  germanyMapMarkerSocialAccess: "Social access",
+  germanyMapMarkerDigitalNode: "Digital node",
+  germanyMapMarkerCoordinationCenter: "Coordination center",
+  germanyMapCityPackages: "Premium city packages",
+  germanyMapCityPackagesDescription:
+    "Responsive city artwork is a fictionalized visual identity layer. Current game values and city availability remain server-authoritative.",
+  germanyMapCityKoeln: "Köln-inspired Rhine metropolis",
+  germanyMapCityKoelnDescription:
+    "An original fictional city family built around river scale, trade, culture, media, and logistics without reproducing a known landmark or photograph.",
+  germanyMapCityKoelnHeroAlt:
+    "Fictional Köln-inspired Rhine metropolis with an original bridge and dense civic skyline",
+  germanyMapCityHeroCaption:
+    "The displayed hero adapts to ultra-wide, desktop, mobile, day, and night viewing conditions.",
+  germanyMapCityKoelnCardAlt:
+    "Square fictional Köln-inspired city card with river and original bridge",
+  germanyMapCityHamburg: "Hamburg-inspired maritime metropolis",
+  germanyMapCityHamburgDescription:
+    "An original fictional waterfront city family built around layered waterways, brick heritage, trade, media, and civic life without depicting a real port layout.",
+  germanyMapCityHamburgHeroAlt:
+    "Fictional Hamburg-inspired maritime metropolis with layered waterways and an original brick waterfront",
+  germanyMapCityHamburgCardAlt:
+    "Square fictional Hamburg-inspired city card with waterways, brick district, and original bridge",
+  germanyMapCityBerlin: "Berlin-inspired diverse capital",
+  germanyMapCityBerlinDescription:
+    "An original fictional capital-city family built around a tree-lined canal, mixed architectural eras, culture, research, media, and civic life without depicting a real government or street plan.",
+  germanyMapCityBerlinHeroAlt:
+    "Fictional Berlin-inspired capital with a tree-lined canal, original bridges, and mixed historic and contemporary architecture",
+  germanyMapCityBerlinCardAlt:
+    "Square fictional Berlin-inspired city card with canal, trees, original bridge, and mixed architecture",
+  germanyMapCityMuenchen: "München-inspired southern metropolis",
+  germanyMapCityMuenchenDescription:
+    "An original fictional southern city family built around a landscaped river, pale-stone neighborhoods, high-quality public space, research, engineering, and subtle foothill atmosphere without reproducing a real landmark or corporate campus.",
+  germanyMapCityMuenchenHeroAlt:
+    "Fictional München-inspired southern metropolis with a landscaped river, original bridge, pale-stone district, and subtle foothills",
+  germanyMapCityMuenchenCardAlt:
+    "Square fictional München-inspired city card with landscaped river, pale-stone district, original bridge, and calm label-safe water",
+  germanyMapCityFrankfurt: "Frankfurt-inspired finance metropolis",
+  germanyMapCityFrankfurtDescription:
+    "An original fictional finance and services city family built around a broad river, compact unbranded tower cluster, lower stone district, trade, data services, and public riverfront without reproducing the real skyline or a financial institution.",
+  germanyMapCityFrankfurtHeroAlt:
+    "Fictional Frankfurt-inspired finance metropolis with a broad river, original bridge, compact glass tower cluster, and lower stone district",
+  germanyMapCityFrankfurtCardAlt:
+    "Square fictional Frankfurt-inspired city card with unbranded tower cluster, lower stone district, original bridge, and calm label-safe river",
+  germanyMapCityDuesseldorf: "Düsseldorf-inspired services metropolis",
+  germanyMapCityDuesseldorfDescription:
+    "An original fictional services, fashion, trade, and media city family built around a broad river, landscaped promenade, small canal basin, pale-stone district, and restrained design-oriented offices without reproducing a real landmark, brand, or transport plan.",
+  germanyMapCityDuesseldorfHeroAlt:
+    "Fictional Düsseldorf-inspired services metropolis with a broad river, original bridge, landscaped promenade, canal basin, pale-stone district, and restrained glass offices",
+  germanyMapCityDuesseldorfCardAlt:
+    "Square fictional Düsseldorf-inspired city card with canal basin, pale-stone services district, original bridge, and calm label-safe river",
+  germanyMapCityStuttgart: "Stuttgart-inspired engineering metropolis",
+  germanyMapCityStuttgartDescription:
+    "An original fictional engineering, research, education, and advanced-services city family built around a green urban basin, wooded slopes, layered hillside neighborhoods, pale-stone research districts, and a linear rainwater garden without reproducing a real landmark, automaker, factory, campus, or transport plan.",
+  germanyMapCityStuttgartHeroAlt:
+    "Fictional Stuttgart-inspired engineering metropolis with wooded basin slopes, layered hillside neighborhoods, pale-stone research buildings, planted terraces, and a linear rainwater garden",
+  germanyMapCityStuttgartCardAlt:
+    "Square fictional Stuttgart-inspired city card with wooded basin, hillside neighborhoods, pale research district, rainwater garden, and calm label-safe terrace",
+  germanyMapCitySilhouetteCaption:
+    "Text-free vector silhouette for overlays and compact layouts.",
   layerEconomic: "Economy",
   layerAuthority: "Authority",
   layerSocial: "Social stability",

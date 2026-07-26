@@ -1,0 +1,18 @@
+{
+  "realism": 94,
+  "style_consistency": 92,
+  "composition": 94,
+  "material_quality": 95,
+  "lighting_quality": 93,
+  "architecture_plausibility": 93,
+  "ui_suitability": 92,
+  "mobile_suitability": 86,
+  "originality": 91,
+  "safety_compliance": 100,
+  "revision_prompt": "Change only the distant city skyline so it becomes a wholly fictional, generic contemporary German metropolis. Remove the recognizable Berlin TV tower and any other identifiable landmark silhouette. Replace them with plausible mid-rise German mixed-use architecture and one or two original, non-iconic modern office towers. Preserve the foreground control-center architecture, terrace, materials, camera, composition, UI space, daylight and reflections unchanged.",
+  "notes": [
+    "Accepted second attempt after removing a recognizable landmark silhouette.",
+    "No visible text, logo, private identifier, person, weapon, extremist symbol or explicit wrongdoing.",
+    "Large left-side sky and city area remains suitable for interface overlays."
+  ]
+}

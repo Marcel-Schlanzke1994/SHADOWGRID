@@ -1,0 +1,112 @@
+{
+  "asset_id": "map-federal-state-borders-v1",
+  "manifest_order": 37,
+  "category": "map",
+  "batch": "germany-map",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "svg-geodata",
+  "provider": "bkg-wfs",
+  "model": null,
+  "prompt_file": "assets/prompts/map-federal-state-borders-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100037,
+  "content_hash": "e711e2f51745615e045c89e5c867e769e903623fd5f9752399d5ca3b7e515fb9",
+  "source_file": "assets/source/maps/map-federal-state-borders-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/map-federal-state-borders-v1.svg",
+      "bytes": 70581,
+      "sha256": "e711e2f51745615e045c89e5c867e769e903623fd5f9752399d5ca3b7e515fb9"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/maps/map-federal-state-borders-v1.svg",
+      "bytes": 70581,
+      "sha256": "e711e2f51745615e045c89e5c867e769e903623fd5f9752399d5ca3b7e515fb9"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 97.7,
+  "quality_status": "approved",
+  "review_status": "codex-geodata-approved",
+  "visual_review": {
+    "geographic_fidelity": 100,
+    "geometry_quality": 98,
+    "composition": 98,
+    "small_size_legibility": 96,
+    "contrast": 98,
+    "ui_suitability": 98,
+    "mobile_suitability": 94,
+    "originality": 95,
+    "technical_quality": 100,
+    "safety_compliance": 100,
+    "license": "dl-de/by-2-0",
+    "process_documentation": "Fetched the official BKG VG250 boundary-line layer in EPSG:25832 through WFS 2.0, selected federal-state boundaries with AGZ=2 and land boundaries with GMK=0, projected them into the same 1536×1536 north-up view box as the country outline, simplified them deterministically by 0.55 px, and emitted a transparent SVG overlay without labels or invented borders.",
+    "provenance": {
+      "schema": "shadowgrid-bkg-geodata-v1",
+      "provider": "Bundesamt für Kartographie und Geodäsie (BKG)",
+      "product": "Verwaltungsgebiete 1:250 000, Stand 01.01.2025",
+      "coordinate_reference_system": "EPSG:25832",
+      "source_record": "assets/source/maps/geodata/bkg-2025/sources.json",
+      "input_layer": "state_borders",
+      "input_filter": "agz=2 AND gmk=0",
+      "input_sha256": "fe285db8ca529a42ac5f52b152fd4d256b198f1165569ce675fa377473ff4a55",
+      "output_sha256": "e711e2f51745615e045c89e5c867e769e903623fd5f9752399d5ca3b7e515fb9",
+      "license_url": "https://www.govdata.de/dl-de/by-2-0",
+      "attribution": "© BKG 2025 dl-de/by-2-0 (Daten verändert), Datenquellen: https://sgx.geodatenzentrum.de/web_public/gdz/datenquellen/datenquellen_vg_nuts.pdf"
+    },
+    "notes": [
+      "Visual inspection confirms the internal boundaries align with the Germany outline and remain readable at the 1024 px proof size.",
+      "The gold line treatment is distinguishable from water by both hue and line structure and is intended as an overlay, not a standalone map.",
+      "No labels, disputed claims, invented borders, external resources, scripts, or raster data are embedded."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 70581
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T19:34:13.833Z",
+  "license": "dl-de/by-2-0",
+  "provenance": {
+    "schema": "shadowgrid-bkg-geodata-v1",
+    "provider": "Bundesamt für Kartographie und Geodäsie (BKG)",
+    "product": "Verwaltungsgebiete 1:250 000, Stand 01.01.2025",
+    "coordinate_reference_system": "EPSG:25832",
+    "source_record": "assets/source/maps/geodata/bkg-2025/sources.json",
+    "input_layer": "state_borders",
+    "input_filter": "agz=2 AND gmk=0",
+    "input_sha256": "fe285db8ca529a42ac5f52b152fd4d256b198f1165569ce675fa377473ff4a55",
+    "output_sha256": "e711e2f51745615e045c89e5c867e769e903623fd5f9752399d5ca3b7e515fb9",
+    "license_url": "https://www.govdata.de/dl-de/by-2-0",
+    "attribution": "© BKG 2025 dl-de/by-2-0 (Daten verändert), Datenquellen: https://sgx.geodatenzentrum.de/web_public/gdz/datenquellen/datenquellen_vg_nuts.pdf"
+  },
+  "notes": [
+    "Visual inspection confirms the internal boundaries align with the Germany outline and remain readable at the 1024 px proof size.",
+    "The gold line treatment is distinguishable from water by both hue and line structure and is intended as an overlay, not a standalone map.",
+    "No labels, disputed claims, invented borders, external resources, scripts, or raster data are embedded."
+  ]
+}

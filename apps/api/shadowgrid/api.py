@@ -1121,10 +1121,12 @@ def organization_create(
         )
     organization = Organization(
         world_id=profile.world_id,
+        city_id=profile.city_id,
         name=payload.name,
         tag=payload.tag.upper(),
         archetype=payload.archetype,
         description=payload.description,
+        governance_model=payload.governance_model,
     )
     db.add(organization)
     db.flush()

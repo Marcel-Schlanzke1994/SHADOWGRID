@@ -1,0 +1,22 @@
+{
+  "realism": 98,
+  "style_consistency": 100,
+  "composition": 100,
+  "material_quality": 98,
+  "lighting_quality": 99,
+  "architecture_plausibility": 97,
+  "ui_suitability": 100,
+  "mobile_suitability": 99,
+  "originality": 96,
+  "safety_compliance": 100,
+  "accepted_prompt": "Create a separately composed square city-card image for the same accepted fictional Berlin-inspired SHADOWGRID city.\n\nOutput composition: exact 1:1 square, intended final size 1536×1536. Reconstruct the view for a premium city-selection card rather than cropping the desktop hero. Preserve the family identity: fictional modest canal, one original low-profile bridge, broad tree-lined urban axis, mixed historic stone blocks, restrained postwar modernism, adaptive-reuse brick, contemporary civic and creative offices, cool neutral blue-gray atmosphere, and subtle warm-gold highlights. All street, canal, transit, and civic arrangements must remain fictional and non-operational.\n\nUse the canal bend, original bridge, trees, and mixed-architecture district as a strong centered geometric anchor. Keep the fictional skyline in the upper-middle third with realistic atmospheric depth and physically plausible architecture. Reserve the entire bottom 24% as darker calm low-detail canal water and a subtle shadowed edge for an external localized city name, status badges, and one action. Do not place a bridge, focal building, vehicle, bright lamp cluster, or high-contrast reflection inside that bottom band. Do not embed any UI. Keep important shapes inside an inner 82% safe area for rounded card masks. No focal people or crowds.\n\nLighting and style: cool overcast daylight after light rain with a restrained cloud break, neutral blue-gray atmosphere, subtle warm-gold material and window highlights, realistic wet stone, brick, concrete, glass, trees, and canal reflections, premium contemporary architectural photography, subtle corporate-thriller mood.\n\nDo not add the Brandenburg Gate, Reichstag, Berlin TV Tower, Victory Column, Berlin Cathedral, Museum Island, East Side Gallery, Oberbaum Bridge, Potsdamer Platz, Alexanderplatz, government complexes, embassies, monuments, flags, real transit maps, exact street layouts, recognizable authority buildings, or any known photograph/viewpoint.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, surveillance instructions, routes, fantasy architecture, impossible geometry, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 1:1 daytime city-card backing plate, with no border, rounded mask, title, UI, or device mockup.",
+  "reference_images": [
+    "assets/source/cities/city-berlin-desktop-day-v1.png"
+  ],
+  "notes": [
+    "Accepted first square-card recomposition attempt.",
+    "Canal bend, original bridge, trees, and the mixed-architecture district form a centered anchor above the label band.",
+    "The full lower 24 percent is calm dark canal water with only a narrow low-contrast shadowed edge, suitable for external localized labels, badges, and one action.",
+    "No known landmark, government site, exact street layout, embedded text, logo, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

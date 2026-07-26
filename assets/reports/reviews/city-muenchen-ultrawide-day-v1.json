@@ -1,0 +1,20 @@
+{
+  "realism": 98,
+  "style_consistency": 99,
+  "composition": 100,
+  "material_quality": 98,
+  "lighting_quality": 99,
+  "architecture_plausibility": 98,
+  "ui_suitability": 100,
+  "mobile_suitability": 92,
+  "originality": 97,
+  "safety_compliance": 100,
+  "accepted_prompt": "Create one clean premium ultra-realistic 21:9 daytime environment backing plate for the fictional seasonal strategy/economy MMO SHADOWGRID, inspired by München but not reproducing real landmarks, corporate campuses, or a known tourism viewpoint.\n\nScene: a prosperous contemporary southern German metropolis with high-quality tree-lined public space, a broad clear urban river and landscaped embankments, original low- and mid-rise pale-stone historic-influenced blocks with varied pitched roofs, restrained contemporary technology and research offices, compact transit-oriented density, and layered urban depth. Suggest a distant Alpine foothill atmosphere only through subtle hazy terrain on the far horizon, never as a dramatic fantasy mountain wall. Evoke research, engineering, finance, culture, and civic life through original architecture only. All river, street, transit, campus, and civic layouts must be fictional and non-operational.\n\nComposition: exact ultra-wide 21:9 landscape, intended final size 2688×1152. Use a plausible elevated human viewpoint. Reserve the left 38% as calm, dark, low-detail negative space for localized interface overlays. Concentrate the original river crossing, landscaped public realm, mixed pale-stone district, and restrained technology offices center-right. Keep important shapes inside an inner 84% crop-safe area. Use one physically plausible original low-profile bridge. No focal people or crowds.\n\nLighting and style: crisp but restrained post-rain southern daylight under layered clouds, cool neutral blue-gray atmosphere, subtle warm-gold stone and window highlights, realistic wet paving, pale stone, timber accents, concrete, steel, glass, trees, and river reflections, premium contemporary architectural photography, subtle corporate-thriller mood, natural cinematic depth.\n\nDo not include the Frauenkirche twin domes, Neues Rathaus, Marienplatz, Residenz, Nymphenburg Palace, Hofbräuhaus, BMW headquarters or museum, Allianz Arena, Olympic Park structures, English Garden landmarks, any exact Isar viewpoint, recognizable church silhouette, real corporate campus, flags, coats of arms, real transit maps, exact street layouts, or any known photograph/viewpoint.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, fantasy architecture, impossible geometry, dramatic fantasy mountains, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 21:9 daytime southern-metropolis environment, with no border, title, UI, or device mockup.",
+  "reference_images": [],
+  "notes": [
+    "Accepted first generation attempt.",
+    "The left 38 percent is calm, dark, and low-detail; the fictional river, original bridge, landscaped public realm, pale-stone district, and restrained technology offices are concentrated center-right.",
+    "The distant terrain is low, hazy, and physically plausible rather than a dramatic Alpine fantasy. River, campus, street, and civic geometry is original and non-operational.",
+    "No recognizable München landmark, real corporate campus, exact Isar viewpoint, embedded text, logo, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}

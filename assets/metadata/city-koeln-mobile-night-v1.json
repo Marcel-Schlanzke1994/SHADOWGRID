@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-koeln-mobile-night-v1",
+  "manifest_order": 72,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "koeln",
+  "variant": "mobile-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-koeln-mobile-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100072,
+  "content_hash": "33fb47b733ff01803d8cf5862f0795dfdb85115dcabfd935668191ec8650df86",
+  "source_file": "assets/source/cities/city-koeln-mobile-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-koeln-mobile-night-v1-320.avif",
+      "bytes": 9149,
+      "sha256": "5620a2a22d9f0c2176c300ab401519433a351b933a29482ee2893efd81781b63"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-mobile-night-v1-320.webp",
+      "bytes": 9230,
+      "sha256": "7a6d8701a2d59d805f81f19dd6397c73141de526d99028a371d07c5463c80612"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-mobile-night-v1-640.avif",
+      "bytes": 137096,
+      "sha256": "bfe9907918228b249925ab991e37640b43a4f43469779baf7ace8b2f486cf149"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-mobile-night-v1-640.webp",
+      "bytes": 37496,
+      "sha256": "ac72938f0b8f9ec88b859377547fa98e22cf0ad7112b690f42747ff3251497f6"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-mobile-night-v1-960.avif",
+      "bytes": 289330,
+      "sha256": "4e2721475a57e28e00a21def5e82a82c20a4d6d2da3f8777cf3bf07738c247f4"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-mobile-night-v1-960.webp",
+      "bytes": 85294,
+      "sha256": "2f3e09b97fa16353bbc37dd8cce3dfcf512bb4364fc8b86a30171ded75461823"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-mobile-night-v1-1280.avif",
+      "bytes": 451760,
+      "sha256": "f2592da1a841990cab53ddaaa1301122be24885430947d1ad9bfbdf019ca9ec2"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-mobile-night-v1-1280.webp",
+      "bytes": 118562,
+      "sha256": "54a3b9caaa20e950285bffd00a59c7e05c59cb989b1ebd9371baf09283c04036"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-mobile-night-v1-1920.avif",
+      "bytes": 772275,
+      "sha256": "662fd344ec5f85d6649a9f15e68fa186dd08f6c6729c3a791041692df333bddf"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-mobile-night-v1-1920.webp",
+      "bytes": 192608,
+      "sha256": "4f97a98d6b81638e2d4ab0ac5d1561bd3c54844c015f14cbd480d93eba8b9741"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-mobile-night-v1-2560.avif",
+      "bytes": 1081606,
+      "sha256": "666fef96c78b03a3c68bf3ff8eaf726fa35def939f1c7f75ccca7f313d92e9c2"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-mobile-night-v1-2560.webp",
+      "bytes": 278742,
+      "sha256": "bfbf79f3b7b8ba73794221e94e0c658e55a8a7d698dc86fe0a788b27292a465b"
+    },
+    {
+      "path": "assets/production/avif/city-koeln-mobile-night-v1-3840.avif",
+      "bytes": 1642670,
+      "sha256": "9d3d591bff31fe83158d3538a1a859afffbe4f809e946c97bfb1c8bb43e0bc2f"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-mobile-night-v1-3840.webp",
+      "bytes": 457272,
+      "sha256": "95ddafc23f79689101eaba06c3c07a67f4290ed417f2c1060f17a4f8458f92c9"
+    },
+    {
+      "path": "assets/production/png/city-koeln-mobile-night-v1-1152.png",
+      "bytes": 3288188,
+      "sha256": "bc36afb25a9f34404bcdc072f85f28738cef255e2e883ca52117927376980bd5"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-night-v1-320.avif",
+      "bytes": 9149,
+      "sha256": "5620a2a22d9f0c2176c300ab401519433a351b933a29482ee2893efd81781b63"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-night-v1-320.webp",
+      "bytes": 9230,
+      "sha256": "7a6d8701a2d59d805f81f19dd6397c73141de526d99028a371d07c5463c80612"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-night-v1-640.avif",
+      "bytes": 137096,
+      "sha256": "bfe9907918228b249925ab991e37640b43a4f43469779baf7ace8b2f486cf149"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-night-v1-640.webp",
+      "bytes": 37496,
+      "sha256": "ac72938f0b8f9ec88b859377547fa98e22cf0ad7112b690f42747ff3251497f6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-night-v1-960.avif",
+      "bytes": 289330,
+      "sha256": "4e2721475a57e28e00a21def5e82a82c20a4d6d2da3f8777cf3bf07738c247f4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-night-v1-960.webp",
+      "bytes": 85294,
+      "sha256": "2f3e09b97fa16353bbc37dd8cce3dfcf512bb4364fc8b86a30171ded75461823"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-night-v1-1280.avif",
+      "bytes": 451760,
+      "sha256": "f2592da1a841990cab53ddaaa1301122be24885430947d1ad9bfbdf019ca9ec2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-night-v1-1280.webp",
+      "bytes": 118562,
+      "sha256": "54a3b9caaa20e950285bffd00a59c7e05c59cb989b1ebd9371baf09283c04036"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-night-v1-1920.avif",
+      "bytes": 772275,
+      "sha256": "662fd344ec5f85d6649a9f15e68fa186dd08f6c6729c3a791041692df333bddf"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-night-v1-1920.webp",
+      "bytes": 192608,
+      "sha256": "4f97a98d6b81638e2d4ab0ac5d1561bd3c54844c015f14cbd480d93eba8b9741"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-night-v1-2560.avif",
+      "bytes": 1081606,
+      "sha256": "666fef96c78b03a3c68bf3ff8eaf726fa35def939f1c7f75ccca7f313d92e9c2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-night-v1-2560.webp",
+      "bytes": 278742,
+      "sha256": "bfbf79f3b7b8ba73794221e94e0c658e55a8a7d698dc86fe0a788b27292a465b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-night-v1-3840.avif",
+      "bytes": 1642670,
+      "sha256": "9d3d591bff31fe83158d3538a1a859afffbe4f809e946c97bfb1c8bb43e0bc2f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-night-v1-3840.webp",
+      "bytes": 457272,
+      "sha256": "95ddafc23f79689101eaba06c3c07a67f4290ed417f2c1060f17a4f8458f92c9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-mobile-night-v1-1152.png",
+      "bytes": 3288188,
+      "sha256": "bc36afb25a9f34404bcdc072f85f28738cef255e2e883ca52117927376980bd5"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 98.4,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 100,
+    "composition": 99,
+    "material_quality": 98,
+    "lighting_quality": 99,
+    "architecture_plausibility": 97,
+    "ui_suitability": 99,
+    "mobile_suitability": 100,
+    "originality": 94,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create the coordinated 9:16 night counterpart for this accepted fictional Köln-inspired SHADOWGRID mobile hero.\n\nPreserve the exact portrait geometry and mobile information hierarchy: calm upper 32% sky/status area, fictional civic skyline and broad Rhine-like river in the middle third, one original diagonal low-profile bridge in the middle-lower frame, and a quieter darker bottom 18% for one primary control. Keep it clearly the same fictional city and do not crop or move the bridge into the top safe area.\n\nTransform lighting to physically plausible blue-hour-to-night conditions: deep anthracite and cool blue-gray cloud layers, restrained warm-gold city and bridge practical lights, realistic river reflections, readable midtone architecture, and a calm premium corporate-thriller mood. Avoid saturated neon, excessive black crush, emergency lighting, and warning red as a gameplay cue. The top and bottom overlay areas must stay low-detail.\n\nDo not add Cologne Cathedral, twin Gothic spires, the Hohenzollern Bridge, any recognizable real Cologne landmark, or a known photographic viewpoint.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, trafficking routes, fantasy architecture, impossible geometry, excessive neon, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic 9:16 night environment backing plate, intended final size 1152×2048, with no border, device mockup, or embedded UI.",
+    "reference_images": [
+      "assets/source/cities/city-koeln-mobile-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first portrait night-conversion attempt.",
+      "The upper status area, middle city-and-river decision area, diagonal bridge, and darker lower control area remain coordinated with the approved portrait daytime counterpart.",
+      "Warm practical lights and river reflections retain structure without saturated neon or emergency cues.",
+      "No recognizable Cologne landmark, copied viewpoint, embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3288711
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-25T20:40:05.921Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first portrait night-conversion attempt.",
+    "The upper status area, middle city-and-river decision area, diagonal bridge, and darker lower control area remain coordinated with the approved portrait daytime counterpart.",
+    "Warm practical lights and river reflections retain structure without saturated neon or emergency cues.",
+    "No recognizable Cologne landmark, copied viewpoint, embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+  ]
+}
