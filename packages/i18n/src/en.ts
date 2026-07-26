@@ -270,6 +270,13 @@ export const en = {
     "Fictional Stuttgart-inspired engineering metropolis with wooded basin slopes, layered hillside neighborhoods, pale-stone research buildings, planted terraces, and a linear rainwater garden",
   germanyMapCityStuttgartCardAlt:
     "Square fictional Stuttgart-inspired city card with wooded basin, hillside neighborhoods, pale research district, rainwater garden, and calm label-safe terrace",
+  germanyMapCityLeipzig: "Leipzig-inspired canal and culture metropolis",
+  germanyMapCityLeipzigDescription:
+    "An original fictional culture, publishing, research, education, trade, and creative-services city family built around a flat green floodplain, tree-lined canal, pale courtyard districts, restrained research buildings, adapted brick halls, and public gardens without reproducing a real institution, landmark, fair, station, or logistics plan.",
+  germanyMapCityLeipzigHeroAlt:
+    "Fictional Leipzig-inspired culture and research metropolis with a tree-lined canal, original low-profile bridge, pale courtyard district, adapted brick hall, and landscaped gardens",
+  germanyMapCityLeipzigCardAlt:
+    "Square fictional Leipzig-inspired city card with canal, original bridge, pale courtyard district, adapted brick hall, gardens, and calm label-safe water",
   germanyMapCitySilhouetteCaption:
     "Text-free vector silhouette for overlays and compact layouts.",
   layerEconomic: "Economy",

@@ -124,11 +124,11 @@ test("licensed Germany map assets load and remain keyboard operable", async ({
   await page.getByText("Marker and control-point key").click();
   await page.getByText("Premium city packages").click();
   const cityPackage = page.locator(".germany-city-package");
-  await expect(cityPackage).toHaveCount(7);
-  await expect(cityPackage.locator("picture source")).toHaveCount(42);
+  await expect(cityPackage).toHaveCount(8);
+  await expect(cityPackage.locator("picture source")).toHaveCount(48);
   const cityImages = cityPackage.locator("img");
-  await expect(cityImages).toHaveCount(21);
-  for (let index = 0; index < 7; index += 1) {
+  await expect(cityImages).toHaveCount(24);
+  for (let index = 0; index < 8; index += 1) {
     const packageArticle = cityPackage.nth(index);
     await packageArticle.scrollIntoViewIfNeeded();
     await expect

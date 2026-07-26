@@ -1,0 +1,235 @@
+{
+  "asset_id": "city-leipzig-card-v1",
+  "manifest_order": 129,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "leipzig",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/city-leipzig-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100129,
+  "content_hash": "487fab7c49337ec70ee42ac925f98c406b35712f6034068fda9fc6ab91cb85c6",
+  "source_file": "assets/source/cities/city-leipzig-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-leipzig-card-v1-320.avif",
+      "bytes": 7791,
+      "sha256": "cb2a138d92c84903730dc0f7284b10e3baba41b491bb266a7ae1da38e0e997c4"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-card-v1-320.webp",
+      "bytes": 7688,
+      "sha256": "554b7112ae116bb017e450222f9f1c6de80970b1a112c1b07bb75664106b4e49"
+    },
+    {
+      "path": "assets/production/avif/city-leipzig-card-v1-640.avif",
+      "bytes": 29638,
+      "sha256": "5e71b8a50cdfb5faf040cea68e6600adcc2653dcb8ef51e8701ca631f8760045"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-card-v1-640.webp",
+      "bytes": 29796,
+      "sha256": "f9eeac23b54ea7cac56be7385c42f2899e99a1f7b6edf4d707077f294dd34351"
+    },
+    {
+      "path": "assets/production/avif/city-leipzig-card-v1-960.avif",
+      "bytes": 76341,
+      "sha256": "d7417017e4c2b4e848211ec56e2c3f68270986ade78f1c6ef7ffada75138c5fe"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-card-v1-960.webp",
+      "bytes": 71180,
+      "sha256": "248e54d7ba85a1017d40070def2c756df410ce31bf2abd65e791b6633b62fcc0"
+    },
+    {
+      "path": "assets/production/avif/city-leipzig-card-v1-1280.avif",
+      "bytes": 108780,
+      "sha256": "bc63c58b7abe8ae24ba97b7e5f71514b1e411010233c33d15114ab2d7f9c36a7"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-card-v1-1280.webp",
+      "bytes": 104340,
+      "sha256": "cfefef8da8fe27e6638b3f3f12c2ba4946dc8c10311e86a2952aae0b3cb88a78"
+    },
+    {
+      "path": "assets/production/avif/city-leipzig-card-v1-1920.avif",
+      "bytes": 160564,
+      "sha256": "eb507ec4339f7f6b1a006cbab11314de3a83e8a2b709b4e25eb3b00413da6c53"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-card-v1-1920.webp",
+      "bytes": 163340,
+      "sha256": "bff48dfbbea9acf3787281842ea15276cb430138529778e69593a5acf97b4c55"
+    },
+    {
+      "path": "assets/production/avif/city-leipzig-card-v1-2560.avif",
+      "bytes": 214307,
+      "sha256": "80d907f434fede414ffdae5595f5c8abbfa5582469bcf5cff5213b1a0d40ae74"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-card-v1-2560.webp",
+      "bytes": 226408,
+      "sha256": "8e975c0420e50ede6222613b399c4737a7f3bda91e6130d56efbaa5b2564b1a9"
+    },
+    {
+      "path": "assets/production/avif/city-leipzig-card-v1-3840.avif",
+      "bytes": 1466496,
+      "sha256": "38eceddde4d4d3a06b90f23bdf337c0b6cf78397c545019e051e9903f29b441e"
+    },
+    {
+      "path": "assets/production/webp/city-leipzig-card-v1-3840.webp",
+      "bytes": 370562,
+      "sha256": "040c6e29ce9538159f36e0f4d44dc243600fb953e52fd4e36651a710b6bb0280"
+    },
+    {
+      "path": "assets/production/png/city-leipzig-card-v1-1280.png",
+      "bytes": 2702342,
+      "sha256": "32d5fcc4b3ffa054174c30a5c33753f0f86dd0eea8dd3f31786194f313bf52d7"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-card-v1-320.avif",
+      "bytes": 7791,
+      "sha256": "cb2a138d92c84903730dc0f7284b10e3baba41b491bb266a7ae1da38e0e997c4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-card-v1-320.webp",
+      "bytes": 7688,
+      "sha256": "554b7112ae116bb017e450222f9f1c6de80970b1a112c1b07bb75664106b4e49"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-card-v1-640.avif",
+      "bytes": 29638,
+      "sha256": "5e71b8a50cdfb5faf040cea68e6600adcc2653dcb8ef51e8701ca631f8760045"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-card-v1-640.webp",
+      "bytes": 29796,
+      "sha256": "f9eeac23b54ea7cac56be7385c42f2899e99a1f7b6edf4d707077f294dd34351"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-card-v1-960.avif",
+      "bytes": 76341,
+      "sha256": "d7417017e4c2b4e848211ec56e2c3f68270986ade78f1c6ef7ffada75138c5fe"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-card-v1-960.webp",
+      "bytes": 71180,
+      "sha256": "248e54d7ba85a1017d40070def2c756df410ce31bf2abd65e791b6633b62fcc0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-card-v1-1280.avif",
+      "bytes": 108780,
+      "sha256": "bc63c58b7abe8ae24ba97b7e5f71514b1e411010233c33d15114ab2d7f9c36a7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-card-v1-1280.webp",
+      "bytes": 104340,
+      "sha256": "cfefef8da8fe27e6638b3f3f12c2ba4946dc8c10311e86a2952aae0b3cb88a78"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-card-v1-1920.avif",
+      "bytes": 160564,
+      "sha256": "eb507ec4339f7f6b1a006cbab11314de3a83e8a2b709b4e25eb3b00413da6c53"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-card-v1-1920.webp",
+      "bytes": 163340,
+      "sha256": "bff48dfbbea9acf3787281842ea15276cb430138529778e69593a5acf97b4c55"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-card-v1-2560.avif",
+      "bytes": 214307,
+      "sha256": "80d907f434fede414ffdae5595f5c8abbfa5582469bcf5cff5213b1a0d40ae74"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-card-v1-2560.webp",
+      "bytes": 226408,
+      "sha256": "8e975c0420e50ede6222613b399c4737a7f3bda91e6130d56efbaa5b2564b1a9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-card-v1-3840.avif",
+      "bytes": 1466496,
+      "sha256": "38eceddde4d4d3a06b90f23bdf337c0b6cf78397c545019e051e9903f29b441e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-card-v1-3840.webp",
+      "bytes": 370562,
+      "sha256": "040c6e29ce9538159f36e0f4d44dc243600fb953e52fd4e36651a710b6bb0280"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-card-v1-1280.png",
+      "bytes": 2702342,
+      "sha256": "32d5fcc4b3ffa054174c30a5c33753f0f86dd0eea8dd3f31786194f313bf52d7"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 99.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 99,
+    "style_consistency": 100,
+    "composition": 100,
+    "material_quality": 99,
+    "lighting_quality": 99,
+    "architecture_plausibility": 99,
+    "ui_suitability": 100,
+    "mobile_suitability": 100,
+    "originality": 97,
+    "safety_compliance": 100,
+    "accepted_prompt": "Create one separately composed square 1:1 city-card backing plate for the same accepted fictional Leipzig-inspired SHADOWGRID canal-culture-research-metropolis in the reference.\n\nOutput composition: exact 1:1 square, intended final size 1536×1536. Reconstruct the scene for a compact selection card rather than mechanically cropping the desktop image. Preserve the fictional identity through a flat green floodplain, broad tree-lined urban canal, one restrained original low-profile pale-stone and dark-steel bridge, pale sandstone and warm-gray courtyard blocks, restrained contemporary research buildings, adapted red-brown brick cultural/workshop halls, landscaped public gardens, and a continuous low neutral metropolitan skyline. All canal, bridge, street, path, rail, corporate, academic, cultural, trade, logistics, industrial, and civic layouts must remain fictional and non-operational.\n\nCard hierarchy: place one clean recognizable cluster of the canal bend, simple bridge, pale courtyard district, restrained research building, adapted brick hall, and gardens in the upper-middle area. Preserve a continuous low neutral skyline without an isolated tower, spire, dome, monument, station, trade-fair form, or recognizable cultural building. Keep the bridge and every public path, terrace, and garden entirely empty. Keep the entire bottom 24% as uninterrupted calm dark low-detail open canal water for external localized title, badges, and one action. Do not place any bridge, pier, bank, terrace, building, tree, boat, vehicle, person, lamp cluster, bright reflection, railing, object, or detailed shoreline inside that lower 24% safe band. Keep important architecture away from all outer 8% edges.\n\nLighting and style: cool overcast post-rain daylight with restrained cloud breaks, neutral blue-gray atmosphere, subtle warm-gold sandstone, aged brick, metal, and window highlights, realistic wet paving, pale stone, brick, concrete, brushed steel, dark glass, mature trees, gardens, and canal reflections, premium contemporary architectural photography, realistic lens and depth, and a restrained corporate-thriller mood. Keep the lower water label band dark and visually quiet.\n\nDo not include or imitate the Monument to the Battle of the Nations, Leipzig City-Hochhaus, Neues Rathaus, Altes Rathaus, Leipzig Hauptbahnhof, Augustusplatz, Leipzig University tower or facade, Gewandhaus, Leipzig Opera, St. Thomas Church, St. Nicholas Church, MDR tower, Leipzig Trade Fair glass hall, zoo landmarks, Baumwollspinnerei, churches, cathedral spires, monuments, civic towers, antenna landmarks, recognizable industrial complexes, real publishing houses, rail corridors, logistics terminals, exact canal routes, known floodplain parks, government buildings, corporate campuses, or any known photograph or viewpoint. Do not show an identifiable real cultural institution, university, publisher, media company, authority, transit operator, industrial process, warehouse operation, freight route, factory interior, logistics hub, or operational transport plan.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, musicians, politicians, crowds, flags, police or government insignia, criminal symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, factory or logistics procedures, fantasy architecture, impossible bridges or structures, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 1:1 daytime canal-culture-research-metropolis card backing plate with the full lower 24% preserved as calm dark canal water, and no border, title, UI, or device mockup.",
+    "reference_images": [
+      "assets/source/cities/city-leipzig-desktop-day-v1.png"
+    ],
+    "notes": [
+      "Accepted first square recomposition attempt.",
+      "The card preserves the fictional flat-floodplain, canal, simple bridge, pale courtyard, research, adapted brick-hall, and public-garden identity as a compact original composition.",
+      "The complete lower 24 percent remains uninterrupted calm dark low-detail open canal water for external localized labels, badges, and one action.",
+      "All public spaces are empty. No real cultural institution, university, publisher, station, fair, logistics layout, known Leipzig landmark, tower, spire, authority, text, criminal symbol, extremist symbol, weapon, violence, or wrongdoing is present."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3766623
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-26T12:38:08.019Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Accepted first square recomposition attempt.",
+    "The card preserves the fictional flat-floodplain, canal, simple bridge, pale courtyard, research, adapted brick-hall, and public-garden identity as a compact original composition.",
+    "The complete lower 24 percent remains uninterrupted calm dark low-detail open canal water for external localized labels, badges, and one action.",
+    "All public spaces are empty. No real cultural institution, university, publisher, station, fair, logistics layout, known Leipzig landmark, tower, spire, authority, text, criminal symbol, extremist symbol, weapon, violence, or wrongdoing is present."
+  ]
+}

@@ -122,6 +122,13 @@ const cityPackages = [
     heroAlt: "germanyMapCityStuttgartHeroAlt",
     cardAlt: "germanyMapCityStuttgartCardAlt",
   },
+  {
+    slug: "leipzig",
+    title: "germanyMapCityLeipzig",
+    description: "germanyMapCityLeipzigDescription",
+    heroAlt: "germanyMapCityLeipzigHeroAlt",
+    cardAlt: "germanyMapCityLeipzigCardAlt",
+  },
 ] as const;
 
 type Theme = (typeof themes)[number];

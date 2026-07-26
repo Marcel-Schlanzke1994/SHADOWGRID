@@ -1,0 +1,65 @@
+{
+  "asset_id": "city-leipzig-silhouette-v1",
+  "manifest_order": 130,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "leipzig",
+  "variant": "silhouette",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:5",
+  "width": 3200,
+  "height": 1000,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/city-leipzig-silhouette-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100130,
+  "content_hash": "9ee8693f19033a8322dc0fea7252d3a8299a4172df7ad9d7416d79fe59118535",
+  "source_file": "assets/source/cities/city-leipzig-silhouette-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/city-leipzig-silhouette-v1.svg",
+      "bytes": 3469,
+      "sha256": "9ee8693f19033a8322dc0fea7252d3a8299a4172df7ad9d7416d79fe59118535"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-leipzig-silhouette-v1.svg",
+      "bytes": 3469,
+      "sha256": "9ee8693f19033a8322dc0fea7252d3a8299a4172df7ad9d7416d79fe59118535"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 3469
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-26T12:41:06.244Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

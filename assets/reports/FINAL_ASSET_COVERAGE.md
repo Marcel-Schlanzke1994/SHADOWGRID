@@ -1,16 +1,16 @@
 # Final asset coverage
 
 - Total: 896
-- Generated or processed: 129
-- Procedurally produced: 49
-- Approved: 128
+- Generated or processed: 131
+- Procedurally produced: 50
+- Approved: 130
 - Review required: 1
 - Rejected: 0
-- Missing/pending: 767
+- Missing/pending: 765
 - Failed: 0
 - Recorded cost: €0.0000
-- Production storage: 388.43 MiB
-- Assets without metadata: 767
+- Production storage: 392.43 MiB
+- Assets without metadata: 765
 - Assets without a valid license field: 0
 
 ## Assets per category

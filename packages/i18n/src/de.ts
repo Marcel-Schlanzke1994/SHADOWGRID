@@ -273,6 +273,13 @@ export const de: Record<MessageKey, string> = {
     "Fiktive, von Stuttgart inspirierte Ingenieursmetropole mit bewaldeten Talkessel-Hängen, gestaffelten Hangquartieren, hellen Forschungsbauten, bepflanzten Terrassen und linearem Regenwassergarten",
   germanyMapCityStuttgartCardAlt:
     "Quadratische fiktive, von Stuttgart inspirierte Stadtkarte mit bewaldetem Talkessel, Hangquartieren, hellem Forschungsbezirk, Regenwassergarten und ruhiger Terrasse für Beschriftungen",
+  germanyMapCityLeipzig: "Von Leipzig inspirierte Kanal- und Kulturmetropole",
+  germanyMapCityLeipzigDescription:
+    "Eine eigenständige fiktive Kultur-, Verlags-, Forschungs-, Bildungs-, Handels- und Kreativdienstleistungsstadtfamilie mit flacher grüner Auenlage, baumbestandenem Kanal, hellen Hofquartieren, zurückhaltenden Forschungsbauten, umgenutzten Backsteinhallen und öffentlichen Gärten, ohne reale Institution, Landmarke, Messe, Bahnhof oder Logistikplanung nachzubilden.",
+  germanyMapCityLeipzigHeroAlt:
+    "Fiktive, von Leipzig inspirierte Kultur- und Forschungsmetropole mit baumbestandenem Kanal, eigenständiger niedriger Brücke, hellem Hofquartier, umgenutzter Backsteinhalle und begrünten Gärten",
+  germanyMapCityLeipzigCardAlt:
+    "Quadratische fiktive, von Leipzig inspirierte Stadtkarte mit Kanal, eigenständiger Brücke, hellem Hofquartier, umgenutzter Backsteinhalle, Gärten und ruhigem Wasser für Beschriftungen",
   germanyMapCitySilhouetteCaption:
     "Textfreie Vektorsilhouette für Overlays und kompakte Layouts.",
   layerEconomic: "Wirtschaft",

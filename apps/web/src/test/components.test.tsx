@@ -139,10 +139,10 @@ describe("accessible data primitives", () => {
     ).toHaveLength(19);
     expect(
       container.querySelectorAll(".germany-city-package picture source"),
-    ).toHaveLength(42);
+    ).toHaveLength(48);
     expect(
       container.querySelectorAll(".germany-city-package img"),
-    ).toHaveLength(21);
+    ).toHaveLength(24);
     expect(
       screen.getByLabelText("Accessible five-step intensity scale"),
     ).toHaveTextContent("Very low");

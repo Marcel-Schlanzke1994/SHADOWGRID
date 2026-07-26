@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "prompt_version": "1.0.0",
   "style_version": "1.0.0",
-  "generated_at": "2026-07-26T12:29:19.933Z",
+  "generated_at": "2026-07-26T13:26:04.945Z",
   "asset_count": 896,
   "batches": [
     {
@@ -3419,13 +3419,13 @@
       "style_version": "1.0.0",
       "seed": 100129,
       "variants": [],
-      "status": "review_required",
+      "status": "approved",
       "city": "leipzig",
       "variant": "card",
       "gameplay_state": "normal",
       "notes": "Contemporary, fictionalized representation of Leipzig; no exact landmark photograph recreation; time=day.",
-      "attempts": 1,
-      "completed_at": "2026-07-26T12:29:19.088Z",
+      "attempts": 2,
+      "completed_at": "2026-07-26T12:38:08.019Z",
       "failure_reason": null
     },
     {
@@ -3446,13 +3446,13 @@
       "style_version": "1.0.0",
       "seed": 100130,
       "variants": [],
-      "status": "pending",
+      "status": "approved",
       "city": "leipzig",
       "variant": "silhouette",
       "gameplay_state": "normal",
       "notes": "Contemporary, fictionalized representation of Leipzig; no exact landmark photograph recreation; time=neutral.",
-      "attempts": 0,
-      "completed_at": null,
+      "attempts": 1,
+      "completed_at": "2026-07-26T12:41:06.244Z",
       "failure_reason": null
     },
     {
@@ -3473,13 +3473,13 @@
       "style_version": "1.0.0",
       "seed": 100131,
       "variants": [],
-      "status": "pending",
+      "status": "review_required",
       "city": "dortmund",
       "variant": "ultrawide-day",
       "gameplay_state": "normal",
       "notes": "Contemporary, fictionalized representation of Dortmund; no exact landmark photograph recreation; time=day.",
-      "attempts": 0,
-      "completed_at": null,
+      "attempts": 1,
+      "completed_at": "2026-07-26T13:26:03.003Z",
       "failure_reason": null
     },
     {

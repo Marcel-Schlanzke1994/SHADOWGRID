@@ -2,14 +2,14 @@
   "project": "shadowgrid",
   "manifest_version": "1.0.0",
   "total_assets": 896,
-  "completed_assets": 128,
-  "approved_assets": 127,
+  "completed_assets": 131,
+  "approved_assets": 130,
   "review_required_assets": 1,
   "failed_assets": 0,
   "rejected_assets": 0,
-  "pending_assets": 768,
+  "pending_assets": 765,
   "current_batch": null,
   "current_asset_id": null,
-  "last_completed_asset_id": "city-leipzig-mobile-night-v1",
-  "updated_at": "2026-07-26T12:19:18.934Z"
+  "last_completed_asset_id": "city-dortmund-ultrawide-day-v1",
+  "updated_at": "2026-07-26T13:27:50.886Z"
 }
