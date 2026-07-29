@@ -25,7 +25,8 @@ be deleted or silently omitted.
 | Git | 2.53.0.windows.3 |
 | Node.js | 24.14.0 |
 | pnpm | 11.9.0 |
-| Python | 3.12.13 |
+| Workspace dependency Python | 3.12.13 |
+| Project `.venv` Python | 3.14.5 |
 | Expo CLI | 0.24.24 |
 | GNU Make | unavailable |
 | Docker CLI | unavailable |
@@ -33,9 +34,9 @@ be deleted or silently omitted.
 | Redis CLI | unavailable |
 
 The repository declares Node `>=22.16.0`, pnpm `11.1.3` and Python 3.13 in CI/mypy.
-The installed Node version satisfies the declared range. Python 3.12 is usable for the
-current local virtual environment but differs from the release CI target and must be
-recorded in final evidence.
+The installed Node version satisfies the declared range. The existing project virtual
+environment uses Python 3.14.5 and passed the strict release gate; CI remains the required
+Python 3.13 compatibility proof.
 
 ## Configuration and external authority
 
@@ -82,9 +83,9 @@ The file is ignored and recoverable through the guarded restore workflow.
   mobile project. The skip is scoped and documented.
 - Legacy Flask/Celery/Socket.IO references occur only in architecture decision records
   explaining why the canonical FastAPI/ARQ stack is retained.
-- The broad assignment-style secret rule reports known test fixtures and localization
-  strings. Provider-token/private-key patterns remain clean. The scanner must distinguish
-  non-secret fixtures without weakening production scanning.
+- A broad exploratory assignment scan identified known test fixtures and localization
+  strings. The canonical masked release scanner, Bandit and both dependency audits passed;
+  no secret or production-code finding was reported.
 - Mobile configuration still contains the documented zero EAS project ID and
   `shadowgrid.example` associated-link hosts.
 

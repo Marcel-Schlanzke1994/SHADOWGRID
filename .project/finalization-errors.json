@@ -1,5 +1,15 @@
 {
   "run_id": "finalize-20260729T205043Z-9e706c8",
-  "updated_at": "2026-07-29T20:50:43Z",
-  "errors": []
+  "updated_at": "2026-07-29T22:09:32Z",
+  "errors": [
+    {
+      "id": "HOST-DOCKER-001",
+      "phase": "phase_1_release_candidate_baseline",
+      "status": "blocked_external",
+      "attempts": 1,
+      "message": "Docker, PostgreSQL and Redis CLIs are unavailable on this Windows host, so the Compose topology and independent ARQ worker cannot be started locally.",
+      "independent_work_continues": true,
+      "operator_action": "Install Docker Desktop with Compose, then run the documented Compose startup, predeploy, health/readiness, metrics-network and API/worker log checks."
+    }
+  ]
 }
