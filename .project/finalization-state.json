@@ -1,0 +1,64 @@
+{
+  "project": "SHADOWGRID",
+  "run_id": "finalize-20260729T205043Z-9e706c8",
+  "started_at": "2026-07-29T20:50:43Z",
+  "updated_at": "2026-07-29T21:01:16Z",
+  "current_phase": "phase_1_release_candidate_baseline",
+  "current_task": "reproduce_local_release_gate",
+  "last_completed_phase": "phase_0_repository_baseline",
+  "baseline_commit": "9e706c86b309ebb7d6a2e056b0104b30c876c1ef",
+  "working_branch": "codex/finalize-shadowgrid",
+  "release_version": null,
+  "phases": {
+    "phase_0_repository_baseline": "verified",
+    "phase_1_release_candidate_baseline": "running",
+    "phase_2_gap_analysis": "pending",
+    "phase_3_local_one_click_start": "pending",
+    "phase_4_player_lifecycle": "pending",
+    "phase_5_ux_accessibility_responsive": "pending",
+    "phase_6_asset_pipeline": "pending",
+    "phase_7_store_marketing_community": "pending",
+    "phase_8_balancing_simulation": "pending",
+    "phase_9_security_privacy_compliance": "pending",
+    "phase_10_operations_backup_deployment": "pending",
+    "phase_11_mobile_store_readiness": "pending",
+    "phase_12_transactional_email": "pending",
+    "phase_13_final_release_run": "pending",
+    "phase_14_version_and_promotion": "pending",
+    "phase_15_completion_reports": "pending"
+  },
+  "external_gates": [
+    {
+      "id": "EXT-PRODUCTION-DEPLOY",
+      "flag": "FINALIZE_ALLOW_PRODUCTION_DEPLOY",
+      "status": "blocked_external"
+    },
+    {
+      "id": "EXT-GIT-PUSH",
+      "flag": "FINALIZE_ALLOW_GIT_PUSH",
+      "status": "blocked_external"
+    },
+    {
+      "id": "EXT-GIT-TAG",
+      "flag": "FINALIZE_ALLOW_GIT_TAG",
+      "status": "blocked_external"
+    },
+    {
+      "id": "EXT-PAID-ASSETS",
+      "flag": "FINALIZE_ALLOW_PAID_ASSET_GENERATION",
+      "status": "blocked_external"
+    },
+    {
+      "id": "EXT-STORE-SUBMISSION",
+      "flag": "FINALIZE_ALLOW_STORE_SUBMISSION",
+      "status": "blocked_external"
+    },
+    {
+      "id": "EXT-SMTP-ACTIVATION",
+      "flag": "FINALIZE_ALLOW_EMAIL_PROVIDER_ACTIVATION",
+      "status": "blocked_external"
+    }
+  ],
+  "critical_failures": [],
+  "final_status": "running"
+}
