@@ -14,7 +14,11 @@ Phase 2 is verified with 28 explicitly classified requirement areas and no unkno
 Phase 3 is verified for the real SQLite lifecycle, with PowerShell and Linux/WSL script
 contracts complete. Compose/WSL runtime proof remains under the existing host gate.
 
-Current phase: Phase 4 coherent multi-persona player lifecycle.
+Phase 4 is verified with all 30 required lifecycle steps and all seven personas. The
+deduplicated API suite passed 33/33 and the desktop/mobile Playwright suite passed 40
+cases with two intentional mobile skips for a desktop-only zoom assertion.
+
+Current phase: Phase 5 UX, accessibility and responsive finalization.
 
 Known early gaps:
 

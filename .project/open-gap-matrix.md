@@ -8,7 +8,7 @@ Run: `finalize-20260729T205043Z-9e706c8`
 | GAP-002 | High | 127 untracked files, including 95 under `apps/` | Existing release-critical work is not yet intentionally validated or versioned | 0, 13, 14 | in-progress |
 | GAP-003 | High | Fresh `pnpm validate` | Current dirty source release gate passed; final clean-state repetition remains | 13 | resolved-phase-1 |
 | GAP-004 | High | Real SQLite lifecycle plus parser/tests | Windows/Linux one-click setup/start/stop/reset/verify contract is complete | 3 | resolved |
-| GAP-005 | High | Per-vertical E2E exists | No single evidenced multi-persona lifecycle through season archive | 4 | open |
+| GAP-005 | High | 30-step lifecycle plan; API 33/33; Playwright 40 passed, 2 expected skips | Seven-persona lifecycle through immutable season history is automated | 4 | resolved |
 | GAP-006 | High | 765 pending, one review-required asset | Mandatory asset library and all batch reports are incomplete | 6 | open |
 | GAP-007 | High | No final accessibility report | Page matrix and manual WCAG checks are incomplete | 5 | open |
 | GAP-008 | High | No real store screenshot readiness report | Store/community materials from the running UI are incomplete | 7 | open |

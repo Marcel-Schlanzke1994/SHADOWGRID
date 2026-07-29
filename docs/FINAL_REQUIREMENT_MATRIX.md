@@ -29,6 +29,7 @@ assumed or silently untested.
 | REQ-16 | Automated release gate | `pnpm validate` and Make alias | Exit 0: 107 backend, 12 web, 3 mobile, 4 load, 54 passed Playwright |
 | REQ-19 | Cross-platform one-click local lifecycle | PowerShell/Linux setup, start, stop, reset and verify scripts | Two real SQLite API/worker/web cycles plus syntax and script tests |
 | REQ-23 | Localization truthfulness | 777-key English/German catalogs plus pseudo-locales | Parity validator and RTL E2E |
+| REQ-26 | Complete player lifecycle | Ordered 30-step plan and cross-platform runner | API 33/33; Playwright 40 passed with two expected skips |
 
 The generated OpenAPI contains 216 versioned paths. The required functional prefixes are
 present for authentication, companies, economy, specialists, exchange, cartels,
@@ -46,7 +47,6 @@ estate, events and notifications. Alembic forms one linear chain from `0001` thr
 | REQ-21 | Final operations automation | Health/build paths exist | Smoke scripts, season runbook proof and readiness report |
 | REQ-24 | Complete asset library | 131/896 processed entries integrate | Process 765 pending and resolve one review item |
 | REQ-25 | Multi-season balance evidence | Release-scale fixture passes | Deterministic simulation and three required reports |
-| REQ-26 | Single coherent player lifecycle | Every vertical passes independently | Multi-persona lifecycle with invariant checkpoints |
 | REQ-27 | Real store/marketing capture | Running UI and asset pipeline exist | Real captures and store readiness report |
 
 ## External or host-blocked requirements

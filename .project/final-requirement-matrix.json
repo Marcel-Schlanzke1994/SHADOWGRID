@@ -1,7 +1,7 @@
 {
   "project": "SHADOWGRID",
   "run_id": "finalize-20260729T205043Z-9e706c8",
-  "updated_at": "2026-07-29T22:32:00Z",
+  "updated_at": "2026-07-29T23:03:28Z",
   "status_vocabulary": [
     "verified",
     "gap",
@@ -315,10 +315,10 @@
       "implementation": ["all Phase 1-12 services and UIs"],
       "api_worker_ui": ["216 OpenAPI paths", "vertical Playwright flows"],
       "migration": "0001 through 0017",
-      "test": ["vertical backend and desktop/mobile E2E"],
-      "status": "gap",
-      "evidence": "Every vertical passes independently",
-      "remaining_work": "Add and run one coherent lifecycle scenario with ledger/share invariant checkpoints"
+      "test": ["pnpm test:lifecycle", "33 API lifecycle tests", "42 desktop/mobile Playwright cases"],
+      "status": "verified",
+      "evidence": "All 30 ordered lifecycle steps and seven personas passed: API 33/33; Playwright 40 passed and two expected mobile-only zoom skips",
+      "remaining_work": null
     },
     {
       "id": "REQ-27",

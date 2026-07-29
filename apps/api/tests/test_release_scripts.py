@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import shutil
 import subprocess
 from pathlib import Path
@@ -108,3 +109,25 @@ def test_local_start_verifies_worker_and_never_prints_credentials() -> None:
         assert "worker" in verify
         assert "data:verify" in verify
         assert "contents intentionally not printed" in start
+
+
+def test_lifecycle_plan_maps_every_required_step_persona_and_browser_project() -> None:
+    project = Path(__file__).resolve().parents[3]
+    plan = json.loads((project / "scripts" / "lifecycle-plan.json").read_text(encoding="utf-8"))
+    runner = (project / "scripts" / "verify-lifecycle.mjs").read_text(encoding="utf-8")
+    required_personas = {
+        "entrepreneur",
+        "investor",
+        "cartel_leader",
+        "cartel_member",
+        "intelligence_strategist",
+        "administrator",
+        "local_ai_player",
+    }
+
+    assert plan["schema_version"] == 1
+    assert set(plan["personas"]) == required_personas
+    assert [step["number"] for step in plan["steps"]] == list(range(1, 31))
+    assert all(step["api_tests"] and step["e2e_specs"] for step in plan["steps"])
+    assert '"chromium", "mobile"' in runner
+    assert '"playwright"' in runner

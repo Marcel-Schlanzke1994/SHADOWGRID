@@ -14,14 +14,16 @@
     "dev:api": "node scripts/run-python.mjs --cwd apps/api -m uvicorn shadowgrid.main:app --reload --host 0.0.0.0 --port 8000",
     "migrate": "node scripts/run-python.mjs --cwd apps/api -m alembic upgrade head",
     "migrate:rollback": "node scripts/run-python.mjs --cwd apps/api -m alembic downgrade base",
-    "seed": "node scripts/run-python.mjs --cwd apps/api -m shadowgrid.seed",
+    "seed": "pnpm migrate && node scripts/run-python.mjs --cwd apps/api -m shadowgrid.seed",
     "format:check": "pnpm --recursive --if-present format:check && node scripts/run-python.mjs -m ruff format --check apps tests",
     "lint": "pnpm --recursive --if-present lint && node scripts/run-python.mjs -m ruff check apps tests",
     "typecheck": "pnpm --recursive --if-present typecheck && node scripts/run-python.mjs -m mypy apps/api/shadowgrid apps/worker",
     "test": "pnpm --recursive --if-present test && node scripts/run-python.mjs --cwd apps/api -m pytest tests -q --cov=shadowgrid --cov-report=term --cov-fail-under=65",
     "test:e2e": "pnpm --filter @shadowgrid/web test:e2e",
+    "test:lifecycle": "node scripts/verify-lifecycle.mjs",
     "test:security": "powershell -ExecutionPolicy Bypass -File scripts/security-scan.ps1",
     "test:load": "node scripts/run-python.mjs -m pytest tests/load -q",
+    "data:verify": "node scripts/run-python.mjs --cwd apps/api -m shadowgrid.release_checks",
     "i18n:extract": "pnpm --filter @shadowgrid/i18n extract",
     "i18n:validate": "pnpm --filter @shadowgrid/i18n validate",
     "i18n:pseudo": "pnpm --filter @shadowgrid/i18n pseudo",
@@ -54,6 +56,6 @@
   },
   "devDependencies": {
     "concurrently": "9.2.0",
-    "sharp": "0.34.3"
+    "sharp": "0.35.3"
   }
 }

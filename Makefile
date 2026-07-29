@@ -1,4 +1,4 @@
-.PHONY: help bootstrap setup local-setup local-start local-stop local-verify up down restart dev migrate migration seed seed-demo test test-e2e \
+.PHONY: help bootstrap setup local-setup local-start local-stop local-verify up down restart dev migrate migration seed seed-demo test test-e2e test-lifecycle \
 	e2e lint typecheck security validate review-ready verify-release reset-local logs stop ps clean \
 	shell-backend shell-db shell-redis backend-lint backend-format backend-typecheck backend-test \
 	frontend-lint frontend-format frontend-typecheck frontend-test backup-local restore-local \
@@ -14,7 +14,7 @@ help:
 	@echo "  migrate/migration       apply or create an Alembic migration"
 	@echo "  seed/seed-demo          load deterministic local data"
 	@echo "  backend-* / frontend-*  focused quality gates"
-	@echo "  test/e2e/verify-release full validation gates"
+	@echo "  test/e2e/test-lifecycle  automated validation gates"
 	@echo "  backup-local/restore-local BACKUP=<dump>  database operations"
 
 bootstrap:
@@ -63,6 +63,9 @@ test:
 
 test-e2e:
 	pnpm test:e2e
+
+test-lifecycle:
+	pnpm test:lifecycle
 
 e2e:
 	pnpm test:e2e

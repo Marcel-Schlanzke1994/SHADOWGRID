@@ -108,3 +108,22 @@ deletion to `.local/shadowgrid.db` or named Compose volumes.
 
 WSL runtime and Compose execution remain part of `HOST-DOCKER-001` because this host has
 neither an installed WSL distribution nor Docker.
+
+## Phase 4 complete player lifecycle
+
+- Machine-readable ordered plan: `scripts/lifecycle-plan.json`
+- Required steps represented: 30/30
+- Required personas represented: 7/7
+- API lifecycle command: `pnpm test:lifecycle -- --api-only`
+- API result: 33/33 passed in 548.53 seconds
+- Browser lifecycle command: `pnpm test:lifecycle -- --e2e-only`
+- Playwright result: 40 passed in 8.4 minutes
+- Browser projects: Chromium desktop and Pixel 7 mobile viewport
+- Expected skips: two mobile instances of the explicitly desktop-only 200% zoom test
+- Failed, flaky or retried cases: zero
+- Critical or serious Axe findings: zero
+
+The API suite covers registration and real token verification, refresh rotation,
+onboarding, every financial vertical, realtime reconciliation, all season phases, Hall of
+Fame rewards, the next season and immutable history. Existing domain tests assert balanced
+ledger transactions and fixed share supply at the relevant operations.
