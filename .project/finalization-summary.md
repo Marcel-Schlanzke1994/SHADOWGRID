@@ -11,7 +11,10 @@ Phase 0 is verified. The complete SQLite release gate is green. Phase 1 is
 
 Phase 2 is verified with 28 explicitly classified requirement areas and no unknown status.
 
-Current phase: Phase 3 cross-platform one-click local startup.
+Phase 3 is verified for the real SQLite lifecycle, with PowerShell and Linux/WSL script
+contracts complete. Compose/WSL runtime proof remains under the existing host gate.
+
+Current phase: Phase 4 coherent multi-persona player lifecycle.
 
 Known early gaps:
 

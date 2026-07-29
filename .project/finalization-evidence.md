@@ -84,3 +84,27 @@ CLIs. This prevents a valid API-plus-independent-worker Compose claim and is pre
 - Unknown, assumed or untested status values: 0
 - Generated OpenAPI paths: 216
 - Alembic migration chain: linear from `0001` through `0017`
+
+## Phase 3 local one-click lifecycle
+
+- Required PowerShell scripts: setup, start, stop, reset and verify
+- Required Linux/WSL scripts: setup, start, stop, reset and verify
+- PowerShell parser: all scripts passed
+- Git Bash syntax parser: all shell scripts passed
+- Real SQLite start/verify/stop cycles: two passed
+- Started components: API, independent local due-job worker and Vite web
+- API liveness and readiness: passed
+- Web `/healthz`: passed
+- Worker cycle: economy, AI, specialist market/payroll, mail, order expiry and all
+  aggregate due resolvers executed
+- Post-cycle release data invariants: passed
+- Ruff/format: 111 backend/worker files passed
+- mypy: 62 source files passed
+- Release script tests: 5 passed
+
+The local process controller records process identity and start time, refuses a reused PID
+and stops the validated process tree. Reset requires the exact token `RESET` and confines
+deletion to `.local/shadowgrid.db` or named Compose volumes.
+
+WSL runtime and Compose execution remain part of `HOST-DOCKER-001` because this host has
+neither an installed WSL distribution nor Docker.

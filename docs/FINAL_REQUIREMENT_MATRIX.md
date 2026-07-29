@@ -27,6 +27,7 @@ assumed or silently untested.
 | REQ-14 | Realtime and notifications | Durable event and client reconciliation; migration `0016` | Audience/cursor/read tests and E2E |
 | REQ-15 | Release hardening | Rate limits, bounds, CORS, seed and invariant verifier; migration `0017` | Security, data and load gates |
 | REQ-16 | Automated release gate | `pnpm validate` and Make alias | Exit 0: 107 backend, 12 web, 3 mobile, 4 load, 54 passed Playwright |
+| REQ-19 | Cross-platform one-click local lifecycle | PowerShell/Linux setup, start, stop, reset and verify scripts | Two real SQLite API/worker/web cycles plus syntax and script tests |
 | REQ-23 | Localization truthfulness | 777-key English/German catalogs plus pseudo-locales | Parity validator and RTL E2E |
 
 The generated OpenAPI contains 216 versioned paths. The required functional prefixes are
@@ -41,7 +42,6 @@ estate, events and notifications. Alembic forms one linear chain from `0001` thr
 | --- | --- | --- | --- |
 | REQ-17 | Manual WCAG final review/report | Axe, RTL and desktop zoom pass | Page matrix, screenreader/focus/device evidence |
 | REQ-18 | Privacy launch artifacts | Export/delete implementation exists | Retention, processor, incident and launch checklists |
-| REQ-19 | Required one-click script set | `pnpm setup` works | PowerShell/Linux setup/start/stop/reset/verify plus quickstart |
 | REQ-20 | Final restore drill | Verified SHA-256 backup exists | Safe restore and post-restore invariants |
 | REQ-21 | Final operations automation | Health/build paths exist | Smoke scripts, season runbook proof and readiness report |
 | REQ-24 | Complete asset library | 131/896 processed entries integrate | Process 765 pending and resolve one review item |

@@ -1,7 +1,7 @@
 {
   "project": "SHADOWGRID",
   "run_id": "finalize-20260729T205043Z-9e706c8",
-  "updated_at": "2026-07-29T22:09:32Z",
+  "updated_at": "2026-07-29T22:32:00Z",
   "status_vocabulary": [
     "verified",
     "gap",
@@ -232,9 +232,9 @@
       "api_worker_ui": ["pnpm setup", "pnpm dev", "Compose services"],
       "migration": "all",
       "test": ["test_release_scripts.py"],
-      "status": "gap",
-      "evidence": "Existing setup succeeds but required named script set is incomplete",
-      "remaining_work": "Add setup/start/stop/reset/verify scripts and LOCAL_QUICKSTART.md"
+      "status": "verified",
+      "evidence": "PowerShell and shell contracts parse; two real SQLite API/worker/web start, verify and stop cycles passed",
+      "remaining_work": "Compose and WSL runtime proof remains host-blocked under HOST-DOCKER-001"
     },
     {
       "id": "REQ-20",
