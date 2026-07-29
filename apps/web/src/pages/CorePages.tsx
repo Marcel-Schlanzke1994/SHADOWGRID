@@ -1,27 +1,35 @@
-import { useEffect, useRef, useState, type FormEvent } from "react";
+import { useEffect, useId, useRef, useState, type FormEvent } from "react";
 import { Link, Navigate, useNavigate, useParams } from "react-router-dom";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useTranslation } from "react-i18next";
 import cytoscape from "cytoscape";
 import { ApiError, createIdempotencyKey } from "@shadowgrid/api-client";
 import {
-  businessTypes,
+  companyIndustries,
+  companyInvestmentTypes,
   operationTypes,
   organizationArchetypes,
-  specialistRoles,
 } from "@shadowgrid/game-config";
 import type {
-  Business,
+  City,
+  Company,
+  CompanyDetail,
+  CompanyEconomyReport,
   District,
+  EconomyStatus,
   IntelReport,
   Operation,
   Profile,
   Specialist,
-  World,
+  SpecialistEffects,
+  SpecialistMarketCandidate,
+  SpecialistPayrollReport,
+  WorldEventInstance,
 } from "@shadowgrid/shared-types";
 import { client } from "../auth";
 import { GlobalBackdrop, GlobalDayNightBackdrop } from "../GlobalBackdrop";
 import {
+  ConfirmDialog,
   Field,
   Metric,
   Panel,
@@ -29,7 +37,12 @@ import {
   StateView,
   Status,
 } from "../components";
-import { formatCurrency, formatDate, formatNumber } from "../format";
+import {
+  formatCents,
+  formatCurrency,
+  formatDate,
+  formatNumber,
+} from "../format";
 
 const humanize = (value: string) =>
   value.replaceAll("_", " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
@@ -44,27 +57,114 @@ const useDistricts = () =>
     queryFn: () => client.get<District[]>("/districts"),
   });
 
+function EconomyReportChart({
+  reports,
+  title,
+  locale,
+}: {
+  reports: CompanyEconomyReport[];
+  title: string;
+  locale: string;
+}) {
+  const { t } = useTranslation();
+  const chartId = useId();
+  const chronological = [...reports].reverse();
+  const width = 640;
+  const height = 220;
+  const inset = 24;
+  const values = chronological.flatMap((report) => [
+    report.revenue_cents,
+    report.cost_cents,
+    report.profit_cents,
+  ]);
+  const minimum = Math.min(0, ...values);
+  const maximum = Math.max(1, ...values);
+  const range = Math.max(1, maximum - minimum);
+  const x = (index: number) =>
+    chronological.length === 1
+      ? width / 2
+      : inset +
+        (index * (width - inset * 2)) / Math.max(1, chronological.length - 1);
+  const y = (value: number) =>
+    inset + ((maximum - value) * (height - inset * 2)) / range;
+  const points = (field: "revenue_cents" | "cost_cents" | "profit_cents") =>
+    chronological
+      .map((report, index) => `${x(index)},${y(report[field])}`)
+      .join(" ");
+  return (
+    <figure className="economy-chart">
+      <figcaption id={`${chartId}-title`}>{title}</figcaption>
+      <svg
+        viewBox={`0 0 ${width} ${height}`}
+        role="img"
+        aria-labelledby={`${chartId}-title ${chartId}-description`}
+      >
+        <desc id={`${chartId}-description`}>
+          {chronological
+            .map(
+              (report) =>
+                `${formatDate(report.created_at, locale)}: ${t(
+                  "revenue",
+                )} ${formatCents(report.revenue_cents, locale)}, ${t(
+                  "cost",
+                )} ${formatCents(report.cost_cents, locale)}, ${t(
+                  "companyProfit",
+                )} ${formatCents(report.profit_cents, locale)}`,
+            )
+            .join(". ")}
+        </desc>
+        <line
+          className="economy-chart__axis"
+          x1={inset}
+          x2={width - inset}
+          y1={y(0)}
+          y2={y(0)}
+        />
+        <polyline
+          className="economy-chart__line economy-chart__line--revenue"
+          points={points("revenue_cents")}
+        />
+        <polyline
+          className="economy-chart__line economy-chart__line--cost"
+          points={points("cost_cents")}
+        />
+        <polyline
+          className="economy-chart__line economy-chart__line--profit"
+          points={points("profit_cents")}
+        />
+      </svg>
+      <div className="economy-chart__legend" aria-hidden="true">
+        <span className="economy-chart__legend-revenue">● {t("revenue")}</span>
+        <span className="economy-chart__legend-cost">● {t("cost")}</span>
+        <span className="economy-chart__legend-profit">
+          ● {t("companyProfit")}
+        </span>
+      </div>
+    </figure>
+  );
+}
+
 export function WorldPage() {
   const { t } = useTranslation();
   const navigate = useNavigate();
   const queryClient = useQueryClient();
-  const worlds = useQuery({
-    queryKey: ["worlds"],
-    queryFn: () => client.get<World[]>("/worlds"),
+  const cities = useQuery({
+    queryKey: ["world-cities"],
+    queryFn: () => client.get<City[]>("/world/cities"),
   });
-  const [worldId, setWorldId] = useState("");
+  const [cityId, setCityId] = useState("");
   useEffect(() => {
-    if (!worldId && worlds.data?.[0]) setWorldId(worlds.data[0].id);
-  }, [worldId, worlds.data]);
+    if (!cityId && cities.data?.[0]) setCityId(cities.data[0].id);
+  }, [cityId, cities.data]);
   const districts = useQuery({
-    queryKey: ["world-districts", worldId],
-    queryFn: () => client.get<District[]>(`/worlds/${worldId}/districts`),
-    enabled: Boolean(worldId),
+    queryKey: ["city-districts", cityId],
+    queryFn: () => client.get<District[]>(`/world/cities/${cityId}/districts`),
+    enabled: Boolean(cityId),
   });
   const join = useMutation({
     mutationFn: (body: Record<string, unknown>) =>
       client.post<Profile>(
-        `/worlds/${worldId}/join`,
+        "/players/me/select-city",
         body,
         createIdempotencyKey(),
       ),
@@ -77,6 +177,7 @@ export function WorldPage() {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
     join.mutate({
+      city_id: cityId,
       codename: data.get("codename"),
       archetype: data.get("archetype"),
       home_district_id: data.get("district"),
@@ -99,20 +200,20 @@ export function WorldPage() {
       <Panel className="wide-card">
         <h1>{t("worldsTitle")}</h1>
         <StateView
-          loading={worlds.isLoading || districts.isLoading || join.isPending}
-          error={worlds.error ?? districts.error ?? join.error}
-          empty={worlds.data?.length === 0}
+          loading={cities.isLoading || districts.isLoading || join.isPending}
+          error={cities.error ?? districts.error ?? join.error}
+          empty={cities.data?.length === 0}
         >
           <form onSubmit={submit}>
             <Field label={t("worldsTitle")}>
               <select
-                id="field-choose-a-world"
-                value={worldId}
-                onChange={(event) => setWorldId(event.target.value)}
+                id="field-choose-a-city"
+                value={cityId}
+                onChange={(event) => setCityId(event.target.value)}
               >
-                {worlds.data?.map((world) => (
-                  <option value={world.id} key={world.id}>
-                    {world.name}
+                {cities.data?.map((city) => (
+                  <option value={city.id} key={city.id}>
+                    {city.name}
                   </option>
                 ))}
               </select>
@@ -224,10 +325,7 @@ export function DashboardPage() {
   });
   const events = useQuery({
     queryKey: ["events"],
-    queryFn: () =>
-      client.get<
-        Array<{ id: string; title: string; status: string; starts_at: string }>
-      >("/world-events"),
+    queryFn: () => client.get<WorldEventInstance[]>("/world-events"),
     enabled: Boolean(profile.data),
   });
   if (
@@ -248,6 +346,23 @@ export function DashboardPage() {
         <h1>{t("commandTitle")}</h1>
         <p>{t("commandSubtitle")}</p>
       </header>
+      {events.data
+        ?.filter((event) => event.status === "active")
+        .map((event) => (
+          <section
+            className="notice notice--warning"
+            aria-label={t("eventActiveBanner")}
+            key={event.id}
+          >
+            <strong>{event.title}</strong>
+            <span>{event.description}</span>
+            <small>
+              {t("eventActiveUntil", {
+                date: formatDate(event.ends_at, i18n.language),
+              })}
+            </small>
+          </section>
+        ))}
       <StateView loading={profile.isLoading} error={profile.error}>
         {p && (
           <>
@@ -387,7 +502,7 @@ export function CityPage() {
             <svg
               className="city-map"
               viewBox="0 0 100 100"
-              role="img"
+              role="group"
               aria-labelledby="map-title map-desc"
             >
               <title id="map-title">{t("cityTitle")}</title>
@@ -471,39 +586,124 @@ export function CityPage() {
 
 export function BusinessesPage() {
   const { t, i18n } = useTranslation();
-  const { businessId } = useParams();
+  const { companyId, businessId } = useParams();
+  const selectedId = companyId ?? businessId;
+  const navigate = useNavigate();
   const queryClient = useQueryClient();
   const districts = useDistricts();
+  const config = useQuery({
+    queryKey: ["company-config"],
+    queryFn: () =>
+      client.get<{
+        founding_cost_cents: number;
+        industries: Record<string, { enterprise_value_cents: number }>;
+        investments: Record<
+          string,
+          { cost_cents: number; metric: string; increase: number }
+        >;
+      }>("/companies/config"),
+  });
   const query = useQuery({
-    queryKey: ["businesses"],
-    queryFn: () => client.get<Business[]>("/businesses"),
+    queryKey: ["companies"],
+    queryFn: () => client.get<Company[]>("/companies"),
   });
-  const buy = useMutation({
-    mutationFn: (body: Record<string, unknown>) =>
-      client.post<Business>("/businesses", body, createIdempotencyKey()),
-    onSuccess: () =>
-      queryClient.invalidateQueries({ queryKey: ["businesses"] }),
+  const detail = useQuery({
+    queryKey: ["companies", selectedId],
+    queryFn: () => client.get<CompanyDetail>(`/companies/${selectedId}`),
+    enabled: Boolean(selectedId),
   });
-  const upgrade = useMutation({
-    mutationFn: (id: string) =>
-      client.post<Business>(
-        `/businesses/${id}/upgrade`,
-        undefined,
+  const economyStatus = useQuery({
+    queryKey: ["economy-status"],
+    queryFn: () => client.get<EconomyStatus>("/economy/status"),
+  });
+  const competitors = useQuery({
+    queryKey: ["economy-competitors"],
+    queryFn: () => client.get<Company[]>("/economy/competitors"),
+  });
+  const economyReports = useQuery({
+    queryKey: ["companies", selectedId, "economy-reports"],
+    queryFn: () =>
+      client.get<CompanyEconomyReport[]>(
+        `/companies/${selectedId}/economy-reports`,
+      ),
+    enabled: Boolean(selectedId),
+  });
+  const [pendingAction, setPendingAction] = useState<
+    | {
+        kind: "create";
+        payload: { name: string; industry: string; district_id: string };
+        costCents: number;
+      }
+    | {
+        kind: "invest";
+        companyId: string;
+        investmentType: string;
+        costCents: number;
+      }
+    | null
+  >(null);
+  const [successMessage, setSuccessMessage] = useState("");
+  const create = useMutation({
+    mutationFn: (body: {
+      name: string;
+      industry: string;
+      district_id: string;
+    }) => client.post<Company>("/companies", body, createIdempotencyKey()),
+    onSuccess: async (company) => {
+      setPendingAction(null);
+      setSuccessMessage(t("companyCreated"));
+      await queryClient.invalidateQueries({ queryKey: ["companies"] });
+      navigate(`/companies/${company.id}`);
+    },
+    onError: () => setPendingAction(null),
+  });
+  const invest = useMutation({
+    mutationFn: ({
+      companyId: targetCompanyId,
+      investmentType,
+    }: {
+      companyId: string;
+      investmentType: string;
+    }) =>
+      client.post<Company>(
+        `/companies/${targetCompanyId}/investments`,
+        { investment_type: investmentType },
         createIdempotencyKey(),
       ),
-    onSuccess: () =>
-      queryClient.invalidateQueries({ queryKey: ["businesses"] }),
+    onSuccess: async () => {
+      setPendingAction(null);
+      setSuccessMessage(t("companyInvested"));
+      await queryClient.invalidateQueries({ queryKey: ["companies"] });
+    },
+    onError: () => setPendingAction(null),
   });
   const submit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
-    buy.mutate({
-      business_type: data.get("type"),
-      district_id: data.get("district"),
-      name: data.get("name"),
+    setSuccessMessage("");
+    setPendingAction({
+      kind: "create",
+      payload: {
+        industry: String(data.get("industry")),
+        district_id: String(data.get("district")),
+        name: String(data.get("name")),
+      },
+      costCents: config.data?.founding_cost_cents ?? 0,
     });
   };
-  const selected = query.data?.find((item) => item.id === businessId);
+  const selected =
+    detail.data ?? query.data?.find((item) => item.id === selectedId);
+  const latestEconomyReport = economyReports.data?.[0];
+  const confirmAction = () => {
+    if (pendingAction?.kind === "create") {
+      create.mutate(pendingAction.payload);
+    } else if (pendingAction?.kind === "invest") {
+      invest.mutate({
+        companyId: pendingAction.companyId,
+        investmentType: pendingAction.investmentType,
+      });
+    }
+  };
   return (
     <div className="page">
       <header className="page-header">
@@ -513,61 +713,305 @@ export function BusinessesPage() {
         </Link>
       </header>
       <StateView
-        loading={query.isLoading || districts.isLoading}
-        error={query.error ?? districts.error ?? buy.error ?? upgrade.error}
+        loading={
+          query.isLoading ||
+          districts.isLoading ||
+          config.isLoading ||
+          economyStatus.isLoading ||
+          competitors.isLoading ||
+          (Boolean(selectedId) &&
+            (detail.isLoading || economyReports.isLoading))
+        }
+        error={
+          query.error ??
+          districts.error ??
+          config.error ??
+          economyStatus.error ??
+          competitors.error ??
+          detail.error ??
+          economyReports.error ??
+          create.error ??
+          invest.error
+        }
       >
+        {successMessage && (
+          <p className="state-success" role="status">
+            {successMessage}
+          </p>
+        )}
+        <section
+          className="economy-status"
+          aria-labelledby="economy-status-title"
+        >
+          <div>
+            <span className="eyebrow" id="economy-status-title">
+              {t("economyStatus")}
+            </span>
+            <strong>
+              {economyStatus.data?.last_tick
+                ? formatDate(
+                    economyStatus.data.last_tick.period_end,
+                    i18n.language,
+                  )
+                : t("noEconomyTick")}
+            </strong>
+          </div>
+          <div>
+            <span>{t("nextEconomyTick")}</span>
+            <strong>
+              {economyStatus.data
+                ? formatDate(
+                    economyStatus.data.next_scheduled_at,
+                    i18n.language,
+                  )
+                : "—"}
+            </strong>
+          </div>
+        </section>
         <div className="content-grid">
           <Panel>
+            {query.data?.length === 0 && (
+              <div className="state">
+                <p>{t("companiesEmpty")}</p>
+              </div>
+            )}
             <div className="card-grid">
               {query.data?.map((item) => (
                 <Link
                   className={`data-card ${selected?.id === item.id ? "data-card--selected" : ""}`}
-                  to={`/businesses/${item.id}`}
+                  to={`/companies/${item.id}`}
                   key={item.id}
                 >
-                  <span className="eyebrow">
-                    {humanize(item.business_type)}
-                  </span>
+                  <span className="eyebrow">{humanize(item.industry)}</span>
                   <h3>{item.name}</h3>
                   <div>
                     <span>
-                      {t("level")} {item.level}
+                      {formatCents(item.account_balance_cents, i18n.language)}
                     </span>
                     <Status value={item.status} />
                   </div>
                   <strong>
-                    {formatCurrency(
-                      item.revenue - item.operating_cost,
-                      i18n.language,
-                    )}
+                    {formatCents(item.profit_cents, i18n.language)}
                   </strong>
                 </Link>
+              ))}
+            </div>
+            <h2>{t("localCompetitors")}</h2>
+            {competitors.data?.length === 0 && (
+              <p className="state">{t("localCompetitorsEmpty")}</p>
+            )}
+            <div className="card-grid">
+              {competitors.data?.map((item) => (
+                <article className="data-card" key={item.id}>
+                  <span className="eyebrow">{humanize(item.industry)}</span>
+                  <h3>{item.name}</h3>
+                  <Status value={t("localSimulation")} />
+                  <strong>{item.market_share_bps / 100}%</strong>
+                </article>
               ))}
             </div>
           </Panel>
           {selected && (
             <Panel title={selected.name}>
-              <Progress label={t("compliance")} value={selected.compliance} />
-              <Progress label={t("reputation")} value={selected.reputation} />
+              <div className="metric-grid">
+                <Metric
+                  label={t("companyAccount")}
+                  value={formatCents(
+                    selected.account_balance_cents,
+                    i18n.language,
+                  )}
+                />
+                <Metric
+                  label={t("companyValue")}
+                  value={formatCents(
+                    selected.enterprise_value_cents,
+                    i18n.language,
+                  )}
+                />
+                <Metric
+                  label={t("companyProfit")}
+                  value={formatCents(selected.profit_cents, i18n.language)}
+                />
+              </div>
+              <Progress label={t("capacity")} value={selected.capacity / 100} />
+              <Progress label={t("quality")} value={selected.quality / 100} />
+              <Progress
+                label={t("compliance")}
+                value={selected.compliance_bps / 100}
+              />
+              <Progress
+                label={t("innovation")}
+                value={selected.innovation_bps / 100}
+              />
               <Progress
                 label={t("marketShare")}
-                value={selected.market_share}
+                value={selected.market_share_bps / 100}
               />
-              <Progress label={t("risk")} value={selected.risk} />
-              <button
-                className="button"
-                disabled={upgrade.isPending}
-                onClick={() => upgrade.mutate(selected.id)}
-              >
-                {t("upgrade")}
-              </button>
+              <p>
+                {t("ownership")}:{" "}
+                {formatNumber(
+                  detail.data
+                    ? detail.data.ownership.reduce(
+                        (total, owner) => total + owner.ownership_bps,
+                        0,
+                      ) / 100
+                    : 100,
+                  i18n.language,
+                )}
+                %
+              </p>
+              <h3>{t("companyInvestments")}</h3>
+              <div className="button-row">
+                {companyInvestmentTypes.map((investmentType) => {
+                  const investment = config.data?.investments[investmentType];
+                  return (
+                    <button
+                      className="button button--ghost"
+                      type="button"
+                      disabled={!investment || invest.isPending}
+                      key={investmentType}
+                      onClick={() => {
+                        if (!investment) return;
+                        setSuccessMessage("");
+                        setPendingAction({
+                          kind: "invest",
+                          companyId: selected.id,
+                          investmentType,
+                          costCents: investment.cost_cents,
+                        });
+                      }}
+                    >
+                      {humanize(investmentType)} ·{" "}
+                      {investment
+                        ? formatCents(investment.cost_cents, i18n.language)
+                        : "—"}
+                    </button>
+                  );
+                })}
+              </div>
+              <h3>{t("economyReports")}</h3>
+              {economyReports.data?.length === 0 && (
+                <p className="state">{t("economyReportsEmpty")}</p>
+              )}
+              {economyReports.data && economyReports.data.length > 0 && (
+                <>
+                  <EconomyReportChart
+                    reports={economyReports.data}
+                    title={t("economyChart")}
+                    locale={i18n.language}
+                  />
+                  <div
+                    className="table-wrap"
+                    tabIndex={0}
+                    aria-label={t("economyReports")}
+                  >
+                    <table>
+                      <thead>
+                        <tr>
+                          <th>{t("tickPeriod")}</th>
+                          <th>{t("revenue")}</th>
+                          <th>{t("cost")}</th>
+                          <th>{t("companyProfit")}</th>
+                          <th>{t("marketShare")}</th>
+                          <th>{t("allocatedDemand")}</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {economyReports.data.map((report) => (
+                          <tr key={report.id}>
+                            <td>
+                              {formatDate(report.created_at, i18n.language)}
+                            </td>
+                            <td>
+                              {formatCents(report.revenue_cents, i18n.language)}
+                            </td>
+                            <td>
+                              {formatCents(report.cost_cents, i18n.language)}
+                            </td>
+                            <td>
+                              {formatCents(report.profit_cents, i18n.language)}
+                            </td>
+                            <td>{report.market_share_bps / 100}%</td>
+                            <td>
+                              {formatNumber(
+                                report.allocated_units,
+                                i18n.language,
+                              )}
+                            </td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                  {latestEconomyReport && (
+                    <details>
+                      <summary>{t("economyCalculationDetails")}</summary>
+                      <dl className="detail-list">
+                        <div>
+                          <dt>{t("attractiveness")}</dt>
+                          <dd>
+                            {formatNumber(
+                              latestEconomyReport.attractiveness_points,
+                              i18n.language,
+                            )}
+                          </dd>
+                        </div>
+                        <div>
+                          <dt>{t("debtIncrease")}</dt>
+                          <dd>
+                            {formatCents(
+                              latestEconomyReport.debt_delta_cents,
+                              i18n.language,
+                            )}
+                          </dd>
+                        </div>
+                      </dl>
+                    </details>
+                  )}
+                </>
+              )}
+              {detail.data && detail.data.metrics_history.length > 0 && (
+                <details>
+                  <summary>{t("companyHistory")}</summary>
+                  <div className="table-wrap">
+                    <table>
+                      <thead>
+                        <tr>
+                          <th>{t("version")}</th>
+                          <th>{t("status")}</th>
+                          <th>{t("companyAccount")}</th>
+                          <th>{t("capacity")}</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {detail.data.metrics_history.map((metric) => (
+                          <tr key={metric.id}>
+                            <td>{metric.version}</td>
+                            <td>{humanize(metric.reason)}</td>
+                            <td>
+                              {formatCents(
+                                metric.account_balance_cents,
+                                i18n.language,
+                              )}
+                            </td>
+                            <td>{metric.capacity / 100}%</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </details>
+              )}
             </Panel>
           )}
-          <Panel title={t("businessBuy")}>
+          <Panel title={t("companyFound")}>
             <form onSubmit={submit}>
               <Field label={t("businessType")}>
-                <select id="field-business-type" name="type">
-                  {businessTypes.map((item) => (
+                <select id="field-business-type" name="industry">
+                  {(config.data
+                    ? Object.keys(config.data.industries)
+                    : [...companyIndustries]
+                  ).map((item) => (
                     <option key={item} value={item}>
                       {humanize(item)}
                     </option>
@@ -591,11 +1035,41 @@ export function BusinessesPage() {
                   required
                 />
               </Field>
-              <button className="button">{t("buy")}</button>
+              <p>
+                {t("companyFoundingCost")}:{" "}
+                {config.data
+                  ? formatCents(config.data.founding_cost_cents, i18n.language)
+                  : "—"}
+              </p>
+              <button
+                className="button"
+                disabled={!config.data || create.isPending}
+              >
+                {t("companyFound")}
+              </button>
             </form>
           </Panel>
         </div>
       </StateView>
+      {pendingAction && (
+        <ConfirmDialog
+          title={t(
+            pendingAction.kind === "create"
+              ? "confirmCompanyFounding"
+              : "confirmCompanyInvestment",
+          )}
+          description={t("confirmCompanyCost", {
+            cost: formatCents(pendingAction.costCents, i18n.language),
+          })}
+          confirmLabel={t(
+            pendingAction.kind === "create" ? "companyFound" : "invest",
+          )}
+          cancelLabel={t("cancel")}
+          pending={create.isPending || invest.isPending}
+          onCancel={() => setPendingAction(null)}
+          onConfirm={confirmAction}
+        />
+      )}
     </div>
   );
 }
@@ -672,21 +1146,149 @@ export function SpecialistsPage() {
     queryKey: ["specialists"],
     queryFn: () => client.get<Specialist[]>("/specialists"),
   });
-  const recruit = useMutation({
-    mutationFn: (role: string) =>
-      client.post<Specialist>("/specialists", { role }, createIdempotencyKey()),
-    onSuccess: () =>
-      queryClient.invalidateQueries({ queryKey: ["specialists"] }),
+  const market = useQuery({
+    queryKey: ["specialist-market"],
+    queryFn: () =>
+      client.get<SpecialistMarketCandidate[]>("/specialist-market"),
   });
+  const companies = useQuery({
+    queryKey: ["companies"],
+    queryFn: () => client.get<Company[]>("/companies"),
+  });
+  const [companyId, setCompanyId] = useState("");
+  const [successMessage, setSuccessMessage] = useState("");
+  const [pendingAction, setPendingAction] = useState<
+    | { kind: "hire"; candidate: SpecialistMarketCandidate }
+    | { kind: "release"; specialist: Specialist }
+    | null
+  >(null);
+  useEffect(() => {
+    if (!companyId && companies.data?.[0]) {
+      setCompanyId(companies.data[0].id);
+    }
+  }, [companies.data, companyId]);
   const selected = query.data?.find((item) => item.id === specialistId);
+  const effects = useQuery({
+    queryKey: [
+      "companies",
+      selected?.employer_company_id,
+      "specialist-effects",
+    ],
+    queryFn: () =>
+      client.get<SpecialistEffects>(
+        `/companies/${selected?.employer_company_id}/specialist-effects`,
+      ),
+    enabled: Boolean(selected?.employer_company_id),
+  });
+  const payroll = useQuery({
+    queryKey: ["specialists", specialistId, "payroll"],
+    queryFn: () =>
+      client.get<SpecialistPayrollReport[]>(
+        `/specialists/${specialistId}/payroll-reports`,
+      ),
+    enabled: Boolean(specialistId),
+  });
+  const hire = useMutation({
+    mutationFn: ({
+      candidateId,
+      targetCompanyId,
+    }: {
+      candidateId: string;
+      targetCompanyId: string;
+    }) =>
+      client.post<Specialist>(
+        `/specialist-market/${candidateId}/hire`,
+        { company_id: targetCompanyId },
+        createIdempotencyKey(),
+      ),
+    onSuccess: async () => {
+      setPendingAction(null);
+      setSuccessMessage(t("specialistHired"));
+      await Promise.all([
+        queryClient.invalidateQueries({ queryKey: ["specialists"] }),
+        queryClient.invalidateQueries({ queryKey: ["specialist-market"] }),
+      ]);
+    },
+    onError: () => setPendingAction(null),
+  });
+  const assign = useMutation({
+    mutationFn: ({
+      targetSpecialistId,
+      targetCompanyId,
+    }: {
+      targetSpecialistId: string;
+      targetCompanyId: string;
+    }) =>
+      client.post<Specialist>(
+        `/specialists/${targetSpecialistId}/assign`,
+        { company_id: targetCompanyId },
+        createIdempotencyKey(),
+      ),
+    onSuccess: async () => {
+      setSuccessMessage(t("specialistAssigned"));
+      await queryClient.invalidateQueries({ queryKey: ["specialists"] });
+    },
+  });
+  const release = useMutation({
+    mutationFn: (targetSpecialistId: string) =>
+      client.post<Specialist>(
+        `/specialists/${targetSpecialistId}/release`,
+        undefined,
+        createIdempotencyKey(),
+      ),
+    onSuccess: async () => {
+      setPendingAction(null);
+      setSuccessMessage(t("specialistReleased"));
+      await queryClient.invalidateQueries({ queryKey: ["specialists"] });
+    },
+    onError: () => setPendingAction(null),
+  });
+  const confirmAction = () => {
+    if (pendingAction?.kind === "hire" && companyId) {
+      hire.mutate({
+        candidateId: pendingAction.candidate.id,
+        targetCompanyId: companyId,
+      });
+    } else if (pendingAction?.kind === "release") {
+      release.mutate(pendingAction.specialist.id);
+    }
+  };
   return (
     <div className="page">
       <header className="page-header">
         <h1>{t("specialistsTitle")}</h1>
       </header>
-      <StateView loading={query.isLoading} error={query.error ?? recruit.error}>
+      <StateView
+        loading={
+          query.isLoading ||
+          market.isLoading ||
+          companies.isLoading ||
+          (Boolean(specialistId) &&
+            (payroll.isLoading ||
+              (Boolean(selected?.employer_company_id) && effects.isLoading)))
+        }
+        error={
+          query.error ??
+          market.error ??
+          companies.error ??
+          effects.error ??
+          payroll.error ??
+          hire.error ??
+          assign.error ??
+          release.error
+        }
+      >
+        {successMessage && (
+          <p className="state-success" role="status">
+            {successMessage}
+          </p>
+        )}
         <div className="content-grid">
           <Panel>
+            <h2>{t("hiredSpecialists")}</h2>
+            {query.data?.length === 0 && (
+              <p className="state">{t("hiredSpecialistsEmpty")}</p>
+            )}
             <div className="card-grid">
               {query.data?.map((item) => (
                 <Link
@@ -697,6 +1299,9 @@ export function SpecialistsPage() {
                   <span className="eyebrow">{humanize(item.role)}</span>
                   <h3>{item.name}</h3>
                   <Status value={item.status} />
+                  <strong>
+                    {t("level")} {item.level}
+                  </strong>
                 </Link>
               ))}
             </div>
@@ -705,30 +1310,204 @@ export function SpecialistsPage() {
             <Panel title={selected.name}>
               <Progress label={t("competence")} value={selected.competence} />
               <Progress label={t("loyalty")} value={selected.loyalty} />
+              <Progress label={t("energy")} value={selected.energy} />
               <Progress label={t("ambition")} value={selected.ambition} />
               <Progress label={t("stress")} value={selected.stress} />
               <Progress label={t("exposure")} value={selected.exposure} />
               <p>
-                {t("salary")}: {formatCurrency(selected.salary, i18n.language)}
+                {t("salary")}:{" "}
+                {formatCents(selected.salary_cents, i18n.language)}
               </p>
-            </Panel>
-          )}
-          <Panel title={t("specialistRecruit")}>
-            <div className="button-row">
-              {specialistRoles.map((role) => (
+              <h3>{t("skills")}</h3>
+              <dl className="detail-list">
+                {Object.entries(selected.skills_json).map(([skill, value]) => (
+                  <div key={skill}>
+                    <dt>{humanize(skill)}</dt>
+                    <dd>{value}</dd>
+                  </div>
+                ))}
+              </dl>
+              <Field label={t("employer")}>
+                <select
+                  id="field-specialist-company"
+                  value={companyId}
+                  onChange={(event) => setCompanyId(event.target.value)}
+                >
+                  {companies.data?.map((company) => (
+                    <option key={company.id} value={company.id}>
+                      {company.name}
+                    </option>
+                  ))}
+                </select>
+              </Field>
+              <div className="button-row">
                 <button
                   className="button button--ghost"
-                  key={role}
-                  disabled={recruit.isPending}
-                  onClick={() => recruit.mutate(role)}
+                  type="button"
+                  disabled={!companyId || assign.isPending}
+                  onClick={() =>
+                    assign.mutate({
+                      targetSpecialistId: selected.id,
+                      targetCompanyId: companyId,
+                    })
+                  }
                 >
-                  {humanize(role)}
+                  {t("assign")}
                 </button>
+                <button
+                  className="button button--danger"
+                  type="button"
+                  disabled={release.isPending}
+                  onClick={() =>
+                    setPendingAction({ kind: "release", specialist: selected })
+                  }
+                >
+                  {t("release")}
+                </button>
+              </div>
+              {effects.data && (
+                <>
+                  <h3>{t("companyEffects")}</h3>
+                  <dl className="detail-list">
+                    <div>
+                      <dt>{t("capacity")}</dt>
+                      <dd>+{effects.data.capacity_bonus_units}</dd>
+                    </div>
+                    <div>
+                      <dt>{t("revenue")}</dt>
+                      <dd>+{effects.data.revenue_bonus_bps / 100}%</dd>
+                    </div>
+                    <div>
+                      <dt>{t("cost")}</dt>
+                      <dd>−{effects.data.cost_reduction_bps / 100}%</dd>
+                    </div>
+                    <div>
+                      <dt>{t("attractiveness")}</dt>
+                      <dd>+{effects.data.attractiveness_bonus_points}</dd>
+                    </div>
+                  </dl>
+                </>
+              )}
+              <h3>{t("payrollHistory")}</h3>
+              {payroll.data?.length === 0 && (
+                <p className="state">{t("payrollHistoryEmpty")}</p>
+              )}
+              {payroll.data && payroll.data.length > 0 && (
+                <div
+                  className="table-wrap"
+                  tabIndex={0}
+                  aria-label={t("payrollHistory")}
+                >
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>{t("tickPeriod")}</th>
+                        <th>{t("salary")}</th>
+                        <th>{t("paid")}</th>
+                        <th>{t("loyalty")}</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {payroll.data.map((report) => (
+                        <tr key={report.id}>
+                          <td>
+                            {formatDate(report.created_at, i18n.language)}
+                          </td>
+                          <td>
+                            {formatCents(
+                              report.salary_due_cents,
+                              i18n.language,
+                            )}
+                          </td>
+                          <td>
+                            {formatCents(
+                              report.salary_paid_cents,
+                              i18n.language,
+                            )}
+                          </td>
+                          <td>
+                            {report.loyalty_before} → {report.loyalty_after}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              )}
+            </Panel>
+          )}
+          <Panel title={t("specialistMarket")}>
+            {companies.data?.length === 0 && (
+              <p className="state">{t("specialistCompanyRequired")}</p>
+            )}
+            {market.data?.length === 0 && (
+              <p className="state">{t("specialistMarketEmpty")}</p>
+            )}
+            <Field label={t("employer")}>
+              <select
+                id="field-market-company"
+                value={companyId}
+                onChange={(event) => setCompanyId(event.target.value)}
+              >
+                {companies.data?.map((company) => (
+                  <option key={company.id} value={company.id}>
+                    {company.name}
+                  </option>
+                ))}
+              </select>
+            </Field>
+            <div className="card-grid">
+              {market.data?.map((candidate) => (
+                <article className="data-card" key={candidate.id}>
+                  <span className="eyebrow">{humanize(candidate.role)}</span>
+                  <h3>{candidate.name}</h3>
+                  <p>
+                    {t("level")} {candidate.level} · {t("loyalty")}{" "}
+                    {candidate.loyalty} · {t("energy")} {candidate.energy}
+                  </p>
+                  <strong>
+                    {formatCents(candidate.salary_cents, i18n.language)}
+                  </strong>
+                  <button
+                    className="button button--ghost"
+                    type="button"
+                    disabled={!companyId || hire.isPending}
+                    onClick={() =>
+                      setPendingAction({ kind: "hire", candidate })
+                    }
+                  >
+                    {t("hire")}
+                  </button>
+                </article>
               ))}
             </div>
           </Panel>
         </div>
       </StateView>
+      {pendingAction && (
+        <ConfirmDialog
+          title={t(
+            pendingAction.kind === "hire"
+              ? "confirmSpecialistHire"
+              : "confirmSpecialistRelease",
+          )}
+          description={
+            pendingAction.kind === "hire"
+              ? t("confirmSpecialistSalary", {
+                  salary: formatCents(
+                    pendingAction.candidate.salary_cents,
+                    i18n.language,
+                  ),
+                })
+              : t("confirmSpecialistReleaseDescription")
+          }
+          confirmLabel={t(pendingAction.kind === "hire" ? "hire" : "release")}
+          cancelLabel={t("cancel")}
+          pending={hire.isPending || release.isPending}
+          onCancel={() => setPendingAction(null)}
+          onConfirm={confirmAction}
+        />
+      )}
     </div>
   );
 }

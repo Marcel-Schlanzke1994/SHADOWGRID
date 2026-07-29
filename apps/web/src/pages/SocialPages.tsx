@@ -9,8 +9,18 @@ import {
   type Locale,
 } from "@shadowgrid/game-config";
 import { setLocale } from "@shadowgrid/i18n";
-import type { Organization } from "@shadowgrid/shared-types";
+import type {
+  AccountReward,
+  HallOfFameEntry,
+  InAppNotification,
+  Organization,
+  RealtimeEvent,
+  SeasonScore,
+  SeasonState,
+} from "@shadowgrid/shared-types";
 import { client, logout, useAuth } from "../auth";
+import { SeasonsAdmin } from "./SeasonsAdmin";
+import { WorldEventsAdmin } from "./WorldEventsAdmin";
 import {
   Field,
   Metric,
@@ -347,7 +357,7 @@ export function DiplomacyPage() {
       treaty_type: data.get("type"),
       duration_days: Number(data.get("duration")),
       visibility: data.get("visibility"),
-      terms: { scope: "Vesper Metropolitan Zone" },
+      terms: { scope: "Germany Season 0" },
     });
   };
   const orgName = (id: string) =>
@@ -526,22 +536,37 @@ interface News {
   published_at: string;
   certainty: string;
 }
-interface Notification {
-  id: string;
-  title: string;
-  body: string;
-  read_at: string | null;
-  created_at: string;
-}
 export function NewsPage() {
   const { t, i18n } = useTranslation();
+  const queryClient = useQueryClient();
   const news = useQuery({
     queryKey: ["news"],
     queryFn: () => client.get<News[]>("/news"),
   });
   const notifications = useQuery({
     queryKey: ["notifications"],
-    queryFn: () => client.get<Notification[]>("/notifications"),
+    queryFn: () => client.get<InAppNotification[]>("/notifications"),
+  });
+  const eventFeed = useQuery({
+    queryKey: ["realtime-events"],
+    queryFn: () => client.get<RealtimeEvent[]>("/realtime/events?limit=20"),
+  });
+  const refreshNotifications = async () => {
+    await Promise.all([
+      queryClient.invalidateQueries({ queryKey: ["notifications"] }),
+      queryClient.invalidateQueries({
+        queryKey: ["notification-unread-count"],
+      }),
+    ]);
+  };
+  const markRead = useMutation({
+    mutationFn: (notificationId: string) =>
+      client.post(`/notifications/${notificationId}/read`),
+    onSuccess: refreshNotifications,
+  });
+  const markAllRead = useMutation({
+    mutationFn: () => client.post("/notifications/read-all"),
+    onSuccess: refreshNotifications,
   });
   return (
     <div className="page">
@@ -568,7 +593,41 @@ export function NewsPage() {
             ))}
           </StateView>
         </Panel>
+        <Panel title={t("realtimeEventFeed")}>
+          <StateView
+            loading={eventFeed.isLoading}
+            error={eventFeed.error}
+            empty={!eventFeed.data?.length}
+          >
+            {eventFeed.data
+              ?.slice()
+              .reverse()
+              .map((item) => (
+                <div className="list-row" key={item.id}>
+                  <span>
+                    <strong>{humanize(item.event_type)}</strong>
+                    <small>
+                      {item.channel} ·{" "}
+                      {formatDate(item.created_at, i18n.language)}
+                    </small>
+                  </span>
+                  <Status value={`v${item.event_version}`} />
+                </div>
+              ))}
+          </StateView>
+        </Panel>
         <Panel title={t("notificationsTitle")}>
+          {notifications.data?.some((item) => !item.read_at) && (
+            <div className="button-row">
+              <button
+                className="button button--ghost button--small"
+                disabled={markAllRead.isPending}
+                onClick={() => markAllRead.mutate()}
+              >
+                {t("markAllRead")}
+              </button>
+            </div>
+          )}
           <StateView
             loading={notifications.isLoading}
             error={notifications.error}
@@ -583,7 +642,17 @@ export function NewsPage() {
                   </small>
                 </span>
                 {!item.read_at && (
-                  <span className="unread-dot" aria-label={t("unread")} />
+                  <span className="button-row">
+                    <span className="unread-dot" aria-hidden="true" />
+                    <span className="sr-only">{t("unread")}</span>
+                    <button
+                      className="button button--ghost button--small"
+                      disabled={markRead.isPending}
+                      onClick={() => markRead.mutate(item.id)}
+                    >
+                      {t("markRead")}
+                    </button>
+                  </span>
                 )}
               </div>
             ))}
@@ -594,72 +663,187 @@ export function NewsPage() {
   );
 }
 
-interface Ranking {
-  rank: number;
-  profile_id: string;
-  codename: string;
-  economic_power: number;
-  influence: number;
-  stability: number;
-  intelligence: number;
-  diplomacy: number;
-  resilience: number;
-  social_impact: number;
-  penalty: number;
-  score: number;
-}
 export function RankingsPage() {
   const { t, i18n } = useTranslation();
-  const query = useQuery({
-    queryKey: ["rankings"],
-    queryFn: () => client.get<Ranking[]>("/rankings"),
+  const [category, setCategory] = useState("wealthiest_player");
+  const season = useQuery({
+    queryKey: ["season", "current"],
+    queryFn: () => client.get<SeasonState>("/seasons/current"),
   });
+  const rankings = useQuery({
+    queryKey: ["season", "rankings", season.data?.id, category],
+    queryFn: () =>
+      client.get<SeasonScore[]>(
+        `/seasons/${season.data?.id}/leaderboards/${category}`,
+      ),
+    enabled: Boolean(season.data),
+  });
+  const hallOfFame = useQuery({
+    queryKey: ["hall-of-fame", category],
+    queryFn: () =>
+      client.get<HallOfFameEntry[]>(
+        `/hall-of-fame?category=${encodeURIComponent(category)}`,
+      ),
+  });
+  const rewards = useQuery({
+    queryKey: ["account-rewards"],
+    queryFn: () => client.get<AccountReward[]>("/account/rewards/me"),
+  });
+  const number = new Intl.NumberFormat(i18n.language);
   return (
     <div className="page">
       <header className="page-header">
         <h1>{t("rankingsTitle")}</h1>
+        <p>{t("seasonRankingDescription")}</p>
       </header>
       <StateView
-        loading={query.isLoading}
-        error={query.error}
-        empty={!query.data?.length}
+        loading={season.isLoading}
+        error={season.error}
+        empty={!season.data}
       >
-        <Panel>
-          <div className="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>{t("rank")}</th>
-                  <th>{t("codename")}</th>
-                  <th>{t("score")}</th>
-                  <th>{t("capital")}</th>
-                  <th>{t("influence")}</th>
-                  <th>{t("stability")}</th>
-                  <th>{t("intelligence")}</th>
-                  <th>{t("pressure")}</th>
-                </tr>
-              </thead>
-              <tbody>
-                {query.data?.map((item) => (
-                  <tr key={item.profile_id}>
-                    <td>{item.rank}</td>
-                    <th>{item.codename}</th>
-                    <td>
-                      {new Intl.NumberFormat(i18n.language, {
-                        maximumFractionDigits: 1,
-                      }).format(item.score)}
-                    </td>
-                    <td>{item.economic_power}</td>
-                    <td>{item.influence}</td>
-                    <td>{item.stability}</td>
-                    <td>{item.intelligence}</td>
-                    <td>−{item.penalty}</td>
-                  </tr>
+        {season.data && (
+          <div className="stack">
+            <Panel
+              title={`${t("seasonLabel", {
+                number: season.data.season_number,
+              })} · ${season.data.name}`}
+            >
+              {season.data.status === "archived" && (
+                <p className="notice notice--success">
+                  {t("seasonCompleteTitle")}
+                </p>
+              )}
+              <div className="metric-grid">
+                <Metric
+                  label={t("seasonPhase")}
+                  value={humanize(season.data.phase)}
+                />
+                <Metric
+                  label={t("seasonRemainingTime")}
+                  value={t("seasonMinutesRemaining", {
+                    count: Math.ceil(season.data.remaining_seconds / 60),
+                  })}
+                />
+                <Metric
+                  label={t("seasonEnds")}
+                  value={formatDate(season.data.ends_at, i18n.language)}
+                />
+              </div>
+              <h3>{t("seasonGoals")}</h3>
+              <ul>
+                {season.data.goals_json.map((goal) => (
+                  <li key={String(goal.key)}>
+                    {String(goal.title)} ·{" "}
+                    {t("seasonTarget", {
+                      value: goal.target,
+                    })}
+                  </li>
                 ))}
-              </tbody>
-            </table>
+              </ul>
+            </Panel>
+
+            <Panel title={t("seasonScoring")}>
+              <Field label={t("seasonCategory")}>
+                <select
+                  value={category}
+                  onChange={(event) => setCategory(event.target.value)}
+                >
+                  {season.data.scoring_categories_json.map((item) => (
+                    <option key={item} value={item}>
+                      {humanize(item)}
+                    </option>
+                  ))}
+                </select>
+              </Field>
+              <StateView
+                loading={rankings.isLoading}
+                error={rankings.error}
+                empty={!rankings.data?.length}
+              >
+                <div
+                  className="table-wrap"
+                  role="region"
+                  aria-label={t("seasonScoringTable")}
+                  tabIndex={0}
+                >
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>{t("rank")}</th>
+                        <th>{t("seasonCompetitor")}</th>
+                        <th>{t("score")}</th>
+                        <th>{t("status")}</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {rankings.data?.map((item) => (
+                        <tr key={`${item.entity_type}:${item.entity_id}`}>
+                          <td>{item.rank}</td>
+                          <th>{item.entity_name}</th>
+                          <td>{number.format(item.score_value)}</td>
+                          <td>
+                            <Status
+                              value={
+                                item.tied ? t("seasonTie") : item.entity_type
+                              }
+                              uncertain={item.tied}
+                            />
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </StateView>
+            </Panel>
+
+            <Panel title={t("hallOfFame")}>
+              <StateView
+                loading={hallOfFame.isLoading}
+                error={hallOfFame.error}
+                empty={!hallOfFame.data?.length}
+              >
+                <div className="stack">
+                  {hallOfFame.data?.slice(0, 12).map((entry) => (
+                    <div className="list-row" key={entry.id}>
+                      <span>
+                        <strong>
+                          #{entry.rank} · {entry.entity_name}
+                        </strong>
+                        <small>
+                          {t("seasonLabel", {
+                            number: entry.season_number,
+                          })}
+                        </small>
+                      </span>
+                      <span>{number.format(entry.score_value)}</span>
+                    </div>
+                  ))}
+                </div>
+              </StateView>
+            </Panel>
+
+            <Panel title={t("seasonRewards")}>
+              <StateView
+                loading={rewards.isLoading}
+                error={rewards.error}
+                empty={!rewards.data?.length}
+              >
+                <div className="stack">
+                  {rewards.data?.map((reward) => (
+                    <div className="list-row" key={reward.id}>
+                      <span>
+                        <strong>{reward.label}</strong>
+                        <small>{humanize(reward.reward_type)}</small>
+                      </span>
+                      <Status value={reward.reward_type} />
+                    </div>
+                  ))}
+                </div>
+              </StateView>
+            </Panel>
           </div>
-        </Panel>
+        )}
       </StateView>
     </div>
   );
@@ -796,6 +980,8 @@ export function AdminPage() {
             ))}
         </div>
       </StateView>
+      <SeasonsAdmin />
+      <WorldEventsAdmin />
     </div>
   );
 }

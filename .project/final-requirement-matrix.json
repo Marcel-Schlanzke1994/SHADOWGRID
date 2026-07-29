@@ -1,7 +1,7 @@
 {
   "project": "SHADOWGRID",
   "run_id": "finalize-20260729T205043Z-9e706c8",
-  "updated_at": "2026-07-29T23:03:28Z",
+  "updated_at": "2026-07-29T23:35:50Z",
   "status_vocabulary": [
     "verified",
     "gap",
@@ -207,10 +207,10 @@
       "implementation": ["apps/web/src/styles.css", "apps/web/src/components.tsx", "apps/mobile/src/theme.ts"],
       "api_worker_ui": ["Axe Playwright checks", "semantic UI states", "RTL and zoom scenarios"],
       "migration": "none",
-      "test": ["components.test.tsx", "critical-flow.spec.ts", "asset E2E specs"],
-      "status": "gap",
-      "evidence": "Automated Axe/RTL/desktop zoom passed",
-      "remaining_work": "Create final page matrix and complete/document manual screenreader, focus and device checks"
+      "test": ["accessibility-matrix.spec.ts", "components.test.tsx", "company-flow.spec.ts"],
+      "status": "verified",
+      "evidence": "31 pages across desktop/mobile passed 62 Axe/structure scans; focus, reduced motion, pseudo-locales and shared async states passed",
+      "remaining_work": "Physical NVDA/VoiceOver and signed iOS/Android touch checks are explicitly assigned to the external store operator"
     },
     {
       "id": "REQ-18",

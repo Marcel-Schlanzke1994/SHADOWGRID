@@ -127,3 +127,19 @@ The API suite covers registration and real token verification, refresh rotation,
 onboarding, every financial vertical, realtime reconciliation, all season phases, Hall of
 Fame rewards, the next season and immutable history. Existing domain tests assert balanced
 ledger transactions and fixed share supply at the relevant operations.
+
+## Phase 5 UX and accessibility
+
+- Primary routes reviewed: 31
+- Route scans: 62 (Chromium desktop plus Pixel 7 mobile)
+- Matrix result: 4/4 passed in 7.5 minutes
+- Critical/Serious Axe findings after remediation: zero
+- Shared Loading/Empty/Error/Success component tests: 12/12 passed
+- Dialog-focus flow: 2/2 desktop/mobile passed
+- Pseudo-locales: `en-XA` LTR and `ar-XB` RTL passed
+- Reduced motion and skip-link target: passed
+- Resolved findings: nested interactive Cologne SVG and prohibited unread-marker ARIA
+- Final report: `docs/ACCESSIBILITY_FINAL_REPORT.md`
+
+Physical NVDA/VoiceOver and signed iOS/Android touch exploration remain explicit operator
+follow-ups because this host has no attached devices or signed provider artifacts.

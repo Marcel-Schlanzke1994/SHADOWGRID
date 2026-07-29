@@ -10,7 +10,7 @@ Run: `finalize-20260729T205043Z-9e706c8`
 | GAP-004 | High | Real SQLite lifecycle plus parser/tests | Windows/Linux one-click setup/start/stop/reset/verify contract is complete | 3 | resolved |
 | GAP-005 | High | 30-step lifecycle plan; API 33/33; Playwright 40 passed, 2 expected skips | Seven-persona lifecycle through immutable season history is automated | 4 | resolved |
 | GAP-006 | High | 765 pending, one review-required asset | Mandatory asset library and all batch reports are incomplete | 6 | open |
-| GAP-007 | High | No final accessibility report | Page matrix and manual WCAG checks are incomplete | 5 | open |
+| GAP-007 | High | 62 page scans, focus/reduced-motion/pseudo-locale gates, final report | Local web accessibility is verified; signed physical-device assistive checks are assigned to the store operator | 5 | resolved |
 | GAP-008 | High | No real store screenshot readiness report | Store/community materials from the running UI are incomplete | 7 | open |
 | GAP-009 | High | Load fixture is not a multi-season balance study | Required strategy simulation and three balance reports are absent | 8 | open |
 | GAP-010 | High | Canonical masked scan, Bandit, `pip-audit`, `pnpm audit` | Security gate passed; only the documented unreachable RSC advisory is ignored | 9 | resolved-phase-1 |
