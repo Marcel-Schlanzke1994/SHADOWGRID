@@ -114,6 +114,14 @@ function safeName(value) {
     .replace(/^-|-$/g, "");
 }
 
+async function normalizeLogWhitespace(logPath) {
+  const content = await readFile(logPath, "utf8");
+  const normalized = content.replace(/[ \t]+(?=\r?\n|$)/g, "");
+  if (normalized !== content) {
+    await writeFile(logPath, normalized, "utf8");
+  }
+}
+
 async function runStep(index, name, invocation) {
   const logPath = resolve(
     logRoot,
@@ -162,6 +170,7 @@ async function runStep(index, name, invocation) {
     logPath,
     `\nFinished: ${finished.toISOString()}\nExit code: ${exitCode}\n`,
   );
+  await normalizeLogWhitespace(logPath);
   const logBytes = await readFile(logPath);
   step.finished_at = finished.toISOString();
   step.duration_seconds = Number(

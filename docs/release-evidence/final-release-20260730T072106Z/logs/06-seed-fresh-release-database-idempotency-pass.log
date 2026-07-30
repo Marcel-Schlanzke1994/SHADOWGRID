@@ -1,0 +1,13 @@
+SHADOWGRID final release evidence
+Step: Seed fresh release database idempotency pass
+Command: pnpm seed
+Started: 2026-07-30T07:22:43.767Z
+
+$ pnpm migrate && node scripts/run-python.mjs --cwd apps/api -m shadowgrid.seed
+$ node scripts/run-python.mjs --cwd apps/api -m alembic upgrade head
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+Seed complete. Demo credential path: C:\Users\Marcel\Downloads\shadowgrid\.local\demo-credentials.txt
+
+Finished: 2026-07-30T07:23:13.622Z
+Exit code: 0

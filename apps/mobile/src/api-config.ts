@@ -5,8 +5,7 @@ export function resolveApiBaseUrl(
   fallbackUrl: string | undefined,
   environment: string | undefined,
 ): string {
-  const value =
-    configuredUrl ?? fallbackUrl ?? "http://localhost:8000/api/v1";
+  const value = configuredUrl ?? fallbackUrl ?? "http://localhost:8000/api/v1";
   const parsed = new URL(value);
   const normalizedEnvironment = (environment ?? "development").toLowerCase();
   if (
