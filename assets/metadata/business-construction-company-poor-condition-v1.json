@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-construction-company-poor-condition-v1",
+  "manifest_order": 503,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "poor-condition",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-construction-company-poor-condition-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100503,
+  "content_hash": "f0e8df8a51ccaedcb13b3cef6a7977b45db7475c78717f03917a958c24e6e196",
+  "source_file": "assets/source/businesses/business-construction-company-poor-condition-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-construction-company-poor-condition-v1-320.avif",
+      "bytes": 3072,
+      "sha256": "446af0ec91a19059ce54ff9de83016d6aa21236483d1587d3d6c71548e9d2100"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-poor-condition-v1-320.webp",
+      "bytes": 2564,
+      "sha256": "1af98519d7790e0ead06d529090319d20ed377169cb1bff7fc6588052e6c8f22"
+    },
+    {
+      "path": "assets/production/avif/business-construction-company-poor-condition-v1-640.avif",
+      "bytes": 6449,
+      "sha256": "101ed8729f778a06570e4f6b05d3d7dfd28a30cb4cc39a7601adfe1b616b3f4a"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-poor-condition-v1-640.webp",
+      "bytes": 5230,
+      "sha256": "eeee8970007df84fe6041e7b935d9581e9045cf74df70edcfa99314035011d21"
+    },
+    {
+      "path": "assets/production/avif/business-construction-company-poor-condition-v1-960.avif",
+      "bytes": 10429,
+      "sha256": "d169be343802687f11d03f151f85494f5c5f6486227a04d1c741a0afdd84d071"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-poor-condition-v1-960.webp",
+      "bytes": 8804,
+      "sha256": "276289e8bcc85bb684ca6eed14503453e2da5ba9382cfa18c4a9b22267057c46"
+    },
+    {
+      "path": "assets/production/avif/business-construction-company-poor-condition-v1-1280.avif",
+      "bytes": 14611,
+      "sha256": "0e3178df04d54158c17fde329edc25b6d2bb9ef181d6d814ebdb3de26e036310"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-poor-condition-v1-1280.webp",
+      "bytes": 11502,
+      "sha256": "c1d9be7b856f35c1e06aecd63c250903782a4a4d261b085ea47e8e7f808e5164"
+    },
+    {
+      "path": "assets/production/avif/business-construction-company-poor-condition-v1-1920.avif",
+      "bytes": 22114,
+      "sha256": "054a15218e13821f5406aaf85f19ad8c40aa4f853ef8cab85e87c40a631f5543"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-poor-condition-v1-1920.webp",
+      "bytes": 18238,
+      "sha256": "028d2947af37cbef0bd7a659746764f028e164ac27aadc3db4dc4d710f23faa6"
+    },
+    {
+      "path": "assets/production/avif/business-construction-company-poor-condition-v1-2560.avif",
+      "bytes": 29295,
+      "sha256": "f4e17cf2b023b71260b3d14234b8632df5643f1b05e324ae116827423327a96e"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-poor-condition-v1-2560.webp",
+      "bytes": 25668,
+      "sha256": "24da21aa44b387256f985b3452415d1f0ad7af20d3bb479f090215d3fcf9219d"
+    },
+    {
+      "path": "assets/production/avif/business-construction-company-poor-condition-v1-3840.avif",
+      "bytes": 47707,
+      "sha256": "f4215e475453611ecb496c2cbc5f719409bcc45e87945c2f7aeb90698aa339e8"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-poor-condition-v1-3840.webp",
+      "bytes": 44414,
+      "sha256": "3cb3123d1457a100a9b671bdd36cb9ae28a2a1f674f92dfd23a45dd45b8623c1"
+    },
+    {
+      "path": "assets/production/png/business-construction-company-poor-condition-v1-1280.png",
+      "bytes": 632270,
+      "sha256": "97eae891e02f692ee8adaffe2bdfcecf438bd77667fef721db252f4be93806e3"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-construction-company-poor-condition-v1.webp",
+      "bytes": 2564,
+      "sha256": "1af98519d7790e0ead06d529090319d20ed377169cb1bff7fc6588052e6c8f22"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-construction-company-poor-condition-v1.webp",
+      "bytes": 2564,
+      "sha256": "1af98519d7790e0ead06d529090319d20ed377169cb1bff7fc6588052e6c8f22"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.759Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1451575
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:04:29.007Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

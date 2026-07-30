@@ -1,0 +1,171 @@
+{
+  "asset_id": "organization-conflict-blocked-territory-v1",
+  "manifest_order": 609,
+  "category": "organization-conflict",
+  "batch": "cartel-conflicts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "blocked-territory",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/organization-conflict-blocked-territory-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100609,
+  "content_hash": "f133c418665e148faef64047e871e5fed3d0feab3d6bbc0b7a4cd1b969244979",
+  "source_file": "assets/source/cartels/organization-conflict-blocked-territory-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/organization-conflict-blocked-territory-v1-320.avif",
+      "bytes": 2500,
+      "sha256": "ab61aa73f956a1540d2fc59f19e9450698027e2774d8b938dec42d1f9c045593"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-blocked-territory-v1-320.webp",
+      "bytes": 1560,
+      "sha256": "523dde212c4ce1f8783471dc7f246910618afb003ab1ad20483423c1e4f2c069"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-blocked-territory-v1-640.avif",
+      "bytes": 6872,
+      "sha256": "d5f9165ebde1b324986983ae4cb3fff568acb9bb4e88aeff621c6eafb2711401"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-blocked-territory-v1-640.webp",
+      "bytes": 4448,
+      "sha256": "55814d7aa0906be953672653650e51e97b643df45022a8d22107aa0698590f2e"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-blocked-territory-v1-960.avif",
+      "bytes": 13250,
+      "sha256": "72fe0bf6766bd3c163501694d61eaef765a255f01ff5640bbe7b55258a9c5a24"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-blocked-territory-v1-960.webp",
+      "bytes": 8450,
+      "sha256": "4231ab55f77a8f500e1b6e41986b38aa40caecfb5fcc1a4ecfbb438fd6a7980a"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-blocked-territory-v1-1280.avif",
+      "bytes": 19832,
+      "sha256": "5d3f2c93adb94ba3f9b54abb0317dea811d791b86531d96bb98160dd79df288f"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-blocked-territory-v1-1280.webp",
+      "bytes": 12288,
+      "sha256": "bd3d9828c3758611e552199db275b790b0bbcf151be67a167c7fc7db0916a9b1"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-blocked-territory-v1-1920.avif",
+      "bytes": 29712,
+      "sha256": "85e14306e4ef4316a79f87d729968e577dd03a61d2e6986d32a321677eddca69"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-blocked-territory-v1-1920.webp",
+      "bytes": 20536,
+      "sha256": "f4e4cdc63b9009d3cd408398d363a2c8dcf3d6523c1ed599cad3b44832fe86a3"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-blocked-territory-v1-2560.avif",
+      "bytes": 38287,
+      "sha256": "8690d3bf88e7d11233594f204b785ab64dec90c7d3bcc6e4844b387ad3ed52ac"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-blocked-territory-v1-2560.webp",
+      "bytes": 27640,
+      "sha256": "6b43c868c34ad570f99ab72fd153f3d3fe3b31e2d5ddc09b2517d93b9fad55e3"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-blocked-territory-v1-3840.avif",
+      "bytes": 58804,
+      "sha256": "77860392e6ef49c84dff33d26101e7508747dce63386f6ccf6ea717eb3ba44fb"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-blocked-territory-v1-3840.webp",
+      "bytes": 45696,
+      "sha256": "3ccfdf11418e9fad39dded4d523b1ce12f143427bb41ddb9935c73b6138ba9dc"
+    },
+    {
+      "path": "assets/production/png/organization-conflict-blocked-territory-v1-1280.png",
+      "bytes": 173400,
+      "sha256": "77bfafcea245122c4a6ef4c23ccbde0973dd036b38db011d7be25b858b8ebc7b"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/organization-conflict-blocked-territory-v1.webp",
+      "bytes": 1560,
+      "sha256": "523dde212c4ce1f8783471dc7f246910618afb003ab1ad20483423c1e4f2c069"
+    },
+    {
+      "path": "apps/mobile/assets/library/organization-conflict-blocked-territory-v1.webp",
+      "bytes": 1560,
+      "sha256": "523dde212c4ce1f8783471dc7f246910618afb003ab1ad20483423c1e4f2c069"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:59.563Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 93,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Conflict phases remain fictional and abstract, with no actionable real-world violence, hacking, or sabotage content.",
+      "No missing render, unsafe instruction, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 225953
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:29:05.967Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

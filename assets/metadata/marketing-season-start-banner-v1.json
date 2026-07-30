@@ -1,0 +1,171 @@
+{
+  "asset_id": "marketing-season-start-banner-v1",
+  "manifest_order": 892,
+  "category": "marketing",
+  "batch": "store-marketing",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/marketing-season-start-banner-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100892,
+  "content_hash": "0d536a6d69f49f3a850d5e35f680537dd7a989738db4891ceec7b9fb116ace23",
+  "source_file": "assets/source/marketing/marketing-season-start-banner-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/marketing-season-start-banner-v1-320.avif",
+      "bytes": 3239,
+      "sha256": "c3c4ea4a942b94b45a5e847851ea10e91faf92e6f30f7bf24d9554db2cadadbd"
+    },
+    {
+      "path": "assets/production/webp/marketing-season-start-banner-v1-320.webp",
+      "bytes": 3284,
+      "sha256": "0e31a973caf91e6ddeb3043bcfa76f55eb45c92bdcac351cd79f3fbf5ce0a933"
+    },
+    {
+      "path": "assets/production/avif/marketing-season-start-banner-v1-640.avif",
+      "bytes": 7352,
+      "sha256": "9dd0cc6f08c6aa90b152ae961475252e18b6f05136fbdc67e409a607ac13ab0c"
+    },
+    {
+      "path": "assets/production/webp/marketing-season-start-banner-v1-640.webp",
+      "bytes": 6588,
+      "sha256": "d25e1178ed2c864df2f27f1be869ed46f765a1b4e057482f7e71076ad12863c6"
+    },
+    {
+      "path": "assets/production/avif/marketing-season-start-banner-v1-960.avif",
+      "bytes": 12330,
+      "sha256": "962bd5685d94d6644d36b867bfc509ea4ff0f80a7960f3532276e91a9e6abd80"
+    },
+    {
+      "path": "assets/production/webp/marketing-season-start-banner-v1-960.webp",
+      "bytes": 10636,
+      "sha256": "14a23b1e94a0e7a5fbb72b1fd7c63f14246d41045ffcf4f80888fc2c93787597"
+    },
+    {
+      "path": "assets/production/avif/marketing-season-start-banner-v1-1280.avif",
+      "bytes": 18111,
+      "sha256": "d052529b3005b760b1c34ba9a8e9deaad3e0ead60798943c77310f029a45bead"
+    },
+    {
+      "path": "assets/production/webp/marketing-season-start-banner-v1-1280.webp",
+      "bytes": 14154,
+      "sha256": "0e7a34ac87721864f42f52cf4161b0a1efac79876d7a53eb4991b722d2a6e767"
+    },
+    {
+      "path": "assets/production/avif/marketing-season-start-banner-v1-1920.avif",
+      "bytes": 26621,
+      "sha256": "37ede148f6b46500f9eb7d8748a108439e91887e312bc478c311dcbb4268435c"
+    },
+    {
+      "path": "assets/production/webp/marketing-season-start-banner-v1-1920.webp",
+      "bytes": 21602,
+      "sha256": "296652c3dbc0bc8a68b4c761c121d22530ea9a82fee8352213be7ab200ac7bd4"
+    },
+    {
+      "path": "assets/production/avif/marketing-season-start-banner-v1-2560.avif",
+      "bytes": 37112,
+      "sha256": "13543b24bf0092de2d12ddb4d29d4af2722c16f870c3ea083e577762d0f94035"
+    },
+    {
+      "path": "assets/production/webp/marketing-season-start-banner-v1-2560.webp",
+      "bytes": 29648,
+      "sha256": "5e21f36472c57da6d9c2a504968ef9ed86422f888f93dcef6544c47dfb6d2a3e"
+    },
+    {
+      "path": "assets/production/avif/marketing-season-start-banner-v1-3840.avif",
+      "bytes": 57483,
+      "sha256": "98b162c6bdfd3186f3576e1fd6c6b269f86dfd331fd27c9958ee8665bd968179"
+    },
+    {
+      "path": "assets/production/webp/marketing-season-start-banner-v1-3840.webp",
+      "bytes": 49896,
+      "sha256": "7b1297d5af1b1b4ed9ad0665555e2f9f677678a5c821ff812c79ae293c724fbb"
+    },
+    {
+      "path": "assets/production/png/marketing-season-start-banner-v1-1280.png",
+      "bytes": 729921,
+      "sha256": "128462febb7981160394597cc7d4df0de7449210ab8f3983d3f2c8d04e4bab2e"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/marketing-season-start-banner-v1.webp",
+      "bytes": 3284,
+      "sha256": "0e31a973caf91e6ddeb3043bcfa76f55eb45c92bdcac351cd79f3fbf5ce0a933"
+    },
+    {
+      "path": "apps/mobile/assets/library/marketing-season-start-banner-v1.webp",
+      "bytes": 3284,
+      "sha256": "0e31a973caf91e6ddeb3043bcfa76f55eb45c92bdcac351cd79f3fbf5ce0a933"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 94.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:37:55.579Z",
+    "scores": {
+      "realism": 94,
+      "style_consistency": 96,
+      "composition": 95,
+      "material_quality": 93,
+      "light_quality": 94,
+      "architecture_plausibility": 92,
+      "ui_suitability": 97,
+      "mobile_suitability": 97,
+      "originality": 90,
+      "safety_compliance": 100,
+      "small_size_legibility": 94,
+      "contrast": 96,
+      "geometry_quality": 96,
+      "technical_quality": 98
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution.",
+      "All 20 store captures are sourced from the functioning application at exact declared dimensions; feature graphic and icon are opaque exact-size static art.",
+      "Text-free community and release banners are intentionally neutral procedural variants, with no fake UI, third-party logo, unsafe content, broken crop, or unintended text."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1648486
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:48:09.317Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

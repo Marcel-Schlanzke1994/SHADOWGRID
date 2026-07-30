@@ -17,6 +17,7 @@ services:
       SECRET_KEY: ${SECRET_KEY:?SECRET_KEY required}
       REFRESH_PEPPER: ${REFRESH_PEPPER:?REFRESH_PEPPER required}
       SEED_SECRET: ${SEED_SECRET:?SEED_SECRET required}
+      METRICS_TOKEN: ${METRICS_TOKEN:?METRICS_TOKEN required}
       WEB_ORIGINS: ${WEB_ORIGINS:?Production web origin required}
       SMTP_HOST: ${SMTP_HOST:?SMTP host required}
       SMTP_PORT: ${SMTP_PORT:-587}
@@ -30,6 +31,7 @@ services:
       SECRET_KEY: ${SECRET_KEY:?SECRET_KEY required}
       REFRESH_PEPPER: ${REFRESH_PEPPER:?REFRESH_PEPPER required}
       SEED_SECRET: ${SEED_SECRET:?SEED_SECRET required}
+      METRICS_TOKEN: ${METRICS_TOKEN:?METRICS_TOKEN required}
       WEB_ORIGINS: ${WEB_ORIGINS:?Production web origin required}
       SMTP_HOST: ${SMTP_HOST:?SMTP host required}
       SMTP_PORT: ${SMTP_PORT:-587}

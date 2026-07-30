@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-industrial-belt-economic-boom-night-v1",
+  "manifest_order": 386,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "economic-boom-night",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-industrial-belt-economic-boom-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100386,
+  "content_hash": "a229b60003c5316a05117ef77ddc2c4a1361d32a777a5fd63de662247555a887",
+  "source_file": "assets/source/districts/district-industrial-belt-economic-boom-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-industrial-belt-economic-boom-night-v1-320.avif",
+      "bytes": 3547,
+      "sha256": "c23b10a4a2662afe46c4a5c210655a75d450dad4a3e832e85097a31c5b6c3903"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-economic-boom-night-v1-320.webp",
+      "bytes": 3454,
+      "sha256": "c4a157d928c93aebc93852a6ee10ee40e282d8d369b4d5afe6c170d34e2f1ce7"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-economic-boom-night-v1-640.avif",
+      "bytes": 7487,
+      "sha256": "afd7f9350e5375b8b5be4c534ab81af052680ed77d75c3b982a25ad9f6640ea2"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-economic-boom-night-v1-640.webp",
+      "bytes": 7714,
+      "sha256": "6127e0366eee08932ccd71a3c84c23725dc849f376b679583b0558ae763f009c"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-economic-boom-night-v1-960.avif",
+      "bytes": 13246,
+      "sha256": "9dbb0ab0383778b13011617d7afa42aa8de5bf57921cefa9c453302a4a59442b"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-economic-boom-night-v1-960.webp",
+      "bytes": 13450,
+      "sha256": "6ab4fd81cc69cb76257ca555a9221c1b95e6bb0cbd17f980a880667e40621fa5"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-economic-boom-night-v1-1280.avif",
+      "bytes": 17579,
+      "sha256": "03d06a4c73024853755d93349367d23d44e69e9aecf5c2112eb4247b0ea44195"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-economic-boom-night-v1-1280.webp",
+      "bytes": 17816,
+      "sha256": "01aed7121b10ff363ec94e1b193b9c12a4676a9113f953675f7e8302b63ad044"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-economic-boom-night-v1-1920.avif",
+      "bytes": 28150,
+      "sha256": "7140641b0cac7e6f6719bde5d43029fc5f2985956c87452ac3b1a531855fd7ec"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-economic-boom-night-v1-1920.webp",
+      "bytes": 27098,
+      "sha256": "675aff94e2c0bb21eebcb7a088233c7bb98f477d06b246fe235871325207bf72"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-economic-boom-night-v1-2560.avif",
+      "bytes": 36593,
+      "sha256": "603d649b2a9e67b0ffc926e76f9814f577dda97aa8b1ceb3addfe2ce8e9348a2"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-economic-boom-night-v1-2560.webp",
+      "bytes": 35668,
+      "sha256": "7f43a14d27824db6beae6125d76cf02c0bb7823381b0f72ad2efe2c5d0ea526f"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-economic-boom-night-v1-3840.avif",
+      "bytes": 58893,
+      "sha256": "3ddee3cdf3ee82af6e083e1507830571b9e25658a2eab68aa957d5646331a898"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-economic-boom-night-v1-3840.webp",
+      "bytes": 57332,
+      "sha256": "221f3b6c85b7a72cce8f2fec76805dea556fd9f60982e3b829c4c4d6f9be4d4b"
+    },
+    {
+      "path": "assets/production/png/district-industrial-belt-economic-boom-night-v1-1280.png",
+      "bytes": 665491,
+      "sha256": "ff590b1a2f6be91b2343d4f7c4928996a6893ed3395604a18aabf535d9f4f49f"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-industrial-belt-economic-boom-night-v1.webp",
+      "bytes": 3454,
+      "sha256": "c4a157d928c93aebc93852a6ee10ee40e282d8d369b4d5afe6c170d34e2f1ce7"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-industrial-belt-economic-boom-night-v1.webp",
+      "bytes": 3454,
+      "sha256": "c4a157d928c93aebc93852a6ee10ee40e282d8d369b4d5afe6c170d34e2f1ce7"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.625Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1474700
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:27:14.520Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

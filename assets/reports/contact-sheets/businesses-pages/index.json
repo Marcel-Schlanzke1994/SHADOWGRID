@@ -1,0 +1,75 @@
+{
+  "schema": "shadowgrid/contact-sheet-pages/v1",
+  "batch": "businesses",
+  "generated_at": "2026-07-30T06:14:23.768Z",
+  "asset_count": 48,
+  "page_size": 18,
+  "pages": [
+    {
+      "page": 1,
+      "path": "assets/reports/contact-sheets/businesses-pages/page-001.png",
+      "assets": [
+        "business-hospitality-exterior-level-1-v1",
+        "business-hospitality-exterior-level-2-v1",
+        "business-hospitality-exterior-max-v1",
+        "business-hospitality-management-interior-v1",
+        "business-hospitality-poor-condition-v1",
+        "business-hospitality-audited-frozen-closed-v1",
+        "business-event-agency-exterior-level-1-v1",
+        "business-event-agency-exterior-level-2-v1",
+        "business-event-agency-exterior-max-v1",
+        "business-event-agency-management-interior-v1",
+        "business-event-agency-poor-condition-v1",
+        "business-event-agency-audited-frozen-closed-v1",
+        "business-security-company-exterior-level-1-v1",
+        "business-security-company-exterior-level-2-v1",
+        "business-security-company-exterior-max-v1",
+        "business-security-company-management-interior-v1",
+        "business-security-company-poor-condition-v1",
+        "business-security-company-audited-frozen-closed-v1"
+      ]
+    },
+    {
+      "page": 2,
+      "path": "assets/reports/contact-sheets/businesses-pages/page-002.png",
+      "assets": [
+        "business-logistics-company-exterior-level-1-v1",
+        "business-logistics-company-exterior-level-2-v1",
+        "business-logistics-company-exterior-max-v1",
+        "business-logistics-company-management-interior-v1",
+        "business-logistics-company-poor-condition-v1",
+        "business-logistics-company-audited-frozen-closed-v1",
+        "business-technology-company-exterior-level-1-v1",
+        "business-technology-company-exterior-level-2-v1",
+        "business-technology-company-exterior-max-v1",
+        "business-technology-company-management-interior-v1",
+        "business-technology-company-poor-condition-v1",
+        "business-technology-company-audited-frozen-closed-v1",
+        "business-property-management-exterior-level-1-v1",
+        "business-property-management-exterior-level-2-v1",
+        "business-property-management-exterior-max-v1",
+        "business-property-management-management-interior-v1",
+        "business-property-management-poor-condition-v1",
+        "business-property-management-audited-frozen-closed-v1"
+      ]
+    },
+    {
+      "page": 3,
+      "path": "assets/reports/contact-sheets/businesses-pages/page-003.png",
+      "assets": [
+        "business-construction-company-exterior-level-1-v1",
+        "business-construction-company-exterior-level-2-v1",
+        "business-construction-company-exterior-max-v1",
+        "business-construction-company-management-interior-v1",
+        "business-construction-company-poor-condition-v1",
+        "business-construction-company-audited-frozen-closed-v1",
+        "business-media-company-exterior-level-1-v1",
+        "business-media-company-exterior-level-2-v1",
+        "business-media-company-exterior-max-v1",
+        "business-media-company-management-interior-v1",
+        "business-media-company-poor-condition-v1",
+        "business-media-company-audited-frozen-closed-v1"
+      ]
+    }
+  ]
+}

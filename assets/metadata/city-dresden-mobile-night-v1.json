@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-dresden-mobile-night-v1",
+  "manifest_order": 160,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "dresden",
+  "variant": "mobile-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-dresden-mobile-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100160,
+  "content_hash": "73a66e85b6897eedfc6a320a4d454e335003de650442f96d8f7b83f7690cb42f",
+  "source_file": "assets/source/cities/city-dresden-mobile-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-dresden-mobile-night-v1-320.avif",
+      "bytes": 6392,
+      "sha256": "8e65f7a9e548c1d957b481709f1af4af7915c815aad53711d04e3e4eb33d39b3"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-mobile-night-v1-320.webp",
+      "bytes": 6942,
+      "sha256": "526881f5f88ea60f9639efcfbb6ec469cc0d836fa43ec26dea9754683a92a474"
+    },
+    {
+      "path": "assets/production/avif/city-dresden-mobile-night-v1-640.avif",
+      "bytes": 13115,
+      "sha256": "41ebf9a74b720d4d0f39749e6121718fe145bd2999ffc88198df2e531bff36fd"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-mobile-night-v1-640.webp",
+      "bytes": 13268,
+      "sha256": "1328519ad6d35a1b6d61a793fb29ef832e0f16f05e14676742c92da9a5a3c956"
+    },
+    {
+      "path": "assets/production/avif/city-dresden-mobile-night-v1-960.avif",
+      "bytes": 22850,
+      "sha256": "d119ee99d32ad15b2fbf5de03e9d96b35b7ee2b4de8eeb93837b0127266706fa"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-mobile-night-v1-960.webp",
+      "bytes": 22076,
+      "sha256": "bbc9c1b86ee18fcb6543a1e1fec8dee28f9ea123e04de40d272148ff66573705"
+    },
+    {
+      "path": "assets/production/avif/city-dresden-mobile-night-v1-1280.avif",
+      "bytes": 31821,
+      "sha256": "eac63e52f443579d863f4a599a2924227f2ee713d7862bda5f0b9aecc4ef4ec2"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-mobile-night-v1-1280.webp",
+      "bytes": 28788,
+      "sha256": "4665d6fcc7852731a1d334124980f8fe55f2455db8c937523cc462de079c326f"
+    },
+    {
+      "path": "assets/production/avif/city-dresden-mobile-night-v1-1920.avif",
+      "bytes": 50704,
+      "sha256": "cb1c02839cfc2ff6807a3eeaa53037e7f598005e2c2fc8df69c02944b3a74c0d"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-mobile-night-v1-1920.webp",
+      "bytes": 45806,
+      "sha256": "8fa3bbcf78a0fd5cc86f4a458b589519b716fe56b529ebca30f22bb9b01c7402"
+    },
+    {
+      "path": "assets/production/avif/city-dresden-mobile-night-v1-2560.avif",
+      "bytes": 71568,
+      "sha256": "e1f948f810f547d434acb25962c1d12430f65ee85ede4c05e044c6f81c05151c"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-mobile-night-v1-2560.webp",
+      "bytes": 67104,
+      "sha256": "2f10f552ba82f49f36a20f87568b269e854e2e57eada691b854b461bc407711d"
+    },
+    {
+      "path": "assets/production/avif/city-dresden-mobile-night-v1-3840.avif",
+      "bytes": 122900,
+      "sha256": "0f3d27aa8829ea7c9f8499336562fc1622e574dbbd72ac388b8b4ebed0f3699e"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-mobile-night-v1-3840.webp",
+      "bytes": 125344,
+      "sha256": "5f66be091dcf6d2a3e35a251179ed5c91901c5551da7e16298888a323e9ae290"
+    },
+    {
+      "path": "assets/production/png/city-dresden-mobile-night-v1-1152.png",
+      "bytes": 1715138,
+      "sha256": "73a66e85b6897eedfc6a320a4d454e335003de650442f96d8f7b83f7690cb42f"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-night-v1-320.avif",
+      "bytes": 6392,
+      "sha256": "8e65f7a9e548c1d957b481709f1af4af7915c815aad53711d04e3e4eb33d39b3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-night-v1-320.webp",
+      "bytes": 6942,
+      "sha256": "526881f5f88ea60f9639efcfbb6ec469cc0d836fa43ec26dea9754683a92a474"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-night-v1-640.avif",
+      "bytes": 13115,
+      "sha256": "41ebf9a74b720d4d0f39749e6121718fe145bd2999ffc88198df2e531bff36fd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-night-v1-640.webp",
+      "bytes": 13268,
+      "sha256": "1328519ad6d35a1b6d61a793fb29ef832e0f16f05e14676742c92da9a5a3c956"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-night-v1-960.avif",
+      "bytes": 22850,
+      "sha256": "d119ee99d32ad15b2fbf5de03e9d96b35b7ee2b4de8eeb93837b0127266706fa"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-night-v1-960.webp",
+      "bytes": 22076,
+      "sha256": "bbc9c1b86ee18fcb6543a1e1fec8dee28f9ea123e04de40d272148ff66573705"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-night-v1-1280.avif",
+      "bytes": 31821,
+      "sha256": "eac63e52f443579d863f4a599a2924227f2ee713d7862bda5f0b9aecc4ef4ec2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-night-v1-1280.webp",
+      "bytes": 28788,
+      "sha256": "4665d6fcc7852731a1d334124980f8fe55f2455db8c937523cc462de079c326f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-night-v1-1920.avif",
+      "bytes": 50704,
+      "sha256": "cb1c02839cfc2ff6807a3eeaa53037e7f598005e2c2fc8df69c02944b3a74c0d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-night-v1-1920.webp",
+      "bytes": 45806,
+      "sha256": "8fa3bbcf78a0fd5cc86f4a458b589519b716fe56b529ebca30f22bb9b01c7402"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-night-v1-2560.avif",
+      "bytes": 71568,
+      "sha256": "e1f948f810f547d434acb25962c1d12430f65ee85ede4c05e044c6f81c05151c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-night-v1-2560.webp",
+      "bytes": 67104,
+      "sha256": "2f10f552ba82f49f36a20f87568b269e854e2e57eada691b854b461bc407711d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-night-v1-3840.avif",
+      "bytes": 122900,
+      "sha256": "0f3d27aa8829ea7c9f8499336562fc1622e574dbbd72ac388b8b4ebed0f3699e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-night-v1-3840.webp",
+      "bytes": 125344,
+      "sha256": "5f66be091dcf6d2a3e35a251179ed5c91901c5551da7e16298888a323e9ae290"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-night-v1-1152.png",
+      "bytes": 1715138,
+      "sha256": "73a66e85b6897eedfc6a320a4d454e335003de650442f96d8f7b83f7690cb42f"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-dresden-mobile-night-v1.webp",
+      "bytes": 6942,
+      "sha256": "526881f5f88ea60f9639efcfbb6ec469cc0d836fa43ec26dea9754683a92a474"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-dresden-mobile-night-v1.webp",
+      "bytes": 6942,
+      "sha256": "526881f5f88ea60f9639efcfbb6ec469cc0d836fa43ec26dea9754683a92a474"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.661Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1715138
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:08:57.833Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

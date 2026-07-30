@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-braunschweig-ultrawide-day-v1",
+  "manifest_order": 283,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "braunschweig",
+  "variant": "ultrawide-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-braunschweig-ultrawide-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100283,
+  "content_hash": "64f9783fd0b5c975f51f5f05c35d8e60bda68bda438f05d58fbc1bb9b1505b5c",
+  "source_file": "assets/source/cities/city-braunschweig-ultrawide-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-braunschweig-ultrawide-day-v1-320.avif",
+      "bytes": 2623,
+      "sha256": "cabb885c29fcc13faf3e7c9321ab53482bcd26f476dae9f321553ac1cff3d66f"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-ultrawide-day-v1-320.webp",
+      "bytes": 2536,
+      "sha256": "6c9d80ba230dc05277f6b470ab52d048847ee9d308497f6390e02ab5de053c5f"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-ultrawide-day-v1-640.avif",
+      "bytes": 5440,
+      "sha256": "67cc20637927ba5af038bb8c38cc2baf569feafefb5e58a23a638660b3194214"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-ultrawide-day-v1-640.webp",
+      "bytes": 4914,
+      "sha256": "87249c6f3fc29518557f47286cffd7c7e1f1b858414257f6c9979abd4be6d7e3"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-ultrawide-day-v1-960.avif",
+      "bytes": 9572,
+      "sha256": "7fbbed1fa0a7222380bdc5c7390e0cf180051ed1378126bba2c7f9917d6d2032"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-ultrawide-day-v1-960.webp",
+      "bytes": 8082,
+      "sha256": "880c612715041c29d489c2bcae637b2cae52d1d7bb0dca94eb7711a86cc2f082"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-ultrawide-day-v1-1280.avif",
+      "bytes": 12249,
+      "sha256": "72630ed98725631b137a6ebf5517e58e8a6ac0605dd802945f1a70c3ef85844f"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-ultrawide-day-v1-1280.webp",
+      "bytes": 10476,
+      "sha256": "340b153857ca77ef3990476a2ed6f3e83dd036527166bd2da2b6b23edf483650"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-ultrawide-day-v1-1920.avif",
+      "bytes": 19322,
+      "sha256": "fbaa66b7b7894638619dc38c03f289fe7e15ca4874e700c1ccad92a4115e766d"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-ultrawide-day-v1-1920.webp",
+      "bytes": 15808,
+      "sha256": "cce4cec3fe04fb52820bdc50f723b149a9b839367eb54aa0e2a318288f358c37"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-ultrawide-day-v1-2560.avif",
+      "bytes": 25377,
+      "sha256": "87479d165a84ea22f553a15e7c0cde1d1bad5fc5cc5df49ed541536ff9172e15"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-ultrawide-day-v1-2560.webp",
+      "bytes": 22090,
+      "sha256": "b4458d1ccf995ecabf535c8dd24fce8a67d4e07d4b7dbc2901c9d95fbcebf764"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-ultrawide-day-v1-3840.avif",
+      "bytes": 40458,
+      "sha256": "37e4a117568fa89d020a247a23a6faa940c00922e1c04f0da4e597d35ce2c7f7"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-ultrawide-day-v1-3840.webp",
+      "bytes": 37466,
+      "sha256": "b06a72c32f641fee15d46bd017e682517918fdaebd7a3d2f97d6e40f10d68b6e"
+    },
+    {
+      "path": "assets/production/png/city-braunschweig-ultrawide-day-v1-1280.png",
+      "bytes": 410494,
+      "sha256": "3231615291ac9b3e9e3c5fefb65c91b3fccc897e7a5a450eca4616d40dc6df47"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-ultrawide-day-v1-320.avif",
+      "bytes": 2623,
+      "sha256": "cabb885c29fcc13faf3e7c9321ab53482bcd26f476dae9f321553ac1cff3d66f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-ultrawide-day-v1-320.webp",
+      "bytes": 2536,
+      "sha256": "6c9d80ba230dc05277f6b470ab52d048847ee9d308497f6390e02ab5de053c5f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-ultrawide-day-v1-640.avif",
+      "bytes": 5440,
+      "sha256": "67cc20637927ba5af038bb8c38cc2baf569feafefb5e58a23a638660b3194214"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-ultrawide-day-v1-640.webp",
+      "bytes": 4914,
+      "sha256": "87249c6f3fc29518557f47286cffd7c7e1f1b858414257f6c9979abd4be6d7e3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-ultrawide-day-v1-960.avif",
+      "bytes": 9572,
+      "sha256": "7fbbed1fa0a7222380bdc5c7390e0cf180051ed1378126bba2c7f9917d6d2032"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-ultrawide-day-v1-960.webp",
+      "bytes": 8082,
+      "sha256": "880c612715041c29d489c2bcae637b2cae52d1d7bb0dca94eb7711a86cc2f082"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-ultrawide-day-v1-1280.avif",
+      "bytes": 12249,
+      "sha256": "72630ed98725631b137a6ebf5517e58e8a6ac0605dd802945f1a70c3ef85844f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-ultrawide-day-v1-1280.webp",
+      "bytes": 10476,
+      "sha256": "340b153857ca77ef3990476a2ed6f3e83dd036527166bd2da2b6b23edf483650"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-ultrawide-day-v1-1920.avif",
+      "bytes": 19322,
+      "sha256": "fbaa66b7b7894638619dc38c03f289fe7e15ca4874e700c1ccad92a4115e766d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-ultrawide-day-v1-1920.webp",
+      "bytes": 15808,
+      "sha256": "cce4cec3fe04fb52820bdc50f723b149a9b839367eb54aa0e2a318288f358c37"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-ultrawide-day-v1-2560.avif",
+      "bytes": 25377,
+      "sha256": "87479d165a84ea22f553a15e7c0cde1d1bad5fc5cc5df49ed541536ff9172e15"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-ultrawide-day-v1-2560.webp",
+      "bytes": 22090,
+      "sha256": "b4458d1ccf995ecabf535c8dd24fce8a67d4e07d4b7dbc2901c9d95fbcebf764"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-ultrawide-day-v1-3840.avif",
+      "bytes": 40458,
+      "sha256": "37e4a117568fa89d020a247a23a6faa940c00922e1c04f0da4e597d35ce2c7f7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-ultrawide-day-v1-3840.webp",
+      "bytes": 37466,
+      "sha256": "b06a72c32f641fee15d46bd017e682517918fdaebd7a3d2f97d6e40f10d68b6e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-ultrawide-day-v1-1280.png",
+      "bytes": 410494,
+      "sha256": "3231615291ac9b3e9e3c5fefb65c91b3fccc897e7a5a450eca4616d40dc6df47"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-braunschweig-ultrawide-day-v1.webp",
+      "bytes": 2536,
+      "sha256": "6c9d80ba230dc05277f6b470ab52d048847ee9d308497f6390e02ab5de053c5f"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-braunschweig-ultrawide-day-v1.webp",
+      "bytes": 2536,
+      "sha256": "6c9d80ba230dc05277f6b470ab52d048847ee9d308497f6390e02ab5de053c5f"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:42.170Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 2064364
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:06:55.219Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

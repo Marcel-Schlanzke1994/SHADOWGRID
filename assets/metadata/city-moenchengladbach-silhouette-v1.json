@@ -1,0 +1,110 @@
+{
+  "asset_id": "city-moenchengladbach-silhouette-v1",
+  "manifest_order": 274,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "moenchengladbach",
+  "variant": "silhouette",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:5",
+  "width": 3200,
+  "height": 1000,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/city-moenchengladbach-silhouette-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100274,
+  "content_hash": "442e1e8c24324d08b7bb1e6855d66f68812b25eac27fff8d4392ec77699e1c2a",
+  "source_file": "assets/source/cities/city-moenchengladbach-silhouette-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/city-moenchengladbach-silhouette-v1.svg",
+      "bytes": 3646,
+      "sha256": "442e1e8c24324d08b7bb1e6855d66f68812b25eac27fff8d4392ec77699e1c2a"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-silhouette-v1-320.webp",
+      "bytes": 3302,
+      "sha256": "ae68b5586116f168968731f6b90b0f45076d826f3390ecc27735d78eafc99b03"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-silhouette-v1.svg",
+      "bytes": 3646,
+      "sha256": "442e1e8c24324d08b7bb1e6855d66f68812b25eac27fff8d4392ec77699e1c2a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-silhouette-v1-320.webp",
+      "bytes": 3302,
+      "sha256": "ae68b5586116f168968731f6b90b0f45076d826f3390ecc27735d78eafc99b03"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-moenchengladbach-silhouette-v1.webp",
+      "bytes": 3302,
+      "sha256": "ae68b5586116f168968731f6b90b0f45076d826f3390ecc27735d78eafc99b03"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-moenchengladbach-silhouette-v1.webp",
+      "bytes": 3302,
+      "sha256": "ae68b5586116f168968731f6b90b0f45076d826f3390ecc27735d78eafc99b03"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.916Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 3646
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:52:00.018Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

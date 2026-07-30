@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-property-management-audited-frozen-closed-v1",
+  "manifest_order": 498,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "audited-frozen-closed",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-property-management-audited-frozen-closed-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100498,
+  "content_hash": "ac3fc567adafb0dd123693d42e10e86621fe9fb79fb99bed4dbfcbdc4bff7612",
+  "source_file": "assets/source/businesses/business-property-management-audited-frozen-closed-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-property-management-audited-frozen-closed-v1-320.avif",
+      "bytes": 2866,
+      "sha256": "5b88a58d7886c9995e20ee2bd53134610e175a63b7004107504b589b05f52236"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-audited-frozen-closed-v1-320.webp",
+      "bytes": 2536,
+      "sha256": "5a7bf3de333b91f6c6dfd9b4561bbe32e7b1a7ce3ee90cdb348bce333cd45c5c"
+    },
+    {
+      "path": "assets/production/avif/business-property-management-audited-frozen-closed-v1-640.avif",
+      "bytes": 6193,
+      "sha256": "c9612cf8cf45b5d7ef3e33f8306f1b9a559297bfb678ca264e716179ccb75f8d"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-audited-frozen-closed-v1-640.webp",
+      "bytes": 4908,
+      "sha256": "0bf213dc88e6956a59fb963703beeca255a567d7ff0a6c5e00b07c9c7f450269"
+    },
+    {
+      "path": "assets/production/avif/business-property-management-audited-frozen-closed-v1-960.avif",
+      "bytes": 9985,
+      "sha256": "1478d421323c10b189622712fa8992f742195feb14205e931e411ac9686dcba4"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-audited-frozen-closed-v1-960.webp",
+      "bytes": 8286,
+      "sha256": "96c27573c3d243a383fb11c03aa94ec78afa407f50d898e943c003b086b14a80"
+    },
+    {
+      "path": "assets/production/avif/business-property-management-audited-frozen-closed-v1-1280.avif",
+      "bytes": 14561,
+      "sha256": "e9786d7839fae876c5e3b75944d2280b3398687829fa943bd92beaf582f952fb"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-audited-frozen-closed-v1-1280.webp",
+      "bytes": 11070,
+      "sha256": "fbf33fbb00dee3bd42fb675c98b44f8621ebe3f72b1b38a4e47f5550f69c3f3e"
+    },
+    {
+      "path": "assets/production/avif/business-property-management-audited-frozen-closed-v1-1920.avif",
+      "bytes": 21694,
+      "sha256": "3195aeaa863efb87d5b3540cab4f7be4dd5ff3d7b2a1880c7fcf1ac17c7dac12"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-audited-frozen-closed-v1-1920.webp",
+      "bytes": 17374,
+      "sha256": "4ed9492589b518a75ffe5af81eeef09c70bf1039bd8465bdc0910f71cda2512d"
+    },
+    {
+      "path": "assets/production/avif/business-property-management-audited-frozen-closed-v1-2560.avif",
+      "bytes": 29836,
+      "sha256": "0b081bbf93661bbb2fcaf76c569b9545194e78c21652507f7255fd364b18550d"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-audited-frozen-closed-v1-2560.webp",
+      "bytes": 24662,
+      "sha256": "ffdf7fc07ec07431ff56af65ce2c2f6f5da9107738d582c09be34e0f8c5c9e9f"
+    },
+    {
+      "path": "assets/production/avif/business-property-management-audited-frozen-closed-v1-3840.avif",
+      "bytes": 48104,
+      "sha256": "9885ec7c2233bf1a388f63f9bc9238288432bc931eb793acdb5719dd7cae8fd7"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-audited-frozen-closed-v1-3840.webp",
+      "bytes": 43478,
+      "sha256": "7f29ecb70a4fc1f2a29a6abc6888cea968f997fde70125ad250d1d2b6467c83b"
+    },
+    {
+      "path": "assets/production/png/business-property-management-audited-frozen-closed-v1-1280.png",
+      "bytes": 633321,
+      "sha256": "7d35e043f1f1c8fe33646c244cbe0bbccb1456ed832c84bed522122d02b55fc0"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-property-management-audited-frozen-closed-v1.webp",
+      "bytes": 2536,
+      "sha256": "5a7bf3de333b91f6c6dfd9b4561bbe32e7b1a7ce3ee90cdb348bce333cd45c5c"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-property-management-audited-frozen-closed-v1.webp",
+      "bytes": 2536,
+      "sha256": "5a7bf3de333b91f6c6dfd9b4561bbe32e7b1a7ce3ee90cdb348bce333cd45c5c"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.700Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1441463
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:34:37.183Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

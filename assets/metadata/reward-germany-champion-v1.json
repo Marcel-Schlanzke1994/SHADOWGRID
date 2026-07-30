@@ -1,0 +1,75 @@
+{
+  "asset_id": "reward-germany-champion-v1",
+  "manifest_order": 854,
+  "category": "reward",
+  "batch": "rankings-rewards",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/reward-germany-champion-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100854,
+  "content_hash": "0443b39d48b41778ed5d51cc719c4e5c47d668df58ac3580038a38c8e7db0ee4",
+  "source_file": "assets/source/rewards/reward-germany-champion-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/reward-germany-champion-v1.svg",
+      "bytes": 961,
+      "sha256": "0443b39d48b41778ed5d51cc719c4e5c47d668df58ac3580038a38c8e7db0ee4"
+    },
+    {
+      "path": "assets/production/webp/reward-germany-champion-v1-320.webp",
+      "bytes": 13578,
+      "sha256": "ae1487a15bb40c6d39be31b4306a7da8b91a6e9296a491ebab22d8674558a19e"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/reward-germany-champion-v1.webp",
+      "bytes": 13578,
+      "sha256": "ae1487a15bb40c6d39be31b4306a7da8b91a6e9296a491ebab22d8674558a19e"
+    },
+    {
+      "path": "apps/mobile/assets/library/reward-germany-champion-v1.webp",
+      "bytes": 13578,
+      "sha256": "ae1487a15bb40c6d39be31b4306a7da8b91a6e9296a491ebab22d8674558a19e"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 961
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:41:15.286Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

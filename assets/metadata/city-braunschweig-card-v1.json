@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-braunschweig-card-v1",
+  "manifest_order": 289,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "braunschweig",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-braunschweig-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100289,
+  "content_hash": "3765eb3517bb8300008a99d3965f4946b5c047fd5e9ad92b0f2ad929f0e61299",
+  "source_file": "assets/source/cities/city-braunschweig-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-braunschweig-card-v1-320.avif",
+      "bytes": 3438,
+      "sha256": "409870664c060b007c048c99ad2406af0f61f8580489070a9bb01e416fe77197"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-card-v1-320.webp",
+      "bytes": 3250,
+      "sha256": "4e4224ee476fd9873fc8086ae9cf5313c5f3809125c5c2276e45af4d1fa59efd"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-card-v1-640.avif",
+      "bytes": 7296,
+      "sha256": "61a7c53bbd78193fb127c2fc36acaede2980e878c8b72f8d837cc1b5bee8c014"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-card-v1-640.webp",
+      "bytes": 6364,
+      "sha256": "967cc78231c4968e3b39bb157e4b0bce8e266aea07e06e8a753e7ce3f15c906b"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-card-v1-960.avif",
+      "bytes": 12992,
+      "sha256": "a6078c62bd7b5c29c583e16e1427ff93ead8129b5da6f6f59a62032e74bebe76"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-card-v1-960.webp",
+      "bytes": 10288,
+      "sha256": "d94b205a6e5f5e34b751c324c141684504e9823fa0224876dda2137f67163101"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-card-v1-1280.avif",
+      "bytes": 17877,
+      "sha256": "c3984c3e893f2d250e5ae0c9a96f06650ca3f9cc9ede1cc56dd603afce0155db"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-card-v1-1280.webp",
+      "bytes": 14444,
+      "sha256": "169dce4ce6569383d052883db5e2fefbf50e3d085687ea43756634c3eccbbcc2"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-card-v1-1920.avif",
+      "bytes": 27015,
+      "sha256": "978498c14707408107d888cbffd45eb3697375f3e8684aacf8e3347f0292a690"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-card-v1-1920.webp",
+      "bytes": 23800,
+      "sha256": "d7bafb5dada7a2c43ee0eb48b69ca9cdcf5012e0938b0ff01d50d58d6d550a9f"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-card-v1-2560.avif",
+      "bytes": 37881,
+      "sha256": "2421a2f63c9403c26317ac3541b22a8eccf656cbb2eae6b33661ed05e0eaa396"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-card-v1-2560.webp",
+      "bytes": 35784,
+      "sha256": "ab5fa698302812424103b7a3450942131a245c414e681f1fc67cec2b0a5a3975"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-card-v1-3840.avif",
+      "bytes": 61495,
+      "sha256": "760cb86f71bb750b7ce46998d12646f3eb65d7de5118b2e7e5589d0cae05f201"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-card-v1-3840.webp",
+      "bytes": 63860,
+      "sha256": "a6199406309b8cac6e150e5c2629506fe039ccdd3af2e2856b19d98438d86d2d"
+    },
+    {
+      "path": "assets/production/png/city-braunschweig-card-v1-1280.png",
+      "bytes": 1236960,
+      "sha256": "04920426880d4c010738d852b59c503fa9dfce45865afeaa031ab346a1d49a93"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-card-v1-320.avif",
+      "bytes": 3438,
+      "sha256": "409870664c060b007c048c99ad2406af0f61f8580489070a9bb01e416fe77197"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-card-v1-320.webp",
+      "bytes": 3250,
+      "sha256": "4e4224ee476fd9873fc8086ae9cf5313c5f3809125c5c2276e45af4d1fa59efd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-card-v1-640.avif",
+      "bytes": 7296,
+      "sha256": "61a7c53bbd78193fb127c2fc36acaede2980e878c8b72f8d837cc1b5bee8c014"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-card-v1-640.webp",
+      "bytes": 6364,
+      "sha256": "967cc78231c4968e3b39bb157e4b0bce8e266aea07e06e8a753e7ce3f15c906b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-card-v1-960.avif",
+      "bytes": 12992,
+      "sha256": "a6078c62bd7b5c29c583e16e1427ff93ead8129b5da6f6f59a62032e74bebe76"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-card-v1-960.webp",
+      "bytes": 10288,
+      "sha256": "d94b205a6e5f5e34b751c324c141684504e9823fa0224876dda2137f67163101"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-card-v1-1280.avif",
+      "bytes": 17877,
+      "sha256": "c3984c3e893f2d250e5ae0c9a96f06650ca3f9cc9ede1cc56dd603afce0155db"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-card-v1-1280.webp",
+      "bytes": 14444,
+      "sha256": "169dce4ce6569383d052883db5e2fefbf50e3d085687ea43756634c3eccbbcc2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-card-v1-1920.avif",
+      "bytes": 27015,
+      "sha256": "978498c14707408107d888cbffd45eb3697375f3e8684aacf8e3347f0292a690"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-card-v1-1920.webp",
+      "bytes": 23800,
+      "sha256": "d7bafb5dada7a2c43ee0eb48b69ca9cdcf5012e0938b0ff01d50d58d6d550a9f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-card-v1-2560.avif",
+      "bytes": 37881,
+      "sha256": "2421a2f63c9403c26317ac3541b22a8eccf656cbb2eae6b33661ed05e0eaa396"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-card-v1-2560.webp",
+      "bytes": 35784,
+      "sha256": "ab5fa698302812424103b7a3450942131a245c414e681f1fc67cec2b0a5a3975"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-card-v1-3840.avif",
+      "bytes": 61495,
+      "sha256": "760cb86f71bb750b7ce46998d12646f3eb65d7de5118b2e7e5589d0cae05f201"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-card-v1-3840.webp",
+      "bytes": 63860,
+      "sha256": "a6199406309b8cac6e150e5c2629506fe039ccdd3af2e2856b19d98438d86d2d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-card-v1-1280.png",
+      "bytes": 1236960,
+      "sha256": "04920426880d4c010738d852b59c503fa9dfce45865afeaa031ab346a1d49a93"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-braunschweig-card-v1.webp",
+      "bytes": 3250,
+      "sha256": "4e4224ee476fd9873fc8086ae9cf5313c5f3809125c5c2276e45af4d1fa59efd"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-braunschweig-card-v1.webp",
+      "bytes": 3250,
+      "sha256": "4e4224ee476fd9873fc8086ae9cf5313c5f3809125c5c2276e45af4d1fa59efd"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:42.282Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1654196
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:10:25.805Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

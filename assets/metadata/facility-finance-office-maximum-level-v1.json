@@ -1,0 +1,171 @@
+{
+  "asset_id": "facility-finance-office-maximum-level-v1",
+  "manifest_order": 517,
+  "category": "facility",
+  "batch": "facilities",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "maximum-level",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/facility-finance-office-maximum-level-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100517,
+  "content_hash": "14b49285442c7c75a88f5c3b0080f6c431bf719a26c572756904b07f54a38e15",
+  "source_file": "assets/source/facilities/facility-finance-office-maximum-level-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/facility-finance-office-maximum-level-v1-320.avif",
+      "bytes": 2833,
+      "sha256": "a10b38d810221fadf6d9f4839e45014567595b660a58d98224687e28ee303544"
+    },
+    {
+      "path": "assets/production/webp/facility-finance-office-maximum-level-v1-320.webp",
+      "bytes": 2606,
+      "sha256": "9cdb8b024d09f7f4e05dd1bd8766aaa7428866f5587074ec29aac1a8f1dcccc9"
+    },
+    {
+      "path": "assets/production/avif/facility-finance-office-maximum-level-v1-640.avif",
+      "bytes": 6374,
+      "sha256": "0de14c4cf3026256ac0216ed5e2c08fa060a07d9556ac23fbd4803992e3ef9c2"
+    },
+    {
+      "path": "assets/production/webp/facility-finance-office-maximum-level-v1-640.webp",
+      "bytes": 5406,
+      "sha256": "cf32811a0bb8c8e7a2624bf3593c5c590ea0a637db7de264390c315f77d09f00"
+    },
+    {
+      "path": "assets/production/avif/facility-finance-office-maximum-level-v1-960.avif",
+      "bytes": 9982,
+      "sha256": "898a6d29fefebb3ec8234452a0bf5a83d89c141e375e48ba8c1ac932c8fe714c"
+    },
+    {
+      "path": "assets/production/webp/facility-finance-office-maximum-level-v1-960.webp",
+      "bytes": 8764,
+      "sha256": "5d1f44902aeeaed33736419bfb32ea9c1f6f784d536ac997228613628cfd305e"
+    },
+    {
+      "path": "assets/production/avif/facility-finance-office-maximum-level-v1-1280.avif",
+      "bytes": 14434,
+      "sha256": "bd40f15351ee519f507488ff9cf2f1eaad852f94f8b54aaba0b497be62779897"
+    },
+    {
+      "path": "assets/production/webp/facility-finance-office-maximum-level-v1-1280.webp",
+      "bytes": 11902,
+      "sha256": "2eb082da9260fb301e9cd83d9222331a5ecb0bd8dce8d78f013596373c6face6"
+    },
+    {
+      "path": "assets/production/avif/facility-finance-office-maximum-level-v1-1920.avif",
+      "bytes": 21425,
+      "sha256": "8c9dfa81e872b67d0b3c3a16a2aadca9e20b9c91ddc6e7069b154531d375c048"
+    },
+    {
+      "path": "assets/production/webp/facility-finance-office-maximum-level-v1-1920.webp",
+      "bytes": 18700,
+      "sha256": "4ed31f84aeb1b0a51a7b3ef9a79fe5e37c93ab2367bf3d595efd7c7ea3138b6e"
+    },
+    {
+      "path": "assets/production/avif/facility-finance-office-maximum-level-v1-2560.avif",
+      "bytes": 29270,
+      "sha256": "d774f584c9e414d40ece442963f04d1ec0a85567d4ffc721419dd241f1fb210a"
+    },
+    {
+      "path": "assets/production/webp/facility-finance-office-maximum-level-v1-2560.webp",
+      "bytes": 26056,
+      "sha256": "8b21eca25d64083c62168b598fd80394854aaeb15c07bf7d351b1089c4d7dc22"
+    },
+    {
+      "path": "assets/production/avif/facility-finance-office-maximum-level-v1-3840.avif",
+      "bytes": 47777,
+      "sha256": "5692097d1f6f5d305dd942a5cc980d91452e9d4363352e60bfaed7bd1fca0fd7"
+    },
+    {
+      "path": "assets/production/webp/facility-finance-office-maximum-level-v1-3840.webp",
+      "bytes": 44148,
+      "sha256": "06b0958ae2098ac5d0c09b4e57a387f82a038e41e349ae885ff47db694253ccb"
+    },
+    {
+      "path": "assets/production/png/facility-finance-office-maximum-level-v1-1280.png",
+      "bytes": 631227,
+      "sha256": "7566f57ae0b04ad567ae7593d2bae9e93f3ed117c527f1eaf49b412f433b63ec"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/facility-finance-office-maximum-level-v1.webp",
+      "bytes": 2606,
+      "sha256": "9cdb8b024d09f7f4e05dd1bd8766aaa7428866f5587074ec29aac1a8f1dcccc9"
+    },
+    {
+      "path": "apps/mobile/assets/library/facility-finance-office-maximum-level-v1.webp",
+      "bytes": 2606,
+      "sha256": "9cdb8b024d09f7f4e05dd1bd8766aaa7428866f5587074ec29aac1a8f1dcccc9"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:26.949Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 92,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 90,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution.",
+      "Facility categories remain visually coherent and readable without depicting sensitive real-world infrastructure.",
+      "No missing render, unsafe detail, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1463632
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:08:34.627Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

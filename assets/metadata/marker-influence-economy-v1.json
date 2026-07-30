@@ -23,6 +23,11 @@
       "path": "assets/production/svg/marker-influence-economy-v1.svg",
       "bytes": 764,
       "sha256": "c59c14e5db23198b750ba86b1a70dd168457081c328ab373bb50b02e550ec1da"
+    },
+    {
+      "path": "assets/production/webp/marker-influence-economy-v1-320.webp",
+      "bytes": 5234,
+      "sha256": "ef3ed3bf632282200fc9c31e1c18df6b0eb3c0c601b409ac4816c90cd19f15aa"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/markers/marker-influence-economy-v1.svg",
       "bytes": 764,
       "sha256": "c59c14e5db23198b750ba86b1a70dd168457081c328ab373bb50b02e550ec1da"
+    },
+    {
+      "path": "apps/web/public/assets/markers/marker-influence-economy-v1-320.webp",
+      "bytes": 5234,
+      "sha256": "ef3ed3bf632282200fc9c31e1c18df6b0eb3c0c601b409ac4816c90cd19f15aa"
+    },
+    {
+      "path": "apps/web/public/assets/library/marker-influence-economy-v1.webp",
+      "bytes": 5234,
+      "sha256": "ef3ed3bf632282200fc9c31e1c18df6b0eb3c0c601b409ac4816c90cd19f15aa"
+    },
+    {
+      "path": "apps/mobile/assets/library/marker-influence-economy-v1.webp",
+      "bytes": 5234,
+      "sha256": "ef3ed3bf632282200fc9c31e1c18df6b0eb3c0c601b409ac4816c90cd19f15aa"
     }
   ],
   "contains_text": false,

@@ -1,0 +1,180 @@
+{
+  "asset_id": "marketing-app-store-ipad-2-v1",
+  "manifest_order": 886,
+  "category": "marketing",
+  "batch": "store-marketing",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "2048:2732",
+  "width": 2048,
+  "height": 2732,
+  "source_type": "app-screenshot",
+  "provider": "playwright-local-capture",
+  "model": null,
+  "prompt_file": "assets/prompts/marketing-app-store-ipad-2-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100886,
+  "content_hash": "d4a8d8e9d946c17731a568451d091531e208ce78c85832cd804727f01b5ebdcf",
+  "source_file": "assets/source/marketing/marketing-app-store-ipad-2-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/marketing-app-store-ipad-2-v1-320.avif",
+      "bytes": 8016,
+      "sha256": "effcbcd0e2c22c3f7a8d02bafb43a3e8675b82b95e56c6b74dde3f94b90848df"
+    },
+    {
+      "path": "assets/production/webp/marketing-app-store-ipad-2-v1-320.webp",
+      "bytes": 6942,
+      "sha256": "a28e8ac3af8617aea48893bdaf4646f71039da643a66c51f0f4fb01b143db5bc"
+    },
+    {
+      "path": "assets/production/avif/marketing-app-store-ipad-2-v1-640.avif",
+      "bytes": 23019,
+      "sha256": "c8b5c923c7b33e646cfd05980e51fe3b7768a095072ca7ae66844a9be11450a3"
+    },
+    {
+      "path": "assets/production/webp/marketing-app-store-ipad-2-v1-640.webp",
+      "bytes": 20896,
+      "sha256": "5b5f124803327517286632cbdd0d2ab89d2b3f762e052c4b27cac3efb31988b8"
+    },
+    {
+      "path": "assets/production/avif/marketing-app-store-ipad-2-v1-960.avif",
+      "bytes": 48946,
+      "sha256": "23dceee149b945975d348bfb38f61f507d4697bd65a19399481b143f519a4f3e"
+    },
+    {
+      "path": "assets/production/webp/marketing-app-store-ipad-2-v1-960.webp",
+      "bytes": 40692,
+      "sha256": "47e62ea63cd8c242759fda90e9333eb670dc69c0a1f075d400903b6db9f908ca"
+    },
+    {
+      "path": "assets/production/avif/marketing-app-store-ipad-2-v1-1280.avif",
+      "bytes": 69491,
+      "sha256": "08dc134d0b9da96a60d6148c9df53bf97877fdd2961b14b99060abdb02fd6564"
+    },
+    {
+      "path": "assets/production/webp/marketing-app-store-ipad-2-v1-1280.webp",
+      "bytes": 58956,
+      "sha256": "a46d1a3bcb5d1a3199419e209b9797e7714a861a62708c99c77c84791ed0f04e"
+    },
+    {
+      "path": "assets/production/avif/marketing-app-store-ipad-2-v1-1920.avif",
+      "bytes": 108746,
+      "sha256": "ce511501049b971570a192f4cf55efb2cd3ea7d079240c6d9fed3f7aee11722b"
+    },
+    {
+      "path": "assets/production/webp/marketing-app-store-ipad-2-v1-1920.webp",
+      "bytes": 97508,
+      "sha256": "0abf9a3f9b55a926d08ed579515e758acb61ffd526f4442b3070682baae6e3ec"
+    },
+    {
+      "path": "assets/production/avif/marketing-app-store-ipad-2-v1-2560.avif",
+      "bytes": 136707,
+      "sha256": "899a3f3c0bf351940749d4ca4d3f87f62cc510e05750a45aec81d2d7a6f8702a"
+    },
+    {
+      "path": "assets/production/webp/marketing-app-store-ipad-2-v1-2560.webp",
+      "bytes": 129228,
+      "sha256": "c2e3947506e21690c2d1d55e65a7b1a44496640a8b829d03dee8875ec132d0a4"
+    },
+    {
+      "path": "assets/production/avif/marketing-app-store-ipad-2-v1-3840.avif",
+      "bytes": 210205,
+      "sha256": "9f3448bb0102c42aa34e8914f2bce9c8f4e21314b4ca40fc1189ae0595c68402"
+    },
+    {
+      "path": "assets/production/webp/marketing-app-store-ipad-2-v1-3840.webp",
+      "bytes": 201708,
+      "sha256": "7bad28e8b021b9edad485bea2c7d3c303057ce61401e0fb5196ffe4f2077af98"
+    },
+    {
+      "path": "assets/production/png/marketing-app-store-ipad-2-v1-1280.png",
+      "bytes": 1293208,
+      "sha256": "d46e34e71aac6ffac1c8c424edccbac77b0b460b216ba363ff13819136f5ad70"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/marketing-app-store-ipad-2-v1.webp",
+      "bytes": 6942,
+      "sha256": "a28e8ac3af8617aea48893bdaf4646f71039da643a66c51f0f4fb01b143db5bc"
+    },
+    {
+      "path": "apps/mobile/assets/library/marketing-app-store-ipad-2-v1.webp",
+      "bytes": 6942,
+      "sha256": "a28e8ac3af8617aea48893bdaf4646f71039da643a66c51f0f4fb01b143db5bc"
+    }
+  ],
+  "contains_text": true,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 94.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:37:55.541Z",
+    "scores": {
+      "realism": 94,
+      "style_consistency": 96,
+      "composition": 95,
+      "material_quality": 93,
+      "light_quality": 94,
+      "architecture_plausibility": 92,
+      "ui_suitability": 97,
+      "mobile_suitability": 97,
+      "originality": 90,
+      "safety_compliance": 100,
+      "small_size_legibility": 94,
+      "contrast": 96,
+      "geometry_quality": 96,
+      "technical_quality": 98
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution.",
+      "All 20 store captures are sourced from the functioning application at exact declared dimensions; feature graphic and icon are opaque exact-size static art.",
+      "Text-free community and release banners are intentionally neutral procedural variants, with no fake UI, third-party logo, unsafe content, broken crop, or unintended text."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 2732,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1838476
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:11:59.708Z",
+  "license": "project-owned-application-capture",
+  "provenance": {
+    "source": "functioning-local-application",
+    "capture_report": "assets/reports/store-capture-sources.json",
+    "platform": "app-store-ipad",
+    "route": "/command",
+    "language": "en-US",
+    "seeded_account": "advanced-demo-persona"
+  },
+  "notes": [
+    "Captured after authenticated loaded-state assertions from the running seeded application.",
+    "No generated or mocked UI, demo email address, private identifier, debug marker, spinner or error state is accepted.",
+    "Exact platform dimensions were independently validated and representative full-resolution crops were visually inspected."
+  ]
+}

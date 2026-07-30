@@ -1,0 +1,180 @@
+{
+  "asset_id": "marketing-google-play-organization-v1",
+  "manifest_order": 873,
+  "category": "marketing",
+  "batch": "store-marketing",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "app-screenshot",
+  "provider": "playwright-local-capture",
+  "model": null,
+  "prompt_file": "assets/prompts/marketing-google-play-organization-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100873,
+  "content_hash": "1a30b8786ef96005a88e9e0824a940b9d4e72557413f963e1fd0e4526cc55e22",
+  "source_file": "assets/source/marketing/marketing-google-play-organization-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/marketing-google-play-organization-v1-320.avif",
+      "bytes": 4361,
+      "sha256": "6aa26321c2e73e52a84e95acf7cc4c87842eeb7172098bb3713e74208bdd8c2f"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-organization-v1-320.webp",
+      "bytes": 4068,
+      "sha256": "1abb713d7ad4c15db9ef713e37eecae7e5431cbbcdde53282eb1a548fa1a5256"
+    },
+    {
+      "path": "assets/production/avif/marketing-google-play-organization-v1-640.avif",
+      "bytes": 13328,
+      "sha256": "bf92770839831749c2d798c1de6c0f63b0e92f622d42b29ecc6cb82303f2fe6f"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-organization-v1-640.webp",
+      "bytes": 12928,
+      "sha256": "115c9da740e6d11cf237ecfba34998ec1d3d25284decf65d7c87bbef39644785"
+    },
+    {
+      "path": "assets/production/avif/marketing-google-play-organization-v1-960.avif",
+      "bytes": 29571,
+      "sha256": "5c81d727ec74180d1c3b686dc5415e0c9b4693fc7028e306820aa9a88bd70618"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-organization-v1-960.webp",
+      "bytes": 24056,
+      "sha256": "93a7f1022c69b0134950bd1205c2665d7ed175ae606528e759cf09c5e81a4073"
+    },
+    {
+      "path": "assets/production/avif/marketing-google-play-organization-v1-1280.avif",
+      "bytes": 43147,
+      "sha256": "f097f629a03de8e6f56c02c0a4797cd9f4652ac77e9bfe117f2869e2bbd4d587"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-organization-v1-1280.webp",
+      "bytes": 35626,
+      "sha256": "c67d91aab64409c08053ec27df70047eb58bf7a3fc73e2018f401e1fcc57d379"
+    },
+    {
+      "path": "assets/production/avif/marketing-google-play-organization-v1-1920.avif",
+      "bytes": 70730,
+      "sha256": "1f9e3f958b9d1b5df5b8e9ee36095cda7d32a11a7ad6866d29d98ca72a6113fe"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-organization-v1-1920.webp",
+      "bytes": 60740,
+      "sha256": "1c4ab7fadd39385b6caa6d8357443f2e329f3b6d9987e562ef48e4e292323e92"
+    },
+    {
+      "path": "assets/production/avif/marketing-google-play-organization-v1-2560.avif",
+      "bytes": 94236,
+      "sha256": "67c7088442b22836456ba2890d1906e9f687f06e32564653b77a8381283a8b1a"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-organization-v1-2560.webp",
+      "bytes": 80750,
+      "sha256": "4d22e7e80b7f9513d7675647d0d1fea87c14e601ca5182ff7df88a43d2e8cb72"
+    },
+    {
+      "path": "assets/production/avif/marketing-google-play-organization-v1-3840.avif",
+      "bytes": 127873,
+      "sha256": "de8dde7793cf1e07c6e92b3f02667e010b586e6834bcbb76eca1d276ef7eb567"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-organization-v1-3840.webp",
+      "bytes": 124492,
+      "sha256": "e1e8301483ccdcd5f2d9f56d77b48e7a559593925420513bcea77cfc2e4ac49a"
+    },
+    {
+      "path": "assets/production/png/marketing-google-play-organization-v1-1280.png",
+      "bytes": 298439,
+      "sha256": "c9fb689120ad4c5969edf771de4341b3a7d97b877be1bba7d2d316d942b44892"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/marketing-google-play-organization-v1.webp",
+      "bytes": 4068,
+      "sha256": "1abb713d7ad4c15db9ef713e37eecae7e5431cbbcdde53282eb1a548fa1a5256"
+    },
+    {
+      "path": "apps/mobile/assets/library/marketing-google-play-organization-v1.webp",
+      "bytes": 4068,
+      "sha256": "1abb713d7ad4c15db9ef713e37eecae7e5431cbbcdde53282eb1a548fa1a5256"
+    }
+  ],
+  "contains_text": true,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 94.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:37:55.459Z",
+    "scores": {
+      "realism": 94,
+      "style_consistency": 96,
+      "composition": 95,
+      "material_quality": 93,
+      "light_quality": 94,
+      "architecture_plausibility": 92,
+      "ui_suitability": 97,
+      "mobile_suitability": 97,
+      "originality": 90,
+      "safety_compliance": 100,
+      "small_size_legibility": 94,
+      "contrast": 96,
+      "geometry_quality": 96,
+      "technical_quality": 98
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution.",
+      "All 20 store captures are sourced from the functioning application at exact declared dimensions; feature graphic and icon are opaque exact-size static art.",
+      "Text-free community and release banners are intentionally neutral procedural variants, with no fake UI, third-party logo, unsafe content, broken crop, or unintended text."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 219833
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:02:04.128Z",
+  "license": "project-owned-application-capture",
+  "provenance": {
+    "source": "functioning-local-application",
+    "capture_report": "assets/reports/store-capture-sources.json",
+    "platform": "google-play",
+    "route": "/cartels",
+    "language": "en-US",
+    "seeded_account": "advanced-demo-persona"
+  },
+  "notes": [
+    "Captured after authenticated loaded-state assertions from the running seeded application.",
+    "No generated or mocked UI, demo email address, private identifier, debug marker, spinner or error state is accepted.",
+    "Exact platform dimensions were independently validated and representative full-resolution crops were visually inspected."
+  ]
+}

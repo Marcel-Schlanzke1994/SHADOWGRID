@@ -12,9 +12,11 @@
     "test": "vitest run --coverage",
     "test:e2e": "playwright test",
     "test:e2e:assets": "playwright test --config=playwright.assets.config.ts e2e/landing-assets.spec.ts e2e/auth-assets.spec.ts e2e/world-assets.spec.ts e2e/command-assets.spec.ts e2e/germany-assets.spec.ts",
+    "capture:store": "playwright test --config=playwright.capture.config.ts",
     "format:check": "prettier --check src"
   },
   "dependencies": {
+    "@hookform/resolvers": "5.4.0",
     "@shadowgrid/api-client": "workspace:*",
     "@shadowgrid/game-config": "workspace:*",
     "@shadowgrid/i18n": "workspace:*",
@@ -26,8 +28,9 @@
     "i18next": "25.2.1",
     "react": "19.1.0",
     "react-dom": "19.1.0",
+    "react-hook-form": "7.83.0",
     "react-i18next": "15.5.3",
-    "react-router-dom": "7.15.1",
+    "react-router-dom": "7.18.1",
     "zod": "3.25.67",
     "zustand": "5.0.5"
   },

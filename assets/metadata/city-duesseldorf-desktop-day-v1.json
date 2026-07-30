@@ -170,35 +170,49 @@
       "path": "apps/web/public/assets/cities/city-duesseldorf-desktop-day-v1-1280.png",
       "bytes": 1613319,
       "sha256": "09aaadaab3299c015c938e5c70c77e739ff5f9e5b2918c7a0934e289b3cb0e16"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-duesseldorf-desktop-day-v1.webp",
+      "bytes": 3550,
+      "sha256": "5218c2132deef54d374160f3368fb128cca70b54153534f0914199d1d160c80a"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-duesseldorf-desktop-day-v1.webp",
+      "bytes": 3550,
+      "sha256": "5218c2132deef54d374160f3368fb128cca70b54153534f0914199d1d160c80a"
     }
   ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,
   "moderation_status": "approved",
-  "quality_score": 98.6,
+  "quality_score": 92.9,
   "quality_status": "approved",
   "review_status": "codex-visual-approved",
   "visual_review": {
-    "realism": 99,
-    "style_consistency": 100,
-    "composition": 100,
-    "material_quality": 99,
-    "lighting_quality": 99,
-    "architecture_plausibility": 99,
-    "ui_suitability": 100,
-    "mobile_suitability": 94,
-    "originality": 96,
-    "safety_compliance": 100,
-    "accepted_prompt": "Create one distinct clean premium ultra-realistic 16:9 desktop daytime environment backing plate derived from this accepted fictional Düsseldorf-inspired SHADOWGRID city scene.\n\nPreserve the same original city identity and materials: broad fictional river, elegant landscaped promenade, original low-profile bridge, small original canal basin, refined pale-stone urban blocks, restrained mid-rise glass-and-metal services offices, layered metropolitan depth, and cool overcast post-rain daylight. Recompose naturally for exact 16:9 landscape, intended final size 1920×1080, as a deliberate desktop hero rather than a mechanical center crop. Keep the fictional riverfront, promenade, canal basin, and design-conscious services district concentrated center-right. Reserve the left 32% as calm, dark, low-detail negative space for localized heading, body copy, and controls; do not place railings, lamps, trees, building edges, bridge elements, bright reflections, or other high-contrast details behind that overlay area. Keep important architecture inside an inner 82% crop-safe region.\n\nMaintain physically plausible pale stone, concrete, brushed metal, dark glass, trees, river water, restrained wet reflections, neutral blue-gray atmosphere, subtle warm highlights, premium contemporary architectural photography, realistic lens and depth, and a quiet corporate-thriller mood. Preserve a legible distinction between river, canal basin, promenade, and original bridge without exposing an operational layout.\n\nAll river, canal, bridge, street, rail, corporate, media, fashion, fairground, and civic geometry must remain fictional and non-operational. Do not include the Rheinturm, recognizable MedienHafen or Gehry buildings, Königsallee, Kö-Bogen, Schlossturm, Düsseldorf Rathaus, Oberkasseler Brücke, Rheinkniebrücke, Theodor-Heuss-Brücke, real fashion houses, real trade-fair structures, corporate logos, exact Rhine promenade layouts, real rail maps, or any known photograph or viewpoint. Do not depict an identifiable real media company, luxury brand, authority, or operational transport plan.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, fantasy architecture, impossible bridges, Gehry-like distorted buildings, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 16:9 daytime riverfront-services-metropolis environment with a genuinely calm left 32% overlay-safe area, no border, title, UI, or device mockup.",
-    "reference_images": [
-      "assets/source/cities/city-duesseldorf-ultrawide-day-v1.png"
-    ],
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.309Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
     "notes": [
-      "Accepted first generation attempt.",
-      "The deliberate desktop composition preserves the approved fictional riverfront identity while giving localized copy and controls a calm dark left 32 percent.",
-      "Promenade, original bridge, canal basin, pale-stone district, and restrained services offices remain legible center-right without disclosing an operational layout.",
-      "No known Düsseldorf landmark, real fashion or media brand, authority, text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
     ]
   },
   "technical_validation": {

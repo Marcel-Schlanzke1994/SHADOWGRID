@@ -14,7 +14,22 @@ export default defineConfig({
           if (!id.includes("node_modules")) return undefined;
           if (id.includes("cytoscape")) return "graph";
           if (id.includes("i18next")) return "i18n";
-          if (id.includes("react")) return "react";
+          const frameworkPackages = [
+            "/@hookform/resolvers/",
+            "/@tanstack/react-query/",
+            "/react/",
+            "/react-dom/",
+            "/react-hook-form/",
+            "/react-i18next/",
+            "/react-router/",
+            "/react-router-dom/",
+            "/scheduler/",
+            "/zustand/",
+          ];
+          const normalizedId = id.replaceAll("\\", "/");
+          if (frameworkPackages.some((name) => normalizedId.includes(name))) {
+            return "react";
+          }
           return "vendor";
         },
       },

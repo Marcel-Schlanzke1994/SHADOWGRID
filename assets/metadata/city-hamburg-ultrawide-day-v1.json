@@ -170,33 +170,49 @@
       "path": "apps/web/public/assets/cities/city-hamburg-ultrawide-day-v1-1280.png",
       "bytes": 1262324,
       "sha256": "26757fa483bb099124abda8db9feb75b263933da974650ee7264ad5a10063d69"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-hamburg-ultrawide-day-v1.webp",
+      "bytes": 3604,
+      "sha256": "9825dbbb46a654c2eaa972fa127c74bed8d8826948cfaecbf515a7d59135ca6d"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-hamburg-ultrawide-day-v1.webp",
+      "bytes": 3604,
+      "sha256": "9825dbbb46a654c2eaa972fa127c74bed8d8826948cfaecbf515a7d59135ca6d"
     }
   ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,
   "moderation_status": "approved",
-  "quality_score": 97.8,
+  "quality_score": 92.9,
   "quality_status": "approved",
   "review_status": "codex-visual-approved",
   "visual_review": {
-    "realism": 98,
-    "style_consistency": 99,
-    "composition": 100,
-    "material_quality": 98,
-    "lighting_quality": 98,
-    "architecture_plausibility": 97,
-    "ui_suitability": 100,
-    "mobile_suitability": 92,
-    "originality": 96,
-    "safety_compliance": 100,
-    "accepted_prompt": "Create one clean premium ultra-realistic 21:9 daytime environment backing plate for the fictional seasonal strategy/economy MMO SHADOWGRID, inspired by Hamburg but not reproducing real landmarks or a real port layout.\n\nScene: a large contemporary northern German maritime metropolis with broad interconnected waterways, original brick warehouse districts, restrained contemporary waterfront offices, plausible quays, small generic work vessels, maritime weather, and layered urban depth. It should evoke trade, logistics, media, and civic life through architecture only. All city geometry and waterway arrangements must be fictional and non-operational.\n\nComposition: exact ultra-wide 21:9 landscape, intended final size 2688×1152. Use a plausible elevated human viewpoint. Reserve the left 38% as calm, dark, low-detail negative space for localized interface overlays. Put the principal fictional waterfront, original brick district, bridges, and city detail center-right. Keep important shapes inside an inner 84% crop-safe area. Use one or two physically plausible original low-profile bridges that do not resemble known Hamburg bridges. No focal people.\n\nLighting and style: overcast northern daylight after light rain, cool neutral blue-gray atmosphere, restrained warm-gold window and material highlights, realistic wet stone, brick, steel, glass, concrete, water reflections, subtle corporate-thriller mood, high-end contemporary architectural photography, natural cinematic depth, no spectacle.\n\nDo not include the Elbphilharmonie, Speicherstadt's recognizable real arrangement or viewpoints, St. Michael's Church, Hamburg Rathaus, Köhlbrand Bridge, Landungsbrücken, any exact real landmark silhouette, real shipping terminals, cranes arranged as an operational port map, or a known photograph/viewpoint. Do not reproduce real company liveries or port infrastructure identifiers.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, trafficking routes, instructions, fantasy architecture, impossible bridge geometry, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 21:9 daytime city environment, with no border, title, UI, or device mockup.",
-    "reference_images": [],
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.088Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
     "notes": [
-      "Accepted first generation attempt.",
-      "The left 38 percent is calm, dark, and low-detail for localized interface overlays; the fictional brick waterfront, waterways, bridges, and contemporary offices are concentrated center-right.",
-      "Waterway and quay geometry is fictional and non-operational. No sensitive real port layout, terminal identifier, shipping-company livery, or real infrastructure mark is visible.",
-      "No recognizable Hamburg landmark, exact real-world viewpoint, embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
     ]
   },
   "technical_validation": {

@@ -1,0 +1,110 @@
+{
+  "asset_id": "city-braunschweig-silhouette-v1",
+  "manifest_order": 290,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "braunschweig",
+  "variant": "silhouette",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:5",
+  "width": 3200,
+  "height": 1000,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/city-braunschweig-silhouette-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100290,
+  "content_hash": "40fcbf0a7b0cfdb418bbaed000717b5bc0d6f4ee02deb21e679629074a8e1c97",
+  "source_file": "assets/source/cities/city-braunschweig-silhouette-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/city-braunschweig-silhouette-v1.svg",
+      "bytes": 3542,
+      "sha256": "40fcbf0a7b0cfdb418bbaed000717b5bc0d6f4ee02deb21e679629074a8e1c97"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-silhouette-v1-320.webp",
+      "bytes": 3298,
+      "sha256": "324754f46fdd6368ce1b9b05a8796decb57afc5207385cf4c8fd84922b7d66e0"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-silhouette-v1.svg",
+      "bytes": 3542,
+      "sha256": "40fcbf0a7b0cfdb418bbaed000717b5bc0d6f4ee02deb21e679629074a8e1c97"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-silhouette-v1-320.webp",
+      "bytes": 3298,
+      "sha256": "324754f46fdd6368ce1b9b05a8796decb57afc5207385cf4c8fd84922b7d66e0"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-braunschweig-silhouette-v1.webp",
+      "bytes": 3298,
+      "sha256": "324754f46fdd6368ce1b9b05a8796decb57afc5207385cf4c8fd84922b7d66e0"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-braunschweig-silhouette-v1.webp",
+      "bytes": 3298,
+      "sha256": "324754f46fdd6368ce1b9b05a8796decb57afc5207385cf4c8fd84922b7d66e0"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:42.300Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 3542
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:10:25.936Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

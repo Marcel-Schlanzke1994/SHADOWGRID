@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-moenchengladbach-mobile-day-v1",
+  "manifest_order": 271,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "moenchengladbach",
+  "variant": "mobile-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-moenchengladbach-mobile-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100271,
+  "content_hash": "5b36446c5d6df470b6d28554d47f9d3464610a048859bbd2f6478cb016571cdf",
+  "source_file": "assets/source/cities/city-moenchengladbach-mobile-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-moenchengladbach-mobile-day-v1-320.avif",
+      "bytes": 4483,
+      "sha256": "f539c67c519aed044dcb6b6dd6c7d34bc570300fee5091a575bccd3cade0593a"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-mobile-day-v1-320.webp",
+      "bytes": 3850,
+      "sha256": "12060f32397758ca04fce2d6603749139a8895496fc84d9d383b01352f09178b"
+    },
+    {
+      "path": "assets/production/avif/city-moenchengladbach-mobile-day-v1-640.avif",
+      "bytes": 9608,
+      "sha256": "a956b528b0aca297fb4d96841a9928ea08d0f1c5b50801c6b3437077150f1b54"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-mobile-day-v1-640.webp",
+      "bytes": 7622,
+      "sha256": "4aceb979abe04b38d6ce46e0c50388da35d751ba0a5549615839b42a3ae3e8a8"
+    },
+    {
+      "path": "assets/production/avif/city-moenchengladbach-mobile-day-v1-960.avif",
+      "bytes": 16444,
+      "sha256": "40f0a25847916c74c2fbf60ce11988ec40b03ab5fbc9b9f165ff39958595a9d2"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-mobile-day-v1-960.webp",
+      "bytes": 13292,
+      "sha256": "63beba670ff357cf5656ceefff26fb28dfe2b961a9780dfa10795b647ca09bce"
+    },
+    {
+      "path": "assets/production/avif/city-moenchengladbach-mobile-day-v1-1280.avif",
+      "bytes": 22010,
+      "sha256": "c5d9666d4e9bcd0f694634d8d412bfdbc232fc47a91a475ce5148f8f0435e2be"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-mobile-day-v1-1280.webp",
+      "bytes": 18754,
+      "sha256": "c06e09a04cd39858deb3b035c0a03a75efd1227d2fb45277c485920e47ac7e96"
+    },
+    {
+      "path": "assets/production/avif/city-moenchengladbach-mobile-day-v1-1920.avif",
+      "bytes": 35766,
+      "sha256": "fda045c93540a5147d4587a8dde4e3778c1e1a28b2f5ce8816a6a18cae5bea6b"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-mobile-day-v1-1920.webp",
+      "bytes": 33596,
+      "sha256": "5e908d9956c603cfa0bcf85ac42a2857d0d24ef9c909902fd459d43f7d90ee50"
+    },
+    {
+      "path": "assets/production/avif/city-moenchengladbach-mobile-day-v1-2560.avif",
+      "bytes": 51552,
+      "sha256": "d4050d84044625161a86c9c44d83b45f5c816a46404b439e52344ed12a17d708"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-mobile-day-v1-2560.webp",
+      "bytes": 50738,
+      "sha256": "129b7b33b319c1c5ddba4bdf3dc9e96c57323970def9e5a046b8aad05402f470"
+    },
+    {
+      "path": "assets/production/avif/city-moenchengladbach-mobile-day-v1-3840.avif",
+      "bytes": 91038,
+      "sha256": "6c8727aa5925279881f3c658084fdc5d5a7f85c5977c6abf514c30a317fa532c"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-mobile-day-v1-3840.webp",
+      "bytes": 100874,
+      "sha256": "eec1a1c5c0476bf146ff35198fb624f7908a7f0b1e03a9704a33e890a561b6de"
+    },
+    {
+      "path": "assets/production/png/city-moenchengladbach-mobile-day-v1-1152.png",
+      "bytes": 1637667,
+      "sha256": "5b36446c5d6df470b6d28554d47f9d3464610a048859bbd2f6478cb016571cdf"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-day-v1-320.avif",
+      "bytes": 4483,
+      "sha256": "f539c67c519aed044dcb6b6dd6c7d34bc570300fee5091a575bccd3cade0593a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-day-v1-320.webp",
+      "bytes": 3850,
+      "sha256": "12060f32397758ca04fce2d6603749139a8895496fc84d9d383b01352f09178b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-day-v1-640.avif",
+      "bytes": 9608,
+      "sha256": "a956b528b0aca297fb4d96841a9928ea08d0f1c5b50801c6b3437077150f1b54"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-day-v1-640.webp",
+      "bytes": 7622,
+      "sha256": "4aceb979abe04b38d6ce46e0c50388da35d751ba0a5549615839b42a3ae3e8a8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-day-v1-960.avif",
+      "bytes": 16444,
+      "sha256": "40f0a25847916c74c2fbf60ce11988ec40b03ab5fbc9b9f165ff39958595a9d2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-day-v1-960.webp",
+      "bytes": 13292,
+      "sha256": "63beba670ff357cf5656ceefff26fb28dfe2b961a9780dfa10795b647ca09bce"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-day-v1-1280.avif",
+      "bytes": 22010,
+      "sha256": "c5d9666d4e9bcd0f694634d8d412bfdbc232fc47a91a475ce5148f8f0435e2be"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-day-v1-1280.webp",
+      "bytes": 18754,
+      "sha256": "c06e09a04cd39858deb3b035c0a03a75efd1227d2fb45277c485920e47ac7e96"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-day-v1-1920.avif",
+      "bytes": 35766,
+      "sha256": "fda045c93540a5147d4587a8dde4e3778c1e1a28b2f5ce8816a6a18cae5bea6b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-day-v1-1920.webp",
+      "bytes": 33596,
+      "sha256": "5e908d9956c603cfa0bcf85ac42a2857d0d24ef9c909902fd459d43f7d90ee50"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-day-v1-2560.avif",
+      "bytes": 51552,
+      "sha256": "d4050d84044625161a86c9c44d83b45f5c816a46404b439e52344ed12a17d708"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-day-v1-2560.webp",
+      "bytes": 50738,
+      "sha256": "129b7b33b319c1c5ddba4bdf3dc9e96c57323970def9e5a046b8aad05402f470"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-day-v1-3840.avif",
+      "bytes": 91038,
+      "sha256": "6c8727aa5925279881f3c658084fdc5d5a7f85c5977c6abf514c30a317fa532c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-day-v1-3840.webp",
+      "bytes": 100874,
+      "sha256": "eec1a1c5c0476bf146ff35198fb624f7908a7f0b1e03a9704a33e890a561b6de"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-day-v1-1152.png",
+      "bytes": 1637667,
+      "sha256": "5b36446c5d6df470b6d28554d47f9d3464610a048859bbd2f6478cb016571cdf"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-moenchengladbach-mobile-day-v1.webp",
+      "bytes": 3850,
+      "sha256": "12060f32397758ca04fce2d6603749139a8895496fc84d9d383b01352f09178b"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-moenchengladbach-mobile-day-v1.webp",
+      "bytes": 3850,
+      "sha256": "12060f32397758ca04fce2d6603749139a8895496fc84d9d383b01352f09178b"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.860Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1637667
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:49:59.176Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

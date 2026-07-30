@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-logistics-corridor-crisis-day-v1",
+  "manifest_order": 435,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "crisis-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-logistics-corridor-crisis-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100435,
+  "content_hash": "dd1399b97ab7ff5c54a0d8312e7537abf08d2b497bfcbc7a0e21a5904d6611c9",
+  "source_file": "assets/source/districts/district-logistics-corridor-crisis-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-logistics-corridor-crisis-day-v1-320.avif",
+      "bytes": 3151,
+      "sha256": "69d7f808e6729e18211805cd396ea866f8c3322ed3c732d6963397b2f61792d8"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-crisis-day-v1-320.webp",
+      "bytes": 2718,
+      "sha256": "6a026edb2d328d6b574f5e097fd321d168e052ea66cea051061b6f1b9d74695d"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-crisis-day-v1-640.avif",
+      "bytes": 6884,
+      "sha256": "bdeab4638a7eae57952169284b5806fbe85b7e2a4a7f1acf96d4cffa3c98e2ef"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-crisis-day-v1-640.webp",
+      "bytes": 5734,
+      "sha256": "aa93d5f14b9abf893f5d141f2c2a85d29caccdb40853f591ade2ce5dd3f26345"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-crisis-day-v1-960.avif",
+      "bytes": 11159,
+      "sha256": "3a45ad3883a73a1d540a57d5d82f4e15c38e8de3ff75ef8e6349dafc4ccf66b5"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-crisis-day-v1-960.webp",
+      "bytes": 9310,
+      "sha256": "895203dfd6ee39f78650b6a24ea4810c9f30f4ae92a5f79104ea95614d84d171"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-crisis-day-v1-1280.avif",
+      "bytes": 15755,
+      "sha256": "d1a02d432f6cf402373996518cb97fff49901e8bd4668d02bef210700d15e116"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-crisis-day-v1-1280.webp",
+      "bytes": 12304,
+      "sha256": "a491b64c08a5655256fd262d946cbd92f65eb305674507dc69db06e211fff10f"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-crisis-day-v1-1920.avif",
+      "bytes": 23779,
+      "sha256": "b0a4a3042a1c9a06b87925461c04012f9f2e8809ea5a9dcb6254e01551a72fba"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-crisis-day-v1-1920.webp",
+      "bytes": 19216,
+      "sha256": "392234fd5eb5e62e8df4299ea0eaf7e8ee2fb099ad84e10cb45585860213afbf"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-crisis-day-v1-2560.avif",
+      "bytes": 30797,
+      "sha256": "5a904e923daafd1e2fb38a8fdfa0bde1035476064056f93c90b16a77887e8fdc"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-crisis-day-v1-2560.webp",
+      "bytes": 26960,
+      "sha256": "797e8c6d67ab77fb5404a7f703a5089a8d34df1bdae0206a49d3f138cb4bbd31"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-crisis-day-v1-3840.avif",
+      "bytes": 50046,
+      "sha256": "686ef33911bf6b5d782e1b64f08ec0a10b999353375f841f033efd836fbd56ef"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-crisis-day-v1-3840.webp",
+      "bytes": 45822,
+      "sha256": "633ac7095a2b1da9e3bed39c3df8a1b15713877333c06902404ffc9f58d80a96"
+    },
+    {
+      "path": "assets/production/png/district-logistics-corridor-crisis-day-v1-1280.png",
+      "bytes": 644848,
+      "sha256": "63c587538210fddfcaa8d1543df8b48983876823c85d9e79536eec5cde46eb0e"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-logistics-corridor-crisis-day-v1.webp",
+      "bytes": 2718,
+      "sha256": "6a026edb2d328d6b574f5e097fd321d168e052ea66cea051061b6f1b9d74695d"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-logistics-corridor-crisis-day-v1.webp",
+      "bytes": 2718,
+      "sha256": "6a026edb2d328d6b574f5e097fd321d168e052ea66cea051061b6f1b9d74695d"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.202Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1458082
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:43:06.608Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

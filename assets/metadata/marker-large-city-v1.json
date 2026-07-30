@@ -23,6 +23,11 @@
       "path": "assets/production/svg/marker-large-city-v1.svg",
       "bytes": 571,
       "sha256": "fa9837ff5d18b73dd09aa86d8bfc05f3ff88674a9828eae3e32bdb46e416312d"
+    },
+    {
+      "path": "assets/production/webp/marker-large-city-v1-320.webp",
+      "bytes": 1746,
+      "sha256": "77f845075260e286f3dbea7143560d60dcf2a9957ffa07f0c8f1ae801f2deb47"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/markers/marker-large-city-v1.svg",
       "bytes": 571,
       "sha256": "fa9837ff5d18b73dd09aa86d8bfc05f3ff88674a9828eae3e32bdb46e416312d"
+    },
+    {
+      "path": "apps/web/public/assets/markers/marker-large-city-v1-320.webp",
+      "bytes": 1746,
+      "sha256": "77f845075260e286f3dbea7143560d60dcf2a9957ffa07f0c8f1ae801f2deb47"
+    },
+    {
+      "path": "apps/web/public/assets/library/marker-large-city-v1.webp",
+      "bytes": 1746,
+      "sha256": "77f845075260e286f3dbea7143560d60dcf2a9957ffa07f0c8f1ae801f2deb47"
+    },
+    {
+      "path": "apps/mobile/assets/library/marker-large-city-v1.webp",
+      "bytes": 1746,
+      "sha256": "77f845075260e286f3dbea7143560d60dcf2a9957ffa07f0c8f1ae801f2deb47"
     }
   ],
   "contains_text": false,

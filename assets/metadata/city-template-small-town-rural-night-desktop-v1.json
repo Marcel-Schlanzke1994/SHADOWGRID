@@ -1,0 +1,171 @@
+{
+  "asset_id": "city-template-small-town-rural-night-desktop-v1",
+  "manifest_order": 353,
+  "category": "city-template",
+  "batch": "procedural-city-templates",
+  "city": null,
+  "variant": "night-desktop",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-template-small-town-rural-night-desktop-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100353,
+  "content_hash": "e556644c86242b95712e3c7bdebd8b4844af9cbf1d9403bc96604d332805d12a",
+  "source_file": "assets/source/global/city-template-small-town-rural-night-desktop-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-template-small-town-rural-night-desktop-v1-320.avif",
+      "bytes": 3547,
+      "sha256": "6f5bfae70e6eb6d9b2c05647b4168fb7a5cd2a6f921ba4089d8d129991b0f518"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-rural-night-desktop-v1-320.webp",
+      "bytes": 3576,
+      "sha256": "129bcd37490962fffea1386566cc204bd363b60ff12a745207d08cb92879f1a0"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-rural-night-desktop-v1-640.avif",
+      "bytes": 7600,
+      "sha256": "e7b27ec84d14b07359888817ff03772d7f27d10ae94dac0f9f15e05a4f5f8106"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-rural-night-desktop-v1-640.webp",
+      "bytes": 7726,
+      "sha256": "e1f713270172e09e464b93d7477202dd0f92b042830fcf446fc826a458f7e4f2"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-rural-night-desktop-v1-960.avif",
+      "bytes": 12563,
+      "sha256": "fd5ef2eeea1c1ac3340c134f7847dc10746dbf7f5c1beb2a62931ea1c22a5c05"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-rural-night-desktop-v1-960.webp",
+      "bytes": 13384,
+      "sha256": "07d0c615599c802d5130e216336a9d2511bb9c09598dbab4c14f2bb0e18f7572"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-rural-night-desktop-v1-1280.avif",
+      "bytes": 17470,
+      "sha256": "60671b17ca0746d2cb2aec00ba924a5007f82a6994236512dd48054465e61f62"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-rural-night-desktop-v1-1280.webp",
+      "bytes": 17276,
+      "sha256": "1bc0cd5dd50a0b1b788608c6af0c79c06dac077f1144fb2018d3b77b5fd7af13"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-rural-night-desktop-v1-1920.avif",
+      "bytes": 25960,
+      "sha256": "e82425c59bafc7d4ce57771a26892315855838ee1cf7e1ae7f6970a75cdb19b1"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-rural-night-desktop-v1-1920.webp",
+      "bytes": 25456,
+      "sha256": "4b57aeee0e58e06efab17adb3507d7ad7057600d4a160d6354bb0ad9101c50f3"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-rural-night-desktop-v1-2560.avif",
+      "bytes": 35908,
+      "sha256": "6b1a8bdd52edea042f375f5aae2939132ef894a254f3417ced294e5c04e0260e"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-rural-night-desktop-v1-2560.webp",
+      "bytes": 34484,
+      "sha256": "30387cb4ab388a60c4141a061d11c8a573d6864c5ff35e7b8a6f6980ab9e23c4"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-rural-night-desktop-v1-3840.avif",
+      "bytes": 56243,
+      "sha256": "f43d346a7a0b53973faa1999a77e3a1d35ccfd51f4a2f270a428c4693220e285"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-rural-night-desktop-v1-3840.webp",
+      "bytes": 54930,
+      "sha256": "ee9667b22a3d9ae841084c290397e7e1af978464bec91165b1e1a039bdf3415b"
+    },
+    {
+      "path": "assets/production/png/city-template-small-town-rural-night-desktop-v1-1280.png",
+      "bytes": 749431,
+      "sha256": "1af57014b24a4eaed11d5e11c96b6f83a15e5b0d2ac4beda32540a2e0a9931e4"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/city-template-small-town-rural-night-desktop-v1.webp",
+      "bytes": 3576,
+      "sha256": "129bcd37490962fffea1386566cc204bd363b60ff12a745207d08cb92879f1a0"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-template-small-town-rural-night-desktop-v1.webp",
+      "bytes": 3576,
+      "sha256": "129bcd37490962fffea1386566cc204bd363b60ff12a745207d08cb92879f1a0"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 91.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:55.561Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 92,
+      "material_quality": 87,
+      "light_quality": 89,
+      "architecture_plausibility": 89,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 92,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All four paged contact sheets were inspected at original resolution.",
+      "The templates are intentionally stylized deterministic fallbacks and remain compositionally useful across every required aspect ratio.",
+      "No missing render, broken geometry, sensitive infrastructure detail, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1675352
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:46:48.715Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

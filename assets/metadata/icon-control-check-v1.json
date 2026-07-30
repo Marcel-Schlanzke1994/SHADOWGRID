@@ -1,0 +1,75 @@
+{
+  "asset_id": "icon-control-check-v1",
+  "manifest_order": 813,
+  "category": "icon",
+  "batch": "ui-icons",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "24:24",
+  "width": 24,
+  "height": 24,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/icon-control-check-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100813,
+  "content_hash": "d7da4cba009b3ce27eca3df8094c1d820a5deedba1089aa14af86e33753b4742",
+  "source_file": "assets/source/icons/icon-control-check-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/icon-control-check-v1.svg",
+      "bytes": 550,
+      "sha256": "d7da4cba009b3ce27eca3df8094c1d820a5deedba1089aa14af86e33753b4742"
+    },
+    {
+      "path": "assets/production/webp/icon-control-check-v1-320.webp",
+      "bytes": 4620,
+      "sha256": "0b75f6d7f52aec83c45c3262cd7ff17ce5eeffbff1c67e0bd10c4f504476278c"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/icon-control-check-v1.webp",
+      "bytes": 4620,
+      "sha256": "0b75f6d7f52aec83c45c3262cd7ff17ce5eeffbff1c67e0bd10c4f504476278c"
+    },
+    {
+      "path": "apps/mobile/assets/library/icon-control-check-v1.webp",
+      "bytes": 4620,
+      "sha256": "0b75f6d7f52aec83c45c3262cd7ff17ce5eeffbff1c67e0bd10c4f504476278c"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 550
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:51:49.832Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

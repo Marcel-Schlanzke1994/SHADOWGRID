@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-aachen-desktop-night-v1",
+  "manifest_order": 230,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "aachen",
+  "variant": "desktop-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-aachen-desktop-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100230,
+  "content_hash": "6df5198dc05c518dba6365191f45a1edb6611248516b5546f2d6f9af03abce22",
+  "source_file": "assets/source/cities/city-aachen-desktop-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-aachen-desktop-night-v1-320.avif",
+      "bytes": 3892,
+      "sha256": "ed83065529349ae339309c6fdc55b10144e76242f0e19be80f13f533c11525a0"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-desktop-night-v1-320.webp",
+      "bytes": 4114,
+      "sha256": "bf8b1d564f04fa0a0a93cf167d409f34d1ca018bf0abf2e8c23dbb84926f30fa"
+    },
+    {
+      "path": "assets/production/avif/city-aachen-desktop-night-v1-640.avif",
+      "bytes": 8588,
+      "sha256": "080b6d803f92038814d53a7bc76ddf2f655e973ffb790e03c4ee3de35857f582"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-desktop-night-v1-640.webp",
+      "bytes": 9506,
+      "sha256": "701da023f7505ff83c7d0dbf642bf89f8ec45f81b343eba8dca5f9ed7999118e"
+    },
+    {
+      "path": "assets/production/avif/city-aachen-desktop-night-v1-960.avif",
+      "bytes": 14206,
+      "sha256": "c852d7cf93874d7a72154230f0f05f6a3bfe0314f2e3f7be99a8deaa7df2d5b3"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-desktop-night-v1-960.webp",
+      "bytes": 16174,
+      "sha256": "c6121ef7456414b1244c951c88a4fb2e561fd1ddff2b89280708cced5af86b36"
+    },
+    {
+      "path": "assets/production/avif/city-aachen-desktop-night-v1-1280.avif",
+      "bytes": 20229,
+      "sha256": "76c710c3b677bce87b933618b4e93e4b45c0cc994fafdae3a26e39430324bb8c"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-desktop-night-v1-1280.webp",
+      "bytes": 20992,
+      "sha256": "ee1d0add3abc9a72fd141e4cd9961b3f4cab17a1c4d31b0f6483942c1a5d9db3"
+    },
+    {
+      "path": "assets/production/avif/city-aachen-desktop-night-v1-1920.avif",
+      "bytes": 30683,
+      "sha256": "9e38437fb59925ba07060463f4a0bd218477483645fff3b21f5cdd356e629649"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-desktop-night-v1-1920.webp",
+      "bytes": 30816,
+      "sha256": "bd9113684b1ff2ff0e15cd702652b3b22b9b720a7380883788a33f2bbf626962"
+    },
+    {
+      "path": "assets/production/avif/city-aachen-desktop-night-v1-2560.avif",
+      "bytes": 42023,
+      "sha256": "4aba134f07d9d4393a4b9666a0b7868066626136b527ada4d73b6813e8635e91"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-desktop-night-v1-2560.webp",
+      "bytes": 40438,
+      "sha256": "18095da89f56877f0ec0a7d611744402bb28b51bba89e17b2076092d1396592c"
+    },
+    {
+      "path": "assets/production/avif/city-aachen-desktop-night-v1-3840.avif",
+      "bytes": 66434,
+      "sha256": "125711d33d84cc89d55b36966b7fd151b19c5b3637b79555a2655b255fce472e"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-desktop-night-v1-3840.webp",
+      "bytes": 62896,
+      "sha256": "f7682139256c7e2e4d5c29bf545ca160416a1fb48d548c48ab175f34cc018920"
+    },
+    {
+      "path": "assets/production/png/city-aachen-desktop-night-v1-1280.png",
+      "bytes": 775020,
+      "sha256": "2d6c5ccc5a2e3e9a74f84ff534da947671d14bcd448262e920dd5107aaddac4b"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-desktop-night-v1-320.avif",
+      "bytes": 3892,
+      "sha256": "ed83065529349ae339309c6fdc55b10144e76242f0e19be80f13f533c11525a0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-desktop-night-v1-320.webp",
+      "bytes": 4114,
+      "sha256": "bf8b1d564f04fa0a0a93cf167d409f34d1ca018bf0abf2e8c23dbb84926f30fa"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-desktop-night-v1-640.avif",
+      "bytes": 8588,
+      "sha256": "080b6d803f92038814d53a7bc76ddf2f655e973ffb790e03c4ee3de35857f582"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-desktop-night-v1-640.webp",
+      "bytes": 9506,
+      "sha256": "701da023f7505ff83c7d0dbf642bf89f8ec45f81b343eba8dca5f9ed7999118e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-desktop-night-v1-960.avif",
+      "bytes": 14206,
+      "sha256": "c852d7cf93874d7a72154230f0f05f6a3bfe0314f2e3f7be99a8deaa7df2d5b3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-desktop-night-v1-960.webp",
+      "bytes": 16174,
+      "sha256": "c6121ef7456414b1244c951c88a4fb2e561fd1ddff2b89280708cced5af86b36"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-desktop-night-v1-1280.avif",
+      "bytes": 20229,
+      "sha256": "76c710c3b677bce87b933618b4e93e4b45c0cc994fafdae3a26e39430324bb8c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-desktop-night-v1-1280.webp",
+      "bytes": 20992,
+      "sha256": "ee1d0add3abc9a72fd141e4cd9961b3f4cab17a1c4d31b0f6483942c1a5d9db3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-desktop-night-v1-1920.avif",
+      "bytes": 30683,
+      "sha256": "9e38437fb59925ba07060463f4a0bd218477483645fff3b21f5cdd356e629649"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-desktop-night-v1-1920.webp",
+      "bytes": 30816,
+      "sha256": "bd9113684b1ff2ff0e15cd702652b3b22b9b720a7380883788a33f2bbf626962"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-desktop-night-v1-2560.avif",
+      "bytes": 42023,
+      "sha256": "4aba134f07d9d4393a4b9666a0b7868066626136b527ada4d73b6813e8635e91"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-desktop-night-v1-2560.webp",
+      "bytes": 40438,
+      "sha256": "18095da89f56877f0ec0a7d611744402bb28b51bba89e17b2076092d1396592c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-desktop-night-v1-3840.avif",
+      "bytes": 66434,
+      "sha256": "125711d33d84cc89d55b36966b7fd151b19c5b3637b79555a2655b255fce472e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-desktop-night-v1-3840.webp",
+      "bytes": 62896,
+      "sha256": "f7682139256c7e2e4d5c29bf545ca160416a1fb48d548c48ab175f34cc018920"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-desktop-night-v1-1280.png",
+      "bytes": 775020,
+      "sha256": "2d6c5ccc5a2e3e9a74f84ff534da947671d14bcd448262e920dd5107aaddac4b"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-aachen-desktop-night-v1.webp",
+      "bytes": 4114,
+      "sha256": "bf8b1d564f04fa0a0a93cf167d409f34d1ca018bf0abf2e8c23dbb84926f30fa"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-aachen-desktop-night-v1.webp",
+      "bytes": 4114,
+      "sha256": "bf8b1d564f04fa0a0a93cf167d409f34d1ca018bf0abf2e8c23dbb84926f30fa"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.368Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1698738
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:19:45.183Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

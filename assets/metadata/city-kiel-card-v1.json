@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-kiel-card-v1",
+  "manifest_order": 297,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "kiel",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-kiel-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100297,
+  "content_hash": "4d8f16b35d4b6169ee281b8e748451dab0a7f1e3764e67781fe4131cfbf8d6d1",
+  "source_file": "assets/source/cities/city-kiel-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-kiel-card-v1-320.avif",
+      "bytes": 3440,
+      "sha256": "10cd9f7f391af4889b5d28d4a8aaa320f0664d65caeac31d4e3a0e1a755ed36e"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-card-v1-320.webp",
+      "bytes": 3250,
+      "sha256": "687bb51318a78d6ca861c39c0d03163d82b1381191ba0e27a3759d450ff7d047"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-card-v1-640.avif",
+      "bytes": 7559,
+      "sha256": "0f36330e2575d6777a79e087c223fb4c968c01ccc51a1c8a04336fec32c73b8e"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-card-v1-640.webp",
+      "bytes": 6466,
+      "sha256": "e221a2d53c6c751977d23a3b3af4b138967e6bd558176a3cd3ad1ac831b11524"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-card-v1-960.avif",
+      "bytes": 13527,
+      "sha256": "3efcc4abaa121291493f700f0c78d3acd4654b64102251893dd6d0b1ad528ac5"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-card-v1-960.webp",
+      "bytes": 10918,
+      "sha256": "48d2dabe53e6066618969b722e2521c94c1778052c7c93faa2c9f33136ae6a9f"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-card-v1-1280.avif",
+      "bytes": 18481,
+      "sha256": "a28ac15692afa111fea62fc365ccdaad5b7f4cfb76d0018634fe459a30dd49b3"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-card-v1-1280.webp",
+      "bytes": 14730,
+      "sha256": "c5f5e198f4843c729fc1de02dbc552c51a84eea89093d6a2e3d96dacde938d73"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-card-v1-1920.avif",
+      "bytes": 28388,
+      "sha256": "965b8e9bd145a1acfefab1cefe79c6a4ee471994aa3b12d0b82ac1d19630ead0"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-card-v1-1920.webp",
+      "bytes": 24358,
+      "sha256": "d1f903960b5f1cd23549ffc4db059e61f0711b662ece7b15fab36fd571a289ea"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-card-v1-2560.avif",
+      "bytes": 39140,
+      "sha256": "686b31d2febb6ea167b53817ea37e148f57471cad50819a6a8afe693d071c160"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-card-v1-2560.webp",
+      "bytes": 36052,
+      "sha256": "bd02f040cd8b66e2c18d89796259e6f4e8ca2a7a3cd5a443c254a5e9f3ec66c4"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-card-v1-3840.avif",
+      "bytes": 63575,
+      "sha256": "5b4b0bb975ca739042999679a837460b2e5a792f3f293aa57b89f9cc444d5322"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-card-v1-3840.webp",
+      "bytes": 65260,
+      "sha256": "e13c9f92b7acd167bc40dc0969f1dbbbbbda959ba45dc0c1011da3e8dfb29770"
+    },
+    {
+      "path": "assets/production/png/city-kiel-card-v1-1280.png",
+      "bytes": 1261162,
+      "sha256": "852ad32fb01d0229e99993c4d46e0a3bbee3bac8fb06761f5a04f3e526380dde"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-card-v1-320.avif",
+      "bytes": 3440,
+      "sha256": "10cd9f7f391af4889b5d28d4a8aaa320f0664d65caeac31d4e3a0e1a755ed36e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-card-v1-320.webp",
+      "bytes": 3250,
+      "sha256": "687bb51318a78d6ca861c39c0d03163d82b1381191ba0e27a3759d450ff7d047"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-card-v1-640.avif",
+      "bytes": 7559,
+      "sha256": "0f36330e2575d6777a79e087c223fb4c968c01ccc51a1c8a04336fec32c73b8e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-card-v1-640.webp",
+      "bytes": 6466,
+      "sha256": "e221a2d53c6c751977d23a3b3af4b138967e6bd558176a3cd3ad1ac831b11524"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-card-v1-960.avif",
+      "bytes": 13527,
+      "sha256": "3efcc4abaa121291493f700f0c78d3acd4654b64102251893dd6d0b1ad528ac5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-card-v1-960.webp",
+      "bytes": 10918,
+      "sha256": "48d2dabe53e6066618969b722e2521c94c1778052c7c93faa2c9f33136ae6a9f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-card-v1-1280.avif",
+      "bytes": 18481,
+      "sha256": "a28ac15692afa111fea62fc365ccdaad5b7f4cfb76d0018634fe459a30dd49b3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-card-v1-1280.webp",
+      "bytes": 14730,
+      "sha256": "c5f5e198f4843c729fc1de02dbc552c51a84eea89093d6a2e3d96dacde938d73"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-card-v1-1920.avif",
+      "bytes": 28388,
+      "sha256": "965b8e9bd145a1acfefab1cefe79c6a4ee471994aa3b12d0b82ac1d19630ead0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-card-v1-1920.webp",
+      "bytes": 24358,
+      "sha256": "d1f903960b5f1cd23549ffc4db059e61f0711b662ece7b15fab36fd571a289ea"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-card-v1-2560.avif",
+      "bytes": 39140,
+      "sha256": "686b31d2febb6ea167b53817ea37e148f57471cad50819a6a8afe693d071c160"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-card-v1-2560.webp",
+      "bytes": 36052,
+      "sha256": "bd02f040cd8b66e2c18d89796259e6f4e8ca2a7a3cd5a443c254a5e9f3ec66c4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-card-v1-3840.avif",
+      "bytes": 63575,
+      "sha256": "5b4b0bb975ca739042999679a837460b2e5a792f3f293aa57b89f9cc444d5322"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-card-v1-3840.webp",
+      "bytes": 65260,
+      "sha256": "e13c9f92b7acd167bc40dc0969f1dbbbbbda959ba45dc0c1011da3e8dfb29770"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-card-v1-1280.png",
+      "bytes": 1261162,
+      "sha256": "852ad32fb01d0229e99993c4d46e0a3bbee3bac8fb06761f5a04f3e526380dde"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-kiel-card-v1.webp",
+      "bytes": 3250,
+      "sha256": "687bb51318a78d6ca861c39c0d03163d82b1381191ba0e27a3759d450ff7d047"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-kiel-card-v1.webp",
+      "bytes": 3250,
+      "sha256": "687bb51318a78d6ca861c39c0d03163d82b1381191ba0e27a3759d450ff7d047"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:42.424Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1660752
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:14:37.232Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

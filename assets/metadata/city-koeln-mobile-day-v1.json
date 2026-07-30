@@ -170,35 +170,49 @@
       "path": "apps/web/public/assets/cities/city-koeln-mobile-day-v1-1152.png",
       "bytes": 3875651,
       "sha256": "9e8956f6abef739badf2e7cf5f32c4b042772dab6d0d5ee40fd8b6815640ffc4"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-koeln-mobile-day-v1.webp",
+      "bytes": 13798,
+      "sha256": "a2260c2eb2159065d701fb7e1b00de0b9afd7b6c0cd336b723f90f9f143148df"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-koeln-mobile-day-v1.webp",
+      "bytes": 13798,
+      "sha256": "a2260c2eb2159065d701fb7e1b00de0b9afd7b6c0cd336b723f90f9f143148df"
     }
   ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,
   "moderation_status": "approved",
-  "quality_score": 98.4,
+  "quality_score": 92.9,
   "quality_status": "approved",
   "review_status": "codex-visual-approved",
   "visual_review": {
-    "realism": 98,
-    "style_consistency": 100,
-    "composition": 99,
-    "material_quality": 98,
-    "lighting_quality": 98,
-    "architecture_plausibility": 97,
-    "ui_suitability": 99,
-    "mobile_suitability": 100,
-    "originality": 95,
-    "safety_compliance": 100,
-    "accepted_prompt": "Create a separately composed portrait mobile hero for the same accepted fictional Köln-inspired SHADOWGRID city in the reference.\n\nOutput composition: exact 9:16 portrait, intended final size 1152×2048. Reconstruct the scene vertically rather than cropping the landscape image. Preserve the fictional city identity through a broad Rhine-like river, original generic bridge language, dense but plausible low- and mid-rise civic development, river trade/logistics, cool blue-gray overcast daylight, and restrained warm-gold highlights.\n\nMobile framing: reserve the upper 32% as calm darker low-detail cloudy sky and atmospheric city distance for a status bar, title, and up to three warnings. Place the primary city-and-river decision area in the middle third. Use a single physically plausible bridge crossing diagonally through the middle-lower frame to create depth without blocking content. Keep the bottom 18% quieter and darker for one primary control. No foreground people. The river, bridge, and skyline must remain legible on a narrow phone.\n\nDo not add Cologne Cathedral, twin Gothic spires, the Hohenzollern Bridge, any recognizable real Cologne landmark, or a known photographic viewpoint. All bridge and skyline geometry must remain original and physically plausible.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, trafficking routes, fantasy architecture, impossible geometry, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic 9:16 daytime environment backing plate, with no border, device mockup, or embedded UI.",
-    "reference_images": [
-      "assets/source/cities/city-koeln-desktop-day-v1.png"
-    ],
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.060Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
     "notes": [
-      "Accepted first portrait recomposition attempt.",
-      "The top sky provides a calm status/title area, the middle third carries the primary city-and-river decision, and the lower frame remains dark enough for a primary control.",
-      "The diagonal low-profile bridge and civic skyline retain the Köln family identity without reproducing a recognizable landmark or known viewpoint.",
-      "No embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
     ]
   },
   "technical_validation": {

@@ -53,6 +53,9 @@ function add({
   name,
   title,
   ratio = "16:9",
+  width: explicitWidth,
+  height: explicitHeight,
+  aspectRatio,
   transparent = false,
   sourceType = "generated",
   template,
@@ -62,7 +65,9 @@ function add({
   required = true,
   notes,
 }) {
-  const [width, height] = dimensions[ratio];
+  const [defaultWidth, defaultHeight] = dimensions[ratio];
+  const width = explicitWidth ?? defaultWidth;
+  const height = explicitHeight ?? defaultHeight;
   const batchInfo = batches.find((candidate) => candidate.id === batch);
   const order = entries.length + 1;
   entries.push({
@@ -76,7 +81,7 @@ function add({
     priority: batchInfo.priority,
     width,
     height,
-    aspect_ratio: ratio,
+    aspect_ratio: aspectRatio ?? ratio,
     transparent_background: transparent,
     prompt_template: template ?? category,
     prompt_version: PROMPT_VERSION,
@@ -93,7 +98,11 @@ function add({
 
 const styleProofs = [
   ["urban-control-center-day", "SHADOWGRID urban control center, day", "day"],
-  ["urban-control-center-night", "SHADOWGRID urban control center, night", "night"],
+  [
+    "urban-control-center-night",
+    "SHADOWGRID urban control center, night",
+    "night",
+  ],
   ["german-metropolis-day", "Contemporary German metropolis, day", "day"],
   ["german-metropolis-night", "Contemporary German metropolis, night", "night"],
   [
@@ -115,10 +124,30 @@ for (const [name, title, variant] of styleProofs) {
 }
 
 const branding = [
-  ["shadowgrid-logo-horizontal-dark", "Main horizontal logo, dark background", "16:5", false],
-  ["shadowgrid-logo-horizontal-light", "Main horizontal logo, light background", "16:5", false],
-  ["shadowgrid-logo-vertical-dark", "Main vertical logo, dark background", "1:1", false],
-  ["shadowgrid-logo-vertical-light", "Main vertical logo, light background", "1:1", false],
+  [
+    "shadowgrid-logo-horizontal-dark",
+    "Main horizontal logo, dark background",
+    "16:5",
+    false,
+  ],
+  [
+    "shadowgrid-logo-horizontal-light",
+    "Main horizontal logo, light background",
+    "16:5",
+    false,
+  ],
+  [
+    "shadowgrid-logo-vertical-dark",
+    "Main vertical logo, dark background",
+    "1:1",
+    false,
+  ],
+  [
+    "shadowgrid-logo-vertical-light",
+    "Main vertical logo, light background",
+    "1:1",
+    false,
+  ],
   ["shadowgrid-symbol-gold", "Gold symbol", "1:1", true],
   ["shadowgrid-symbol-white", "White symbol", "1:1", true],
   ["shadowgrid-symbol-black", "Black symbol", "1:1", true],
@@ -126,8 +155,18 @@ const branding = [
   ["shadowgrid-wordmark-horizontal", "Horizontal wordmark", "16:5", true],
   ["shadowgrid-wordmark-compact", "Compact wordmark", "1:1", true],
   ["shadowgrid-app-icon-master", "App icon master", "1:1", false],
-  ["shadowgrid-android-adaptive-foreground", "Android adaptive icon foreground", "1:1", true],
-  ["shadowgrid-android-adaptive-background", "Android adaptive icon background", "1:1", false],
+  [
+    "shadowgrid-android-adaptive-foreground",
+    "Android adaptive icon foreground",
+    "1:1",
+    true,
+  ],
+  [
+    "shadowgrid-android-adaptive-background",
+    "Android adaptive icon background",
+    "1:1",
+    false,
+  ],
   ["shadowgrid-favicon", "Favicon symbol", "1:1", true],
 ];
 for (const [name, title, ratio, transparent] of branding) {
@@ -175,8 +214,16 @@ const mapLayers = [
   ["map-background-neutral", "Neutral map layer", "procedural"],
   ["heatmap-economy-legend", "Economy heatmap legend", "procedural"],
   ["heatmap-information-legend", "Information heatmap legend", "procedural"],
-  ["heatmap-authority-legend", "Authority activity heatmap legend", "procedural"],
-  ["heatmap-organization-legend", "Organization presence heatmap legend", "procedural"],
+  [
+    "heatmap-authority-legend",
+    "Authority activity heatmap legend",
+    "procedural",
+  ],
+  [
+    "heatmap-organization-legend",
+    "Organization presence heatmap legend",
+    "procedural",
+  ],
   ["heatmap-event-legend", "Event heatmap legend", "procedural"],
 ];
 for (const [name, title, sourceType] of mapLayers) {
@@ -784,14 +831,34 @@ const marketing = [
   "release-banner",
 ];
 for (const item of marketing) {
-  const storeScreenshot = /google-play-(?!app-icon|feature)|app-store-/.test(item);
+  const storeScreenshot = /google-play-(?!app-icon|feature)|app-store-/.test(
+    item,
+  );
+  const exactStoreDimensions =
+    item === "google-play-app-icon"
+      ? { width: 512, height: 512, aspectRatio: "1:1" }
+      : item === "google-play-feature-graphic"
+        ? { width: 1024, height: 500, aspectRatio: "1024:500" }
+        : item.includes("iphone")
+          ? { width: 1290, height: 2796, aspectRatio: "1290:2796" }
+          : item.includes("ipad")
+            ? { width: 2048, height: 2732, aspectRatio: "2048:2732" }
+            : item === "open-graph"
+              ? { width: 1200, height: 630, aspectRatio: "40:21" }
+              : {};
   add({
     batch: "store-marketing",
     category: "marketing",
     name: item,
     title: item.replaceAll("-", " "),
-    ratio: item.includes("iphone") ? "9:16" : item.includes("ipad") ? "4:5" : "16:9",
-    sourceType: storeScreenshot ? "app-screenshot" : "generated",
+    ratio: item === "google-play-app-icon" ? "1:1" : "16:9",
+    ...exactStoreDimensions,
+    sourceType:
+      item === "google-play-app-icon"
+        ? "procedural"
+        : storeScreenshot
+          ? "app-screenshot"
+          : "generated",
     notes: storeScreenshot
       ? "Must be captured from a functioning application; generated or mock user interfaces are forbidden."
       : undefined,

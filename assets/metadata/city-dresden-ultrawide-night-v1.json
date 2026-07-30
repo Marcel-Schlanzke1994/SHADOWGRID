@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-dresden-ultrawide-night-v1",
+  "manifest_order": 156,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "dresden",
+  "variant": "ultrawide-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-dresden-ultrawide-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100156,
+  "content_hash": "bdbbd57e23f401f7085893dffa6cb126f265e7301acf6163719a5afe18a1ca34",
+  "source_file": "assets/source/cities/city-dresden-ultrawide-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-dresden-ultrawide-night-v1-320.avif",
+      "bytes": 3274,
+      "sha256": "addc6d50f76e184f246139c60edb1bab99ed590239763b2f94eb6dd3dc3169dd"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-ultrawide-night-v1-320.webp",
+      "bytes": 3406,
+      "sha256": "c0b9f6ed9f2a052790dc71f898fd8bbfdaf75882db6140e11fbfba93d0b0f0ee"
+    },
+    {
+      "path": "assets/production/avif/city-dresden-ultrawide-night-v1-640.avif",
+      "bytes": 6918,
+      "sha256": "16fbfb24ebd0e68d167fefc6983cddb08124721a8f9ca72e3ecd7d3dfe83b0ee"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-ultrawide-night-v1-640.webp",
+      "bytes": 7566,
+      "sha256": "fd240b2ba9d568b15c373d456fa5e3e02bc2b8f2e2c487c39ff188d5dea5cf53"
+    },
+    {
+      "path": "assets/production/avif/city-dresden-ultrawide-night-v1-960.avif",
+      "bytes": 11705,
+      "sha256": "e0f3707bd178938a3c2e0b9ebfa248565021e7c1b225ecfa29bde9cacae15865"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-ultrawide-night-v1-960.webp",
+      "bytes": 12808,
+      "sha256": "8f28bd571c3a405156ae657436879e95e4c5b5ead9ec323f02a4cf5e741ccffd"
+    },
+    {
+      "path": "assets/production/avif/city-dresden-ultrawide-night-v1-1280.avif",
+      "bytes": 15597,
+      "sha256": "0bcd696833da5f8286d1e275bdaec65a0fd9c4f9e14c4c57c83d8708563d496f"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-ultrawide-night-v1-1280.webp",
+      "bytes": 16948,
+      "sha256": "59f0699971397fad4223707668f40a6a23b05087f70f6502bfb2c5dc0ad927ca"
+    },
+    {
+      "path": "assets/production/avif/city-dresden-ultrawide-night-v1-1920.avif",
+      "bytes": 23782,
+      "sha256": "47954a97dd3c134db518c2f7f07527014cde38ad1fc1424bb6e1ce5cd829826f"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-ultrawide-night-v1-1920.webp",
+      "bytes": 25752,
+      "sha256": "dd7780bc093c80b6bd36b210d20723ff7f4807543cb3379c647b80f5e562761c"
+    },
+    {
+      "path": "assets/production/avif/city-dresden-ultrawide-night-v1-2560.avif",
+      "bytes": 32500,
+      "sha256": "aa1ae2c5b642686858819bfbaf320f21466b65aad23d0ec82d11769d41e6b85e"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-ultrawide-night-v1-2560.webp",
+      "bytes": 32684,
+      "sha256": "b7fae2184197d69289081fcb52cd08e8b8065b75f44af5d149a31e5d9fab0607"
+    },
+    {
+      "path": "assets/production/avif/city-dresden-ultrawide-night-v1-3840.avif",
+      "bytes": 51498,
+      "sha256": "f5284091d63b3a9d46895ddb7ee443b438460117166160fc492413be50fdbf46"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-ultrawide-night-v1-3840.webp",
+      "bytes": 50846,
+      "sha256": "3deb31e59d05dc20ffd4efc5f311ade4a4b845479713b9c453ea156f2eed0f24"
+    },
+    {
+      "path": "assets/production/png/city-dresden-ultrawide-night-v1-1280.png",
+      "bytes": 475702,
+      "sha256": "ca3e3b690fe801e326c0519d48f0b1d252d1e2179016977bf1bdd3a622df25cb"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-ultrawide-night-v1-320.avif",
+      "bytes": 3274,
+      "sha256": "addc6d50f76e184f246139c60edb1bab99ed590239763b2f94eb6dd3dc3169dd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-ultrawide-night-v1-320.webp",
+      "bytes": 3406,
+      "sha256": "c0b9f6ed9f2a052790dc71f898fd8bbfdaf75882db6140e11fbfba93d0b0f0ee"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-ultrawide-night-v1-640.avif",
+      "bytes": 6918,
+      "sha256": "16fbfb24ebd0e68d167fefc6983cddb08124721a8f9ca72e3ecd7d3dfe83b0ee"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-ultrawide-night-v1-640.webp",
+      "bytes": 7566,
+      "sha256": "fd240b2ba9d568b15c373d456fa5e3e02bc2b8f2e2c487c39ff188d5dea5cf53"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-ultrawide-night-v1-960.avif",
+      "bytes": 11705,
+      "sha256": "e0f3707bd178938a3c2e0b9ebfa248565021e7c1b225ecfa29bde9cacae15865"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-ultrawide-night-v1-960.webp",
+      "bytes": 12808,
+      "sha256": "8f28bd571c3a405156ae657436879e95e4c5b5ead9ec323f02a4cf5e741ccffd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-ultrawide-night-v1-1280.avif",
+      "bytes": 15597,
+      "sha256": "0bcd696833da5f8286d1e275bdaec65a0fd9c4f9e14c4c57c83d8708563d496f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-ultrawide-night-v1-1280.webp",
+      "bytes": 16948,
+      "sha256": "59f0699971397fad4223707668f40a6a23b05087f70f6502bfb2c5dc0ad927ca"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-ultrawide-night-v1-1920.avif",
+      "bytes": 23782,
+      "sha256": "47954a97dd3c134db518c2f7f07527014cde38ad1fc1424bb6e1ce5cd829826f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-ultrawide-night-v1-1920.webp",
+      "bytes": 25752,
+      "sha256": "dd7780bc093c80b6bd36b210d20723ff7f4807543cb3379c647b80f5e562761c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-ultrawide-night-v1-2560.avif",
+      "bytes": 32500,
+      "sha256": "aa1ae2c5b642686858819bfbaf320f21466b65aad23d0ec82d11769d41e6b85e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-ultrawide-night-v1-2560.webp",
+      "bytes": 32684,
+      "sha256": "b7fae2184197d69289081fcb52cd08e8b8065b75f44af5d149a31e5d9fab0607"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-ultrawide-night-v1-3840.avif",
+      "bytes": 51498,
+      "sha256": "f5284091d63b3a9d46895ddb7ee443b438460117166160fc492413be50fdbf46"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-ultrawide-night-v1-3840.webp",
+      "bytes": 50846,
+      "sha256": "3deb31e59d05dc20ffd4efc5f311ade4a4b845479713b9c453ea156f2eed0f24"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-ultrawide-night-v1-1280.png",
+      "bytes": 475702,
+      "sha256": "ca3e3b690fe801e326c0519d48f0b1d252d1e2179016977bf1bdd3a622df25cb"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-dresden-ultrawide-night-v1.webp",
+      "bytes": 3406,
+      "sha256": "c0b9f6ed9f2a052790dc71f898fd8bbfdaf75882db6140e11fbfba93d0b0f0ee"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-dresden-ultrawide-night-v1.webp",
+      "bytes": 3406,
+      "sha256": "c0b9f6ed9f2a052790dc71f898fd8bbfdaf75882db6140e11fbfba93d0b0f0ee"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.628Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 2111571
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:04:20.309Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

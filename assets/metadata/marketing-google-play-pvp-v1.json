@@ -1,0 +1,180 @@
+{
+  "asset_id": "marketing-google-play-pvp-v1",
+  "manifest_order": 872,
+  "category": "marketing",
+  "batch": "store-marketing",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "app-screenshot",
+  "provider": "playwright-local-capture",
+  "model": null,
+  "prompt_file": "assets/prompts/marketing-google-play-pvp-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100872,
+  "content_hash": "7ec01f37858fa3bb3a03fe528e0acbfd52d2588b299f00f30a92cd7374eb6061",
+  "source_file": "assets/source/marketing/marketing-google-play-pvp-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/marketing-google-play-pvp-v1-320.avif",
+      "bytes": 4355,
+      "sha256": "e4a3d9a64b0bc1fe82f1707287d0819b14d97739d0bd21e5bd4962257f9f38be"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-pvp-v1-320.webp",
+      "bytes": 3906,
+      "sha256": "11db8bebb2301ba4c72b955a29cf4aab213c7da0bc2b5df6bc29b61fb0ff017f"
+    },
+    {
+      "path": "assets/production/avif/marketing-google-play-pvp-v1-640.avif",
+      "bytes": 12186,
+      "sha256": "8124a57f7ad361ce96a601d0ade5e6b6dd7feefe5cc18935919f9fe4decd805c"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-pvp-v1-640.webp",
+      "bytes": 11632,
+      "sha256": "7b4c32f5035eb37f9b431391961f7e99d99b80bfc2403faf0d71752191d8f06d"
+    },
+    {
+      "path": "assets/production/avif/marketing-google-play-pvp-v1-960.avif",
+      "bytes": 26092,
+      "sha256": "c14d64bfdb99aeaa1328f41e4a44ff79c038f11d55bca4d5941dfb6e00487676"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-pvp-v1-960.webp",
+      "bytes": 22308,
+      "sha256": "60cf7525395fb86bbd3ce44a0f5fb9386fb458c37597f4b6ed40f04b822a4932"
+    },
+    {
+      "path": "assets/production/avif/marketing-google-play-pvp-v1-1280.avif",
+      "bytes": 37411,
+      "sha256": "8f267ae3d5706217fc68ebffd1b43b4486538dd5b3f560020d7fe67c45a3de35"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-pvp-v1-1280.webp",
+      "bytes": 32734,
+      "sha256": "e2a17cd76b11ffa061172b95ab299145a4a42371f3e2d28cd97add2bfb37ce52"
+    },
+    {
+      "path": "assets/production/avif/marketing-google-play-pvp-v1-1920.avif",
+      "bytes": 63126,
+      "sha256": "b3ad338ac52e9f20402249440d19a166f64c50d22a762e43208dfdd25ee4e633"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-pvp-v1-1920.webp",
+      "bytes": 54184,
+      "sha256": "a74a5fdda9d4aa4d029aad04381d5e40d892c6de0ffce791eaaee98a19137363"
+    },
+    {
+      "path": "assets/production/avif/marketing-google-play-pvp-v1-2560.avif",
+      "bytes": 83247,
+      "sha256": "8dc612f5f8331f8d568b112df8bf800fc3710bfc899eac3992913804f486d1e1"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-pvp-v1-2560.webp",
+      "bytes": 73972,
+      "sha256": "39608f88453527eb1430b37519dd1b78d64b33007cb1b1e28c7baf11bb83a6b6"
+    },
+    {
+      "path": "assets/production/avif/marketing-google-play-pvp-v1-3840.avif",
+      "bytes": 112331,
+      "sha256": "cdefdc09bde68b3cabd19e28005236c8bfc63b2698c6b3fa59e3d83026e66bb1"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-pvp-v1-3840.webp",
+      "bytes": 111342,
+      "sha256": "1859ae0ada102d851daa5a5469c40cc1b6693b81192a3c3c57ff1a31a8c0ec62"
+    },
+    {
+      "path": "assets/production/png/marketing-google-play-pvp-v1-1280.png",
+      "bytes": 246468,
+      "sha256": "1b4e67a798173861f72394a3244f0f083d87dbd4ece0d6497ebc1f3e392a49c4"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/marketing-google-play-pvp-v1.webp",
+      "bytes": 3906,
+      "sha256": "11db8bebb2301ba4c72b955a29cf4aab213c7da0bc2b5df6bc29b61fb0ff017f"
+    },
+    {
+      "path": "apps/mobile/assets/library/marketing-google-play-pvp-v1.webp",
+      "bytes": 3906,
+      "sha256": "11db8bebb2301ba4c72b955a29cf4aab213c7da0bc2b5df6bc29b61fb0ff017f"
+    }
+  ],
+  "contains_text": true,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 94.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:37:55.453Z",
+    "scores": {
+      "realism": 94,
+      "style_consistency": 96,
+      "composition": 95,
+      "material_quality": 93,
+      "light_quality": 94,
+      "architecture_plausibility": 92,
+      "ui_suitability": 97,
+      "mobile_suitability": 97,
+      "originality": 90,
+      "safety_compliance": 100,
+      "small_size_legibility": 94,
+      "contrast": 96,
+      "geometry_quality": 96,
+      "technical_quality": 98
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution.",
+      "All 20 store captures are sourced from the functioning application at exact declared dimensions; feature graphic and icon are opaque exact-size static art.",
+      "Text-free community and release banners are intentionally neutral procedural variants, with no fake UI, third-party logo, unsafe content, broken crop, or unintended text."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 218468
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:01:29.459Z",
+  "license": "project-owned-application-capture",
+  "provenance": {
+    "source": "functioning-local-application",
+    "capture_report": "assets/reports/store-capture-sources.json",
+    "platform": "google-play",
+    "route": "/pvp",
+    "language": "en-US",
+    "seeded_account": "advanced-demo-persona"
+  },
+  "notes": [
+    "Captured after authenticated loaded-state assertions from the running seeded application.",
+    "No generated or mocked UI, demo email address, private identifier, debug marker, spinner or error state is accepted.",
+    "Exact platform dimensions were independently validated and representative full-resolution crops were visually inspected."
+  ]
+}

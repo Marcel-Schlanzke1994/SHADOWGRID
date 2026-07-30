@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-security-company-poor-condition-v1",
+  "manifest_order": 479,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "poor-condition",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-security-company-poor-condition-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100479,
+  "content_hash": "fec429c9afcc8561a4183b10d7e5d9a0b76f3dbd973ee055609e30790ab63252",
+  "source_file": "assets/source/businesses/business-security-company-poor-condition-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-security-company-poor-condition-v1-320.avif",
+      "bytes": 2775,
+      "sha256": "68a178466eff3f22c2b983b0868c705139d907970be2e730f64f1b224825a9ca"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-poor-condition-v1-320.webp",
+      "bytes": 2450,
+      "sha256": "e81835186d7e11e34e59812fa2dc7b2a4447a2648b2c3ea9655e01eefad02ba5"
+    },
+    {
+      "path": "assets/production/avif/business-security-company-poor-condition-v1-640.avif",
+      "bytes": 6124,
+      "sha256": "b55f3e5fad11302048d089707cc694baa93514767920469df0b327f2fa304dee"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-poor-condition-v1-640.webp",
+      "bytes": 5056,
+      "sha256": "d0f723dfe9288d64ce88b04184b63cafb143ed52833bc6950f7656ffd4b3b7ed"
+    },
+    {
+      "path": "assets/production/avif/business-security-company-poor-condition-v1-960.avif",
+      "bytes": 9990,
+      "sha256": "b4a1d1b27f95f585b4ebd0b038d59c1bfd8cef099e80326af6ca21ad2e5b18f7"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-poor-condition-v1-960.webp",
+      "bytes": 8162,
+      "sha256": "8ad53c324e392cc7f9e75cb00d6626c331a273c10e35a484df374d14c9118cc2"
+    },
+    {
+      "path": "assets/production/avif/business-security-company-poor-condition-v1-1280.avif",
+      "bytes": 14374,
+      "sha256": "a6c1c6d9c736c0eb8d77e85b8cfa5dc1b558b97cfef54ea84b28fa776464b411"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-poor-condition-v1-1280.webp",
+      "bytes": 11228,
+      "sha256": "08aa2e4a01b236f193408cfa012a9cfd3593c8ab860ed88ceb925c2d95a9403b"
+    },
+    {
+      "path": "assets/production/avif/business-security-company-poor-condition-v1-1920.avif",
+      "bytes": 21997,
+      "sha256": "bae31a136db235f98bbf0aa921a0fb16ee490b555b107361b6a16fc8e0f6b200"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-poor-condition-v1-1920.webp",
+      "bytes": 17650,
+      "sha256": "b58520f6f487a1c9d0a44139f85264b5e2a2631b42053f8e5e70cc7f66cbd06f"
+    },
+    {
+      "path": "assets/production/avif/business-security-company-poor-condition-v1-2560.avif",
+      "bytes": 28675,
+      "sha256": "eb6ddfb725b15fd8656dc79b67ff79c0af892cf32cf0a9fc5e7b6819b1c4c26e"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-poor-condition-v1-2560.webp",
+      "bytes": 25102,
+      "sha256": "80abc850aeda2bf0e419ba64e825e72421cbcb43971967993685130d5b8db93a"
+    },
+    {
+      "path": "assets/production/avif/business-security-company-poor-condition-v1-3840.avif",
+      "bytes": 46348,
+      "sha256": "b14ae8e982714419c2893c0cb811bb9b6de7478372daa49b1da47c78e3fb88a0"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-poor-condition-v1-3840.webp",
+      "bytes": 42016,
+      "sha256": "93211a27ef1711547dbff1bc3a12c5f9399a55ad03e013706e15a9dc690c186f"
+    },
+    {
+      "path": "assets/production/png/business-security-company-poor-condition-v1-1280.png",
+      "bytes": 621460,
+      "sha256": "1262909dca2085f83762d9c65b466f59e9d5fb7c1d5664d61e5a0dd087837248"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-security-company-poor-condition-v1.webp",
+      "bytes": 2450,
+      "sha256": "e81835186d7e11e34e59812fa2dc7b2a4447a2648b2c3ea9655e01eefad02ba5"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-security-company-poor-condition-v1.webp",
+      "bytes": 2450,
+      "sha256": "e81835186d7e11e34e59812fa2dc7b2a4447a2648b2c3ea9655e01eefad02ba5"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.479Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1416886
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:56:48.883Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

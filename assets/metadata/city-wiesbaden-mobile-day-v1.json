@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-wiesbaden-mobile-day-v1",
+  "manifest_order": 263,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "wiesbaden",
+  "variant": "mobile-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-wiesbaden-mobile-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100263,
+  "content_hash": "48c6353e36f6f7b3ab0de134e157d9dcbac8804585f81070021feb5fe5302d8d",
+  "source_file": "assets/source/cities/city-wiesbaden-mobile-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-wiesbaden-mobile-day-v1-320.avif",
+      "bytes": 4551,
+      "sha256": "aecf03211b4c5b82a8b1818d3f8546c594f2d61beea9f93c18c04cebbe9da792"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-mobile-day-v1-320.webp",
+      "bytes": 3976,
+      "sha256": "0873ccc36bcd705a1b8fcec5e36e8653a4b23dfd6c7ed129a528216d858bd396"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-mobile-day-v1-640.avif",
+      "bytes": 9657,
+      "sha256": "ccab1d2cfbdc4a4645397120d3185456f5391596fac5e7619c94a4710f4e9437"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-mobile-day-v1-640.webp",
+      "bytes": 7900,
+      "sha256": "fa6d69fc996ff9c15c0b8151e2d4658f7e004eabb544efc69dd72c46f7ba6632"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-mobile-day-v1-960.avif",
+      "bytes": 16892,
+      "sha256": "d07f71c9745ffbc49f808672d4ddc9d8d7386af132be3445e3397307ead921b1"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-mobile-day-v1-960.webp",
+      "bytes": 13842,
+      "sha256": "803834528418320d7f4268a9e9ba0f34572cfdede52e31723eaf37d37c11320b"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-mobile-day-v1-1280.avif",
+      "bytes": 22761,
+      "sha256": "f82c11a1f0922d768dc4f07cdf6a70e423b77adb610e2e73a0e9eef9e8b61951"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-mobile-day-v1-1280.webp",
+      "bytes": 19398,
+      "sha256": "613371d4551497a227b24194dff13e3850e21d4d6ecff47039a90ab7b212e8a4"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-mobile-day-v1-1920.avif",
+      "bytes": 36912,
+      "sha256": "82064abd19c9280525c62b7b1fb0945154831372681b408e4680bf3e772293b5"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-mobile-day-v1-1920.webp",
+      "bytes": 34598,
+      "sha256": "6ccaf29b6ed5ff3e081e4b789ea5c53b6a8ab332cdf2e34138ac92e8e4f3883e"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-mobile-day-v1-2560.avif",
+      "bytes": 53952,
+      "sha256": "ca07be690e28945067dfe3e5f007020a16bc0ba522687ea02cc32b95f4868128"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-mobile-day-v1-2560.webp",
+      "bytes": 52102,
+      "sha256": "439b16a099f401843a07733fac5cfa40b84f806efa68acc9f976e67e04cd1f8f"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-mobile-day-v1-3840.avif",
+      "bytes": 94921,
+      "sha256": "09d57bfbd657fd2d196dbd810e749989eadced5a56e979988f7317da9b5f0ca8"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-mobile-day-v1-3840.webp",
+      "bytes": 103524,
+      "sha256": "565e07163e6bfd824a3fc9cda3637dfe15fcc10c54a78251663342772cf27965"
+    },
+    {
+      "path": "assets/production/png/city-wiesbaden-mobile-day-v1-1152.png",
+      "bytes": 1670766,
+      "sha256": "48c6353e36f6f7b3ab0de134e157d9dcbac8804585f81070021feb5fe5302d8d"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-day-v1-320.avif",
+      "bytes": 4551,
+      "sha256": "aecf03211b4c5b82a8b1818d3f8546c594f2d61beea9f93c18c04cebbe9da792"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-day-v1-320.webp",
+      "bytes": 3976,
+      "sha256": "0873ccc36bcd705a1b8fcec5e36e8653a4b23dfd6c7ed129a528216d858bd396"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-day-v1-640.avif",
+      "bytes": 9657,
+      "sha256": "ccab1d2cfbdc4a4645397120d3185456f5391596fac5e7619c94a4710f4e9437"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-day-v1-640.webp",
+      "bytes": 7900,
+      "sha256": "fa6d69fc996ff9c15c0b8151e2d4658f7e004eabb544efc69dd72c46f7ba6632"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-day-v1-960.avif",
+      "bytes": 16892,
+      "sha256": "d07f71c9745ffbc49f808672d4ddc9d8d7386af132be3445e3397307ead921b1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-day-v1-960.webp",
+      "bytes": 13842,
+      "sha256": "803834528418320d7f4268a9e9ba0f34572cfdede52e31723eaf37d37c11320b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-day-v1-1280.avif",
+      "bytes": 22761,
+      "sha256": "f82c11a1f0922d768dc4f07cdf6a70e423b77adb610e2e73a0e9eef9e8b61951"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-day-v1-1280.webp",
+      "bytes": 19398,
+      "sha256": "613371d4551497a227b24194dff13e3850e21d4d6ecff47039a90ab7b212e8a4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-day-v1-1920.avif",
+      "bytes": 36912,
+      "sha256": "82064abd19c9280525c62b7b1fb0945154831372681b408e4680bf3e772293b5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-day-v1-1920.webp",
+      "bytes": 34598,
+      "sha256": "6ccaf29b6ed5ff3e081e4b789ea5c53b6a8ab332cdf2e34138ac92e8e4f3883e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-day-v1-2560.avif",
+      "bytes": 53952,
+      "sha256": "ca07be690e28945067dfe3e5f007020a16bc0ba522687ea02cc32b95f4868128"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-day-v1-2560.webp",
+      "bytes": 52102,
+      "sha256": "439b16a099f401843a07733fac5cfa40b84f806efa68acc9f976e67e04cd1f8f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-day-v1-3840.avif",
+      "bytes": 94921,
+      "sha256": "09d57bfbd657fd2d196dbd810e749989eadced5a56e979988f7317da9b5f0ca8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-day-v1-3840.webp",
+      "bytes": 103524,
+      "sha256": "565e07163e6bfd824a3fc9cda3637dfe15fcc10c54a78251663342772cf27965"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-day-v1-1152.png",
+      "bytes": 1670766,
+      "sha256": "48c6353e36f6f7b3ab0de134e157d9dcbac8804585f81070021feb5fe5302d8d"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-wiesbaden-mobile-day-v1.webp",
+      "bytes": 3976,
+      "sha256": "0873ccc36bcd705a1b8fcec5e36e8653a4b23dfd6c7ed129a528216d858bd396"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-wiesbaden-mobile-day-v1.webp",
+      "bytes": 3976,
+      "sha256": "0873ccc36bcd705a1b8fcec5e36e8653a4b23dfd6c7ed129a528216d858bd396"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.751Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1670766
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:44:33.699Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

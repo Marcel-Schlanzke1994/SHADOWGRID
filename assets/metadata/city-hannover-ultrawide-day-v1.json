@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-hannover-ultrawide-day-v1",
+  "manifest_order": 163,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "hannover",
+  "variant": "ultrawide-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-hannover-ultrawide-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100163,
+  "content_hash": "7c154e9962dafc804cd95b73639a49364de861c7b75ae0ee255964b515f7cfdb",
+  "source_file": "assets/source/cities/city-hannover-ultrawide-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-hannover-ultrawide-day-v1-320.avif",
+      "bytes": 2516,
+      "sha256": "f9cebb06c58944049cdea77682cfbd6beb669b101aba19e946c30258dd3956a9"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-ultrawide-day-v1-320.webp",
+      "bytes": 2268,
+      "sha256": "67d342a9d57473bdefc02e4426270fff3e7e60ff6b98e2f091a1b4d04845b15f"
+    },
+    {
+      "path": "assets/production/avif/city-hannover-ultrawide-day-v1-640.avif",
+      "bytes": 5019,
+      "sha256": "7805108c295bc142494047fcf249d203c89bbf0d811e8a6fd84264859b35275b"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-ultrawide-day-v1-640.webp",
+      "bytes": 4526,
+      "sha256": "bc848ea727acff179112b584d947988ca2ed0a899b1313c738094890692ec72e"
+    },
+    {
+      "path": "assets/production/avif/city-hannover-ultrawide-day-v1-960.avif",
+      "bytes": 9009,
+      "sha256": "7a9a2d9e8b14e1f624fcef16405aac85bf98242c63a189bcdbd2716fa369ef1b"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-ultrawide-day-v1-960.webp",
+      "bytes": 7572,
+      "sha256": "e7052e58e7ecc91d55438ab657b84d2c7a2e4218a14eb679b07018560cce6ff7"
+    },
+    {
+      "path": "assets/production/avif/city-hannover-ultrawide-day-v1-1280.avif",
+      "bytes": 11533,
+      "sha256": "efa1b3590ba10ef54dac636db9c13d7ee20a00c98c8536b33a66a8c44f8feda8"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-ultrawide-day-v1-1280.webp",
+      "bytes": 9864,
+      "sha256": "090500e0801525349c03011538a0dce2c5a3a13e5d4bdc875417f5612575238a"
+    },
+    {
+      "path": "assets/production/avif/city-hannover-ultrawide-day-v1-1920.avif",
+      "bytes": 18116,
+      "sha256": "22557353248ac1fdeafcbe93f0e836fcd67653b8d4a198d77c76771098111234"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-ultrawide-day-v1-1920.webp",
+      "bytes": 15126,
+      "sha256": "d422a452afa65b1018524cdd8146841a030a86b60bb56e62b63a66ed3fbf542c"
+    },
+    {
+      "path": "assets/production/avif/city-hannover-ultrawide-day-v1-2560.avif",
+      "bytes": 24235,
+      "sha256": "ec48aa32ca1027508866cd056cda1a2de27e79559f6616765db9df3252f4216a"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-ultrawide-day-v1-2560.webp",
+      "bytes": 21488,
+      "sha256": "d537dd8983663300e0bb03bc107c264df6187033f955b526fa885053de57240e"
+    },
+    {
+      "path": "assets/production/avif/city-hannover-ultrawide-day-v1-3840.avif",
+      "bytes": 38560,
+      "sha256": "953ef3d99e0a7bd5b59822c785dd0326ab61d338b713eae5d53c082718061e4f"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-ultrawide-day-v1-3840.webp",
+      "bytes": 36254,
+      "sha256": "edaf7c4c1162b353559d368c384585f7eec1c4ec2d956517f4d7d2c8978d58ab"
+    },
+    {
+      "path": "assets/production/png/city-hannover-ultrawide-day-v1-1280.png",
+      "bytes": 400515,
+      "sha256": "dc31308602837789f88b62074c8bb9e5ba94739439cd9a4bb6c235469b1093ac"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-ultrawide-day-v1-320.avif",
+      "bytes": 2516,
+      "sha256": "f9cebb06c58944049cdea77682cfbd6beb669b101aba19e946c30258dd3956a9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-ultrawide-day-v1-320.webp",
+      "bytes": 2268,
+      "sha256": "67d342a9d57473bdefc02e4426270fff3e7e60ff6b98e2f091a1b4d04845b15f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-ultrawide-day-v1-640.avif",
+      "bytes": 5019,
+      "sha256": "7805108c295bc142494047fcf249d203c89bbf0d811e8a6fd84264859b35275b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-ultrawide-day-v1-640.webp",
+      "bytes": 4526,
+      "sha256": "bc848ea727acff179112b584d947988ca2ed0a899b1313c738094890692ec72e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-ultrawide-day-v1-960.avif",
+      "bytes": 9009,
+      "sha256": "7a9a2d9e8b14e1f624fcef16405aac85bf98242c63a189bcdbd2716fa369ef1b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-ultrawide-day-v1-960.webp",
+      "bytes": 7572,
+      "sha256": "e7052e58e7ecc91d55438ab657b84d2c7a2e4218a14eb679b07018560cce6ff7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-ultrawide-day-v1-1280.avif",
+      "bytes": 11533,
+      "sha256": "efa1b3590ba10ef54dac636db9c13d7ee20a00c98c8536b33a66a8c44f8feda8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-ultrawide-day-v1-1280.webp",
+      "bytes": 9864,
+      "sha256": "090500e0801525349c03011538a0dce2c5a3a13e5d4bdc875417f5612575238a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-ultrawide-day-v1-1920.avif",
+      "bytes": 18116,
+      "sha256": "22557353248ac1fdeafcbe93f0e836fcd67653b8d4a198d77c76771098111234"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-ultrawide-day-v1-1920.webp",
+      "bytes": 15126,
+      "sha256": "d422a452afa65b1018524cdd8146841a030a86b60bb56e62b63a66ed3fbf542c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-ultrawide-day-v1-2560.avif",
+      "bytes": 24235,
+      "sha256": "ec48aa32ca1027508866cd056cda1a2de27e79559f6616765db9df3252f4216a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-ultrawide-day-v1-2560.webp",
+      "bytes": 21488,
+      "sha256": "d537dd8983663300e0bb03bc107c264df6187033f955b526fa885053de57240e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-ultrawide-day-v1-3840.avif",
+      "bytes": 38560,
+      "sha256": "953ef3d99e0a7bd5b59822c785dd0326ab61d338b713eae5d53c082718061e4f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-ultrawide-day-v1-3840.webp",
+      "bytes": 36254,
+      "sha256": "edaf7c4c1162b353559d368c384585f7eec1c4ec2d956517f4d7d2c8978d58ab"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-ultrawide-day-v1-1280.png",
+      "bytes": 400515,
+      "sha256": "dc31308602837789f88b62074c8bb9e5ba94739439cd9a4bb6c235469b1093ac"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-hannover-ultrawide-day-v1.webp",
+      "bytes": 2268,
+      "sha256": "67d342a9d57473bdefc02e4426270fff3e7e60ff6b98e2f091a1b4d04845b15f"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-hannover-ultrawide-day-v1.webp",
+      "bytes": 2268,
+      "sha256": "67d342a9d57473bdefc02e4426270fff3e7e60ff6b98e2f091a1b4d04845b15f"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.683Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 2063418
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:10:24.374Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

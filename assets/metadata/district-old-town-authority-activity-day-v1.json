@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-old-town-authority-activity-day-v1",
+  "manifest_order": 397,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "authority-activity-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-old-town-authority-activity-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100397,
+  "content_hash": "5b6f44ba3e785e5a4f3c0f2c96fcd9b96e9252922f00c117f45e9f220cf9a5df",
+  "source_file": "assets/source/districts/district-old-town-authority-activity-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-old-town-authority-activity-day-v1-320.avif",
+      "bytes": 2936,
+      "sha256": "3cb43c933694b73d4f25eb325aea329f34244aef70ed2346a9874bdcdbfa9dc2"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-authority-activity-day-v1-320.webp",
+      "bytes": 2636,
+      "sha256": "ebfadb739e30425d7a87de77be627e4cb054b54f8079eced151840612598ae1d"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-authority-activity-day-v1-640.avif",
+      "bytes": 6368,
+      "sha256": "457694984140b63fdded2980bdd794c0adc88a84313b473b22b49e1e9111a9b9"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-authority-activity-day-v1-640.webp",
+      "bytes": 5220,
+      "sha256": "3a56785c6a293f85c593c9719af9378009635b4d10a4d624b8dfea7997f34df2"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-authority-activity-day-v1-960.avif",
+      "bytes": 10893,
+      "sha256": "bc3d0926fa8233fe97c78927c333f78610ea1db512252b155d4256e8c7d3cdac"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-authority-activity-day-v1-960.webp",
+      "bytes": 8640,
+      "sha256": "751e44b26161fe6244f1a08ad86d7a3bf23fcd3d7c2094b63601a86ca10cbfff"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-authority-activity-day-v1-1280.avif",
+      "bytes": 15028,
+      "sha256": "6e913fda757e329ecfa124c75ebba76cd92ff8a4c6beb9213f05188420a97066"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-authority-activity-day-v1-1280.webp",
+      "bytes": 11426,
+      "sha256": "1145e6d151bf7e9a56e813b43afabb8cfa655801a19d09ef7d33260ddaa72854"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-authority-activity-day-v1-1920.avif",
+      "bytes": 22707,
+      "sha256": "1b4968c9eab532bed31d79fd244e69e0a27e7d30c4dbd62f6b3d34bb72a4013a"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-authority-activity-day-v1-1920.webp",
+      "bytes": 18062,
+      "sha256": "6b9c4dd38c25ce30a88c014c9c898750d7530ec555bfd3d7da97573ba1c5b089"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-authority-activity-day-v1-2560.avif",
+      "bytes": 30337,
+      "sha256": "e7615903c8b718e8a867a47fb73742d552cb093fb1bedb75e7ffa0273df11e26"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-authority-activity-day-v1-2560.webp",
+      "bytes": 25150,
+      "sha256": "9faafcf3a25308ae66fb2df944ed446d845a55282ee295788cd679f9776c894a"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-authority-activity-day-v1-3840.avif",
+      "bytes": 49417,
+      "sha256": "39b3bd6162fc2e3f7612f3c4b5960a9d75a7ee52f6af2fc841a097a0240c67ab"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-authority-activity-day-v1-3840.webp",
+      "bytes": 43176,
+      "sha256": "96b06dca62dcaff59f1d32022ff0b97956ef5eb488681e11122dfcfb2400d11c"
+    },
+    {
+      "path": "assets/production/png/district-old-town-authority-activity-day-v1-1280.png",
+      "bytes": 633182,
+      "sha256": "50aec929196859a3a2c0ca0e42e4d21f81a8dc5c93950fa28aaa0da7dea98279"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-old-town-authority-activity-day-v1.webp",
+      "bytes": 2636,
+      "sha256": "ebfadb739e30425d7a87de77be627e4cb054b54f8079eced151840612598ae1d"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-old-town-authority-activity-day-v1.webp",
+      "bytes": 2636,
+      "sha256": "ebfadb739e30425d7a87de77be627e4cb054b54f8079eced151840612598ae1d"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.751Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1443699
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:30:23.224Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-nightlife-quarter-normal-day-v1",
+  "manifest_order": 415,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-nightlife-quarter-normal-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100415,
+  "content_hash": "5cf4d1b245a74737dc5a7ff30d7634e1406e51ac8b693d0ba964f7fe7af7247c",
+  "source_file": "assets/source/districts/district-nightlife-quarter-normal-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-nightlife-quarter-normal-day-v1-320.avif",
+      "bytes": 3663,
+      "sha256": "ed1acf360b90416314543208901f243bea0b2b602676cfd3943f395dc0c6d14b"
+    },
+    {
+      "path": "assets/production/webp/district-nightlife-quarter-normal-day-v1-320.webp",
+      "bytes": 3638,
+      "sha256": "2ec0f76a881a76449f4069b4c6f02bd4a8ba5bff927f04d5ca76ff98d238a0da"
+    },
+    {
+      "path": "assets/production/avif/district-nightlife-quarter-normal-day-v1-640.avif",
+      "bytes": 7440,
+      "sha256": "148754197bc7b721bf012538675f39094423ba5d2203cf6dc8252f42fd3c6a93"
+    },
+    {
+      "path": "assets/production/webp/district-nightlife-quarter-normal-day-v1-640.webp",
+      "bytes": 7562,
+      "sha256": "8f5ebe4b0f9e540ea3d335a9632178d9730f3c1582256cad4daabacccca81c32"
+    },
+    {
+      "path": "assets/production/avif/district-nightlife-quarter-normal-day-v1-960.avif",
+      "bytes": 12679,
+      "sha256": "83769acd124ca2c05b81e56b34a283e5fa8bc3a67bfa226f3928f372736e21ad"
+    },
+    {
+      "path": "assets/production/webp/district-nightlife-quarter-normal-day-v1-960.webp",
+      "bytes": 12924,
+      "sha256": "076c5ea5a89976a2162542eccd30e1e661c33ad9437863221c57a8d6df2b3703"
+    },
+    {
+      "path": "assets/production/avif/district-nightlife-quarter-normal-day-v1-1280.avif",
+      "bytes": 17498,
+      "sha256": "9c31f2f7db4d357fa6ef043ea317e070e7fc4a1643082957811826449e2f05bd"
+    },
+    {
+      "path": "assets/production/webp/district-nightlife-quarter-normal-day-v1-1280.webp",
+      "bytes": 17264,
+      "sha256": "20cd7655feb8e227faacebf5f4fd93372aafb46111119796b65cc23d448a59d5"
+    },
+    {
+      "path": "assets/production/avif/district-nightlife-quarter-normal-day-v1-1920.avif",
+      "bytes": 26860,
+      "sha256": "024c49a82940ed93f7c5eac6e01cb1eba8d1119d8d7864b0f4c0406cddfeebf0"
+    },
+    {
+      "path": "assets/production/webp/district-nightlife-quarter-normal-day-v1-1920.webp",
+      "bytes": 26442,
+      "sha256": "9043c18b1421466bcbb478280f9e890c3bff87efe593c5cdbfae5f7c9c4a5b75"
+    },
+    {
+      "path": "assets/production/avif/district-nightlife-quarter-normal-day-v1-2560.avif",
+      "bytes": 35581,
+      "sha256": "81c1645a630765f7b3c38ded5be5f9b75046a3dad78ee9236c869941045ff3af"
+    },
+    {
+      "path": "assets/production/webp/district-nightlife-quarter-normal-day-v1-2560.webp",
+      "bytes": 34690,
+      "sha256": "cab5e9dc69954a78c80245361f3956c7bee049c024e6b6097906a8b438c49aae"
+    },
+    {
+      "path": "assets/production/avif/district-nightlife-quarter-normal-day-v1-3840.avif",
+      "bytes": 57170,
+      "sha256": "b796df3f20fd546665d5be40a4315383d24e302000c1d1f43c4a591fa19e9cc4"
+    },
+    {
+      "path": "assets/production/webp/district-nightlife-quarter-normal-day-v1-3840.webp",
+      "bytes": 53524,
+      "sha256": "aa3cf3e349a83ae1aaa81e0bde7d44b7de3f0308eede9f1f14aef33581fa7a44"
+    },
+    {
+      "path": "assets/production/png/district-nightlife-quarter-normal-day-v1-1280.png",
+      "bytes": 659572,
+      "sha256": "e06ee39b49e723fdc42d95ad1de4d738f5a070c315909bdf318d1d369a63ad8b"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-nightlife-quarter-normal-day-v1.webp",
+      "bytes": 3638,
+      "sha256": "2ec0f76a881a76449f4069b4c6f02bd4a8ba5bff927f04d5ca76ff98d238a0da"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-nightlife-quarter-normal-day-v1.webp",
+      "bytes": 3638,
+      "sha256": "2ec0f76a881a76449f4069b4c6f02bd4a8ba5bff927f04d5ca76ff98d238a0da"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.963Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1467455
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:36:18.176Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

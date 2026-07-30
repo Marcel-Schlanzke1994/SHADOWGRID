@@ -1,0 +1,171 @@
+{
+  "asset_id": "organization-conflict-ceasefire-v1",
+  "manifest_order": 603,
+  "category": "organization-conflict",
+  "batch": "cartel-conflicts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "ceasefire",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/organization-conflict-ceasefire-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100603,
+  "content_hash": "e777859f4d4a760050fac74067e5c1831035ed8edc19875648859731f3e7571f",
+  "source_file": "assets/source/cartels/organization-conflict-ceasefire-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/organization-conflict-ceasefire-v1-320.avif",
+      "bytes": 2419,
+      "sha256": "c86d53f84d6fc36a4b66260306c57ad6d6f3b37b2201ce68f9a1304fdcff1f82"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-ceasefire-v1-320.webp",
+      "bytes": 1530,
+      "sha256": "cda6d9201c0c368fec730192332e7f3c67c7f26fcbce79ef730d250803148457"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-ceasefire-v1-640.avif",
+      "bytes": 6101,
+      "sha256": "690d19c9f041b9de18a39fc11b01e9679c73c6495e8edc096470b058f9c6bedc"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-ceasefire-v1-640.webp",
+      "bytes": 4078,
+      "sha256": "1730464634095ac251c1c3cfa4bbf8fb94664ed2d66f72f8fe15b6400ef31da2"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-ceasefire-v1-960.avif",
+      "bytes": 11747,
+      "sha256": "0859abbddba18ed7837cef533e297748c1918229981a50f44c8218a4833d448a"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-ceasefire-v1-960.webp",
+      "bytes": 7472,
+      "sha256": "0acb7e2bc6edfeaf65daf69d779dc756fb55980a92cf87fea4796b7fb8b35ca2"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-ceasefire-v1-1280.avif",
+      "bytes": 17397,
+      "sha256": "f896d77c954a3e4d6172595112d066c328d97ff5ecc10be16e01742cc5f7af75"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-ceasefire-v1-1280.webp",
+      "bytes": 10760,
+      "sha256": "4060d10a0f1290375b7e6278755cd87a9792836460f8c499873034edd25948fc"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-ceasefire-v1-1920.avif",
+      "bytes": 26094,
+      "sha256": "a8f868186a631603b7614f543488a0bc6a6b0238e3d31494f661f315e0fd6767"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-ceasefire-v1-1920.webp",
+      "bytes": 18116,
+      "sha256": "1dbe9cd27eb3d4338a6dd37088452c1b16b0a67048ad4bff323fba1eaa591896"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-ceasefire-v1-2560.avif",
+      "bytes": 33972,
+      "sha256": "6f6a33bec77ca27b0331f0fa5a3bbe45e01db9f727ef83fde85b7957294faad3"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-ceasefire-v1-2560.webp",
+      "bytes": 24562,
+      "sha256": "6926f338fea12fe7b3e5ea7fedd6fdb68c5c7cebc5cd32193062306539a57869"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-ceasefire-v1-3840.avif",
+      "bytes": 52293,
+      "sha256": "f7ab9a936f2e01ea81590a67359bb1c400a5036be8ba9d783e5901b052502749"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-ceasefire-v1-3840.webp",
+      "bytes": 41102,
+      "sha256": "9f024c09a18875987ab1988ad3193c552b6a57eefe7563bd995597fe0b0228d7"
+    },
+    {
+      "path": "assets/production/png/organization-conflict-ceasefire-v1-1280.png",
+      "bytes": 163846,
+      "sha256": "e2fe237cd8968013c8afcab0cfc23948367787a26345050065125d7f8812177f"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/organization-conflict-ceasefire-v1.webp",
+      "bytes": 1530,
+      "sha256": "cda6d9201c0c368fec730192332e7f3c67c7f26fcbce79ef730d250803148457"
+    },
+    {
+      "path": "apps/mobile/assets/library/organization-conflict-ceasefire-v1.webp",
+      "bytes": 1530,
+      "sha256": "cda6d9201c0c368fec730192332e7f3c67c7f26fcbce79ef730d250803148457"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:59.495Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 93,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Conflict phases remain fictional and abstract, with no actionable real-world violence, hacking, or sabotage content.",
+      "No missing render, unsafe instruction, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 210605
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:28:18.784Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

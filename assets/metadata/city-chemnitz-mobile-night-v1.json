@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-chemnitz-mobile-night-v1",
+  "manifest_order": 304,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "chemnitz",
+  "variant": "mobile-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-chemnitz-mobile-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100304,
+  "content_hash": "8e2e03039ae6126999c094d1b993b061e3200f60434d1d0cc8bc5e6bfffca97e",
+  "source_file": "assets/source/cities/city-chemnitz-mobile-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-chemnitz-mobile-night-v1-320.avif",
+      "bytes": 6285,
+      "sha256": "c5db128db60fcec8baf2b04256b335c23c441664f73a626477586353e0ec8200"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-mobile-night-v1-320.webp",
+      "bytes": 6482,
+      "sha256": "2d6a50c903cf9eb387ae9a8a7eaa10336ff2243655296b17fd11b64a91f8cf59"
+    },
+    {
+      "path": "assets/production/avif/city-chemnitz-mobile-night-v1-640.avif",
+      "bytes": 12721,
+      "sha256": "2a3a639495195910e834617f3530cb662dda3b31561b82319bdd2f1c794068c8"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-mobile-night-v1-640.webp",
+      "bytes": 12616,
+      "sha256": "ea9db64b829f257b0bc6986b7d04ea47410e449370fa288d4d1eee8be604a857"
+    },
+    {
+      "path": "assets/production/avif/city-chemnitz-mobile-night-v1-960.avif",
+      "bytes": 22552,
+      "sha256": "e0044fbf2b6315113896f0a323a5a4118835f0996b9c8f10348cb49ace71b8a0"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-mobile-night-v1-960.webp",
+      "bytes": 20484,
+      "sha256": "e3d49b3e395eb3778fca787314460114fa2fe754bc81f467a234552fa819d663"
+    },
+    {
+      "path": "assets/production/avif/city-chemnitz-mobile-night-v1-1280.avif",
+      "bytes": 31195,
+      "sha256": "ce79615c8139d0e5c79c3ef8112790a9d70b4b68f866e4fffd5098d806a81472"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-mobile-night-v1-1280.webp",
+      "bytes": 27594,
+      "sha256": "2f71a226176e5bf47a6ade30387fba1fa13e944b979e55b55e09dc2014711038"
+    },
+    {
+      "path": "assets/production/avif/city-chemnitz-mobile-night-v1-1920.avif",
+      "bytes": 49063,
+      "sha256": "68307a472621898017c3bb6e4853ba90fcca3e47c326306adfa013b8f7851123"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-mobile-night-v1-1920.webp",
+      "bytes": 44742,
+      "sha256": "ff22c31c05e356ab6d1fc1d7f8995425fa582ac6c7a7128640927f654034cb96"
+    },
+    {
+      "path": "assets/production/avif/city-chemnitz-mobile-night-v1-2560.avif",
+      "bytes": 69291,
+      "sha256": "9943277de9049394cef354a1b5085be43d262c4adbe23dee25a32003473d6d9c"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-mobile-night-v1-2560.webp",
+      "bytes": 66028,
+      "sha256": "a9c5d7a96b462c95f0cdc3a3f73b059057fc8ea246facd9848479d8c618e04b5"
+    },
+    {
+      "path": "assets/production/avif/city-chemnitz-mobile-night-v1-3840.avif",
+      "bytes": 119385,
+      "sha256": "9fee1b97d513dc4c1c2043a169f1afa8d8485a28fce7b60346483243f0105969"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-mobile-night-v1-3840.webp",
+      "bytes": 118860,
+      "sha256": "304f45180582affc12296739f9298c60f8bd35eae2d5ee15d2100dad012319cd"
+    },
+    {
+      "path": "assets/production/png/city-chemnitz-mobile-night-v1-1152.png",
+      "bytes": 1733470,
+      "sha256": "8e2e03039ae6126999c094d1b993b061e3200f60434d1d0cc8bc5e6bfffca97e"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-night-v1-320.avif",
+      "bytes": 6285,
+      "sha256": "c5db128db60fcec8baf2b04256b335c23c441664f73a626477586353e0ec8200"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-night-v1-320.webp",
+      "bytes": 6482,
+      "sha256": "2d6a50c903cf9eb387ae9a8a7eaa10336ff2243655296b17fd11b64a91f8cf59"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-night-v1-640.avif",
+      "bytes": 12721,
+      "sha256": "2a3a639495195910e834617f3530cb662dda3b31561b82319bdd2f1c794068c8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-night-v1-640.webp",
+      "bytes": 12616,
+      "sha256": "ea9db64b829f257b0bc6986b7d04ea47410e449370fa288d4d1eee8be604a857"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-night-v1-960.avif",
+      "bytes": 22552,
+      "sha256": "e0044fbf2b6315113896f0a323a5a4118835f0996b9c8f10348cb49ace71b8a0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-night-v1-960.webp",
+      "bytes": 20484,
+      "sha256": "e3d49b3e395eb3778fca787314460114fa2fe754bc81f467a234552fa819d663"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-night-v1-1280.avif",
+      "bytes": 31195,
+      "sha256": "ce79615c8139d0e5c79c3ef8112790a9d70b4b68f866e4fffd5098d806a81472"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-night-v1-1280.webp",
+      "bytes": 27594,
+      "sha256": "2f71a226176e5bf47a6ade30387fba1fa13e944b979e55b55e09dc2014711038"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-night-v1-1920.avif",
+      "bytes": 49063,
+      "sha256": "68307a472621898017c3bb6e4853ba90fcca3e47c326306adfa013b8f7851123"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-night-v1-1920.webp",
+      "bytes": 44742,
+      "sha256": "ff22c31c05e356ab6d1fc1d7f8995425fa582ac6c7a7128640927f654034cb96"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-night-v1-2560.avif",
+      "bytes": 69291,
+      "sha256": "9943277de9049394cef354a1b5085be43d262c4adbe23dee25a32003473d6d9c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-night-v1-2560.webp",
+      "bytes": 66028,
+      "sha256": "a9c5d7a96b462c95f0cdc3a3f73b059057fc8ea246facd9848479d8c618e04b5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-night-v1-3840.avif",
+      "bytes": 119385,
+      "sha256": "9fee1b97d513dc4c1c2043a169f1afa8d8485a28fce7b60346483243f0105969"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-night-v1-3840.webp",
+      "bytes": 118860,
+      "sha256": "304f45180582affc12296739f9298c60f8bd35eae2d5ee15d2100dad012319cd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-night-v1-1152.png",
+      "bytes": 1733470,
+      "sha256": "8e2e03039ae6126999c094d1b993b061e3200f60434d1d0cc8bc5e6bfffca97e"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-chemnitz-mobile-night-v1.webp",
+      "bytes": 6482,
+      "sha256": "2d6a50c903cf9eb387ae9a8a7eaa10336ff2243655296b17fd11b64a91f8cf59"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-chemnitz-mobile-night-v1.webp",
+      "bytes": 6482,
+      "sha256": "2d6a50c903cf9eb387ae9a8a7eaa10336ff2243655296b17fd11b64a91f8cf59"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:42.543Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1733470
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:17:58.846Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

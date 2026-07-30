@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-logistics-corridor-economic-boom-day-v1",
+  "manifest_order": 433,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "economic-boom-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-logistics-corridor-economic-boom-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100433,
+  "content_hash": "4a25624a7a28c530b56d124564d634b292f1fcd3e059542d85ba6e497196dcc7",
+  "source_file": "assets/source/districts/district-logistics-corridor-economic-boom-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-logistics-corridor-economic-boom-day-v1-320.avif",
+      "bytes": 3043,
+      "sha256": "ac70fb3e79a7974cbe8a3d896c9935463e5482218de9a82e1f8e93de204a5cb4"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-economic-boom-day-v1-320.webp",
+      "bytes": 2914,
+      "sha256": "9771249b0a84cd20f39ffd56615badef9ec05e49c3ebdc7b6563f75dcafe5b7b"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-economic-boom-day-v1-640.avif",
+      "bytes": 6634,
+      "sha256": "22896218f85b0612cdf46f9bb893110893ca3b0e6144e0dce8f2d539550b38a6"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-economic-boom-day-v1-640.webp",
+      "bytes": 6072,
+      "sha256": "8fccfd2c7b7b7090e2f6d25768c712874e6938b408c6da9473d2f52af4be08aa"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-economic-boom-day-v1-960.avif",
+      "bytes": 11341,
+      "sha256": "7be20a231e7c2577e6399c97f4cdab3a8b3754685f6831a9edeab45415f48f0d"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-economic-boom-day-v1-960.webp",
+      "bytes": 9856,
+      "sha256": "cafa009ef28aeaa1cfd55926cd743455681f166b021e80d903a1d3be8046dbee"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-economic-boom-day-v1-1280.avif",
+      "bytes": 15884,
+      "sha256": "a66fc8ef3d733f32b80d6af8fc3531b0c38fa917412b0938cca9a0cc04596691"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-economic-boom-day-v1-1280.webp",
+      "bytes": 13068,
+      "sha256": "7ef22dfec9b8b5c51c5d6448467f6d8115cf1c4bd7b27af5330d064cfee7fcbd"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-economic-boom-day-v1-1920.avif",
+      "bytes": 23880,
+      "sha256": "4f19b03ad253d041afcd2a2ff44471eb5c1b2246737a4e92cd2bae9f89c9fa7b"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-economic-boom-day-v1-1920.webp",
+      "bytes": 20630,
+      "sha256": "dd26d7aba96a6505c782d847ff71793ec24238e35a13dd659ef078fc28d906dd"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-economic-boom-day-v1-2560.avif",
+      "bytes": 31848,
+      "sha256": "bc0b0c78e62dcdd1ccbbeac4c51add0aba8a99612063cf8c5b4999ebba1659b9"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-economic-boom-day-v1-2560.webp",
+      "bytes": 28504,
+      "sha256": "1b5cec7ba9609d1f9034c167a6381910577c397f28eeb2be3427a5de53b759f8"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-economic-boom-day-v1-3840.avif",
+      "bytes": 51946,
+      "sha256": "979066ef16044cc5abc32b296d22e3a666576056991c866776744bfdfa0d8ee2"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-economic-boom-day-v1-3840.webp",
+      "bytes": 48412,
+      "sha256": "dadfbcf6b2d23a562afe09e717726462bb72fb1ea273f2eb9fa1f6508b93c281"
+    },
+    {
+      "path": "assets/production/png/district-logistics-corridor-economic-boom-day-v1-1280.png",
+      "bytes": 642884,
+      "sha256": "da763397bfc0732c86efb58497d0a9f9b75803afef633e945f2a7a40dd0f032a"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-logistics-corridor-economic-boom-day-v1.webp",
+      "bytes": 2914,
+      "sha256": "9771249b0a84cd20f39ffd56615badef9ec05e49c3ebdc7b6563f75dcafe5b7b"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-logistics-corridor-economic-boom-day-v1.webp",
+      "bytes": 2914,
+      "sha256": "9771249b0a84cd20f39ffd56615badef9ec05e49c3ebdc7b6563f75dcafe5b7b"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.179Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1453081
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:42:25.462Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

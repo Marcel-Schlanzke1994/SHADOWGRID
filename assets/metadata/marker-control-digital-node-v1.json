@@ -23,6 +23,11 @@
       "path": "assets/production/svg/marker-control-digital-node-v1.svg",
       "bytes": 743,
       "sha256": "bacdf2f9be91e543400a24642381d3eb3a0aa79201b09d97b4b17f55d79d6181"
+    },
+    {
+      "path": "assets/production/webp/marker-control-digital-node-v1-320.webp",
+      "bytes": 2816,
+      "sha256": "dadbf966e6e37cd62ad99f4e917397a4dfab649bd66e487299bf22ff552e6653"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/markers/marker-control-digital-node-v1.svg",
       "bytes": 743,
       "sha256": "bacdf2f9be91e543400a24642381d3eb3a0aa79201b09d97b4b17f55d79d6181"
+    },
+    {
+      "path": "apps/web/public/assets/markers/marker-control-digital-node-v1-320.webp",
+      "bytes": 2816,
+      "sha256": "dadbf966e6e37cd62ad99f4e917397a4dfab649bd66e487299bf22ff552e6653"
+    },
+    {
+      "path": "apps/web/public/assets/library/marker-control-digital-node-v1.webp",
+      "bytes": 2816,
+      "sha256": "dadbf966e6e37cd62ad99f4e917397a4dfab649bd66e487299bf22ff552e6653"
+    },
+    {
+      "path": "apps/mobile/assets/library/marker-control-digital-node-v1.webp",
+      "bytes": 2816,
+      "sha256": "dadbf966e6e37cd62ad99f4e917397a4dfab649bd66e487299bf22ff552e6653"
     }
   ],
   "contains_text": false,

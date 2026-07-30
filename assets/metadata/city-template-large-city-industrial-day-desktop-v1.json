@@ -1,0 +1,171 @@
+{
+  "asset_id": "city-template-large-city-industrial-day-desktop-v1",
+  "manifest_order": 322,
+  "category": "city-template",
+  "batch": "procedural-city-templates",
+  "city": null,
+  "variant": "day-desktop",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-template-large-city-industrial-day-desktop-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100322,
+  "content_hash": "af1279ea9dad9640b1830ed333dd2805842f6b1585bd6d4d543274617a912e15",
+  "source_file": "assets/source/global/city-template-large-city-industrial-day-desktop-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-template-large-city-industrial-day-desktop-v1-320.avif",
+      "bytes": 2856,
+      "sha256": "cee40910bdbfff0e8ecc3c46d3da3a074b72a67789fe27a2bfeb430b0b17bc4d"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-industrial-day-desktop-v1-320.webp",
+      "bytes": 2814,
+      "sha256": "3592232986ce7a3de0c3b2cc818909d4a63b252145a32190288f8dcd72cceb1e"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-industrial-day-desktop-v1-640.avif",
+      "bytes": 6077,
+      "sha256": "0f7050025e5be81d7eca6c07a20885acf98ba405ee9650a23998670d2524e8e7"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-industrial-day-desktop-v1-640.webp",
+      "bytes": 5266,
+      "sha256": "00d0195cdeab59da0c28995c81a4fb2b6949254d22cadf2f193aa3ce27a1b68a"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-industrial-day-desktop-v1-960.avif",
+      "bytes": 9972,
+      "sha256": "fe4c0d60a9691eddb3e739acd9db720588f5adc354b9b9d555cb01781c38e84f"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-industrial-day-desktop-v1-960.webp",
+      "bytes": 8550,
+      "sha256": "9bc50728cc4fe832c54d99d54d7bc7b78a7a9d3818fde63857031de218b22eca"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-industrial-day-desktop-v1-1280.avif",
+      "bytes": 14382,
+      "sha256": "add31509e76c2680e0bc68ec85d195fc210c8421a7419e93f66a6f3097871685"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-industrial-day-desktop-v1-1280.webp",
+      "bytes": 11328,
+      "sha256": "785be0b6f926d370cc2649bb29c575720d75d902eec7cd898045a163a0d9f154"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-industrial-day-desktop-v1-1920.avif",
+      "bytes": 21085,
+      "sha256": "b88357e95e4c85e759fd28d0ed04da667c65cf7e3fe49018c4c45c444432a6d3"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-industrial-day-desktop-v1-1920.webp",
+      "bytes": 17834,
+      "sha256": "e496210e05b1fb1504201f549d4a94e5aa2d0c7ecc7bd08fd854a96bcfaa8a03"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-industrial-day-desktop-v1-2560.avif",
+      "bytes": 29534,
+      "sha256": "b4ebc2f1ffa7491127b80536f7b94d2ca95e9e015931c8cb631dcb82891aa764"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-industrial-day-desktop-v1-2560.webp",
+      "bytes": 24818,
+      "sha256": "866aebc974fdabfd3b7ba18583b94729e195f331a9ed70e6f9dd68f3d8538962"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-industrial-day-desktop-v1-3840.avif",
+      "bytes": 47569,
+      "sha256": "7821a2f1c03277276aa24cda3d8e264762f56e7b5a08727d9f73f2ee2a9d2e0e"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-industrial-day-desktop-v1-3840.webp",
+      "bytes": 43654,
+      "sha256": "47397575c7c88437b8ccb6355861bcd079e420a26c7db328f5cf8b021464281d"
+    },
+    {
+      "path": "assets/production/png/city-template-large-city-industrial-day-desktop-v1-1280.png",
+      "bytes": 725485,
+      "sha256": "13561916f913028988ef1d5e905e34c11812943fd4adbf614c65d5d5ceb9c0c4"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/city-template-large-city-industrial-day-desktop-v1.webp",
+      "bytes": 2814,
+      "sha256": "3592232986ce7a3de0c3b2cc818909d4a63b252145a32190288f8dcd72cceb1e"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-template-large-city-industrial-day-desktop-v1.webp",
+      "bytes": 2814,
+      "sha256": "3592232986ce7a3de0c3b2cc818909d4a63b252145a32190288f8dcd72cceb1e"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 91.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:55.073Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 92,
+      "material_quality": 87,
+      "light_quality": 89,
+      "architecture_plausibility": 89,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 92,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All four paged contact sheets were inspected at original resolution.",
+      "The templates are intentionally stylized deterministic fallbacks and remain compositionally useful across every required aspect ratio.",
+      "No missing render, broken geometry, sensitive infrastructure detail, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1659991
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:28:14.013Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

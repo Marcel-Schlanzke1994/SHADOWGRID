@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-bochum-ultrawide-night-v1",
+  "manifest_order": 188,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "bochum",
+  "variant": "ultrawide-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-bochum-ultrawide-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100188,
+  "content_hash": "55196914561fa2701cc814a7bbb35a9b07b7dff704f58bfac53703655c629973",
+  "source_file": "assets/source/cities/city-bochum-ultrawide-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-bochum-ultrawide-night-v1-320.avif",
+      "bytes": 3387,
+      "sha256": "6dc2bdf165792d5912102e1e7cb83f26bd51cb6d726bf86a50a7af5ad89ec59d"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-ultrawide-night-v1-320.webp",
+      "bytes": 3374,
+      "sha256": "c1dae3b1d203d98f3d3d202b5021a1c701267ace91e91f4e5308de0c674849e4"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-ultrawide-night-v1-640.avif",
+      "bytes": 7106,
+      "sha256": "29cff2000471f1a52a59a9bfbefcbe4b186946ffe91adfadb12d62bbe7404344"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-ultrawide-night-v1-640.webp",
+      "bytes": 7670,
+      "sha256": "c615186979f6ebcee8f9dc5edd7bd944cae4f593d77f645aa2194984bd06efc9"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-ultrawide-night-v1-960.avif",
+      "bytes": 11899,
+      "sha256": "79a7c05e38295ab4de5e0efb7b1fee0c922a0c061c6d93b66db4625cbada458f"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-ultrawide-night-v1-960.webp",
+      "bytes": 13410,
+      "sha256": "4dd2c6f407eafce40c224b944a01bcebf5c847d61a981e1dbffc30468322bd32"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-ultrawide-night-v1-1280.avif",
+      "bytes": 15939,
+      "sha256": "bf698e0c58bb6b7b02d48d2d392210e3826301e23d6d25fc10c6875799d18568"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-ultrawide-night-v1-1280.webp",
+      "bytes": 17506,
+      "sha256": "595565a02f63ff98575ca35726c08c6d14de4da20d1f8ca2db7c23c3018952df"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-ultrawide-night-v1-1920.avif",
+      "bytes": 24761,
+      "sha256": "42c94cebddc32d12e5b79c6232e1c624390c10817111f91aeaaa1bcda0c0c99c"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-ultrawide-night-v1-1920.webp",
+      "bytes": 26108,
+      "sha256": "1af778b8ea71dcd57df51e72264df451da81a123d93b748e35c33f551e7844e7"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-ultrawide-night-v1-2560.avif",
+      "bytes": 33805,
+      "sha256": "c6349a852f75ee2b176adf752ed489df2a00d79433e7dc98da14c882964189a4"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-ultrawide-night-v1-2560.webp",
+      "bytes": 34074,
+      "sha256": "7c6a2df5e53d0f8e5527f9c306b8b14314224d0b689911ac3b64f3a966a0fe28"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-ultrawide-night-v1-3840.avif",
+      "bytes": 53880,
+      "sha256": "03aad09f1827d69a64be754ba2dc0cf4fd10609ef6584c2e56b6919d2ac986d5"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-ultrawide-night-v1-3840.webp",
+      "bytes": 51212,
+      "sha256": "56ccdea48d4dcd825a30f5e052aaec854ada5cebd0f2dd57c0a7a1f500a874e8"
+    },
+    {
+      "path": "assets/production/png/city-bochum-ultrawide-night-v1-1280.png",
+      "bytes": 483527,
+      "sha256": "9af7f91402cb3da83450c5f380c57ba3c82cbc759602c7c11d9b006196caea5f"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-ultrawide-night-v1-320.avif",
+      "bytes": 3387,
+      "sha256": "6dc2bdf165792d5912102e1e7cb83f26bd51cb6d726bf86a50a7af5ad89ec59d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-ultrawide-night-v1-320.webp",
+      "bytes": 3374,
+      "sha256": "c1dae3b1d203d98f3d3d202b5021a1c701267ace91e91f4e5308de0c674849e4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-ultrawide-night-v1-640.avif",
+      "bytes": 7106,
+      "sha256": "29cff2000471f1a52a59a9bfbefcbe4b186946ffe91adfadb12d62bbe7404344"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-ultrawide-night-v1-640.webp",
+      "bytes": 7670,
+      "sha256": "c615186979f6ebcee8f9dc5edd7bd944cae4f593d77f645aa2194984bd06efc9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-ultrawide-night-v1-960.avif",
+      "bytes": 11899,
+      "sha256": "79a7c05e38295ab4de5e0efb7b1fee0c922a0c061c6d93b66db4625cbada458f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-ultrawide-night-v1-960.webp",
+      "bytes": 13410,
+      "sha256": "4dd2c6f407eafce40c224b944a01bcebf5c847d61a981e1dbffc30468322bd32"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-ultrawide-night-v1-1280.avif",
+      "bytes": 15939,
+      "sha256": "bf698e0c58bb6b7b02d48d2d392210e3826301e23d6d25fc10c6875799d18568"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-ultrawide-night-v1-1280.webp",
+      "bytes": 17506,
+      "sha256": "595565a02f63ff98575ca35726c08c6d14de4da20d1f8ca2db7c23c3018952df"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-ultrawide-night-v1-1920.avif",
+      "bytes": 24761,
+      "sha256": "42c94cebddc32d12e5b79c6232e1c624390c10817111f91aeaaa1bcda0c0c99c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-ultrawide-night-v1-1920.webp",
+      "bytes": 26108,
+      "sha256": "1af778b8ea71dcd57df51e72264df451da81a123d93b748e35c33f551e7844e7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-ultrawide-night-v1-2560.avif",
+      "bytes": 33805,
+      "sha256": "c6349a852f75ee2b176adf752ed489df2a00d79433e7dc98da14c882964189a4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-ultrawide-night-v1-2560.webp",
+      "bytes": 34074,
+      "sha256": "7c6a2df5e53d0f8e5527f9c306b8b14314224d0b689911ac3b64f3a966a0fe28"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-ultrawide-night-v1-3840.avif",
+      "bytes": 53880,
+      "sha256": "03aad09f1827d69a64be754ba2dc0cf4fd10609ef6584c2e56b6919d2ac986d5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-ultrawide-night-v1-3840.webp",
+      "bytes": 51212,
+      "sha256": "56ccdea48d4dcd825a30f5e052aaec854ada5cebd0f2dd57c0a7a1f500a874e8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-ultrawide-night-v1-1280.png",
+      "bytes": 483527,
+      "sha256": "9af7f91402cb3da83450c5f380c57ba3c82cbc759602c7c11d9b006196caea5f"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-bochum-ultrawide-night-v1.webp",
+      "bytes": 3374,
+      "sha256": "c1dae3b1d203d98f3d3d202b5021a1c701267ace91e91f4e5308de0c674849e4"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-bochum-ultrawide-night-v1.webp",
+      "bytes": 3374,
+      "sha256": "c1dae3b1d203d98f3d3d202b5021a1c701267ace91e91f4e5308de0c674849e4"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.902Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 2138395
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:35:25.065Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

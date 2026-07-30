@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-affluent-residential-authority-activity-day-v1",
+  "manifest_order": 445,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "authority-activity-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-affluent-residential-authority-activity-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100445,
+  "content_hash": "ed9580e8689b99898a0d0a1ceb6e3f2e237d799bd6494d4fc8176ffe5586d071",
+  "source_file": "assets/source/districts/district-affluent-residential-authority-activity-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-affluent-residential-authority-activity-day-v1-320.avif",
+      "bytes": 2960,
+      "sha256": "06f602418b0e38fed0cfe6f084e8120d3e55404dbe5ff8958f33b83192e8812c"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-authority-activity-day-v1-320.webp",
+      "bytes": 2718,
+      "sha256": "d7d266bf9efe653e1eb2ea6e57186888677fa0dbb6f033cf2eff10379f2fecac"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-authority-activity-day-v1-640.avif",
+      "bytes": 6317,
+      "sha256": "a9b6b07c6bafc98f609ccb51c65c6133bdf33d8b516cd204ee11e3444029fd25"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-authority-activity-day-v1-640.webp",
+      "bytes": 5174,
+      "sha256": "7c5029e8f159ef7ed420a69d8af26e9533abc4b769182579e1d4c3a5a28d3536"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-authority-activity-day-v1-960.avif",
+      "bytes": 10383,
+      "sha256": "461babe2414ff1f49f6dae2c137f32e6a30ebfe29a8987ff8bd7f29c00eb82a1"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-authority-activity-day-v1-960.webp",
+      "bytes": 8662,
+      "sha256": "5e13e6f090459f3ddc84c5e6e8f21216a0e2ef58e66bd08e31e141ddcc370ff2"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-authority-activity-day-v1-1280.avif",
+      "bytes": 14605,
+      "sha256": "768991ea7f90fef7b8060bfdb302965574b1113d0c13b0f298afcb057502e148"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-authority-activity-day-v1-1280.webp",
+      "bytes": 11552,
+      "sha256": "cfd8aa98f72d8c695eed34a9dfa8ceec3dd924cf6f133b9113074465a43bccd9"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-authority-activity-day-v1-1920.avif",
+      "bytes": 22546,
+      "sha256": "fa6d2b3ac767054766ad75862acd6cb8899e4bd74e337b959e0724c496f04587"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-authority-activity-day-v1-1920.webp",
+      "bytes": 17980,
+      "sha256": "aed3e5b87d4deb7c5dee66fc6df2507254bb89862b6a6db9e9c3486ec42edb5a"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-authority-activity-day-v1-2560.avif",
+      "bytes": 29760,
+      "sha256": "14ef16aa36235d34e0c8790febf71e98b78b4c2626e46d866d957c10554c85d8"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-authority-activity-day-v1-2560.webp",
+      "bytes": 25064,
+      "sha256": "36505747b2d09f18983a101aded562257063c9cd7bdd859a163df3c8ec410146"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-authority-activity-day-v1-3840.avif",
+      "bytes": 49101,
+      "sha256": "5b5912a32fb54c87764893e4ec435c8e1a4a5498993d68bd70ae867e31c964ac"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-authority-activity-day-v1-3840.webp",
+      "bytes": 43618,
+      "sha256": "74a87f0706882b057b26c9b32370f5685bf960d8c04a2316cd57ef2c669502b0"
+    },
+    {
+      "path": "assets/production/png/district-affluent-residential-authority-activity-day-v1-1280.png",
+      "bytes": 635139,
+      "sha256": "3cfed16865be1da1575d6657e0c394b9decc3291f410607b9be5868172af9730"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-affluent-residential-authority-activity-day-v1.webp",
+      "bytes": 2718,
+      "sha256": "d7d266bf9efe653e1eb2ea6e57186888677fa0dbb6f033cf2eff10379f2fecac"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-affluent-residential-authority-activity-day-v1.webp",
+      "bytes": 2718,
+      "sha256": "d7d266bf9efe653e1eb2ea6e57186888677fa0dbb6f033cf2eff10379f2fecac"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.319Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1446746
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:46:17.511Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

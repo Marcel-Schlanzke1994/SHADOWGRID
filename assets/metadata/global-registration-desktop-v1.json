@@ -170,6 +170,16 @@
       "path": "apps/web/public/assets/global/global-registration-desktop-v1-1280.png",
       "bytes": 1832182,
       "sha256": "9d92141134601beb0f2f69e6c25c804e89cc3fa123bdb40079e81fdafefcfd3d"
+    },
+    {
+      "path": "apps/web/public/assets/library/global-registration-desktop-v1.webp",
+      "bytes": 6170,
+      "sha256": "3eb2e3dd4ba8bda9ba646b7c0d5caad4f1d2b9853d8e522259de276ee37ea0d6"
+    },
+    {
+      "path": "apps/mobile/assets/library/global-registration-desktop-v1.webp",
+      "bytes": 6170,
+      "sha256": "3eb2e3dd4ba8bda9ba646b7c0d5caad4f1d2b9853d8e522259de276ee37ea0d6"
     }
   ],
   "contains_text": false,

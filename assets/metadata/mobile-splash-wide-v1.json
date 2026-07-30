@@ -1,0 +1,171 @@
+{
+  "asset_id": "mobile-splash-wide-v1",
+  "manifest_order": 860,
+  "category": "mobile",
+  "batch": "mobile",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/mobile-splash-wide-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100860,
+  "content_hash": "fc58b4f0089bc9cfc4e6c1faa0c3921aeaff09f9f0e34bfe7e3a72aab8876adc",
+  "source_file": "assets/source/marketing/mobile-splash-wide-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/mobile-splash-wide-v1-320.avif",
+      "bytes": 3055,
+      "sha256": "ad06168630f3c4d14a127bef8f98d486121ec3956c4668116915c94b3350e38d"
+    },
+    {
+      "path": "assets/production/webp/mobile-splash-wide-v1-320.webp",
+      "bytes": 2900,
+      "sha256": "caee593811f103436ecc6ad06cd79b59b93e8ee0783665257c0786f1bcbbcee4"
+    },
+    {
+      "path": "assets/production/avif/mobile-splash-wide-v1-640.avif",
+      "bytes": 6927,
+      "sha256": "517d74fb78870c204d9ef4e9d7d71aeb042d89eb3da71d3f1baea44e205b721b"
+    },
+    {
+      "path": "assets/production/webp/mobile-splash-wide-v1-640.webp",
+      "bytes": 5930,
+      "sha256": "d03a556e7733eb07e357b71465a494fa41c7ae947ec09921584776db57310751"
+    },
+    {
+      "path": "assets/production/avif/mobile-splash-wide-v1-960.avif",
+      "bytes": 11576,
+      "sha256": "365818c6c5e783edc508a90bc09c1662403a0b83548702edc446bb0e491d7e02"
+    },
+    {
+      "path": "assets/production/webp/mobile-splash-wide-v1-960.webp",
+      "bytes": 9382,
+      "sha256": "f99c31a2d58946d9382e98430cb4bc832f277d80307bd4ff4a9d633fe0280f29"
+    },
+    {
+      "path": "assets/production/avif/mobile-splash-wide-v1-1280.avif",
+      "bytes": 16733,
+      "sha256": "9fbe7ab0d192658cb6663a50ca190c22a097ad8073411fc290fd1568f8b85cf5"
+    },
+    {
+      "path": "assets/production/webp/mobile-splash-wide-v1-1280.webp",
+      "bytes": 12502,
+      "sha256": "caf8379467cbae5cf2915589e81c377b68212341fd9c5e599e7afebfe7e9b459"
+    },
+    {
+      "path": "assets/production/avif/mobile-splash-wide-v1-1920.avif",
+      "bytes": 24340,
+      "sha256": "8223dcf181ecae65a998dc223ed20370c4c9f14767936c8eb553db8b1c2d8a03"
+    },
+    {
+      "path": "assets/production/webp/mobile-splash-wide-v1-1920.webp",
+      "bytes": 19134,
+      "sha256": "e169559131f654a54f6e29aa2436d1ebff3c312d9afba7a97b3a66845845fd0a"
+    },
+    {
+      "path": "assets/production/avif/mobile-splash-wide-v1-2560.avif",
+      "bytes": 33192,
+      "sha256": "1e423884274b48651e6e4df054e88ad50536431437a7b7fa4194b077b17ae7cd"
+    },
+    {
+      "path": "assets/production/webp/mobile-splash-wide-v1-2560.webp",
+      "bytes": 26640,
+      "sha256": "0f453f4f5f2e05c02b5518e8d531d8a6226684899ee64c0aca6105cd8147f0c4"
+    },
+    {
+      "path": "assets/production/avif/mobile-splash-wide-v1-3840.avif",
+      "bytes": 53710,
+      "sha256": "55cdcee846fe272da040cbc318e21f0ef287df2e67f8a958b5cb8b9f2a01df24"
+    },
+    {
+      "path": "assets/production/webp/mobile-splash-wide-v1-3840.webp",
+      "bytes": 46022,
+      "sha256": "bbb4a062b5ecd54cc1ff3a9eaf9dff909d30fdb2f66d3ee983b93424ea3c4525"
+    },
+    {
+      "path": "assets/production/png/mobile-splash-wide-v1-1280.png",
+      "bytes": 728445,
+      "sha256": "de97cae070ae419b5930d9c47bc55cb647e70a6cbb95d0a45ffcd12927704ae2"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/mobile-splash-wide-v1.webp",
+      "bytes": 2900,
+      "sha256": "caee593811f103436ecc6ad06cd79b59b93e8ee0783665257c0786f1bcbbcee4"
+    },
+    {
+      "path": "apps/mobile/assets/library/mobile-splash-wide-v1.webp",
+      "bytes": 2900,
+      "sha256": "caee593811f103436ecc6ad06cd79b59b93e8ee0783665257c0786f1bcbbcee4"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 94.4,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:37.227Z",
+    "scores": {
+      "realism": 90,
+      "style_consistency": 97,
+      "composition": 95,
+      "material_quality": 91,
+      "light_quality": 93,
+      "architecture_plausibility": 91,
+      "ui_suitability": 97,
+      "mobile_suitability": 98,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 96,
+      "contrast": 96,
+      "geometry_quality": 96,
+      "technical_quality": 98
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution, including transparent adaptive and monochrome assets.",
+      "The apparently empty monochrome contact-sheet cell was separately inspected and confirmed as a valid transparent single-color platform glyph.",
+      "Safe areas, contrast, transparency, and small-size behavior are suitable for the intended mobile placements."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1660596
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:43:18.069Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

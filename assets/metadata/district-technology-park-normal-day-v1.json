@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-technology-park-normal-day-v1",
+  "manifest_order": 399,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-technology-park-normal-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100399,
+  "content_hash": "d7e9c3d7793d594a366650a75ee164b034a9f73f23fcb7c28221e3cca29d54df",
+  "source_file": "assets/source/districts/district-technology-park-normal-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-technology-park-normal-day-v1-320.avif",
+      "bytes": 2972,
+      "sha256": "737b819a42bfc9c22c1b694bff4441ba21c4a57006475d37fae83e3159d80348"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-normal-day-v1-320.webp",
+      "bytes": 2618,
+      "sha256": "deafb8538eb977b8f020b52788469e0c124772da820cb8abc6df594a281fa67c"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-normal-day-v1-640.avif",
+      "bytes": 6657,
+      "sha256": "4c102d46b09f5c2ff36fe544860fd49075c731af5c72aa2016bb089e9a09f9f8"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-normal-day-v1-640.webp",
+      "bytes": 5448,
+      "sha256": "e2a0e31727f4b823929e4ff562e641e061a5df45865b424644b8f89e6863b2d6"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-normal-day-v1-960.avif",
+      "bytes": 10495,
+      "sha256": "3292fde21218ecf1b42bf17a0996836f7b6a467e04de6d310690bfd38c24cfa6"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-normal-day-v1-960.webp",
+      "bytes": 8884,
+      "sha256": "8cca129bf43ae30bfa5b175ecda963938f99844aa284d9c8fe410802c4438c2b"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-normal-day-v1-1280.avif",
+      "bytes": 14808,
+      "sha256": "072fc0a1fc3addf9a4992419f82773f4a1f0d09c469c68d643658c12431bf2e7"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-normal-day-v1-1280.webp",
+      "bytes": 12006,
+      "sha256": "e36d995883a5142b4bf91790acf94d0b1af0ffa1d8c3b15af949899228f6d031"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-normal-day-v1-1920.avif",
+      "bytes": 22560,
+      "sha256": "7d75e39768f8ffe3dad5b0de2df82a2f246ce580d3a6446334cb79d141898b48"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-normal-day-v1-1920.webp",
+      "bytes": 19430,
+      "sha256": "fb5b354058fc4965b5c4f0e0b5e749f255bdcd6e242f7072ff875fd8d88a1af3"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-normal-day-v1-2560.avif",
+      "bytes": 30049,
+      "sha256": "6323d1e529528e5dcb17f2c3556282c2a34e8f649e635715e26bef419c66d37c"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-normal-day-v1-2560.webp",
+      "bytes": 26096,
+      "sha256": "a052e49f572c7d601b5dc0951b0a672c50b81c0e4a862316ca08ca7c95674113"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-normal-day-v1-3840.avif",
+      "bytes": 49328,
+      "sha256": "c3a4e40e9e76432d4d6651359a8dba25117714629f258c21eff52a3d6dfff7bb"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-normal-day-v1-3840.webp",
+      "bytes": 44832,
+      "sha256": "289f82aa368279b31254def4beff2c487116275d1ec990a99cbbf6cc24e41890"
+    },
+    {
+      "path": "assets/production/png/district-technology-park-normal-day-v1-1280.png",
+      "bytes": 637880,
+      "sha256": "78ccfca168a353f2c721cf6f9845173d8a3a9dd6321fa7254a18d9f357175e1d"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-technology-park-normal-day-v1.webp",
+      "bytes": 2618,
+      "sha256": "deafb8538eb977b8f020b52788469e0c124772da820cb8abc6df594a281fa67c"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-technology-park-normal-day-v1.webp",
+      "bytes": 2618,
+      "sha256": "deafb8538eb977b8f020b52788469e0c124772da820cb8abc6df594a281fa67c"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.776Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1452801
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:31:03.086Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

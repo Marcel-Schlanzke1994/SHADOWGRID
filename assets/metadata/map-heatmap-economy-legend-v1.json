@@ -23,6 +23,11 @@
       "path": "assets/production/svg/map-heatmap-economy-legend-v1.svg",
       "bytes": 3674,
       "sha256": "55441b526ffccab6bd3e13254d528f8d5823c0d5af4fe02e7e519a1341eac939"
+    },
+    {
+      "path": "assets/production/webp/map-heatmap-economy-legend-v1-320.webp",
+      "bytes": 14712,
+      "sha256": "ef1827d944f7686592ba6cc24aff322adfa7c9c39df03c67e12d2f974894d6e4"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/maps/map-heatmap-economy-legend-v1.svg",
       "bytes": 3674,
       "sha256": "55441b526ffccab6bd3e13254d528f8d5823c0d5af4fe02e7e519a1341eac939"
+    },
+    {
+      "path": "apps/web/public/assets/maps/map-heatmap-economy-legend-v1-320.webp",
+      "bytes": 14712,
+      "sha256": "ef1827d944f7686592ba6cc24aff322adfa7c9c39df03c67e12d2f974894d6e4"
+    },
+    {
+      "path": "apps/web/public/assets/library/map-heatmap-economy-legend-v1.webp",
+      "bytes": 14712,
+      "sha256": "ef1827d944f7686592ba6cc24aff322adfa7c9c39df03c67e12d2f974894d6e4"
+    },
+    {
+      "path": "apps/mobile/assets/library/map-heatmap-economy-legend-v1.webp",
+      "bytes": 14712,
+      "sha256": "ef1827d944f7686592ba6cc24aff322adfa7c9c39df03c67e12d2f974894d6e4"
     }
   ],
   "contains_text": false,

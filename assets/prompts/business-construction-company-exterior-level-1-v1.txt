@@ -1,0 +1,15 @@
+Use case: stylized-concept
+Asset type: business asset for a cross-platform strategy game
+Primary request: Create a premium ultra-realistic visual asset for the multiplayer strategy game SHADOWGRID.
+Scene/backdrop: Fictional contemporary German urban environment, geographically and architecturally plausible.
+Subject: construction company, exterior level 1
+Category: business.
+Gameplay state: exterior-level-1.
+Style/medium: contemporary Germany; high-end urban economic strategy simulation; cinematic corporate thriller atmosphere; subtle cyber-noir; physically plausible glass, concrete, steel, stone and asphalt; original scene, not a known photograph, film frame, game screenshot or branded design.
+Composition/framing: Wide cinematic establishing composition, human eye-level or plausible elevated viewpoint, controlled depth, and calm negative space on the left for user-interface overlays.
+Lighting/mood: warm late afternoon with natural cinematic lighting, realistic reflections and restrained atmosphere.
+Color palette: black and anthracite framing, cool neutral blue-gray, restrained warm gold accents; warning red only if the gameplay state requires danger.
+Materials/textures: physically plausible dark glass, brushed metal, concrete, stone and asphalt with realistic scale.
+Constraints: no embedded captions or interface text; no real brands; no real authorities; no readable plates or addresses; no recognizable private people; no copied landmark-photo angle; space reserved for UI overlays; suitable for desktop and mobile crops; output aspect ratio 16:9.
+Avoid: Do not include: written words, captions, watermarks, signatures, existing game logos, real company logos, real police insignia, real government insignia, readable private license plates, readable private addresses, recognizable private individuals, celebrities, politicians, real criminal organizations, real gang symbols, extremist symbols, Nazi symbols, graphic violence, visible illegal instructions, firearms as the central subject, drug production, crime tutorials, copied photography, copied landmarks from an identical photo angle, fantasy skyscrapers, impossible architecture, distorted buildings, duplicate people, deformed hands, unrealistic vehicles, floating objects, overexposed neon, cartoon style, anime style, comic style, plastic mobile-game appearance, blurry image, low resolution, compression artifacts, unreadable fake text.
+Seed reference: 100499. Style lock: 1.0.0.

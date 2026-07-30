@@ -170,6 +170,16 @@
       "path": "apps/web/public/assets/global/global-maintenance-v1-1280.png",
       "bytes": 1185440,
       "sha256": "dd3822e71aabfd5425638070759f36b3d7bf1dbe6424fcc9617bc63908fdc3ca"
+    },
+    {
+      "path": "apps/web/public/assets/library/global-maintenance-v1.webp",
+      "bytes": 1962,
+      "sha256": "f16e9767d86067034bee50951a684a275dcdea104986f847c8f654a87eb4d954"
+    },
+    {
+      "path": "apps/mobile/assets/library/global-maintenance-v1.webp",
+      "bytes": 1962,
+      "sha256": "f16e9767d86067034bee50951a684a275dcdea104986f847c8f654a87eb4d954"
     }
   ],
   "contains_text": false,

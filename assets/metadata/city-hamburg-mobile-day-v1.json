@@ -170,35 +170,49 @@
       "path": "apps/web/public/assets/cities/city-hamburg-mobile-day-v1-1152.png",
       "bytes": 4120577,
       "sha256": "8f8ea7b5f108ac0bbbf57e80bc239d03ab281d9b985e929739b75fb5c9db29da"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-hamburg-mobile-day-v1.webp",
+      "bytes": 16050,
+      "sha256": "4fffb7749bdb9a15e1435544e3d4c8a8af1e7371135795ea5ee02787a0fab859"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-hamburg-mobile-day-v1.webp",
+      "bytes": 16050,
+      "sha256": "4fffb7749bdb9a15e1435544e3d4c8a8af1e7371135795ea5ee02787a0fab859"
     }
   ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,
   "moderation_status": "approved",
-  "quality_score": 98.7,
+  "quality_score": 92.9,
   "quality_status": "approved",
   "review_status": "codex-visual-approved",
   "visual_review": {
-    "realism": 98,
-    "style_consistency": 100,
-    "composition": 100,
-    "material_quality": 98,
-    "lighting_quality": 98,
-    "architecture_plausibility": 97,
-    "ui_suitability": 100,
-    "mobile_suitability": 100,
-    "originality": 96,
-    "safety_compliance": 100,
-    "accepted_prompt": "Create a separately composed portrait mobile hero for the same accepted fictional Hamburg-inspired SHADOWGRID city in the reference.\n\nOutput composition: exact 9:16 portrait, intended final size 1152×2048. Reconstruct the environment vertically rather than cropping the landscape image. Preserve the fictional identity through broad layered waterways, an original brick waterfront district, generic low-profile bridge language, restrained contemporary waterfront offices, small unbranded work vessels, northern maritime weather, and plausible urban depth. All waterway, quay, and infrastructure arrangements must remain fictional and non-operational.\n\nMobile hierarchy: reserve the upper 32% as calm darker low-detail cloud and atmospheric city distance for a status bar, localized title, and no more than three warnings. Place the main brick-waterfront-and-water decision area in the middle third. Use one original physically plausible low-profile bridge crossing diagonally through the middle-lower frame to create depth without blocking content. Keep the bottom 18% quieter and darker for one primary control. Ensure water, brick district, bridge, and contemporary city remain legible on a narrow phone. No focal people.\n\nLighting and style: overcast northern daylight after light rain, cool neutral blue-gray atmosphere, restrained warm-gold material and window highlights, realistic wet brick, stone, steel, glass, concrete, and water reflections, subtle corporate-thriller mood, premium contemporary architectural photography.\n\nDo not add the Elbphilharmonie, recognizable Speicherstadt arrangements or viewpoints, St. Michael's Church, Hamburg Rathaus, Köhlbrand Bridge, Landungsbrücken, any exact real landmark silhouette, real shipping terminal, sensitive port infrastructure, real company livery, infrastructure identifier, or known photograph/viewpoint.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, trafficking routes, instructions, fantasy architecture, impossible bridge geometry, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 9:16 daytime city environment, with no border, title, UI, or device mockup.",
-    "reference_images": [
-      "assets/source/cities/city-hamburg-desktop-day-v1.png"
-    ],
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.114Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
     "notes": [
-      "Accepted first portrait recomposition attempt.",
-      "The upper sky provides a calm status and title area, the middle carries the city-and-water decision, and the lower water remains dark and quiet for one primary control.",
-      "The diagonal original bridge, layered waterways, fictional brick waterfront, and contemporary offices retain the Hamburg family identity on a narrow phone without depicting a real port.",
-      "No recognizable Hamburg landmark, sensitive port layout, embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
     ]
   },
   "technical_validation": {

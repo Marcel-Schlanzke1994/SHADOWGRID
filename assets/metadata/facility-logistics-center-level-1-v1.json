@@ -1,0 +1,171 @@
+{
+  "asset_id": "facility-logistics-center-level-1-v1",
+  "manifest_order": 523,
+  "category": "facility",
+  "batch": "facilities",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "level-1",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/facility-logistics-center-level-1-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100523,
+  "content_hash": "cf61d40afa1788ffcfde760a7d2ff22a74e03f09fcf76d7769ef55f990d86a9e",
+  "source_file": "assets/source/facilities/facility-logistics-center-level-1-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/facility-logistics-center-level-1-v1-320.avif",
+      "bytes": 2877,
+      "sha256": "6e2982af7a208a953f50680e4b396a3162a093f2811ba036281e25adf3ba54a2"
+    },
+    {
+      "path": "assets/production/webp/facility-logistics-center-level-1-v1-320.webp",
+      "bytes": 2588,
+      "sha256": "e1994359e2a94ef98be5bcbd6f9f3c8ad50d6fb074a0caec45dc91645299ee60"
+    },
+    {
+      "path": "assets/production/avif/facility-logistics-center-level-1-v1-640.avif",
+      "bytes": 6161,
+      "sha256": "a7e9506f3967b0a2fef1fe89d5f86ed7e83322c64de8a44953e8db38c5304016"
+    },
+    {
+      "path": "assets/production/webp/facility-logistics-center-level-1-v1-640.webp",
+      "bytes": 5338,
+      "sha256": "6a5fb9fd95b1efd202925e815a095c61cccb8b9c1a228394d85d26c3374809af"
+    },
+    {
+      "path": "assets/production/avif/facility-logistics-center-level-1-v1-960.avif",
+      "bytes": 10347,
+      "sha256": "0c4a4ce11d0c4d5a64843e4efcea0236439d852ccc2ee610bfbfad3ed0b69556"
+    },
+    {
+      "path": "assets/production/webp/facility-logistics-center-level-1-v1-960.webp",
+      "bytes": 9164,
+      "sha256": "cd3d50de6337586fa317fdb52aa4e72521b90f2cb3ddef0fe6c8c681a0c1c73b"
+    },
+    {
+      "path": "assets/production/avif/facility-logistics-center-level-1-v1-1280.avif",
+      "bytes": 14644,
+      "sha256": "888d3ef25a70e882f531a360872d5ceab7f9aaabfb9aeaad1956e7d8edf72d8f"
+    },
+    {
+      "path": "assets/production/webp/facility-logistics-center-level-1-v1-1280.webp",
+      "bytes": 11766,
+      "sha256": "589da7527a9b8573d8fe4ea20747ce9c18b7e5921a7f0b9fb636b585ce4d4b25"
+    },
+    {
+      "path": "assets/production/avif/facility-logistics-center-level-1-v1-1920.avif",
+      "bytes": 21688,
+      "sha256": "0be9896a0cbfe837425d1e25b4954df5b8de46488af7f07b4df870bbadddf139"
+    },
+    {
+      "path": "assets/production/webp/facility-logistics-center-level-1-v1-1920.webp",
+      "bytes": 19348,
+      "sha256": "36a19a719529fe49cd6a0de4dd41b2244f11a0f7f7f66c06c5dbe0a6931b81c6"
+    },
+    {
+      "path": "assets/production/avif/facility-logistics-center-level-1-v1-2560.avif",
+      "bytes": 29021,
+      "sha256": "886640def341f453f4873b25912f465a64ac8cdb4977b3e91d23af8e041e5312"
+    },
+    {
+      "path": "assets/production/webp/facility-logistics-center-level-1-v1-2560.webp",
+      "bytes": 26346,
+      "sha256": "37449ed75d671518aca82486f0697114afbd91f5816708fd0b3d17ea19bebd83"
+    },
+    {
+      "path": "assets/production/avif/facility-logistics-center-level-1-v1-3840.avif",
+      "bytes": 47225,
+      "sha256": "2ed3cfaad8fb6a6067b338ad7e2ef76be1e0416521c37e6e649cf4b9d24a59eb"
+    },
+    {
+      "path": "assets/production/webp/facility-logistics-center-level-1-v1-3840.webp",
+      "bytes": 44942,
+      "sha256": "7351d2cd6cba457f1ef7038de15029726ae729fed58b4961066f1e43fd766e66"
+    },
+    {
+      "path": "assets/production/png/facility-logistics-center-level-1-v1-1280.png",
+      "bytes": 630358,
+      "sha256": "8f4011b735c03a477c3d51d657cdf8924a066d4c6c0f99265daef68f0e1523cc"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/facility-logistics-center-level-1-v1.webp",
+      "bytes": 2588,
+      "sha256": "e1994359e2a94ef98be5bcbd6f9f3c8ad50d6fb074a0caec45dc91645299ee60"
+    },
+    {
+      "path": "apps/mobile/assets/library/facility-logistics-center-level-1-v1.webp",
+      "bytes": 2588,
+      "sha256": "e1994359e2a94ef98be5bcbd6f9f3c8ad50d6fb074a0caec45dc91645299ee60"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:27.048Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 92,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 90,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution.",
+      "Facility categories remain visually coherent and readable without depicting sensitive real-world infrastructure.",
+      "No missing render, unsafe detail, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1445500
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:10:19.534Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

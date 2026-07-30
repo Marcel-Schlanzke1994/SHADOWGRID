@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-wiesbaden-desktop-night-v1",
+  "manifest_order": 262,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "wiesbaden",
+  "variant": "desktop-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-wiesbaden-desktop-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100262,
+  "content_hash": "270ee298f853451fa5efe4179f065032b4a44de0970b185f02403824d8aa28e5",
+  "source_file": "assets/source/cities/city-wiesbaden-desktop-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-wiesbaden-desktop-night-v1-320.avif",
+      "bytes": 3885,
+      "sha256": "a437cae596f183aa3bee56380111b27044c95571f448e0c45028bbe8379d0584"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-desktop-night-v1-320.webp",
+      "bytes": 4030,
+      "sha256": "56aa0c685ae03e359f6b1d9170e18fbe6167fb2ffc43129691590e5bbaaf6429"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-desktop-night-v1-640.avif",
+      "bytes": 8298,
+      "sha256": "5b1c6922b3340bf50528435bf84afc0b08c1151204c8c8c2b3b064c4925a1e8f"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-desktop-night-v1-640.webp",
+      "bytes": 8854,
+      "sha256": "f7546b2d2bb073d84efeedbfbb132dfe5d8e0285e85ecbce3818358652c0b4cb"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-desktop-night-v1-960.avif",
+      "bytes": 13877,
+      "sha256": "1cc2dc0558ef3fded4ca4f2e3546453d2be502b0b1caa8fe4fd1bc0622825809"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-desktop-night-v1-960.webp",
+      "bytes": 14830,
+      "sha256": "b3dcfc9f971f5514e4fc5c7303620f7e1dbeae571bb12c816a8395ae4fc25b09"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-desktop-night-v1-1280.avif",
+      "bytes": 19609,
+      "sha256": "3e145cccba67af4fd5cd49696636d95f20f1cfe3d72cf7b5fe2ff0311f028d85"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-desktop-night-v1-1280.webp",
+      "bytes": 19634,
+      "sha256": "1696b0b1bb813e7c0176134ad1d436a6664856abe6af0a1f62fdffc0a4339483"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-desktop-night-v1-1920.avif",
+      "bytes": 29648,
+      "sha256": "f2abf78b01c7d78f93c5e2563b3e070c0a47cff0d50aa2dacbc7349f28b7698c"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-desktop-night-v1-1920.webp",
+      "bytes": 29024,
+      "sha256": "b0d928af4d33e23e9c01c0125b30064ec9bd040a68ed4b79960f47b78713e62f"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-desktop-night-v1-2560.avif",
+      "bytes": 41093,
+      "sha256": "da48569db0c99b05de4ada99d19bcfe9bf32851d211c819c2dae627c52100722"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-desktop-night-v1-2560.webp",
+      "bytes": 38220,
+      "sha256": "ef507e4e6644ce09cc97e75f72bfde2278431f93e386ab15d8faf6c4084ecf21"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-desktop-night-v1-3840.avif",
+      "bytes": 63695,
+      "sha256": "e3ba88a953ef171e0734edffeebd1d6bf2ccdb75ee8fadcea54002a70ed0a49f"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-desktop-night-v1-3840.webp",
+      "bytes": 59668,
+      "sha256": "f2a69b5fbf94c9ac5a399cc223a91ad10418b5303a6894d7f4c7104b2d71b85b"
+    },
+    {
+      "path": "assets/production/png/city-wiesbaden-desktop-night-v1-1280.png",
+      "bytes": 769314,
+      "sha256": "1ea4bbe48a8185f555e5207afe68bcc27d518fac64e3079eb0dd733df80c022d"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-night-v1-320.avif",
+      "bytes": 3885,
+      "sha256": "a437cae596f183aa3bee56380111b27044c95571f448e0c45028bbe8379d0584"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-night-v1-320.webp",
+      "bytes": 4030,
+      "sha256": "56aa0c685ae03e359f6b1d9170e18fbe6167fb2ffc43129691590e5bbaaf6429"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-night-v1-640.avif",
+      "bytes": 8298,
+      "sha256": "5b1c6922b3340bf50528435bf84afc0b08c1151204c8c8c2b3b064c4925a1e8f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-night-v1-640.webp",
+      "bytes": 8854,
+      "sha256": "f7546b2d2bb073d84efeedbfbb132dfe5d8e0285e85ecbce3818358652c0b4cb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-night-v1-960.avif",
+      "bytes": 13877,
+      "sha256": "1cc2dc0558ef3fded4ca4f2e3546453d2be502b0b1caa8fe4fd1bc0622825809"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-night-v1-960.webp",
+      "bytes": 14830,
+      "sha256": "b3dcfc9f971f5514e4fc5c7303620f7e1dbeae571bb12c816a8395ae4fc25b09"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-night-v1-1280.avif",
+      "bytes": 19609,
+      "sha256": "3e145cccba67af4fd5cd49696636d95f20f1cfe3d72cf7b5fe2ff0311f028d85"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-night-v1-1280.webp",
+      "bytes": 19634,
+      "sha256": "1696b0b1bb813e7c0176134ad1d436a6664856abe6af0a1f62fdffc0a4339483"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-night-v1-1920.avif",
+      "bytes": 29648,
+      "sha256": "f2abf78b01c7d78f93c5e2563b3e070c0a47cff0d50aa2dacbc7349f28b7698c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-night-v1-1920.webp",
+      "bytes": 29024,
+      "sha256": "b0d928af4d33e23e9c01c0125b30064ec9bd040a68ed4b79960f47b78713e62f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-night-v1-2560.avif",
+      "bytes": 41093,
+      "sha256": "da48569db0c99b05de4ada99d19bcfe9bf32851d211c819c2dae627c52100722"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-night-v1-2560.webp",
+      "bytes": 38220,
+      "sha256": "ef507e4e6644ce09cc97e75f72bfde2278431f93e386ab15d8faf6c4084ecf21"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-night-v1-3840.avif",
+      "bytes": 63695,
+      "sha256": "e3ba88a953ef171e0734edffeebd1d6bf2ccdb75ee8fadcea54002a70ed0a49f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-night-v1-3840.webp",
+      "bytes": 59668,
+      "sha256": "f2a69b5fbf94c9ac5a399cc223a91ad10418b5303a6894d7f4c7104b2d71b85b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-night-v1-1280.png",
+      "bytes": 769314,
+      "sha256": "1ea4bbe48a8185f555e5207afe68bcc27d518fac64e3079eb0dd733df80c022d"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-wiesbaden-desktop-night-v1.webp",
+      "bytes": 4030,
+      "sha256": "56aa0c685ae03e359f6b1d9170e18fbe6167fb2ffc43129691590e5bbaaf6429"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-wiesbaden-desktop-night-v1.webp",
+      "bytes": 4030,
+      "sha256": "56aa0c685ae03e359f6b1d9170e18fbe6167fb2ffc43129691590e5bbaaf6429"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.739Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1711889
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:43:26.624Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "asset_id": "city-template-metropolis-river-day-mobile-v1",
+  "manifest_order": 309,
+  "category": "city-template",
+  "batch": "procedural-city-templates",
+  "city": null,
+  "variant": "day-mobile",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-template-metropolis-river-day-mobile-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100309,
+  "content_hash": "588218aa92cb67ae36cb1c05c53c8989f2481189e56b7455e422da4eb4c0aa6f",
+  "source_file": "assets/source/global/city-template-metropolis-river-day-mobile-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-template-metropolis-river-day-mobile-v1-320.avif",
+      "bytes": 4823,
+      "sha256": "fcbc7a7110788d1295cf3bc6a549801d845ff8d26cd13ca0a0aa5068180321fb"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-river-day-mobile-v1-320.webp",
+      "bytes": 4308,
+      "sha256": "ce1186c537ac25f09b15c68e23e24b697530e9c1fa156d956787f1328c417eb2"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-river-day-mobile-v1-640.avif",
+      "bytes": 10194,
+      "sha256": "259a2fc4a1924c7370a30aa91e337030e270b291a7403a3be0b24ab9d69d92f9"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-river-day-mobile-v1-640.webp",
+      "bytes": 8242,
+      "sha256": "db41c8d7f7c153fb961fdc8b24c179bafb35a5c50e272715afb2185334941e92"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-river-day-mobile-v1-960.avif",
+      "bytes": 17794,
+      "sha256": "19bc3fa5d9f8c4c017e111965c28d63076fc0d7adb26c0dd4c053f204ea9245f"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-river-day-mobile-v1-960.webp",
+      "bytes": 14022,
+      "sha256": "9eb58097b3e3494743504ace7d04049da691d0aab3d24b2d66b9b3d04e5fdc37"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-river-day-mobile-v1-1280.avif",
+      "bytes": 24198,
+      "sha256": "11e9a5015b5b5edb0e96a09983ce0c7c0546ec1cd6835cb08c72fff979a75e36"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-river-day-mobile-v1-1280.webp",
+      "bytes": 19840,
+      "sha256": "fdb09e5c4f8fa64d2e2e14d46f48d1c078fa8d71d4de6d79a64a8936e924e289"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-river-day-mobile-v1-1920.avif",
+      "bytes": 39233,
+      "sha256": "c636c430f2a806defec8e8ab80149c688250b2306d88ef529a5b6f96421e5910"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-river-day-mobile-v1-1920.webp",
+      "bytes": 35370,
+      "sha256": "54b48a63931ca7b7b951471625dd7c5b2070623d09d055db766e78bafa820d29"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-river-day-mobile-v1-2560.avif",
+      "bytes": 57118,
+      "sha256": "34eb3f4eeb02a17d079000dde66dd284ad994a010342c541e7c16278eccccfae"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-river-day-mobile-v1-2560.webp",
+      "bytes": 55516,
+      "sha256": "455c2f2e496014b21ab60ab6b7c23a78a5ad2ff39d9600c409b6281e540fb188"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-river-day-mobile-v1-3840.avif",
+      "bytes": 102293,
+      "sha256": "30eed5710e856abf9ba3e4dfb325282849008ade4cf48bd677701022404928a2"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-river-day-mobile-v1-3840.webp",
+      "bytes": 105088,
+      "sha256": "ddbd7138d0f94690b4c8667d27a4c2117050853b559965abb5f70681226bd054"
+    },
+    {
+      "path": "assets/production/png/city-template-metropolis-river-day-mobile-v1-1152.png",
+      "bytes": 1681689,
+      "sha256": "588218aa92cb67ae36cb1c05c53c8989f2481189e56b7455e422da4eb4c0aa6f"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/city-template-metropolis-river-day-mobile-v1.webp",
+      "bytes": 4308,
+      "sha256": "ce1186c537ac25f09b15c68e23e24b697530e9c1fa156d956787f1328c417eb2"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-template-metropolis-river-day-mobile-v1.webp",
+      "bytes": 4308,
+      "sha256": "ce1186c537ac25f09b15c68e23e24b697530e9c1fa156d956787f1328c417eb2"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 91.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:54.831Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 92,
+      "material_quality": 87,
+      "light_quality": 89,
+      "architecture_plausibility": 89,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 92,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All four paged contact sheets were inspected at original resolution.",
+      "The templates are intentionally stylized deterministic fallbacks and remain compositionally useful across every required aspect ratio.",
+      "No missing render, broken geometry, sensitive infrastructure detail, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1681689
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:20:11.361Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

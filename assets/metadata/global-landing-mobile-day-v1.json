@@ -170,6 +170,16 @@
       "path": "apps/web/public/assets/global/global-landing-mobile-day-v1-1152.png",
       "bytes": 4724844,
       "sha256": "d745277c80c7ce70e3347f273d8f7ad2837f893e9050706567112a4d4361d70b"
+    },
+    {
+      "path": "apps/web/public/assets/library/global-landing-mobile-day-v1.webp",
+      "bytes": 20590,
+      "sha256": "ba2428d169d79e7981b32c91196847837d83d59e3713c464e39b616d7dfc238a"
+    },
+    {
+      "path": "apps/mobile/assets/library/global-landing-mobile-day-v1.webp",
+      "bytes": 20590,
+      "sha256": "ba2428d169d79e7981b32c91196847837d83d59e3713c464e39b616d7dfc238a"
     }
   ],
   "contains_text": false,

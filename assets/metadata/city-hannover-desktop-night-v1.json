@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-hannover-desktop-night-v1",
+  "manifest_order": 166,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "hannover",
+  "variant": "desktop-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-hannover-desktop-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100166,
+  "content_hash": "aa57f38e6f6ffa1f10dbc72e1daa3b2a0ef3bf1724a26ff1c9898bb7e0552afc",
+  "source_file": "assets/source/cities/city-hannover-desktop-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-hannover-desktop-night-v1-320.avif",
+      "bytes": 3913,
+      "sha256": "5b3052d845641ee365d002ee61865fb3355258af7ee6d4161f6da204d3dd6a64"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-desktop-night-v1-320.webp",
+      "bytes": 4130,
+      "sha256": "b82bd8746c2d883feda82f411f6e9de87b7a5efb3e093c2e7a05b22d9c959bf1"
+    },
+    {
+      "path": "assets/production/avif/city-hannover-desktop-night-v1-640.avif",
+      "bytes": 8188,
+      "sha256": "98d153acf50e92426d6495c9bb0dd8bd398b1863e27a955a6e87f448bdcd1e37"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-desktop-night-v1-640.webp",
+      "bytes": 8960,
+      "sha256": "900569d5489f83c480c198f9679348eddfab8fc491e1de0992a67c7c9d188842"
+    },
+    {
+      "path": "assets/production/avif/city-hannover-desktop-night-v1-960.avif",
+      "bytes": 14116,
+      "sha256": "0a96a48aa2cdc6634e315947d0f77e1b867e34913e8da087164a4dc01325bc44"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-desktop-night-v1-960.webp",
+      "bytes": 15620,
+      "sha256": "48a2ca9d02ad77889e366f4e8e13afd73eac0a0d53057408d4f376f6dd5f3712"
+    },
+    {
+      "path": "assets/production/avif/city-hannover-desktop-night-v1-1280.avif",
+      "bytes": 19635,
+      "sha256": "c09e8cd3bec7f6192a695ee5c4b7d938a347a73b86f917b6c62159817065c217"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-desktop-night-v1-1280.webp",
+      "bytes": 20320,
+      "sha256": "80300f14cd2f19ac00df57f748b97e83bb6bb7a106c863d5b9a0ec4a942c52e5"
+    },
+    {
+      "path": "assets/production/avif/city-hannover-desktop-night-v1-1920.avif",
+      "bytes": 30071,
+      "sha256": "d6b3c993c8e6ad0bf22f95469f774ffef5e2c3c9746684bd758c37b836ba3031"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-desktop-night-v1-1920.webp",
+      "bytes": 30096,
+      "sha256": "9531c82e359237cd050c03ae4094164d6d86d3c3aef2163054839d5e3d0cc7f3"
+    },
+    {
+      "path": "assets/production/avif/city-hannover-desktop-night-v1-2560.avif",
+      "bytes": 41147,
+      "sha256": "a562bcc8ac6189b0ed29f641b870a5acedafac88952998bdf56ecc4a282a5b5c"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-desktop-night-v1-2560.webp",
+      "bytes": 39254,
+      "sha256": "46d3aaa18583e2ecc7b044a59132b25d62603f45cd70c14398d3701a85a2e093"
+    },
+    {
+      "path": "assets/production/avif/city-hannover-desktop-night-v1-3840.avif",
+      "bytes": 64151,
+      "sha256": "aca86e9db27d77be6706fa986c8387589ed156986c91998f56cc817d8796aa2e"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-desktop-night-v1-3840.webp",
+      "bytes": 61412,
+      "sha256": "cf95b4a88c4ae410e827a0435d900be3adb685ca21c51f2782c7ef17214df3ea"
+    },
+    {
+      "path": "assets/production/png/city-hannover-desktop-night-v1-1280.png",
+      "bytes": 768055,
+      "sha256": "37417822cc88153ac90dc0f50a1c111a299f6a007d6ccc3cc2044fb0b91d6126"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-desktop-night-v1-320.avif",
+      "bytes": 3913,
+      "sha256": "5b3052d845641ee365d002ee61865fb3355258af7ee6d4161f6da204d3dd6a64"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-desktop-night-v1-320.webp",
+      "bytes": 4130,
+      "sha256": "b82bd8746c2d883feda82f411f6e9de87b7a5efb3e093c2e7a05b22d9c959bf1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-desktop-night-v1-640.avif",
+      "bytes": 8188,
+      "sha256": "98d153acf50e92426d6495c9bb0dd8bd398b1863e27a955a6e87f448bdcd1e37"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-desktop-night-v1-640.webp",
+      "bytes": 8960,
+      "sha256": "900569d5489f83c480c198f9679348eddfab8fc491e1de0992a67c7c9d188842"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-desktop-night-v1-960.avif",
+      "bytes": 14116,
+      "sha256": "0a96a48aa2cdc6634e315947d0f77e1b867e34913e8da087164a4dc01325bc44"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-desktop-night-v1-960.webp",
+      "bytes": 15620,
+      "sha256": "48a2ca9d02ad77889e366f4e8e13afd73eac0a0d53057408d4f376f6dd5f3712"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-desktop-night-v1-1280.avif",
+      "bytes": 19635,
+      "sha256": "c09e8cd3bec7f6192a695ee5c4b7d938a347a73b86f917b6c62159817065c217"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-desktop-night-v1-1280.webp",
+      "bytes": 20320,
+      "sha256": "80300f14cd2f19ac00df57f748b97e83bb6bb7a106c863d5b9a0ec4a942c52e5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-desktop-night-v1-1920.avif",
+      "bytes": 30071,
+      "sha256": "d6b3c993c8e6ad0bf22f95469f774ffef5e2c3c9746684bd758c37b836ba3031"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-desktop-night-v1-1920.webp",
+      "bytes": 30096,
+      "sha256": "9531c82e359237cd050c03ae4094164d6d86d3c3aef2163054839d5e3d0cc7f3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-desktop-night-v1-2560.avif",
+      "bytes": 41147,
+      "sha256": "a562bcc8ac6189b0ed29f641b870a5acedafac88952998bdf56ecc4a282a5b5c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-desktop-night-v1-2560.webp",
+      "bytes": 39254,
+      "sha256": "46d3aaa18583e2ecc7b044a59132b25d62603f45cd70c14398d3701a85a2e093"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-desktop-night-v1-3840.avif",
+      "bytes": 64151,
+      "sha256": "aca86e9db27d77be6706fa986c8387589ed156986c91998f56cc817d8796aa2e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-desktop-night-v1-3840.webp",
+      "bytes": 61412,
+      "sha256": "cf95b4a88c4ae410e827a0435d900be3adb685ca21c51f2782c7ef17214df3ea"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-desktop-night-v1-1280.png",
+      "bytes": 768055,
+      "sha256": "37417822cc88153ac90dc0f50a1c111a299f6a007d6ccc3cc2044fb0b91d6126"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-hannover-desktop-night-v1.webp",
+      "bytes": 4130,
+      "sha256": "b82bd8746c2d883feda82f411f6e9de87b7a5efb3e093c2e7a05b22d9c959bf1"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-hannover-desktop-night-v1.webp",
+      "bytes": 4130,
+      "sha256": "b82bd8746c2d883feda82f411f6e9de87b7a5efb3e093c2e7a05b22d9c959bf1"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.708Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1697759
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:13:20.488Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

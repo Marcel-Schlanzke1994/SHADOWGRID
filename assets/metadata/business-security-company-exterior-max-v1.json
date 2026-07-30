@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-security-company-exterior-max-v1",
+  "manifest_order": 477,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "exterior-max",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-security-company-exterior-max-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100477,
+  "content_hash": "3cad6fb3593028ecdba2d6f5e9c533566cb6331aa6616b01c739075094bc5881",
+  "source_file": "assets/source/businesses/business-security-company-exterior-max-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-security-company-exterior-max-v1-320.avif",
+      "bytes": 3008,
+      "sha256": "85777895e3d18f7de99af330b2dc228e11daed82dc5c5d19a9d59575e097eb06"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-exterior-max-v1-320.webp",
+      "bytes": 2802,
+      "sha256": "55b4dad6338a9beaeadcd9669f03ff5e6d909dddfc0a0483b5f1e5b9760e7c67"
+    },
+    {
+      "path": "assets/production/avif/business-security-company-exterior-max-v1-640.avif",
+      "bytes": 6789,
+      "sha256": "9aed94766324fe8ff24ab4bf3d9730f156015efe9b90b2c033340cd65c91bb79"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-exterior-max-v1-640.webp",
+      "bytes": 5930,
+      "sha256": "3214a4036749ccb6c09e958f0979705fbb0f80ba0c00e326dd4012e7fa383016"
+    },
+    {
+      "path": "assets/production/avif/business-security-company-exterior-max-v1-960.avif",
+      "bytes": 10848,
+      "sha256": "44eae57d6584a3712fbcdd1c982efb731f53d047380bb8d4a29e25a46c61f8d8"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-exterior-max-v1-960.webp",
+      "bytes": 9852,
+      "sha256": "34d90f23f8a92f0ebcce8ae28e3a27e4472eac889a07638ae573f511e2aac4b7"
+    },
+    {
+      "path": "assets/production/avif/business-security-company-exterior-max-v1-1280.avif",
+      "bytes": 15690,
+      "sha256": "278fc08dc93fe53f6706dfa1c37721ab76c208daeea69a0ecbf801f5f0058bf2"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-exterior-max-v1-1280.webp",
+      "bytes": 12786,
+      "sha256": "c95df4e937ce497968c487510750e3464946eefee46d09de087faedbfed820e2"
+    },
+    {
+      "path": "assets/production/avif/business-security-company-exterior-max-v1-1920.avif",
+      "bytes": 23277,
+      "sha256": "909e4a7ff97fa4d7e3912c26c7cb2144863a5fd53d6d6ea617c5e9078f8610cb"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-exterior-max-v1-1920.webp",
+      "bytes": 20336,
+      "sha256": "68bf84944f7abcc731fc458252c4981ed5d94537cdc38ced4fe7de01250a93cf"
+    },
+    {
+      "path": "assets/production/avif/business-security-company-exterior-max-v1-2560.avif",
+      "bytes": 31803,
+      "sha256": "99453b16f08a8dd667c44c56823e3f079df24214b3715f4fd32bdd462fb65c85"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-exterior-max-v1-2560.webp",
+      "bytes": 28154,
+      "sha256": "61c5e9dbc5a6835f0794990c627f9dc013b9adcbbe5e5dda0560f197ffd9be04"
+    },
+    {
+      "path": "assets/production/avif/business-security-company-exterior-max-v1-3840.avif",
+      "bytes": 50638,
+      "sha256": "63afb6f54ccd74da7983a8212304dab015d9aa041e4585e81fd575efd487acea"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-exterior-max-v1-3840.webp",
+      "bytes": 46432,
+      "sha256": "56c8631cec42fa53e736bc6510c2c02385d01be12ca1d105326d8a3b6d01e3a9"
+    },
+    {
+      "path": "assets/production/png/business-security-company-exterior-max-v1-1280.png",
+      "bytes": 646297,
+      "sha256": "1db53c45b7d627dae65780a03b5e8efa93acbe52d89ed5576ebc569a154d5245"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-security-company-exterior-max-v1.webp",
+      "bytes": 2802,
+      "sha256": "55b4dad6338a9beaeadcd9669f03ff5e6d909dddfc0a0483b5f1e5b9760e7c67"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-security-company-exterior-max-v1.webp",
+      "bytes": 2802,
+      "sha256": "55b4dad6338a9beaeadcd9669f03ff5e6d909dddfc0a0483b5f1e5b9760e7c67"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.456Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1460665
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:56:14.962Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

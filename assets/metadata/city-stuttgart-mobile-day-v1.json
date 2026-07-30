@@ -170,35 +170,49 @@
       "path": "apps/web/public/assets/cities/city-stuttgart-mobile-day-v1-1152.png",
       "bytes": 4195630,
       "sha256": "8e6a777b45cbef509995e8703e34a7ff0f1635a24d21de48865b2c7a22a07731"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-stuttgart-mobile-day-v1.webp",
+      "bytes": 20732,
+      "sha256": "832fd551c304e5d2bd67ac215b3e63e8cb625a5fb2c3d05942eb8ae954d92e2a"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-stuttgart-mobile-day-v1.webp",
+      "bytes": 20732,
+      "sha256": "832fd551c304e5d2bd67ac215b3e63e8cb625a5fb2c3d05942eb8ae954d92e2a"
     }
   ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,
   "moderation_status": "approved",
-  "quality_score": 99.3,
+  "quality_score": 92.9,
   "quality_status": "approved",
   "review_status": "codex-visual-approved",
   "visual_review": {
-    "realism": 99,
-    "style_consistency": 100,
-    "composition": 100,
-    "material_quality": 99,
-    "lighting_quality": 99,
-    "architecture_plausibility": 99,
-    "ui_suitability": 100,
-    "mobile_suitability": 100,
-    "originality": 97,
-    "safety_compliance": 100,
-    "revision_prompt": "Revise this fictional Stuttgart-inspired SHADOWGRID 9:16 daytime mobile basin-city hero while preserving the exact portrait canvas, premium realistic post-rain style, wooded basin identity, pale-stone and restrained glass research/services district, linear rainwater garden, planted terraces, middle city decision area, and bottom 18% dark wet-terrace and foliage control zone.\n\nMandatory mobile hierarchy correction: make the full upper 32% genuinely calm, darker, and low-detail for a status bar, localized title, and up to three warnings. Extend the layered neutral blue-gray cloud field and soft atmospheric basin haze downward so the first clearly readable wooded ridge and hillside neighborhood begins below the 32% boundary. Remove or visually suppress the currently dense hillside residences, rooflines, bright facade edges, and high-contrast tree/building pattern that enters the upper 32%. The upper zone may contain only subtle cloud texture, soft haze, and a very faint low-contrast distant ridge at its bottom edge. Do not add a tower, spire, dome, antenna, lamp, sign, screen, aircraft, bird, or bright cloud break to that interface-safe area.\n\nRetain one clear cluster of the pale research/services district, rainwater garden, planted terraces, and layered hillside neighborhood in the middle third. Preserve the entire bottom 18% as calm dark low-detail wet stone terrace, deep green foliage, and restrained reflections for one primary control; do not add buildings, vehicles, rail, signs, lamps, detailed paths, or high-contrast objects there. All geometry remains fictional and non-operational.\n\nDo not add or imitate the Stuttgart Fernsehturm, Schlossplatz, Neues Schloss, Stuttgart Hauptbahnhof or tower, Staatsgalerie, Wilhelma, Mercedes-Benz Museum, Porsche Museum, churches, cathedral spires, monuments, civic towers, antenna landmarks, real automaker logos or products, recognizable automobile plants, real rail corridors, test tracks, corporate campuses, or any known photograph or viewpoint.\n\nNo text, letters, numbers, signs, interface, logos, watermarks, signatures, brands, identifiable people, flags, authority marks, police insignia, criminal symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, factory procedures, vehicle schematics, fantasy architecture, impossible slopes, neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the corrected clean premium ultra-realistic fictional 9:16 daytime mobile basin-engineering-metropolis environment with the complete upper 32% calm and low-detail and the lower 18% control zone preserved, no border, title, UI, or device mockup.",
-    "reference_images": [
-      "assets/source/cities/city-stuttgart-desktop-day-v1.png"
-    ],
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.373Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
     "notes": [
-      "The first portrait recomposition was held back because dense hillside residence detail entered the upper 32 percent and would compete with localized title content.",
-      "The accepted revision extends layered cloud and soft basin haze downward so the first readable wooded ridge and hillside neighborhood begins below the title-safe zone.",
-      "The middle retains one clear research/services, rainwater-garden, and planted-terrace decision while the bottom 18 percent remains calm dark wet terrace and foliage for one primary control.",
-      "No real automaker, product, campus, factory, known Stuttgart landmark, tower, spire, authority, operational layout, text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or wrongdoing is present."
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
     ]
   },
   "technical_validation": {

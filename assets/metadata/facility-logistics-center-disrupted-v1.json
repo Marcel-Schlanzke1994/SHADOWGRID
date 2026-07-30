@@ -1,0 +1,171 @@
+{
+  "asset_id": "facility-logistics-center-disrupted-v1",
+  "manifest_order": 526,
+  "category": "facility",
+  "batch": "facilities",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "disrupted",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/facility-logistics-center-disrupted-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100526,
+  "content_hash": "dd0b12ab83366da2deb6b50041f21f62b2b274171968a421c649543ce763db59",
+  "source_file": "assets/source/facilities/facility-logistics-center-disrupted-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/facility-logistics-center-disrupted-v1-320.avif",
+      "bytes": 3214,
+      "sha256": "fbea6dc6574e62b86c460ed9b40f25f547dfdcf00ffb960e00ce0b104cbfa7ed"
+    },
+    {
+      "path": "assets/production/webp/facility-logistics-center-disrupted-v1-320.webp",
+      "bytes": 2814,
+      "sha256": "bf77161c5ad7ff9185dc70c653d48002dc82cdd25b90137f40a36af865b48fb6"
+    },
+    {
+      "path": "assets/production/avif/facility-logistics-center-disrupted-v1-640.avif",
+      "bytes": 6892,
+      "sha256": "ad6dcb2a09af583a5d08f0405cf05ce3e0ad117afb7c417683c321aebd4b863e"
+    },
+    {
+      "path": "assets/production/webp/facility-logistics-center-disrupted-v1-640.webp",
+      "bytes": 5650,
+      "sha256": "854364daac57d685963755a4d4e4edaa2ca3986d7a5b2fc257bd8ccb97974e5c"
+    },
+    {
+      "path": "assets/production/avif/facility-logistics-center-disrupted-v1-960.avif",
+      "bytes": 11189,
+      "sha256": "78cd7e8a2f43502ec099ebdb0c9bd675fced76165947bd577a2b728b6cd795aa"
+    },
+    {
+      "path": "assets/production/webp/facility-logistics-center-disrupted-v1-960.webp",
+      "bytes": 9242,
+      "sha256": "405a781bd9b09628e3ba7a4d90bc4ea3d24c3fbb1b02871f21dd28557289f2e6"
+    },
+    {
+      "path": "assets/production/avif/facility-logistics-center-disrupted-v1-1280.avif",
+      "bytes": 15455,
+      "sha256": "d1f2e9b9fc19e8424ac1f0dc6009d990351f2d9ea673b2c3b63342839a052203"
+    },
+    {
+      "path": "assets/production/webp/facility-logistics-center-disrupted-v1-1280.webp",
+      "bytes": 12034,
+      "sha256": "88881bc251b13a10758df7829f9a5d44738f73c971e944c9558d8d10c9e07b87"
+    },
+    {
+      "path": "assets/production/avif/facility-logistics-center-disrupted-v1-1920.avif",
+      "bytes": 23462,
+      "sha256": "74a278b4f217ef711bd03feb81a5ef38c6a53e506474a29f41732495c6e88cb7"
+    },
+    {
+      "path": "assets/production/webp/facility-logistics-center-disrupted-v1-1920.webp",
+      "bytes": 19070,
+      "sha256": "8aa6667022a0130d6510acd67b4dbe332dad749d259343d4001688f9bb990d34"
+    },
+    {
+      "path": "assets/production/avif/facility-logistics-center-disrupted-v1-2560.avif",
+      "bytes": 30535,
+      "sha256": "20f80b15f41861a63b66e77fa2347b4a445860948cf582d315212915843c473a"
+    },
+    {
+      "path": "assets/production/webp/facility-logistics-center-disrupted-v1-2560.webp",
+      "bytes": 26372,
+      "sha256": "358bf9bf4118cbf04a6a859962389b51c562e8ad6dd3d57ebb5497f7905ffdfa"
+    },
+    {
+      "path": "assets/production/avif/facility-logistics-center-disrupted-v1-3840.avif",
+      "bytes": 49946,
+      "sha256": "020cb812835f14fe9fd26bc9f50918ade3f388e81cd861914872305fa92740c6"
+    },
+    {
+      "path": "assets/production/webp/facility-logistics-center-disrupted-v1-3840.webp",
+      "bytes": 45152,
+      "sha256": "867e29d3abe8fa10ff801fad2adccae73cb02c19adc4eb5cb60c7426512c8b3e"
+    },
+    {
+      "path": "assets/production/png/facility-logistics-center-disrupted-v1-1280.png",
+      "bytes": 629199,
+      "sha256": "7b250c75abd8386e438eb5bde2262a1bf388db47f38d02ba558adb18c8c70828"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/facility-logistics-center-disrupted-v1.webp",
+      "bytes": 2814,
+      "sha256": "bf77161c5ad7ff9185dc70c653d48002dc82cdd25b90137f40a36af865b48fb6"
+    },
+    {
+      "path": "apps/mobile/assets/library/facility-logistics-center-disrupted-v1.webp",
+      "bytes": 2814,
+      "sha256": "bf77161c5ad7ff9185dc70c653d48002dc82cdd25b90137f40a36af865b48fb6"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:27.099Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 92,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 90,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution.",
+      "Facility categories remain visually coherent and readable without depicting sensitive real-world infrastructure.",
+      "No missing render, unsafe detail, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1427539
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:11:04.708Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

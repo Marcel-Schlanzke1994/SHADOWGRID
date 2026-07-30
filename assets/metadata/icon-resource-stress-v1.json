@@ -1,0 +1,75 @@
+{
+  "asset_id": "icon-resource-stress-v1",
+  "manifest_order": 750,
+  "category": "icon",
+  "batch": "ui-icons",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "24:24",
+  "width": 24,
+  "height": 24,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/icon-resource-stress-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100750,
+  "content_hash": "668514f34f1ee33a7728016e49b637ef88a28bec02fea2c4427d8346a1694b95",
+  "source_file": "assets/source/icons/icon-resource-stress-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/icon-resource-stress-v1.svg",
+      "bytes": 550,
+      "sha256": "668514f34f1ee33a7728016e49b637ef88a28bec02fea2c4427d8346a1694b95"
+    },
+    {
+      "path": "assets/production/webp/icon-resource-stress-v1-320.webp",
+      "bytes": 2030,
+      "sha256": "db48b6bf7247094c680c17efda7471cc13e591635b5d6067d63a647bcc1badcc"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/icon-resource-stress-v1.webp",
+      "bytes": 2030,
+      "sha256": "db48b6bf7247094c680c17efda7471cc13e591635b5d6067d63a647bcc1badcc"
+    },
+    {
+      "path": "apps/mobile/assets/library/icon-resource-stress-v1.webp",
+      "bytes": 2030,
+      "sha256": "db48b6bf7247094c680c17efda7471cc13e591635b5d6067d63a647bcc1badcc"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 550
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:51:38.521Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

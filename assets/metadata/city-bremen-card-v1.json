@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-bremen-card-v1",
+  "manifest_order": 153,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "bremen",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-bremen-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100153,
+  "content_hash": "cddf21daf93b58c66404fbd0ef2bc08f7b1d7ce74f32f3af73323444b7cf53dc",
+  "source_file": "assets/source/cities/city-bremen-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-bremen-card-v1-320.avif",
+      "bytes": 3463,
+      "sha256": "d222736643a9b4d7fab814ac44bff12f25c59111573d14dd62510f6e4c8c919d"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-card-v1-320.webp",
+      "bytes": 3360,
+      "sha256": "484275e049ab7fd54be40111821bbd5a74e6829520790257c8da88aac022ca7f"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-card-v1-640.avif",
+      "bytes": 7462,
+      "sha256": "d1187e236ccde172d24dd09ef667c28dfc400e3b325f8eb2b55e8f40ec3f2d4f"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-card-v1-640.webp",
+      "bytes": 6364,
+      "sha256": "c751312cf660ac14137a44185ee85100d0dbae7a8c65cf2a1e6b0292565303ee"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-card-v1-960.avif",
+      "bytes": 13018,
+      "sha256": "af6e41213bca799608c0c0f6307075045fed378fb25f07b4d37a331248d33672"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-card-v1-960.webp",
+      "bytes": 10798,
+      "sha256": "5a55a270e4f4e51f00fa6dad32507fa484a629edc474678f627c22b001e36ce7"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-card-v1-1280.avif",
+      "bytes": 18131,
+      "sha256": "68e82048a89af6ca912c8168ccedf302b249912356dab82d098c83e4955c9466"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-card-v1-1280.webp",
+      "bytes": 14634,
+      "sha256": "1483cbfbfc2df7a0edcda70431934ad7be808139b678d4a6fa03ac7eae33fbb5"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-card-v1-1920.avif",
+      "bytes": 27520,
+      "sha256": "3cff4fe343671eceac18f96f175065cbfda1ae45a6ed62deda6d4bca22fb1551"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-card-v1-1920.webp",
+      "bytes": 24080,
+      "sha256": "f793f653c5ba6979bc792a477a008e4e06513c14de288b83ef01fd56e647c7f1"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-card-v1-2560.avif",
+      "bytes": 38549,
+      "sha256": "4eb9776b8c67ed47c48bdd9c9784d7058faa8a609c5c2f38158db6dc4a6a4ab8"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-card-v1-2560.webp",
+      "bytes": 35732,
+      "sha256": "3ede09fe4b6a7a43f4f69869a24057257bcbb249a97620774a723f2ca5bc0dbf"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-card-v1-3840.avif",
+      "bytes": 63156,
+      "sha256": "bd4d5525599efeda750cbd9d257867ca414f519ada6773e9107e5afbcbb972d9"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-card-v1-3840.webp",
+      "bytes": 64480,
+      "sha256": "04fe2d5c786fe9983955e46a011f2fe92c65b1a44b0b22e9fe85f75c240c0fdf"
+    },
+    {
+      "path": "assets/production/png/city-bremen-card-v1-1280.png",
+      "bytes": 1260501,
+      "sha256": "5efdca133ef22508c2d4de8e3d1dc33f0fb255bc2dbc75b6b75b1f4a062c9c2d"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-card-v1-320.avif",
+      "bytes": 3463,
+      "sha256": "d222736643a9b4d7fab814ac44bff12f25c59111573d14dd62510f6e4c8c919d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-card-v1-320.webp",
+      "bytes": 3360,
+      "sha256": "484275e049ab7fd54be40111821bbd5a74e6829520790257c8da88aac022ca7f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-card-v1-640.avif",
+      "bytes": 7462,
+      "sha256": "d1187e236ccde172d24dd09ef667c28dfc400e3b325f8eb2b55e8f40ec3f2d4f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-card-v1-640.webp",
+      "bytes": 6364,
+      "sha256": "c751312cf660ac14137a44185ee85100d0dbae7a8c65cf2a1e6b0292565303ee"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-card-v1-960.avif",
+      "bytes": 13018,
+      "sha256": "af6e41213bca799608c0c0f6307075045fed378fb25f07b4d37a331248d33672"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-card-v1-960.webp",
+      "bytes": 10798,
+      "sha256": "5a55a270e4f4e51f00fa6dad32507fa484a629edc474678f627c22b001e36ce7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-card-v1-1280.avif",
+      "bytes": 18131,
+      "sha256": "68e82048a89af6ca912c8168ccedf302b249912356dab82d098c83e4955c9466"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-card-v1-1280.webp",
+      "bytes": 14634,
+      "sha256": "1483cbfbfc2df7a0edcda70431934ad7be808139b678d4a6fa03ac7eae33fbb5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-card-v1-1920.avif",
+      "bytes": 27520,
+      "sha256": "3cff4fe343671eceac18f96f175065cbfda1ae45a6ed62deda6d4bca22fb1551"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-card-v1-1920.webp",
+      "bytes": 24080,
+      "sha256": "f793f653c5ba6979bc792a477a008e4e06513c14de288b83ef01fd56e647c7f1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-card-v1-2560.avif",
+      "bytes": 38549,
+      "sha256": "4eb9776b8c67ed47c48bdd9c9784d7058faa8a609c5c2f38158db6dc4a6a4ab8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-card-v1-2560.webp",
+      "bytes": 35732,
+      "sha256": "3ede09fe4b6a7a43f4f69869a24057257bcbb249a97620774a723f2ca5bc0dbf"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-card-v1-3840.avif",
+      "bytes": 63156,
+      "sha256": "bd4d5525599efeda750cbd9d257867ca414f519ada6773e9107e5afbcbb972d9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-card-v1-3840.webp",
+      "bytes": 64480,
+      "sha256": "04fe2d5c786fe9983955e46a011f2fe92c65b1a44b0b22e9fe85f75c240c0fdf"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-card-v1-1280.png",
+      "bytes": 1260501,
+      "sha256": "5efdca133ef22508c2d4de8e3d1dc33f0fb255bc2dbc75b6b75b1f4a062c9c2d"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-bremen-card-v1.webp",
+      "bytes": 3360,
+      "sha256": "484275e049ab7fd54be40111821bbd5a74e6829520790257c8da88aac022ca7f"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-bremen-card-v1.webp",
+      "bytes": 3360,
+      "sha256": "484275e049ab7fd54be40111821bbd5a74e6829520790257c8da88aac022ca7f"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.608Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1675287
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:02:33.157Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

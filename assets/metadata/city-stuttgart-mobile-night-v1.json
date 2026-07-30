@@ -170,35 +170,49 @@
       "path": "apps/web/public/assets/cities/city-stuttgart-mobile-night-v1-1152.png",
       "bytes": 3641052,
       "sha256": "793fb92ed0a5035d90d6c84af1ec40462bd33752bd4a2b6e9df3c1f80d6ba606"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-stuttgart-mobile-night-v1.webp",
+      "bytes": 12988,
+      "sha256": "3d0bf1b1978a64d1e31f8ca5c78883fcdddb823d0d016d727bff7ef30a7c330b"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-stuttgart-mobile-night-v1.webp",
+      "bytes": 12988,
+      "sha256": "3d0bf1b1978a64d1e31f8ca5c78883fcdddb823d0d016d727bff7ef30a7c330b"
     }
   ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,
   "moderation_status": "approved",
-  "quality_score": 99.3,
+  "quality_score": 92.9,
   "quality_status": "approved",
   "review_status": "codex-visual-approved",
   "visual_review": {
-    "realism": 99,
-    "style_consistency": 100,
-    "composition": 100,
-    "material_quality": 99,
-    "lighting_quality": 99,
-    "architecture_plausibility": 99,
-    "ui_suitability": 100,
-    "mobile_suitability": 100,
-    "originality": 97,
-    "safety_compliance": 100,
-    "accepted_prompt": "Create the coordinated 9:16 portrait mobile night counterpart for this accepted fictional Stuttgart-inspired SHADOWGRID daytime basin-engineering-metropolis hero.\n\nPreserve the exact portrait camera and original geometry: calm cloud and atmospheric basin field across the full upper 32%, first readable wooded ridge below that safe-zone boundary, layered flat-roofed hillside neighborhoods, pale-stone and restrained glass research/services district, linear rainwater garden, planted terraces, middle city decision area, and the full bottom 18% calm dark wet-terrace and foliage primary-control zone. Keep it clearly the same original city composition. Do not reveal or invent any operational street, path, water-management, rail, corporate, industrial, factory, campus, or civic layout.\n\nTransform the scene to physically plausible post-rain night: deep anthracite and cool blue-gray cloud layers, restrained irregular warm-neutral windows, subtle low-level path and rainwater-garden practical lights, readable midtone pale stone, brushed metal, dark glass, planted roofs, trees, wet terrace, and shallow-water reflections, premium contemporary architectural photography, realistic lens and depth, and a restrained corporate-thriller mood. Keep the entire upper 32% calm, dark, and low-detail without a bright cloud break, ridge intrusion, tower, spire, lamp, sign, screen, aircraft, or high-contrast object. Keep the entire bottom 18% calm and dark without buildings, vehicles, signs, lamps, detailed paths, or bright reflections.\n\nAvoid automobile-show lighting, showroom displays, bright branded facade panels, media screens, patterned window lighting, saturated neon, overexposure, emergency lighting, warning-red gameplay cues, black crush, excessive haze, spectacle, test-track lighting, or factory-process imagery.\n\nDo not add or imitate the Stuttgart Fernsehturm, Schlossplatz, Neues Schloss, Stuttgart Hauptbahnhof or tower, Staatsgalerie, Wilhelma, Mercedes-Benz Museum, Porsche Museum, churches, cathedral spires, monuments, civic towers, antenna landmarks, real automaker logos or products, recognizable automobile plants, real rail corridors, test tracks, corporate campuses, or any known photograph or viewpoint. Do not add an identifiable real manufacturer, research institution, authority, transit operator, industrial process, factory interior, logistics route, or operational transport plan.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, criminal symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, factory procedures, vehicle schematics, fantasy architecture, impossible slopes or structures, excessive neon, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 9:16 night basin-engineering-metropolis environment, intended final size 1152×2048, with no border, title, UI, or device mockup.",
-    "reference_images": [
-      "assets/source/cities/city-stuttgart-mobile-day-v1.png"
-    ],
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.380Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
     "notes": [
-      "Accepted first night-conversion attempt.",
-      "The exact portrait camera, upper cloud safe zone, first wooded ridge, hillside neighborhoods, research/services district, rainwater garden, middle decision area, and lower terrace/foliage control zone remain coordinated with the approved daytime counterpart.",
-      "Restrained irregular practical and window lighting preserves readable materials without title-zone intrusion, showroom displays, branding, facade screens, test-track cues, factory-process imagery, or warning-red spectacle.",
-      "No real automaker, product, campus, factory, known Stuttgart landmark, tower, spire, authority, operational layout, embedded text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or wrongdoing is present."
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
     ]
   },
   "technical_validation": {

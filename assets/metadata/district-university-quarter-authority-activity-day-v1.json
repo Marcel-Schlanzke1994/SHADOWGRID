@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-university-quarter-authority-activity-day-v1",
+  "manifest_order": 429,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "authority-activity-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-university-quarter-authority-activity-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100429,
+  "content_hash": "1ec73779016eb18fb348b956efce5340e44616cca1d8dd88edc2ede802cd8776",
+  "source_file": "assets/source/districts/district-university-quarter-authority-activity-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-university-quarter-authority-activity-day-v1-320.avif",
+      "bytes": 2901,
+      "sha256": "8c9d8323631c578ffdccfd2f8e4d6f68317a0c3f73be21e55be11be90d33d3e9"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-authority-activity-day-v1-320.webp",
+      "bytes": 2570,
+      "sha256": "2bbe9ef4e3fbd6c4c4a0e2fe6404a9c33130f9c1279f6c540d9f3eb0abc9b10e"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-authority-activity-day-v1-640.avif",
+      "bytes": 6317,
+      "sha256": "f1f296cb3d9d661c68258f1e744cede59609d83bf513ea977e2085a7f0721e00"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-authority-activity-day-v1-640.webp",
+      "bytes": 5160,
+      "sha256": "41669aa4679b17bb410d20a6d11d6da62a9030e41f7ddac9cd10a2a0c19b6e2b"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-authority-activity-day-v1-960.avif",
+      "bytes": 10346,
+      "sha256": "1416adf1e22005b15e372681d28c790a7f219e677e746344671d694a237fd6ea"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-authority-activity-day-v1-960.webp",
+      "bytes": 8752,
+      "sha256": "379dd37ea21b415bd36458b0fb1b70d7d420ebd7bd2a07934e12ea358468dc32"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-authority-activity-day-v1-1280.avif",
+      "bytes": 14493,
+      "sha256": "4449db155d9305cb222174cb2287f883f7c36e0fca8a759a9d2175697521260e"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-authority-activity-day-v1-1280.webp",
+      "bytes": 11382,
+      "sha256": "6e552d738c817de840f4aba28dbd1e8b37d878af9362e7d94107cc0c6e4a1f12"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-authority-activity-day-v1-1920.avif",
+      "bytes": 22036,
+      "sha256": "46d3c663146462deb5f49e1073620d279ee4b418dd9dd119a35dbc0d6b9fd713"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-authority-activity-day-v1-1920.webp",
+      "bytes": 18462,
+      "sha256": "92fb1d04ae88780d8ffbaeddd63209ff41dc3605f0009bbcdc5cbf4dccc39930"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-authority-activity-day-v1-2560.avif",
+      "bytes": 29931,
+      "sha256": "94673739362a921125c3fb1237d808afecc3a7e729b33413c0b867c80b8775e7"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-authority-activity-day-v1-2560.webp",
+      "bytes": 25566,
+      "sha256": "8a2c87f9ac61adecd4143a413ebe8cd36b234d8c3d18a7475711096932186e29"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-authority-activity-day-v1-3840.avif",
+      "bytes": 48732,
+      "sha256": "e56099709e147afb81bb2ba70ff0cdc94e3da907efc5d45c3e9a7e400c089594"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-authority-activity-day-v1-3840.webp",
+      "bytes": 44686,
+      "sha256": "534e03a1023270813116f83669a82cbdb507e36d19f5eb87ff2a908cfe7ebe7e"
+    },
+    {
+      "path": "assets/production/png/district-university-quarter-authority-activity-day-v1-1280.png",
+      "bytes": 630889,
+      "sha256": "ee0c9b7983ec293a94d9ae101b2aecc8f10981b1af3890cb7d9642a98db80438"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-university-quarter-authority-activity-day-v1.webp",
+      "bytes": 2570,
+      "sha256": "2bbe9ef4e3fbd6c4c4a0e2fe6404a9c33130f9c1279f6c540d9f3eb0abc9b10e"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-university-quarter-authority-activity-day-v1.webp",
+      "bytes": 2570,
+      "sha256": "2bbe9ef4e3fbd6c4c4a0e2fe6404a9c33130f9c1279f6c540d9f3eb0abc9b10e"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.127Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1447913
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:41:05.512Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

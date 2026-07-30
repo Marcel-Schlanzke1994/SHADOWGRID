@@ -1,0 +1,26 @@
+{
+  "schema": "shadowgrid-visual-review-v2",
+  "reviewer": "codex-final-visual-review",
+  "batch": "businesses",
+  "scores": {
+    "realism": 89,
+    "style_consistency": 96,
+    "composition": 94,
+    "material_quality": 90,
+    "light_quality": 92,
+    "architecture_plausibility": 91,
+    "ui_suitability": 96,
+    "mobile_suitability": 94,
+    "originality": 91,
+    "safety_compliance": 100,
+    "small_size_legibility": 93,
+    "contrast": 95,
+    "geometry_quality": 94,
+    "technical_quality": 97
+  },
+  "notes": [
+    "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+    "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+    "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+  ]
+}

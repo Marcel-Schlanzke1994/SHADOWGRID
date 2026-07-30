@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-affluent-residential-normal-night-v1",
+  "manifest_order": 440,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal-night",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-affluent-residential-normal-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100440,
+  "content_hash": "b9716e11c03dcc365bf4bb918ca55bf59c9763f573d648fc20c67290580eb17d",
+  "source_file": "assets/source/districts/district-affluent-residential-normal-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-affluent-residential-normal-night-v1-320.avif",
+      "bytes": 3422,
+      "sha256": "14fe4929baf698141d994e2d6fc729d81308fe70c3c6dace89e260c31e5f9ffe"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-normal-night-v1-320.webp",
+      "bytes": 3406,
+      "sha256": "6f8412939895e50092a009aec73bb4c83125f693ff2e6aa95ede2f0fd1cd9332"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-normal-night-v1-640.avif",
+      "bytes": 7281,
+      "sha256": "61feaa6c8edf8baef2b6f740638f0d2732699a4ba27878243c485313796de096"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-normal-night-v1-640.webp",
+      "bytes": 7392,
+      "sha256": "54bb7148f27df11e501d870656e837eb5cf587bcff22db94fa47f673873a8135"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-normal-night-v1-960.avif",
+      "bytes": 12191,
+      "sha256": "e1f69dd217ae4b154f6c19369cfcbe8ceda33096f549a2562ff4570aaf6fef80"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-normal-night-v1-960.webp",
+      "bytes": 12698,
+      "sha256": "4fac1b078b1d3b7965779043e82aaf13dfbabc57d7927e429ddacc23ae281f28"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-normal-night-v1-1280.avif",
+      "bytes": 16697,
+      "sha256": "4ed656bf76f79340c6a7bda0742b5ea5014ffc1397ab898232c3098f750a9b65"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-normal-night-v1-1280.webp",
+      "bytes": 16894,
+      "sha256": "8c5d90ea01b073da51372f0a6355e532f9b0bc86ec9085f73bf202be783a4ded"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-normal-night-v1-1920.avif",
+      "bytes": 25932,
+      "sha256": "5326453ec59c164ddb4f3922b4e80ece89ece96e8f5a3187ed61b57b3bfc47ae"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-normal-night-v1-1920.webp",
+      "bytes": 25816,
+      "sha256": "d327dcf388a2b586c96c9c7b76a8202644540f9594c050205517eed6932de669"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-normal-night-v1-2560.avif",
+      "bytes": 35018,
+      "sha256": "8ee22715545eeffb4ffe577f3d7bbf88e77e8e56d73f621c7eb7ceb4d1bb41f6"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-normal-night-v1-2560.webp",
+      "bytes": 34674,
+      "sha256": "8e88ba7a962d986ecc6aaa791bf590badb5c946152ecff2e856c4b6b7c3988bf"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-normal-night-v1-3840.avif",
+      "bytes": 56048,
+      "sha256": "acecd7a0dfe0db4e74da36eedf78e6ab9e5bbe3989de0930963117d7b3696660"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-normal-night-v1-3840.webp",
+      "bytes": 53004,
+      "sha256": "37930d2c25ed934653c9f9908774f63179a8a0c4562e0ee257514775c5632a47"
+    },
+    {
+      "path": "assets/production/png/district-affluent-residential-normal-night-v1-1280.png",
+      "bytes": 649184,
+      "sha256": "4e0d360da5b78289d24b03b4834a7ecdf60083429378d30a0fbc04628f79b0e0"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-affluent-residential-normal-night-v1.webp",
+      "bytes": 3406,
+      "sha256": "6f8412939895e50092a009aec73bb4c83125f693ff2e6aa95ede2f0fd1cd9332"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-affluent-residential-normal-night-v1.webp",
+      "bytes": 3406,
+      "sha256": "6f8412939895e50092a009aec73bb4c83125f693ff2e6aa95ede2f0fd1cd9332"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.263Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1440757
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:45:06.414Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

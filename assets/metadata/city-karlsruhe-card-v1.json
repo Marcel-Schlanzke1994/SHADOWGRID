@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-karlsruhe-card-v1",
+  "manifest_order": 249,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "karlsruhe",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-karlsruhe-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100249,
+  "content_hash": "391d6f5dc77628aeb235154827777b783ae26681a58bf76667d4379ca568d3e1",
+  "source_file": "assets/source/cities/city-karlsruhe-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-karlsruhe-card-v1-320.avif",
+      "bytes": 3519,
+      "sha256": "4cfcf15b0c17dad91cc6749921682bd616bd38f8256586b2674d8bb676d413be"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-card-v1-320.webp",
+      "bytes": 3356,
+      "sha256": "018a27984c666e23b61887fb1f2a803e7d5e49d9e759740c722c9a1ed3c43a6c"
+    },
+    {
+      "path": "assets/production/avif/city-karlsruhe-card-v1-640.avif",
+      "bytes": 7700,
+      "sha256": "5e04c022d064d293a1c3e69c4288534df3f6838370ffff2f83ccc2148254a620"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-card-v1-640.webp",
+      "bytes": 6522,
+      "sha256": "516b0e9278eaf7f650929b043e5d5240983ff517295e1a877cfdd0ecdc335dc7"
+    },
+    {
+      "path": "assets/production/avif/city-karlsruhe-card-v1-960.avif",
+      "bytes": 13374,
+      "sha256": "b32e302b8f78c0b66b805261dc97ce3f0bb620728afb1ef5697c9668598892d6"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-card-v1-960.webp",
+      "bytes": 10836,
+      "sha256": "3111776939c396c6495305971164ca3de50958d87be37c6e96be084d91f9d9b0"
+    },
+    {
+      "path": "assets/production/avif/city-karlsruhe-card-v1-1280.avif",
+      "bytes": 18511,
+      "sha256": "9188382c7a7086e2298e6979c289b20c4dd8aa6d81a2951a1ac3253fd9da7a7f"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-card-v1-1280.webp",
+      "bytes": 14672,
+      "sha256": "1c0edbd2fc429e6643c4d78a101ce1833425ca6e2ec166465d89c151eebc4815"
+    },
+    {
+      "path": "assets/production/avif/city-karlsruhe-card-v1-1920.avif",
+      "bytes": 27608,
+      "sha256": "e12897482eeace80792d771c72302bb7d5e91090ae1b4dcdc9db2114e69d2945"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-card-v1-1920.webp",
+      "bytes": 24294,
+      "sha256": "4f541df92cd4a463485299c77133ff58640554a4bae5dfaeb527b307cfdc7316"
+    },
+    {
+      "path": "assets/production/avif/city-karlsruhe-card-v1-2560.avif",
+      "bytes": 38900,
+      "sha256": "b1084ceff5bedcec70ae81d2fb1289233c7cf1451ba0e0cbe76ad8740f61cd12"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-card-v1-2560.webp",
+      "bytes": 36630,
+      "sha256": "28b02c7241cd45510ea5273d685d5117b231572d1aec728d2f39793a3f39535c"
+    },
+    {
+      "path": "assets/production/avif/city-karlsruhe-card-v1-3840.avif",
+      "bytes": 62786,
+      "sha256": "836294a0a552a601d4e8bbf2b1205c7c2956b9ce660bd25f29bf2f61a955e44b"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-card-v1-3840.webp",
+      "bytes": 64608,
+      "sha256": "b0871a2f8ec41fe845c5db573552dad6bb442b5866e01f1a6d3b05e65453bacb"
+    },
+    {
+      "path": "assets/production/png/city-karlsruhe-card-v1-1280.png",
+      "bytes": 1270446,
+      "sha256": "71de9b0d09cf92815a0e9917458fb77b289b82f201bc7ba102e436b34e9821be"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-card-v1-320.avif",
+      "bytes": 3519,
+      "sha256": "4cfcf15b0c17dad91cc6749921682bd616bd38f8256586b2674d8bb676d413be"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-card-v1-320.webp",
+      "bytes": 3356,
+      "sha256": "018a27984c666e23b61887fb1f2a803e7d5e49d9e759740c722c9a1ed3c43a6c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-card-v1-640.avif",
+      "bytes": 7700,
+      "sha256": "5e04c022d064d293a1c3e69c4288534df3f6838370ffff2f83ccc2148254a620"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-card-v1-640.webp",
+      "bytes": 6522,
+      "sha256": "516b0e9278eaf7f650929b043e5d5240983ff517295e1a877cfdd0ecdc335dc7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-card-v1-960.avif",
+      "bytes": 13374,
+      "sha256": "b32e302b8f78c0b66b805261dc97ce3f0bb620728afb1ef5697c9668598892d6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-card-v1-960.webp",
+      "bytes": 10836,
+      "sha256": "3111776939c396c6495305971164ca3de50958d87be37c6e96be084d91f9d9b0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-card-v1-1280.avif",
+      "bytes": 18511,
+      "sha256": "9188382c7a7086e2298e6979c289b20c4dd8aa6d81a2951a1ac3253fd9da7a7f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-card-v1-1280.webp",
+      "bytes": 14672,
+      "sha256": "1c0edbd2fc429e6643c4d78a101ce1833425ca6e2ec166465d89c151eebc4815"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-card-v1-1920.avif",
+      "bytes": 27608,
+      "sha256": "e12897482eeace80792d771c72302bb7d5e91090ae1b4dcdc9db2114e69d2945"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-card-v1-1920.webp",
+      "bytes": 24294,
+      "sha256": "4f541df92cd4a463485299c77133ff58640554a4bae5dfaeb527b307cfdc7316"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-card-v1-2560.avif",
+      "bytes": 38900,
+      "sha256": "b1084ceff5bedcec70ae81d2fb1289233c7cf1451ba0e0cbe76ad8740f61cd12"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-card-v1-2560.webp",
+      "bytes": 36630,
+      "sha256": "28b02c7241cd45510ea5273d685d5117b231572d1aec728d2f39793a3f39535c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-card-v1-3840.avif",
+      "bytes": 62786,
+      "sha256": "836294a0a552a601d4e8bbf2b1205c7c2956b9ce660bd25f29bf2f61a955e44b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-card-v1-3840.webp",
+      "bytes": 64608,
+      "sha256": "b0871a2f8ec41fe845c5db573552dad6bb442b5866e01f1a6d3b05e65453bacb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-card-v1-1280.png",
+      "bytes": 1270446,
+      "sha256": "71de9b0d09cf92815a0e9917458fb77b289b82f201bc7ba102e436b34e9821be"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-karlsruhe-card-v1.webp",
+      "bytes": 3356,
+      "sha256": "018a27984c666e23b61887fb1f2a803e7d5e49d9e759740c722c9a1ed3c43a6c"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-karlsruhe-card-v1.webp",
+      "bytes": 3356,
+      "sha256": "018a27984c666e23b61887fb1f2a803e7d5e49d9e759740c722c9a1ed3c43a6c"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.589Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1675229
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:34:36.624Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

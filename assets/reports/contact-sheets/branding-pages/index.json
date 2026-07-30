@@ -1,0 +1,29 @@
+{
+  "schema": "shadowgrid/contact-sheet-pages/v1",
+  "batch": "branding",
+  "generated_at": "2026-07-30T05:53:40.806Z",
+  "asset_count": 14,
+  "page_size": 18,
+  "pages": [
+    {
+      "page": 1,
+      "path": "assets/reports/contact-sheets/branding-pages/page-001.png",
+      "assets": [
+        "branding-shadowgrid-logo-horizontal-dark-v1",
+        "branding-shadowgrid-logo-horizontal-light-v1",
+        "branding-shadowgrid-logo-vertical-dark-v1",
+        "branding-shadowgrid-logo-vertical-light-v1",
+        "branding-shadowgrid-symbol-gold-v1",
+        "branding-shadowgrid-symbol-white-v1",
+        "branding-shadowgrid-symbol-black-v1",
+        "branding-shadowgrid-symbol-monochrome-v1",
+        "branding-shadowgrid-wordmark-horizontal-v1",
+        "branding-shadowgrid-wordmark-compact-v1",
+        "branding-shadowgrid-app-icon-master-v1",
+        "branding-shadowgrid-android-adaptive-foreground-v1",
+        "branding-shadowgrid-android-adaptive-background-v1",
+        "branding-shadowgrid-favicon-v1"
+      ]
+    }
+  ]
+}

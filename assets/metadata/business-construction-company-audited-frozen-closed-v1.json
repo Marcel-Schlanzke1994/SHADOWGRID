@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-construction-company-audited-frozen-closed-v1",
+  "manifest_order": 504,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "audited-frozen-closed",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-construction-company-audited-frozen-closed-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100504,
+  "content_hash": "7cedc5ff6ec40078fef22f820c57822421cd139327bdf00558652076640933e0",
+  "source_file": "assets/source/businesses/business-construction-company-audited-frozen-closed-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-construction-company-audited-frozen-closed-v1-320.avif",
+      "bytes": 2971,
+      "sha256": "7f641ea9340a6faf51a0410f40b38203c339e6f59732b8fdcd9eb8fe3deb54d1"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-audited-frozen-closed-v1-320.webp",
+      "bytes": 2728,
+      "sha256": "52760f31ee2b70dfd584ad2c8dc1a7f3cc65f1e49464caef1e8423f8ed35594a"
+    },
+    {
+      "path": "assets/production/avif/business-construction-company-audited-frozen-closed-v1-640.avif",
+      "bytes": 6433,
+      "sha256": "6c08b4cdbf8069c7116f566a92a38dd4328b81c243fbd37bbf3d2a6013f2175f"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-audited-frozen-closed-v1-640.webp",
+      "bytes": 5258,
+      "sha256": "a81134502c0c832a114f9c5b3f9e28f3941e98a38e8e865538997f72422afed7"
+    },
+    {
+      "path": "assets/production/avif/business-construction-company-audited-frozen-closed-v1-960.avif",
+      "bytes": 10829,
+      "sha256": "c5f8e2419e8bd96188d8b9d010cdd5789e4fac29172d72d0c5fc07b871885146"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-audited-frozen-closed-v1-960.webp",
+      "bytes": 8888,
+      "sha256": "bdfbb3e534c06d2d82de748d71562b82ad8b14882f66616e89c067982589e713"
+    },
+    {
+      "path": "assets/production/avif/business-construction-company-audited-frozen-closed-v1-1280.avif",
+      "bytes": 14818,
+      "sha256": "0038e56be8051aba8726d3da6311bb8ae782a62d3c4145f47d7945c68185f4d9"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-audited-frozen-closed-v1-1280.webp",
+      "bytes": 11946,
+      "sha256": "ebc057d648604599da108b9d98a38af5a0f60c5008f86ba2c6e1b515c92120d8"
+    },
+    {
+      "path": "assets/production/avif/business-construction-company-audited-frozen-closed-v1-1920.avif",
+      "bytes": 22669,
+      "sha256": "e938f81ddcc83ed3379e93a1605c0df7d3624da169e1ace6f4734a3a5b13bc52"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-audited-frozen-closed-v1-1920.webp",
+      "bytes": 18904,
+      "sha256": "640d5bf9c2a967a55f63c2bb803cf5733b15fa1715a4c7e15d0d90ddeafa50e1"
+    },
+    {
+      "path": "assets/production/avif/business-construction-company-audited-frozen-closed-v1-2560.avif",
+      "bytes": 30458,
+      "sha256": "60d9307a200501aa1d066de4b365aaf0ccacf37b8733e2042259821f2866a5bf"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-audited-frozen-closed-v1-2560.webp",
+      "bytes": 26062,
+      "sha256": "039ce0d63d99cba8aeeaf2bad4939b9e48b9d2e63cb38446340a9f6cca5da1c3"
+    },
+    {
+      "path": "assets/production/avif/business-construction-company-audited-frozen-closed-v1-3840.avif",
+      "bytes": 49597,
+      "sha256": "e3ac065b67c73a0418a01f3299862c7ae1353ff7fce0efdc561df5938b1ae775"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-audited-frozen-closed-v1-3840.webp",
+      "bytes": 45396,
+      "sha256": "710817e13fc3a479b77765f5ecaa45ff510e2bb70d9f853459c7745fd7f7629a"
+    },
+    {
+      "path": "assets/production/png/business-construction-company-audited-frozen-closed-v1-1280.png",
+      "bytes": 635757,
+      "sha256": "dfa47a502602e33f8dacaa757b9465c7b58e9cd73d5de432f80c840a65fa6a4d"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-construction-company-audited-frozen-closed-v1.webp",
+      "bytes": 2728,
+      "sha256": "52760f31ee2b70dfd584ad2c8dc1a7f3cc65f1e49464caef1e8423f8ed35594a"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-construction-company-audited-frozen-closed-v1.webp",
+      "bytes": 2728,
+      "sha256": "52760f31ee2b70dfd584ad2c8dc1a7f3cc65f1e49464caef1e8423f8ed35594a"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.771Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1443448
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:35:48.357Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-nightlife-quarter-economic-boom-day-v1",
+  "manifest_order": 417,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "economic-boom-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-nightlife-quarter-economic-boom-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100417,
+  "content_hash": "b38744fe222b036f3f3ab3ee26d2b5be4bd5a1e76ab2a6a013584244fcd40c36",
+  "source_file": "assets/source/districts/district-nightlife-quarter-economic-boom-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-nightlife-quarter-economic-boom-day-v1-320.avif",
+      "bytes": 3649,
+      "sha256": "d690772a2c3039d467f2c7cc54936a5dee41ee8634b964fceb2a8489599e7ccb"
+    },
+    {
+      "path": "assets/production/webp/district-nightlife-quarter-economic-boom-day-v1-320.webp",
+      "bytes": 3668,
+      "sha256": "792549cfbde97c50de8a7523855de02a0fed7442ef3836606b61fdb7a099c0c6"
+    },
+    {
+      "path": "assets/production/avif/district-nightlife-quarter-economic-boom-day-v1-640.avif",
+      "bytes": 7669,
+      "sha256": "ad7e903e9c7ae787418f7ef88c4eaa7d77cda5e92130f3474cbc727e80e48ddf"
+    },
+    {
+      "path": "assets/production/webp/district-nightlife-quarter-economic-boom-day-v1-640.webp",
+      "bytes": 8250,
+      "sha256": "78918f4af4f59b6b8796d0f2aa51967311d8901a7262f384d1cc3dd64ebea037"
+    },
+    {
+      "path": "assets/production/avif/district-nightlife-quarter-economic-boom-day-v1-960.avif",
+      "bytes": 13409,
+      "sha256": "50e7fa88c8373dc26890fce0cb9d4917deef332c4c8c518c41408f75d31e8a05"
+    },
+    {
+      "path": "assets/production/webp/district-nightlife-quarter-economic-boom-day-v1-960.webp",
+      "bytes": 14200,
+      "sha256": "d6cbe8c793daa35d419554dc988db2d934baa2eea76efe7734c300d8224d8d6d"
+    },
+    {
+      "path": "assets/production/avif/district-nightlife-quarter-economic-boom-day-v1-1280.avif",
+      "bytes": 18346,
+      "sha256": "0d6b09fd883326e357efadada4ae736dd441399a3c30348bfa5f1fafd2c151e1"
+    },
+    {
+      "path": "assets/production/webp/district-nightlife-quarter-economic-boom-day-v1-1280.webp",
+      "bytes": 18162,
+      "sha256": "3adaff8abde43c8d8bebfd72a11033f3a90ff16fff3e79a21fdae827da4a37b5"
+    },
+    {
+      "path": "assets/production/avif/district-nightlife-quarter-economic-boom-day-v1-1920.avif",
+      "bytes": 28058,
+      "sha256": "3b5c54d4594adb32ce003dc273aa6c0b6a8825c2f8c1a74839f9494dbadea41c"
+    },
+    {
+      "path": "assets/production/webp/district-nightlife-quarter-economic-boom-day-v1-1920.webp",
+      "bytes": 27280,
+      "sha256": "feb84ce75835aa6cec8e05046776a9efdd2f61ce8b5224ab7c8b8abd003d10e2"
+    },
+    {
+      "path": "assets/production/avif/district-nightlife-quarter-economic-boom-day-v1-2560.avif",
+      "bytes": 37852,
+      "sha256": "11b52ddaab90c9ca5e89ac0bdeafc7ecb7d507414a96f2da4a0fd649572b796c"
+    },
+    {
+      "path": "assets/production/webp/district-nightlife-quarter-economic-boom-day-v1-2560.webp",
+      "bytes": 36386,
+      "sha256": "4236ff98d61723ce886c4a0e7cfedce1367b37caea738a0bdbb74b8749244c35"
+    },
+    {
+      "path": "assets/production/avif/district-nightlife-quarter-economic-boom-day-v1-3840.avif",
+      "bytes": 60794,
+      "sha256": "91b343a18624a6ec50f18d8e745bc0841fe29933e6d5509145a4f928a20acc1d"
+    },
+    {
+      "path": "assets/production/webp/district-nightlife-quarter-economic-boom-day-v1-3840.webp",
+      "bytes": 56904,
+      "sha256": "d482e12b0d84e83fb1870b19ec9a288fee73fa263f99fb30c77087402064ea7a"
+    },
+    {
+      "path": "assets/production/png/district-nightlife-quarter-economic-boom-day-v1-1280.png",
+      "bytes": 666225,
+      "sha256": "78062f22a782525bcf98b5ae947c7c8b914d906f9bc1361af7a926643fe0b5a8"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-nightlife-quarter-economic-boom-day-v1.webp",
+      "bytes": 3668,
+      "sha256": "792549cfbde97c50de8a7523855de02a0fed7442ef3836606b61fdb7a099c0c6"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-nightlife-quarter-economic-boom-day-v1.webp",
+      "bytes": 3668,
+      "sha256": "792549cfbde97c50de8a7523855de02a0fed7442ef3836606b61fdb7a099c0c6"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.986Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1466007
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:37:02.618Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "asset_id": "city-template-metropolis-river-night-desktop-v1",
+  "manifest_order": 308,
+  "category": "city-template",
+  "batch": "procedural-city-templates",
+  "city": null,
+  "variant": "night-desktop",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-template-metropolis-river-night-desktop-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100308,
+  "content_hash": "601dd7473adc81eb3196971c8acf7412668f633ae2bc62c6bb6599450209ad03",
+  "source_file": "assets/source/global/city-template-metropolis-river-night-desktop-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-template-metropolis-river-night-desktop-v1-320.avif",
+      "bytes": 4059,
+      "sha256": "e3e4a5a1c0aebd75f73a514d8a49f187e0662d3a2df68d2358e6640d0f560c79"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-river-night-desktop-v1-320.webp",
+      "bytes": 4456,
+      "sha256": "5c76b959c3ba1eb7f7cea45548ca9f51410a0829ab4ad064fbaeeef183f9c917"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-river-night-desktop-v1-640.avif",
+      "bytes": 8648,
+      "sha256": "41094d7409d5ddfc661984b92ee9d6c22dd89a9b08b050977987691cef9469e6"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-river-night-desktop-v1-640.webp",
+      "bytes": 9408,
+      "sha256": "31342ae70acd39ec6d49fd8d7c4886f6ba06035be12cd30b9e5219a4015430cf"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-river-night-desktop-v1-960.avif",
+      "bytes": 14912,
+      "sha256": "ad434a5d0ace0f2db7689880bf1c403a2cef28ac27f7fdf66bb10576c4aa1415"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-river-night-desktop-v1-960.webp",
+      "bytes": 16014,
+      "sha256": "3474c3fb9e77be43e51eab46ec4adc56579f994b4d0377820d2d669cc825624b"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-river-night-desktop-v1-1280.avif",
+      "bytes": 20170,
+      "sha256": "348374bfd4f62c908281b6426890ef34a117ae83d0023c5b3d227fc53e08f8fd"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-river-night-desktop-v1-1280.webp",
+      "bytes": 21162,
+      "sha256": "879996168d95a73dd871483024a6a81b86b278deb53e357def15eb003238df0c"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-river-night-desktop-v1-1920.avif",
+      "bytes": 31039,
+      "sha256": "4a2edad5c8df2597529be0ec8b83ad3e4b6ccff677e51dc1ee294f1d76f2e713"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-river-night-desktop-v1-1920.webp",
+      "bytes": 30998,
+      "sha256": "81c7869f86c5b79235e9be12f94bed023c71912fa62eed95c479190cb57b7a96"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-river-night-desktop-v1-2560.avif",
+      "bytes": 42450,
+      "sha256": "2e008279d3b97503ddc5e1467e1cf59e3479c0a543dc7827cb61cadddd069eae"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-river-night-desktop-v1-2560.webp",
+      "bytes": 40138,
+      "sha256": "0b9f61ecfaa207f3c43b9d809b5ff687a2b944a5c7b8f64c220e8e44c0d35371"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-river-night-desktop-v1-3840.avif",
+      "bytes": 66327,
+      "sha256": "4bcfeac4ddda08642e92ebc6ce1ee258c9a6b5a3cfdd744fc6b39aad70bf8331"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-river-night-desktop-v1-3840.webp",
+      "bytes": 62332,
+      "sha256": "1c9e3a97ad95d7a170ef589a2587dae175f3df91bc17c32fda9bfc57590b507e"
+    },
+    {
+      "path": "assets/production/png/city-template-metropolis-river-night-desktop-v1-1280.png",
+      "bytes": 776747,
+      "sha256": "5475c88df07a400b64e8e8f6cd68f9a85ef8a2c55f1f655df6bc80936ceba6ee"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/city-template-metropolis-river-night-desktop-v1.webp",
+      "bytes": 4456,
+      "sha256": "5c76b959c3ba1eb7f7cea45548ca9f51410a0829ab4ad064fbaeeef183f9c917"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-template-metropolis-river-night-desktop-v1.webp",
+      "bytes": 4456,
+      "sha256": "5c76b959c3ba1eb7f7cea45548ca9f51410a0829ab4ad064fbaeeef183f9c917"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 91.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:54.811Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 92,
+      "material_quality": 87,
+      "light_quality": 89,
+      "architecture_plausibility": 89,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 92,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All four paged contact sheets were inspected at original resolution.",
+      "The templates are intentionally stylized deterministic fallbacks and remain compositionally useful across every required aspect ratio.",
+      "No missing render, broken geometry, sensitive infrastructure detail, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1709398
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:19:29.079Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

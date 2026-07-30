@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-bremen-desktop-day-v1",
+  "manifest_order": 149,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "bremen",
+  "variant": "desktop-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-bremen-desktop-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100149,
+  "content_hash": "797c32ddb3a7578ed1b21b13ff968590899342f3c69d3e0c1e278e04581ca08e",
+  "source_file": "assets/source/cities/city-bremen-desktop-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-bremen-desktop-day-v1-320.avif",
+      "bytes": 2870,
+      "sha256": "48dc13d24bdc3f3bbe2e98e3a0e3ca0c9c509368f9f566ba40a9012632d34939"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-desktop-day-v1-320.webp",
+      "bytes": 2590,
+      "sha256": "b6fca31460099419f91b1bf768b8c629571fa66d1903eb8626347151412e40e7"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-desktop-day-v1-640.avif",
+      "bytes": 6370,
+      "sha256": "6c19af6954ea5006dbc480ac3eca06396d493995a270cccb97b64d6b39030462"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-desktop-day-v1-640.webp",
+      "bytes": 5256,
+      "sha256": "175ee797c11045c77b07983a704e34133d83b19c4e7831d982b47f652fe15b53"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-desktop-day-v1-960.avif",
+      "bytes": 10104,
+      "sha256": "5da1b094db4ef6d88a52710ece574a59619373a16d36c6c32701846d9ca85c39"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-desktop-day-v1-960.webp",
+      "bytes": 8624,
+      "sha256": "33d84ce7408b0c423926683f660adcbb74b2d64b58eb9cbf7799e11fe26988e5"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-desktop-day-v1-1280.avif",
+      "bytes": 14709,
+      "sha256": "0ae6fa17fd0b8c4328090ef9e153273938b3b787bb589f3d7290c837bcfdf454"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-desktop-day-v1-1280.webp",
+      "bytes": 11522,
+      "sha256": "88a1dd0a553c5d6da0d6b74cbc990fc51ed5e2d622bb2d04f627d920bdbc98d9"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-desktop-day-v1-1920.avif",
+      "bytes": 21789,
+      "sha256": "1544bfefc018e9fa77d04f553cf4a0d0d9bb41b978fdd9ab831f85ecdbfdec1c"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-desktop-day-v1-1920.webp",
+      "bytes": 17800,
+      "sha256": "72ab2260849388a7b3b847d333a121b4f18fb99af13a3f6859f295e3e812538b"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-desktop-day-v1-2560.avif",
+      "bytes": 29934,
+      "sha256": "f5d71d804105bb3796ae9acb5b1f06d14aceb6d6051891f64df9d4e18f181c7b"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-desktop-day-v1-2560.webp",
+      "bytes": 25106,
+      "sha256": "f8437925b8aa83b096fb48237eb0d23a54dd9b8fb0c3ca388f05a805c55a027f"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-desktop-day-v1-3840.avif",
+      "bytes": 47245,
+      "sha256": "3b716aec7e906ddc6cddf3b6650a125fe093219e3820ec6323061352d9cc2132"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-desktop-day-v1-3840.webp",
+      "bytes": 44036,
+      "sha256": "d449a1b21377180017488c35ad8fe1ff4c4d7da842341ca22419c338191ba5c8"
+    },
+    {
+      "path": "assets/production/png/city-bremen-desktop-day-v1-1280.png",
+      "bytes": 715557,
+      "sha256": "e5a1a3d640ed399a24dcda47f778a0aeb672432db514484fa6925822d619abfe"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-desktop-day-v1-320.avif",
+      "bytes": 2870,
+      "sha256": "48dc13d24bdc3f3bbe2e98e3a0e3ca0c9c509368f9f566ba40a9012632d34939"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-desktop-day-v1-320.webp",
+      "bytes": 2590,
+      "sha256": "b6fca31460099419f91b1bf768b8c629571fa66d1903eb8626347151412e40e7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-desktop-day-v1-640.avif",
+      "bytes": 6370,
+      "sha256": "6c19af6954ea5006dbc480ac3eca06396d493995a270cccb97b64d6b39030462"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-desktop-day-v1-640.webp",
+      "bytes": 5256,
+      "sha256": "175ee797c11045c77b07983a704e34133d83b19c4e7831d982b47f652fe15b53"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-desktop-day-v1-960.avif",
+      "bytes": 10104,
+      "sha256": "5da1b094db4ef6d88a52710ece574a59619373a16d36c6c32701846d9ca85c39"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-desktop-day-v1-960.webp",
+      "bytes": 8624,
+      "sha256": "33d84ce7408b0c423926683f660adcbb74b2d64b58eb9cbf7799e11fe26988e5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-desktop-day-v1-1280.avif",
+      "bytes": 14709,
+      "sha256": "0ae6fa17fd0b8c4328090ef9e153273938b3b787bb589f3d7290c837bcfdf454"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-desktop-day-v1-1280.webp",
+      "bytes": 11522,
+      "sha256": "88a1dd0a553c5d6da0d6b74cbc990fc51ed5e2d622bb2d04f627d920bdbc98d9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-desktop-day-v1-1920.avif",
+      "bytes": 21789,
+      "sha256": "1544bfefc018e9fa77d04f553cf4a0d0d9bb41b978fdd9ab831f85ecdbfdec1c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-desktop-day-v1-1920.webp",
+      "bytes": 17800,
+      "sha256": "72ab2260849388a7b3b847d333a121b4f18fb99af13a3f6859f295e3e812538b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-desktop-day-v1-2560.avif",
+      "bytes": 29934,
+      "sha256": "f5d71d804105bb3796ae9acb5b1f06d14aceb6d6051891f64df9d4e18f181c7b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-desktop-day-v1-2560.webp",
+      "bytes": 25106,
+      "sha256": "f8437925b8aa83b096fb48237eb0d23a54dd9b8fb0c3ca388f05a805c55a027f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-desktop-day-v1-3840.avif",
+      "bytes": 47245,
+      "sha256": "3b716aec7e906ddc6cddf3b6650a125fe093219e3820ec6323061352d9cc2132"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-desktop-day-v1-3840.webp",
+      "bytes": 44036,
+      "sha256": "d449a1b21377180017488c35ad8fe1ff4c4d7da842341ca22419c338191ba5c8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-desktop-day-v1-1280.png",
+      "bytes": 715557,
+      "sha256": "e5a1a3d640ed399a24dcda47f778a0aeb672432db514484fa6925822d619abfe"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-bremen-desktop-day-v1.webp",
+      "bytes": 2590,
+      "sha256": "b6fca31460099419f91b1bf768b8c629571fa66d1903eb8626347151412e40e7"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-bremen-desktop-day-v1.webp",
+      "bytes": 2590,
+      "sha256": "b6fca31460099419f91b1bf768b8c629571fa66d1903eb8626347151412e40e7"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.582Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1631207
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-29T23:59:04.810Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

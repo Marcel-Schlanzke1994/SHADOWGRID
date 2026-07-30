@@ -17,11 +17,14 @@ def main() -> None:
         return
     values = {
         "APP_ENV": "development",
+        "LOCAL_DEMO_MODE": "true",
         "DATABASE_URL": f"sqlite:///{(LOCAL / 'shadowgrid.db').as_posix()}",
         "SECRET_KEY": secrets.token_urlsafe(48),
         "REFRESH_PEPPER": secrets.token_urlsafe(48),
         "SEED_SECRET": secrets.token_urlsafe(32),
         "WEB_ORIGINS": "http://localhost:5173",
+        "STARTING_CASH_CENTS": "8000000",
+        "COMPANY_FOUNDING_COST_CENTS": "2000000",
         "SMTP_HOST": "localhost",
         "SMTP_PORT": "1025",
         "TRANSLATION_PROVIDER": "disabled",

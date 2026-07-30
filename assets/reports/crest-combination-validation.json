@@ -1,0 +1,13 @@
+{
+  "schema": "shadowgrid/crest-combination-validation/v1",
+  "combination_count": 100,
+  "unique_signature_count": 100,
+  "duplicate_signatures": 0,
+  "minimum_contrast_ratio": 4.567,
+  "minimum_required_contrast_ratio": 4.5,
+  "problematic_symbol_count": 0,
+  "passed": true,
+  "checked_at": "2026-07-30T06:43:33.425Z",
+  "rendered_test_asset": "crest-test-random-combinations-100-v1",
+  "rendered_test_status": "approved"
+}

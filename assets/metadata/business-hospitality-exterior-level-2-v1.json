@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-hospitality-exterior-level-2-v1",
+  "manifest_order": 464,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "exterior-level-2",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-hospitality-exterior-level-2-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100464,
+  "content_hash": "cabd3efd41b4036b85fe8d9961140618952edd1152a8c111ec55c079025494e6",
+  "source_file": "assets/source/businesses/business-hospitality-exterior-level-2-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-hospitality-exterior-level-2-v1-320.avif",
+      "bytes": 3058,
+      "sha256": "49b14d036078d95283b0c784183c48460e1861a0e407b729a3d7a668d4126608"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-exterior-level-2-v1-320.webp",
+      "bytes": 2752,
+      "sha256": "553725cfa07c297cd67618f0806eb25bbc7b11419a34e162d5f31b1db0df8d4e"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-exterior-level-2-v1-640.avif",
+      "bytes": 6325,
+      "sha256": "ef7b623c462f7cff1dabe6c0a9884b6ac228c2404bfcc4b07383fc039ec28dc2"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-exterior-level-2-v1-640.webp",
+      "bytes": 5624,
+      "sha256": "d15af9569e17abcb20a491922c9a2e55f73bb5b6206783dce5a87f6f50efbe26"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-exterior-level-2-v1-960.avif",
+      "bytes": 10376,
+      "sha256": "80fa2c124df90b2bfa32e3b28c828c9e264cb704d0fc6c06f676e055bf7461c1"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-exterior-level-2-v1-960.webp",
+      "bytes": 9228,
+      "sha256": "1611f4788d6030242486ba7e61aa763fac4fceffe15831515c0f1717e31962ec"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-exterior-level-2-v1-1280.avif",
+      "bytes": 14212,
+      "sha256": "26bf6814ea138a3ede89a171656c38751384344697e64f47b657131c0254b37f"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-exterior-level-2-v1-1280.webp",
+      "bytes": 12044,
+      "sha256": "49643b364a442b956cc6feafba2a363ab1bb3e635d0a08cbe7abcd9ad08828a7"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-exterior-level-2-v1-1920.avif",
+      "bytes": 22076,
+      "sha256": "dbf2a466766ff3f933d381879fbfd2ccef8e01ca7c850422322caa7242e48386"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-exterior-level-2-v1-1920.webp",
+      "bytes": 18882,
+      "sha256": "e635414794b75b256c510cccf48e2514a1a5a14d3008560bf54f7ece1861f6e9"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-exterior-level-2-v1-2560.avif",
+      "bytes": 29960,
+      "sha256": "5bc0ab999a68da8c5f968328a860fec7242d0440d2f519884cefd2b42abd1a79"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-exterior-level-2-v1-2560.webp",
+      "bytes": 26160,
+      "sha256": "f6e8979615c4de5085aea824e4aad484363962b76d1ee0d519dd5fe790331b49"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-exterior-level-2-v1-3840.avif",
+      "bytes": 48852,
+      "sha256": "67a85939e4ddb84c5f49d84b86be6a7a20a90acf928aceb87550f7b15b1458f9"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-exterior-level-2-v1-3840.webp",
+      "bytes": 43792,
+      "sha256": "0c66aae3807c8ff94f3c571ec40ef2557ea433eb674930ca3481803834dc4152"
+    },
+    {
+      "path": "assets/production/png/business-hospitality-exterior-level-2-v1-1280.png",
+      "bytes": 628747,
+      "sha256": "d7f3da4dd4dcfa59445e7f404b931906da0e76ce3db904c55c616d68764d4824"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-hospitality-exterior-level-2-v1.webp",
+      "bytes": 2752,
+      "sha256": "553725cfa07c297cd67618f0806eb25bbc7b11419a34e162d5f31b1db0df8d4e"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-hospitality-exterior-level-2-v1.webp",
+      "bytes": 2752,
+      "sha256": "553725cfa07c297cd67618f0806eb25bbc7b11419a34e162d5f31b1db0df8d4e"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.308Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1447005
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:52:23.368Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

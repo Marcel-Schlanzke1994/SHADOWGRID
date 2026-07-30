@@ -1,0 +1,171 @@
+{
+  "asset_id": "city-template-medium-city-historic-center-night-mobile-v1",
+  "manifest_order": 340,
+  "category": "city-template",
+  "batch": "procedural-city-templates",
+  "city": null,
+  "variant": "night-mobile",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-template-medium-city-historic-center-night-mobile-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100340,
+  "content_hash": "d573fbf7a4ed4caab93eae577a45e1d343dfb580a599d44f75a7d3d6fdb91d8d",
+  "source_file": "assets/source/global/city-template-medium-city-historic-center-night-mobile-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-template-medium-city-historic-center-night-mobile-v1-320.avif",
+      "bytes": 6483,
+      "sha256": "2a259871815a05304f10efb0ace7b29cc3e11f7a21745694978bef59b3a3ab92"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-historic-center-night-mobile-v1-320.webp",
+      "bytes": 6744,
+      "sha256": "116dfac7e8487b04216e967531df6fe3e4aa47384c6d95c2ad0c2fa4ba388fef"
+    },
+    {
+      "path": "assets/production/avif/city-template-medium-city-historic-center-night-mobile-v1-640.avif",
+      "bytes": 12941,
+      "sha256": "e67eac775e2efca0afa11c4373a02e7b31c8d433a05d6b8f54a07715b186acbb"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-historic-center-night-mobile-v1-640.webp",
+      "bytes": 13306,
+      "sha256": "365308c094380b498b96723f117ec4d88ca2c8626fbff9a811cac98ffc0d08aa"
+    },
+    {
+      "path": "assets/production/avif/city-template-medium-city-historic-center-night-mobile-v1-960.avif",
+      "bytes": 22797,
+      "sha256": "476973d610545368cb78b83aa1397d501ac36449b9a85d436d5df67f329b4a94"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-historic-center-night-mobile-v1-960.webp",
+      "bytes": 21846,
+      "sha256": "1e18abb81f5a2f4965317fad4e940a1ae8dc2c431913da643efe9835335affaa"
+    },
+    {
+      "path": "assets/production/avif/city-template-medium-city-historic-center-night-mobile-v1-1280.avif",
+      "bytes": 31427,
+      "sha256": "844cd4bf235c6838ed8b523c2b971cf7d0787d4a6153e67db3748105940c3599"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-historic-center-night-mobile-v1-1280.webp",
+      "bytes": 28554,
+      "sha256": "2f4b90ec97d72c3a4f1ad4843fb5c14998f3aea05afccee53983b9fb8e1dbe09"
+    },
+    {
+      "path": "assets/production/avif/city-template-medium-city-historic-center-night-mobile-v1-1920.avif",
+      "bytes": 50189,
+      "sha256": "408803e0bdd5cfc73884f7df2dedeac1738b83d5a43dbd8aed34ec91f8fbad55"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-historic-center-night-mobile-v1-1920.webp",
+      "bytes": 45730,
+      "sha256": "cd92b9cec33f99528b32c7ec87294beb2c455fd787dbbd517efcd58d4d9eb819"
+    },
+    {
+      "path": "assets/production/avif/city-template-medium-city-historic-center-night-mobile-v1-2560.avif",
+      "bytes": 69833,
+      "sha256": "80f025fdf48ea1cbc1177941070eb796b7b0089ea415c6c3536ea49067a9e4cd"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-historic-center-night-mobile-v1-2560.webp",
+      "bytes": 67474,
+      "sha256": "55f3ea1f36b4bfc37abab239a0f6ace46f0b6d76f7dd16b5debf52aded6cd066"
+    },
+    {
+      "path": "assets/production/avif/city-template-medium-city-historic-center-night-mobile-v1-3840.avif",
+      "bytes": 123072,
+      "sha256": "5fbabf97afabebf21a7b381a39446916c0d2848fdacba5ef66b7dbbd3a78e333"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-historic-center-night-mobile-v1-3840.webp",
+      "bytes": 124300,
+      "sha256": "1c580717a1649ba25a91b89eea1bbbdd30ed58dc02aaab3b478af7c054bab887"
+    },
+    {
+      "path": "assets/production/png/city-template-medium-city-historic-center-night-mobile-v1-1152.png",
+      "bytes": 1737623,
+      "sha256": "d573fbf7a4ed4caab93eae577a45e1d343dfb580a599d44f75a7d3d6fdb91d8d"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/city-template-medium-city-historic-center-night-mobile-v1.webp",
+      "bytes": 6744,
+      "sha256": "116dfac7e8487b04216e967531df6fe3e4aa47384c6d95c2ad0c2fa4ba388fef"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-template-medium-city-historic-center-night-mobile-v1.webp",
+      "bytes": 6744,
+      "sha256": "116dfac7e8487b04216e967531df6fe3e4aa47384c6d95c2ad0c2fa4ba388fef"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 91.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:55.357Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 92,
+      "material_quality": 87,
+      "light_quality": 89,
+      "architecture_plausibility": 89,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 92,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All four paged contact sheets were inspected at original resolution.",
+      "The templates are intentionally stylized deterministic fallbacks and remain compositionally useful across every required aspect ratio.",
+      "No missing render, broken geometry, sensitive infrastructure detail, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1737623
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:40:52.989Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -23,6 +23,11 @@
       "path": "assets/production/svg/map-heatmap-information-legend-v1.svg",
       "bytes": 3682,
       "sha256": "7e3dee49feafd057b05dc5803277d48b79ea6632928cfdc3e4ceb4e0c0f6a67f"
+    },
+    {
+      "path": "assets/production/webp/map-heatmap-information-legend-v1-320.webp",
+      "bytes": 14710,
+      "sha256": "dc54596459e82a4710e96b475feb37d1dbb1088141811adc3d95ffadea34c36b"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/maps/map-heatmap-information-legend-v1.svg",
       "bytes": 3682,
       "sha256": "7e3dee49feafd057b05dc5803277d48b79ea6632928cfdc3e4ceb4e0c0f6a67f"
+    },
+    {
+      "path": "apps/web/public/assets/maps/map-heatmap-information-legend-v1-320.webp",
+      "bytes": 14710,
+      "sha256": "dc54596459e82a4710e96b475feb37d1dbb1088141811adc3d95ffadea34c36b"
+    },
+    {
+      "path": "apps/web/public/assets/library/map-heatmap-information-legend-v1.webp",
+      "bytes": 14710,
+      "sha256": "dc54596459e82a4710e96b475feb37d1dbb1088141811adc3d95ffadea34c36b"
+    },
+    {
+      "path": "apps/mobile/assets/library/map-heatmap-information-legend-v1.webp",
+      "bytes": 14710,
+      "sha256": "dc54596459e82a4710e96b475feb37d1dbb1088141811adc3d95ffadea34c36b"
     }
   ],
   "contains_text": false,

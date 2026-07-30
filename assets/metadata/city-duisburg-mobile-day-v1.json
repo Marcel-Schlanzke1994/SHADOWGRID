@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-duisburg-mobile-day-v1",
+  "manifest_order": 183,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "duisburg",
+  "variant": "mobile-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-duisburg-mobile-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100183,
+  "content_hash": "29ca67d2caf87d433ae81a1dd16f09f445c2213dd378e36c6ab41b66cce79963",
+  "source_file": "assets/source/cities/city-duisburg-mobile-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-duisburg-mobile-day-v1-320.avif",
+      "bytes": 4688,
+      "sha256": "046fbf062199e8b676649839ac73cb52f467bb4516fc6a59dc6abb03803cc28e"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-mobile-day-v1-320.webp",
+      "bytes": 4176,
+      "sha256": "a2477093691f7a2b456b34025088a25d7d749f61d988f738732eff4f0c5a97da"
+    },
+    {
+      "path": "assets/production/avif/city-duisburg-mobile-day-v1-640.avif",
+      "bytes": 9845,
+      "sha256": "c45fdfff6393270fb81f381e4f882bcc61c1e548ad2796305b6f64f04bcf9b19"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-mobile-day-v1-640.webp",
+      "bytes": 8240,
+      "sha256": "408474f4b91342d0b1bf028b9d192e21ef822afef6fa0deed5df23fecd8f1c7c"
+    },
+    {
+      "path": "assets/production/avif/city-duisburg-mobile-day-v1-960.avif",
+      "bytes": 17576,
+      "sha256": "42547b85a0c85c04458f5681c53d2e69db0b5baa6108c669e5d022c22cdc2169"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-mobile-day-v1-960.webp",
+      "bytes": 14022,
+      "sha256": "e935e6897bc9c785d8efea896d63d4541a6363fec26a0ef8d1663b4d7e4d69b2"
+    },
+    {
+      "path": "assets/production/avif/city-duisburg-mobile-day-v1-1280.avif",
+      "bytes": 23548,
+      "sha256": "d98563cc6dc6cb225e86f586caf514fdc3050b301bbe2f315ac25d04b20be60f"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-mobile-day-v1-1280.webp",
+      "bytes": 19760,
+      "sha256": "1047d6ef1fbb4cb5a21ccdf00a6aa88e3c49e5ae100747fb0fe094f3fb742091"
+    },
+    {
+      "path": "assets/production/avif/city-duisburg-mobile-day-v1-1920.avif",
+      "bytes": 39589,
+      "sha256": "8428752560f840fb939053d57ab61a5c786d08656a3f66b94a788ba69047a742"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-mobile-day-v1-1920.webp",
+      "bytes": 34768,
+      "sha256": "2f4eae3d1f2009b67cee60d6cb6f30942a3429195ebd7b960965dabf7b169e6a"
+    },
+    {
+      "path": "assets/production/avif/city-duisburg-mobile-day-v1-2560.avif",
+      "bytes": 55217,
+      "sha256": "67ad18ca34bf82dc0bf5bd34bad17c74ed66642845f9234a3ef4261ce2fce7a8"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-mobile-day-v1-2560.webp",
+      "bytes": 54468,
+      "sha256": "91271df83c64a69d924a546ed7368c859dc2945baa38a24a4abcb05804037bf6"
+    },
+    {
+      "path": "assets/production/avif/city-duisburg-mobile-day-v1-3840.avif",
+      "bytes": 99799,
+      "sha256": "1bdb066501c17191303b88cf8fdfa63c2ca70b8fb16d44cf9150386900705880"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-mobile-day-v1-3840.webp",
+      "bytes": 104822,
+      "sha256": "63eda4748315b23c95a9ee0dcb48c88d40ab47514898287297db415a450db196"
+    },
+    {
+      "path": "assets/production/png/city-duisburg-mobile-day-v1-1152.png",
+      "bytes": 1679709,
+      "sha256": "29ca67d2caf87d433ae81a1dd16f09f445c2213dd378e36c6ab41b66cce79963"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-mobile-day-v1-320.avif",
+      "bytes": 4688,
+      "sha256": "046fbf062199e8b676649839ac73cb52f467bb4516fc6a59dc6abb03803cc28e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-mobile-day-v1-320.webp",
+      "bytes": 4176,
+      "sha256": "a2477093691f7a2b456b34025088a25d7d749f61d988f738732eff4f0c5a97da"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-mobile-day-v1-640.avif",
+      "bytes": 9845,
+      "sha256": "c45fdfff6393270fb81f381e4f882bcc61c1e548ad2796305b6f64f04bcf9b19"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-mobile-day-v1-640.webp",
+      "bytes": 8240,
+      "sha256": "408474f4b91342d0b1bf028b9d192e21ef822afef6fa0deed5df23fecd8f1c7c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-mobile-day-v1-960.avif",
+      "bytes": 17576,
+      "sha256": "42547b85a0c85c04458f5681c53d2e69db0b5baa6108c669e5d022c22cdc2169"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-mobile-day-v1-960.webp",
+      "bytes": 14022,
+      "sha256": "e935e6897bc9c785d8efea896d63d4541a6363fec26a0ef8d1663b4d7e4d69b2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-mobile-day-v1-1280.avif",
+      "bytes": 23548,
+      "sha256": "d98563cc6dc6cb225e86f586caf514fdc3050b301bbe2f315ac25d04b20be60f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-mobile-day-v1-1280.webp",
+      "bytes": 19760,
+      "sha256": "1047d6ef1fbb4cb5a21ccdf00a6aa88e3c49e5ae100747fb0fe094f3fb742091"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-mobile-day-v1-1920.avif",
+      "bytes": 39589,
+      "sha256": "8428752560f840fb939053d57ab61a5c786d08656a3f66b94a788ba69047a742"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-mobile-day-v1-1920.webp",
+      "bytes": 34768,
+      "sha256": "2f4eae3d1f2009b67cee60d6cb6f30942a3429195ebd7b960965dabf7b169e6a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-mobile-day-v1-2560.avif",
+      "bytes": 55217,
+      "sha256": "67ad18ca34bf82dc0bf5bd34bad17c74ed66642845f9234a3ef4261ce2fce7a8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-mobile-day-v1-2560.webp",
+      "bytes": 54468,
+      "sha256": "91271df83c64a69d924a546ed7368c859dc2945baa38a24a4abcb05804037bf6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-mobile-day-v1-3840.avif",
+      "bytes": 99799,
+      "sha256": "1bdb066501c17191303b88cf8fdfa63c2ca70b8fb16d44cf9150386900705880"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-mobile-day-v1-3840.webp",
+      "bytes": 104822,
+      "sha256": "63eda4748315b23c95a9ee0dcb48c88d40ab47514898287297db415a450db196"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-mobile-day-v1-1152.png",
+      "bytes": 1679709,
+      "sha256": "29ca67d2caf87d433ae81a1dd16f09f445c2213dd378e36c6ab41b66cce79963"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-duisburg-mobile-day-v1.webp",
+      "bytes": 4176,
+      "sha256": "a2477093691f7a2b456b34025088a25d7d749f61d988f738732eff4f0c5a97da"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-duisburg-mobile-day-v1.webp",
+      "bytes": 4176,
+      "sha256": "a2477093691f7a2b456b34025088a25d7d749f61d988f738732eff4f0c5a97da"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.853Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1679709
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:29:40.682Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

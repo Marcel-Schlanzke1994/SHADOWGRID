@@ -1,0 +1,171 @@
+{
+  "asset_id": "character-district-coordination-experienced-woman-v1",
+  "manifest_order": 545,
+  "category": "character",
+  "batch": "specialists",
+  "city": null,
+  "variant": "experienced-woman",
+  "gameplay_state": "normal",
+  "aspect_ratio": "4:5",
+  "width": 1280,
+  "height": 1600,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/character-district-coordination-experienced-woman-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100545,
+  "content_hash": "b8ea502fd269b2ae0570f0ebe32f914a7e471ddf8898266cd920e849acc952b0",
+  "source_file": "assets/source/characters/character-district-coordination-experienced-woman-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/character-district-coordination-experienced-woman-v1-320.avif",
+      "bytes": 3052,
+      "sha256": "e46ee771b7c069d549392ec3611ad4c30361ebd40db1ac09bfd8c740cc56d9c1"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-experienced-woman-v1-320.webp",
+      "bytes": 2456,
+      "sha256": "546f883de227435b10c46b7b8a1454b5b9f8404bb5d6d0f3d17e8bcbea0cfcc2"
+    },
+    {
+      "path": "assets/production/avif/character-district-coordination-experienced-woman-v1-640.avif",
+      "bytes": 6909,
+      "sha256": "09843bb2ba05a78dca647bfc3b171ff5d1073af88bb9d4f25244db937dbbfa79"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-experienced-woman-v1-640.webp",
+      "bytes": 5700,
+      "sha256": "51a88cc5b13675631b811a66b2fe02ab011929d413ae75d2cafd74a328691e48"
+    },
+    {
+      "path": "assets/production/avif/character-district-coordination-experienced-woman-v1-960.avif",
+      "bytes": 14668,
+      "sha256": "05b280d3cdd67e508226ad3f4a19056072ca27c01771473282c1a10df16b3c62"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-experienced-woman-v1-960.webp",
+      "bytes": 10444,
+      "sha256": "d93baec7274a6f18e2d7bd1ff7d0816f9253b72aaa8339ed3bd31c989d3a4dca"
+    },
+    {
+      "path": "assets/production/avif/character-district-coordination-experienced-woman-v1-1280.avif",
+      "bytes": 21282,
+      "sha256": "842e9a8cd7fcbc7f0494a7c543c8a6958cec6bb1a3a85e05d978b1fa9cb5ef43"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-experienced-woman-v1-1280.webp",
+      "bytes": 15826,
+      "sha256": "136f3dda791b9e549b57f68572e69a2ffb3c55bfd32ea4a76b1e30a26e3913ae"
+    },
+    {
+      "path": "assets/production/avif/character-district-coordination-experienced-woman-v1-1920.avif",
+      "bytes": 33644,
+      "sha256": "de058d0af712129d3974b24c093f2864412d80c8f6e0ee6ccdd33434c6cc48ea"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-experienced-woman-v1-1920.webp",
+      "bytes": 26442,
+      "sha256": "8fceecd92f63492dd5e783689dda9e088b5e5bcea9d3bc0c133a16e5708e009f"
+    },
+    {
+      "path": "assets/production/avif/character-district-coordination-experienced-woman-v1-2560.avif",
+      "bytes": 47246,
+      "sha256": "111eece3e19e9d2dc4f94d79321c9bc3560218d6948510972764cb7f172e0ec9"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-experienced-woman-v1-2560.webp",
+      "bytes": 39224,
+      "sha256": "bc03e101619bcff25706f87155305de232ad4c010f1cd0e2fa56d78fe4d61236"
+    },
+    {
+      "path": "assets/production/avif/character-district-coordination-experienced-woman-v1-3840.avif",
+      "bytes": 77842,
+      "sha256": "df2f5722b6234af75558f133cedc294170077a3af2a9a4636323977672d0bbda"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-experienced-woman-v1-3840.webp",
+      "bytes": 73426,
+      "sha256": "0bc05a001b00c2563cca4dff8d7a118dc4661b2e50d00a1b23e45f3d84fad263"
+    },
+    {
+      "path": "assets/production/png/character-district-coordination-experienced-woman-v1-1280.png",
+      "bytes": 213707,
+      "sha256": "b8ea502fd269b2ae0570f0ebe32f914a7e471ddf8898266cd920e849acc952b0"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/character-district-coordination-experienced-woman-v1.webp",
+      "bytes": 2456,
+      "sha256": "546f883de227435b10c46b7b8a1454b5b9f8404bb5d6d0f3d17e8bcbea0cfcc2"
+    },
+    {
+      "path": "apps/mobile/assets/library/character-district-coordination-experienced-woman-v1.webp",
+      "bytes": 2456,
+      "sha256": "546f883de227435b10c46b7b8a1454b5b9f8404bb5d6d0f3d17e8bcbea0cfcc2"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:37.005Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1280,
+      "height": 1600,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 213707
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:16:43.932Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

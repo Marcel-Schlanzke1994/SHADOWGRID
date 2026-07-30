@@ -5,26 +5,44 @@ param(
 
 $ErrorActionPreference = "Stop"
 $projectRoot = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path
-$backupRoot = (Resolve-Path (Join-Path $projectRoot "backups")).Path
-$resolvedBackup = (Resolve-Path -LiteralPath $Backup).Path
-if (-not $resolvedBackup.StartsWith($backupRoot, [System.StringComparison]::OrdinalIgnoreCase)) {
-    throw "Restore source must be inside $backupRoot"
+$resolvedBackup = & (Join-Path $PSScriptRoot "resolve-backup-path.ps1") `
+    -ProjectRoot $projectRoot `
+    -Backup $Backup
+$extension = [System.IO.Path]::GetExtension($resolvedBackup)
+if ($extension -eq ".sqlite3") {
+    Push-Location $projectRoot
+    try {
+        node scripts/run-python.mjs --cwd apps/api -m shadowgrid.local_backups restore `
+            --backup $resolvedBackup `
+            --confirm $ConfirmRestore
+        if ($LASTEXITCODE -ne 0) { throw "SQLite restore failed with exit code $LASTEXITCODE" }
+    }
+    finally {
+        Pop-Location
+    }
+    return
 }
-if ([System.IO.Path]::GetExtension($resolvedBackup) -ne ".dump") {
-    throw "Restore source must be a .dump file."
+if (-not (Get-Command docker -ErrorAction SilentlyContinue)) {
+    throw "Docker is required to restore a PostgreSQL custom dump."
 }
 
 $fileName = Split-Path -Leaf $resolvedBackup
+$servicesMayBeStopped = $false
 Push-Location $projectRoot
 try {
     docker compose exec -T postgres pg_restore --list "/backups/$fileName" | Out-Null
     if ($LASTEXITCODE -ne 0) { throw "Backup verification failed before restore." }
+    $servicesMayBeStopped = $true
     docker compose stop api worker
+    if ($LASTEXITCODE -ne 0) { throw "Stopping API and worker failed." }
     docker compose exec -T postgres pg_restore --username shadowgrid --dbname shadowgrid --clean --if-exists --no-owner "/backups/$fileName"
     if ($LASTEXITCODE -ne 0) { throw "Restore failed with exit code $LASTEXITCODE" }
-    docker compose start api worker
 }
 finally {
+    if ($servicesMayBeStopped) {
+        docker compose start api worker
+        if ($LASTEXITCODE -ne 0) { throw "Restarting API and worker failed." }
+    }
     Pop-Location
 }
 

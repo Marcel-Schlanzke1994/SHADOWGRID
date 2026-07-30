@@ -170,6 +170,16 @@
       "path": "apps/web/public/assets/global/global-login-desktop-v1-1280.png",
       "bytes": 1538568,
       "sha256": "3cab9042c3ef20d9e1258f39fc8dddca508ed3fe5fded95c81b921b7d0b5743b"
+    },
+    {
+      "path": "apps/web/public/assets/library/global-login-desktop-v1.webp",
+      "bytes": 3466,
+      "sha256": "2733bdbfef20393f00386187dd08a3c0b7d73395a84bc66099ebe0069b90b3ec"
+    },
+    {
+      "path": "apps/mobile/assets/library/global-login-desktop-v1.webp",
+      "bytes": 3466,
+      "sha256": "2733bdbfef20393f00386187dd08a3c0b7d73395a84bc66099ebe0069b90b3ec"
     }
   ],
   "contains_text": false,

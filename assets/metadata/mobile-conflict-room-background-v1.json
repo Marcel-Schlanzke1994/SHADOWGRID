@@ -1,0 +1,171 @@
+{
+  "asset_id": "mobile-conflict-room-background-v1",
+  "manifest_order": 866,
+  "category": "mobile",
+  "batch": "mobile",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/mobile-conflict-room-background-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100866,
+  "content_hash": "e15da2bae7faffb5414d0fe26e163e463038f688a62bd4cff2ed26bb93015543",
+  "source_file": "assets/source/marketing/mobile-conflict-room-background-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/mobile-conflict-room-background-v1-320.avif",
+      "bytes": 4617,
+      "sha256": "b08ed991bec4184df5bd768b1338ac4e19664f35d4ce2fdfa888b00a0ec5cc75"
+    },
+    {
+      "path": "assets/production/webp/mobile-conflict-room-background-v1-320.webp",
+      "bytes": 3900,
+      "sha256": "6174d25631fed8ae674ee755076bfbe29c9dcd54e639b5ca09ed54f943e238f6"
+    },
+    {
+      "path": "assets/production/avif/mobile-conflict-room-background-v1-640.avif",
+      "bytes": 10352,
+      "sha256": "208e69a80bb873519495c170c4b0a7825927e5bf27f11cfda52b24cca9482b10"
+    },
+    {
+      "path": "assets/production/webp/mobile-conflict-room-background-v1-640.webp",
+      "bytes": 7936,
+      "sha256": "0f75b03e463c7aa9319f96892ab2e2f384f0e2b188c3fb0ffef97388db77876a"
+    },
+    {
+      "path": "assets/production/avif/mobile-conflict-room-background-v1-960.avif",
+      "bytes": 18065,
+      "sha256": "2a6971869bbd0efe4b50beb48daf272a1626aebe7d747a6a52165a64acdea89e"
+    },
+    {
+      "path": "assets/production/webp/mobile-conflict-room-background-v1-960.webp",
+      "bytes": 13972,
+      "sha256": "9a637a7b57e31f23b9082d8a3e23283577af60c6195ac4efc5837bae952f0e67"
+    },
+    {
+      "path": "assets/production/avif/mobile-conflict-room-background-v1-1280.avif",
+      "bytes": 24468,
+      "sha256": "aee89b1efafcc4804300ec60429ba6c169bfd14f355ffafad92fa82348c43df7"
+    },
+    {
+      "path": "assets/production/webp/mobile-conflict-room-background-v1-1280.webp",
+      "bytes": 19874,
+      "sha256": "ef8b8e2ac6434f6dcbbbdba9c9258772a399d0b8398fcaa639e91884c5b6b57d"
+    },
+    {
+      "path": "assets/production/avif/mobile-conflict-room-background-v1-1920.avif",
+      "bytes": 39384,
+      "sha256": "413aebfd1a501d709d7e447e7f56c93cd8fdddff28386126211d78339f4f0fbe"
+    },
+    {
+      "path": "assets/production/webp/mobile-conflict-room-background-v1-1920.webp",
+      "bytes": 35152,
+      "sha256": "2fe25e94bdadfb0c7d38ddce91ad48399f976b33196b401d2f069dd293afe0b3"
+    },
+    {
+      "path": "assets/production/avif/mobile-conflict-room-background-v1-2560.avif",
+      "bytes": 57992,
+      "sha256": "2b6807ab89a8e1f904bd3b66faf0b10a73f77f37ef3a5d8dda9f09b1f6ec41ae"
+    },
+    {
+      "path": "assets/production/webp/mobile-conflict-room-background-v1-2560.webp",
+      "bytes": 52702,
+      "sha256": "ffeacd1ffc66515616748a4b1e28fa12d73a26392136355991dbc22e7f5596ce"
+    },
+    {
+      "path": "assets/production/avif/mobile-conflict-room-background-v1-3840.avif",
+      "bytes": 102536,
+      "sha256": "7fdf2dbfee2cc7b66607666311ccb3ea0b5667dd3e32ecb2677f700b40452bc8"
+    },
+    {
+      "path": "assets/production/webp/mobile-conflict-room-background-v1-3840.webp",
+      "bytes": 105274,
+      "sha256": "0947867efc426b2f228acb29d3bfa9b7f3b52dda99892ba6d2195f3cbc7693cb"
+    },
+    {
+      "path": "assets/production/png/mobile-conflict-room-background-v1-1152.png",
+      "bytes": 1678014,
+      "sha256": "e15da2bae7faffb5414d0fe26e163e463038f688a62bd4cff2ed26bb93015543"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/mobile-conflict-room-background-v1.webp",
+      "bytes": 3900,
+      "sha256": "6174d25631fed8ae674ee755076bfbe29c9dcd54e639b5ca09ed54f943e238f6"
+    },
+    {
+      "path": "apps/mobile/assets/library/mobile-conflict-room-background-v1.webp",
+      "bytes": 3900,
+      "sha256": "6174d25631fed8ae674ee755076bfbe29c9dcd54e639b5ca09ed54f943e238f6"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 94.4,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:37.326Z",
+    "scores": {
+      "realism": 90,
+      "style_consistency": 97,
+      "composition": 95,
+      "material_quality": 91,
+      "light_quality": 93,
+      "architecture_plausibility": 91,
+      "ui_suitability": 97,
+      "mobile_suitability": 98,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 96,
+      "contrast": 96,
+      "geometry_quality": 96,
+      "technical_quality": 98
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution, including transparent adaptive and monochrome assets.",
+      "The apparently empty monochrome contact-sheet cell was separately inspected and confirmed as a valid transparent single-color platform glyph.",
+      "Safe areas, contrast, transparency, and small-size behavior are suitable for the intended mobile placements."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1678014
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:46:07.250Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

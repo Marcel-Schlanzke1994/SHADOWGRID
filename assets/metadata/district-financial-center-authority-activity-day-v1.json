@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-financial-center-authority-activity-day-v1",
+  "manifest_order": 373,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "authority-activity-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-financial-center-authority-activity-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100373,
+  "content_hash": "7a173526451698f9a2ee4d6becdc43fc7b5b23a6103a9bd80d0df80a133d41ec",
+  "source_file": "assets/source/districts/district-financial-center-authority-activity-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-financial-center-authority-activity-day-v1-320.avif",
+      "bytes": 2975,
+      "sha256": "306609bb15de06ea391b8be98524d0faec410d240ec35a7a7e68c6aaeb4dda5a"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-authority-activity-day-v1-320.webp",
+      "bytes": 2596,
+      "sha256": "fd50b979dec48d250829f61974fa3445b413fb4f47b7868cf63b9a903a554074"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-authority-activity-day-v1-640.avif",
+      "bytes": 6545,
+      "sha256": "c8ad020b45fb2b4f602c1780ea25e09e2a294bd47f20d58a5c1abe98f07bf8b9"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-authority-activity-day-v1-640.webp",
+      "bytes": 5292,
+      "sha256": "a78648f53be993ab1d67d5b266e3721c1eb14140672db9f24c208a8946fefaf1"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-authority-activity-day-v1-960.avif",
+      "bytes": 10597,
+      "sha256": "a706a8e9592997b29310c3afc76e7c3021b3836334b62f72894b75f955231875"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-authority-activity-day-v1-960.webp",
+      "bytes": 8816,
+      "sha256": "e9bb3420280939bcfab685a0a35a7a9a88d7268de8e06a8fb563e7f878095024"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-authority-activity-day-v1-1280.avif",
+      "bytes": 15374,
+      "sha256": "a6c85b86bbf89bdffcf66c2989c82ae3fa1f8fbb36bf35ae439357c8174683e9"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-authority-activity-day-v1-1280.webp",
+      "bytes": 11630,
+      "sha256": "67709dc4d3e631768194b3aa153da240c398bf6975e0bfda466bb28fc98452e7"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-authority-activity-day-v1-1920.avif",
+      "bytes": 22723,
+      "sha256": "d9b78d2295bc9faefdf6b804f24dc9e1d0f706b3051e09b24abb07344626fb0c"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-authority-activity-day-v1-1920.webp",
+      "bytes": 18306,
+      "sha256": "3386241031088da9a72a4ac9679712de66a5ba579b1236870525af1fadc81f54"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-authority-activity-day-v1-2560.avif",
+      "bytes": 30755,
+      "sha256": "06a065717de2d8126c7df8ce9bbe56d1cc634b2b20c7986a1c33459c886265bd"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-authority-activity-day-v1-2560.webp",
+      "bytes": 25294,
+      "sha256": "b6b59f6ed506e88ee032ce611d0837c9dde53919014e04ed6d63eb359a1b9c19"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-authority-activity-day-v1-3840.avif",
+      "bytes": 49709,
+      "sha256": "901dd10da7b9d5aa107242f2b9bc742efb28aa999795bcc664d6665ed17da3d0"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-authority-activity-day-v1-3840.webp",
+      "bytes": 44644,
+      "sha256": "e84b8abe5d8174c4a73d964ba8e30679cfde83d85862abd2df5e1246b08d3c40"
+    },
+    {
+      "path": "assets/production/png/district-financial-center-authority-activity-day-v1-1280.png",
+      "bytes": 644658,
+      "sha256": "93f62277874a32253b675382abe439de9356757ea56cffef74ff9915245a8420"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-financial-center-authority-activity-day-v1.webp",
+      "bytes": 2596,
+      "sha256": "fd50b979dec48d250829f61974fa3445b413fb4f47b7868cf63b9a903a554074"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-financial-center-authority-activity-day-v1.webp",
+      "bytes": 2596,
+      "sha256": "fd50b979dec48d250829f61974fa3445b413fb4f47b7868cf63b9a903a554074"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.467Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1462733
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:21:46.277Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

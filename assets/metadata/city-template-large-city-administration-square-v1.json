@@ -1,0 +1,171 @@
+{
+  "asset_id": "city-template-large-city-administration-square-v1",
+  "manifest_order": 336,
+  "category": "city-template",
+  "batch": "procedural-city-templates",
+  "city": null,
+  "variant": "square",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-template-large-city-administration-square-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100336,
+  "content_hash": "7b561fe2efb4bae4e527c837b0627a0e2e955dac0c687787a614b80a51d818ae",
+  "source_file": "assets/source/global/city-template-large-city-administration-square-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-template-large-city-administration-square-v1-320.avif",
+      "bytes": 3462,
+      "sha256": "9b44c9bb8710c44fb1f56efaac05fe06857ee953e878c3cab8becb9835b7ea5e"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-administration-square-v1-320.webp",
+      "bytes": 3308,
+      "sha256": "b0e124da89f2238c5cf32fe657337759d46f9a6d76f7427dbd117413fc8e3155"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-administration-square-v1-640.avif",
+      "bytes": 7509,
+      "sha256": "22df027c06800007073c70c6fe577411ec02d18cb461e4f04372cb2fcf9494ef"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-administration-square-v1-640.webp",
+      "bytes": 6316,
+      "sha256": "7b110730b634ce1a1f868ecab8ef0764dfdb018f668d9da2ebc98445f4482b26"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-administration-square-v1-960.avif",
+      "bytes": 13400,
+      "sha256": "e2a58ea39a3a1bf8f0d362b86dabc17c2e8cd009c9ba4fca995c53ac2f899a16"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-administration-square-v1-960.webp",
+      "bytes": 10830,
+      "sha256": "40aad7bf7fad07ef9e4cb65639c798564b99cef01f8074e05b2f99e876c6233b"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-administration-square-v1-1280.avif",
+      "bytes": 18225,
+      "sha256": "20547e4c5024378bc7a58d86cfb91bf2f24bd19469cddf960edb3fbaad5a9c14"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-administration-square-v1-1280.webp",
+      "bytes": 14492,
+      "sha256": "cee965a1aa8e2ebf309b78deee7ef880b66d3d55228cdd2266ea84bd8dbe4054"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-administration-square-v1-1920.avif",
+      "bytes": 27879,
+      "sha256": "14826f937cc8d00cf397b99493b487be90702c1d7d6dc065749f7bd3d649061f"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-administration-square-v1-1920.webp",
+      "bytes": 24172,
+      "sha256": "4ca0bc12b84e2647dca0186233a0076cd65ef55c9a4ba8b249e9c72787f40dc8"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-administration-square-v1-2560.avif",
+      "bytes": 38720,
+      "sha256": "91ec2cd5e0886f990343a31b194497acf72b14d799b1ae555b77214ec030d911"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-administration-square-v1-2560.webp",
+      "bytes": 35934,
+      "sha256": "5d448e0e7d5a4c73359fc07b51089c02fe6ffe5813869e062d3866825dda2c36"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-administration-square-v1-3840.avif",
+      "bytes": 63127,
+      "sha256": "8d2d3f3c56ed8f0c8a30d4a0de16faf589dcd3debd9099c42416353389692803"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-administration-square-v1-3840.webp",
+      "bytes": 64410,
+      "sha256": "cb6eae6c5c7486c92601c8f7f56b73362b18f8b92057ce83cceb039277e46d5d"
+    },
+    {
+      "path": "assets/production/png/city-template-large-city-administration-square-v1-1280.png",
+      "bytes": 1248630,
+      "sha256": "8f5aa587c2c1ba4474962f71d59b018a1051a9b67c3a3c2ce4b17cac4153648b"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/city-template-large-city-administration-square-v1.webp",
+      "bytes": 3308,
+      "sha256": "b0e124da89f2238c5cf32fe657337759d46f9a6d76f7427dbd117413fc8e3155"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-template-large-city-administration-square-v1.webp",
+      "bytes": 3308,
+      "sha256": "b0e124da89f2238c5cf32fe657337759d46f9a6d76f7427dbd117413fc8e3155"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 91.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:55.303Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 92,
+      "material_quality": 87,
+      "light_quality": 89,
+      "architecture_plausibility": 89,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 92,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All four paged contact sheets were inspected at original resolution.",
+      "The templates are intentionally stylized deterministic fallbacks and remain compositionally useful across every required aspect ratio.",
+      "No missing render, broken geometry, sensitive infrastructure detail, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1656300
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:36:52.677Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

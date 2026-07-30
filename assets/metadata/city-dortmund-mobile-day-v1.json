@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-dortmund-mobile-day-v1",
+  "manifest_order": 135,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "dortmund",
+  "variant": "mobile-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-dortmund-mobile-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100135,
+  "content_hash": "a21b75102b2431e5afdf5533db65584e32869e8661c156be5f3c922783a8e1d2",
+  "source_file": "assets/source/cities/city-dortmund-mobile-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-dortmund-mobile-day-v1-320.avif",
+      "bytes": 4998,
+      "sha256": "dad245dfbac835186c6a7e032a9c64b8e16c3b9a850a1f8e0dc1cfa0216e0a33"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-mobile-day-v1-320.webp",
+      "bytes": 4416,
+      "sha256": "4e59f3e09a9f37ac97b9d8e7ea4c339e0c0f44f64f48fe0db175cbc87c0d41b1"
+    },
+    {
+      "path": "assets/production/avif/city-dortmund-mobile-day-v1-640.avif",
+      "bytes": 10584,
+      "sha256": "a915d1d2ddce1113c4d87d4267cadec59ffa422c72fff04900a099ab406d4e1d"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-mobile-day-v1-640.webp",
+      "bytes": 8524,
+      "sha256": "c59f2bf183875c38cdc77f1eaa4da139fd80f133ab9b67f785eb3ad9fb79abfb"
+    },
+    {
+      "path": "assets/production/avif/city-dortmund-mobile-day-v1-960.avif",
+      "bytes": 18362,
+      "sha256": "e0420081f3cae8d3ad2b9164d9c764d8a089cf5f8c3c7302fc8b46825a42e436"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-mobile-day-v1-960.webp",
+      "bytes": 14442,
+      "sha256": "5851bff8c2dbbb80d21d776a17c03ec119286f3c9c6939334a06fcef9a207e2d"
+    },
+    {
+      "path": "assets/production/avif/city-dortmund-mobile-day-v1-1280.avif",
+      "bytes": 25128,
+      "sha256": "919da35088acabb9d86a46608a5525488e4d3aff8a5db94f7c13668dd528fc0f"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-mobile-day-v1-1280.webp",
+      "bytes": 20154,
+      "sha256": "a4526f3857e67403ecaa07339e04aa0a1437ddba2fe83c91d0462665afb330fd"
+    },
+    {
+      "path": "assets/production/avif/city-dortmund-mobile-day-v1-1920.avif",
+      "bytes": 40187,
+      "sha256": "579fee708c3ffcba1a8610340efad2b3f90ff107591a10d918860621d3749013"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-mobile-day-v1-1920.webp",
+      "bytes": 36784,
+      "sha256": "79a049d5199e21b99d92a157b42db865979cb67b1e9e6db7f960639c673a4e10"
+    },
+    {
+      "path": "assets/production/avif/city-dortmund-mobile-day-v1-2560.avif",
+      "bytes": 56865,
+      "sha256": "b5dd3742971bc4f46dee713c6c1daf41970c035badd017474110e89b30d79b57"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-mobile-day-v1-2560.webp",
+      "bytes": 55958,
+      "sha256": "c16df54dc58f6c27e06fcfc4589691b763831face272af07850e93cb82adac28"
+    },
+    {
+      "path": "assets/production/avif/city-dortmund-mobile-day-v1-3840.avif",
+      "bytes": 101458,
+      "sha256": "5ffea31408405600b76809d5647d284066a435be4e8ef619855b735367dfe6fc"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-mobile-day-v1-3840.webp",
+      "bytes": 106164,
+      "sha256": "5721abcf30824fc2e98a2b7d5d639a26490724d9c4db8ce79146df25e056b556"
+    },
+    {
+      "path": "assets/production/png/city-dortmund-mobile-day-v1-1152.png",
+      "bytes": 1679718,
+      "sha256": "a21b75102b2431e5afdf5533db65584e32869e8661c156be5f3c922783a8e1d2"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-mobile-day-v1-320.avif",
+      "bytes": 4998,
+      "sha256": "dad245dfbac835186c6a7e032a9c64b8e16c3b9a850a1f8e0dc1cfa0216e0a33"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-mobile-day-v1-320.webp",
+      "bytes": 4416,
+      "sha256": "4e59f3e09a9f37ac97b9d8e7ea4c339e0c0f44f64f48fe0db175cbc87c0d41b1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-mobile-day-v1-640.avif",
+      "bytes": 10584,
+      "sha256": "a915d1d2ddce1113c4d87d4267cadec59ffa422c72fff04900a099ab406d4e1d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-mobile-day-v1-640.webp",
+      "bytes": 8524,
+      "sha256": "c59f2bf183875c38cdc77f1eaa4da139fd80f133ab9b67f785eb3ad9fb79abfb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-mobile-day-v1-960.avif",
+      "bytes": 18362,
+      "sha256": "e0420081f3cae8d3ad2b9164d9c764d8a089cf5f8c3c7302fc8b46825a42e436"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-mobile-day-v1-960.webp",
+      "bytes": 14442,
+      "sha256": "5851bff8c2dbbb80d21d776a17c03ec119286f3c9c6939334a06fcef9a207e2d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-mobile-day-v1-1280.avif",
+      "bytes": 25128,
+      "sha256": "919da35088acabb9d86a46608a5525488e4d3aff8a5db94f7c13668dd528fc0f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-mobile-day-v1-1280.webp",
+      "bytes": 20154,
+      "sha256": "a4526f3857e67403ecaa07339e04aa0a1437ddba2fe83c91d0462665afb330fd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-mobile-day-v1-1920.avif",
+      "bytes": 40187,
+      "sha256": "579fee708c3ffcba1a8610340efad2b3f90ff107591a10d918860621d3749013"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-mobile-day-v1-1920.webp",
+      "bytes": 36784,
+      "sha256": "79a049d5199e21b99d92a157b42db865979cb67b1e9e6db7f960639c673a4e10"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-mobile-day-v1-2560.avif",
+      "bytes": 56865,
+      "sha256": "b5dd3742971bc4f46dee713c6c1daf41970c035badd017474110e89b30d79b57"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-mobile-day-v1-2560.webp",
+      "bytes": 55958,
+      "sha256": "c16df54dc58f6c27e06fcfc4589691b763831face272af07850e93cb82adac28"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-mobile-day-v1-3840.avif",
+      "bytes": 101458,
+      "sha256": "5ffea31408405600b76809d5647d284066a435be4e8ef619855b735367dfe6fc"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-mobile-day-v1-3840.webp",
+      "bytes": 106164,
+      "sha256": "5721abcf30824fc2e98a2b7d5d639a26490724d9c4db8ce79146df25e056b556"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-mobile-day-v1-1152.png",
+      "bytes": 1679718,
+      "sha256": "a21b75102b2431e5afdf5533db65584e32869e8661c156be5f3c922783a8e1d2"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-dortmund-mobile-day-v1.webp",
+      "bytes": 4416,
+      "sha256": "4e59f3e09a9f37ac97b9d8e7ea4c339e0c0f44f64f48fe0db175cbc87c0d41b1"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-dortmund-mobile-day-v1.webp",
+      "bytes": 4416,
+      "sha256": "4e59f3e09a9f37ac97b9d8e7ea4c339e0c0f44f64f48fe0db175cbc87c0d41b1"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.487Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1679718
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-29T23:48:49.835Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

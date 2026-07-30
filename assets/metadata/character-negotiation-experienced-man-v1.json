@@ -1,0 +1,171 @@
+{
+  "asset_id": "character-negotiation-experienced-man-v1",
+  "manifest_order": 554,
+  "category": "character",
+  "batch": "specialists",
+  "city": null,
+  "variant": "experienced-man",
+  "gameplay_state": "normal",
+  "aspect_ratio": "4:5",
+  "width": 1280,
+  "height": 1600,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/character-negotiation-experienced-man-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100554,
+  "content_hash": "bd4d6626b1b5039f776d25b2cb4fb3ea88a36e181768444b166b35fd633c1a71",
+  "source_file": "assets/source/characters/character-negotiation-experienced-man-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/character-negotiation-experienced-man-v1-320.avif",
+      "bytes": 2907,
+      "sha256": "d7adfda563834e734f23b56d8d158e6807b2c10eddbcf5635d086025bc8d5d97"
+    },
+    {
+      "path": "assets/production/webp/character-negotiation-experienced-man-v1-320.webp",
+      "bytes": 2252,
+      "sha256": "15478e0112c1b10833ee0732746a16caa05e9c20c1876c61550130881dab6743"
+    },
+    {
+      "path": "assets/production/avif/character-negotiation-experienced-man-v1-640.avif",
+      "bytes": 6379,
+      "sha256": "f8f9b93fb551ddc60a8b4585ba51973916fe66e89e547bc8ec36c7f4d0529afe"
+    },
+    {
+      "path": "assets/production/webp/character-negotiation-experienced-man-v1-640.webp",
+      "bytes": 5232,
+      "sha256": "3a5d1a238f0aaab82a1efea1a83f01089c85fec93c53d310d3666d803849b3be"
+    },
+    {
+      "path": "assets/production/avif/character-negotiation-experienced-man-v1-960.avif",
+      "bytes": 13871,
+      "sha256": "154c66eebcb7ee6c68d1c91fd6dd89850c47132a579f6ae647a0d90fa7c91028"
+    },
+    {
+      "path": "assets/production/webp/character-negotiation-experienced-man-v1-960.webp",
+      "bytes": 9788,
+      "sha256": "e12ed1d5b0d8fdc07ffb076659e64094dcb7fa7ad8872d72effc4ea8ea6819c8"
+    },
+    {
+      "path": "assets/production/avif/character-negotiation-experienced-man-v1-1280.avif",
+      "bytes": 20208,
+      "sha256": "18f41ee593ea0fe37a6bddd3293ef9bb1fa3728ee624a04d6c278a76e7c689e6"
+    },
+    {
+      "path": "assets/production/webp/character-negotiation-experienced-man-v1-1280.webp",
+      "bytes": 14860,
+      "sha256": "7da3b9ec58ee50348c1f64cfd3259bb5f64d7e87338635dc6aec9b533648cbff"
+    },
+    {
+      "path": "assets/production/avif/character-negotiation-experienced-man-v1-1920.avif",
+      "bytes": 31807,
+      "sha256": "0b26fd781646b2dd09f8954d32b57f7570fb46efe7bab3c118e0743988cd2ace"
+    },
+    {
+      "path": "assets/production/webp/character-negotiation-experienced-man-v1-1920.webp",
+      "bytes": 25060,
+      "sha256": "3ebacd778a2e3a02846110f686d067fe08dc4c85582f75b09d02b7ba02b037b0"
+    },
+    {
+      "path": "assets/production/avif/character-negotiation-experienced-man-v1-2560.avif",
+      "bytes": 45208,
+      "sha256": "cd3b00877904ee61e7938f2f769d4654b457dc5aa8829be42790fe13077f1f83"
+    },
+    {
+      "path": "assets/production/webp/character-negotiation-experienced-man-v1-2560.webp",
+      "bytes": 38110,
+      "sha256": "2fcef46bdbfaf2615fd3cc1a8714e25aee6519ce3709181b5feed5966dbe405d"
+    },
+    {
+      "path": "assets/production/avif/character-negotiation-experienced-man-v1-3840.avif",
+      "bytes": 74541,
+      "sha256": "803b72799a7cd988ffd18a47165b9ee3a34c1458d5c803ac215e625a09b941ac"
+    },
+    {
+      "path": "assets/production/webp/character-negotiation-experienced-man-v1-3840.webp",
+      "bytes": 71732,
+      "sha256": "0dd677b174485364ed358ca328e4f96dbb709531078ad4390e18ad11dd10b8b9"
+    },
+    {
+      "path": "assets/production/png/character-negotiation-experienced-man-v1-1280.png",
+      "bytes": 208209,
+      "sha256": "bd4d6626b1b5039f776d25b2cb4fb3ea88a36e181768444b166b35fd633c1a71"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/character-negotiation-experienced-man-v1.webp",
+      "bytes": 2252,
+      "sha256": "15478e0112c1b10833ee0732746a16caa05e9c20c1876c61550130881dab6743"
+    },
+    {
+      "path": "apps/mobile/assets/library/character-negotiation-experienced-man-v1.webp",
+      "bytes": 2252,
+      "sha256": "15478e0112c1b10833ee0732746a16caa05e9c20c1876c61550130881dab6743"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:37.215Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1280,
+      "height": 1600,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 208209
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:18:46.263Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

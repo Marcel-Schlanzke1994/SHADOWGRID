@@ -1,0 +1,171 @@
+{
+  "asset_id": "overlay-document-texture-v1",
+  "manifest_order": 832,
+  "category": "overlay",
+  "batch": "weather-overlays",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/overlay-document-texture-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100832,
+  "content_hash": "24d78229c6421f9ed1552750b32c8c8fc5851eebea99423bac3de499cbb628fb",
+  "source_file": "assets/source/effects/overlay-document-texture-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/overlay-document-texture-v1-320.avif",
+      "bytes": 10050,
+      "sha256": "539690c42c2848e15f854b53971861fde4752d5fc8a1156967277244cdb6c422"
+    },
+    {
+      "path": "assets/production/webp/overlay-document-texture-v1-320.webp",
+      "bytes": 27498,
+      "sha256": "f881a9551c48eaefbd3a2c91f0ca2d0c3c8f48cb6e5561311ace31b8291584a0"
+    },
+    {
+      "path": "assets/production/avif/overlay-document-texture-v1-640.avif",
+      "bytes": 37328,
+      "sha256": "80b9daa917521fc8fd71d4d9124e1ee26110b7878cab27fba088b494b471e7c4"
+    },
+    {
+      "path": "assets/production/webp/overlay-document-texture-v1-640.webp",
+      "bytes": 129388,
+      "sha256": "4b990bb531ea321f228b828f8091ea25486d20152e95f62961af2bcb27cdde84"
+    },
+    {
+      "path": "assets/production/avif/overlay-document-texture-v1-960.avif",
+      "bytes": 146913,
+      "sha256": "1ee3dd1a959de3146642953f18fdbeaae3dbb4b1544909e356d02608236a73ef"
+    },
+    {
+      "path": "assets/production/webp/overlay-document-texture-v1-960.webp",
+      "bytes": 362918,
+      "sha256": "8c2a1645265b8015a8d9537a18de3ecd8f3abf880c3420ec78187564953ade5e"
+    },
+    {
+      "path": "assets/production/avif/overlay-document-texture-v1-1280.avif",
+      "bytes": 257583,
+      "sha256": "3ab8313e71a5b84456051806d40d2ef12cd535eb46223c779a1537ffa4f3f72c"
+    },
+    {
+      "path": "assets/production/webp/overlay-document-texture-v1-1280.webp",
+      "bytes": 715606,
+      "sha256": "3f5bfd8d4ff55174a5abab7e2255ce116b5500be3905730889029d2d071b4074"
+    },
+    {
+      "path": "assets/production/avif/overlay-document-texture-v1-1920.avif",
+      "bytes": 725978,
+      "sha256": "7b2e0bb51466ee97a8a4d026fcf7737c485b57e17dfe43a8ca7992c57c64a9c4"
+    },
+    {
+      "path": "assets/production/webp/overlay-document-texture-v1-1920.webp",
+      "bytes": 1851734,
+      "sha256": "e2e14740c0ddc9b210510d7ebafa8cb82346b9678615b468494884ecf2533b15"
+    },
+    {
+      "path": "assets/production/avif/overlay-document-texture-v1-2560.avif",
+      "bytes": 1258168,
+      "sha256": "0a69ece8d019b2da536acc8601bf58c42cee03b7cbafef36b5585e879be98ec4"
+    },
+    {
+      "path": "assets/production/webp/overlay-document-texture-v1-2560.webp",
+      "bytes": 3297324,
+      "sha256": "97e83ca773d85451af4fbc570fa5e86063e7a1b1f4b4e343ffe5326160eb7c53"
+    },
+    {
+      "path": "assets/production/avif/overlay-document-texture-v1-3840.avif",
+      "bytes": 2713261,
+      "sha256": "4d430e96655d2571a569c0c3d21f2cd904b990bc86c1790f7a69b07247a132aa"
+    },
+    {
+      "path": "assets/production/webp/overlay-document-texture-v1-3840.webp",
+      "bytes": 6815450,
+      "sha256": "9361a5823324ce87ea10b88491348a429bbbb92ee6971ca8009825476231e18d"
+    },
+    {
+      "path": "assets/production/png/overlay-document-texture-v1-1280.png",
+      "bytes": 1112843,
+      "sha256": "84239458046d55eaca0a68aca1cdeecc5fe18605b4de12591c3bfb27f6973f9a"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/overlay-document-texture-v1.webp",
+      "bytes": 27498,
+      "sha256": "f881a9551c48eaefbd3a2c91f0ca2d0c3c8f48cb6e5561311ace31b8291584a0"
+    },
+    {
+      "path": "apps/mobile/assets/library/overlay-document-texture-v1.webp",
+      "bytes": 27498,
+      "sha256": "f881a9551c48eaefbd3a2c91f0ca2d0c3c8f48cb6e5561311ace31b8291584a0"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.4,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:28.195Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 93,
+      "architecture_plausibility": 90,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Boom, crisis, authority, organization control, contested, and blocked states use distinct graph, scan, zone, cross, and hatch semantics.",
+      "Transparent weather and material overlays were checked against the contact-sheet dark background; no unintended opaque fill or broken render remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": true,
+      "bytes": 2362337
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T06:13:51.053Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

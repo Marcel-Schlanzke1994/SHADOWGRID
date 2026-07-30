@@ -23,6 +23,11 @@
       "path": "assets/production/svg/marker-contested-city-v1.svg",
       "bytes": 633,
       "sha256": "e46a95a243cf7438657390eb79f5feb54a6dfbb7a9cbe9f89c74a06b5c23355f"
+    },
+    {
+      "path": "assets/production/webp/marker-contested-city-v1-320.webp",
+      "bytes": 4770,
+      "sha256": "d1aafbee5fbb47d079080bd7ce6d0402efdb43661f7695756b4dafaeb749f642"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/markers/marker-contested-city-v1.svg",
       "bytes": 633,
       "sha256": "e46a95a243cf7438657390eb79f5feb54a6dfbb7a9cbe9f89c74a06b5c23355f"
+    },
+    {
+      "path": "apps/web/public/assets/markers/marker-contested-city-v1-320.webp",
+      "bytes": 4770,
+      "sha256": "d1aafbee5fbb47d079080bd7ce6d0402efdb43661f7695756b4dafaeb749f642"
+    },
+    {
+      "path": "apps/web/public/assets/library/marker-contested-city-v1.webp",
+      "bytes": 4770,
+      "sha256": "d1aafbee5fbb47d079080bd7ce6d0402efdb43661f7695756b4dafaeb749f642"
+    },
+    {
+      "path": "apps/mobile/assets/library/marker-contested-city-v1.webp",
+      "bytes": 4770,
+      "sha256": "d1aafbee5fbb47d079080bd7ce6d0402efdb43661f7695756b4dafaeb749f642"
     }
   ],
   "contains_text": false,

@@ -1,0 +1,171 @@
+{
+  "asset_id": "event-port-strike-v1",
+  "manifest_order": 698,
+  "category": "event",
+  "batch": "world-events",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/event-port-strike-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100698,
+  "content_hash": "4867509a448e95ca155322aca502f84ab4d1327a9f0ccbe4082d4206278b9ad9",
+  "source_file": "assets/source/events/event-port-strike-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/event-port-strike-v1-320.avif",
+      "bytes": 2910,
+      "sha256": "313cc0d8ecd5f37023241c883a4d8d99ab47d602ee5ff78bd75bacd641d82336"
+    },
+    {
+      "path": "assets/production/webp/event-port-strike-v1-320.webp",
+      "bytes": 2818,
+      "sha256": "e01a271875861962965f4186644b10314445375362d63c5fdb295e19ecac7026"
+    },
+    {
+      "path": "assets/production/avif/event-port-strike-v1-640.avif",
+      "bytes": 6457,
+      "sha256": "4c7b69038792e041b03bd8ed9db7714d80e43ab5043fd4211e672c01e5ffd098"
+    },
+    {
+      "path": "assets/production/webp/event-port-strike-v1-640.webp",
+      "bytes": 5710,
+      "sha256": "bec77d083b3d9bf2e3335be53ac46d9c63418ffba9b138d9155b0b2cd36bf98c"
+    },
+    {
+      "path": "assets/production/avif/event-port-strike-v1-960.avif",
+      "bytes": 10930,
+      "sha256": "392f2454927092f217772c6bc6d83d32932e65d8507d62dd6e8b83349469533a"
+    },
+    {
+      "path": "assets/production/webp/event-port-strike-v1-960.webp",
+      "bytes": 9760,
+      "sha256": "082dccdd7ca3a7b45a3cc3514a894df6caff99f9fb22ca91144852806d5f8187"
+    },
+    {
+      "path": "assets/production/avif/event-port-strike-v1-1280.avif",
+      "bytes": 16148,
+      "sha256": "a969ae3ef7b503a0d6e4cd5a5dffaf360e662bfb1dc1e25d98badb45df01816c"
+    },
+    {
+      "path": "assets/production/webp/event-port-strike-v1-1280.webp",
+      "bytes": 12766,
+      "sha256": "fc453384e64907e15fc2a710d6b3d8400d81b64a54645f9d63bf2bf34492204c"
+    },
+    {
+      "path": "assets/production/avif/event-port-strike-v1-1920.avif",
+      "bytes": 24957,
+      "sha256": "401d9d731018e19819b31c0ee29d9554a99652f7b3e463d8280077932fd43297"
+    },
+    {
+      "path": "assets/production/webp/event-port-strike-v1-1920.webp",
+      "bytes": 20686,
+      "sha256": "6dd3f0c465c4d2b0a522ff6ca6674083d5ee1789629d179506390f7d44dcb9eb"
+    },
+    {
+      "path": "assets/production/avif/event-port-strike-v1-2560.avif",
+      "bytes": 33339,
+      "sha256": "d1b13d3e61e3bb59c651619b970bcc5da0fc30f23613c38d15f6fea414a4c684"
+    },
+    {
+      "path": "assets/production/webp/event-port-strike-v1-2560.webp",
+      "bytes": 29082,
+      "sha256": "01cfd841fdda53b1faa187e180a795a6a75d14c553f5d0a07bcae07898ba8847"
+    },
+    {
+      "path": "assets/production/avif/event-port-strike-v1-3840.avif",
+      "bytes": 54079,
+      "sha256": "4eb254fc457c78e622fb1b7ad735c04b8c89cd6be3dd24d464f9b1620beaa1ae"
+    },
+    {
+      "path": "assets/production/webp/event-port-strike-v1-3840.webp",
+      "bytes": 49324,
+      "sha256": "a9590f4c10b279f7e0a82062b18508f80cccb12cb8bd58323430491fdccf7df1"
+    },
+    {
+      "path": "assets/production/png/event-port-strike-v1-1280.png",
+      "bytes": 697898,
+      "sha256": "be7f3e3da742b8b4d90d1fac493615f23a88cb7a300a05373c6334a3fdef2bd7"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/event-port-strike-v1.webp",
+      "bytes": 2818,
+      "sha256": "e01a271875861962965f4186644b10314445375362d63c5fdb295e19ecac7026"
+    },
+    {
+      "path": "apps/mobile/assets/library/event-port-strike-v1.webp",
+      "bytes": 2818,
+      "sha256": "e01a271875861962965f4186644b10314445375362d63c5fdb295e19ecac7026"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:10.651Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 88,
+      "light_quality": 91,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Repeated motifs form a coherent event family while color, direction, and state treatment keep event classes distinguishable.",
+      "No missing render, unsafe real-world guidance, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1579291
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:30:15.500Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

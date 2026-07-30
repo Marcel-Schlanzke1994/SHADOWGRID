@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-aachen-ultrawide-day-v1",
+  "manifest_order": 227,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "aachen",
+  "variant": "ultrawide-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-aachen-ultrawide-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100227,
+  "content_hash": "12534f267f04b79347a41104392ccf109579e47cd51a37f8d95344be5f5e26ae",
+  "source_file": "assets/source/cities/city-aachen-ultrawide-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-aachen-ultrawide-day-v1-320.avif",
+      "bytes": 2586,
+      "sha256": "fc955495ff0273f58ceed1d5d3839bdf71d6d1990176678fd15115da76ddaed0"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-ultrawide-day-v1-320.webp",
+      "bytes": 2598,
+      "sha256": "29ab2ab60d594eeff1d692c0ebd03a8ffa1b1726d4a2009a81eb1d2f1a79007e"
+    },
+    {
+      "path": "assets/production/avif/city-aachen-ultrawide-day-v1-640.avif",
+      "bytes": 5369,
+      "sha256": "d8dcea14a35d522cf05974e66024d55140e4a4a1d06f01b51b575ceba9ee8af3"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-ultrawide-day-v1-640.webp",
+      "bytes": 4992,
+      "sha256": "3f79a28350f51113de1d47cefe149d4c0787b20925ba754870e1965df9022299"
+    },
+    {
+      "path": "assets/production/avif/city-aachen-ultrawide-day-v1-960.avif",
+      "bytes": 9790,
+      "sha256": "a1e99d2c85fd5f4a0bd1dabed04d9b36cb51b6af2e92e49d0ec930b21470d5e5"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-ultrawide-day-v1-960.webp",
+      "bytes": 8198,
+      "sha256": "0c34a7bab568c27fe0bf336f74ddbd57c22eed2e20fc9bfa6aff2243fe19d833"
+    },
+    {
+      "path": "assets/production/avif/city-aachen-ultrawide-day-v1-1280.avif",
+      "bytes": 12798,
+      "sha256": "f8e9e94aa66cad8a652616a328309af7cbe6ac672c985f58256a0940adc3f1d3"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-ultrawide-day-v1-1280.webp",
+      "bytes": 10608,
+      "sha256": "feff201b047ed40fe1155cf4633f7542dc08a863aab43aa75c828b6c2fdec80e"
+    },
+    {
+      "path": "assets/production/avif/city-aachen-ultrawide-day-v1-1920.avif",
+      "bytes": 19870,
+      "sha256": "7e8adbad7a9365758fdc44eeef4ab44bc97004c5c007416b01a7318a956a4094"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-ultrawide-day-v1-1920.webp",
+      "bytes": 16448,
+      "sha256": "5ed31192c429d641068bc6333d52a0aae9e5d6bc3ea0bab64b923ca026c27e40"
+    },
+    {
+      "path": "assets/production/avif/city-aachen-ultrawide-day-v1-2560.avif",
+      "bytes": 26230,
+      "sha256": "609fc46c7081e3582c2087bffd51a66dc2d46c235ea246e6ddf18846ee79c6da"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-ultrawide-day-v1-2560.webp",
+      "bytes": 22272,
+      "sha256": "b4f4b030aa602fce346e8bf0eafdccb6990314abe92b12cac7a3dccbef59d393"
+    },
+    {
+      "path": "assets/production/avif/city-aachen-ultrawide-day-v1-3840.avif",
+      "bytes": 42077,
+      "sha256": "d360fbd975546b1f5b8b953ead6f418325bd7379b1cff82c3036b296b2725708"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-ultrawide-day-v1-3840.webp",
+      "bytes": 37406,
+      "sha256": "24a00d378a38443fac01c302a31b7d78f36fa287ff1314d2886749fbade975b6"
+    },
+    {
+      "path": "assets/production/png/city-aachen-ultrawide-day-v1-1280.png",
+      "bytes": 416410,
+      "sha256": "fe3350841bfd313cea7b1e90404e8fbb0b91da6dd1c3d9b4b43add5c9da027a2"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-ultrawide-day-v1-320.avif",
+      "bytes": 2586,
+      "sha256": "fc955495ff0273f58ceed1d5d3839bdf71d6d1990176678fd15115da76ddaed0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-ultrawide-day-v1-320.webp",
+      "bytes": 2598,
+      "sha256": "29ab2ab60d594eeff1d692c0ebd03a8ffa1b1726d4a2009a81eb1d2f1a79007e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-ultrawide-day-v1-640.avif",
+      "bytes": 5369,
+      "sha256": "d8dcea14a35d522cf05974e66024d55140e4a4a1d06f01b51b575ceba9ee8af3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-ultrawide-day-v1-640.webp",
+      "bytes": 4992,
+      "sha256": "3f79a28350f51113de1d47cefe149d4c0787b20925ba754870e1965df9022299"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-ultrawide-day-v1-960.avif",
+      "bytes": 9790,
+      "sha256": "a1e99d2c85fd5f4a0bd1dabed04d9b36cb51b6af2e92e49d0ec930b21470d5e5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-ultrawide-day-v1-960.webp",
+      "bytes": 8198,
+      "sha256": "0c34a7bab568c27fe0bf336f74ddbd57c22eed2e20fc9bfa6aff2243fe19d833"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-ultrawide-day-v1-1280.avif",
+      "bytes": 12798,
+      "sha256": "f8e9e94aa66cad8a652616a328309af7cbe6ac672c985f58256a0940adc3f1d3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-ultrawide-day-v1-1280.webp",
+      "bytes": 10608,
+      "sha256": "feff201b047ed40fe1155cf4633f7542dc08a863aab43aa75c828b6c2fdec80e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-ultrawide-day-v1-1920.avif",
+      "bytes": 19870,
+      "sha256": "7e8adbad7a9365758fdc44eeef4ab44bc97004c5c007416b01a7318a956a4094"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-ultrawide-day-v1-1920.webp",
+      "bytes": 16448,
+      "sha256": "5ed31192c429d641068bc6333d52a0aae9e5d6bc3ea0bab64b923ca026c27e40"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-ultrawide-day-v1-2560.avif",
+      "bytes": 26230,
+      "sha256": "609fc46c7081e3582c2087bffd51a66dc2d46c235ea246e6ddf18846ee79c6da"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-ultrawide-day-v1-2560.webp",
+      "bytes": 22272,
+      "sha256": "b4f4b030aa602fce346e8bf0eafdccb6990314abe92b12cac7a3dccbef59d393"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-ultrawide-day-v1-3840.avif",
+      "bytes": 42077,
+      "sha256": "d360fbd975546b1f5b8b953ead6f418325bd7379b1cff82c3036b296b2725708"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-ultrawide-day-v1-3840.webp",
+      "bytes": 37406,
+      "sha256": "24a00d378a38443fac01c302a31b7d78f36fa287ff1314d2886749fbade975b6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-ultrawide-day-v1-1280.png",
+      "bytes": 416410,
+      "sha256": "fe3350841bfd313cea7b1e90404e8fbb0b91da6dd1c3d9b4b43add5c9da027a2"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-aachen-ultrawide-day-v1.webp",
+      "bytes": 2598,
+      "sha256": "29ab2ab60d594eeff1d692c0ebd03a8ffa1b1726d4a2009a81eb1d2f1a79007e"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-aachen-ultrawide-day-v1.webp",
+      "bytes": 2598,
+      "sha256": "29ab2ab60d594eeff1d692c0ebd03a8ffa1b1726d4a2009a81eb1d2f1a79007e"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.332Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 2072976
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:17:18.436Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

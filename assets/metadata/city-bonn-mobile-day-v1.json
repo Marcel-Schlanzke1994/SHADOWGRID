@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-bonn-mobile-day-v1",
+  "manifest_order": 215,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "bonn",
+  "variant": "mobile-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-bonn-mobile-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100215,
+  "content_hash": "088bbea7ca30a0baae925060e7144bd1811b3e3118e937ebdf127b38429e05e8",
+  "source_file": "assets/source/cities/city-bonn-mobile-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-bonn-mobile-day-v1-320.avif",
+      "bytes": 4544,
+      "sha256": "56ac8b8bd17fbcf96759828ee34446e1b9b94ef72c12d98fb6f92977bf5d9992"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-mobile-day-v1-320.webp",
+      "bytes": 3952,
+      "sha256": "c5933ad43c335bb8225d9e71327510cb26ed906f2225d931a05ea65f6e004ca5"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-mobile-day-v1-640.avif",
+      "bytes": 9716,
+      "sha256": "c138c09a609d25da2ab744a328707330d6a8fa1a91c92be7aa71358b9861fb60"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-mobile-day-v1-640.webp",
+      "bytes": 7806,
+      "sha256": "1d70867acf67683eb457f32fc5bebe3462234c8041eec6cfc595c090118792b8"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-mobile-day-v1-960.avif",
+      "bytes": 16857,
+      "sha256": "c860ec09210ee21091994c2d6fa9ba9578546f37130644c26804378f94dce5d1"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-mobile-day-v1-960.webp",
+      "bytes": 13608,
+      "sha256": "b8448ba02eab55b611eabd9d7e0f250266e53d7d443402aba09cdf3cf41d821d"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-mobile-day-v1-1280.avif",
+      "bytes": 22468,
+      "sha256": "988c7643f2c8dd7588eee78b428bc8cfe120273f0c1a0617404459ebc61ef82e"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-mobile-day-v1-1280.webp",
+      "bytes": 19226,
+      "sha256": "3d94fbf807770930646f4e749e5ed6d65ce12d6e44c7010041c8a6849cca9560"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-mobile-day-v1-1920.avif",
+      "bytes": 36975,
+      "sha256": "6824dbd0c795c8d13ba5593eefefad46045e6ff111be402db5622fcffce29179"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-mobile-day-v1-1920.webp",
+      "bytes": 34566,
+      "sha256": "db6b02e62fc238744d875b24f2994f26da5b7039eb243843083d95b7f497c527"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-mobile-day-v1-2560.avif",
+      "bytes": 54909,
+      "sha256": "bd097f98ef7697d784153404e456815bae667e68c8aa304da6e1c214bc641bb2"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-mobile-day-v1-2560.webp",
+      "bytes": 52130,
+      "sha256": "9aeaacef5cacbeba9f4a306c92479f9e69b2e546db36d46198cdf88f01da1f80"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-mobile-day-v1-3840.avif",
+      "bytes": 96486,
+      "sha256": "014f52d743f53ae3da87fab381e9e2133f118fc61db2908dc3afd45263affe88"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-mobile-day-v1-3840.webp",
+      "bytes": 103550,
+      "sha256": "e435c9f996be224b5780a05c6b8bbb67a8a7f68988c01371a0a3008188a57d48"
+    },
+    {
+      "path": "assets/production/png/city-bonn-mobile-day-v1-1152.png",
+      "bytes": 1669841,
+      "sha256": "088bbea7ca30a0baae925060e7144bd1811b3e3118e937ebdf127b38429e05e8"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-day-v1-320.avif",
+      "bytes": 4544,
+      "sha256": "56ac8b8bd17fbcf96759828ee34446e1b9b94ef72c12d98fb6f92977bf5d9992"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-day-v1-320.webp",
+      "bytes": 3952,
+      "sha256": "c5933ad43c335bb8225d9e71327510cb26ed906f2225d931a05ea65f6e004ca5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-day-v1-640.avif",
+      "bytes": 9716,
+      "sha256": "c138c09a609d25da2ab744a328707330d6a8fa1a91c92be7aa71358b9861fb60"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-day-v1-640.webp",
+      "bytes": 7806,
+      "sha256": "1d70867acf67683eb457f32fc5bebe3462234c8041eec6cfc595c090118792b8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-day-v1-960.avif",
+      "bytes": 16857,
+      "sha256": "c860ec09210ee21091994c2d6fa9ba9578546f37130644c26804378f94dce5d1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-day-v1-960.webp",
+      "bytes": 13608,
+      "sha256": "b8448ba02eab55b611eabd9d7e0f250266e53d7d443402aba09cdf3cf41d821d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-day-v1-1280.avif",
+      "bytes": 22468,
+      "sha256": "988c7643f2c8dd7588eee78b428bc8cfe120273f0c1a0617404459ebc61ef82e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-day-v1-1280.webp",
+      "bytes": 19226,
+      "sha256": "3d94fbf807770930646f4e749e5ed6d65ce12d6e44c7010041c8a6849cca9560"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-day-v1-1920.avif",
+      "bytes": 36975,
+      "sha256": "6824dbd0c795c8d13ba5593eefefad46045e6ff111be402db5622fcffce29179"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-day-v1-1920.webp",
+      "bytes": 34566,
+      "sha256": "db6b02e62fc238744d875b24f2994f26da5b7039eb243843083d95b7f497c527"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-day-v1-2560.avif",
+      "bytes": 54909,
+      "sha256": "bd097f98ef7697d784153404e456815bae667e68c8aa304da6e1c214bc641bb2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-day-v1-2560.webp",
+      "bytes": 52130,
+      "sha256": "9aeaacef5cacbeba9f4a306c92479f9e69b2e546db36d46198cdf88f01da1f80"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-day-v1-3840.avif",
+      "bytes": 96486,
+      "sha256": "014f52d743f53ae3da87fab381e9e2133f118fc61db2908dc3afd45263affe88"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-day-v1-3840.webp",
+      "bytes": 103550,
+      "sha256": "e435c9f996be224b5780a05c6b8bbb67a8a7f68988c01371a0a3008188a57d48"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-day-v1-1152.png",
+      "bytes": 1669841,
+      "sha256": "088bbea7ca30a0baae925060e7144bd1811b3e3118e937ebdf127b38429e05e8"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-bonn-mobile-day-v1.webp",
+      "bytes": 3952,
+      "sha256": "c5933ad43c335bb8225d9e71327510cb26ed906f2225d931a05ea65f6e004ca5"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-bonn-mobile-day-v1.webp",
+      "bytes": 3952,
+      "sha256": "c5933ad43c335bb8225d9e71327510cb26ed906f2225d931a05ea65f6e004ca5"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.188Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1669841
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:05:13.454Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

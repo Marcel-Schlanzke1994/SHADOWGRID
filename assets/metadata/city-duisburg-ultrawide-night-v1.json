@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-duisburg-ultrawide-night-v1",
+  "manifest_order": 180,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "duisburg",
+  "variant": "ultrawide-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-duisburg-ultrawide-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100180,
+  "content_hash": "22fe760a00b112cf83fd2e94f6cad9d2fb639a6a08d70e97ecf8aed5dc095b7a",
+  "source_file": "assets/source/cities/city-duisburg-ultrawide-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-duisburg-ultrawide-night-v1-320.avif",
+      "bytes": 3460,
+      "sha256": "714732e805abe9edb9c41121227c703febbed332cc7206c2f1adb2181ab8d506"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-ultrawide-night-v1-320.webp",
+      "bytes": 3620,
+      "sha256": "edaeff8401898ad547204cc4b7329008f1acd33df1b5f40b475522b2ab4415ca"
+    },
+    {
+      "path": "assets/production/avif/city-duisburg-ultrawide-night-v1-640.avif",
+      "bytes": 7545,
+      "sha256": "4006acd908bdb1cf00bdcde5e7e56dbe628089a0ec704dbbf33e1364eab62669"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-ultrawide-night-v1-640.webp",
+      "bytes": 8350,
+      "sha256": "36b7045e6d6853085bd2819f5c887e903a048231718f5751ef02017aac896d49"
+    },
+    {
+      "path": "assets/production/avif/city-duisburg-ultrawide-night-v1-960.avif",
+      "bytes": 12943,
+      "sha256": "c78122f7f47f164ccafae4f2f8a83103efdb1712dd7468e3c1e90dd842eef25b"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-ultrawide-night-v1-960.webp",
+      "bytes": 14434,
+      "sha256": "dd862261e199ac4c6e3eff7c434e5dd80b2913cbf0c35e0654f505a00ed452e4"
+    },
+    {
+      "path": "assets/production/avif/city-duisburg-ultrawide-night-v1-1280.avif",
+      "bytes": 16965,
+      "sha256": "81838b533c4f98a820c8f6eb99ba259a672fd78dd30638b47765c7db1e8f0523"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-ultrawide-night-v1-1280.webp",
+      "bytes": 18742,
+      "sha256": "383950d4dd7590724dfbb2dc49bf49909114d5a4a0d0e106119ed288787251c6"
+    },
+    {
+      "path": "assets/production/avif/city-duisburg-ultrawide-night-v1-1920.avif",
+      "bytes": 26605,
+      "sha256": "27872f8009cf743223e96b04476d51695f17d883af647f31184bee8c9cc607d5"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-ultrawide-night-v1-1920.webp",
+      "bytes": 28600,
+      "sha256": "77b566d2991c941a910de63c4dcaf861136a05734f001a7caa4a45fb8647032a"
+    },
+    {
+      "path": "assets/production/avif/city-duisburg-ultrawide-night-v1-2560.avif",
+      "bytes": 35659,
+      "sha256": "5463d241ceb756b57ce772aef2b97c6352b1de2a9fcc2c7df61c07e2a6bd9e3e"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-ultrawide-night-v1-2560.webp",
+      "bytes": 37206,
+      "sha256": "23a234edb68f59f72c8b9b7f7b4f28e05de0eb4e7e7e81351415aa885ca47b07"
+    },
+    {
+      "path": "assets/production/avif/city-duisburg-ultrawide-night-v1-3840.avif",
+      "bytes": 56844,
+      "sha256": "0c7020c586f5c4b995c0bb9ed1f61badd939e41723ce8fd2d089613f3baae209"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-ultrawide-night-v1-3840.webp",
+      "bytes": 54152,
+      "sha256": "b8feb1232c29e6e65767b21a25e63d95113b7de12c073ea2cdee3b6a571d8ffa"
+    },
+    {
+      "path": "assets/production/png/city-duisburg-ultrawide-night-v1-1280.png",
+      "bytes": 494886,
+      "sha256": "190ed3cee29718052ad1e494d23b042b489baf68aacef8c2cc80d8a7989631e9"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-ultrawide-night-v1-320.avif",
+      "bytes": 3460,
+      "sha256": "714732e805abe9edb9c41121227c703febbed332cc7206c2f1adb2181ab8d506"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-ultrawide-night-v1-320.webp",
+      "bytes": 3620,
+      "sha256": "edaeff8401898ad547204cc4b7329008f1acd33df1b5f40b475522b2ab4415ca"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-ultrawide-night-v1-640.avif",
+      "bytes": 7545,
+      "sha256": "4006acd908bdb1cf00bdcde5e7e56dbe628089a0ec704dbbf33e1364eab62669"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-ultrawide-night-v1-640.webp",
+      "bytes": 8350,
+      "sha256": "36b7045e6d6853085bd2819f5c887e903a048231718f5751ef02017aac896d49"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-ultrawide-night-v1-960.avif",
+      "bytes": 12943,
+      "sha256": "c78122f7f47f164ccafae4f2f8a83103efdb1712dd7468e3c1e90dd842eef25b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-ultrawide-night-v1-960.webp",
+      "bytes": 14434,
+      "sha256": "dd862261e199ac4c6e3eff7c434e5dd80b2913cbf0c35e0654f505a00ed452e4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-ultrawide-night-v1-1280.avif",
+      "bytes": 16965,
+      "sha256": "81838b533c4f98a820c8f6eb99ba259a672fd78dd30638b47765c7db1e8f0523"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-ultrawide-night-v1-1280.webp",
+      "bytes": 18742,
+      "sha256": "383950d4dd7590724dfbb2dc49bf49909114d5a4a0d0e106119ed288787251c6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-ultrawide-night-v1-1920.avif",
+      "bytes": 26605,
+      "sha256": "27872f8009cf743223e96b04476d51695f17d883af647f31184bee8c9cc607d5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-ultrawide-night-v1-1920.webp",
+      "bytes": 28600,
+      "sha256": "77b566d2991c941a910de63c4dcaf861136a05734f001a7caa4a45fb8647032a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-ultrawide-night-v1-2560.avif",
+      "bytes": 35659,
+      "sha256": "5463d241ceb756b57ce772aef2b97c6352b1de2a9fcc2c7df61c07e2a6bd9e3e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-ultrawide-night-v1-2560.webp",
+      "bytes": 37206,
+      "sha256": "23a234edb68f59f72c8b9b7f7b4f28e05de0eb4e7e7e81351415aa885ca47b07"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-ultrawide-night-v1-3840.avif",
+      "bytes": 56844,
+      "sha256": "0c7020c586f5c4b995c0bb9ed1f61badd939e41723ce8fd2d089613f3baae209"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-ultrawide-night-v1-3840.webp",
+      "bytes": 54152,
+      "sha256": "b8feb1232c29e6e65767b21a25e63d95113b7de12c073ea2cdee3b6a571d8ffa"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-ultrawide-night-v1-1280.png",
+      "bytes": 494886,
+      "sha256": "190ed3cee29718052ad1e494d23b042b489baf68aacef8c2cc80d8a7989631e9"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-duisburg-ultrawide-night-v1.webp",
+      "bytes": 3620,
+      "sha256": "edaeff8401898ad547204cc4b7329008f1acd33df1b5f40b475522b2ab4415ca"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-duisburg-ultrawide-night-v1.webp",
+      "bytes": 3620,
+      "sha256": "edaeff8401898ad547204cc4b7329008f1acd33df1b5f40b475522b2ab4415ca"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.825Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 2139456
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:26:12.491Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

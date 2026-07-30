@@ -1,0 +1,171 @@
+{
+  "asset_id": "organization-conflict-preparation-v1",
+  "manifest_order": 600,
+  "category": "organization-conflict",
+  "batch": "cartel-conflicts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "preparation",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/organization-conflict-preparation-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100600,
+  "content_hash": "2534a5547ee2958e126f8ffc259a30c10a7b141db91defb1682ae167e4f13dbf",
+  "source_file": "assets/source/cartels/organization-conflict-preparation-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/organization-conflict-preparation-v1-320.avif",
+      "bytes": 2623,
+      "sha256": "aca1db513b82a24fdb6042b9dd4ee545c5aa3895fafcba0ca22f2da48b6ac2c3"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-preparation-v1-320.webp",
+      "bytes": 1798,
+      "sha256": "395c150a5b30b44193da54c1edf9b55cdf1dd61148ad371b6e626c835348656a"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-preparation-v1-640.avif",
+      "bytes": 6411,
+      "sha256": "ac635af9664706323c5e8cb2beb8cbdbcd63f55f2656b3a956459af855fef166"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-preparation-v1-640.webp",
+      "bytes": 4848,
+      "sha256": "adf2453baa8f020fbe09e50050eed38bebcb5a02b650cbda987196135e60dba2"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-preparation-v1-960.avif",
+      "bytes": 12572,
+      "sha256": "4f2208c7ab1b724bfaff499cfba8814899e354b5486b00c8a75d4168f1a13bd1"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-preparation-v1-960.webp",
+      "bytes": 9094,
+      "sha256": "091b17a3b83014206dd68242a69f4809d16eb56cf5393c5640cc6465f962699f"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-preparation-v1-1280.avif",
+      "bytes": 18298,
+      "sha256": "eccb2d0baa7c326e88c902443f7b5ed33a1414b489190d199e8afd090da57e26"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-preparation-v1-1280.webp",
+      "bytes": 13246,
+      "sha256": "3ff9fcc188a15155653e7bcfd258372f9db58618f3b90d43426b990fbc451be4"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-preparation-v1-1920.avif",
+      "bytes": 27928,
+      "sha256": "093c2704d1b4308a6e253868de51fef77083b0ee357375b5b3e334bb6f766812"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-preparation-v1-1920.webp",
+      "bytes": 22386,
+      "sha256": "cc7b241a854396b4eca7c82182d8799e5d1b7719fba6399827880a3790c96b7a"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-preparation-v1-2560.avif",
+      "bytes": 36613,
+      "sha256": "9c16cbebd19863f118c80a40057b86efdbd170caa8c89992cb3dba8752455ecf"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-preparation-v1-2560.webp",
+      "bytes": 29954,
+      "sha256": "be68ce926b407d841da217a3813b692bb2451b94503ec7101cfe14ad256328e8"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-preparation-v1-3840.avif",
+      "bytes": 56338,
+      "sha256": "b51e330017ab3de7efc2d3fdb1483ec58e3ea1cb1c867019a52cf4905de8f405"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-preparation-v1-3840.webp",
+      "bytes": 48874,
+      "sha256": "ba5b237ac53bc5116866f1f9bf490aa874f50b77b52fd6744e41b1d598e7249d"
+    },
+    {
+      "path": "assets/production/png/organization-conflict-preparation-v1-1280.png",
+      "bytes": 171488,
+      "sha256": "1ecd2ed4eb9321a492056dd25427a9fa3e04c156f8934f40df80df2f6a886fd6"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/organization-conflict-preparation-v1.webp",
+      "bytes": 1798,
+      "sha256": "395c150a5b30b44193da54c1edf9b55cdf1dd61148ad371b6e626c835348656a"
+    },
+    {
+      "path": "apps/mobile/assets/library/organization-conflict-preparation-v1.webp",
+      "bytes": 1798,
+      "sha256": "395c150a5b30b44193da54c1edf9b55cdf1dd61148ad371b6e626c835348656a"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:59.459Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 93,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Conflict phases remain fictional and abstract, with no actionable real-world violence, hacking, or sabotage content.",
+      "No missing render, unsafe instruction, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 213622
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:27:58.020Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "asset_id": "city-template-small-town-rural-square-v1",
+  "manifest_order": 356,
+  "category": "city-template",
+  "batch": "procedural-city-templates",
+  "city": null,
+  "variant": "square",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-template-small-town-rural-square-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100356,
+  "content_hash": "bb9a25d36fe74e1e8b731b3c7121a323022d4cff2a2cbcc54e1c0d073c81dcd6",
+  "source_file": "assets/source/global/city-template-small-town-rural-square-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-template-small-town-rural-square-v1-320.avif",
+      "bytes": 3669,
+      "sha256": "13632576c2a97aa68d1f159aeef8601adac3bb52836e1e6ba50f160ad7c9412a"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-rural-square-v1-320.webp",
+      "bytes": 3670,
+      "sha256": "1d63bf4f223c5302ccc96165b4471c1c0edd5a74c7c171fdabfb5a390031870c"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-rural-square-v1-640.avif",
+      "bytes": 8082,
+      "sha256": "ba2928ef3c9dc44ceb41a5b6673aa478cf3abefdc5b866b6cc46cad8ea19fcd3"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-rural-square-v1-640.webp",
+      "bytes": 6814,
+      "sha256": "083a7c4c3fbdcf157f94172dd2befcdee1e97d5ea558a10003c7e9de76d3d986"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-rural-square-v1-960.avif",
+      "bytes": 14090,
+      "sha256": "140b0ff90ab43b611f100e0a258a3d4b5ca12517ae2bb187784b7e1459c7df6a"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-rural-square-v1-960.webp",
+      "bytes": 11326,
+      "sha256": "2a61b290cd0595f9db7a3e793a481682a9e7aa965076e1139cc1d7ae1e00f044"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-rural-square-v1-1280.avif",
+      "bytes": 19119,
+      "sha256": "0c745ea02156ac288b382b78a1eb403b3096b6c21432a3ab7739bdae08906b4c"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-rural-square-v1-1280.webp",
+      "bytes": 15430,
+      "sha256": "08b15fdbf8d4e3330a02dff7cb50b6029ebad686d8ecdcdf45af92b84c9eb360"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-rural-square-v1-1920.avif",
+      "bytes": 29413,
+      "sha256": "b09a41fc82d9649ce6a1ee84da0fcb0bfeebe82bb91513b5122b419127ba594e"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-rural-square-v1-1920.webp",
+      "bytes": 24978,
+      "sha256": "f6083f04724dce86c1cfed87850858700f512ef7080fc57969b57f7c13bb33d2"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-rural-square-v1-2560.avif",
+      "bytes": 40613,
+      "sha256": "f05781ee0d151ff4c4581f23b18b6056f9138817d29186ed50a5ad990e9225a3"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-rural-square-v1-2560.webp",
+      "bytes": 36678,
+      "sha256": "dff89b115d10c20b03d2ce52d2d9fc8c3e765e1d6584e96902f906e27d16dcd3"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-rural-square-v1-3840.avif",
+      "bytes": 65366,
+      "sha256": "5aa7507d02140625b27c0255d8fdc250a9148fdb090aa8960aec2968ba900bc3"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-rural-square-v1-3840.webp",
+      "bytes": 65874,
+      "sha256": "a715d63cceb9aa4d5ac06f0be56119b3d274405fa014f34524bf046168ec362a"
+    },
+    {
+      "path": "assets/production/png/city-template-small-town-rural-square-v1-1280.png",
+      "bytes": 1258724,
+      "sha256": "a0845137075295e0c36b354379de46dee638e908184feae526fda4c773df8204"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/city-template-small-town-rural-square-v1.webp",
+      "bytes": 3670,
+      "sha256": "1d63bf4f223c5302ccc96165b4471c1c0edd5a74c7c171fdabfb5a390031870c"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-template-small-town-rural-square-v1.webp",
+      "bytes": 3670,
+      "sha256": "1d63bf4f223c5302ccc96165b4471c1c0edd5a74c7c171fdabfb5a390031870c"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 91.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:55.608Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 92,
+      "material_quality": 87,
+      "light_quality": 89,
+      "architecture_plausibility": 89,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 92,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All four paged contact sheets were inspected at original resolution.",
+      "The templates are intentionally stylized deterministic fallbacks and remain compositionally useful across every required aspect ratio.",
+      "No missing render, broken geometry, sensitive infrastructure detail, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1651745
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:48:48.726Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

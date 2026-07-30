@@ -33,9 +33,25 @@
       "path": "assets/production/webp/branding-shadowgrid-symbol-monochrome-v1-1536.webp",
       "bytes": 4452,
       "sha256": "6e7878207667a94ee0ca27527c837c1e3f525d725923cf3490841a43a0c0eb1f"
+    },
+    {
+      "path": "assets/production/webp/branding-shadowgrid-symbol-monochrome-v1-320.webp",
+      "bytes": 1018,
+      "sha256": "0aecc7b4c7edafae938fe726155c0999c280290be96ac13fd8093b6b084d3bf9"
     }
   ],
-  "runtime_files": [],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/branding-shadowgrid-symbol-monochrome-v1.webp",
+      "bytes": 1018,
+      "sha256": "0aecc7b4c7edafae938fe726155c0999c280290be96ac13fd8093b6b084d3bf9"
+    },
+    {
+      "path": "apps/mobile/assets/library/branding-shadowgrid-symbol-monochrome-v1.webp",
+      "bytes": 1018,
+      "sha256": "0aecc7b4c7edafae938fe726155c0999c280290be96ac13fd8093b6b084d3bf9"
+    }
+  ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,

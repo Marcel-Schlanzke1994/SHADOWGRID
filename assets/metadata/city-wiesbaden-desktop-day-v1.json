@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-wiesbaden-desktop-day-v1",
+  "manifest_order": 261,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "wiesbaden",
+  "variant": "desktop-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-wiesbaden-desktop-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100261,
+  "content_hash": "202a5b1098a4695060c16b22bfdaa648f98fd193d0bedb8cb4f1e8cd9b36dfbc",
+  "source_file": "assets/source/cities/city-wiesbaden-desktop-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-wiesbaden-desktop-day-v1-320.avif",
+      "bytes": 2745,
+      "sha256": "441605fd3965cd02ca8ad90a8fd3d7a0d36dee607762390e6af85dd924c13590"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-desktop-day-v1-320.webp",
+      "bytes": 2484,
+      "sha256": "506b105a0e4dc150f3508900408dd3da71a9e10ae832d7b3c6d4f387fe511148"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-desktop-day-v1-640.avif",
+      "bytes": 6074,
+      "sha256": "0a9399e617b5c3c964bee6b0814bf6d6a93165de6c830b5ee0bdbc90c79610fe"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-desktop-day-v1-640.webp",
+      "bytes": 5100,
+      "sha256": "e30dbedd6835cbee12754dd3bdd2bb0e9cefc44209c6aaa30b0b087035b2b874"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-desktop-day-v1-960.avif",
+      "bytes": 9772,
+      "sha256": "e84d242a0d3b24e855020f9e327a7995c6d222dbc7167c6c84b676072110e669"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-desktop-day-v1-960.webp",
+      "bytes": 8420,
+      "sha256": "442aefd516ef847f8eb6c15d695f057cbc800b6db35399612f51f554e9d69e48"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-desktop-day-v1-1280.avif",
+      "bytes": 14218,
+      "sha256": "d063048301c5f4f35cb5767436dd6dfba0ac5339f225505c4c9f160ab5f389d0"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-desktop-day-v1-1280.webp",
+      "bytes": 11040,
+      "sha256": "cf71ce97e42894bda5272d76767b67c4a93cd195fa1cc6feb95c70082c9a2f63"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-desktop-day-v1-1920.avif",
+      "bytes": 20884,
+      "sha256": "35b08783f7afdb4ba8713a16274d7b6d8942d5bd431944a59e38a694805397f7"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-desktop-day-v1-1920.webp",
+      "bytes": 17138,
+      "sha256": "35de11bcf5e222cd84cebc4df6b097674d2d8775ee15e423334cd4892e240e77"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-desktop-day-v1-2560.avif",
+      "bytes": 29077,
+      "sha256": "0c22cc7e45213ed9f1f263bb58ce061a62ff7ec324b516851066dd77cb7825d9"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-desktop-day-v1-2560.webp",
+      "bytes": 24380,
+      "sha256": "cb8d25f13ef1beaf1b9a45143c4c89ffe7cc9eff531ff339e7a546431d418c40"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-desktop-day-v1-3840.avif",
+      "bytes": 45910,
+      "sha256": "6ec7b8cc4f784ca2a54b7e69c5c1d7222ace01846f15052168d8018e015e79b9"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-desktop-day-v1-3840.webp",
+      "bytes": 43022,
+      "sha256": "4fc63b3c94ca8b9bffb5b7b2af16d24c419d7a1732bb813dd3950258376d77b8"
+    },
+    {
+      "path": "assets/production/png/city-wiesbaden-desktop-day-v1-1280.png",
+      "bytes": 716666,
+      "sha256": "f8df0dfbd1b00bc04cf6fddbc84e508b44da2a0e072e89702d4534f6d93159ae"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-day-v1-320.avif",
+      "bytes": 2745,
+      "sha256": "441605fd3965cd02ca8ad90a8fd3d7a0d36dee607762390e6af85dd924c13590"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-day-v1-320.webp",
+      "bytes": 2484,
+      "sha256": "506b105a0e4dc150f3508900408dd3da71a9e10ae832d7b3c6d4f387fe511148"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-day-v1-640.avif",
+      "bytes": 6074,
+      "sha256": "0a9399e617b5c3c964bee6b0814bf6d6a93165de6c830b5ee0bdbc90c79610fe"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-day-v1-640.webp",
+      "bytes": 5100,
+      "sha256": "e30dbedd6835cbee12754dd3bdd2bb0e9cefc44209c6aaa30b0b087035b2b874"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-day-v1-960.avif",
+      "bytes": 9772,
+      "sha256": "e84d242a0d3b24e855020f9e327a7995c6d222dbc7167c6c84b676072110e669"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-day-v1-960.webp",
+      "bytes": 8420,
+      "sha256": "442aefd516ef847f8eb6c15d695f057cbc800b6db35399612f51f554e9d69e48"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-day-v1-1280.avif",
+      "bytes": 14218,
+      "sha256": "d063048301c5f4f35cb5767436dd6dfba0ac5339f225505c4c9f160ab5f389d0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-day-v1-1280.webp",
+      "bytes": 11040,
+      "sha256": "cf71ce97e42894bda5272d76767b67c4a93cd195fa1cc6feb95c70082c9a2f63"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-day-v1-1920.avif",
+      "bytes": 20884,
+      "sha256": "35b08783f7afdb4ba8713a16274d7b6d8942d5bd431944a59e38a694805397f7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-day-v1-1920.webp",
+      "bytes": 17138,
+      "sha256": "35de11bcf5e222cd84cebc4df6b097674d2d8775ee15e423334cd4892e240e77"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-day-v1-2560.avif",
+      "bytes": 29077,
+      "sha256": "0c22cc7e45213ed9f1f263bb58ce061a62ff7ec324b516851066dd77cb7825d9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-day-v1-2560.webp",
+      "bytes": 24380,
+      "sha256": "cb8d25f13ef1beaf1b9a45143c4c89ffe7cc9eff531ff339e7a546431d418c40"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-day-v1-3840.avif",
+      "bytes": 45910,
+      "sha256": "6ec7b8cc4f784ca2a54b7e69c5c1d7222ace01846f15052168d8018e015e79b9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-day-v1-3840.webp",
+      "bytes": 43022,
+      "sha256": "4fc63b3c94ca8b9bffb5b7b2af16d24c419d7a1732bb813dd3950258376d77b8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-desktop-day-v1-1280.png",
+      "bytes": 716666,
+      "sha256": "f8df0dfbd1b00bc04cf6fddbc84e508b44da2a0e072e89702d4534f6d93159ae"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-wiesbaden-desktop-day-v1.webp",
+      "bytes": 2484,
+      "sha256": "506b105a0e4dc150f3508900408dd3da71a9e10ae832d7b3c6d4f387fe511148"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-wiesbaden-desktop-day-v1.webp",
+      "bytes": 2484,
+      "sha256": "506b105a0e4dc150f3508900408dd3da71a9e10ae832d7b3c6d4f387fe511148"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.726Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1659013
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:42:43.019Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

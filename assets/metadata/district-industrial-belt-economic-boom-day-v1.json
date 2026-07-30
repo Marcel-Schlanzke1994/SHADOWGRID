@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-industrial-belt-economic-boom-day-v1",
+  "manifest_order": 385,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "economic-boom-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-industrial-belt-economic-boom-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100385,
+  "content_hash": "be027a02ba1e376c82fab0c0818b05262952988807fe2c55acd9db7f516a1ec0",
+  "source_file": "assets/source/districts/district-industrial-belt-economic-boom-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-industrial-belt-economic-boom-day-v1-320.avif",
+      "bytes": 2950,
+      "sha256": "7b2daf9919ad4bbc3d1ffc934431745ef38663aa9c43a40d679bac7a7018057c"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-economic-boom-day-v1-320.webp",
+      "bytes": 2740,
+      "sha256": "378d1c9789aa14fbff155496eb1affd3c8cb1f5ed5c571aed0ce00a2afe1fc1d"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-economic-boom-day-v1-640.avif",
+      "bytes": 6405,
+      "sha256": "55d7382eb072c28af602c77484d99bbdb34cf69672c4a48c94f4f4cf9a644642"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-economic-boom-day-v1-640.webp",
+      "bytes": 5668,
+      "sha256": "e3aa2e69abcf8196738604c7b55f55c671a4d63923b39cce808ad88947e20867"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-economic-boom-day-v1-960.avif",
+      "bytes": 10769,
+      "sha256": "00784136c9e1cb0a56dedc9a430632f230cea786a0fc3d38001aa88d1359cc48"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-economic-boom-day-v1-960.webp",
+      "bytes": 9492,
+      "sha256": "67ce91dfbe1b517c2b00e5ea03b1fa9e58d4b1889376a28367ae86f27a3a96cc"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-economic-boom-day-v1-1280.avif",
+      "bytes": 15066,
+      "sha256": "a722077d7130d4823cdc6eb2d4b439e86f16c9747861584dd29100de72ef89f3"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-economic-boom-day-v1-1280.webp",
+      "bytes": 12520,
+      "sha256": "2f1307b53a982ff42946e7de1dcd6e94e525dd541d58128c52c5e2678603463f"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-economic-boom-day-v1-1920.avif",
+      "bytes": 22645,
+      "sha256": "a6b17d9b1787b9331156f1093bb1ea1217003aec879954e4d5b436dc74a76dd5"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-economic-boom-day-v1-1920.webp",
+      "bytes": 19734,
+      "sha256": "db0e110600c4c730dbe16a9a2f51576b917864dfaec5aff1b9544171c46b8960"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-economic-boom-day-v1-2560.avif",
+      "bytes": 29935,
+      "sha256": "54a470dbeafc665d684460532b0bc10cd2ee938ec485fa4da9b0418054d52da1"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-economic-boom-day-v1-2560.webp",
+      "bytes": 27272,
+      "sha256": "b08815db930d73e6f4d157c2d8b4130c12a14d2763cb12f38a7c0678705cf963"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-economic-boom-day-v1-3840.avif",
+      "bytes": 48695,
+      "sha256": "b93f91d3201079680b2ddb84ddd2d993775a00401ab664ddfc240ca5d012d7db"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-economic-boom-day-v1-3840.webp",
+      "bytes": 45850,
+      "sha256": "e92c0084c370b777c604bf707c7903b08ca5b2ca08ed92970ffa69f81aea7c03"
+    },
+    {
+      "path": "assets/production/png/district-industrial-belt-economic-boom-day-v1-1280.png",
+      "bytes": 637382,
+      "sha256": "04271524fc10fd76f68a0b6ec0f96fb0217ccaab0ac27a6152c8ff557524f763"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-industrial-belt-economic-boom-day-v1.webp",
+      "bytes": 2740,
+      "sha256": "378d1c9789aa14fbff155496eb1affd3c8cb1f5ed5c571aed0ce00a2afe1fc1d"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-industrial-belt-economic-boom-day-v1.webp",
+      "bytes": 2740,
+      "sha256": "378d1c9789aa14fbff155496eb1affd3c8cb1f5ed5c571aed0ce00a2afe1fc1d"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.614Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1456376
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:13:53.177Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

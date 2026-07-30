@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-dense-mixed-residential-crisis-night-v1",
+  "manifest_order": 452,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "crisis-night",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-dense-mixed-residential-crisis-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100452,
+  "content_hash": "c4ea09c711d4768c528de92f8eee1d56e43c77baf43393bb9f093229b5699911",
+  "source_file": "assets/source/districts/district-dense-mixed-residential-crisis-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-crisis-night-v1-320.avif",
+      "bytes": 3575,
+      "sha256": "0b87d491d0524cc87d0037fa9c5550c1936e37493d41875aafcaff937f955b61"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-crisis-night-v1-320.webp",
+      "bytes": 3324,
+      "sha256": "72cbddd753906e8a3f69c79abaac1c816b937a990632cb158bdb30bbbc6f3d2a"
+    },
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-crisis-night-v1-640.avif",
+      "bytes": 7615,
+      "sha256": "25bc37c96fdcfa7ab7d4d815c8fe27797df2cf14a16b2b6d42933f9866cac61e"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-crisis-night-v1-640.webp",
+      "bytes": 7386,
+      "sha256": "e67ca754e1d5883da96c2bab42dc638acbb9bab90bf7fc338bc9322c253e7180"
+    },
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-crisis-night-v1-960.avif",
+      "bytes": 12724,
+      "sha256": "37dec22a1bb84d818241cf1edfa018de9b6308b1e99701ee7c0e3fc432cf0393"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-crisis-night-v1-960.webp",
+      "bytes": 12518,
+      "sha256": "c8f42f423351bb8a8f6eb0ea62a5689f1c6f19ccb59ee924183014e666d4a31e"
+    },
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-crisis-night-v1-1280.avif",
+      "bytes": 17181,
+      "sha256": "cf486ac3682e0b548d0e375830a7dba1e6793fbbf859bfd994426c85a8c1d004"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-crisis-night-v1-1280.webp",
+      "bytes": 16854,
+      "sha256": "d8cc6fdc6e9e77ec7e0c21576714711601e1919a48e24c8845701ebcd2403f41"
+    },
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-crisis-night-v1-1920.avif",
+      "bytes": 26893,
+      "sha256": "0ffed49cb2b772532adde5acf3234973381bf765ff240caca54f2d7e802623bb"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-crisis-night-v1-1920.webp",
+      "bytes": 25038,
+      "sha256": "cbe810581efb8c7177fe0c53f5cf4f54d4dbaed50b702b47aaa5f86b0d1f0f77"
+    },
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-crisis-night-v1-2560.avif",
+      "bytes": 35512,
+      "sha256": "4c1bcbd044f778fa22c32a519b3d56f661bbea3b26d71c492d2c4d08c4fbd17a"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-crisis-night-v1-2560.webp",
+      "bytes": 33700,
+      "sha256": "bbe4c064dce804e222463e80450b2ff0256067003f83840e1b943e037c589120"
+    },
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-crisis-night-v1-3840.avif",
+      "bytes": 57332,
+      "sha256": "bf898f96127cf8afe5a5cd98255163f5f4200c75eaae9295369368a151a12bfb"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-crisis-night-v1-3840.webp",
+      "bytes": 53666,
+      "sha256": "35d83b1e7486afbc81ad6d56fffcee6826404322762804baa5784756c4c59c4a"
+    },
+    {
+      "path": "assets/production/png/district-dense-mixed-residential-crisis-night-v1-1280.png",
+      "bytes": 653589,
+      "sha256": "b3dc410879a8cd67b459112486f46efb55eda5cc52afdc079b64c0f6202112b4"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-dense-mixed-residential-crisis-night-v1.webp",
+      "bytes": 3324,
+      "sha256": "72cbddd753906e8a3f69c79abaac1c816b937a990632cb158bdb30bbbc6f3d2a"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-dense-mixed-residential-crisis-night-v1.webp",
+      "bytes": 3324,
+      "sha256": "72cbddd753906e8a3f69c79abaac1c816b937a990632cb158bdb30bbbc6f3d2a"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.398Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1452244
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:48:56.579Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

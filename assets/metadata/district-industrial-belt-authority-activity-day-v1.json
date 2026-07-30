@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-industrial-belt-authority-activity-day-v1",
+  "manifest_order": 389,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "authority-activity-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-industrial-belt-authority-activity-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100389,
+  "content_hash": "0b9d385734dfc36392bc6ff6ba69b99771138ede617ac27e328d1dd9838df8a6",
+  "source_file": "assets/source/districts/district-industrial-belt-authority-activity-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-industrial-belt-authority-activity-day-v1-320.avif",
+      "bytes": 3053,
+      "sha256": "dfd5ea9808f61e29717115d1a4ab23e5a5000d1f6f06f1d34349ee32edb127d3"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-authority-activity-day-v1-320.webp",
+      "bytes": 2628,
+      "sha256": "2ced2ff78e15f013ac0d30bfd6886a66a36bf990f8e5b3b7cb06ab8b43a8e609"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-authority-activity-day-v1-640.avif",
+      "bytes": 6351,
+      "sha256": "97cbd4e4c0165f8b3867d26450fc1002cb4ad0707ee2fba1b758f6a973953435"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-authority-activity-day-v1-640.webp",
+      "bytes": 5282,
+      "sha256": "1cc8aa7af16cfa97550cf125c52dde1b6bce69d288419cf9154f8586d78f0db2"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-authority-activity-day-v1-960.avif",
+      "bytes": 10977,
+      "sha256": "6ebfb2aa9d3d6a966cba33db965cead2732dfceae1d99ab395d824a827a96afd"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-authority-activity-day-v1-960.webp",
+      "bytes": 8842,
+      "sha256": "cb74ef2930f12b04e15558beaf13b9f1020fb741ca0f66f242f7ac1b8fae596e"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-authority-activity-day-v1-1280.avif",
+      "bytes": 15014,
+      "sha256": "3a7bc4e684c85b199ca95346bf356a2dfee6396b9ac1c56870bdd7a372496e3d"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-authority-activity-day-v1-1280.webp",
+      "bytes": 11916,
+      "sha256": "ec1fb8a46b1fdb1cf17a4966fb0b2bd7d96668931a1b2062c1f3a12157c7b175"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-authority-activity-day-v1-1920.avif",
+      "bytes": 22525,
+      "sha256": "3cc0b9103cbf0843a50502071356a4fa16a69dbb1ab3c662f21b1fa91a26347f"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-authority-activity-day-v1-1920.webp",
+      "bytes": 18842,
+      "sha256": "a770ecfea75dd17aedc8547832d5bd39ad6cb4620084c6f848402c929cf310bb"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-authority-activity-day-v1-2560.avif",
+      "bytes": 30092,
+      "sha256": "114394906f292cc82978339234105e767be4732c0f8705ec8dda0ab42cbaff61"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-authority-activity-day-v1-2560.webp",
+      "bytes": 25492,
+      "sha256": "47dac5e0aa802ca609c318eec916d41e13b9047cc7c86ace644ae67f88dd7925"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-authority-activity-day-v1-3840.avif",
+      "bytes": 49008,
+      "sha256": "1ff2bba86d8dd57143b06be9d9e31a9eea579634aaa25e1935bb03fe2702bf8f"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-authority-activity-day-v1-3840.webp",
+      "bytes": 44846,
+      "sha256": "8a71d30e77cee7e75cdd6818393d034314314c21b93998f42ad6c7fea466fe15"
+    },
+    {
+      "path": "assets/production/png/district-industrial-belt-authority-activity-day-v1-1280.png",
+      "bytes": 636359,
+      "sha256": "e72de673704559e972451351b82832124ddf84393af9c3fea5ea32e80e9b7be5"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-industrial-belt-authority-activity-day-v1.webp",
+      "bytes": 2628,
+      "sha256": "2ced2ff78e15f013ac0d30bfd6886a66a36bf990f8e5b3b7cb06ab8b43a8e609"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-industrial-belt-authority-activity-day-v1.webp",
+      "bytes": 2628,
+      "sha256": "2ced2ff78e15f013ac0d30bfd6886a66a36bf990f8e5b3b7cb06ab8b43a8e609"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.658Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1451469
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:27:51.307Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

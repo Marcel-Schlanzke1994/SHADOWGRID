@@ -1,0 +1,75 @@
+{
+  "asset_id": "icon-resource-cash-v1",
+  "manifest_order": 740,
+  "category": "icon",
+  "batch": "ui-icons",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "24:24",
+  "width": 24,
+  "height": 24,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/icon-resource-cash-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100740,
+  "content_hash": "3d5022ea2c12412056cd324bb1b524f5f830262c7a4b736592e8bdb432555009",
+  "source_file": "assets/source/icons/icon-resource-cash-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/icon-resource-cash-v1.svg",
+      "bytes": 679,
+      "sha256": "3d5022ea2c12412056cd324bb1b524f5f830262c7a4b736592e8bdb432555009"
+    },
+    {
+      "path": "assets/production/webp/icon-resource-cash-v1-320.webp",
+      "bytes": 2606,
+      "sha256": "94b579e68228e9b0300ee5ba37d9088d1e0204b3625cb0166e676012e364a58f"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/icon-resource-cash-v1.webp",
+      "bytes": 2606,
+      "sha256": "94b579e68228e9b0300ee5ba37d9088d1e0204b3625cb0166e676012e364a58f"
+    },
+    {
+      "path": "apps/mobile/assets/library/icon-resource-cash-v1.webp",
+      "bytes": 2606,
+      "sha256": "94b579e68228e9b0300ee5ba37d9088d1e0204b3625cb0166e676012e364a58f"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 679
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:51:37.436Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

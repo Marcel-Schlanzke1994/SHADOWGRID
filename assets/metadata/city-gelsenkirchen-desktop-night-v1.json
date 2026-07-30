@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-gelsenkirchen-desktop-night-v1",
+  "manifest_order": 278,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "gelsenkirchen",
+  "variant": "desktop-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-gelsenkirchen-desktop-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100278,
+  "content_hash": "5f2e06d08ad98a03f368eb690edc5ce39b0e3c775d5b337ace49292709d302f9",
+  "source_file": "assets/source/cities/city-gelsenkirchen-desktop-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-gelsenkirchen-desktop-night-v1-320.avif",
+      "bytes": 4124,
+      "sha256": "a7ddcbd1e817c4ca31c10dcfaf8e3784c2f82f5697ffb5bcc2e22a3541671fc9"
+    },
+    {
+      "path": "assets/production/webp/city-gelsenkirchen-desktop-night-v1-320.webp",
+      "bytes": 4592,
+      "sha256": "207c52988b3cc477ff19cc9ac52ef8118559a27dec7fe983c8723e4c0886d518"
+    },
+    {
+      "path": "assets/production/avif/city-gelsenkirchen-desktop-night-v1-640.avif",
+      "bytes": 8828,
+      "sha256": "2e2dc0dabb103220c397696d4159d7d5f67d5c60328fc5471488a5ab915b5561"
+    },
+    {
+      "path": "assets/production/webp/city-gelsenkirchen-desktop-night-v1-640.webp",
+      "bytes": 9960,
+      "sha256": "d15b828c74b840777532a0e5ceb028ab7ae6fa887bbb0215d9e581cd1c35a491"
+    },
+    {
+      "path": "assets/production/avif/city-gelsenkirchen-desktop-night-v1-960.avif",
+      "bytes": 15004,
+      "sha256": "0cf5c13419154563b9c3408c44586d529f10abfbda3cf1d142dbcb9ffb20627b"
+    },
+    {
+      "path": "assets/production/webp/city-gelsenkirchen-desktop-night-v1-960.webp",
+      "bytes": 16836,
+      "sha256": "26254f537142d9228ab9cbaf76561b71434e347ac8a946333bafe30f573325c8"
+    },
+    {
+      "path": "assets/production/avif/city-gelsenkirchen-desktop-night-v1-1280.avif",
+      "bytes": 21008,
+      "sha256": "7e7cb16278a7a68626a1b6832610b0daaf2eb07e8b048ea7da0ddd6efa25d275"
+    },
+    {
+      "path": "assets/production/webp/city-gelsenkirchen-desktop-night-v1-1280.webp",
+      "bytes": 21826,
+      "sha256": "087f2d124d87eadcbaeaa10b9d2c57f6b339c854a261b13ed0df854c7163db33"
+    },
+    {
+      "path": "assets/production/avif/city-gelsenkirchen-desktop-night-v1-1920.avif",
+      "bytes": 32645,
+      "sha256": "f98e36f3deb59b896e8e2f52eb30e893cf190f239f9bb8edb57a59dae811f9b8"
+    },
+    {
+      "path": "assets/production/webp/city-gelsenkirchen-desktop-night-v1-1920.webp",
+      "bytes": 32068,
+      "sha256": "cc03a551d908b09f02f2729eb95c3560cc50d45673baa9839355dc10464dd0b6"
+    },
+    {
+      "path": "assets/production/avif/city-gelsenkirchen-desktop-night-v1-2560.avif",
+      "bytes": 44382,
+      "sha256": "8818f936f89bf5910a93eef3994d292b4cdfb91c2d2f04267291e757144dd500"
+    },
+    {
+      "path": "assets/production/webp/city-gelsenkirchen-desktop-night-v1-2560.webp",
+      "bytes": 42954,
+      "sha256": "bccd648ed4f7398b06421c888374c480a490951bf3743fe52be06896000343c5"
+    },
+    {
+      "path": "assets/production/avif/city-gelsenkirchen-desktop-night-v1-3840.avif",
+      "bytes": 68957,
+      "sha256": "d5b2b9f204a54a2c627270622e19761cc716ea0773d73a7f31fbd74508519334"
+    },
+    {
+      "path": "assets/production/webp/city-gelsenkirchen-desktop-night-v1-3840.webp",
+      "bytes": 63610,
+      "sha256": "037884def5d0e2d05c7c8023c88045e0a27e28b32310b2a7eb45edc8648ef5e1"
+    },
+    {
+      "path": "assets/production/png/city-gelsenkirchen-desktop-night-v1-1280.png",
+      "bytes": 769856,
+      "sha256": "88ee66bb3b4ba767f677691af04230a7a9af2e84fe31a2e8c5f74a094a4ea94a"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-desktop-night-v1-320.avif",
+      "bytes": 4124,
+      "sha256": "a7ddcbd1e817c4ca31c10dcfaf8e3784c2f82f5697ffb5bcc2e22a3541671fc9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-desktop-night-v1-320.webp",
+      "bytes": 4592,
+      "sha256": "207c52988b3cc477ff19cc9ac52ef8118559a27dec7fe983c8723e4c0886d518"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-desktop-night-v1-640.avif",
+      "bytes": 8828,
+      "sha256": "2e2dc0dabb103220c397696d4159d7d5f67d5c60328fc5471488a5ab915b5561"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-desktop-night-v1-640.webp",
+      "bytes": 9960,
+      "sha256": "d15b828c74b840777532a0e5ceb028ab7ae6fa887bbb0215d9e581cd1c35a491"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-desktop-night-v1-960.avif",
+      "bytes": 15004,
+      "sha256": "0cf5c13419154563b9c3408c44586d529f10abfbda3cf1d142dbcb9ffb20627b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-desktop-night-v1-960.webp",
+      "bytes": 16836,
+      "sha256": "26254f537142d9228ab9cbaf76561b71434e347ac8a946333bafe30f573325c8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-desktop-night-v1-1280.avif",
+      "bytes": 21008,
+      "sha256": "7e7cb16278a7a68626a1b6832610b0daaf2eb07e8b048ea7da0ddd6efa25d275"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-desktop-night-v1-1280.webp",
+      "bytes": 21826,
+      "sha256": "087f2d124d87eadcbaeaa10b9d2c57f6b339c854a261b13ed0df854c7163db33"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-desktop-night-v1-1920.avif",
+      "bytes": 32645,
+      "sha256": "f98e36f3deb59b896e8e2f52eb30e893cf190f239f9bb8edb57a59dae811f9b8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-desktop-night-v1-1920.webp",
+      "bytes": 32068,
+      "sha256": "cc03a551d908b09f02f2729eb95c3560cc50d45673baa9839355dc10464dd0b6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-desktop-night-v1-2560.avif",
+      "bytes": 44382,
+      "sha256": "8818f936f89bf5910a93eef3994d292b4cdfb91c2d2f04267291e757144dd500"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-desktop-night-v1-2560.webp",
+      "bytes": 42954,
+      "sha256": "bccd648ed4f7398b06421c888374c480a490951bf3743fe52be06896000343c5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-desktop-night-v1-3840.avif",
+      "bytes": 68957,
+      "sha256": "d5b2b9f204a54a2c627270622e19761cc716ea0773d73a7f31fbd74508519334"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-desktop-night-v1-3840.webp",
+      "bytes": 63610,
+      "sha256": "037884def5d0e2d05c7c8023c88045e0a27e28b32310b2a7eb45edc8648ef5e1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-desktop-night-v1-1280.png",
+      "bytes": 769856,
+      "sha256": "88ee66bb3b4ba767f677691af04230a7a9af2e84fe31a2e8c5f74a094a4ea94a"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-gelsenkirchen-desktop-night-v1.webp",
+      "bytes": 4592,
+      "sha256": "207c52988b3cc477ff19cc9ac52ef8118559a27dec7fe983c8723e4c0886d518"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-gelsenkirchen-desktop-night-v1.webp",
+      "bytes": 4592,
+      "sha256": "207c52988b3cc477ff19cc9ac52ef8118559a27dec7fe983c8723e4c0886d518"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.993Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1691740
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:55:35.101Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

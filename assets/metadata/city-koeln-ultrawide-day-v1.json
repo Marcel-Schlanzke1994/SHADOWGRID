@@ -170,34 +170,49 @@
       "path": "apps/web/public/assets/cities/city-koeln-ultrawide-day-v1-1280.png",
       "bytes": 1315522,
       "sha256": "1f0451882b41d0e787049f012c5097814ac220a04f1ddf32d5c83e379ef22d40"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-koeln-ultrawide-day-v1.webp",
+      "bytes": 4384,
+      "sha256": "2e8fee59cff336bcee9fbde0cc62509f75f1f592d24a855f4a48a93a2299e966"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-koeln-ultrawide-day-v1.webp",
+      "bytes": 4384,
+      "sha256": "2e8fee59cff336bcee9fbde0cc62509f75f1f592d24a855f4a48a93a2299e966"
     }
   ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,
   "moderation_status": "approved",
-  "quality_score": 96.9,
+  "quality_score": 92.9,
   "quality_status": "approved",
   "review_status": "codex-visual-approved",
   "visual_review": {
-    "realism": 97,
-    "style_consistency": 98,
-    "composition": 99,
-    "material_quality": 96,
-    "lighting_quality": 98,
-    "architecture_plausibility": 96,
-    "ui_suitability": 100,
-    "mobile_suitability": 91,
-    "originality": 94,
-    "safety_compliance": 100,
-    "revision_prompt": "Revise this SHADOWGRID city backing plate while preserving the exact 21:9 canvas, the excellent dark low-detail UI safe area across the left 38%, the broad Rhine-like river, the restrained overcast daylight, the center-right detail placement, and the premium realistic architectural-photography style.\n\nMandatory correction: remove the recognizable twin-spired Cologne Cathedral-like building and remove the recognizable Hohenzollern Bridge-like multi-arch railway bridge. Replace the dominant cathedral with a wholly fictional, modest historic civic-and-church district: varied low and mid-rise stone roofs, no twin-spired cathedral, no monumental Gothic church, no famous skyline silhouette. Replace the foreground bridge with an original contemporary low-profile steel-and-stone urban bridge using a simple asymmetric truss and broad piers; it must not resemble any known Cologne bridge. Keep the farther bridge generic and physically plausible. Rework adjacent buildings enough that the viewpoint cannot be matched to a known Cologne photograph.\n\nThe result should still evoke a contemporary major Rhine metropolis inspired by Köln through river scale, urban density, trade, culture, media, and logistics, but it must remain an original fictionalized city view with no exact landmark reproduction.\n\nKeep all geometry physically plausible. Preserve clean negative space and crop safety. No text, letters, numbers, signage, logos, watermarks, brands, readable plates, addresses, recognizable people, flags, real authority marks, police insignia, criminal symbols, extremist symbols, weapons, violence, operational wrongdoing, fantasy architecture, impossible bridges, excessive neon, warning red, blur, or fake writing.\n\nDeliver only the revised clean 21:9 environment backing plate with no UI or border.",
-    "reference_images": [],
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.026Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
     "notes": [
-      "The first generated attempt was rejected because its dominant twin-spired cathedral and multi-arch bridge too closely evoked a recognizable Cologne landmark combination.",
-      "The accepted revision replaces both landmarks with a fictional low- and mid-rise civic district, a modest varied historic silhouette, and generic physically plausible bridge structures.",
-      "The broad river, urban density, media/trade/logistics cues, overcast daylight, and restrained palette retain a credible Köln-inspired identity without matching a known photograph.",
-      "The left 38 percent is dark and low-detail for localized UI; important river and skyline detail remains in the center-right.",
-      "No visible text, logo, watermark, readable plate, address, identifiable person, real authority mark, real criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
     ]
   },
   "technical_validation": {

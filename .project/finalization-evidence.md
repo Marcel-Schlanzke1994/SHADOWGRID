@@ -78,8 +78,8 @@ CLIs. This prevents a valid API-plus-independent-worker Compose claim and is pre
 ## Phase 2 requirement matrix
 
 - Machine-readable requirements: 28
-- Verified now: 17
-- Explicit repository gaps: 9
+- Verified now: 26
+- Explicit repository gaps: 0
 - Explicit external blockers: 2
 - Unknown, assumed or untested status values: 0
 - Generated OpenAPI paths: 216
@@ -143,3 +143,39 @@ ledger transactions and fixed share supply at the relevant operations.
 
 Physical NVDA/VoiceOver and signed iOS/Android touch exploration remain explicit operator
 follow-ups because this host has no attached devices or signed provider artifacts.
+
+## Phase 6 complete visual asset library
+
+- Manifest coverage: 896/896 approved; zero pending, review-required, rejected or failed
+- Visual inspection: 60/60 paged contact sheets at original resolution
+- Runtime synchronization: 896 registry entries and 5,311 Web/Mobile files with hashes
+- Generator tests: 11/11 passed, including 96 family-distinct UI icons, 19 unique map
+  markers, 100 deterministic accessible crest combinations and six unique strategic
+  overlays
+- `pnpm assets:validate`: passed
+- `pnpm assets:integration-test`: passed
+- `pnpm assets:gate`: passed
+- Generated reports: manifest, style, quality, safety, licenses, performance, crops,
+  integration, cost, final coverage and crest validation
+
+The visual review corrected and regenerated crisis/authority semantics, audited/frozen
+business states, crest guides, semantic UI-icon duplication, strategic overlay duplication
+and the exact 1200×630 Open Graph contract. Paid generation remained disabled; procedural
+fallback provenance is explicit and never described as city-specific photography.
+
+## Phase 7 store, marketing and community assets
+
+- Store catalog: 30/30 approved
+- Functioning-application captures: 20/20
+- Google Play landscape captures: 8 at 2048×1152
+- App Store iPhone captures: 8 at 1290×2796
+- App Store iPad captures: 4 at 2048×2732
+- Static Play art: opaque 512×512 icon and opaque 1024×500 feature graphic
+- Remaining neutral marketing/community formats: 8 exact-size procedural assets
+- `pnpm store:validate-captures`: passed
+- `pnpm store:gate`: passed with zero findings
+- Reader report: `docs/STORE_ASSET_READINESS.md`
+
+The capture pipeline ingests real seeded application screens and rejects generated or mock
+interfaces. Store submission remains externally blocked because its explicit action flag
+is false and no signing/store account authority was supplied.

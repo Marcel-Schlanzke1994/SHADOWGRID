@@ -1,0 +1,45 @@
+{
+  "schema": "shadowgrid/contact-sheet-pages/v1",
+  "batch": "facilities",
+  "generated_at": "2026-07-30T06:15:42.964Z",
+  "asset_count": 24,
+  "page_size": 18,
+  "pages": [
+    {
+      "page": 1,
+      "path": "assets/reports/contact-sheets/facilities-pages/page-001.png",
+      "assets": [
+        "facility-headquarters-level-1-v1",
+        "facility-headquarters-level-2-v1",
+        "facility-headquarters-maximum-level-v1",
+        "facility-headquarters-disrupted-v1",
+        "facility-finance-office-level-1-v1",
+        "facility-finance-office-level-2-v1",
+        "facility-finance-office-maximum-level-v1",
+        "facility-finance-office-disrupted-v1",
+        "facility-information-center-level-1-v1",
+        "facility-information-center-level-2-v1",
+        "facility-information-center-maximum-level-v1",
+        "facility-information-center-disrupted-v1",
+        "facility-logistics-center-level-1-v1",
+        "facility-logistics-center-level-2-v1",
+        "facility-logistics-center-maximum-level-v1",
+        "facility-logistics-center-disrupted-v1",
+        "facility-personnel-academy-level-1-v1",
+        "facility-personnel-academy-level-2-v1"
+      ]
+    },
+    {
+      "page": 2,
+      "path": "assets/reports/contact-sheets/facilities-pages/page-002.png",
+      "assets": [
+        "facility-personnel-academy-maximum-level-v1",
+        "facility-personnel-academy-disrupted-v1",
+        "facility-compliance-office-level-1-v1",
+        "facility-compliance-office-level-2-v1",
+        "facility-compliance-office-maximum-level-v1",
+        "facility-compliance-office-disrupted-v1"
+      ]
+    }
+  ]
+}

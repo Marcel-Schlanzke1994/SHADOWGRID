@@ -1,0 +1,171 @@
+{
+  "asset_id": "overlay-contested-district-v1",
+  "manifest_order": 827,
+  "category": "overlay",
+  "batch": "weather-overlays",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/overlay-contested-district-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100827,
+  "content_hash": "7b9382b7bf6289c9c6fee93b4399582cabd351b221c4fab374aed8424b4d16a5",
+  "source_file": "assets/source/effects/overlay-contested-district-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/overlay-contested-district-v1-320.avif",
+      "bytes": 13883,
+      "sha256": "85ccc8b559b38c9daa942d15453606f9392c35a47b91f3d208f2a196d32195c9"
+    },
+    {
+      "path": "assets/production/webp/overlay-contested-district-v1-320.webp",
+      "bytes": 19308,
+      "sha256": "8f63941a3bcf811c7356dc46297f543c4fe8bd372a67cda61b5f6ed066262e2a"
+    },
+    {
+      "path": "assets/production/avif/overlay-contested-district-v1-640.avif",
+      "bytes": 33846,
+      "sha256": "1fd5603117bac2193f36eca7cb5b45990382dfe5922fc49e67ac313445adc127"
+    },
+    {
+      "path": "assets/production/webp/overlay-contested-district-v1-640.webp",
+      "bytes": 41544,
+      "sha256": "e4346c78b7df1ca8d252cc793c0f567dbe9b43fc718ad10383e522bb445ebde0"
+    },
+    {
+      "path": "assets/production/avif/overlay-contested-district-v1-960.avif",
+      "bytes": 56662,
+      "sha256": "be96f81f0d3ab5867242088f9344963d016d3f24181925834c458c45ce7a7adb"
+    },
+    {
+      "path": "assets/production/webp/overlay-contested-district-v1-960.webp",
+      "bytes": 61664,
+      "sha256": "7f1248d5652e1b1aa1a40d649f75b45300d6a12ed9bd880582947ff518e5542d"
+    },
+    {
+      "path": "assets/production/avif/overlay-contested-district-v1-1280.avif",
+      "bytes": 77710,
+      "sha256": "03ac6b9fb973340b5fe77160c80d67af3fa368e22f6d6db118d60bc4d32c84db"
+    },
+    {
+      "path": "assets/production/webp/overlay-contested-district-v1-1280.webp",
+      "bytes": 87900,
+      "sha256": "46e484a2d9eb241ea2afd1ba1fce941a84bcdd36e397f830ca68d3e3d5289d73"
+    },
+    {
+      "path": "assets/production/avif/overlay-contested-district-v1-1920.avif",
+      "bytes": 143793,
+      "sha256": "269f0fb41e5b506f87174f3a0c5a33f44395be07edc8ad3f1a0b236291377668"
+    },
+    {
+      "path": "assets/production/webp/overlay-contested-district-v1-1920.webp",
+      "bytes": 137548,
+      "sha256": "64c77069c4b4278d6251ef66dbec6392ae2b09319562632c9aff43a978d66873"
+    },
+    {
+      "path": "assets/production/avif/overlay-contested-district-v1-2560.avif",
+      "bytes": 150326,
+      "sha256": "2f7c78b7ace757a6e664ee035e3b69a5e90df23e3796b5741a5cef6e6d5d56c6"
+    },
+    {
+      "path": "assets/production/webp/overlay-contested-district-v1-2560.webp",
+      "bytes": 152736,
+      "sha256": "8fb8a10212f93e9704fe2459aabb1d76227a94406e63994fe1ff560a2d97bbff"
+    },
+    {
+      "path": "assets/production/avif/overlay-contested-district-v1-3840.avif",
+      "bytes": 302606,
+      "sha256": "a00efeb6e2de7b36196491132eb3ac9c44843bc2c42a03fb7cde6ffc66fe86a8"
+    },
+    {
+      "path": "assets/production/webp/overlay-contested-district-v1-3840.webp",
+      "bytes": 297466,
+      "sha256": "e378a16a80dec2c2eead1c06cbd05fa589819addf2e8707ffd486d41058e7095"
+    },
+    {
+      "path": "assets/production/png/overlay-contested-district-v1-1280.png",
+      "bytes": 71614,
+      "sha256": "5615e0696e716a3631ee8df59e19e9a8643971f7dacea2f37bbabbf1e49e56a9"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/overlay-contested-district-v1.webp",
+      "bytes": 19308,
+      "sha256": "8f63941a3bcf811c7356dc46297f543c4fe8bd372a67cda61b5f6ed066262e2a"
+    },
+    {
+      "path": "apps/mobile/assets/library/overlay-contested-district-v1.webp",
+      "bytes": 19308,
+      "sha256": "8f63941a3bcf811c7356dc46297f543c4fe8bd372a67cda61b5f6ed066262e2a"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.4,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:28.152Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 93,
+      "architecture_plausibility": 90,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Boom, crisis, authority, organization control, contested, and blocked states use distinct graph, scan, zone, cross, and hatch semantics.",
+      "Transparent weather and material overlays were checked against the contact-sheet dark background; no unintended opaque fill or broken render remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": true,
+      "bytes": 69083
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T06:06:42.880Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

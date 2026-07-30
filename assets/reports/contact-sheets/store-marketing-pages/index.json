@@ -1,0 +1,51 @@
+{
+  "schema": "shadowgrid/contact-sheet-pages/v1",
+  "batch": "store-marketing",
+  "generated_at": "2026-07-30T06:37:33.113Z",
+  "asset_count": 30,
+  "page_size": 18,
+  "pages": [
+    {
+      "page": 1,
+      "path": "assets/reports/contact-sheets/store-marketing-pages/page-001.png",
+      "assets": [
+        "marketing-google-play-app-icon-v1",
+        "marketing-google-play-feature-graphic-v1",
+        "marketing-google-play-city-selection-v1",
+        "marketing-google-play-dashboard-v1",
+        "marketing-google-play-city-map-v1",
+        "marketing-google-play-pvp-v1",
+        "marketing-google-play-organization-v1",
+        "marketing-google-play-organization-conflict-v1",
+        "marketing-google-play-business-v1",
+        "marketing-google-play-ranking-v1",
+        "marketing-app-store-iphone-1-v1",
+        "marketing-app-store-iphone-2-v1",
+        "marketing-app-store-iphone-3-v1",
+        "marketing-app-store-iphone-4-v1",
+        "marketing-app-store-iphone-5-v1",
+        "marketing-app-store-iphone-6-v1",
+        "marketing-app-store-iphone-7-v1",
+        "marketing-app-store-iphone-8-v1"
+      ]
+    },
+    {
+      "page": 2,
+      "path": "assets/reports/contact-sheets/store-marketing-pages/page-002.png",
+      "assets": [
+        "marketing-app-store-ipad-1-v1",
+        "marketing-app-store-ipad-2-v1",
+        "marketing-app-store-ipad-3-v1",
+        "marketing-app-store-ipad-4-v1",
+        "marketing-open-graph-v1",
+        "marketing-community-banner-v1",
+        "marketing-discord-banner-v1",
+        "marketing-season-start-banner-v1",
+        "marketing-season-final-banner-v1",
+        "marketing-closed-alpha-banner-v1",
+        "marketing-open-beta-banner-v1",
+        "marketing-release-banner-v1"
+      ]
+    }
+  ]
+}

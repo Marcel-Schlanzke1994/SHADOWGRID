@@ -1,0 +1,75 @@
+{
+  "asset_id": "reward-best-district-control-v1",
+  "manifest_order": 842,
+  "category": "reward",
+  "batch": "rankings-rewards",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/reward-best-district-control-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100842,
+  "content_hash": "f2087ee21c85014ba40dfbb4c0d0b7b29558f097e4389490faf7d0865bbaef8f",
+  "source_file": "assets/source/rewards/reward-best-district-control-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/reward-best-district-control-v1.svg",
+      "bytes": 966,
+      "sha256": "f2087ee21c85014ba40dfbb4c0d0b7b29558f097e4389490faf7d0865bbaef8f"
+    },
+    {
+      "path": "assets/production/webp/reward-best-district-control-v1-320.webp",
+      "bytes": 13556,
+      "sha256": "91b113f27be93d615edfe7021f4856d380ed223869a1c9c9fee0d022e2cd6e48"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/reward-best-district-control-v1.webp",
+      "bytes": 13556,
+      "sha256": "91b113f27be93d615edfe7021f4856d380ed223869a1c9c9fee0d022e2cd6e48"
+    },
+    {
+      "path": "apps/mobile/assets/library/reward-best-district-control-v1.webp",
+      "bytes": 13556,
+      "sha256": "91b113f27be93d615edfe7021f4856d380ed223869a1c9c9fee0d022e2cd6e48"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 966
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:41:13.987Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

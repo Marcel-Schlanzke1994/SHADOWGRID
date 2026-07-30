@@ -1,0 +1,75 @@
+{
+  "asset_id": "reward-silver-medal-v1",
+  "manifest_order": 837,
+  "category": "reward",
+  "batch": "rankings-rewards",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/reward-silver-medal-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100837,
+  "content_hash": "5af2414d11216b8f267020471c1b9895ec22974cb8d6ce91e34685411eb8c98a",
+  "source_file": "assets/source/rewards/reward-silver-medal-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/reward-silver-medal-v1.svg",
+      "bytes": 1023,
+      "sha256": "5af2414d11216b8f267020471c1b9895ec22974cb8d6ce91e34685411eb8c98a"
+    },
+    {
+      "path": "assets/production/webp/reward-silver-medal-v1-320.webp",
+      "bytes": 12066,
+      "sha256": "8624fbb31919862cec8f204be31984247da53c02e5b4f6f2bfaf188ce6174572"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/reward-silver-medal-v1.webp",
+      "bytes": 12066,
+      "sha256": "8624fbb31919862cec8f204be31984247da53c02e5b4f6f2bfaf188ce6174572"
+    },
+    {
+      "path": "apps/mobile/assets/library/reward-silver-medal-v1.webp",
+      "bytes": 12066,
+      "sha256": "8624fbb31919862cec8f204be31984247da53c02e5b4f6f2bfaf188ce6174572"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 1023
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:41:13.601Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

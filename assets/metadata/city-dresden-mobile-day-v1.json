@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-dresden-mobile-day-v1",
+  "manifest_order": 159,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "dresden",
+  "variant": "mobile-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-dresden-mobile-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100159,
+  "content_hash": "0c15ed9cc8ca87ea918412a1b10bdcc8f2aa778b3bf1ddb71c52aa5705db0a58",
+  "source_file": "assets/source/cities/city-dresden-mobile-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-dresden-mobile-day-v1-320.avif",
+      "bytes": 4170,
+      "sha256": "94f336b6d11c5a9690d008ba457c94acd3cca2ad8636e9b5037e63dede69eb6e"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-mobile-day-v1-320.webp",
+      "bytes": 3612,
+      "sha256": "ee048248dcdf8b119a2338e0fb983282652529aba6be57689d6b36871740821a"
+    },
+    {
+      "path": "assets/production/avif/city-dresden-mobile-day-v1-640.avif",
+      "bytes": 9016,
+      "sha256": "c453672cd7b3cbf2bf90676c7517116ff517fc77455bddacef320c4889978bd8"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-mobile-day-v1-640.webp",
+      "bytes": 7078,
+      "sha256": "2039ad73e5d4edb34b89c493099ca8b2c37fb5ee6c762d2cb3b6335210c062f0"
+    },
+    {
+      "path": "assets/production/avif/city-dresden-mobile-day-v1-960.avif",
+      "bytes": 15913,
+      "sha256": "9473599dee9f835fe677552a782b324da2966dbf957c6fc6c5b324d9b16888c9"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-mobile-day-v1-960.webp",
+      "bytes": 12772,
+      "sha256": "fccdd89841f9de71945b3ed21fe95c2a330ce94108d8d6ac91f6b0bbb48f5aed"
+    },
+    {
+      "path": "assets/production/avif/city-dresden-mobile-day-v1-1280.avif",
+      "bytes": 21103,
+      "sha256": "36042a0e7a03b10210cf128de381752ed52e0d68fe12b6714e635ace376ce4b4"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-mobile-day-v1-1280.webp",
+      "bytes": 18400,
+      "sha256": "5bd4e74fcf1092977871b4410950e126ffe555ff915eb4b1e71e6816b534ce7f"
+    },
+    {
+      "path": "assets/production/avif/city-dresden-mobile-day-v1-1920.avif",
+      "bytes": 34671,
+      "sha256": "3378461ec2818bda29fd89e783556eec56c5b88b3bb603f3092c9e3b154ca147"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-mobile-day-v1-1920.webp",
+      "bytes": 32454,
+      "sha256": "7ea92b5288c11d39e8dc998ea4d351140b7b6f28e6e03de45f2830a00e29bb00"
+    },
+    {
+      "path": "assets/production/avif/city-dresden-mobile-day-v1-2560.avif",
+      "bytes": 50249,
+      "sha256": "8d61e894dcd52fd5f14e4d67442714976c3dc2ac23dbfa7e91ab5225c73dc781"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-mobile-day-v1-2560.webp",
+      "bytes": 50462,
+      "sha256": "4733163037dcb0d854525752bae78fe6bfa9e75148243f8615715d5dcd47a55c"
+    },
+    {
+      "path": "assets/production/avif/city-dresden-mobile-day-v1-3840.avif",
+      "bytes": 90709,
+      "sha256": "2cbd84e3b6322fd0ed278b2731b0035117ca82bc7bfacd05c434abcbf4431793"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-mobile-day-v1-3840.webp",
+      "bytes": 100662,
+      "sha256": "65f6307361c2e111e838f2f8ff0c7e7f8186d067701e0bab479a5c77bd91c9bf"
+    },
+    {
+      "path": "assets/production/png/city-dresden-mobile-day-v1-1152.png",
+      "bytes": 1657644,
+      "sha256": "0c15ed9cc8ca87ea918412a1b10bdcc8f2aa778b3bf1ddb71c52aa5705db0a58"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-day-v1-320.avif",
+      "bytes": 4170,
+      "sha256": "94f336b6d11c5a9690d008ba457c94acd3cca2ad8636e9b5037e63dede69eb6e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-day-v1-320.webp",
+      "bytes": 3612,
+      "sha256": "ee048248dcdf8b119a2338e0fb983282652529aba6be57689d6b36871740821a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-day-v1-640.avif",
+      "bytes": 9016,
+      "sha256": "c453672cd7b3cbf2bf90676c7517116ff517fc77455bddacef320c4889978bd8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-day-v1-640.webp",
+      "bytes": 7078,
+      "sha256": "2039ad73e5d4edb34b89c493099ca8b2c37fb5ee6c762d2cb3b6335210c062f0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-day-v1-960.avif",
+      "bytes": 15913,
+      "sha256": "9473599dee9f835fe677552a782b324da2966dbf957c6fc6c5b324d9b16888c9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-day-v1-960.webp",
+      "bytes": 12772,
+      "sha256": "fccdd89841f9de71945b3ed21fe95c2a330ce94108d8d6ac91f6b0bbb48f5aed"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-day-v1-1280.avif",
+      "bytes": 21103,
+      "sha256": "36042a0e7a03b10210cf128de381752ed52e0d68fe12b6714e635ace376ce4b4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-day-v1-1280.webp",
+      "bytes": 18400,
+      "sha256": "5bd4e74fcf1092977871b4410950e126ffe555ff915eb4b1e71e6816b534ce7f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-day-v1-1920.avif",
+      "bytes": 34671,
+      "sha256": "3378461ec2818bda29fd89e783556eec56c5b88b3bb603f3092c9e3b154ca147"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-day-v1-1920.webp",
+      "bytes": 32454,
+      "sha256": "7ea92b5288c11d39e8dc998ea4d351140b7b6f28e6e03de45f2830a00e29bb00"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-day-v1-2560.avif",
+      "bytes": 50249,
+      "sha256": "8d61e894dcd52fd5f14e4d67442714976c3dc2ac23dbfa7e91ab5225c73dc781"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-day-v1-2560.webp",
+      "bytes": 50462,
+      "sha256": "4733163037dcb0d854525752bae78fe6bfa9e75148243f8615715d5dcd47a55c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-day-v1-3840.avif",
+      "bytes": 90709,
+      "sha256": "2cbd84e3b6322fd0ed278b2731b0035117ca82bc7bfacd05c434abcbf4431793"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-day-v1-3840.webp",
+      "bytes": 100662,
+      "sha256": "65f6307361c2e111e838f2f8ff0c7e7f8186d067701e0bab479a5c77bd91c9bf"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-mobile-day-v1-1152.png",
+      "bytes": 1657644,
+      "sha256": "0c15ed9cc8ca87ea918412a1b10bdcc8f2aa778b3bf1ddb71c52aa5705db0a58"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-dresden-mobile-day-v1.webp",
+      "bytes": 3612,
+      "sha256": "ee048248dcdf8b119a2338e0fb983282652529aba6be57689d6b36871740821a"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-dresden-mobile-day-v1.webp",
+      "bytes": 3612,
+      "sha256": "ee048248dcdf8b119a2338e0fb983282652529aba6be57689d6b36871740821a"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.653Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1657644
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:07:32.539Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "schema": "shadowgrid/contact-sheet-pages/v1",
+  "batch": "procedural-city-templates",
+  "generated_at": "2026-07-30T06:07:37.514Z",
+  "asset_count": 60,
+  "page_size": 18,
+  "pages": [
+    {
+      "page": 1,
+      "path": "assets/reports/contact-sheets/procedural-city-templates-pages/page-001.png",
+      "assets": [
+        "city-template-metropolis-river-day-desktop-v1",
+        "city-template-metropolis-river-night-desktop-v1",
+        "city-template-metropolis-river-day-mobile-v1",
+        "city-template-metropolis-river-night-mobile-v1",
+        "city-template-metropolis-river-square-v1",
+        "city-template-metropolis-inland-day-desktop-v1",
+        "city-template-metropolis-inland-night-desktop-v1",
+        "city-template-metropolis-inland-day-mobile-v1",
+        "city-template-metropolis-inland-night-mobile-v1",
+        "city-template-metropolis-inland-square-v1",
+        "city-template-metropolis-port-day-desktop-v1",
+        "city-template-metropolis-port-night-desktop-v1",
+        "city-template-metropolis-port-day-mobile-v1",
+        "city-template-metropolis-port-night-mobile-v1",
+        "city-template-metropolis-port-square-v1",
+        "city-template-large-city-industrial-day-desktop-v1",
+        "city-template-large-city-industrial-night-desktop-v1",
+        "city-template-large-city-industrial-day-mobile-v1"
+      ]
+    },
+    {
+      "page": 2,
+      "path": "assets/reports/contact-sheets/procedural-city-templates-pages/page-002.png",
+      "assets": [
+        "city-template-large-city-industrial-night-mobile-v1",
+        "city-template-large-city-industrial-square-v1",
+        "city-template-large-city-technology-day-desktop-v1",
+        "city-template-large-city-technology-night-desktop-v1",
+        "city-template-large-city-technology-day-mobile-v1",
+        "city-template-large-city-technology-night-mobile-v1",
+        "city-template-large-city-technology-square-v1",
+        "city-template-large-city-administration-day-desktop-v1",
+        "city-template-large-city-administration-night-desktop-v1",
+        "city-template-large-city-administration-day-mobile-v1",
+        "city-template-large-city-administration-night-mobile-v1",
+        "city-template-large-city-administration-square-v1",
+        "city-template-medium-city-historic-center-day-desktop-v1",
+        "city-template-medium-city-historic-center-night-desktop-v1",
+        "city-template-medium-city-historic-center-day-mobile-v1",
+        "city-template-medium-city-historic-center-night-mobile-v1",
+        "city-template-medium-city-historic-center-square-v1",
+        "city-template-medium-city-industry-commerce-day-desktop-v1"
+      ]
+    },
+    {
+      "page": 3,
+      "path": "assets/reports/contact-sheets/procedural-city-templates-pages/page-003.png",
+      "assets": [
+        "city-template-medium-city-industry-commerce-night-desktop-v1",
+        "city-template-medium-city-industry-commerce-day-mobile-v1",
+        "city-template-medium-city-industry-commerce-night-mobile-v1",
+        "city-template-medium-city-industry-commerce-square-v1",
+        "city-template-medium-city-university-day-desktop-v1",
+        "city-template-medium-city-university-night-desktop-v1",
+        "city-template-medium-city-university-day-mobile-v1",
+        "city-template-medium-city-university-night-mobile-v1",
+        "city-template-medium-city-university-square-v1",
+        "city-template-small-town-rural-day-desktop-v1",
+        "city-template-small-town-rural-night-desktop-v1",
+        "city-template-small-town-rural-day-mobile-v1",
+        "city-template-small-town-rural-night-mobile-v1",
+        "city-template-small-town-rural-square-v1",
+        "city-template-small-town-river-lake-day-desktop-v1",
+        "city-template-small-town-river-lake-night-desktop-v1",
+        "city-template-small-town-river-lake-day-mobile-v1",
+        "city-template-small-town-river-lake-night-mobile-v1"
+      ]
+    },
+    {
+      "page": 4,
+      "path": "assets/reports/contact-sheets/procedural-city-templates-pages/page-004.png",
+      "assets": [
+        "city-template-small-town-river-lake-square-v1",
+        "city-template-small-town-commerce-commuter-day-desktop-v1",
+        "city-template-small-town-commerce-commuter-night-desktop-v1",
+        "city-template-small-town-commerce-commuter-day-mobile-v1",
+        "city-template-small-town-commerce-commuter-night-mobile-v1",
+        "city-template-small-town-commerce-commuter-square-v1"
+      ]
+    }
+  ]
+}

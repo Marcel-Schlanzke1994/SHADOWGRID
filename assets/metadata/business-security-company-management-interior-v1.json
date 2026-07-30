@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-security-company-management-interior-v1",
+  "manifest_order": 478,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "management-interior",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-security-company-management-interior-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100478,
+  "content_hash": "4a24f0859bff01300fce79799275cc971bce094c5fe4a111a7a4c8eb8d714274",
+  "source_file": "assets/source/businesses/business-security-company-management-interior-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-security-company-management-interior-v1-320.avif",
+      "bytes": 3075,
+      "sha256": "518be717eace9f25454546bad5e3ef0ada02c8a04017e02ffab25517ced285d3"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-management-interior-v1-320.webp",
+      "bytes": 2588,
+      "sha256": "575b9384fed8139f1749c08cbf5fa0ce9574b401498581bfda4cbc778e739085"
+    },
+    {
+      "path": "assets/production/avif/business-security-company-management-interior-v1-640.avif",
+      "bytes": 6426,
+      "sha256": "565a089f661ad2ac097c0a39bf094805dc7cddbc2722977247ababa78843d326"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-management-interior-v1-640.webp",
+      "bytes": 5590,
+      "sha256": "5a3eea2d2f7e20eb6560ae2d8f7333fc169f7eb32ccbe05df1c7871c06906bac"
+    },
+    {
+      "path": "assets/production/avif/business-security-company-management-interior-v1-960.avif",
+      "bytes": 10501,
+      "sha256": "89a73ef078e6c226c7f4d4e9c68c3828aba36d0d2637552a9dbffd39787823fb"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-management-interior-v1-960.webp",
+      "bytes": 8976,
+      "sha256": "2f2c03078c17dd01edb60965a94254530fff529eb9d9fdb9830d3bbd3918c303"
+    },
+    {
+      "path": "assets/production/avif/business-security-company-management-interior-v1-1280.avif",
+      "bytes": 14501,
+      "sha256": "56c2a91d7d584c49e36063584edbf8575507d2559ed5d5b265467684269a6c02"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-management-interior-v1-1280.webp",
+      "bytes": 12178,
+      "sha256": "72ef7fa3865428e57c390be1e7f781d1c31ff3992c9e9fc87b78c4785a42f087"
+    },
+    {
+      "path": "assets/production/avif/business-security-company-management-interior-v1-1920.avif",
+      "bytes": 22422,
+      "sha256": "e5edf3ad408a34d7179762f8b3ad4035e3e792b338c42cc4b3b98bad3059458c"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-management-interior-v1-1920.webp",
+      "bytes": 18830,
+      "sha256": "fd89087e9b1116371f3ebc6865cc307e689d3f1d190b939519ce40ac50e12769"
+    },
+    {
+      "path": "assets/production/avif/business-security-company-management-interior-v1-2560.avif",
+      "bytes": 30292,
+      "sha256": "786a87c7e046b9c94c13c1a98d00a46e9a6c4d902ba026a173919180f597c28d"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-management-interior-v1-2560.webp",
+      "bytes": 25982,
+      "sha256": "88e937b5022366da4f243ced2cbbdeae78886011499f6302cb7dfa1ba7745a13"
+    },
+    {
+      "path": "assets/production/avif/business-security-company-management-interior-v1-3840.avif",
+      "bytes": 48597,
+      "sha256": "d0666e1828720f80f203fc677eb097e8de240268312f6c1a829833c9528b4bfb"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-management-interior-v1-3840.webp",
+      "bytes": 44086,
+      "sha256": "9b4aae66e5ef388a6c7ac006a5125c324c0204a3c37c3a053c18e5a495406b52"
+    },
+    {
+      "path": "assets/production/png/business-security-company-management-interior-v1-1280.png",
+      "bytes": 630645,
+      "sha256": "278e9a98409082b1653dd238759661bd66b514dea3a656251cfe17e874da0d56"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-security-company-management-interior-v1.webp",
+      "bytes": 2588,
+      "sha256": "575b9384fed8139f1749c08cbf5fa0ce9574b401498581bfda4cbc778e739085"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-security-company-management-interior-v1.webp",
+      "bytes": 2588,
+      "sha256": "575b9384fed8139f1749c08cbf5fa0ce9574b401498581bfda4cbc778e739085"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.468Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1439117
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:56:16.652Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

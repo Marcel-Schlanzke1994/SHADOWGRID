@@ -1,0 +1,171 @@
+{
+  "asset_id": "facility-compliance-office-level-2-v1",
+  "manifest_order": 532,
+  "category": "facility",
+  "batch": "facilities",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "level-2",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/facility-compliance-office-level-2-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100532,
+  "content_hash": "36aa0efc3cbc2083d5418d931883adffedd3fc9c4e9b98c393dd6ee48019e7a5",
+  "source_file": "assets/source/facilities/facility-compliance-office-level-2-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/facility-compliance-office-level-2-v1-320.avif",
+      "bytes": 3017,
+      "sha256": "3946d2d18893f2f740fb2e0e813b584e8e7eaf91b5da2fbd1da8a64426c7922e"
+    },
+    {
+      "path": "assets/production/webp/facility-compliance-office-level-2-v1-320.webp",
+      "bytes": 2812,
+      "sha256": "ca57a9d2731dbab7998b8b2542b12fad7404227a399ef36ffa388e614046874e"
+    },
+    {
+      "path": "assets/production/avif/facility-compliance-office-level-2-v1-640.avif",
+      "bytes": 6731,
+      "sha256": "68e128d145c13dfbce0abc2b863c040c743bede120839969e2279be314681e1e"
+    },
+    {
+      "path": "assets/production/webp/facility-compliance-office-level-2-v1-640.webp",
+      "bytes": 5808,
+      "sha256": "524e7c1453f68578142cda17c1c29c6eca2b9c409641ecc5755daa0cf2f9cf7b"
+    },
+    {
+      "path": "assets/production/avif/facility-compliance-office-level-2-v1-960.avif",
+      "bytes": 10826,
+      "sha256": "1ee31568d05c3f7b60dfeea9652d923d3336f53d787fb6fe87bd67ecf25db2f9"
+    },
+    {
+      "path": "assets/production/webp/facility-compliance-office-level-2-v1-960.webp",
+      "bytes": 9562,
+      "sha256": "1b5c99b2af37f74029154ef0d0c9f0d68dae3476346d4b45ef06dee17e042d9e"
+    },
+    {
+      "path": "assets/production/avif/facility-compliance-office-level-2-v1-1280.avif",
+      "bytes": 15666,
+      "sha256": "0b3a923d65feebeb98fbb4a111579c353b328164787ac1e1f4b23f0e832f1e20"
+    },
+    {
+      "path": "assets/production/webp/facility-compliance-office-level-2-v1-1280.webp",
+      "bytes": 12556,
+      "sha256": "96acbd65bf0355fb78be278a672becf7ccd99b5bee065283c9152ab708674800"
+    },
+    {
+      "path": "assets/production/avif/facility-compliance-office-level-2-v1-1920.avif",
+      "bytes": 23353,
+      "sha256": "d917e4f1ebe4318e8a477c82ecbdc8b11edd56611045d995a3829d3186722c0c"
+    },
+    {
+      "path": "assets/production/webp/facility-compliance-office-level-2-v1-1920.webp",
+      "bytes": 19646,
+      "sha256": "595e191f2f4e59c1e7fa0fb4e7bb5e3f1ae0f20930c3ddb9c6a2b6f523be0b11"
+    },
+    {
+      "path": "assets/production/avif/facility-compliance-office-level-2-v1-2560.avif",
+      "bytes": 31324,
+      "sha256": "3429d01166afa095759831c95a7b8f11b6d63c6e037c5f505e910222c7b39182"
+    },
+    {
+      "path": "assets/production/webp/facility-compliance-office-level-2-v1-2560.webp",
+      "bytes": 27430,
+      "sha256": "79a7b47af466ad44b78f039326de22517b3d0f08968b9726beef39fee6ddecd2"
+    },
+    {
+      "path": "assets/production/avif/facility-compliance-office-level-2-v1-3840.avif",
+      "bytes": 50007,
+      "sha256": "e68f1fbc601952cbd25e2efea126a73db1b181d7eba8fd060f77ce2824fe1af0"
+    },
+    {
+      "path": "assets/production/webp/facility-compliance-office-level-2-v1-3840.webp",
+      "bytes": 46220,
+      "sha256": "8ed31daf69408b1eff4bbbecab241bc9d30c85c89fbcb5de46ba53b864c704df"
+    },
+    {
+      "path": "assets/production/png/facility-compliance-office-level-2-v1-1280.png",
+      "bytes": 637061,
+      "sha256": "f05fdd860cbf287378341b54a2b5859d35ec339c3a3950d215f12206161971b5"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/facility-compliance-office-level-2-v1.webp",
+      "bytes": 2812,
+      "sha256": "ca57a9d2731dbab7998b8b2542b12fad7404227a399ef36ffa388e614046874e"
+    },
+    {
+      "path": "apps/mobile/assets/library/facility-compliance-office-level-2-v1.webp",
+      "bytes": 2812,
+      "sha256": "ca57a9d2731dbab7998b8b2542b12fad7404227a399ef36ffa388e614046874e"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:27.196Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 92,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 90,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution.",
+      "Facility categories remain visually coherent and readable without depicting sensitive real-world infrastructure.",
+      "No missing render, unsafe detail, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1439383
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:12:57.601Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

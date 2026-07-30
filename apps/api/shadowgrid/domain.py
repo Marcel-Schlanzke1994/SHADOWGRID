@@ -12,6 +12,7 @@ from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 
 from shadowgrid.config import Settings
+from shadowgrid.finance import cents_to_money, money_to_cents, sync_profile_cash_delta
 from shadowgrid.game_config import (
     ARCHETYPES,
     BUSINESS_TYPES,
@@ -20,12 +21,15 @@ from shadowgrid.game_config import (
     RESEARCH,
     RISK_POSTURES,
     ROLE_PERMISSIONS,
+    SPECIALIST_DEFINITIONS,
     SPECIALIST_ROLES,
     START_RESOURCES,
 )
 from shadowgrid.models import (
     AuditLog,
     Business,
+    Company,
+    CompanyOwnership,
     District,
     DistrictInfluence,
     Evidence,
@@ -145,6 +149,23 @@ def apply_profile_resource(
             status_code=409,
             detail={"code": "resource.insufficient", "message": f"Insufficient {resource_type}"},
         )
+    if resource_type == "cash":
+        profile = db.get(PlayerProfile, profile_id)
+        if profile is None:
+            raise HTTPException(
+                status_code=409,
+                detail={"code": "profile.missing", "message": "Player profile does not exist"},
+            )
+        sync_profile_cash_delta(
+            db,
+            profile,
+            current_balance_cents=money_to_cents(current),
+            delta_cents=money_to_cents(delta),
+            reason=reason,
+            reference_type=reference_type,
+            reference_id=reference_id,
+            idempotency_key=idempotency_key,
+        )
     setattr(balance, resource_type, new_balance)
     balance.version += 1
     entry = LedgerEntry(
@@ -161,6 +182,25 @@ def apply_profile_resource(
     )
     db.add(entry)
     db.flush()
+    if resource_type != "cash":
+        from shadowgrid.realtime import emit_realtime_event
+
+        profile = db.get(PlayerProfile, profile_id)
+        if profile is None:
+            raise RuntimeError("resource profile is missing")
+        emit_realtime_event(
+            db,
+            world_id=profile.world_id,
+            event_type="player.resources.updated",
+            payload={
+                "profile_id": profile.id,
+                "resource_type": resource_type,
+                "balance": str(new_balance),
+            },
+            audience_type="player",
+            audience_id=profile.id,
+            dedupe_key=f"player-resource:{entry.id}:{profile.id}",
+        )
     return entry
 
 
@@ -172,6 +212,7 @@ def create_player_profile(
     archetype: str,
     home_district: District,
     idempotency_key: str,
+    settings: Settings,
 ) -> PlayerProfile:
     if archetype not in ARCHETYPES:
         raise HTTPException(
@@ -212,7 +253,11 @@ def create_player_profile(
     db.flush()
     db.add(ResourceBalance(profile_id=profile.id))
     db.flush()
-    for resource, value in START_RESOURCES.items():
+    starting_resources: dict[str, Decimal | int] = {
+        **START_RESOURCES,
+        "cash": Decimal(settings.starting_cash_cents) / Decimal(100),
+    }
+    for resource, value in starting_resources.items():
         apply_profile_resource(
             db,
             profile.id,
@@ -244,12 +289,17 @@ def create_player_profile(
                 profile_id=profile.id,
                 name=("Mara Voss", "Elias Kern", "Nia Calder", "Jun Arendt")[index],
                 role=role,
+                level=1,
+                energy=100,
+                experience_points=0,
+                skills_json={"legacy_competence": 55 + index * 3},
                 competence=55 + index * 3,
                 loyalty=65 + index * 2,
                 ambition=35 + index * 4,
                 stress=5,
                 exposure=8,
                 salary=as_decimal(1_200 + index * 200),
+                salary_cents=(1_200 + index * 200) * 100,
             )
         )
     db.add(
@@ -425,12 +475,21 @@ def recruit_specialist(
         profile_id=profile.id,
         name=names[digest[0] % len(names)],
         role=role,
+        level=1,
+        energy=100,
+        experience_points=0,
+        skills_json={
+            SPECIALIST_DEFINITIONS[role]["primary_skill"]: 45 + digest[1] % 31,
+        },
         competence=45 + digest[1] % 31,
         loyalty=50 + digest[2] % 31,
         ambition=25 + digest[3] % 51,
         stress=0,
         exposure=5 + digest[4] % 16,
-        salary=as_decimal(900 + digest[5] * 5),
+        salary=cents_to_money(
+            SPECIALIST_DEFINITIONS[role]["base_salary_cents"] + (digest[5] % 10) * 2_500
+        ),
+        salary_cents=(SPECIALIST_DEFINITIONS[role]["base_salary_cents"] + (digest[5] % 10) * 2_500),
     )
     db.add(specialist)
     db.flush()
@@ -466,12 +525,33 @@ def start_operation(
                 "message": "Unknown operation type or risk posture",
             },
         )
-    if specialist.profile_id != profile.id or specialist.status != "available":
+    if specialist.profile_id != profile.id or specialist.status not in {
+        "available",
+        "hired",
+    }:
         raise HTTPException(
             status_code=409,
             detail={
                 "code": "operation.specialist_unavailable",
                 "message": "Specialist is not available",
+            },
+        )
+    if specialist.energy < 20:
+        raise HTTPException(
+            status_code=409,
+            detail={
+                "code": "operation.specialist_energy",
+                "message": "Specialist does not have enough energy",
+            },
+        )
+    if specialist.cooldown_until is not None and as_utc(specialist.cooldown_until) > datetime.now(
+        UTC
+    ):
+        raise HTTPException(
+            status_code=409,
+            detail={
+                "code": "operation.specialist_cooldown",
+                "message": "Specialist is on cooldown",
             },
         )
     if district.world_id != profile.world_id:
@@ -535,6 +615,8 @@ def start_operation(
         )
     specialist.status = "assigned"
     specialist.assigned_operation_id = operation.id
+    specialist.energy = max(0, specialist.energy - 20)
+    specialist.cooldown_until = operation.finishes_at
     return operation
 
 
@@ -624,7 +706,7 @@ def resolve_operation(
         100, specialist.stress + (8 if operation.risk_posture == "aggressive" else 4)
     )
     specialist.exposure = min(100, specialist.exposure + pressure_delta // 2)
-    specialist.status = "available"
+    specialist.status = "hired" if specialist.employer_company_id is not None else "available"
     specialist.assigned_operation_id = None
     points = as_decimal(config.get("influence", 1)) * max(Decimal("0"), multiplier)
     influence = db.scalar(
@@ -774,10 +856,43 @@ def settle_businesses(db: Session, at: datetime | None = None) -> int:
 
 
 def resolve_due(db: Session, settings: Settings) -> dict[str, int]:
+    from shadowgrid.bonds import advance_bonds
+    from shadowgrid.contracts import advance_contracts
+    from shadowgrid.loans import advance_loans
     from shadowgrid.multiplayer_domain import advance_due_wars, resolve_due_pvp
+    from shadowgrid.real_estate import advance_real_estate
+    from shadowgrid.seasons import advance_due_seasons
+    from shadowgrid.world_events import advance_world_events
 
     now = datetime.now(UTC)
-    counts = {"operations": 0, "facilities": 0, "research": 0, "pvp": 0, "wars": 0}
+    counts = {
+        "operations": 0,
+        "facilities": 0,
+        "research": 0,
+        "pvp": 0,
+        "wars": 0,
+        "world_events_started": 0,
+        "world_events_ended": 0,
+        "season_phase_changes": 0,
+        "seasons_archived": 0,
+        "contract_tenders_expired": 0,
+        "contract_periods_settled": 0,
+        "contracts_breached": 0,
+        "contracts_completed": 0,
+        "loan_offers_expired": 0,
+        "loan_payments_paid": 0,
+        "loans_defaulted": 0,
+        "loans_repaid": 0,
+        "bond_issues_activated": 0,
+        "bond_issues_cancelled": 0,
+        "bond_coupon_periods_paid": 0,
+        "bond_issues_defaulted": 0,
+        "bond_issues_repaid": 0,
+        "real_estate_indices_refreshed": 0,
+        "property_rent_payments_paid": 0,
+        "property_leases_defaulted": 0,
+        "property_leases_completed": 0,
+    }
     for operation in db.scalars(
         select(Operation)
         .where(Operation.status == "running", Operation.finishes_at <= now)
@@ -804,6 +919,33 @@ def resolve_due(db: Session, settings: Settings) -> dict[str, int]:
     counts["pvp"] = resolve_due_pvp(db, settings, now)
     counts["wars"] = advance_due_wars(db, now)
     db.commit()
+    event_counts = advance_world_events(db, now)
+    counts["world_events_started"] = event_counts["started"]
+    counts["world_events_ended"] = event_counts["ended"]
+    season_counts = advance_due_seasons(db, at=now)
+    counts["season_phase_changes"] = season_counts["phase_changes"]
+    counts["seasons_archived"] = season_counts["archived"]
+    contract_counts = advance_contracts(db, settings, at=now)
+    counts["contract_tenders_expired"] = contract_counts["tenders_expired"]
+    counts["contract_periods_settled"] = contract_counts["periods_settled"]
+    counts["contracts_breached"] = contract_counts["contracts_breached"]
+    counts["contracts_completed"] = contract_counts["contracts_completed"]
+    loan_counts = advance_loans(db, settings, at=now)
+    counts["loan_offers_expired"] = loan_counts["offers_expired"]
+    counts["loan_payments_paid"] = loan_counts["payments_paid"]
+    counts["loans_defaulted"] = loan_counts["loans_defaulted"]
+    counts["loans_repaid"] = loan_counts["loans_repaid"]
+    bond_counts = advance_bonds(db, settings, at=now)
+    counts["bond_issues_activated"] = bond_counts["issues_activated"]
+    counts["bond_issues_cancelled"] = bond_counts["issues_cancelled"]
+    counts["bond_coupon_periods_paid"] = bond_counts["coupon_periods_paid"]
+    counts["bond_issues_defaulted"] = bond_counts["issues_defaulted"]
+    counts["bond_issues_repaid"] = bond_counts["issues_repaid"]
+    real_estate_counts = advance_real_estate(db, settings, at=now)
+    counts["real_estate_indices_refreshed"] = real_estate_counts["indices_refreshed"]
+    counts["property_rent_payments_paid"] = real_estate_counts["rent_payments_paid"]
+    counts["property_leases_defaulted"] = real_estate_counts["leases_defaulted"]
+    counts["property_leases_completed"] = real_estate_counts["leases_completed"]
     return counts
 
 
@@ -814,16 +956,94 @@ def create_notification(
     title: str,
     body: str,
     metadata: dict[str, Any] | None = None,
-) -> None:
-    db.add(
-        Notification(
-            user_id=user_id,
-            event_type=event_type,
-            title=title,
-            body=body,
-            metadata_json=metadata or {},
+) -> Notification:
+    notification = Notification(
+        user_id=user_id,
+        event_type=event_type,
+        title=title,
+        body=body,
+        metadata_json=metadata or {},
+    )
+    db.add(notification)
+    db.flush()
+    from shadowgrid.realtime import emit_realtime_event
+
+    profiles = list(
+        db.scalars(
+            select(PlayerProfile)
+            .where(PlayerProfile.user_id == user_id)
+            .order_by(PlayerProfile.world_id, PlayerProfile.id)
         )
     )
+    for profile in profiles:
+        emit_realtime_event(
+            db,
+            world_id=profile.world_id,
+            event_type="notification.created",
+            payload={
+                "notification_id": notification.id,
+                "event_type": notification.event_type,
+            },
+            audience_type="player",
+            audience_id=profile.id,
+            dedupe_key=f"notification:{notification.id}:{profile.id}",
+        )
+    return notification
+
+
+def create_company_warning(
+    db: Session,
+    *,
+    company: Company,
+    warning_type: str,
+    title: str,
+    body: str,
+    dedupe_key: str,
+    metadata: dict[str, Any] | None = None,
+) -> None:
+    from shadowgrid.realtime import emit_realtime_event
+
+    owners = list(
+        db.scalars(
+            select(PlayerProfile)
+            .join(
+                CompanyOwnership,
+                CompanyOwnership.owner_profile_id == PlayerProfile.id,
+            )
+            .where(
+                CompanyOwnership.company_id == company.id,
+                CompanyOwnership.ownership_bps > 0,
+            )
+            .order_by(PlayerProfile.id)
+        )
+    )
+    warning_metadata = {
+        "company_id": company.id,
+        "warning_type": warning_type,
+        **(metadata or {}),
+    }
+    for owner in owners:
+        notification = create_notification(
+            db,
+            owner.user_id,
+            "company.warning.created",
+            title,
+            body,
+            warning_metadata,
+        )
+        emit_realtime_event(
+            db,
+            world_id=company.world_id,
+            event_type="company.warning.created",
+            payload={
+                "company_id": company.id,
+                "warning_type": warning_type,
+                "notification_id": notification.id,
+            },
+            audience_type="player",
+            audience_id=owner.id,
+            dedupe_key=f"{dedupe_key}:{owner.id}",
+        )
 
 
 def safe_commit(db: Session) -> None:

@@ -1,0 +1,171 @@
+{
+  "asset_id": "facility-finance-office-disrupted-v1",
+  "manifest_order": 518,
+  "category": "facility",
+  "batch": "facilities",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "disrupted",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/facility-finance-office-disrupted-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100518,
+  "content_hash": "2591f60c76631215b58afa781950a24985ab6fd0e4315b95c7c6a44bd04717e0",
+  "source_file": "assets/source/facilities/facility-finance-office-disrupted-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/facility-finance-office-disrupted-v1-320.avif",
+      "bytes": 2922,
+      "sha256": "15b017c9dadc0a9217770a81856c4650c1eeda55a31cd3fc1d9ee18664f02911"
+    },
+    {
+      "path": "assets/production/webp/facility-finance-office-disrupted-v1-320.webp",
+      "bytes": 2502,
+      "sha256": "75fcdda151a6797d66cd01df1a398f3e48d87d5cded58a9e2b5b1c10359a3417"
+    },
+    {
+      "path": "assets/production/avif/facility-finance-office-disrupted-v1-640.avif",
+      "bytes": 6531,
+      "sha256": "8fa0ab830b1838462776b7b7fb39fbf30c7a6c02295c49f37e0c15b3c400812b"
+    },
+    {
+      "path": "assets/production/webp/facility-finance-office-disrupted-v1-640.webp",
+      "bytes": 5156,
+      "sha256": "150f92476020280e25f82c949cedd5f41646c648cda92f9d06e2ed6107f384c5"
+    },
+    {
+      "path": "assets/production/avif/facility-finance-office-disrupted-v1-960.avif",
+      "bytes": 10270,
+      "sha256": "407b92a5b7ac37e2abcd7fda79be1bc29a512b3a51eb0bf7637b1ca5dad0bbbe"
+    },
+    {
+      "path": "assets/production/webp/facility-finance-office-disrupted-v1-960.webp",
+      "bytes": 8202,
+      "sha256": "35b3b09207413f039ae1f80e1d4c93193830f619df2375b1fb09709f8cf5c139"
+    },
+    {
+      "path": "assets/production/avif/facility-finance-office-disrupted-v1-1280.avif",
+      "bytes": 14471,
+      "sha256": "964c55de8fe656b84dd91cc90ed7f8d6d0d75598412c6486fea161c350e1a86f"
+    },
+    {
+      "path": "assets/production/webp/facility-finance-office-disrupted-v1-1280.webp",
+      "bytes": 11014,
+      "sha256": "51772004d97cddea68b3e2a9919d2a2a59047a1484eff13b09d672ecd759ba24"
+    },
+    {
+      "path": "assets/production/avif/facility-finance-office-disrupted-v1-1920.avif",
+      "bytes": 21929,
+      "sha256": "5576bf724a4c5db8dd4a31b0762aeec81fa88f9d63ef14c2bacd875055bb378a"
+    },
+    {
+      "path": "assets/production/webp/facility-finance-office-disrupted-v1-1920.webp",
+      "bytes": 17470,
+      "sha256": "00d61c7895b03810e45f31c2003768f8d0f46d7838fc0e4813d259cb7ed271d7"
+    },
+    {
+      "path": "assets/production/avif/facility-finance-office-disrupted-v1-2560.avif",
+      "bytes": 28853,
+      "sha256": "b55e70e6e27f612677d7987ad7794756e497500291bd865c7a9dac5597a359f3"
+    },
+    {
+      "path": "assets/production/webp/facility-finance-office-disrupted-v1-2560.webp",
+      "bytes": 24280,
+      "sha256": "8565df89e5d3547d1522b7905fc6b809a496f4aa95bb9685712fdf83b252fd14"
+    },
+    {
+      "path": "assets/production/avif/facility-finance-office-disrupted-v1-3840.avif",
+      "bytes": 46882,
+      "sha256": "0f7dd2d7fcf41d61628afb175aa37229bca34c0389abe0d0d480de8dc966738e"
+    },
+    {
+      "path": "assets/production/webp/facility-finance-office-disrupted-v1-3840.webp",
+      "bytes": 42516,
+      "sha256": "8e9ff6aab0c09d32d9a30d73ba3ee5a72c48d23610601765c2bb83e7b7b2b7fd"
+    },
+    {
+      "path": "assets/production/png/facility-finance-office-disrupted-v1-1280.png",
+      "bytes": 632831,
+      "sha256": "ed167a5d04252301bc1c65387a41cbbea77f963432f46184e6681b62ed8de31b"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/facility-finance-office-disrupted-v1.webp",
+      "bytes": 2502,
+      "sha256": "75fcdda151a6797d66cd01df1a398f3e48d87d5cded58a9e2b5b1c10359a3417"
+    },
+    {
+      "path": "apps/mobile/assets/library/facility-finance-office-disrupted-v1.webp",
+      "bytes": 2502,
+      "sha256": "75fcdda151a6797d66cd01df1a398f3e48d87d5cded58a9e2b5b1c10359a3417"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:26.967Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 92,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 90,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution.",
+      "Facility categories remain visually coherent and readable without depicting sensitive real-world infrastructure.",
+      "No missing render, unsafe detail, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1448256
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:08:36.495Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "shadowgrid/store-static-art/v1",
+  "generated_at": "2026-07-30T05:14:48.425Z",
+  "source": "project-owned branding and approved SHADOWGRID background assets",
+  "paid_generation_cost_eur": 0,
+  "items": [
+    {
+      "file": "assets/source/marketing/marketing-google-play-app-icon-v1.png",
+      "width": 512,
+      "height": 512,
+      "format": "png",
+      "channels": 3,
+      "has_alpha": false,
+      "bytes": 32171,
+      "sha256": "6f3039de9bd218cf7dc26ca3bdd1a1d664e87fe586ee88e4355d1fa9493531e4"
+    },
+    {
+      "file": "assets/source/marketing/marketing-google-play-feature-graphic-v1.png",
+      "width": 1024,
+      "height": 500,
+      "format": "png",
+      "channels": 3,
+      "has_alpha": false,
+      "bytes": 397522,
+      "sha256": "c23d64cb92f6124e03e7df4955efb5ddeb42345016f2cedf6bfe19e81bc414e8"
+    }
+  ]
+}

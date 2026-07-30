@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-old-town-crisis-night-v1",
+  "manifest_order": 396,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "crisis-night",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-old-town-crisis-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100396,
+  "content_hash": "408a65db1deb30a582dd240b58d3e22f5e3bfa92137d3460b8031fd69e02dee7",
+  "source_file": "assets/source/districts/district-old-town-crisis-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-old-town-crisis-night-v1-320.avif",
+      "bytes": 3857,
+      "sha256": "e295d9ff8d7b905d218e93b7ae4dff8b58da941c5b4d24190838523fafafa970"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-crisis-night-v1-320.webp",
+      "bytes": 3764,
+      "sha256": "e0df1665fe75700ddb84c3d56e88cca43df8fc8490c680a6bc1cf0cca3813c86"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-crisis-night-v1-640.avif",
+      "bytes": 8309,
+      "sha256": "8269cca2f1ba364e3acd3af4b9e9fae5e22b1fcf92fa2e74ce9f5f051d3fa88d"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-crisis-night-v1-640.webp",
+      "bytes": 8194,
+      "sha256": "12dd8ff60b59d94fff4374a489a5bebf8732f18c0577e7af4cb2650e6118939a"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-crisis-night-v1-960.avif",
+      "bytes": 13602,
+      "sha256": "6573591248e4cdd10a0d5ba7f987bc21f79ec9afb0a30a225580f6f8147c4674"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-crisis-night-v1-960.webp",
+      "bytes": 13912,
+      "sha256": "de58f0b9c17050525a9a12d3123d4c02f3734b596c93d568169f3ef6a224dc19"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-crisis-night-v1-1280.avif",
+      "bytes": 18681,
+      "sha256": "df00a5e633974a31d08d7736bbd0fc9675209fb4dcd49e680bd7350682423f61"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-crisis-night-v1-1280.webp",
+      "bytes": 18502,
+      "sha256": "14cc6a7fc5cc68fff8f61822fb7aefe898205aa7ede1283a4e94e18b7dae2733"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-crisis-night-v1-1920.avif",
+      "bytes": 29040,
+      "sha256": "437afe30bf5abb257981af2d8f519aa13bbaf43036419ea884eb02d97ee5363a"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-crisis-night-v1-1920.webp",
+      "bytes": 27660,
+      "sha256": "a8803109e0ab90187d74163f9465695a77c025626e9a98cb775237025a5451c0"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-crisis-night-v1-2560.avif",
+      "bytes": 38315,
+      "sha256": "f32d0b43247ae08b6ad85a10b8eefbb4895ba5d4c45ede07d45a34489af3eab6"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-crisis-night-v1-2560.webp",
+      "bytes": 36172,
+      "sha256": "c00d20a5e0cb588ebef25211223c784be50f9fad5f77c0e60fa766e278057d8d"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-crisis-night-v1-3840.avif",
+      "bytes": 61473,
+      "sha256": "df6240460701c9557cdfcff14fcf5baaed4792f383e2886b0b79f6e8cbbdc512"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-crisis-night-v1-3840.webp",
+      "bytes": 57138,
+      "sha256": "d97301c49378423b051345e6830fba0cc655f8e15445ac7a655537519758e9fc"
+    },
+    {
+      "path": "assets/production/png/district-old-town-crisis-night-v1-1280.png",
+      "bytes": 659027,
+      "sha256": "68755ae0d6f205e5fa66ae1c84f37eb57dbc0852c7a4017c977899cb154f06e0"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-old-town-crisis-night-v1.webp",
+      "bytes": 3764,
+      "sha256": "e0df1665fe75700ddb84c3d56e88cca43df8fc8490c680a6bc1cf0cca3813c86"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-old-town-crisis-night-v1.webp",
+      "bytes": 3764,
+      "sha256": "e0df1665fe75700ddb84c3d56e88cca43df8fc8490c680a6bc1cf0cca3813c86"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.740Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1452688
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:30:25.726Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

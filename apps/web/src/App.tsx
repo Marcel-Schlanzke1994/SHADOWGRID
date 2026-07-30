@@ -21,12 +21,17 @@ import {
   SpecialistsPage,
   OperationsPage,
   NetworkPage,
-  IntelPage,
   InvestigationPage,
 } from "./pages/CorePages";
 import { GermanyPage } from "./pages/GermanyPage";
+import { ExchangePage } from "./pages/ExchangePage";
+import { CartelsPage } from "./pages/CartelsPage";
+import { ContractsPage } from "./pages/ContractsPage";
+import { FinancePage } from "./pages/FinancePage";
+import { BondsPage } from "./pages/BondsPage";
+import { RealEstatePage } from "./pages/RealEstatePage";
+import { IntelligencePage } from "./pages/IntelligencePage";
 import {
-  OrganizationsPage,
   DiplomacyPage,
   ResearchPage,
   NewsPage,
@@ -101,7 +106,14 @@ export function App() {
         <Route path="/city" element={<CityPage />} />
         <Route path="/city/:districtId" element={<CityPage />} />
         <Route path="/germany" element={<GermanyPage />} />
-        <Route path="/businesses" element={<BusinessesPage />} />
+        <Route path="/companies" element={<BusinessesPage />} />
+        <Route path="/companies/:companyId" element={<BusinessesPage />} />
+        <Route path="/exchange" element={<ExchangePage />} />
+        <Route path="/exchange/:listingId" element={<ExchangePage />} />
+        <Route
+          path="/businesses"
+          element={<Navigate to="/companies" replace />}
+        />
         <Route path="/businesses/:businessId" element={<BusinessesPage />} />
         <Route path="/facilities" element={<FacilitiesPage />} />
         <Route path="/specialists" element={<SpecialistsPage />} />
@@ -112,12 +124,13 @@ export function App() {
         <Route path="/operations" element={<OperationsPage />} />
         <Route path="/operations/:operationId" element={<OperationsPage />} />
         <Route path="/network" element={<NetworkPage />} />
-        <Route path="/intelligence" element={<IntelPage />} />
+        <Route path="/intelligence" element={<IntelligencePage />} />
         <Route path="/investigation" element={<InvestigationPage />} />
-        <Route path="/organizations" element={<OrganizationsPage />} />
+        <Route path="/cartels" element={<CartelsPage />} />
+        <Route path="/cartels/:cartelId/*" element={<CartelsPage />} />
         <Route
-          path="/organizations/:organizationId/*"
-          element={<OrganizationsPage />}
+          path="/organizations/*"
+          element={<Navigate to="/cartels" replace />}
         />
         <Route path="/diplomacy" element={<DiplomacyPage />} />
         <Route path="/pvp" element={<PvpPage />} />
@@ -126,6 +139,10 @@ export function App() {
         <Route path="/alliances" element={<AlliancesPage />} />
         <Route path="/communications" element={<CommunicationsPage />} />
         <Route path="/market" element={<MarketPage />} />
+        <Route path="/contracts" element={<ContractsPage />} />
+        <Route path="/finance" element={<FinancePage />} />
+        <Route path="/bonds" element={<BondsPage />} />
+        <Route path="/real-estate" element={<RealEstatePage />} />
         <Route path="/research" element={<ResearchPage />} />
         <Route path="/news" element={<NewsPage />} />
         <Route path="/rankings" element={<RankingsPage />} />

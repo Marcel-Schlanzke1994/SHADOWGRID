@@ -170,35 +170,49 @@
       "path": "apps/web/public/assets/cities/city-berlin-mobile-day-v1-1152.png",
       "bytes": 4353674,
       "sha256": "a3bfcb63221877983226208d606608206f094d4d635d75182782740fed9cf1aa"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-berlin-mobile-day-v1.webp",
+      "bytes": 19274,
+      "sha256": "133eccc98181e182d9f07a7cf70550f881fff2b971a93d72ef203e39973611f9"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-berlin-mobile-day-v1.webp",
+      "bytes": 19274,
+      "sha256": "133eccc98181e182d9f07a7cf70550f881fff2b971a93d72ef203e39973611f9"
     }
   ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,
   "moderation_status": "approved",
-  "quality_score": 98.8,
+  "quality_score": 92.9,
   "quality_status": "approved",
   "review_status": "codex-visual-approved",
   "visual_review": {
-    "realism": 98,
-    "style_consistency": 100,
-    "composition": 100,
-    "material_quality": 98,
-    "lighting_quality": 99,
-    "architecture_plausibility": 97,
-    "ui_suitability": 100,
-    "mobile_suitability": 100,
-    "originality": 96,
-    "safety_compliance": 100,
-    "accepted_prompt": "Create a separately composed portrait mobile hero for the same accepted fictional Berlin-inspired SHADOWGRID city in the reference.\n\nOutput composition: exact 9:16 portrait, intended final size 1152×2048. Reconstruct the environment vertically rather than cropping the landscape image. Preserve the fictional identity through a modest canal, original low-profile bridge language, a broad tree-lined urban axis, mixed historic stone blocks, restrained postwar modernism, adaptive-reuse brick, contemporary civic and creative offices, and layered capital-city depth. All street, canal, transit, and civic layouts must remain fictional and non-operational.\n\nMobile hierarchy: reserve the upper 32% as calm darker low-detail cloud and atmospheric city distance for a status bar, localized title, and no more than three warnings. Place the principal canal, mixed-architecture district, and broad urban axis in the middle third. Use one original physically plausible low-profile bridge crossing diagonally through the middle-lower frame without blocking content. Keep the bottom 18% quieter and darker through canal water and shadowed edge for one primary control. Ensure the canal, bridge, trees, and mixed architecture remain legible on a narrow phone. No focal people or crowds.\n\nLighting and style: cool overcast daylight after light rain with a restrained cloud break, neutral blue-gray atmosphere, subtle warm-gold material and window highlights, realistic wet asphalt, stone, brick, concrete, steel, glass, trees, and canal reflections, premium contemporary architectural photography, subtle corporate-thriller mood.\n\nDo not add the Brandenburg Gate, Reichstag, Berlin TV Tower, Victory Column, Berlin Cathedral, Museum Island, East Side Gallery, Oberbaum Bridge, Potsdamer Platz, Alexanderplatz, government complexes, embassies, monuments, flags, real transit maps, exact street layouts, recognizable authority buildings, or any known photograph/viewpoint.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, surveillance instructions, routes, fantasy architecture, impossible geometry, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 9:16 daytime capital-city environment, with no border, title, UI, or device mockup.",
-    "reference_images": [
-      "assets/source/cities/city-berlin-desktop-day-v1.png"
-    ],
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.165Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
     "notes": [
-      "Accepted first portrait recomposition attempt.",
-      "The upper cloud field provides a calm status/title area, the middle carries the canal-and-city decision, and the lower canal remains dark enough for one primary control.",
-      "The diagonal original bridge, tree-lined canal, mixed architectural eras, and layered skyline retain the Berlin family identity on a narrow phone without reproducing a real civic layout.",
-      "No known landmark, government site, exact street plan, embedded text, logo, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
     ]
   },
   "technical_validation": {

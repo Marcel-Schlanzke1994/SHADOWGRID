@@ -1,0 +1,171 @@
+{
+  "asset_id": "avatar-boss-player-preset-10-v1",
+  "manifest_order": 576,
+  "category": "avatar",
+  "batch": "specialists",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/avatar-boss-player-preset-10-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100576,
+  "content_hash": "956e07caa7a0f7b13614bb2a0d3c43d40987f6e5bbb1c3e33cd289973c1860fc",
+  "source_file": "assets/source/characters/avatar-boss-player-preset-10-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/avatar-boss-player-preset-10-v1-320.avif",
+      "bytes": 2618,
+      "sha256": "24f69be4a9d9d3790e4a3972d2e5c9abc7c48b057d99625a21ce8c2c1f777ccd"
+    },
+    {
+      "path": "assets/production/webp/avatar-boss-player-preset-10-v1-320.webp",
+      "bytes": 1906,
+      "sha256": "2dceeb19dc0ef5cc470a034ba1e319c8f02f4e0744008e66879945ac7139afa1"
+    },
+    {
+      "path": "assets/production/avif/avatar-boss-player-preset-10-v1-640.avif",
+      "bytes": 5483,
+      "sha256": "3519aa13344635abeaa4a728bc88d12d7c3e3c3b621fd69e536bd371e14a7ca2"
+    },
+    {
+      "path": "assets/production/webp/avatar-boss-player-preset-10-v1-640.webp",
+      "bytes": 4420,
+      "sha256": "c7688721552363acd02cd2bcf8f533eceb0aa2c3330fb640d77833662548cc49"
+    },
+    {
+      "path": "assets/production/avif/avatar-boss-player-preset-10-v1-960.avif",
+      "bytes": 11116,
+      "sha256": "18dc49e2d05036f6b7e05f6e5339833a0fb9041523ee677377e1c2cf10399a0a"
+    },
+    {
+      "path": "assets/production/webp/avatar-boss-player-preset-10-v1-960.webp",
+      "bytes": 8132,
+      "sha256": "c2f1f94e00076be2d4816d81d8cda2cafa0167be5db6cc39c9bc758c0d8ece06"
+    },
+    {
+      "path": "assets/production/avif/avatar-boss-player-preset-10-v1-1280.avif",
+      "bytes": 16234,
+      "sha256": "3d4446dab8cff3684c6d7d403ad849f292e111f65912e534497fcbfaf8ae9ce0"
+    },
+    {
+      "path": "assets/production/webp/avatar-boss-player-preset-10-v1-1280.webp",
+      "bytes": 11980,
+      "sha256": "0524681927c6027663d78dbd2d377372dab68d8f849ec04abcd0a66565e7bf13"
+    },
+    {
+      "path": "assets/production/avif/avatar-boss-player-preset-10-v1-1920.avif",
+      "bytes": 26238,
+      "sha256": "5cdf13140a1535b7a42ae403fc925f8bb215a2dc1f75a808bbcb652b936bf842"
+    },
+    {
+      "path": "assets/production/webp/avatar-boss-player-preset-10-v1-1920.webp",
+      "bytes": 20922,
+      "sha256": "be70da1afedaebd4ddee7e050cc67128e79dd351e4c9a97baef4f197f568bd3a"
+    },
+    {
+      "path": "assets/production/avif/avatar-boss-player-preset-10-v1-2560.avif",
+      "bytes": 37332,
+      "sha256": "cf2964ea6142db4f475c24bb427787f9af5781d9202fd1f495f6f51cef758baf"
+    },
+    {
+      "path": "assets/production/webp/avatar-boss-player-preset-10-v1-2560.webp",
+      "bytes": 31640,
+      "sha256": "5848ebc03d63383119a1acb7a0f44f9c7c60c1865c5efbb7bf558f33e67220be"
+    },
+    {
+      "path": "assets/production/avif/avatar-boss-player-preset-10-v1-3840.avif",
+      "bytes": 62194,
+      "sha256": "6194b81055bd42a02b98569157508cba7e64f6de49339a7a10eca7ed73d47c47"
+    },
+    {
+      "path": "assets/production/webp/avatar-boss-player-preset-10-v1-3840.webp",
+      "bytes": 59002,
+      "sha256": "3dbdce854e7fd4f5ae5b3eb88cb670f58f608185d254e46b29f67cc6a5482a14"
+    },
+    {
+      "path": "assets/production/png/avatar-boss-player-preset-10-v1-1280.png",
+      "bytes": 235471,
+      "sha256": "ff7e82ccbdf947e377c510877761e33009321017c2a3976153917248eaf7c37d"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/avatar-boss-player-preset-10-v1.webp",
+      "bytes": 1906,
+      "sha256": "2dceeb19dc0ef5cc470a034ba1e319c8f02f4e0744008e66879945ac7139afa1"
+    },
+    {
+      "path": "apps/mobile/assets/library/avatar-boss-player-preset-10-v1.webp",
+      "bytes": 1906,
+      "sha256": "2dceeb19dc0ef5cc470a034ba1e319c8f02f4e0744008e66879945ac7139afa1"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:37.819Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 216513
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:23:57.160Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

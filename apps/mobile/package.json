@@ -9,6 +9,7 @@
     "ios": "expo run:ios",
     "web": "expo start --web",
     "build": "expo export --platform web",
+    "build:preview": "expo export --platform all --output-dir dist/preview",
     "lint": "eslint app src --max-warnings 0",
     "typecheck": "tsc --noEmit",
     "test": "jest --runInBand --coverage",

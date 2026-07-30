@@ -1,0 +1,26 @@
+{
+  "schema": "shadowgrid-visual-review-v2",
+  "reviewer": "codex-final-visual-review",
+  "batch": "facilities",
+  "scores": {
+    "realism": 89,
+    "style_consistency": 95,
+    "composition": 93,
+    "material_quality": 90,
+    "light_quality": 92,
+    "architecture_plausibility": 92,
+    "ui_suitability": 95,
+    "mobile_suitability": 93,
+    "originality": 90,
+    "safety_compliance": 100,
+    "small_size_legibility": 92,
+    "contrast": 94,
+    "geometry_quality": 94,
+    "technical_quality": 97
+  },
+  "notes": [
+    "Both paged contact sheets were inspected at original resolution.",
+    "Facility categories remain visually coherent and readable without depicting sensitive real-world infrastructure.",
+    "No missing render, unsafe detail, broken crop, logo, or unintended text was observed."
+  ]
+}

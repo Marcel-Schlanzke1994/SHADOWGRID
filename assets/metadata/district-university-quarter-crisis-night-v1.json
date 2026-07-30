@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-university-quarter-crisis-night-v1",
+  "manifest_order": 428,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "crisis-night",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-university-quarter-crisis-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100428,
+  "content_hash": "9d7523c499d4ae2f6e55f9c82e621e0e58ec4b26f430215a0471af9de8a08c33",
+  "source_file": "assets/source/districts/district-university-quarter-crisis-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-university-quarter-crisis-night-v1-320.avif",
+      "bytes": 3819,
+      "sha256": "5f9127018bfe04bc7e237d709c3b4842fd03a907e540d5a04efd5b578a2529fd"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-crisis-night-v1-320.webp",
+      "bytes": 3456,
+      "sha256": "1a6f9a6900e3c342bd7af7b9874fa59287cec55f730a5a2085498e4e93a809b9"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-crisis-night-v1-640.avif",
+      "bytes": 8064,
+      "sha256": "c5c6800317ccdab7ce251cfd09f61e1889f1dd629969e03209c104924b71cf27"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-crisis-night-v1-640.webp",
+      "bytes": 7866,
+      "sha256": "d0bf944795dced9a19d6e199459c7c5f1a9d71b483f78266413dfb4d27c9e5b8"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-crisis-night-v1-960.avif",
+      "bytes": 13044,
+      "sha256": "9a590a8bf4f066bd7099bbb8a85df07207aeb9b0e5568f72aa3561b5d327df67"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-crisis-night-v1-960.webp",
+      "bytes": 13298,
+      "sha256": "a39de256d3bc1ba869f01097845980cee1ad6cc769da3b2e22e7b2fbd5aa2af8"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-crisis-night-v1-1280.avif",
+      "bytes": 18226,
+      "sha256": "52e2e0a78280de7c804c664148fd4c51c364664b289bd69c67a58f56e7570c40"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-crisis-night-v1-1280.webp",
+      "bytes": 17576,
+      "sha256": "603c3d43770486b5cb58c60f060d58d06686337bf47f909adf61d43af2146b1f"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-crisis-night-v1-1920.avif",
+      "bytes": 28140,
+      "sha256": "3e498764cb7aaa8209d1e6f2d29842ef761b1ec03e17e2b86c814879f7b2c3aa"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-crisis-night-v1-1920.webp",
+      "bytes": 26524,
+      "sha256": "cb9be0ab8e7ce43b7e172bd52608af7ec875bf71c8a9e5e4a675c08a78006c18"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-crisis-night-v1-2560.avif",
+      "bytes": 37019,
+      "sha256": "f76c2f297318e15bcb6b5d1d5a298989b9c6bf68187d1ec255479ca27c51c21c"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-crisis-night-v1-2560.webp",
+      "bytes": 35540,
+      "sha256": "6a0cf739c1c78866d80be2504e9bfbb53e7c5344aed8b94453fb4846db239d12"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-crisis-night-v1-3840.avif",
+      "bytes": 59370,
+      "sha256": "6f051b1e5dc8b82f52285b88418dcf040e2cd1eceb61e78f7d0147ce71662585"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-crisis-night-v1-3840.webp",
+      "bytes": 55564,
+      "sha256": "a7f534b3f8f35dc4e35563c2875f609411e6602331232751852a3c953c5835ae"
+    },
+    {
+      "path": "assets/production/png/district-university-quarter-crisis-night-v1-1280.png",
+      "bytes": 658714,
+      "sha256": "859abcea1a193bfec0284c5dd5b6153ba52f97fe2383c58a7ad8570d6ae2b292"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-university-quarter-crisis-night-v1.webp",
+      "bytes": 3456,
+      "sha256": "1a6f9a6900e3c342bd7af7b9874fa59287cec55f730a5a2085498e4e93a809b9"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-university-quarter-crisis-night-v1.webp",
+      "bytes": 3456,
+      "sha256": "1a6f9a6900e3c342bd7af7b9874fa59287cec55f730a5a2085498e4e93a809b9"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.115Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1457508
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:41:10.027Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

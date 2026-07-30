@@ -1,0 +1,171 @@
+{
+  "asset_id": "marketing-community-banner-v1",
+  "manifest_order": 890,
+  "category": "marketing",
+  "batch": "store-marketing",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/marketing-community-banner-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100890,
+  "content_hash": "4c933ba6315039153019c7421313522cdd0cf2d8d0a304bac903335eb6168760",
+  "source_file": "assets/source/marketing/marketing-community-banner-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/marketing-community-banner-v1-320.avif",
+      "bytes": 3097,
+      "sha256": "99e645732c10b304b895cd7a579d9c12738dd4c33b418fe57de87b3469cdc528"
+    },
+    {
+      "path": "assets/production/webp/marketing-community-banner-v1-320.webp",
+      "bytes": 3154,
+      "sha256": "6dcc2dd4899f7c4b837ab931f4e6f6db929314621e71a09532a30640dda8f976"
+    },
+    {
+      "path": "assets/production/avif/marketing-community-banner-v1-640.avif",
+      "bytes": 7007,
+      "sha256": "90d3e223b9fc351ae9c58b4453bf4208908eff6dbe7742412a52e82c2392c45c"
+    },
+    {
+      "path": "assets/production/webp/marketing-community-banner-v1-640.webp",
+      "bytes": 6174,
+      "sha256": "4984504a105daaf44f5dd9ab4cbe246a8e17f3c807078fd2ca831f16caf2af7b"
+    },
+    {
+      "path": "assets/production/avif/marketing-community-banner-v1-960.avif",
+      "bytes": 12045,
+      "sha256": "0a6d073419345cc3528d97034e91b8b75299c2f421de5749fee69a9d6ec235da"
+    },
+    {
+      "path": "assets/production/webp/marketing-community-banner-v1-960.webp",
+      "bytes": 10384,
+      "sha256": "a2846680f3d0008a198e173e4f652e320e4dd3cfe543ce1d4f4f0d8cb3757e3b"
+    },
+    {
+      "path": "assets/production/avif/marketing-community-banner-v1-1280.avif",
+      "bytes": 17168,
+      "sha256": "a31d0dd9c74a6a69d731c986584db5593923980d4871474ec7d892e7415272c7"
+    },
+    {
+      "path": "assets/production/webp/marketing-community-banner-v1-1280.webp",
+      "bytes": 13554,
+      "sha256": "694171afc65b06c7f4bb796ab69699bb44ac61e47c847b96afa28e9804fb1766"
+    },
+    {
+      "path": "assets/production/avif/marketing-community-banner-v1-1920.avif",
+      "bytes": 25666,
+      "sha256": "cbfb0cf9aeddb236dbf0c9c5e3ec0100377ff845026cd0c83426e348af8fe4a6"
+    },
+    {
+      "path": "assets/production/webp/marketing-community-banner-v1-1920.webp",
+      "bytes": 21050,
+      "sha256": "afcdfcc55e3b59fb39846fd7f5ae608f0d5d375fbd66625764b55126cc10807e"
+    },
+    {
+      "path": "assets/production/avif/marketing-community-banner-v1-2560.avif",
+      "bytes": 35553,
+      "sha256": "e3ab934e22f4511c0e5bbc2ab7d32dbb2eda107198ec47af0cf58c3e9d40d91e"
+    },
+    {
+      "path": "assets/production/webp/marketing-community-banner-v1-2560.webp",
+      "bytes": 29132,
+      "sha256": "7e6cc41b1ac3c4e66ea5d3ae8d314ed8438492ccf980d4d5b88a79d74317da03"
+    },
+    {
+      "path": "assets/production/avif/marketing-community-banner-v1-3840.avif",
+      "bytes": 56721,
+      "sha256": "e0a376976c0e72ea16c97fc34b84df05db48afeaf335376f4eca3eb3719af547"
+    },
+    {
+      "path": "assets/production/webp/marketing-community-banner-v1-3840.webp",
+      "bytes": 49812,
+      "sha256": "efd21688fbe4734ac8effa65073b891629801c91e10d32e9417de8bac70e62c6"
+    },
+    {
+      "path": "assets/production/png/marketing-community-banner-v1-1280.png",
+      "bytes": 732329,
+      "sha256": "b857f53086ed5bc6e47a322cbb5667f3bd7030ce8c56955ade4165da830a9e85"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/marketing-community-banner-v1.webp",
+      "bytes": 3154,
+      "sha256": "6dcc2dd4899f7c4b837ab931f4e6f6db929314621e71a09532a30640dda8f976"
+    },
+    {
+      "path": "apps/mobile/assets/library/marketing-community-banner-v1.webp",
+      "bytes": 3154,
+      "sha256": "6dcc2dd4899f7c4b837ab931f4e6f6db929314621e71a09532a30640dda8f976"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 94.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:37:55.566Z",
+    "scores": {
+      "realism": 94,
+      "style_consistency": 96,
+      "composition": 95,
+      "material_quality": 93,
+      "light_quality": 94,
+      "architecture_plausibility": 92,
+      "ui_suitability": 97,
+      "mobile_suitability": 97,
+      "originality": 90,
+      "safety_compliance": 100,
+      "small_size_legibility": 94,
+      "contrast": 96,
+      "geometry_quality": 96,
+      "technical_quality": 98
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution.",
+      "All 20 store captures are sourced from the functioning application at exact declared dimensions; feature graphic and icon are opaque exact-size static art.",
+      "Text-free community and release banners are intentionally neutral procedural variants, with no fake UI, third-party logo, unsafe content, broken crop, or unintended text."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1677492
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:47:29.726Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

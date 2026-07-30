@@ -1,0 +1,171 @@
+{
+  "asset_id": "event-major-inspection-v1",
+  "manifest_order": 704,
+  "category": "event",
+  "batch": "world-events",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/event-major-inspection-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100704,
+  "content_hash": "7b25f40722ec7eec0e2d87fb70b9532f8549047315337bbd55a5ec529d4e617b",
+  "source_file": "assets/source/events/event-major-inspection-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/event-major-inspection-v1-320.avif",
+      "bytes": 2850,
+      "sha256": "fb695c389d57553640810fbc445327cafff268da5f5ee02c0c65ca73952e8b53"
+    },
+    {
+      "path": "assets/production/webp/event-major-inspection-v1-320.webp",
+      "bytes": 2558,
+      "sha256": "c1460798b5f86705bdb09d4e7557fb6b24714e176fc7355a2a3bdb21c5594cd1"
+    },
+    {
+      "path": "assets/production/avif/event-major-inspection-v1-640.avif",
+      "bytes": 6323,
+      "sha256": "c19ac596422a644c1007befe77c53476880543be31086a882c5a81f173a47f59"
+    },
+    {
+      "path": "assets/production/webp/event-major-inspection-v1-640.webp",
+      "bytes": 5260,
+      "sha256": "ced95d9bb16177c1682f7bbd60cad93c7e1a5633496c45f675b7b156381db8a9"
+    },
+    {
+      "path": "assets/production/avif/event-major-inspection-v1-960.avif",
+      "bytes": 10357,
+      "sha256": "e6dafc662266027bb1123584a6fd5e29c628be353a8f728cb5a33803ba295c7c"
+    },
+    {
+      "path": "assets/production/webp/event-major-inspection-v1-960.webp",
+      "bytes": 8996,
+      "sha256": "c70460d602e248065e3f22216626e7f6ed97a1ac71e1cc8b2d200af1f9109a78"
+    },
+    {
+      "path": "assets/production/avif/event-major-inspection-v1-1280.avif",
+      "bytes": 15111,
+      "sha256": "87c74dddf6aa423116c4dc72f2a2e14b8fbdae5c9f44edfaa2fbd56bb100f427"
+    },
+    {
+      "path": "assets/production/webp/event-major-inspection-v1-1280.webp",
+      "bytes": 12078,
+      "sha256": "70bde6bec6a858ce0b3172c11cc3daece9008e78667bd22bf4a692cd224cb3e5"
+    },
+    {
+      "path": "assets/production/avif/event-major-inspection-v1-1920.avif",
+      "bytes": 23088,
+      "sha256": "67f0e6ebddf61b418359d1022ff596c47e3e90fb28ef92758ad3bd8a308652de"
+    },
+    {
+      "path": "assets/production/webp/event-major-inspection-v1-1920.webp",
+      "bytes": 19040,
+      "sha256": "0ab5007375bd216856d39a1b6a0591ff9af4e17880e317fb54ebd5421bf08f82"
+    },
+    {
+      "path": "assets/production/avif/event-major-inspection-v1-2560.avif",
+      "bytes": 31511,
+      "sha256": "f3688d57135800557e691846e8794895dd332b39b1cbc9bc3b0b5a18a68d24f7"
+    },
+    {
+      "path": "assets/production/webp/event-major-inspection-v1-2560.webp",
+      "bytes": 26780,
+      "sha256": "fb0ca006faa87018df725d4a402a585fe9c0c353132cfe03b2180104e8b1cab5"
+    },
+    {
+      "path": "assets/production/avif/event-major-inspection-v1-3840.avif",
+      "bytes": 50801,
+      "sha256": "2a1f81dc5432ad967b30c7e738750afe55c879d7f74e231ddd4ec0783bfcbc84"
+    },
+    {
+      "path": "assets/production/webp/event-major-inspection-v1-3840.webp",
+      "bytes": 45878,
+      "sha256": "b22732216027eb6f7e0aa404837a0b76ce8fd4a1bf2fd24e9bdec7c41cc24c9d"
+    },
+    {
+      "path": "assets/production/png/event-major-inspection-v1-1280.png",
+      "bytes": 689889,
+      "sha256": "9dad106cd67d73c006b8f8cf070a284b8641e12b46fc6378aa4c2143be34f3fe"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/event-major-inspection-v1.webp",
+      "bytes": 2558,
+      "sha256": "c1460798b5f86705bdb09d4e7557fb6b24714e176fc7355a2a3bdb21c5594cd1"
+    },
+    {
+      "path": "apps/mobile/assets/library/event-major-inspection-v1.webp",
+      "bytes": 2558,
+      "sha256": "c1460798b5f86705bdb09d4e7557fb6b24714e176fc7355a2a3bdb21c5594cd1"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:10.726Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 88,
+      "light_quality": 91,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Repeated motifs form a coherent event family while color, direction, and state treatment keep event classes distinguishable.",
+      "No missing render, unsafe real-world guidance, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1584263
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:32:09.893Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

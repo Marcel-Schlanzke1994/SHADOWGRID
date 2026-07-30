@@ -1,0 +1,171 @@
+{
+  "asset_id": "character-district-coordination-experienced-man-v1",
+  "manifest_order": 546,
+  "category": "character",
+  "batch": "specialists",
+  "city": null,
+  "variant": "experienced-man",
+  "gameplay_state": "normal",
+  "aspect_ratio": "4:5",
+  "width": 1280,
+  "height": 1600,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/character-district-coordination-experienced-man-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100546,
+  "content_hash": "d1c446a14f148effb2a41e1da4733e6eb246d78107d01080c3695335f3b68523",
+  "source_file": "assets/source/characters/character-district-coordination-experienced-man-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/character-district-coordination-experienced-man-v1-320.avif",
+      "bytes": 3037,
+      "sha256": "94f6c8bdd1f351d37936e72a20d2ac3081bd4fd2274c59594f80a8a9d42c8ade"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-experienced-man-v1-320.webp",
+      "bytes": 2252,
+      "sha256": "6acc00325d02f6971d75b556474d7a56b7e42a778ccecca531e32e46e9f0e181"
+    },
+    {
+      "path": "assets/production/avif/character-district-coordination-experienced-man-v1-640.avif",
+      "bytes": 6787,
+      "sha256": "582a6f569ea519deeea28ec5b947303e673be97f1f0634d8269e3b34e80eb2fb"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-experienced-man-v1-640.webp",
+      "bytes": 5290,
+      "sha256": "929980a38ad52148531db773ddce4d57445370b8ed4efd74a21867e3e68b4ea3"
+    },
+    {
+      "path": "assets/production/avif/character-district-coordination-experienced-man-v1-960.avif",
+      "bytes": 14246,
+      "sha256": "66b56bbf57c3e296b3164ae14ae02efa55012137c9c9d52766a1539933bb19ec"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-experienced-man-v1-960.webp",
+      "bytes": 9906,
+      "sha256": "e20369af9ec0dacea6faf80002b9381dc2eab7b95a088b7a684c7c32a2f7ebb6"
+    },
+    {
+      "path": "assets/production/avif/character-district-coordination-experienced-man-v1-1280.avif",
+      "bytes": 20627,
+      "sha256": "17b67a58e5ee0e44d6c4f6174e959512d47759ef0fb36ff3327d746ecfe3b3f1"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-experienced-man-v1-1280.webp",
+      "bytes": 15092,
+      "sha256": "b792feb57ef23c0e65acbdb5e792f3ef0f1587489106ce8772f4d37073f1d7ae"
+    },
+    {
+      "path": "assets/production/avif/character-district-coordination-experienced-man-v1-1920.avif",
+      "bytes": 32725,
+      "sha256": "ce2a32a625d47274d3bb7e4c5e9b3fc812e4110c01ab434ea9cf8ce728c0623d"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-experienced-man-v1-1920.webp",
+      "bytes": 25640,
+      "sha256": "8b67e19c39fc163ef8950c525f448c1fb4f29737595862cbc0bc91844d391bae"
+    },
+    {
+      "path": "assets/production/avif/character-district-coordination-experienced-man-v1-2560.avif",
+      "bytes": 46379,
+      "sha256": "5e6aeab1fd53463a8651128c58781cf61eb53f9f6133bf0d7cbc85146c5ba972"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-experienced-man-v1-2560.webp",
+      "bytes": 38656,
+      "sha256": "d9fd2f2dc9930b52b42803f445fa5ab92ed55499a461a4602b7e514e34225ab3"
+    },
+    {
+      "path": "assets/production/avif/character-district-coordination-experienced-man-v1-3840.avif",
+      "bytes": 76722,
+      "sha256": "a3d7fcd483a2fc8dc0519748b1ee32fe888376b74c949857025ea7557e4cc19c"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-experienced-man-v1-3840.webp",
+      "bytes": 72622,
+      "sha256": "1d983970de8a21cfe84f41a3838bf74d2417ed3e06b9558c8dd18380f41ebec4"
+    },
+    {
+      "path": "assets/production/png/character-district-coordination-experienced-man-v1-1280.png",
+      "bytes": 209222,
+      "sha256": "d1c446a14f148effb2a41e1da4733e6eb246d78107d01080c3695335f3b68523"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/character-district-coordination-experienced-man-v1.webp",
+      "bytes": 2252,
+      "sha256": "6acc00325d02f6971d75b556474d7a56b7e42a778ccecca531e32e46e9f0e181"
+    },
+    {
+      "path": "apps/mobile/assets/library/character-district-coordination-experienced-man-v1.webp",
+      "bytes": 2252,
+      "sha256": "6acc00325d02f6971d75b556474d7a56b7e42a778ccecca531e32e46e9f0e181"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:37.032Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1280,
+      "height": 1600,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 209222
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:16:47.523Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

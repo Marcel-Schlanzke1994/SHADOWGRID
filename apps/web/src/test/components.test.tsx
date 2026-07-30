@@ -3,6 +3,14 @@ import { describe, expect, it, vi } from "vitest";
 import "@shadowgrid/i18n";
 import { ApiError } from "@shadowgrid/api-client";
 import {
+  cartelContributionSchema,
+  cartelCreateSchema,
+  cartelExpenseSchema,
+  exchangeOrderSchema,
+  ipoSchema,
+} from "@shadowgrid/validation";
+import {
+  ConfirmDialog,
   Field,
   Metric,
   Panel,
@@ -10,7 +18,12 @@ import {
   StateView,
   Status,
 } from "../components";
-import { formatCurrency, formatDate, formatNumber } from "../format";
+import {
+  formatCents,
+  formatCurrency,
+  formatDate,
+  formatNumber,
+} from "../format";
 import { GlobalStateBackdrop } from "../GlobalBackdrop";
 import { GermanyPage } from "../pages/GermanyPage";
 
@@ -36,7 +49,7 @@ describe("accessible data primitives", () => {
   });
 
   it("renders panels and accessible form feedback", () => {
-    render(
+    const { container } = render(
       <Panel title="Profile">
         <Field label="Codename" hint="Public" error="Required">
           <input aria-label="Codename" />
@@ -46,6 +59,27 @@ describe("accessible data primitives", () => {
     expect(screen.getByRole("heading", { name: "Profile" })).toBeVisible();
     expect(screen.getByText("Public")).toBeVisible();
     expect(screen.getByRole("alert")).toHaveTextContent("Required");
+    expect(container.querySelector("input")?.id).toMatch(/^field-codename-/);
+  });
+
+  it("requires an explicit confirmation for financial actions", () => {
+    const confirm = vi.fn();
+    const cancel = vi.fn();
+    render(
+      <ConfirmDialog
+        title="Confirm investment"
+        description="This costs €5,000.00."
+        confirmLabel="Invest"
+        cancelLabel="Cancel"
+        onConfirm={confirm}
+        onCancel={cancel}
+      />,
+    );
+
+    expect(screen.getByRole("dialog")).toBeVisible();
+    fireEvent.click(screen.getByRole("button", { name: "Invest" }));
+    expect(confirm).toHaveBeenCalledOnce();
+    expect(cancel).not.toHaveBeenCalled();
   });
 
   it("renders loading, empty, success and retryable API states", () => {
@@ -123,8 +157,71 @@ describe("accessible data primitives", () => {
 
   it("formats localized values deterministically", () => {
     expect(formatCurrency(1234, "en-US")).toContain("1,234");
+    expect(formatCents(123456, "en-US")).toContain("1,234.56");
     expect(formatNumber(12.34, "en-US")).toBe("12.3");
     expect(formatDate("2026-01-02T12:00:00Z", "en-US")).toContain("2026");
+  });
+
+  it("validates exchange order and fixed-supply IPO contracts", () => {
+    expect(
+      exchangeOrderSchema.safeParse({
+        listing_id: "11111111-1111-4111-8111-111111111111",
+        side: "buy",
+        order_type: "limit",
+        quantity: 10,
+        limit_price_cents: 200,
+      }).success,
+    ).toBe(true);
+    expect(
+      exchangeOrderSchema.safeParse({
+        listing_id: "11111111-1111-4111-8111-111111111111",
+        side: "buy",
+        order_type: "market",
+        quantity: 10,
+        limit_price_cents: 200,
+      }).success,
+    ).toBe(false);
+    expect(
+      ipoSchema.safeParse({
+        company_id: "11111111-1111-4111-8111-111111111111",
+        symbol: "GRID",
+        total_shares: 1_000,
+        offered_shares: 1_000,
+      }).success,
+    ).toBe(false);
+  });
+
+  it("validates cartel identity, expense and contribution contracts", () => {
+    expect(
+      cartelCreateSchema.safeParse({
+        name: "Rheinbund",
+        tag: "RHB",
+        archetype: "business_consortium",
+        description: "",
+        governance_model: "directorate",
+      }).success,
+    ).toBe(true);
+    expect(
+      cartelCreateSchema.safeParse({
+        name: "Rheinbund",
+        tag: "not valid!",
+        archetype: "business_consortium",
+        description: "",
+        governance_model: "directorate",
+      }).success,
+    ).toBe(false);
+    expect(
+      cartelExpenseSchema.safeParse({
+        amount_cents: 250_001,
+        purpose: "District project",
+      }).success,
+    ).toBe(true);
+    expect(
+      cartelContributionSchema.safeParse({
+        resource_type: "cash",
+        amount_units: 0,
+      }).success,
+    ).toBe(false);
   });
 
   it("renders licensed Germany map layers with non-color equivalents", () => {

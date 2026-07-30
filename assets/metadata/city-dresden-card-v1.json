@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-dresden-card-v1",
+  "manifest_order": 161,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "dresden",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-dresden-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100161,
+  "content_hash": "78d19a909b1f7a95062dbc7917e28906f83f5c740d4822db0ee6fe4800d77d2f",
+  "source_file": "assets/source/cities/city-dresden-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-dresden-card-v1-320.avif",
+      "bytes": 3571,
+      "sha256": "b6405a65a56075ccba6888fa5c1de1d64abe5bec98a9ea9021dda4cbe75c423b"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-card-v1-320.webp",
+      "bytes": 3492,
+      "sha256": "cd9c085adf0899abb2a839583caa11ae44f4bda36110fc24dbe6237ee8205a53"
+    },
+    {
+      "path": "assets/production/avif/city-dresden-card-v1-640.avif",
+      "bytes": 7662,
+      "sha256": "49f278a78c5359c05bc1a44c1f6910b83c7352ac8b7ac3b0eed16f0d5865b4c1"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-card-v1-640.webp",
+      "bytes": 6586,
+      "sha256": "b9cf9d6c4192ae4f93bdb4e01fd3a130f4271b773af6511e4c42056bf9da12e7"
+    },
+    {
+      "path": "assets/production/avif/city-dresden-card-v1-960.avif",
+      "bytes": 13367,
+      "sha256": "4a1133ff4db7716c6eea51501cf2b050a82f65ed3298330ff197a0bf4faa2817"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-card-v1-960.webp",
+      "bytes": 11058,
+      "sha256": "760250442f5ccc55b5ee43e9bd2d0be85077edaa13d4e5d715a801d498c040eb"
+    },
+    {
+      "path": "assets/production/avif/city-dresden-card-v1-1280.avif",
+      "bytes": 18668,
+      "sha256": "b70bb090f2b7eba312e7e8f2f812f259f61861382cc88ed6738f295970a50fb7"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-card-v1-1280.webp",
+      "bytes": 15082,
+      "sha256": "3962ca0f8ed1118999a35b39e5d807e98aeaa3cbb4e2c47af57e9c7aec39dad4"
+    },
+    {
+      "path": "assets/production/avif/city-dresden-card-v1-1920.avif",
+      "bytes": 28365,
+      "sha256": "78befab8d0dd882df469254072ba587e060ea7f95e57b7ce9c2a0390d4aec4ff"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-card-v1-1920.webp",
+      "bytes": 24838,
+      "sha256": "627e1ac2a3b1acf199359b74bf6efd257300ed558e0a5cf99f1b18d474ef629d"
+    },
+    {
+      "path": "assets/production/avif/city-dresden-card-v1-2560.avif",
+      "bytes": 40218,
+      "sha256": "49c0a11a3d2f005518ea133de274945b97c39bb595451444470aa07c882926be"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-card-v1-2560.webp",
+      "bytes": 36652,
+      "sha256": "5ccfff369f39c8d5269c17a12277d8db34537ca8a142521059da8363243c72b2"
+    },
+    {
+      "path": "assets/production/avif/city-dresden-card-v1-3840.avif",
+      "bytes": 64789,
+      "sha256": "a881b97d191124a68743b6c3f14f3c374df403c956a7ca69a8a92e2feaf72d61"
+    },
+    {
+      "path": "assets/production/webp/city-dresden-card-v1-3840.webp",
+      "bytes": 65308,
+      "sha256": "86a3f431282d4eab83f6f9b0be1b4188667ca02db3ee74ea99bf02f14b7bac0e"
+    },
+    {
+      "path": "assets/production/png/city-dresden-card-v1-1280.png",
+      "bytes": 1261767,
+      "sha256": "02c3c83e4581a2d2d113e08ac841a449346d9ad4a5e1bdda0b1ad147f117df33"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-card-v1-320.avif",
+      "bytes": 3571,
+      "sha256": "b6405a65a56075ccba6888fa5c1de1d64abe5bec98a9ea9021dda4cbe75c423b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-card-v1-320.webp",
+      "bytes": 3492,
+      "sha256": "cd9c085adf0899abb2a839583caa11ae44f4bda36110fc24dbe6237ee8205a53"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-card-v1-640.avif",
+      "bytes": 7662,
+      "sha256": "49f278a78c5359c05bc1a44c1f6910b83c7352ac8b7ac3b0eed16f0d5865b4c1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-card-v1-640.webp",
+      "bytes": 6586,
+      "sha256": "b9cf9d6c4192ae4f93bdb4e01fd3a130f4271b773af6511e4c42056bf9da12e7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-card-v1-960.avif",
+      "bytes": 13367,
+      "sha256": "4a1133ff4db7716c6eea51501cf2b050a82f65ed3298330ff197a0bf4faa2817"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-card-v1-960.webp",
+      "bytes": 11058,
+      "sha256": "760250442f5ccc55b5ee43e9bd2d0be85077edaa13d4e5d715a801d498c040eb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-card-v1-1280.avif",
+      "bytes": 18668,
+      "sha256": "b70bb090f2b7eba312e7e8f2f812f259f61861382cc88ed6738f295970a50fb7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-card-v1-1280.webp",
+      "bytes": 15082,
+      "sha256": "3962ca0f8ed1118999a35b39e5d807e98aeaa3cbb4e2c47af57e9c7aec39dad4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-card-v1-1920.avif",
+      "bytes": 28365,
+      "sha256": "78befab8d0dd882df469254072ba587e060ea7f95e57b7ce9c2a0390d4aec4ff"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-card-v1-1920.webp",
+      "bytes": 24838,
+      "sha256": "627e1ac2a3b1acf199359b74bf6efd257300ed558e0a5cf99f1b18d474ef629d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-card-v1-2560.avif",
+      "bytes": 40218,
+      "sha256": "49c0a11a3d2f005518ea133de274945b97c39bb595451444470aa07c882926be"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-card-v1-2560.webp",
+      "bytes": 36652,
+      "sha256": "5ccfff369f39c8d5269c17a12277d8db34537ca8a142521059da8363243c72b2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-card-v1-3840.avif",
+      "bytes": 64789,
+      "sha256": "a881b97d191124a68743b6c3f14f3c374df403c956a7ca69a8a92e2feaf72d61"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-card-v1-3840.webp",
+      "bytes": 65308,
+      "sha256": "86a3f431282d4eab83f6f9b0be1b4188667ca02db3ee74ea99bf02f14b7bac0e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dresden-card-v1-1280.png",
+      "bytes": 1261767,
+      "sha256": "02c3c83e4581a2d2d113e08ac841a449346d9ad4a5e1bdda0b1ad147f117df33"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-dresden-card-v1.webp",
+      "bytes": 3492,
+      "sha256": "cd9c085adf0899abb2a839583caa11ae44f4bda36110fc24dbe6237ee8205a53"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-dresden-card-v1.webp",
+      "bytes": 3492,
+      "sha256": "cd9c085adf0899abb2a839583caa11ae44f4bda36110fc24dbe6237ee8205a53"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.668Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1659164
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:09:41.193Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

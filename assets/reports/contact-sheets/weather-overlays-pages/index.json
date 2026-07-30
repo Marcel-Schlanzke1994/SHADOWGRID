@@ -1,0 +1,41 @@
+{
+  "schema": "shadowgrid/contact-sheet-pages/v1",
+  "batch": "weather-overlays",
+  "generated_at": "2026-07-30T06:20:32.611Z",
+  "asset_count": 20,
+  "page_size": 18,
+  "pages": [
+    {
+      "page": 1,
+      "path": "assets/reports/contact-sheets/weather-overlays-pages/page-001.png",
+      "assets": [
+        "overlay-rain-v1",
+        "overlay-heavy-rain-v1",
+        "overlay-snow-v1",
+        "overlay-fog-v1",
+        "overlay-storm-v1",
+        "overlay-heat-v1",
+        "overlay-cloudy-light-filter-v1",
+        "overlay-economic-boom-v1",
+        "overlay-crisis-v1",
+        "overlay-authority-activity-v1",
+        "overlay-organization-control-v1",
+        "overlay-contested-district-v1",
+        "overlay-blocked-territory-v1",
+        "overlay-dark-glass-v1",
+        "overlay-brushed-metal-v1",
+        "overlay-fine-map-grid-v1",
+        "overlay-document-texture-v1",
+        "overlay-concrete-v1"
+      ]
+    },
+    {
+      "page": 2,
+      "path": "assets/reports/contact-sheets/weather-overlays-pages/page-002.png",
+      "assets": [
+        "overlay-asphalt-v1",
+        "overlay-technical-network-v1"
+      ]
+    }
+  ]
+}

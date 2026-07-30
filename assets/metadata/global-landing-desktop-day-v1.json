@@ -170,6 +170,16 @@
       "path": "apps/web/public/assets/global/global-landing-desktop-day-v1-1280.png",
       "bytes": 1405076,
       "sha256": "39986c137f1d5e5deb320e8d823ba81c6b1c4f31a91030a9cbaa545d779b6ce7"
+    },
+    {
+      "path": "apps/web/public/assets/library/global-landing-desktop-day-v1.webp",
+      "bytes": 5224,
+      "sha256": "2222c49029a16316567d66478edf22e4aa3c6979fcb09f9a58e2e3dfe3b3c247"
+    },
+    {
+      "path": "apps/mobile/assets/library/global-landing-desktop-day-v1.webp",
+      "bytes": 5224,
+      "sha256": "2222c49029a16316567d66478edf22e4aa3c6979fcb09f9a58e2e3dfe3b3c247"
     }
   ],
   "contains_text": false,

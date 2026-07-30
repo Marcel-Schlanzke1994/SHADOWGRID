@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-logistics-corridor-normal-night-v1",
+  "manifest_order": 432,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal-night",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-logistics-corridor-normal-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100432,
+  "content_hash": "8aa249ecc4b0b70de05cd4053cc735e1640796b30b15da02fbea91c5e9799a2b",
+  "source_file": "assets/source/districts/district-logistics-corridor-normal-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-logistics-corridor-normal-night-v1-320.avif",
+      "bytes": 3361,
+      "sha256": "5ffd44cf50fb044711522bc6917d1d6a0eee43e9800f7b947cdb2b0738e51760"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-normal-night-v1-320.webp",
+      "bytes": 3158,
+      "sha256": "e2fd065462614cfbb20a0d0f255786b20547c8b20b46a84964fd61101a4af7fe"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-normal-night-v1-640.avif",
+      "bytes": 7145,
+      "sha256": "b974eaa0c2ffd0520d05ed6fd15132eba8f15f4eef9b7c18dfe081dcb8ee223e"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-normal-night-v1-640.webp",
+      "bytes": 6902,
+      "sha256": "fcc785028ff1fa22db26707e1ff2f2ca64f1ffa5506c6ea985f9228039809624"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-normal-night-v1-960.avif",
+      "bytes": 12117,
+      "sha256": "91a2b56f0f01032e0a1fa390f0276bd1e612eec7753573ffa226417e7df553a5"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-normal-night-v1-960.webp",
+      "bytes": 12764,
+      "sha256": "6227973797b7dd6e62e5019fb37f605befec7a0738e4924091e5c292b829e139"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-normal-night-v1-1280.avif",
+      "bytes": 16706,
+      "sha256": "45948f1ad486230ce15e62eeb6ecea0cf323e7015e45b7edd2580cbf63f19ec3"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-normal-night-v1-1280.webp",
+      "bytes": 16330,
+      "sha256": "17fb1b6765380a736f3150812618b442609cd3325c44fec06255de2d5427f3ce"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-normal-night-v1-1920.avif",
+      "bytes": 25689,
+      "sha256": "999caa00b04116c65313074b595f679ae7b6cb20dfbba7d9b27b6b3fbecb2c87"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-normal-night-v1-1920.webp",
+      "bytes": 25686,
+      "sha256": "91b9d97fb94a6e9c06301ee7ad29fcb9f34268ba1b49cea3c35011acb0026323"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-normal-night-v1-2560.avif",
+      "bytes": 35089,
+      "sha256": "f81d80bc1f29ba73ccb6d34e443208b63fb92fe31c1cfafed3cf758ff26625fe"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-normal-night-v1-2560.webp",
+      "bytes": 34406,
+      "sha256": "034a4b8287753afd703ff46734991722eeb9a93dac8650d579c10215729402c6"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-normal-night-v1-3840.avif",
+      "bytes": 54420,
+      "sha256": "7626fa32de72c57cfcc2160aa79714bc6e6c97745c9d2e1636abce895521878d"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-normal-night-v1-3840.webp",
+      "bytes": 53568,
+      "sha256": "99243a04c4ffe11b8ad129ab9446b7c5e55bcb7b824c8a6e84c713e273a4a547"
+    },
+    {
+      "path": "assets/production/png/district-logistics-corridor-normal-night-v1-1280.png",
+      "bytes": 646820,
+      "sha256": "74ea1e65f3300d4d6b8b2c8dc7eeada43836edf0880508cd4e27482bd9b43fe5"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-logistics-corridor-normal-night-v1.webp",
+      "bytes": 3158,
+      "sha256": "e2fd065462614cfbb20a0d0f255786b20547c8b20b46a84964fd61101a4af7fe"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-logistics-corridor-normal-night-v1.webp",
+      "bytes": 3158,
+      "sha256": "e2fd065462614cfbb20a0d0f255786b20547c8b20b46a84964fd61101a4af7fe"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.164Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1451909
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:42:27.793Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

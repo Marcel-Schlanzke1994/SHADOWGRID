@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-industrial-belt-crisis-night-v1",
+  "manifest_order": 388,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "crisis-night",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-industrial-belt-crisis-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100388,
+  "content_hash": "480f5882535373de67b0ca9dc3dbe0a1a11ed4a3ecedb0b85d698bc2d810013f",
+  "source_file": "assets/source/districts/district-industrial-belt-crisis-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-industrial-belt-crisis-night-v1-320.avif",
+      "bytes": 3862,
+      "sha256": "43d26683dacb440cea4fce08d8eaa1e2f7be8ebdcf891c11ccb4894253c52771"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-crisis-night-v1-320.webp",
+      "bytes": 3600,
+      "sha256": "fe24a09d4f1cc6b203cc5ca63cdfcf7276671b893980c75a5eb1b867b5527b29"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-crisis-night-v1-640.avif",
+      "bytes": 7924,
+      "sha256": "7ba4cc45aa53500d68af620b83556580e5a0117d2b62607b5288b72dfad8d770"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-crisis-night-v1-640.webp",
+      "bytes": 7860,
+      "sha256": "786fd17973194beb9d9fac00b56ecd0fc75638b8218f2c3463ce4e98fe32d432"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-crisis-night-v1-960.avif",
+      "bytes": 13374,
+      "sha256": "9756dd0498afe671bbd4d9f4c73c8b7adc782becd571f5da6ae3d2ad4d758904"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-crisis-night-v1-960.webp",
+      "bytes": 13166,
+      "sha256": "5da54a4c20798113a11909b61df640cc06e9f8dba467aca189673b499e2d53f9"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-crisis-night-v1-1280.avif",
+      "bytes": 18519,
+      "sha256": "a69cd481601506c7841f57b3997cfa8a9cb9b3e1c43d3ed7c820cce20fcf5261"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-crisis-night-v1-1280.webp",
+      "bytes": 17500,
+      "sha256": "2818f4fd0e893c3cfe625333756f8d757522e0e2ee5ee1d47f88d04124ece034"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-crisis-night-v1-1920.avif",
+      "bytes": 28129,
+      "sha256": "1ffc8266ef093253d65a9f4b261c53cc37c9ec398bf2f728c3f0e9f242940509"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-crisis-night-v1-1920.webp",
+      "bytes": 26190,
+      "sha256": "a94cea33099eed20bc714ee3b7f341e22f9e686d175e2a6815e18a9a895863bd"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-crisis-night-v1-2560.avif",
+      "bytes": 37353,
+      "sha256": "581ed434dc0857a74c5ebfa5143d0b5a4f6afdd00d9404bc5cf95357594f4a1c"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-crisis-night-v1-2560.webp",
+      "bytes": 34804,
+      "sha256": "e196c461bb80c8a8ca52ab6c9750d840092ac92ae2335fe0cbc8afebb21cafb0"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-crisis-night-v1-3840.avif",
+      "bytes": 59067,
+      "sha256": "502786bd269017f943394c06cc1839b8414c3dd1d725f69338217e92f2ed7e65"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-crisis-night-v1-3840.webp",
+      "bytes": 55508,
+      "sha256": "674b669cb5f290d34535d47b991bb8c303f48aaf8856cbc93faf64ac2503087d"
+    },
+    {
+      "path": "assets/production/png/district-industrial-belt-crisis-night-v1-1280.png",
+      "bytes": 653267,
+      "sha256": "d6d9b9db534ae2604b9d4995edf6c6f18fbbf246fa35627daf25e51b9a314870"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-industrial-belt-crisis-night-v1.webp",
+      "bytes": 3600,
+      "sha256": "fe24a09d4f1cc6b203cc5ca63cdfcf7276671b893980c75a5eb1b867b5527b29"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-industrial-belt-crisis-night-v1.webp",
+      "bytes": 3600,
+      "sha256": "fe24a09d4f1cc6b203cc5ca63cdfcf7276671b893980c75a5eb1b867b5527b29"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.648Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1439516
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:27:53.113Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

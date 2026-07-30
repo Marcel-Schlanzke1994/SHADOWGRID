@@ -1,0 +1,171 @@
+{
+  "asset_id": "event-financial-audit-v1",
+  "manifest_order": 699,
+  "category": "event",
+  "batch": "world-events",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/event-financial-audit-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100699,
+  "content_hash": "38b6b725952cea629a9f5a601d67098cc28df52e1cee7722b90161a00e949016",
+  "source_file": "assets/source/events/event-financial-audit-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/event-financial-audit-v1-320.avif",
+      "bytes": 2861,
+      "sha256": "e1edc2393cb197ba5bad04ab8f4df433c3d7d9c06ecdf44814b48a08f97bdd66"
+    },
+    {
+      "path": "assets/production/webp/event-financial-audit-v1-320.webp",
+      "bytes": 2704,
+      "sha256": "0a6292f22b48d65fb62960756bccb1a2353aeef1b94af547b85fbf1856f4a6b0"
+    },
+    {
+      "path": "assets/production/avif/event-financial-audit-v1-640.avif",
+      "bytes": 6422,
+      "sha256": "e7e76073fe9f840ee9f921eb35e4e34fa51bd67d91706881629d2741145537ec"
+    },
+    {
+      "path": "assets/production/webp/event-financial-audit-v1-640.webp",
+      "bytes": 5390,
+      "sha256": "fb5134ef6c2f926d05ff7b4f65c81df5ececbb587980c85de61ca6b7101a1a49"
+    },
+    {
+      "path": "assets/production/avif/event-financial-audit-v1-960.avif",
+      "bytes": 10615,
+      "sha256": "be953d416ca2db1efbc9c2732a12a3b1efe5632e2ffb7e3dac8574d4fcb92fa0"
+    },
+    {
+      "path": "assets/production/webp/event-financial-audit-v1-960.webp",
+      "bytes": 9248,
+      "sha256": "5b35cae6cb2e777953ed6280f8862fee751eb49cd9d556bf25d4e9a5f2bb5ab4"
+    },
+    {
+      "path": "assets/production/avif/event-financial-audit-v1-1280.avif",
+      "bytes": 15538,
+      "sha256": "1c51708e229746255db72860e8253829e8745754423d335520352d0a8b0edf68"
+    },
+    {
+      "path": "assets/production/webp/event-financial-audit-v1-1280.webp",
+      "bytes": 12300,
+      "sha256": "70154efb151dfb0bd285de0658965b977111ca8de816528011b76c8ab748b0de"
+    },
+    {
+      "path": "assets/production/avif/event-financial-audit-v1-1920.avif",
+      "bytes": 23532,
+      "sha256": "7a07d04dfe2f49020b3bffa387ba919349c7c044f397b4e27384a5495f45ef52"
+    },
+    {
+      "path": "assets/production/webp/event-financial-audit-v1-1920.webp",
+      "bytes": 19698,
+      "sha256": "9ee1539eedd649fee3b47af67f5ee8435c083bea0abcccc00b4c7392994085f5"
+    },
+    {
+      "path": "assets/production/avif/event-financial-audit-v1-2560.avif",
+      "bytes": 32177,
+      "sha256": "03f99ea93021e127ccbc462f7182d7ec7659b8023039f92d59c28eeee437b164"
+    },
+    {
+      "path": "assets/production/webp/event-financial-audit-v1-2560.webp",
+      "bytes": 27370,
+      "sha256": "15573a7b0c5993032c7c94601860df7a5bd3dfacf5330db72bf607d41abbbf0a"
+    },
+    {
+      "path": "assets/production/avif/event-financial-audit-v1-3840.avif",
+      "bytes": 51164,
+      "sha256": "d35df49d6704f24105e72e75c01f132133fc542aaf794f5b08404041d0c449a9"
+    },
+    {
+      "path": "assets/production/webp/event-financial-audit-v1-3840.webp",
+      "bytes": 47616,
+      "sha256": "8e0b05eee7837c435cfdfd49be2ec21473093ae3193b053a2fa9a497c640044f"
+    },
+    {
+      "path": "assets/production/png/event-financial-audit-v1-1280.png",
+      "bytes": 689486,
+      "sha256": "d18926f9435901649521b7e2204809cbcd88a15f49f251ca7736097db8b9d5b3"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/event-financial-audit-v1.webp",
+      "bytes": 2704,
+      "sha256": "0a6292f22b48d65fb62960756bccb1a2353aeef1b94af547b85fbf1856f4a6b0"
+    },
+    {
+      "path": "apps/mobile/assets/library/event-financial-audit-v1.webp",
+      "bytes": 2704,
+      "sha256": "0a6292f22b48d65fb62960756bccb1a2353aeef1b94af547b85fbf1856f4a6b0"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:10.670Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 88,
+      "light_quality": 91,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Repeated motifs form a coherent event family while color, direction, and state treatment keep event classes distinguishable.",
+      "No missing render, unsafe real-world guidance, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1569294
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:30:19.240Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

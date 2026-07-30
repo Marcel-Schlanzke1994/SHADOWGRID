@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-augsburg-card-v1",
+  "manifest_order": 257,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "augsburg",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-augsburg-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100257,
+  "content_hash": "9985f71c40357ff4fe710675b6766f29386cfe78eef7335f294e7e6c2ee18ab0",
+  "source_file": "assets/source/cities/city-augsburg-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-augsburg-card-v1-320.avif",
+      "bytes": 3458,
+      "sha256": "9e8eec1305ff48920aab69b9d4b7cc953f3715ab9c70e847be26f553500072bb"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-card-v1-320.webp",
+      "bytes": 3298,
+      "sha256": "8f2dad513270e878f8924b1fbf426ec446a6767a4190081f1be82899c9601eb0"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-card-v1-640.avif",
+      "bytes": 7465,
+      "sha256": "99154f03159114b23152cd1049a51cf3ac077d67cc8163e94a8e87aefde8a328"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-card-v1-640.webp",
+      "bytes": 6414,
+      "sha256": "1693c7d188380dc6e857ce8e277a165e0f5c978251cf4e899d0c1f329118a90d"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-card-v1-960.avif",
+      "bytes": 13237,
+      "sha256": "0636db5d6be5d4dcf782e44d1f3b99437f063d1c0b006dfd8dc8d2b2f63b8882"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-card-v1-960.webp",
+      "bytes": 10962,
+      "sha256": "ed92d9b25462e56da19170c30973cc425281d0b7f58cbae683d5b92b1e1b86d6"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-card-v1-1280.avif",
+      "bytes": 18566,
+      "sha256": "477d1641f8976a88dc35fd00186068e271aba06c43158539cf6f2c78bbc81164"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-card-v1-1280.webp",
+      "bytes": 14822,
+      "sha256": "53494ba71f9f3a19abf656aa7de2042d7d90c585ee30b963f1cd9723f6d22c47"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-card-v1-1920.avif",
+      "bytes": 27960,
+      "sha256": "c69489ca2fa76cd4a5f88d046156199023c476ecd71b0146e87aeb31352a9b6b"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-card-v1-1920.webp",
+      "bytes": 24502,
+      "sha256": "8f74d77c70e5b8e9d1faf25d705243b45450efd9a677117844c5f9854409fb33"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-card-v1-2560.avif",
+      "bytes": 39502,
+      "sha256": "967cabc2d2c5558fa327c8b7fd83ab34ad1caad94cb50b840388b38dd51b4d4d"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-card-v1-2560.webp",
+      "bytes": 35908,
+      "sha256": "7d2eb0d7209cea30270e6b393b0ede7ad546d0b80891c4794ada1843c33f7cfe"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-card-v1-3840.avif",
+      "bytes": 63943,
+      "sha256": "dc59b03d21d7a231713b044763831794526f688cd549e8f315eb78a4015179f1"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-card-v1-3840.webp",
+      "bytes": 64550,
+      "sha256": "0db23c4aeb4209f94b3baf37693c0a0720fcde6ba15172b25e7a67e500ad20a3"
+    },
+    {
+      "path": "assets/production/png/city-augsburg-card-v1-1280.png",
+      "bytes": 1239658,
+      "sha256": "a525c99b6d981874a1e689d7761967436e85045ebb4ca81854b02fd4c12e4c21"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-card-v1-320.avif",
+      "bytes": 3458,
+      "sha256": "9e8eec1305ff48920aab69b9d4b7cc953f3715ab9c70e847be26f553500072bb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-card-v1-320.webp",
+      "bytes": 3298,
+      "sha256": "8f2dad513270e878f8924b1fbf426ec446a6767a4190081f1be82899c9601eb0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-card-v1-640.avif",
+      "bytes": 7465,
+      "sha256": "99154f03159114b23152cd1049a51cf3ac077d67cc8163e94a8e87aefde8a328"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-card-v1-640.webp",
+      "bytes": 6414,
+      "sha256": "1693c7d188380dc6e857ce8e277a165e0f5c978251cf4e899d0c1f329118a90d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-card-v1-960.avif",
+      "bytes": 13237,
+      "sha256": "0636db5d6be5d4dcf782e44d1f3b99437f063d1c0b006dfd8dc8d2b2f63b8882"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-card-v1-960.webp",
+      "bytes": 10962,
+      "sha256": "ed92d9b25462e56da19170c30973cc425281d0b7f58cbae683d5b92b1e1b86d6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-card-v1-1280.avif",
+      "bytes": 18566,
+      "sha256": "477d1641f8976a88dc35fd00186068e271aba06c43158539cf6f2c78bbc81164"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-card-v1-1280.webp",
+      "bytes": 14822,
+      "sha256": "53494ba71f9f3a19abf656aa7de2042d7d90c585ee30b963f1cd9723f6d22c47"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-card-v1-1920.avif",
+      "bytes": 27960,
+      "sha256": "c69489ca2fa76cd4a5f88d046156199023c476ecd71b0146e87aeb31352a9b6b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-card-v1-1920.webp",
+      "bytes": 24502,
+      "sha256": "8f74d77c70e5b8e9d1faf25d705243b45450efd9a677117844c5f9854409fb33"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-card-v1-2560.avif",
+      "bytes": 39502,
+      "sha256": "967cabc2d2c5558fa327c8b7fd83ab34ad1caad94cb50b840388b38dd51b4d4d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-card-v1-2560.webp",
+      "bytes": 35908,
+      "sha256": "7d2eb0d7209cea30270e6b393b0ede7ad546d0b80891c4794ada1843c33f7cfe"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-card-v1-3840.avif",
+      "bytes": 63943,
+      "sha256": "dc59b03d21d7a231713b044763831794526f688cd549e8f315eb78a4015179f1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-card-v1-3840.webp",
+      "bytes": 64550,
+      "sha256": "0db23c4aeb4209f94b3baf37693c0a0720fcde6ba15172b25e7a67e500ad20a3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-card-v1-1280.png",
+      "bytes": 1239658,
+      "sha256": "a525c99b6d981874a1e689d7761967436e85045ebb4ca81854b02fd4c12e4c21"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-augsburg-card-v1.webp",
+      "bytes": 3298,
+      "sha256": "8f2dad513270e878f8924b1fbf426ec446a6767a4190081f1be82899c9601eb0"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-augsburg-card-v1.webp",
+      "bytes": 3298,
+      "sha256": "8f2dad513270e878f8924b1fbf426ec446a6767a4190081f1be82899c9601eb0"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.680Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1646745
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:40:45.924Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

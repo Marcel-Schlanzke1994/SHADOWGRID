@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-augsburg-mobile-day-v1",
+  "manifest_order": 255,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "augsburg",
+  "variant": "mobile-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-augsburg-mobile-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100255,
+  "content_hash": "ef9c9c4e1d421b504c93c0b493a9a38a39e1f9755b1091588789097176eb9f4f",
+  "source_file": "assets/source/cities/city-augsburg-mobile-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-augsburg-mobile-day-v1-320.avif",
+      "bytes": 4734,
+      "sha256": "492883a80f009d3df08924908fa77e1516e6d1c0057867d954e92e19c6cac41a"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-mobile-day-v1-320.webp",
+      "bytes": 4240,
+      "sha256": "102c366ebd75268d62e5401e33851f3ec8dd2953496c20ff4a0dca5a2b237a8c"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-mobile-day-v1-640.avif",
+      "bytes": 10007,
+      "sha256": "3d0aca19e381a526688b7143f91eb7c11e96f0b32b5e98bb7744ef0e450ae04d"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-mobile-day-v1-640.webp",
+      "bytes": 8246,
+      "sha256": "2062561ea20e09456aaac2eb13de39dc4d643ae9b43fc51ccbf3e65ca0072437"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-mobile-day-v1-960.avif",
+      "bytes": 17562,
+      "sha256": "a908c9e6d0f16166214ac3df3d810810318d43e7d3b3defb10315119ead7a6ad"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-mobile-day-v1-960.webp",
+      "bytes": 13958,
+      "sha256": "57e7f02f1e983908eb129bc5b3b6ef3d31107549f5bd9e3a8dde547d3ba12a8a"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-mobile-day-v1-1280.avif",
+      "bytes": 23918,
+      "sha256": "066f48edb3a1a0aa9335fd633cdf535403f8fcf44b502e62ff6546375829bb01"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-mobile-day-v1-1280.webp",
+      "bytes": 19828,
+      "sha256": "1efd68094d5d7c6d067354c1e6932793b310722cf9d2dc5a8071e8d48abe1a92"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-mobile-day-v1-1920.avif",
+      "bytes": 37904,
+      "sha256": "04f80aaa82c98abe1d829c50b83e0e655bb0652ea2ebec71ef28a8d671cec231"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-mobile-day-v1-1920.webp",
+      "bytes": 35534,
+      "sha256": "24da5bc8de4a0cb4c8f53ecbc55c705874aa2db3d30fcd0164e6d3ac00d04817"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-mobile-day-v1-2560.avif",
+      "bytes": 55449,
+      "sha256": "d8bfc9eaa3aeb9e7a4ca3731cbd526c69e99566f0400ab3d0d5088741a251ca7"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-mobile-day-v1-2560.webp",
+      "bytes": 55354,
+      "sha256": "84578eca8677b3e18905c4d6180254beb966e5aabdf6f7aff5bc159520d3fb27"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-mobile-day-v1-3840.avif",
+      "bytes": 98822,
+      "sha256": "2764e962e42e13c403fd5adf5c3e0f25a7c9dc070132ed785f2b68870b317a69"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-mobile-day-v1-3840.webp",
+      "bytes": 106466,
+      "sha256": "cc3699031a299fd470730078fe193ddc7b78a616f5e4c1b45238b545fe224346"
+    },
+    {
+      "path": "assets/production/png/city-augsburg-mobile-day-v1-1152.png",
+      "bytes": 1686329,
+      "sha256": "ef9c9c4e1d421b504c93c0b493a9a38a39e1f9755b1091588789097176eb9f4f"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-day-v1-320.avif",
+      "bytes": 4734,
+      "sha256": "492883a80f009d3df08924908fa77e1516e6d1c0057867d954e92e19c6cac41a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-day-v1-320.webp",
+      "bytes": 4240,
+      "sha256": "102c366ebd75268d62e5401e33851f3ec8dd2953496c20ff4a0dca5a2b237a8c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-day-v1-640.avif",
+      "bytes": 10007,
+      "sha256": "3d0aca19e381a526688b7143f91eb7c11e96f0b32b5e98bb7744ef0e450ae04d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-day-v1-640.webp",
+      "bytes": 8246,
+      "sha256": "2062561ea20e09456aaac2eb13de39dc4d643ae9b43fc51ccbf3e65ca0072437"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-day-v1-960.avif",
+      "bytes": 17562,
+      "sha256": "a908c9e6d0f16166214ac3df3d810810318d43e7d3b3defb10315119ead7a6ad"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-day-v1-960.webp",
+      "bytes": 13958,
+      "sha256": "57e7f02f1e983908eb129bc5b3b6ef3d31107549f5bd9e3a8dde547d3ba12a8a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-day-v1-1280.avif",
+      "bytes": 23918,
+      "sha256": "066f48edb3a1a0aa9335fd633cdf535403f8fcf44b502e62ff6546375829bb01"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-day-v1-1280.webp",
+      "bytes": 19828,
+      "sha256": "1efd68094d5d7c6d067354c1e6932793b310722cf9d2dc5a8071e8d48abe1a92"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-day-v1-1920.avif",
+      "bytes": 37904,
+      "sha256": "04f80aaa82c98abe1d829c50b83e0e655bb0652ea2ebec71ef28a8d671cec231"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-day-v1-1920.webp",
+      "bytes": 35534,
+      "sha256": "24da5bc8de4a0cb4c8f53ecbc55c705874aa2db3d30fcd0164e6d3ac00d04817"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-day-v1-2560.avif",
+      "bytes": 55449,
+      "sha256": "d8bfc9eaa3aeb9e7a4ca3731cbd526c69e99566f0400ab3d0d5088741a251ca7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-day-v1-2560.webp",
+      "bytes": 55354,
+      "sha256": "84578eca8677b3e18905c4d6180254beb966e5aabdf6f7aff5bc159520d3fb27"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-day-v1-3840.avif",
+      "bytes": 98822,
+      "sha256": "2764e962e42e13c403fd5adf5c3e0f25a7c9dc070132ed785f2b68870b317a69"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-day-v1-3840.webp",
+      "bytes": 106466,
+      "sha256": "cc3699031a299fd470730078fe193ddc7b78a616f5e4c1b45238b545fe224346"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-day-v1-1152.png",
+      "bytes": 1686329,
+      "sha256": "ef9c9c4e1d421b504c93c0b493a9a38a39e1f9755b1091588789097176eb9f4f"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-augsburg-mobile-day-v1.webp",
+      "bytes": 4240,
+      "sha256": "102c366ebd75268d62e5401e33851f3ec8dd2953496c20ff4a0dca5a2b237a8c"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-augsburg-mobile-day-v1.webp",
+      "bytes": 4240,
+      "sha256": "102c366ebd75268d62e5401e33851f3ec8dd2953496c20ff4a0dca5a2b237a8c"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.657Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1686329
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:39:16.968Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

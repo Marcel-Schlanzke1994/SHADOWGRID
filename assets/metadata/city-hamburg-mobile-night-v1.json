@@ -170,35 +170,49 @@
       "path": "apps/web/public/assets/cities/city-hamburg-mobile-night-v1-1152.png",
       "bytes": 3695637,
       "sha256": "690973008074e291813e8311174b8cacf6d6fa2001862fbc80de5df8b08a3253"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-hamburg-mobile-night-v1.webp",
+      "bytes": 12960,
+      "sha256": "6cd6ad95899cc236d7ed18f8570523aaaf94bb266936cea2e176263f7bb9cdbc"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-hamburg-mobile-night-v1.webp",
+      "bytes": 12960,
+      "sha256": "6cd6ad95899cc236d7ed18f8570523aaaf94bb266936cea2e176263f7bb9cdbc"
     }
   ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,
   "moderation_status": "approved",
-  "quality_score": 98.7,
+  "quality_score": 92.9,
   "quality_status": "approved",
   "review_status": "codex-visual-approved",
   "visual_review": {
-    "realism": 98,
-    "style_consistency": 100,
-    "composition": 100,
-    "material_quality": 98,
-    "lighting_quality": 99,
-    "architecture_plausibility": 97,
-    "ui_suitability": 100,
-    "mobile_suitability": 100,
-    "originality": 95,
-    "safety_compliance": 100,
-    "accepted_prompt": "Create the coordinated 9:16 night counterpart for this accepted fictional Hamburg-inspired SHADOWGRID mobile hero.\n\nPreserve the exact portrait geometry and mobile hierarchy: calm upper 32% sky and status area, layered fictional waterways and brick waterfront city in the middle third, one original diagonal low-profile bridge in the middle-lower frame, contemporary waterfront offices, small unbranded work vessels, and a quieter darker bottom 18% for one primary control. Keep it clearly the same fictional city and do not crop or move the bridge into the upper safe area. Do not reveal or invent any operational port layout.\n\nTransform the lighting to physically plausible northern maritime night: deep anthracite and cool blue-gray rain clouds, restrained warm-gold windows and bridge/quay practical lights, wet masonry and glass reflections, realistic dark water, and readable midtone city structure. Preserve a calm low-detail upper overlay zone and dark lower action zone. Avoid saturated neon, overexposure, emergency lighting, warning-red gameplay cues, black crush, excessive haze, or spectacle.\n\nDo not add the Elbphilharmonie, recognizable Speicherstadt arrangements or viewpoints, St. Michael's Church, Hamburg Rathaus, Köhlbrand Bridge, Landungsbrücken, any exact real landmark silhouette, real shipping terminal, sensitive port infrastructure, real company livery, infrastructure identifier, or known photograph/viewpoint.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, trafficking routes, instructions, fantasy architecture, impossible bridge geometry, excessive neon, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 9:16 night city environment, intended final size 1152×2048, with no border, title, UI, or device mockup.",
-    "reference_images": [
-      "assets/source/cities/city-hamburg-mobile-day-v1.png"
-    ],
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.121Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
     "notes": [
-      "Accepted first portrait night-conversion attempt.",
-      "The upper status area, middle city-and-water decision, diagonal bridge, and darker lower control area remain coordinated with the approved portrait daytime counterpart.",
-      "Warm practical lights and wet reflections preserve depth without saturated neon, emergency cues, or loss of midtone structure.",
-      "No recognizable Hamburg landmark, sensitive port layout, embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
     ]
   },
   "technical_validation": {

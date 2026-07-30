@@ -1,0 +1,171 @@
+{
+  "asset_id": "organization-conflict-aftermath-v1",
+  "manifest_order": 604,
+  "category": "organization-conflict",
+  "batch": "cartel-conflicts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "aftermath",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/organization-conflict-aftermath-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100604,
+  "content_hash": "f90b6b7237c37dbb97148bac777ff3ce9d1e3b8395664df03d31534672908073",
+  "source_file": "assets/source/cartels/organization-conflict-aftermath-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/organization-conflict-aftermath-v1-320.avif",
+      "bytes": 2381,
+      "sha256": "ffb926a83dbe243b9103385b5f349f79b1239b3fd20e28497bcd84e407b8f814"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-aftermath-v1-320.webp",
+      "bytes": 1648,
+      "sha256": "4655e575072b48c7951042ee93cbd7daf05de15f98398ee7c52476f3ffb48224"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-aftermath-v1-640.avif",
+      "bytes": 5830,
+      "sha256": "c46cd89845c86795bb55316cde6b0cb33f19ec3a55962e4f2fdb9fcc823d8dd1"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-aftermath-v1-640.webp",
+      "bytes": 4488,
+      "sha256": "fdf2d3de085cda2bee9e2bd00f75c3485f5862a43a43680a1fcaef354c989d41"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-aftermath-v1-960.avif",
+      "bytes": 11722,
+      "sha256": "92b68687e787aaa5bd7ad431397672b8c706b41b17c7b297a7be48f7b0ab9ef3"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-aftermath-v1-960.webp",
+      "bytes": 7992,
+      "sha256": "1e9872341687cc6a2ab208d88072f6547356ef4d6f60c3f66bb374ba7fa249b6"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-aftermath-v1-1280.avif",
+      "bytes": 16894,
+      "sha256": "aaa013c87c6ec11c434895bb10e1e9da17fe89fd5a6f8c94d4f54891802d2a93"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-aftermath-v1-1280.webp",
+      "bytes": 11526,
+      "sha256": "e57335170fda10fdf935b755fdffcfa5ee7333e0585623a4b61b5cfb26044203"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-aftermath-v1-1920.avif",
+      "bytes": 26353,
+      "sha256": "519c47e43c0a38a734461ef2a802933ed1eac9d83864bb7ae0b66a36d4a11028"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-aftermath-v1-1920.webp",
+      "bytes": 19634,
+      "sha256": "34aea95cf6f54635b095c52c64ac77c6d385c6d11920a3574b1ba7aa7c537b17"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-aftermath-v1-2560.avif",
+      "bytes": 33646,
+      "sha256": "d43d3d173af57a77a76aeaa6b5d467b8a66c2bd21d9521c1aab7c9edceb9fc5a"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-aftermath-v1-2560.webp",
+      "bytes": 26256,
+      "sha256": "33cc49885e313a9ca025b1e601d6c79a12081655cb60b928e9c0767dcda451ae"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-aftermath-v1-3840.avif",
+      "bytes": 52235,
+      "sha256": "73bf93d3419ae5ff88cc3e8dfaa303461a9baed387a49628714139327e8b38d9"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-aftermath-v1-3840.webp",
+      "bytes": 43654,
+      "sha256": "fafc5f8deb4b07d2cea3018d309a801bad360e85efee8ff86a64d3d6e7fc8c48"
+    },
+    {
+      "path": "assets/production/png/organization-conflict-aftermath-v1-1280.png",
+      "bytes": 160201,
+      "sha256": "831096d3bea6b46ba7b3af55e5861c63a1a04d2f87151b5b3016c49ac5e0e600"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/organization-conflict-aftermath-v1.webp",
+      "bytes": 1648,
+      "sha256": "4655e575072b48c7951042ee93cbd7daf05de15f98398ee7c52476f3ffb48224"
+    },
+    {
+      "path": "apps/mobile/assets/library/organization-conflict-aftermath-v1.webp",
+      "bytes": 1648,
+      "sha256": "4655e575072b48c7951042ee93cbd7daf05de15f98398ee7c52476f3ffb48224"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:59.507Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 93,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Conflict phases remain fictional and abstract, with no actionable real-world violence, hacking, or sabotage content.",
+      "No missing render, unsafe instruction, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 201805
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:28:31.962Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-augsburg-desktop-day-v1",
+  "manifest_order": 253,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "augsburg",
+  "variant": "desktop-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-augsburg-desktop-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100253,
+  "content_hash": "837918306efb95e90de5844448c6e510081c386bdcaae37ba64e22556fb806c8",
+  "source_file": "assets/source/cities/city-augsburg-desktop-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-augsburg-desktop-day-v1-320.avif",
+      "bytes": 3012,
+      "sha256": "c81ae256f640741d1ab58e54ccf2ee7a1fac89f0bc5c6d53020edef34a7c88a8"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-desktop-day-v1-320.webp",
+      "bytes": 2916,
+      "sha256": "72c810bedb76b8012359b76e85ff35b4c10223f7aeadc720ea962145ac34fc5e"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-desktop-day-v1-640.avif",
+      "bytes": 6497,
+      "sha256": "27480dbb1b17d4ef17ce3d22136588a2f918d7693562366ee89e57b3ab64db76"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-desktop-day-v1-640.webp",
+      "bytes": 5738,
+      "sha256": "6ae7dc62451d8b912dd6c1f87f9c83f67effdc23c007d00efea0b6327a5bfecd"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-desktop-day-v1-960.avif",
+      "bytes": 11116,
+      "sha256": "cd3413b3333dbc3da4a041649198ea7ed1d73b79251eeebec3830ccbf72bce8c"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-desktop-day-v1-960.webp",
+      "bytes": 9336,
+      "sha256": "9c350c9b871433c8971ba3b36e387bb6231344c5f9ee6a9bd6b1617c548f48fb"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-desktop-day-v1-1280.avif",
+      "bytes": 15841,
+      "sha256": "77e349958ad8f7679ead8fe9691f4d04495928e73590e4955c938bfc07262ce0"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-desktop-day-v1-1280.webp",
+      "bytes": 12346,
+      "sha256": "ede52e5f11423a75f68ac5827a86337887cfd2f6f7b455bddff1f3649ef6721d"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-desktop-day-v1-1920.avif",
+      "bytes": 23456,
+      "sha256": "1aec014b14b8736fd3127efc7fec4f11b960f0b83d561ece0b677c0c746b15f5"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-desktop-day-v1-1920.webp",
+      "bytes": 18854,
+      "sha256": "55b22bbd3ed260d0285c0ecf3f16d55b007a1cdcde1b618b5d78a84441c286fc"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-desktop-day-v1-2560.avif",
+      "bytes": 31908,
+      "sha256": "0a428205e1929407d70be088970dcd2509e91a815403ac3a592446793a336806"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-desktop-day-v1-2560.webp",
+      "bytes": 26278,
+      "sha256": "70aebbdc5c4c3f920a6acc1395be9283cb28acef81a14cbcbb28dfd0a9da4ac3"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-desktop-day-v1-3840.avif",
+      "bytes": 50451,
+      "sha256": "d6fad0c89c1d6533999a62cd7085d0d014d99b94ad4a8de15a3976fc65fcabab"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-desktop-day-v1-3840.webp",
+      "bytes": 45362,
+      "sha256": "39293f1065defbd381c16691530327a45607054884c56940a19dfdc09746a173"
+    },
+    {
+      "path": "assets/production/png/city-augsburg-desktop-day-v1-1280.png",
+      "bytes": 725175,
+      "sha256": "df53b25ae3b32e81aab8734f9cbaf6f27db30e770ec33ad11e1ffa851799361d"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-desktop-day-v1-320.avif",
+      "bytes": 3012,
+      "sha256": "c81ae256f640741d1ab58e54ccf2ee7a1fac89f0bc5c6d53020edef34a7c88a8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-desktop-day-v1-320.webp",
+      "bytes": 2916,
+      "sha256": "72c810bedb76b8012359b76e85ff35b4c10223f7aeadc720ea962145ac34fc5e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-desktop-day-v1-640.avif",
+      "bytes": 6497,
+      "sha256": "27480dbb1b17d4ef17ce3d22136588a2f918d7693562366ee89e57b3ab64db76"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-desktop-day-v1-640.webp",
+      "bytes": 5738,
+      "sha256": "6ae7dc62451d8b912dd6c1f87f9c83f67effdc23c007d00efea0b6327a5bfecd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-desktop-day-v1-960.avif",
+      "bytes": 11116,
+      "sha256": "cd3413b3333dbc3da4a041649198ea7ed1d73b79251eeebec3830ccbf72bce8c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-desktop-day-v1-960.webp",
+      "bytes": 9336,
+      "sha256": "9c350c9b871433c8971ba3b36e387bb6231344c5f9ee6a9bd6b1617c548f48fb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-desktop-day-v1-1280.avif",
+      "bytes": 15841,
+      "sha256": "77e349958ad8f7679ead8fe9691f4d04495928e73590e4955c938bfc07262ce0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-desktop-day-v1-1280.webp",
+      "bytes": 12346,
+      "sha256": "ede52e5f11423a75f68ac5827a86337887cfd2f6f7b455bddff1f3649ef6721d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-desktop-day-v1-1920.avif",
+      "bytes": 23456,
+      "sha256": "1aec014b14b8736fd3127efc7fec4f11b960f0b83d561ece0b677c0c746b15f5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-desktop-day-v1-1920.webp",
+      "bytes": 18854,
+      "sha256": "55b22bbd3ed260d0285c0ecf3f16d55b007a1cdcde1b618b5d78a84441c286fc"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-desktop-day-v1-2560.avif",
+      "bytes": 31908,
+      "sha256": "0a428205e1929407d70be088970dcd2509e91a815403ac3a592446793a336806"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-desktop-day-v1-2560.webp",
+      "bytes": 26278,
+      "sha256": "70aebbdc5c4c3f920a6acc1395be9283cb28acef81a14cbcbb28dfd0a9da4ac3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-desktop-day-v1-3840.avif",
+      "bytes": 50451,
+      "sha256": "d6fad0c89c1d6533999a62cd7085d0d014d99b94ad4a8de15a3976fc65fcabab"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-desktop-day-v1-3840.webp",
+      "bytes": 45362,
+      "sha256": "39293f1065defbd381c16691530327a45607054884c56940a19dfdc09746a173"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-desktop-day-v1-1280.png",
+      "bytes": 725175,
+      "sha256": "df53b25ae3b32e81aab8734f9cbaf6f27db30e770ec33ad11e1ffa851799361d"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-augsburg-desktop-day-v1.webp",
+      "bytes": 2916,
+      "sha256": "72c810bedb76b8012359b76e85ff35b4c10223f7aeadc720ea962145ac34fc5e"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-augsburg-desktop-day-v1.webp",
+      "bytes": 2916,
+      "sha256": "72c810bedb76b8012359b76e85ff35b4c10223f7aeadc720ea962145ac34fc5e"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.634Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1626657
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:37:43.799Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-technology-company-exterior-level-2-v1",
+  "manifest_order": 488,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "exterior-level-2",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-technology-company-exterior-level-2-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100488,
+  "content_hash": "821d6e04e2db4b8b5a1c4a46c9cc4b3582e2cc352506d4e554c584478cc444db",
+  "source_file": "assets/source/businesses/business-technology-company-exterior-level-2-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-technology-company-exterior-level-2-v1-320.avif",
+      "bytes": 3108,
+      "sha256": "b6991a42d30346d129cfb511f2fa4f311c339740237efeffdac305ae3706b4a9"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-exterior-level-2-v1-320.webp",
+      "bytes": 2964,
+      "sha256": "d223eafb8b5a80af78d11bf8f02a31d7bb0d66c6e2ba02f211f5b663591b9064"
+    },
+    {
+      "path": "assets/production/avif/business-technology-company-exterior-level-2-v1-640.avif",
+      "bytes": 7085,
+      "sha256": "564c5f354cfff3e92f0023009cddf0c4ca71d6ef34885da35053fc8e8e493acb"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-exterior-level-2-v1-640.webp",
+      "bytes": 6176,
+      "sha256": "ac4d7e312c55656a6285397158aeb42a7748edfb60ddee454d5fed15e3204acb"
+    },
+    {
+      "path": "assets/production/avif/business-technology-company-exterior-level-2-v1-960.avif",
+      "bytes": 11463,
+      "sha256": "b118dd590f3732cf552d01dd3295f38ef0c11fc75f5ceef90e387fc0ab3fea8d"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-exterior-level-2-v1-960.webp",
+      "bytes": 10082,
+      "sha256": "232d24fcddea79993eeb32abdb854a5b70433965f38cf05fada3b064a0b7e867"
+    },
+    {
+      "path": "assets/production/avif/business-technology-company-exterior-level-2-v1-1280.avif",
+      "bytes": 16251,
+      "sha256": "fc84b058e67e882a3b44bc13d1d4ee836254c74791788cd8a443c99ef0c079f4"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-exterior-level-2-v1-1280.webp",
+      "bytes": 13282,
+      "sha256": "077042e50a5066f6648b5829fa421d5f3a5bf931c150107b446b4f3ed46d66e0"
+    },
+    {
+      "path": "assets/production/avif/business-technology-company-exterior-level-2-v1-1920.avif",
+      "bytes": 24435,
+      "sha256": "36b32f77b72492e17955beb8979cf687f2b1fa8014d9fcfabaf25b0756ab8610"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-exterior-level-2-v1-1920.webp",
+      "bytes": 20942,
+      "sha256": "189152570004886fb5ac92adb3d674ff728eef9e7e14f6f94a9863e68de881d5"
+    },
+    {
+      "path": "assets/production/avif/business-technology-company-exterior-level-2-v1-2560.avif",
+      "bytes": 32736,
+      "sha256": "9fb6594a17e180996a31c7b97bf20134bab45f4552f119188fbc33aab4c1cf7b"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-exterior-level-2-v1-2560.webp",
+      "bytes": 28748,
+      "sha256": "bc14403c0f8a8e2a9cd3b9ba880239dddfb73aafff6933e1b46d457445666bff"
+    },
+    {
+      "path": "assets/production/avif/business-technology-company-exterior-level-2-v1-3840.avif",
+      "bytes": 52123,
+      "sha256": "ecbcab98b13a3201eba402de2ce7ba840225217cc026b9189d09f9a8c711437b"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-exterior-level-2-v1-3840.webp",
+      "bytes": 48804,
+      "sha256": "13900195cca3ac088a32a15fdf31a49725887669b8c5d2b8cc0224ccc0c824b3"
+    },
+    {
+      "path": "assets/production/png/business-technology-company-exterior-level-2-v1-1280.png",
+      "bytes": 650009,
+      "sha256": "d7ac4171a6914d089722083e38d23d5848227aaecc010710bd037ea370a7f806"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-technology-company-exterior-level-2-v1.webp",
+      "bytes": 2964,
+      "sha256": "d223eafb8b5a80af78d11bf8f02a31d7bb0d66c6e2ba02f211f5b663591b9064"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-technology-company-exterior-level-2-v1.webp",
+      "bytes": 2964,
+      "sha256": "d223eafb8b5a80af78d11bf8f02a31d7bb0d66c6e2ba02f211f5b663591b9064"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.582Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1473932
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:59:14.385Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

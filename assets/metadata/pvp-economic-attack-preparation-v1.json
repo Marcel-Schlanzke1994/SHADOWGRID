@@ -1,0 +1,171 @@
+{
+  "asset_id": "pvp-economic-attack-preparation-v1",
+  "manifest_order": 583,
+  "category": "pvp",
+  "batch": "pvp",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "preparation",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/pvp-economic-attack-preparation-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100583,
+  "content_hash": "afca60e2c287fb42cdcc02cf0120ef74b554c14cf85802dc5adbd48fd7323289",
+  "source_file": "assets/source/pvp/pvp-economic-attack-preparation-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/pvp-economic-attack-preparation-v1-320.avif",
+      "bytes": 2646,
+      "sha256": "83ff2108c462312eb677313dac45392569551d88dbb0f39689f2219cf154bde8"
+    },
+    {
+      "path": "assets/production/webp/pvp-economic-attack-preparation-v1-320.webp",
+      "bytes": 1818,
+      "sha256": "7e8aa951703416899aee83adf509b82997651dde29d6b9dd8219ac6908e0dfd4"
+    },
+    {
+      "path": "assets/production/avif/pvp-economic-attack-preparation-v1-640.avif",
+      "bytes": 6677,
+      "sha256": "a00dc5667a2f52bb7f080f75e20d2cbeb8f67d2aded0ea2b5a1d1280af27248e"
+    },
+    {
+      "path": "assets/production/webp/pvp-economic-attack-preparation-v1-640.webp",
+      "bytes": 5216,
+      "sha256": "f363b32c0512007f1b66afade22394416a6d94df189a59c4f2c21e344a432ce0"
+    },
+    {
+      "path": "assets/production/avif/pvp-economic-attack-preparation-v1-960.avif",
+      "bytes": 13496,
+      "sha256": "89c081730aac64def0f1dd1ea1e22a286e764953bb8ffd815c78392e7155661a"
+    },
+    {
+      "path": "assets/production/webp/pvp-economic-attack-preparation-v1-960.webp",
+      "bytes": 10366,
+      "sha256": "ea0492a2d7de41e2c62c5d23efc6dfeb4fadc82b2e492df714c2daef9d48ba58"
+    },
+    {
+      "path": "assets/production/avif/pvp-economic-attack-preparation-v1-1280.avif",
+      "bytes": 19929,
+      "sha256": "01f2eb1a900300da67c441147139113ca3342abc5e907696f74579ac16db30f2"
+    },
+    {
+      "path": "assets/production/webp/pvp-economic-attack-preparation-v1-1280.webp",
+      "bytes": 15018,
+      "sha256": "20542a8565fa67f52553f8fc14f81d8d198c97b4627c2aab001fd71cebf6b9bd"
+    },
+    {
+      "path": "assets/production/avif/pvp-economic-attack-preparation-v1-1920.avif",
+      "bytes": 31244,
+      "sha256": "3a9210b862ecddc8935e7e48576f13ebfa801e7a8eafc5b6a0b6c2ba8c9841a7"
+    },
+    {
+      "path": "assets/production/webp/pvp-economic-attack-preparation-v1-1920.webp",
+      "bytes": 25194,
+      "sha256": "c1b5a9b468e9aa12c2953128ea04ec379c1629c8540a9ed546264efa34cbf288"
+    },
+    {
+      "path": "assets/production/avif/pvp-economic-attack-preparation-v1-2560.avif",
+      "bytes": 41206,
+      "sha256": "1f1704e98448b39c91c9b4fe6c1d1b635101191809b2cf608f4363307acd19a0"
+    },
+    {
+      "path": "assets/production/webp/pvp-economic-attack-preparation-v1-2560.webp",
+      "bytes": 33370,
+      "sha256": "a0f05b17445f3c75498b1633b79ff65396af08815bfcae73adbde2ee366c8fcd"
+    },
+    {
+      "path": "assets/production/avif/pvp-economic-attack-preparation-v1-3840.avif",
+      "bytes": 63568,
+      "sha256": "0b21e27c72a29ed5495bad13e6b89eb964adc472e038609fef340df8f0665c65"
+    },
+    {
+      "path": "assets/production/webp/pvp-economic-attack-preparation-v1-3840.webp",
+      "bytes": 53500,
+      "sha256": "94cb753a8329429de80124a4e311d2882df2ccd0518ce7676c56e9e30fddd2fa"
+    },
+    {
+      "path": "assets/production/png/pvp-economic-attack-preparation-v1-1280.png",
+      "bytes": 184991,
+      "sha256": "4b38a9baa2a206778a7b6ba4b56cc1229251680f596a8f72c7a2bf3bc4ec2388"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/pvp-economic-attack-preparation-v1.webp",
+      "bytes": 1818,
+      "sha256": "7e8aa951703416899aee83adf509b82997651dde29d6b9dd8219ac6908e0dfd4"
+    },
+    {
+      "path": "apps/mobile/assets/library/pvp-economic-attack-preparation-v1.webp",
+      "bytes": 1818,
+      "sha256": "7e8aa951703416899aee83adf509b82997651dde29d6b9dd8219ac6908e0dfd4"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:48.834Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 93,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Preparation, success, and failure remain abstract strategic game states without actionable real-world attack or sabotage detail.",
+      "No missing render, unsafe instruction, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 227215
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:25:38.484Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

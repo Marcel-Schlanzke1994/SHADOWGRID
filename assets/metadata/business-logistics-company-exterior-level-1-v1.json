@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-logistics-company-exterior-level-1-v1",
+  "manifest_order": 481,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "exterior-level-1",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-logistics-company-exterior-level-1-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100481,
+  "content_hash": "a9f5f485d8aa6fbc4b4d2873913d52000d5ebb70267ef351d7bafc8a324a06f7",
+  "source_file": "assets/source/businesses/business-logistics-company-exterior-level-1-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-logistics-company-exterior-level-1-v1-320.avif",
+      "bytes": 3030,
+      "sha256": "687158a037e38d9aed86f07ab363f7fa64e8c1d32a57d3e35b157f9eb3f59018"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-exterior-level-1-v1-320.webp",
+      "bytes": 2526,
+      "sha256": "0c47a4d7258c2fcd3dbab8f69e5185c913384c61f919339b02f245f8b6fb9b45"
+    },
+    {
+      "path": "assets/production/avif/business-logistics-company-exterior-level-1-v1-640.avif",
+      "bytes": 6260,
+      "sha256": "8fb22d2e43563fe8e5478b07306c03795ab56cf86f80c330815cdb6f5f53718e"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-exterior-level-1-v1-640.webp",
+      "bytes": 5304,
+      "sha256": "0d900cee7e52615d53c94b0f4f7a9536e96a00daea6bbd5cc41473a01da80165"
+    },
+    {
+      "path": "assets/production/avif/business-logistics-company-exterior-level-1-v1-960.avif",
+      "bytes": 10107,
+      "sha256": "a6ea3db57eee4bc1b81fd30a6144c7fd8fd0cb4c6d2c5dedc47385033885dc3a"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-exterior-level-1-v1-960.webp",
+      "bytes": 9112,
+      "sha256": "4e05da109f7af50fe66d8576fe3c9c932f054872d2050fb99ba1a38687e30c38"
+    },
+    {
+      "path": "assets/production/avif/business-logistics-company-exterior-level-1-v1-1280.avif",
+      "bytes": 14426,
+      "sha256": "32e86b106dc2040d8dd52b2d741668a5010e896083d0470a8aadbc8197e76ff8"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-exterior-level-1-v1-1280.webp",
+      "bytes": 11828,
+      "sha256": "05da9df241aed1c7268c59e55c795f8f68445ce1ff598406c02ca8ab28beb426"
+    },
+    {
+      "path": "assets/production/avif/business-logistics-company-exterior-level-1-v1-1920.avif",
+      "bytes": 21732,
+      "sha256": "14817f7e1e65576e78c0b6ea3b4f49427aa95d46a0ad3d2ce2e16697ae1a3c02"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-exterior-level-1-v1-1920.webp",
+      "bytes": 19240,
+      "sha256": "b1865c9308397685d14bf054e72f36d1f51c9101e28af7391972216fa7e60b99"
+    },
+    {
+      "path": "assets/production/avif/business-logistics-company-exterior-level-1-v1-2560.avif",
+      "bytes": 29046,
+      "sha256": "217627c7d1e459ae64c8b81d1be410fc52e1d2125df3e5079e2f91be8fb2326e"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-exterior-level-1-v1-2560.webp",
+      "bytes": 26330,
+      "sha256": "542126e427cd7ea22b1db5aa917025cac8002c7c0b33f432387552af92a9f0ca"
+    },
+    {
+      "path": "assets/production/avif/business-logistics-company-exterior-level-1-v1-3840.avif",
+      "bytes": 46920,
+      "sha256": "d28673badf84d0efd4e16688d245045f15c911d5c944ea3e4ca12125c472d000"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-exterior-level-1-v1-3840.webp",
+      "bytes": 44604,
+      "sha256": "d327246c40328a43b04adb3b0ee6b82cf501ba70484a546247362ee7c2fd1a27"
+    },
+    {
+      "path": "assets/production/png/business-logistics-company-exterior-level-1-v1-1280.png",
+      "bytes": 628978,
+      "sha256": "4cd62b91dda24050331fdccefbde80d01b352e80d117033a9a5c5ddab302c174"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-logistics-company-exterior-level-1-v1.webp",
+      "bytes": 2526,
+      "sha256": "0c47a4d7258c2fcd3dbab8f69e5185c913384c61f919339b02f245f8b6fb9b45"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-logistics-company-exterior-level-1-v1.webp",
+      "bytes": 2526,
+      "sha256": "0c47a4d7258c2fcd3dbab8f69e5185c913384c61f919339b02f245f8b6fb9b45"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.502Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1452031
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:57:20.688Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

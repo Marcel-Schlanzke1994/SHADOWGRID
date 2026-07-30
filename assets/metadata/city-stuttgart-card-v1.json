@@ -170,35 +170,49 @@
       "path": "apps/web/public/assets/cities/city-stuttgart-card-v1-1280.png",
       "bytes": 3103894,
       "sha256": "1a78366e8793d92a4e68eacc7470403ec0ffbbf8ea898039049e0c0742c1ebe3"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-stuttgart-card-v1.webp",
+      "bytes": 11924,
+      "sha256": "bd71ccc9d1fd589e87f39e7aba57a84dba2f9f7b345c1119d5d31e86ce73718e"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-stuttgart-card-v1.webp",
+      "bytes": 11924,
+      "sha256": "bd71ccc9d1fd589e87f39e7aba57a84dba2f9f7b345c1119d5d31e86ce73718e"
     }
   ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,
   "moderation_status": "approved",
-  "quality_score": 99.3,
+  "quality_score": 92.9,
   "quality_status": "approved",
   "review_status": "codex-visual-approved",
   "visual_review": {
-    "realism": 99,
-    "style_consistency": 100,
-    "composition": 100,
-    "material_quality": 99,
-    "lighting_quality": 99,
-    "architecture_plausibility": 99,
-    "ui_suitability": 100,
-    "mobile_suitability": 100,
-    "originality": 97,
-    "safety_compliance": 100,
-    "accepted_prompt": "Create one separately composed square 1:1 city-card backing plate for the same accepted fictional Stuttgart-inspired SHADOWGRID basin-engineering-metropolis in the reference.\n\nOutput composition: exact 1:1 square, intended final size 1536×1536. Reconstruct the scene for a compact selection card rather than mechanically cropping the desktop image. Preserve the fictional identity through a broad green urban basin, continuous wooded slopes, layered flat-roofed hillside neighborhoods, refined pale-stone and restrained glass research/services buildings, a small original linear rainwater garden, planted terraces, mature deciduous trees, and precise high-quality public space. All streets, paths, water-management features, buildings, campuses, corporate, rail, industrial, factory, and civic layouts must remain fictional and non-operational.\n\nCard hierarchy: place one clean recognizable cluster of the pale research/services district, linear rainwater garden, planted terraces, and layered wooded hillside neighborhood in the upper-middle area. Preserve a continuous neutral ridge without any isolated tower, spire, dome, or landmark. Keep the entire bottom 24% as uninterrupted calm dark low-detail wet stone terrace and deep shadowed foliage for external localized title, badges, and one action. Do not place any rainwater channel, building, vehicle, rail, sign, lamp cluster, bright reflection, detailed path, railing, object, bench, or bright leaf edge inside that lower 24% safe band. Keep important architecture away from all outer 8% edges. No focal people or crowds.\n\nLighting and style: cool overcast post-rain daylight with restrained cloud breaks, neutral blue-gray atmosphere, subtle warm-gold stone, wood, metal, and window highlights, realistic wet paving, pale stone, concrete, brushed steel, dark glass, planted roofs, trees, and shallow-water reflections, premium contemporary architectural photography, realistic lens and depth, and a restrained corporate-thriller mood. Keep the lower terrace/foliage label band dark and visually quiet.\n\nDo not include or imitate the Stuttgart Fernsehturm, Schlossplatz, Neues Schloss, Altes Schloss, Stuttgart Hauptbahnhof or its tower, Königstraße, Staatsgalerie, Wilhelma, Mercedes-Benz Museum, Porsche Museum, churches, cathedral spires, monuments, civic towers, antenna landmarks, Mercedes or Porsche logos or products, recognizable automobile plants, real rail corridors, known valley-road arrangements, Cannstatter Wasen, named vineyards, exact hillside neighborhoods, government buildings, corporate campuses, or any known photograph or viewpoint. Do not show an identifiable real manufacturer, research institution, authority, transit operator, industrial process, factory interior, test track, logistics route, or operational transport plan.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, criminal symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, factory procedures, vehicle schematics, fantasy architecture, impossible slopes or structures, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 1:1 daytime basin-engineering-metropolis card backing plate with the full lower 24% preserved as calm dark terrace and foliage, and no border, title, UI, or device mockup.",
-    "reference_images": [
-      "assets/source/cities/city-stuttgart-desktop-day-v1.png"
-    ],
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.387Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
     "notes": [
-      "Accepted first square recomposition attempt.",
-      "The card preserves the fictional green-basin, wooded-slope, research/services, rainwater-garden, and planted-terrace identity as a compact original composition.",
-      "The complete lower 24 percent remains uninterrupted calm dark low-detail wet terrace and shadowed foliage for external localized labels, badges, and one action.",
-      "No real automaker, product, campus, factory, known Stuttgart landmark, tower, spire, authority, operational layout, text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or wrongdoing is present."
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
     ]
   },
   "technical_validation": {

@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-technology-company-management-interior-v1",
+  "manifest_order": 490,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "management-interior",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-technology-company-management-interior-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100490,
+  "content_hash": "514c7dff1999dd82b1fa71d275a83e8053fd845e3c69cf7752d4f4bd9286eb2c",
+  "source_file": "assets/source/businesses/business-technology-company-management-interior-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-technology-company-management-interior-v1-320.avif",
+      "bytes": 2844,
+      "sha256": "7c9adc7bb45c9c8c4982f06a982916d7e16337cb66cc3a429118f95007804958"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-management-interior-v1-320.webp",
+      "bytes": 2472,
+      "sha256": "6c05e40743074bdad0a4438ed37079923bddf50bcf57cebd456dd623108dc57e"
+    },
+    {
+      "path": "assets/production/avif/business-technology-company-management-interior-v1-640.avif",
+      "bytes": 6456,
+      "sha256": "1ac946cfc8c583c3aa5c1021a162ea969005d0c4d32f9b0d791fc28335392ac8"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-management-interior-v1-640.webp",
+      "bytes": 5264,
+      "sha256": "c1c44112dbd8f3e06a54a110a4a583fa9d3b286f69a7c62cf36719e2819adccb"
+    },
+    {
+      "path": "assets/production/avif/business-technology-company-management-interior-v1-960.avif",
+      "bytes": 10600,
+      "sha256": "196f37b1c9bc952bf0fc4d7252169182952bb46e872d84770c3a8a5d215dc773"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-management-interior-v1-960.webp",
+      "bytes": 8852,
+      "sha256": "c800a26ae3a545bdbcebc70493d47cdbe03edaa70e40c9b3c7e84bb1a35ef657"
+    },
+    {
+      "path": "assets/production/avif/business-technology-company-management-interior-v1-1280.avif",
+      "bytes": 14689,
+      "sha256": "f6f9b601dd25b86ff21d4568deb831296795038337dd29d710ff2adb1da395ff"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-management-interior-v1-1280.webp",
+      "bytes": 11814,
+      "sha256": "ce87cce4fbae0c28f1e7866234cd38d7e87ab4fd719213ef03b343368bbf952a"
+    },
+    {
+      "path": "assets/production/avif/business-technology-company-management-interior-v1-1920.avif",
+      "bytes": 22232,
+      "sha256": "0f77695cf4cbcc00f0d7cddc91a01461b1f171cd874555323c8663f3b036daaf"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-management-interior-v1-1920.webp",
+      "bytes": 19200,
+      "sha256": "c7f94b571623b5a4a8a777f076c550c849817f69cf43111a8478678a80d903a5"
+    },
+    {
+      "path": "assets/production/avif/business-technology-company-management-interior-v1-2560.avif",
+      "bytes": 30075,
+      "sha256": "b8cc75499102360add182429fb46be5b71b600fcba2eb4fc727187e86ceadfae"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-management-interior-v1-2560.webp",
+      "bytes": 26080,
+      "sha256": "af2e507b21cc8a77d1754bd9abd3e18b925e88348285a243c9f61c628a085dbf"
+    },
+    {
+      "path": "assets/production/avif/business-technology-company-management-interior-v1-3840.avif",
+      "bytes": 48793,
+      "sha256": "3a246c717e7ae30950930f6c81056cd2bb71e10dc012b955afc6b75e237bb860"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-management-interior-v1-3840.webp",
+      "bytes": 44788,
+      "sha256": "f165130ee038ad1ad761de62437dbdf30b39f2b2bcb2d5254ce28649309d288f"
+    },
+    {
+      "path": "assets/production/png/business-technology-company-management-interior-v1-1280.png",
+      "bytes": 631247,
+      "sha256": "cce83ed9268b7b8ae552ec03acdcd1880543309792c7bf2f160258ce03aa6291"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-technology-company-management-interior-v1.webp",
+      "bytes": 2472,
+      "sha256": "6c05e40743074bdad0a4438ed37079923bddf50bcf57cebd456dd623108dc57e"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-technology-company-management-interior-v1.webp",
+      "bytes": 2472,
+      "sha256": "6c05e40743074bdad0a4438ed37079923bddf50bcf57cebd456dd623108dc57e"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.605Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1450109
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:59:47.397Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

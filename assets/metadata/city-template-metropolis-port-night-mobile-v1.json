@@ -1,0 +1,171 @@
+{
+  "asset_id": "city-template-metropolis-port-night-mobile-v1",
+  "manifest_order": 320,
+  "category": "city-template",
+  "batch": "procedural-city-templates",
+  "city": null,
+  "variant": "night-mobile",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-template-metropolis-port-night-mobile-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100320,
+  "content_hash": "afa79b1296497535a459d39563f3c394e5341d2a3a8f4beeabce6ea710185245",
+  "source_file": "assets/source/global/city-template-metropolis-port-night-mobile-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-template-metropolis-port-night-mobile-v1-320.avif",
+      "bytes": 5805,
+      "sha256": "c76629b85f841e1ef4d3eea28d2d86d57eab4f2c4e136f505777c0c555abbc54"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-port-night-mobile-v1-320.webp",
+      "bytes": 6174,
+      "sha256": "00faba076b2fbb0d0652bf33d7a957ab256275838dab98a2ffb1b9e1ef49b83a"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-port-night-mobile-v1-640.avif",
+      "bytes": 11580,
+      "sha256": "6674f0a1f0c04a3594c95f4b3e05b18d226eb77037c883967ddef15382ceaf5c"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-port-night-mobile-v1-640.webp",
+      "bytes": 12054,
+      "sha256": "96dadede16459be8bd00c6753f9087bd7d379848d8690790e9aaf99a1f350e84"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-port-night-mobile-v1-960.avif",
+      "bytes": 21043,
+      "sha256": "63c045f8d08dfe4fba2f90dd89d5743aa9a3d61086f0657ee6317d9cd3925953"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-port-night-mobile-v1-960.webp",
+      "bytes": 19352,
+      "sha256": "13c5ee5cab902718800c87faf4f679bbb56f6c45b8c04d639e5120b3c3e133b7"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-port-night-mobile-v1-1280.avif",
+      "bytes": 29454,
+      "sha256": "cff2fa4742f2d076b7cc6dda4a4909ce19bfdb0822fc8240e2f61132ee6b96a8"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-port-night-mobile-v1-1280.webp",
+      "bytes": 26178,
+      "sha256": "0b78b2de67a2f0f276b24e156facc9d857a4a6aaa30da1ece74fdfc5a1bb7c33"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-port-night-mobile-v1-1920.avif",
+      "bytes": 46969,
+      "sha256": "e0ff811f0fc3288d63b50508fa27f5b43984d12a8c6d169525daa59ac7e884ce"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-port-night-mobile-v1-1920.webp",
+      "bytes": 42560,
+      "sha256": "9bd3839fe9310ea969d8c6cba0126c14a9d958b711d0132268f7fe810a230b82"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-port-night-mobile-v1-2560.avif",
+      "bytes": 63912,
+      "sha256": "1cee97e388ca9297e1fecdc55c839e53ee27d90833df0260bf6d70c9988404e2"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-port-night-mobile-v1-2560.webp",
+      "bytes": 61890,
+      "sha256": "56412bbd987daf297d28ca179daef0cb4024eb52d090abea66816686996a2281"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-port-night-mobile-v1-3840.avif",
+      "bytes": 111980,
+      "sha256": "1639f964b5550c5ac95f036e5a6440c43f9cfb9940201845ef24932119c6d276"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-port-night-mobile-v1-3840.webp",
+      "bytes": 115082,
+      "sha256": "afa1f7ee2db239f7fe6fbbaf33edea1d85eb3f7ad41e88b6740894b81084eece"
+    },
+    {
+      "path": "assets/production/png/city-template-metropolis-port-night-mobile-v1-1152.png",
+      "bytes": 1711789,
+      "sha256": "afa79b1296497535a459d39563f3c394e5341d2a3a8f4beeabce6ea710185245"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/city-template-metropolis-port-night-mobile-v1.webp",
+      "bytes": 6174,
+      "sha256": "00faba076b2fbb0d0652bf33d7a957ab256275838dab98a2ffb1b9e1ef49b83a"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-template-metropolis-port-night-mobile-v1.webp",
+      "bytes": 6174,
+      "sha256": "00faba076b2fbb0d0652bf33d7a957ab256275838dab98a2ffb1b9e1ef49b83a"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 91.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:55.034Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 92,
+      "material_quality": 87,
+      "light_quality": 89,
+      "architecture_plausibility": 89,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 92,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All four paged contact sheets were inspected at original resolution.",
+      "The templates are intentionally stylized deterministic fallbacks and remain compositionally useful across every required aspect ratio.",
+      "No missing render, broken geometry, sensitive infrastructure detail, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1711789
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:27:09.618Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

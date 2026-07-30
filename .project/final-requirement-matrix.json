@@ -1,7 +1,7 @@
 {
   "project": "SHADOWGRID",
   "run_id": "finalize-20260729T205043Z-9e706c8",
-  "updated_at": "2026-07-29T23:35:50Z",
+  "updated_at": "2026-07-30T06:44:22Z",
   "status_vocabulary": [
     "verified",
     "gap",
@@ -216,13 +216,13 @@
       "id": "REQ-18",
       "source": "PRIVACY.md and finalization Phase 9",
       "requirement": "Export, deletion/pseudonymization and launch privacy artifacts",
-      "implementation": ["apps/api/shadowgrid/api.py", "docs/PRIVACY.md"],
+      "implementation": ["apps/api/shadowgrid/api.py", "docs/PRIVACY.md", "docs/DATA_RETENTION_MATRIX.md", "docs/PROCESSOR_REGISTER_TEMPLATE.md", "docs/INCIDENT_RESPONSE_CHECKLIST.md"],
       "api_worker_ui": ["/api/v1/account/export", "/api/v1/account/delete"],
       "migration": "0001/0002 audit and identity tables",
-      "test": ["authentication/privacy regressions in backend suite"],
-      "status": "gap",
-      "evidence": "Core endpoints exist and backend gate passed",
-      "remaining_work": "Add final retention, processor, incident and launch checklists with external legal gates"
+      "test": ["test_privacy.py", "test_log_privacy.py", "test_metrics_security.py"],
+      "status": "verified",
+      "evidence": "Exact-string export, transactional pseudonymization, session/token/mail/invite revocation, audit retention and log redaction passed",
+      "remaining_work": "Legal approval, support identity, processor contracts and retention-owner sign-off remain explicit external gates"
     },
     {
       "id": "REQ-19",
@@ -240,25 +240,25 @@
       "id": "REQ-20",
       "source": "BACKUP_RESTORE.md and finalization Phase 10",
       "requirement": "Verified backup and restore drill followed by invariants",
-      "implementation": ["scripts/backup.ps1", "scripts/restore.ps1", "apps/api/shadowgrid/local_backups.py"],
+      "implementation": ["scripts/backup.ps1", "scripts/restore.ps1", "apps/api/shadowgrid/local_backups.py", "apps/api/shadowgrid/restore_drill.py"],
       "api_worker_ui": ["PowerShell recovery commands"],
       "migration": "all",
-      "test": ["test_local_backups.py", "test_release_scripts.py"],
-      "status": "gap",
-      "evidence": "Pre-finalization SQLite backup verified with SHA-256",
-      "remaining_work": "Run safe restore drill and post-restore data verification in Phase 10/13"
+      "test": ["test_local_backups.py", "test_release_scripts.py", "pnpm ops:restore-drill"],
+      "status": "verified",
+      "evidence": "Isolated restore drill preserved SHA-256 9ac309a811704f7457a9e524e19290e93dfcd5fec631912ba0e2a1b7922a8922, removed the probe row and passed post-restore release invariants",
+      "remaining_work": "PostgreSQL custom-dump execution remains host-blocked without Docker/PostgreSQL"
     },
     {
       "id": "REQ-21",
       "source": "DEPLOYMENT.md and OPERATIONS_RUNBOOK.md",
       "requirement": "API and worker observability, alerts, smoke scripts and deployment dry run",
-      "implementation": ["docker-compose.yml", "railway.json", "monitoring", "apps/api/shadowgrid/production.py"],
+      "implementation": ["docker-compose.yml", "railway.json", "monitoring/alert-definitions.json", "scripts/smoke-test.mjs", "scripts/verify-operations.mjs"],
       "api_worker_ui": ["/api/v1/health", "/api/v1/ready", "/healthz", "/metrics"],
       "migration": "all",
-      "test": ["release checks and web health build"],
-      "status": "gap",
-      "evidence": "Local API/build gates passed; Docker host proof unavailable",
-      "remaining_work": "Add automated staging/production smoke scripts and final operations report; Docker proof is host-blocked"
+      "test": ["test_metrics_security.py", "scripts/smoke-test.test.mjs", "pnpm ops:verify", "pnpm test:season-runbook", "pnpm ops:restore-drill"],
+      "status": "verified",
+      "evidence": "Protected production metrics, seven alert definitions, safe staging/production smoke automation, season runbook and recovery drill passed",
+      "remaining_work": "Provider alert binding, live deployment smoke and Docker/PostgreSQL/Redis proof remain explicit external gates"
     },
     {
       "id": "REQ-22",
@@ -269,8 +269,8 @@
       "migration": "none",
       "test": ["mobile lint/type/test/build in pnpm validate"],
       "status": "blocked_external",
-      "evidence": "Repository mobile build passed; EAS ID/domains are placeholders",
-      "remaining_work": "Provider project, domains, credentials, signed AAB/IPA and store submission"
+      "evidence": "Placeholder IDs/domains are absent; 69-file 7.49 MiB all-platform preview export and configuration verifier passed",
+      "remaining_work": "Real EAS project/account, signing credentials, physical-device evidence, signed AAB/IPA and flagged store submission"
     },
     {
       "id": "REQ-23",
@@ -291,22 +291,22 @@
       "implementation": ["scripts/assets/pipeline.mjs", "scripts/assets/catalog.mjs", "assets/asset-manifest.json"],
       "api_worker_ui": ["assets runtime sync", "web asset integration"],
       "migration": "none",
-      "test": ["pnpm assets:validate", "pnpm assets:integration-test", "pipeline.test.mjs"],
-      "status": "gap",
-      "evidence": "Processed 131 entries validate and integrate",
-      "remaining_work": "Process 765 pending entries and resolve one review-required entry without paid generation"
+      "test": ["pnpm assets:validate", "pnpm assets:integration-test", "pnpm assets:gate", "pipeline.test.mjs"],
+      "status": "verified",
+      "evidence": "896/896 assets approved after 60-page visual review; technical validation, runtime integration, metadata, license, crest, originality and release gates passed; 5,311 runtime files and 896 registry entries synchronized",
+      "remaining_work": null
     },
     {
       "id": "REQ-25",
       "source": "Finalization Phase 8",
       "requirement": "Deterministic multi-season balancing simulation and reports",
-      "implementation": ["tests/load/test_release_scale.py", "packages/game-config"],
+      "implementation": ["apps/api/shadowgrid/balance_simulation.py", "packages/game-config", "docs/SEASON_0_BALANCE_CONFIG.md"],
       "api_worker_ui": ["economy and exchange application services"],
       "migration": "all economy migrations",
-      "test": ["4 release-scale load tests"],
-      "status": "gap",
-      "evidence": "Scale fixture passes but is not a multi-season strategy balance study",
-      "remaining_work": "Implement simulation and three required balance reports"
+      "test": ["test_balance_simulation.py", "4 release-scale load tests"],
+      "status": "verified",
+      "evidence": "Deterministic integer-only simulation completed 100 players, 500 companies, 10 cartels and four full seasons with no critical exploit or ledger imbalance",
+      "remaining_work": null
     },
     {
       "id": "REQ-26",
@@ -327,10 +327,10 @@
       "implementation": ["apps/mobile/store", "assets/reports"],
       "api_worker_ui": ["Playwright-capable local web UI"],
       "migration": "none",
-      "test": ["asset integration tests"],
-      "status": "gap",
-      "evidence": "Application and existing asset previews build",
-      "remaining_work": "Capture real product screens and produce STORE_ASSET_READINESS.md"
+      "test": ["store-capture.capture.ts", "scripts/validate-store-assets.mjs", "pnpm store:gate"],
+      "status": "verified",
+      "evidence": "All 30 entries passed: 20 functioning-application captures at exact Google Play, iPhone and iPad dimensions plus ten exact-size static/community assets; complete contact-sheet visual review and STORE_ASSET_READINESS.md report",
+      "remaining_work": null
     },
     {
       "id": "REQ-28",
@@ -339,10 +339,10 @@
       "implementation": ["apps/api/shadowgrid/mailer.py", "apps/api/shadowgrid/api.py"],
       "api_worker_ui": ["registration verification and reset email queue"],
       "migration": "0001 email outbox",
-      "test": ["test_mailer.py", "test_auth.py"],
+      "test": ["test_mailer.py", "test_email_account_flows.py", "test_auth.py"],
       "status": "blocked_external",
-      "evidence": "Mailer unit/integration paths pass; Docker/Mailpit and provider activation unavailable",
-      "remaining_work": "Add operator gate report; run Mailpit after Docker is available; configure provider only with explicit flag"
+      "evidence": "Localized verification/reset copy, expiry/replay/session revocation, generic response, abuse limits and mocked TLS delivery passed; exact SMTP provider gate exists",
+      "remaining_work": "Run Mailpit after Docker is available; configure and activate a production provider only with the explicit flag"
     }
   ]
 }

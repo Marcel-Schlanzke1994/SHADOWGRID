@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-aachen-card-v1",
+  "manifest_order": 233,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "aachen",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-aachen-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100233,
+  "content_hash": "425f8e4d0e93e866d6736d474a7281ccb9cf4d2a26cd4b36aa30715d0f9adfdd",
+  "source_file": "assets/source/cities/city-aachen-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-aachen-card-v1-320.avif",
+      "bytes": 3672,
+      "sha256": "545b99b99533a189df79169f56d94ae61735229e262cbab88a007b598a75039f"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-card-v1-320.webp",
+      "bytes": 3574,
+      "sha256": "39c7a14c727a13ef29784e4b57caa404414debcb38d42f8d20274882384b9248"
+    },
+    {
+      "path": "assets/production/avif/city-aachen-card-v1-640.avif",
+      "bytes": 8106,
+      "sha256": "b136fff8574591a9e034d020bee75e24f3315320e898b6454faadb54606d9e59"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-card-v1-640.webp",
+      "bytes": 7244,
+      "sha256": "944b0348f4882dcebac72dcb7c6f2ec22eb3179253f87dc374c4238ec1c7c122"
+    },
+    {
+      "path": "assets/production/avif/city-aachen-card-v1-960.avif",
+      "bytes": 14764,
+      "sha256": "ade47def6ea10a07fb4d42e7010cd922a73c71afca5644c6f71d37735f9428f1"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-card-v1-960.webp",
+      "bytes": 12084,
+      "sha256": "816e1c7be06f9e7b4bd63869697f08a86c2c7d2d7c2eaa22286416c62c6d25bf"
+    },
+    {
+      "path": "assets/production/avif/city-aachen-card-v1-1280.avif",
+      "bytes": 19688,
+      "sha256": "ec4e4b482e1df7d56d634889ec05c6710cd6c1059d5682d7a7bb76257429b8a1"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-card-v1-1280.webp",
+      "bytes": 16042,
+      "sha256": "f67bceb6bfbbfc2817cfcfa620eb1a3ead8af227d9ee758247ed58a71bb6707a"
+    },
+    {
+      "path": "assets/production/avif/city-aachen-card-v1-1920.avif",
+      "bytes": 30613,
+      "sha256": "f0cea52105fbedbf6daff701654eaa708d3344a78d526c26fa12a6afaa20b0fa"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-card-v1-1920.webp",
+      "bytes": 25698,
+      "sha256": "7374300e8eff86cf09e49891a44d877429fad5e829dec55cab70a11eba619d55"
+    },
+    {
+      "path": "assets/production/avif/city-aachen-card-v1-2560.avif",
+      "bytes": 42962,
+      "sha256": "ebf3548e3b2ef34f95bae48e4335476278085a18c338b23eb157918e7491bc38"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-card-v1-2560.webp",
+      "bytes": 37952,
+      "sha256": "87bc714397ff5b5738b63b9fe372b0665187b13839edcdb91ba54e154fb32178"
+    },
+    {
+      "path": "assets/production/avif/city-aachen-card-v1-3840.avif",
+      "bytes": 69506,
+      "sha256": "f53073d7530766667db6d950ccb37bf366d069673bde8b1e2ed1ae8c4cc9cbce"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-card-v1-3840.webp",
+      "bytes": 69786,
+      "sha256": "5b908f2beefe65d391f9a335061b7255e62fcf00e0dc7bb8b2fc8aca226b8c21"
+    },
+    {
+      "path": "assets/production/png/city-aachen-card-v1-1280.png",
+      "bytes": 1276895,
+      "sha256": "3fc8ea43562205dc18450f815bb9527443186736b18f2d8061dd03076292363e"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-card-v1-320.avif",
+      "bytes": 3672,
+      "sha256": "545b99b99533a189df79169f56d94ae61735229e262cbab88a007b598a75039f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-card-v1-320.webp",
+      "bytes": 3574,
+      "sha256": "39c7a14c727a13ef29784e4b57caa404414debcb38d42f8d20274882384b9248"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-card-v1-640.avif",
+      "bytes": 8106,
+      "sha256": "b136fff8574591a9e034d020bee75e24f3315320e898b6454faadb54606d9e59"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-card-v1-640.webp",
+      "bytes": 7244,
+      "sha256": "944b0348f4882dcebac72dcb7c6f2ec22eb3179253f87dc374c4238ec1c7c122"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-card-v1-960.avif",
+      "bytes": 14764,
+      "sha256": "ade47def6ea10a07fb4d42e7010cd922a73c71afca5644c6f71d37735f9428f1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-card-v1-960.webp",
+      "bytes": 12084,
+      "sha256": "816e1c7be06f9e7b4bd63869697f08a86c2c7d2d7c2eaa22286416c62c6d25bf"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-card-v1-1280.avif",
+      "bytes": 19688,
+      "sha256": "ec4e4b482e1df7d56d634889ec05c6710cd6c1059d5682d7a7bb76257429b8a1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-card-v1-1280.webp",
+      "bytes": 16042,
+      "sha256": "f67bceb6bfbbfc2817cfcfa620eb1a3ead8af227d9ee758247ed58a71bb6707a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-card-v1-1920.avif",
+      "bytes": 30613,
+      "sha256": "f0cea52105fbedbf6daff701654eaa708d3344a78d526c26fa12a6afaa20b0fa"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-card-v1-1920.webp",
+      "bytes": 25698,
+      "sha256": "7374300e8eff86cf09e49891a44d877429fad5e829dec55cab70a11eba619d55"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-card-v1-2560.avif",
+      "bytes": 42962,
+      "sha256": "ebf3548e3b2ef34f95bae48e4335476278085a18c338b23eb157918e7491bc38"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-card-v1-2560.webp",
+      "bytes": 37952,
+      "sha256": "87bc714397ff5b5738b63b9fe372b0665187b13839edcdb91ba54e154fb32178"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-card-v1-3840.avif",
+      "bytes": 69506,
+      "sha256": "f53073d7530766667db6d950ccb37bf366d069673bde8b1e2ed1ae8c4cc9cbce"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-card-v1-3840.webp",
+      "bytes": 69786,
+      "sha256": "5b908f2beefe65d391f9a335061b7255e62fcf00e0dc7bb8b2fc8aca226b8c21"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-card-v1-1280.png",
+      "bytes": 1276895,
+      "sha256": "3fc8ea43562205dc18450f815bb9527443186736b18f2d8061dd03076292363e"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-aachen-card-v1.webp",
+      "bytes": 3574,
+      "sha256": "39c7a14c727a13ef29784e4b57caa404414debcb38d42f8d20274882384b9248"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-aachen-card-v1.webp",
+      "bytes": 3574,
+      "sha256": "39c7a14c727a13ef29784e4b57caa404414debcb38d42f8d20274882384b9248"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.405Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1666606
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:22:31.556Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

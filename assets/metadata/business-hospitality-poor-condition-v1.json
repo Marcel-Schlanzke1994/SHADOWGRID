@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-hospitality-poor-condition-v1",
+  "manifest_order": 467,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "poor-condition",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-hospitality-poor-condition-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100467,
+  "content_hash": "695d89d6d8d1f326198aa2512643df6b124d3132652ca5a77ea1a72aad452fc1",
+  "source_file": "assets/source/businesses/business-hospitality-poor-condition-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-hospitality-poor-condition-v1-320.avif",
+      "bytes": 2846,
+      "sha256": "b1e94c1a13113170cd68d1766b859c0b7ec87e5ebd3f7fd5643299bb2b3a6ef3"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-poor-condition-v1-320.webp",
+      "bytes": 2508,
+      "sha256": "628ada88c97ce72518ca20f048255f8c7607523ace836007e1212aacb1dd06f6"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-poor-condition-v1-640.avif",
+      "bytes": 6233,
+      "sha256": "dbd1bf9fac11a0d087099efd5febeec40d6a1a799b574a10e05c76bf01035df4"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-poor-condition-v1-640.webp",
+      "bytes": 4984,
+      "sha256": "7a84e1da9f6da742373d0dc010a6eb6f6519cbfa7fce3a798a4ef178a748600d"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-poor-condition-v1-960.avif",
+      "bytes": 9882,
+      "sha256": "d4523d1fae20e85202027506274f3c9606f73fd9e6b73a415a55faf74a5e54c7"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-poor-condition-v1-960.webp",
+      "bytes": 8072,
+      "sha256": "abc45674a34c9adbe98fd58e25d10e307b536461881698fb2dd8d7664c42686a"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-poor-condition-v1-1280.avif",
+      "bytes": 13926,
+      "sha256": "a7c2bcaf436361b46277610f0a79ef019919895cf35d46f2330858626c45a497"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-poor-condition-v1-1280.webp",
+      "bytes": 10928,
+      "sha256": "4113bb7377ebcb4b7eb74904d70db58f1beb72697d93fae0d760638e4987a2c6"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-poor-condition-v1-1920.avif",
+      "bytes": 21129,
+      "sha256": "c70f9f162ba8f9b9721e12bb112e93a01f813685a8be4685a43f91760a9b9019"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-poor-condition-v1-1920.webp",
+      "bytes": 17106,
+      "sha256": "f3d3100d1c429c770f8c8331c90eab9723570a963bc72a16783291ab46302b6c"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-poor-condition-v1-2560.avif",
+      "bytes": 28526,
+      "sha256": "c3c81b1912bbb90eca2752f36022f4aa822c84e3762bb17cfe26e8ae65bbc1db"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-poor-condition-v1-2560.webp",
+      "bytes": 24360,
+      "sha256": "64f84e2ff2f3771b8c786492353213907aefd436cd9913b7d0d5d49f74525a8c"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-poor-condition-v1-3840.avif",
+      "bytes": 46524,
+      "sha256": "3a95e023bf364fe05446ae7f40f0bdf09fbbf8693e8f34c85e52a827f003200b"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-poor-condition-v1-3840.webp",
+      "bytes": 41470,
+      "sha256": "659ac2d12e8b5b5c10ac01649e70b3063f3f33b37ff80b372b5e4a0329b1109c"
+    },
+    {
+      "path": "assets/production/png/business-hospitality-poor-condition-v1-1280.png",
+      "bytes": 630775,
+      "sha256": "05967b7a1b3a77692788a917c9283590a717476ec4a11474f48f0e7f76b553b0"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-hospitality-poor-condition-v1.webp",
+      "bytes": 2508,
+      "sha256": "628ada88c97ce72518ca20f048255f8c7607523ace836007e1212aacb1dd06f6"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-hospitality-poor-condition-v1.webp",
+      "bytes": 2508,
+      "sha256": "628ada88c97ce72518ca20f048255f8c7607523ace836007e1212aacb1dd06f6"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.342Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1444112
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:53:31.244Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

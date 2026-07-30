@@ -1,0 +1,75 @@
+{
+  "asset_id": "icon-status-blocked-v1",
+  "manifest_order": 760,
+  "category": "icon",
+  "batch": "ui-icons",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "24:24",
+  "width": 24,
+  "height": 24,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/icon-status-blocked-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100760,
+  "content_hash": "5a549b880e1eef2182d4f3c265b3e80ce33c3aed1165c817db7078673360a4b1",
+  "source_file": "assets/source/icons/icon-status-blocked-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/icon-status-blocked-v1.svg",
+      "bytes": 541,
+      "sha256": "5a549b880e1eef2182d4f3c265b3e80ce33c3aed1165c817db7078673360a4b1"
+    },
+    {
+      "path": "assets/production/webp/icon-status-blocked-v1-320.webp",
+      "bytes": 3858,
+      "sha256": "0e9276c2d03513d408d8e20f1b6eaf4a07ee5279a02d55259c921a5b07dfeefd"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/icon-status-blocked-v1.webp",
+      "bytes": 3858,
+      "sha256": "0e9276c2d03513d408d8e20f1b6eaf4a07ee5279a02d55259c921a5b07dfeefd"
+    },
+    {
+      "path": "apps/mobile/assets/library/icon-status-blocked-v1.webp",
+      "bytes": 3858,
+      "sha256": "0e9276c2d03513d408d8e20f1b6eaf4a07ee5279a02d55259c921a5b07dfeefd"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 541
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:51:39.656Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-security-company-audited-frozen-closed-v1",
+  "manifest_order": 480,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "audited-frozen-closed",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-security-company-audited-frozen-closed-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100480,
+  "content_hash": "60a73852ab2ef1d0b3357bfffb50ad662a6794b6628f680fade56962baa6d49e",
+  "source_file": "assets/source/businesses/business-security-company-audited-frozen-closed-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-security-company-audited-frozen-closed-v1-320.avif",
+      "bytes": 2766,
+      "sha256": "29835eee286154c4af293abc5d709838538d808b7876890fefe2b2585b9b6ec9"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-audited-frozen-closed-v1-320.webp",
+      "bytes": 2360,
+      "sha256": "047c09eda528c87e3c7e5e7f7bd836d01e5e71589fdc877d560d6e263b833179"
+    },
+    {
+      "path": "assets/production/avif/business-security-company-audited-frozen-closed-v1-640.avif",
+      "bytes": 6046,
+      "sha256": "e0c87d37dd27eda33eda3c1b7df9d05140f3d1cf0f690d4acfc0f66b34ad714a"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-audited-frozen-closed-v1-640.webp",
+      "bytes": 4874,
+      "sha256": "454e43049e2f921dc9a562ae5705151462e471e8156482cb285e8952f0a86823"
+    },
+    {
+      "path": "assets/production/avif/business-security-company-audited-frozen-closed-v1-960.avif",
+      "bytes": 10050,
+      "sha256": "ec69f77fb9238be60d3cb864e024b15ba96bf192e1f91756058cce258fa29724"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-audited-frozen-closed-v1-960.webp",
+      "bytes": 8256,
+      "sha256": "e2c91947212433c948f776b806832d36f5f00164df22676e32e1762d9e31de4d"
+    },
+    {
+      "path": "assets/production/avif/business-security-company-audited-frozen-closed-v1-1280.avif",
+      "bytes": 13664,
+      "sha256": "85627d4b51f5283179ac0cd6fc725deb6734a74ea13e4cd9565811b2b7a7b8a0"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-audited-frozen-closed-v1-1280.webp",
+      "bytes": 10840,
+      "sha256": "c324e15ae0639398f66594d6f7de42e586e8c1c0a0f412b099b676241c7a158f"
+    },
+    {
+      "path": "assets/production/avif/business-security-company-audited-frozen-closed-v1-1920.avif",
+      "bytes": 21155,
+      "sha256": "90c2c898885f56ebc4468d6ea1436d1a9e5ab9552d904bbd2875c8fd47b18af4"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-audited-frozen-closed-v1-1920.webp",
+      "bytes": 17626,
+      "sha256": "8e2e7a3880189305ff64365987446755c76b58b75f727000978864c04b4b2358"
+    },
+    {
+      "path": "assets/production/avif/business-security-company-audited-frozen-closed-v1-2560.avif",
+      "bytes": 28644,
+      "sha256": "3ea5239c4eb2ad7ca1d21b2e2ab52d47b3aeb2f652551cee5a0f5b5cece0cd9b"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-audited-frozen-closed-v1-2560.webp",
+      "bytes": 24694,
+      "sha256": "baafeaab39e7b8e5f0c1333f11b7242d06b7932060ae91984b82f2848a76a1f1"
+    },
+    {
+      "path": "assets/production/avif/business-security-company-audited-frozen-closed-v1-3840.avif",
+      "bytes": 46715,
+      "sha256": "dbfdc8cdd151429219df30c80385301fd630a08802d6a71c0745730defc6ddf8"
+    },
+    {
+      "path": "assets/production/webp/business-security-company-audited-frozen-closed-v1-3840.webp",
+      "bytes": 42020,
+      "sha256": "121845de0e6c054da742cf446c22d73e8ab041ee48ab7083b1079aa1e315bc60"
+    },
+    {
+      "path": "assets/production/png/business-security-company-audited-frozen-closed-v1-1280.png",
+      "bytes": 624290,
+      "sha256": "65fedf2eded100eb72d20916abd8d7bfe0539a50a4b2f7a0fa50eaa08e973cb8"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-security-company-audited-frozen-closed-v1.webp",
+      "bytes": 2360,
+      "sha256": "047c09eda528c87e3c7e5e7f7bd836d01e5e71589fdc877d560d6e263b833179"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-security-company-audited-frozen-closed-v1.webp",
+      "bytes": 2360,
+      "sha256": "047c09eda528c87e3c7e5e7f7bd836d01e5e71589fdc877d560d6e263b833179"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.491Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1442563
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:31:19.830Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

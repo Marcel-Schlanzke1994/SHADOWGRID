@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-bonn-desktop-day-v1",
+  "manifest_order": 213,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "bonn",
+  "variant": "desktop-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-bonn-desktop-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100213,
+  "content_hash": "979c644212d2e3e9496bc87b93b396125c7be34c8239fe9c6315dcf016570b01",
+  "source_file": "assets/source/cities/city-bonn-desktop-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-bonn-desktop-day-v1-640.avif",
+      "bytes": 6338,
+      "sha256": "db59c75747293cfda0e88f286fa0bc6ad2a814f0694279cad1d8e47da9ef8dc6"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-desktop-day-v1-640.webp",
+      "bytes": 5636,
+      "sha256": "00e3672c12c8d9e7b524825fd6b9aac7034f6d854702567d28fba61351b4e823"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-desktop-day-v1-320.avif",
+      "bytes": 2998,
+      "sha256": "731e1a370b621cf5677c9791c707d13afe9455b2338448380d1c040c3cf16cd0"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-desktop-day-v1-320.webp",
+      "bytes": 2896,
+      "sha256": "af80f1ce77e6972e07ac8bd364489ce8931cb1811119d4cfceeda1148af6374b"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-desktop-day-v1-960.avif",
+      "bytes": 10673,
+      "sha256": "0fdc1f36503d1ede73eefef38e5605c6e01c406aaaf216d6b096c4a25fdaeb15"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-desktop-day-v1-960.webp",
+      "bytes": 8962,
+      "sha256": "2fcecf311b4609ada56bc16818f3292b1d7046dbbf49b5aecd34f77fd52e8408"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-desktop-day-v1-1280.avif",
+      "bytes": 15397,
+      "sha256": "1f4e547a9d8a94cd0663ec5492ab0cfed7f4127974fb9fdb24d07aa3910c70b3"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-desktop-day-v1-1280.webp",
+      "bytes": 12030,
+      "sha256": "c05c476f11e7da8cfc914ff553cbf6cf5ec923681c384d5f70e4357d5646ccea"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-desktop-day-v1-1920.avif",
+      "bytes": 22681,
+      "sha256": "c07518ef554c2ce09005abacc6561ee045789736aef7cdca94eb0452bab122ea"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-desktop-day-v1-1920.webp",
+      "bytes": 18370,
+      "sha256": "ca8d2cdb7c44f378cd740dc5c5065572050dc4e88d389827d949b439a47e8188"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-desktop-day-v1-2560.avif",
+      "bytes": 31051,
+      "sha256": "6d5db7f31cb48e1c17f82130bf536373f445fe063a31a802687082d787949e88"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-desktop-day-v1-2560.webp",
+      "bytes": 26076,
+      "sha256": "d8b2866045e65e5c6c71accf71a6e2beb4ee8f1a17fa23661640c4a7022808bc"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-desktop-day-v1-3840.avif",
+      "bytes": 49610,
+      "sha256": "539a280db6d50439fd22ef737bedf8a2c446ecae45bf12c9df41cab890745869"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-desktop-day-v1-3840.webp",
+      "bytes": 45092,
+      "sha256": "39d19108c7e82518329de50d7f9fb9f9dbfc97ec6836be0f879cdb1a2d40cbe4"
+    },
+    {
+      "path": "assets/production/png/city-bonn-desktop-day-v1-1280.png",
+      "bytes": 722564,
+      "sha256": "885cc73b57775d380010b5bbf5612d83acd3381b4c7f40eacea6577315d25a99"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-day-v1-640.avif",
+      "bytes": 6338,
+      "sha256": "db59c75747293cfda0e88f286fa0bc6ad2a814f0694279cad1d8e47da9ef8dc6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-day-v1-640.webp",
+      "bytes": 5636,
+      "sha256": "00e3672c12c8d9e7b524825fd6b9aac7034f6d854702567d28fba61351b4e823"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-day-v1-320.avif",
+      "bytes": 2998,
+      "sha256": "731e1a370b621cf5677c9791c707d13afe9455b2338448380d1c040c3cf16cd0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-day-v1-320.webp",
+      "bytes": 2896,
+      "sha256": "af80f1ce77e6972e07ac8bd364489ce8931cb1811119d4cfceeda1148af6374b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-day-v1-960.avif",
+      "bytes": 10673,
+      "sha256": "0fdc1f36503d1ede73eefef38e5605c6e01c406aaaf216d6b096c4a25fdaeb15"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-day-v1-960.webp",
+      "bytes": 8962,
+      "sha256": "2fcecf311b4609ada56bc16818f3292b1d7046dbbf49b5aecd34f77fd52e8408"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-day-v1-1280.avif",
+      "bytes": 15397,
+      "sha256": "1f4e547a9d8a94cd0663ec5492ab0cfed7f4127974fb9fdb24d07aa3910c70b3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-day-v1-1280.webp",
+      "bytes": 12030,
+      "sha256": "c05c476f11e7da8cfc914ff553cbf6cf5ec923681c384d5f70e4357d5646ccea"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-day-v1-1920.avif",
+      "bytes": 22681,
+      "sha256": "c07518ef554c2ce09005abacc6561ee045789736aef7cdca94eb0452bab122ea"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-day-v1-1920.webp",
+      "bytes": 18370,
+      "sha256": "ca8d2cdb7c44f378cd740dc5c5065572050dc4e88d389827d949b439a47e8188"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-day-v1-2560.avif",
+      "bytes": 31051,
+      "sha256": "6d5db7f31cb48e1c17f82130bf536373f445fe063a31a802687082d787949e88"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-day-v1-2560.webp",
+      "bytes": 26076,
+      "sha256": "d8b2866045e65e5c6c71accf71a6e2beb4ee8f1a17fa23661640c4a7022808bc"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-day-v1-3840.avif",
+      "bytes": 49610,
+      "sha256": "539a280db6d50439fd22ef737bedf8a2c446ecae45bf12c9df41cab890745869"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-day-v1-3840.webp",
+      "bytes": 45092,
+      "sha256": "39d19108c7e82518329de50d7f9fb9f9dbfc97ec6836be0f879cdb1a2d40cbe4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-day-v1-1280.png",
+      "bytes": 722564,
+      "sha256": "885cc73b57775d380010b5bbf5612d83acd3381b4c7f40eacea6577315d25a99"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-bonn-desktop-day-v1.webp",
+      "bytes": 2896,
+      "sha256": "af80f1ce77e6972e07ac8bd364489ce8931cb1811119d4cfceeda1148af6374b"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-bonn-desktop-day-v1.webp",
+      "bytes": 2896,
+      "sha256": "af80f1ce77e6972e07ac8bd364489ce8931cb1811119d4cfceeda1148af6374b"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.164Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1635016
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:01:44.663Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

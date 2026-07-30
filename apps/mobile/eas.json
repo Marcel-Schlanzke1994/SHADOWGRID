@@ -2,8 +2,21 @@
   "cli": { "version": ">= 16.0.0", "appVersionSource": "remote" },
   "build": {
     "development": { "developmentClient": true, "distribution": "internal", "channel": "development" },
-    "preview": { "distribution": "internal", "android": { "buildType": "apk" }, "channel": "preview" },
-    "production": { "autoIncrement": true, "channel": "production", "env": { "APP_ENV": "production" } }
+    "preview": {
+      "distribution": "internal",
+      "android": { "buildType": "apk" },
+      "channel": "preview",
+      "environment": "preview"
+    },
+    "production": {
+      "autoIncrement": true,
+      "channel": "production",
+      "environment": "production",
+      "env": {
+        "EXPO_PUBLIC_APP_ENV": "production",
+        "EXPO_PUBLIC_API_URL": "https://shadowgrid-production-be34.up.railway.app/api/v1"
+      }
+    }
   },
   "submit": { "production": {} }
 }

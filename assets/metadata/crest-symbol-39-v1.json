@@ -1,0 +1,75 @@
+{
+  "asset_id": "crest-symbol-39-v1",
+  "manifest_order": 671,
+  "category": "crest",
+  "batch": "cartel-crests",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/crest-symbol-39-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100671,
+  "content_hash": "5670d7083a45f0cdebbf648415c5f5fadcdb3021561ad28eab24264359ca6a27",
+  "source_file": "assets/source/cartels/crest-symbol-39-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/crest-symbol-39-v1.svg",
+      "bytes": 744,
+      "sha256": "5670d7083a45f0cdebbf648415c5f5fadcdb3021561ad28eab24264359ca6a27"
+    },
+    {
+      "path": "assets/production/webp/crest-symbol-39-v1-320.webp",
+      "bytes": 7570,
+      "sha256": "72fde277fb220c7a94c9e94f4a1e2ac02f549b37c73fbfb07cfec8b56f2ec524"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/crest-symbol-39-v1.webp",
+      "bytes": 7570,
+      "sha256": "72fde277fb220c7a94c9e94f4a1e2ac02f549b37c73fbfb07cfec8b56f2ec524"
+    },
+    {
+      "path": "apps/mobile/assets/library/crest-symbol-39-v1.webp",
+      "bytes": 7570,
+      "sha256": "72fde277fb220c7a94c9e94f4a1e2ac02f549b37c73fbfb07cfec8b56f2ec524"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 744
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:29:42.784Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

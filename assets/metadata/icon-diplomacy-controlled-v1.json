@@ -1,0 +1,75 @@
+{
+  "asset_id": "icon-diplomacy-controlled-v1",
+  "manifest_order": 781,
+  "category": "icon",
+  "batch": "ui-icons",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "24:24",
+  "width": 24,
+  "height": 24,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/icon-diplomacy-controlled-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100781,
+  "content_hash": "421a0ad675164cb8de752eab2c286572e2af2d121dea887a8438c17804118446",
+  "source_file": "assets/source/icons/icon-diplomacy-controlled-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/icon-diplomacy-controlled-v1.svg",
+      "bytes": 571,
+      "sha256": "421a0ad675164cb8de752eab2c286572e2af2d121dea887a8438c17804118446"
+    },
+    {
+      "path": "assets/production/webp/icon-diplomacy-controlled-v1-320.webp",
+      "bytes": 1994,
+      "sha256": "e1b31ac152db396d12fac1ebc9a8f03f465bf03c5cf189bd2edc79b5921db654"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/icon-diplomacy-controlled-v1.webp",
+      "bytes": 1994,
+      "sha256": "e1b31ac152db396d12fac1ebc9a8f03f465bf03c5cf189bd2edc79b5921db654"
+    },
+    {
+      "path": "apps/mobile/assets/library/icon-diplomacy-controlled-v1.webp",
+      "bytes": 1994,
+      "sha256": "e1b31ac152db396d12fac1ebc9a8f03f465bf03c5cf189bd2edc79b5921db654"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 571
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:51:43.639Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-dortmund-desktop-night-v1",
+  "manifest_order": 134,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "dortmund",
+  "variant": "desktop-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-dortmund-desktop-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100134,
+  "content_hash": "a8b41ae5b0dee5ee219d1d472747b3fd940eacb97fea3734cd2cf55a23cca271",
+  "source_file": "assets/source/cities/city-dortmund-desktop-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-dortmund-desktop-night-v1-320.avif",
+      "bytes": 3935,
+      "sha256": "24e947be83b50f5edecd77418cd05fec18179381fd2ef1351c242c3057c3197c"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-desktop-night-v1-320.webp",
+      "bytes": 4056,
+      "sha256": "9ddc5d9fc2898f91425afc440096a8e27d87cceaf87ca4728ededf737c75dbe2"
+    },
+    {
+      "path": "assets/production/avif/city-dortmund-desktop-night-v1-640.avif",
+      "bytes": 8405,
+      "sha256": "bdd09c69532081e8df2ad915ded91faf468c44c756757b1213e4b63309fd5af4"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-desktop-night-v1-640.webp",
+      "bytes": 8714,
+      "sha256": "b8cb3e132f3c00f5bc245719156ec005e774c2482f680808ebbf26fe51437850"
+    },
+    {
+      "path": "assets/production/avif/city-dortmund-desktop-night-v1-960.avif",
+      "bytes": 13900,
+      "sha256": "f8a500a6ffb9d43b18d9ad44cabc9e25fda8e3f30e4449c5f4167a1568e855c7"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-desktop-night-v1-960.webp",
+      "bytes": 15024,
+      "sha256": "9d311dcc43f425eee4fa9fc618a800fafd8ef914d67f1cbbfb340808b4c1fa1a"
+    },
+    {
+      "path": "assets/production/avif/city-dortmund-desktop-night-v1-1280.avif",
+      "bytes": 19496,
+      "sha256": "a63cf56ee3408f50044a8071076ffbb02fe63319344c2f5532e07e28dcc09c4c"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-desktop-night-v1-1280.webp",
+      "bytes": 19810,
+      "sha256": "c6ec845dd3186bc259e4b1ce71cf83dc587f6d757219855e8b10c14804624ac6"
+    },
+    {
+      "path": "assets/production/avif/city-dortmund-desktop-night-v1-1920.avif",
+      "bytes": 29473,
+      "sha256": "53cb977c8b0cbd2f52cbf9364e6e7eebf513a2420f2e40cb8064de0092244198"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-desktop-night-v1-1920.webp",
+      "bytes": 29666,
+      "sha256": "e5035e843624621d6e0ad65552f63d49bb6cfd7df34b2e42039feecef7bb9c9d"
+    },
+    {
+      "path": "assets/production/avif/city-dortmund-desktop-night-v1-2560.avif",
+      "bytes": 40404,
+      "sha256": "b53fce1d6cb107955131f09833773773c3e187b8c1f4fd9717ba14fe9833b21e"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-desktop-night-v1-2560.webp",
+      "bytes": 38602,
+      "sha256": "8b1d8a03159f37bfb43daa1d225ca63c9321c58d2c87ae5dfe91d140555183b5"
+    },
+    {
+      "path": "assets/production/avif/city-dortmund-desktop-night-v1-3840.avif",
+      "bytes": 62211,
+      "sha256": "3af23a8064e9a2a31fd83c26059c445f0fa4b1ea6bae09cf1944912784f3e549"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-desktop-night-v1-3840.webp",
+      "bytes": 59640,
+      "sha256": "23d65cb63a2d0bc8a708f476b8f373e9847bf5093fcf7609eccb8cef01a0897f"
+    },
+    {
+      "path": "assets/production/png/city-dortmund-desktop-night-v1-1280.png",
+      "bytes": 762095,
+      "sha256": "027ee2bc685d2ebef302f244a5cdd7206a7d2482f3bf2de4b57d97d42fc2c767"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-desktop-night-v1-320.avif",
+      "bytes": 3935,
+      "sha256": "24e947be83b50f5edecd77418cd05fec18179381fd2ef1351c242c3057c3197c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-desktop-night-v1-320.webp",
+      "bytes": 4056,
+      "sha256": "9ddc5d9fc2898f91425afc440096a8e27d87cceaf87ca4728ededf737c75dbe2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-desktop-night-v1-640.avif",
+      "bytes": 8405,
+      "sha256": "bdd09c69532081e8df2ad915ded91faf468c44c756757b1213e4b63309fd5af4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-desktop-night-v1-640.webp",
+      "bytes": 8714,
+      "sha256": "b8cb3e132f3c00f5bc245719156ec005e774c2482f680808ebbf26fe51437850"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-desktop-night-v1-960.avif",
+      "bytes": 13900,
+      "sha256": "f8a500a6ffb9d43b18d9ad44cabc9e25fda8e3f30e4449c5f4167a1568e855c7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-desktop-night-v1-960.webp",
+      "bytes": 15024,
+      "sha256": "9d311dcc43f425eee4fa9fc618a800fafd8ef914d67f1cbbfb340808b4c1fa1a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-desktop-night-v1-1280.avif",
+      "bytes": 19496,
+      "sha256": "a63cf56ee3408f50044a8071076ffbb02fe63319344c2f5532e07e28dcc09c4c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-desktop-night-v1-1280.webp",
+      "bytes": 19810,
+      "sha256": "c6ec845dd3186bc259e4b1ce71cf83dc587f6d757219855e8b10c14804624ac6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-desktop-night-v1-1920.avif",
+      "bytes": 29473,
+      "sha256": "53cb977c8b0cbd2f52cbf9364e6e7eebf513a2420f2e40cb8064de0092244198"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-desktop-night-v1-1920.webp",
+      "bytes": 29666,
+      "sha256": "e5035e843624621d6e0ad65552f63d49bb6cfd7df34b2e42039feecef7bb9c9d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-desktop-night-v1-2560.avif",
+      "bytes": 40404,
+      "sha256": "b53fce1d6cb107955131f09833773773c3e187b8c1f4fd9717ba14fe9833b21e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-desktop-night-v1-2560.webp",
+      "bytes": 38602,
+      "sha256": "8b1d8a03159f37bfb43daa1d225ca63c9321c58d2c87ae5dfe91d140555183b5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-desktop-night-v1-3840.avif",
+      "bytes": 62211,
+      "sha256": "3af23a8064e9a2a31fd83c26059c445f0fa4b1ea6bae09cf1944912784f3e549"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-desktop-night-v1-3840.webp",
+      "bytes": 59640,
+      "sha256": "23d65cb63a2d0bc8a708f476b8f373e9847bf5093fcf7609eccb8cef01a0897f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-desktop-night-v1-1280.png",
+      "bytes": 762095,
+      "sha256": "027ee2bc685d2ebef302f244a5cdd7206a7d2482f3bf2de4b57d97d42fc2c767"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-dortmund-desktop-night-v1.webp",
+      "bytes": 4056,
+      "sha256": "9ddc5d9fc2898f91425afc440096a8e27d87cceaf87ca4728ededf737c75dbe2"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-dortmund-desktop-night-v1.webp",
+      "bytes": 4056,
+      "sha256": "9ddc5d9fc2898f91425afc440096a8e27d87cceaf87ca4728ededf737c75dbe2"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.481Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1699861
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-29T23:47:59.850Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

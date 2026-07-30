@@ -170,35 +170,49 @@
       "path": "apps/web/public/assets/cities/city-frankfurt-am-main-ultrawide-night-v1-1280.png",
       "bytes": 1153378,
       "sha256": "60e4f8f8078946a8f13d4028eb505300b7bdd81f00e69c6e18c6abc18c92af10"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-frankfurt-am-main-ultrawide-night-v1.webp",
+      "bytes": 3692,
+      "sha256": "652f2308e956a36b029669109dd338c557a3a73ab4682342ae963a636307e601"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-frankfurt-am-main-ultrawide-night-v1.webp",
+      "bytes": 3692,
+      "sha256": "652f2308e956a36b029669109dd338c557a3a73ab4682342ae963a636307e601"
     }
   ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,
   "moderation_status": "approved",
-  "quality_score": 98.2,
+  "quality_score": 92.9,
   "quality_status": "approved",
   "review_status": "codex-visual-approved",
   "visual_review": {
-    "realism": 98,
-    "style_consistency": 100,
-    "composition": 100,
-    "material_quality": 99,
-    "lighting_quality": 99,
-    "architecture_plausibility": 98,
-    "ui_suitability": 100,
-    "mobile_suitability": 92,
-    "originality": 96,
-    "safety_compliance": 100,
-    "revision_prompt": "Revise this fictional Frankfurt-inspired SHADOWGRID 21:9 night city backing plate while preserving the exact ultra-wide composition, original river, bridge, lower stone district, tower geometry, dark left UI safe area, wet reflections, and premium realistic night style.\n\nMandatory correction: remove the conspicuous bright white square panel near the crown of the isolated center tower. Replace it with ordinary dark glass and a few restrained warm office windows so it cannot read as a logo, sign, billboard, screen, currency symbol, or corporate identifier. Also reduce the brightest white window bands on the tallest center-right towers to a natural irregular mix of mostly dark glass and restrained warm neutral office light. Do not create scrolling, ticker-like, patterned, animated, or branded facade lighting. Preserve tiny plausible aviation safety points only where necessary.\n\nDo not alter the tower silhouettes into known Frankfurt landmarks. Keep all city, river, bridge, and public-realm geometry fictional and non-operational. No text, letters, numbers, logos, signs, brands, stock tickers, currency symbols, interface, watermarks, identifiable people, authority marks, criminal symbols, extremist symbols, weapons, violence, fraud instructions, operational wrongdoing, routes, neon spectacle, warning-red gameplay cues, blur, or fake writing.\n\nDeliver only the corrected clean premium ultra-realistic 21:9 night environment with no bright sign-like rooftop panel and no ticker-like facade lighting.",
-    "reference_images": [
-      "assets/source/cities/city-frankfurt-am-main-ultrawide-day-v1.png"
-    ],
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.247Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
     "notes": [
-      "The first night conversion was held back because a bright white square near one tower crown could read as a logo or display, and several white facade bands were too visually regular.",
-      "The accepted revision replaces the square with ordinary dark glass and restrained windows, and converts the brightest tower bands to a natural irregular office-light pattern.",
-      "River, original bridge, compact tower cluster, lower stone district, riverfront, and left UI safe area remain coordinated with the approved daytime counterpart.",
-      "No real financial institution, bank mark, exchange symbol, known landmark, text, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, fraud instruction, or operational wrongdoing is present."
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
     ]
   },
   "technical_validation": {

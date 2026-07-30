@@ -1,0 +1,110 @@
+{
+  "asset_id": "city-gelsenkirchen-silhouette-v1",
+  "manifest_order": 282,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "gelsenkirchen",
+  "variant": "silhouette",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:5",
+  "width": 3200,
+  "height": 1000,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/city-gelsenkirchen-silhouette-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100282,
+  "content_hash": "0cc3f1524c8244c750678cb1b862f2937746b65a5079cab351ddd71e6b980d41",
+  "source_file": "assets/source/cities/city-gelsenkirchen-silhouette-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/city-gelsenkirchen-silhouette-v1.svg",
+      "bytes": 3770,
+      "sha256": "0cc3f1524c8244c750678cb1b862f2937746b65a5079cab351ddd71e6b980d41"
+    },
+    {
+      "path": "assets/production/webp/city-gelsenkirchen-silhouette-v1-320.webp",
+      "bytes": 3354,
+      "sha256": "87ee3a4f0cae17f847763ea8c0879d9097dcb39b1e090477b81247b6d42c77ce"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-silhouette-v1.svg",
+      "bytes": 3770,
+      "sha256": "0cc3f1524c8244c750678cb1b862f2937746b65a5079cab351ddd71e6b980d41"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-silhouette-v1-320.webp",
+      "bytes": 3354,
+      "sha256": "87ee3a4f0cae17f847763ea8c0879d9097dcb39b1e090477b81247b6d42c77ce"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-gelsenkirchen-silhouette-v1.webp",
+      "bytes": 3354,
+      "sha256": "87ee3a4f0cae17f847763ea8c0879d9097dcb39b1e090477b81247b6d42c77ce"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-gelsenkirchen-silhouette-v1.webp",
+      "bytes": 3354,
+      "sha256": "87ee3a4f0cae17f847763ea8c0879d9097dcb39b1e090477b81247b6d42c77ce"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:42.151Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 3770
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:06:00.761Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

@@ -23,6 +23,11 @@
       "path": "assets/production/svg/map-heatmap-authority-legend-v1.svg",
       "bytes": 3687,
       "sha256": "566a02847dc45a3008e3b639c5b9ebfac17db890075f5136ed73dc04f5dff383"
+    },
+    {
+      "path": "assets/production/webp/map-heatmap-authority-legend-v1-320.webp",
+      "bytes": 14678,
+      "sha256": "37c653379ec959773d788b1bf69d94ddb7ec5eafbe4a52ae34abd286d5ced3cb"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/maps/map-heatmap-authority-legend-v1.svg",
       "bytes": 3687,
       "sha256": "566a02847dc45a3008e3b639c5b9ebfac17db890075f5136ed73dc04f5dff383"
+    },
+    {
+      "path": "apps/web/public/assets/maps/map-heatmap-authority-legend-v1-320.webp",
+      "bytes": 14678,
+      "sha256": "37c653379ec959773d788b1bf69d94ddb7ec5eafbe4a52ae34abd286d5ced3cb"
+    },
+    {
+      "path": "apps/web/public/assets/library/map-heatmap-authority-legend-v1.webp",
+      "bytes": 14678,
+      "sha256": "37c653379ec959773d788b1bf69d94ddb7ec5eafbe4a52ae34abd286d5ced3cb"
+    },
+    {
+      "path": "apps/mobile/assets/library/map-heatmap-authority-legend-v1.webp",
+      "bytes": 14678,
+      "sha256": "37c653379ec959773d788b1bf69d94ddb7ec5eafbe4a52ae34abd286d5ced3cb"
     }
   ],
   "contains_text": false,

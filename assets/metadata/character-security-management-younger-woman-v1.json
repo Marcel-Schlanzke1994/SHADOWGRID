@@ -1,0 +1,171 @@
+{
+  "asset_id": "character-security-management-younger-woman-v1",
+  "manifest_order": 555,
+  "category": "character",
+  "batch": "specialists",
+  "city": null,
+  "variant": "younger-woman",
+  "gameplay_state": "normal",
+  "aspect_ratio": "4:5",
+  "width": 1280,
+  "height": 1600,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/character-security-management-younger-woman-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100555,
+  "content_hash": "38ac8ca196d2c9f9b4b6ddcaabcdec273294c99cc78a505e948f1a18a0815971",
+  "source_file": "assets/source/characters/character-security-management-younger-woman-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/character-security-management-younger-woman-v1-320.avif",
+      "bytes": 3214,
+      "sha256": "b94d2a479f92779cbe018a0809e05c0a70e72ba6ebe7a682aa489d4a328d56fd"
+    },
+    {
+      "path": "assets/production/webp/character-security-management-younger-woman-v1-320.webp",
+      "bytes": 2448,
+      "sha256": "d21d986e4f05426fd9ae0798b35796c0abf9dab7464020428800d6524f4bc20d"
+    },
+    {
+      "path": "assets/production/avif/character-security-management-younger-woman-v1-640.avif",
+      "bytes": 7006,
+      "sha256": "740b691eebb54c037680e269b7543b80400db5d1b57615b13882a159aaceed84"
+    },
+    {
+      "path": "assets/production/webp/character-security-management-younger-woman-v1-640.webp",
+      "bytes": 5730,
+      "sha256": "c57f756ade654e58182ded3e7d7852ae54ba3421f7da028ddba9f7d15ab75040"
+    },
+    {
+      "path": "assets/production/avif/character-security-management-younger-woman-v1-960.avif",
+      "bytes": 15009,
+      "sha256": "dfd6d297b42ae5d9ff8742c21a5bb3cbe8c51502ec6b5cb006b5692b1995b7a2"
+    },
+    {
+      "path": "assets/production/webp/character-security-management-younger-woman-v1-960.webp",
+      "bytes": 10626,
+      "sha256": "924fbaf6273bca551160292d93a7e998f46690c6c4527bf418be431f221bdecc"
+    },
+    {
+      "path": "assets/production/avif/character-security-management-younger-woman-v1-1280.avif",
+      "bytes": 21812,
+      "sha256": "0a59c1d48647b2a3352b82660aad3d638e893c5e8317088a1bfe78b52c0e85d9"
+    },
+    {
+      "path": "assets/production/webp/character-security-management-younger-woman-v1-1280.webp",
+      "bytes": 16130,
+      "sha256": "b91a6ac49957fdae4981641d2ec7fbe38a81425b6e34b44f72aefb82a2f357da"
+    },
+    {
+      "path": "assets/production/avif/character-security-management-younger-woman-v1-1920.avif",
+      "bytes": 34228,
+      "sha256": "f58f05d65da65426aa869c5db6611023ba9302705ef5e43dc8feede4fad83e76"
+    },
+    {
+      "path": "assets/production/webp/character-security-management-younger-woman-v1-1920.webp",
+      "bytes": 26884,
+      "sha256": "6d54419a3790a8300a45c879f76ef24529475f4164a2f43f11a7cb4a0a8485fd"
+    },
+    {
+      "path": "assets/production/avif/character-security-management-younger-woman-v1-2560.avif",
+      "bytes": 48422,
+      "sha256": "a6743f158bf419230fd140bd8719bfc67c29ad07a34888fdb76c7716a66faf1c"
+    },
+    {
+      "path": "assets/production/webp/character-security-management-younger-woman-v1-2560.webp",
+      "bytes": 40316,
+      "sha256": "a766dc64cd6f6918dfcce9eab44b7f90095f532fba58aa4c6a17f1b47aea91ec"
+    },
+    {
+      "path": "assets/production/avif/character-security-management-younger-woman-v1-3840.avif",
+      "bytes": 79435,
+      "sha256": "41c4ff990f800bbb6457f59c4cab569a63b4ec61e4d37f42c6c028b5177ec3e5"
+    },
+    {
+      "path": "assets/production/webp/character-security-management-younger-woman-v1-3840.webp",
+      "bytes": 74578,
+      "sha256": "be3330120590b85ebc5d8299941f1220efdb8e7422a0dd248ea8358ceff35165"
+    },
+    {
+      "path": "assets/production/png/character-security-management-younger-woman-v1-1280.png",
+      "bytes": 213712,
+      "sha256": "38ac8ca196d2c9f9b4b6ddcaabcdec273294c99cc78a505e948f1a18a0815971"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/character-security-management-younger-woman-v1.webp",
+      "bytes": 2448,
+      "sha256": "d21d986e4f05426fd9ae0798b35796c0abf9dab7464020428800d6524f4bc20d"
+    },
+    {
+      "path": "apps/mobile/assets/library/character-security-management-younger-woman-v1.webp",
+      "bytes": 2448,
+      "sha256": "d21d986e4f05426fd9ae0798b35796c0abf9dab7464020428800d6524f4bc20d"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:37.240Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1280,
+      "height": 1600,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 213712
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:19:12.062Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

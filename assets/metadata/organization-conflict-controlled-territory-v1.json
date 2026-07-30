@@ -1,0 +1,171 @@
+{
+  "asset_id": "organization-conflict-controlled-territory-v1",
+  "manifest_order": 607,
+  "category": "organization-conflict",
+  "batch": "cartel-conflicts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "controlled-territory",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/organization-conflict-controlled-territory-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100607,
+  "content_hash": "e12c37d320aaf732f5f30f3a07583742b567bfda64a10cc5de8aa0a2f8895950",
+  "source_file": "assets/source/cartels/organization-conflict-controlled-territory-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/organization-conflict-controlled-territory-v1-320.avif",
+      "bytes": 2613,
+      "sha256": "5b7bcb00232bc5d852adc764b9da669f55d3723e6a4aa2fbfdccc47deda5e6f5"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-controlled-territory-v1-320.webp",
+      "bytes": 1638,
+      "sha256": "0d3bdac946a927f431d6f5eaa6435d5644dc2dad3a4d0d852a425f1c6e938787"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-controlled-territory-v1-640.avif",
+      "bytes": 6579,
+      "sha256": "acaf341845b99137768114581bcd79dbc088a8a2f20557c161b2394873d1e647"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-controlled-territory-v1-640.webp",
+      "bytes": 4404,
+      "sha256": "5bf5fdca41e73ed19f778e0232213e9190731b0b05780aa07ee5eee7a35da3ea"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-controlled-territory-v1-960.avif",
+      "bytes": 12793,
+      "sha256": "0bfaf017d016d8164d6c216680b25a89880981aacdc5c2ac41c81dd14b3dfb1b"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-controlled-territory-v1-960.webp",
+      "bytes": 8398,
+      "sha256": "83ccbd79a6f0c774c5923cdea67982f07e57fa699320974880c16775e954f7c8"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-controlled-territory-v1-1280.avif",
+      "bytes": 18308,
+      "sha256": "f6809527a387c47e4656fd97525d16abcef9fcbb7c81da89504b733da063c5f7"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-controlled-territory-v1-1280.webp",
+      "bytes": 12000,
+      "sha256": "e10191bc6c18c113473c0efa25fa64fa33dbbc0f4766763e4c5ae7c88f8469fa"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-controlled-territory-v1-1920.avif",
+      "bytes": 28335,
+      "sha256": "6638b78727e02a35788301a0bb084608bd138fa0a33d6b26e0ccb3b26d27c87c"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-controlled-territory-v1-1920.webp",
+      "bytes": 19926,
+      "sha256": "c8cbf4bbd93e12aac0e5eb8668980bc477af27fc354cb4663e8db3fa420574df"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-controlled-territory-v1-2560.avif",
+      "bytes": 36774,
+      "sha256": "3e68a54294e1825af4134b3c0eb0b8771abaa9d3796c42a2c3a4b2b89b6183ad"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-controlled-territory-v1-2560.webp",
+      "bytes": 27624,
+      "sha256": "184e557c62a1b716d37b05dd0d3e09a8a58b9980877a6f333ac704acef881de6"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-controlled-territory-v1-3840.avif",
+      "bytes": 56488,
+      "sha256": "7bcbf5a4430cdc5297de0f90a23fbafae9da2792db88ef429e29dea84faa66c3"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-controlled-territory-v1-3840.webp",
+      "bytes": 45206,
+      "sha256": "57d357fa8294e4c29e4f895e853a321a172cc9c90200d48614cf7c31a4008039"
+    },
+    {
+      "path": "assets/production/png/organization-conflict-controlled-territory-v1-1280.png",
+      "bytes": 169211,
+      "sha256": "72c2867dcf9c90673d7b174cf5daaa58f2f8e4288c27bc9cb166a4a236fa054b"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/organization-conflict-controlled-territory-v1.webp",
+      "bytes": 1638,
+      "sha256": "0d3bdac946a927f431d6f5eaa6435d5644dc2dad3a4d0d852a425f1c6e938787"
+    },
+    {
+      "path": "apps/mobile/assets/library/organization-conflict-controlled-territory-v1.webp",
+      "bytes": 1638,
+      "sha256": "0d3bdac946a927f431d6f5eaa6435d5644dc2dad3a4d0d852a425f1c6e938787"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:59.541Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 93,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Conflict phases remain fictional and abstract, with no actionable real-world violence, hacking, or sabotage content.",
+      "No missing render, unsafe instruction, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 221836
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:28:49.533Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

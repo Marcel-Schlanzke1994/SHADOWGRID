@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-outer-district-commerce-ring-normal-night-v1",
+  "manifest_order": 456,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal-night",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-outer-district-commerce-ring-normal-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100456,
+  "content_hash": "90dd02fdcebdba407bff5f389597572432b2be9fe8b5c098ce47f43525fd982f",
+  "source_file": "assets/source/districts/district-outer-district-commerce-ring-normal-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-normal-night-v1-320.avif",
+      "bytes": 3400,
+      "sha256": "feb36bad574995a4240511928bdaedbbaf2a5b44a5b50c0087b7857a62005131"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-normal-night-v1-320.webp",
+      "bytes": 3310,
+      "sha256": "b9290f94564dcf9f06c673ec3e34319bd20bb3c1f839d879ba29d8dd4ad8b897"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-normal-night-v1-640.avif",
+      "bytes": 7132,
+      "sha256": "76e2264db469b82a3fe43b16abbf693d5682f35e9df7e730154fa708836cdadb"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-normal-night-v1-640.webp",
+      "bytes": 7184,
+      "sha256": "eda97df14717c739441fd2359beed8b034f69f0f9c5b2a7509f2a9a775743f9e"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-normal-night-v1-960.avif",
+      "bytes": 11964,
+      "sha256": "a8f7d5d490038a5f411e2ae6b76d2b8b1c9d872eaae9c2a4f80366dfda388160"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-normal-night-v1-960.webp",
+      "bytes": 12424,
+      "sha256": "54da6bfebc04b74996240cacbf46fbc30cc738e63065edf35959f2c7016b5784"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-normal-night-v1-1280.avif",
+      "bytes": 16680,
+      "sha256": "840e8c09843f29b27d9fc71e326feceb28a29231e439d473e94d326d9e3ed338"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-normal-night-v1-1280.webp",
+      "bytes": 16130,
+      "sha256": "2d5ba9d5f1aa045741bc65cfc9da3753fbc75c46d87aa055c48d7863d66d96c2"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-normal-night-v1-1920.avif",
+      "bytes": 25702,
+      "sha256": "5e6c2ea5f1dc290be48ca1907bf81ba4c3cab24e8937b5a228d984b886278ce8"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-normal-night-v1-1920.webp",
+      "bytes": 25214,
+      "sha256": "51562fc8fc98d1601385dae054639aa809d3279f2037d6ae40125cbcb93be75f"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-normal-night-v1-2560.avif",
+      "bytes": 34851,
+      "sha256": "13a00f262d81cb8f9a0bb0b7e9e790552bbd32c0dd99704f39cfe603d1f825b7"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-normal-night-v1-2560.webp",
+      "bytes": 33472,
+      "sha256": "be7a4f7f24fa6f94169726615c43011729dcb30e4a75f21eb624fe9081c6af58"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-normal-night-v1-3840.avif",
+      "bytes": 55189,
+      "sha256": "16cc3eb9d529b382c55a0c863436ff4097046efd2449c157772d3da1b1dc7a75"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-normal-night-v1-3840.webp",
+      "bytes": 52458,
+      "sha256": "68dd4f326698c2572286565b4b7179854138d4c295eb77d684a47f501e6ecc6a"
+    },
+    {
+      "path": "assets/production/png/district-outer-district-commerce-ring-normal-night-v1-1280.png",
+      "bytes": 653407,
+      "sha256": "085dcaba5a90a6b4e631f9ba02257b24cd8a9ec02b6fcf8891a380cfd7a2d66f"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-outer-district-commerce-ring-normal-night-v1.webp",
+      "bytes": 3310,
+      "sha256": "b9290f94564dcf9f06c673ec3e34319bd20bb3c1f839d879ba29d8dd4ad8b897"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-outer-district-commerce-ring-normal-night-v1.webp",
+      "bytes": 3310,
+      "sha256": "b9290f94564dcf9f06c673ec3e34319bd20bb3c1f839d879ba29d8dd4ad8b897"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.441Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1472129
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:50:08.603Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "asset_id": "overlay-organization-control-v1",
+  "manifest_order": 826,
+  "category": "overlay",
+  "batch": "weather-overlays",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/overlay-organization-control-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100826,
+  "content_hash": "d2c75dd7a92d11050745fcd20176ddbb596f6a13ed6dd9f7fa723e4bc1cfd90d",
+  "source_file": "assets/source/effects/overlay-organization-control-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/overlay-organization-control-v1-320.avif",
+      "bytes": 5509,
+      "sha256": "2a2b04dc6061a0d3fef7b44dc866dececd771b14c48efe17fc33b90aa023738f"
+    },
+    {
+      "path": "assets/production/webp/overlay-organization-control-v1-320.webp",
+      "bytes": 7892,
+      "sha256": "29b114b2531fed920148298f7f6689dcb96667e9e837f4eba419851871f2e681"
+    },
+    {
+      "path": "assets/production/avif/overlay-organization-control-v1-640.avif",
+      "bytes": 12113,
+      "sha256": "53e87370cd6e6a03d6329223c2596818f323325b20ed2ec298c26a7b89b7e3c0"
+    },
+    {
+      "path": "assets/production/webp/overlay-organization-control-v1-640.webp",
+      "bytes": 16872,
+      "sha256": "d8f05446ce75396441300d07b8525997c0d69fd29e7bb19ad2670fe568d0688f"
+    },
+    {
+      "path": "assets/production/avif/overlay-organization-control-v1-960.avif",
+      "bytes": 20076,
+      "sha256": "6269d9e3cc71cb08ce2e7b31f5bb4ef974a6393a2103a70184a4eb1bda5e6617"
+    },
+    {
+      "path": "assets/production/webp/overlay-organization-control-v1-960.webp",
+      "bytes": 28436,
+      "sha256": "e1d32647018918d39a00411f603c5bf493759fb36cd66b4f3686c6a88f4c4963"
+    },
+    {
+      "path": "assets/production/avif/overlay-organization-control-v1-1280.avif",
+      "bytes": 26188,
+      "sha256": "74ed41edc3a1e88a4a3b3ada24d834342b43ce15c8db00f91b3f98878149880d"
+    },
+    {
+      "path": "assets/production/webp/overlay-organization-control-v1-1280.webp",
+      "bytes": 37386,
+      "sha256": "fde630f79c254219e27b38ef661d79f161d19e206ad4d248369e04b39ee7db6f"
+    },
+    {
+      "path": "assets/production/avif/overlay-organization-control-v1-1920.avif",
+      "bytes": 38701,
+      "sha256": "29461b0e056191ddeb1a5aa28fb1f894e9cb7e6718cc277973950dd3cfab07ee"
+    },
+    {
+      "path": "assets/production/webp/overlay-organization-control-v1-1920.webp",
+      "bytes": 57140,
+      "sha256": "69d7d39ff9c8ea02a0fd903ed55d53966239dc135c5e6fb71ab79126f6469a40"
+    },
+    {
+      "path": "assets/production/avif/overlay-organization-control-v1-2560.avif",
+      "bytes": 37888,
+      "sha256": "77103bbf5e5c08153e6c4fc9514d8b24502f2f4477b5aaf12eb84a0c16604424"
+    },
+    {
+      "path": "assets/production/webp/overlay-organization-control-v1-2560.webp",
+      "bytes": 67946,
+      "sha256": "c49f16669c4fb980e0bdbd49293d9fff972f983d378cbe5fb542388d419d9fb7"
+    },
+    {
+      "path": "assets/production/avif/overlay-organization-control-v1-3840.avif",
+      "bytes": 63161,
+      "sha256": "2fbc1c78c4993b0f42122e1abdd471a607fb498824cb4dadbcb8c9724986bcf1"
+    },
+    {
+      "path": "assets/production/webp/overlay-organization-control-v1-3840.webp",
+      "bytes": 123202,
+      "sha256": "df19f8991274f08ec8454b060d99807d1436b5bf118b02d3a9d4b7deb9b0cd9a"
+    },
+    {
+      "path": "assets/production/png/overlay-organization-control-v1-1280.png",
+      "bytes": 75722,
+      "sha256": "d5c07e1b258159a59d1ed57da2a45a92419342a2c1f1cfcdc00ae312bd2823e9"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/overlay-organization-control-v1.webp",
+      "bytes": 7892,
+      "sha256": "29b114b2531fed920148298f7f6689dcb96667e9e837f4eba419851871f2e681"
+    },
+    {
+      "path": "apps/mobile/assets/library/overlay-organization-control-v1.webp",
+      "bytes": 7892,
+      "sha256": "29b114b2531fed920148298f7f6689dcb96667e9e837f4eba419851871f2e681"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.4,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:28.143Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 93,
+      "architecture_plausibility": 90,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Boom, crisis, authority, organization control, contested, and blocked states use distinct graph, scan, zone, cross, and hatch semantics.",
+      "Transparent weather and material overlays were checked against the contact-sheet dark background; no unintended opaque fill or broken render remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": true,
+      "bytes": 68942
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T06:06:01.551Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-bochum-mobile-day-v1",
+  "manifest_order": 191,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "bochum",
+  "variant": "mobile-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-bochum-mobile-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100191,
+  "content_hash": "53a8a5d21827a20574c394a08a1d1f5c97e12e97317935c97f07bec7eb7826e6",
+  "source_file": "assets/source/cities/city-bochum-mobile-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-bochum-mobile-day-v1-320.avif",
+      "bytes": 4424,
+      "sha256": "e69feea3aa8c3993163c2f1be20de9a32715793a7f205aeac2a7cf4c6d20ae38"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-mobile-day-v1-320.webp",
+      "bytes": 3932,
+      "sha256": "761af8f5cead9332631a70bd2fa3db0bd65d2d33a5451c34a426aad06190ee65"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-mobile-day-v1-640.avif",
+      "bytes": 9291,
+      "sha256": "0e8975861b4d2f24b98a73ebc1374ac63f2c06a97fd2379b3eae2bedefbfe88c"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-mobile-day-v1-640.webp",
+      "bytes": 7848,
+      "sha256": "b23344c40867e232d4dbffec0354f8a675e4ec87f5f7c3e1f6717e892e7d8b0c"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-mobile-day-v1-960.avif",
+      "bytes": 17166,
+      "sha256": "9326d4a2712121d9745dcd359d21810c6e0fd3dd446856712c7c542f3e9e79a2"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-mobile-day-v1-960.webp",
+      "bytes": 13784,
+      "sha256": "e02193b4136dc3a70236c0546c35adb3883eb1a9ea352b833f1773d42d50c8eb"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-mobile-day-v1-1280.avif",
+      "bytes": 22737,
+      "sha256": "6a92fbb8fd9e4eb26e40ac95ebb82ddf0ef71933dc793d30fcb218bd1bf88650"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-mobile-day-v1-1280.webp",
+      "bytes": 19226,
+      "sha256": "208bd3cb3c836c01e8c833fc84e33881543cb782f0c0048938d89e8368e63d97"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-mobile-day-v1-1920.avif",
+      "bytes": 37130,
+      "sha256": "868868c8dac42a55fbc0e88d152bd4dd4a3d4958f1cb1ab3a2572472e5e5a65a"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-mobile-day-v1-1920.webp",
+      "bytes": 34496,
+      "sha256": "7b4a4291db96d872fdb7f064b7d41cdc6a604f0dafe5d6709336cb24cdb700d7"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-mobile-day-v1-2560.avif",
+      "bytes": 53623,
+      "sha256": "f669196f93052d1683bd66a126dc2150a4fbd5b5e893f80e10eee8f9640c0fef"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-mobile-day-v1-2560.webp",
+      "bytes": 51880,
+      "sha256": "617098a1a23711d45ed0d8132d09f2438ceb5cf7896e8131cebf6a4b1eda4866"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-mobile-day-v1-3840.avif",
+      "bytes": 96653,
+      "sha256": "cac99041d711f642898a7db03540747d6f6ec596ec26f43fd492ca13310373a0"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-mobile-day-v1-3840.webp",
+      "bytes": 103604,
+      "sha256": "be0a1dff08790fe4cd0e42cb60187d21bb70fde1cb7343ccbc805776350d8f4d"
+    },
+    {
+      "path": "assets/production/png/city-bochum-mobile-day-v1-1152.png",
+      "bytes": 1682541,
+      "sha256": "53a8a5d21827a20574c394a08a1d1f5c97e12e97317935c97f07bec7eb7826e6"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-day-v1-320.avif",
+      "bytes": 4424,
+      "sha256": "e69feea3aa8c3993163c2f1be20de9a32715793a7f205aeac2a7cf4c6d20ae38"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-day-v1-320.webp",
+      "bytes": 3932,
+      "sha256": "761af8f5cead9332631a70bd2fa3db0bd65d2d33a5451c34a426aad06190ee65"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-day-v1-640.avif",
+      "bytes": 9291,
+      "sha256": "0e8975861b4d2f24b98a73ebc1374ac63f2c06a97fd2379b3eae2bedefbfe88c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-day-v1-640.webp",
+      "bytes": 7848,
+      "sha256": "b23344c40867e232d4dbffec0354f8a675e4ec87f5f7c3e1f6717e892e7d8b0c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-day-v1-960.avif",
+      "bytes": 17166,
+      "sha256": "9326d4a2712121d9745dcd359d21810c6e0fd3dd446856712c7c542f3e9e79a2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-day-v1-960.webp",
+      "bytes": 13784,
+      "sha256": "e02193b4136dc3a70236c0546c35adb3883eb1a9ea352b833f1773d42d50c8eb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-day-v1-1280.avif",
+      "bytes": 22737,
+      "sha256": "6a92fbb8fd9e4eb26e40ac95ebb82ddf0ef71933dc793d30fcb218bd1bf88650"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-day-v1-1280.webp",
+      "bytes": 19226,
+      "sha256": "208bd3cb3c836c01e8c833fc84e33881543cb782f0c0048938d89e8368e63d97"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-day-v1-1920.avif",
+      "bytes": 37130,
+      "sha256": "868868c8dac42a55fbc0e88d152bd4dd4a3d4958f1cb1ab3a2572472e5e5a65a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-day-v1-1920.webp",
+      "bytes": 34496,
+      "sha256": "7b4a4291db96d872fdb7f064b7d41cdc6a604f0dafe5d6709336cb24cdb700d7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-day-v1-2560.avif",
+      "bytes": 53623,
+      "sha256": "f669196f93052d1683bd66a126dc2150a4fbd5b5e893f80e10eee8f9640c0fef"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-day-v1-2560.webp",
+      "bytes": 51880,
+      "sha256": "617098a1a23711d45ed0d8132d09f2438ceb5cf7896e8131cebf6a4b1eda4866"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-day-v1-3840.avif",
+      "bytes": 96653,
+      "sha256": "cac99041d711f642898a7db03540747d6f6ec596ec26f43fd492ca13310373a0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-day-v1-3840.webp",
+      "bytes": 103604,
+      "sha256": "be0a1dff08790fe4cd0e42cb60187d21bb70fde1cb7343ccbc805776350d8f4d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-day-v1-1152.png",
+      "bytes": 1682541,
+      "sha256": "53a8a5d21827a20574c394a08a1d1f5c97e12e97317935c97f07bec7eb7826e6"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-bochum-mobile-day-v1.webp",
+      "bytes": 3932,
+      "sha256": "761af8f5cead9332631a70bd2fa3db0bd65d2d33a5451c34a426aad06190ee65"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-bochum-mobile-day-v1.webp",
+      "bytes": 3932,
+      "sha256": "761af8f5cead9332631a70bd2fa3db0bd65d2d33a5451c34a426aad06190ee65"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.935Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1682541
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:38:31.969Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

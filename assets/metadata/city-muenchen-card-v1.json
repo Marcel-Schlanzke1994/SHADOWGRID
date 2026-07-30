@@ -170,35 +170,49 @@
       "path": "apps/web/public/assets/cities/city-muenchen-card-v1-1280.png",
       "bytes": 2831389,
       "sha256": "3310e3a15fce089287e9c47facfcd46e807fcfb28429358e6711049abad04d88"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-muenchen-card-v1.webp",
+      "bytes": 8488,
+      "sha256": "f2a3c021309e237640ed10bbf6ffeda886241c5290face3dee22ea1e02b10cec"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-muenchen-card-v1.webp",
+      "bytes": 8488,
+      "sha256": "f2a3c021309e237640ed10bbf6ffeda886241c5290face3dee22ea1e02b10cec"
     }
   ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,
   "moderation_status": "approved",
-  "quality_score": 98.9,
+  "quality_score": 92.9,
   "quality_status": "approved",
   "review_status": "codex-visual-approved",
   "visual_review": {
-    "realism": 98,
-    "style_consistency": 100,
-    "composition": 100,
-    "material_quality": 98,
-    "lighting_quality": 99,
-    "architecture_plausibility": 98,
-    "ui_suitability": 100,
-    "mobile_suitability": 99,
-    "originality": 97,
-    "safety_compliance": 100,
-    "revision_prompt": "Revise this square fictional München-inspired SHADOWGRID city-card backing plate while preserving the exact 1:1 canvas, daytime lighting, subtle low foothills, fictional pale-stone and technology district, landscaped river, original bridge, park, and premium realistic visual style.\n\nMandatory correction: make the entire bottom 24% a calm, dark, low-detail open-water label-safe band. Remove the detailed lower-right wet-stone terrace, planters, tree, railings, steps, and hard edge wherever they enter that bottom band. Extend physically plausible dark river water across the full width of the bottom 24%, with only very subtle low-contrast ripples and no bright reflection cluster. Keep the terrace, trees, bridge, buildings, and all other important shapes fully above the 76% height line. Blend the revised water naturally into the accepted river above.\n\nRetain overcast post-rain daytime and the original fictional city identity. Do not add any real München landmark, recognizable Isar viewpoint, corporate campus, operational layout, text, UI, logo, person, authority mark, or known photograph.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable identifiers, identifiable people, flags, criminal symbols, extremist symbols, weapons, violence, operational wrongdoing, routes, instructions, fantasy architecture, impossible geometry, dramatic mountains, neon, warning red, blur, or fake writing.\n\nDeliver only the corrected clean premium 1:1 city-card backing plate with the entire lower 24% visibly calm dark water suitable for external localized labels, badges, and one action.",
-    "reference_images": [
-      "assets/source/cities/city-muenchen-desktop-day-v1.png"
-    ],
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.228Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
     "notes": [
-      "The first square recomposition was held back because a detailed wet-stone terrace, planter, and tree entered the requested lower label-safe band.",
-      "The accepted revision moves all detailed terrace and landscape geometry above the 76 percent height line and extends calm dark river water across the complete lower 24 percent.",
-      "The fictional river, original bridge, landscaped park, pale-stone/technology district, and subtle foothills remain a centered city-card anchor above the label band.",
-      "No recognizable München landmark, corporate campus, exact Isar viewpoint, embedded text, logo, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
     ]
   },
   "technical_validation": {

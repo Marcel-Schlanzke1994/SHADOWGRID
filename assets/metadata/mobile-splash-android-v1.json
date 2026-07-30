@@ -1,0 +1,171 @@
+{
+  "asset_id": "mobile-splash-android-v1",
+  "manifest_order": 861,
+  "category": "mobile",
+  "batch": "mobile",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/mobile-splash-android-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100861,
+  "content_hash": "90a21cec2a85bc32e528532d150495cc38b6a0b49ab66118fddffcc84f835e2a",
+  "source_file": "assets/source/marketing/mobile-splash-android-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/mobile-splash-android-v1-320.avif",
+      "bytes": 5032,
+      "sha256": "adfe48df301b38eb644012fa4cc05c03a605cfdac07519c87e63a8d42ede3d58"
+    },
+    {
+      "path": "assets/production/webp/mobile-splash-android-v1-320.webp",
+      "bytes": 4480,
+      "sha256": "ec9bb47a53bdc080f2887818990f33d22bcee3298b5a426684620db80d44c86e"
+    },
+    {
+      "path": "assets/production/avif/mobile-splash-android-v1-640.avif",
+      "bytes": 11128,
+      "sha256": "5934d526edf9527b7d1fa7ca9451b3f9c059a5b5bb477df03be05c5a1e94bc62"
+    },
+    {
+      "path": "assets/production/webp/mobile-splash-android-v1-640.webp",
+      "bytes": 8854,
+      "sha256": "c0c1bebefc7f27cbfdddab39f86da2f6947cfcca576af637020fe3bb817c0568"
+    },
+    {
+      "path": "assets/production/avif/mobile-splash-android-v1-960.avif",
+      "bytes": 19514,
+      "sha256": "8110336cf3b50011dd7f5494910e872525e6acaf25e0e1c54e0207e0d80a291e"
+    },
+    {
+      "path": "assets/production/webp/mobile-splash-android-v1-960.webp",
+      "bytes": 15224,
+      "sha256": "0d7b3a3a4eee9dc98389b318ef704348d174b5b1bc97605bfcbc8b06f0fa59f7"
+    },
+    {
+      "path": "assets/production/avif/mobile-splash-android-v1-1280.avif",
+      "bytes": 26773,
+      "sha256": "0b6aeca82bd5bf8566cf8cce04e992bb40dc613e04082ec27571c4a0b2d23c80"
+    },
+    {
+      "path": "assets/production/webp/mobile-splash-android-v1-1280.webp",
+      "bytes": 21352,
+      "sha256": "f36e969a170decae0e36448c58e413ce3679cc45652f2640df655633843b3bc1"
+    },
+    {
+      "path": "assets/production/avif/mobile-splash-android-v1-1920.avif",
+      "bytes": 43078,
+      "sha256": "cec8a4c4ef02b6275202c398110f959a3f6420dfedad967cb809ab3e0ee7bda5"
+    },
+    {
+      "path": "assets/production/webp/mobile-splash-android-v1-1920.webp",
+      "bytes": 37498,
+      "sha256": "cb5cd0e90ed1e26f1ce4209e5d43cb865db56ebd78ed20eb37f80605c8e44c53"
+    },
+    {
+      "path": "assets/production/avif/mobile-splash-android-v1-2560.avif",
+      "bytes": 63738,
+      "sha256": "eb2bcda52d309ec6e9ed6051c2f423977bbdb4118c58222f2df4e89154d53a74"
+    },
+    {
+      "path": "assets/production/webp/mobile-splash-android-v1-2560.webp",
+      "bytes": 57930,
+      "sha256": "0ec4f6d8580f05e758afa7a2d4d3b4070a40110506012d0f8fdd442c83395120"
+    },
+    {
+      "path": "assets/production/avif/mobile-splash-android-v1-3840.avif",
+      "bytes": 110537,
+      "sha256": "6a65d61990363642eeb7124cf77820748d46fbacf0e549ccb717f4a2e29eade0"
+    },
+    {
+      "path": "assets/production/webp/mobile-splash-android-v1-3840.webp",
+      "bytes": 115408,
+      "sha256": "c781f3c66dc051b41933a820c5bd53641be2221208af2941bd46a5cf4d828067"
+    },
+    {
+      "path": "assets/production/png/mobile-splash-android-v1-1152.png",
+      "bytes": 1690755,
+      "sha256": "90a21cec2a85bc32e528532d150495cc38b6a0b49ab66118fddffcc84f835e2a"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/mobile-splash-android-v1.webp",
+      "bytes": 4480,
+      "sha256": "ec9bb47a53bdc080f2887818990f33d22bcee3298b5a426684620db80d44c86e"
+    },
+    {
+      "path": "apps/mobile/assets/library/mobile-splash-android-v1.webp",
+      "bytes": 4480,
+      "sha256": "ec9bb47a53bdc080f2887818990f33d22bcee3298b5a426684620db80d44c86e"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 94.4,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:37.246Z",
+    "scores": {
+      "realism": 90,
+      "style_consistency": 97,
+      "composition": 95,
+      "material_quality": 91,
+      "light_quality": 93,
+      "architecture_plausibility": 91,
+      "ui_suitability": 97,
+      "mobile_suitability": 98,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 96,
+      "contrast": 96,
+      "geometry_quality": 96,
+      "technical_quality": 98
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution, including transparent adaptive and monochrome assets.",
+      "The apparently empty monochrome contact-sheet cell was separately inspected and confirmed as a valid transparent single-color platform glyph.",
+      "Safe areas, contrast, transparency, and small-size behavior are suitable for the intended mobile placements."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1690755
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:44:24.904Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

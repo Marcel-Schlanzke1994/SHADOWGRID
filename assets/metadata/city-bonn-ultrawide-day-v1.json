@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-bonn-ultrawide-day-v1",
+  "manifest_order": 211,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "bonn",
+  "variant": "ultrawide-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-bonn-ultrawide-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100211,
+  "content_hash": "23460952df8eebbe079ed324c4113d4e2a95eb737f7670a28f8a65449f2fe403",
+  "source_file": "assets/source/cities/city-bonn-ultrawide-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-bonn-ultrawide-day-v1-320.avif",
+      "bytes": 2722,
+      "sha256": "c8e53e5be4b510df782e49319ebbff03e779aa93b447bd9d5f9eeb800a80afd9"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-ultrawide-day-v1-320.webp",
+      "bytes": 2610,
+      "sha256": "ef989c6ceb19d5a4c00aba937f1de4b64d5cb3031cb9b9f1fb7840ad742ff8ef"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-ultrawide-day-v1-640.avif",
+      "bytes": 5425,
+      "sha256": "ced09ecbf2624ed0111191cf7f85e53b7246c74be2b1e0636ff02dfcee054942"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-ultrawide-day-v1-640.webp",
+      "bytes": 4998,
+      "sha256": "3811c2f5f4f2698382f01d347ec163851904ffca2cc2ea2302ddb6ef641cbb35"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-ultrawide-day-v1-960.avif",
+      "bytes": 9591,
+      "sha256": "ce343aff3d6912f9da0720866b9486fc25fb7990a1896a5885ee76e92698588e"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-ultrawide-day-v1-960.webp",
+      "bytes": 8064,
+      "sha256": "00c3a23d126a87c62b4342d76b8784c3bc1524a1a1672fc0b2af403ced403af1"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-ultrawide-day-v1-1280.avif",
+      "bytes": 12780,
+      "sha256": "ce2f595f224db344b5674899577d4313acbb1f68954480543679c7e8635b3bdf"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-ultrawide-day-v1-1280.webp",
+      "bytes": 10732,
+      "sha256": "9a0abc42215e94a4df80e5c898c50b7e8ae1a1362947d6c4cd7f65a218f71eaa"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-ultrawide-day-v1-1920.avif",
+      "bytes": 19222,
+      "sha256": "5c2c1ae7e8719ac00fd0a46d02476fa7df91579474edcc1cea06509b932f8d25"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-ultrawide-day-v1-1920.webp",
+      "bytes": 16144,
+      "sha256": "905f2d8af6e6c2210d38be74ecab5c7f2f4d384dc790ebb61888823bf8b0ef24"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-ultrawide-day-v1-2560.avif",
+      "bytes": 26100,
+      "sha256": "106f7e0f6bfa2afc03b0954dde95cd7c93a66d4881de944326d56d7bb542ff29"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-ultrawide-day-v1-2560.webp",
+      "bytes": 22320,
+      "sha256": "ab3febe916a0c71c101ee40526e5386f27fb1515ec6b77a117768260621702bb"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-ultrawide-day-v1-3840.avif",
+      "bytes": 40807,
+      "sha256": "8f71546c90afc53d76d49e77ac3150af22d0ebb9d7865e1f2a0760ded603c3df"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-ultrawide-day-v1-3840.webp",
+      "bytes": 37352,
+      "sha256": "943608a7aefae05345bf809630da286fed69a6cb2722f5cd1c0f736dc5d7f86d"
+    },
+    {
+      "path": "assets/production/png/city-bonn-ultrawide-day-v1-1280.png",
+      "bytes": 424132,
+      "sha256": "0ff0735f7c35a6426d2a3297c7c4a4130c92d11fcbcde8dfa351a5b3c987a373"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-ultrawide-day-v1-320.avif",
+      "bytes": 2722,
+      "sha256": "c8e53e5be4b510df782e49319ebbff03e779aa93b447bd9d5f9eeb800a80afd9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-ultrawide-day-v1-320.webp",
+      "bytes": 2610,
+      "sha256": "ef989c6ceb19d5a4c00aba937f1de4b64d5cb3031cb9b9f1fb7840ad742ff8ef"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-ultrawide-day-v1-640.avif",
+      "bytes": 5425,
+      "sha256": "ced09ecbf2624ed0111191cf7f85e53b7246c74be2b1e0636ff02dfcee054942"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-ultrawide-day-v1-640.webp",
+      "bytes": 4998,
+      "sha256": "3811c2f5f4f2698382f01d347ec163851904ffca2cc2ea2302ddb6ef641cbb35"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-ultrawide-day-v1-960.avif",
+      "bytes": 9591,
+      "sha256": "ce343aff3d6912f9da0720866b9486fc25fb7990a1896a5885ee76e92698588e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-ultrawide-day-v1-960.webp",
+      "bytes": 8064,
+      "sha256": "00c3a23d126a87c62b4342d76b8784c3bc1524a1a1672fc0b2af403ced403af1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-ultrawide-day-v1-1280.avif",
+      "bytes": 12780,
+      "sha256": "ce2f595f224db344b5674899577d4313acbb1f68954480543679c7e8635b3bdf"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-ultrawide-day-v1-1280.webp",
+      "bytes": 10732,
+      "sha256": "9a0abc42215e94a4df80e5c898c50b7e8ae1a1362947d6c4cd7f65a218f71eaa"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-ultrawide-day-v1-1920.avif",
+      "bytes": 19222,
+      "sha256": "5c2c1ae7e8719ac00fd0a46d02476fa7df91579474edcc1cea06509b932f8d25"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-ultrawide-day-v1-1920.webp",
+      "bytes": 16144,
+      "sha256": "905f2d8af6e6c2210d38be74ecab5c7f2f4d384dc790ebb61888823bf8b0ef24"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-ultrawide-day-v1-2560.avif",
+      "bytes": 26100,
+      "sha256": "106f7e0f6bfa2afc03b0954dde95cd7c93a66d4881de944326d56d7bb542ff29"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-ultrawide-day-v1-2560.webp",
+      "bytes": 22320,
+      "sha256": "ab3febe916a0c71c101ee40526e5386f27fb1515ec6b77a117768260621702bb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-ultrawide-day-v1-3840.avif",
+      "bytes": 40807,
+      "sha256": "8f71546c90afc53d76d49e77ac3150af22d0ebb9d7865e1f2a0760ded603c3df"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-ultrawide-day-v1-3840.webp",
+      "bytes": 37352,
+      "sha256": "943608a7aefae05345bf809630da286fed69a6cb2722f5cd1c0f736dc5d7f86d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-ultrawide-day-v1-1280.png",
+      "bytes": 424132,
+      "sha256": "0ff0735f7c35a6426d2a3297c7c4a4130c92d11fcbcde8dfa351a5b3c987a373"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-bonn-ultrawide-day-v1.webp",
+      "bytes": 2610,
+      "sha256": "ef989c6ceb19d5a4c00aba937f1de4b64d5cb3031cb9b9f1fb7840ad742ff8ef"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-bonn-ultrawide-day-v1.webp",
+      "bytes": 2610,
+      "sha256": "ef989c6ceb19d5a4c00aba937f1de4b64d5cb3031cb9b9f1fb7840ad742ff8ef"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.143Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 2098121
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:57:24.374Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

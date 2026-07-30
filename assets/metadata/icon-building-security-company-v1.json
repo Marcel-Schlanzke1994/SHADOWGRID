@@ -1,0 +1,75 @@
+{
+  "asset_id": "icon-building-security-company-v1",
+  "manifest_order": 784,
+  "category": "icon",
+  "batch": "ui-icons",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "24:24",
+  "width": 24,
+  "height": 24,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/icon-building-security-company-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100784,
+  "content_hash": "d2bb5193601d0d96011b968f77ed908a359aa139ba2ba6f7c7fe03dcca7cf045",
+  "source_file": "assets/source/icons/icon-building-security-company-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/icon-building-security-company-v1.svg",
+      "bytes": 603,
+      "sha256": "d2bb5193601d0d96011b968f77ed908a359aa139ba2ba6f7c7fe03dcca7cf045"
+    },
+    {
+      "path": "assets/production/webp/icon-building-security-company-v1-320.webp",
+      "bytes": 3628,
+      "sha256": "2b2d7f075a84640a4bb35cc2624f8d807200f98817e85e8457c238b51d76fc70"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/icon-building-security-company-v1.webp",
+      "bytes": 3628,
+      "sha256": "2b2d7f075a84640a4bb35cc2624f8d807200f98817e85e8457c238b51d76fc70"
+    },
+    {
+      "path": "apps/mobile/assets/library/icon-building-security-company-v1.webp",
+      "bytes": 3628,
+      "sha256": "2b2d7f075a84640a4bb35cc2624f8d807200f98817e85e8457c238b51d76fc70"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 603
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:51:44.359Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

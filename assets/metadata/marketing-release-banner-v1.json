@@ -1,0 +1,171 @@
+{
+  "asset_id": "marketing-release-banner-v1",
+  "manifest_order": 896,
+  "category": "marketing",
+  "batch": "store-marketing",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/marketing-release-banner-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100896,
+  "content_hash": "7554990ea153b29de049a20829cb0ff232259ed26a26517386227cae0b9e7424",
+  "source_file": "assets/source/marketing/marketing-release-banner-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/marketing-release-banner-v1-320.avif",
+      "bytes": 3395,
+      "sha256": "4f47921d334075806b2f600a6261ac7447a80da25b18d87e1f46cd5d8c7fb3c5"
+    },
+    {
+      "path": "assets/production/webp/marketing-release-banner-v1-320.webp",
+      "bytes": 3412,
+      "sha256": "10238d8cd103d5165a00be8099960cf70e3cb7caafee540b29b70c9ed8fa26ed"
+    },
+    {
+      "path": "assets/production/avif/marketing-release-banner-v1-640.avif",
+      "bytes": 7356,
+      "sha256": "2675ed05805845a23d24fa081e8b3a969e30a27dbd937e8877b1efec9fa1d429"
+    },
+    {
+      "path": "assets/production/webp/marketing-release-banner-v1-640.webp",
+      "bytes": 6840,
+      "sha256": "423ca5b495a0e0a5cda137a52c87c518fe4008fc1e28b6d6d038de66195b416f"
+    },
+    {
+      "path": "assets/production/avif/marketing-release-banner-v1-960.avif",
+      "bytes": 12441,
+      "sha256": "d6ab457b8e45a470038d50cdd06415a2b67082f834c7402ccbb5128199d58331"
+    },
+    {
+      "path": "assets/production/webp/marketing-release-banner-v1-960.webp",
+      "bytes": 10920,
+      "sha256": "9b3ac2bac6841d66a4577c94ce066d3fd9c9263ecefef80db2feeeced05d3aba"
+    },
+    {
+      "path": "assets/production/avif/marketing-release-banner-v1-1280.avif",
+      "bytes": 17709,
+      "sha256": "f65ac494434547a4a6c72d14f6b169d801699d77461fdb884f1e439bd53934ae"
+    },
+    {
+      "path": "assets/production/webp/marketing-release-banner-v1-1280.webp",
+      "bytes": 14362,
+      "sha256": "e1ce551baecb18ed98ddb14421b7381e5a1331b3b7e741191eb62ed4a719a05a"
+    },
+    {
+      "path": "assets/production/avif/marketing-release-banner-v1-1920.avif",
+      "bytes": 27003,
+      "sha256": "1888292167f728ff88cc67e2c9f9d2fe3d8af20d897da07fb846a3d5775bed28"
+    },
+    {
+      "path": "assets/production/webp/marketing-release-banner-v1-1920.webp",
+      "bytes": 21982,
+      "sha256": "86249d08718204eed178995270315014286301ed68ec25baae72bbbbd85d9a2c"
+    },
+    {
+      "path": "assets/production/avif/marketing-release-banner-v1-2560.avif",
+      "bytes": 37278,
+      "sha256": "00f03f9f7dc37f622602542af95560579e2cea06b79a9627c0323591e6c9fa80"
+    },
+    {
+      "path": "assets/production/webp/marketing-release-banner-v1-2560.webp",
+      "bytes": 29932,
+      "sha256": "cd43a8b1152ae42f3286e8c80c1740c5f54e1860b9cd85cd8354f099ae13a20c"
+    },
+    {
+      "path": "assets/production/avif/marketing-release-banner-v1-3840.avif",
+      "bytes": 58367,
+      "sha256": "5aaba888758e9594fbd8612734696db80dc91f53cf8f14957a2be8e01c1bc8a0"
+    },
+    {
+      "path": "assets/production/webp/marketing-release-banner-v1-3840.webp",
+      "bytes": 51090,
+      "sha256": "c623db06786e6d441cc454393aeb99ec392797342f73e14e5b9b6c8716a7fe14"
+    },
+    {
+      "path": "assets/production/png/marketing-release-banner-v1-1280.png",
+      "bytes": 735902,
+      "sha256": "3d10cd81416c7236bf8cc8f44845e69fd5a42e7a3e11ac2f8af3f3ef01039425"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/marketing-release-banner-v1.webp",
+      "bytes": 3412,
+      "sha256": "10238d8cd103d5165a00be8099960cf70e3cb7caafee540b29b70c9ed8fa26ed"
+    },
+    {
+      "path": "apps/mobile/assets/library/marketing-release-banner-v1.webp",
+      "bytes": 3412,
+      "sha256": "10238d8cd103d5165a00be8099960cf70e3cb7caafee540b29b70c9ed8fa26ed"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 94.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:37:55.604Z",
+    "scores": {
+      "realism": 94,
+      "style_consistency": 96,
+      "composition": 95,
+      "material_quality": 93,
+      "light_quality": 94,
+      "architecture_plausibility": 92,
+      "ui_suitability": 97,
+      "mobile_suitability": 97,
+      "originality": 90,
+      "safety_compliance": 100,
+      "small_size_legibility": 94,
+      "contrast": 96,
+      "geometry_quality": 96,
+      "technical_quality": 98
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution.",
+      "All 20 store captures are sourced from the functioning application at exact declared dimensions; feature graphic and icon are opaque exact-size static art.",
+      "Text-free community and release banners are intentionally neutral procedural variants, with no fake UI, third-party logo, unsafe content, broken crop, or unintended text."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1672853
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:49:23.687Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

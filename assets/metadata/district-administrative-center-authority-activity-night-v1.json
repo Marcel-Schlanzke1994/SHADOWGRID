@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-administrative-center-authority-activity-night-v1",
+  "manifest_order": 414,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "authority-activity-night",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-administrative-center-authority-activity-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100414,
+  "content_hash": "b37472b542379c0ae8e35d0e05efe4c0971568410e11c3c36e2b1563f271974a",
+  "source_file": "assets/source/districts/district-administrative-center-authority-activity-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-administrative-center-authority-activity-night-v1-320.avif",
+      "bytes": 3662,
+      "sha256": "27504f13d84bc31375ea13097ec6cd7546eda7a12d3ee32ad2a1f0e8d909f809"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-authority-activity-night-v1-320.webp",
+      "bytes": 3416,
+      "sha256": "76492f52eefd04c74e51cc6000707f320a9a3628d5afa3a4a98bc2411f68e3c8"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-authority-activity-night-v1-640.avif",
+      "bytes": 7482,
+      "sha256": "b4e779f037bea99df3bc1a53a9e1d4567417e8d44abc35a6d68fb0468571d95e"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-authority-activity-night-v1-640.webp",
+      "bytes": 7758,
+      "sha256": "18c27600531d942372a4d35be346bf3702c2b2604b3ffeb332c288f6766ac08a"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-authority-activity-night-v1-960.avif",
+      "bytes": 13241,
+      "sha256": "cb823530a6caaf8f6f911b2b93fd42f0b04d67c88a0f1b2a58004c6bd7d8289a"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-authority-activity-night-v1-960.webp",
+      "bytes": 13224,
+      "sha256": "f897cc8a60a91eab45605681eb4c9c3422b25536667979c2b353f4ba7f008e9a"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-authority-activity-night-v1-1280.avif",
+      "bytes": 17803,
+      "sha256": "f245f28b08c0de13e56f12b5dc2d21c2eba3923f09174ae615e02bc3abcd99d9"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-authority-activity-night-v1-1280.webp",
+      "bytes": 17262,
+      "sha256": "80e045b61048f3c1ac5291de056f7c16840163630357dd70d10813b72706c78e"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-authority-activity-night-v1-1920.avif",
+      "bytes": 27609,
+      "sha256": "6928ba05185aaa5295e781c819d948f9d55f2999eccf2734f1db2f95c63fd8b9"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-authority-activity-night-v1-1920.webp",
+      "bytes": 25740,
+      "sha256": "e4dd925209789c3eb1e8d83541150b5a5e58e0492d85a1500721beb235be1f83"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-authority-activity-night-v1-2560.avif",
+      "bytes": 37242,
+      "sha256": "f4180089169974cee3e52f3939c54043afe1775ddeeb3a6f1f0fa746923fe4b0"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-authority-activity-night-v1-2560.webp",
+      "bytes": 34246,
+      "sha256": "3bd24308e53c389fe18f34a4303b0afc2cda07438e997826f8b295387592252d"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-authority-activity-night-v1-3840.avif",
+      "bytes": 58725,
+      "sha256": "4cff0a9471cbc65462a7162bdaed80652f39fa64bab2346c7d9b38de5744dc55"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-authority-activity-night-v1-3840.webp",
+      "bytes": 55076,
+      "sha256": "b0cdc26f24196df9424857f619839e0a74cf49ca6ca5069423e5b5b09b4ae8a4"
+    },
+    {
+      "path": "assets/production/png/district-administrative-center-authority-activity-night-v1-1280.png",
+      "bytes": 653751,
+      "sha256": "b9e4b1bc9ccce6b756cac3a900f02c7d00a554b8fef8e6e4f139eb9cf565475f"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-administrative-center-authority-activity-night-v1.webp",
+      "bytes": 3416,
+      "sha256": "76492f52eefd04c74e51cc6000707f320a9a3628d5afa3a4a98bc2411f68e3c8"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-administrative-center-authority-activity-night-v1.webp",
+      "bytes": 3416,
+      "sha256": "76492f52eefd04c74e51cc6000707f320a9a3628d5afa3a4a98bc2411f68e3c8"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.952Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1442259
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:36:22.560Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

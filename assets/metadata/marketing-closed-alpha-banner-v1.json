@@ -1,0 +1,171 @@
+{
+  "asset_id": "marketing-closed-alpha-banner-v1",
+  "manifest_order": 894,
+  "category": "marketing",
+  "batch": "store-marketing",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/marketing-closed-alpha-banner-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100894,
+  "content_hash": "1011963aae497017576ceabba3a775bb072a80488bab20f187198056c066d01a",
+  "source_file": "assets/source/marketing/marketing-closed-alpha-banner-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/marketing-closed-alpha-banner-v1-320.avif",
+      "bytes": 3152,
+      "sha256": "6ad728d62431c2607345c0737358090e3ae4efab31d757df3d0dd1da35c177e0"
+    },
+    {
+      "path": "assets/production/webp/marketing-closed-alpha-banner-v1-320.webp",
+      "bytes": 3146,
+      "sha256": "0ce1653eeb3df23d9a09acf22a71c27c209b8634059e665103d0a18545384b11"
+    },
+    {
+      "path": "assets/production/avif/marketing-closed-alpha-banner-v1-640.avif",
+      "bytes": 7027,
+      "sha256": "f7e82def5d14df5833ba15f45739a6d6c50da575ca1c2428be7b6befec65fb5a"
+    },
+    {
+      "path": "assets/production/webp/marketing-closed-alpha-banner-v1-640.webp",
+      "bytes": 6224,
+      "sha256": "2d59e3a2684cf45cccda348cbd3a574da29f0b64568656a96c12a9a10fc3791e"
+    },
+    {
+      "path": "assets/production/avif/marketing-closed-alpha-banner-v1-960.avif",
+      "bytes": 11977,
+      "sha256": "79cfdaff3e6b671e075c6e869f0781cba766fcd2b25e4d99eca551c454abea58"
+    },
+    {
+      "path": "assets/production/webp/marketing-closed-alpha-banner-v1-960.webp",
+      "bytes": 10226,
+      "sha256": "29a25ddab3e44c523382c8f0da82958a3190871e30e09d1f75d4d713c24d294b"
+    },
+    {
+      "path": "assets/production/avif/marketing-closed-alpha-banner-v1-1280.avif",
+      "bytes": 17020,
+      "sha256": "2ca1762d333170fe2bba7d80c51efa3564ba560aca8211671dff1f43efab348a"
+    },
+    {
+      "path": "assets/production/webp/marketing-closed-alpha-banner-v1-1280.webp",
+      "bytes": 13374,
+      "sha256": "fc8b808666d3c71b3fb61922ec96b58b64329aeca68de9437aa95c4ac2d2d422"
+    },
+    {
+      "path": "assets/production/avif/marketing-closed-alpha-banner-v1-1920.avif",
+      "bytes": 25659,
+      "sha256": "07305d26fc9374378d14f993604a6ad1e731873b17d9b54dcae3f77361fb3f27"
+    },
+    {
+      "path": "assets/production/webp/marketing-closed-alpha-banner-v1-1920.webp",
+      "bytes": 20948,
+      "sha256": "4e09c774e8a784b0546ab213c75776838787101986c1096eaef62a8119412ada"
+    },
+    {
+      "path": "assets/production/avif/marketing-closed-alpha-banner-v1-2560.avif",
+      "bytes": 35461,
+      "sha256": "d46789e9e9568eb6a192d73b4ba21f502ec89dda281ec649ef5211a9e534f640"
+    },
+    {
+      "path": "assets/production/webp/marketing-closed-alpha-banner-v1-2560.webp",
+      "bytes": 28998,
+      "sha256": "2d163dce3b7fa6a77d268336d6130e6af5574b6eeb3e3d9f63f434aa54547434"
+    },
+    {
+      "path": "assets/production/avif/marketing-closed-alpha-banner-v1-3840.avif",
+      "bytes": 55228,
+      "sha256": "28fb5477f3787c4c42652ce2e001dfb11d5a1aa09218489fb4f3a6f731dd1669"
+    },
+    {
+      "path": "assets/production/webp/marketing-closed-alpha-banner-v1-3840.webp",
+      "bytes": 48622,
+      "sha256": "b612007fea0f6308b88b7b148765599695f17fdda3a87642edb7a15b6aa474f6"
+    },
+    {
+      "path": "assets/production/png/marketing-closed-alpha-banner-v1-1280.png",
+      "bytes": 716489,
+      "sha256": "dae5f581ec76ca55f24ab9165038618b2ec6620508a425478dcc8334f118837e"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/marketing-closed-alpha-banner-v1.webp",
+      "bytes": 3146,
+      "sha256": "0ce1653eeb3df23d9a09acf22a71c27c209b8634059e665103d0a18545384b11"
+    },
+    {
+      "path": "apps/mobile/assets/library/marketing-closed-alpha-banner-v1.webp",
+      "bytes": 3146,
+      "sha256": "0ce1653eeb3df23d9a09acf22a71c27c209b8634059e665103d0a18545384b11"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 94.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:37:55.591Z",
+    "scores": {
+      "realism": 94,
+      "style_consistency": 96,
+      "composition": 95,
+      "material_quality": 93,
+      "light_quality": 94,
+      "architecture_plausibility": 92,
+      "ui_suitability": 97,
+      "mobile_suitability": 97,
+      "originality": 90,
+      "safety_compliance": 100,
+      "small_size_legibility": 94,
+      "contrast": 96,
+      "geometry_quality": 96,
+      "technical_quality": 98
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution.",
+      "All 20 store captures are sourced from the functioning application at exact declared dimensions; feature graphic and icon are opaque exact-size static art.",
+      "Text-free community and release banners are intentionally neutral procedural variants, with no fake UI, third-party logo, unsafe content, broken crop, or unintended text."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1635479
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:48:42.804Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

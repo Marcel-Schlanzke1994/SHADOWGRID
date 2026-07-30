@@ -1,0 +1,171 @@
+{
+  "asset_id": "facility-personnel-academy-maximum-level-v1",
+  "manifest_order": 529,
+  "category": "facility",
+  "batch": "facilities",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "maximum-level",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/facility-personnel-academy-maximum-level-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100529,
+  "content_hash": "dfc015aaae9fae2b4bceabefa9f8f2a83490d6bbe3710555c22085b617a46f78",
+  "source_file": "assets/source/facilities/facility-personnel-academy-maximum-level-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/facility-personnel-academy-maximum-level-v1-320.avif",
+      "bytes": 3024,
+      "sha256": "c17f87791ca2cbd6e381e145f855a41dfcf5d852a677c5e66bfd0823696bdc6a"
+    },
+    {
+      "path": "assets/production/webp/facility-personnel-academy-maximum-level-v1-320.webp",
+      "bytes": 2868,
+      "sha256": "eae9df370662c9920e83e2d0f71a336bf502c9de517a2eada044600f49b1bc43"
+    },
+    {
+      "path": "assets/production/avif/facility-personnel-academy-maximum-level-v1-640.avif",
+      "bytes": 6495,
+      "sha256": "6f99ed243d51c16245e7b152d33fc2d26433cb803be84b0e66710ac4677ad00c"
+    },
+    {
+      "path": "assets/production/webp/facility-personnel-academy-maximum-level-v1-640.webp",
+      "bytes": 5672,
+      "sha256": "540e6a62e9b817a86bd68d197e369cea10204e3ecc499b68752f0ee607dcb96d"
+    },
+    {
+      "path": "assets/production/avif/facility-personnel-academy-maximum-level-v1-960.avif",
+      "bytes": 10671,
+      "sha256": "3b108121d0417b0720e431ad76aea5d95ad730ff77de541ab32fbc4124908772"
+    },
+    {
+      "path": "assets/production/webp/facility-personnel-academy-maximum-level-v1-960.webp",
+      "bytes": 9658,
+      "sha256": "ae0ea9e43e6b9721971d437bf5e3fc29d97f71aa8625396d2aa0f139be90538c"
+    },
+    {
+      "path": "assets/production/avif/facility-personnel-academy-maximum-level-v1-1280.avif",
+      "bytes": 15010,
+      "sha256": "d173122a68d3a04ded4bc2bc86fdefe3bc5666b5296e5298bee85c33dafe554a"
+    },
+    {
+      "path": "assets/production/webp/facility-personnel-academy-maximum-level-v1-1280.webp",
+      "bytes": 12594,
+      "sha256": "55569513667a5de98084c69390508a6b9565eccc8113115a113d826984ba4594"
+    },
+    {
+      "path": "assets/production/avif/facility-personnel-academy-maximum-level-v1-1920.avif",
+      "bytes": 22618,
+      "sha256": "3ba58e3b513a918f668c92487dd3462b090fa45390512b8ac18976cd39dff30c"
+    },
+    {
+      "path": "assets/production/webp/facility-personnel-academy-maximum-level-v1-1920.webp",
+      "bytes": 19788,
+      "sha256": "6c75e0aab3fb9032e272cc9f0c666b02c10829c71bc551396e0d3c920412784e"
+    },
+    {
+      "path": "assets/production/avif/facility-personnel-academy-maximum-level-v1-2560.avif",
+      "bytes": 31092,
+      "sha256": "0efedde89b17652692b721db6bc113153500fbbf8b35a654b58303ec8dd1ea2a"
+    },
+    {
+      "path": "assets/production/webp/facility-personnel-academy-maximum-level-v1-2560.webp",
+      "bytes": 27526,
+      "sha256": "2f5be9015d1079ad6719be3e49015e0dd93a35eae4baafb12e76fada6054371d"
+    },
+    {
+      "path": "assets/production/avif/facility-personnel-academy-maximum-level-v1-3840.avif",
+      "bytes": 50144,
+      "sha256": "2eea05e3339fd5b8adee02dc0ec7473fb6b34b6b5b4bebf803dbf7675ab739a0"
+    },
+    {
+      "path": "assets/production/webp/facility-personnel-academy-maximum-level-v1-3840.webp",
+      "bytes": 45628,
+      "sha256": "295fb1b26cc09ce10e741c9a88f04dd153acafbfbff32835212eb2ab23c051e7"
+    },
+    {
+      "path": "assets/production/png/facility-personnel-academy-maximum-level-v1-1280.png",
+      "bytes": 641079,
+      "sha256": "216bef23f5b32c608d31ee41eb00bceff3ff3cb0b35b3815bc42a89654c4c075"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/facility-personnel-academy-maximum-level-v1.webp",
+      "bytes": 2868,
+      "sha256": "eae9df370662c9920e83e2d0f71a336bf502c9de517a2eada044600f49b1bc43"
+    },
+    {
+      "path": "apps/mobile/assets/library/facility-personnel-academy-maximum-level-v1.webp",
+      "bytes": 2868,
+      "sha256": "eae9df370662c9920e83e2d0f71a336bf502c9de517a2eada044600f49b1bc43"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:27.150Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 92,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 90,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution.",
+      "Facility categories remain visually coherent and readable without depicting sensitive real-world infrastructure.",
+      "No missing render, unsafe detail, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1457437
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:12:18.504Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

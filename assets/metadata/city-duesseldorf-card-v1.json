@@ -170,35 +170,49 @@
       "path": "apps/web/public/assets/cities/city-duesseldorf-card-v1-1280.png",
       "bytes": 2849002,
       "sha256": "c7bf8c50752ce5c8cb52b231e6bbe0412fadc12acfb09361d33484470434c97a"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-duesseldorf-card-v1.webp",
+      "bytes": 6964,
+      "sha256": "77c73059d00a6f0fd6d3423d18bb170c95d1882740b0ed2d983371c2b6381bd0"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-duesseldorf-card-v1.webp",
+      "bytes": 6964,
+      "sha256": "77c73059d00a6f0fd6d3423d18bb170c95d1882740b0ed2d983371c2b6381bd0"
     }
   ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,
   "moderation_status": "approved",
-  "quality_score": 99.3,
+  "quality_score": 92.9,
   "quality_status": "approved",
   "review_status": "codex-visual-approved",
   "visual_review": {
-    "realism": 99,
-    "style_consistency": 100,
-    "composition": 100,
-    "material_quality": 99,
-    "lighting_quality": 99,
-    "architecture_plausibility": 99,
-    "ui_suitability": 100,
-    "mobile_suitability": 100,
-    "originality": 97,
-    "safety_compliance": 100,
-    "revision_prompt": "Revise this square fictional Düsseldorf-inspired SHADOWGRID city-card backing plate while preserving the exact 1:1 canvas, camera, river, original low-profile bridge, landscaped promenade, canal basin, pale-stone service blocks, restrained glass offices, overcast post-rain daylight, material realism, and the full calm dark lower-water label band.\n\nMandatory correction: remove the single isolated narrow pointed needle or spire on the distant skyline near the horizontal image center. Replace it with a modest low neutral original stone-and-glass urban block with a flat or gently stepped roofline. It must not read as a church, cathedral, steeple, bell tower, monument, civic tower, antenna landmark, Rheinturm, television tower, or recognizable skyline feature. Ensure no other isolated religious, monumental, governmental, fashion-brand, media-brand, or trade-fair silhouette appears. Preserve the rest of the skyline and all fictional river, canal, bridge, promenade, and building geometry.\n\nKeep the entire bottom 24% as uninterrupted calm dark low-detail open river water. Do not add any bridge, promenade, terrace, building, tree, vehicle, lamp cluster, bright reflection, railing, object, or detailed shoreline inside that label-safe band. All layouts remain fictional and non-operational.\n\nNo text, letters, numbers, signs, logos, brands, interface, watermarks, signatures, identifiable people, flags, authority marks, police insignia, criminal symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, fantasy architecture, Gehry-like distorted buildings, impossible geometry, neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the corrected clean premium ultra-realistic fictional 1:1 daytime city-card backing plate with the isolated pointed silhouette removed, the full lower 24% preserved as calm dark water, and no border, title, UI, or device mockup.",
-    "reference_images": [
-      "assets/source/cities/city-duesseldorf-desktop-day-v1.png"
-    ],
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.335Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
     "notes": [
-      "The first square recomposition was held back because a single narrow pointed silhouette near the distant image center could read as a church, civic tower, or recognizable antenna landmark.",
-      "The accepted revision replaces the isolated point with modest neutral flat-roofed original development without altering the river, bridge, promenade, canal basin, or services district.",
-      "The complete lower 24 percent remains uninterrupted calm dark low-detail river water for external localized labels, badges, and one action.",
-      "No known Düsseldorf landmark, religious or civic silhouette, real brand or authority, operational layout, text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
     ]
   },
   "technical_validation": {

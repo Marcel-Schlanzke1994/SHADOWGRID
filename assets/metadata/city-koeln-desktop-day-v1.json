@@ -170,35 +170,49 @@
       "path": "apps/web/public/assets/cities/city-koeln-desktop-day-v1-1280.png",
       "bytes": 1677263,
       "sha256": "87f1ba97246c045af50d7fcb0216f32582451aa23fbce8e580e113959c912bec"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-koeln-desktop-day-v1.webp",
+      "bytes": 4650,
+      "sha256": "6c6d85db4ff4a739fbfae505b7280cc6e8d9a201a0509acdb8ac749a12f974a8"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-koeln-desktop-day-v1.webp",
+      "bytes": 4650,
+      "sha256": "6c6d85db4ff4a739fbfae505b7280cc6e8d9a201a0509acdb8ac749a12f974a8"
     }
   ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,
   "moderation_status": "approved",
-  "quality_score": 97.8,
+  "quality_score": 92.9,
   "quality_status": "approved",
   "review_status": "codex-visual-approved",
   "visual_review": {
-    "realism": 98,
-    "style_consistency": 100,
-    "composition": 99,
-    "material_quality": 98,
-    "lighting_quality": 98,
-    "architecture_plausibility": 97,
-    "ui_suitability": 100,
-    "mobile_suitability": 94,
-    "originality": 94,
-    "safety_compliance": 100,
-    "accepted_prompt": "Create a separately composed 16:9 desktop hero for the same accepted fictional Köln-inspired SHADOWGRID city shown in the reference.\n\nOutput composition: exact 16:9 landscape, intended final size 2048×1152. Reframe and reconstruct the scene for the taller desktop canvas rather than merely cropping the ultra-wide image. Preserve the fictional city identity: broad Rhine-like river, original low-profile steel truss bridge, generic distant cable-stayed bridge, plausible low- and mid-rise civic skyline, river trade and logistics, restrained overcast daylight, cool blue-gray and warm-gold palette. Keep the skyline and bridge geometry original and physically plausible.\n\nReserve a calm dark low-detail area across the left 32% for localized UI. Place the principal river, bridges, and city detail center-right. Add realistic foreground depth with unobtrusive riverbank architecture and vegetation at the lower right; avoid any foreground person. Ensure the center crop remains useful.\n\nDo not add Cologne Cathedral, a twin-spired cathedral, the Hohenzollern Bridge, or any recognizable real Cologne landmark. Do not reproduce a known photograph or exact real-world viewpoint.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, trafficking routes, fantasy architecture, impossible bridge geometry, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic 16:9 daytime environment backing plate, no border or device mockup.",
-    "reference_images": [
-      "assets/source/cities/city-koeln-ultrawide-day-v1.png"
-    ],
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.045Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
     "notes": [
-      "Accepted first 16:9 recomposition attempt based on the approved fictional ultra-wide day scene.",
-      "The taller frame adds plausible lower-right riverbank depth while retaining a dark low-detail left 32 percent for localized interface content.",
-      "River, original truss bridge, generic cable-stayed bridge, and civic skyline remain coordinated with the Köln asset family.",
-      "No recognizable Cologne landmark, copied viewpoint, embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
     ]
   },
   "technical_validation": {

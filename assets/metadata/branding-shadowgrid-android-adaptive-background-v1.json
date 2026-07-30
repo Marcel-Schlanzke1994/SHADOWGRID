@@ -33,9 +33,25 @@
       "path": "assets/production/webp/branding-shadowgrid-android-adaptive-background-v1-1536.webp",
       "bytes": 68374,
       "sha256": "ce69017fb18d7e227427014bac3c934d0d63e8d2891d8a78cf77fb49708916cb"
+    },
+    {
+      "path": "assets/production/webp/branding-shadowgrid-android-adaptive-background-v1-320.webp",
+      "bytes": 15784,
+      "sha256": "aa31f64aba97c042b41e6a88d832979b4bbfe64c410b49e127388e1c171853be"
     }
   ],
-  "runtime_files": [],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/branding-shadowgrid-android-adaptive-background-v1.webp",
+      "bytes": 15784,
+      "sha256": "aa31f64aba97c042b41e6a88d832979b4bbfe64c410b49e127388e1c171853be"
+    },
+    {
+      "path": "apps/mobile/assets/library/branding-shadowgrid-android-adaptive-background-v1.webp",
+      "bytes": 15784,
+      "sha256": "aa31f64aba97c042b41e6a88d832979b4bbfe64c410b49e127388e1c171853be"
+    }
+  ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,

@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
 import { NavLink, Outlet, useLocation, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { logout, useAuth } from "./auth";
+import type { NotificationCount } from "@shadowgrid/shared-types";
+import { useQuery } from "@tanstack/react-query";
+import { client, logout, useAuth } from "./auth";
 import { useMultiplayerRealtime } from "./realtime";
 
 const nav = [
@@ -9,16 +11,22 @@ const nav = [
   ["/city", "navCity"],
   ["/germany", "navGermany"],
   ["/network", "navNetwork"],
-  ["/businesses", "navBusinesses"],
+  ["/companies", "navBusinesses"],
+  ["/exchange", "navExchange"],
   ["/specialists", "navSpecialists"],
   ["/operations", "navOperations"],
-  ["/organizations", "navOrganization"],
+  ["/intelligence", "navIntelligence"],
+  ["/cartels", "navOrganization"],
   ["/pvp", "navPvp"],
   ["/territories", "navTerritories"],
   ["/wars", "navWars"],
   ["/alliances", "navAlliances"],
   ["/communications", "navCommunications"],
   ["/market", "navMarket"],
+  ["/contracts", "navContracts"],
+  ["/finance", "navFinance"],
+  ["/bonds", "navBonds"],
+  ["/real-estate", "navRealEstate"],
   ["/diplomacy", "navDiplomacy"],
   ["/investigation", "navInvestigation"],
   ["/research", "navResearch"],
@@ -33,6 +41,10 @@ export function Layout() {
   const navigate = useNavigate();
   const location = useLocation();
   const user = useAuth((state) => state.user);
+  const unread = useQuery({
+    queryKey: ["notification-unread-count"],
+    queryFn: () => client.get<NotificationCount>("/notifications/unread-count"),
+  });
   useMultiplayerRealtime();
   useEffect(() => setOpen(false), [location.pathname]);
   return (
@@ -67,7 +79,17 @@ export function Layout() {
         <nav id="primary-navigation" aria-label={t("primaryNavigation")}>
           {nav.map(([to, key]) => (
             <NavLink key={to} to={to}>
-              {t(key)}
+              <span>{t(key)}</span>
+              {key === "navNews" && (unread.data?.unread_count ?? 0) > 0 && (
+                <span
+                  className="nav-badge"
+                  aria-label={t("unreadCount", {
+                    count: unread.data?.unread_count ?? 0,
+                  })}
+                >
+                  {unread.data?.unread_count}
+                </span>
+              )}
             </NavLink>
           ))}
           {user?.is_admin && <NavLink to="/admin">{t("navAdmin")}</NavLink>}

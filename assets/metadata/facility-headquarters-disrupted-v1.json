@@ -1,0 +1,171 @@
+{
+  "asset_id": "facility-headquarters-disrupted-v1",
+  "manifest_order": 514,
+  "category": "facility",
+  "batch": "facilities",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "disrupted",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/facility-headquarters-disrupted-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100514,
+  "content_hash": "da4ae9411de7beeb1ab0bb5b099dfcd7596e99da86991dfbb3f9c84b5d91bece",
+  "source_file": "assets/source/facilities/facility-headquarters-disrupted-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/facility-headquarters-disrupted-v1-320.avif",
+      "bytes": 2957,
+      "sha256": "05356e677930e0553e021e178a7f8ccc82c299d7086f68e24754a4c738e1ef3b"
+    },
+    {
+      "path": "assets/production/webp/facility-headquarters-disrupted-v1-320.webp",
+      "bytes": 2730,
+      "sha256": "0f6266edd662c2b5a4300f527d546600dcfb79d645a72a88772f84083ab7c540"
+    },
+    {
+      "path": "assets/production/avif/facility-headquarters-disrupted-v1-640.avif",
+      "bytes": 6652,
+      "sha256": "e5cda0883cb22b5371fb620a7dbc8bea3e31200ba729a87ff651e83bc2b12521"
+    },
+    {
+      "path": "assets/production/webp/facility-headquarters-disrupted-v1-640.webp",
+      "bytes": 5652,
+      "sha256": "a0b6923a108713bb3c771b3e1ea33d0dc38433debb6795603853d9767d22eb46"
+    },
+    {
+      "path": "assets/production/avif/facility-headquarters-disrupted-v1-960.avif",
+      "bytes": 10616,
+      "sha256": "a0b4c612069f90f5f4e79813c8ac0faca28a3fa9438159b67fde73b672f2388d"
+    },
+    {
+      "path": "assets/production/webp/facility-headquarters-disrupted-v1-960.webp",
+      "bytes": 9382,
+      "sha256": "55a823bd1ae0622f24e7ad74e1b3319c728396f46839f4bc80576ebc6f027313"
+    },
+    {
+      "path": "assets/production/avif/facility-headquarters-disrupted-v1-1280.avif",
+      "bytes": 15709,
+      "sha256": "f037a82871ab8772cfc2256fe5f948d247d4a50a966c8732fd6e14d1aef7ae22"
+    },
+    {
+      "path": "assets/production/webp/facility-headquarters-disrupted-v1-1280.webp",
+      "bytes": 12774,
+      "sha256": "cd5ec59f75e8237a0c8ddeb5ec1b82d5412521c2becc608e75236fe078e183ee"
+    },
+    {
+      "path": "assets/production/avif/facility-headquarters-disrupted-v1-1920.avif",
+      "bytes": 24180,
+      "sha256": "6b5264f1be164c5159186d796aef02223cdf0b2dbd07eaf6562b1afa9eb94f4d"
+    },
+    {
+      "path": "assets/production/webp/facility-headquarters-disrupted-v1-1920.webp",
+      "bytes": 20536,
+      "sha256": "2f72d5e95a0b00112e23261b1d7ee462d6c9fb4de0a2dc33471371a0a4fa8248"
+    },
+    {
+      "path": "assets/production/avif/facility-headquarters-disrupted-v1-2560.avif",
+      "bytes": 32693,
+      "sha256": "a6cc932d05e29a39df3cb7c72ced2e843eb7d3c81e75948166981cdb27dfa172"
+    },
+    {
+      "path": "assets/production/webp/facility-headquarters-disrupted-v1-2560.webp",
+      "bytes": 28744,
+      "sha256": "aced44355ae6a2c9b65413d8cd66c9fb28faab08b259c621831914c9621e47d4"
+    },
+    {
+      "path": "assets/production/avif/facility-headquarters-disrupted-v1-3840.avif",
+      "bytes": 52940,
+      "sha256": "3ab09b5360b35b66b4e4948e95afddc4216c76963bfbe78cfa880f1868f46d72"
+    },
+    {
+      "path": "assets/production/webp/facility-headquarters-disrupted-v1-3840.webp",
+      "bytes": 49168,
+      "sha256": "33e5d15783c88914344e5512a22874927936f136e06d86b3d8d19705e24ec449"
+    },
+    {
+      "path": "assets/production/png/facility-headquarters-disrupted-v1-1280.png",
+      "bytes": 653610,
+      "sha256": "255ae0eef62c979ad9698869bb7890d68019ebe94364bc4296cb63371d0fab8f"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/facility-headquarters-disrupted-v1.webp",
+      "bytes": 2730,
+      "sha256": "0f6266edd662c2b5a4300f527d546600dcfb79d645a72a88772f84083ab7c540"
+    },
+    {
+      "path": "apps/mobile/assets/library/facility-headquarters-disrupted-v1.webp",
+      "bytes": 2730,
+      "sha256": "0f6266edd662c2b5a4300f527d546600dcfb79d645a72a88772f84083ab7c540"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:26.900Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 92,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 90,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution.",
+      "Facility categories remain visually coherent and readable without depicting sensitive real-world infrastructure.",
+      "No missing render, unsafe detail, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1494187
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:07:25.041Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

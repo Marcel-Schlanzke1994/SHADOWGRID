@@ -23,6 +23,11 @@
       "path": "assets/production/svg/map-map-background-neutral-v1.svg",
       "bytes": 2164,
       "sha256": "16689b3dbaec03fa2cce55b377bb3cb04c5759a901acc838a8f60a73a33b6e71"
+    },
+    {
+      "path": "assets/production/webp/map-map-background-neutral-v1-320.webp",
+      "bytes": 30286,
+      "sha256": "34e3e5643065582562e1e5c3f05aa645f995a2ac7f588020a12bd72bc66476a5"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/maps/map-map-background-neutral-v1.svg",
       "bytes": 2164,
       "sha256": "16689b3dbaec03fa2cce55b377bb3cb04c5759a901acc838a8f60a73a33b6e71"
+    },
+    {
+      "path": "apps/web/public/assets/maps/map-map-background-neutral-v1-320.webp",
+      "bytes": 30286,
+      "sha256": "34e3e5643065582562e1e5c3f05aa645f995a2ac7f588020a12bd72bc66476a5"
+    },
+    {
+      "path": "apps/web/public/assets/library/map-map-background-neutral-v1.webp",
+      "bytes": 30286,
+      "sha256": "34e3e5643065582562e1e5c3f05aa645f995a2ac7f588020a12bd72bc66476a5"
+    },
+    {
+      "path": "apps/mobile/assets/library/map-map-background-neutral-v1.webp",
+      "bytes": 30286,
+      "sha256": "34e3e5643065582562e1e5c3f05aa645f995a2ac7f588020a12bd72bc66476a5"
     }
   ],
   "contains_text": false,

@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-university-quarter-authority-activity-night-v1",
+  "manifest_order": 430,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "authority-activity-night",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-university-quarter-authority-activity-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100430,
+  "content_hash": "c507218597e05bffb4ac4ba413b9fdeec1509afe2e98c035b43db3aa81ae1d92",
+  "source_file": "assets/source/districts/district-university-quarter-authority-activity-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-university-quarter-authority-activity-night-v1-320.avif",
+      "bytes": 3646,
+      "sha256": "e40e24361d4e8ec7b59c81222a21652d2d2343a498d80fc84750f92076af1034"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-authority-activity-night-v1-320.webp",
+      "bytes": 3616,
+      "sha256": "2981ac22e953482051478ec04b3e89ac65ad8c11e9bfb3f7a0280a9ae0cbfdc8"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-authority-activity-night-v1-640.avif",
+      "bytes": 7998,
+      "sha256": "27943a4769fa0cd30d4757890c9415adceb6a6e846c4df163957f08fd1277c46"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-authority-activity-night-v1-640.webp",
+      "bytes": 7752,
+      "sha256": "c398df1da44e990e44a2ec1b65e2b8c0afeb3b9665c99588be40d6c0cd7bd9c3"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-authority-activity-night-v1-960.avif",
+      "bytes": 13558,
+      "sha256": "2797688bd0030238e842bf7964967d6f8fb215e3d6610fb256715c2fb697bac4"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-authority-activity-night-v1-960.webp",
+      "bytes": 14004,
+      "sha256": "073aabe631f91e0c81fc21b8e78cd3018fcabcc26577b82c981d33dbb94fdaad"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-authority-activity-night-v1-1280.avif",
+      "bytes": 18670,
+      "sha256": "265976adf98c452a98dd8881d7888dd3564bb946427a152cedc24f0c27f601a0"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-authority-activity-night-v1-1280.webp",
+      "bytes": 18630,
+      "sha256": "a71bc8331dab9c4a2764b433fded7186cd608aa4bf93ae055f639fe1d2dccbea"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-authority-activity-night-v1-1920.avif",
+      "bytes": 29383,
+      "sha256": "14156ef6d539e575b7760f46fdc58ea18752a1caf9f8c2b16cebd1d7458562a2"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-authority-activity-night-v1-1920.webp",
+      "bytes": 27746,
+      "sha256": "667dd7187a17e0f5a1e66edf9dafab124af6ded86d12e6226308d54eaeb673e0"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-authority-activity-night-v1-2560.avif",
+      "bytes": 39628,
+      "sha256": "8329035ce9666f9b3e08321f7db4c3eba9cd72e7aa6babea93acd3d35a3f80e3"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-authority-activity-night-v1-2560.webp",
+      "bytes": 37454,
+      "sha256": "44f92deded99a83798f1a3907781f7f3a68212443451171adec4e83c012475ee"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-authority-activity-night-v1-3840.avif",
+      "bytes": 63390,
+      "sha256": "c42946afd98c95f62ba153f76e2ee0105c9e3289428da9c688d3d7498cea2aee"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-authority-activity-night-v1-3840.webp",
+      "bytes": 59062,
+      "sha256": "31c0940b19770d90b744d95fef73effbd265f0bd0e07a8eb3fef788cd112552b"
+    },
+    {
+      "path": "assets/production/png/district-university-quarter-authority-activity-night-v1-1280.png",
+      "bytes": 665953,
+      "sha256": "8d343d93538f7fc9b67c897f28fc1a07e37c820a0bd1fc2236d468455ba89a73"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-university-quarter-authority-activity-night-v1.webp",
+      "bytes": 3616,
+      "sha256": "2981ac22e953482051478ec04b3e89ac65ad8c11e9bfb3f7a0280a9ae0cbfdc8"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-university-quarter-authority-activity-night-v1.webp",
+      "bytes": 3616,
+      "sha256": "2981ac22e953482051478ec04b3e89ac65ad8c11e9bfb3f7a0280a9ae0cbfdc8"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.139Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1468577
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:41:52.620Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

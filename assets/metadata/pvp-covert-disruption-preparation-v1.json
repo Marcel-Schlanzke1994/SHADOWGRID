@@ -1,0 +1,171 @@
+{
+  "asset_id": "pvp-covert-disruption-preparation-v1",
+  "manifest_order": 595,
+  "category": "pvp",
+  "batch": "pvp",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "preparation",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/pvp-covert-disruption-preparation-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100595,
+  "content_hash": "0cd2345e1f489bac2de4f8cb572ea092f2a2444aca38ce3a0482c5383c3d7496",
+  "source_file": "assets/source/pvp/pvp-covert-disruption-preparation-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/pvp-covert-disruption-preparation-v1-320.avif",
+      "bytes": 2605,
+      "sha256": "228bf34421f1869a5267527908259cb59610f0d17f2aea5a1135436ff98238d8"
+    },
+    {
+      "path": "assets/production/webp/pvp-covert-disruption-preparation-v1-320.webp",
+      "bytes": 1756,
+      "sha256": "7bb78afbd0ca7dd08a1ae97b58338d9bf97931c5641f7ef21eb47d32340b3759"
+    },
+    {
+      "path": "assets/production/avif/pvp-covert-disruption-preparation-v1-640.avif",
+      "bytes": 6423,
+      "sha256": "c60a280d7875b77a9a7f9b16890725046b2ad2b4d6b3c2dbfadbe083d8c3293d"
+    },
+    {
+      "path": "assets/production/webp/pvp-covert-disruption-preparation-v1-640.webp",
+      "bytes": 4660,
+      "sha256": "e9fcd192167152c69ed0716b421283e666957fe4592265880ef464fa4463992c"
+    },
+    {
+      "path": "assets/production/avif/pvp-covert-disruption-preparation-v1-960.avif",
+      "bytes": 12472,
+      "sha256": "318effa72f72c6dc53a0440a1e19a0abb38d749bb36f8eca2a1b5574ae53488d"
+    },
+    {
+      "path": "assets/production/webp/pvp-covert-disruption-preparation-v1-960.webp",
+      "bytes": 9066,
+      "sha256": "37ecaae2746a4fd46c91c29cbfd1a36c40540c23abc84b95d1890bc68a6d70e9"
+    },
+    {
+      "path": "assets/production/avif/pvp-covert-disruption-preparation-v1-1280.avif",
+      "bytes": 18262,
+      "sha256": "124aa8dd6ea3696f839a4899f87134478d4c0910eba58fef29972609bd858f39"
+    },
+    {
+      "path": "assets/production/webp/pvp-covert-disruption-preparation-v1-1280.webp",
+      "bytes": 13076,
+      "sha256": "21a05251ab65e26a3e89868ea150f1bb38f3145b0dbbba05cb2e5b2a7758c44b"
+    },
+    {
+      "path": "assets/production/avif/pvp-covert-disruption-preparation-v1-1920.avif",
+      "bytes": 27770,
+      "sha256": "38583e526279c338b957e0e70b33bf03516d20bb60a3300f0e596c4ddc739d10"
+    },
+    {
+      "path": "assets/production/webp/pvp-covert-disruption-preparation-v1-1920.webp",
+      "bytes": 21642,
+      "sha256": "9dbaedc823bfe4a98c3491448547176d8be1eaaa3740bd2423d27b54e88ad3a5"
+    },
+    {
+      "path": "assets/production/avif/pvp-covert-disruption-preparation-v1-2560.avif",
+      "bytes": 35860,
+      "sha256": "073a9b21ab0b2f7a879953c7175877bd6232834fcd7a68727013b938b0affed6"
+    },
+    {
+      "path": "assets/production/webp/pvp-covert-disruption-preparation-v1-2560.webp",
+      "bytes": 28936,
+      "sha256": "d01eefcf4b06695ed4466f3afda45eea60c5266e790f53c74b019d5471936eec"
+    },
+    {
+      "path": "assets/production/avif/pvp-covert-disruption-preparation-v1-3840.avif",
+      "bytes": 55723,
+      "sha256": "2a8aa8a44de05dbd43bad2a460e04d2770012b8543e65d3abe4d824113913026"
+    },
+    {
+      "path": "assets/production/webp/pvp-covert-disruption-preparation-v1-3840.webp",
+      "bytes": 46546,
+      "sha256": "adeb67aa8c1202a7e8a381cda47e449ba9298cd1f3c5c051a29043fadce2292e"
+    },
+    {
+      "path": "assets/production/png/pvp-covert-disruption-preparation-v1-1280.png",
+      "bytes": 171468,
+      "sha256": "dd240383474b5e0ef7824baf85bdf321e5b48799c95ce51a6a558f390c3251e4"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/pvp-covert-disruption-preparation-v1.webp",
+      "bytes": 1756,
+      "sha256": "7bb78afbd0ca7dd08a1ae97b58338d9bf97931c5641f7ef21eb47d32340b3759"
+    },
+    {
+      "path": "apps/mobile/assets/library/pvp-covert-disruption-preparation-v1.webp",
+      "bytes": 1756,
+      "sha256": "7bb78afbd0ca7dd08a1ae97b58338d9bf97931c5641f7ef21eb47d32340b3759"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:48.959Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 93,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Preparation, success, and failure remain abstract strategic game states without actionable real-world attack or sabotage detail.",
+      "No missing render, unsafe instruction, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 217552
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:27:11.866Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

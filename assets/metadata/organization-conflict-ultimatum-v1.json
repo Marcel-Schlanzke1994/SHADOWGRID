@@ -1,0 +1,171 @@
+{
+  "asset_id": "organization-conflict-ultimatum-v1",
+  "manifest_order": 599,
+  "category": "organization-conflict",
+  "batch": "cartel-conflicts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "ultimatum",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/organization-conflict-ultimatum-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100599,
+  "content_hash": "7108da63dcc3f0853132b3510a3a288510faea552f8e09dfd34bcf68037e278c",
+  "source_file": "assets/source/cartels/organization-conflict-ultimatum-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/organization-conflict-ultimatum-v1-320.avif",
+      "bytes": 2433,
+      "sha256": "61cfe5a4646ed62bfe5b9cfd978eeb9c97b4b2c910d4f36033ac4bacd269825d"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-ultimatum-v1-320.webp",
+      "bytes": 1520,
+      "sha256": "4d1bde3ec4c45d02630bc9e4aa6b4bdc188e63d38e80cc59417c46516fc691b4"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-ultimatum-v1-640.avif",
+      "bytes": 6808,
+      "sha256": "8b963e14bb68e4218798cd2981cea0ea13dad51594ca801cc0b11c4fc727b93c"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-ultimatum-v1-640.webp",
+      "bytes": 4716,
+      "sha256": "b8337c6f1f7b2fde72ed94dea83ff77ec34a4e4a9df3e299d30a2a211ece9b52"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-ultimatum-v1-960.avif",
+      "bytes": 13724,
+      "sha256": "1193426ebf012ce6c1013e1c5dbd004352893bc6e5bd68f316fc317e4791e6a2"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-ultimatum-v1-960.webp",
+      "bytes": 8816,
+      "sha256": "9ad22f4917661f7acb07fa770a597e60beba2fe6128d9afd99e83ee26da12e68"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-ultimatum-v1-1280.avif",
+      "bytes": 20465,
+      "sha256": "2d0e568726d58a8e81ca0c343cd8d2b29024e4b88461b980722a9fe2aabdd298"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-ultimatum-v1-1280.webp",
+      "bytes": 12790,
+      "sha256": "9667cc2e4ac01591dc7e9555faa0a2baf0290cb726fb88c1030fde056d3bca42"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-ultimatum-v1-1920.avif",
+      "bytes": 30407,
+      "sha256": "1c566a545b1bbb2b18e2e72681eec25d0d9c2ff9e792e6d453a4d80ef1673ccc"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-ultimatum-v1-1920.webp",
+      "bytes": 21338,
+      "sha256": "28f0feef3ad0772ec85d6aab87b515261d4e543345753350e0f91987843ba1fa"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-ultimatum-v1-2560.avif",
+      "bytes": 39114,
+      "sha256": "366609c37ca616f88389a5486b87dbe51c59c60edf1b23a300d378869cb63da5"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-ultimatum-v1-2560.webp",
+      "bytes": 28692,
+      "sha256": "96f5766ae07b9d339fab2e927ad18c031dd4b6d4ecc464d15631337ff6b1e6ab"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-ultimatum-v1-3840.avif",
+      "bytes": 60514,
+      "sha256": "b746a3eff34bfc51245f41ab8564a1b41437e3abc8e3c0a2fe6cc5d0da7d32b4"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-ultimatum-v1-3840.webp",
+      "bytes": 47428,
+      "sha256": "9a3550c8588d5b20cce00f2579d13acc54f4afa550a757d7c09c9d316db3e88a"
+    },
+    {
+      "path": "assets/production/png/organization-conflict-ultimatum-v1-1280.png",
+      "bytes": 176737,
+      "sha256": "cbe05e94a7fdc5d1cc544d2a59ea8cd15cf834f73690b9e5dbc631d5fad286df"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/organization-conflict-ultimatum-v1.webp",
+      "bytes": 1520,
+      "sha256": "4d1bde3ec4c45d02630bc9e4aa6b4bdc188e63d38e80cc59417c46516fc691b4"
+    },
+    {
+      "path": "apps/mobile/assets/library/organization-conflict-ultimatum-v1.webp",
+      "bytes": 1520,
+      "sha256": "4d1bde3ec4c45d02630bc9e4aa6b4bdc188e63d38e80cc59417c46516fc691b4"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:59.445Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 93,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Conflict phases remain fictional and abstract, with no actionable real-world violence, hacking, or sabotage content.",
+      "No missing render, unsafe instruction, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 221515
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:27:35.418Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-outer-district-commerce-ring-economic-boom-night-v1",
+  "manifest_order": 458,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "economic-boom-night",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-outer-district-commerce-ring-economic-boom-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100458,
+  "content_hash": "881875a7350cfef6451df8823862f489d424baf1eae43db686325c4f67d6cfa8",
+  "source_file": "assets/source/districts/district-outer-district-commerce-ring-economic-boom-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-economic-boom-night-v1-320.avif",
+      "bytes": 3542,
+      "sha256": "2f0529070b541cb7afd2f543fe360d8c3a0f5ac2ae89515ddb5cff326570b5a7"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-economic-boom-night-v1-320.webp",
+      "bytes": 3532,
+      "sha256": "60b9595c48a73a97d50f7160d9f9f773388968e9e8624186200cb186ad3b7609"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-economic-boom-night-v1-640.avif",
+      "bytes": 7395,
+      "sha256": "dd1651cae04c257855136783d300a66b40ce42feda4fb3532caac600d82f8ce7"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-economic-boom-night-v1-640.webp",
+      "bytes": 7828,
+      "sha256": "dddf83096cf33c0a4777d23952df1a954572407a5b3a5fef4d214de70a1e9752"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-economic-boom-night-v1-960.avif",
+      "bytes": 13064,
+      "sha256": "b46fa91c0ba5fdbcdc7fbb42b0791052963af1d92eff18c8f2d7fd1057cae3c5"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-economic-boom-night-v1-960.webp",
+      "bytes": 13302,
+      "sha256": "ea0b4923073b63d05f5f8624b1ab01b7939f4a24afaa378b489037f0108a6984"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-economic-boom-night-v1-1280.avif",
+      "bytes": 17773,
+      "sha256": "270ec9d9d2931eeb43db5ec904a897a96837f05e705e2b53f115af27184c8e58"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-economic-boom-night-v1-1280.webp",
+      "bytes": 17336,
+      "sha256": "0088cb7388a31535263181f9233d31be537dcd4c810f4dca576a1bb0e3047cd4"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-economic-boom-night-v1-1920.avif",
+      "bytes": 27609,
+      "sha256": "0797a3b4affc064955b88261a89a2d1ce9f8e9485825d64c528476b8ee46e704"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-economic-boom-night-v1-1920.webp",
+      "bytes": 25988,
+      "sha256": "400d77fa0481b5001bf290116f2b6a3bff1d66786c86d5942f840b7a0cf4e835"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-economic-boom-night-v1-2560.avif",
+      "bytes": 36120,
+      "sha256": "44dce77836f0c01958fe43bf359b19466d59f552677c6704accfd1af2d6b8266"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-economic-boom-night-v1-2560.webp",
+      "bytes": 34726,
+      "sha256": "d33e51f06f0860e07ac19e025bda6069c042d5ca0d3f344d003eb502c902414f"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-economic-boom-night-v1-3840.avif",
+      "bytes": 58624,
+      "sha256": "21e655a8cba1cb0bdfbb7b053965cb4233a57a0706603bcd17bc82a9e378382f"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-economic-boom-night-v1-3840.webp",
+      "bytes": 54802,
+      "sha256": "bf720cc9fe2e98d8c09b637e2edbb5d2dfa73f0615d134a6d6e6058f4d1fe4f2"
+    },
+    {
+      "path": "assets/production/png/district-outer-district-commerce-ring-economic-boom-night-v1-1280.png",
+      "bytes": 659572,
+      "sha256": "59894c430db2ffda48ff78e34487d28d9b64663b0c92a6d84049c0473378bb82"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-outer-district-commerce-ring-economic-boom-night-v1.webp",
+      "bytes": 3532,
+      "sha256": "60b9595c48a73a97d50f7160d9f9f773388968e9e8624186200cb186ad3b7609"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-outer-district-commerce-ring-economic-boom-night-v1.webp",
+      "bytes": 3532,
+      "sha256": "60b9595c48a73a97d50f7160d9f9f773388968e9e8624186200cb186ad3b7609"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.462Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1470443
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:50:45.675Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-technology-park-economic-boom-day-v1",
+  "manifest_order": 401,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "economic-boom-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-technology-park-economic-boom-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100401,
+  "content_hash": "4a00f4baac2c486eb7d9323cd9548feb74eec123edce6885ad3773e9d5298762",
+  "source_file": "assets/source/districts/district-technology-park-economic-boom-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-technology-park-economic-boom-day-v1-320.avif",
+      "bytes": 2836,
+      "sha256": "7430411c7cf67f35376f0f67d6f3292b125526cda5638ac57f297bd872dede23"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-economic-boom-day-v1-320.webp",
+      "bytes": 2746,
+      "sha256": "0683e78a8884800a1a2f13ecc8e60f1aac9a9712c39d3e59f1c3c71ee5278e06"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-economic-boom-day-v1-640.avif",
+      "bytes": 6435,
+      "sha256": "14782d876de7c52abced491d1b9dc5972c41b28f4de10b9416b07f076989f989"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-economic-boom-day-v1-640.webp",
+      "bytes": 5520,
+      "sha256": "900c2d5bf6df6f6580f66664d5c86197bfcc2f9b8ab8ceb785fd51976ba3b970"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-economic-boom-day-v1-960.avif",
+      "bytes": 10526,
+      "sha256": "04736bcc68b20327226e253dd62642255bbead0f558743d5c749eaa9d05fcdee"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-economic-boom-day-v1-960.webp",
+      "bytes": 9142,
+      "sha256": "3bbbccd20a6feaec0c6b4b40f60fe56c9df2de91207c45e9e06e472bab000395"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-economic-boom-day-v1-1280.avif",
+      "bytes": 15132,
+      "sha256": "73f01364244c441d348834d52dd96d7789e03136b563335275c0eb123846b7e4"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-economic-boom-day-v1-1280.webp",
+      "bytes": 12154,
+      "sha256": "fdd9b8ed95a5d7a1e0c282d10717ac685484a34be2c8aaa3803c75ccf3b81cfa"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-economic-boom-day-v1-1920.avif",
+      "bytes": 22554,
+      "sha256": "fd67de6b25fb8bb896fa67a23507fca1b1de2bf00fba7f7fb83ffb53e2a2cf71"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-economic-boom-day-v1-1920.webp",
+      "bytes": 19448,
+      "sha256": "0e83d22558d993c994f8c24f86ab421f9fa0306e6815c96758ed728a0edb524e"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-economic-boom-day-v1-2560.avif",
+      "bytes": 30554,
+      "sha256": "77dd3b0a2ecfa81a56a69ba50f953fbe468b7d43b75b47632185a95693934d72"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-economic-boom-day-v1-2560.webp",
+      "bytes": 27222,
+      "sha256": "2ed24b4d6407abb562d3c03ee103ac03fa8fca52eb7d1006c2019914a3747b5b"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-economic-boom-day-v1-3840.avif",
+      "bytes": 50060,
+      "sha256": "155c5366590f7cce07c848a7e2ac6cad452ffa962a21618e247ba56fcac3489c"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-economic-boom-day-v1-3840.webp",
+      "bytes": 45462,
+      "sha256": "e4c3f2c20c10666fb929852b570f1dbb8f0929792c0ccfa3062314efda2daa56"
+    },
+    {
+      "path": "assets/production/png/district-technology-park-economic-boom-day-v1-1280.png",
+      "bytes": 629696,
+      "sha256": "b0306480ccb9cb4efb588873cf464a1fff77b4fc3600daec46e0736c83a2e400"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-technology-park-economic-boom-day-v1.webp",
+      "bytes": 2746,
+      "sha256": "0683e78a8884800a1a2f13ecc8e60f1aac9a9712c39d3e59f1c3c71ee5278e06"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-technology-park-economic-boom-day-v1.webp",
+      "bytes": 2746,
+      "sha256": "0683e78a8884800a1a2f13ecc8e60f1aac9a9712c39d3e59f1c3c71ee5278e06"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.798Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1441096
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:31:48.434Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "asset_id": "icon-building-compliance-office-v1",
+  "manifest_order": 795,
+  "category": "icon",
+  "batch": "ui-icons",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "24:24",
+  "width": 24,
+  "height": 24,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/icon-building-compliance-office-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100795,
+  "content_hash": "5913a898261025741c2b8ad9d0f761c5571d15aead203f1e5167f3619c0e09a1",
+  "source_file": "assets/source/icons/icon-building-compliance-office-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/icon-building-compliance-office-v1.svg",
+      "bytes": 576,
+      "sha256": "5913a898261025741c2b8ad9d0f761c5571d15aead203f1e5167f3619c0e09a1"
+    },
+    {
+      "path": "assets/production/webp/icon-building-compliance-office-v1-320.webp",
+      "bytes": 1554,
+      "sha256": "01b1a4f6ec91c76309b685b28d11bed6fcc44531af84a6f9d4c82db7b1700e79"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/icon-building-compliance-office-v1.webp",
+      "bytes": 1554,
+      "sha256": "01b1a4f6ec91c76309b685b28d11bed6fcc44531af84a6f9d4c82db7b1700e79"
+    },
+    {
+      "path": "apps/mobile/assets/library/icon-building-compliance-office-v1.webp",
+      "bytes": 1554,
+      "sha256": "01b1a4f6ec91c76309b685b28d11bed6fcc44531af84a6f9d4c82db7b1700e79"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 576
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:51:46.570Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

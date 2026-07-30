@@ -1,0 +1,26 @@
+{
+  "schema": "shadowgrid-visual-review-v2",
+  "reviewer": "codex-final-visual-review",
+  "batch": "specialists",
+  "scores": {
+    "realism": 87,
+    "style_consistency": 95,
+    "composition": 94,
+    "material_quality": 89,
+    "light_quality": 92,
+    "architecture_plausibility": 90,
+    "ui_suitability": 95,
+    "mobile_suitability": 94,
+    "originality": 92,
+    "safety_compliance": 100,
+    "small_size_legibility": 93,
+    "contrast": 94,
+    "geometry_quality": 93,
+    "technical_quality": 96
+  },
+  "notes": [
+    "All three paged contact sheets were inspected at original resolution.",
+    "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+    "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+  ]
+}

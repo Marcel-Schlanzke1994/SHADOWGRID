@@ -1,0 +1,171 @@
+{
+  "asset_id": "character-strategist-experienced-woman-v1",
+  "manifest_order": 537,
+  "category": "character",
+  "batch": "specialists",
+  "city": null,
+  "variant": "experienced-woman",
+  "gameplay_state": "normal",
+  "aspect_ratio": "4:5",
+  "width": 1280,
+  "height": 1600,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/character-strategist-experienced-woman-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100537,
+  "content_hash": "5d7ff73935d5039a44e1db4a35f4fd4d1c4060c3ba25e6a47a2b5f2691971f6f",
+  "source_file": "assets/source/characters/character-strategist-experienced-woman-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/character-strategist-experienced-woman-v1-320.avif",
+      "bytes": 3095,
+      "sha256": "7dbb7d5d544974b9c58a39c56793504d021a2ca203e3b3485335a1c01fbb0278"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-experienced-woman-v1-320.webp",
+      "bytes": 2226,
+      "sha256": "e33e70abe18f3d7655d1f189ec7511dd03678d603790e6c9263d0cb7c4708466"
+    },
+    {
+      "path": "assets/production/avif/character-strategist-experienced-woman-v1-640.avif",
+      "bytes": 6798,
+      "sha256": "cca704787c7e8cb4fcd8bfd677ed9804cb568dc5dcb9b26632db75526ad23691"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-experienced-woman-v1-640.webp",
+      "bytes": 5384,
+      "sha256": "e67c4fe757a5a40ed97611ccd0997586ed50567e1f3c69690202c2a5e1c68a8b"
+    },
+    {
+      "path": "assets/production/avif/character-strategist-experienced-woman-v1-960.avif",
+      "bytes": 14523,
+      "sha256": "6d3223402bbd6b8be4af35f8548f458f4579b4b8ee2c4829ae99fffd1ba702df"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-experienced-woman-v1-960.webp",
+      "bytes": 10002,
+      "sha256": "25f900f602a9498b8950696bde3320a4fa0bb4317bef839305979f16f0498f43"
+    },
+    {
+      "path": "assets/production/avif/character-strategist-experienced-woman-v1-1280.avif",
+      "bytes": 21453,
+      "sha256": "56bfaf76d5eea85f9195ab1c83600736902a90f36a8a8fa1687216444480bdb8"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-experienced-woman-v1-1280.webp",
+      "bytes": 15304,
+      "sha256": "bc632f653687c56362ed72bf91c74da3a32a6e06229783db6e53ba81710ee384"
+    },
+    {
+      "path": "assets/production/avif/character-strategist-experienced-woman-v1-1920.avif",
+      "bytes": 33774,
+      "sha256": "bb18a528a363620c52c86ef0d3db29740c65f70e9e5632c590d23622bf10ef3f"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-experienced-woman-v1-1920.webp",
+      "bytes": 26168,
+      "sha256": "f8885d2b30738ca5bdb03e00f05c8b55384247a1eb4580454e129d371da28b62"
+    },
+    {
+      "path": "assets/production/avif/character-strategist-experienced-woman-v1-2560.avif",
+      "bytes": 47940,
+      "sha256": "db6742b82044dcca86d24c6fabe91537e05599812eabe2d265628a3414e2ddfa"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-experienced-woman-v1-2560.webp",
+      "bytes": 38970,
+      "sha256": "6073d83e5292fba0d3399dafef54283fbb463955fbdf9da431bd2b3930d95506"
+    },
+    {
+      "path": "assets/production/avif/character-strategist-experienced-woman-v1-3840.avif",
+      "bytes": 78632,
+      "sha256": "dd5e969b87842968fd588c5cb3e2f52bceea1cc2706bf97ba3056d35d3192e8c"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-experienced-woman-v1-3840.webp",
+      "bytes": 72698,
+      "sha256": "8f8e66d81abea8960af966aef2f1df01380c5f8b0eeabd3910407c3374d83bd7"
+    },
+    {
+      "path": "assets/production/png/character-strategist-experienced-woman-v1-1280.png",
+      "bytes": 213585,
+      "sha256": "5d7ff73935d5039a44e1db4a35f4fd4d1c4060c3ba25e6a47a2b5f2691971f6f"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/character-strategist-experienced-woman-v1.webp",
+      "bytes": 2226,
+      "sha256": "e33e70abe18f3d7655d1f189ec7511dd03678d603790e6c9263d0cb7c4708466"
+    },
+    {
+      "path": "apps/mobile/assets/library/character-strategist-experienced-woman-v1.webp",
+      "bytes": 2226,
+      "sha256": "e33e70abe18f3d7655d1f189ec7511dd03678d603790e6c9263d0cb7c4708466"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:36.813Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1280,
+      "height": 1600,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 213585
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:14:45.057Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

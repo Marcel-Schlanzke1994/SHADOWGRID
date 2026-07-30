@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-technology-park-normal-night-v1",
+  "manifest_order": 400,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal-night",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-technology-park-normal-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100400,
+  "content_hash": "af0edc7db349afd621f7fdb5905210813a79722c7c1f60717fda8a4aa36c1a7d",
+  "source_file": "assets/source/districts/district-technology-park-normal-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-technology-park-normal-night-v1-320.avif",
+      "bytes": 3527,
+      "sha256": "c5e96a1a06f58c771f4e28b9c23f7c27a735997d68c80cbe61ad92bd884916e6"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-normal-night-v1-320.webp",
+      "bytes": 3312,
+      "sha256": "a3c13ee10963352664d0dcb0979bca81e3e17e2a6ee4cecf231896a501249ecc"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-normal-night-v1-640.avif",
+      "bytes": 7635,
+      "sha256": "61cef0ac32b0ba5691d76ab28693bd5ef954267e06a0650bdeee701dfe250425"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-normal-night-v1-640.webp",
+      "bytes": 7398,
+      "sha256": "56a23e740e81735f8fcc8ad36be3e8c3b20b15244feb89ca4ee9f48edb2cae0e"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-normal-night-v1-960.avif",
+      "bytes": 12784,
+      "sha256": "7840081d5eb671816153f7fb9a31a986e5317d4a0583e8b1f4c49775fd7c59a9"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-normal-night-v1-960.webp",
+      "bytes": 12906,
+      "sha256": "8bafbaaf109c9ed71d274b2a952deeadb3a8c28745dedad309d0a4dc60bd19ff"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-normal-night-v1-1280.avif",
+      "bytes": 17415,
+      "sha256": "fcf883928c113f4d489c457f017c51f86dc1b9f017225ddfbf799b9b326a2f28"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-normal-night-v1-1280.webp",
+      "bytes": 17208,
+      "sha256": "68dd53249b0abc65cb8061feea4374bd50cdb50947cb52feac1242ff9e06e2b3"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-normal-night-v1-1920.avif",
+      "bytes": 26640,
+      "sha256": "6edfa06762b04c0af71cc2ccbda87fdd51390a114620f9385537c4b13df8fb15"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-normal-night-v1-1920.webp",
+      "bytes": 26920,
+      "sha256": "29873a5b086449de133cc8e57621995706d6778b55d4a715db2eecf76e32c233"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-normal-night-v1-2560.avif",
+      "bytes": 36709,
+      "sha256": "c6d29fa2ed92b442e57a9e1b06c800159472d1f82ae085f9cdc18fadcecc07de"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-normal-night-v1-2560.webp",
+      "bytes": 35074,
+      "sha256": "bfa24315c983c82df5aef8229786c0054d636fdea722ad0293dc66948f2c7127"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-normal-night-v1-3840.avif",
+      "bytes": 57571,
+      "sha256": "b140b33cecef7ed932de601a7d3d1afeceba3ee3f424b06d972b35c16b5f6ce9"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-normal-night-v1-3840.webp",
+      "bytes": 55604,
+      "sha256": "1b7afe1a75f83265b3bfa5eb40306ae139da466be2ae461311f30953c44e8a4c"
+    },
+    {
+      "path": "assets/production/png/district-technology-park-normal-night-v1-1280.png",
+      "bytes": 657319,
+      "sha256": "46749419ac13c77ed3838e0731b7e1a7d2e4e4159dfabca634a56fc546ee7aa4"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-technology-park-normal-night-v1.webp",
+      "bytes": 3312,
+      "sha256": "a3c13ee10963352664d0dcb0979bca81e3e17e2a6ee4cecf231896a501249ecc"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-technology-park-normal-night-v1.webp",
+      "bytes": 3312,
+      "sha256": "a3c13ee10963352664d0dcb0979bca81e3e17e2a6ee4cecf231896a501249ecc"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.787Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1472445
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:31:51.086Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

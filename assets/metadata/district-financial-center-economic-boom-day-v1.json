@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-financial-center-economic-boom-day-v1",
+  "manifest_order": 369,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "economic-boom-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-financial-center-economic-boom-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100369,
+  "content_hash": "2d9bc8ff0a2264977a604e4f5f6c3b146209485034f82ade825dc4a3d856fd7b",
+  "source_file": "assets/source/districts/district-financial-center-economic-boom-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-financial-center-economic-boom-day-v1-320.avif",
+      "bytes": 2911,
+      "sha256": "ea7132af654de3e00ca0a05a64e5d0e5dd72fbb561d700c145629f4495812267"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-economic-boom-day-v1-320.webp",
+      "bytes": 2600,
+      "sha256": "d9311211b32b3259fdaa9ac979f3b5f6833b258f64fdee6612b60b30fc44ab84"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-economic-boom-day-v1-640.avif",
+      "bytes": 6295,
+      "sha256": "046de7541e74faaf65a57549545c8e4131320bc17902ae8e8c0ed615360e83ff"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-economic-boom-day-v1-640.webp",
+      "bytes": 5406,
+      "sha256": "3ed37894a13a7ffe045ec32136572b209d19881968357442244668d7cb66b9ea"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-economic-boom-day-v1-960.avif",
+      "bytes": 10287,
+      "sha256": "444f1881c5d9c1823f34d02f95ff6d559e3347384c1715c86ff9f4dc7e3b6680"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-economic-boom-day-v1-960.webp",
+      "bytes": 8816,
+      "sha256": "08adab65aed899e814154ebf9fee5ddc3f0ba2a2d2bea9441535aa01e0c6fd98"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-economic-boom-day-v1-1280.avif",
+      "bytes": 14451,
+      "sha256": "54cff3a8844247793efc5f87fd9da07b4ba0a3928d6230c6361cc7df37b0d497"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-economic-boom-day-v1-1280.webp",
+      "bytes": 12006,
+      "sha256": "0a85b44e7b7f4e08eacc36ea9cf497d3ae25cfb89937ba14f83e72812d240348"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-economic-boom-day-v1-1920.avif",
+      "bytes": 21637,
+      "sha256": "6bcb30c969c2736d153b4f7118be836983304f313001808d160443cfc07ca970"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-economic-boom-day-v1-1920.webp",
+      "bytes": 18476,
+      "sha256": "84c398828f697d6201145ab733b425e60f4e9ea4d16febf6686965b0ca651844"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-economic-boom-day-v1-2560.avif",
+      "bytes": 29545,
+      "sha256": "67050fc325fcacaa37d374a7776052b338f996545a82048a774907573b6af271"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-economic-boom-day-v1-2560.webp",
+      "bytes": 26220,
+      "sha256": "cf69ae5a6fbff7ccc6c51eae969964bc1344ac97ba1faa8cf6a7b16e24e5a7b8"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-economic-boom-day-v1-3840.avif",
+      "bytes": 48722,
+      "sha256": "c9da5014063ba0913184df803353184267313cffde181c8da92213dac43673d3"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-economic-boom-day-v1-3840.webp",
+      "bytes": 44034,
+      "sha256": "7984828f78e1af89ea670af1b64b36789b03c653093c103386113bcc214771f0"
+    },
+    {
+      "path": "assets/production/png/district-financial-center-economic-boom-day-v1-1280.png",
+      "bytes": 636231,
+      "sha256": "058790ab58403c69dcaeb004f9284ecc94964ed1ea5e48eba8bf13501432ec28"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-financial-center-economic-boom-day-v1.webp",
+      "bytes": 2600,
+      "sha256": "d9311211b32b3259fdaa9ac979f3b5f6833b258f64fdee6612b60b30fc44ab84"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-financial-center-economic-boom-day-v1.webp",
+      "bytes": 2600,
+      "sha256": "d9311211b32b3259fdaa9ac979f3b5f6833b258f64fdee6612b60b30fc44ab84"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.414Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1469075
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:07:55.710Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

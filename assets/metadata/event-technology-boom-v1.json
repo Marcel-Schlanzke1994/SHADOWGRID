@@ -1,0 +1,171 @@
+{
+  "asset_id": "event-technology-boom-v1",
+  "manifest_order": 703,
+  "category": "event",
+  "batch": "world-events",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/event-technology-boom-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100703,
+  "content_hash": "b8c967a40bcb89839c04cdb9d54d281a966c5edea73040064a6b2046b72cc3b5",
+  "source_file": "assets/source/events/event-technology-boom-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/event-technology-boom-v1-320.avif",
+      "bytes": 2969,
+      "sha256": "3adb67791f7d723e934cf7dea7b22d050d62fbc90b7f3ed9af2f0f3f79ca743d"
+    },
+    {
+      "path": "assets/production/webp/event-technology-boom-v1-320.webp",
+      "bytes": 2806,
+      "sha256": "f2d1277361b9c2273c225711f756511553e9b46c993421a438ad6259003d39ef"
+    },
+    {
+      "path": "assets/production/avif/event-technology-boom-v1-640.avif",
+      "bytes": 6507,
+      "sha256": "d4bde06e9c5a7bb9b91dafdc6f39725619b8fe98353df2ded374dc6fb8ae3c25"
+    },
+    {
+      "path": "assets/production/webp/event-technology-boom-v1-640.webp",
+      "bytes": 5672,
+      "sha256": "d74d5e77023bbaad6749d6b667783de794e8eeb2863b25fb592197a2e58b1e65"
+    },
+    {
+      "path": "assets/production/avif/event-technology-boom-v1-960.avif",
+      "bytes": 11094,
+      "sha256": "f2837d5194056b118442d69f55b2d908aab99a2eb7a6dfb0a71c4e3fde1ebaa5"
+    },
+    {
+      "path": "assets/production/webp/event-technology-boom-v1-960.webp",
+      "bytes": 9284,
+      "sha256": "61211aade60878739d32b08af09d4cd8540858405656c1b6f78867869e61287d"
+    },
+    {
+      "path": "assets/production/avif/event-technology-boom-v1-1280.avif",
+      "bytes": 16002,
+      "sha256": "176cd84ac01851576ee29685e9e9fdf616aa6c81a2a4bb4350228ec78d275eab"
+    },
+    {
+      "path": "assets/production/webp/event-technology-boom-v1-1280.webp",
+      "bytes": 12658,
+      "sha256": "25a00c32c770f209de8f5e301322ed27487f2798bbe09d9131352e80c5dfe671"
+    },
+    {
+      "path": "assets/production/avif/event-technology-boom-v1-1920.avif",
+      "bytes": 23962,
+      "sha256": "e34b8e01e77107aca17448d227023211f93018323863e94c8a5a4038d523495d"
+    },
+    {
+      "path": "assets/production/webp/event-technology-boom-v1-1920.webp",
+      "bytes": 19970,
+      "sha256": "f944b6d17b760c84d4d688e5b2b2f1cd46d1e8a53c3d0105a9249aea073f9584"
+    },
+    {
+      "path": "assets/production/avif/event-technology-boom-v1-2560.avif",
+      "bytes": 33156,
+      "sha256": "6b11e83b772f7003c269768a5a0fb125b6cbd76f8efaed03d18c155a077225c9"
+    },
+    {
+      "path": "assets/production/webp/event-technology-boom-v1-2560.webp",
+      "bytes": 27882,
+      "sha256": "8279691d0d01ef9b12b46d7cd9517f513603e04cb6dfd280e2c2c139737e401b"
+    },
+    {
+      "path": "assets/production/avif/event-technology-boom-v1-3840.avif",
+      "bytes": 53572,
+      "sha256": "e3a776254b693e7fdf63edb11da1fdf17771274ba390cd29f029ccaeac2a7e06"
+    },
+    {
+      "path": "assets/production/webp/event-technology-boom-v1-3840.webp",
+      "bytes": 47904,
+      "sha256": "1f942dcdf17b3d9606175294130f7ad9f299ea21392b76c93744566d7e1e4245"
+    },
+    {
+      "path": "assets/production/png/event-technology-boom-v1-1280.png",
+      "bytes": 696422,
+      "sha256": "951ea578a9943d62204869cc6cf65beefc10526efc55557c9de9ba9ee5ab531f"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/event-technology-boom-v1.webp",
+      "bytes": 2806,
+      "sha256": "f2d1277361b9c2273c225711f756511553e9b46c993421a438ad6259003d39ef"
+    },
+    {
+      "path": "apps/mobile/assets/library/event-technology-boom-v1.webp",
+      "bytes": 2806,
+      "sha256": "f2d1277361b9c2273c225711f756511553e9b46c993421a438ad6259003d39ef"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:10.715Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 88,
+      "light_quality": 91,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Repeated motifs form a coherent event family while color, direction, and state treatment keep event classes distinguishable.",
+      "No missing render, unsafe real-world guidance, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1571366
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:31:38.027Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

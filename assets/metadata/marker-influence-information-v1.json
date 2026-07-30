@@ -23,6 +23,11 @@
       "path": "assets/production/svg/marker-influence-information-v1.svg",
       "bytes": 788,
       "sha256": "b6fea79109171aaccd84ef5e3559cf3d551936fa61ac8cd8224f2ce0f788daee"
+    },
+    {
+      "path": "assets/production/webp/marker-influence-information-v1-320.webp",
+      "bytes": 6638,
+      "sha256": "942161503efe3f676d87c2ee0d1a814228b034a4ada275c1c5d4695eb94679d5"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/markers/marker-influence-information-v1.svg",
       "bytes": 788,
       "sha256": "b6fea79109171aaccd84ef5e3559cf3d551936fa61ac8cd8224f2ce0f788daee"
+    },
+    {
+      "path": "apps/web/public/assets/markers/marker-influence-information-v1-320.webp",
+      "bytes": 6638,
+      "sha256": "942161503efe3f676d87c2ee0d1a814228b034a4ada275c1c5d4695eb94679d5"
+    },
+    {
+      "path": "apps/web/public/assets/library/marker-influence-information-v1.webp",
+      "bytes": 6638,
+      "sha256": "942161503efe3f676d87c2ee0d1a814228b034a4ada275c1c5d4695eb94679d5"
+    },
+    {
+      "path": "apps/mobile/assets/library/marker-influence-information-v1.webp",
+      "bytes": 6638,
+      "sha256": "942161503efe3f676d87c2ee0d1a814228b034a4ada275c1c5d4695eb94679d5"
     }
   ],
   "contains_text": false,

@@ -23,15 +23,24 @@ route-level Axe/structure scans plus focus, reduced-motion, pseudo-locale and as
 checks pass. Physical signed-device assistive checks are explicitly assigned to the store
 operator.
 
-Current phase: Phase 6 complete procedural asset pipeline.
+Phases 6 and 7 are verified. All 896 visual assets are approved after a complete 60-page
+contact-sheet review; technical validation, runtime integration and the release gate pass.
+All 30 store/marketing entries pass, including 20 functioning-application captures at exact
+Google Play, iPhone and iPad dimensions.
 
-Known early gaps:
+Phases 8 through 12 are also locally verified: deterministic four-season balancing,
+security/privacy engineering, operations and restore evidence, unsigned mobile preview
+readiness, and transactional email behavior all pass their repository gates.
+
+Current phase: Phase 13 final release run preparation.
+
+Known external or host gates:
 
 - Docker, PostgreSQL and Redis CLIs are not available on this host; every independent local
   release gate passed.
-- The asset manifest contains 896 entries, of which 765 are still pending and one requires
-  review.
-- Mobile provider identifiers and associated-link domains still contain documented
-  placeholders.
+- Production deploy, push, tag, paid generation, store submission and SMTP activation flags
+  are closed.
+- Signed EAS builds, physical-device assistive-technology checks, legal/privacy approval,
+  support ownership and production alert routing require named external operators.
 
 No completion claim has been made.

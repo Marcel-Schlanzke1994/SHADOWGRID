@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-nightlife-quarter-authority-activity-night-v1",
+  "manifest_order": 422,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "authority-activity-night",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-nightlife-quarter-authority-activity-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100422,
+  "content_hash": "78786afd912391a7f29766bd13cdbb065f43ca170f54cafc254aa18a51d44bf0",
+  "source_file": "assets/source/districts/district-nightlife-quarter-authority-activity-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-nightlife-quarter-authority-activity-night-v1-320.avif",
+      "bytes": 3725,
+      "sha256": "2ca83d6e72faa08b2f7bdb1847a06bd16287498e1823b72e425c6cd4a6af82e3"
+    },
+    {
+      "path": "assets/production/webp/district-nightlife-quarter-authority-activity-night-v1-320.webp",
+      "bytes": 3572,
+      "sha256": "56cb76703c29b64d5b1eff456127efca6348e762fd5ac3ff2000e1c4ae108220"
+    },
+    {
+      "path": "assets/production/avif/district-nightlife-quarter-authority-activity-night-v1-640.avif",
+      "bytes": 7668,
+      "sha256": "5c51ff5218d7d05f6a0c2a2a869df03e64748e986bacd3f2f7b981b8e6d1bce0"
+    },
+    {
+      "path": "assets/production/webp/district-nightlife-quarter-authority-activity-night-v1-640.webp",
+      "bytes": 7628,
+      "sha256": "013342e0076165b3fb7ea06f824861b71300a7bcffdb5b69e9d6129ddc9f5855"
+    },
+    {
+      "path": "assets/production/avif/district-nightlife-quarter-authority-activity-night-v1-960.avif",
+      "bytes": 13066,
+      "sha256": "024ce1191eb7f6d8b4ec0e3e6d09b5b3698fcc119e7af9770464e3e498cc9435"
+    },
+    {
+      "path": "assets/production/webp/district-nightlife-quarter-authority-activity-night-v1-960.webp",
+      "bytes": 12924,
+      "sha256": "7d6757ade73e3ed72686706b19c6c21f7336843c2d703c9734a4ecfb62b2bd38"
+    },
+    {
+      "path": "assets/production/avif/district-nightlife-quarter-authority-activity-night-v1-1280.avif",
+      "bytes": 17873,
+      "sha256": "f0e7e0931992124ecf0d0b24dc256fea63c7705a90a31e0e8733841f5c157d08"
+    },
+    {
+      "path": "assets/production/webp/district-nightlife-quarter-authority-activity-night-v1-1280.webp",
+      "bytes": 17228,
+      "sha256": "36a10d8f0c34c2b935a4c5130c71d6007a4d4e023b1c709ce8569d2a6fbb0b3c"
+    },
+    {
+      "path": "assets/production/avif/district-nightlife-quarter-authority-activity-night-v1-1920.avif",
+      "bytes": 28451,
+      "sha256": "d9c4326ac39660310febfe63737f6f901187ffe87895cefe0dade5b2d54ad029"
+    },
+    {
+      "path": "assets/production/webp/district-nightlife-quarter-authority-activity-night-v1-1920.webp",
+      "bytes": 25448,
+      "sha256": "4ff8350bcbcf34914676fca4bfca53bf23cca4efface6992959781c66ca0be09"
+    },
+    {
+      "path": "assets/production/avif/district-nightlife-quarter-authority-activity-night-v1-2560.avif",
+      "bytes": 37192,
+      "sha256": "8df0fd6ca984ebce438e6c62f16750f8e01c846400b58b2c6a2f4ee3b6e37702"
+    },
+    {
+      "path": "assets/production/webp/district-nightlife-quarter-authority-activity-night-v1-2560.webp",
+      "bytes": 33960,
+      "sha256": "e946bdf16ddfbe32c90b731050818da6926c7d249ff68ff3e64459c466d50d26"
+    },
+    {
+      "path": "assets/production/avif/district-nightlife-quarter-authority-activity-night-v1-3840.avif",
+      "bytes": 58597,
+      "sha256": "ea149179ebb75060addb26d2a31a37f5ac8aeb3e74e007da85dab63c84623077"
+    },
+    {
+      "path": "assets/production/webp/district-nightlife-quarter-authority-activity-night-v1-3840.webp",
+      "bytes": 54600,
+      "sha256": "a1697e90fae4b2df38423d2676ae848c73fb12648f083c59c85a0d8e662c39a4"
+    },
+    {
+      "path": "assets/production/png/district-nightlife-quarter-authority-activity-night-v1-1280.png",
+      "bytes": 656975,
+      "sha256": "98fd80fc3de01ca4b732d23ca7abea3402a1be450ee5273d53677a018e773065"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-nightlife-quarter-authority-activity-night-v1.webp",
+      "bytes": 3572,
+      "sha256": "56cb76703c29b64d5b1eff456127efca6348e762fd5ac3ff2000e1c4ae108220"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-nightlife-quarter-authority-activity-night-v1.webp",
+      "bytes": 3572,
+      "sha256": "56cb76703c29b64d5b1eff456127efca6348e762fd5ac3ff2000e1c4ae108220"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.044Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1460632
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:39:06.162Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

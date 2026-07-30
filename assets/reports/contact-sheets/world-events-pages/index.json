@@ -1,0 +1,27 @@
+{
+  "schema": "shadowgrid/contact-sheet-pages/v1",
+  "batch": "world-events",
+  "generated_at": "2026-07-30T06:19:12.007Z",
+  "asset_count": 12,
+  "page_size": 18,
+  "pages": [
+    {
+      "page": 1,
+      "path": "assets/reports/contact-sheets/world-events-pages/page-001.png",
+      "assets": [
+        "event-port-strike-v1",
+        "event-financial-audit-v1",
+        "event-data-leak-v1",
+        "event-economic-crisis-v1",
+        "event-media-campaign-v1",
+        "event-technology-boom-v1",
+        "event-major-inspection-v1",
+        "event-labor-shortage-v1",
+        "event-property-boom-v1",
+        "event-security-crisis-v1",
+        "event-peace-initiative-v1",
+        "event-supply-chain-disruption-v1"
+      ]
+    }
+  ]
+}

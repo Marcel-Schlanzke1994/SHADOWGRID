@@ -1,0 +1,171 @@
+{
+  "asset_id": "city-template-large-city-technology-night-desktop-v1",
+  "manifest_order": 328,
+  "category": "city-template",
+  "batch": "procedural-city-templates",
+  "city": null,
+  "variant": "night-desktop",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-template-large-city-technology-night-desktop-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100328,
+  "content_hash": "9e399596bde28e0be7bc38f1441ed80118b4bd345f98ea138f2877388ad007fa",
+  "source_file": "assets/source/global/city-template-large-city-technology-night-desktop-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-template-large-city-technology-night-desktop-v1-320.avif",
+      "bytes": 3767,
+      "sha256": "d19cbfb72a5ca4f850bc226e9d2a2bc82e50e5cdfd33db880c1ea36d42da522d"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-technology-night-desktop-v1-320.webp",
+      "bytes": 4248,
+      "sha256": "2cffa02d2f034e387d87197ee77838710216a6a3637b3a4380a84e5c6693d6fc"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-technology-night-desktop-v1-640.avif",
+      "bytes": 8426,
+      "sha256": "f2128bf333bc2d7b85938924834639fe4008f8d67d75429a3a74023f775902aa"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-technology-night-desktop-v1-640.webp",
+      "bytes": 8622,
+      "sha256": "7e48171eb14b9c7fe39833e66d4012ee302bb30f7f9104fef93e0380b51dc733"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-technology-night-desktop-v1-960.avif",
+      "bytes": 13896,
+      "sha256": "c02b23615a78c8803b0458d1e73042754961585588535b7e33e125040fd442e5"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-technology-night-desktop-v1-960.webp",
+      "bytes": 15272,
+      "sha256": "214f00720026d7593ecd95dbeafaac7061db3b6d51d66b59e5cd04ea84d1ce6f"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-technology-night-desktop-v1-1280.avif",
+      "bytes": 19437,
+      "sha256": "853a5c060740e598979ca87a5e437f4457a7a8e3de180a88599d1b39127a82d9"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-technology-night-desktop-v1-1280.webp",
+      "bytes": 19598,
+      "sha256": "61f04a42e5ac7aaaf444ad75a6b3f9db9c1b50ba98078e894e78f0e9fd055446"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-technology-night-desktop-v1-1920.avif",
+      "bytes": 29586,
+      "sha256": "ad4df87c2508268a82299644382801bf98bb4075caf472de2a612a33b6db3249"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-technology-night-desktop-v1-1920.webp",
+      "bytes": 29334,
+      "sha256": "64cab2d61277ebcf2efe91dc1faa2f524e8aa1d0273632240d0df30e3a444432"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-technology-night-desktop-v1-2560.avif",
+      "bytes": 40550,
+      "sha256": "afdb4e7bc6b2f1a72f0ee1dda28a481c5158f129505d99bea000b57f13b71b18"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-technology-night-desktop-v1-2560.webp",
+      "bytes": 38216,
+      "sha256": "794034a55855e4b75a8ec4a93cd7f8042196b1889a43887379c74f96c3ce2bf9"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-technology-night-desktop-v1-3840.avif",
+      "bytes": 63525,
+      "sha256": "a27ec47e26f789e86b5ca5e3f8fa92d0bde96b6f1b099989215c9867ce2a19cf"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-technology-night-desktop-v1-3840.webp",
+      "bytes": 60174,
+      "sha256": "68be5b3d495e3f8a9ec26eaedeacc3319b3d45e307d66990b2fe8fbc9e1b66c8"
+    },
+    {
+      "path": "assets/production/png/city-template-large-city-technology-night-desktop-v1-1280.png",
+      "bytes": 764928,
+      "sha256": "9e23c6e734da1df3147caa6350a42dcc46f62937bdefca8c31b44494b2fa0e7d"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/city-template-large-city-technology-night-desktop-v1.webp",
+      "bytes": 4248,
+      "sha256": "2cffa02d2f034e387d87197ee77838710216a6a3637b3a4380a84e5c6693d6fc"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-template-large-city-technology-night-desktop-v1.webp",
+      "bytes": 4248,
+      "sha256": "2cffa02d2f034e387d87197ee77838710216a6a3637b3a4380a84e5c6693d6fc"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 91.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:55.180Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 92,
+      "material_quality": 87,
+      "light_quality": 89,
+      "architecture_plausibility": 89,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 92,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All four paged contact sheets were inspected at original resolution.",
+      "The templates are intentionally stylized deterministic fallbacks and remain compositionally useful across every required aspect ratio.",
+      "No missing render, broken geometry, sensitive infrastructure detail, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1703596
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:31:56.329Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

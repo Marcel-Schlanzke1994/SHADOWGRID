@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-affluent-residential-crisis-day-v1",
+  "manifest_order": 443,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "crisis-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-affluent-residential-crisis-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100443,
+  "content_hash": "3089feae70cf04a906214a225d5aa03b9be9615ecfc9bef8a215207ceb4ed132",
+  "source_file": "assets/source/districts/district-affluent-residential-crisis-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-affluent-residential-crisis-day-v1-320.avif",
+      "bytes": 2822,
+      "sha256": "d9674ccc402f04f7b0d7d8b1c5fb4e86d62caacc51c9b32d29aef680a7a6adfd"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-crisis-day-v1-320.webp",
+      "bytes": 2388,
+      "sha256": "3dea911c51a0bc6def3e4a3a9870066946e63a2e1fb2977d1150fe9a46cec2eb"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-crisis-day-v1-640.avif",
+      "bytes": 6115,
+      "sha256": "12048f325d982b305f0569ec4c9380977487f78963b2ba7f4b2c291f2b2c52d5"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-crisis-day-v1-640.webp",
+      "bytes": 4816,
+      "sha256": "69c8da4e117653d85b94472f8ee2cffed2e71ab8a76b5aaa34ccb4fec5bdd4e4"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-crisis-day-v1-960.avif",
+      "bytes": 9807,
+      "sha256": "abe2fbdc341c8622e15b08ad722bea6114cf0517290ba0c8c2a9aa63414fc899"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-crisis-day-v1-960.webp",
+      "bytes": 7926,
+      "sha256": "61400fca9e27b073d2e3a3c6aceb5d4270ec4036060a6754bdc114cd350d28a8"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-crisis-day-v1-1280.avif",
+      "bytes": 13898,
+      "sha256": "1676ae94b5e66bed779227dad872fe1662447380302b3ab7f8f5757d982bb230"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-crisis-day-v1-1280.webp",
+      "bytes": 10710,
+      "sha256": "31c7fa5b59fc39652d2f838d6ecc6c74f173cfc6ef1d2ce2c5064d6b89aca5c2"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-crisis-day-v1-1920.avif",
+      "bytes": 20872,
+      "sha256": "1a2d778135eec2663723a5b3e5e13b0fd3e6850ab6ca90d7a4ec0922cb5382b8"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-crisis-day-v1-1920.webp",
+      "bytes": 17050,
+      "sha256": "760366a986d8acbfe59fbb875c9ad23604f20b1773e77681bdacf27c413d4303"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-crisis-day-v1-2560.avif",
+      "bytes": 27449,
+      "sha256": "4f1373b6da7518353106e33b6a36becb9f3e1aabf69bb537fc95ff3efb217235"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-crisis-day-v1-2560.webp",
+      "bytes": 24132,
+      "sha256": "71a1868016cfa27de8691d8834fd133b6c917f4ac4f801efee030d1bdce6072b"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-crisis-day-v1-3840.avif",
+      "bytes": 45630,
+      "sha256": "0d3fd6b7d0ac67d483317b51910a1a343e24f0a3b3afe774919027a366f5a9ad"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-crisis-day-v1-3840.webp",
+      "bytes": 40944,
+      "sha256": "cbb27ff877fc82633c466b834d2d81517996110672ae8e9301e897573a00bb17"
+    },
+    {
+      "path": "assets/production/png/district-affluent-residential-crisis-day-v1-1280.png",
+      "bytes": 627621,
+      "sha256": "0e77ad85ca67ebf0d3bd83d3eaeeab6634488f9b871a9f32724bffe865b788f5"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-affluent-residential-crisis-day-v1.webp",
+      "bytes": 2388,
+      "sha256": "3dea911c51a0bc6def3e4a3a9870066946e63a2e1fb2977d1150fe9a46cec2eb"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-affluent-residential-crisis-day-v1.webp",
+      "bytes": 2388,
+      "sha256": "3dea911c51a0bc6def3e4a3a9870066946e63a2e1fb2977d1150fe9a46cec2eb"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.297Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1460840
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:45:40.808Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

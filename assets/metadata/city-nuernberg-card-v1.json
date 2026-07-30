@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-nuernberg-card-v1",
+  "manifest_order": 177,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "nuernberg",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-nuernberg-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100177,
+  "content_hash": "f6728a3709e0a4d291d6bd7deb0e594b572f740d21b90981db42918836b814fb",
+  "source_file": "assets/source/cities/city-nuernberg-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-nuernberg-card-v1-320.avif",
+      "bytes": 3724,
+      "sha256": "77f236b90e4dabb729129bc65a7913c9c69bd6cbee6e94f84b58d1714988fb7e"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-card-v1-320.webp",
+      "bytes": 3544,
+      "sha256": "2b3216a17bd3c84d31d23281b45e66f9ae08e8ee3216f954a662bfe9c45d3840"
+    },
+    {
+      "path": "assets/production/avif/city-nuernberg-card-v1-640.avif",
+      "bytes": 7811,
+      "sha256": "4ad7dfae436595e2ca77956f7d95135923a421045e89d59c02ced3b47f202e13"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-card-v1-640.webp",
+      "bytes": 6890,
+      "sha256": "d1cf3e2764d7c68d79a18417270c8f30d1545b7888d08b77812383194c9f0fd6"
+    },
+    {
+      "path": "assets/production/avif/city-nuernberg-card-v1-960.avif",
+      "bytes": 13987,
+      "sha256": "6e7773716be6c7b1d3e183821f714e8dfe276d3dda73b806b55b10f5a0bfe6ae"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-card-v1-960.webp",
+      "bytes": 11390,
+      "sha256": "b7b2ad3a03d02cb040048e3472b9d2debd04b527f51a0e469d40adb47ec266d5"
+    },
+    {
+      "path": "assets/production/avif/city-nuernberg-card-v1-1280.avif",
+      "bytes": 18870,
+      "sha256": "69f963c6ead1f94d438cc691173009d6f946bbd5954c7b3fb6a86caad1bfb123"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-card-v1-1280.webp",
+      "bytes": 15488,
+      "sha256": "751fb55b091ea1b780f4075abd77cc12ff425b5d4d237b2152f60b7030de30b4"
+    },
+    {
+      "path": "assets/production/avif/city-nuernberg-card-v1-1920.avif",
+      "bytes": 29225,
+      "sha256": "dd6d475e01d5ea8d4843a72f55c4e0dd239ce4ce392e84a23a66e9e36be56ce2"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-card-v1-1920.webp",
+      "bytes": 25136,
+      "sha256": "22bd1c340476ff7845c8dc7de4f5926f28b91bceb783e42eefa4e98195c3455a"
+    },
+    {
+      "path": "assets/production/avif/city-nuernberg-card-v1-2560.avif",
+      "bytes": 40518,
+      "sha256": "67014b1074c1a25313c7614fc2db228680dd91a4804d8531db8c32863297269b"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-card-v1-2560.webp",
+      "bytes": 36534,
+      "sha256": "6487388d3dbaaca887a4f75334bd14bb06f3edb82da43843e5ac7c9710770009"
+    },
+    {
+      "path": "assets/production/avif/city-nuernberg-card-v1-3840.avif",
+      "bytes": 66342,
+      "sha256": "f9fd05645680558fa36a7531584d3e7ba4f0640d195c76ea2d84144ebc7c1daa"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-card-v1-3840.webp",
+      "bytes": 66518,
+      "sha256": "56e2f288bafa5422c2ea04540c5ee561f4626814a34c87b45f58519ac35ad169"
+    },
+    {
+      "path": "assets/production/png/city-nuernberg-card-v1-1280.png",
+      "bytes": 1265830,
+      "sha256": "04da7e9e1e4e0819f1f4e2b01a1a5cce87e626a2088e9c9cc02405d443812807"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-card-v1-320.avif",
+      "bytes": 3724,
+      "sha256": "77f236b90e4dabb729129bc65a7913c9c69bd6cbee6e94f84b58d1714988fb7e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-card-v1-320.webp",
+      "bytes": 3544,
+      "sha256": "2b3216a17bd3c84d31d23281b45e66f9ae08e8ee3216f954a662bfe9c45d3840"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-card-v1-640.avif",
+      "bytes": 7811,
+      "sha256": "4ad7dfae436595e2ca77956f7d95135923a421045e89d59c02ced3b47f202e13"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-card-v1-640.webp",
+      "bytes": 6890,
+      "sha256": "d1cf3e2764d7c68d79a18417270c8f30d1545b7888d08b77812383194c9f0fd6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-card-v1-960.avif",
+      "bytes": 13987,
+      "sha256": "6e7773716be6c7b1d3e183821f714e8dfe276d3dda73b806b55b10f5a0bfe6ae"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-card-v1-960.webp",
+      "bytes": 11390,
+      "sha256": "b7b2ad3a03d02cb040048e3472b9d2debd04b527f51a0e469d40adb47ec266d5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-card-v1-1280.avif",
+      "bytes": 18870,
+      "sha256": "69f963c6ead1f94d438cc691173009d6f946bbd5954c7b3fb6a86caad1bfb123"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-card-v1-1280.webp",
+      "bytes": 15488,
+      "sha256": "751fb55b091ea1b780f4075abd77cc12ff425b5d4d237b2152f60b7030de30b4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-card-v1-1920.avif",
+      "bytes": 29225,
+      "sha256": "dd6d475e01d5ea8d4843a72f55c4e0dd239ce4ce392e84a23a66e9e36be56ce2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-card-v1-1920.webp",
+      "bytes": 25136,
+      "sha256": "22bd1c340476ff7845c8dc7de4f5926f28b91bceb783e42eefa4e98195c3455a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-card-v1-2560.avif",
+      "bytes": 40518,
+      "sha256": "67014b1074c1a25313c7614fc2db228680dd91a4804d8531db8c32863297269b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-card-v1-2560.webp",
+      "bytes": 36534,
+      "sha256": "6487388d3dbaaca887a4f75334bd14bb06f3edb82da43843e5ac7c9710770009"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-card-v1-3840.avif",
+      "bytes": 66342,
+      "sha256": "f9fd05645680558fa36a7531584d3e7ba4f0640d195c76ea2d84144ebc7c1daa"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-card-v1-3840.webp",
+      "bytes": 66518,
+      "sha256": "56e2f288bafa5422c2ea04540c5ee561f4626814a34c87b45f58519ac35ad169"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-card-v1-1280.png",
+      "bytes": 1265830,
+      "sha256": "04da7e9e1e4e0819f1f4e2b01a1a5cce87e626a2088e9c9cc02405d443812807"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-nuernberg-card-v1.webp",
+      "bytes": 3544,
+      "sha256": "2b3216a17bd3c84d31d23281b45e66f9ae08e8ee3216f954a662bfe9c45d3840"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-nuernberg-card-v1.webp",
+      "bytes": 3544,
+      "sha256": "2b3216a17bd3c84d31d23281b45e66f9ae08e8ee3216f954a662bfe9c45d3840"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.797Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1664653
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:23:41.085Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

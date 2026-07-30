@@ -1,0 +1,171 @@
+{
+  "asset_id": "character-finance-lead-younger-man-v1",
+  "manifest_order": 540,
+  "category": "character",
+  "batch": "specialists",
+  "city": null,
+  "variant": "younger-man",
+  "gameplay_state": "normal",
+  "aspect_ratio": "4:5",
+  "width": 1280,
+  "height": 1600,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/character-finance-lead-younger-man-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100540,
+  "content_hash": "11ff496d9b5d028bdf665536711a0c7acc5a57ed62f9b7262f7ded86a1109cf2",
+  "source_file": "assets/source/characters/character-finance-lead-younger-man-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/character-finance-lead-younger-man-v1-320.avif",
+      "bytes": 2977,
+      "sha256": "c2944c94943bcbb78b9cb019bac87d0c6e65327a187b371a56198c7ea2d118e0"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-younger-man-v1-320.webp",
+      "bytes": 2148,
+      "sha256": "e8c257fceaca5f0f2f3d8fc94dc05ca9a66e59e0dc7db7383ebf150160063250"
+    },
+    {
+      "path": "assets/production/avif/character-finance-lead-younger-man-v1-640.avif",
+      "bytes": 6671,
+      "sha256": "f6a2a2c236afb37c5d7b0d4b89a6e71ea03972c9c64b200b91205a5fe5b12fcb"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-younger-man-v1-640.webp",
+      "bytes": 5082,
+      "sha256": "f8ceac1ffda11df0ec1c63d6aa7979a9e4c85f556185a2eff2de3c059e9a5628"
+    },
+    {
+      "path": "assets/production/avif/character-finance-lead-younger-man-v1-960.avif",
+      "bytes": 14439,
+      "sha256": "3b0488626f9de05739f869a931e0768fb40a055b40acfd31d261715ccd067636"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-younger-man-v1-960.webp",
+      "bytes": 9628,
+      "sha256": "1b2f051d2248b46a67b2e0a89c170880a971ba7b20d62f333336d3f29da79369"
+    },
+    {
+      "path": "assets/production/avif/character-finance-lead-younger-man-v1-1280.avif",
+      "bytes": 20652,
+      "sha256": "34063d4d5768f35d8fe1a6f429c12e7ab40676aeec99b069ef494c7c2cb45c61"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-younger-man-v1-1280.webp",
+      "bytes": 14740,
+      "sha256": "0dc48a2767ed9e6677a455a62eb78c137359cc5806663d3ee1faf192d0df5440"
+    },
+    {
+      "path": "assets/production/avif/character-finance-lead-younger-man-v1-1920.avif",
+      "bytes": 32701,
+      "sha256": "09ba4f3b13578dfa180d2b08bafb8f9840eaa116bb05560d21d32dff37bd9a06"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-younger-man-v1-1920.webp",
+      "bytes": 25132,
+      "sha256": "cf3a723a3c49552cc7e088bb91b4a64510fdcae62c930250687e819b9d767e33"
+    },
+    {
+      "path": "assets/production/avif/character-finance-lead-younger-man-v1-2560.avif",
+      "bytes": 46309,
+      "sha256": "343220f4646d2a205c6cf36bc846b483b1537682529825238e857bd2146bd9df"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-younger-man-v1-2560.webp",
+      "bytes": 38066,
+      "sha256": "ac3969e95f3afeb98f00f9f1ef3311968fd39f079490f72ed6c8d45b4da44ac3"
+    },
+    {
+      "path": "assets/production/avif/character-finance-lead-younger-man-v1-3840.avif",
+      "bytes": 76106,
+      "sha256": "73e20d47cb718f48aabcb61721f0e069716f5412137dd1b8b77a8ae6c27fef72"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-younger-man-v1-3840.webp",
+      "bytes": 71648,
+      "sha256": "a5ccf38dd1fae7e38222bfce0fc1d230732d18f5eb0bb98b28c5625393b08131"
+    },
+    {
+      "path": "assets/production/png/character-finance-lead-younger-man-v1-1280.png",
+      "bytes": 210415,
+      "sha256": "11ff496d9b5d028bdf665536711a0c7acc5a57ed62f9b7262f7ded86a1109cf2"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/character-finance-lead-younger-man-v1.webp",
+      "bytes": 2148,
+      "sha256": "e8c257fceaca5f0f2f3d8fc94dc05ca9a66e59e0dc7db7383ebf150160063250"
+    },
+    {
+      "path": "apps/mobile/assets/library/character-finance-lead-younger-man-v1.webp",
+      "bytes": 2148,
+      "sha256": "e8c257fceaca5f0f2f3d8fc94dc05ca9a66e59e0dc7db7383ebf150160063250"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:36.887Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1280,
+      "height": 1600,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 210415
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:15:19.100Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

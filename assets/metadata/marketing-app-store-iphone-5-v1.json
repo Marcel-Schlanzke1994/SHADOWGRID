@@ -1,0 +1,180 @@
+{
+  "asset_id": "marketing-app-store-iphone-5-v1",
+  "manifest_order": 881,
+  "category": "marketing",
+  "batch": "store-marketing",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "1290:2796",
+  "width": 1290,
+  "height": 2796,
+  "source_type": "app-screenshot",
+  "provider": "playwright-local-capture",
+  "model": null,
+  "prompt_file": "assets/prompts/marketing-app-store-iphone-5-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100881,
+  "content_hash": "0477981af6e64ab5ec697a6dc8ab9d2f2b72af28997f6828dbc16a62f2894b3d",
+  "source_file": "assets/source/marketing/marketing-app-store-iphone-5-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/marketing-app-store-iphone-5-v1-320.avif",
+      "bytes": 14940,
+      "sha256": "9d97a05cd3f5c900e9a445d306106fc6f579ed07659cc7669f6694831b70c6b5"
+    },
+    {
+      "path": "assets/production/webp/marketing-app-store-iphone-5-v1-320.webp",
+      "bytes": 14474,
+      "sha256": "43c119c064905d6d2efb39aeb7788c32d27e0f63abaf4b800c657026b1ef1621"
+    },
+    {
+      "path": "assets/production/avif/marketing-app-store-iphone-5-v1-640.avif",
+      "bytes": 41209,
+      "sha256": "ce03631c050c77d83b9dd38112dc0361afdc66bde719b67c57a0ed4b6548a0bc"
+    },
+    {
+      "path": "assets/production/webp/marketing-app-store-iphone-5-v1-640.webp",
+      "bytes": 39544,
+      "sha256": "01f7ef6bd975404505f0aff9ce700f17dd57c00e2dc37a783be8acc94763e131"
+    },
+    {
+      "path": "assets/production/avif/marketing-app-store-iphone-5-v1-960.avif",
+      "bytes": 84201,
+      "sha256": "d29f6c06da10bfca350456e151326a7b16f3542f49b5e80fa333eb09160a0eac"
+    },
+    {
+      "path": "assets/production/webp/marketing-app-store-iphone-5-v1-960.webp",
+      "bytes": 73012,
+      "sha256": "17d37852ba668349018a5fb02478c745bca0416ad6824b189e3b4cf941510497"
+    },
+    {
+      "path": "assets/production/avif/marketing-app-store-iphone-5-v1-1280.avif",
+      "bytes": 122808,
+      "sha256": "ab7703cd7dcf3bb0e40441f557630a081bbe09c56aca6ec1f6ee3b70e6ceabc0"
+    },
+    {
+      "path": "assets/production/webp/marketing-app-store-iphone-5-v1-1280.webp",
+      "bytes": 104000,
+      "sha256": "581b368d3d0b454f0d72d88b80e8694bdc97b264185de5206a54e325a71a6737"
+    },
+    {
+      "path": "assets/production/avif/marketing-app-store-iphone-5-v1-1920.avif",
+      "bytes": 171119,
+      "sha256": "5ae9802e067f8e52dbb8e08141458a83be10cb46bad4d197431f99747e6829c3"
+    },
+    {
+      "path": "assets/production/webp/marketing-app-store-iphone-5-v1-1920.webp",
+      "bytes": 157728,
+      "sha256": "f154b7856087ae10a8bcb5f20a507c1f6badf66935c723493656344c2b543538"
+    },
+    {
+      "path": "assets/production/avif/marketing-app-store-iphone-5-v1-2560.avif",
+      "bytes": 224811,
+      "sha256": "90e7ddc12009d348c14e7625dbc6b44fa73ec2697d54421a2df68c5c17add6bf"
+    },
+    {
+      "path": "assets/production/webp/marketing-app-store-iphone-5-v1-2560.webp",
+      "bytes": 213022,
+      "sha256": "c2a7030b1e37755035b89b805aae85ee52def4a65b4201ba54073923de3e81ec"
+    },
+    {
+      "path": "assets/production/avif/marketing-app-store-iphone-5-v1-3840.avif",
+      "bytes": 342011,
+      "sha256": "e7c8e0464d8e5049575033fffeeefa3022f7aace98cc7ddd09834953f345c1cf"
+    },
+    {
+      "path": "assets/production/webp/marketing-app-store-iphone-5-v1-3840.webp",
+      "bytes": 334520,
+      "sha256": "5b6e9c998fa8da03d869231f63186cc07a43b976955de0479c7fa60ca398f8c7"
+    },
+    {
+      "path": "assets/production/png/marketing-app-store-iphone-5-v1-1280.png",
+      "bytes": 752722,
+      "sha256": "b02113bf0a42b2bb530f0b6ff4e0f449a821366c0a142e5e77ef86e1fdc2b4d8"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/marketing-app-store-iphone-5-v1.webp",
+      "bytes": 14474,
+      "sha256": "43c119c064905d6d2efb39aeb7788c32d27e0f63abaf4b800c657026b1ef1621"
+    },
+    {
+      "path": "apps/mobile/assets/library/marketing-app-store-iphone-5-v1.webp",
+      "bytes": 14474,
+      "sha256": "43c119c064905d6d2efb39aeb7788c32d27e0f63abaf4b800c657026b1ef1621"
+    }
+  ],
+  "contains_text": true,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 94.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:37:55.510Z",
+    "scores": {
+      "realism": 94,
+      "style_consistency": 96,
+      "composition": 95,
+      "material_quality": 93,
+      "light_quality": 94,
+      "architecture_plausibility": 92,
+      "ui_suitability": 97,
+      "mobile_suitability": 97,
+      "originality": 90,
+      "safety_compliance": 100,
+      "small_size_legibility": 94,
+      "contrast": 96,
+      "geometry_quality": 96,
+      "technical_quality": 98
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution.",
+      "All 20 store captures are sourced from the functioning application at exact declared dimensions; feature graphic and icon are opaque exact-size static art.",
+      "Text-free community and release banners are intentionally neutral procedural variants, with no fake UI, third-party logo, unsafe content, broken crop, or unintended text."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1290,
+      "height": 2796,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 277883
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:07:36.058Z",
+  "license": "project-owned-application-capture",
+  "provenance": {
+    "source": "functioning-local-application",
+    "capture_report": "assets/reports/store-capture-sources.json",
+    "platform": "app-store-iphone",
+    "route": "/specialists",
+    "language": "en-US",
+    "seeded_account": "advanced-demo-persona"
+  },
+  "notes": [
+    "Captured after authenticated loaded-state assertions from the running seeded application.",
+    "No generated or mocked UI, demo email address, private identifier, debug marker, spinner or error state is accepted.",
+    "Exact platform dimensions were independently validated and representative full-resolution crops were visually inspected."
+  ]
+}

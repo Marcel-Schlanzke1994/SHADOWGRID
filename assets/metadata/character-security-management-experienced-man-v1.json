@@ -1,0 +1,171 @@
+{
+  "asset_id": "character-security-management-experienced-man-v1",
+  "manifest_order": 558,
+  "category": "character",
+  "batch": "specialists",
+  "city": null,
+  "variant": "experienced-man",
+  "gameplay_state": "normal",
+  "aspect_ratio": "4:5",
+  "width": 1280,
+  "height": 1600,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/character-security-management-experienced-man-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100558,
+  "content_hash": "3783cd830163f184f97971607ad2bb77bc737f4a56f3bec7ee3c432e98626c2a",
+  "source_file": "assets/source/characters/character-security-management-experienced-man-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/character-security-management-experienced-man-v1-320.avif",
+      "bytes": 3041,
+      "sha256": "1ae0c7988603fff1aa1d82cbf80986afac8851a3764936f53df3e687fc15514d"
+    },
+    {
+      "path": "assets/production/webp/character-security-management-experienced-man-v1-320.webp",
+      "bytes": 2214,
+      "sha256": "67d5b1787cca7a98be6e6d8a4de3504fe82816eba2edf9982c1c45983bf331f4"
+    },
+    {
+      "path": "assets/production/avif/character-security-management-experienced-man-v1-640.avif",
+      "bytes": 6742,
+      "sha256": "375d98828441682444120b062328bc433bd239eca251130320f799762df20ef8"
+    },
+    {
+      "path": "assets/production/webp/character-security-management-experienced-man-v1-640.webp",
+      "bytes": 5316,
+      "sha256": "7c8ad7e27d8b1b5d94b81a060b1c35b7b8828e0ca8c18c2b4bc94d93fc8ec225"
+    },
+    {
+      "path": "assets/production/avif/character-security-management-experienced-man-v1-960.avif",
+      "bytes": 14629,
+      "sha256": "5c397265432376f759b879a50760b4feb524cd1cb03aa8d5d03688e9931d0e19"
+    },
+    {
+      "path": "assets/production/webp/character-security-management-experienced-man-v1-960.webp",
+      "bytes": 9864,
+      "sha256": "76eb5c6e722ae351b64d71b691c3c2f5de6b0c7fd1bfcc4587ffe6f4be1e1090"
+    },
+    {
+      "path": "assets/production/avif/character-security-management-experienced-man-v1-1280.avif",
+      "bytes": 20604,
+      "sha256": "6732c33730ed7af59352150ef831275752b027743270e9c073e34e0ee7e0fbea"
+    },
+    {
+      "path": "assets/production/webp/character-security-management-experienced-man-v1-1280.webp",
+      "bytes": 15088,
+      "sha256": "b7b29977faebf323cb5c7b4fff93009f522daedd06f9310174f2c378d0cbf8b9"
+    },
+    {
+      "path": "assets/production/avif/character-security-management-experienced-man-v1-1920.avif",
+      "bytes": 32847,
+      "sha256": "363d0acc38adaa22b9d7735520d425abe6ac0896e4133e4ddd9621395f1285d5"
+    },
+    {
+      "path": "assets/production/webp/character-security-management-experienced-man-v1-1920.webp",
+      "bytes": 25650,
+      "sha256": "d24f263ba37ec53233a30172fc1e40e67030fd0849c1afb542bc8303cda81efa"
+    },
+    {
+      "path": "assets/production/avif/character-security-management-experienced-man-v1-2560.avif",
+      "bytes": 46928,
+      "sha256": "a7b4be282e2d3db7c1e5df140cd99ff8a442e7b4af1f5e97a7fccf48866b61d8"
+    },
+    {
+      "path": "assets/production/webp/character-security-management-experienced-man-v1-2560.webp",
+      "bytes": 38676,
+      "sha256": "575e66c8cc349eb4b14611ec3e754af7477ae6e5d327db1c0cd2293a280d0e1f"
+    },
+    {
+      "path": "assets/production/avif/character-security-management-experienced-man-v1-3840.avif",
+      "bytes": 76979,
+      "sha256": "8381a88e0e7de6412e984fd0b8700b468a0ab74f4349fc05cf5879bb6b2677f5"
+    },
+    {
+      "path": "assets/production/webp/character-security-management-experienced-man-v1-3840.webp",
+      "bytes": 72500,
+      "sha256": "cc778ff62841bf40f49da2b6f77756704f756c7e2acd2cabcd44df84108764d9"
+    },
+    {
+      "path": "assets/production/png/character-security-management-experienced-man-v1-1280.png",
+      "bytes": 210550,
+      "sha256": "3783cd830163f184f97971607ad2bb77bc737f4a56f3bec7ee3c432e98626c2a"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/character-security-management-experienced-man-v1.webp",
+      "bytes": 2214,
+      "sha256": "67d5b1787cca7a98be6e6d8a4de3504fe82816eba2edf9982c1c45983bf331f4"
+    },
+    {
+      "path": "apps/mobile/assets/library/character-security-management-experienced-man-v1.webp",
+      "bytes": 2214,
+      "sha256": "67d5b1787cca7a98be6e6d8a4de3504fe82816eba2edf9982c1c45983bf331f4"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:37.314Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1280,
+      "height": 1600,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 210550
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:19:51.242Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

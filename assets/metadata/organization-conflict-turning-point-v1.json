@@ -1,0 +1,171 @@
+{
+  "asset_id": "organization-conflict-turning-point-v1",
+  "manifest_order": 602,
+  "category": "organization-conflict",
+  "batch": "cartel-conflicts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "turning-point",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/organization-conflict-turning-point-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100602,
+  "content_hash": "a692377ec9dcd35ad6ae4b233142b58643e939d2490813534109a0f10b0ffa7b",
+  "source_file": "assets/source/cartels/organization-conflict-turning-point-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/organization-conflict-turning-point-v1-320.avif",
+      "bytes": 2691,
+      "sha256": "e16e33db0ab4823fecbe9f7bf1b9ac3e50033728bd79b10400f75ef5d4fbaf80"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-turning-point-v1-320.webp",
+      "bytes": 1808,
+      "sha256": "955b591abe20f9a75a9f4828edeb6f3e806a7c0e92f7268df0f09873844d55a0"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-turning-point-v1-640.avif",
+      "bytes": 6436,
+      "sha256": "1b830f8f301ab9c79d14c32cd8726c9693eaf2c70a6d1af513b67c3884c82987"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-turning-point-v1-640.webp",
+      "bytes": 4970,
+      "sha256": "6eb0fac421747a59ba2e4d841db16ddc48aee0022341b004edf3d675c63ab53d"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-turning-point-v1-960.avif",
+      "bytes": 13072,
+      "sha256": "645c08cb419699f452dc7e26b0b03e4bad4af285df8a038a5fc6475347cf82a4"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-turning-point-v1-960.webp",
+      "bytes": 9326,
+      "sha256": "8434a74c77ab59f497318326abdbee05d00e299a27a66d9725a530e3fdc23281"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-turning-point-v1-1280.avif",
+      "bytes": 18755,
+      "sha256": "75978ecb34ef368ba1206fc055d2d2e9e98aae3ccf416e900af1c160872b9f04"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-turning-point-v1-1280.webp",
+      "bytes": 13650,
+      "sha256": "0766df711700a945fbbe081911af186760e6b73fc425c243fb4edcd1f3a7dbf8"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-turning-point-v1-1920.avif",
+      "bytes": 29494,
+      "sha256": "8d3b9bde0e058448e4ead230cb5ad4f1b70d1aedeeb027eb9acaf1cdca33a114"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-turning-point-v1-1920.webp",
+      "bytes": 22602,
+      "sha256": "195a22d122ed3731bafd0d761414cbfcf06d1f57821b342e6ebf505618ff2fa6"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-turning-point-v1-2560.avif",
+      "bytes": 37708,
+      "sha256": "219ba298dfd2ec2024ff515e9125cb3811d2443ef9d2508e9676ca8dd9cad357"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-turning-point-v1-2560.webp",
+      "bytes": 30438,
+      "sha256": "5946c11027887ddef29fa5bbca740aeef3723389a373320612e25e2bcaac1bac"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-turning-point-v1-3840.avif",
+      "bytes": 58349,
+      "sha256": "bcb57b182f3b3408fcd164b7660cdaabb03daa8aab11f8287e5924dbfee0baa0"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-turning-point-v1-3840.webp",
+      "bytes": 49488,
+      "sha256": "9ad9a3d1fea29f57cc1f188814ac553963df712072683739914a14718f7daa7e"
+    },
+    {
+      "path": "assets/production/png/organization-conflict-turning-point-v1-1280.png",
+      "bytes": 174214,
+      "sha256": "8fb45175374d39e17f4e0c5b49723ba2342544be5b91d6f87d9b4c2be0b2707d"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/organization-conflict-turning-point-v1.webp",
+      "bytes": 1808,
+      "sha256": "955b591abe20f9a75a9f4828edeb6f3e806a7c0e92f7268df0f09873844d55a0"
+    },
+    {
+      "path": "apps/mobile/assets/library/organization-conflict-turning-point-v1.webp",
+      "bytes": 1808,
+      "sha256": "955b591abe20f9a75a9f4828edeb6f3e806a7c0e92f7268df0f09873844d55a0"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:59.482Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 93,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Conflict phases remain fictional and abstract, with no actionable real-world violence, hacking, or sabotage content.",
+      "No missing render, unsafe instruction, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 214998
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:28:15.988Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

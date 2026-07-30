@@ -1,0 +1,171 @@
+{
+  "asset_id": "mobile-notification-symbol-v1",
+  "manifest_order": 863,
+  "category": "mobile",
+  "batch": "mobile",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/mobile-notification-symbol-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100863,
+  "content_hash": "687d3934471122ac77528a64a4026754fb3f64afce047e55b0442e0660bb3304",
+  "source_file": "assets/source/marketing/mobile-notification-symbol-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/mobile-notification-symbol-v1-320.avif",
+      "bytes": 5515,
+      "sha256": "e1d1540f7a4f1d14a10ad6893983acb92e909b53acc0220601228d6b54813213"
+    },
+    {
+      "path": "assets/production/webp/mobile-notification-symbol-v1-320.webp",
+      "bytes": 6340,
+      "sha256": "fb7c808e27514ebfa36b65f5eb3faf8ffac920e4bb41d8d197ca132b14e614d8"
+    },
+    {
+      "path": "assets/production/avif/mobile-notification-symbol-v1-640.avif",
+      "bytes": 11990,
+      "sha256": "82d1b29c3486d9a8822bd4932eb12404d9f5d0c68aec8e28579be134cd05e0b5"
+    },
+    {
+      "path": "assets/production/webp/mobile-notification-symbol-v1-640.webp",
+      "bytes": 12998,
+      "sha256": "18a3c68e8c6c6bb43aaa017b5c3063240983fac69a4846016ac4f847b88bca2c"
+    },
+    {
+      "path": "assets/production/avif/mobile-notification-symbol-v1-960.avif",
+      "bytes": 22535,
+      "sha256": "29aae40ccde886bdd258f1083f88a6a7ec3c14eea8fe55355ba9762d96b22044"
+    },
+    {
+      "path": "assets/production/webp/mobile-notification-symbol-v1-960.webp",
+      "bytes": 19652,
+      "sha256": "b6c15a096c84611295b9213a8b3a5bbfd7cd9a359166ced5346b3911b92c018f"
+    },
+    {
+      "path": "assets/production/avif/mobile-notification-symbol-v1-1280.avif",
+      "bytes": 28675,
+      "sha256": "0cd808ae44238f7e7f0ef572f4b08e12af525f0c2d876c88ab2529c819a93105"
+    },
+    {
+      "path": "assets/production/webp/mobile-notification-symbol-v1-1280.webp",
+      "bytes": 26350,
+      "sha256": "e48f8c45a2405cad14e3051ae87dcd7f872dbfd0bc99856a5e3e622e81c3dedd"
+    },
+    {
+      "path": "assets/production/avif/mobile-notification-symbol-v1-1920.avif",
+      "bytes": 27727,
+      "sha256": "1ac6880423fb9ecc9539994c1bc1f6d7fa6601f50194603e830ca7ada105bd83"
+    },
+    {
+      "path": "assets/production/webp/mobile-notification-symbol-v1-1920.webp",
+      "bytes": 31830,
+      "sha256": "64132b199bd00ce6fc780a16c4c6fc36de86b859f02681b07bf9b2ad84d68979"
+    },
+    {
+      "path": "assets/production/avif/mobile-notification-symbol-v1-2560.avif",
+      "bytes": 37944,
+      "sha256": "e06f19f69bfa58dd3d3fe9c76eb938d50dd5124b5e3e8e0ba47d68cd29dd33f7"
+    },
+    {
+      "path": "assets/production/webp/mobile-notification-symbol-v1-2560.webp",
+      "bytes": 50896,
+      "sha256": "8f6ed31bce0239455ea215d6a783e276c225ff75415bf9b323ddf8d9003fd1dd"
+    },
+    {
+      "path": "assets/production/avif/mobile-notification-symbol-v1-3840.avif",
+      "bytes": 58672,
+      "sha256": "b353b0c7c32d2a99f410341c5b60e90d1017b38bceb3f5d1c87ae2460ad23d3e"
+    },
+    {
+      "path": "assets/production/webp/mobile-notification-symbol-v1-3840.webp",
+      "bytes": 96950,
+      "sha256": "5103903ac3b1ea8a50e60d8dea298304285f19b1785577034ee6bf06acda6307"
+    },
+    {
+      "path": "assets/production/png/mobile-notification-symbol-v1-1280.png",
+      "bytes": 50645,
+      "sha256": "5331a521eaa92287a81cf76123515e65050b6db77bc89ee0702e7500bfcf42d8"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/mobile-notification-symbol-v1.webp",
+      "bytes": 6340,
+      "sha256": "fb7c808e27514ebfa36b65f5eb3faf8ffac920e4bb41d8d197ca132b14e614d8"
+    },
+    {
+      "path": "apps/mobile/assets/library/mobile-notification-symbol-v1.webp",
+      "bytes": 6340,
+      "sha256": "fb7c808e27514ebfa36b65f5eb3faf8ffac920e4bb41d8d197ca132b14e614d8"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 94.4,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:37.279Z",
+    "scores": {
+      "realism": 90,
+      "style_consistency": 97,
+      "composition": 95,
+      "material_quality": 91,
+      "light_quality": 93,
+      "architecture_plausibility": 91,
+      "ui_suitability": 97,
+      "mobile_suitability": 98,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 96,
+      "contrast": 96,
+      "geometry_quality": 96,
+      "technical_quality": 98
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution, including transparent adaptive and monochrome assets.",
+      "The apparently empty monochrome contact-sheet cell was separately inspected and confirmed as a valid transparent single-color platform glyph.",
+      "Safe areas, contrast, transparency, and small-size behavior are suitable for the intended mobile placements."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": true,
+      "bytes": 19473
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:44:56.421Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

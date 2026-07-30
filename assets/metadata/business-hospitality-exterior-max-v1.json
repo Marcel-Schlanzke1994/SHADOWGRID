@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-hospitality-exterior-max-v1",
+  "manifest_order": 465,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "exterior-max",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-hospitality-exterior-max-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100465,
+  "content_hash": "48f1b8ba4ae2a223ec9f5ffbfda1b6818a3ff2a36154e9a578f57a7dc08613ab",
+  "source_file": "assets/source/businesses/business-hospitality-exterior-max-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-hospitality-exterior-max-v1-320.avif",
+      "bytes": 2991,
+      "sha256": "1b9059afce5877778b7413b01d9d6e899304a7d64960d8fbadfbaa3555cf74e3"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-exterior-max-v1-320.webp",
+      "bytes": 2834,
+      "sha256": "41e4404ac9845dc5a430eb4169d75b894a772d04519e6d922eeec26508037cf2"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-exterior-max-v1-640.avif",
+      "bytes": 6436,
+      "sha256": "cf5e834d508f5dda30b19209c1002b33baf0317dee8eb3156972598e87c2279b"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-exterior-max-v1-640.webp",
+      "bytes": 5780,
+      "sha256": "248d366d73a1a68d9a857d091606e4c4215b7ac77189f1730bb669a81580ad0c"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-exterior-max-v1-960.avif",
+      "bytes": 10749,
+      "sha256": "40f6810c81deb03b554817450347a760267a0e2978869c584d9b7452fb2768cd"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-exterior-max-v1-960.webp",
+      "bytes": 9398,
+      "sha256": "1d8411ad1e8ac1ac03a20166aaa787de440d8edf8387768242ebe41158b2192b"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-exterior-max-v1-1280.avif",
+      "bytes": 15273,
+      "sha256": "20085795d863f311def5d9e6fc354d3d893512e3746950b418d8b8cddb9245c5"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-exterior-max-v1-1280.webp",
+      "bytes": 12352,
+      "sha256": "f846ea5e8b51c8f9115b4f66fd785b0b46de778ce41807ad6335cd8a4d85ddee"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-exterior-max-v1-1920.avif",
+      "bytes": 23010,
+      "sha256": "595b1d3ff105f6929050d6d7a997131632fbf1714629d599c09650a63ef9644f"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-exterior-max-v1-1920.webp",
+      "bytes": 19158,
+      "sha256": "38f24dbe091d448fc8edd79d6a4b3ecfc235db9736a6c2d0b071146b5c4ff237"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-exterior-max-v1-2560.avif",
+      "bytes": 30739,
+      "sha256": "5ef79f44ac0a8a0b39c5514fa679c781edcaec2818ea97ce9a24b1d41c815bf5"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-exterior-max-v1-2560.webp",
+      "bytes": 26726,
+      "sha256": "98a9b9374d78a730e59431ca81532c2441c3fef45d56f681c6cd096ece4a2d15"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-exterior-max-v1-3840.avif",
+      "bytes": 49823,
+      "sha256": "b80761e6c01464f75d570b5ab5586b0c804c6ed485bfb544031432a6a34b27cc"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-exterior-max-v1-3840.webp",
+      "bytes": 45260,
+      "sha256": "1812742ee78008772d6d6a2e3feabc96589a3c338130e2b14b141bd6dfa23edd"
+    },
+    {
+      "path": "assets/production/png/business-hospitality-exterior-max-v1-1280.png",
+      "bytes": 629366,
+      "sha256": "838d00b0c6f18b59e201fd157666e65f8d207cad0fb4eca024073a850445b366"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-hospitality-exterior-max-v1.webp",
+      "bytes": 2834,
+      "sha256": "41e4404ac9845dc5a430eb4169d75b894a772d04519e6d922eeec26508037cf2"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-hospitality-exterior-max-v1.webp",
+      "bytes": 2834,
+      "sha256": "41e4404ac9845dc5a430eb4169d75b894a772d04519e6d922eeec26508037cf2"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.319Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1426301
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:52:54.635Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -23,6 +23,11 @@
       "path": "assets/production/svg/marker-metropolis-v1.svg",
       "bytes": 638,
       "sha256": "a5dad374c590ee99d4d6aa516ea9d2bebf17771fb9dc09664d32f67dcce91182"
+    },
+    {
+      "path": "assets/production/webp/marker-metropolis-v1-320.webp",
+      "bytes": 6512,
+      "sha256": "f145e42d2b1796ff3279e2ef206845d3b2c026b44eda7b27693fdd910a7ed891"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/markers/marker-metropolis-v1.svg",
       "bytes": 638,
       "sha256": "a5dad374c590ee99d4d6aa516ea9d2bebf17771fb9dc09664d32f67dcce91182"
+    },
+    {
+      "path": "apps/web/public/assets/markers/marker-metropolis-v1-320.webp",
+      "bytes": 6512,
+      "sha256": "f145e42d2b1796ff3279e2ef206845d3b2c026b44eda7b27693fdd910a7ed891"
+    },
+    {
+      "path": "apps/web/public/assets/library/marker-metropolis-v1.webp",
+      "bytes": 6512,
+      "sha256": "f145e42d2b1796ff3279e2ef206845d3b2c026b44eda7b27693fdd910a7ed891"
+    },
+    {
+      "path": "apps/mobile/assets/library/marker-metropolis-v1.webp",
+      "bytes": 6512,
+      "sha256": "f145e42d2b1796ff3279e2ef206845d3b2c026b44eda7b27693fdd910a7ed891"
     }
   ],
   "contains_text": false,

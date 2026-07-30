@@ -1,0 +1,171 @@
+{
+  "asset_id": "facility-compliance-office-disrupted-v1",
+  "manifest_order": 534,
+  "category": "facility",
+  "batch": "facilities",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "disrupted",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/facility-compliance-office-disrupted-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100534,
+  "content_hash": "6f8dcdf123711568e97a29cbedf9b8d6d4c83f1db4846d782db1305ba34257a0",
+  "source_file": "assets/source/facilities/facility-compliance-office-disrupted-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/facility-compliance-office-disrupted-v1-320.avif",
+      "bytes": 2948,
+      "sha256": "d0c7cd02739b7b996200331f9385183e2828439aa1928b776628aae019e60082"
+    },
+    {
+      "path": "assets/production/webp/facility-compliance-office-disrupted-v1-320.webp",
+      "bytes": 2540,
+      "sha256": "3d2fdaeed48353d38bd0f924e2b19d9bcebfdc5375ffec0fe5493ed82c782b94"
+    },
+    {
+      "path": "assets/production/avif/facility-compliance-office-disrupted-v1-640.avif",
+      "bytes": 6518,
+      "sha256": "95ba9aa0b6d198721bdda8ea08df0f5c8f29cd4e35b5f87fbf5c9c498660946b"
+    },
+    {
+      "path": "assets/production/webp/facility-compliance-office-disrupted-v1-640.webp",
+      "bytes": 5136,
+      "sha256": "671dcf22f6a4598786a5869496654f12df07537831da9bacc7e5f88116efe887"
+    },
+    {
+      "path": "assets/production/avif/facility-compliance-office-disrupted-v1-960.avif",
+      "bytes": 10077,
+      "sha256": "5618a6cf7f8bc39c539aa0fb60f8ae75f90aa4711a658dfe53cfee6bd854df5c"
+    },
+    {
+      "path": "assets/production/webp/facility-compliance-office-disrupted-v1-960.webp",
+      "bytes": 8180,
+      "sha256": "626ac9185bd92eb55025825bfc04b6117156822184156c5f8b1c265852844dc8"
+    },
+    {
+      "path": "assets/production/avif/facility-compliance-office-disrupted-v1-1280.avif",
+      "bytes": 14273,
+      "sha256": "24335973592e5e3bfc195fb109b4d93e7555e30c61f68d14d6657b685ceab600"
+    },
+    {
+      "path": "assets/production/webp/facility-compliance-office-disrupted-v1-1280.webp",
+      "bytes": 10924,
+      "sha256": "9f8e24819c02c88725e0632d32f45569626d1875b89f6dac9bf8941e0b3b2c40"
+    },
+    {
+      "path": "assets/production/avif/facility-compliance-office-disrupted-v1-1920.avif",
+      "bytes": 21295,
+      "sha256": "c1aacd5a3627d9618fc3bcfc928bff0db1623750c70f89dbbd6a61472121e8f8"
+    },
+    {
+      "path": "assets/production/webp/facility-compliance-office-disrupted-v1-1920.webp",
+      "bytes": 17244,
+      "sha256": "04413184cade7268af3b2cf338362d7d4f9acc9b0aa978f65a0b305579879838"
+    },
+    {
+      "path": "assets/production/avif/facility-compliance-office-disrupted-v1-2560.avif",
+      "bytes": 28979,
+      "sha256": "1cd20b883ad9d1a16dfa4dc2918cdcce6f48f36f7df26c6677364b9b869584b9"
+    },
+    {
+      "path": "assets/production/webp/facility-compliance-office-disrupted-v1-2560.webp",
+      "bytes": 24264,
+      "sha256": "cddadc41a8d5dd00a85e1c29be6e2f95d09b7f823741882634ec545482d9bbe6"
+    },
+    {
+      "path": "assets/production/avif/facility-compliance-office-disrupted-v1-3840.avif",
+      "bytes": 47137,
+      "sha256": "92591333483743bdc7cf3836a37cb746855b0ef77a1dd9eb683d01fd87b9a9b5"
+    },
+    {
+      "path": "assets/production/webp/facility-compliance-office-disrupted-v1-3840.webp",
+      "bytes": 42300,
+      "sha256": "dc5ef24af5d33a6d696ce3443f6ce560ca3a33c706235b94a3c795b31497098a"
+    },
+    {
+      "path": "assets/production/png/facility-compliance-office-disrupted-v1-1280.png",
+      "bytes": 634409,
+      "sha256": "d5bca3b9eeeb4cfa3aed82ce34143a1b8fd46c2d43df9672cfe29103d02d93cf"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/facility-compliance-office-disrupted-v1.webp",
+      "bytes": 2540,
+      "sha256": "3d2fdaeed48353d38bd0f924e2b19d9bcebfdc5375ffec0fe5493ed82c782b94"
+    },
+    {
+      "path": "apps/mobile/assets/library/facility-compliance-office-disrupted-v1.webp",
+      "bytes": 2540,
+      "sha256": "3d2fdaeed48353d38bd0f924e2b19d9bcebfdc5375ffec0fe5493ed82c782b94"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:27.228Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 92,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 90,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution.",
+      "Facility categories remain visually coherent and readable without depicting sensitive real-world infrastructure.",
+      "No missing render, unsafe detail, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1456915
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:13:44.651Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

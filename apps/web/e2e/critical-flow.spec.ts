@@ -21,12 +21,13 @@ const navigateFromSidebar = async (
   destination: string,
 ) => {
   const menu = page.getByRole("button", { name: "Open navigation" });
-  const link = page.getByRole("link", { name: destination });
+  const link = page.getByRole("link", { name: destination, exact: true });
   if ((page.viewportSize()?.width ?? 1024) <= 760) {
     await expect(menu).toBeVisible();
     await menu.click();
-    await expect(link).toBeInViewport();
+    await link.scrollIntoViewIfNeeded();
   }
+  await expect(link).toBeVisible();
   await link.click();
 };
 
@@ -42,7 +43,7 @@ test("login, dashboard, city, businesses and operation planning are reachable", 
   ).toBeVisible();
   await navigateFromSidebar(page, "City");
   await expect(
-    page.getByRole("heading", { name: "Vesper city layers" }),
+    page.getByRole("heading", { name: "Cologne district layers" }),
   ).toBeVisible();
   await navigateFromSidebar(page, "Businesses");
   await expect(

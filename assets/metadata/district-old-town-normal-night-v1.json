@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-old-town-normal-night-v1",
+  "manifest_order": 392,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal-night",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-old-town-normal-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100392,
+  "content_hash": "bb4e7b1ce20deacc54bae518475d23edd24e85c91e19c98e81fc41141c5d4429",
+  "source_file": "assets/source/districts/district-old-town-normal-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-old-town-normal-night-v1-320.avif",
+      "bytes": 3726,
+      "sha256": "d47a3dcd4fd02d5ed68643360f03d32274d7cfcde1bd31a4bad18d96b0268e50"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-normal-night-v1-320.webp",
+      "bytes": 3588,
+      "sha256": "743e4e813b625ab1a15f32bce5fb40281132c4709852bd120081ebb803e47655"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-normal-night-v1-640.avif",
+      "bytes": 7791,
+      "sha256": "f6b7a8eb2c04d12651757c5c923134d04d03f860e5944a4ef2efa76c8831619a"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-normal-night-v1-640.webp",
+      "bytes": 8070,
+      "sha256": "46c03dcf2abf3f65a436f7d0d5afe0931ade5a1d2a6766f32530a268bb121082"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-normal-night-v1-960.avif",
+      "bytes": 13070,
+      "sha256": "33532ababa370e2edfc23a89d2142d6fc50a8512b2a0e9eed19dccf5daf88cc8"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-normal-night-v1-960.webp",
+      "bytes": 13390,
+      "sha256": "238d1db50eda4735cc60c9e1c0880504f4c755d5b0158d1461dcea7f66e30c5e"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-normal-night-v1-1280.avif",
+      "bytes": 18310,
+      "sha256": "b911345c6aa78db074e969779fa2f45523935296f24ff633f05f0111bcb51766"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-normal-night-v1-1280.webp",
+      "bytes": 17966,
+      "sha256": "8bf32d712675780b20fd2802be22cef810373a6c39958cd472b3882a5f0ab3a6"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-normal-night-v1-1920.avif",
+      "bytes": 27746,
+      "sha256": "f3832ae7feeca87316496f1d9be72e1ce3fa631f2608896f27e20c3bd8aeb062"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-normal-night-v1-1920.webp",
+      "bytes": 26984,
+      "sha256": "ba9bed33327459e8079e78a94c83e71ff60e5d417504c7440205485d464d8a0a"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-normal-night-v1-2560.avif",
+      "bytes": 37068,
+      "sha256": "f4426aa8b3a76486b3b7b33b3a76fa608789659a9748ee3df0be269888843660"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-normal-night-v1-2560.webp",
+      "bytes": 35626,
+      "sha256": "8c299f49ced2293116c195b365f93d03ca8fcbdc7fa46f31cb86e8aad5e52c84"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-normal-night-v1-3840.avif",
+      "bytes": 58619,
+      "sha256": "b19cf5dc2451f5056b8073298593c27077d7d64a397640bd8afc344c3db089f5"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-normal-night-v1-3840.webp",
+      "bytes": 54828,
+      "sha256": "68532fcbc5a8e7ade3dd4746087c3c1a0aec68ce2ce06caee3dc41bda33e1a75"
+    },
+    {
+      "path": "assets/production/png/district-old-town-normal-night-v1-1280.png",
+      "bytes": 653008,
+      "sha256": "e9ffb16f7231a3cc73dcdf65e567328c01c0bf86f4b163165a3de7289132747b"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-old-town-normal-night-v1.webp",
+      "bytes": 3588,
+      "sha256": "743e4e813b625ab1a15f32bce5fb40281132c4709852bd120081ebb803e47655"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-old-town-normal-night-v1.webp",
+      "bytes": 3588,
+      "sha256": "743e4e813b625ab1a15f32bce5fb40281132c4709852bd120081ebb803e47655"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.692Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1453712
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:29:09.963Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

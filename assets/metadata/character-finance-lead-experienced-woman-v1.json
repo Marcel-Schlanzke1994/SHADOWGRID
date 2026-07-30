@@ -1,0 +1,171 @@
+{
+  "asset_id": "character-finance-lead-experienced-woman-v1",
+  "manifest_order": 541,
+  "category": "character",
+  "batch": "specialists",
+  "city": null,
+  "variant": "experienced-woman",
+  "gameplay_state": "normal",
+  "aspect_ratio": "4:5",
+  "width": 1280,
+  "height": 1600,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/character-finance-lead-experienced-woman-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100541,
+  "content_hash": "78863449e78a95ae0fd6dd7f2c9c007df984607c10383ba7f189076241d0a659",
+  "source_file": "assets/source/characters/character-finance-lead-experienced-woman-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/character-finance-lead-experienced-woman-v1-320.avif",
+      "bytes": 3094,
+      "sha256": "adc80be4121c4b000df6f68abfe8e1cd269802a91f38803f0cca22303877d225"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-experienced-woman-v1-320.webp",
+      "bytes": 2426,
+      "sha256": "93a2d589a70d9b533ff3fc2b31f7d5ac52f7a4dc6a32bb62dc9759d96cc4ad4a"
+    },
+    {
+      "path": "assets/production/avif/character-finance-lead-experienced-woman-v1-640.avif",
+      "bytes": 6858,
+      "sha256": "6cd462773021a1ccd21221aaabbc78d624da299001ed28acfc901eb486a7b20d"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-experienced-woman-v1-640.webp",
+      "bytes": 5642,
+      "sha256": "488ad453e946d810e30e4f08a2d311fba10546701fcde650739f228156e9c493"
+    },
+    {
+      "path": "assets/production/avif/character-finance-lead-experienced-woman-v1-960.avif",
+      "bytes": 14155,
+      "sha256": "e7928cbbff6261118e9263a51ae879d04eac6c063bfc90fe80efbc3069fe28e9"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-experienced-woman-v1-960.webp",
+      "bytes": 10498,
+      "sha256": "148647f766fb775f9255fdbd9398d443c3632bfa34da9710e5d89cbc2be19c0d"
+    },
+    {
+      "path": "assets/production/avif/character-finance-lead-experienced-woman-v1-1280.avif",
+      "bytes": 20746,
+      "sha256": "3905cfc66270816f8547168fb43924d3a655b317b63f783238ec127239334330"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-experienced-woman-v1-1280.webp",
+      "bytes": 15794,
+      "sha256": "6eb237a8f862ddca6647b85a71e83ee0ebf523c34d20daac114ece67a06e1b35"
+    },
+    {
+      "path": "assets/production/avif/character-finance-lead-experienced-woman-v1-1920.avif",
+      "bytes": 32812,
+      "sha256": "8190a8e890f87854a7e5d28c67041d47a7a48358dfeede7a4902bfffc5affe97"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-experienced-woman-v1-1920.webp",
+      "bytes": 26322,
+      "sha256": "11a4faf27d5f0ead89dbb10482ab78c1254faaee9c9c316074cc88991f303dab"
+    },
+    {
+      "path": "assets/production/avif/character-finance-lead-experienced-woman-v1-2560.avif",
+      "bytes": 46767,
+      "sha256": "c32f3e05c37566bb43e9976a8b69f072e0431ae2afaaeee0fe4c245e64277c84"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-experienced-woman-v1-2560.webp",
+      "bytes": 39262,
+      "sha256": "df9f26ec6d6ad2f4c68f05860ae41dd9b636b169d7ee9fdd10a2dedd6b4bad7e"
+    },
+    {
+      "path": "assets/production/avif/character-finance-lead-experienced-woman-v1-3840.avif",
+      "bytes": 76900,
+      "sha256": "ff50c6d6140be1cb644ceee4bcc136b9bc7ea2072cf6238f8f161b208b7597b3"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-experienced-woman-v1-3840.webp",
+      "bytes": 73092,
+      "sha256": "2d261f2df1784c507fd43640b40c62d8b95449aff00b129811acb403a356d0ef"
+    },
+    {
+      "path": "assets/production/png/character-finance-lead-experienced-woman-v1-1280.png",
+      "bytes": 212694,
+      "sha256": "78863449e78a95ae0fd6dd7f2c9c007df984607c10383ba7f189076241d0a659"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/character-finance-lead-experienced-woman-v1.webp",
+      "bytes": 2426,
+      "sha256": "93a2d589a70d9b533ff3fc2b31f7d5ac52f7a4dc6a32bb62dc9759d96cc4ad4a"
+    },
+    {
+      "path": "apps/mobile/assets/library/character-finance-lead-experienced-woman-v1.webp",
+      "bytes": 2426,
+      "sha256": "93a2d589a70d9b533ff3fc2b31f7d5ac52f7a4dc6a32bb62dc9759d96cc4ad4a"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:36.910Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1280,
+      "height": 1600,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 212694
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:15:47.298Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -23,6 +23,11 @@
       "path": "assets/production/svg/map-federal-state-borders-v1.svg",
       "bytes": 70581,
       "sha256": "e711e2f51745615e045c89e5c867e769e903623fd5f9752399d5ca3b7e515fb9"
+    },
+    {
+      "path": "assets/production/webp/map-federal-state-borders-v1-320.webp",
+      "bytes": 5782,
+      "sha256": "f69fe70b714c919ae198a0a34e89812a16b37676acee5eeec0659059eb8eb358"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/maps/map-federal-state-borders-v1.svg",
       "bytes": 70581,
       "sha256": "e711e2f51745615e045c89e5c867e769e903623fd5f9752399d5ca3b7e515fb9"
+    },
+    {
+      "path": "apps/web/public/assets/maps/map-federal-state-borders-v1-320.webp",
+      "bytes": 5782,
+      "sha256": "f69fe70b714c919ae198a0a34e89812a16b37676acee5eeec0659059eb8eb358"
+    },
+    {
+      "path": "apps/web/public/assets/library/map-federal-state-borders-v1.webp",
+      "bytes": 5782,
+      "sha256": "f69fe70b714c919ae198a0a34e89812a16b37676acee5eeec0659059eb8eb358"
+    },
+    {
+      "path": "apps/mobile/assets/library/map-federal-state-borders-v1.webp",
+      "bytes": 5782,
+      "sha256": "f69fe70b714c919ae198a0a34e89812a16b37676acee5eeec0659059eb8eb358"
     }
   ],
   "contains_text": false,

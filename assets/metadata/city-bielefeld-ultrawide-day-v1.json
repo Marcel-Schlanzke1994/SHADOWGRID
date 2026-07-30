@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-bielefeld-ultrawide-day-v1",
+  "manifest_order": 203,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "bielefeld",
+  "variant": "ultrawide-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-bielefeld-ultrawide-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100203,
+  "content_hash": "103ad50ee7e4a987141d834f96cec2096fec113d6a854b93f6b5a3cbbc3e0862",
+  "source_file": "assets/source/cities/city-bielefeld-ultrawide-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-bielefeld-ultrawide-day-v1-320.avif",
+      "bytes": 2669,
+      "sha256": "266576ab6d88d13730158554cdfe642a9cfae52c22e8d80e4ad42d2da2ebd92a"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-ultrawide-day-v1-320.webp",
+      "bytes": 2460,
+      "sha256": "7be165eb8f5fd818d131f17ff0c31a97af7afe68a9a13b05dbd102aba530a84d"
+    },
+    {
+      "path": "assets/production/avif/city-bielefeld-ultrawide-day-v1-640.avif",
+      "bytes": 5378,
+      "sha256": "b6a2ae9718fd15e285b6473fcf7dbdccda3acbd9f0c79f6f5bfccc3959be3d31"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-ultrawide-day-v1-640.webp",
+      "bytes": 4882,
+      "sha256": "f2f0374cb157fec2fb893f1ee9ad3d4b57a48f97a45e7c24c97f7f61f1af51d4"
+    },
+    {
+      "path": "assets/production/avif/city-bielefeld-ultrawide-day-v1-960.avif",
+      "bytes": 9412,
+      "sha256": "bdbba2cd8731574c4da8cffdc912e748ede5c121ef72a35c3da0a670de2b89e0"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-ultrawide-day-v1-960.webp",
+      "bytes": 7942,
+      "sha256": "d6a956604ff26d2261ab4f4c186f25f0bd11549930b6a82a06073cfc19f30347"
+    },
+    {
+      "path": "assets/production/avif/city-bielefeld-ultrawide-day-v1-1280.avif",
+      "bytes": 12341,
+      "sha256": "9c9a1169f6560fb28c476fd0d4a36aaba1fb18440462e28a191d3c3557ec6ed7"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-ultrawide-day-v1-1280.webp",
+      "bytes": 10564,
+      "sha256": "8def923e923d9c5ed37d0098b778cc756b8e11cc2541ea2d2e9ccccf1f5ca631"
+    },
+    {
+      "path": "assets/production/avif/city-bielefeld-ultrawide-day-v1-1920.avif",
+      "bytes": 19206,
+      "sha256": "35f315db3b1645647b880ae622fd276a3fa4b85d2ee2390aa482bb3d46bcba27"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-ultrawide-day-v1-1920.webp",
+      "bytes": 15878,
+      "sha256": "5b7741298c7a064aa8ff4d5048c5e66227763daf1c47a22bd6d6be865118ed83"
+    },
+    {
+      "path": "assets/production/avif/city-bielefeld-ultrawide-day-v1-2560.avif",
+      "bytes": 25760,
+      "sha256": "e041fd6764405fb4f565c66a4d0cc4e12084f0710cdd58bb4651eaf451446c4b"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-ultrawide-day-v1-2560.webp",
+      "bytes": 21882,
+      "sha256": "71a6a121c063ca820c0d08de3b66115d40d1c60e914f7993f941c0f1b641bc01"
+    },
+    {
+      "path": "assets/production/avif/city-bielefeld-ultrawide-day-v1-3840.avif",
+      "bytes": 41739,
+      "sha256": "cf7307ab185f63788d7cb3b2e7108c0c51c953f3e73372325e7c7a2d4bd52d95"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-ultrawide-day-v1-3840.webp",
+      "bytes": 36704,
+      "sha256": "32b860c481eebc7108a0e27eb0606a9f3ecba6cba87000825563002a3f869ac5"
+    },
+    {
+      "path": "assets/production/png/city-bielefeld-ultrawide-day-v1-1280.png",
+      "bytes": 414797,
+      "sha256": "6282e05641e2e02dc0110af8f95d228e991cd7f27bfcdff16370bfe2eaa8a5b9"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-ultrawide-day-v1-320.avif",
+      "bytes": 2669,
+      "sha256": "266576ab6d88d13730158554cdfe642a9cfae52c22e8d80e4ad42d2da2ebd92a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-ultrawide-day-v1-320.webp",
+      "bytes": 2460,
+      "sha256": "7be165eb8f5fd818d131f17ff0c31a97af7afe68a9a13b05dbd102aba530a84d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-ultrawide-day-v1-640.avif",
+      "bytes": 5378,
+      "sha256": "b6a2ae9718fd15e285b6473fcf7dbdccda3acbd9f0c79f6f5bfccc3959be3d31"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-ultrawide-day-v1-640.webp",
+      "bytes": 4882,
+      "sha256": "f2f0374cb157fec2fb893f1ee9ad3d4b57a48f97a45e7c24c97f7f61f1af51d4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-ultrawide-day-v1-960.avif",
+      "bytes": 9412,
+      "sha256": "bdbba2cd8731574c4da8cffdc912e748ede5c121ef72a35c3da0a670de2b89e0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-ultrawide-day-v1-960.webp",
+      "bytes": 7942,
+      "sha256": "d6a956604ff26d2261ab4f4c186f25f0bd11549930b6a82a06073cfc19f30347"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-ultrawide-day-v1-1280.avif",
+      "bytes": 12341,
+      "sha256": "9c9a1169f6560fb28c476fd0d4a36aaba1fb18440462e28a191d3c3557ec6ed7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-ultrawide-day-v1-1280.webp",
+      "bytes": 10564,
+      "sha256": "8def923e923d9c5ed37d0098b778cc756b8e11cc2541ea2d2e9ccccf1f5ca631"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-ultrawide-day-v1-1920.avif",
+      "bytes": 19206,
+      "sha256": "35f315db3b1645647b880ae622fd276a3fa4b85d2ee2390aa482bb3d46bcba27"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-ultrawide-day-v1-1920.webp",
+      "bytes": 15878,
+      "sha256": "5b7741298c7a064aa8ff4d5048c5e66227763daf1c47a22bd6d6be865118ed83"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-ultrawide-day-v1-2560.avif",
+      "bytes": 25760,
+      "sha256": "e041fd6764405fb4f565c66a4d0cc4e12084f0710cdd58bb4651eaf451446c4b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-ultrawide-day-v1-2560.webp",
+      "bytes": 21882,
+      "sha256": "71a6a121c063ca820c0d08de3b66115d40d1c60e914f7993f941c0f1b641bc01"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-ultrawide-day-v1-3840.avif",
+      "bytes": 41739,
+      "sha256": "cf7307ab185f63788d7cb3b2e7108c0c51c953f3e73372325e7c7a2d4bd52d95"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-ultrawide-day-v1-3840.webp",
+      "bytes": 36704,
+      "sha256": "32b860c481eebc7108a0e27eb0606a9f3ecba6cba87000825563002a3f869ac5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-ultrawide-day-v1-1280.png",
+      "bytes": 414797,
+      "sha256": "6282e05641e2e02dc0110af8f95d228e991cd7f27bfcdff16370bfe2eaa8a5b9"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-bielefeld-ultrawide-day-v1.webp",
+      "bytes": 2460,
+      "sha256": "7be165eb8f5fd818d131f17ff0c31a97af7afe68a9a13b05dbd102aba530a84d"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-bielefeld-ultrawide-day-v1.webp",
+      "bytes": 2460,
+      "sha256": "7be165eb8f5fd818d131f17ff0c31a97af7afe68a9a13b05dbd102aba530a84d"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.060Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 2090756
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:50:13.398Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

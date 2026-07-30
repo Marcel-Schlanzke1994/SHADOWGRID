@@ -33,9 +33,25 @@
       "path": "assets/production/webp/branding-shadowgrid-wordmark-horizontal-v1-3200.webp",
       "bytes": 19996,
       "sha256": "3766df0aa5c3e1828e0da98c64a87ad5b01c2799c6e22a68e968f3dfbc8bb4e2"
+    },
+    {
+      "path": "assets/production/webp/branding-shadowgrid-wordmark-horizontal-v1-320.webp",
+      "bytes": 2196,
+      "sha256": "ae07aaf76c382e61ed0979e0fab17803d10c2e2ee3447ff23837e16c311c3399"
     }
   ],
-  "runtime_files": [],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/branding-shadowgrid-wordmark-horizontal-v1.webp",
+      "bytes": 2196,
+      "sha256": "ae07aaf76c382e61ed0979e0fab17803d10c2e2ee3447ff23837e16c311c3399"
+    },
+    {
+      "path": "apps/mobile/assets/library/branding-shadowgrid-wordmark-horizontal-v1.webp",
+      "bytes": 2196,
+      "sha256": "ae07aaf76c382e61ed0979e0fab17803d10c2e2ee3447ff23837e16c311c3399"
+    }
+  ],
   "contains_text": true,
   "contains_real_people": false,
   "contains_real_logos": false,

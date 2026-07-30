@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-technology-park-authority-activity-night-v1",
+  "manifest_order": 406,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "authority-activity-night",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-technology-park-authority-activity-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100406,
+  "content_hash": "52c4eeae087276b0cccb6fc7e729a123494aef0e26758944265aeb070edb2d3b",
+  "source_file": "assets/source/districts/district-technology-park-authority-activity-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-technology-park-authority-activity-night-v1-320.avif",
+      "bytes": 3692,
+      "sha256": "19e1a505ef216d988d29c47ae8ed8fee0ee1ca8f7bda079b8379c79f60c02e4b"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-authority-activity-night-v1-320.webp",
+      "bytes": 3490,
+      "sha256": "57d05600ed709e0ddeded5f32ba3081dad993a7f802b9623b6329d65e4d951ac"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-authority-activity-night-v1-640.avif",
+      "bytes": 7891,
+      "sha256": "ff0830aa77fcb2a5106f8d050bc0e730b7deac75c14db9786930d30bfed415d0"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-authority-activity-night-v1-640.webp",
+      "bytes": 7784,
+      "sha256": "ab95c1e8639bfacfd8f3841ec3aa17464ba6254d1c9d69abcc337ff33cbb0785"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-authority-activity-night-v1-960.avif",
+      "bytes": 13339,
+      "sha256": "606c3913d007f2f293fcc46318e8b11ea492f8f599af87376817c6296ede6e3d"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-authority-activity-night-v1-960.webp",
+      "bytes": 13552,
+      "sha256": "49fa78007fcfc616f7132480e4537063aa822030d6e4a5f07ef5ed3edadfa99e"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-authority-activity-night-v1-1280.avif",
+      "bytes": 18217,
+      "sha256": "6a39e867bd2bb252c5025d501399765b6684935644a74a67049aa7ef3962ea38"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-authority-activity-night-v1-1280.webp",
+      "bytes": 17622,
+      "sha256": "c5d7c02698eee81c33b7e3c7c2a38d0a63503582a91711aa9fc3d54fd9bd188b"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-authority-activity-night-v1-1920.avif",
+      "bytes": 28124,
+      "sha256": "209e7955c989ce8368f5edc008e9cd40e9a650c2a93cbd1cd8380cb7ec0670ec"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-authority-activity-night-v1-1920.webp",
+      "bytes": 27044,
+      "sha256": "d9031551dc1f46cf43d5ede1c11302ebc35ffa40e6ddb0de86b021a386a30f86"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-authority-activity-night-v1-2560.avif",
+      "bytes": 38479,
+      "sha256": "df9ed3975db9fea22f261df047ff9bd847998d23d665a50d3daf1547f0e12cf2"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-authority-activity-night-v1-2560.webp",
+      "bytes": 35996,
+      "sha256": "0beb6d94a2ae1de7d1240a287b636913468eb6e7f52d9865c872190e85df57a0"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-authority-activity-night-v1-3840.avif",
+      "bytes": 61316,
+      "sha256": "0d524130aa5d0d79d7ab7f88d004eddffb834cf72b359f8263455e08b6c40592"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-authority-activity-night-v1-3840.webp",
+      "bytes": 56794,
+      "sha256": "a53a21f4b339fa75c1067e85e138c1b80a4d089d9c18f3a8889eca285b4c2f79"
+    },
+    {
+      "path": "assets/production/png/district-technology-park-authority-activity-night-v1-1280.png",
+      "bytes": 671242,
+      "sha256": "688a06e49c087eff8b6c9a1d3fc562eac02095d960e40b7830cf9827f97cd725"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-technology-park-authority-activity-night-v1.webp",
+      "bytes": 3490,
+      "sha256": "57d05600ed709e0ddeded5f32ba3081dad993a7f802b9623b6329d65e4d951ac"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-technology-park-authority-activity-night-v1.webp",
+      "bytes": 3490,
+      "sha256": "57d05600ed709e0ddeded5f32ba3081dad993a7f802b9623b6329d65e4d951ac"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.857Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1485054
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:33:51.293Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

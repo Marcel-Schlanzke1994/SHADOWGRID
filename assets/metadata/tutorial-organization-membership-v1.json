@@ -1,0 +1,171 @@
+{
+  "asset_id": "tutorial-organization-membership-v1",
+  "manifest_order": 718,
+  "category": "tutorial",
+  "batch": "tutorial",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/tutorial-organization-membership-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100718,
+  "content_hash": "777bda6662f2af6a89ae90a675a17d09a430ee4ff4842c685d43bdbff40ed855",
+  "source_file": "assets/source/tutorial/tutorial-organization-membership-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/tutorial-organization-membership-v1-320.avif",
+      "bytes": 2151,
+      "sha256": "18b2f42195fbe1bd72b1adc2aeca4bdde32771620dbc601c3f921fdfb14107da"
+    },
+    {
+      "path": "assets/production/webp/tutorial-organization-membership-v1-320.webp",
+      "bytes": 1378,
+      "sha256": "9629fe42e1156a3869cafac529d402016f3d682486426249ef96200ee929b5db"
+    },
+    {
+      "path": "assets/production/avif/tutorial-organization-membership-v1-640.avif",
+      "bytes": 4357,
+      "sha256": "b057ec9d7da1e48a624d55d2fd3c57e66a3786b8155d6e317641ec829ad83c11"
+    },
+    {
+      "path": "assets/production/webp/tutorial-organization-membership-v1-640.webp",
+      "bytes": 3154,
+      "sha256": "d370b3ae1af112ba7bf1c883c9e32b7727c3e4a4321626a0475a2b79f399197a"
+    },
+    {
+      "path": "assets/production/avif/tutorial-organization-membership-v1-960.avif",
+      "bytes": 8573,
+      "sha256": "9c1b96ab49d54aa37c908c5c147e65f71261575a6b9c08cce527da95c2b401d4"
+    },
+    {
+      "path": "assets/production/webp/tutorial-organization-membership-v1-960.webp",
+      "bytes": 5854,
+      "sha256": "6583c976cd8ccdf143d8529104859f4398f9ac98cbc2a9073ca010861ee1e6bb"
+    },
+    {
+      "path": "assets/production/avif/tutorial-organization-membership-v1-1280.avif",
+      "bytes": 12181,
+      "sha256": "200c1f014f0c9f189e76282be2fc307fd58a7cd15fd97c26d0c54d979b68904c"
+    },
+    {
+      "path": "assets/production/webp/tutorial-organization-membership-v1-1280.webp",
+      "bytes": 8384,
+      "sha256": "b53d88b9924eb44fe090809b2ee6b445d641f9a2a15aa5e9c1486b513e5ba590"
+    },
+    {
+      "path": "assets/production/avif/tutorial-organization-membership-v1-1920.avif",
+      "bytes": 19362,
+      "sha256": "d54a02da1bd96abf457aa0d329dcf7ca393e1001d15234e21ba813c6f8acde9d"
+    },
+    {
+      "path": "assets/production/webp/tutorial-organization-membership-v1-1920.webp",
+      "bytes": 14892,
+      "sha256": "2140bce8b3afc14db2975b54edf81893d827c8670064ec003f9c4aa3c550f2a3"
+    },
+    {
+      "path": "assets/production/avif/tutorial-organization-membership-v1-2560.avif",
+      "bytes": 26510,
+      "sha256": "e165013a234cd69f0e331f96cc317c52a13018dc0ea046cc9711bbbace645749"
+    },
+    {
+      "path": "assets/production/webp/tutorial-organization-membership-v1-2560.webp",
+      "bytes": 21370,
+      "sha256": "ebc8c752b1753d6a2c1d96b63e577f1441788cdd27ca9207fcef6943c56f4013"
+    },
+    {
+      "path": "assets/production/avif/tutorial-organization-membership-v1-3840.avif",
+      "bytes": 44890,
+      "sha256": "0406dc923106f38bc61689095c186c5ec092d5f60ffff285e1904e94bbcfb37d"
+    },
+    {
+      "path": "assets/production/webp/tutorial-organization-membership-v1-3840.webp",
+      "bytes": 37408,
+      "sha256": "1138fe1a45a12f5a658cfc51aa4f502e6860b5ba3c4a23e3fba83c48913c8268"
+    },
+    {
+      "path": "assets/production/png/tutorial-organization-membership-v1-1280.png",
+      "bytes": 123963,
+      "sha256": "b378438e59620cd20a32b059cc0141cf3ada7b791508a3cfa38c1254f4bc2726"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/tutorial-organization-membership-v1.webp",
+      "bytes": 1378,
+      "sha256": "9629fe42e1156a3869cafac529d402016f3d682486426249ef96200ee929b5db"
+    },
+    {
+      "path": "apps/mobile/assets/library/tutorial-organization-membership-v1.webp",
+      "bytes": 1378,
+      "sha256": "9629fe42e1156a3869cafac529d402016f3d682486426249ef96200ee929b5db"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:19.751Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 95,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 97,
+      "mobile_suitability": 95,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 94,
+      "contrast": 95,
+      "geometry_quality": 95,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "The thematic glyph, card progression, safe area, and directional flow remain clear in both desktop and mobile placements.",
+      "No missing render, unsafe content, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 166732
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:34:48.246Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

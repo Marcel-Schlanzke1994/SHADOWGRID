@@ -23,6 +23,11 @@
       "path": "assets/production/svg/map-heatmap-event-legend-v1.svg",
       "bytes": 3670,
       "sha256": "44863f403677db7867b192f6c8e007c34b3e27ef57ef4513305eaae9c31c20fa"
+    },
+    {
+      "path": "assets/production/webp/map-heatmap-event-legend-v1-320.webp",
+      "bytes": 14744,
+      "sha256": "ecd4cccbcfc59c308c9a8d4a063d4e506098c6ce69ccc266482cb356ff3f4299"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/maps/map-heatmap-event-legend-v1.svg",
       "bytes": 3670,
       "sha256": "44863f403677db7867b192f6c8e007c34b3e27ef57ef4513305eaae9c31c20fa"
+    },
+    {
+      "path": "apps/web/public/assets/maps/map-heatmap-event-legend-v1-320.webp",
+      "bytes": 14744,
+      "sha256": "ecd4cccbcfc59c308c9a8d4a063d4e506098c6ce69ccc266482cb356ff3f4299"
+    },
+    {
+      "path": "apps/web/public/assets/library/map-heatmap-event-legend-v1.webp",
+      "bytes": 14744,
+      "sha256": "ecd4cccbcfc59c308c9a8d4a063d4e506098c6ce69ccc266482cb356ff3f4299"
+    },
+    {
+      "path": "apps/mobile/assets/library/map-heatmap-event-legend-v1.webp",
+      "bytes": 14744,
+      "sha256": "ecd4cccbcfc59c308c9a8d4a063d4e506098c6ce69ccc266482cb356ff3f4299"
     }
   ],
   "contains_text": false,

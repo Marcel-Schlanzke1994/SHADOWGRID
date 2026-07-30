@@ -23,6 +23,11 @@
       "path": "assets/production/svg/marker-control-social-access-v1.svg",
       "bytes": 752,
       "sha256": "de1e1fc0bbdcefeb79f71d5939ba4d11cbbf2e803d2b13fa25b448e15fac9dd6"
+    },
+    {
+      "path": "assets/production/webp/marker-control-social-access-v1-320.webp",
+      "bytes": 4012,
+      "sha256": "544ccbde306fa362096985871a99d3fde566fe9ac9923954e216376354c12d3a"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/markers/marker-control-social-access-v1.svg",
       "bytes": 752,
       "sha256": "de1e1fc0bbdcefeb79f71d5939ba4d11cbbf2e803d2b13fa25b448e15fac9dd6"
+    },
+    {
+      "path": "apps/web/public/assets/markers/marker-control-social-access-v1-320.webp",
+      "bytes": 4012,
+      "sha256": "544ccbde306fa362096985871a99d3fde566fe9ac9923954e216376354c12d3a"
+    },
+    {
+      "path": "apps/web/public/assets/library/marker-control-social-access-v1.webp",
+      "bytes": 4012,
+      "sha256": "544ccbde306fa362096985871a99d3fde566fe9ac9923954e216376354c12d3a"
+    },
+    {
+      "path": "apps/mobile/assets/library/marker-control-social-access-v1.webp",
+      "bytes": 4012,
+      "sha256": "544ccbde306fa362096985871a99d3fde566fe9ac9923954e216376354c12d3a"
     }
   ],
   "contains_text": false,

@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-chemnitz-card-v1",
+  "manifest_order": 305,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "chemnitz",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-chemnitz-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100305,
+  "content_hash": "7708ef62fa0a580fa2dc5dd438ee530f9b933be4aabb6b257b57a6d98a1b64cc",
+  "source_file": "assets/source/cities/city-chemnitz-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-chemnitz-card-v1-320.avif",
+      "bytes": 3425,
+      "sha256": "2e00c219501dcdf81190ca0340754d6f47463e88020d336099807a5dba9f08ea"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-card-v1-320.webp",
+      "bytes": 3196,
+      "sha256": "1dcbac53d5525b3c95d4cda7439da3bcc444791d23e1e5e6a30f32a30192f9ba"
+    },
+    {
+      "path": "assets/production/avif/city-chemnitz-card-v1-640.avif",
+      "bytes": 7398,
+      "sha256": "3d6df2a559ba96118106ff39aca68a0c30918daf0f91810889d10893f8aae0f2"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-card-v1-640.webp",
+      "bytes": 6352,
+      "sha256": "07225be03f43f1fc1d84ff8f9e33e1ad150d051773559f0925cdd4458e367e33"
+    },
+    {
+      "path": "assets/production/avif/city-chemnitz-card-v1-960.avif",
+      "bytes": 13235,
+      "sha256": "f79558f4f082079923c55a3a575777bd9bc19db52101d4f69c518d60c95c0b1b"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-card-v1-960.webp",
+      "bytes": 10510,
+      "sha256": "de054b52d33f181f4425739c2c773159f30500af2c0d217aacdd49cdddeb625d"
+    },
+    {
+      "path": "assets/production/avif/city-chemnitz-card-v1-1280.avif",
+      "bytes": 18086,
+      "sha256": "cfdf6b3d511a4db7dc47c6726843f7dfe45cae539e9bd7267eb1474896693858"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-card-v1-1280.webp",
+      "bytes": 14368,
+      "sha256": "a1c336108dd18b1ec08778c78f583dac8fc4336f8401566e2b453b465ba67d7e"
+    },
+    {
+      "path": "assets/production/avif/city-chemnitz-card-v1-1920.avif",
+      "bytes": 27453,
+      "sha256": "f03ed9e7e98f114c91996d6eb91a480e982be74ecfea60fda15b52d37dc8ad08"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-card-v1-1920.webp",
+      "bytes": 23984,
+      "sha256": "24070e3d5981797cfa0a0311ec5f8cd2e8f9667f878ace1d46eb4bbe4265a3c9"
+    },
+    {
+      "path": "assets/production/avif/city-chemnitz-card-v1-2560.avif",
+      "bytes": 39134,
+      "sha256": "a4acec07e417362af24394ebf4d3e22f5fb8b7af2d8614af13a05bd1363a2295"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-card-v1-2560.webp",
+      "bytes": 35926,
+      "sha256": "3534bc598c2d20dd4b97724fb0b8bfb469418b6988fa6cfc28b9a08736121b7d"
+    },
+    {
+      "path": "assets/production/avif/city-chemnitz-card-v1-3840.avif",
+      "bytes": 63761,
+      "sha256": "119e99333b73fc0345170e60d7a58478c8bc0eecdd0501c7dc5a109f401425c8"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-card-v1-3840.webp",
+      "bytes": 64236,
+      "sha256": "e94aeecc0d022cc56914dfb2f3053757518cd67f7a6b3badd9f2ed5c29ab550e"
+    },
+    {
+      "path": "assets/production/png/city-chemnitz-card-v1-1280.png",
+      "bytes": 1256787,
+      "sha256": "fbd25bd799d4c5a52d7671dcea17d0c0429e571a381629a0854be2379f396ee9"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-card-v1-320.avif",
+      "bytes": 3425,
+      "sha256": "2e00c219501dcdf81190ca0340754d6f47463e88020d336099807a5dba9f08ea"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-card-v1-320.webp",
+      "bytes": 3196,
+      "sha256": "1dcbac53d5525b3c95d4cda7439da3bcc444791d23e1e5e6a30f32a30192f9ba"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-card-v1-640.avif",
+      "bytes": 7398,
+      "sha256": "3d6df2a559ba96118106ff39aca68a0c30918daf0f91810889d10893f8aae0f2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-card-v1-640.webp",
+      "bytes": 6352,
+      "sha256": "07225be03f43f1fc1d84ff8f9e33e1ad150d051773559f0925cdd4458e367e33"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-card-v1-960.avif",
+      "bytes": 13235,
+      "sha256": "f79558f4f082079923c55a3a575777bd9bc19db52101d4f69c518d60c95c0b1b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-card-v1-960.webp",
+      "bytes": 10510,
+      "sha256": "de054b52d33f181f4425739c2c773159f30500af2c0d217aacdd49cdddeb625d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-card-v1-1280.avif",
+      "bytes": 18086,
+      "sha256": "cfdf6b3d511a4db7dc47c6726843f7dfe45cae539e9bd7267eb1474896693858"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-card-v1-1280.webp",
+      "bytes": 14368,
+      "sha256": "a1c336108dd18b1ec08778c78f583dac8fc4336f8401566e2b453b465ba67d7e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-card-v1-1920.avif",
+      "bytes": 27453,
+      "sha256": "f03ed9e7e98f114c91996d6eb91a480e982be74ecfea60fda15b52d37dc8ad08"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-card-v1-1920.webp",
+      "bytes": 23984,
+      "sha256": "24070e3d5981797cfa0a0311ec5f8cd2e8f9667f878ace1d46eb4bbe4265a3c9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-card-v1-2560.avif",
+      "bytes": 39134,
+      "sha256": "a4acec07e417362af24394ebf4d3e22f5fb8b7af2d8614af13a05bd1363a2295"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-card-v1-2560.webp",
+      "bytes": 35926,
+      "sha256": "3534bc598c2d20dd4b97724fb0b8bfb469418b6988fa6cfc28b9a08736121b7d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-card-v1-3840.avif",
+      "bytes": 63761,
+      "sha256": "119e99333b73fc0345170e60d7a58478c8bc0eecdd0501c7dc5a109f401425c8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-card-v1-3840.webp",
+      "bytes": 64236,
+      "sha256": "e94aeecc0d022cc56914dfb2f3053757518cd67f7a6b3badd9f2ed5c29ab550e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-card-v1-1280.png",
+      "bytes": 1256787,
+      "sha256": "fbd25bd799d4c5a52d7671dcea17d0c0429e571a381629a0854be2379f396ee9"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-chemnitz-card-v1.webp",
+      "bytes": 3196,
+      "sha256": "1dcbac53d5525b3c95d4cda7439da3bcc444791d23e1e5e6a30f32a30192f9ba"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-chemnitz-card-v1.webp",
+      "bytes": 3196,
+      "sha256": "1dcbac53d5525b3c95d4cda7439da3bcc444791d23e1e5e6a30f32a30192f9ba"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:42.560Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1655835
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:18:27.786Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

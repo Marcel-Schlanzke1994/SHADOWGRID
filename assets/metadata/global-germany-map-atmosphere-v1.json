@@ -170,6 +170,16 @@
       "path": "apps/web/public/assets/global/global-germany-map-atmosphere-v1-1280.png",
       "bytes": 1451174,
       "sha256": "ea0efa08511f0d4de05326a7851ae9d7a5da5ae1335b26b33d8145ebb02d3cb9"
+    },
+    {
+      "path": "apps/web/public/assets/library/global-germany-map-atmosphere-v1.webp",
+      "bytes": 2200,
+      "sha256": "957a6bdc40f70d8bcafe5cfdab1f6adec9cc7073b6d57f1a3672b0907e85d888"
+    },
+    {
+      "path": "apps/mobile/assets/library/global-germany-map-atmosphere-v1.webp",
+      "bytes": 2200,
+      "sha256": "957a6bdc40f70d8bcafe5cfdab1f6adec9cc7073b6d57f1a3672b0907e85d888"
     }
   ],
   "contains_text": false,

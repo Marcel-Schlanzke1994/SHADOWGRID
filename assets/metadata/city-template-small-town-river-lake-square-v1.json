@@ -1,0 +1,171 @@
+{
+  "asset_id": "city-template-small-town-river-lake-square-v1",
+  "manifest_order": 361,
+  "category": "city-template",
+  "batch": "procedural-city-templates",
+  "city": null,
+  "variant": "square",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-template-small-town-river-lake-square-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100361,
+  "content_hash": "ef2257e88201b37e9a95921a9ffe023d35aae2daefbaf6bd4d91d2209f5379d4",
+  "source_file": "assets/source/global/city-template-small-town-river-lake-square-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-template-small-town-river-lake-square-v1-320.avif",
+      "bytes": 3563,
+      "sha256": "d8510ff6e08e4ae50e113101879f773d0c60c9f1784cfbdf3c5824d90965bb51"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-river-lake-square-v1-320.webp",
+      "bytes": 3374,
+      "sha256": "0731f5dc2e6aa30d18dd9e0296b21b95a260e6ba46efa32505246e4a1ebb6458"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-river-lake-square-v1-640.avif",
+      "bytes": 7899,
+      "sha256": "6cb8138a0201c91a50c07f4df475ef065902bfdf9221250a8c7d423e59bd6cba"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-river-lake-square-v1-640.webp",
+      "bytes": 6550,
+      "sha256": "c2524bf51b6b1f60c5a67fb5a8cf2d0c8b125e80f4dd2cb0eedeacb48526ad92"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-river-lake-square-v1-960.avif",
+      "bytes": 13499,
+      "sha256": "7653021fbc88a0ab04b417844753c78db0e61789fe7958078aa62400d962a25d"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-river-lake-square-v1-960.webp",
+      "bytes": 10786,
+      "sha256": "9a8952fc1da6ed4954c5e2758b080ac55c64212437cc8c24faedf9caab29f183"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-river-lake-square-v1-1280.avif",
+      "bytes": 18904,
+      "sha256": "b1fa7d2d710e5a9fe67df54c72ca3a41648ab58d8418725ac7cf669f406b282a"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-river-lake-square-v1-1280.webp",
+      "bytes": 15090,
+      "sha256": "c5f13a3745ad9b546a0630b58b66592f4b806e10774ad26dedfa44a64d7132ab"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-river-lake-square-v1-1920.avif",
+      "bytes": 28302,
+      "sha256": "0bf40629cc8d15c5df7b98b56fda352b719600ba8e7a63dac6cec826cc7ba72d"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-river-lake-square-v1-1920.webp",
+      "bytes": 24540,
+      "sha256": "121c8cec5678e0d0a3f5365cc35a953e21a7b6d1060f37b60a0b62eb56d7a210"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-river-lake-square-v1-2560.avif",
+      "bytes": 39635,
+      "sha256": "cabbf2a089b8b392e7ad0f0862a159e2348ba38feb419a33e16ef709724a8bda"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-river-lake-square-v1-2560.webp",
+      "bytes": 36390,
+      "sha256": "adefca0f98fcc3dd37e7e4e26796cceadb632d2476fc1bf2b87b466b8df3f91e"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-river-lake-square-v1-3840.avif",
+      "bytes": 63721,
+      "sha256": "f2024015bb796dd9b820153ae8c942176a4da87e9083ec5600c96541aa0caa67"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-river-lake-square-v1-3840.webp",
+      "bytes": 67544,
+      "sha256": "3fb5bfd2a47e9d9a31b05833c4147d440e995387111cd4a701e371d540f9afd5"
+    },
+    {
+      "path": "assets/production/png/city-template-small-town-river-lake-square-v1-1280.png",
+      "bytes": 1244593,
+      "sha256": "cfeae3aa5fa5604212c795107f724710c3d18c1227da2c53e93d7799eac7fc35"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/city-template-small-town-river-lake-square-v1.webp",
+      "bytes": 3374,
+      "sha256": "0731f5dc2e6aa30d18dd9e0296b21b95a260e6ba46efa32505246e4a1ebb6458"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-template-small-town-river-lake-square-v1.webp",
+      "bytes": 3374,
+      "sha256": "0731f5dc2e6aa30d18dd9e0296b21b95a260e6ba46efa32505246e4a1ebb6458"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 91.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:55.679Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 92,
+      "material_quality": 87,
+      "light_quality": 89,
+      "architecture_plausibility": 89,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 92,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All four paged contact sheets were inspected at original resolution.",
+      "The templates are intentionally stylized deterministic fallbacks and remain compositionally useful across every required aspect ratio.",
+      "No missing render, broken geometry, sensitive infrastructure detail, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1648867
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:50:50.917Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

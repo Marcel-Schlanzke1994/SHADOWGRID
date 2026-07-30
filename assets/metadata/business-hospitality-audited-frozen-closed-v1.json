@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-hospitality-audited-frozen-closed-v1",
+  "manifest_order": 468,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "audited-frozen-closed",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-hospitality-audited-frozen-closed-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100468,
+  "content_hash": "7eecded39d711c082070cf560769ee612861e4e376bc09432b59667a8fb2a2d9",
+  "source_file": "assets/source/businesses/business-hospitality-audited-frozen-closed-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-hospitality-audited-frozen-closed-v1-320.avif",
+      "bytes": 2782,
+      "sha256": "793c180804fd3d001e6de6ebb62e089731f5f3fe54690a4a485897e1680def30"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-audited-frozen-closed-v1-320.webp",
+      "bytes": 2266,
+      "sha256": "85510ca2285c8ac2cb2e87942a6d4201fed76bb5154c5e9bc7997ead9405d77c"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-audited-frozen-closed-v1-640.avif",
+      "bytes": 5844,
+      "sha256": "78925bd4dedcb826697b79b7bb22d70ba16eeef616a25df6e6c47b91ed8d642a"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-audited-frozen-closed-v1-640.webp",
+      "bytes": 4656,
+      "sha256": "42b86794632dd24335c135e7e671ddf661d1b4031007abab5fe375e14b2683ad"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-audited-frozen-closed-v1-960.avif",
+      "bytes": 9961,
+      "sha256": "13117fb1cf2c2f570a0d9eff37539c7b5aca8b752f34453da86e4598584c32e1"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-audited-frozen-closed-v1-960.webp",
+      "bytes": 7948,
+      "sha256": "323233850c932b5080c1267b8dfddaa67cd75665f221a0420775477b130e9a95"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-audited-frozen-closed-v1-1280.avif",
+      "bytes": 13574,
+      "sha256": "7502a4b08a5e61f1ca74ac8d6a75fdd87b79987b236458948bc76c470d4f464b"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-audited-frozen-closed-v1-1280.webp",
+      "bytes": 10538,
+      "sha256": "708e59ebf670a70079e941b2600c07636ca3e5ee7748ea430b8f661fb5a121f1"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-audited-frozen-closed-v1-1920.avif",
+      "bytes": 20620,
+      "sha256": "6ebbdda1b5990c7f170c5976ee47f4dd5caa0642241d71166b96ed2c34345f83"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-audited-frozen-closed-v1-1920.webp",
+      "bytes": 16758,
+      "sha256": "87a7b338a552fea1d695a90324b098666366785e222ef9fb47528a060dc9ae00"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-audited-frozen-closed-v1-2560.avif",
+      "bytes": 27977,
+      "sha256": "000f333aeee437ec3da228f0d99eaa43cbc585f2877fa457b6f9deb75f3cadce"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-audited-frozen-closed-v1-2560.webp",
+      "bytes": 23840,
+      "sha256": "9d3600c272ea7086da658d26c1c045c6e8b72a263e295872a98e0d7cbde3e955"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-audited-frozen-closed-v1-3840.avif",
+      "bytes": 45768,
+      "sha256": "1fd15f987da82619713c8b28af605bda1408f1f48e786e78fea030abdc5a2daa"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-audited-frozen-closed-v1-3840.webp",
+      "bytes": 41522,
+      "sha256": "8553ab833f944fd23d8d12bf1b323de32456241376527a6342c107d1a59ae874"
+    },
+    {
+      "path": "assets/production/png/business-hospitality-audited-frozen-closed-v1-1280.png",
+      "bytes": 624537,
+      "sha256": "9a0f08a053b5b132ca4c4039f8e0e2197fa0a96050778fe97875c81ba917e5a9"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-hospitality-audited-frozen-closed-v1.webp",
+      "bytes": 2266,
+      "sha256": "85510ca2285c8ac2cb2e87942a6d4201fed76bb5154c5e9bc7997ead9405d77c"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-hospitality-audited-frozen-closed-v1.webp",
+      "bytes": 2266,
+      "sha256": "85510ca2285c8ac2cb2e87942a6d4201fed76bb5154c5e9bc7997ead9405d77c"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.352Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1441492
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:29:18.972Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

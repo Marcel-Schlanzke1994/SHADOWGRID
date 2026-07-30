@@ -1,0 +1,171 @@
+{
+  "asset_id": "organization-conflict-peace-treaty-v1",
+  "manifest_order": 612,
+  "category": "organization-conflict",
+  "batch": "cartel-conflicts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "peace-treaty",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/organization-conflict-peace-treaty-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100612,
+  "content_hash": "cb0cc1a318143d3737211cffbc2b02edb4bd4c3b38acbdfacf41c357f5890d9f",
+  "source_file": "assets/source/cartels/organization-conflict-peace-treaty-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/organization-conflict-peace-treaty-v1-320.avif",
+      "bytes": 2627,
+      "sha256": "a2e5ae242c77128f35dbbfb9dcf7748559aa1ea03c4f5c4132bfc4a8c7980eeb"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-peace-treaty-v1-320.webp",
+      "bytes": 1672,
+      "sha256": "bfc406b8ea5a7af43777515289872b47cb7ba168c671b94ddb331118552e0bc5"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-peace-treaty-v1-640.avif",
+      "bytes": 6627,
+      "sha256": "d4d747204afd1b8c36b457e86cfcdb171c475fc050d23f43641b01dfd64c2dfd"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-peace-treaty-v1-640.webp",
+      "bytes": 4470,
+      "sha256": "13e55acdb47aed877b94af744fc64bcaf7ccededa125f2d50bc3cde9b3ddba79"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-peace-treaty-v1-960.avif",
+      "bytes": 13150,
+      "sha256": "6a7309e6998b4616243df8e1923d9e1b7c012398936a46ca5ef89600b18dcb03"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-peace-treaty-v1-960.webp",
+      "bytes": 8828,
+      "sha256": "4479bbc42ccf4916fa6e4de38de5e3875221633a04f41e736485bc34a1495d49"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-peace-treaty-v1-1280.avif",
+      "bytes": 19113,
+      "sha256": "425f048ff0bdef5b43e12642e0b3e9986ec5a66afa85206cfbecfc10587f1fdb"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-peace-treaty-v1-1280.webp",
+      "bytes": 12532,
+      "sha256": "c8c5d2a17439b5049a657304a93cd867188d814cfc0ca1d5ee1b1bb8ec461a95"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-peace-treaty-v1-1920.avif",
+      "bytes": 29529,
+      "sha256": "82128d05c819ba7fb60a5c12c5b9c9aa834e20b32ce0986defb4cf4cabe203b5"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-peace-treaty-v1-1920.webp",
+      "bytes": 20574,
+      "sha256": "bcae169df3e94711900804a75f78e5d334640ead58b96849b99db26d422fc800"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-peace-treaty-v1-2560.avif",
+      "bytes": 38600,
+      "sha256": "a62a3d0b3824699ff59d417a9030e7bf6e6596b26a160cd47f836acd5d223a52"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-peace-treaty-v1-2560.webp",
+      "bytes": 27996,
+      "sha256": "6a41c3b59ff13d4e2af32dc7557682f6f09393dd75ffcaf77d1f17dae6cca1c7"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-peace-treaty-v1-3840.avif",
+      "bytes": 58886,
+      "sha256": "689c1fadba2e3c772c6e6524139566d241a060736ac65e235d72a1896b6de683"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-peace-treaty-v1-3840.webp",
+      "bytes": 45840,
+      "sha256": "3e140981086c22a7db9b28f5e1d0e758c0a2710178ae548f96da7dc413ee5bb0"
+    },
+    {
+      "path": "assets/production/png/organization-conflict-peace-treaty-v1-1280.png",
+      "bytes": 175829,
+      "sha256": "b1864c7a3413947989637540a14c4d6f39237009f32721c6e95073c6e0cbf508"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/organization-conflict-peace-treaty-v1.webp",
+      "bytes": 1672,
+      "sha256": "bfc406b8ea5a7af43777515289872b47cb7ba168c671b94ddb331118552e0bc5"
+    },
+    {
+      "path": "apps/mobile/assets/library/organization-conflict-peace-treaty-v1.webp",
+      "bytes": 1672,
+      "sha256": "bfc406b8ea5a7af43777515289872b47cb7ba168c671b94ddb331118552e0bc5"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:59.599Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 93,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Conflict phases remain fictional and abstract, with no actionable real-world violence, hacking, or sabotage content.",
+      "No missing render, unsafe instruction, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 224034
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:29:35.966Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

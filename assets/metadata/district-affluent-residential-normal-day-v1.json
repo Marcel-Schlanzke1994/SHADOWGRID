@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-affluent-residential-normal-day-v1",
+  "manifest_order": 439,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-affluent-residential-normal-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100439,
+  "content_hash": "b4dc737c945f4e9d149450c10157d1d4e4bcb79248a4a8506c3a88045ec6a95a",
+  "source_file": "assets/source/districts/district-affluent-residential-normal-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-affluent-residential-normal-day-v1-320.avif",
+      "bytes": 3052,
+      "sha256": "7c83f037becd78f8629427faa0c07b41d49436ac60349b2f72a04c00fc3d7691"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-normal-day-v1-320.webp",
+      "bytes": 2442,
+      "sha256": "5e24d3707c0354630b780efbd950fada53950391c80e498c8a83191722e30e57"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-normal-day-v1-640.avif",
+      "bytes": 6284,
+      "sha256": "bfcf48c78585cb2bde276858923d5b35cec75c6fe35fb48385e80091a9bf5ba9"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-normal-day-v1-640.webp",
+      "bytes": 5028,
+      "sha256": "e93964f3bc8533f4c9cafa4041fb28943e2b93568832e56b38c8b4dff4098bfb"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-normal-day-v1-960.avif",
+      "bytes": 9948,
+      "sha256": "f7f301374a21f80972a92786d08f31639efd0fcd7df04c53eaa0eff94977ab29"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-normal-day-v1-960.webp",
+      "bytes": 8258,
+      "sha256": "4607a3b2335ba8c3a6f6189913e9b68e3b385b219b3882ae4eb12ec156dbcf37"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-normal-day-v1-1280.avif",
+      "bytes": 14401,
+      "sha256": "6fa2a2ad0b03878f9de3345c5a730661a79763f5cd24e559333ffc64fe356629"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-normal-day-v1-1280.webp",
+      "bytes": 11068,
+      "sha256": "d586fef95f45519bd16e018b532b7da77f2c66f8b093d2dc07ce7dcf89c00d20"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-normal-day-v1-1920.avif",
+      "bytes": 21361,
+      "sha256": "df65d61e2ad80086f8e91421d4c834640855297167d8f15f96aa304a1ffac37a"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-normal-day-v1-1920.webp",
+      "bytes": 17458,
+      "sha256": "f48965e484f271b620ff1a2cfc97b0a6a40b803b91cb8756da504a759461f247"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-normal-day-v1-2560.avif",
+      "bytes": 28467,
+      "sha256": "9877bdb53925f245c67ce3369da107cdff8c51427122846b19d19b5355ad5dca"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-normal-day-v1-2560.webp",
+      "bytes": 24156,
+      "sha256": "44d57e44d9ac374a63f9bd63f73a6423347e5fca8cc88e56feb8593353c2a1cf"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-normal-day-v1-3840.avif",
+      "bytes": 46179,
+      "sha256": "a39ab676d4715cbdd2d1e33bbb73748613373917df8db7d00a447c690dce72dc"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-normal-day-v1-3840.webp",
+      "bytes": 41576,
+      "sha256": "2e0b52097f00735e2b26647d09e8861b3eae3dd12bfed330ade8d30d9ff14a4f"
+    },
+    {
+      "path": "assets/production/png/district-affluent-residential-normal-day-v1-1280.png",
+      "bytes": 633415,
+      "sha256": "30a457319822fe6a5b5bf58b25c4b54ead95d51d71a9e97d0b69f9f92702a2e3"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-affluent-residential-normal-day-v1.webp",
+      "bytes": 2442,
+      "sha256": "5e24d3707c0354630b780efbd950fada53950391c80e498c8a83191722e30e57"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-affluent-residential-normal-day-v1.webp",
+      "bytes": 2442,
+      "sha256": "5e24d3707c0354630b780efbd950fada53950391c80e498c8a83191722e30e57"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.250Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1467920
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:44:23.425Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

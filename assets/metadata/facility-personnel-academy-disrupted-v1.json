@@ -1,0 +1,171 @@
+{
+  "asset_id": "facility-personnel-academy-disrupted-v1",
+  "manifest_order": 530,
+  "category": "facility",
+  "batch": "facilities",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "disrupted",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/facility-personnel-academy-disrupted-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100530,
+  "content_hash": "292ae044ee10da54f65509c2a26fce3e47c3467efa51162c7c472f02b996544c",
+  "source_file": "assets/source/facilities/facility-personnel-academy-disrupted-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/facility-personnel-academy-disrupted-v1-320.avif",
+      "bytes": 2970,
+      "sha256": "2334847df65a624fe0289302d4bcf2e77431aacef71f0a826db82768517c3618"
+    },
+    {
+      "path": "assets/production/webp/facility-personnel-academy-disrupted-v1-320.webp",
+      "bytes": 2606,
+      "sha256": "ac5bd9e669dfdcab609deaf1b9c1112352b32587c84aab1d197119952d90ad6e"
+    },
+    {
+      "path": "assets/production/avif/facility-personnel-academy-disrupted-v1-640.avif",
+      "bytes": 6586,
+      "sha256": "463dd787e515061efa14774e732baec6eba1f1f19a03b2d9ee6add035c368d1d"
+    },
+    {
+      "path": "assets/production/webp/facility-personnel-academy-disrupted-v1-640.webp",
+      "bytes": 5386,
+      "sha256": "9e181fc2e3a932e3d7e509ce01c3a720f19535563a5e40d0073671640cf777a3"
+    },
+    {
+      "path": "assets/production/avif/facility-personnel-academy-disrupted-v1-960.avif",
+      "bytes": 10665,
+      "sha256": "d8765318092561914b0d168f79aa72e78b85c2605d9bd321b135a68c89612350"
+    },
+    {
+      "path": "assets/production/webp/facility-personnel-academy-disrupted-v1-960.webp",
+      "bytes": 8738,
+      "sha256": "68cb9164518ba04fd05ad12820dc803122e29f0bc162b7003bded869b573fc08"
+    },
+    {
+      "path": "assets/production/avif/facility-personnel-academy-disrupted-v1-1280.avif",
+      "bytes": 14719,
+      "sha256": "f9048becab9b26c69f2fbbee31fff4e8677574393d57a9979b54fe319b802d24"
+    },
+    {
+      "path": "assets/production/webp/facility-personnel-academy-disrupted-v1-1280.webp",
+      "bytes": 11700,
+      "sha256": "a3900a852a607b3cd64ee4d6e670e8db0c5b2ba4e2a52ac2bcb9c06dd4f4dafa"
+    },
+    {
+      "path": "assets/production/avif/facility-personnel-academy-disrupted-v1-1920.avif",
+      "bytes": 21969,
+      "sha256": "f9900bdf3a09e95e5edcfc457abe2cf7922724fb356392d7fac915ab0231d5b7"
+    },
+    {
+      "path": "assets/production/webp/facility-personnel-academy-disrupted-v1-1920.webp",
+      "bytes": 18484,
+      "sha256": "f17d8f88dbf196f237d0476e4f38bfad4cc346ddcaa86e3f8691fd2ec90049b1"
+    },
+    {
+      "path": "assets/production/avif/facility-personnel-academy-disrupted-v1-2560.avif",
+      "bytes": 29621,
+      "sha256": "e5f56fb47680b0196ca3a71b0082d6c93138809f1220e613ff69f8d1da1a62a1"
+    },
+    {
+      "path": "assets/production/webp/facility-personnel-academy-disrupted-v1-2560.webp",
+      "bytes": 25650,
+      "sha256": "5e74388b7bdf072089523061acec719b2ec4cc51f65532975d0a65e2d3c4f11a"
+    },
+    {
+      "path": "assets/production/avif/facility-personnel-academy-disrupted-v1-3840.avif",
+      "bytes": 48882,
+      "sha256": "ec6c8aa2269fd6c64e46a654de885216f5ff2f9dd9215faf90736b1e56514d1d"
+    },
+    {
+      "path": "assets/production/webp/facility-personnel-academy-disrupted-v1-3840.webp",
+      "bytes": 44786,
+      "sha256": "578ab70de9a4c53e3222581974a41eb0c0e1ab04b892799ef507dd8e355cdaa9"
+    },
+    {
+      "path": "assets/production/png/facility-personnel-academy-disrupted-v1-1280.png",
+      "bytes": 641792,
+      "sha256": "892ad84a7d4550996f311680a1aa4a5b95d174033a6d8952759c6a408719d38c"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/facility-personnel-academy-disrupted-v1.webp",
+      "bytes": 2606,
+      "sha256": "ac5bd9e669dfdcab609deaf1b9c1112352b32587c84aab1d197119952d90ad6e"
+    },
+    {
+      "path": "apps/mobile/assets/library/facility-personnel-academy-disrupted-v1.webp",
+      "bytes": 2606,
+      "sha256": "ac5bd9e669dfdcab609deaf1b9c1112352b32587c84aab1d197119952d90ad6e"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:27.165Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 92,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 90,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution.",
+      "Facility categories remain visually coherent and readable without depicting sensitive real-world infrastructure.",
+      "No missing render, unsafe detail, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1459659
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:12:14.636Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

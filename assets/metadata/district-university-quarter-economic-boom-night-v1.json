@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-university-quarter-economic-boom-night-v1",
+  "manifest_order": 426,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "economic-boom-night",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-university-quarter-economic-boom-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100426,
+  "content_hash": "4b6733af6102c344c555e969dbb3452aa5aa85e470b9f083b32bf45574ed62fa",
+  "source_file": "assets/source/districts/district-university-quarter-economic-boom-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-university-quarter-economic-boom-night-v1-320.avif",
+      "bytes": 3602,
+      "sha256": "2d5c9eb0fe0d5b3c8b7d50b40620c5571a5f7290e3f1f224be90899fa8618376"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-economic-boom-night-v1-320.webp",
+      "bytes": 3774,
+      "sha256": "9c8516f079a2a6ae52cf972d81cd0674fc070f69133801635d30d07e89e44513"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-economic-boom-night-v1-640.avif",
+      "bytes": 8256,
+      "sha256": "2b517ef6886b2b16f01c4d2cceb695588ca11f03bb2f6b8b2064999c25ee6161"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-economic-boom-night-v1-640.webp",
+      "bytes": 8486,
+      "sha256": "e52b9e233f734cc8a6ecdb7adaaa8967a653f613bf659419f68a120bffd6a823"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-economic-boom-night-v1-960.avif",
+      "bytes": 13742,
+      "sha256": "868e56b1c6d83ce44cf50e3221cf779dbe5b819dd21e6b7c7f9b0d7438817332"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-economic-boom-night-v1-960.webp",
+      "bytes": 14426,
+      "sha256": "c5860408983e9a07b63701650876d25f8454483f2445d9ffb4bb81f4a7ab292e"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-economic-boom-night-v1-1280.avif",
+      "bytes": 18785,
+      "sha256": "245ed93eadace1efe2e8a76c9da9202c26675f87af4b962c3988d6ec0eb64408"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-economic-boom-night-v1-1280.webp",
+      "bytes": 19038,
+      "sha256": "8ce3d2b43f9c5cf1fd802d59c5a2d12cad77973ea168ed0bf3bde02ff7fdc063"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-economic-boom-night-v1-1920.avif",
+      "bytes": 29116,
+      "sha256": "713d276482f12f035311ab0a5b5ed0169607312512327b0326ba284f9c004d8d"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-economic-boom-night-v1-1920.webp",
+      "bytes": 28654,
+      "sha256": "2db95d6efaa6706b7c752f4e61a3bb5c62131f012f83fe4ea35024a24197cc11"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-economic-boom-night-v1-2560.avif",
+      "bytes": 38914,
+      "sha256": "854df3986156b0ebe21c02e35c9f7511a8091c0bfcc9f1381e95f90a76a90039"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-economic-boom-night-v1-2560.webp",
+      "bytes": 37594,
+      "sha256": "b6c36114f801e6601694f7344633a9b7dbe24c985b1e7398a1c5c8e2efa4b0ec"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-economic-boom-night-v1-3840.avif",
+      "bytes": 62391,
+      "sha256": "667657b6c7e253ed8da419b7d036f0ba61f93b7a86cf2bb621c8af207860f116"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-economic-boom-night-v1-3840.webp",
+      "bytes": 59350,
+      "sha256": "bc4b9e3fba624f25c357d281684600c95362b04d71aae8607fed61369bc832eb"
+    },
+    {
+      "path": "assets/production/png/district-university-quarter-economic-boom-night-v1-1280.png",
+      "bytes": 677862,
+      "sha256": "2b6e9d299f1605b78db744b3e93a26989a26e3048615e5d3be239f0dcc7650a8"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-university-quarter-economic-boom-night-v1.webp",
+      "bytes": 3774,
+      "sha256": "9c8516f079a2a6ae52cf972d81cd0674fc070f69133801635d30d07e89e44513"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-university-quarter-economic-boom-night-v1.webp",
+      "bytes": 3774,
+      "sha256": "9c8516f079a2a6ae52cf972d81cd0674fc070f69133801635d30d07e89e44513"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.092Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1486439
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:40:29.771Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

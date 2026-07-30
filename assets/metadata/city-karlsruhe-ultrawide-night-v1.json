@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-karlsruhe-ultrawide-night-v1",
+  "manifest_order": 244,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "karlsruhe",
+  "variant": "ultrawide-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-karlsruhe-ultrawide-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100244,
+  "content_hash": "9be998230d426faddd105adbf36c05ec2b3ba6f3f6686665ae09ecd3ae54a730",
+  "source_file": "assets/source/cities/city-karlsruhe-ultrawide-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-karlsruhe-ultrawide-night-v1-320.avif",
+      "bytes": 3216,
+      "sha256": "07953116adaf0c77d3895942af96c0e9ca4ccbc703011e5c56b2ea06add164d9"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-ultrawide-night-v1-320.webp",
+      "bytes": 3166,
+      "sha256": "65d4035d56bbbfd78b1f569f8bbfc8bb6c99f04a5474a5f79bebac05a27de07c"
+    },
+    {
+      "path": "assets/production/avif/city-karlsruhe-ultrawide-night-v1-640.avif",
+      "bytes": 6636,
+      "sha256": "ea3fe0518fa0e003f3e646e0fb309dd7834ef29f63bf2adba7f36f6929f197d8"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-ultrawide-night-v1-640.webp",
+      "bytes": 6946,
+      "sha256": "d14a6a01366c07acc0c445fc9ce6e58f3984d763cf9942a8192e8ee15d764f61"
+    },
+    {
+      "path": "assets/production/avif/city-karlsruhe-ultrawide-night-v1-960.avif",
+      "bytes": 11179,
+      "sha256": "ebd377818cd8e5d96f3040beb5657e560a7362536c8544a3677c5c62184b00c7"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-ultrawide-night-v1-960.webp",
+      "bytes": 12262,
+      "sha256": "ebca09f5c7698344831b45c9e4912f97954b46c9f640f5ec4fce85918a83602b"
+    },
+    {
+      "path": "assets/production/avif/city-karlsruhe-ultrawide-night-v1-1280.avif",
+      "bytes": 15009,
+      "sha256": "b42c7b28d345c7c71247b7d5a09ab8325ca0c3254685d8b9d31a9bb219be0e4f"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-ultrawide-night-v1-1280.webp",
+      "bytes": 16220,
+      "sha256": "1b0b09a802fa0f0296af739d9be03bebb7180cc3e01612ddd14c7ffbf86c8c8f"
+    },
+    {
+      "path": "assets/production/avif/city-karlsruhe-ultrawide-night-v1-1920.avif",
+      "bytes": 23181,
+      "sha256": "b3e1f8334f67c5759690b04d765e1063cfe546fc43b71946faa0a6fedd06035b"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-ultrawide-night-v1-1920.webp",
+      "bytes": 24730,
+      "sha256": "cb85ac91193995405cf69cdecf98a60828a6d1a9f850b8f7b58b82972184751b"
+    },
+    {
+      "path": "assets/production/avif/city-karlsruhe-ultrawide-night-v1-2560.avif",
+      "bytes": 31689,
+      "sha256": "ffd0829a33aa7753dddd65b7ca32f287887a038866e09b583ceba478278cfe99"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-ultrawide-night-v1-2560.webp",
+      "bytes": 32374,
+      "sha256": "1fd6fb40035bf1ad37b5df5d998b029b767e8928faefe69179d7574d03127ea2"
+    },
+    {
+      "path": "assets/production/avif/city-karlsruhe-ultrawide-night-v1-3840.avif",
+      "bytes": 50029,
+      "sha256": "83b48c2f2b01b9cd51273005b9934df8ac0bed63996cd36f3c9a3e625171cb14"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-ultrawide-night-v1-3840.webp",
+      "bytes": 49452,
+      "sha256": "fa2acadc18568a98291aa96843e75efc57079a01e07557c728a76f614f4a2a26"
+    },
+    {
+      "path": "assets/production/png/city-karlsruhe-ultrawide-night-v1-1280.png",
+      "bytes": 484742,
+      "sha256": "372d51b966c0979f7c4f99f2cb6bf57c5c6455152b14272ea0be8def27a4723c"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-ultrawide-night-v1-320.avif",
+      "bytes": 3216,
+      "sha256": "07953116adaf0c77d3895942af96c0e9ca4ccbc703011e5c56b2ea06add164d9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-ultrawide-night-v1-320.webp",
+      "bytes": 3166,
+      "sha256": "65d4035d56bbbfd78b1f569f8bbfc8bb6c99f04a5474a5f79bebac05a27de07c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-ultrawide-night-v1-640.avif",
+      "bytes": 6636,
+      "sha256": "ea3fe0518fa0e003f3e646e0fb309dd7834ef29f63bf2adba7f36f6929f197d8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-ultrawide-night-v1-640.webp",
+      "bytes": 6946,
+      "sha256": "d14a6a01366c07acc0c445fc9ce6e58f3984d763cf9942a8192e8ee15d764f61"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-ultrawide-night-v1-960.avif",
+      "bytes": 11179,
+      "sha256": "ebd377818cd8e5d96f3040beb5657e560a7362536c8544a3677c5c62184b00c7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-ultrawide-night-v1-960.webp",
+      "bytes": 12262,
+      "sha256": "ebca09f5c7698344831b45c9e4912f97954b46c9f640f5ec4fce85918a83602b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-ultrawide-night-v1-1280.avif",
+      "bytes": 15009,
+      "sha256": "b42c7b28d345c7c71247b7d5a09ab8325ca0c3254685d8b9d31a9bb219be0e4f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-ultrawide-night-v1-1280.webp",
+      "bytes": 16220,
+      "sha256": "1b0b09a802fa0f0296af739d9be03bebb7180cc3e01612ddd14c7ffbf86c8c8f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-ultrawide-night-v1-1920.avif",
+      "bytes": 23181,
+      "sha256": "b3e1f8334f67c5759690b04d765e1063cfe546fc43b71946faa0a6fedd06035b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-ultrawide-night-v1-1920.webp",
+      "bytes": 24730,
+      "sha256": "cb85ac91193995405cf69cdecf98a60828a6d1a9f850b8f7b58b82972184751b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-ultrawide-night-v1-2560.avif",
+      "bytes": 31689,
+      "sha256": "ffd0829a33aa7753dddd65b7ca32f287887a038866e09b583ceba478278cfe99"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-ultrawide-night-v1-2560.webp",
+      "bytes": 32374,
+      "sha256": "1fd6fb40035bf1ad37b5df5d998b029b767e8928faefe69179d7574d03127ea2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-ultrawide-night-v1-3840.avif",
+      "bytes": 50029,
+      "sha256": "83b48c2f2b01b9cd51273005b9934df8ac0bed63996cd36f3c9a3e625171cb14"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-ultrawide-night-v1-3840.webp",
+      "bytes": 49452,
+      "sha256": "fa2acadc18568a98291aa96843e75efc57079a01e07557c728a76f614f4a2a26"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-ultrawide-night-v1-1280.png",
+      "bytes": 484742,
+      "sha256": "372d51b966c0979f7c4f99f2cb6bf57c5c6455152b14272ea0be8def27a4723c"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-karlsruhe-ultrawide-night-v1.webp",
+      "bytes": 3166,
+      "sha256": "65d4035d56bbbfd78b1f569f8bbfc8bb6c99f04a5474a5f79bebac05a27de07c"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-karlsruhe-ultrawide-night-v1.webp",
+      "bytes": 3166,
+      "sha256": "65d4035d56bbbfd78b1f569f8bbfc8bb6c99f04a5474a5f79bebac05a27de07c"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.534Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 2164521
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:30:13.306Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

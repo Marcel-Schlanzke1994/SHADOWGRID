@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-wuppertal-ultrawide-day-v1",
+  "manifest_order": 195,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "wuppertal",
+  "variant": "ultrawide-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-wuppertal-ultrawide-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100195,
+  "content_hash": "e7e531450c78c8afe5e2add454681b45b255186a455581dd60387fdd383143de",
+  "source_file": "assets/source/cities/city-wuppertal-ultrawide-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-wuppertal-ultrawide-day-v1-320.avif",
+      "bytes": 2587,
+      "sha256": "2fe7d79b5da15a01cffc6548e7cc6481da8fb03cd074f021214005ce14faf43d"
+    },
+    {
+      "path": "assets/production/webp/city-wuppertal-ultrawide-day-v1-320.webp",
+      "bytes": 2336,
+      "sha256": "d130abedb5a986a437ced92bc43d7883a8d718bdda75b65fdc623a58e57fa927"
+    },
+    {
+      "path": "assets/production/avif/city-wuppertal-ultrawide-day-v1-640.avif",
+      "bytes": 5127,
+      "sha256": "f479b7f87500f1202edd5699a4269528fd3f148cd2731eae3115846959646fca"
+    },
+    {
+      "path": "assets/production/webp/city-wuppertal-ultrawide-day-v1-640.webp",
+      "bytes": 4448,
+      "sha256": "ec10438417b4823409224004a04e0790417b354ab2caddbdc1ae3de6aaac8e14"
+    },
+    {
+      "path": "assets/production/avif/city-wuppertal-ultrawide-day-v1-960.avif",
+      "bytes": 9219,
+      "sha256": "db90e90a6ed691aea26fa859b1bcbd39dd79e9a8362e4fcddadb6452bf0fbbfa"
+    },
+    {
+      "path": "assets/production/webp/city-wuppertal-ultrawide-day-v1-960.webp",
+      "bytes": 7524,
+      "sha256": "c809df9779331e0e76a5c66200d6c3ee094ff8b8521dfa68a535fe6e6362be53"
+    },
+    {
+      "path": "assets/production/avif/city-wuppertal-ultrawide-day-v1-1280.avif",
+      "bytes": 11813,
+      "sha256": "fa6399de7763220d2390c2e061d15af972a4112b2b521c43b70e32996bd347f7"
+    },
+    {
+      "path": "assets/production/webp/city-wuppertal-ultrawide-day-v1-1280.webp",
+      "bytes": 10014,
+      "sha256": "a741cdbba145deab64cd6be4a172ea1ae8f2888d991997b7e44958900b41dd63"
+    },
+    {
+      "path": "assets/production/avif/city-wuppertal-ultrawide-day-v1-1920.avif",
+      "bytes": 18366,
+      "sha256": "2d073aa58504cbec0e9223f9870645605fc2eba8dda40dfd47841fd5f660b7f0"
+    },
+    {
+      "path": "assets/production/webp/city-wuppertal-ultrawide-day-v1-1920.webp",
+      "bytes": 15118,
+      "sha256": "cdd2ec78b4c1ec067b003587fec3bf33d88da73703291a0141abc59cac2c43d9"
+    },
+    {
+      "path": "assets/production/avif/city-wuppertal-ultrawide-day-v1-2560.avif",
+      "bytes": 24407,
+      "sha256": "f728facd7d7d219595e95e5b69c6fe59e8921310e1566c4b8812c7c597d71505"
+    },
+    {
+      "path": "assets/production/webp/city-wuppertal-ultrawide-day-v1-2560.webp",
+      "bytes": 21204,
+      "sha256": "b202efe20fbfe6b66b137657eba90ca1dc421a24219626af40b3d8b101b5a08b"
+    },
+    {
+      "path": "assets/production/avif/city-wuppertal-ultrawide-day-v1-3840.avif",
+      "bytes": 38975,
+      "sha256": "9b0979f7764837af19b0e95efa999d06ac3dd7b3ec3bbbed0a0a8156d99fbdf9"
+    },
+    {
+      "path": "assets/production/webp/city-wuppertal-ultrawide-day-v1-3840.webp",
+      "bytes": 35838,
+      "sha256": "d06b2aff2cf63f0c47e01574216390464a67760c5d0e72f37d7a58b421d6b3e1"
+    },
+    {
+      "path": "assets/production/png/city-wuppertal-ultrawide-day-v1-1280.png",
+      "bytes": 400866,
+      "sha256": "c016d159fe99ef3efb04730770295144f60aca726297a5998b3e698e1e479e67"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-ultrawide-day-v1-320.avif",
+      "bytes": 2587,
+      "sha256": "2fe7d79b5da15a01cffc6548e7cc6481da8fb03cd074f021214005ce14faf43d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-ultrawide-day-v1-320.webp",
+      "bytes": 2336,
+      "sha256": "d130abedb5a986a437ced92bc43d7883a8d718bdda75b65fdc623a58e57fa927"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-ultrawide-day-v1-640.avif",
+      "bytes": 5127,
+      "sha256": "f479b7f87500f1202edd5699a4269528fd3f148cd2731eae3115846959646fca"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-ultrawide-day-v1-640.webp",
+      "bytes": 4448,
+      "sha256": "ec10438417b4823409224004a04e0790417b354ab2caddbdc1ae3de6aaac8e14"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-ultrawide-day-v1-960.avif",
+      "bytes": 9219,
+      "sha256": "db90e90a6ed691aea26fa859b1bcbd39dd79e9a8362e4fcddadb6452bf0fbbfa"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-ultrawide-day-v1-960.webp",
+      "bytes": 7524,
+      "sha256": "c809df9779331e0e76a5c66200d6c3ee094ff8b8521dfa68a535fe6e6362be53"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-ultrawide-day-v1-1280.avif",
+      "bytes": 11813,
+      "sha256": "fa6399de7763220d2390c2e061d15af972a4112b2b521c43b70e32996bd347f7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-ultrawide-day-v1-1280.webp",
+      "bytes": 10014,
+      "sha256": "a741cdbba145deab64cd6be4a172ea1ae8f2888d991997b7e44958900b41dd63"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-ultrawide-day-v1-1920.avif",
+      "bytes": 18366,
+      "sha256": "2d073aa58504cbec0e9223f9870645605fc2eba8dda40dfd47841fd5f660b7f0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-ultrawide-day-v1-1920.webp",
+      "bytes": 15118,
+      "sha256": "cdd2ec78b4c1ec067b003587fec3bf33d88da73703291a0141abc59cac2c43d9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-ultrawide-day-v1-2560.avif",
+      "bytes": 24407,
+      "sha256": "f728facd7d7d219595e95e5b69c6fe59e8921310e1566c4b8812c7c597d71505"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-ultrawide-day-v1-2560.webp",
+      "bytes": 21204,
+      "sha256": "b202efe20fbfe6b66b137657eba90ca1dc421a24219626af40b3d8b101b5a08b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-ultrawide-day-v1-3840.avif",
+      "bytes": 38975,
+      "sha256": "9b0979f7764837af19b0e95efa999d06ac3dd7b3ec3bbbed0a0a8156d99fbdf9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-ultrawide-day-v1-3840.webp",
+      "bytes": 35838,
+      "sha256": "d06b2aff2cf63f0c47e01574216390464a67760c5d0e72f37d7a58b421d6b3e1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-ultrawide-day-v1-1280.png",
+      "bytes": 400866,
+      "sha256": "c016d159fe99ef3efb04730770295144f60aca726297a5998b3e698e1e479e67"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-wuppertal-ultrawide-day-v1.webp",
+      "bytes": 2336,
+      "sha256": "d130abedb5a986a437ced92bc43d7883a8d718bdda75b65fdc623a58e57fa927"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-wuppertal-ultrawide-day-v1.webp",
+      "bytes": 2336,
+      "sha256": "d130abedb5a986a437ced92bc43d7883a8d718bdda75b65fdc623a58e57fa927"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.979Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 2082698
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:42:32.117Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-bremen-ultrawide-day-v1",
+  "manifest_order": 147,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "bremen",
+  "variant": "ultrawide-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-bremen-ultrawide-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100147,
+  "content_hash": "7429bd73928f0914fd9cd8135dff6059129fb6bdfd494c43645204d5fc809d87",
+  "source_file": "assets/source/cities/city-bremen-ultrawide-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-bremen-ultrawide-day-v1-320.avif",
+      "bytes": 2611,
+      "sha256": "9334b0d9f90bf8a0afb301910a4fb6cfcdbadf3ea79cdf1bcdb86501f71c805b"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-ultrawide-day-v1-320.webp",
+      "bytes": 2462,
+      "sha256": "fbb74717f19931f01e57bab205f7e57fd121c8d2b94ba53f9c435a6b47717946"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-ultrawide-day-v1-640.avif",
+      "bytes": 5043,
+      "sha256": "7e662c9e744ee7d935b747e268ae5b394c4d8a3816be2c79893dd2761886c55f"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-ultrawide-day-v1-640.webp",
+      "bytes": 4650,
+      "sha256": "dee7e82b6eb4ad953f8f068642053f5ac35d7841524aa4cdd8326893bcc86354"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-ultrawide-day-v1-960.avif",
+      "bytes": 8918,
+      "sha256": "230c93297d6e9acd93e5561d57b470bfad2bd73156611bdff500621b0b596d7e"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-ultrawide-day-v1-960.webp",
+      "bytes": 7512,
+      "sha256": "2faedec023b01135f03bb041f2d9bb6ae311b6da1e5e0bd547a1d602830ab991"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-ultrawide-day-v1-1280.avif",
+      "bytes": 11966,
+      "sha256": "1c43d1c4d465c8f6fe10446610ac43a92ef973730b56680c25b7d044564d87f1"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-ultrawide-day-v1-1280.webp",
+      "bytes": 10388,
+      "sha256": "0b511e0cb7a642bd1f22a6a6293fbaca9248979c40769ce94e20ed83ddd39d19"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-ultrawide-day-v1-1920.avif",
+      "bytes": 18198,
+      "sha256": "90cff90d1120d226db54c3b5fc7fb73da71449a4a614af70f53be53104256f0a"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-ultrawide-day-v1-1920.webp",
+      "bytes": 15466,
+      "sha256": "e87c6a0784af00275ba12a488ca5f50d109f51b8433203c25d53ef7663d8bafb"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-ultrawide-day-v1-2560.avif",
+      "bytes": 24943,
+      "sha256": "507871b8db897b26f9e80467f170fbd3321783e330b9da644d7f0dde9dbffb56"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-ultrawide-day-v1-2560.webp",
+      "bytes": 21400,
+      "sha256": "843e423930daee88d6245cbc3bb60c36a1bb214b8ab8aa2e294eb1b3d3f5bea1"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-ultrawide-day-v1-3840.avif",
+      "bytes": 39494,
+      "sha256": "1ef3549e84db81d4a0166b7bc9c0ff5cbb39b94ca4896c87554008c281e0702f"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-ultrawide-day-v1-3840.webp",
+      "bytes": 36516,
+      "sha256": "5c440fb19208b93abb68d19f1959673b8be524efa0891e4d61209744559da0e1"
+    },
+    {
+      "path": "assets/production/png/city-bremen-ultrawide-day-v1-1280.png",
+      "bytes": 404180,
+      "sha256": "1958b3b846c5fb84c7812b0efb67128d3906e7fa69e61bf7d8f330b45215bd5d"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-ultrawide-day-v1-320.avif",
+      "bytes": 2611,
+      "sha256": "9334b0d9f90bf8a0afb301910a4fb6cfcdbadf3ea79cdf1bcdb86501f71c805b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-ultrawide-day-v1-320.webp",
+      "bytes": 2462,
+      "sha256": "fbb74717f19931f01e57bab205f7e57fd121c8d2b94ba53f9c435a6b47717946"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-ultrawide-day-v1-640.avif",
+      "bytes": 5043,
+      "sha256": "7e662c9e744ee7d935b747e268ae5b394c4d8a3816be2c79893dd2761886c55f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-ultrawide-day-v1-640.webp",
+      "bytes": 4650,
+      "sha256": "dee7e82b6eb4ad953f8f068642053f5ac35d7841524aa4cdd8326893bcc86354"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-ultrawide-day-v1-960.avif",
+      "bytes": 8918,
+      "sha256": "230c93297d6e9acd93e5561d57b470bfad2bd73156611bdff500621b0b596d7e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-ultrawide-day-v1-960.webp",
+      "bytes": 7512,
+      "sha256": "2faedec023b01135f03bb041f2d9bb6ae311b6da1e5e0bd547a1d602830ab991"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-ultrawide-day-v1-1280.avif",
+      "bytes": 11966,
+      "sha256": "1c43d1c4d465c8f6fe10446610ac43a92ef973730b56680c25b7d044564d87f1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-ultrawide-day-v1-1280.webp",
+      "bytes": 10388,
+      "sha256": "0b511e0cb7a642bd1f22a6a6293fbaca9248979c40769ce94e20ed83ddd39d19"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-ultrawide-day-v1-1920.avif",
+      "bytes": 18198,
+      "sha256": "90cff90d1120d226db54c3b5fc7fb73da71449a4a614af70f53be53104256f0a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-ultrawide-day-v1-1920.webp",
+      "bytes": 15466,
+      "sha256": "e87c6a0784af00275ba12a488ca5f50d109f51b8433203c25d53ef7663d8bafb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-ultrawide-day-v1-2560.avif",
+      "bytes": 24943,
+      "sha256": "507871b8db897b26f9e80467f170fbd3321783e330b9da644d7f0dde9dbffb56"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-ultrawide-day-v1-2560.webp",
+      "bytes": 21400,
+      "sha256": "843e423930daee88d6245cbc3bb60c36a1bb214b8ab8aa2e294eb1b3d3f5bea1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-ultrawide-day-v1-3840.avif",
+      "bytes": 39494,
+      "sha256": "1ef3549e84db81d4a0166b7bc9c0ff5cbb39b94ca4896c87554008c281e0702f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-ultrawide-day-v1-3840.webp",
+      "bytes": 36516,
+      "sha256": "5c440fb19208b93abb68d19f1959673b8be524efa0891e4d61209744559da0e1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-ultrawide-day-v1-1280.png",
+      "bytes": 404180,
+      "sha256": "1958b3b846c5fb84c7812b0efb67128d3906e7fa69e61bf7d8f330b45215bd5d"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-bremen-ultrawide-day-v1.webp",
+      "bytes": 2462,
+      "sha256": "fbb74717f19931f01e57bab205f7e57fd121c8d2b94ba53f9c435a6b47717946"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-bremen-ultrawide-day-v1.webp",
+      "bytes": 2462,
+      "sha256": "fbb74717f19931f01e57bab205f7e57fd121c8d2b94ba53f9c435a6b47717946"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.569Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 2084591
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-29T23:57:11.521Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

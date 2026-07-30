@@ -23,6 +23,11 @@
       "path": "assets/production/svg/marker-cartel-headquarters-v1.svg",
       "bytes": 662,
       "sha256": "c063b92dc8b5dde6d8ca0444e11e720b565c7b37caf4ada57182b8fef7d6180d"
+    },
+    {
+      "path": "assets/production/webp/marker-cartel-headquarters-v1-320.webp",
+      "bytes": 2044,
+      "sha256": "9152b97c9258f058e7680b8afa84a1be505c447ca6c4398587c66365a64dc9ea"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/markers/marker-cartel-headquarters-v1.svg",
       "bytes": 662,
       "sha256": "c063b92dc8b5dde6d8ca0444e11e720b565c7b37caf4ada57182b8fef7d6180d"
+    },
+    {
+      "path": "apps/web/public/assets/markers/marker-cartel-headquarters-v1-320.webp",
+      "bytes": 2044,
+      "sha256": "9152b97c9258f058e7680b8afa84a1be505c447ca6c4398587c66365a64dc9ea"
+    },
+    {
+      "path": "apps/web/public/assets/library/marker-cartel-headquarters-v1.webp",
+      "bytes": 2044,
+      "sha256": "9152b97c9258f058e7680b8afa84a1be505c447ca6c4398587c66365a64dc9ea"
+    },
+    {
+      "path": "apps/mobile/assets/library/marker-cartel-headquarters-v1.webp",
+      "bytes": 2044,
+      "sha256": "9152b97c9258f058e7680b8afa84a1be505c447ca6c4398587c66365a64dc9ea"
     }
   ],
   "contains_text": false,

@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-essen-card-v1",
+  "manifest_order": 145,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "essen",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-essen-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100145,
+  "content_hash": "6755ae0864e1e7d44ee14ff2ed87fba1d85cf64e009eced8d5ca2716a66814df",
+  "source_file": "assets/source/cities/city-essen-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-essen-card-v1-320.avif",
+      "bytes": 3707,
+      "sha256": "28f78fc1f82eaac0e8aea6fd94f15080fceff723fec593a0635dab413932efdd"
+    },
+    {
+      "path": "assets/production/webp/city-essen-card-v1-320.webp",
+      "bytes": 3596,
+      "sha256": "102d08044eab2f97bef6406ee8ce720c13d4e582f70bba471b0832e43b0b8c7f"
+    },
+    {
+      "path": "assets/production/avif/city-essen-card-v1-640.avif",
+      "bytes": 8299,
+      "sha256": "71ee84a848624327f6e0f1c181248224576570a4908812f450d295edef0d6a0b"
+    },
+    {
+      "path": "assets/production/webp/city-essen-card-v1-640.webp",
+      "bytes": 6886,
+      "sha256": "5f2396a0f1e97a0ac95dd1de83066ffeb32b7395a59f2632332b096e126d8d68"
+    },
+    {
+      "path": "assets/production/avif/city-essen-card-v1-960.avif",
+      "bytes": 14399,
+      "sha256": "52ba2675b525eacb169793c368e25bcc7b550ebd65aca250a92b6ef2d5ba1d61"
+    },
+    {
+      "path": "assets/production/webp/city-essen-card-v1-960.webp",
+      "bytes": 11528,
+      "sha256": "7425e6aff0d1b8bc08a0fbcad8f3ffe9bb5cab4de18b96c758b1e2dc98ec3bd4"
+    },
+    {
+      "path": "assets/production/avif/city-essen-card-v1-1280.avif",
+      "bytes": 19522,
+      "sha256": "070d8ac64bd227f7487d779726f1cd4b1de8c9604df7902163891970df84b77b"
+    },
+    {
+      "path": "assets/production/webp/city-essen-card-v1-1280.webp",
+      "bytes": 15814,
+      "sha256": "f4736031b546c67f2dff69f0b2573649af9df2aa48aeecca27fb716caa843000"
+    },
+    {
+      "path": "assets/production/avif/city-essen-card-v1-1920.avif",
+      "bytes": 30646,
+      "sha256": "d45ac54382b8dc28d07291260874e7a6b13899fa5eade22b51f5405ff510fd54"
+    },
+    {
+      "path": "assets/production/webp/city-essen-card-v1-1920.webp",
+      "bytes": 25256,
+      "sha256": "8fdf777147d3a2c11834621323bac92eba1916c53dc40036f3bfd34399250abf"
+    },
+    {
+      "path": "assets/production/avif/city-essen-card-v1-2560.avif",
+      "bytes": 42176,
+      "sha256": "a6f44a8d45e7776ee70f13a746dddc2ace9f45c681563c1d6c2377ec84898839"
+    },
+    {
+      "path": "assets/production/webp/city-essen-card-v1-2560.webp",
+      "bytes": 37346,
+      "sha256": "7a0dadd45665124bb8007f36ea7c7ee74cf8afd8a7a814a1463a1da30ecee966"
+    },
+    {
+      "path": "assets/production/avif/city-essen-card-v1-3840.avif",
+      "bytes": 67991,
+      "sha256": "8e94a4130cabbc3c8e20288ebd8e2e52f9b861e7596118f2c8d31a4ef76416c1"
+    },
+    {
+      "path": "assets/production/webp/city-essen-card-v1-3840.webp",
+      "bytes": 67428,
+      "sha256": "367675e32f5b7748265d9b26d225b02c71e37c9d2575cdeb5647e2c5d943fcc8"
+    },
+    {
+      "path": "assets/production/png/city-essen-card-v1-1280.png",
+      "bytes": 1273505,
+      "sha256": "7dce3d8b7ebd9bdf6f8624784c7db1ab58f58821951ef2f407c63a0b38137032"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-essen-card-v1-320.avif",
+      "bytes": 3707,
+      "sha256": "28f78fc1f82eaac0e8aea6fd94f15080fceff723fec593a0635dab413932efdd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-card-v1-320.webp",
+      "bytes": 3596,
+      "sha256": "102d08044eab2f97bef6406ee8ce720c13d4e582f70bba471b0832e43b0b8c7f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-card-v1-640.avif",
+      "bytes": 8299,
+      "sha256": "71ee84a848624327f6e0f1c181248224576570a4908812f450d295edef0d6a0b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-card-v1-640.webp",
+      "bytes": 6886,
+      "sha256": "5f2396a0f1e97a0ac95dd1de83066ffeb32b7395a59f2632332b096e126d8d68"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-card-v1-960.avif",
+      "bytes": 14399,
+      "sha256": "52ba2675b525eacb169793c368e25bcc7b550ebd65aca250a92b6ef2d5ba1d61"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-card-v1-960.webp",
+      "bytes": 11528,
+      "sha256": "7425e6aff0d1b8bc08a0fbcad8f3ffe9bb5cab4de18b96c758b1e2dc98ec3bd4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-card-v1-1280.avif",
+      "bytes": 19522,
+      "sha256": "070d8ac64bd227f7487d779726f1cd4b1de8c9604df7902163891970df84b77b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-card-v1-1280.webp",
+      "bytes": 15814,
+      "sha256": "f4736031b546c67f2dff69f0b2573649af9df2aa48aeecca27fb716caa843000"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-card-v1-1920.avif",
+      "bytes": 30646,
+      "sha256": "d45ac54382b8dc28d07291260874e7a6b13899fa5eade22b51f5405ff510fd54"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-card-v1-1920.webp",
+      "bytes": 25256,
+      "sha256": "8fdf777147d3a2c11834621323bac92eba1916c53dc40036f3bfd34399250abf"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-card-v1-2560.avif",
+      "bytes": 42176,
+      "sha256": "a6f44a8d45e7776ee70f13a746dddc2ace9f45c681563c1d6c2377ec84898839"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-card-v1-2560.webp",
+      "bytes": 37346,
+      "sha256": "7a0dadd45665124bb8007f36ea7c7ee74cf8afd8a7a814a1463a1da30ecee966"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-card-v1-3840.avif",
+      "bytes": 67991,
+      "sha256": "8e94a4130cabbc3c8e20288ebd8e2e52f9b861e7596118f2c8d31a4ef76416c1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-card-v1-3840.webp",
+      "bytes": 67428,
+      "sha256": "367675e32f5b7748265d9b26d225b02c71e37c9d2575cdeb5647e2c5d943fcc8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-card-v1-1280.png",
+      "bytes": 1273505,
+      "sha256": "7dce3d8b7ebd9bdf6f8624784c7db1ab58f58821951ef2f407c63a0b38137032"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-essen-card-v1.webp",
+      "bytes": 3596,
+      "sha256": "102d08044eab2f97bef6406ee8ce720c13d4e582f70bba471b0832e43b0b8c7f"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-essen-card-v1.webp",
+      "bytes": 3596,
+      "sha256": "102d08044eab2f97bef6406ee8ce720c13d4e582f70bba471b0832e43b0b8c7f"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.556Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1655093
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-29T23:56:20.974Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

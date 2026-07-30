@@ -3,12 +3,45 @@ from __future__ import annotations
 import smtplib
 from datetime import UTC, datetime, timedelta
 from email.message import EmailMessage
+from typing import Literal
 
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from shadowgrid.config import Settings
 from shadowgrid.models import EmailOutbox
+
+
+def account_email_copy(
+    kind: Literal["verify_email", "password_reset"],
+    locale: str,
+    link: str,
+) -> tuple[str, str]:
+    german = locale.lower().startswith("de")
+    if kind == "verify_email":
+        if german:
+            return (
+                "Bestätige dein SHADOWGRID-Konto",
+                "Willkommen bei SHADOWGRID. Bestätige dein Konto:\n"
+                f"{link}\n\n"
+                "Dieses fiktive Spiel fragt nie nach realen operativen Informationen.",
+            )
+        return (
+            "Verify your SHADOWGRID account",
+            "Welcome to SHADOWGRID. Verify your account:\n"
+            f"{link}\n\n"
+            "This fictional game never requests real-world operational information.",
+        )
+    if german:
+        return (
+            "Setze dein SHADOWGRID-Passwort zurück",
+            f"Setze dein Passwort zurück:\n{link}\n\n"
+            "Wenn du dies nicht angefordert hast, ignoriere diese Nachricht.",
+        )
+    return (
+        "Reset your SHADOWGRID password",
+        f"Reset your password:\n{link}\n\nIf you did not request this, ignore this message.",
+    )
 
 
 def queue_email(db: Session, recipient: str, subject: str, body: str) -> EmailOutbox:

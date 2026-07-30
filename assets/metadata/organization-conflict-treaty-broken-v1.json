@@ -1,0 +1,171 @@
+{
+  "asset_id": "organization-conflict-treaty-broken-v1",
+  "manifest_order": 611,
+  "category": "organization-conflict",
+  "batch": "cartel-conflicts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "treaty-broken",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/organization-conflict-treaty-broken-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100611,
+  "content_hash": "48343677b30e150e97de6b7b0d033c9bc25fc2b997416c58d5804b98d81cc0eb",
+  "source_file": "assets/source/cartels/organization-conflict-treaty-broken-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/organization-conflict-treaty-broken-v1-320.avif",
+      "bytes": 2457,
+      "sha256": "7f0ac9ce6845d25d021f20d596422dc6167573720e39d359a8c3bd1bd9097e07"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-treaty-broken-v1-320.webp",
+      "bytes": 1526,
+      "sha256": "8ed0c2d29e15079e23475a1b9ad55f0537dc58785040d3618f0b6978632ee01d"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-treaty-broken-v1-640.avif",
+      "bytes": 6774,
+      "sha256": "7e179f72b54877492af81d15aa1c8f0ab7bff1c56c07fca95eb8db681ebbde72"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-treaty-broken-v1-640.webp",
+      "bytes": 4662,
+      "sha256": "43bf019b07dc4bbd47a718872bb503d1eb895209bc2ba83ff3ce6b29026d9ee8"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-treaty-broken-v1-960.avif",
+      "bytes": 13397,
+      "sha256": "e3abcb6491ddc2c7f62a1f31ce9ee54d3b8bcd65ae3325391cb5b12712c2b98f"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-treaty-broken-v1-960.webp",
+      "bytes": 8572,
+      "sha256": "865d84e29dfb8bdb2d647641e57c032539bae8de87b704adac40f3c57c677b5f"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-treaty-broken-v1-1280.avif",
+      "bytes": 19875,
+      "sha256": "1e1ccfa110daba93dbc7cefae546256ea0b48c2652fb11a3469bef9b4a9b77d6"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-treaty-broken-v1-1280.webp",
+      "bytes": 12608,
+      "sha256": "60a38b17405d2426f30bb1e1291faad4938ade8c0bc138195c98cff11cdec29a"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-treaty-broken-v1-1920.avif",
+      "bytes": 29131,
+      "sha256": "343deca5b5b80c383fe6eb655ebd814fff1dc03e987f919b7de7655f23009561"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-treaty-broken-v1-1920.webp",
+      "bytes": 20896,
+      "sha256": "f1b0796163d28e12de166cb5e164dc5a904f7ad3bdfefcbf444ac435a64d25f4"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-treaty-broken-v1-2560.avif",
+      "bytes": 37225,
+      "sha256": "652c338fd36116e75732e4e8141ed332faefd22fc5b22067a432c9ee98572bd4"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-treaty-broken-v1-2560.webp",
+      "bytes": 28412,
+      "sha256": "92f80c80dab99ed138e13128e285cfc038e3a36934a28f10d12a1923dbe9e36f"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-treaty-broken-v1-3840.avif",
+      "bytes": 56895,
+      "sha256": "11773e5f964af537df2eba038e39fe2dc8eee747b8564fdebb8aef31cd2e64a0"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-treaty-broken-v1-3840.webp",
+      "bytes": 46934,
+      "sha256": "d68975a7c9e7353301184946632f6f83b2e351cf4725aea33da8d58eb78833bd"
+    },
+    {
+      "path": "assets/production/png/organization-conflict-treaty-broken-v1-1280.png",
+      "bytes": 168992,
+      "sha256": "1966de569cd7a2c90520a6f6d534f62fd3acf7d2d6fbd210bbde6add56ca4044"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/organization-conflict-treaty-broken-v1.webp",
+      "bytes": 1526,
+      "sha256": "8ed0c2d29e15079e23475a1b9ad55f0537dc58785040d3618f0b6978632ee01d"
+    },
+    {
+      "path": "apps/mobile/assets/library/organization-conflict-treaty-broken-v1.webp",
+      "bytes": 1526,
+      "sha256": "8ed0c2d29e15079e23475a1b9ad55f0537dc58785040d3618f0b6978632ee01d"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:59.588Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 93,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Conflict phases remain fictional and abstract, with no actionable real-world violence, hacking, or sabotage content.",
+      "No missing render, unsafe instruction, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 216058
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:29:25.678Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

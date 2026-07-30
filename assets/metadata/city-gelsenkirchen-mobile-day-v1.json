@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-gelsenkirchen-mobile-day-v1",
+  "manifest_order": 279,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "gelsenkirchen",
+  "variant": "mobile-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-gelsenkirchen-mobile-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100279,
+  "content_hash": "f994256951f8a25ae0160f8c61cfaa4a3d340001e7858d237de18d63c436bf60",
+  "source_file": "assets/source/cities/city-gelsenkirchen-mobile-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-gelsenkirchen-mobile-day-v1-320.avif",
+      "bytes": 4483,
+      "sha256": "6092424617fd40400df16d5909028d27e707e6d171db848f1ebfc04ae7ee7039"
+    },
+    {
+      "path": "assets/production/webp/city-gelsenkirchen-mobile-day-v1-320.webp",
+      "bytes": 3898,
+      "sha256": "1bdf591ac96ae1afa69c9e7cc5807622709acf68cac3cef89321779063859ad5"
+    },
+    {
+      "path": "assets/production/avif/city-gelsenkirchen-mobile-day-v1-640.avif",
+      "bytes": 9714,
+      "sha256": "0a4792df87f3b05edbc5f33c5354223961efe60326d9640182ea584d6f4b43b7"
+    },
+    {
+      "path": "assets/production/webp/city-gelsenkirchen-mobile-day-v1-640.webp",
+      "bytes": 7666,
+      "sha256": "1a2b31c53d553e62ce5dbb0f8ef0f24ccb4e517cd4d206c0a0ab650858f93806"
+    },
+    {
+      "path": "assets/production/avif/city-gelsenkirchen-mobile-day-v1-960.avif",
+      "bytes": 16761,
+      "sha256": "b85d49dfe55d58bd921f531d50af1e2b04a0bf6106fdf20196bcbf420628efb7"
+    },
+    {
+      "path": "assets/production/webp/city-gelsenkirchen-mobile-day-v1-960.webp",
+      "bytes": 13682,
+      "sha256": "e7c84eb3e1f3141a8e104ee69ffaf5355a1f76a237a8fc2b9462bcedc86730b5"
+    },
+    {
+      "path": "assets/production/avif/city-gelsenkirchen-mobile-day-v1-1280.avif",
+      "bytes": 22534,
+      "sha256": "432d527bb41832d9a70697bb7f97d0145337d250148cc231594b6d5ec69723ff"
+    },
+    {
+      "path": "assets/production/webp/city-gelsenkirchen-mobile-day-v1-1280.webp",
+      "bytes": 19140,
+      "sha256": "cf6562b3ca9176af302aeffe0808c3d99e3aebbac2d3d70173b9edbb512df2bf"
+    },
+    {
+      "path": "assets/production/avif/city-gelsenkirchen-mobile-day-v1-1920.avif",
+      "bytes": 36008,
+      "sha256": "ca2d8b8c31912b79bf7e48cbe29ae12b7ab881404282bb8e9b3eb9c50024f0e6"
+    },
+    {
+      "path": "assets/production/webp/city-gelsenkirchen-mobile-day-v1-1920.webp",
+      "bytes": 34344,
+      "sha256": "dfc1f7174523d38ecd335dbf735b816cb338023cd730a34c5198244b03470179"
+    },
+    {
+      "path": "assets/production/avif/city-gelsenkirchen-mobile-day-v1-2560.avif",
+      "bytes": 53240,
+      "sha256": "dd8080ad7e0f887f2214e36b3ac12ba82c84c1af7615b49ed295535271e81c61"
+    },
+    {
+      "path": "assets/production/webp/city-gelsenkirchen-mobile-day-v1-2560.webp",
+      "bytes": 51778,
+      "sha256": "d3a6fc712f9ec4bdbf6ba687e1c1646639f0fa3668ce310afaea68c326f33270"
+    },
+    {
+      "path": "assets/production/avif/city-gelsenkirchen-mobile-day-v1-3840.avif",
+      "bytes": 94893,
+      "sha256": "d4425f87f46d3680730ed066a7ae414896f16a9c5c80b843c50ea791548942c5"
+    },
+    {
+      "path": "assets/production/webp/city-gelsenkirchen-mobile-day-v1-3840.webp",
+      "bytes": 102904,
+      "sha256": "72bcd59529acb503339c1c364a36ec8fc7cbb4b87b2b21b3de513e92d20be80e"
+    },
+    {
+      "path": "assets/production/png/city-gelsenkirchen-mobile-day-v1-1152.png",
+      "bytes": 1663048,
+      "sha256": "f994256951f8a25ae0160f8c61cfaa4a3d340001e7858d237de18d63c436bf60"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-mobile-day-v1-320.avif",
+      "bytes": 4483,
+      "sha256": "6092424617fd40400df16d5909028d27e707e6d171db848f1ebfc04ae7ee7039"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-mobile-day-v1-320.webp",
+      "bytes": 3898,
+      "sha256": "1bdf591ac96ae1afa69c9e7cc5807622709acf68cac3cef89321779063859ad5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-mobile-day-v1-640.avif",
+      "bytes": 9714,
+      "sha256": "0a4792df87f3b05edbc5f33c5354223961efe60326d9640182ea584d6f4b43b7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-mobile-day-v1-640.webp",
+      "bytes": 7666,
+      "sha256": "1a2b31c53d553e62ce5dbb0f8ef0f24ccb4e517cd4d206c0a0ab650858f93806"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-mobile-day-v1-960.avif",
+      "bytes": 16761,
+      "sha256": "b85d49dfe55d58bd921f531d50af1e2b04a0bf6106fdf20196bcbf420628efb7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-mobile-day-v1-960.webp",
+      "bytes": 13682,
+      "sha256": "e7c84eb3e1f3141a8e104ee69ffaf5355a1f76a237a8fc2b9462bcedc86730b5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-mobile-day-v1-1280.avif",
+      "bytes": 22534,
+      "sha256": "432d527bb41832d9a70697bb7f97d0145337d250148cc231594b6d5ec69723ff"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-mobile-day-v1-1280.webp",
+      "bytes": 19140,
+      "sha256": "cf6562b3ca9176af302aeffe0808c3d99e3aebbac2d3d70173b9edbb512df2bf"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-mobile-day-v1-1920.avif",
+      "bytes": 36008,
+      "sha256": "ca2d8b8c31912b79bf7e48cbe29ae12b7ab881404282bb8e9b3eb9c50024f0e6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-mobile-day-v1-1920.webp",
+      "bytes": 34344,
+      "sha256": "dfc1f7174523d38ecd335dbf735b816cb338023cd730a34c5198244b03470179"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-mobile-day-v1-2560.avif",
+      "bytes": 53240,
+      "sha256": "dd8080ad7e0f887f2214e36b3ac12ba82c84c1af7615b49ed295535271e81c61"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-mobile-day-v1-2560.webp",
+      "bytes": 51778,
+      "sha256": "d3a6fc712f9ec4bdbf6ba687e1c1646639f0fa3668ce310afaea68c326f33270"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-mobile-day-v1-3840.avif",
+      "bytes": 94893,
+      "sha256": "d4425f87f46d3680730ed066a7ae414896f16a9c5c80b843c50ea791548942c5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-mobile-day-v1-3840.webp",
+      "bytes": 102904,
+      "sha256": "72bcd59529acb503339c1c364a36ec8fc7cbb4b87b2b21b3de513e92d20be80e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-gelsenkirchen-mobile-day-v1-1152.png",
+      "bytes": 1663048,
+      "sha256": "f994256951f8a25ae0160f8c61cfaa4a3d340001e7858d237de18d63c436bf60"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-gelsenkirchen-mobile-day-v1.webp",
+      "bytes": 3898,
+      "sha256": "1bdf591ac96ae1afa69c9e7cc5807622709acf68cac3cef89321779063859ad5"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-gelsenkirchen-mobile-day-v1.webp",
+      "bytes": 3898,
+      "sha256": "1bdf591ac96ae1afa69c9e7cc5807622709acf68cac3cef89321779063859ad5"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:42.012Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1663048
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:02:25.235Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

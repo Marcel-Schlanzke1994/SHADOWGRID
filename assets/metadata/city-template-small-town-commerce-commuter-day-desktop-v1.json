@@ -1,0 +1,171 @@
+{
+  "asset_id": "city-template-small-town-commerce-commuter-day-desktop-v1",
+  "manifest_order": 362,
+  "category": "city-template",
+  "batch": "procedural-city-templates",
+  "city": null,
+  "variant": "day-desktop",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-template-small-town-commerce-commuter-day-desktop-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100362,
+  "content_hash": "2e9bc499a76bef69daf0093ee305983bae47147ef568d1e16a486f5a83b0d4c0",
+  "source_file": "assets/source/global/city-template-small-town-commerce-commuter-day-desktop-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-template-small-town-commerce-commuter-day-desktop-v1-320.avif",
+      "bytes": 2838,
+      "sha256": "0c33fb9a095354f0aaee163397d3b8b8e38d04c025fe4d928b3adc4349676113"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-commerce-commuter-day-desktop-v1-320.webp",
+      "bytes": 2736,
+      "sha256": "0e699d2c2d11ba4c55d4ea3bcc2290c9f7bf484f80d51f35a6ac3e7a25aefd9c"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-commerce-commuter-day-desktop-v1-640.avif",
+      "bytes": 6207,
+      "sha256": "a4a63fee2b39630a62c9555320c14864490a471624cf0510b56c5b5601b09b99"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-commerce-commuter-day-desktop-v1-640.webp",
+      "bytes": 5276,
+      "sha256": "3f9142aacf4b81867d185ca445baaaeffbca3aa5c199e1e967a4678ef5f1073a"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-commerce-commuter-day-desktop-v1-960.avif",
+      "bytes": 10231,
+      "sha256": "14bf10675bfd66e6eb196b20ccef2a6189c227a93a3d72b06bc8b2fb9f067624"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-commerce-commuter-day-desktop-v1-960.webp",
+      "bytes": 8686,
+      "sha256": "44acbfec5c584632ee57f986d0ed14506763b2e077133e4f2a1ac97e0198ac6f"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-commerce-commuter-day-desktop-v1-1280.avif",
+      "bytes": 15021,
+      "sha256": "8c66de9fe9de691465ad3e8e94b968b79f631164934f883a67e57da91c2f522a"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-commerce-commuter-day-desktop-v1-1280.webp",
+      "bytes": 11436,
+      "sha256": "95b775938013bdb25a9e37beb5cf4a94b8dd2782a29d7395890e59748fd16e32"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-commerce-commuter-day-desktop-v1-1920.avif",
+      "bytes": 22121,
+      "sha256": "61668b1d5e4bbdd4882167f5731d33c785c306a86cb1ca585391d64bf194352f"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-commerce-commuter-day-desktop-v1-1920.webp",
+      "bytes": 17762,
+      "sha256": "39afaa53ebdf3942ea8d911ad626878a983bf28132aa138f6569e1a299e34853"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-commerce-commuter-day-desktop-v1-2560.avif",
+      "bytes": 30129,
+      "sha256": "99d74a4ae771f8dc0d9dbe5e95404be9a54ef7ffd5dcdc3e38a764878d90112f"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-commerce-commuter-day-desktop-v1-2560.webp",
+      "bytes": 25122,
+      "sha256": "daa707e0818f4b07cb3dfdc13b0f44e86c70fc9200a8a47d4d9db8f206d6dbfb"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-commerce-commuter-day-desktop-v1-3840.avif",
+      "bytes": 47893,
+      "sha256": "44ab8002add70fe1b11418a64489c2daa7454a3b40c89325b7eb6040b6adf21a"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-commerce-commuter-day-desktop-v1-3840.webp",
+      "bytes": 43444,
+      "sha256": "065984c53051dcbe4a6d8693eb937eccc3f9918a140d5e90e096dc65579809a5"
+    },
+    {
+      "path": "assets/production/png/city-template-small-town-commerce-commuter-day-desktop-v1-1280.png",
+      "bytes": 712654,
+      "sha256": "f3a77d4db65259b61e7fdbe4f75384f47cc53cf9bd518e3d579100742dab8fac"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/city-template-small-town-commerce-commuter-day-desktop-v1.webp",
+      "bytes": 2736,
+      "sha256": "0e699d2c2d11ba4c55d4ea3bcc2290c9f7bf484f80d51f35a6ac3e7a25aefd9c"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-template-small-town-commerce-commuter-day-desktop-v1.webp",
+      "bytes": 2736,
+      "sha256": "0e699d2c2d11ba4c55d4ea3bcc2290c9f7bf484f80d51f35a6ac3e7a25aefd9c"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 91.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:55.692Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 92,
+      "material_quality": 87,
+      "light_quality": 89,
+      "architecture_plausibility": 89,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 92,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All four paged contact sheets were inspected at original resolution.",
+      "The templates are intentionally stylized deterministic fallbacks and remain compositionally useful across every required aspect ratio.",
+      "No missing render, broken geometry, sensitive infrastructure detail, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1622168
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:51:51.170Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "asset_id": "character-information-analysis-experienced-man-v1",
+  "manifest_order": 550,
+  "category": "character",
+  "batch": "specialists",
+  "city": null,
+  "variant": "experienced-man",
+  "gameplay_state": "normal",
+  "aspect_ratio": "4:5",
+  "width": 1280,
+  "height": 1600,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/character-information-analysis-experienced-man-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100550,
+  "content_hash": "fab8298cd71e0f20b1b1ac4ba21eb46e4e43eafeaed396bce52ff214d8d42be3",
+  "source_file": "assets/source/characters/character-information-analysis-experienced-man-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/character-information-analysis-experienced-man-v1-320.avif",
+      "bytes": 2743,
+      "sha256": "d3e37f5d7815fed6e8a5708c3a508a35044ec737d8b19fb9db1ca0bf067a55a0"
+    },
+    {
+      "path": "assets/production/webp/character-information-analysis-experienced-man-v1-320.webp",
+      "bytes": 2104,
+      "sha256": "4af1767af1140b240461c785e258c6c7c29e48921448be2fe33bf2e43ac70fe4"
+    },
+    {
+      "path": "assets/production/avif/character-information-analysis-experienced-man-v1-640.avif",
+      "bytes": 6178,
+      "sha256": "223d86e4b80930c4c6c6f09b1c9ac5c6f0d7c0e1253b094b0ec83e88ab28b960"
+    },
+    {
+      "path": "assets/production/webp/character-information-analysis-experienced-man-v1-640.webp",
+      "bytes": 4842,
+      "sha256": "b16b7c501a0703e8cce81dc18308390d897d73e6666f3806090e298dc3c223bd"
+    },
+    {
+      "path": "assets/production/avif/character-information-analysis-experienced-man-v1-960.avif",
+      "bytes": 13342,
+      "sha256": "82e1c81884713ccc909368289bb4656c561cb9ea1313b0df906ad5996082706e"
+    },
+    {
+      "path": "assets/production/webp/character-information-analysis-experienced-man-v1-960.webp",
+      "bytes": 9146,
+      "sha256": "6eb820f19a519bbb93dc0f5d90b6a2c10292578a7b73d2e2717b0e7beb4a1602"
+    },
+    {
+      "path": "assets/production/avif/character-information-analysis-experienced-man-v1-1280.avif",
+      "bytes": 19048,
+      "sha256": "2492b19f4e1665750b894d4f646db01bda1d53cf8d5a1e3de70f6281ee8e3d5d"
+    },
+    {
+      "path": "assets/production/webp/character-information-analysis-experienced-man-v1-1280.webp",
+      "bytes": 13950,
+      "sha256": "e61fefc90ea4151f1291c262bfd0fd5ebeaec2a1a8d287a4ca48d04d7b52ebb0"
+    },
+    {
+      "path": "assets/production/avif/character-information-analysis-experienced-man-v1-1920.avif",
+      "bytes": 30295,
+      "sha256": "abbcdf5ec0acc21589ab82e92b43bbc9c3547869367d539806890df61b991be1"
+    },
+    {
+      "path": "assets/production/webp/character-information-analysis-experienced-man-v1-1920.webp",
+      "bytes": 24048,
+      "sha256": "43510ea12b005aeb7163c357d6294f02ab43d9dd1e06c58472a5fc6ee3ea096a"
+    },
+    {
+      "path": "assets/production/avif/character-information-analysis-experienced-man-v1-2560.avif",
+      "bytes": 43778,
+      "sha256": "281bae0a8e66fbe2bd3a48a6ffa92abbe3c285c04bea92f93f4207f2333d0983"
+    },
+    {
+      "path": "assets/production/webp/character-information-analysis-experienced-man-v1-2560.webp",
+      "bytes": 36362,
+      "sha256": "91eaf85bea633d64d92532bcf1d55b5e9146c4b7a53ccab5d529bb622cbc790a"
+    },
+    {
+      "path": "assets/production/avif/character-information-analysis-experienced-man-v1-3840.avif",
+      "bytes": 72659,
+      "sha256": "0f592e486264fe64ac202e99f78777ca90e31c3c0aabf76b190262e0c71a09a0"
+    },
+    {
+      "path": "assets/production/webp/character-information-analysis-experienced-man-v1-3840.webp",
+      "bytes": 68946,
+      "sha256": "e744ebaf2574c7e6726196a625c03d645b5f8341d01026f82a656278710f0aae"
+    },
+    {
+      "path": "assets/production/png/character-information-analysis-experienced-man-v1-1280.png",
+      "bytes": 205231,
+      "sha256": "fab8298cd71e0f20b1b1ac4ba21eb46e4e43eafeaed396bce52ff214d8d42be3"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/character-information-analysis-experienced-man-v1.webp",
+      "bytes": 2104,
+      "sha256": "4af1767af1140b240461c785e258c6c7c29e48921448be2fe33bf2e43ac70fe4"
+    },
+    {
+      "path": "apps/mobile/assets/library/character-information-analysis-experienced-man-v1.webp",
+      "bytes": 2104,
+      "sha256": "4af1767af1140b240461c785e258c6c7c29e48921448be2fe33bf2e43ac70fe4"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:37.118Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1280,
+      "height": 1600,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 205231
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:17:48.398Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

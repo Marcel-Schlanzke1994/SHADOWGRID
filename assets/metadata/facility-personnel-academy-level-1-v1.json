@@ -1,0 +1,171 @@
+{
+  "asset_id": "facility-personnel-academy-level-1-v1",
+  "manifest_order": 527,
+  "category": "facility",
+  "batch": "facilities",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "level-1",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/facility-personnel-academy-level-1-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100527,
+  "content_hash": "ad2feca06118076389489e72884ae150cd16e573882caad3cc755377f3b5bf1c",
+  "source_file": "assets/source/facilities/facility-personnel-academy-level-1-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/facility-personnel-academy-level-1-v1-320.avif",
+      "bytes": 2808,
+      "sha256": "eb1f84d9d1f14dee674b91ff1a648c10d8d333de52edc20c702a11b8631a080f"
+    },
+    {
+      "path": "assets/production/webp/facility-personnel-academy-level-1-v1-320.webp",
+      "bytes": 2398,
+      "sha256": "36c037470af746a19bafc4aae76d47c3e1a317163d56551b46a7a889072f3b42"
+    },
+    {
+      "path": "assets/production/avif/facility-personnel-academy-level-1-v1-640.avif",
+      "bytes": 6071,
+      "sha256": "494744a37d414dd85055f785ab189f899ca8194effd5165fbe3a9a61ad24db98"
+    },
+    {
+      "path": "assets/production/webp/facility-personnel-academy-level-1-v1-640.webp",
+      "bytes": 5042,
+      "sha256": "ec57f5089414629a117a2023827b39047edd41acfebe116c68ef463ace73c627"
+    },
+    {
+      "path": "assets/production/avif/facility-personnel-academy-level-1-v1-960.avif",
+      "bytes": 9911,
+      "sha256": "3a0193fcd9147312f77182dbe17f1c9ec3df1f5880036148a1e13854b83b476c"
+    },
+    {
+      "path": "assets/production/webp/facility-personnel-academy-level-1-v1-960.webp",
+      "bytes": 8582,
+      "sha256": "a36db51397ee2ed41c5dee27d149360101e085f162ade0d47db492a2e9516a01"
+    },
+    {
+      "path": "assets/production/avif/facility-personnel-academy-level-1-v1-1280.avif",
+      "bytes": 13883,
+      "sha256": "b4b336040a61ac70f75389dc758698a18bb7311247cc4727be733a27bc122b3f"
+    },
+    {
+      "path": "assets/production/webp/facility-personnel-academy-level-1-v1-1280.webp",
+      "bytes": 11218,
+      "sha256": "9695bf74f3cb51a160726062418edd5d45fa9012bef64a5f1d28321b36297c8c"
+    },
+    {
+      "path": "assets/production/avif/facility-personnel-academy-level-1-v1-1920.avif",
+      "bytes": 20875,
+      "sha256": "313331180f99230466291dbb11038db413f00b96600bd57ff6471543ac37db35"
+    },
+    {
+      "path": "assets/production/webp/facility-personnel-academy-level-1-v1-1920.webp",
+      "bytes": 18030,
+      "sha256": "2e44f2d0dc6633d580e3392d41baebdcc54c1dc2432d9a64e94db394af53b630"
+    },
+    {
+      "path": "assets/production/avif/facility-personnel-academy-level-1-v1-2560.avif",
+      "bytes": 28469,
+      "sha256": "ca5944d28a05a1cdb5be221c267a8c8a9ca6852eb90e190a32e9b8d7d4efedca"
+    },
+    {
+      "path": "assets/production/webp/facility-personnel-academy-level-1-v1-2560.webp",
+      "bytes": 24770,
+      "sha256": "67caf806a67c2f62e75ae8e7bc032e071e17678fe05a44adee86b9036c767065"
+    },
+    {
+      "path": "assets/production/avif/facility-personnel-academy-level-1-v1-3840.avif",
+      "bytes": 46147,
+      "sha256": "af54a2d045b228c1d2a0b4275e48e0c31d4bcdc219c3b12344ab7d2e55c6f7a5"
+    },
+    {
+      "path": "assets/production/webp/facility-personnel-academy-level-1-v1-3840.webp",
+      "bytes": 43224,
+      "sha256": "29b45d435dd302b1780099807add843a583f22064ed719b9281d2e24d4d7026e"
+    },
+    {
+      "path": "assets/production/png/facility-personnel-academy-level-1-v1-1280.png",
+      "bytes": 632942,
+      "sha256": "6d055b6b51508955ffd155252b2282c9dd93271a7d4425197ff58c229a6c850b"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/facility-personnel-academy-level-1-v1.webp",
+      "bytes": 2398,
+      "sha256": "36c037470af746a19bafc4aae76d47c3e1a317163d56551b46a7a889072f3b42"
+    },
+    {
+      "path": "apps/mobile/assets/library/facility-personnel-academy-level-1-v1.webp",
+      "bytes": 2398,
+      "sha256": "36c037470af746a19bafc4aae76d47c3e1a317163d56551b46a7a889072f3b42"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:27.115Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 92,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 90,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution.",
+      "Facility categories remain visually coherent and readable without depicting sensitive real-world infrastructure.",
+      "No missing render, unsafe detail, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1460549
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:11:38.356Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

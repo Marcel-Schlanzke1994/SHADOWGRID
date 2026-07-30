@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-bonn-card-v1",
+  "manifest_order": 217,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "bonn",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-bonn-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100217,
+  "content_hash": "6e9dd1feceeb50a9cd9f7a836c54ba6526a8614afbfea76c2ff1db86d8d4bf27",
+  "source_file": "assets/source/cities/city-bonn-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-bonn-card-v1-320.avif",
+      "bytes": 3606,
+      "sha256": "afba89abe0828ec8a4aa7bceb63ee2d7c85c1b30b07381b4622de4fa30b764c9"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-card-v1-320.webp",
+      "bytes": 3426,
+      "sha256": "7df4f76f88b5a8351ab7ecaa73c7a5b3909599a18ca58b8e144955597e999f30"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-card-v1-640.avif",
+      "bytes": 7821,
+      "sha256": "b221a79637f5101118a3a9b797644f5a0b0befce7b7246833311915d5b0c69f5"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-card-v1-640.webp",
+      "bytes": 6588,
+      "sha256": "9185dc98c14782f73b82f8c20c6e078776b0243691ca8d50fd7a8ff7457a4530"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-card-v1-960.avif",
+      "bytes": 13581,
+      "sha256": "902dd5163e540d5f19198b765853776b6320aa7570f334e62bf0247f938d3834"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-card-v1-960.webp",
+      "bytes": 11276,
+      "sha256": "d303ca1aabad6fe2f8951df6fb39285d8795431ec013ee242b51d601aaa184ae"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-card-v1-1280.avif",
+      "bytes": 18578,
+      "sha256": "b6085c72ecda4f04c040fa67d64a04a0d4090f9fb2ac4e4017d4d6ae2b8f1854"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-card-v1-1280.webp",
+      "bytes": 15132,
+      "sha256": "ea5a4ea4b2a71bcf7a2d69664d6d9e93060ee967e2f6ada79903d07afe6e0711"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-card-v1-1920.avif",
+      "bytes": 28483,
+      "sha256": "85404c96dc43db01f76bae1039d803091c251535cd02c7bbf1e4b1aea20f3bff"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-card-v1-1920.webp",
+      "bytes": 24790,
+      "sha256": "e8b0371b9bb8790a660ec866270acba009423191833d314e71e2b0b050be30fe"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-card-v1-2560.avif",
+      "bytes": 40236,
+      "sha256": "6fe0fbf24c88ab5b94a839bb48772cfe2b99ade17c307c4b586ed05b1b85382e"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-card-v1-2560.webp",
+      "bytes": 36478,
+      "sha256": "4ce4130082b31980e79d41d61b4b5f565610339db5ab8c10634a74c5fbcc3cc2"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-card-v1-3840.avif",
+      "bytes": 65184,
+      "sha256": "32e300bcb08c797bdbc573ffd8194ddee8681e618e706373d45483e1643221b6"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-card-v1-3840.webp",
+      "bytes": 66058,
+      "sha256": "0da140cb218e7da0d36f62b6b7379d56eb4fddc1b33c76740f288c8646353ff2"
+    },
+    {
+      "path": "assets/production/png/city-bonn-card-v1-1280.png",
+      "bytes": 1266026,
+      "sha256": "6f5382f93456d93f6df22f81b9f4162a29ad76cf8dd189109bcdb8ae8e057c0a"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-card-v1-320.avif",
+      "bytes": 3606,
+      "sha256": "afba89abe0828ec8a4aa7bceb63ee2d7c85c1b30b07381b4622de4fa30b764c9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-card-v1-320.webp",
+      "bytes": 3426,
+      "sha256": "7df4f76f88b5a8351ab7ecaa73c7a5b3909599a18ca58b8e144955597e999f30"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-card-v1-640.avif",
+      "bytes": 7821,
+      "sha256": "b221a79637f5101118a3a9b797644f5a0b0befce7b7246833311915d5b0c69f5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-card-v1-640.webp",
+      "bytes": 6588,
+      "sha256": "9185dc98c14782f73b82f8c20c6e078776b0243691ca8d50fd7a8ff7457a4530"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-card-v1-960.avif",
+      "bytes": 13581,
+      "sha256": "902dd5163e540d5f19198b765853776b6320aa7570f334e62bf0247f938d3834"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-card-v1-960.webp",
+      "bytes": 11276,
+      "sha256": "d303ca1aabad6fe2f8951df6fb39285d8795431ec013ee242b51d601aaa184ae"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-card-v1-1280.avif",
+      "bytes": 18578,
+      "sha256": "b6085c72ecda4f04c040fa67d64a04a0d4090f9fb2ac4e4017d4d6ae2b8f1854"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-card-v1-1280.webp",
+      "bytes": 15132,
+      "sha256": "ea5a4ea4b2a71bcf7a2d69664d6d9e93060ee967e2f6ada79903d07afe6e0711"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-card-v1-1920.avif",
+      "bytes": 28483,
+      "sha256": "85404c96dc43db01f76bae1039d803091c251535cd02c7bbf1e4b1aea20f3bff"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-card-v1-1920.webp",
+      "bytes": 24790,
+      "sha256": "e8b0371b9bb8790a660ec866270acba009423191833d314e71e2b0b050be30fe"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-card-v1-2560.avif",
+      "bytes": 40236,
+      "sha256": "6fe0fbf24c88ab5b94a839bb48772cfe2b99ade17c307c4b586ed05b1b85382e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-card-v1-2560.webp",
+      "bytes": 36478,
+      "sha256": "4ce4130082b31980e79d41d61b4b5f565610339db5ab8c10634a74c5fbcc3cc2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-card-v1-3840.avif",
+      "bytes": 65184,
+      "sha256": "32e300bcb08c797bdbc573ffd8194ddee8681e618e706373d45483e1643221b6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-card-v1-3840.webp",
+      "bytes": 66058,
+      "sha256": "0da140cb218e7da0d36f62b6b7379d56eb4fddc1b33c76740f288c8646353ff2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-card-v1-1280.png",
+      "bytes": 1266026,
+      "sha256": "6f5382f93456d93f6df22f81b9f4162a29ad76cf8dd189109bcdb8ae8e057c0a"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-bonn-card-v1.webp",
+      "bytes": 3426,
+      "sha256": "7df4f76f88b5a8351ab7ecaa73c7a5b3909599a18ca58b8e144955597e999f30"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-bonn-card-v1.webp",
+      "bytes": 3426,
+      "sha256": "7df4f76f88b5a8351ab7ecaa73c7a5b3909599a18ca58b8e144955597e999f30"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.213Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1667367
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:08:28.646Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

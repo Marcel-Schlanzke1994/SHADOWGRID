@@ -170,6 +170,16 @@
       "path": "apps/web/public/assets/global/global-world-selection-desktop-v1-1280.png",
       "bytes": 1694648,
       "sha256": "92890f874d5f9d907f21c9cfa245365e011ed7a911a2179db4755d41c38905e4"
+    },
+    {
+      "path": "apps/web/public/assets/library/global-world-selection-desktop-v1.webp",
+      "bytes": 3944,
+      "sha256": "16a059f20ffd7a1f8b88d252435059cde4a46c6e22095343c00b68501b530d43"
+    },
+    {
+      "path": "apps/mobile/assets/library/global-world-selection-desktop-v1.webp",
+      "bytes": 3944,
+      "sha256": "16a059f20ffd7a1f8b88d252435059cde4a46c6e22095343c00b68501b530d43"
     }
   ],
   "contains_text": false,

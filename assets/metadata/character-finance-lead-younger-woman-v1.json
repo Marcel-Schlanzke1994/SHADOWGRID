@@ -1,0 +1,171 @@
+{
+  "asset_id": "character-finance-lead-younger-woman-v1",
+  "manifest_order": 539,
+  "category": "character",
+  "batch": "specialists",
+  "city": null,
+  "variant": "younger-woman",
+  "gameplay_state": "normal",
+  "aspect_ratio": "4:5",
+  "width": 1280,
+  "height": 1600,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/character-finance-lead-younger-woman-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100539,
+  "content_hash": "4592013d0dbcae7b4790e91fd13795f54b9d606c5bb811bbafcfe8afb0f4312c",
+  "source_file": "assets/source/characters/character-finance-lead-younger-woman-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/character-finance-lead-younger-woman-v1-320.avif",
+      "bytes": 2941,
+      "sha256": "3a69850ea1a1dc7cf6b93bc6c4c558e7e031d7a830ec3eb2d5e53ac5fcfea430"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-younger-woman-v1-320.webp",
+      "bytes": 1996,
+      "sha256": "e995717577e852318a59d8a610e2da7194b876fe564fd36ba00ebcf53ff71066"
+    },
+    {
+      "path": "assets/production/avif/character-finance-lead-younger-woman-v1-640.avif",
+      "bytes": 6589,
+      "sha256": "0d0debc2f35c43206078a3621a5dde677739e163de3fb02205d0d33c29c3a4ee"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-younger-woman-v1-640.webp",
+      "bytes": 4904,
+      "sha256": "d513538de5ce12ff180b8d4682a342c8594d643c300139a2fb76a3408e3be4fd"
+    },
+    {
+      "path": "assets/production/avif/character-finance-lead-younger-woman-v1-960.avif",
+      "bytes": 13943,
+      "sha256": "3c77ae0f0baa148adb7d13c7be438ba0208302656bee0021c52b0cfe41294d21"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-younger-woman-v1-960.webp",
+      "bytes": 9208,
+      "sha256": "93bf8944c3f78f54d6201d03c81d30de975f3c372ae960687c42cfd5fd3c38c2"
+    },
+    {
+      "path": "assets/production/avif/character-finance-lead-younger-woman-v1-1280.avif",
+      "bytes": 20555,
+      "sha256": "bc2b3f09b78ae720628cd5ca2d719f8976cc047b91a58d562ea47606079122b2"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-younger-woman-v1-1280.webp",
+      "bytes": 14334,
+      "sha256": "648fa87edf74b0baa9794b1f1c90e1c2cae74c924df4e5da65e3ee4247ab5293"
+    },
+    {
+      "path": "assets/production/avif/character-finance-lead-younger-woman-v1-1920.avif",
+      "bytes": 32090,
+      "sha256": "bf899d7f127ee66e73c72dd8b06f737439039883c5043dac4bff473ec0c9d429"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-younger-woman-v1-1920.webp",
+      "bytes": 24528,
+      "sha256": "cadade54014d635c1cb0e943772e108e9a508ed985b5f25973fbefca2ee01676"
+    },
+    {
+      "path": "assets/production/avif/character-finance-lead-younger-woman-v1-2560.avif",
+      "bytes": 45869,
+      "sha256": "cacb0486d72c305b5a6ab61e1816eba657df2ddd5ac1af14fcb991d56458f794"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-younger-woman-v1-2560.webp",
+      "bytes": 37392,
+      "sha256": "67704744e508f62518d1ca3985affc81e4cacde37713e92343bc7647a9cbe19f"
+    },
+    {
+      "path": "assets/production/avif/character-finance-lead-younger-woman-v1-3840.avif",
+      "bytes": 75421,
+      "sha256": "bfa2f1afaf13cbea6de524053681ef39cab24fd372d25088be81f305946f20d3"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-younger-woman-v1-3840.webp",
+      "bytes": 70114,
+      "sha256": "cbf00b97325c58e6006bc9a6901e0ea1370307c3928ebfb883646c07759bea91"
+    },
+    {
+      "path": "assets/production/png/character-finance-lead-younger-woman-v1-1280.png",
+      "bytes": 210099,
+      "sha256": "4592013d0dbcae7b4790e91fd13795f54b9d606c5bb811bbafcfe8afb0f4312c"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/character-finance-lead-younger-woman-v1.webp",
+      "bytes": 1996,
+      "sha256": "e995717577e852318a59d8a610e2da7194b876fe564fd36ba00ebcf53ff71066"
+    },
+    {
+      "path": "apps/mobile/assets/library/character-finance-lead-younger-woman-v1.webp",
+      "bytes": 1996,
+      "sha256": "e995717577e852318a59d8a610e2da7194b876fe564fd36ba00ebcf53ff71066"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:36.863Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1280,
+      "height": 1600,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 210099
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:15:14.599Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

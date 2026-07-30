@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-property-management-poor-condition-v1",
+  "manifest_order": 497,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "poor-condition",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-property-management-poor-condition-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100497,
+  "content_hash": "9ee8dbfe63586095be956c4d6fa0f086795f7855691ddc2820861c84ad31652a",
+  "source_file": "assets/source/businesses/business-property-management-poor-condition-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-property-management-poor-condition-v1-320.avif",
+      "bytes": 2869,
+      "sha256": "fb3722cd4ceeb9eec5454d944def5b3b598e6eefd39bdfc0ab5cb10ab1074e4d"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-poor-condition-v1-320.webp",
+      "bytes": 2400,
+      "sha256": "e13bc708c89d5c82265f8ac039110a9353cf93f5282558c3964b8ceaaad10ba8"
+    },
+    {
+      "path": "assets/production/avif/business-property-management-poor-condition-v1-640.avif",
+      "bytes": 6322,
+      "sha256": "4fb239d427508e96993eab1fff7e4879e4a0c910d2e1bdcc089c19904c80db07"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-poor-condition-v1-640.webp",
+      "bytes": 4932,
+      "sha256": "e2f5b2c4797a8973dd6a38a65b2e72ae53b847bf4e61753e33867e6fb4c1ef66"
+    },
+    {
+      "path": "assets/production/avif/business-property-management-poor-condition-v1-960.avif",
+      "bytes": 9929,
+      "sha256": "8f812520530a24c0c11ab872f59c193d312aae493084eec5741a525df423f834"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-poor-condition-v1-960.webp",
+      "bytes": 7718,
+      "sha256": "68b65a171032ae98cdde574249729e7b1c74e074e22d1caff1cdd5ddfded6bea"
+    },
+    {
+      "path": "assets/production/avif/business-property-management-poor-condition-v1-1280.avif",
+      "bytes": 14076,
+      "sha256": "480c261124458155729013e69db3288998417c800fcc5f95c4d78581e65da744"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-poor-condition-v1-1280.webp",
+      "bytes": 10524,
+      "sha256": "440e01e952748e9d97a0db05c464e16374242b5777eb3bfb9b5ce86cd76e4cfd"
+    },
+    {
+      "path": "assets/production/avif/business-property-management-poor-condition-v1-1920.avif",
+      "bytes": 20777,
+      "sha256": "e466bf35e31ade64cb992b338d5a76ca22c8ca166aad45f96337617de8807a48"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-poor-condition-v1-1920.webp",
+      "bytes": 16798,
+      "sha256": "a6fc30b9bb0d2de80de1559d5277858f0c8d1f650023cde52bf63395dfbe5cef"
+    },
+    {
+      "path": "assets/production/avif/business-property-management-poor-condition-v1-2560.avif",
+      "bytes": 27405,
+      "sha256": "42f1e6ca46bf8f3a6cea4c428c7e6833661dc548b50279ea5766b81a9fe01c61"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-poor-condition-v1-2560.webp",
+      "bytes": 23452,
+      "sha256": "18a51d22533309e50629c0299b461554d6753228bf1e324ae3331ecfc2c1d59e"
+    },
+    {
+      "path": "assets/production/avif/business-property-management-poor-condition-v1-3840.avif",
+      "bytes": 45049,
+      "sha256": "a39adfb96f1b19d5992ec78c4783ccaa99fdc70d6b3bf6316aec73ec88c1bcb8"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-poor-condition-v1-3840.webp",
+      "bytes": 40516,
+      "sha256": "3b5b8218c5505991b94120b25b77245e0a3f6a9246954ca13894beb7414bfd54"
+    },
+    {
+      "path": "assets/production/png/business-property-management-poor-condition-v1-1280.png",
+      "bytes": 625819,
+      "sha256": "5b9bffbd0f04b2aa9bf6e12bdb965d94da0c0095567184d815b9b06771800342"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-property-management-poor-condition-v1.webp",
+      "bytes": 2400,
+      "sha256": "e13bc708c89d5c82265f8ac039110a9353cf93f5282558c3964b8ceaaad10ba8"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-property-management-poor-condition-v1.webp",
+      "bytes": 2400,
+      "sha256": "e13bc708c89d5c82265f8ac039110a9353cf93f5282558c3964b8ceaaad10ba8"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.688Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1460855
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:02:16.021Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

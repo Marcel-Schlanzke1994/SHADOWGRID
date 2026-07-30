@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-logistics-company-audited-frozen-closed-v1",
+  "manifest_order": 486,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "audited-frozen-closed",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-logistics-company-audited-frozen-closed-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100486,
+  "content_hash": "a12c8310ba12fc6bbf9bb65c89402bde26053aaffc854c3fd7f9829d8bbc5303",
+  "source_file": "assets/source/businesses/business-logistics-company-audited-frozen-closed-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-logistics-company-audited-frozen-closed-v1-320.avif",
+      "bytes": 3069,
+      "sha256": "293d66c24b0d4caa1aaab2883d370bece5691cb2ab5b4ceeb3ccf4430aaa2d7d"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-audited-frozen-closed-v1-320.webp",
+      "bytes": 2572,
+      "sha256": "efaef2698d6a4fcf300cd6020e1eeb870389917dd49715df9da0333da9f46dc3"
+    },
+    {
+      "path": "assets/production/avif/business-logistics-company-audited-frozen-closed-v1-640.avif",
+      "bytes": 6467,
+      "sha256": "9dbf589069968edc3d64eb37ec8b70b80a0caf3ef3cc1b0d734f6993de892a9b"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-audited-frozen-closed-v1-640.webp",
+      "bytes": 5290,
+      "sha256": "67127e321738b855fbed26cc3ba6435573fcc6d1a0fe4b804ea1aafc22501256"
+    },
+    {
+      "path": "assets/production/avif/business-logistics-company-audited-frozen-closed-v1-960.avif",
+      "bytes": 10869,
+      "sha256": "a8c9c08c6c119361abd689fbf06bd7b6dff1821749abefc95cf96d3d7c242996"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-audited-frozen-closed-v1-960.webp",
+      "bytes": 8912,
+      "sha256": "a6e267798692370961a07625a12051ebbcb0619fbce811dbbe148f215885c35d"
+    },
+    {
+      "path": "assets/production/avif/business-logistics-company-audited-frozen-closed-v1-1280.avif",
+      "bytes": 15231,
+      "sha256": "f4d3222335c952543310fc58c5d9de2983ca0e0e11d31b29e6aedd94e5245fec"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-audited-frozen-closed-v1-1280.webp",
+      "bytes": 11926,
+      "sha256": "fdc95a06067121624712112ab390aa7d246f3ad333fc0453023bbe00fa597d65"
+    },
+    {
+      "path": "assets/production/avif/business-logistics-company-audited-frozen-closed-v1-1920.avif",
+      "bytes": 22784,
+      "sha256": "102c2e36bd92990c54c081de4e8c3ea97975cb82f0cbb3160dea9cd046046c5a"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-audited-frozen-closed-v1-1920.webp",
+      "bytes": 18992,
+      "sha256": "b318b97ebeba01d8c609cd9dac1e98056a98126dc81c348adabe428ca2695d84"
+    },
+    {
+      "path": "assets/production/avif/business-logistics-company-audited-frozen-closed-v1-2560.avif",
+      "bytes": 30353,
+      "sha256": "e64208fa8c289c016975b4bc8e8569034c47495053e73bde4b055980afed1a1d"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-audited-frozen-closed-v1-2560.webp",
+      "bytes": 26314,
+      "sha256": "04c3e451061ae5ae2ba33cd527fd8637c7751ed0b81677824dae2b85fd0f58b6"
+    },
+    {
+      "path": "assets/production/avif/business-logistics-company-audited-frozen-closed-v1-3840.avif",
+      "bytes": 48906,
+      "sha256": "df4577ccbf946ea4fefd8b107bd84960e67fef0e213886af73df4284601bc288"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-audited-frozen-closed-v1-3840.webp",
+      "bytes": 45224,
+      "sha256": "e40b8431f2a3a8b14f6150b053d663b2513402da40ead01e89f41fb8941250d1"
+    },
+    {
+      "path": "assets/production/png/business-logistics-company-audited-frozen-closed-v1-1280.png",
+      "bytes": 633648,
+      "sha256": "3b277ba21f0305ccdbdb6197da6e8d7ab1209bba44cb8f409216e1da8f82cf38"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-logistics-company-audited-frozen-closed-v1.webp",
+      "bytes": 2572,
+      "sha256": "efaef2698d6a4fcf300cd6020e1eeb870389917dd49715df9da0333da9f46dc3"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-logistics-company-audited-frozen-closed-v1.webp",
+      "bytes": 2572,
+      "sha256": "efaef2698d6a4fcf300cd6020e1eeb870389917dd49715df9da0333da9f46dc3"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.558Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1441751
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:32:27.909Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

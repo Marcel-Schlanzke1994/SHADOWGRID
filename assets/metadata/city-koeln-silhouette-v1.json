@@ -23,6 +23,11 @@
       "path": "assets/production/svg/city-koeln-silhouette-v1.svg",
       "bytes": 3723,
       "sha256": "95b8ce7290facd447ec628bec3877d91574858e808fa6068127e2b94e49af70a"
+    },
+    {
+      "path": "assets/production/webp/city-koeln-silhouette-v1-320.webp",
+      "bytes": 3380,
+      "sha256": "8f49682b1089b6a843170743212b414789693a0bcad11d5e188b36469cc786be"
     }
   ],
   "runtime_files": [
@@ -30,16 +35,56 @@
       "path": "apps/web/public/assets/cities/city-koeln-silhouette-v1.svg",
       "bytes": 3723,
       "sha256": "95b8ce7290facd447ec628bec3877d91574858e808fa6068127e2b94e49af70a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-koeln-silhouette-v1-320.webp",
+      "bytes": 3380,
+      "sha256": "8f49682b1089b6a843170743212b414789693a0bcad11d5e188b36469cc786be"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-koeln-silhouette-v1.webp",
+      "bytes": 3380,
+      "sha256": "8f49682b1089b6a843170743212b414789693a0bcad11d5e188b36469cc786be"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-koeln-silhouette-v1.webp",
+      "bytes": 3380,
+      "sha256": "8f49682b1089b6a843170743212b414789693a0bcad11d5e188b36469cc786be"
     }
   ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,
   "moderation_status": "approved",
-  "quality_score": 88,
+  "quality_score": 92.9,
   "quality_status": "approved",
-  "review_status": "automatic-approved",
-  "visual_review": null,
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.081Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
   "technical_validation": {
     "ok": true,
     "issues": [],

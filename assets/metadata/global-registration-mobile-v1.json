@@ -170,6 +170,16 @@
       "path": "apps/web/public/assets/global/global-registration-mobile-v1-1152.png",
       "bytes": 3838070,
       "sha256": "1f818c56ec7720fb0c5c1b83e07794d7017a9956814882d2fba791cace42a811"
+    },
+    {
+      "path": "apps/web/public/assets/library/global-registration-mobile-v1.webp",
+      "bytes": 10792,
+      "sha256": "66cfcc297552c4323564640bc92a913ce4df3d1fc76172b29fc8485e37ec4221"
+    },
+    {
+      "path": "apps/mobile/assets/library/global-registration-mobile-v1.webp",
+      "bytes": 10792,
+      "sha256": "66cfcc297552c4323564640bc92a913ce4df3d1fc76172b29fc8485e37ec4221"
     }
   ],
   "contains_text": false,

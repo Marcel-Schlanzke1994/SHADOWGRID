@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-old-town-economic-boom-night-v1",
+  "manifest_order": 394,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "economic-boom-night",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-old-town-economic-boom-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100394,
+  "content_hash": "86be7779c8dd7a7475f77003f19e2bff40fcf5ca0e51b173296a8d836daa739b",
+  "source_file": "assets/source/districts/district-old-town-economic-boom-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-old-town-economic-boom-night-v1-320.avif",
+      "bytes": 3445,
+      "sha256": "a217a4f634f94b08e03ad02a4b3d63624792a171144f87526c3830348e4164ec"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-economic-boom-night-v1-320.webp",
+      "bytes": 3546,
+      "sha256": "8cc3eb221b772111a8943f3bbfba54ba9e1f7cf2079b3f0dd0cbd7477d0c8261"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-economic-boom-night-v1-640.avif",
+      "bytes": 7530,
+      "sha256": "09ce189cce2fb2c297d2603fcb182a0a0e9e98c927ca4773149b4245ab131591"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-economic-boom-night-v1-640.webp",
+      "bytes": 7768,
+      "sha256": "327700a5de473bfc7b3499a4727bb677040ad3204780aa87d1d87019bea3fb46"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-economic-boom-night-v1-960.avif",
+      "bytes": 12846,
+      "sha256": "5e88ff366c97b4f646f0d2837e55d493578893a66773db7de462895c7717fa0a"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-economic-boom-night-v1-960.webp",
+      "bytes": 13396,
+      "sha256": "906a357aa2b337c3986573d2df60d65181a5a7c64bf2206efc47d0cb3c7594d6"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-economic-boom-night-v1-1280.avif",
+      "bytes": 17506,
+      "sha256": "ba9674ed0825ce445372e7a790496c9e44716293b822de24bb89617c31823425"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-economic-boom-night-v1-1280.webp",
+      "bytes": 17474,
+      "sha256": "c9dd7c02ae01938ca0f08d09f69b73bbea46d3bed87fbd3513084abc0871000d"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-economic-boom-night-v1-1920.avif",
+      "bytes": 27031,
+      "sha256": "b694895ebce21a24a5d47fa003b78adc090828154775c11c7d9670ca4320cf57"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-economic-boom-night-v1-1920.webp",
+      "bytes": 26056,
+      "sha256": "dcc49dd53df945708feaa01a833262050954520d85018938ca398cb11d89b795"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-economic-boom-night-v1-2560.avif",
+      "bytes": 35744,
+      "sha256": "241dfd9c7880a3b9f07f29531c5b63bcaeb4b5aa11f86afa79b0528a0074a488"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-economic-boom-night-v1-2560.webp",
+      "bytes": 34980,
+      "sha256": "806b9511c59cc4c7071511862ffb9017004d49fba33f94a03b0b3aa87d2e642e"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-economic-boom-night-v1-3840.avif",
+      "bytes": 57941,
+      "sha256": "0bbf37740129eef39b51512409aa84d523e889d7021492f68b1f1ec4e560f2a2"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-economic-boom-night-v1-3840.webp",
+      "bytes": 55878,
+      "sha256": "5dcb7e2d94a94cbc3e894677705a7454d863316220de23dbd5dd6a87674822d4"
+    },
+    {
+      "path": "assets/production/png/district-old-town-economic-boom-night-v1-1280.png",
+      "bytes": 654429,
+      "sha256": "8a14483ed4b428304da9067e6fb98c20bdcf9ed0f6a86595acc37b1f70ac7641"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-old-town-economic-boom-night-v1.webp",
+      "bytes": 3546,
+      "sha256": "8cc3eb221b772111a8943f3bbfba54ba9e1f7cf2079b3f0dd0cbd7477d0c8261"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-old-town-economic-boom-night-v1.webp",
+      "bytes": 3546,
+      "sha256": "8cc3eb221b772111a8943f3bbfba54ba9e1f7cf2079b3f0dd0cbd7477d0c8261"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.716Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1455708
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:29:45.097Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

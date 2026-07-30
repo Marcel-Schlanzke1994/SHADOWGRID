@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-nuernberg-mobile-night-v1",
+  "manifest_order": 176,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "nuernberg",
+  "variant": "mobile-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-nuernberg-mobile-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100176,
+  "content_hash": "67b4e6e655a8f4f362e2953eee42e96545aab87d77643c9fff3df9ed2bc48ef0",
+  "source_file": "assets/source/cities/city-nuernberg-mobile-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-nuernberg-mobile-night-v1-320.avif",
+      "bytes": 5277,
+      "sha256": "ab95a83a69c6abcddfbc30f748913523e413abdb3db5db23746c6f9ee6e69eb9"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-mobile-night-v1-320.webp",
+      "bytes": 5362,
+      "sha256": "be23d5cc450e22b0ea6012ef53ffdbba645508875e600ff95adfdd9a85e78c4f"
+    },
+    {
+      "path": "assets/production/avif/city-nuernberg-mobile-night-v1-640.avif",
+      "bytes": 10732,
+      "sha256": "45267aade90f2c87de8abaaf91bca79cdef0ba634a98ec3635c0ff28d69b4122"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-mobile-night-v1-640.webp",
+      "bytes": 10644,
+      "sha256": "a7fa13e4fe20651872b8045ec440a70f1784baff9b6b314ad56a60b3f72f7933"
+    },
+    {
+      "path": "assets/production/avif/city-nuernberg-mobile-night-v1-960.avif",
+      "bytes": 19914,
+      "sha256": "025928597ebdb2aa0d6d1137c4c70f6b1731989eb75d6ff865fa0dddfcdf158d"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-mobile-night-v1-960.webp",
+      "bytes": 17848,
+      "sha256": "a51507dcea312868d8dc57dcf1a179fc1d68ff828ab3072cc64849d6abb4547c"
+    },
+    {
+      "path": "assets/production/avif/city-nuernberg-mobile-night-v1-1280.avif",
+      "bytes": 27124,
+      "sha256": "30c0197afaa07af202bc98679c5196c7eacf32e2a5d6ee0483dbf40b77c66379"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-mobile-night-v1-1280.webp",
+      "bytes": 24122,
+      "sha256": "bcf74ee6886182d824e74c3bc0481bd69050638b2f35164cb1626c280922b2e8"
+    },
+    {
+      "path": "assets/production/avif/city-nuernberg-mobile-night-v1-1920.avif",
+      "bytes": 43017,
+      "sha256": "aa764511bc5af44ac1b2107646f56f843edfbda9c65252708ef0d3c6ddc218b8"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-mobile-night-v1-1920.webp",
+      "bytes": 40504,
+      "sha256": "20a9521c8adc2b155091bd570ba575c65cbc4e5b64e0c0340ce8015e6d8c7582"
+    },
+    {
+      "path": "assets/production/avif/city-nuernberg-mobile-night-v1-2560.avif",
+      "bytes": 61605,
+      "sha256": "43e51698afffdca7daed49bbf287847d0d07c21022e1c67d95e6293273fbdc51"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-mobile-night-v1-2560.webp",
+      "bytes": 59866,
+      "sha256": "389f730b1bfbc54139eedf13edd14de65fb007b9babc5742b459eb700a03c8eb"
+    },
+    {
+      "path": "assets/production/avif/city-nuernberg-mobile-night-v1-3840.avif",
+      "bytes": 107696,
+      "sha256": "8dceb68906d2847bcdddcc699c04da600043aed151092a07f15515b518f80e0a"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-mobile-night-v1-3840.webp",
+      "bytes": 111434,
+      "sha256": "f00e55302288aa81e96171b2144c3b00be5d1ea35afdf859087e4370bd24297b"
+    },
+    {
+      "path": "assets/production/png/city-nuernberg-mobile-night-v1-1152.png",
+      "bytes": 1722284,
+      "sha256": "67b4e6e655a8f4f362e2953eee42e96545aab87d77643c9fff3df9ed2bc48ef0"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-mobile-night-v1-320.avif",
+      "bytes": 5277,
+      "sha256": "ab95a83a69c6abcddfbc30f748913523e413abdb3db5db23746c6f9ee6e69eb9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-mobile-night-v1-320.webp",
+      "bytes": 5362,
+      "sha256": "be23d5cc450e22b0ea6012ef53ffdbba645508875e600ff95adfdd9a85e78c4f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-mobile-night-v1-640.avif",
+      "bytes": 10732,
+      "sha256": "45267aade90f2c87de8abaaf91bca79cdef0ba634a98ec3635c0ff28d69b4122"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-mobile-night-v1-640.webp",
+      "bytes": 10644,
+      "sha256": "a7fa13e4fe20651872b8045ec440a70f1784baff9b6b314ad56a60b3f72f7933"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-mobile-night-v1-960.avif",
+      "bytes": 19914,
+      "sha256": "025928597ebdb2aa0d6d1137c4c70f6b1731989eb75d6ff865fa0dddfcdf158d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-mobile-night-v1-960.webp",
+      "bytes": 17848,
+      "sha256": "a51507dcea312868d8dc57dcf1a179fc1d68ff828ab3072cc64849d6abb4547c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-mobile-night-v1-1280.avif",
+      "bytes": 27124,
+      "sha256": "30c0197afaa07af202bc98679c5196c7eacf32e2a5d6ee0483dbf40b77c66379"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-mobile-night-v1-1280.webp",
+      "bytes": 24122,
+      "sha256": "bcf74ee6886182d824e74c3bc0481bd69050638b2f35164cb1626c280922b2e8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-mobile-night-v1-1920.avif",
+      "bytes": 43017,
+      "sha256": "aa764511bc5af44ac1b2107646f56f843edfbda9c65252708ef0d3c6ddc218b8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-mobile-night-v1-1920.webp",
+      "bytes": 40504,
+      "sha256": "20a9521c8adc2b155091bd570ba575c65cbc4e5b64e0c0340ce8015e6d8c7582"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-mobile-night-v1-2560.avif",
+      "bytes": 61605,
+      "sha256": "43e51698afffdca7daed49bbf287847d0d07c21022e1c67d95e6293273fbdc51"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-mobile-night-v1-2560.webp",
+      "bytes": 59866,
+      "sha256": "389f730b1bfbc54139eedf13edd14de65fb007b9babc5742b459eb700a03c8eb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-mobile-night-v1-3840.avif",
+      "bytes": 107696,
+      "sha256": "8dceb68906d2847bcdddcc699c04da600043aed151092a07f15515b518f80e0a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-mobile-night-v1-3840.webp",
+      "bytes": 111434,
+      "sha256": "f00e55302288aa81e96171b2144c3b00be5d1ea35afdf859087e4370bd24297b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-mobile-night-v1-1152.png",
+      "bytes": 1722284,
+      "sha256": "67b4e6e655a8f4f362e2953eee42e96545aab87d77643c9fff3df9ed2bc48ef0"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-nuernberg-mobile-night-v1.webp",
+      "bytes": 5362,
+      "sha256": "be23d5cc450e22b0ea6012ef53ffdbba645508875e600ff95adfdd9a85e78c4f"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-nuernberg-mobile-night-v1.webp",
+      "bytes": 5362,
+      "sha256": "be23d5cc450e22b0ea6012ef53ffdbba645508875e600ff95adfdd9a85e78c4f"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.787Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1722284
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:22:55.794Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

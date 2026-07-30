@@ -1,0 +1,171 @@
+{
+  "asset_id": "organization-conflict-tension-v1",
+  "manifest_order": 598,
+  "category": "organization-conflict",
+  "batch": "cartel-conflicts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "tension",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/organization-conflict-tension-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100598,
+  "content_hash": "803d2d80b2c3dfc6928a00ffa6044bbee20ea0bafd4875935501908fb8026a6f",
+  "source_file": "assets/source/cartels/organization-conflict-tension-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/organization-conflict-tension-v1-320.avif",
+      "bytes": 2554,
+      "sha256": "6456c6b5be4abe8bf264d50292bb043186e18c5c95517ab0fd28cdc80f495af0"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-tension-v1-320.webp",
+      "bytes": 1770,
+      "sha256": "d37a7d308e04e32456f61e0c46ba8d566bbcae9c921d56b808599c5a8974a896"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-tension-v1-640.avif",
+      "bytes": 6185,
+      "sha256": "89a964759b54d1774b0021946394476296c5e38c30ce3bc3fdb860a2ab68bc3b"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-tension-v1-640.webp",
+      "bytes": 4710,
+      "sha256": "72dec70504e14a827dac00ca6bd87c1c5b57bfcd988529b488845a6806ab3500"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-tension-v1-960.avif",
+      "bytes": 12501,
+      "sha256": "780b2150d4c38fa6188f520ed3a1b9d4375f35cff8f6ec50c34a7d28fc622fd0"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-tension-v1-960.webp",
+      "bytes": 9298,
+      "sha256": "4902cd0a758deb5ef02b75cf6922327bfbeeb58ffb5510f0c1c92471dc94697f"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-tension-v1-1280.avif",
+      "bytes": 18168,
+      "sha256": "e6521698491dab29b8a540c303dca3a1a327863332e3546e91d6108fda518bb9"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-tension-v1-1280.webp",
+      "bytes": 13350,
+      "sha256": "c8efe44d268f8c7cc65154a252ae1b56d3a1374cba3c6ef85bbc6836387fc5ba"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-tension-v1-1920.avif",
+      "bytes": 28324,
+      "sha256": "18393a1af98a0f06e2488dfff06852773807d3c73762b696e1f8d055816790a1"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-tension-v1-1920.webp",
+      "bytes": 22500,
+      "sha256": "ad91030f122399e8ebbf6df1718db0f3882f40e71e0ecfb242fa5a3a3a815429"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-tension-v1-2560.avif",
+      "bytes": 37251,
+      "sha256": "6d819284d7552fac4d9a91932dbbfb3f1478d9afca67df66d12fb09a583a3a6e"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-tension-v1-2560.webp",
+      "bytes": 29882,
+      "sha256": "88f4889c0b6bd1487767ea0d1383629c498a481c1046e70036f9505c4c706fb7"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-tension-v1-3840.avif",
+      "bytes": 57831,
+      "sha256": "b1299d4607d50f7538f7e4796f5e9a849da45d5b53c219069e160c5693ea026c"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-tension-v1-3840.webp",
+      "bytes": 48706,
+      "sha256": "ad3e7c51e8044ecfb975bcb4c6d59a8a8f6fe5adb8c879a9e0cd0b8dca988518"
+    },
+    {
+      "path": "assets/production/png/organization-conflict-tension-v1-1280.png",
+      "bytes": 176104,
+      "sha256": "fbef713089b59dd880480b7b0b1d9911e2017b1c9ab9a9e8019ef58eccd68891"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/organization-conflict-tension-v1.webp",
+      "bytes": 1770,
+      "sha256": "d37a7d308e04e32456f61e0c46ba8d566bbcae9c921d56b808599c5a8974a896"
+    },
+    {
+      "path": "apps/mobile/assets/library/organization-conflict-tension-v1.webp",
+      "bytes": 1770,
+      "sha256": "d37a7d308e04e32456f61e0c46ba8d566bbcae9c921d56b808599c5a8974a896"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:59.426Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 93,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Conflict phases remain fictional and abstract, with no actionable real-world violence, hacking, or sabotage content.",
+      "No missing render, unsafe instruction, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 218688
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:27:37.983Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "asset_id": "character-strategist-experienced-man-v1",
+  "manifest_order": 538,
+  "category": "character",
+  "batch": "specialists",
+  "city": null,
+  "variant": "experienced-man",
+  "gameplay_state": "normal",
+  "aspect_ratio": "4:5",
+  "width": 1280,
+  "height": 1600,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/character-strategist-experienced-man-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100538,
+  "content_hash": "a12526d8a61705a92daf3c94eb2e4415c2a5c3126068f79484c7ba031c9d18ae",
+  "source_file": "assets/source/characters/character-strategist-experienced-man-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/character-strategist-experienced-man-v1-320.avif",
+      "bytes": 2773,
+      "sha256": "1b8c3c9422d651dc72a9d01e0835817b38fc75156e1e2cb1365b6be95d4eaf28"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-experienced-man-v1-320.webp",
+      "bytes": 1926,
+      "sha256": "646f3025235e0cc95440df6e8ffce4d7c25defec7422bbf38427a46949d4c506"
+    },
+    {
+      "path": "assets/production/avif/character-strategist-experienced-man-v1-640.avif",
+      "bytes": 6121,
+      "sha256": "f44c3b6fb2edd48bc4a1819783f9e9e7f58dbdb4a4508c49c91f3d521885ede1"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-experienced-man-v1-640.webp",
+      "bytes": 4720,
+      "sha256": "0cd06fa792152068ed242ad29c9f0f4735b0c5f37d5533cc3d235deed3a07d3c"
+    },
+    {
+      "path": "assets/production/avif/character-strategist-experienced-man-v1-960.avif",
+      "bytes": 13156,
+      "sha256": "b893babb4b9d488f6667f68a7c23945828e475dcc980917fd98ab7a10a363a11"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-experienced-man-v1-960.webp",
+      "bytes": 8982,
+      "sha256": "a51300c6f7aa8a181bcf41d22b697c981cd53c345debcef6c3a6528be3324c45"
+    },
+    {
+      "path": "assets/production/avif/character-strategist-experienced-man-v1-1280.avif",
+      "bytes": 19126,
+      "sha256": "32fa1cef5b27eadf49a1c1105242b47ffbb4bd192c88c33a11ad7bd79a095f5a"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-experienced-man-v1-1280.webp",
+      "bytes": 13914,
+      "sha256": "60722600999287b68e812bd169e377cdc529478677d836f59f3297c96e105ce4"
+    },
+    {
+      "path": "assets/production/avif/character-strategist-experienced-man-v1-1920.avif",
+      "bytes": 30805,
+      "sha256": "9456c87400d1ef68e00b23497309a1fca7cc0beecd51bd4384fe32685b44a037"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-experienced-man-v1-1920.webp",
+      "bytes": 23962,
+      "sha256": "245d950243ab9e52c8c047ea6e878b8daa021013f066dfe67fe80ccd31cbae6b"
+    },
+    {
+      "path": "assets/production/avif/character-strategist-experienced-man-v1-2560.avif",
+      "bytes": 43515,
+      "sha256": "2644b7cbc235e6c71b64144acad9007937786c4e75d4b46ae35ce111bdc84135"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-experienced-man-v1-2560.webp",
+      "bytes": 36122,
+      "sha256": "3196b6c846017cc6d02e0d57e6fcd17b6d6c5275b7b549d98e0bfe4aac99c75d"
+    },
+    {
+      "path": "assets/production/avif/character-strategist-experienced-man-v1-3840.avif",
+      "bytes": 72539,
+      "sha256": "6bf4cd1ac25caa855621eb3345af26f6a1726b7c70c70b148294a2eb327cd519"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-experienced-man-v1-3840.webp",
+      "bytes": 68762,
+      "sha256": "6b5bd5133411a765a04bd666284eb4b56a645079de2ede2140054e9bee3fa433"
+    },
+    {
+      "path": "assets/production/png/character-strategist-experienced-man-v1-1280.png",
+      "bytes": 203798,
+      "sha256": "a12526d8a61705a92daf3c94eb2e4415c2a5c3126068f79484c7ba031c9d18ae"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/character-strategist-experienced-man-v1.webp",
+      "bytes": 1926,
+      "sha256": "646f3025235e0cc95440df6e8ffce4d7c25defec7422bbf38427a46949d4c506"
+    },
+    {
+      "path": "apps/mobile/assets/library/character-strategist-experienced-man-v1.webp",
+      "bytes": 1926,
+      "sha256": "646f3025235e0cc95440df6e8ffce4d7c25defec7422bbf38427a46949d4c506"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:36.838Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1280,
+      "height": 1600,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 203798
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:14:47.708Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

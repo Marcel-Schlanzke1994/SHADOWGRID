@@ -23,6 +23,11 @@
       "path": "assets/production/svg/map-heatmap-organization-legend-v1.svg",
       "bytes": 3693,
       "sha256": "0def2a97baad3e4094abc1dfbf623a24fac672132271208b8b8379a385cca8dd"
+    },
+    {
+      "path": "assets/production/webp/map-heatmap-organization-legend-v1-320.webp",
+      "bytes": 14684,
+      "sha256": "029d33df7a96d1d4cadcae2f3ee8cb1deb89320ec6c85f9b1dce2ce2e30ef4bd"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/maps/map-heatmap-organization-legend-v1.svg",
       "bytes": 3693,
       "sha256": "0def2a97baad3e4094abc1dfbf623a24fac672132271208b8b8379a385cca8dd"
+    },
+    {
+      "path": "apps/web/public/assets/maps/map-heatmap-organization-legend-v1-320.webp",
+      "bytes": 14684,
+      "sha256": "029d33df7a96d1d4cadcae2f3ee8cb1deb89320ec6c85f9b1dce2ce2e30ef4bd"
+    },
+    {
+      "path": "apps/web/public/assets/library/map-heatmap-organization-legend-v1.webp",
+      "bytes": 14684,
+      "sha256": "029d33df7a96d1d4cadcae2f3ee8cb1deb89320ec6c85f9b1dce2ce2e30ef4bd"
+    },
+    {
+      "path": "apps/mobile/assets/library/map-heatmap-organization-legend-v1.webp",
+      "bytes": 14684,
+      "sha256": "029d33df7a96d1d4cadcae2f3ee8cb1deb89320ec6c85f9b1dce2ce2e30ef4bd"
     }
   ],
   "contains_text": false,

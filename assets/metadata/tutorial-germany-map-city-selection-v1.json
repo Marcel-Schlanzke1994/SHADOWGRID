@@ -1,0 +1,171 @@
+{
+  "asset_id": "tutorial-germany-map-city-selection-v1",
+  "manifest_order": 710,
+  "category": "tutorial",
+  "batch": "tutorial",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/tutorial-germany-map-city-selection-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100710,
+  "content_hash": "24ec322fb67a6f5a43216e20b743eb301e495562de4a5a142c017810799d144d",
+  "source_file": "assets/source/tutorial/tutorial-germany-map-city-selection-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/tutorial-germany-map-city-selection-v1-320.avif",
+      "bytes": 1993,
+      "sha256": "851952af8874e6cf6bc460a10da8609b02e685a855979e009317d64c0d5c1c8b"
+    },
+    {
+      "path": "assets/production/webp/tutorial-germany-map-city-selection-v1-320.webp",
+      "bytes": 1404,
+      "sha256": "6e780829eaa18657bd081b8e2c03ae5fa8c2ea2b9190c79a97ba96c5572d8e9f"
+    },
+    {
+      "path": "assets/production/avif/tutorial-germany-map-city-selection-v1-640.avif",
+      "bytes": 4492,
+      "sha256": "68ae8e3131b273a7c5caf9c6b19ba23cb48d8e19aa238b08d3eb681f97858703"
+    },
+    {
+      "path": "assets/production/webp/tutorial-germany-map-city-selection-v1-640.webp",
+      "bytes": 3456,
+      "sha256": "779a330713eb072605a03f0c9572750b827aa8c101f599a93b74a275358c6ee2"
+    },
+    {
+      "path": "assets/production/avif/tutorial-germany-map-city-selection-v1-960.avif",
+      "bytes": 8939,
+      "sha256": "ec67b61af4a5148f9ea253be21f4f376f7cc515b770eb5f929b0492482cfd7b7"
+    },
+    {
+      "path": "assets/production/webp/tutorial-germany-map-city-selection-v1-960.webp",
+      "bytes": 6750,
+      "sha256": "5a5a831c3b26ba5c980ee5661abf9d3b30905a8d927c595551d456d22c82d561"
+    },
+    {
+      "path": "assets/production/avif/tutorial-germany-map-city-selection-v1-1280.avif",
+      "bytes": 13198,
+      "sha256": "48a15716ce80dec2b7ce42370fc5ac30caf84c0143592326c5de96b5a09bd6e0"
+    },
+    {
+      "path": "assets/production/webp/tutorial-germany-map-city-selection-v1-1280.webp",
+      "bytes": 9538,
+      "sha256": "6a0fe167dcfe1583a0c94dc7d83376def7a3fc90269b24b25069bfd7a06d8845"
+    },
+    {
+      "path": "assets/production/avif/tutorial-germany-map-city-selection-v1-1920.avif",
+      "bytes": 20753,
+      "sha256": "5558f0b053a4706d70a9763b60fbe5e4838ab3b0d0ad2171a89a2cbc70b6a470"
+    },
+    {
+      "path": "assets/production/webp/tutorial-germany-map-city-selection-v1-1920.webp",
+      "bytes": 17444,
+      "sha256": "81241a053b734109580130747c5bfc9b29826fb0568124a99fbbc080b6802218"
+    },
+    {
+      "path": "assets/production/avif/tutorial-germany-map-city-selection-v1-2560.avif",
+      "bytes": 28262,
+      "sha256": "8fd9448438b2c8db619a913acd29e98f6f9381cb8e6ba918abbe5aea79a90be4"
+    },
+    {
+      "path": "assets/production/webp/tutorial-germany-map-city-selection-v1-2560.webp",
+      "bytes": 24536,
+      "sha256": "235a0ac0469bb20b39183fe7f1b2ba4c8d3c952e1b25210229075f9d6f9eb0dc"
+    },
+    {
+      "path": "assets/production/avif/tutorial-germany-map-city-selection-v1-3840.avif",
+      "bytes": 47991,
+      "sha256": "4b969025e5f3cbd676e8f6e91de540cfd4452ccf5e3259c68e579e81c7086ee2"
+    },
+    {
+      "path": "assets/production/webp/tutorial-germany-map-city-selection-v1-3840.webp",
+      "bytes": 41888,
+      "sha256": "ecaf3a44d3a6c3f8c665736176b6aa76a8cc8873a2b09df17d6e690888f073aa"
+    },
+    {
+      "path": "assets/production/png/tutorial-germany-map-city-selection-v1-1280.png",
+      "bytes": 131275,
+      "sha256": "607ac37fb46834d3a98226f33d12fd983f5b0b2df67b3c69be7d261cc2a7485c"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/tutorial-germany-map-city-selection-v1.webp",
+      "bytes": 1404,
+      "sha256": "6e780829eaa18657bd081b8e2c03ae5fa8c2ea2b9190c79a97ba96c5572d8e9f"
+    },
+    {
+      "path": "apps/mobile/assets/library/tutorial-germany-map-city-selection-v1.webp",
+      "bytes": 1404,
+      "sha256": "6e780829eaa18657bd081b8e2c03ae5fa8c2ea2b9190c79a97ba96c5572d8e9f"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:19.700Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 95,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 97,
+      "mobile_suitability": 95,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 94,
+      "contrast": 95,
+      "geometry_quality": 95,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "The thematic glyph, card progression, safe area, and directional flow remain clear in both desktop and mobile placements.",
+      "No missing render, unsafe content, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 173626
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:33:42.276Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,4 +1,11 @@
-import type { ReactNode } from "react";
+import {
+  cloneElement,
+  isValidElement,
+  useEffect,
+  useId,
+  useRef,
+  type ReactNode,
+} from "react";
 import { useTranslation } from "react-i18next";
 import { ApiError } from "@shadowgrid/api-client";
 import { GlobalStateBackdrop } from "./GlobalBackdrop";
@@ -122,14 +129,21 @@ export const Field = ({
   hint?: string;
   error?: string;
 }) => {
-  const id = `field-${label.toLowerCase().replace(/[^a-z0-9]/g, "-")}`;
+  const uniqueId = useId().replace(/[^a-zA-Z0-9_-]/g, "");
+  const id = `field-${label.toLowerCase().replace(/[^a-z0-9]/g, "-")}-${uniqueId}`;
+  const controlId = isValidElement<{ id?: string }>(children)
+    ? (children.props.id ?? id)
+    : id;
+  const control = isValidElement<{ id?: string }>(children)
+    ? cloneElement(children, { id: controlId })
+    : children;
   return (
-    <label className="field" htmlFor={id}>
+    <label className="field" htmlFor={controlId}>
       <span>{label}</span>
-      {typeof children === "object" && children && "props" in children ? (
-        <span className="field__control">{children}</span>
+      {isValidElement(control) ? (
+        <span className="field__control">{control}</span>
       ) : (
-        children
+        control
       )}
       {hint && <small>{hint}</small>}
       {error && (
@@ -153,3 +167,65 @@ export const Status = ({
     {value.replaceAll("_", " ")}
   </span>
 );
+
+export const ConfirmDialog = ({
+  title,
+  description,
+  confirmLabel,
+  cancelLabel,
+  pending = false,
+  onConfirm,
+  onCancel,
+}: {
+  title: string;
+  description: ReactNode;
+  confirmLabel: string;
+  cancelLabel: string;
+  pending?: boolean;
+  onConfirm: () => void;
+  onCancel: () => void;
+}) => {
+  const dialog = useRef<HTMLDialogElement>(null);
+  useEffect(() => {
+    const element = dialog.current;
+    if (element && !element.open) {
+      if (typeof element.showModal === "function") element.showModal();
+      else element.setAttribute("open", "");
+    }
+    return () => {
+      if (element?.open && typeof element.close === "function") element.close();
+    };
+  }, []);
+  return (
+    <dialog
+      ref={dialog}
+      className="confirm-dialog"
+      aria-labelledby="confirm-dialog-title"
+      onCancel={(event) => {
+        event.preventDefault();
+        if (!pending) onCancel();
+      }}
+    >
+      <h2 id="confirm-dialog-title">{title}</h2>
+      <div>{description}</div>
+      <div className="button-row">
+        <button
+          className="button button--ghost"
+          type="button"
+          disabled={pending}
+          onClick={onCancel}
+        >
+          {cancelLabel}
+        </button>
+        <button
+          className="button"
+          type="button"
+          disabled={pending}
+          onClick={onConfirm}
+        >
+          {confirmLabel}
+        </button>
+      </div>
+    </dialog>
+  );
+};

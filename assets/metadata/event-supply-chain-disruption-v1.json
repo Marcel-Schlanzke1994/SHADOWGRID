@@ -1,0 +1,171 @@
+{
+  "asset_id": "event-supply-chain-disruption-v1",
+  "manifest_order": 709,
+  "category": "event",
+  "batch": "world-events",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/event-supply-chain-disruption-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100709,
+  "content_hash": "94fc940217262ad12478449657c4eb4716a10c61f5dd577bf837173c47d7b4ba",
+  "source_file": "assets/source/events/event-supply-chain-disruption-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/event-supply-chain-disruption-v1-320.avif",
+      "bytes": 2961,
+      "sha256": "750747b2a7dffb3e9983bb2a550c9910b9a907742a8f0e547dbccf60d5d87abe"
+    },
+    {
+      "path": "assets/production/webp/event-supply-chain-disruption-v1-320.webp",
+      "bytes": 2728,
+      "sha256": "2c8320ee38856eff2cda62de3b25d922256103ab570b96eefb84991b4518102c"
+    },
+    {
+      "path": "assets/production/avif/event-supply-chain-disruption-v1-640.avif",
+      "bytes": 6428,
+      "sha256": "f0c3b9bcff4c3474f92d3a7dfc8fd45b51e7ace88117454221c2e00ca334d3bd"
+    },
+    {
+      "path": "assets/production/webp/event-supply-chain-disruption-v1-640.webp",
+      "bytes": 5430,
+      "sha256": "4d62717ac9b46b4163f99c8636a30a6fc89dbaea9f568bc641768224de25df29"
+    },
+    {
+      "path": "assets/production/avif/event-supply-chain-disruption-v1-960.avif",
+      "bytes": 10751,
+      "sha256": "2e5cdc23c94fdd15d176d054582ceab1f3c4b88f62b41af99f6ddfc18d05385c"
+    },
+    {
+      "path": "assets/production/webp/event-supply-chain-disruption-v1-960.webp",
+      "bytes": 9222,
+      "sha256": "88ec59c73b8f053430cefd2eec0000a2bcc4567afab5a3ea8317aac0dabf55a0"
+    },
+    {
+      "path": "assets/production/avif/event-supply-chain-disruption-v1-1280.avif",
+      "bytes": 15540,
+      "sha256": "105ae3fd2327c640e3c8005434a52cc812ff005ca099684931ba19d4027c4221"
+    },
+    {
+      "path": "assets/production/webp/event-supply-chain-disruption-v1-1280.webp",
+      "bytes": 12430,
+      "sha256": "4b4ebf225a456625462992570a13f695f22e4b6b6311a9acbfb6e7dedab7d6f2"
+    },
+    {
+      "path": "assets/production/avif/event-supply-chain-disruption-v1-1920.avif",
+      "bytes": 23830,
+      "sha256": "849521ba361c0c57b8a5b1572ed2c7f93e1235832a830ebda8a785fdce17401f"
+    },
+    {
+      "path": "assets/production/webp/event-supply-chain-disruption-v1-1920.webp",
+      "bytes": 20120,
+      "sha256": "4942ef3fe9d73f6368f1914aa3f141e5bd08a2861aaaf6cadae1912cb1968f2b"
+    },
+    {
+      "path": "assets/production/avif/event-supply-chain-disruption-v1-2560.avif",
+      "bytes": 32674,
+      "sha256": "aa915f6157fe1214434766547536cb99dcf24460da07249b767cc7f7660baa41"
+    },
+    {
+      "path": "assets/production/webp/event-supply-chain-disruption-v1-2560.webp",
+      "bytes": 28400,
+      "sha256": "e44d3eac487df28e6b736d2597f9e04248a99daaca33748e658a7b81c7159078"
+    },
+    {
+      "path": "assets/production/avif/event-supply-chain-disruption-v1-3840.avif",
+      "bytes": 52234,
+      "sha256": "8b89bdfa6f2bd93d006b6c35cf4491855f87ff779753952c18396b01d0d5369c"
+    },
+    {
+      "path": "assets/production/webp/event-supply-chain-disruption-v1-3840.webp",
+      "bytes": 47032,
+      "sha256": "58c330792668fae02c145eaefa20ef5a2d7cdb28bbbe52bbd3b60bd6da548e6e"
+    },
+    {
+      "path": "assets/production/png/event-supply-chain-disruption-v1-1280.png",
+      "bytes": 697062,
+      "sha256": "32bb2a0924fa58e820e053048f6cbd66a60e9f0a5cefa32a1ac59f5173a5d322"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/event-supply-chain-disruption-v1.webp",
+      "bytes": 2728,
+      "sha256": "2c8320ee38856eff2cda62de3b25d922256103ab570b96eefb84991b4518102c"
+    },
+    {
+      "path": "apps/mobile/assets/library/event-supply-chain-disruption-v1.webp",
+      "bytes": 2728,
+      "sha256": "2c8320ee38856eff2cda62de3b25d922256103ab570b96eefb84991b4518102c"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:10.770Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 88,
+      "light_quality": 91,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Repeated motifs form a coherent event family while color, direction, and state treatment keep event classes distinguishable.",
+      "No missing render, unsafe real-world guidance, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1604028
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:33:24.901Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

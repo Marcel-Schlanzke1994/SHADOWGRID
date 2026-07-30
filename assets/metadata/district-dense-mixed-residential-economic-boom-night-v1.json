@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-dense-mixed-residential-economic-boom-night-v1",
+  "manifest_order": 450,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "economic-boom-night",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-dense-mixed-residential-economic-boom-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100450,
+  "content_hash": "a9d00aeadf05298ded162ef05dcef093693211e124eb56df892a2d9d32306e7a",
+  "source_file": "assets/source/districts/district-dense-mixed-residential-economic-boom-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-economic-boom-night-v1-320.avif",
+      "bytes": 3692,
+      "sha256": "593cdda47300af62bc5f9412d001b6ff22fb49915ba44aaa109a6c18b29d733b"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-economic-boom-night-v1-320.webp",
+      "bytes": 3688,
+      "sha256": "8e06bf05a669e236512c797dca0910c5572defe7ee203c23c7f3554384a91b98"
+    },
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-economic-boom-night-v1-640.avif",
+      "bytes": 7845,
+      "sha256": "cc872bc001afe69dcfb413450689475cf79632295b48f6cf3660fe8a027b385f"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-economic-boom-night-v1-640.webp",
+      "bytes": 8170,
+      "sha256": "a1f152ee5d7e889d1b08d570fbb51bd93e98a5611efd26080e7d5367ac2e391a"
+    },
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-economic-boom-night-v1-960.avif",
+      "bytes": 13470,
+      "sha256": "afb9e9e4a28b53b77f22c1cd8ec4adc9e5123561af1cd4314722d0b58bdaacd2"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-economic-boom-night-v1-960.webp",
+      "bytes": 13924,
+      "sha256": "b57d659de5e382eed8e0a0e46c04860bf4147f2a764ee0e44f4d09ecf673699e"
+    },
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-economic-boom-night-v1-1280.avif",
+      "bytes": 18591,
+      "sha256": "fc6e767be83e3ed21cf65f32e386e914b7ebef056a4a9e1f24900ddc82149201"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-economic-boom-night-v1-1280.webp",
+      "bytes": 17864,
+      "sha256": "bc2e1ef0ab21c2e99e9e4b461e30b3fc8581c58ca8a6c7300957e291e6813c0b"
+    },
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-economic-boom-night-v1-1920.avif",
+      "bytes": 28186,
+      "sha256": "e9245cb1d136cb149a549ab7ae60f66d3c70c9efd337b81e3d9639b73de51ef6"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-economic-boom-night-v1-1920.webp",
+      "bytes": 26970,
+      "sha256": "6d9d4bbacf824a96105461b37a07473ae34fa5db1171669db36f71b41f1d7b37"
+    },
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-economic-boom-night-v1-2560.avif",
+      "bytes": 37953,
+      "sha256": "c49b23aa01b389df6c40e2390a811a2b03041d0b62859546ec2c984a43f7d543"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-economic-boom-night-v1-2560.webp",
+      "bytes": 35782,
+      "sha256": "b86000e20e5389778bc9777cdc5e3b8c1f7de80a4ceebb002faed51e2be7f88e"
+    },
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-economic-boom-night-v1-3840.avif",
+      "bytes": 60936,
+      "sha256": "986fae827082d97f94d2016fd041609219e455ee68599b58843c3c63b0f0159a"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-economic-boom-night-v1-3840.webp",
+      "bytes": 56812,
+      "sha256": "92d1a3b9b7f085520be512dc5a512d2958b440180b2915e2874e243d0ee33b55"
+    },
+    {
+      "path": "assets/production/png/district-dense-mixed-residential-economic-boom-night-v1-1280.png",
+      "bytes": 664622,
+      "sha256": "d73cda74acad4f1bbe4db9362d7a6af446510f7e28eb9f8537d403682aacd5f8"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-dense-mixed-residential-economic-boom-night-v1.webp",
+      "bytes": 3688,
+      "sha256": "8e06bf05a669e236512c797dca0910c5572defe7ee203c23c7f3554384a91b98"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-dense-mixed-residential-economic-boom-night-v1.webp",
+      "bytes": 3688,
+      "sha256": "8e06bf05a669e236512c797dca0910c5572defe7ee203c23c7f3554384a91b98"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.376Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1462860
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:48:20.287Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

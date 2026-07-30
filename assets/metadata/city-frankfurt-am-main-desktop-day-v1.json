@@ -170,35 +170,49 @@
       "path": "apps/web/public/assets/cities/city-frankfurt-am-main-desktop-day-v1-1280.png",
       "bytes": 1704207,
       "sha256": "000389db677f070c3e7a941c7418018caa515791d77ac303afda8886c5e27bef"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-frankfurt-am-main-desktop-day-v1.webp",
+      "bytes": 5296,
+      "sha256": "df8bb452baf46e5a42420fac2fbde59b8362c80a0c8f9bac0479b86c7db46cd0"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-frankfurt-am-main-desktop-day-v1.webp",
+      "bytes": 5296,
+      "sha256": "df8bb452baf46e5a42420fac2fbde59b8362c80a0c8f9bac0479b86c7db46cd0"
     }
   ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,
   "moderation_status": "approved",
-  "quality_score": 98.4,
+  "quality_score": 92.9,
   "quality_status": "approved",
   "review_status": "codex-visual-approved",
   "visual_review": {
-    "realism": 98,
-    "style_consistency": 100,
-    "composition": 100,
-    "material_quality": 99,
-    "lighting_quality": 99,
-    "architecture_plausibility": 98,
-    "ui_suitability": 100,
-    "mobile_suitability": 94,
-    "originality": 96,
-    "safety_compliance": 100,
-    "accepted_prompt": "Create a separately composed 16:9 desktop hero for the same accepted fictional Frankfurt-am-Main-inspired SHADOWGRID city shown in the reference.\n\nOutput composition: exact 16:9 landscape, intended final size 2048×1152. Reframe and reconstruct the environment for the taller desktop canvas rather than merely cropping the ultra-wide image. Preserve the fictional identity: broad urban river, original low-profile bridge, compact original glass-and-stone office-tower cluster, lower historic-influenced stone blocks, restrained mixed-use business district, and landscaped public riverfront. All river, bridge, street, rail, corporate, financial, and civic layouts must remain fictional and non-operational.\n\nReserve a calm dark low-detail area across the left 32% for localized UI. Place the principal river, bridge, compact tower cluster, and lower stone district center-right. Add physically plausible foreground depth in the lower right through wet stone riverfront terraces, trees, steps, and original public-space geometry. Keep important shapes inside the inner 84% crop-safe area. No focal people or crowds.\n\nLighting and style: cool overcast post-rain daylight with restrained cloud breaks, neutral blue-gray atmosphere, subtle warm-gold glass, stone, and window highlights, realistic wet paving, stone, concrete, brushed steel, dark glass, trees, and river reflections, premium contemporary architectural photography, subtle corporate-thriller mood.\n\nDo not include or imitate the Commerzbank Tower, Messeturm, Main Tower, European Central Bank towers, Opernturm, Westend Tower crown, recognizable Frankfurt skyline arrangement, Römer, Frankfurt Cathedral, Eiserner Steg, Holbeinsteg, real trade-fair structures, bank logos, exchange symbols, real rail maps, exact bridge/street layouts, or any known photograph/viewpoint. Do not show an identifiable real financial institution or operational transport plan.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, stock tickers, currency symbols, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, fraud instructions, routes, fantasy architecture, impossible towers or bridges, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 16:9 daytime finance-metropolis environment, with no border, title, UI, or device mockup.",
-    "reference_images": [
-      "assets/source/cities/city-frankfurt-am-main-ultrawide-day-v1.png"
-    ],
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.254Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
     "notes": [
-      "Accepted first 16:9 recomposition attempt.",
-      "The taller frame adds plausible lower-right wet-stone riverfront, tree, step, and public-space depth while retaining the dark low-detail left 32 percent for localized interface content.",
-      "River, original bridge, compact tower cluster, lower stone district, and riverfront remain coordinated with the Frankfurt asset family without reproducing its real skyline.",
-      "No real financial institution, bank mark, exchange symbol, known viewpoint, embedded text, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, fraud instruction, or operational wrongdoing is present."
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
     ]
   },
   "technical_validation": {

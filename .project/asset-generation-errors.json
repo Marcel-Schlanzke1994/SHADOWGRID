@@ -29,6 +29,146 @@
       "code": "svg-geodata_input_required",
       "message": "Licensed geographic source data must be supplied before this asset can be processed.",
       "created_at": "2026-07-25T19:35:09.707Z"
+    },
+    {
+      "asset_id": "marketing-google-play-city-selection-v1",
+      "batch": "store-marketing",
+      "code": "app-screenshot_input_required",
+      "message": "A functioning application screen must be captured; generated mock interfaces are forbidden.",
+      "created_at": "2026-07-30T04:46:48.325Z"
+    },
+    {
+      "asset_id": "marketing-google-play-dashboard-v1",
+      "batch": "store-marketing",
+      "code": "app-screenshot_input_required",
+      "message": "A functioning application screen must be captured; generated mock interfaces are forbidden.",
+      "created_at": "2026-07-30T04:46:48.350Z"
+    },
+    {
+      "asset_id": "marketing-google-play-city-map-v1",
+      "batch": "store-marketing",
+      "code": "app-screenshot_input_required",
+      "message": "A functioning application screen must be captured; generated mock interfaces are forbidden.",
+      "created_at": "2026-07-30T04:46:48.376Z"
+    },
+    {
+      "asset_id": "marketing-google-play-pvp-v1",
+      "batch": "store-marketing",
+      "code": "app-screenshot_input_required",
+      "message": "A functioning application screen must be captured; generated mock interfaces are forbidden.",
+      "created_at": "2026-07-30T04:46:48.402Z"
+    },
+    {
+      "asset_id": "marketing-google-play-organization-v1",
+      "batch": "store-marketing",
+      "code": "app-screenshot_input_required",
+      "message": "A functioning application screen must be captured; generated mock interfaces are forbidden.",
+      "created_at": "2026-07-30T04:46:48.431Z"
+    },
+    {
+      "asset_id": "marketing-google-play-organization-conflict-v1",
+      "batch": "store-marketing",
+      "code": "app-screenshot_input_required",
+      "message": "A functioning application screen must be captured; generated mock interfaces are forbidden.",
+      "created_at": "2026-07-30T04:46:48.458Z"
+    },
+    {
+      "asset_id": "marketing-google-play-business-v1",
+      "batch": "store-marketing",
+      "code": "app-screenshot_input_required",
+      "message": "A functioning application screen must be captured; generated mock interfaces are forbidden.",
+      "created_at": "2026-07-30T04:46:48.490Z"
+    },
+    {
+      "asset_id": "marketing-google-play-ranking-v1",
+      "batch": "store-marketing",
+      "code": "app-screenshot_input_required",
+      "message": "A functioning application screen must be captured; generated mock interfaces are forbidden.",
+      "created_at": "2026-07-30T04:46:48.549Z"
+    },
+    {
+      "asset_id": "marketing-app-store-iphone-1-v1",
+      "batch": "store-marketing",
+      "code": "app-screenshot_input_required",
+      "message": "A functioning application screen must be captured; generated mock interfaces are forbidden.",
+      "created_at": "2026-07-30T04:46:48.615Z"
+    },
+    {
+      "asset_id": "marketing-app-store-iphone-2-v1",
+      "batch": "store-marketing",
+      "code": "app-screenshot_input_required",
+      "message": "A functioning application screen must be captured; generated mock interfaces are forbidden.",
+      "created_at": "2026-07-30T04:46:48.704Z"
+    },
+    {
+      "asset_id": "marketing-app-store-iphone-3-v1",
+      "batch": "store-marketing",
+      "code": "app-screenshot_input_required",
+      "message": "A functioning application screen must be captured; generated mock interfaces are forbidden.",
+      "created_at": "2026-07-30T04:46:48.784Z"
+    },
+    {
+      "asset_id": "marketing-app-store-iphone-4-v1",
+      "batch": "store-marketing",
+      "code": "app-screenshot_input_required",
+      "message": "A functioning application screen must be captured; generated mock interfaces are forbidden.",
+      "created_at": "2026-07-30T04:46:48.871Z"
+    },
+    {
+      "asset_id": "marketing-app-store-iphone-5-v1",
+      "batch": "store-marketing",
+      "code": "app-screenshot_input_required",
+      "message": "A functioning application screen must be captured; generated mock interfaces are forbidden.",
+      "created_at": "2026-07-30T04:46:48.949Z"
+    },
+    {
+      "asset_id": "marketing-app-store-iphone-6-v1",
+      "batch": "store-marketing",
+      "code": "app-screenshot_input_required",
+      "message": "A functioning application screen must be captured; generated mock interfaces are forbidden.",
+      "created_at": "2026-07-30T04:46:49.030Z"
+    },
+    {
+      "asset_id": "marketing-app-store-iphone-7-v1",
+      "batch": "store-marketing",
+      "code": "app-screenshot_input_required",
+      "message": "A functioning application screen must be captured; generated mock interfaces are forbidden.",
+      "created_at": "2026-07-30T04:46:49.122Z"
+    },
+    {
+      "asset_id": "marketing-app-store-iphone-8-v1",
+      "batch": "store-marketing",
+      "code": "app-screenshot_input_required",
+      "message": "A functioning application screen must be captured; generated mock interfaces are forbidden.",
+      "created_at": "2026-07-30T04:46:49.221Z"
+    },
+    {
+      "asset_id": "marketing-app-store-ipad-1-v1",
+      "batch": "store-marketing",
+      "code": "app-screenshot_input_required",
+      "message": "A functioning application screen must be captured; generated mock interfaces are forbidden.",
+      "created_at": "2026-07-30T04:46:49.335Z"
+    },
+    {
+      "asset_id": "marketing-app-store-ipad-2-v1",
+      "batch": "store-marketing",
+      "code": "app-screenshot_input_required",
+      "message": "A functioning application screen must be captured; generated mock interfaces are forbidden.",
+      "created_at": "2026-07-30T04:46:49.448Z"
+    },
+    {
+      "asset_id": "marketing-app-store-ipad-3-v1",
+      "batch": "store-marketing",
+      "code": "app-screenshot_input_required",
+      "message": "A functioning application screen must be captured; generated mock interfaces are forbidden.",
+      "created_at": "2026-07-30T04:46:49.560Z"
+    },
+    {
+      "asset_id": "marketing-app-store-ipad-4-v1",
+      "batch": "store-marketing",
+      "code": "app-screenshot_input_required",
+      "message": "A functioning application screen must be captured; generated mock interfaces are forbidden.",
+      "created_at": "2026-07-30T04:46:49.670Z"
     }
   ]
 }

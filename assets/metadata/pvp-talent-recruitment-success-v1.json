@@ -1,0 +1,171 @@
+{
+  "asset_id": "pvp-talent-recruitment-success-v1",
+  "manifest_order": 593,
+  "category": "pvp",
+  "batch": "pvp",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "success",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/pvp-talent-recruitment-success-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100593,
+  "content_hash": "c50215c11f52969845cd18e33c827b9a54d665ed93200d6859732b837a8baeef",
+  "source_file": "assets/source/pvp/pvp-talent-recruitment-success-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/pvp-talent-recruitment-success-v1-320.avif",
+      "bytes": 2570,
+      "sha256": "ea5fa2830a863428ecfb28e8548c8db21d23d30e74ee974d4f166913a01aac98"
+    },
+    {
+      "path": "assets/production/webp/pvp-talent-recruitment-success-v1-320.webp",
+      "bytes": 1662,
+      "sha256": "60adf2d39175524e79b2515a7d5458107d330f08a56043a3cb45e045829f25c8"
+    },
+    {
+      "path": "assets/production/avif/pvp-talent-recruitment-success-v1-640.avif",
+      "bytes": 6179,
+      "sha256": "35fa5a61fc1f50daf222fb0e605c7263c6e5f1e09b0712de1033c37d1e3c028a"
+    },
+    {
+      "path": "assets/production/webp/pvp-talent-recruitment-success-v1-640.webp",
+      "bytes": 4360,
+      "sha256": "623618b749bec5175cf00548bd7f9c3b35df2d3b89cf40c0da5a7a21d84a6247"
+    },
+    {
+      "path": "assets/production/avif/pvp-talent-recruitment-success-v1-960.avif",
+      "bytes": 12280,
+      "sha256": "cfadca9a5e62691f3da9ea6ea06f5f419865cc5e77fb0719ae239fd24ff4a4dd"
+    },
+    {
+      "path": "assets/production/webp/pvp-talent-recruitment-success-v1-960.webp",
+      "bytes": 8068,
+      "sha256": "9b29e9d54db2ed5c0249c005d1b949a2e106a31702c6ece678c77184f8aca473"
+    },
+    {
+      "path": "assets/production/avif/pvp-talent-recruitment-success-v1-1280.avif",
+      "bytes": 17518,
+      "sha256": "866d19915582425b98e06f60dce879c1d40d42b12b9954ea550f452137aceab2"
+    },
+    {
+      "path": "assets/production/webp/pvp-talent-recruitment-success-v1-1280.webp",
+      "bytes": 11798,
+      "sha256": "eca64b0b12adef76e3dca78915fbaa2e3f925d21072dabc99aa8b8c226c7e096"
+    },
+    {
+      "path": "assets/production/avif/pvp-talent-recruitment-success-v1-1920.avif",
+      "bytes": 27791,
+      "sha256": "f308ee8955b74d8137f7d60942ba257ac29a8cda3f65c043f0526c92617787b6"
+    },
+    {
+      "path": "assets/production/webp/pvp-talent-recruitment-success-v1-1920.webp",
+      "bytes": 20302,
+      "sha256": "07ac1044a74771405d3addfb975a79f76f055a26444b2fe1299eb12d3a9e4aa1"
+    },
+    {
+      "path": "assets/production/avif/pvp-talent-recruitment-success-v1-2560.avif",
+      "bytes": 36414,
+      "sha256": "f8e70924cd0ffb7c68d1119bf2adf75dac9b7232dd0d7da91c2a8f5f9a5f837f"
+    },
+    {
+      "path": "assets/production/webp/pvp-talent-recruitment-success-v1-2560.webp",
+      "bytes": 27630,
+      "sha256": "53dae0b71ebc5111f1aee367be90a8320b1f7cdabb20f90c84a521f3da1167b6"
+    },
+    {
+      "path": "assets/production/avif/pvp-talent-recruitment-success-v1-3840.avif",
+      "bytes": 55692,
+      "sha256": "5fc57df4e9c73a4c194315a8c07e8bff3ecee24f8dfac21a4585dfc37c3aadc2"
+    },
+    {
+      "path": "assets/production/webp/pvp-talent-recruitment-success-v1-3840.webp",
+      "bytes": 45062,
+      "sha256": "8cc3a1154423cb4da8577d8f43fdb92800a2999b81f27cdadb978a7aff016340"
+    },
+    {
+      "path": "assets/production/png/pvp-talent-recruitment-success-v1-1280.png",
+      "bytes": 170208,
+      "sha256": "c66d3be8fd5e5b25f118e702bcde68887fdf401ef20a82b73d01c09baeee4b95"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/pvp-talent-recruitment-success-v1.webp",
+      "bytes": 1662,
+      "sha256": "60adf2d39175524e79b2515a7d5458107d330f08a56043a3cb45e045829f25c8"
+    },
+    {
+      "path": "apps/mobile/assets/library/pvp-talent-recruitment-success-v1.webp",
+      "bytes": 1662,
+      "sha256": "60adf2d39175524e79b2515a7d5458107d330f08a56043a3cb45e045829f25c8"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:48.936Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 93,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Preparation, success, and failure remain abstract strategic game states without actionable real-world attack or sabotage detail.",
+      "No missing render, unsafe instruction, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 210600
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:26:59.550Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

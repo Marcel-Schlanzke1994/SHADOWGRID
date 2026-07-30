@@ -28,9 +28,15 @@ assumed or silently untested.
 | REQ-15 | Release hardening | Rate limits, bounds, CORS, seed and invariant verifier; migration `0017` | Security, data and load gates |
 | REQ-16 | Automated release gate | `pnpm validate` and Make alias | Exit 0: 107 backend, 12 web, 3 mobile, 4 load, 54 passed Playwright |
 | REQ-17 | WCAG 2.2 AA local web gate | Shared accessible primitives and 31-page matrix | 62 desktop/mobile scans; focus, reduced motion and pseudo-locales passed |
+| REQ-18 | Privacy launch engineering | Exact export, transactional pseudonymization, revocation and retention artifacts | Privacy/metrics/log tests plus legal and processor gates |
 | REQ-19 | Cross-platform one-click local lifecycle | PowerShell/Linux setup, start, stop, reset and verify scripts | Two real SQLite API/worker/web cycles plus syntax and script tests |
+| REQ-20 | Verified recovery drill | Isolated backup/restore runner and post-restore invariant verifier | SHA-256-identical restore; probe removed; data verifier exit 0 |
+| REQ-21 | Operations automation | Protected metrics, machine-readable alerts, smoke and recovery scripts | Operations verifier, smoke tests, season runbook and restore drill passed |
 | REQ-23 | Localization truthfulness | 777-key English/German catalogs plus pseudo-locales | Parity validator and RTL E2E |
+| REQ-24 | Complete asset library | Resumable 896-entry catalog, provenance, visual reviews, production variants and Web/Mobile registries | 896/896 approved; validation, integration and asset release gate passed |
+| REQ-25 | Multi-season balance evidence | Integer-only deterministic simulation and versioned config | 100 players, 500 companies, 10 cartels, four seasons; no critical exploit |
 | REQ-26 | Complete player lifecycle | Ordered 30-step plan and cross-platform runner | API 33/33; Playwright 40 passed with two expected skips |
+| REQ-27 | Real store/marketing capture | Functioning-app capture pipeline plus exact-size static and community art | 30/30 entries passed store gate; 20 real UI captures and complete visual review |
 
 The generated OpenAPI contains 216 versioned paths. The required functional prefixes are
 present for authentication, companies, economy, specialists, exchange, cartels,
@@ -40,21 +46,16 @@ estate, events and notifications. Alembic forms one linear chain from `0001` thr
 
 ## Explicit repository gaps
 
-| ID | Gap | Evidence now | Required completion |
-| --- | --- | --- | --- |
-| REQ-18 | Privacy launch artifacts | Export/delete implementation exists | Retention, processor, incident and launch checklists |
-| REQ-20 | Final restore drill | Verified SHA-256 backup exists | Safe restore and post-restore invariants |
-| REQ-21 | Final operations automation | Health/build paths exist | Smoke scripts, season runbook proof and readiness report |
-| REQ-24 | Complete asset library | 131/896 processed entries integrate | Process 765 pending and resolve one review item |
-| REQ-25 | Multi-season balance evidence | Release-scale fixture passes | Deterministic simulation and three required reports |
-| REQ-27 | Real store/marketing capture | Running UI and asset pipeline exist | Real captures and store readiness report |
+No repository requirement remains classified as `gap`. Release actions that require
+external infrastructure, identities, credentials, legal ownership or explicit action flags
+remain isolated below.
 
 ## External or host-blocked requirements
 
 | ID | Blocker | Repository-complete path | Final operator action |
 | --- | --- | --- | --- |
-| REQ-22 | EAS project/domains and signing credentials | Expo export, tests, config and store copy | Configure provider project, build signed AAB/IPA, submit with flag |
-| REQ-28 | Docker/Mailpit unavailable and SMTP flag false | Mailer/account-flow code and tests | Run Mailpit after Docker install; activate provider only with flag |
+| REQ-22 | EAS project/account and signing credentials | Placeholder IDs/domains removed; 69-file all-platform preview, tests, verified config and store copy | Initialize real EAS project, device-test signed AAB/IPA, submit only with flag |
+| REQ-28 | Docker/Mailpit unavailable and SMTP flag false | Localized mailer, complete account-flow tests, hardened SMTP validation and exact operator gate | Run Mailpit after Docker install; activate provider only with flag |
 | HOST-DOCKER-001 | Docker/PostgreSQL/Redis CLIs unavailable | SQLite release path fully green | Install Docker Desktop and execute Compose/worker/readiness checks |
 
 These statuses are inputs to Phases 3–15. They are not release-completion claims.

@@ -1,0 +1,180 @@
+{
+  "asset_id": "marketing-google-play-organization-conflict-v1",
+  "manifest_order": 874,
+  "category": "marketing",
+  "batch": "store-marketing",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "app-screenshot",
+  "provider": "playwright-local-capture",
+  "model": null,
+  "prompt_file": "assets/prompts/marketing-google-play-organization-conflict-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100874,
+  "content_hash": "9ba80cd96bbcc1c86ff67c8119ddfb3d632a3d4413851bf223362378d344bc34",
+  "source_file": "assets/source/marketing/marketing-google-play-organization-conflict-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/marketing-google-play-organization-conflict-v1-320.avif",
+      "bytes": 3657,
+      "sha256": "56d55f4c457ab338bf279155c59a9cdcb29b6e64f7aab077da9ac722e8f154a4"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-organization-conflict-v1-320.webp",
+      "bytes": 3066,
+      "sha256": "03451e809ac652ecaca3e4e9d4f2e853a7a71959cfbd9a8cb12db44ba2b0dea6"
+    },
+    {
+      "path": "assets/production/avif/marketing-google-play-organization-conflict-v1-640.avif",
+      "bytes": 11341,
+      "sha256": "d44acb2f90b314c9934d32b89806589c51989085ff1075122bdc1c061383af7a"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-organization-conflict-v1-640.webp",
+      "bytes": 9942,
+      "sha256": "7244fc659e0ab2fe9e415862ed438fe8ad453db4eb423f1d5bbeee7f7554690b"
+    },
+    {
+      "path": "assets/production/avif/marketing-google-play-organization-conflict-v1-960.avif",
+      "bytes": 23036,
+      "sha256": "8a123deff92d9b1bd8b37250655ed6a991156bcb8155df5356a7afe8595cde87"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-organization-conflict-v1-960.webp",
+      "bytes": 18872,
+      "sha256": "45ef905aced2b3bc9c872ba98c127841365d1d9dcc6c102fbcf21d727a21bba1"
+    },
+    {
+      "path": "assets/production/avif/marketing-google-play-organization-conflict-v1-1280.avif",
+      "bytes": 34079,
+      "sha256": "513703908bec98d9eba9f55f142e6f8f6d96c97988f9aa8b9baa18c8bea5766c"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-organization-conflict-v1-1280.webp",
+      "bytes": 27910,
+      "sha256": "4bd990ec60e55dd66ceb7daef071efdfa602f277ebb6f827075dfc1fd484b9e4"
+    },
+    {
+      "path": "assets/production/avif/marketing-google-play-organization-conflict-v1-1920.avif",
+      "bytes": 54544,
+      "sha256": "a2592bc9d0ceed9cfd0a7640390087bed530b7e5052e3ff9f5caa69b08e2513c"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-organization-conflict-v1-1920.webp",
+      "bytes": 47702,
+      "sha256": "1956d9c0b375a357ee8bdb2b5b9b267177ccd4d3c779462f48b993b62890b60c"
+    },
+    {
+      "path": "assets/production/avif/marketing-google-play-organization-conflict-v1-2560.avif",
+      "bytes": 72907,
+      "sha256": "13012a63cbbadf247c7a5d107001a62cf16626588affd85b4a0d7aad3fe1b886"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-organization-conflict-v1-2560.webp",
+      "bytes": 64822,
+      "sha256": "2cda95d06d23750be94abace3a2cf33e71f360503441f0891882c2845c084d8e"
+    },
+    {
+      "path": "assets/production/avif/marketing-google-play-organization-conflict-v1-3840.avif",
+      "bytes": 100808,
+      "sha256": "399e0e3a94bfbb13d915918fa8b647822798ee5576fdc7502cdcb2e0d24f41bc"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-organization-conflict-v1-3840.webp",
+      "bytes": 99760,
+      "sha256": "4464c92b7f2c8c79e9c3f067c8b718b7b2c4d59e1b49dde345e12fbfee4257c1"
+    },
+    {
+      "path": "assets/production/png/marketing-google-play-organization-conflict-v1-1280.png",
+      "bytes": 291995,
+      "sha256": "8937b668d5a0e0badec5b0a5acf2ecd70bcc78c9136f613d333753be1db2644f"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/marketing-google-play-organization-conflict-v1.webp",
+      "bytes": 3066,
+      "sha256": "03451e809ac652ecaca3e4e9d4f2e853a7a71959cfbd9a8cb12db44ba2b0dea6"
+    },
+    {
+      "path": "apps/mobile/assets/library/marketing-google-play-organization-conflict-v1.webp",
+      "bytes": 3066,
+      "sha256": "03451e809ac652ecaca3e4e9d4f2e853a7a71959cfbd9a8cb12db44ba2b0dea6"
+    }
+  ],
+  "contains_text": true,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 94.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:37:55.465Z",
+    "scores": {
+      "realism": 94,
+      "style_consistency": 96,
+      "composition": 95,
+      "material_quality": 93,
+      "light_quality": 94,
+      "architecture_plausibility": 92,
+      "ui_suitability": 97,
+      "mobile_suitability": 97,
+      "originality": 90,
+      "safety_compliance": 100,
+      "small_size_legibility": 94,
+      "contrast": 96,
+      "geometry_quality": 96,
+      "technical_quality": 98
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution.",
+      "All 20 store captures are sourced from the functioning application at exact declared dimensions; feature graphic and icon are opaque exact-size static art.",
+      "Text-free community and release banners are intentionally neutral procedural variants, with no fake UI, third-party logo, unsafe content, broken crop, or unintended text."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 235818
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:02:29.789Z",
+  "license": "project-owned-application-capture",
+  "provenance": {
+    "source": "functioning-local-application",
+    "capture_report": "assets/reports/store-capture-sources.json",
+    "platform": "google-play",
+    "route": "/wars",
+    "language": "en-US",
+    "seeded_account": "advanced-demo-persona"
+  },
+  "notes": [
+    "Captured after authenticated loaded-state assertions from the running seeded application.",
+    "No generated or mocked UI, demo email address, private identifier, debug marker, spinner or error state is accepted.",
+    "Exact platform dimensions were independently validated and representative full-resolution crops were visually inspected."
+  ]
+}

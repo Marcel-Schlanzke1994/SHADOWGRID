@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-augsburg-mobile-night-v1",
+  "manifest_order": 256,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "augsburg",
+  "variant": "mobile-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-augsburg-mobile-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100256,
+  "content_hash": "9daff9a405f287f9579dca99e41d24d5e033e38a66ff5d7b704d70830447b0c4",
+  "source_file": "assets/source/cities/city-augsburg-mobile-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-augsburg-mobile-night-v1-320.avif",
+      "bytes": 5437,
+      "sha256": "4337dc3be066ed9bcbb9b1a794dd4124c0536f385c89299471137e267ff72438"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-mobile-night-v1-320.webp",
+      "bytes": 5528,
+      "sha256": "66f86f2f9209376c8fb0f5331c7dd79fae0b2ec9cb001a15c3d1d1441f8eb944"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-mobile-night-v1-640.avif",
+      "bytes": 10902,
+      "sha256": "38568a168f42b456c70f318cb39e7a04276eccd7011d692c093e0a9a61e726e7"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-mobile-night-v1-640.webp",
+      "bytes": 10978,
+      "sha256": "2d35d7e02dc60d5cf34c7717c90d78eeb799293ca4d5027c6f0c369cb34261c6"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-mobile-night-v1-960.avif",
+      "bytes": 19845,
+      "sha256": "dc71d008453c4c63033d36fb918afeb3b49622bd086bec9b5ae8118d123405c0"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-mobile-night-v1-960.webp",
+      "bytes": 17510,
+      "sha256": "a8b3d9d7f2f579ad6c77b89508c619bddd5a8fa7d93f45e917bb214103b7598e"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-mobile-night-v1-1280.avif",
+      "bytes": 26875,
+      "sha256": "2b55ad94e63701c31b422748949121fcfd3f9beb2f2df3d0fda857baac7193ec"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-mobile-night-v1-1280.webp",
+      "bytes": 24312,
+      "sha256": "4bd67e10a448f384cc6fc45d23e55e7542900a0bd43d4b7ed34c62e2506e50d8"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-mobile-night-v1-1920.avif",
+      "bytes": 42919,
+      "sha256": "072d1954178ac5ffade1359a96f630cfc3361fb840d82f0440425c23dee518b5"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-mobile-night-v1-1920.webp",
+      "bytes": 40396,
+      "sha256": "dd6de2c6d010bc6be06cb378cf547b3c5029e0c0b60e75683c31318bdff8c9d4"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-mobile-night-v1-2560.avif",
+      "bytes": 60701,
+      "sha256": "97732340b606b1aef2967c1ebd3b471252f8f89984a4f4c420426bde74e36b6a"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-mobile-night-v1-2560.webp",
+      "bytes": 59172,
+      "sha256": "cfb457b2b81176819462893865734383ca620affd1a76c3d4a0c7504d6b508bd"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-mobile-night-v1-3840.avif",
+      "bytes": 107972,
+      "sha256": "096491406070cad51e615a2b38473fa498c2b1514c3487e0a8b2a7bf0c892046"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-mobile-night-v1-3840.webp",
+      "bytes": 111314,
+      "sha256": "7573fc6da6666ba97724bada0ab7413bbdb493e5fa4686d2754920e4e25fd0da"
+    },
+    {
+      "path": "assets/production/png/city-augsburg-mobile-night-v1-1152.png",
+      "bytes": 1711458,
+      "sha256": "9daff9a405f287f9579dca99e41d24d5e033e38a66ff5d7b704d70830447b0c4"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-night-v1-320.avif",
+      "bytes": 5437,
+      "sha256": "4337dc3be066ed9bcbb9b1a794dd4124c0536f385c89299471137e267ff72438"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-night-v1-320.webp",
+      "bytes": 5528,
+      "sha256": "66f86f2f9209376c8fb0f5331c7dd79fae0b2ec9cb001a15c3d1d1441f8eb944"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-night-v1-640.avif",
+      "bytes": 10902,
+      "sha256": "38568a168f42b456c70f318cb39e7a04276eccd7011d692c093e0a9a61e726e7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-night-v1-640.webp",
+      "bytes": 10978,
+      "sha256": "2d35d7e02dc60d5cf34c7717c90d78eeb799293ca4d5027c6f0c369cb34261c6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-night-v1-960.avif",
+      "bytes": 19845,
+      "sha256": "dc71d008453c4c63033d36fb918afeb3b49622bd086bec9b5ae8118d123405c0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-night-v1-960.webp",
+      "bytes": 17510,
+      "sha256": "a8b3d9d7f2f579ad6c77b89508c619bddd5a8fa7d93f45e917bb214103b7598e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-night-v1-1280.avif",
+      "bytes": 26875,
+      "sha256": "2b55ad94e63701c31b422748949121fcfd3f9beb2f2df3d0fda857baac7193ec"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-night-v1-1280.webp",
+      "bytes": 24312,
+      "sha256": "4bd67e10a448f384cc6fc45d23e55e7542900a0bd43d4b7ed34c62e2506e50d8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-night-v1-1920.avif",
+      "bytes": 42919,
+      "sha256": "072d1954178ac5ffade1359a96f630cfc3361fb840d82f0440425c23dee518b5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-night-v1-1920.webp",
+      "bytes": 40396,
+      "sha256": "dd6de2c6d010bc6be06cb378cf547b3c5029e0c0b60e75683c31318bdff8c9d4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-night-v1-2560.avif",
+      "bytes": 60701,
+      "sha256": "97732340b606b1aef2967c1ebd3b471252f8f89984a4f4c420426bde74e36b6a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-night-v1-2560.webp",
+      "bytes": 59172,
+      "sha256": "cfb457b2b81176819462893865734383ca620affd1a76c3d4a0c7504d6b508bd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-night-v1-3840.avif",
+      "bytes": 107972,
+      "sha256": "096491406070cad51e615a2b38473fa498c2b1514c3487e0a8b2a7bf0c892046"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-night-v1-3840.webp",
+      "bytes": 111314,
+      "sha256": "7573fc6da6666ba97724bada0ab7413bbdb493e5fa4686d2754920e4e25fd0da"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-mobile-night-v1-1152.png",
+      "bytes": 1711458,
+      "sha256": "9daff9a405f287f9579dca99e41d24d5e033e38a66ff5d7b704d70830447b0c4"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-augsburg-mobile-night-v1.webp",
+      "bytes": 5528,
+      "sha256": "66f86f2f9209376c8fb0f5331c7dd79fae0b2ec9cb001a15c3d1d1441f8eb944"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-augsburg-mobile-night-v1.webp",
+      "bytes": 5528,
+      "sha256": "66f86f2f9209376c8fb0f5331c7dd79fae0b2ec9cb001a15c3d1d1441f8eb944"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.669Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1711458
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:40:05.579Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

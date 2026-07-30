@@ -23,6 +23,11 @@
       "path": "assets/production/svg/marker-control-information-center-v1.svg",
       "bytes": 711,
       "sha256": "fd3ae16353c26150c47d83e198fb91472690c1130559526e762c9ab3cf193b98"
+    },
+    {
+      "path": "assets/production/webp/marker-control-information-center-v1-320.webp",
+      "bytes": 2294,
+      "sha256": "e794e0c7deaa55bb8413a13b77abf6ca256639b2685242c5e5ce56bbb5207e8b"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/markers/marker-control-information-center-v1.svg",
       "bytes": 711,
       "sha256": "fd3ae16353c26150c47d83e198fb91472690c1130559526e762c9ab3cf193b98"
+    },
+    {
+      "path": "apps/web/public/assets/markers/marker-control-information-center-v1-320.webp",
+      "bytes": 2294,
+      "sha256": "e794e0c7deaa55bb8413a13b77abf6ca256639b2685242c5e5ce56bbb5207e8b"
+    },
+    {
+      "path": "apps/web/public/assets/library/marker-control-information-center-v1.webp",
+      "bytes": 2294,
+      "sha256": "e794e0c7deaa55bb8413a13b77abf6ca256639b2685242c5e5ce56bbb5207e8b"
+    },
+    {
+      "path": "apps/mobile/assets/library/marker-control-information-center-v1.webp",
+      "bytes": 2294,
+      "sha256": "e794e0c7deaa55bb8413a13b77abf6ca256639b2685242c5e5ce56bbb5207e8b"
     }
   ],
   "contains_text": false,

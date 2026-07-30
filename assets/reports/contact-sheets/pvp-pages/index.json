@@ -1,0 +1,30 @@
+{
+  "schema": "shadowgrid/contact-sheet-pages/v1",
+  "batch": "pvp",
+  "generated_at": "2026-07-30T06:17:22.139Z",
+  "asset_count": 15,
+  "page_size": 18,
+  "pages": [
+    {
+      "page": 1,
+      "path": "assets/reports/contact-sheets/pvp-pages/page-001.png",
+      "assets": [
+        "pvp-economic-attack-preparation-v1",
+        "pvp-economic-attack-success-v1",
+        "pvp-economic-attack-failure-v1",
+        "pvp-information-operation-preparation-v1",
+        "pvp-information-operation-success-v1",
+        "pvp-information-operation-failure-v1",
+        "pvp-influence-conflict-preparation-v1",
+        "pvp-influence-conflict-success-v1",
+        "pvp-influence-conflict-failure-v1",
+        "pvp-talent-recruitment-preparation-v1",
+        "pvp-talent-recruitment-success-v1",
+        "pvp-talent-recruitment-failure-v1",
+        "pvp-covert-disruption-preparation-v1",
+        "pvp-covert-disruption-success-v1",
+        "pvp-covert-disruption-failure-v1"
+      ]
+    }
+  ]
+}

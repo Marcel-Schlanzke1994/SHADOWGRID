@@ -1,0 +1,171 @@
+{
+  "asset_id": "character-personnel-management-younger-man-v1",
+  "manifest_order": 560,
+  "category": "character",
+  "batch": "specialists",
+  "city": null,
+  "variant": "younger-man",
+  "gameplay_state": "normal",
+  "aspect_ratio": "4:5",
+  "width": 1280,
+  "height": 1600,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/character-personnel-management-younger-man-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100560,
+  "content_hash": "d75ff0124b9fe1e982802d453bc89b5bfc9c2e78a9b237583d6ac27ee85a2f80",
+  "source_file": "assets/source/characters/character-personnel-management-younger-man-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/character-personnel-management-younger-man-v1-320.avif",
+      "bytes": 2746,
+      "sha256": "f26d98c385d758543666b154325856eeea905c9b4208e7487d270504ad50fb8b"
+    },
+    {
+      "path": "assets/production/webp/character-personnel-management-younger-man-v1-320.webp",
+      "bytes": 1974,
+      "sha256": "3f2035d46c592750f62b05a37af00874660050ec184a9a7f5595c2a7ab99a540"
+    },
+    {
+      "path": "assets/production/avif/character-personnel-management-younger-man-v1-640.avif",
+      "bytes": 6076,
+      "sha256": "2f078016b715c9dafe6b7ae189000c746c7ebd796ed634e51771fb9cd22e3771"
+    },
+    {
+      "path": "assets/production/webp/character-personnel-management-younger-man-v1-640.webp",
+      "bytes": 4700,
+      "sha256": "7b5c4823588b84e4a01f6d91cf21c3b23ace6bd7c74c289e0ba719e50e161fea"
+    },
+    {
+      "path": "assets/production/avif/character-personnel-management-younger-man-v1-960.avif",
+      "bytes": 13200,
+      "sha256": "3d2ab1bdef57669d35177e5fbeef4a42b540f3a4bd297862fc5bb353281d5864"
+    },
+    {
+      "path": "assets/production/webp/character-personnel-management-younger-man-v1-960.webp",
+      "bytes": 8952,
+      "sha256": "50a4a258a67e46c03008871483f843a28afa70c318c2ebed366e9683d25fe704"
+    },
+    {
+      "path": "assets/production/avif/character-personnel-management-younger-man-v1-1280.avif",
+      "bytes": 18750,
+      "sha256": "262ca492aff140337cddac550bb9b2c62be68bd53be36ea19715e543769c43c7"
+    },
+    {
+      "path": "assets/production/webp/character-personnel-management-younger-man-v1-1280.webp",
+      "bytes": 13732,
+      "sha256": "5ed57f7baeeb905b9d4eeedcd2e3b785bbd54a37cf7c8238aaf45ba53fbcff80"
+    },
+    {
+      "path": "assets/production/avif/character-personnel-management-younger-man-v1-1920.avif",
+      "bytes": 29984,
+      "sha256": "1ff76862464b04caa86d89ba007b25ecbf46118e2528fa251a1ba77d5b488647"
+    },
+    {
+      "path": "assets/production/webp/character-personnel-management-younger-man-v1-1920.webp",
+      "bytes": 23630,
+      "sha256": "94f1d606cefc666b5977b6cbf904efa0f77cffcf3183a1bd5dc28aa8a8abfbe4"
+    },
+    {
+      "path": "assets/production/avif/character-personnel-management-younger-man-v1-2560.avif",
+      "bytes": 43409,
+      "sha256": "2c28270aec41215c8f7abb9ec368377db1fdce22ec3008202e2296a2bd87f10f"
+    },
+    {
+      "path": "assets/production/webp/character-personnel-management-younger-man-v1-2560.webp",
+      "bytes": 36094,
+      "sha256": "18e35b474f406e417aa254b862d28613ab5cfa8dee9ef80ccc645f2121585149"
+    },
+    {
+      "path": "assets/production/avif/character-personnel-management-younger-man-v1-3840.avif",
+      "bytes": 71731,
+      "sha256": "11fd7033401ab18721048b1de61a060ab72a43aa9aa6b421b838c9f8544dd48e"
+    },
+    {
+      "path": "assets/production/webp/character-personnel-management-younger-man-v1-3840.webp",
+      "bytes": 68608,
+      "sha256": "853dfd2554afce737276e7c5df9b8d19da0d8d5f4cfcc2e6a824facb3b908eba"
+    },
+    {
+      "path": "assets/production/png/character-personnel-management-younger-man-v1-1280.png",
+      "bytes": 204545,
+      "sha256": "d75ff0124b9fe1e982802d453bc89b5bfc9c2e78a9b237583d6ac27ee85a2f80"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/character-personnel-management-younger-man-v1.webp",
+      "bytes": 1974,
+      "sha256": "3f2035d46c592750f62b05a37af00874660050ec184a9a7f5595c2a7ab99a540"
+    },
+    {
+      "path": "apps/mobile/assets/library/character-personnel-management-younger-man-v1.webp",
+      "bytes": 1974,
+      "sha256": "3f2035d46c592750f62b05a37af00874660050ec184a9a7f5595c2a7ab99a540"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:37.368Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1280,
+      "height": 1600,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 204545
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:20:26.316Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

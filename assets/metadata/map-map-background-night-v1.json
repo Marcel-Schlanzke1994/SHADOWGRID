@@ -23,6 +23,11 @@
       "path": "assets/production/svg/map-map-background-night-v1.svg",
       "bytes": 2166,
       "sha256": "f0d211fd5ba10e508415b6b464f3861c21c0fa457384ea153b34530d545da968"
+    },
+    {
+      "path": "assets/production/webp/map-map-background-night-v1-320.webp",
+      "bytes": 28394,
+      "sha256": "c3fa175bb094c6e5c8a63f70851b91a75b0ba674c180474834b398880f0c91d8"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/maps/map-map-background-night-v1.svg",
       "bytes": 2166,
       "sha256": "f0d211fd5ba10e508415b6b464f3861c21c0fa457384ea153b34530d545da968"
+    },
+    {
+      "path": "apps/web/public/assets/maps/map-map-background-night-v1-320.webp",
+      "bytes": 28394,
+      "sha256": "c3fa175bb094c6e5c8a63f70851b91a75b0ba674c180474834b398880f0c91d8"
+    },
+    {
+      "path": "apps/web/public/assets/library/map-map-background-night-v1.webp",
+      "bytes": 28394,
+      "sha256": "c3fa175bb094c6e5c8a63f70851b91a75b0ba674c180474834b398880f0c91d8"
+    },
+    {
+      "path": "apps/mobile/assets/library/map-map-background-night-v1.webp",
+      "bytes": 28394,
+      "sha256": "c3fa175bb094c6e5c8a63f70851b91a75b0ba674c180474834b398880f0c91d8"
     }
   ],
   "contains_text": false,

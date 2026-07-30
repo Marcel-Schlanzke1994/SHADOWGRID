@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-technology-park-crisis-night-v1",
+  "manifest_order": 404,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "crisis-night",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-technology-park-crisis-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100404,
+  "content_hash": "d81a46a4d5122dea840da04d1807a84c49a31f9d862abb5438e9d36a0f7f6fdb",
+  "source_file": "assets/source/districts/district-technology-park-crisis-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-technology-park-crisis-night-v1-320.avif",
+      "bytes": 3548,
+      "sha256": "782b1abf9da23f8820598651063ac876e918b99013bfafea571ec3c8b4769924"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-crisis-night-v1-320.webp",
+      "bytes": 3402,
+      "sha256": "109dbe669e773f7b9d7de40c6ea132ecf41ead6a8ba16177ddf64091b2a40264"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-crisis-night-v1-640.avif",
+      "bytes": 7759,
+      "sha256": "f7bd335168ae4a270e6ae1eb489b23beb6b673e03473318432d358037d04268e"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-crisis-night-v1-640.webp",
+      "bytes": 7380,
+      "sha256": "11cfb8323b7599a84aa7b7294daa3214861080b857e8a459a1a8f09d2a22c613"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-crisis-night-v1-960.avif",
+      "bytes": 12899,
+      "sha256": "0735c8bf3ce35858560dda5a9c70fbc9023c2bf0aeff6c9fee7635fcedfb3644"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-crisis-night-v1-960.webp",
+      "bytes": 12856,
+      "sha256": "3ee9fcc0e66791073b5225649f650e99a6d4d4482af7ed1bf441720be0bfcf66"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-crisis-night-v1-1280.avif",
+      "bytes": 17821,
+      "sha256": "ba7fdddb19f004da1f13098f52621e535279dfeedc26267c6b63c2c2adaa9f23"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-crisis-night-v1-1280.webp",
+      "bytes": 16820,
+      "sha256": "757acb11eb6a9bdd6fc647d693b675b8f7e6a402823045c5354037e7a71c921a"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-crisis-night-v1-1920.avif",
+      "bytes": 27325,
+      "sha256": "e8856c96f5f4285b12d5321606b4435d655b12ef9d2e161f9d98b2ec4d8c99a6"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-crisis-night-v1-1920.webp",
+      "bytes": 25848,
+      "sha256": "07bbcce921eb570ba1200c59ae316c36fe68c77e0fcbf1c6e82ce6a56e9038c3"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-crisis-night-v1-2560.avif",
+      "bytes": 36099,
+      "sha256": "0be4b3338eb0a798d0b8b3eaa1ca19486394ba6f35baa4b1500112592229b093"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-crisis-night-v1-2560.webp",
+      "bytes": 34518,
+      "sha256": "02ca5263f79868c9e4d9b234ca2a1f1c3309d1dc6462b21628ec72f040b22e0c"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-crisis-night-v1-3840.avif",
+      "bytes": 58377,
+      "sha256": "cc15747d8c9fdcad19e11064de71c9f886c13042801736cd947bb28f4e7446b1"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-crisis-night-v1-3840.webp",
+      "bytes": 55292,
+      "sha256": "61395872dfc9c91e2ff66202cbb4cc7520f4d02cf086f5d5e1c0548a29a3c0ad"
+    },
+    {
+      "path": "assets/production/png/district-technology-park-crisis-night-v1-1280.png",
+      "bytes": 655090,
+      "sha256": "a078af5770bbddd2ed7a24ed31948ffde7fab1651a3130217b22064214e32d36"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-technology-park-crisis-night-v1.webp",
+      "bytes": 3402,
+      "sha256": "109dbe669e773f7b9d7de40c6ea132ecf41ead6a8ba16177ddf64091b2a40264"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-technology-park-crisis-night-v1.webp",
+      "bytes": 3402,
+      "sha256": "109dbe669e773f7b9d7de40c6ea132ecf41ead6a8ba16177ddf64091b2a40264"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.833Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1446502
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:33:09.441Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

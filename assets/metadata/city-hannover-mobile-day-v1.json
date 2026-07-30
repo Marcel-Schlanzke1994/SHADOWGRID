@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-hannover-mobile-day-v1",
+  "manifest_order": 167,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "hannover",
+  "variant": "mobile-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-hannover-mobile-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100167,
+  "content_hash": "9c0c66530cea757d681f1c5dcf64869f0dcf40675d56df47893897a27cc8205d",
+  "source_file": "assets/source/cities/city-hannover-mobile-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-hannover-mobile-day-v1-320.avif",
+      "bytes": 4630,
+      "sha256": "5754faff34f9f436da18296e8ecdb4e91e88a4f1b3635533ed89e33173e3f238"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-mobile-day-v1-320.webp",
+      "bytes": 3998,
+      "sha256": "3621b6511bd8fd626a506debf1ce69d8d3b20c8aa21bddb08176bd97d6eb5578"
+    },
+    {
+      "path": "assets/production/avif/city-hannover-mobile-day-v1-640.avif",
+      "bytes": 9883,
+      "sha256": "6cd06fa2b1a83e217473f811314bd00f16fb16b8880fa6f05a68796fdf66a2be"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-mobile-day-v1-640.webp",
+      "bytes": 8040,
+      "sha256": "8f58736be9e22ca2ebe7f3b1d42c76ff48eda630a1c0965a72808bcc0b2c2b04"
+    },
+    {
+      "path": "assets/production/avif/city-hannover-mobile-day-v1-960.avif",
+      "bytes": 17233,
+      "sha256": "5fd1b2f13e7c5b18103a826ea2031f5a3560a38e3301ca1632f70a83ffc6282a"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-mobile-day-v1-960.webp",
+      "bytes": 13970,
+      "sha256": "6dcb31e8815cf860af5e9c58eb2e0ac49b0fdc4050f84f64a937541c2587460a"
+    },
+    {
+      "path": "assets/production/avif/city-hannover-mobile-day-v1-1280.avif",
+      "bytes": 23516,
+      "sha256": "d4a24a32326b4564e4881547e430f878efbcac2b158d2cb50399549ef688913a"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-mobile-day-v1-1280.webp",
+      "bytes": 19594,
+      "sha256": "1d848c45cb1e2be2eb3e011c045e978828f6d356fbeabfad89f8d33ce577e030"
+    },
+    {
+      "path": "assets/production/avif/city-hannover-mobile-day-v1-1920.avif",
+      "bytes": 38348,
+      "sha256": "dc951b79a35ff748579141aae4c25a1c47b22a372a9469b616ba3b4fbcef6b06"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-mobile-day-v1-1920.webp",
+      "bytes": 35422,
+      "sha256": "bd7fdb3a6d5105730e7e7eb7597f5d3f9b54b0196d591032246793c1618e3bd4"
+    },
+    {
+      "path": "assets/production/avif/city-hannover-mobile-day-v1-2560.avif",
+      "bytes": 55666,
+      "sha256": "44c2d30366f7b98f5e52d90d61545daca327953015fb8c61ab76da994a5f954b"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-mobile-day-v1-2560.webp",
+      "bytes": 53464,
+      "sha256": "fd82ded6e3f451410086535ce855fdbec69929b6d88e7e6b2da85d0cbc14926b"
+    },
+    {
+      "path": "assets/production/avif/city-hannover-mobile-day-v1-3840.avif",
+      "bytes": 99172,
+      "sha256": "cff0ec0b8691f295811b5aeea7fffdaa400fd151f2ea1a92a54bbab705e0a818"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-mobile-day-v1-3840.webp",
+      "bytes": 104698,
+      "sha256": "25646fac4cc6911d416e67d6fd7131594824d81e643a7c2183254252b112bdba"
+    },
+    {
+      "path": "assets/production/png/city-hannover-mobile-day-v1-1152.png",
+      "bytes": 1679272,
+      "sha256": "9c0c66530cea757d681f1c5dcf64869f0dcf40675d56df47893897a27cc8205d"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-mobile-day-v1-320.avif",
+      "bytes": 4630,
+      "sha256": "5754faff34f9f436da18296e8ecdb4e91e88a4f1b3635533ed89e33173e3f238"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-mobile-day-v1-320.webp",
+      "bytes": 3998,
+      "sha256": "3621b6511bd8fd626a506debf1ce69d8d3b20c8aa21bddb08176bd97d6eb5578"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-mobile-day-v1-640.avif",
+      "bytes": 9883,
+      "sha256": "6cd06fa2b1a83e217473f811314bd00f16fb16b8880fa6f05a68796fdf66a2be"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-mobile-day-v1-640.webp",
+      "bytes": 8040,
+      "sha256": "8f58736be9e22ca2ebe7f3b1d42c76ff48eda630a1c0965a72808bcc0b2c2b04"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-mobile-day-v1-960.avif",
+      "bytes": 17233,
+      "sha256": "5fd1b2f13e7c5b18103a826ea2031f5a3560a38e3301ca1632f70a83ffc6282a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-mobile-day-v1-960.webp",
+      "bytes": 13970,
+      "sha256": "6dcb31e8815cf860af5e9c58eb2e0ac49b0fdc4050f84f64a937541c2587460a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-mobile-day-v1-1280.avif",
+      "bytes": 23516,
+      "sha256": "d4a24a32326b4564e4881547e430f878efbcac2b158d2cb50399549ef688913a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-mobile-day-v1-1280.webp",
+      "bytes": 19594,
+      "sha256": "1d848c45cb1e2be2eb3e011c045e978828f6d356fbeabfad89f8d33ce577e030"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-mobile-day-v1-1920.avif",
+      "bytes": 38348,
+      "sha256": "dc951b79a35ff748579141aae4c25a1c47b22a372a9469b616ba3b4fbcef6b06"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-mobile-day-v1-1920.webp",
+      "bytes": 35422,
+      "sha256": "bd7fdb3a6d5105730e7e7eb7597f5d3f9b54b0196d591032246793c1618e3bd4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-mobile-day-v1-2560.avif",
+      "bytes": 55666,
+      "sha256": "44c2d30366f7b98f5e52d90d61545daca327953015fb8c61ab76da994a5f954b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-mobile-day-v1-2560.webp",
+      "bytes": 53464,
+      "sha256": "fd82ded6e3f451410086535ce855fdbec69929b6d88e7e6b2da85d0cbc14926b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-mobile-day-v1-3840.avif",
+      "bytes": 99172,
+      "sha256": "cff0ec0b8691f295811b5aeea7fffdaa400fd151f2ea1a92a54bbab705e0a818"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-mobile-day-v1-3840.webp",
+      "bytes": 104698,
+      "sha256": "25646fac4cc6911d416e67d6fd7131594824d81e643a7c2183254252b112bdba"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-mobile-day-v1-1152.png",
+      "bytes": 1679272,
+      "sha256": "9c0c66530cea757d681f1c5dcf64869f0dcf40675d56df47893897a27cc8205d"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-hannover-mobile-day-v1.webp",
+      "bytes": 3998,
+      "sha256": "3621b6511bd8fd626a506debf1ce69d8d3b20c8aa21bddb08176bd97d6eb5578"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-hannover-mobile-day-v1.webp",
+      "bytes": 3998,
+      "sha256": "3621b6511bd8fd626a506debf1ce69d8d3b20c8aa21bddb08176bd97d6eb5578"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.716Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1679272
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:14:45.404Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

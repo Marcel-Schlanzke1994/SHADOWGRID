@@ -1,0 +1,75 @@
+{
+  "asset_id": "reward-top-10-v1",
+  "manifest_order": 850,
+  "category": "reward",
+  "batch": "rankings-rewards",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/reward-top-10-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100850,
+  "content_hash": "306e994e73a66d233285743fa23a42195f17db6f5156e55d7cd31824dcbca8a9",
+  "source_file": "assets/source/rewards/reward-top-10-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/reward-top-10-v1.svg",
+      "bytes": 1106,
+      "sha256": "306e994e73a66d233285743fa23a42195f17db6f5156e55d7cd31824dcbca8a9"
+    },
+    {
+      "path": "assets/production/webp/reward-top-10-v1-320.webp",
+      "bytes": 14158,
+      "sha256": "7b308826f3a82fb789785ea5f07d5097f08609e8b6309ea186b8fda2a7385b25"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/reward-top-10-v1.webp",
+      "bytes": 14158,
+      "sha256": "7b308826f3a82fb789785ea5f07d5097f08609e8b6309ea186b8fda2a7385b25"
+    },
+    {
+      "path": "apps/mobile/assets/library/reward-top-10-v1.webp",
+      "bytes": 14158,
+      "sha256": "7b308826f3a82fb789785ea5f07d5097f08609e8b6309ea186b8fda2a7385b25"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 1106
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:41:14.784Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

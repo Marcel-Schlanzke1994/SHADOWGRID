@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-property-management-exterior-level-1-v1",
+  "manifest_order": 493,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "exterior-level-1",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-property-management-exterior-level-1-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100493,
+  "content_hash": "16cc8e83d031b3f9e4bdbbf2544ff873afd820565c99cb016c6b93a734ab28cb",
+  "source_file": "assets/source/businesses/business-property-management-exterior-level-1-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-property-management-exterior-level-1-v1-320.avif",
+      "bytes": 2821,
+      "sha256": "d6b98e4904d993fdc48bb28405471ecae89a94c49259044b5014e212e9bf7d82"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-exterior-level-1-v1-320.webp",
+      "bytes": 2470,
+      "sha256": "4dbb740d99abd4ed5b0346acb4e4a09d574f4a09e44fa66ba7bdebe177a58cd9"
+    },
+    {
+      "path": "assets/production/avif/business-property-management-exterior-level-1-v1-640.avif",
+      "bytes": 6142,
+      "sha256": "50ff0d3d52dfdeaf63a7c30943c2a562b2adea1916a29998e1728a1f4979ad49"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-exterior-level-1-v1-640.webp",
+      "bytes": 4960,
+      "sha256": "65ed8a9e040463a0b7e0d99923d538e1fbe2d16c2ce20ea67e7473a952553530"
+    },
+    {
+      "path": "assets/production/avif/business-property-management-exterior-level-1-v1-960.avif",
+      "bytes": 9711,
+      "sha256": "5a35a5aacbad49db67cfdcd11fe185a27dc964089559c6a52ef58ca73064a905"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-exterior-level-1-v1-960.webp",
+      "bytes": 8258,
+      "sha256": "aa980a04f15246b1defae6f5cecaed4c90de5cfff43f1e27af4adce30e704e7b"
+    },
+    {
+      "path": "assets/production/avif/business-property-management-exterior-level-1-v1-1280.avif",
+      "bytes": 13835,
+      "sha256": "c7ade27c4e69f3cb21e0409d9814102b6f1656ce5011bcc9b644105e88bb5cda"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-exterior-level-1-v1-1280.webp",
+      "bytes": 10712,
+      "sha256": "ee1994a567d851271032fa8e8b59fdc54c91c6c8ecccfc12c90c67442a0e1ab5"
+    },
+    {
+      "path": "assets/production/avif/business-property-management-exterior-level-1-v1-1920.avif",
+      "bytes": 20599,
+      "sha256": "ec9ff0234165f4f0e01141cd4250b2a351e3edca5c520c2b5052d735c0e9f9bb"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-exterior-level-1-v1-1920.webp",
+      "bytes": 17454,
+      "sha256": "0131a323d3fbca243e07d65dc265975d246b3f8e47ea2eb9a974a1c7873ef122"
+    },
+    {
+      "path": "assets/production/avif/business-property-management-exterior-level-1-v1-2560.avif",
+      "bytes": 27621,
+      "sha256": "0d319aafd6ae1a904bff14f8e5f1d9d685dbee3cb258c6fdbf5937092b6364a2"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-exterior-level-1-v1-2560.webp",
+      "bytes": 23782,
+      "sha256": "5d5533bb975d9f85e59e5e4f79c0a363eeb2a5c15c6e6191b6c24323479d2ab4"
+    },
+    {
+      "path": "assets/production/avif/business-property-management-exterior-level-1-v1-3840.avif",
+      "bytes": 45775,
+      "sha256": "09e8d779f1d2baf1d3222e68e5376195a21779c38e458b00067e8aecef76e726"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-exterior-level-1-v1-3840.webp",
+      "bytes": 41728,
+      "sha256": "45c84b7751fe5efb48f2de237f6bae5cb8ef74b7af55ba8a2fd940bb1eb0893f"
+    },
+    {
+      "path": "assets/production/png/business-property-management-exterior-level-1-v1-1280.png",
+      "bytes": 629536,
+      "sha256": "09fcccbfa7c0c1ff347ae8a25f41f920f50cfa0d8261c8be6236ccd86c6e9137"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-property-management-exterior-level-1-v1.webp",
+      "bytes": 2470,
+      "sha256": "4dbb740d99abd4ed5b0346acb4e4a09d574f4a09e44fa66ba7bdebe177a58cd9"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-property-management-exterior-level-1-v1.webp",
+      "bytes": 2470,
+      "sha256": "4dbb740d99abd4ed5b0346acb4e4a09d574f4a09e44fa66ba7bdebe177a58cd9"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.638Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1458621
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:00:57.845Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}
