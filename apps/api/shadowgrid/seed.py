@@ -65,6 +65,51 @@ _RESOURCE_FIELDS = (
     "personnel_capacity",
 )
 
+OrganizationMembershipSeedSpec = tuple[str, str, str]
+
+
+def build_organization_membership_seed_plan(
+    eligible_profile_ids: list[str],
+    organization_ids: list[str],
+    *,
+    director_profile_id: str,
+    member_profile_id: str,
+) -> list[OrganizationMembershipSeedSpec]:
+    if len(organization_ids) != 4:
+        raise ValueError("The demo membership plan requires exactly four organizations")
+    if director_profile_id == member_profile_id:
+        raise ValueError("The director and member demo profiles must be distinct")
+    eligible = set(eligible_profile_ids)
+    if director_profile_id not in eligible or member_profile_id not in eligible:
+        raise ValueError("The dedicated demo profiles must be eligible for membership")
+
+    other_profile_ids = [
+        profile_id
+        for profile_id in eligible_profile_ids
+        if profile_id not in {director_profile_id, member_profile_id}
+    ]
+    if len(other_profile_ids) < 3:
+        raise ValueError("Each remaining demo organization requires a director")
+
+    plan: list[OrganizationMembershipSeedSpec] = [
+        (director_profile_id, organization_ids[0], "director"),
+        (member_profile_id, organization_ids[0], "member"),
+    ]
+    for index, profile_id in enumerate(other_profile_ids):
+        if index < 3:
+            plan.append((profile_id, organization_ids[index + 1], "director"))
+        else:
+            plan.append(
+                (
+                    profile_id,
+                    organization_ids[(index - 3) % len(organization_ids)],
+                    "member",
+                )
+            )
+    if len({profile_id for profile_id, _, _ in plan}) != len(plan):
+        raise RuntimeError("The demo membership plan assigned a profile more than once")
+    return plan
+
 
 def ensure_demo_resource_balance(
     db: Session,
@@ -458,35 +503,26 @@ def seed() -> None:
                         points=55 + index * 15,
                     )
                 )
-        for index, profile in enumerate(profiles[2:22]):
-            org = organizations[index % 4]
+        membership_plan = build_organization_membership_seed_plan(
+            [profile.id for profile in profiles[2:22]],
+            [organization.id for organization in organizations],
+            director_profile_id=director_profile.id,
+            member_profile_id=member_profile.id,
+        )
+        for profile_id, organization_id, role in membership_plan:
             membership = db.scalar(
                 select(OrganizationMembership).where(
-                    OrganizationMembership.organization_id == org.id,
-                    OrganizationMembership.profile_id == profile.id,
+                    OrganizationMembership.profile_id == profile_id
                 )
             )
             if membership is None:
                 db.add(
                     OrganizationMembership(
-                        organization_id=org.id,
-                        profile_id=profile.id,
-                        role="director" if index < 4 else "member",
+                        organization_id=organization_id,
+                        profile_id=profile_id,
+                        role=role,
                     )
                 )
-        director_membership = db.scalar(
-            select(OrganizationMembership).where(
-                OrganizationMembership.profile_id == director_profile.id
-            )
-        )
-        if director_membership is None:
-            db.add(
-                OrganizationMembership(
-                    organization_id=organizations[0].id,
-                    profile_id=director_profile.id,
-                    role="director",
-                )
-            )
         if db.scalar(select(Treaty).limit(1)) is None:
             now = datetime.now(UTC)
             db.add(

@@ -1,0 +1,130 @@
+SHADOWGRID final release evidence
+Step: Seed fresh release database first pass
+Command: pnpm seed
+Started: 2026-07-30T07:10:05.890Z
+
+$ pnpm migrate && node scripts/run-python.mjs --cwd apps/api -m shadowgrid.seed
+$ node scripts/run-python.mjs --cwd apps/api -m alembic upgrade head
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+Traceback (most recent call last):
+  File "C:\Users\Marcel\Downloads\shadowgrid\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2127, in _exec_insertmany_context
+    dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~^
+        cursor,
+        ^^^^^^^
+    ...<2 lines>...
+        context,
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\Marcel\Downloads\shadowgrid\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: UNIQUE constraint failed: organization_memberships.profile_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Marcel\Downloads\shadowgrid\apps\api\shadowgrid\seed.py", line 670, in <module>
+    seed()
+    ~~~~^^
+  File "C:\Users\Marcel\Downloads\shadowgrid\apps\api\shadowgrid\seed.py", line 602, in seed
+    db.flush()
+    ~~~~~~~~^^
+  File "C:\Users\Marcel\Downloads\shadowgrid\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 4353, in flush
+    self._flush(objects)
+    ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Marcel\Downloads\shadowgrid\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 4488, in _flush
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Marcel\Downloads\shadowgrid\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 122, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\Marcel\Downloads\shadowgrid\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 4449, in _flush
+    flush_context.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Marcel\Downloads\shadowgrid\.venv\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 465, in execute
+    rec.execute(self)
+    ~~~~~~~~~~~^^^^^^
+  File "C:\Users\Marcel\Downloads\shadowgrid\.venv\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 641, in execute
+    util.preloaded.orm_persistence.save_obj(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.mapper,
+        ^^^^^^^^^^^^
+        uow.states_for_mapper_hierarchy(self.mapper, False, False),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        uow,
+        ^^^^
+    )
+    ^
+  File "C:\Users\Marcel\Downloads\shadowgrid\.venv\Lib\site-packages\sqlalchemy\orm\persistence.py", line 94, in save_obj
+    _emit_insert_statements(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        base_mapper,
+        ^^^^^^^^^^^^
+    ...<3 lines>...
+        insert,
+        ^^^^^^^
+    )
+    ^
+  File "C:\Users\Marcel\Downloads\shadowgrid\.venv\Lib\site-packages\sqlalchemy\orm\persistence.py", line 1144, in _emit_insert_statements
+    result = connection.execute(
+        statement, multiparams, execution_options=execution_options
+    )
+  File "C:\Users\Marcel\Downloads\shadowgrid\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1421, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Users\Marcel\Downloads\shadowgrid\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Marcel\Downloads\shadowgrid\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Users\Marcel\Downloads\shadowgrid\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_insertmany_context(dialect, context)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Marcel\Downloads\shadowgrid\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2135, in _exec_insertmany_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e,
+        ^^
+    ...<4 lines>...
+        is_sub_exec=True,
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Marcel\Downloads\shadowgrid\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2365, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\Marcel\Downloads\shadowgrid\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2127, in _exec_insertmany_context
+    dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~^
+        cursor,
+        ^^^^^^^
+    ...<2 lines>...
+        context,
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\Marcel\Downloads\shadowgrid\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed: organization_memberships.profile_id
+[SQL: INSERT INTO organization_memberships (id, organization_id, profile_id, role, status, joined_at) VALUES (?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?), (?, ?,  ... 171 characters truncated ... , (?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?)]
+[parameters: ('c89e9155-f71b-4fed-9be7-c71bef62e2be', 'a6ca2c99-c661-49da-ac38-97a0d47043ba', '65e3c36a-598f-4cc8-9cd0-c28120f1118b', 'director', 'active', '2026-07-30 07:10:39.029651', '3bda49a9-fbec-49f8-b542-827e391fd0cd', '0c81da32-e453-4fa5-80fe-d9ecf56a64da', 'fa7b2502-a244-4932-8c80-4519e24fb26b', 'director', 'active', '2026-07-30 07:10:39.029675', 'a15dd256-fb24-47cc-8119-fde82649931d', 'a1143dd6-50d5-461a-bb6c-3e8c64afcf97', '7a2a67db-44d5-4a23-8344-ffd51772bba5', 'director', 'active', '2026-07-30 07:10:39.029691', '04957d7b-b301-4d37-8736-ef4a5ad546ef', 'bc3fc86a-fa1d-4085-a565-f00a3402d6b4', 'f8453cf5-3c7a-4c92-ac53-9e8bbfc2416e', 'director', 'active', '2026-07-30 07:10:39.029704', 'ece8d33d-a67a-4143-9aa5-051e5c7e98fe', 'a6ca2c99-c661-49da-ac38-97a0d47043ba', 'dfa6923a-75ba-4166-bccd-d1201a1f4990', 'member', 'active', '2026-07-30 07:10:39.029717', '13a85cdb-459a-455f-9f52-f8bfeeeffddb', '0c81da32-e453-4fa5-80fe-d9ecf56a64da', 'c30db496-799a-4e11-92e6-5dfa0c12864e', 'member', 'active', '2026-07-30 07:10:39.029732', '7c80f9c4-2d8e-4ffa-ba53-522ce0bbe884', 'a1143dd6-50d5-461a-bb6c-3e8c64afcf97', '0a66a01b-4db6-46f1-83d8-0a4138f15a20', 'member', 'active', '2026-07-30 07:10:39.029745', 'f9937fa7-8958-4220-bc07-4c24d748efdc', 'bc3fc86a-fa1d-4085-a565-f00a3402d6b4', '8c622766-d08b-4925-95a0-248937c58410', 'member', 'active', '2026-07-30 07:10:39.029757', '63c82996-7b27-4a9a-9755-96393c31c486', 'a6ca2c99-c661-49da-ac38-97a0d47043ba' ... 26 parameters truncated ... 'active', '2026-07-30 07:10:39.029831', '4d4d6370-65fe-410f-bcca-6ee89015c8a7', '0c81da32-e453-4fa5-80fe-d9ecf56a64da', '3a983d44-a236-414d-ab6d-6877e077249f', 'member', 'active', '2026-07-30 07:10:39.029845', 'b025806d-32f1-4abe-9af7-bd4b41c9e93e', 'a1143dd6-50d5-461a-bb6c-3e8c64afcf97', '409fbb27-ff0a-40c4-a917-c53201c3aabd', 'member', 'active', '2026-07-30 07:10:39.029857', 'af537344-8257-4bac-9c12-d73eabc9ea69', 'bc3fc86a-fa1d-4085-a565-f00a3402d6b4', 'e474bac6-a3c8-43ac-9c87-b626708cd5c9', 'member', 'active', '2026-07-30 07:10:39.029876', 'c8075791-be71-4c87-9d77-05d1f281b75d', 'a6ca2c99-c661-49da-ac38-97a0d47043ba', '21e5ba52-74b5-44d8-9b53-e18e1f6baf5a', 'member', 'active', '2026-07-30 07:10:39.029889', 'b2c35c96-4b65-43e9-9ae5-9e90bf9c2e6d', '0c81da32-e453-4fa5-80fe-d9ecf56a64da', '514c78b1-470d-4f9d-9167-c2546f7fa61a', 'member', 'active', '2026-07-30 07:10:39.029901', 'bdb9e936-6ce5-492c-8dbb-cd1a11efc42d', 'a1143dd6-50d5-461a-bb6c-3e8c64afcf97', '43f518d9-d633-4dfd-a206-534d3e9c6b3d', 'member', 'active', '2026-07-30 07:10:39.029914', '130727aa-5d3a-4aed-b1f6-73d0e63cc1b9', 'bc3fc86a-fa1d-4085-a565-f00a3402d6b4', 'b16df032-2361-4928-93b1-2344cdb15ed3', 'member', 'active', '2026-07-30 07:10:39.029926', '2b07fbdf-b4f7-4270-841a-b1ccd4c08a1e', 'a6ca2c99-c661-49da-ac38-97a0d47043ba', 'fa7b2502-a244-4932-8c80-4519e24fb26b', 'director', 'active', '2026-07-30 07:10:39.029939')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[ELIFECYCLE] Command failed with exit code 1.
+
+Finished: 2026-07-30T07:10:56.664Z
+Exit code: 1

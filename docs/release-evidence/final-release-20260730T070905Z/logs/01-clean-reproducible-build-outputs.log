@@ -1,0 +1,9 @@
+SHADOWGRID final release evidence
+Step: Clean reproducible build outputs
+Command: pnpm clean
+Started: 2026-07-30T07:09:22.029Z
+
+$ powershell -ExecutionPolicy Bypass -File scripts/project.ps1 clean
+
+Finished: 2026-07-30T07:09:32.709Z
+Exit code: 0
