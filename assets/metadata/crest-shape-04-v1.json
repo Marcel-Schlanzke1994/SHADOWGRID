@@ -1,0 +1,75 @@
+{
+  "asset_id": "crest-shape-04-v1",
+  "manifest_order": 616,
+  "category": "crest",
+  "batch": "cartel-crests",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/crest-shape-04-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100616,
+  "content_hash": "39f52633713d216ec9a9a397c88c6eb9778150e489159049b2f5500392ae07d6",
+  "source_file": "assets/source/cartels/crest-shape-04-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/crest-shape-04-v1.svg",
+      "bytes": 515,
+      "sha256": "39f52633713d216ec9a9a397c88c6eb9778150e489159049b2f5500392ae07d6"
+    },
+    {
+      "path": "assets/production/webp/crest-shape-04-v1-320.webp",
+      "bytes": 4844,
+      "sha256": "a52ccc95f441c12a14d9af1091da97c258023d5edd3afa36e1428e924b87abd8"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/crest-shape-04-v1.webp",
+      "bytes": 4844,
+      "sha256": "a52ccc95f441c12a14d9af1091da97c258023d5edd3afa36e1428e924b87abd8"
+    },
+    {
+      "path": "apps/mobile/assets/library/crest-shape-04-v1.webp",
+      "bytes": 4844,
+      "sha256": "a52ccc95f441c12a14d9af1091da97c258023d5edd3afa36e1428e924b87abd8"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 515
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:43:17.412Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

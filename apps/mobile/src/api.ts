@@ -2,12 +2,15 @@ import Constants from "expo-constants";
 import * as SecureStore from "expo-secure-store";
 import { ShadowgridClient } from "@shadowgrid/api-client";
 
+import { resolveApiBaseUrl } from "./api-config";
+
 const REFRESH_KEY = "shadowgrid.refresh-token";
 let accessToken: string | null = null;
-const baseUrl =
-  process.env.EXPO_PUBLIC_API_URL ??
-  (Constants.expoConfig?.extra?.apiUrl as string) ??
-  "http://localhost:8000/api/v1";
+const baseUrl = resolveApiBaseUrl(
+  process.env.EXPO_PUBLIC_API_URL,
+  Constants.expoConfig?.extra?.apiUrl as string | undefined,
+  process.env.EXPO_PUBLIC_APP_ENV,
+);
 
 const refresh = async (): Promise<boolean> => {
   const refreshToken = await SecureStore.getItemAsync(REFRESH_KEY);

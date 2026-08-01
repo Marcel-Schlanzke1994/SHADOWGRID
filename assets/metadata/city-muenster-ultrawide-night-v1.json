@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-muenster-ultrawide-night-v1",
+  "manifest_order": 220,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "muenster",
+  "variant": "ultrawide-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-muenster-ultrawide-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100220,
+  "content_hash": "f9138f5de04fcc2fdb266a70715beeea4fbdf3ec6f9360e155f0290b3cf289ca",
+  "source_file": "assets/source/cities/city-muenster-ultrawide-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-muenster-ultrawide-night-v1-320.avif",
+      "bytes": 3307,
+      "sha256": "9b8041245fa9da347c15e3d1f7258b0a3a2f93982b64865b48d6695f910cb0b3"
+    },
+    {
+      "path": "assets/production/webp/city-muenster-ultrawide-night-v1-320.webp",
+      "bytes": 3446,
+      "sha256": "b2937b94d8d4674fbed984615ceb6c6a586b9f6ad373c63a319aa2a123a3cf53"
+    },
+    {
+      "path": "assets/production/avif/city-muenster-ultrawide-night-v1-640.avif",
+      "bytes": 7214,
+      "sha256": "ebdf0620dc9c1ad6e1223c1b91328f2300bb544589fb88538286428074908519"
+    },
+    {
+      "path": "assets/production/webp/city-muenster-ultrawide-night-v1-640.webp",
+      "bytes": 7698,
+      "sha256": "ad838790d5b8034f4890a0e290433ffd00a6fb6d893e958d346fd42c33e007e9"
+    },
+    {
+      "path": "assets/production/avif/city-muenster-ultrawide-night-v1-960.avif",
+      "bytes": 12131,
+      "sha256": "20e7d3c8025d62c969310d820488f196076e43fac74eef9f9e388c59389d85be"
+    },
+    {
+      "path": "assets/production/webp/city-muenster-ultrawide-night-v1-960.webp",
+      "bytes": 12864,
+      "sha256": "b3bc70d60e5e0cb8065a9f74f9a92300c6460292cd3b8b4655d408d2e7443d24"
+    },
+    {
+      "path": "assets/production/avif/city-muenster-ultrawide-night-v1-1280.avif",
+      "bytes": 16008,
+      "sha256": "18d18d9a1f01c8ceaf8fbcef7d0b5ff2b6edac155e222e552295c22c4208e884"
+    },
+    {
+      "path": "assets/production/webp/city-muenster-ultrawide-night-v1-1280.webp",
+      "bytes": 16922,
+      "sha256": "ef810a32b64909ace417eb5eeeb25cefca57b4667004d386c38947fecaa9d877"
+    },
+    {
+      "path": "assets/production/avif/city-muenster-ultrawide-night-v1-1920.avif",
+      "bytes": 24650,
+      "sha256": "100ba6efd2301b9a3dc1e2c31abd0391d47b116880e97ece0ceb4c65c3351e03"
+    },
+    {
+      "path": "assets/production/webp/city-muenster-ultrawide-night-v1-1920.webp",
+      "bytes": 25520,
+      "sha256": "9e351327474f3a3d76f514a3624d92595d51b18e947c25be687703d7dcd50253"
+    },
+    {
+      "path": "assets/production/avif/city-muenster-ultrawide-night-v1-2560.avif",
+      "bytes": 32838,
+      "sha256": "ce27c5d2eeefc6cfe6894edaa7612a1582ea7d935dc714934830541de84d0f68"
+    },
+    {
+      "path": "assets/production/webp/city-muenster-ultrawide-night-v1-2560.webp",
+      "bytes": 33518,
+      "sha256": "d6310e1f272b9ee05a390dbb6078161bfd10762db8ee249c2dfae82c285d4762"
+    },
+    {
+      "path": "assets/production/avif/city-muenster-ultrawide-night-v1-3840.avif",
+      "bytes": 52082,
+      "sha256": "5f64c5d18bf9770dc8d8a8f1b23a0394d3cbea1599184cc2ce2e3dff96c556aa"
+    },
+    {
+      "path": "assets/production/webp/city-muenster-ultrawide-night-v1-3840.webp",
+      "bytes": 50380,
+      "sha256": "2e0ee4be2458ea9034545a0f8b616dfadb7a9450c913a8d15741893440b0d1ae"
+    },
+    {
+      "path": "assets/production/png/city-muenster-ultrawide-night-v1-1280.png",
+      "bytes": 486580,
+      "sha256": "ec80ab2a0dbae03fc8f92fd554c6f3d0eaaedf1a8041873b5e3bad9b65921f24"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-ultrawide-night-v1-320.avif",
+      "bytes": 3307,
+      "sha256": "9b8041245fa9da347c15e3d1f7258b0a3a2f93982b64865b48d6695f910cb0b3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-ultrawide-night-v1-320.webp",
+      "bytes": 3446,
+      "sha256": "b2937b94d8d4674fbed984615ceb6c6a586b9f6ad373c63a319aa2a123a3cf53"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-ultrawide-night-v1-640.avif",
+      "bytes": 7214,
+      "sha256": "ebdf0620dc9c1ad6e1223c1b91328f2300bb544589fb88538286428074908519"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-ultrawide-night-v1-640.webp",
+      "bytes": 7698,
+      "sha256": "ad838790d5b8034f4890a0e290433ffd00a6fb6d893e958d346fd42c33e007e9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-ultrawide-night-v1-960.avif",
+      "bytes": 12131,
+      "sha256": "20e7d3c8025d62c969310d820488f196076e43fac74eef9f9e388c59389d85be"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-ultrawide-night-v1-960.webp",
+      "bytes": 12864,
+      "sha256": "b3bc70d60e5e0cb8065a9f74f9a92300c6460292cd3b8b4655d408d2e7443d24"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-ultrawide-night-v1-1280.avif",
+      "bytes": 16008,
+      "sha256": "18d18d9a1f01c8ceaf8fbcef7d0b5ff2b6edac155e222e552295c22c4208e884"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-ultrawide-night-v1-1280.webp",
+      "bytes": 16922,
+      "sha256": "ef810a32b64909ace417eb5eeeb25cefca57b4667004d386c38947fecaa9d877"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-ultrawide-night-v1-1920.avif",
+      "bytes": 24650,
+      "sha256": "100ba6efd2301b9a3dc1e2c31abd0391d47b116880e97ece0ceb4c65c3351e03"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-ultrawide-night-v1-1920.webp",
+      "bytes": 25520,
+      "sha256": "9e351327474f3a3d76f514a3624d92595d51b18e947c25be687703d7dcd50253"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-ultrawide-night-v1-2560.avif",
+      "bytes": 32838,
+      "sha256": "ce27c5d2eeefc6cfe6894edaa7612a1582ea7d935dc714934830541de84d0f68"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-ultrawide-night-v1-2560.webp",
+      "bytes": 33518,
+      "sha256": "d6310e1f272b9ee05a390dbb6078161bfd10762db8ee249c2dfae82c285d4762"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-ultrawide-night-v1-3840.avif",
+      "bytes": 52082,
+      "sha256": "5f64c5d18bf9770dc8d8a8f1b23a0394d3cbea1599184cc2ce2e3dff96c556aa"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-ultrawide-night-v1-3840.webp",
+      "bytes": 50380,
+      "sha256": "2e0ee4be2458ea9034545a0f8b616dfadb7a9450c913a8d15741893440b0d1ae"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-ultrawide-night-v1-1280.png",
+      "bytes": 486580,
+      "sha256": "ec80ab2a0dbae03fc8f92fd554c6f3d0eaaedf1a8041873b5e3bad9b65921f24"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-muenster-ultrawide-night-v1.webp",
+      "bytes": 3446,
+      "sha256": "b2937b94d8d4674fbed984615ceb6c6a586b9f6ad373c63a319aa2a123a3cf53"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-muenster-ultrawide-night-v1.webp",
+      "bytes": 3446,
+      "sha256": "b2937b94d8d4674fbed984615ceb6c6a586b9f6ad373c63a319aa2a123a3cf53"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.251Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 2130038
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:11:27.370Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

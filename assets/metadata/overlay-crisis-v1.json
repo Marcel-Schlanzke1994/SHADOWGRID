@@ -1,0 +1,171 @@
+{
+  "asset_id": "overlay-crisis-v1",
+  "manifest_order": 824,
+  "category": "overlay",
+  "batch": "weather-overlays",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/overlay-crisis-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100824,
+  "content_hash": "298f83e7d1b00bf2106ffcdf66aacaad523f7978652d486956a669485912fe07",
+  "source_file": "assets/source/effects/overlay-crisis-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/overlay-crisis-v1-320.avif",
+      "bytes": 7333,
+      "sha256": "400a9c57c14ace3fc5f82f6ae5e6519763bba7d3b5d334647ee0a58c2c3b76fc"
+    },
+    {
+      "path": "assets/production/webp/overlay-crisis-v1-320.webp",
+      "bytes": 8768,
+      "sha256": "1cfef5a096cf7daf1b49d8407a1e28e90b31a72a1b6b7c836ba3d1d3244098ee"
+    },
+    {
+      "path": "assets/production/avif/overlay-crisis-v1-640.avif",
+      "bytes": 12285,
+      "sha256": "bcaffd87e978b5610a6a8cccf8521379faafbc42e748dffa054c0e28ed5f8f27"
+    },
+    {
+      "path": "assets/production/webp/overlay-crisis-v1-640.webp",
+      "bytes": 15296,
+      "sha256": "97d48d90f3316a88a77641ccafa5c7e558641fe4ea068abe2d57a4efeec24385"
+    },
+    {
+      "path": "assets/production/avif/overlay-crisis-v1-960.avif",
+      "bytes": 19432,
+      "sha256": "58b62af33ad84b34bfd1fa7177a1c6796b8906cb0ee4223172da47988bc420f7"
+    },
+    {
+      "path": "assets/production/webp/overlay-crisis-v1-960.webp",
+      "bytes": 24474,
+      "sha256": "ab5da96d2545ad34e207db431d8d8042ae995e1860203b38cf9aa7e95b733bf1"
+    },
+    {
+      "path": "assets/production/avif/overlay-crisis-v1-1280.avif",
+      "bytes": 23461,
+      "sha256": "e832961c0d7413cd02bad67368fc7d6710379a7a1b89274cf517683468bb6de2"
+    },
+    {
+      "path": "assets/production/webp/overlay-crisis-v1-1280.webp",
+      "bytes": 30944,
+      "sha256": "94425adbbd3a5883acf06b65645cce8b4ea522bf27a1b5b6f96fd2285a7fd059"
+    },
+    {
+      "path": "assets/production/avif/overlay-crisis-v1-1920.avif",
+      "bytes": 31272,
+      "sha256": "c92539c11d086dcc237ee88bea48cd6664f06f63d43670cad25b6052022d0c44"
+    },
+    {
+      "path": "assets/production/webp/overlay-crisis-v1-1920.webp",
+      "bytes": 42426,
+      "sha256": "d962667fa358edb7a31528af749e89d6386450d8b927b5f5f548f1bebecb5b5d"
+    },
+    {
+      "path": "assets/production/avif/overlay-crisis-v1-2560.avif",
+      "bytes": 35938,
+      "sha256": "4acae41e0780298e49d7a3ff811f8459330f024925e5c56563f005f77c690438"
+    },
+    {
+      "path": "assets/production/webp/overlay-crisis-v1-2560.webp",
+      "bytes": 43410,
+      "sha256": "b26d5ef83d4ac209558fcfe6ed9e885dd9e0a9b3bd9a741c1e9e400b702bcc12"
+    },
+    {
+      "path": "assets/production/avif/overlay-crisis-v1-3840.avif",
+      "bytes": 50863,
+      "sha256": "9ceab85f9e8e251dbf2e5e62fd4876445cabeb00d8c08838dedde8b5c392d5f2"
+    },
+    {
+      "path": "assets/production/webp/overlay-crisis-v1-3840.webp",
+      "bytes": 77156,
+      "sha256": "c759bdbcdc235a2b9b4f096da1a1b21ffd42810745a16b97ac89fc44e66ba43c"
+    },
+    {
+      "path": "assets/production/png/overlay-crisis-v1-1280.png",
+      "bytes": 37208,
+      "sha256": "033ada549024345d318b10e474c5be022c317c1014346445e78f5ecf916c127d"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/overlay-crisis-v1.webp",
+      "bytes": 8768,
+      "sha256": "1cfef5a096cf7daf1b49d8407a1e28e90b31a72a1b6b7c836ba3d1d3244098ee"
+    },
+    {
+      "path": "apps/mobile/assets/library/overlay-crisis-v1.webp",
+      "bytes": 8768,
+      "sha256": "1cfef5a096cf7daf1b49d8407a1e28e90b31a72a1b6b7c836ba3d1d3244098ee"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.4,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:28.126Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 93,
+      "architecture_plausibility": 90,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Boom, crisis, authority, organization control, contested, and blocked states use distinct graph, scan, zone, cross, and hatch semantics.",
+      "Transparent weather and material overlays were checked against the contact-sheet dark background; no unintended opaque fill or broken render remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": true,
+      "bytes": 31649
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T06:04:57.874Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

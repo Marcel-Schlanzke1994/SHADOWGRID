@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-wiesbaden-mobile-night-v1",
+  "manifest_order": 264,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "wiesbaden",
+  "variant": "mobile-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-wiesbaden-mobile-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100264,
+  "content_hash": "c083d34df7dae26acb508eadc7e970545c1a191e8312306ae628d34153a16506",
+  "source_file": "assets/source/cities/city-wiesbaden-mobile-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-wiesbaden-mobile-night-v1-320.avif",
+      "bytes": 6508,
+      "sha256": "36ac4d135c41562295ecc97345bfcd6d998be04eb05b4520199d65d6e19aef6b"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-mobile-night-v1-320.webp",
+      "bytes": 6826,
+      "sha256": "09fafe149fa749e288eee2ecbbac3a8afb75f9f7e27ab597a01ed98ac959b00f"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-mobile-night-v1-640.avif",
+      "bytes": 13207,
+      "sha256": "63f932d2f4d9b47beb7c24182816c44e47c814b041634e9a2984f44d2c27aa8d"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-mobile-night-v1-640.webp",
+      "bytes": 13298,
+      "sha256": "d664bbb2c8c3317fb9006fbe9ed7ca850092ad265aff3acdadd9240fcb10e8e0"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-mobile-night-v1-960.avif",
+      "bytes": 23442,
+      "sha256": "551859f6d4c0948068fcfbfeda7b5f9c28b2e73087a64b66f6e6a4c52f8d60fb"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-mobile-night-v1-960.webp",
+      "bytes": 21480,
+      "sha256": "5698d93bf51000ff95d4c678a71fa65cf8f845c30cd312f1503416370c1af7f8"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-mobile-night-v1-1280.avif",
+      "bytes": 30995,
+      "sha256": "e598690ccfd3ad452da14e8d678941c9fec36cb6659c6a18a548de1e520022a9"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-mobile-night-v1-1280.webp",
+      "bytes": 28442,
+      "sha256": "9bed5a0f17b7ee55222aefbbd9293b5a6d5529f6c3f34bdae5c9e033c917dc8b"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-mobile-night-v1-1920.avif",
+      "bytes": 50833,
+      "sha256": "2aa428b9f9089fc60cb211618a6825cd7fcfd735020df086412d2d09b005095a"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-mobile-night-v1-1920.webp",
+      "bytes": 45816,
+      "sha256": "77db098766773f2074372abd47037d7bafe054d54ad7cce2fe279f333f535a99"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-mobile-night-v1-2560.avif",
+      "bytes": 71553,
+      "sha256": "8d119374a307006a7e99ee2fd80c0e695b89fa91acafe0f20b0066bb253a5f6c"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-mobile-night-v1-2560.webp",
+      "bytes": 68050,
+      "sha256": "cdd4bf8a3bbef1346d5276db7bec3788efe8eacd2e9542b16e3e09c6b86cead0"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-mobile-night-v1-3840.avif",
+      "bytes": 124854,
+      "sha256": "5aabb8e0659f5932be393b8bcb23b2654755a0ba997c13570832caca372dca8c"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-mobile-night-v1-3840.webp",
+      "bytes": 123926,
+      "sha256": "8be6efbd2792b3d532d4601f54e88c6f369c3f8f4d826704951270496527fc28"
+    },
+    {
+      "path": "assets/production/png/city-wiesbaden-mobile-night-v1-1152.png",
+      "bytes": 1725691,
+      "sha256": "c083d34df7dae26acb508eadc7e970545c1a191e8312306ae628d34153a16506"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-night-v1-320.avif",
+      "bytes": 6508,
+      "sha256": "36ac4d135c41562295ecc97345bfcd6d998be04eb05b4520199d65d6e19aef6b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-night-v1-320.webp",
+      "bytes": 6826,
+      "sha256": "09fafe149fa749e288eee2ecbbac3a8afb75f9f7e27ab597a01ed98ac959b00f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-night-v1-640.avif",
+      "bytes": 13207,
+      "sha256": "63f932d2f4d9b47beb7c24182816c44e47c814b041634e9a2984f44d2c27aa8d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-night-v1-640.webp",
+      "bytes": 13298,
+      "sha256": "d664bbb2c8c3317fb9006fbe9ed7ca850092ad265aff3acdadd9240fcb10e8e0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-night-v1-960.avif",
+      "bytes": 23442,
+      "sha256": "551859f6d4c0948068fcfbfeda7b5f9c28b2e73087a64b66f6e6a4c52f8d60fb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-night-v1-960.webp",
+      "bytes": 21480,
+      "sha256": "5698d93bf51000ff95d4c678a71fa65cf8f845c30cd312f1503416370c1af7f8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-night-v1-1280.avif",
+      "bytes": 30995,
+      "sha256": "e598690ccfd3ad452da14e8d678941c9fec36cb6659c6a18a548de1e520022a9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-night-v1-1280.webp",
+      "bytes": 28442,
+      "sha256": "9bed5a0f17b7ee55222aefbbd9293b5a6d5529f6c3f34bdae5c9e033c917dc8b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-night-v1-1920.avif",
+      "bytes": 50833,
+      "sha256": "2aa428b9f9089fc60cb211618a6825cd7fcfd735020df086412d2d09b005095a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-night-v1-1920.webp",
+      "bytes": 45816,
+      "sha256": "77db098766773f2074372abd47037d7bafe054d54ad7cce2fe279f333f535a99"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-night-v1-2560.avif",
+      "bytes": 71553,
+      "sha256": "8d119374a307006a7e99ee2fd80c0e695b89fa91acafe0f20b0066bb253a5f6c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-night-v1-2560.webp",
+      "bytes": 68050,
+      "sha256": "cdd4bf8a3bbef1346d5276db7bec3788efe8eacd2e9542b16e3e09c6b86cead0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-night-v1-3840.avif",
+      "bytes": 124854,
+      "sha256": "5aabb8e0659f5932be393b8bcb23b2654755a0ba997c13570832caca372dca8c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-night-v1-3840.webp",
+      "bytes": 123926,
+      "sha256": "8be6efbd2792b3d532d4601f54e88c6f369c3f8f4d826704951270496527fc28"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-mobile-night-v1-1152.png",
+      "bytes": 1725691,
+      "sha256": "c083d34df7dae26acb508eadc7e970545c1a191e8312306ae628d34153a16506"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-wiesbaden-mobile-night-v1.webp",
+      "bytes": 6826,
+      "sha256": "09fafe149fa749e288eee2ecbbac3a8afb75f9f7e27ab597a01ed98ac959b00f"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-wiesbaden-mobile-night-v1.webp",
+      "bytes": 6826,
+      "sha256": "09fafe149fa749e288eee2ecbbac3a8afb75f9f7e27ab597a01ed98ac959b00f"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.763Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1725691
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:45:21.381Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

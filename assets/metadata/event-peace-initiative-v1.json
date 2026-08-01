@@ -1,0 +1,171 @@
+{
+  "asset_id": "event-peace-initiative-v1",
+  "manifest_order": 708,
+  "category": "event",
+  "batch": "world-events",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/event-peace-initiative-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100708,
+  "content_hash": "bc3d5a0c5efaab33ec9f159a7c93b00aa4ed553ae3644c3ac368b44fe6c31e76",
+  "source_file": "assets/source/events/event-peace-initiative-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/event-peace-initiative-v1-320.avif",
+      "bytes": 2899,
+      "sha256": "dec8ea86caefe4767271967f3042a42c22f0972d409376ab2e0d077d1de78bd9"
+    },
+    {
+      "path": "assets/production/webp/event-peace-initiative-v1-320.webp",
+      "bytes": 2760,
+      "sha256": "05bf585b4880a86b8482dd492f39a183ff2b2a7de9146bb5a74112a1ba33b51a"
+    },
+    {
+      "path": "assets/production/avif/event-peace-initiative-v1-640.avif",
+      "bytes": 6395,
+      "sha256": "25e9140ec419c319f2058925c80ff18c541bc6ee2221e494a23a9be7fb6c87d3"
+    },
+    {
+      "path": "assets/production/webp/event-peace-initiative-v1-640.webp",
+      "bytes": 5390,
+      "sha256": "5fd9df5ad12a9341929bd307f09a52c5e2645d26637f0582cfdf042adfd42cda"
+    },
+    {
+      "path": "assets/production/avif/event-peace-initiative-v1-960.avif",
+      "bytes": 10534,
+      "sha256": "c050ce22363dc6757e7df5d97b7c76b2d72b2c0fabc8f09fc1f9889ef70ab2a0"
+    },
+    {
+      "path": "assets/production/webp/event-peace-initiative-v1-960.webp",
+      "bytes": 9064,
+      "sha256": "a267efb36b43b108aa4fc9f888d21633574c8b030557ad4b2e5f765aa9b043e1"
+    },
+    {
+      "path": "assets/production/avif/event-peace-initiative-v1-1280.avif",
+      "bytes": 15490,
+      "sha256": "2deab9b5ff3ed2495fd36a10429b468643417dd1b19016b8829b75f19115224e"
+    },
+    {
+      "path": "assets/production/webp/event-peace-initiative-v1-1280.webp",
+      "bytes": 12240,
+      "sha256": "04c6e2c0d0a9575da33a7eacec5035bd1452075283de815906cdb348a28f1af0"
+    },
+    {
+      "path": "assets/production/avif/event-peace-initiative-v1-1920.avif",
+      "bytes": 23160,
+      "sha256": "9813404afc227131d50d6ca79d9c2501571bf1aa4abcaf5831b268856dfa67c4"
+    },
+    {
+      "path": "assets/production/webp/event-peace-initiative-v1-1920.webp",
+      "bytes": 19274,
+      "sha256": "e0c234905d8b39f54147b890fd9ad347378d87a211c13ba1e5236b49b2f19375"
+    },
+    {
+      "path": "assets/production/avif/event-peace-initiative-v1-2560.avif",
+      "bytes": 32021,
+      "sha256": "c7996563a2e1ce93ae93866e1ea6cd9761eb8629316db5580bc3867afc161f87"
+    },
+    {
+      "path": "assets/production/webp/event-peace-initiative-v1-2560.webp",
+      "bytes": 26910,
+      "sha256": "e94284aaa6378069a343e3bc7944804ec919a27942a6585a3c275bfd1221edad"
+    },
+    {
+      "path": "assets/production/avif/event-peace-initiative-v1-3840.avif",
+      "bytes": 51046,
+      "sha256": "758957c191e61df53c3a3f0e02a5d652068b8225e19ada46fcfc2c56092b1ebd"
+    },
+    {
+      "path": "assets/production/webp/event-peace-initiative-v1-3840.webp",
+      "bytes": 46636,
+      "sha256": "a1d395497982fba8b066c8a356bb0c6e28cc77d8300172c6660640ddc7377be7"
+    },
+    {
+      "path": "assets/production/png/event-peace-initiative-v1-1280.png",
+      "bytes": 690071,
+      "sha256": "ae09f1e40259937f170415774de64c96eb032fde5c99d80d9844ef85a331fbbd"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/event-peace-initiative-v1.webp",
+      "bytes": 2760,
+      "sha256": "05bf585b4880a86b8482dd492f39a183ff2b2a7de9146bb5a74112a1ba33b51a"
+    },
+    {
+      "path": "apps/mobile/assets/library/event-peace-initiative-v1.webp",
+      "bytes": 2760,
+      "sha256": "05bf585b4880a86b8482dd492f39a183ff2b2a7de9146bb5a74112a1ba33b51a"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:10.761Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 88,
+      "light_quality": 91,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Repeated motifs form a coherent event family while color, direction, and state treatment keep event classes distinguishable.",
+      "No missing render, unsafe real-world guidance, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1579535
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:33:22.352Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

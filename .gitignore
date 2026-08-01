@@ -33,6 +33,7 @@ test-results/
 uploads/
 backups/*.dump
 backups/*.tar.gz
+assets/asset-manifest.json.*.tmp
 
 # editor and OS
 .idea/

@@ -23,9 +23,25 @@
       "path": "assets/production/svg/branding-shadowgrid-logo-vertical-light-v1.svg",
       "bytes": 1373,
       "sha256": "ac99184a1e69ae8802c510219aceef20ce129fb23343305eefe9187b186cf4bf"
+    },
+    {
+      "path": "assets/production/webp/branding-shadowgrid-logo-vertical-light-v1-320.webp",
+      "bytes": 4400,
+      "sha256": "cd9d2486936c21dbddfbdb8c896449b0e1c054fa44b96fa8377703aeeed68d7d"
     }
   ],
-  "runtime_files": [],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/branding-shadowgrid-logo-vertical-light-v1.webp",
+      "bytes": 4400,
+      "sha256": "cd9d2486936c21dbddfbdb8c896449b0e1c054fa44b96fa8377703aeeed68d7d"
+    },
+    {
+      "path": "apps/mobile/assets/library/branding-shadowgrid-logo-vertical-light-v1.webp",
+      "bytes": 4400,
+      "sha256": "cd9d2486936c21dbddfbdb8c896449b0e1c054fa44b96fa8377703aeeed68d7d"
+    }
+  ],
   "contains_text": true,
   "contains_real_people": false,
   "contains_real_logos": false,

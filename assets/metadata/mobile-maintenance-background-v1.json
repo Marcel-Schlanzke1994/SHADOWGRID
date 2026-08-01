@@ -1,0 +1,171 @@
+{
+  "asset_id": "mobile-maintenance-background-v1",
+  "manifest_order": 865,
+  "category": "mobile",
+  "batch": "mobile",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/mobile-maintenance-background-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100865,
+  "content_hash": "535e35dc6ee3567a6dca9b4449e5ae0bf3ad94257f47db9a7ebf1f6454db5d76",
+  "source_file": "assets/source/marketing/mobile-maintenance-background-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/mobile-maintenance-background-v1-320.avif",
+      "bytes": 4837,
+      "sha256": "cc3abf874adbfed7e9bdfe7efae9a2169842c2dd34bcc41fe25061ab8af61975"
+    },
+    {
+      "path": "assets/production/webp/mobile-maintenance-background-v1-320.webp",
+      "bytes": 4054,
+      "sha256": "31480b6799ea17ec7a6dd167b344f52bff86d4020e393456c4c6d35bd04beb88"
+    },
+    {
+      "path": "assets/production/avif/mobile-maintenance-background-v1-640.avif",
+      "bytes": 10892,
+      "sha256": "4fa50137ef487d1cef58cfe2490f056453e4e03a77b497f030f582297efb1628"
+    },
+    {
+      "path": "assets/production/webp/mobile-maintenance-background-v1-640.webp",
+      "bytes": 8024,
+      "sha256": "caabc6e8d9fc31d7c0e7da2922f4d463c42e6e767f32e680d6f9c6d74066229d"
+    },
+    {
+      "path": "assets/production/avif/mobile-maintenance-background-v1-960.avif",
+      "bytes": 18466,
+      "sha256": "f1da1dfb2791d0e3294e0d6add1552fff1213a7729e1ab7439112803014aaba8"
+    },
+    {
+      "path": "assets/production/webp/mobile-maintenance-background-v1-960.webp",
+      "bytes": 14056,
+      "sha256": "4487fd0b35be06307d3e31e2eaae7a1236c18d38a551d52795c6427c93fe7122"
+    },
+    {
+      "path": "assets/production/avif/mobile-maintenance-background-v1-1280.avif",
+      "bytes": 25272,
+      "sha256": "f407c9c15e03265839adbd7cb1d0b9f45e0266aaa19cf03ca4ab98af1cb2eac9"
+    },
+    {
+      "path": "assets/production/webp/mobile-maintenance-background-v1-1280.webp",
+      "bytes": 20138,
+      "sha256": "367665ada76bef5f6a80a508099fe7ecd51a2d67586b40177e58da28d54cd090"
+    },
+    {
+      "path": "assets/production/avif/mobile-maintenance-background-v1-1920.avif",
+      "bytes": 40475,
+      "sha256": "e6e11f57471e5dcb0c444d36c3a9250e771dd0da08e9ebef7093e30bf00ee140"
+    },
+    {
+      "path": "assets/production/webp/mobile-maintenance-background-v1-1920.webp",
+      "bytes": 35602,
+      "sha256": "b374d77f4bebdff34721e72ae68ae5eaf6fc2c9db48c7475a1ac266f0ecebfc9"
+    },
+    {
+      "path": "assets/production/avif/mobile-maintenance-background-v1-2560.avif",
+      "bytes": 59437,
+      "sha256": "0be3e819890c1ceb6ce593e932ee3038f662c3870932b36a3e14775586109c58"
+    },
+    {
+      "path": "assets/production/webp/mobile-maintenance-background-v1-2560.webp",
+      "bytes": 53650,
+      "sha256": "87428c3a839b2285a55c4600b22e5bdee5fc9e1892ca39b18f03bbaadc41e05c"
+    },
+    {
+      "path": "assets/production/avif/mobile-maintenance-background-v1-3840.avif",
+      "bytes": 104444,
+      "sha256": "d39e64d9e89863b05ded5152e1b8919603a49f8096e5c7c9afcbd6a36e4b961c"
+    },
+    {
+      "path": "assets/production/webp/mobile-maintenance-background-v1-3840.webp",
+      "bytes": 107044,
+      "sha256": "5624685d255fba3c13eb4d35063939d9a2505cd48896e9eb4f930fa39a5603c1"
+    },
+    {
+      "path": "assets/production/png/mobile-maintenance-background-v1-1152.png",
+      "bytes": 1702921,
+      "sha256": "535e35dc6ee3567a6dca9b4449e5ae0bf3ad94257f47db9a7ebf1f6454db5d76"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/mobile-maintenance-background-v1.webp",
+      "bytes": 4054,
+      "sha256": "31480b6799ea17ec7a6dd167b344f52bff86d4020e393456c4c6d35bd04beb88"
+    },
+    {
+      "path": "apps/mobile/assets/library/mobile-maintenance-background-v1.webp",
+      "bytes": 4054,
+      "sha256": "31480b6799ea17ec7a6dd167b344f52bff86d4020e393456c4c6d35bd04beb88"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 94.4,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:37.310Z",
+    "scores": {
+      "realism": 90,
+      "style_consistency": 97,
+      "composition": 95,
+      "material_quality": 91,
+      "light_quality": 93,
+      "architecture_plausibility": 91,
+      "ui_suitability": 97,
+      "mobile_suitability": 98,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 96,
+      "contrast": 96,
+      "geometry_quality": 96,
+      "technical_quality": 98
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution, including transparent adaptive and monochrome assets.",
+      "The apparently empty monochrome contact-sheet cell was separately inspected and confirmed as a valid transparent single-color platform glyph.",
+      "Safe areas, contrast, transparency, and small-size behavior are suitable for the intended mobile placements."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1702921
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:46:13.909Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

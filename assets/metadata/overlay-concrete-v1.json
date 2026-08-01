@@ -1,0 +1,171 @@
+{
+  "asset_id": "overlay-concrete-v1",
+  "manifest_order": 833,
+  "category": "overlay",
+  "batch": "weather-overlays",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/overlay-concrete-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100833,
+  "content_hash": "f838314ee6efc03e92f5a4decc13451e139b205c6c9dc4d9c9771decf0d16a19",
+  "source_file": "assets/source/effects/overlay-concrete-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/overlay-concrete-v1-320.avif",
+      "bytes": 10038,
+      "sha256": "828c896563e5cdf4613984567243d792f8cc481985d5e05fae9f181b928c7743"
+    },
+    {
+      "path": "assets/production/webp/overlay-concrete-v1-320.webp",
+      "bytes": 27544,
+      "sha256": "4e0ce411bfd43f4ae36f076f5e12f3000ec3cb7ce3e6c5418736a5b96a923279"
+    },
+    {
+      "path": "assets/production/avif/overlay-concrete-v1-640.avif",
+      "bytes": 37447,
+      "sha256": "78499e930d4e4f3565394bad02bf0426533cff008ea16d2a9db6e8cd865483e5"
+    },
+    {
+      "path": "assets/production/webp/overlay-concrete-v1-640.webp",
+      "bytes": 130424,
+      "sha256": "0b036e953bf55fd045e8f114ad2f2bbd025141a814775afa923e97d6ef7f9f5f"
+    },
+    {
+      "path": "assets/production/avif/overlay-concrete-v1-960.avif",
+      "bytes": 147565,
+      "sha256": "a9d53078c8b9262ceb9ab20c837882a107fa94caba6072171900b176e567b0b3"
+    },
+    {
+      "path": "assets/production/webp/overlay-concrete-v1-960.webp",
+      "bytes": 363508,
+      "sha256": "5ea10dfaf2803b0d8574b41c5d30867b80ae5acbca8bf1962c2edd3dda63aa64"
+    },
+    {
+      "path": "assets/production/avif/overlay-concrete-v1-1280.avif",
+      "bytes": 258090,
+      "sha256": "9cf14a281d06d156a83144b95e9330506c082b78b5cc957bbad8dfada07c0bae"
+    },
+    {
+      "path": "assets/production/webp/overlay-concrete-v1-1280.webp",
+      "bytes": 716662,
+      "sha256": "12861efb6c04fb6a68e76752b3eed10b553c0d6a51b34779fc06b95a1bd966cd"
+    },
+    {
+      "path": "assets/production/avif/overlay-concrete-v1-1920.avif",
+      "bytes": 733930,
+      "sha256": "3f48e3d8c4720f1afc47becc23b9adb69f0605da9d7785847285b59f73695853"
+    },
+    {
+      "path": "assets/production/webp/overlay-concrete-v1-1920.webp",
+      "bytes": 1857432,
+      "sha256": "62cad90fb428fc0d67e8624e8d6cbd3a8537cacaef5985d769cabcf1943daa6b"
+    },
+    {
+      "path": "assets/production/avif/overlay-concrete-v1-2560.avif",
+      "bytes": 1269394,
+      "sha256": "962e5b11bbaeaf25240f63c5c988f653231418540c508b2e99a9508cfad56d82"
+    },
+    {
+      "path": "assets/production/webp/overlay-concrete-v1-2560.webp",
+      "bytes": 3154676,
+      "sha256": "757548ee0aa9b713e413238dd4d002fc3d2629a2223db4d661fee7901c10a9d4"
+    },
+    {
+      "path": "assets/production/avif/overlay-concrete-v1-3840.avif",
+      "bytes": 2731144,
+      "sha256": "65030295c43d9061879e4bc19b395b6be65802a6cff2138537a79c10d29f41a1"
+    },
+    {
+      "path": "assets/production/webp/overlay-concrete-v1-3840.webp",
+      "bytes": 6264014,
+      "sha256": "be63033f694fbc7be0dd088343537e2b55387b90a6283b165d25e0cb025cd610"
+    },
+    {
+      "path": "assets/production/png/overlay-concrete-v1-1280.png",
+      "bytes": 1111756,
+      "sha256": "b92c9782b985ca1790747e0837218f84631d79011f52f6bc41183223cdfb3124"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/overlay-concrete-v1.webp",
+      "bytes": 27544,
+      "sha256": "4e0ce411bfd43f4ae36f076f5e12f3000ec3cb7ce3e6c5418736a5b96a923279"
+    },
+    {
+      "path": "apps/mobile/assets/library/overlay-concrete-v1.webp",
+      "bytes": 27544,
+      "sha256": "4e0ce411bfd43f4ae36f076f5e12f3000ec3cb7ce3e6c5418736a5b96a923279"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.4,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:28.204Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 93,
+      "architecture_plausibility": 90,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Boom, crisis, authority, organization control, contested, and blocked states use distinct graph, scan, zone, cross, and hatch semantics.",
+      "Transparent weather and material overlays were checked against the contact-sheet dark background; no unintended opaque fill or broken render remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": true,
+      "bytes": 2361258
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T06:15:53.163Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

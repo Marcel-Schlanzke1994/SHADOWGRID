@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-harbor-quarter-normal-night-v1",
+  "manifest_order": 376,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal-night",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-harbor-quarter-normal-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100376,
+  "content_hash": "3c1d2338417a842527d9ff0c9b6cdcc12296d6d811001f2079f88172a41e422d",
+  "source_file": "assets/source/districts/district-harbor-quarter-normal-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-harbor-quarter-normal-night-v1-320.avif",
+      "bytes": 3674,
+      "sha256": "20ed0c2762f39ed152364865392a70eb2bd3720edd6a023132851a55784e274c"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-normal-night-v1-320.webp",
+      "bytes": 3514,
+      "sha256": "9c4367c990633e2773dba61044f85523645a7ef00552cdb7e03bed529b20e067"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-normal-night-v1-640.avif",
+      "bytes": 7431,
+      "sha256": "5e873d22b64343a8fb09dac099d9cec0736cb647330c64cd18cda3100c6811d9"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-normal-night-v1-640.webp",
+      "bytes": 7352,
+      "sha256": "8f732e5b3db074afb57e3c2b8c762d4404a4e3270f98ef6637b2eb1d5f365f0e"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-normal-night-v1-960.avif",
+      "bytes": 12661,
+      "sha256": "88f4f4f26f6af3e550a45e074a1a57a812ad357f7e23e88ffb4a5665c988e0f7"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-normal-night-v1-960.webp",
+      "bytes": 12468,
+      "sha256": "afcd509e139fb644987922ed842ccbb154ffebd451257092aa55596973e27092"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-normal-night-v1-1280.avif",
+      "bytes": 17304,
+      "sha256": "e44094151f484659b0ef33ba0e7277ace6f2e42000942d31eea816825a3ca55f"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-normal-night-v1-1280.webp",
+      "bytes": 16710,
+      "sha256": "bc6835a01ed4ed8126d7948626ef2701e75dd108caf404e63de6f2aa4096f33e"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-normal-night-v1-1920.avif",
+      "bytes": 27013,
+      "sha256": "750b70f52e5f6ab238bc5ced948fec580a17cc726b2491eb47e29caa59a28507"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-normal-night-v1-1920.webp",
+      "bytes": 25592,
+      "sha256": "9d89c121dfcf5b4147077117cb2fc8bd6f9a944fa7738264002f5e78109fd363"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-normal-night-v1-2560.avif",
+      "bytes": 35341,
+      "sha256": "9de4116ff48017bba5727988798d87c53e29e5fcac0f0ff89141c40695e31a94"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-normal-night-v1-2560.webp",
+      "bytes": 34012,
+      "sha256": "08686f850f0808f7adf72cec551144992b1d18259ce952c84710d577e77a2702"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-normal-night-v1-3840.avif",
+      "bytes": 57098,
+      "sha256": "ea6fd7fa78af12692906e4924271139c75c1ae13de7a74cd772fcdd9af225b03"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-normal-night-v1-3840.webp",
+      "bytes": 52662,
+      "sha256": "42878af88fe1a3ab67f11ee5a6293c398ecedcf0416e8d3c8990a8284104fade"
+    },
+    {
+      "path": "assets/production/png/district-harbor-quarter-normal-night-v1-1280.png",
+      "bytes": 655284,
+      "sha256": "637dc0df26a014536e5660f76fcec49aa00aa4e7af4dcf68dff98ffe6b44cfeb"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-harbor-quarter-normal-night-v1.webp",
+      "bytes": 3514,
+      "sha256": "9c4367c990633e2773dba61044f85523645a7ef00552cdb7e03bed529b20e067"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-harbor-quarter-normal-night-v1.webp",
+      "bytes": 3514,
+      "sha256": "9c4367c990633e2773dba61044f85523645a7ef00552cdb7e03bed529b20e067"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.506Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1460567
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:10:50.307Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -38,6 +38,11 @@
       "path": "assets/production/png/branding-shadowgrid-app-icon-master-v1-1024.png",
       "bytes": 86717,
       "sha256": "c3b4bd16cc46ee53319671db03b2b43bc25929b69038137052593e4202cb07a0"
+    },
+    {
+      "path": "assets/production/webp/branding-shadowgrid-app-icon-master-v1-320.webp",
+      "bytes": 18196,
+      "sha256": "2bd2eec1d45a75307d7861765ceb2b2d28f6127155cc56fc03c76fdc2eea9d9d"
     }
   ],
   "runtime_files": [
@@ -55,6 +60,16 @@
       "path": "apps/web/public/icon.svg",
       "bytes": 1260,
       "sha256": "4302db7dec4a9263c240e4772ceea293f50a571a4777a4ddfe640cb492ddffd6"
+    },
+    {
+      "path": "apps/web/public/assets/library/branding-shadowgrid-app-icon-master-v1.webp",
+      "bytes": 18196,
+      "sha256": "2bd2eec1d45a75307d7861765ceb2b2d28f6127155cc56fc03c76fdc2eea9d9d"
+    },
+    {
+      "path": "apps/mobile/assets/library/branding-shadowgrid-app-icon-master-v1.webp",
+      "bytes": 18196,
+      "sha256": "2bd2eec1d45a75307d7861765ceb2b2d28f6127155cc56fc03c76fdc2eea9d9d"
     }
   ],
   "contains_text": false,

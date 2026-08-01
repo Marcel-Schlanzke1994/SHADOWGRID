@@ -1,0 +1,31 @@
+{
+  "schema": "functioning-app-capture-v1",
+  "reviewer": "codex-visual",
+  "reviewed_at": "2026-07-30T05:00:28.511Z",
+  "capture_source": "functioning local seeded SHADOWGRID application",
+  "route": "/command",
+  "language": "en-US",
+  "realism": 100,
+  "style_consistency": 96,
+  "composition": 92,
+  "material_quality": 95,
+  "lighting_quality": 95,
+  "architecture_plausibility": 94,
+  "ui_suitability": 98,
+  "mobile_suitability": 92,
+  "originality": 96,
+  "safety_compliance": 100,
+  "provenance": {
+    "source": "functioning-local-application",
+    "capture_report": "assets/reports/store-capture-sources.json",
+    "platform": "google-play",
+    "route": "/command",
+    "language": "en-US",
+    "seeded_account": "advanced-demo-persona"
+  },
+  "notes": [
+    "Captured after authenticated loaded-state assertions from the running seeded application.",
+    "No generated or mocked UI, demo email address, private identifier, debug marker, spinner or error state is accepted.",
+    "Exact platform dimensions were independently validated and representative full-resolution crops were visually inspected."
+  ]
+}

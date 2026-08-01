@@ -170,35 +170,49 @@
       "path": "apps/web/public/assets/cities/city-berlin-desktop-night-v1-1280.png",
       "bytes": 1395773,
       "sha256": "64f1e58d587370d7e0bc54ffee92f624f4aca0b1adcde7c2aa512fec2e8728f0"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-berlin-desktop-night-v1.webp",
+      "bytes": 3484,
+      "sha256": "058df5f73092251c9efcd38e30d6158b8dfc3efd91bfe6b1ace21861b38ec144"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-berlin-desktop-night-v1.webp",
+      "bytes": 3484,
+      "sha256": "058df5f73092251c9efcd38e30d6158b8dfc3efd91bfe6b1ace21861b38ec144"
     }
   ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,
   "moderation_status": "approved",
-  "quality_score": 98.1,
+  "quality_score": 92.9,
   "quality_status": "approved",
   "review_status": "codex-visual-approved",
   "visual_review": {
-    "realism": 98,
-    "style_consistency": 100,
-    "composition": 100,
-    "material_quality": 98,
-    "lighting_quality": 99,
-    "architecture_plausibility": 97,
-    "ui_suitability": 100,
-    "mobile_suitability": 94,
-    "originality": 95,
-    "safety_compliance": 100,
-    "accepted_prompt": "Create the coordinated 16:9 night counterpart for this accepted fictional Berlin-inspired SHADOWGRID desktop hero.\n\nPreserve the exact desktop geometry: fictional canal and original low-profile bridge, broad tree-lined urban axis, mixed historic stone blocks, restrained postwar modernism, contemporary civic and creative offices, lower-right canal-edge and public-realm depth, center-right detail, and calm dark low-detail left 32% UI safe area. Keep it unmistakably the same fictional city composition. Do not reveal or invent any operational street, transit, government, surveillance, or civic layout.\n\nConvert the lighting to physically plausible capital-city night after rain: deep anthracite and cool blue-gray clouds, restrained warm-gold windows and street practical lights, subtle original bridge lighting, wet stone and canal reflections, realistic dark trees and water, and readable midtone architecture. Keep the left safe area calm and dark. Avoid saturated neon, overexposure, emergency lighting, warning-red gameplay cues, black crush, excessive haze, or spectacle.\n\nDo not add the Brandenburg Gate, Reichstag, Berlin TV Tower, Victory Column, Berlin Cathedral, Museum Island, East Side Gallery, Oberbaum Bridge, Potsdamer Platz, Alexanderplatz, government complexes, embassies, monuments, flags, real transit maps, exact street layouts, recognizable authority buildings, or any known photograph/viewpoint.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, surveillance instructions, routes, fantasy architecture, impossible geometry, excessive neon, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 16:9 night capital-city environment, intended final size 2048×1152, with no border, title, UI, or device mockup.",
-    "reference_images": [
-      "assets/source/cities/city-berlin-desktop-day-v1.png"
-    ],
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.159Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
     "notes": [
-      "Accepted first desktop night-conversion attempt.",
-      "Canal, bridge, tree-lined axis, mixed architecture, lower-right public-realm depth, and the left UI safe area remain coordinated with the approved desktop daytime counterpart.",
-      "Warm practical lights and wet reflections preserve depth without saturated neon or emergency cues; content-region midtones remain readable.",
-      "No known landmark, real authority building, street layout, embedded text, logo, identifiable person, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
     ]
   },
   "technical_validation": {

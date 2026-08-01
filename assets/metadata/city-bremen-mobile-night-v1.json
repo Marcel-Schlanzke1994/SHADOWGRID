@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-bremen-mobile-night-v1",
+  "manifest_order": 152,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "bremen",
+  "variant": "mobile-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-bremen-mobile-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100152,
+  "content_hash": "6de0c81ae68ed4644d208cc5dee80db32d219a5ade8d59d1534cd25e7ecda9dc",
+  "source_file": "assets/source/cities/city-bremen-mobile-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-bremen-mobile-night-v1-320.avif",
+      "bytes": 5644,
+      "sha256": "0bcf4cebc63478c1d4644e76f02be8c3dcf60aaddcf428662aec2b40416b914d"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-mobile-night-v1-320.webp",
+      "bytes": 5818,
+      "sha256": "cdd1121078e7bcfc310d85fb1a49ec11e649ef7490f464c4e30ce4c203e3afb3"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-mobile-night-v1-640.avif",
+      "bytes": 11398,
+      "sha256": "b124d893be20a45bc40c7e5a40380b5ed49fbc24c7e79b83bcfa9ef5acaac26c"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-mobile-night-v1-640.webp",
+      "bytes": 11552,
+      "sha256": "1de879f9e16d1d2e4cb5042d8cb46163b336a241a879a7647d54b06a6ac95563"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-mobile-night-v1-960.avif",
+      "bytes": 20519,
+      "sha256": "9387a83e6495fc1994446175df5d192ef037c217310189085ad564d20273dbd1"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-mobile-night-v1-960.webp",
+      "bytes": 18538,
+      "sha256": "488c935f8e5f83f3a6d8d6b1747da70c0bf2e5f551d458d9121fee54dca3404e"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-mobile-night-v1-1280.avif",
+      "bytes": 28438,
+      "sha256": "0cfc5c4cc1e25ba5a6905b8db4dbf38098449054fedc84cea2a96b6b8a4c55ec"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-mobile-night-v1-1280.webp",
+      "bytes": 25198,
+      "sha256": "8ba27eb9538e3f48f64942837363d6b5154d9e543acb4ce1e7c37605b73af07c"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-mobile-night-v1-1920.avif",
+      "bytes": 45318,
+      "sha256": "1d281bce4b908243aaa600e3e55ea5ecd40c5d510a95237acfb9143d81438796"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-mobile-night-v1-1920.webp",
+      "bytes": 41570,
+      "sha256": "2d229b098e3364ba27705827fea25ec67fa98a709df0c0bc6b3dc66ec3399e18"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-mobile-night-v1-2560.avif",
+      "bytes": 63333,
+      "sha256": "456c0204f9f5700c749a4dad80500cb4deb60019674188ac2286c8371a8649d8"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-mobile-night-v1-2560.webp",
+      "bytes": 60526,
+      "sha256": "1375be3f9885f498936212d4e6700edb21de737754ca83d5fb6385a9252bc8e2"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-mobile-night-v1-3840.avif",
+      "bytes": 112256,
+      "sha256": "20c6d8afcbe339a1def798e6dbf2d0602a891882e82b4568e7b81a6272127218"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-mobile-night-v1-3840.webp",
+      "bytes": 114124,
+      "sha256": "45fcb69c01d29695ccfa23c9123f495ac06aced98c3c1de04cbcef07802f1bd1"
+    },
+    {
+      "path": "assets/production/png/city-bremen-mobile-night-v1-1152.png",
+      "bytes": 1748810,
+      "sha256": "6de0c81ae68ed4644d208cc5dee80db32d219a5ade8d59d1534cd25e7ecda9dc"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-night-v1-320.avif",
+      "bytes": 5644,
+      "sha256": "0bcf4cebc63478c1d4644e76f02be8c3dcf60aaddcf428662aec2b40416b914d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-night-v1-320.webp",
+      "bytes": 5818,
+      "sha256": "cdd1121078e7bcfc310d85fb1a49ec11e649ef7490f464c4e30ce4c203e3afb3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-night-v1-640.avif",
+      "bytes": 11398,
+      "sha256": "b124d893be20a45bc40c7e5a40380b5ed49fbc24c7e79b83bcfa9ef5acaac26c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-night-v1-640.webp",
+      "bytes": 11552,
+      "sha256": "1de879f9e16d1d2e4cb5042d8cb46163b336a241a879a7647d54b06a6ac95563"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-night-v1-960.avif",
+      "bytes": 20519,
+      "sha256": "9387a83e6495fc1994446175df5d192ef037c217310189085ad564d20273dbd1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-night-v1-960.webp",
+      "bytes": 18538,
+      "sha256": "488c935f8e5f83f3a6d8d6b1747da70c0bf2e5f551d458d9121fee54dca3404e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-night-v1-1280.avif",
+      "bytes": 28438,
+      "sha256": "0cfc5c4cc1e25ba5a6905b8db4dbf38098449054fedc84cea2a96b6b8a4c55ec"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-night-v1-1280.webp",
+      "bytes": 25198,
+      "sha256": "8ba27eb9538e3f48f64942837363d6b5154d9e543acb4ce1e7c37605b73af07c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-night-v1-1920.avif",
+      "bytes": 45318,
+      "sha256": "1d281bce4b908243aaa600e3e55ea5ecd40c5d510a95237acfb9143d81438796"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-night-v1-1920.webp",
+      "bytes": 41570,
+      "sha256": "2d229b098e3364ba27705827fea25ec67fa98a709df0c0bc6b3dc66ec3399e18"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-night-v1-2560.avif",
+      "bytes": 63333,
+      "sha256": "456c0204f9f5700c749a4dad80500cb4deb60019674188ac2286c8371a8649d8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-night-v1-2560.webp",
+      "bytes": 60526,
+      "sha256": "1375be3f9885f498936212d4e6700edb21de737754ca83d5fb6385a9252bc8e2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-night-v1-3840.avif",
+      "bytes": 112256,
+      "sha256": "20c6d8afcbe339a1def798e6dbf2d0602a891882e82b4568e7b81a6272127218"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-night-v1-3840.webp",
+      "bytes": 114124,
+      "sha256": "45fcb69c01d29695ccfa23c9123f495ac06aced98c3c1de04cbcef07802f1bd1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-night-v1-1152.png",
+      "bytes": 1748810,
+      "sha256": "6de0c81ae68ed4644d208cc5dee80db32d219a5ade8d59d1534cd25e7ecda9dc"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-bremen-mobile-night-v1.webp",
+      "bytes": 5818,
+      "sha256": "cdd1121078e7bcfc310d85fb1a49ec11e649ef7490f464c4e30ce4c203e3afb3"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-bremen-mobile-night-v1.webp",
+      "bytes": 5818,
+      "sha256": "cdd1121078e7bcfc310d85fb1a49ec11e649ef7490f464c4e30ce4c203e3afb3"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.602Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1748810
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:01:53.067Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

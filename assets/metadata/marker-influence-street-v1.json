@@ -23,6 +23,11 @@
       "path": "assets/production/svg/marker-influence-street-v1.svg",
       "bytes": 713,
       "sha256": "d85814264246017c722c4113c49dfe78f5ed728eae0802efab4c818644a0b648"
+    },
+    {
+      "path": "assets/production/webp/marker-influence-street-v1-320.webp",
+      "bytes": 4768,
+      "sha256": "444e86429ce6dec94709e37516aac297a3eaad6ae53f6e99c84432b8fabe89d3"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/markers/marker-influence-street-v1.svg",
       "bytes": 713,
       "sha256": "d85814264246017c722c4113c49dfe78f5ed728eae0802efab4c818644a0b648"
+    },
+    {
+      "path": "apps/web/public/assets/markers/marker-influence-street-v1-320.webp",
+      "bytes": 4768,
+      "sha256": "444e86429ce6dec94709e37516aac297a3eaad6ae53f6e99c84432b8fabe89d3"
+    },
+    {
+      "path": "apps/web/public/assets/library/marker-influence-street-v1.webp",
+      "bytes": 4768,
+      "sha256": "444e86429ce6dec94709e37516aac297a3eaad6ae53f6e99c84432b8fabe89d3"
+    },
+    {
+      "path": "apps/mobile/assets/library/marker-influence-street-v1.webp",
+      "bytes": 4768,
+      "sha256": "444e86429ce6dec94709e37516aac297a3eaad6ae53f6e99c84432b8fabe89d3"
     }
   ],
   "contains_text": false,

@@ -1,0 +1,171 @@
+{
+  "asset_id": "pvp-talent-recruitment-preparation-v1",
+  "manifest_order": 592,
+  "category": "pvp",
+  "batch": "pvp",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "preparation",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/pvp-talent-recruitment-preparation-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100592,
+  "content_hash": "83797a22ea573eea494bc197d6e423282e429fd6003a13f51a0c4bb91beeeb32",
+  "source_file": "assets/source/pvp/pvp-talent-recruitment-preparation-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/pvp-talent-recruitment-preparation-v1-320.avif",
+      "bytes": 2721,
+      "sha256": "e26f2f99d840e61f5f86a43c2a4d7000a50a9a63d57891d6dd450267ea3f6754"
+    },
+    {
+      "path": "assets/production/webp/pvp-talent-recruitment-preparation-v1-320.webp",
+      "bytes": 1818,
+      "sha256": "92b71a7be69fc59ff6a531b8c836e4707bcfd8066e0173475f6e829b6748b7f6"
+    },
+    {
+      "path": "assets/production/avif/pvp-talent-recruitment-preparation-v1-640.avif",
+      "bytes": 6743,
+      "sha256": "c37cfd8cfaecbe0184e7e1936e93784e62b260bd89cfd563054ffb70e1fbceb3"
+    },
+    {
+      "path": "assets/production/webp/pvp-talent-recruitment-preparation-v1-640.webp",
+      "bytes": 5158,
+      "sha256": "93f1f5dcb6b7d20dde0aa07dc0da8c4c2f3ce143f0b85e021bcd04d5dce658e9"
+    },
+    {
+      "path": "assets/production/avif/pvp-talent-recruitment-preparation-v1-960.avif",
+      "bytes": 13062,
+      "sha256": "c3e6abaccb895a474e47304d47f7304e5194916d978f8a3ec135717f694303fb"
+    },
+    {
+      "path": "assets/production/webp/pvp-talent-recruitment-preparation-v1-960.webp",
+      "bytes": 9752,
+      "sha256": "e7519d12fe143b220e010c061fce2af18c82c1ca43cfaee47296440fe1856d70"
+    },
+    {
+      "path": "assets/production/avif/pvp-talent-recruitment-preparation-v1-1280.avif",
+      "bytes": 19115,
+      "sha256": "3e19e4ae95136860662673aedac837aa76e2321f10831fc9d42f7d1dfdce4204"
+    },
+    {
+      "path": "assets/production/webp/pvp-talent-recruitment-preparation-v1-1280.webp",
+      "bytes": 14014,
+      "sha256": "1950c7127a190a2b61a76a6cfd3e60b6bebb776808d206c99af082a8b0f6f83e"
+    },
+    {
+      "path": "assets/production/avif/pvp-talent-recruitment-preparation-v1-1920.avif",
+      "bytes": 29496,
+      "sha256": "b56ed589f89a4acc7248ccc4778b39426d78c4b53a3a151ee13f32e16988d7fc"
+    },
+    {
+      "path": "assets/production/webp/pvp-talent-recruitment-preparation-v1-1920.webp",
+      "bytes": 23760,
+      "sha256": "2d63431c4efa2cae2ec07f9bb280195fc66b241f8db897f1a485a5252b190435"
+    },
+    {
+      "path": "assets/production/avif/pvp-talent-recruitment-preparation-v1-2560.avif",
+      "bytes": 38259,
+      "sha256": "13c211ee5de991f7ebbc9dd580922b7ea863253b83ff0f79c077a9c9dfa14f90"
+    },
+    {
+      "path": "assets/production/webp/pvp-talent-recruitment-preparation-v1-2560.webp",
+      "bytes": 31734,
+      "sha256": "a547df8513ccebaa56349c0140eb61bf34c87faa2c4cc0d41dd27ef33d6f2f6d"
+    },
+    {
+      "path": "assets/production/avif/pvp-talent-recruitment-preparation-v1-3840.avif",
+      "bytes": 59667,
+      "sha256": "4a1dd3866a0823839e11747ad782e2d631de6579d2e0808f40555997bfe26f96"
+    },
+    {
+      "path": "assets/production/webp/pvp-talent-recruitment-preparation-v1-3840.webp",
+      "bytes": 50952,
+      "sha256": "23f32a5ec0dccd963b299c3e02b1918b023a2774e0aa32faff61c1165180631d"
+    },
+    {
+      "path": "assets/production/png/pvp-talent-recruitment-preparation-v1-1280.png",
+      "bytes": 179766,
+      "sha256": "29641fcc4664eef545cc7b7152f3e0898ae11b8dfa71d903529f76d3986be5eb"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/pvp-talent-recruitment-preparation-v1.webp",
+      "bytes": 1818,
+      "sha256": "92b71a7be69fc59ff6a531b8c836e4707bcfd8066e0173475f6e829b6748b7f6"
+    },
+    {
+      "path": "apps/mobile/assets/library/pvp-talent-recruitment-preparation-v1.webp",
+      "bytes": 1818,
+      "sha256": "92b71a7be69fc59ff6a531b8c836e4707bcfd8066e0173475f6e829b6748b7f6"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:48.924Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 93,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Preparation, success, and failure remain abstract strategic game states without actionable real-world attack or sabotage detail.",
+      "No missing render, unsafe instruction, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 217122
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:26:43.178Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

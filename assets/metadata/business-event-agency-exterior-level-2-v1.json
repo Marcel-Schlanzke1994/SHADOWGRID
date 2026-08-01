@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-event-agency-exterior-level-2-v1",
+  "manifest_order": 470,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "exterior-level-2",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-event-agency-exterior-level-2-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100470,
+  "content_hash": "a129739b1224270a84c012fa4bf118a83eea9b70198bd6b236477651e8f86f47",
+  "source_file": "assets/source/businesses/business-event-agency-exterior-level-2-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-event-agency-exterior-level-2-v1-320.avif",
+      "bytes": 2863,
+      "sha256": "ad4b3edde50370010c5a1f13c63698f69b9e51ad6e8fac16e7d43cbb5e5659f1"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-exterior-level-2-v1-320.webp",
+      "bytes": 2612,
+      "sha256": "55b9f674f10383da6fe03a15008853f8daebfb77c512e60a31ed5f84d4582959"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-exterior-level-2-v1-640.avif",
+      "bytes": 6515,
+      "sha256": "9dbe6e5c1d0fce3f43aaeeeb8f39b9f5017ae4e9188893b77a575e1414a7bb47"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-exterior-level-2-v1-640.webp",
+      "bytes": 5498,
+      "sha256": "842691baa5c5c23c84cc5ce52398f0c5b0bea3d33435c30acc63bcd52b29d65e"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-exterior-level-2-v1-960.avif",
+      "bytes": 10422,
+      "sha256": "370756ef52331697eaadc8291c33042b5bb21d12f22f25059cbafbeeb871c463"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-exterior-level-2-v1-960.webp",
+      "bytes": 8958,
+      "sha256": "27c7f9eef37a007574843ece59a6168e2dc7db1d8b5527723b43e40ff98c1a52"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-exterior-level-2-v1-1280.avif",
+      "bytes": 14673,
+      "sha256": "f52633c51f710dadc32efb761a17bebee84ab9240ec830f768369071b3401902"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-exterior-level-2-v1-1280.webp",
+      "bytes": 11836,
+      "sha256": "383ea8ddb606074220dac9f2fbff4f3b121cf9d384007fa3c1d62f7a173ef0f5"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-exterior-level-2-v1-1920.avif",
+      "bytes": 22225,
+      "sha256": "e260fec8aed0aa06e4bc2dd57bd67535f8c93f124f1ed309c63155c2c9df998b"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-exterior-level-2-v1-1920.webp",
+      "bytes": 19032,
+      "sha256": "abf9d23ece40f4ee047ec9e6103b33ac7bad75c6f5c8dd5d82860b901991ac93"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-exterior-level-2-v1-2560.avif",
+      "bytes": 30074,
+      "sha256": "e3fc30b6d990f9c0f5c44c46f568e776a1d4319dae078b95a8be789d78bd06f9"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-exterior-level-2-v1-2560.webp",
+      "bytes": 25858,
+      "sha256": "87d2f2c91cf1689f52056ce7fafb1431860a786677e2a945fe9fb12ec92884d6"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-exterior-level-2-v1-3840.avif",
+      "bytes": 48714,
+      "sha256": "8a2c246d1c28ee259bbb3cdc2533dcd63be31cc849e772781a1f1118cfaeeca6"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-exterior-level-2-v1-3840.webp",
+      "bytes": 45056,
+      "sha256": "5957348a21fc5eb8be61bbfeea755789316a7c31447a2f9d5aa2e844b3c95935"
+    },
+    {
+      "path": "assets/production/png/business-event-agency-exterior-level-2-v1-1280.png",
+      "bytes": 633989,
+      "sha256": "85d741f0dcf2f4cb923dc7b2bfab0c73592caa6e0a89f81829ce99673d0ea761"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-event-agency-exterior-level-2-v1.webp",
+      "bytes": 2612,
+      "sha256": "55b9f674f10383da6fe03a15008853f8daebfb77c512e60a31ed5f84d4582959"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-event-agency-exterior-level-2-v1.webp",
+      "bytes": 2612,
+      "sha256": "55b9f674f10383da6fe03a15008853f8daebfb77c512e60a31ed5f84d4582959"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.376Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1462860
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:54:02.543Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

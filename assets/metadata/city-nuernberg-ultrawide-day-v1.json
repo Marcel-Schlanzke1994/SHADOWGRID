@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-nuernberg-ultrawide-day-v1",
+  "manifest_order": 171,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "nuernberg",
+  "variant": "ultrawide-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-nuernberg-ultrawide-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100171,
+  "content_hash": "cf2043740d22a4af33f590854b2b649de2e57ce8e3b76d6debbada361c00199f",
+  "source_file": "assets/source/cities/city-nuernberg-ultrawide-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-nuernberg-ultrawide-day-v1-320.avif",
+      "bytes": 2672,
+      "sha256": "333cce53d4c87e77931c0fe8b963f16c1284236b3cfdaf3e397cc3b422a40083"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-ultrawide-day-v1-320.webp",
+      "bytes": 2398,
+      "sha256": "9dbc0d6e15494a1e978086e1e1d45f0304f24b4218041bfe77667c8df48324da"
+    },
+    {
+      "path": "assets/production/avif/city-nuernberg-ultrawide-day-v1-640.avif",
+      "bytes": 5111,
+      "sha256": "6a24caa594cbcef8a4e8328fb1d96c03edb97e62d431605f9a53e389a803a29a"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-ultrawide-day-v1-640.webp",
+      "bytes": 4644,
+      "sha256": "a1f52916efdb42be5a59c09c9c494bcb647e31c40f4ce6281aec2fad300ef5c6"
+    },
+    {
+      "path": "assets/production/avif/city-nuernberg-ultrawide-day-v1-960.avif",
+      "bytes": 8890,
+      "sha256": "1af624386d4928981b3cea16c1099f8bc4c1c08670d4446ff07c669bc08d19d1"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-ultrawide-day-v1-960.webp",
+      "bytes": 7676,
+      "sha256": "d51506b2cdd063ee2e8a8c75ad22d441a327d486bdcb3f664c6008df6910bd76"
+    },
+    {
+      "path": "assets/production/avif/city-nuernberg-ultrawide-day-v1-1280.avif",
+      "bytes": 11575,
+      "sha256": "811717c79bfef4b8491b20e84d1822e3595db9c3573e73dbb04523bac8b0f803"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-ultrawide-day-v1-1280.webp",
+      "bytes": 10080,
+      "sha256": "e0945373568e5fd1fb11dbb262a1c94fc95db73fa7ae04d39139f3a57c5ceade"
+    },
+    {
+      "path": "assets/production/avif/city-nuernberg-ultrawide-day-v1-1920.avif",
+      "bytes": 18320,
+      "sha256": "7e83e7cb5c1ecdecf0cd92dd415548d7650ce66177b377cf5a0d0906a4f57607"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-ultrawide-day-v1-1920.webp",
+      "bytes": 15502,
+      "sha256": "c700d0f91a702298d53a1522d2c47a709ce7ef3a5121e6aea27829d803ba95da"
+    },
+    {
+      "path": "assets/production/avif/city-nuernberg-ultrawide-day-v1-2560.avif",
+      "bytes": 24693,
+      "sha256": "2b5317655aea43b7362cd448ad47b7ad87b92af48a415feb23a4ec15dcd1db33"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-ultrawide-day-v1-2560.webp",
+      "bytes": 21524,
+      "sha256": "50c2cdcf552c9ef689ad4e25bf4205bb9f0b68247ad8a750fdcc2b3a62838cf2"
+    },
+    {
+      "path": "assets/production/avif/city-nuernberg-ultrawide-day-v1-3840.avif",
+      "bytes": 39970,
+      "sha256": "dd1beeab6795289d1e00dd7be311143dd48e3d0c8788b01ebfe65f04e3b06483"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-ultrawide-day-v1-3840.webp",
+      "bytes": 36580,
+      "sha256": "0e3db09cc6f01cd3417c3f9bf118625cb10caaafa9bef280fd5cf6253033a399"
+    },
+    {
+      "path": "assets/production/png/city-nuernberg-ultrawide-day-v1-1280.png",
+      "bytes": 412887,
+      "sha256": "5e7956a957de63e7e405554fbad9d97987175bc43ec4d3a0ba5665351d40974c"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-ultrawide-day-v1-320.avif",
+      "bytes": 2672,
+      "sha256": "333cce53d4c87e77931c0fe8b963f16c1284236b3cfdaf3e397cc3b422a40083"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-ultrawide-day-v1-320.webp",
+      "bytes": 2398,
+      "sha256": "9dbc0d6e15494a1e978086e1e1d45f0304f24b4218041bfe77667c8df48324da"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-ultrawide-day-v1-640.avif",
+      "bytes": 5111,
+      "sha256": "6a24caa594cbcef8a4e8328fb1d96c03edb97e62d431605f9a53e389a803a29a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-ultrawide-day-v1-640.webp",
+      "bytes": 4644,
+      "sha256": "a1f52916efdb42be5a59c09c9c494bcb647e31c40f4ce6281aec2fad300ef5c6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-ultrawide-day-v1-960.avif",
+      "bytes": 8890,
+      "sha256": "1af624386d4928981b3cea16c1099f8bc4c1c08670d4446ff07c669bc08d19d1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-ultrawide-day-v1-960.webp",
+      "bytes": 7676,
+      "sha256": "d51506b2cdd063ee2e8a8c75ad22d441a327d486bdcb3f664c6008df6910bd76"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-ultrawide-day-v1-1280.avif",
+      "bytes": 11575,
+      "sha256": "811717c79bfef4b8491b20e84d1822e3595db9c3573e73dbb04523bac8b0f803"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-ultrawide-day-v1-1280.webp",
+      "bytes": 10080,
+      "sha256": "e0945373568e5fd1fb11dbb262a1c94fc95db73fa7ae04d39139f3a57c5ceade"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-ultrawide-day-v1-1920.avif",
+      "bytes": 18320,
+      "sha256": "7e83e7cb5c1ecdecf0cd92dd415548d7650ce66177b377cf5a0d0906a4f57607"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-ultrawide-day-v1-1920.webp",
+      "bytes": 15502,
+      "sha256": "c700d0f91a702298d53a1522d2c47a709ce7ef3a5121e6aea27829d803ba95da"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-ultrawide-day-v1-2560.avif",
+      "bytes": 24693,
+      "sha256": "2b5317655aea43b7362cd448ad47b7ad87b92af48a415feb23a4ec15dcd1db33"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-ultrawide-day-v1-2560.webp",
+      "bytes": 21524,
+      "sha256": "50c2cdcf552c9ef689ad4e25bf4205bb9f0b68247ad8a750fdcc2b3a62838cf2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-ultrawide-day-v1-3840.avif",
+      "bytes": 39970,
+      "sha256": "dd1beeab6795289d1e00dd7be311143dd48e3d0c8788b01ebfe65f04e3b06483"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-ultrawide-day-v1-3840.webp",
+      "bytes": 36580,
+      "sha256": "0e3db09cc6f01cd3417c3f9bf118625cb10caaafa9bef280fd5cf6253033a399"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-ultrawide-day-v1-1280.png",
+      "bytes": 412887,
+      "sha256": "5e7956a957de63e7e405554fbad9d97987175bc43ec4d3a0ba5665351d40974c"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-nuernberg-ultrawide-day-v1.webp",
+      "bytes": 2398,
+      "sha256": "9dbc0d6e15494a1e978086e1e1d45f0304f24b4218041bfe77667c8df48324da"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-nuernberg-ultrawide-day-v1.webp",
+      "bytes": 2398,
+      "sha256": "9dbc0d6e15494a1e978086e1e1d45f0304f24b4218041bfe77667c8df48324da"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.746Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 2098124
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:18:01.699Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

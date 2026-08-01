@@ -1,0 +1,171 @@
+{
+  "asset_id": "city-template-large-city-technology-day-mobile-v1",
+  "manifest_order": 329,
+  "category": "city-template",
+  "batch": "procedural-city-templates",
+  "city": null,
+  "variant": "day-mobile",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-template-large-city-technology-day-mobile-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100329,
+  "content_hash": "0bb30e3580491db9bf7998ac0b35ee59f4d598fb05fdfece6da7b0d144efe4dd",
+  "source_file": "assets/source/global/city-template-large-city-technology-day-mobile-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-template-large-city-technology-day-mobile-v1-320.avif",
+      "bytes": 4741,
+      "sha256": "6ffe996dfc94fccc593676b9355a68dae9e31f4ec80237bae36362b1c97f766c"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-technology-day-mobile-v1-320.webp",
+      "bytes": 3896,
+      "sha256": "bc237d48ed53955954ba4589907c0d27c3f436f940f5edce7afc8cb1e861e172"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-technology-day-mobile-v1-640.avif",
+      "bytes": 9828,
+      "sha256": "91f26ac5ea2a777a3f4d6587acc0d96dddf6b08a2c699b99a550a55207664596"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-technology-day-mobile-v1-640.webp",
+      "bytes": 7900,
+      "sha256": "eba5f4ddbed86bcb178a777d2a4d22b32636637e04193f033e36af3be2802204"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-technology-day-mobile-v1-960.avif",
+      "bytes": 16885,
+      "sha256": "1f10d23d6252984a68d477df53a8a4d763aa0f7cc986e0df73ca21dcc6f24d8a"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-technology-day-mobile-v1-960.webp",
+      "bytes": 14036,
+      "sha256": "d5341a747fe5ac51d774c283a202176c14b1d2a2287ef091d7c27819a41ef42d"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-technology-day-mobile-v1-1280.avif",
+      "bytes": 22815,
+      "sha256": "85e1bb8be7381dcf7380dd4b14be979a638da3bac7fda28d99b2f916947e1b89"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-technology-day-mobile-v1-1280.webp",
+      "bytes": 19228,
+      "sha256": "7bbaf96e22c04824386d29ee65df043cf99e93a319101acd1a60d8b01ede9654"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-technology-day-mobile-v1-1920.avif",
+      "bytes": 37223,
+      "sha256": "4706e7ae30884ba7325554407f2aee0b461da5183ab689a5611f0cc1786b8357"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-technology-day-mobile-v1-1920.webp",
+      "bytes": 34528,
+      "sha256": "b62b8ea4d8d7dce03c6b88d7e65bdfacf4ad029589e4018a589bc3084a5ac56c"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-technology-day-mobile-v1-2560.avif",
+      "bytes": 54364,
+      "sha256": "6d0a6308145fcf6b9c92b3affcf3074bd954bcea5b787c20b73dc1cb06fb1ff3"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-technology-day-mobile-v1-2560.webp",
+      "bytes": 52756,
+      "sha256": "80cddcb44a6242d9efdeea85798ce830043b764657afd6fd32b33ca6d14a14b5"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-technology-day-mobile-v1-3840.avif",
+      "bytes": 96248,
+      "sha256": "90aae3f065ce08de9bd007911452da7a23884f1dd817a7dd7391ded6c80362ce"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-technology-day-mobile-v1-3840.webp",
+      "bytes": 104548,
+      "sha256": "0ff85c3053329b91c90166f283ba8d4f49dbdf91d7fbcccc99e32022e6fcb747"
+    },
+    {
+      "path": "assets/production/png/city-template-large-city-technology-day-mobile-v1-1152.png",
+      "bytes": 1686947,
+      "sha256": "0bb30e3580491db9bf7998ac0b35ee59f4d598fb05fdfece6da7b0d144efe4dd"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/city-template-large-city-technology-day-mobile-v1.webp",
+      "bytes": 3896,
+      "sha256": "bc237d48ed53955954ba4589907c0d27c3f436f940f5edce7afc8cb1e861e172"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-template-large-city-technology-day-mobile-v1.webp",
+      "bytes": 3896,
+      "sha256": "bc237d48ed53955954ba4589907c0d27c3f436f940f5edce7afc8cb1e861e172"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 91.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:55.198Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 92,
+      "material_quality": 87,
+      "light_quality": 89,
+      "architecture_plausibility": 89,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 92,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All four paged contact sheets were inspected at original resolution.",
+      "The templates are intentionally stylized deterministic fallbacks and remain compositionally useful across every required aspect ratio.",
+      "No missing render, broken geometry, sensitive infrastructure detail, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1686947
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:32:41.566Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

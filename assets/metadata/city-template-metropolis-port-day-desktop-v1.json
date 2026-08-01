@@ -1,0 +1,171 @@
+{
+  "asset_id": "city-template-metropolis-port-day-desktop-v1",
+  "manifest_order": 317,
+  "category": "city-template",
+  "batch": "procedural-city-templates",
+  "city": null,
+  "variant": "day-desktop",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-template-metropolis-port-day-desktop-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100317,
+  "content_hash": "19dcd21c1ae9afa315cd2a1f7465b0e4b9ed78b8b8d03d9dca0c689a1601a59c",
+  "source_file": "assets/source/global/city-template-metropolis-port-day-desktop-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-template-metropolis-port-day-desktop-v1-320.avif",
+      "bytes": 2921,
+      "sha256": "c0f184e234988249006109892ec9833bf9295ae34f3f66a801370135814638bf"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-port-day-desktop-v1-320.webp",
+      "bytes": 2732,
+      "sha256": "cb0af01339dd4271edbfe8a94deb392ccb8a65f9ba9a8e06ced5243170b3da9f"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-port-day-desktop-v1-640.avif",
+      "bytes": 6267,
+      "sha256": "4235c223bf6c8f3a37a0d216f6ba9c483265385c0ff3faf63346728a77899707"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-port-day-desktop-v1-640.webp",
+      "bytes": 5386,
+      "sha256": "47840280adf2c3b5fe3e8ed9d1649397156d9adc59d584a10c6bd723e3f17e1c"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-port-day-desktop-v1-960.avif",
+      "bytes": 10144,
+      "sha256": "e82981015bdb341e17b8a2597bfaa53274488a699eaa3a4ac913f08ac3a92d21"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-port-day-desktop-v1-960.webp",
+      "bytes": 8794,
+      "sha256": "9de4a143b6936dd2a1e7b38e6f07124cc7a8790bbb8a6b115a1efb4d6a73ae68"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-port-day-desktop-v1-1280.avif",
+      "bytes": 14767,
+      "sha256": "bea4524982c6add1c43bc60866e0c7f4021ccf600718316f0e2ba8d37d40b074"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-port-day-desktop-v1-1280.webp",
+      "bytes": 11704,
+      "sha256": "fc4064c3ed6377b818ca2405041267f998216be9b8f72bf962b7d30551c1e617"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-port-day-desktop-v1-1920.avif",
+      "bytes": 21832,
+      "sha256": "45c789d3f5c68248109b7d230e274d599195dfd8bec6b9ca9003d771b981d495"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-port-day-desktop-v1-1920.webp",
+      "bytes": 18132,
+      "sha256": "97393df0f674d2cf1a84e8f57113917665a76bc457aa163af8647dd738225c22"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-port-day-desktop-v1-2560.avif",
+      "bytes": 29959,
+      "sha256": "44c10c4fd11dd7b3c5da2bfbb934e729f1612ad63c0c4513ad90a6149beb8aa0"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-port-day-desktop-v1-2560.webp",
+      "bytes": 25446,
+      "sha256": "e90fad0d709d0a7d1616a708a95cddeb394b52ee820ab69c674efdfedbc6472e"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-port-day-desktop-v1-3840.avif",
+      "bytes": 47429,
+      "sha256": "21f227aeaa64b3247fcd5bb7536eb6cf11049989b2e99535d1c605b641b0dc41"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-port-day-desktop-v1-3840.webp",
+      "bytes": 44520,
+      "sha256": "75c04d3f5683696dee3a45a2d1513f7692e61c3f3b6deaf4eeac0fa02a804485"
+    },
+    {
+      "path": "assets/production/png/city-template-metropolis-port-day-desktop-v1-1280.png",
+      "bytes": 725355,
+      "sha256": "f6d1bbd62a33f77052ac875b85595a66774e9fd7948216acd5b001a943743f4c"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/city-template-metropolis-port-day-desktop-v1.webp",
+      "bytes": 2732,
+      "sha256": "cb0af01339dd4271edbfe8a94deb392ccb8a65f9ba9a8e06ced5243170b3da9f"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-template-metropolis-port-day-desktop-v1.webp",
+      "bytes": 2732,
+      "sha256": "cb0af01339dd4271edbfe8a94deb392ccb8a65f9ba9a8e06ced5243170b3da9f"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 91.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:54.979Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 92,
+      "material_quality": 87,
+      "light_quality": 89,
+      "architecture_plausibility": 89,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 92,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All four paged contact sheets were inspected at original resolution.",
+      "The templates are intentionally stylized deterministic fallbacks and remain compositionally useful across every required aspect ratio.",
+      "No missing render, broken geometry, sensitive infrastructure detail, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1648917
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:24:48.326Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-duisburg-desktop-day-v1",
+  "manifest_order": 181,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "duisburg",
+  "variant": "desktop-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-duisburg-desktop-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100181,
+  "content_hash": "f0884f5669d6344ec4e5bbefd377c0a682826672f7da76a93728aff5bf367c36",
+  "source_file": "assets/source/cities/city-duisburg-desktop-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-duisburg-desktop-day-v1-320.avif",
+      "bytes": 2896,
+      "sha256": "8439d096bb5ee177723708613ed655e226f684dfb94025b9ef6a5e7c48321d07"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-desktop-day-v1-320.webp",
+      "bytes": 2612,
+      "sha256": "843d03acbc8c6f46b9ee026c8df04e4b2fb9770b3325a4b4319bc7b97938886a"
+    },
+    {
+      "path": "assets/production/avif/city-duisburg-desktop-day-v1-640.avif",
+      "bytes": 6308,
+      "sha256": "be323ebdc3f9f5ae10f64ecaed8c83698306544f22cff86baaa301e832d66a86"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-desktop-day-v1-640.webp",
+      "bytes": 5260,
+      "sha256": "b32a59e207d8b5fb81c4ed4bbfc03e1d16ee6abc45cc5e566bbabc66286b736d"
+    },
+    {
+      "path": "assets/production/avif/city-duisburg-desktop-day-v1-960.avif",
+      "bytes": 10374,
+      "sha256": "7ceb5ed9896e48d08582ae7b20f823743fdc2fcf90028cd50ad3c788a56d0ffa"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-desktop-day-v1-960.webp",
+      "bytes": 8640,
+      "sha256": "b8b219319ff93590910967998124e7138067052ff6dc47bc4c5515b8489d1836"
+    },
+    {
+      "path": "assets/production/avif/city-duisburg-desktop-day-v1-1280.avif",
+      "bytes": 14898,
+      "sha256": "d7e42121c64a1151b3b598192840f15684dc447a1689f02ac85f7f6280a7cb44"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-desktop-day-v1-1280.webp",
+      "bytes": 11312,
+      "sha256": "d0718b2d36d28a8817a5c589070c2d6d1c4eb5bdea3054369b4974389af5d74e"
+    },
+    {
+      "path": "assets/production/avif/city-duisburg-desktop-day-v1-1920.avif",
+      "bytes": 21730,
+      "sha256": "9fc9f7c38a485fef41a4b0a3ab04af579507520f31793bf72501e995b9e846bc"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-desktop-day-v1-1920.webp",
+      "bytes": 17354,
+      "sha256": "bd1934a050adb081e497ce7ab2f826c05abc5afef9d9ac075f998cfb2823d4fb"
+    },
+    {
+      "path": "assets/production/avif/city-duisburg-desktop-day-v1-2560.avif",
+      "bytes": 29437,
+      "sha256": "79ddab2c9c3dbc04946913cd33fc3c70001577573c75788db46aa3b2ead673cf"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-desktop-day-v1-2560.webp",
+      "bytes": 24736,
+      "sha256": "7b045d065daf37b67ec009e593c5d0ac671058b3f942fef6c868c3c4af2d65c2"
+    },
+    {
+      "path": "assets/production/avif/city-duisburg-desktop-day-v1-3840.avif",
+      "bytes": 47135,
+      "sha256": "3c361e266e0a25d0478b284c837b0f8f1f5714a663bce25c4f6b13ba10bbb1ca"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-desktop-day-v1-3840.webp",
+      "bytes": 43068,
+      "sha256": "478bdc6396a4f01a25522fe4ba3890bc8c9813deaa27b576beb4d38074dbc4f9"
+    },
+    {
+      "path": "assets/production/png/city-duisburg-desktop-day-v1-1280.png",
+      "bytes": 708121,
+      "sha256": "6279e6a871edf218d4d44146ea4efc912c6aa4f5b79d4a1f2c1ae01b77358293"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-desktop-day-v1-320.avif",
+      "bytes": 2896,
+      "sha256": "8439d096bb5ee177723708613ed655e226f684dfb94025b9ef6a5e7c48321d07"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-desktop-day-v1-320.webp",
+      "bytes": 2612,
+      "sha256": "843d03acbc8c6f46b9ee026c8df04e4b2fb9770b3325a4b4319bc7b97938886a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-desktop-day-v1-640.avif",
+      "bytes": 6308,
+      "sha256": "be323ebdc3f9f5ae10f64ecaed8c83698306544f22cff86baaa301e832d66a86"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-desktop-day-v1-640.webp",
+      "bytes": 5260,
+      "sha256": "b32a59e207d8b5fb81c4ed4bbfc03e1d16ee6abc45cc5e566bbabc66286b736d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-desktop-day-v1-960.avif",
+      "bytes": 10374,
+      "sha256": "7ceb5ed9896e48d08582ae7b20f823743fdc2fcf90028cd50ad3c788a56d0ffa"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-desktop-day-v1-960.webp",
+      "bytes": 8640,
+      "sha256": "b8b219319ff93590910967998124e7138067052ff6dc47bc4c5515b8489d1836"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-desktop-day-v1-1280.avif",
+      "bytes": 14898,
+      "sha256": "d7e42121c64a1151b3b598192840f15684dc447a1689f02ac85f7f6280a7cb44"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-desktop-day-v1-1280.webp",
+      "bytes": 11312,
+      "sha256": "d0718b2d36d28a8817a5c589070c2d6d1c4eb5bdea3054369b4974389af5d74e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-desktop-day-v1-1920.avif",
+      "bytes": 21730,
+      "sha256": "9fc9f7c38a485fef41a4b0a3ab04af579507520f31793bf72501e995b9e846bc"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-desktop-day-v1-1920.webp",
+      "bytes": 17354,
+      "sha256": "bd1934a050adb081e497ce7ab2f826c05abc5afef9d9ac075f998cfb2823d4fb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-desktop-day-v1-2560.avif",
+      "bytes": 29437,
+      "sha256": "79ddab2c9c3dbc04946913cd33fc3c70001577573c75788db46aa3b2ead673cf"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-desktop-day-v1-2560.webp",
+      "bytes": 24736,
+      "sha256": "7b045d065daf37b67ec009e593c5d0ac671058b3f942fef6c868c3c4af2d65c2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-desktop-day-v1-3840.avif",
+      "bytes": 47135,
+      "sha256": "3c361e266e0a25d0478b284c837b0f8f1f5714a663bce25c4f6b13ba10bbb1ca"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-desktop-day-v1-3840.webp",
+      "bytes": 43068,
+      "sha256": "478bdc6396a4f01a25522fe4ba3890bc8c9813deaa27b576beb4d38074dbc4f9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-desktop-day-v1-1280.png",
+      "bytes": 708121,
+      "sha256": "6279e6a871edf218d4d44146ea4efc912c6aa4f5b79d4a1f2c1ae01b77358293"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-duisburg-desktop-day-v1.webp",
+      "bytes": 2612,
+      "sha256": "843d03acbc8c6f46b9ee026c8df04e4b2fb9770b3325a4b4319bc7b97938886a"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-duisburg-desktop-day-v1.webp",
+      "bytes": 2612,
+      "sha256": "843d03acbc8c6f46b9ee026c8df04e4b2fb9770b3325a4b4319bc7b97938886a"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.835Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1624417
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:27:00.764Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

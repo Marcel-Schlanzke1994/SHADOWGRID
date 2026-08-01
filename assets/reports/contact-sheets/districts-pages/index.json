@@ -1,0 +1,141 @@
+{
+  "schema": "shadowgrid/contact-sheet-pages/v1",
+  "batch": "districts",
+  "generated_at": "2026-07-30T06:12:08.016Z",
+  "asset_count": 96,
+  "page_size": 18,
+  "pages": [
+    {
+      "page": 1,
+      "path": "assets/reports/contact-sheets/districts-pages/page-001.png",
+      "assets": [
+        "district-financial-center-normal-day-v1",
+        "district-financial-center-normal-night-v1",
+        "district-financial-center-economic-boom-day-v1",
+        "district-financial-center-economic-boom-night-v1",
+        "district-financial-center-crisis-day-v1",
+        "district-financial-center-crisis-night-v1",
+        "district-financial-center-authority-activity-day-v1",
+        "district-financial-center-authority-activity-night-v1",
+        "district-harbor-quarter-normal-day-v1",
+        "district-harbor-quarter-normal-night-v1",
+        "district-harbor-quarter-economic-boom-day-v1",
+        "district-harbor-quarter-economic-boom-night-v1",
+        "district-harbor-quarter-crisis-day-v1",
+        "district-harbor-quarter-crisis-night-v1",
+        "district-harbor-quarter-authority-activity-day-v1",
+        "district-harbor-quarter-authority-activity-night-v1",
+        "district-industrial-belt-normal-day-v1",
+        "district-industrial-belt-normal-night-v1"
+      ]
+    },
+    {
+      "page": 2,
+      "path": "assets/reports/contact-sheets/districts-pages/page-002.png",
+      "assets": [
+        "district-industrial-belt-economic-boom-day-v1",
+        "district-industrial-belt-economic-boom-night-v1",
+        "district-industrial-belt-crisis-day-v1",
+        "district-industrial-belt-crisis-night-v1",
+        "district-industrial-belt-authority-activity-day-v1",
+        "district-industrial-belt-authority-activity-night-v1",
+        "district-old-town-normal-day-v1",
+        "district-old-town-normal-night-v1",
+        "district-old-town-economic-boom-day-v1",
+        "district-old-town-economic-boom-night-v1",
+        "district-old-town-crisis-day-v1",
+        "district-old-town-crisis-night-v1",
+        "district-old-town-authority-activity-day-v1",
+        "district-old-town-authority-activity-night-v1",
+        "district-technology-park-normal-day-v1",
+        "district-technology-park-normal-night-v1",
+        "district-technology-park-economic-boom-day-v1",
+        "district-technology-park-economic-boom-night-v1"
+      ]
+    },
+    {
+      "page": 3,
+      "path": "assets/reports/contact-sheets/districts-pages/page-003.png",
+      "assets": [
+        "district-technology-park-crisis-day-v1",
+        "district-technology-park-crisis-night-v1",
+        "district-technology-park-authority-activity-day-v1",
+        "district-technology-park-authority-activity-night-v1",
+        "district-administrative-center-normal-day-v1",
+        "district-administrative-center-normal-night-v1",
+        "district-administrative-center-economic-boom-day-v1",
+        "district-administrative-center-economic-boom-night-v1",
+        "district-administrative-center-crisis-day-v1",
+        "district-administrative-center-crisis-night-v1",
+        "district-administrative-center-authority-activity-day-v1",
+        "district-administrative-center-authority-activity-night-v1",
+        "district-nightlife-quarter-normal-day-v1",
+        "district-nightlife-quarter-normal-night-v1",
+        "district-nightlife-quarter-economic-boom-day-v1",
+        "district-nightlife-quarter-economic-boom-night-v1",
+        "district-nightlife-quarter-crisis-day-v1",
+        "district-nightlife-quarter-crisis-night-v1"
+      ]
+    },
+    {
+      "page": 4,
+      "path": "assets/reports/contact-sheets/districts-pages/page-004.png",
+      "assets": [
+        "district-nightlife-quarter-authority-activity-day-v1",
+        "district-nightlife-quarter-authority-activity-night-v1",
+        "district-university-quarter-normal-day-v1",
+        "district-university-quarter-normal-night-v1",
+        "district-university-quarter-economic-boom-day-v1",
+        "district-university-quarter-economic-boom-night-v1",
+        "district-university-quarter-crisis-day-v1",
+        "district-university-quarter-crisis-night-v1",
+        "district-university-quarter-authority-activity-day-v1",
+        "district-university-quarter-authority-activity-night-v1",
+        "district-logistics-corridor-normal-day-v1",
+        "district-logistics-corridor-normal-night-v1",
+        "district-logistics-corridor-economic-boom-day-v1",
+        "district-logistics-corridor-economic-boom-night-v1",
+        "district-logistics-corridor-crisis-day-v1",
+        "district-logistics-corridor-crisis-night-v1",
+        "district-logistics-corridor-authority-activity-day-v1",
+        "district-logistics-corridor-authority-activity-night-v1"
+      ]
+    },
+    {
+      "page": 5,
+      "path": "assets/reports/contact-sheets/districts-pages/page-005.png",
+      "assets": [
+        "district-affluent-residential-normal-day-v1",
+        "district-affluent-residential-normal-night-v1",
+        "district-affluent-residential-economic-boom-day-v1",
+        "district-affluent-residential-economic-boom-night-v1",
+        "district-affluent-residential-crisis-day-v1",
+        "district-affluent-residential-crisis-night-v1",
+        "district-affluent-residential-authority-activity-day-v1",
+        "district-affluent-residential-authority-activity-night-v1",
+        "district-dense-mixed-residential-normal-day-v1",
+        "district-dense-mixed-residential-normal-night-v1",
+        "district-dense-mixed-residential-economic-boom-day-v1",
+        "district-dense-mixed-residential-economic-boom-night-v1",
+        "district-dense-mixed-residential-crisis-day-v1",
+        "district-dense-mixed-residential-crisis-night-v1",
+        "district-dense-mixed-residential-authority-activity-day-v1",
+        "district-dense-mixed-residential-authority-activity-night-v1",
+        "district-outer-district-commerce-ring-normal-day-v1",
+        "district-outer-district-commerce-ring-normal-night-v1"
+      ]
+    },
+    {
+      "page": 6,
+      "path": "assets/reports/contact-sheets/districts-pages/page-006.png",
+      "assets": [
+        "district-outer-district-commerce-ring-economic-boom-day-v1",
+        "district-outer-district-commerce-ring-economic-boom-night-v1",
+        "district-outer-district-commerce-ring-crisis-day-v1",
+        "district-outer-district-commerce-ring-crisis-night-v1",
+        "district-outer-district-commerce-ring-authority-activity-day-v1",
+        "district-outer-district-commerce-ring-authority-activity-night-v1"
+      ]
+    }
+  ]
+}

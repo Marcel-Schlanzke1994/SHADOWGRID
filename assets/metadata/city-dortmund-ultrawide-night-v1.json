@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-dortmund-ultrawide-night-v1",
+  "manifest_order": 132,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "dortmund",
+  "variant": "ultrawide-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-dortmund-ultrawide-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100132,
+  "content_hash": "f0551a61a6e4fa0098bb85a35a4e7b5b9036a5bbb5d4f8cb49a63ee71b2d58be",
+  "source_file": "assets/source/cities/city-dortmund-ultrawide-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-dortmund-ultrawide-night-v1-320.avif",
+      "bytes": 3412,
+      "sha256": "d60b454bff8b4ad13cb2a4a8b51cc859c8c431c6091ea6c1210ead72d33df137"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-ultrawide-night-v1-320.webp",
+      "bytes": 3588,
+      "sha256": "89c37b16d5c1072464c2fa4d957b641f0995352f097e3107f431a3adeb0ec959"
+    },
+    {
+      "path": "assets/production/avif/city-dortmund-ultrawide-night-v1-640.avif",
+      "bytes": 7498,
+      "sha256": "610ad8756bc56f86883c88f93bd7e6ac550f195b50e1ef206356c32e67c50c1c"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-ultrawide-night-v1-640.webp",
+      "bytes": 7994,
+      "sha256": "1ee2cce58d8d35b30bf6ec7030207baa7839bf8cd0f00a8f6d73e1142e04fe86"
+    },
+    {
+      "path": "assets/production/avif/city-dortmund-ultrawide-night-v1-960.avif",
+      "bytes": 12907,
+      "sha256": "2a04153efc399a1f28057600595f39c0661e2512b8b44fd6c647b7ddb5b07a56"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-ultrawide-night-v1-960.webp",
+      "bytes": 13768,
+      "sha256": "2d6e1e8d0b1f462fb2e9e69317330b674af58ae0b7de4007308618ffc343a49f"
+    },
+    {
+      "path": "assets/production/avif/city-dortmund-ultrawide-night-v1-1280.avif",
+      "bytes": 16667,
+      "sha256": "c34af4560b63a3a33ebb2060edfb4911b0eee04082c766a8ac7452547df811cf"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-ultrawide-night-v1-1280.webp",
+      "bytes": 18168,
+      "sha256": "4e07beacb33c76114afc376547a0936049fd5d5b4cb81a03083a660de83db4fd"
+    },
+    {
+      "path": "assets/production/avif/city-dortmund-ultrawide-night-v1-1920.avif",
+      "bytes": 26127,
+      "sha256": "a4f2131ab4b9400de09e2e6cad074e28dfe2b1e2ab226c78e3e2b8e5380d7ea1"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-ultrawide-night-v1-1920.webp",
+      "bytes": 26860,
+      "sha256": "e2d6083288e2d468749df137d1634cf7a96b56cadb5eaf9cebb9b759c668ce56"
+    },
+    {
+      "path": "assets/production/avif/city-dortmund-ultrawide-night-v1-2560.avif",
+      "bytes": 34852,
+      "sha256": "8d4c90cc0e80d577ec28bf489872caaecf70c15b9bce5cb8022f8979d2b6c619"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-ultrawide-night-v1-2560.webp",
+      "bytes": 36064,
+      "sha256": "b002fcadea1e65e621d4878d97a093d36856bc9e44f73a0d0ffd7ac332992ab1"
+    },
+    {
+      "path": "assets/production/avif/city-dortmund-ultrawide-night-v1-3840.avif",
+      "bytes": 56077,
+      "sha256": "74f5dd94e65a432b22b07122155dbcfadc4cb836b7a5d8454a7c4556ebc25d43"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-ultrawide-night-v1-3840.webp",
+      "bytes": 52554,
+      "sha256": "b0604853f50c40eb21067ae1b82234a163f42963a65b7c402f935f378d7441db"
+    },
+    {
+      "path": "assets/production/png/city-dortmund-ultrawide-night-v1-1280.png",
+      "bytes": 491933,
+      "sha256": "68cc03df5d96976ccdcc9409b6802017bde0cd3af39c26adb80cc173ccb90fb9"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-night-v1-320.avif",
+      "bytes": 3412,
+      "sha256": "d60b454bff8b4ad13cb2a4a8b51cc859c8c431c6091ea6c1210ead72d33df137"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-night-v1-320.webp",
+      "bytes": 3588,
+      "sha256": "89c37b16d5c1072464c2fa4d957b641f0995352f097e3107f431a3adeb0ec959"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-night-v1-640.avif",
+      "bytes": 7498,
+      "sha256": "610ad8756bc56f86883c88f93bd7e6ac550f195b50e1ef206356c32e67c50c1c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-night-v1-640.webp",
+      "bytes": 7994,
+      "sha256": "1ee2cce58d8d35b30bf6ec7030207baa7839bf8cd0f00a8f6d73e1142e04fe86"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-night-v1-960.avif",
+      "bytes": 12907,
+      "sha256": "2a04153efc399a1f28057600595f39c0661e2512b8b44fd6c647b7ddb5b07a56"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-night-v1-960.webp",
+      "bytes": 13768,
+      "sha256": "2d6e1e8d0b1f462fb2e9e69317330b674af58ae0b7de4007308618ffc343a49f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-night-v1-1280.avif",
+      "bytes": 16667,
+      "sha256": "c34af4560b63a3a33ebb2060edfb4911b0eee04082c766a8ac7452547df811cf"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-night-v1-1280.webp",
+      "bytes": 18168,
+      "sha256": "4e07beacb33c76114afc376547a0936049fd5d5b4cb81a03083a660de83db4fd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-night-v1-1920.avif",
+      "bytes": 26127,
+      "sha256": "a4f2131ab4b9400de09e2e6cad074e28dfe2b1e2ab226c78e3e2b8e5380d7ea1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-night-v1-1920.webp",
+      "bytes": 26860,
+      "sha256": "e2d6083288e2d468749df137d1634cf7a96b56cadb5eaf9cebb9b759c668ce56"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-night-v1-2560.avif",
+      "bytes": 34852,
+      "sha256": "8d4c90cc0e80d577ec28bf489872caaecf70c15b9bce5cb8022f8979d2b6c619"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-night-v1-2560.webp",
+      "bytes": 36064,
+      "sha256": "b002fcadea1e65e621d4878d97a093d36856bc9e44f73a0d0ffd7ac332992ab1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-night-v1-3840.avif",
+      "bytes": 56077,
+      "sha256": "74f5dd94e65a432b22b07122155dbcfadc4cb836b7a5d8454a7c4556ebc25d43"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-night-v1-3840.webp",
+      "bytes": 52554,
+      "sha256": "b0604853f50c40eb21067ae1b82234a163f42963a65b7c402f935f378d7441db"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-night-v1-1280.png",
+      "bytes": 491933,
+      "sha256": "68cc03df5d96976ccdcc9409b6802017bde0cd3af39c26adb80cc173ccb90fb9"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-dortmund-ultrawide-night-v1.webp",
+      "bytes": 3588,
+      "sha256": "89c37b16d5c1072464c2fa4d957b641f0995352f097e3107f431a3adeb0ec959"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-dortmund-ultrawide-night-v1.webp",
+      "bytes": 3588,
+      "sha256": "89c37b16d5c1072464c2fa4d957b641f0995352f097e3107f431a3adeb0ec959"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.468Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 2169578
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-29T23:46:32.785Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

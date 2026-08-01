@@ -1,0 +1,171 @@
+{
+  "asset_id": "character-negotiation-experienced-woman-v1",
+  "manifest_order": 553,
+  "category": "character",
+  "batch": "specialists",
+  "city": null,
+  "variant": "experienced-woman",
+  "gameplay_state": "normal",
+  "aspect_ratio": "4:5",
+  "width": 1280,
+  "height": 1600,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/character-negotiation-experienced-woman-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100553,
+  "content_hash": "dfa5f34988d89ae00e1618c49af309a80d1f5c24decb67d7fa718eee921d302e",
+  "source_file": "assets/source/characters/character-negotiation-experienced-woman-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/character-negotiation-experienced-woman-v1-320.avif",
+      "bytes": 3266,
+      "sha256": "4a9ca0f419c802292dc6a254141c94ab5a9eeb2c0e502aef6920f302f29f9491"
+    },
+    {
+      "path": "assets/production/webp/character-negotiation-experienced-woman-v1-320.webp",
+      "bytes": 2574,
+      "sha256": "21469e504e0753204ebc2bf0b27d73e55397e61c4961ec8a2d0798df60de726b"
+    },
+    {
+      "path": "assets/production/avif/character-negotiation-experienced-woman-v1-640.avif",
+      "bytes": 7091,
+      "sha256": "0431946e6a3ce88c177de863e75adb4834c91668ca8ac34cd68e6496a7332aa1"
+    },
+    {
+      "path": "assets/production/webp/character-negotiation-experienced-woman-v1-640.webp",
+      "bytes": 5902,
+      "sha256": "02c0b299386d08d0bf56c335cadad154a9cc4dbff89866980ee57d0b2bd10326"
+    },
+    {
+      "path": "assets/production/avif/character-negotiation-experienced-woman-v1-960.avif",
+      "bytes": 15247,
+      "sha256": "9452cf992fc726862307c9ff45137667aa20c6512ca1cac9fd2f9ef729eb7224"
+    },
+    {
+      "path": "assets/production/webp/character-negotiation-experienced-woman-v1-960.webp",
+      "bytes": 10936,
+      "sha256": "4a221b7464574dc332dfee18078e9bce2cf22464f9a620722946d9feb8070e26"
+    },
+    {
+      "path": "assets/production/avif/character-negotiation-experienced-woman-v1-1280.avif",
+      "bytes": 21749,
+      "sha256": "4aa151e79773dc0200105754ddb86c9d87c2629d2295e1cd2d6bf75e20105d86"
+    },
+    {
+      "path": "assets/production/webp/character-negotiation-experienced-woman-v1-1280.webp",
+      "bytes": 16378,
+      "sha256": "c4d7aed98ebb3fd845b60c2c3f2ac8177661cc20539eadd246336c1b26da2cd1"
+    },
+    {
+      "path": "assets/production/avif/character-negotiation-experienced-woman-v1-1920.avif",
+      "bytes": 34522,
+      "sha256": "a57c483903a21075227d2484e82932a233f2d0e256aee01344a1967b23f33d65"
+    },
+    {
+      "path": "assets/production/webp/character-negotiation-experienced-woman-v1-1920.webp",
+      "bytes": 27216,
+      "sha256": "a66061630718e9532d581f9ccc4ce9761b25e68329b7248030df63c60a9b8021"
+    },
+    {
+      "path": "assets/production/avif/character-negotiation-experienced-woman-v1-2560.avif",
+      "bytes": 49219,
+      "sha256": "c13f8b664a48e412e57673dc4f9b2e60fab7ac34428103571d122e5f272e8a3d"
+    },
+    {
+      "path": "assets/production/webp/character-negotiation-experienced-woman-v1-2560.webp",
+      "bytes": 40606,
+      "sha256": "7da57521abd6445fd207734a227b357d94a69985bb35bb90fbc3b0cc404674d7"
+    },
+    {
+      "path": "assets/production/avif/character-negotiation-experienced-woman-v1-3840.avif",
+      "bytes": 80294,
+      "sha256": "0a6f158e8f5f67fe4f1e02610f4f078457c8bdb0af3c6d09f94bd03d9b7a1735"
+    },
+    {
+      "path": "assets/production/webp/character-negotiation-experienced-woman-v1-3840.webp",
+      "bytes": 75684,
+      "sha256": "61a7c0adb341747209258bb4ec88f336ead30f949c6fdc9d467dfc12eea056da"
+    },
+    {
+      "path": "assets/production/png/character-negotiation-experienced-woman-v1-1280.png",
+      "bytes": 215418,
+      "sha256": "dfa5f34988d89ae00e1618c49af309a80d1f5c24decb67d7fa718eee921d302e"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/character-negotiation-experienced-woman-v1.webp",
+      "bytes": 2574,
+      "sha256": "21469e504e0753204ebc2bf0b27d73e55397e61c4961ec8a2d0798df60de726b"
+    },
+    {
+      "path": "apps/mobile/assets/library/character-negotiation-experienced-woman-v1.webp",
+      "bytes": 2574,
+      "sha256": "21469e504e0753204ebc2bf0b27d73e55397e61c4961ec8a2d0798df60de726b"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:37.190Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1280,
+      "height": 1600,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 215418
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:18:44.229Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

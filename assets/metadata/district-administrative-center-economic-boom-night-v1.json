@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-administrative-center-economic-boom-night-v1",
+  "manifest_order": 410,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "economic-boom-night",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-administrative-center-economic-boom-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100410,
+  "content_hash": "4ec37f03737bf15067f33222089ba9d17c8e1b4a718d3616fd6b249a6bba057c",
+  "source_file": "assets/source/districts/district-administrative-center-economic-boom-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-administrative-center-economic-boom-night-v1-320.avif",
+      "bytes": 3750,
+      "sha256": "2b0fcd47af6869329643262e4e07878ad7403f943d31155cb28ee94e8dfa8104"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-economic-boom-night-v1-320.webp",
+      "bytes": 3860,
+      "sha256": "42cea9045dc3402108769f27d9c71ed311a96528ac95dcd54c8ca44e0504fb81"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-economic-boom-night-v1-640.avif",
+      "bytes": 7898,
+      "sha256": "ce7f4ba61ccd1b00d0d6f011864ea7711ab8b2da3983502a8330c4b38dea0f88"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-economic-boom-night-v1-640.webp",
+      "bytes": 8314,
+      "sha256": "95f409f001978953d2f675cd172a735657cb4adbfade119c12d955fb8b37875d"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-economic-boom-night-v1-960.avif",
+      "bytes": 13820,
+      "sha256": "e138c79ec4f109e37caf939e9342934c8533b100f18bdecca4927875311450a5"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-economic-boom-night-v1-960.webp",
+      "bytes": 14096,
+      "sha256": "24ab07457365ecb93f217f48adcc1c7017bcfeadb14104bc285f1554b6247102"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-economic-boom-night-v1-1280.avif",
+      "bytes": 18560,
+      "sha256": "36695b8fb05057188299935d3947f9a96dcfeada0154184175f5f65836c31456"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-economic-boom-night-v1-1280.webp",
+      "bytes": 18464,
+      "sha256": "4f4cf1731c6464fbee2a383f00d05ff9d2fb10cbc3fe212cfc0e54400c3727d8"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-economic-boom-night-v1-1920.avif",
+      "bytes": 28593,
+      "sha256": "818b4c7394d87ab3bf92abea1cd1855a7d7115715a1737c1f06a5ab2e58dce0f"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-economic-boom-night-v1-1920.webp",
+      "bytes": 27312,
+      "sha256": "80ea8a107e982eed315df80adc35ec3ac5a6e86aa4c6a60bdf404106cab54995"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-economic-boom-night-v1-2560.avif",
+      "bytes": 38450,
+      "sha256": "c67e817b8171cc969d6f20327143ac4098088c9c2b5725b2cdcaa9766f9729f3"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-economic-boom-night-v1-2560.webp",
+      "bytes": 37064,
+      "sha256": "25c05df698432413cd92e600bdcd8266c9810261460ef46acb6314cc50841260"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-economic-boom-night-v1-3840.avif",
+      "bytes": 60333,
+      "sha256": "2cb26f916e8c0790d721cd3ce790659dea9499129f8e343cfb253ab5b057cf91"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-economic-boom-night-v1-3840.webp",
+      "bytes": 57674,
+      "sha256": "4d4a099de8ff9689274267c0f720287509a608a09a2db7759c6861ede704a279"
+    },
+    {
+      "path": "assets/production/png/district-administrative-center-economic-boom-night-v1-1280.png",
+      "bytes": 661020,
+      "sha256": "8420bc54b84ab0f0f8aaabedeccc1fbd13b2e9f44f79f6329011a21d143161db"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-administrative-center-economic-boom-night-v1.webp",
+      "bytes": 3860,
+      "sha256": "42cea9045dc3402108769f27d9c71ed311a96528ac95dcd54c8ca44e0504fb81"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-administrative-center-economic-boom-night-v1.webp",
+      "bytes": 3860,
+      "sha256": "42cea9045dc3402108769f27d9c71ed311a96528ac95dcd54c8ca44e0504fb81"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.904Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1465173
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:35:05.223Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

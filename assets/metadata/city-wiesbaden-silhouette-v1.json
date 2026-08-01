@@ -1,0 +1,110 @@
+{
+  "asset_id": "city-wiesbaden-silhouette-v1",
+  "manifest_order": 266,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "wiesbaden",
+  "variant": "silhouette",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:5",
+  "width": 3200,
+  "height": 1000,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/city-wiesbaden-silhouette-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100266,
+  "content_hash": "b3554724fa86553642dd0e72994389c17266162461f8d4c6593eeb86c9c0f3a5",
+  "source_file": "assets/source/cities/city-wiesbaden-silhouette-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/city-wiesbaden-silhouette-v1.svg",
+      "bytes": 3890,
+      "sha256": "b3554724fa86553642dd0e72994389c17266162461f8d4c6593eeb86c9c0f3a5"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-silhouette-v1-320.webp",
+      "bytes": 3358,
+      "sha256": "0b078acb886b1f3c97fe9e32ead0533d8b0f8e3ce4a1d0e36a3957a10a58c115"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-silhouette-v1.svg",
+      "bytes": 3890,
+      "sha256": "b3554724fa86553642dd0e72994389c17266162461f8d4c6593eeb86c9c0f3a5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-silhouette-v1-320.webp",
+      "bytes": 3358,
+      "sha256": "0b078acb886b1f3c97fe9e32ead0533d8b0f8e3ce4a1d0e36a3957a10a58c115"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-wiesbaden-silhouette-v1.webp",
+      "bytes": 3358,
+      "sha256": "0b078acb886b1f3c97fe9e32ead0533d8b0f8e3ce4a1d0e36a3957a10a58c115"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-wiesbaden-silhouette-v1.webp",
+      "bytes": 3358,
+      "sha256": "0b078acb886b1f3c97fe9e32ead0533d8b0f8e3ce4a1d0e36a3957a10a58c115"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.785Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 3890
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:46:02.492Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

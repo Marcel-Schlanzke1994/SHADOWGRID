@@ -1,0 +1,252 @@
+{
+  "asset_id": "global-command-center-premium-day-v2",
+  "manifest_order": 898,
+  "category": "global",
+  "batch": "global-backgrounds",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/global-command-center-premium-day-v2.txt",
+  "prompt_version": "2.0.0",
+  "style_version": "2.0.0",
+  "seed": 100898,
+  "content_hash": "d9562ef6b0c6f5bb3c5e25df308e4d463fdd1824bdc6df6556bd992f6bbdd4da",
+  "source_file": "assets/source/global/global-command-center-premium-day-v2.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/global-command-center-premium-day-v2-320.avif",
+      "bytes": 5311,
+      "sha256": "1870da91f18ba01f8ee564505ce61e1bdacedc489640feb9cd5abfd21d5f4bdd"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-premium-day-v2-320.webp",
+      "bytes": 6052,
+      "sha256": "b2589f8978813f3fbce8145e4b4524c69bcca9aad60e0e0c7b946c8824631b47"
+    },
+    {
+      "path": "assets/production/avif/global-command-center-premium-day-v2-640.avif",
+      "bytes": 17415,
+      "sha256": "72adf3ddd8f907195e7841cb4f7aa6b311d4aacc4eada0ca7797e100d8b19052"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-premium-day-v2-640.webp",
+      "bytes": 19226,
+      "sha256": "8b2d55ddacbefbb48b8e067beacf8feda03f8c70781608fc30f65a81ffe0e62d"
+    },
+    {
+      "path": "assets/production/avif/global-command-center-premium-day-v2-960.avif",
+      "bytes": 45922,
+      "sha256": "6841f96c18ed5833e38f60695fbc0008fcf4df40c67cc4e883b215cdfdc8af93"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-premium-day-v2-960.webp",
+      "bytes": 46348,
+      "sha256": "fac458603820c14bf011e920b412947208072ba815579d33690599d8304bd2fd"
+    },
+    {
+      "path": "assets/production/avif/global-command-center-premium-day-v2-1280.avif",
+      "bytes": 76252,
+      "sha256": "014bf6f5be04d3b0fa175ed44011985611ce841cdf9f5a75c5e6886d71bd3f81"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-premium-day-v2-1280.webp",
+      "bytes": 72778,
+      "sha256": "c533a40a81316005a76ae2ac4120996d0a6c5c1ebeab58d220814b2a156b6cfb"
+    },
+    {
+      "path": "assets/production/avif/global-command-center-premium-day-v2-1920.avif",
+      "bytes": 137923,
+      "sha256": "8d1d4459a5dc107e782bcf751fbb2bb2ad14597454a1c82c7444b34ec601f71d"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-premium-day-v2-1920.webp",
+      "bytes": 123770,
+      "sha256": "846f7dc2e08805d44ebeaee5f50c8e51c976e4b314d70ae319e480b3eca890a7"
+    },
+    {
+      "path": "assets/production/avif/global-command-center-premium-day-v2-2560.avif",
+      "bytes": 193323,
+      "sha256": "def72d49c8c8e8cd1e9bbef9bfb2b1135822e018b5c168266edaf268b4d101c2"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-premium-day-v2-2560.webp",
+      "bytes": 168008,
+      "sha256": "665d02384405d1a18aee2e667225d4df6020c36d24f27f1e0b8f0e8074dc1ceb"
+    },
+    {
+      "path": "assets/production/avif/global-command-center-premium-day-v2-3840.avif",
+      "bytes": 314437,
+      "sha256": "7e478f9099f836326a512e101ce0f1b672691f6d366a35e8ac3571cb3c0b16b5"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-premium-day-v2-3840.webp",
+      "bytes": 268150,
+      "sha256": "2b4a5e322bf317c5a31549c7d1aa19629c8c08242d9d1416f80148feaba414f9"
+    },
+    {
+      "path": "assets/production/png/global-command-center-premium-day-v2-1280.png",
+      "bytes": 1676545,
+      "sha256": "5c9df821c222a4efce62bc3575715d63c9a3391753c2f00347a20c67bd556596"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-day-v2-320.avif",
+      "bytes": 5311,
+      "sha256": "1870da91f18ba01f8ee564505ce61e1bdacedc489640feb9cd5abfd21d5f4bdd"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-day-v2-320.webp",
+      "bytes": 6052,
+      "sha256": "b2589f8978813f3fbce8145e4b4524c69bcca9aad60e0e0c7b946c8824631b47"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-day-v2-640.avif",
+      "bytes": 17415,
+      "sha256": "72adf3ddd8f907195e7841cb4f7aa6b311d4aacc4eada0ca7797e100d8b19052"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-day-v2-640.webp",
+      "bytes": 19226,
+      "sha256": "8b2d55ddacbefbb48b8e067beacf8feda03f8c70781608fc30f65a81ffe0e62d"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-day-v2-960.avif",
+      "bytes": 45922,
+      "sha256": "6841f96c18ed5833e38f60695fbc0008fcf4df40c67cc4e883b215cdfdc8af93"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-day-v2-960.webp",
+      "bytes": 46348,
+      "sha256": "fac458603820c14bf011e920b412947208072ba815579d33690599d8304bd2fd"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-day-v2-1280.avif",
+      "bytes": 76252,
+      "sha256": "014bf6f5be04d3b0fa175ed44011985611ce841cdf9f5a75c5e6886d71bd3f81"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-day-v2-1280.webp",
+      "bytes": 72778,
+      "sha256": "c533a40a81316005a76ae2ac4120996d0a6c5c1ebeab58d220814b2a156b6cfb"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-day-v2-1920.avif",
+      "bytes": 137923,
+      "sha256": "8d1d4459a5dc107e782bcf751fbb2bb2ad14597454a1c82c7444b34ec601f71d"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-day-v2-1920.webp",
+      "bytes": 123770,
+      "sha256": "846f7dc2e08805d44ebeaee5f50c8e51c976e4b314d70ae319e480b3eca890a7"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-day-v2-2560.avif",
+      "bytes": 193323,
+      "sha256": "def72d49c8c8e8cd1e9bbef9bfb2b1135822e018b5c168266edaf268b4d101c2"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-day-v2-2560.webp",
+      "bytes": 168008,
+      "sha256": "665d02384405d1a18aee2e667225d4df6020c36d24f27f1e0b8f0e8074dc1ceb"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-day-v2-3840.avif",
+      "bytes": 314437,
+      "sha256": "7e478f9099f836326a512e101ce0f1b672691f6d366a35e8ac3571cb3c0b16b5"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-day-v2-3840.webp",
+      "bytes": 268150,
+      "sha256": "2b4a5e322bf317c5a31549c7d1aa19629c8c08242d9d1416f80148feaba414f9"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-day-v2-1280.png",
+      "bytes": 1676545,
+      "sha256": "5c9df821c222a4efce62bc3575715d63c9a3391753c2f00347a20c67bd556596"
+    },
+    {
+      "path": "apps/web/public/assets/library/global-command-center-premium-day-v2.webp",
+      "bytes": 6052,
+      "sha256": "b2589f8978813f3fbce8145e4b4524c69bcca9aad60e0e0c7b946c8824631b47"
+    },
+    {
+      "path": "apps/mobile/assets/library/global-command-center-premium-day-v2.webp",
+      "bytes": 6052,
+      "sha256": "b2589f8978813f3fbce8145e4b4524c69bcca9aad60e0e0c7b946c8824631b47"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 96.5,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 99,
+    "composition": 96,
+    "material_quality": 99,
+    "lighting_quality": 98,
+    "architecture_plausibility": 97,
+    "ui_suitability": 94,
+    "mobile_suitability": 88,
+    "originality": 96,
+    "safety_compliance": 100,
+    "accepted_prompt": "Use case: lighting-weather\nAsset type: SHADOWGRID game command-center daytime background variant\nInput images: Image 1: exact night command-center edit target\nPrimary request: change only the exterior time of day and corresponding physically plausible room illumination from night to a restrained overcast premium daytime scene\nConstraints: preserve the exact room geometry, camera angle, framing, command table, wall materials, skyline, river, object placement, proportions and crop; keep the obsidian/titanium interior dark and luxurious; retain subtle satin-gold practical edge lights; replace night sky and city lights with cool overcast daylight and realistic reflections; no people, no text, no logos, no watermark, no floating UI, no added objects, no redesign\nAvoid: bright white office look, blue color cast, sunny lifestyle mood, generic corporate stock photo, cartoon sci-fi",
+    "reference_images": [
+      "assets/source/global/global-command-center-premium-night-v2.png"
+    ],
+    "notes": [
+      "Accepted first built-in lighting edit.",
+      "Geometry, table, camera and material system remain consistent with the night asset.",
+      "Only physically plausible daylight, exterior exposure and corresponding reflections changed."
+    ],
+    "provider": "codex-built-in",
+    "license": "project-owned-generated-asset",
+    "provenance": {
+      "source": "codex-built-in-image-edit",
+      "thread": "019fbcc9-ef84-7a11-800a-125a47b84b04"
+    }
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 4033485
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-08-01T19:02:34.379Z",
+  "license": "project-owned-generated-asset",
+  "provenance": {
+    "source": "codex-built-in-image-edit",
+    "thread": "019fbcc9-ef84-7a11-800a-125a47b84b04"
+  },
+  "notes": [
+    "Accepted first built-in lighting edit.",
+    "Geometry, table, camera and material system remain consistent with the night asset.",
+    "Only physically plausible daylight, exterior exposure and corresponding reflections changed."
+  ]
+}

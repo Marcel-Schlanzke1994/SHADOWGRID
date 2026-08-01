@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-old-town-authority-activity-night-v1",
+  "manifest_order": 398,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "authority-activity-night",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-old-town-authority-activity-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100398,
+  "content_hash": "657ee3ac0b6f40e3884cfe9034b44ec7cf4313ef9a57506442fd0c9203de38e7",
+  "source_file": "assets/source/districts/district-old-town-authority-activity-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-old-town-authority-activity-night-v1-320.avif",
+      "bytes": 3619,
+      "sha256": "ece30885dfc886c0717949da00f73e6058d97fe37d2c736b98dc13936957fb61"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-authority-activity-night-v1-320.webp",
+      "bytes": 3358,
+      "sha256": "e45b4a9fb330cf7783d7be6ff8c6da64a9bd32a2df7def74632726ed0b5dffe5"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-authority-activity-night-v1-640.avif",
+      "bytes": 7530,
+      "sha256": "0cd45f50c5de4fdd4f860cb513ac9d610d8699c10c959c772caeeb75b1a16f86"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-authority-activity-night-v1-640.webp",
+      "bytes": 7254,
+      "sha256": "d31f457d07aeac4ecf77687dca713a17b943c2c24d5c9c79d96558835facca4a"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-authority-activity-night-v1-960.avif",
+      "bytes": 12695,
+      "sha256": "5944e548e71797df2f3ef5df1a411234837eaa1a00a3d58a802a44e3083a6420"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-authority-activity-night-v1-960.webp",
+      "bytes": 12572,
+      "sha256": "36d25803d3bed1e4b697d6912d701b5152846f49637fa670a94efc64ea09b2b5"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-authority-activity-night-v1-1280.avif",
+      "bytes": 17438,
+      "sha256": "73a196996d96a5500c74f006c81bc6a86b707fe254e318fad5750d365bdcf3f3"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-authority-activity-night-v1-1280.webp",
+      "bytes": 16772,
+      "sha256": "3b5d1817ce5db3f88f5c62d5c64c236adaff9af247ec534875e97885de739991"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-authority-activity-night-v1-1920.avif",
+      "bytes": 27094,
+      "sha256": "7b77152e5c0ffbeaef3c600813c193a5f4a3c4a41cffb5d75c634350a08c84c9"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-authority-activity-night-v1-1920.webp",
+      "bytes": 24754,
+      "sha256": "69a730fbd440df2082813c057a2e1f17876d3c2b7a99ef73943b98186e79ebd6"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-authority-activity-night-v1-2560.avif",
+      "bytes": 36446,
+      "sha256": "6c27b37284d2f2ed6fa931d9ea37b891d42b7abbaa8d6c7e921850ea2565b4d7"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-authority-activity-night-v1-2560.webp",
+      "bytes": 33414,
+      "sha256": "de3f38f732e9755885877081370ca75211ea4afb304bd2c10e6160eeb014e859"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-authority-activity-night-v1-3840.avif",
+      "bytes": 58826,
+      "sha256": "7ceb43c7909eeb38e608f1255ca76fbef2237705de1418fe1ceda0b1c72ebb6b"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-authority-activity-night-v1-3840.webp",
+      "bytes": 54000,
+      "sha256": "7dddea3687f6dc3df5a721b0ab3c4b48060649847c5501200a008cf33b95e7bb"
+    },
+    {
+      "path": "assets/production/png/district-old-town-authority-activity-night-v1-1280.png",
+      "bytes": 667199,
+      "sha256": "f854201630e5c03c98ad7eb2c102c370c6fd6e9b853aa073ac79ef07d337b922"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-old-town-authority-activity-night-v1.webp",
+      "bytes": 3358,
+      "sha256": "e45b4a9fb330cf7783d7be6ff8c6da64a9bd32a2df7def74632726ed0b5dffe5"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-old-town-authority-activity-night-v1.webp",
+      "bytes": 3358,
+      "sha256": "e45b4a9fb330cf7783d7be6ff8c6da64a9bd32a2df7def74632726ed0b5dffe5"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.764Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1486018
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:31:07.134Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "asset_id": "tutorial-district-control-v1",
+  "manifest_order": 716,
+  "category": "tutorial",
+  "batch": "tutorial",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/tutorial-district-control-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100716,
+  "content_hash": "9a27787df3ec406e93d134d9361c8e90b2155c778fa1373265f1f6e5db16a9f4",
+  "source_file": "assets/source/tutorial/tutorial-district-control-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/tutorial-district-control-v1-320.avif",
+      "bytes": 2042,
+      "sha256": "6a56f511e9215027b5c69d15bb61235d268065176dbfd594cde8a2e2c737959a"
+    },
+    {
+      "path": "assets/production/webp/tutorial-district-control-v1-320.webp",
+      "bytes": 1422,
+      "sha256": "364793487dd8402f0071994dd8eaeb3adbb14ea1b0416cbcfce64c48767951ea"
+    },
+    {
+      "path": "assets/production/avif/tutorial-district-control-v1-640.avif",
+      "bytes": 4530,
+      "sha256": "a0f23ce57153f536e01c5c4e8cd68b967017ba7a6fc1be98ee583b07c4f9fd26"
+    },
+    {
+      "path": "assets/production/webp/tutorial-district-control-v1-640.webp",
+      "bytes": 3498,
+      "sha256": "b36e6c99b9a614ea864284724307c3e516fc572fda5fc405cd68b65f543a5ab9"
+    },
+    {
+      "path": "assets/production/avif/tutorial-district-control-v1-960.avif",
+      "bytes": 9040,
+      "sha256": "0ce5ddd46c6f3c7450a690d82e228e61dbc6d729134bf5e25cd2fdf54f08969d"
+    },
+    {
+      "path": "assets/production/webp/tutorial-district-control-v1-960.webp",
+      "bytes": 6676,
+      "sha256": "802337a0cbe9d33a998aa6127906e77ec7ddf01bf18daf6c6d3661b7b626ad25"
+    },
+    {
+      "path": "assets/production/avif/tutorial-district-control-v1-1280.avif",
+      "bytes": 13168,
+      "sha256": "db76224a6ea98106d5d229442e174765ccc4d44e228f54ad62662583141e0df8"
+    },
+    {
+      "path": "assets/production/webp/tutorial-district-control-v1-1280.webp",
+      "bytes": 9568,
+      "sha256": "74c35f2f94819f8cb106ee073977f5212d79e08141d3c5d36b7a14eb95dc03e2"
+    },
+    {
+      "path": "assets/production/avif/tutorial-district-control-v1-1920.avif",
+      "bytes": 20690,
+      "sha256": "14ea640846882b7d0fc2b977e244c2f395b08bf9865eaa2f541d10dbbb417c8d"
+    },
+    {
+      "path": "assets/production/webp/tutorial-district-control-v1-1920.webp",
+      "bytes": 17362,
+      "sha256": "02e7b2c7858d7a729054feba2e04da889916a869f53ea696ecb0aae7d6041f19"
+    },
+    {
+      "path": "assets/production/avif/tutorial-district-control-v1-2560.avif",
+      "bytes": 28230,
+      "sha256": "f95ec54b5334ad11fe5504f1a31577dbf780057cb5a5298e00eb86769669ecf5"
+    },
+    {
+      "path": "assets/production/webp/tutorial-district-control-v1-2560.webp",
+      "bytes": 24406,
+      "sha256": "cca5ac8f980d6c8a3a22c73f40bd1e5da6f4b9d32cefc38c4a8ad455a769c6d2"
+    },
+    {
+      "path": "assets/production/avif/tutorial-district-control-v1-3840.avif",
+      "bytes": 48032,
+      "sha256": "630803bd23c6b847d31b8016d9182a915b6a0140164275b35bc4b772bc55139c"
+    },
+    {
+      "path": "assets/production/webp/tutorial-district-control-v1-3840.webp",
+      "bytes": 41732,
+      "sha256": "40968881e18e6b5d32ce94744f4660cbd5c1274d9599d277948e7a9ef53ac5a9"
+    },
+    {
+      "path": "assets/production/png/tutorial-district-control-v1-1280.png",
+      "bytes": 131188,
+      "sha256": "cea3f4d405d6083ba1f089d5dd73e9a0dbbf0670ffd0a934738f5df190df4fb7"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/tutorial-district-control-v1.webp",
+      "bytes": 1422,
+      "sha256": "364793487dd8402f0071994dd8eaeb3adbb14ea1b0416cbcfce64c48767951ea"
+    },
+    {
+      "path": "apps/mobile/assets/library/tutorial-district-control-v1.webp",
+      "bytes": 1422,
+      "sha256": "364793487dd8402f0071994dd8eaeb3adbb14ea1b0416cbcfce64c48767951ea"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:19.739Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 95,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 97,
+      "mobile_suitability": 95,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 94,
+      "contrast": 95,
+      "geometry_quality": 95,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "The thematic glyph, card progression, safe area, and directional flow remain clear in both desktop and mobile placements.",
+      "No missing render, unsafe content, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 174536
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:34:33.145Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

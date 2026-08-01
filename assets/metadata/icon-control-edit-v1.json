@@ -1,0 +1,75 @@
+{
+  "asset_id": "icon-control-edit-v1",
+  "manifest_order": 798,
+  "category": "icon",
+  "batch": "ui-icons",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "24:24",
+  "width": 24,
+  "height": 24,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/icon-control-edit-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100798,
+  "content_hash": "be3e72104ed4243d4b29a3b1076e03f8da6f7eaa28890154d1392b70462760c7",
+  "source_file": "assets/source/icons/icon-control-edit-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/icon-control-edit-v1.svg",
+      "bytes": 549,
+      "sha256": "be3e72104ed4243d4b29a3b1076e03f8da6f7eaa28890154d1392b70462760c7"
+    },
+    {
+      "path": "assets/production/webp/icon-control-edit-v1-320.webp",
+      "bytes": 1222,
+      "sha256": "33a3344fc05d8adfb56a5e1e53676663bbafdc269b6ccc4f899d530473c951c9"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/icon-control-edit-v1.webp",
+      "bytes": 1222,
+      "sha256": "33a3344fc05d8adfb56a5e1e53676663bbafdc269b6ccc4f899d530473c951c9"
+    },
+    {
+      "path": "apps/mobile/assets/library/icon-control-edit-v1.webp",
+      "bytes": 1222,
+      "sha256": "33a3344fc05d8adfb56a5e1e53676663bbafdc269b6ccc4f899d530473c951c9"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 549
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:51:47.086Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

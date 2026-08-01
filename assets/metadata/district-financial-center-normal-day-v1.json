@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-financial-center-normal-day-v1",
+  "manifest_order": 367,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-financial-center-normal-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100367,
+  "content_hash": "1cc07f3a1aa621b76eb211a76f57761132bccd77accc0c3e1c77e8fe8bdde8c2",
+  "source_file": "assets/source/districts/district-financial-center-normal-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-financial-center-normal-day-v1-320.avif",
+      "bytes": 2810,
+      "sha256": "5e18b4ce03f6094d263b14e1e588732f160364c8526173b70bf140ad2e18c502"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-normal-day-v1-320.webp",
+      "bytes": 2690,
+      "sha256": "63176e39afb579d960cb99c064f1855253754188d036effe36ee8eef25583a36"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-normal-day-v1-640.avif",
+      "bytes": 6185,
+      "sha256": "9d4b80bb33e5d6615fcaa29e03e3bb8e0a704454b58a540ba8a74e266c945df8"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-normal-day-v1-640.webp",
+      "bytes": 5238,
+      "sha256": "c24bf303128274601069c506504e443215287660b5eaf1d92af3c63ae5b9736b"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-normal-day-v1-960.avif",
+      "bytes": 10096,
+      "sha256": "5a71528ce9338a0393bd4ddfde0646664b4d43a7d1e64fac964270f5b6fc4a6c"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-normal-day-v1-960.webp",
+      "bytes": 8538,
+      "sha256": "d111c89a0d80793cdbc0a93515b7483e62237502100e26cd7a4d0d37f6cb0eda"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-normal-day-v1-1280.avif",
+      "bytes": 14887,
+      "sha256": "19994d147b984d197978d9149a29d052f25f73522d698ae7833a7678f507e2ac"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-normal-day-v1-1280.webp",
+      "bytes": 11400,
+      "sha256": "88de5ee9d03e27639e0ae8b50b6882c80b2e3c7b01b821ffd47a0e60b7fcf1f3"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-normal-day-v1-1920.avif",
+      "bytes": 21294,
+      "sha256": "2726fd3bbb353330c76703647436dec86e0d3263c5babd2adc147d1698250700"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-normal-day-v1-1920.webp",
+      "bytes": 18092,
+      "sha256": "46014d78018b21f9ebf411aa1429cf2897f9a7c151c0d44b07e48072d90efec6"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-normal-day-v1-2560.avif",
+      "bytes": 29830,
+      "sha256": "80f8337cf0382825323c05697d83e6ae8404018fa215c0f311958b12dff40fd6"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-normal-day-v1-2560.webp",
+      "bytes": 25102,
+      "sha256": "bc7e9da6b915bcd14498cd13a83ebc9377b161f444d2fc653ac7e6e55d3870b1"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-normal-day-v1-3840.avif",
+      "bytes": 46957,
+      "sha256": "ea373dbd5ed122dba083719b792afb7bfbfa44b88349201f4443ea22230ad2d1"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-normal-day-v1-3840.webp",
+      "bytes": 42636,
+      "sha256": "ee77c3b6812747ce53ac103f016d93ebed9dedf2f8f3105851bdf189566ad516"
+    },
+    {
+      "path": "assets/production/png/district-financial-center-normal-day-v1-1280.png",
+      "bytes": 619777,
+      "sha256": "9449758696336871d80d1fb36aceba758f0dec4c220709f27b0da58e547b6a57"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-financial-center-normal-day-v1.webp",
+      "bytes": 2690,
+      "sha256": "63176e39afb579d960cb99c064f1855253754188d036effe36ee8eef25583a36"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-financial-center-normal-day-v1.webp",
+      "bytes": 2690,
+      "sha256": "63176e39afb579d960cb99c064f1855253754188d036effe36ee8eef25583a36"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.381Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1407993
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:06:35.744Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

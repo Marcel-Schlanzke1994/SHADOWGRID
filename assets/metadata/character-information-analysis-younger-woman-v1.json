@@ -1,0 +1,171 @@
+{
+  "asset_id": "character-information-analysis-younger-woman-v1",
+  "manifest_order": 547,
+  "category": "character",
+  "batch": "specialists",
+  "city": null,
+  "variant": "younger-woman",
+  "gameplay_state": "normal",
+  "aspect_ratio": "4:5",
+  "width": 1280,
+  "height": 1600,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/character-information-analysis-younger-woman-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100547,
+  "content_hash": "c3973228d58a6c11f6909ed240ec14eeb37cf77388fd435620371f17e82e6bf2",
+  "source_file": "assets/source/characters/character-information-analysis-younger-woman-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/character-information-analysis-younger-woman-v1-320.avif",
+      "bytes": 2758,
+      "sha256": "bb1f556190a2fd90e6917253ee011fdc0213d001292e0737f25966f55439a8aa"
+    },
+    {
+      "path": "assets/production/webp/character-information-analysis-younger-woman-v1-320.webp",
+      "bytes": 1896,
+      "sha256": "d8eee5b5bc8388fbe40e845fcbf1b977f6450ab8f5d1a19cb9d904d42a292817"
+    },
+    {
+      "path": "assets/production/avif/character-information-analysis-younger-woman-v1-640.avif",
+      "bytes": 6025,
+      "sha256": "0f2dcf38e4742b89073906e4e68bde9982e34b712031abd6860c67c572106274"
+    },
+    {
+      "path": "assets/production/webp/character-information-analysis-younger-woman-v1-640.webp",
+      "bytes": 4394,
+      "sha256": "aa9a0a30f0b312170977321120402f831ebb11f92149654bb4e489e83d1b2829"
+    },
+    {
+      "path": "assets/production/avif/character-information-analysis-younger-woman-v1-960.avif",
+      "bytes": 13100,
+      "sha256": "e4336e73e88cb4fca7734db6cd4925a555d1b8a753f6ceb444a1664e99e6afd2"
+    },
+    {
+      "path": "assets/production/webp/character-information-analysis-younger-woman-v1-960.webp",
+      "bytes": 8476,
+      "sha256": "0c56af3e442298873aaa5b9f7d50e11a07b5820c5a240b6f67ccb511b6615cb2"
+    },
+    {
+      "path": "assets/production/avif/character-information-analysis-younger-woman-v1-1280.avif",
+      "bytes": 19329,
+      "sha256": "b97aaa032c6500f031ef9c41236c4c4900c21fbba9f25b339574bd970166136e"
+    },
+    {
+      "path": "assets/production/webp/character-information-analysis-younger-woman-v1-1280.webp",
+      "bytes": 13276,
+      "sha256": "364323fb699fa839c9044dc115f59e235d01f264f6084fd79990a8e0550cdf06"
+    },
+    {
+      "path": "assets/production/avif/character-information-analysis-younger-woman-v1-1920.avif",
+      "bytes": 30242,
+      "sha256": "dbcbefbc07cb33570162e682799381608d4c288a6dbb4383f68b938bbca6f3a1"
+    },
+    {
+      "path": "assets/production/webp/character-information-analysis-younger-woman-v1-1920.webp",
+      "bytes": 22930,
+      "sha256": "2a2beb1e24a18f25e18e4c124a3b6737d130ace7ca4b83db722b5a1c68a7de36"
+    },
+    {
+      "path": "assets/production/avif/character-information-analysis-younger-woman-v1-2560.avif",
+      "bytes": 43592,
+      "sha256": "9e9d016adc6b41bf7d35c888df13a88da4d530a5bc5dd2713b5eee406693e0f7"
+    },
+    {
+      "path": "assets/production/webp/character-information-analysis-younger-woman-v1-2560.webp",
+      "bytes": 35226,
+      "sha256": "5e85fd58d2062da6e5b5b13cf179d54c3d4efcb9c3cf888e320238a1646b79aa"
+    },
+    {
+      "path": "assets/production/avif/character-information-analysis-younger-woman-v1-3840.avif",
+      "bytes": 71332,
+      "sha256": "b4df1a40063b4edc43ea5075dc1240781703035556d43e63498fcb20e293b791"
+    },
+    {
+      "path": "assets/production/webp/character-information-analysis-younger-woman-v1-3840.webp",
+      "bytes": 67060,
+      "sha256": "fed84ef5c1a75c2ee7513fad6c6031406aa9af611e5dd64ffb47cae1c15cc6ea"
+    },
+    {
+      "path": "assets/production/png/character-information-analysis-younger-woman-v1-1280.png",
+      "bytes": 204615,
+      "sha256": "c3973228d58a6c11f6909ed240ec14eeb37cf77388fd435620371f17e82e6bf2"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/character-information-analysis-younger-woman-v1.webp",
+      "bytes": 1896,
+      "sha256": "d8eee5b5bc8388fbe40e845fcbf1b977f6450ab8f5d1a19cb9d904d42a292817"
+    },
+    {
+      "path": "apps/mobile/assets/library/character-information-analysis-younger-woman-v1.webp",
+      "bytes": 1896,
+      "sha256": "d8eee5b5bc8388fbe40e845fcbf1b977f6450ab8f5d1a19cb9d904d42a292817"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:37.054Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1280,
+      "height": 1600,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 204615
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:17:20.073Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

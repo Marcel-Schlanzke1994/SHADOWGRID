@@ -1,0 +1,171 @@
+{
+  "asset_id": "mobile-offline-background-v1",
+  "manifest_order": 864,
+  "category": "mobile",
+  "batch": "mobile",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/mobile-offline-background-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100864,
+  "content_hash": "22a22637dd8db02c3a7797a2f75c5480b321f5fdfa4d17ce5a2501d975d3d0c3",
+  "source_file": "assets/source/marketing/mobile-offline-background-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/mobile-offline-background-v1-320.avif",
+      "bytes": 4841,
+      "sha256": "1059fa6bd03dde9c148dd73ac45812c349c78066811c5f84dbb3896c8c44726c"
+    },
+    {
+      "path": "assets/production/webp/mobile-offline-background-v1-320.webp",
+      "bytes": 4086,
+      "sha256": "fcb94a1c093ea23e8bf3625c698929d6b8c541081f6664111efff60898f1a097"
+    },
+    {
+      "path": "assets/production/avif/mobile-offline-background-v1-640.avif",
+      "bytes": 10757,
+      "sha256": "2429d5ee0eaea11aa4e36e0bae796d698c39bd8e097704aa67cb64e5b11d64a3"
+    },
+    {
+      "path": "assets/production/webp/mobile-offline-background-v1-640.webp",
+      "bytes": 8204,
+      "sha256": "0a8b21591d382a7337ca2d19d2a10dcd10e7a59d1f9769ad03d6adbcc8b85151"
+    },
+    {
+      "path": "assets/production/avif/mobile-offline-background-v1-960.avif",
+      "bytes": 18647,
+      "sha256": "d3a3877f091f4ec6069497d800ef27a9f3a0bb0b5c0b530e6bc09fb39554cacd"
+    },
+    {
+      "path": "assets/production/webp/mobile-offline-background-v1-960.webp",
+      "bytes": 14332,
+      "sha256": "068305158b7e1864c882154bf2809da87e84c3ef929faa703b4a375409cb9307"
+    },
+    {
+      "path": "assets/production/avif/mobile-offline-background-v1-1280.avif",
+      "bytes": 25001,
+      "sha256": "8b7b645d6324980a4e09fbff72b6902ab1472730ca35f657e35cd0588388aeaa"
+    },
+    {
+      "path": "assets/production/webp/mobile-offline-background-v1-1280.webp",
+      "bytes": 20260,
+      "sha256": "f128c9eb0e12b738dc6d290fb5e034454d66ae0dedcaf334e0902c5021d1b8be"
+    },
+    {
+      "path": "assets/production/avif/mobile-offline-background-v1-1920.avif",
+      "bytes": 40386,
+      "sha256": "58a3909d747b1452be46666b06ad7ac9fe3b2d3286139b805d71d0880a844c95"
+    },
+    {
+      "path": "assets/production/webp/mobile-offline-background-v1-1920.webp",
+      "bytes": 36002,
+      "sha256": "c62cba03c2aef4d2afa3ea4501147b8123dc437cf591062f7cfeaec35673af64"
+    },
+    {
+      "path": "assets/production/avif/mobile-offline-background-v1-2560.avif",
+      "bytes": 59542,
+      "sha256": "0d8cb5feb9cec00b20c8f2d5f1198cff543f70a718d68489993d445a238a3b61"
+    },
+    {
+      "path": "assets/production/webp/mobile-offline-background-v1-2560.webp",
+      "bytes": 53938,
+      "sha256": "88dfd684acc16f120dd9e72ebe5e6e0a33a8582a624524206ef4e0aecd86f75e"
+    },
+    {
+      "path": "assets/production/avif/mobile-offline-background-v1-3840.avif",
+      "bytes": 105969,
+      "sha256": "359bde369b1f6b805343442081dcfeea2396764578aa4f62be820ba403955993"
+    },
+    {
+      "path": "assets/production/webp/mobile-offline-background-v1-3840.webp",
+      "bytes": 106342,
+      "sha256": "31fa767f793a4dcb38cb59fd0722809e81b54022a81f6bbd59b87ebeac547983"
+    },
+    {
+      "path": "assets/production/png/mobile-offline-background-v1-1152.png",
+      "bytes": 1692182,
+      "sha256": "22a22637dd8db02c3a7797a2f75c5480b321f5fdfa4d17ce5a2501d975d3d0c3"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/mobile-offline-background-v1.webp",
+      "bytes": 4086,
+      "sha256": "fcb94a1c093ea23e8bf3625c698929d6b8c541081f6664111efff60898f1a097"
+    },
+    {
+      "path": "apps/mobile/assets/library/mobile-offline-background-v1.webp",
+      "bytes": 4086,
+      "sha256": "fcb94a1c093ea23e8bf3625c698929d6b8c541081f6664111efff60898f1a097"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 94.4,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:37.294Z",
+    "scores": {
+      "realism": 90,
+      "style_consistency": 97,
+      "composition": 95,
+      "material_quality": 91,
+      "light_quality": 93,
+      "architecture_plausibility": 91,
+      "ui_suitability": 97,
+      "mobile_suitability": 98,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 96,
+      "contrast": 96,
+      "geometry_quality": 96,
+      "technical_quality": 98
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution, including transparent adaptive and monochrome assets.",
+      "The apparently empty monochrome contact-sheet cell was separately inspected and confirmed as a valid transparent single-color platform glyph.",
+      "Safe areas, contrast, transparency, and small-size behavior are suitable for the intended mobile placements."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1692182
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:45:11.618Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

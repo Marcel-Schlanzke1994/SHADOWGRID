@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-logistics-corridor-crisis-night-v1",
+  "manifest_order": 436,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "crisis-night",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-logistics-corridor-crisis-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100436,
+  "content_hash": "fc9219720118e41ce25e7c0f5827f8153af88f4e1f7a9c88069c8753d004dde0",
+  "source_file": "assets/source/districts/district-logistics-corridor-crisis-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-logistics-corridor-crisis-night-v1-320.avif",
+      "bytes": 3793,
+      "sha256": "9bd8e2645b60a3f930834e67730446c312215f09b5249a042b71cc8de640336d"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-crisis-night-v1-320.webp",
+      "bytes": 3526,
+      "sha256": "954ce24a81a8df8673b85bca5bee91e1d6d605477ed3ac46f479f7c0e12294c8"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-crisis-night-v1-640.avif",
+      "bytes": 7958,
+      "sha256": "d85dc8091d21f2be568b4330941b7c3b218143c842233f14cc987c836be3eaf5"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-crisis-night-v1-640.webp",
+      "bytes": 7920,
+      "sha256": "cd1432d2678482654096e288ef11aa641aaa27d9e3488c8625009ae9ec50b7a1"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-crisis-night-v1-960.avif",
+      "bytes": 13203,
+      "sha256": "05dfc80f623578a6372918c74e6312c26dc887624bb303bd50a6855306254334"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-crisis-night-v1-960.webp",
+      "bytes": 13538,
+      "sha256": "d404493d2e85cd52ce8626203a5b1a6b71f2422be679a1a097568c89b9839c68"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-crisis-night-v1-1280.avif",
+      "bytes": 18633,
+      "sha256": "74a3d325e81463d4339a3c3e98dbc54e18cc09ebffba1a71adfa5815202b14ab"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-crisis-night-v1-1280.webp",
+      "bytes": 18134,
+      "sha256": "159c39419109de229218e0d6fd9fa4f9e8391e8ba9cb54a74b730f6e08bdf89a"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-crisis-night-v1-1920.avif",
+      "bytes": 28610,
+      "sha256": "f6dd14e8dd41a9b5fed2cf09ce5b64cd385cbdb92a1e3e1335e2eefc4616af30"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-crisis-night-v1-1920.webp",
+      "bytes": 27042,
+      "sha256": "0bc47f170eed2dd19aeace9b0743df24ab42196baa1559ba056057d6e01367af"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-crisis-night-v1-2560.avif",
+      "bytes": 37624,
+      "sha256": "c58573f3554f382bdb96bd2e9e3833062159b1c4b3d50c544e0b587df06fcbf0"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-crisis-night-v1-2560.webp",
+      "bytes": 35680,
+      "sha256": "bd0b53417483372be3615002a9f5fcb1f6ff07ec07ba13a5636c06808d88c164"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-crisis-night-v1-3840.avif",
+      "bytes": 61122,
+      "sha256": "ed10deb2c3f6fe7e6b0f52dd43932a10c8e671325d0b0caac4c6dbeeb112ef62"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-crisis-night-v1-3840.webp",
+      "bytes": 56548,
+      "sha256": "c6f5610b389a5edcda7c60f6719dfaf068d9e61469c4cb9d69f216c37cf284dd"
+    },
+    {
+      "path": "assets/production/png/district-logistics-corridor-crisis-night-v1-1280.png",
+      "bytes": 671362,
+      "sha256": "c0647ed7c7967c198e6e9d7c917d5ee41ca9efbe0e24df2c183ac7ca62afaf76"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-logistics-corridor-crisis-night-v1.webp",
+      "bytes": 3526,
+      "sha256": "954ce24a81a8df8673b85bca5bee91e1d6d605477ed3ac46f479f7c0e12294c8"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-logistics-corridor-crisis-night-v1.webp",
+      "bytes": 3526,
+      "sha256": "954ce24a81a8df8673b85bca5bee91e1d6d605477ed3ac46f479f7c0e12294c8"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.213Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1485972
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:43:48.165Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

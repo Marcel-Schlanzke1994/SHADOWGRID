@@ -1,0 +1,171 @@
+{
+  "asset_id": "character-district-coordination-younger-man-v1",
+  "manifest_order": 544,
+  "category": "character",
+  "batch": "specialists",
+  "city": null,
+  "variant": "younger-man",
+  "gameplay_state": "normal",
+  "aspect_ratio": "4:5",
+  "width": 1280,
+  "height": 1600,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/character-district-coordination-younger-man-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100544,
+  "content_hash": "c2524f7b2a90429395f1bf66e5c9738be3708cdadb61bee37376bb3a7d288ee6",
+  "source_file": "assets/source/characters/character-district-coordination-younger-man-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/character-district-coordination-younger-man-v1-320.avif",
+      "bytes": 2674,
+      "sha256": "81b5bfbc4041cde36643e881114f17da873aa5417f5b246c06e690f1a16f80a9"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-younger-man-v1-320.webp",
+      "bytes": 1870,
+      "sha256": "1961cd6c9739235fd68481c62537a2b1e99362bfaa58d3e723b8f25d86b1bf9a"
+    },
+    {
+      "path": "assets/production/avif/character-district-coordination-younger-man-v1-640.avif",
+      "bytes": 5837,
+      "sha256": "0e103bf5c5897165bdc92157276780c17a2c32625f26fd4b2c29bdb9a035fbac"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-younger-man-v1-640.webp",
+      "bytes": 4462,
+      "sha256": "9c3280e2c89dce95582cd189516ba792a8bfd4724eb0d90cd6f01961c71c7392"
+    },
+    {
+      "path": "assets/production/avif/character-district-coordination-younger-man-v1-960.avif",
+      "bytes": 12531,
+      "sha256": "29adb8ddfc451dbd0c69cc7a2b7f1028bf892961f755d3c8e407d59c3a552ace"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-younger-man-v1-960.webp",
+      "bytes": 8520,
+      "sha256": "a4e5b55ddd8db0111a47886350b1c72a26996e72bfe1cd3f47e245d4cdd0abe0"
+    },
+    {
+      "path": "assets/production/avif/character-district-coordination-younger-man-v1-1280.avif",
+      "bytes": 18475,
+      "sha256": "57fe49da8c1db80ca9d848b37df3fad99829a5197ce059b6962fd715d80aab1c"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-younger-man-v1-1280.webp",
+      "bytes": 13298,
+      "sha256": "6b072d8a5c1164802e97e69f91e3dcda008b410e09e7e3245461dc9173279d37"
+    },
+    {
+      "path": "assets/production/avif/character-district-coordination-younger-man-v1-1920.avif",
+      "bytes": 29023,
+      "sha256": "c3d8c00dc9d22f9a6318a5248965dd96042dae805d2851ac5b62bd9b3328f1a5"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-younger-man-v1-1920.webp",
+      "bytes": 23094,
+      "sha256": "22e72e27e9b5427789212caf064b65a4a87259ee9d75e847c5f77d12cfed4488"
+    },
+    {
+      "path": "assets/production/avif/character-district-coordination-younger-man-v1-2560.avif",
+      "bytes": 41891,
+      "sha256": "546650902c5d4708508017fd1e5cfff259465db9bfe5cbb21c18866892d53f9c"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-younger-man-v1-2560.webp",
+      "bytes": 35288,
+      "sha256": "7417de5e5a17d732727ab4da827e298c7359d4ca90a8fb26fb18e1e50fcbf705"
+    },
+    {
+      "path": "assets/production/avif/character-district-coordination-younger-man-v1-3840.avif",
+      "bytes": 69899,
+      "sha256": "e4e049d45bec3269c9c4c423fa42de6131302ba27e4e699bd17724f1fa1ff541"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-younger-man-v1-3840.webp",
+      "bytes": 67230,
+      "sha256": "1c58aaf6937ecbb5b289b6074742b6bf2b455a62404e7939e15377040d05dbcc"
+    },
+    {
+      "path": "assets/production/png/character-district-coordination-younger-man-v1-1280.png",
+      "bytes": 200649,
+      "sha256": "c2524f7b2a90429395f1bf66e5c9738be3708cdadb61bee37376bb3a7d288ee6"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/character-district-coordination-younger-man-v1.webp",
+      "bytes": 1870,
+      "sha256": "1961cd6c9739235fd68481c62537a2b1e99362bfaa58d3e723b8f25d86b1bf9a"
+    },
+    {
+      "path": "apps/mobile/assets/library/character-district-coordination-younger-man-v1.webp",
+      "bytes": 1870,
+      "sha256": "1961cd6c9739235fd68481c62537a2b1e99362bfaa58d3e723b8f25d86b1bf9a"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:36.978Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1280,
+      "height": 1600,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 200649
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:16:20.771Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

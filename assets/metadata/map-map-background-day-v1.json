@@ -23,6 +23,11 @@
       "path": "assets/production/svg/map-map-background-day-v1.svg",
       "bytes": 2162,
       "sha256": "57ed8a2d0c7cf689d43065e06d9e0876ed6f0b48fd5c5f62fd4d5396e5cc1cbc"
+    },
+    {
+      "path": "assets/production/webp/map-map-background-day-v1-320.webp",
+      "bytes": 30838,
+      "sha256": "bba69a0bba65cd44947a252514992cd3c4d099daaf7960d9bfa4149f052ad23e"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/maps/map-map-background-day-v1.svg",
       "bytes": 2162,
       "sha256": "57ed8a2d0c7cf689d43065e06d9e0876ed6f0b48fd5c5f62fd4d5396e5cc1cbc"
+    },
+    {
+      "path": "apps/web/public/assets/maps/map-map-background-day-v1-320.webp",
+      "bytes": 30838,
+      "sha256": "bba69a0bba65cd44947a252514992cd3c4d099daaf7960d9bfa4149f052ad23e"
+    },
+    {
+      "path": "apps/web/public/assets/library/map-map-background-day-v1.webp",
+      "bytes": 30838,
+      "sha256": "bba69a0bba65cd44947a252514992cd3c4d099daaf7960d9bfa4149f052ad23e"
+    },
+    {
+      "path": "apps/mobile/assets/library/map-map-background-day-v1.webp",
+      "bytes": 30838,
+      "sha256": "bba69a0bba65cd44947a252514992cd3c4d099daaf7960d9bfa4149f052ad23e"
     }
   ],
   "contains_text": false,

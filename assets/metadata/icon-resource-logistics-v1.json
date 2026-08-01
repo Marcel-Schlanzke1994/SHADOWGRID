@@ -1,0 +1,75 @@
+{
+  "asset_id": "icon-resource-logistics-v1",
+  "manifest_order": 744,
+  "category": "icon",
+  "batch": "ui-icons",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "24:24",
+  "width": 24,
+  "height": 24,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/icon-resource-logistics-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100744,
+  "content_hash": "87b9a5c633b72874fb949a11cc21333bca564f0e420f37c42123fba2ecd30a1a",
+  "source_file": "assets/source/icons/icon-resource-logistics-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/icon-resource-logistics-v1.svg",
+      "bytes": 513,
+      "sha256": "87b9a5c633b72874fb949a11cc21333bca564f0e420f37c42123fba2ecd30a1a"
+    },
+    {
+      "path": "assets/production/webp/icon-resource-logistics-v1-320.webp",
+      "bytes": 1870,
+      "sha256": "750879addc9ec90434f4d1be8f731c03c7ace8519ac6dd10dd2b085b3172ab3d"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/icon-resource-logistics-v1.webp",
+      "bytes": 1870,
+      "sha256": "750879addc9ec90434f4d1be8f731c03c7ace8519ac6dd10dd2b085b3172ab3d"
+    },
+    {
+      "path": "apps/mobile/assets/library/icon-resource-logistics-v1.webp",
+      "bytes": 1870,
+      "sha256": "750879addc9ec90434f4d1be8f731c03c7ace8519ac6dd10dd2b085b3172ab3d"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 513
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:51:37.879Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

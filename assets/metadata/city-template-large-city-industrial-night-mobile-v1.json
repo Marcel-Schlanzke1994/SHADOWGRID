@@ -1,0 +1,171 @@
+{
+  "asset_id": "city-template-large-city-industrial-night-mobile-v1",
+  "manifest_order": 325,
+  "category": "city-template",
+  "batch": "procedural-city-templates",
+  "city": null,
+  "variant": "night-mobile",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-template-large-city-industrial-night-mobile-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100325,
+  "content_hash": "112ee5d9e476355c4d64abeb86148c3a3fd15d9fb929fe946f5c3d498386f592",
+  "source_file": "assets/source/global/city-template-large-city-industrial-night-mobile-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-template-large-city-industrial-night-mobile-v1-320.avif",
+      "bytes": 5939,
+      "sha256": "58a5ead66b86a4ea93692925329f1a5c48d368e40e9d73c3ebf7091cd1809074"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-industrial-night-mobile-v1-320.webp",
+      "bytes": 6024,
+      "sha256": "4513dbd9d0870e8610477dae51c7419b7566a782c4a1c29705bc0d414468a2ad"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-industrial-night-mobile-v1-640.avif",
+      "bytes": 11738,
+      "sha256": "88bb7414d86aa8fdd1fdf0ef679e0bc77c0e69c221d8720819af20ee952fbfcb"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-industrial-night-mobile-v1-640.webp",
+      "bytes": 12194,
+      "sha256": "10e3f7484700cb6e3b3cd1c078059c5fe5e5885dee249687b6a06691d5937dfd"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-industrial-night-mobile-v1-960.avif",
+      "bytes": 21451,
+      "sha256": "60b420dd4a056815a509953ff03b9d87cc50104837d833654b70a76b4d4ff22c"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-industrial-night-mobile-v1-960.webp",
+      "bytes": 20028,
+      "sha256": "e0e2431e054541dc89f00211dc4069a5ef853a679b348f4ba12c70d07bd3b6bc"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-industrial-night-mobile-v1-1280.avif",
+      "bytes": 29168,
+      "sha256": "4fd818e14950aedaef1e7d7b24dc12e5f4420b891cdbefbf7de563b64c2b92d3"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-industrial-night-mobile-v1-1280.webp",
+      "bytes": 26740,
+      "sha256": "bf247d5456cf45d1ce9fea73e7e521e0f9f1ca9836076609cf6bc2dc94fa0792"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-industrial-night-mobile-v1-1920.avif",
+      "bytes": 46679,
+      "sha256": "f2967a5c4dd81afb709dd66707e8c17a2a675db2a54e685dce3d08cac19a1311"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-industrial-night-mobile-v1-1920.webp",
+      "bytes": 43610,
+      "sha256": "44d81d46a1006cfe58255ffa6bf2d87c89c0cdb4f5282e2fe5bf93f91d752f50"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-industrial-night-mobile-v1-2560.avif",
+      "bytes": 65966,
+      "sha256": "7a3a02acd89ccc05c698df77cbcd4945973a3dc46e26f8788bc0bd43da8206ea"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-industrial-night-mobile-v1-2560.webp",
+      "bytes": 64948,
+      "sha256": "ef07502a185ff8ef5b6523f3100f8aca3c957d63f3b180b02f0ac29b08a25389"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-industrial-night-mobile-v1-3840.avif",
+      "bytes": 116870,
+      "sha256": "e1bf87b58843d613c0ecbf58475b0cab7c10b158d9adb8dcb7368944139c5132"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-industrial-night-mobile-v1-3840.webp",
+      "bytes": 116266,
+      "sha256": "e63290a4c6ee1e5da865f9a3cd56184fc4167554edb646cdd4c0dafc92350e36"
+    },
+    {
+      "path": "assets/production/png/city-template-large-city-industrial-night-mobile-v1-1152.png",
+      "bytes": 1750347,
+      "sha256": "112ee5d9e476355c4d64abeb86148c3a3fd15d9fb929fe946f5c3d498386f592"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/city-template-large-city-industrial-night-mobile-v1.webp",
+      "bytes": 6024,
+      "sha256": "4513dbd9d0870e8610477dae51c7419b7566a782c4a1c29705bc0d414468a2ad"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-template-large-city-industrial-night-mobile-v1.webp",
+      "bytes": 6024,
+      "sha256": "4513dbd9d0870e8610477dae51c7419b7566a782c4a1c29705bc0d414468a2ad"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 91.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:55.127Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 92,
+      "material_quality": 87,
+      "light_quality": 89,
+      "architecture_plausibility": 89,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 92,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All four paged contact sheets were inspected at original resolution.",
+      "The templates are intentionally stylized deterministic fallbacks and remain compositionally useful across every required aspect ratio.",
+      "No missing render, broken geometry, sensitive infrastructure detail, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1750347
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:30:23.389Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

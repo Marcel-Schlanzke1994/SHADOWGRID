@@ -1,0 +1,171 @@
+{
+  "asset_id": "city-template-metropolis-inland-square-v1",
+  "manifest_order": 316,
+  "category": "city-template",
+  "batch": "procedural-city-templates",
+  "city": null,
+  "variant": "square",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-template-metropolis-inland-square-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100316,
+  "content_hash": "de0db5c7eccd27ce203f3dd0ceec4685222114c8c1b8f61c2d376d2012024e72",
+  "source_file": "assets/source/global/city-template-metropolis-inland-square-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-template-metropolis-inland-square-v1-320.avif",
+      "bytes": 3595,
+      "sha256": "8a12a179d38dc537e2a07b060a1779fbf06dff0cb3f7910c8ed70cb247005d61"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-inland-square-v1-320.webp",
+      "bytes": 3592,
+      "sha256": "3dbb042ce66d3dd756a4e21d91d228c7c740e090e6f77bf30f4aa366eec2f20a"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-inland-square-v1-640.avif",
+      "bytes": 7810,
+      "sha256": "310727bb59bc20d191815c955ad4be905620ff0ca712fcbbda4247a9ed2373d0"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-inland-square-v1-640.webp",
+      "bytes": 6650,
+      "sha256": "34f7c197fdc28f43789411eac541ebd6b2dec673a23684cb75bb9ccf6e3d1bb7"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-inland-square-v1-960.avif",
+      "bytes": 13798,
+      "sha256": "a629f49fce740dda275d7ee81173bb8f1f42293e7654596c9e35240d9f7d47d1"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-inland-square-v1-960.webp",
+      "bytes": 10980,
+      "sha256": "4955855195c5da35e8938aa67622321bdb6123121f10b047325ac1bff8a18cd6"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-inland-square-v1-1280.avif",
+      "bytes": 19163,
+      "sha256": "870d51290fcc6e639ed10735a2ac0074656b496d0a0f5ddcb8811556d780e3be"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-inland-square-v1-1280.webp",
+      "bytes": 15364,
+      "sha256": "cdcd98c87ca9ff6f7967673cde3e8a59acd5beff639636f39448a3d59c29b854"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-inland-square-v1-1920.avif",
+      "bytes": 28696,
+      "sha256": "513ca71e4c329eccc470d0e72f0b010aecb91ea523cfa69383c53c849512872b"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-inland-square-v1-1920.webp",
+      "bytes": 25006,
+      "sha256": "d610ecda10b642d705709ba2497fd7ef1308e1a51dc1e80fd26d2619f56c1743"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-inland-square-v1-2560.avif",
+      "bytes": 40679,
+      "sha256": "393bd59452edb93a87e4e69256d782c4ceccfe7a4a9f7fd911219401d72dbc31"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-inland-square-v1-2560.webp",
+      "bytes": 36686,
+      "sha256": "0dad96e5ce87df32404e44dc5322cae3423c3a3491a8f3f569a8743f33922231"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-inland-square-v1-3840.avif",
+      "bytes": 66680,
+      "sha256": "8dcd0ddeaeaa0d9b8fe89401144a55032c5c3ac239fe2a2f576b97a92912bf18"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-inland-square-v1-3840.webp",
+      "bytes": 65314,
+      "sha256": "0a107b0b40609e4fcb482697e75e87d258b6d20fbdb2dab0a7e0058c531d32d7"
+    },
+    {
+      "path": "assets/production/png/city-template-metropolis-inland-square-v1-1280.png",
+      "bytes": 1268650,
+      "sha256": "fc5f37755542b551c9e5b0a47d1514914c86af98e63a6843ceeba1eb8f604dd1"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/city-template-metropolis-inland-square-v1.webp",
+      "bytes": 3592,
+      "sha256": "3dbb042ce66d3dd756a4e21d91d228c7c740e090e6f77bf30f4aa366eec2f20a"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-template-metropolis-inland-square-v1.webp",
+      "bytes": 3592,
+      "sha256": "3dbb042ce66d3dd756a4e21d91d228c7c740e090e6f77bf30f4aa366eec2f20a"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 91.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:54.960Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 92,
+      "material_quality": 87,
+      "light_quality": 89,
+      "architecture_plausibility": 89,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 92,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All four paged contact sheets were inspected at original resolution.",
+      "The templates are intentionally stylized deterministic fallbacks and remain compositionally useful across every required aspect ratio.",
+      "No missing render, broken geometry, sensitive infrastructure detail, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1672178
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:24:18.997Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

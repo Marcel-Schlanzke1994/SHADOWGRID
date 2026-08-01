@@ -1,0 +1,171 @@
+{
+  "asset_id": "city-template-small-town-rural-day-desktop-v1",
+  "manifest_order": 352,
+  "category": "city-template",
+  "batch": "procedural-city-templates",
+  "city": null,
+  "variant": "day-desktop",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-template-small-town-rural-day-desktop-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100352,
+  "content_hash": "f376c14a0f371d90ff88621db681b63c67502c0500b79d73eba16e469ef726fe",
+  "source_file": "assets/source/global/city-template-small-town-rural-day-desktop-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-template-small-town-rural-day-desktop-v1-320.avif",
+      "bytes": 2800,
+      "sha256": "ac1c5e788b8e711b55b72c7499643cded54e0dc3d1e597a7ab804036e285c637"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-rural-day-desktop-v1-320.webp",
+      "bytes": 2520,
+      "sha256": "212042d3aa24978b7acd50c6a0111259f52cb3ae9b315d7470cc0fc47fafdaa5"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-rural-day-desktop-v1-640.avif",
+      "bytes": 5999,
+      "sha256": "818e9c2329cbf7ca8bf2da66e0d64cfb052c0626557d3504352e18abc1d6a303"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-rural-day-desktop-v1-640.webp",
+      "bytes": 5082,
+      "sha256": "672f83f5cbefa07515c58360551de8ab51341167167781e2d32fd21951081f4d"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-rural-day-desktop-v1-960.avif",
+      "bytes": 9704,
+      "sha256": "832d1bc70c75c6ec496c2e7bcfdeb9184b7759c2a668358ac793ff325943b338"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-rural-day-desktop-v1-960.webp",
+      "bytes": 8366,
+      "sha256": "4e0be94dd35b134302359df06ad8d8e23f39368f92ca8034ce93c8b1b12a0d9a"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-rural-day-desktop-v1-1280.avif",
+      "bytes": 14351,
+      "sha256": "f3e53a1579aaee7298942826b23b71bacd7423743ececa1fa953a1e34193420d"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-rural-day-desktop-v1-1280.webp",
+      "bytes": 11074,
+      "sha256": "d255b7ebd6e8036fe1bc45fad20cdc9bfb32f7cbe7b52599a66d2ca157bb8972"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-rural-day-desktop-v1-1920.avif",
+      "bytes": 20783,
+      "sha256": "6785f59248dcd062d31e3bd46a7d76046d7f53f7829411863e2d6cfd59ba9e16"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-rural-day-desktop-v1-1920.webp",
+      "bytes": 17142,
+      "sha256": "27c388caafe5346890fe4dde6a5bb07e5d7e14ab6f16b475fd17b063b71b5506"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-rural-day-desktop-v1-2560.avif",
+      "bytes": 29154,
+      "sha256": "9ed5b75949e00f7e74bcf3a83fa6250a22e0dbc6f00a115cf73fb116f45f7f06"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-rural-day-desktop-v1-2560.webp",
+      "bytes": 24298,
+      "sha256": "0527c972cfd336e3d86eac5130ce7e13a6b7401ee26d0f01f0a0182d5cc8b296"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-rural-day-desktop-v1-3840.avif",
+      "bytes": 45798,
+      "sha256": "66c24702c5d8356ff72d6aab25e72b40eecfe3a67292dfe411a7a2788379ad5b"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-rural-day-desktop-v1-3840.webp",
+      "bytes": 42602,
+      "sha256": "18a66919f30c11fcf9b0bf32105c425e6e968f28c27f0ef1eb06ae07df87e0ad"
+    },
+    {
+      "path": "assets/production/png/city-template-small-town-rural-day-desktop-v1-1280.png",
+      "bytes": 722015,
+      "sha256": "d10e10b4a4f97935cfca59e9703c0473ca9d1402c75c3de3bd132662ab4c46db"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/city-template-small-town-rural-day-desktop-v1.webp",
+      "bytes": 2520,
+      "sha256": "212042d3aa24978b7acd50c6a0111259f52cb3ae9b315d7470cc0fc47fafdaa5"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-template-small-town-rural-day-desktop-v1.webp",
+      "bytes": 2520,
+      "sha256": "212042d3aa24978b7acd50c6a0111259f52cb3ae9b315d7470cc0fc47fafdaa5"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 91.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:55.541Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 92,
+      "material_quality": 87,
+      "light_quality": 89,
+      "architecture_plausibility": 89,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 92,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All four paged contact sheets were inspected at original resolution.",
+      "The templates are intentionally stylized deterministic fallbacks and remain compositionally useful across every required aspect ratio.",
+      "No missing render, broken geometry, sensitive infrastructure detail, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1655442
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:46:45.731Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

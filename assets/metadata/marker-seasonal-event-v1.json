@@ -23,6 +23,11 @@
       "path": "assets/production/svg/marker-seasonal-event-v1.svg",
       "bytes": 575,
       "sha256": "e03446bc867044ed3d875203e07cb963c51c57317d32312bf4b1128153a4c9d7"
+    },
+    {
+      "path": "assets/production/webp/marker-seasonal-event-v1-320.webp",
+      "bytes": 5514,
+      "sha256": "2628df8d61171905b83face306ac9dad3d0fef2b1ebb453d9e542199267b98dd"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/markers/marker-seasonal-event-v1.svg",
       "bytes": 575,
       "sha256": "e03446bc867044ed3d875203e07cb963c51c57317d32312bf4b1128153a4c9d7"
+    },
+    {
+      "path": "apps/web/public/assets/markers/marker-seasonal-event-v1-320.webp",
+      "bytes": 5514,
+      "sha256": "2628df8d61171905b83face306ac9dad3d0fef2b1ebb453d9e542199267b98dd"
+    },
+    {
+      "path": "apps/web/public/assets/library/marker-seasonal-event-v1.webp",
+      "bytes": 5514,
+      "sha256": "2628df8d61171905b83face306ac9dad3d0fef2b1ebb453d9e542199267b98dd"
+    },
+    {
+      "path": "apps/mobile/assets/library/marker-seasonal-event-v1.webp",
+      "bytes": 5514,
+      "sha256": "2628df8d61171905b83face306ac9dad3d0fef2b1ebb453d9e542199267b98dd"
     }
   ],
   "contains_text": false,

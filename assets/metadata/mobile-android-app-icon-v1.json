@@ -1,0 +1,171 @@
+{
+  "asset_id": "mobile-android-app-icon-v1",
+  "manifest_order": 856,
+  "category": "mobile",
+  "batch": "mobile",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/mobile-android-app-icon-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100856,
+  "content_hash": "1cb2df2a1fd431d2d1c009e17a233af4bab063a0cc7db97c1521d979761bef57",
+  "source_file": "assets/source/marketing/mobile-android-app-icon-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/mobile-android-app-icon-v1-320.avif",
+      "bytes": 3192,
+      "sha256": "834a5017a3cba454e32d88155b82477c8d95aa01a86b09ab76f199af17af0d37"
+    },
+    {
+      "path": "assets/production/webp/mobile-android-app-icon-v1-320.webp",
+      "bytes": 3980,
+      "sha256": "2882d8cf23cf37998d008951c833bc7f18bd7db536bce50267daeef89eaa7d8a"
+    },
+    {
+      "path": "assets/production/avif/mobile-android-app-icon-v1-640.avif",
+      "bytes": 7703,
+      "sha256": "a9080a73ce60667c1e85e89fa061d2a1dff169d4e02b0b5ff3e77ba3cd86b738"
+    },
+    {
+      "path": "assets/production/webp/mobile-android-app-icon-v1-640.webp",
+      "bytes": 8242,
+      "sha256": "6a043f872139f09217c8c49d63f20ebb2f181c3e4b8ce5f05ba569a74aea85cf"
+    },
+    {
+      "path": "assets/production/avif/mobile-android-app-icon-v1-960.avif",
+      "bytes": 14364,
+      "sha256": "7630346cf2fde7f5c852337bf91fc6f74544c260c866798adfea8f9ae1b0ef86"
+    },
+    {
+      "path": "assets/production/webp/mobile-android-app-icon-v1-960.webp",
+      "bytes": 14160,
+      "sha256": "9880383f35d681ca70860375d7cf463305a95c0e282c7922ae2d8d593b615e6a"
+    },
+    {
+      "path": "assets/production/avif/mobile-android-app-icon-v1-1280.avif",
+      "bytes": 20324,
+      "sha256": "605bdd48b2aea2c3e866043d013f62b4726968ef687b499d114cd1e0bef05da6"
+    },
+    {
+      "path": "assets/production/webp/mobile-android-app-icon-v1-1280.webp",
+      "bytes": 19792,
+      "sha256": "32b8c82beaf564a7630d4a0f53ccda919323af6a0c62e479561536947b7dd15f"
+    },
+    {
+      "path": "assets/production/avif/mobile-android-app-icon-v1-1920.avif",
+      "bytes": 29650,
+      "sha256": "831626b04181dd44cd708f579ecd4aaa677038a416a4389ee1b0273cbc493bd7"
+    },
+    {
+      "path": "assets/production/webp/mobile-android-app-icon-v1-1920.webp",
+      "bytes": 30852,
+      "sha256": "3bcdf5a084ec86b5e658b82eccb47d39e96ee56cb6847dfec9425e08a67ce336"
+    },
+    {
+      "path": "assets/production/avif/mobile-android-app-icon-v1-2560.avif",
+      "bytes": 41222,
+      "sha256": "b33f3d2aa97a8879ef39c05018b2557cf54d8dc6652458f7cc3f66628fe19047"
+    },
+    {
+      "path": "assets/production/webp/mobile-android-app-icon-v1-2560.webp",
+      "bytes": 42972,
+      "sha256": "da4390ef1cfacc7dd0b9d23b1c09e81439684bde584623e28f86eae86d585e1d"
+    },
+    {
+      "path": "assets/production/avif/mobile-android-app-icon-v1-3840.avif",
+      "bytes": 64581,
+      "sha256": "bdd42e1a3552e4a7c56a32d0a24bd4c11041e29ede88263c61a49f38423ccf7b"
+    },
+    {
+      "path": "assets/production/webp/mobile-android-app-icon-v1-3840.webp",
+      "bytes": 72764,
+      "sha256": "77cb2c25f7974a59167024eb72d0ca15231e686b1a605a7bfdac72219c1d35e6"
+    },
+    {
+      "path": "assets/production/png/mobile-android-app-icon-v1-1280.png",
+      "bytes": 160249,
+      "sha256": "af653f65408773e9e6988d94899231fb5fdbe96eede332ac1d29a467fb33f23b"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/mobile-android-app-icon-v1.webp",
+      "bytes": 3980,
+      "sha256": "2882d8cf23cf37998d008951c833bc7f18bd7db536bce50267daeef89eaa7d8a"
+    },
+    {
+      "path": "apps/mobile/assets/library/mobile-android-app-icon-v1.webp",
+      "bytes": 3980,
+      "sha256": "2882d8cf23cf37998d008951c833bc7f18bd7db536bce50267daeef89eaa7d8a"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 94.4,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:37.163Z",
+    "scores": {
+      "realism": 90,
+      "style_consistency": 97,
+      "composition": 95,
+      "material_quality": 91,
+      "light_quality": 93,
+      "architecture_plausibility": 91,
+      "ui_suitability": 97,
+      "mobile_suitability": 98,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 96,
+      "contrast": 96,
+      "geometry_quality": 96,
+      "technical_quality": 98
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution, including transparent adaptive and monochrome assets.",
+      "The apparently empty monochrome contact-sheet cell was separately inspected and confirmed as a valid transparent single-color platform glyph.",
+      "Safe areas, contrast, transparency, and small-size behavior are suitable for the intended mobile placements."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 110517
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:41:37.699Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

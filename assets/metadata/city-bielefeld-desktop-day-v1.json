@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-bielefeld-desktop-day-v1",
+  "manifest_order": 205,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "bielefeld",
+  "variant": "desktop-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-bielefeld-desktop-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100205,
+  "content_hash": "c46e7802d1b4a04480ff83a2188a5385856f7ab08231c4caf121ca022e1b6187",
+  "source_file": "assets/source/cities/city-bielefeld-desktop-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-bielefeld-desktop-day-v1-320.avif",
+      "bytes": 2745,
+      "sha256": "d816a447fc0558aa145614d0d1dd7783ce382e850d8dc5c27078e7f8f8e63723"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-desktop-day-v1-320.webp",
+      "bytes": 2482,
+      "sha256": "106221f871f7620aa44715f48c62d4d0d3d365cd994123e02ff90d62bc3436ce"
+    },
+    {
+      "path": "assets/production/avif/city-bielefeld-desktop-day-v1-640.avif",
+      "bytes": 5914,
+      "sha256": "438acd53382e9a88617736bda8a9483e4f0ab22e73145fc28580e29d0f12a852"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-desktop-day-v1-640.webp",
+      "bytes": 5062,
+      "sha256": "d615c551fd0e7eff7dc242f5ebd79a063e583e14a0c655e5534411b99fe8a90a"
+    },
+    {
+      "path": "assets/production/avif/city-bielefeld-desktop-day-v1-960.avif",
+      "bytes": 9765,
+      "sha256": "08e2472d219e74e7cf0641481505f68dafc5f2904a17ab793d98907854453188"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-desktop-day-v1-960.webp",
+      "bytes": 8190,
+      "sha256": "590f898d7fffd62d50ef9ac064f101dca803812336bfc9a4a1122bd7dc780ca4"
+    },
+    {
+      "path": "assets/production/avif/city-bielefeld-desktop-day-v1-1280.avif",
+      "bytes": 13716,
+      "sha256": "978e3acbfcff5496938eccab6492220cf939c107d526b658fbe27876e1647c3f"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-desktop-day-v1-1280.webp",
+      "bytes": 11066,
+      "sha256": "35058b9abf0aad1efb126c7376b76b5a13ac8406305c03ffd6618c197bc1d476"
+    },
+    {
+      "path": "assets/production/avif/city-bielefeld-desktop-day-v1-1920.avif",
+      "bytes": 20955,
+      "sha256": "9ad906f325ca6eaac36c89056520fade3f48ae5a8adddb32c06d6cc3b6fe8a0d"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-desktop-day-v1-1920.webp",
+      "bytes": 17260,
+      "sha256": "587ca25762fefc6c3032dde57f24aa5395f1dafba075c1e856a8c9b89cd0fbd0"
+    },
+    {
+      "path": "assets/production/avif/city-bielefeld-desktop-day-v1-2560.avif",
+      "bytes": 28320,
+      "sha256": "7277af593f1a9613b3c973e742b830bf0aa299729abf47e900ea306ae6dfb63a"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-desktop-day-v1-2560.webp",
+      "bytes": 24156,
+      "sha256": "5910ce8133c621de52c272b4cc7a36eff721a471565b22990e4d4d3ac62758be"
+    },
+    {
+      "path": "assets/production/avif/city-bielefeld-desktop-day-v1-3840.avif",
+      "bytes": 45628,
+      "sha256": "fcd1bdfa02e167e510c36f4993cb0d3042d2062136c8cebc037fc99b830070ff"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-desktop-day-v1-3840.webp",
+      "bytes": 42804,
+      "sha256": "f8fefaf7cf901f2b015c3db5108051c3ee27fd2b64814db38b2b6ff02a83ed65"
+    },
+    {
+      "path": "assets/production/png/city-bielefeld-desktop-day-v1-1280.png",
+      "bytes": 710286,
+      "sha256": "a108209e90117aa0b90404c2fe2b83ffabc70c8878c209e69daf44fb6ac174b8"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-desktop-day-v1-320.avif",
+      "bytes": 2745,
+      "sha256": "d816a447fc0558aa145614d0d1dd7783ce382e850d8dc5c27078e7f8f8e63723"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-desktop-day-v1-320.webp",
+      "bytes": 2482,
+      "sha256": "106221f871f7620aa44715f48c62d4d0d3d365cd994123e02ff90d62bc3436ce"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-desktop-day-v1-640.avif",
+      "bytes": 5914,
+      "sha256": "438acd53382e9a88617736bda8a9483e4f0ab22e73145fc28580e29d0f12a852"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-desktop-day-v1-640.webp",
+      "bytes": 5062,
+      "sha256": "d615c551fd0e7eff7dc242f5ebd79a063e583e14a0c655e5534411b99fe8a90a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-desktop-day-v1-960.avif",
+      "bytes": 9765,
+      "sha256": "08e2472d219e74e7cf0641481505f68dafc5f2904a17ab793d98907854453188"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-desktop-day-v1-960.webp",
+      "bytes": 8190,
+      "sha256": "590f898d7fffd62d50ef9ac064f101dca803812336bfc9a4a1122bd7dc780ca4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-desktop-day-v1-1280.avif",
+      "bytes": 13716,
+      "sha256": "978e3acbfcff5496938eccab6492220cf939c107d526b658fbe27876e1647c3f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-desktop-day-v1-1280.webp",
+      "bytes": 11066,
+      "sha256": "35058b9abf0aad1efb126c7376b76b5a13ac8406305c03ffd6618c197bc1d476"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-desktop-day-v1-1920.avif",
+      "bytes": 20955,
+      "sha256": "9ad906f325ca6eaac36c89056520fade3f48ae5a8adddb32c06d6cc3b6fe8a0d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-desktop-day-v1-1920.webp",
+      "bytes": 17260,
+      "sha256": "587ca25762fefc6c3032dde57f24aa5395f1dafba075c1e856a8c9b89cd0fbd0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-desktop-day-v1-2560.avif",
+      "bytes": 28320,
+      "sha256": "7277af593f1a9613b3c973e742b830bf0aa299729abf47e900ea306ae6dfb63a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-desktop-day-v1-2560.webp",
+      "bytes": 24156,
+      "sha256": "5910ce8133c621de52c272b4cc7a36eff721a471565b22990e4d4d3ac62758be"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-desktop-day-v1-3840.avif",
+      "bytes": 45628,
+      "sha256": "fcd1bdfa02e167e510c36f4993cb0d3042d2062136c8cebc037fc99b830070ff"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-desktop-day-v1-3840.webp",
+      "bytes": 42804,
+      "sha256": "f8fefaf7cf901f2b015c3db5108051c3ee27fd2b64814db38b2b6ff02a83ed65"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-desktop-day-v1-1280.png",
+      "bytes": 710286,
+      "sha256": "a108209e90117aa0b90404c2fe2b83ffabc70c8878c209e69daf44fb6ac174b8"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-bielefeld-desktop-day-v1.webp",
+      "bytes": 2482,
+      "sha256": "106221f871f7620aa44715f48c62d4d0d3d365cd994123e02ff90d62bc3436ce"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-bielefeld-desktop-day-v1.webp",
+      "bytes": 2482,
+      "sha256": "106221f871f7620aa44715f48c62d4d0d3d365cd994123e02ff90d62bc3436ce"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.082Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1637700
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:51:57.566Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

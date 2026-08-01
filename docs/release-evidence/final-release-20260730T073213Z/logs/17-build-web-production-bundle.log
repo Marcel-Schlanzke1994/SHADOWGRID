@@ -1,0 +1,22 @@
+SHADOWGRID final release evidence
+Step: Build web production bundle
+Command: pnpm --filter @shadowgrid/web build
+Started: 2026-07-30T08:48:51.057Z
+
+$ tsc -b && vite build
+vite v6.4.3 building for production...
+transforming...
+✓ 222 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.97 kB │ gzip:   0.45 kB
+dist/assets/index-BF_2oxfM.css   23.73 kB │ gzip:   5.85 kB
+dist/assets/i18n-BpSawzFj.js     49.71 kB │ gzip:  16.37 kB
+dist/assets/vendor-Dn88nvzs.js  127.59 kB │ gzip:  33.66 kB
+dist/assets/index-BkeayuAQ.js   255.20 kB │ gzip:  62.59 kB
+dist/assets/react-a77w5I3T.js   260.43 kB │ gzip:  84.94 kB
+dist/assets/graph-CKShIO4H.js   438.67 kB │ gzip: 140.34 kB
+✓ built in 48.27s
+
+Finished: 2026-07-30T08:50:20.873Z
+Exit code: 0

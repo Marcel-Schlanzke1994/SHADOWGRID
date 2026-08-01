@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-harbor-quarter-economic-boom-day-v1",
+  "manifest_order": 377,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "economic-boom-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-harbor-quarter-economic-boom-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100377,
+  "content_hash": "8841badd55dadbe25ae788a08dd463f8ffa0043f6fc9bcdd3202bf5760019fc1",
+  "source_file": "assets/source/districts/district-harbor-quarter-economic-boom-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-harbor-quarter-economic-boom-day-v1-320.avif",
+      "bytes": 2853,
+      "sha256": "026a89c46789140df1ec9a86dc4f4da1e763f4b2ec65a778884ec322afa0ed66"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-economic-boom-day-v1-320.webp",
+      "bytes": 2718,
+      "sha256": "e510e93c2ae7b83a7e217280e907183724e726df17c887037e0dcfbd9cfff347"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-economic-boom-day-v1-640.avif",
+      "bytes": 6250,
+      "sha256": "26f168faf09b6edfe84b0a1fd39b2e248c0bb98b631acd2a183ed0e946a090d2"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-economic-boom-day-v1-640.webp",
+      "bytes": 5610,
+      "sha256": "6e6c26a06eaaef21b876a68cc5957993fb89bbd6d45528ccf1458f9d6dfd2121"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-economic-boom-day-v1-960.avif",
+      "bytes": 10284,
+      "sha256": "48c7da6669205dae7c3ccebad317a000af0bb694e9797f6800df1b5a8213bd37"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-economic-boom-day-v1-960.webp",
+      "bytes": 9268,
+      "sha256": "e4c4ed96202d59d7ca5b5d5ba1b62d0ebeda4b61b0761a34b5d7147702195beb"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-economic-boom-day-v1-1280.avif",
+      "bytes": 14900,
+      "sha256": "94f13ab3c687ecd2c55b80abe50504e4a4f7d9190db9549243c4fc9f7cc30f80"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-economic-boom-day-v1-1280.webp",
+      "bytes": 12194,
+      "sha256": "ed722a87dd3c44644a8fe1089e8a270343274f1a1c835a258a7f7c690cc0d88a"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-economic-boom-day-v1-1920.avif",
+      "bytes": 22187,
+      "sha256": "53e840032d12c79da77faa99d375245753697602693df162ff28a40859c05630"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-economic-boom-day-v1-1920.webp",
+      "bytes": 18984,
+      "sha256": "f9d3e95597c93786f73d5f676032937db82222a0943a15c36e66ef28a9716a39"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-economic-boom-day-v1-2560.avif",
+      "bytes": 30172,
+      "sha256": "220fa52b2cdae7bd51a6d599402dc7a5db324d7adfd2bc9552fc0f64cceb35f2"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-economic-boom-day-v1-2560.webp",
+      "bytes": 26404,
+      "sha256": "5db99cdcd591d41d567d2382128dc010d0c75b8cf3204019a4b0bf9b79186496"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-economic-boom-day-v1-3840.avif",
+      "bytes": 48992,
+      "sha256": "c540a02d4a35dc9101100034278f6401f67f76107ec026e2a185ce0c0a9e446d"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-economic-boom-day-v1-3840.webp",
+      "bytes": 44616,
+      "sha256": "354ae2fd9627720574207aebb4d22647f2ce3cae595a2292e570a292897b2765"
+    },
+    {
+      "path": "assets/production/png/district-harbor-quarter-economic-boom-day-v1-1280.png",
+      "bytes": 634785,
+      "sha256": "c0e94f214ae5a2402a56eacc3824016d0fe3726428db6f7cbafc9f3860678eae"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-harbor-quarter-economic-boom-day-v1.webp",
+      "bytes": 2718,
+      "sha256": "e510e93c2ae7b83a7e217280e907183724e726df17c887037e0dcfbd9cfff347"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-harbor-quarter-economic-boom-day-v1.webp",
+      "bytes": 2718,
+      "sha256": "e510e93c2ae7b83a7e217280e907183724e726df17c887037e0dcfbd9cfff347"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.518Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1449938
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:10:47.572Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

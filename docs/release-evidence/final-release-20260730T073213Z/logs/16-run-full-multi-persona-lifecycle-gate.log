@@ -1,0 +1,94 @@
+SHADOWGRID final release evidence
+Step: Run full multi-persona lifecycle gate
+Command: pnpm test:lifecycle
+Started: 2026-07-30T08:33:48.256Z
+
+$ node scripts/verify-lifecycle.mjs
+
+=== API lifecycle (33 tests) ===
+.................................                                        [100%]
+33 passed, 1 warning in 463.37s (0:07:43)
+
+=== Playwright lifecycle (14 specs; desktop and mobile) ===
+[WebServer] $ node scripts/run-python.mjs --cwd apps/api -m uvicorn shadowgrid.main:app --reload --host 0.0.0.0 --port 8000
+[WebServer] INFO:     Will watch for changes in these directories: ['C:\\Users\\Marcel\\Downloads\\shadowgrid\\apps\\api']
+[WebServer] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[WebServer] INFO:     Started reloader process [49572] using WatchFiles
+[WebServer] INFO:     Started server process [40908]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] $ vite --host 0.0.0.0
+
+Running 42 tests using 2 workers
+
+(node:26388) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10936) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10936) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:26388) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  2 [chromium] › e2e\auth-assets.spec.ts:20:3 › login artwork is responsive, loaded and accessible (10.6s)
+  ok  3 [chromium] › e2e\auth-assets.spec.ts:68:3 › login artwork reflows at 200 percent (3.1s)
+  ok  1 [chromium] › e2e\bond-flow.spec.ts:247:1 › player issues, subscribes to and activates company bonds (14.3s)
+  ok  4 [chromium] › e2e\auth-assets.spec.ts:20:3 › registration artwork is responsive, loaded and accessible (12.7s)
+  ok  6 [chromium] › e2e\auth-assets.spec.ts:68:3 › registration artwork reflows at 200 percent (4.6s)
+  ok  5 [chromium] › e2e\cartel-flow.spec.ts:293:1 › cartel leader manages treasury, projects and approvals accessibly (25.6s)
+  ok  7 [chromium] › e2e\company-flow.spec.ts:321:1 › company founding and investment require cost confirmation (17.1s)
+  ok  8 [chromium] › e2e\contract-flow.spec.ts:237:1 › player publishes, bids, reviews and awards commercial contracts (14.4s)
+  ok  9 [chromium] › e2e\critical-flow.spec.ts:34:1 › login, dashboard, city, businesses and operation planning are reachable (11.7s)
+  ok 11 [chromium] › e2e\critical-flow.spec.ts:58:1 › authenticated command center has no serious automated accessibility violations (16.5s)
+  ok 10 [chromium] › e2e\exchange-flow.spec.ts:355:1 › IPO, order lifecycle and dividend flow are explicit and accessible (27.5s)
+  ok 12 [chromium] › e2e\critical-flow.spec.ts:76:1 › language switch applies RTL direction (5.7s)
+  ok 14 [chromium] › e2e\loan-flow.spec.ts:182:1 › player requests, reviews and accepts a fixed-rate company loan (14.9s)
+  ok 13 [chromium] › e2e\intelligence-flow.spec.ts:273:1 › analyst gathers, trades and applies abstract pressure accessibly (18.7s)
+  ok 16 [chromium] › e2e\realtime-notifications-flow.spec.ts:151:1 › event feed and unread notifications reconcile through REST (11.7s)
+  ok 15 [chromium] › e2e\real-estate-flow.spec.ts:317:1 › player buys, lists and leases property, then upgrades headquarters (16.2s)
+  ok 17 [chromium] › e2e\season-flow.spec.ts:288:1 › player sees season phase, goals, ties, rewards and champions (13.2s)
+  ok 18 [chromium] › e2e\specialist-flow.spec.ts:200:1 › specialist hiring, assignment and release are explicit and accessible (18.5s)
+  ok 19 [chromium] › e2e\season-flow.spec.ts:308:1 › local administrator shortens, simulates, closes and recreates a season (18.7s)
+(node:36600) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 20 [chromium] › e2e\world-events-flow.spec.ts:214:1 › administrator previews, activates and safely ends a world event (18.5s)
+(node:36600) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 21 [chromium] › e2e\world-events-flow.spec.ts:243:1 › active world event is visible in the player command center (12.0s)
+(node:22432) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22432) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 22 [mobile] › e2e\auth-assets.spec.ts:20:3 › login artwork is responsive, loaded and accessible (13.7s)
+  -  23 [mobile] › e2e\auth-assets.spec.ts:68:3 › login artwork reflows at 200 percent
+  ok 25 [mobile] › e2e\auth-assets.spec.ts:20:3 › registration artwork is responsive, loaded and accessible (13.8s)
+  -  26 [mobile] › e2e\auth-assets.spec.ts:68:3 › registration artwork reflows at 200 percent
+  ok 24 [mobile] › e2e\bond-flow.spec.ts:247:1 › player issues, subscribes to and activates company bonds (21.2s)
+  ok 28 [mobile] › e2e\company-flow.spec.ts:321:1 › company founding and investment require cost confirmation (15.7s)
+  ok 27 [mobile] › e2e\cartel-flow.spec.ts:293:1 › cartel leader manages treasury, projects and approvals accessibly (21.9s)
+  ok 30 [mobile] › e2e\critical-flow.spec.ts:34:1 › login, dashboard, city, businesses and operation planning are reachable (10.3s)
+  ok 29 [mobile] › e2e\contract-flow.spec.ts:237:1 › player publishes, bids, reviews and awards commercial contracts (15.0s)
+  ok 31 [mobile] › e2e\critical-flow.spec.ts:58:1 › authenticated command center has no serious automated accessibility violations (12.0s)
+  ok 33 [mobile] › e2e\critical-flow.spec.ts:76:1 › language switch applies RTL direction (10.7s)
+  ok 32 [mobile] › e2e\exchange-flow.spec.ts:355:1 › IPO, order lifecycle and dividend flow are explicit and accessible (27.0s)
+  ok 34 [mobile] › e2e\intelligence-flow.spec.ts:273:1 › analyst gathers, trades and applies abstract pressure accessibly (23.0s)
+  ok 35 [mobile] › e2e\loan-flow.spec.ts:182:1 › player requests, reviews and accepts a fixed-rate company loan (17.5s)
+  ok 37 [mobile] › e2e\realtime-notifications-flow.spec.ts:151:1 › event feed and unread notifications reconcile through REST (13.0s)
+  ok 36 [mobile] › e2e\real-estate-flow.spec.ts:317:1 › player buys, lists and leases property, then upgrades headquarters (18.3s)
+  ok 38 [mobile] › e2e\season-flow.spec.ts:288:1 › player sees season phase, goals, ties, rewards and champions (15.7s)
+  ok 39 [mobile] › e2e\specialist-flow.spec.ts:200:1 › specialist hiring, assignment and release are explicit and accessible (17.4s)
+  ok 40 [mobile] › e2e\season-flow.spec.ts:308:1 › local administrator shortens, simulates, closes and recreates a season (10.9s)
+  ok 41 [mobile] › e2e\world-events-flow.spec.ts:214:1 › administrator previews, activates and safely ends a world event (11.1s)
+  ok 42 [mobile] › e2e\world-events-flow.spec.ts:243:1 › active world event is visible in the player command center (11.1s)
+
+  2 skipped
+  40 passed (6.7m)
+
+To open last HTML report run:
+
+  pnpm exec playwright show-report
+
+
+SHADOWGRID lifecycle gate passed.
+
+Finished: 2026-07-30T08:48:51.048Z
+Exit code: 0

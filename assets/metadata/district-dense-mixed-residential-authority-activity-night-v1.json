@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-dense-mixed-residential-authority-activity-night-v1",
+  "manifest_order": 454,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "authority-activity-night",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-dense-mixed-residential-authority-activity-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100454,
+  "content_hash": "5136792f723f90eecb9f4a56f863230f7400ab7524d9bcded0a6036b2a76867f",
+  "source_file": "assets/source/districts/district-dense-mixed-residential-authority-activity-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-authority-activity-night-v1-320.avif",
+      "bytes": 3633,
+      "sha256": "07e9a843d38f5d5a640a82b972b61f0ea64c88d41ede129f5ceb635c863dfe93"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-authority-activity-night-v1-320.webp",
+      "bytes": 3542,
+      "sha256": "c28a1fe1e3a07c8abd882015ed68f04219126fd20639745b1fd048210af842a9"
+    },
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-authority-activity-night-v1-640.avif",
+      "bytes": 7457,
+      "sha256": "c0985ea2ed4a930eb577f884be016e1e45f3ed60c1d0467f4b8986442fdb2562"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-authority-activity-night-v1-640.webp",
+      "bytes": 7274,
+      "sha256": "0f4372924a16b3f3378d2456edd1b74c2f6eca6ca70c5ff98b307713165e5349"
+    },
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-authority-activity-night-v1-960.avif",
+      "bytes": 13012,
+      "sha256": "35ce8c4d1ff86d6547b68610ef12772704df4c44bd11eb85239e65f145f1007e"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-authority-activity-night-v1-960.webp",
+      "bytes": 12532,
+      "sha256": "0eb94ce14c8ba4e351475ab0ae3961d162c6935dee35a48cb8fa1ce74fd6b6ed"
+    },
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-authority-activity-night-v1-1280.avif",
+      "bytes": 17471,
+      "sha256": "63c343a2c37e4462bf4a9076d99822b8cc2cb057747fe811624dee962d90d21d"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-authority-activity-night-v1-1280.webp",
+      "bytes": 16568,
+      "sha256": "0b1d218009bf950a40f27dc728cc11f976cd216dc952819a6a58c814e2778b2d"
+    },
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-authority-activity-night-v1-1920.avif",
+      "bytes": 26563,
+      "sha256": "4d3869d437f6d2de49d7d036f76c6652269bf83f96e7054a845bd7585951dff8"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-authority-activity-night-v1-1920.webp",
+      "bytes": 24434,
+      "sha256": "3d1b7b2d16573e3e37f2749ba9ae771c7a37c0ab3a22c6bc9b90c1dfc87f0034"
+    },
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-authority-activity-night-v1-2560.avif",
+      "bytes": 36791,
+      "sha256": "e89690146706f09d6ab5717afa17df05df1335a42723c0958e6be98e54ced07f"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-authority-activity-night-v1-2560.webp",
+      "bytes": 32712,
+      "sha256": "92872cf89b170d5f052035a6613838c9973bbdb03a2c3d9bb95ebb1ffeb9fdb7"
+    },
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-authority-activity-night-v1-3840.avif",
+      "bytes": 58280,
+      "sha256": "fdfb3a2f8e68cb5ab81e57f4134f1232d08557eba95bdb95289f3dbfeeea824b"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-authority-activity-night-v1-3840.webp",
+      "bytes": 53246,
+      "sha256": "d0a04fa79b99e54d9c39929e06362aa455af90b7360affe42d44a899321dcf30"
+    },
+    {
+      "path": "assets/production/png/district-dense-mixed-residential-authority-activity-night-v1-1280.png",
+      "bytes": 654450,
+      "sha256": "c8a7f74861c719217b9913afa0197cdc7894dd3934da04c82698716dbe756648"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-dense-mixed-residential-authority-activity-night-v1.webp",
+      "bytes": 3542,
+      "sha256": "c28a1fe1e3a07c8abd882015ed68f04219126fd20639745b1fd048210af842a9"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-dense-mixed-residential-authority-activity-night-v1.webp",
+      "bytes": 3542,
+      "sha256": "c28a1fe1e3a07c8abd882015ed68f04219126fd20639745b1fd048210af842a9"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.419Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1443529
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:49:31.308Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

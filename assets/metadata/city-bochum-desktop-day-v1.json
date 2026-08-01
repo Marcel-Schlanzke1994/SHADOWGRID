@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-bochum-desktop-day-v1",
+  "manifest_order": 189,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "bochum",
+  "variant": "desktop-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-bochum-desktop-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100189,
+  "content_hash": "3fb22dd22bf0ceb809264b0ff1af6430e5231cee86b68c0d1018710d1ff3867a",
+  "source_file": "assets/source/cities/city-bochum-desktop-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-bochum-desktop-day-v1-320.avif",
+      "bytes": 2894,
+      "sha256": "c13992e0d2cc0f722db745fad7e3386bc785590495f6c7f077b3ec0dfc7f5b69"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-desktop-day-v1-320.webp",
+      "bytes": 2866,
+      "sha256": "721de551649f4e6ae5d91996fda933402594032aaea31c4e7a4b99b1ba12b0cc"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-desktop-day-v1-640.avif",
+      "bytes": 6231,
+      "sha256": "6cf6c30b0da5ba0dbb4d7b98101f311669ed6773ea5399f2f5774295ffaac71c"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-desktop-day-v1-640.webp",
+      "bytes": 5416,
+      "sha256": "4e617a9a1b741567b60557aa8c5ebabb40fb0fe546d22c8b48decbdd6524ae14"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-desktop-day-v1-960.avif",
+      "bytes": 10151,
+      "sha256": "35b0c25a7cf0c7ac0a4b89a22df79d42937a52f74c606f6f64c053a7993ed0f0"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-desktop-day-v1-960.webp",
+      "bytes": 8910,
+      "sha256": "3da2c70ae77d7bcde5bb5c0605be11f60d7d1b158f9095e0dd7c4bfc3b719314"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-desktop-day-v1-1280.avif",
+      "bytes": 14985,
+      "sha256": "c04fc1313e7b75ca969f68648fb3a2e9b44014fc6cf6b55bc93bc287471138a0"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-desktop-day-v1-1280.webp",
+      "bytes": 11690,
+      "sha256": "4fb28a0be4c6715e1b901ad83b17498ed79cbe86b63c9cd94d194d8755455d64"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-desktop-day-v1-1920.avif",
+      "bytes": 21870,
+      "sha256": "79cb6e196b42d4149c73c42fcf0df073e42e1749528d7308e591af822d75fc7b"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-desktop-day-v1-1920.webp",
+      "bytes": 17936,
+      "sha256": "d0215a316214e18a0e4097506d18ab1cfe0b1f78f8df2bc9ee6783091a50efd7"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-desktop-day-v1-2560.avif",
+      "bytes": 30261,
+      "sha256": "727f04422b6ccedbf5ff6f174d0221673c3a648af6b4bc2ba3f364cdc9b950e5"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-desktop-day-v1-2560.webp",
+      "bytes": 25414,
+      "sha256": "ef1c545f5203619e4546434b397b5a696322b033f06764c702687272a80a2925"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-desktop-day-v1-3840.avif",
+      "bytes": 47706,
+      "sha256": "3608ee5895b08b51a946e12f221b62b7a146e99c8dfb51b23f273b995a834cbe"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-desktop-day-v1-3840.webp",
+      "bytes": 43860,
+      "sha256": "a17dcb42a8d689f70d4a6fe3d37bc0fd127c43bed14c122c239f1a4bc22b287c"
+    },
+    {
+      "path": "assets/production/png/city-bochum-desktop-day-v1-1280.png",
+      "bytes": 718631,
+      "sha256": "14fdc5d8ad58690199b2a4620679d36d37365e55b3976564f20a96562d1832d0"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-desktop-day-v1-320.avif",
+      "bytes": 2894,
+      "sha256": "c13992e0d2cc0f722db745fad7e3386bc785590495f6c7f077b3ec0dfc7f5b69"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-desktop-day-v1-320.webp",
+      "bytes": 2866,
+      "sha256": "721de551649f4e6ae5d91996fda933402594032aaea31c4e7a4b99b1ba12b0cc"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-desktop-day-v1-640.avif",
+      "bytes": 6231,
+      "sha256": "6cf6c30b0da5ba0dbb4d7b98101f311669ed6773ea5399f2f5774295ffaac71c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-desktop-day-v1-640.webp",
+      "bytes": 5416,
+      "sha256": "4e617a9a1b741567b60557aa8c5ebabb40fb0fe546d22c8b48decbdd6524ae14"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-desktop-day-v1-960.avif",
+      "bytes": 10151,
+      "sha256": "35b0c25a7cf0c7ac0a4b89a22df79d42937a52f74c606f6f64c053a7993ed0f0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-desktop-day-v1-960.webp",
+      "bytes": 8910,
+      "sha256": "3da2c70ae77d7bcde5bb5c0605be11f60d7d1b158f9095e0dd7c4bfc3b719314"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-desktop-day-v1-1280.avif",
+      "bytes": 14985,
+      "sha256": "c04fc1313e7b75ca969f68648fb3a2e9b44014fc6cf6b55bc93bc287471138a0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-desktop-day-v1-1280.webp",
+      "bytes": 11690,
+      "sha256": "4fb28a0be4c6715e1b901ad83b17498ed79cbe86b63c9cd94d194d8755455d64"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-desktop-day-v1-1920.avif",
+      "bytes": 21870,
+      "sha256": "79cb6e196b42d4149c73c42fcf0df073e42e1749528d7308e591af822d75fc7b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-desktop-day-v1-1920.webp",
+      "bytes": 17936,
+      "sha256": "d0215a316214e18a0e4097506d18ab1cfe0b1f78f8df2bc9ee6783091a50efd7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-desktop-day-v1-2560.avif",
+      "bytes": 30261,
+      "sha256": "727f04422b6ccedbf5ff6f174d0221673c3a648af6b4bc2ba3f364cdc9b950e5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-desktop-day-v1-2560.webp",
+      "bytes": 25414,
+      "sha256": "ef1c545f5203619e4546434b397b5a696322b033f06764c702687272a80a2925"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-desktop-day-v1-3840.avif",
+      "bytes": 47706,
+      "sha256": "3608ee5895b08b51a946e12f221b62b7a146e99c8dfb51b23f273b995a834cbe"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-desktop-day-v1-3840.webp",
+      "bytes": 43860,
+      "sha256": "a17dcb42a8d689f70d4a6fe3d37bc0fd127c43bed14c122c239f1a4bc22b287c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-desktop-day-v1-1280.png",
+      "bytes": 718631,
+      "sha256": "14fdc5d8ad58690199b2a4620679d36d37365e55b3976564f20a96562d1832d0"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-bochum-desktop-day-v1.webp",
+      "bytes": 2866,
+      "sha256": "721de551649f4e6ae5d91996fda933402594032aaea31c4e7a4b99b1ba12b0cc"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-bochum-desktop-day-v1.webp",
+      "bytes": 2866,
+      "sha256": "721de551649f4e6ae5d91996fda933402594032aaea31c4e7a4b99b1ba12b0cc"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.914Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1639076
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:36:21.857Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -20,18 +20,56 @@ const mockWorldSelectionApi = async (page: Page) => {
       }),
     }),
   );
-  await page.route("**/api/v1/worlds", (route) =>
+  await page.route("**/api/v1/world/cities", (route) =>
     route.fulfill({
       contentType: "application/json",
-      body: JSON.stringify([{ id: "world-1", name: "Vesper One" }]),
+      body: JSON.stringify([{ id: "city-1", name: "Köln" }]),
     }),
   );
-  await page.route("**/api/v1/worlds/world-1/districts", (route) =>
+  await page.route("**/api/v1/world/cities/city-1/districts", (route) =>
     route.fulfill({
       contentType: "application/json",
-      body: JSON.stringify([{ id: "district-1", name: "North Exchange" }]),
+      body: JSON.stringify([{ id: "district-1", name: "Innenstadt" }]),
     }),
   );
+  await page.route("**/api/v1/players/me/select-city", async (route) => {
+    const request = route.request().postDataJSON() as {
+      city_id: string;
+      home_district_id: string;
+    };
+    expect(request.city_id).toBe("city-1");
+    expect(request.home_district_id).toBe("district-1");
+    await route.fulfill({
+      contentType: "application/json",
+      body: JSON.stringify({
+        id: "profile-1",
+        world_id: "world-1",
+        city_id: "city-1",
+        codename: "Rhein Network",
+        archetype: "business_consortium",
+        home_district_id: "district-1",
+        tutorial_step: 0,
+        loyalty: 65,
+        legitimacy: 60,
+        fear: 5,
+        investigation_pressure: 0,
+        stress: 0,
+        stability: 70,
+        operation_slots: 2,
+        protected_until: "2026-07-29T12:00:00Z",
+        recovery_until: null,
+        resources: {
+          cash: 80000,
+          capital: 25000,
+          influence: 10,
+          intelligence: 15,
+          logistics_capacity: 10,
+          personnel_capacity: 8,
+          version: 6,
+        },
+      }),
+    });
+  });
 };
 
 test("world selection artwork is responsive, loaded and accessible", async ({
@@ -60,6 +98,7 @@ test("world selection artwork is responsive, loaded and accessible", async ({
         ? "global-world-selection-mobile-v1"
         : "global-world-selection-desktop-v1",
     );
+
   await expect(page.locator(".scene-backdrop--world")).toHaveCSS(
     "z-index",
     "1",
@@ -77,6 +116,13 @@ test("world selection artwork is responsive, loaded and accessible", async ({
       ["serious", "critical"].includes(item.impact ?? ""),
     ),
   ).toEqual([]);
+
+  await page.getByLabel("Codename").fill("Rhein Network");
+  await page
+    .getByLabel("Organization approach")
+    .selectOption("business_consortium");
+  await page.getByRole("button", { name: "Start in this city" }).click();
+  await expect(page).toHaveURL(/\/tutorial$/);
 });
 
 test("world selection artwork reflows at 200 percent", async ({

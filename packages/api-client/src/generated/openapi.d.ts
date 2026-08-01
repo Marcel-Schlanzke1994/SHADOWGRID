@@ -4,6 +4,228 @@
  */
 
 export interface paths {
+    "/api/v1/account/rewards/me": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** My Account Rewards */
+        get: operations["my_account_rewards_api_v1_account_rewards_me_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/admin/ai/players": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Ai Players */
+        get: operations["ai_players_api_v1_admin_ai_players_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/admin/ai/players/{profile_id}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        /** Ai Player Pause */
+        patch: operations["ai_player_pause_api_v1_admin_ai_players__profile_id__patch"];
+        trace?: never;
+    };
+    "/api/v1/admin/ai/ticks": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Ai Tick Manual */
+        post: operations["ai_tick_manual_api_v1_admin_ai_ticks_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/admin/economy/ticks": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Economy Tick Manual */
+        post: operations["economy_tick_manual_api_v1_admin_economy_ticks_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/admin/intelligence/operations": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Intelligence Admin Trace */
+        get: operations["intelligence_admin_trace_api_v1_admin_intelligence_operations_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/admin/intelligence/reports/{report_id}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Intelligence Admin Report */
+        get: operations["intelligence_admin_report_api_v1_admin_intelligence_reports__report_id__get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/admin/seasons": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Admin Seasons */
+        get: operations["admin_seasons_api_v1_admin_seasons_get"];
+        put?: never;
+        /** Admin Create Season */
+        post: operations["admin_create_season_api_v1_admin_seasons_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/admin/seasons/templates": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Season Templates */
+        get: operations["season_templates_api_v1_admin_seasons_templates_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/admin/seasons/{season_id}/close": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Admin Close Season */
+        post: operations["admin_close_season_api_v1_admin_seasons__season_id__close_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/admin/seasons/{season_id}/shorten": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Admin Shorten Season */
+        post: operations["admin_shorten_season_api_v1_admin_seasons__season_id__shorten_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/admin/seasons/{season_id}/simulate": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Admin Simulate Season */
+        post: operations["admin_simulate_season_api_v1_admin_seasons__season_id__simulate_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/admin/specialists/payroll": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Specialist Payroll Manual */
+        post: operations["specialist_payroll_manual_api_v1_admin_specialists_payroll_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/admin/summary": {
         parameters: {
             query?: never;
@@ -15,6 +237,74 @@ export interface paths {
         get: operations["admin_summary_api_v1_admin_summary_get"];
         put?: never;
         post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/admin/world-events/activate": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** World Event Activate */
+        post: operations["world_event_activate_api_v1_admin_world_events_activate_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/admin/world-events/definitions": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** World Event Definitions */
+        get: operations["world_event_definitions_api_v1_admin_world_events_definitions_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/admin/world-events/preview": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** World Event Preview */
+        post: operations["world_event_preview_api_v1_admin_world_events_preview_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/admin/world-events/{instance_id}/end": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** World Event End */
+        post: operations["world_event_end_api_v1_admin_world_events__instance_id__end_post"];
         delete?: never;
         options?: never;
         head?: never;
@@ -345,6 +635,109 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/bonds/config": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Bond Config */
+        get: operations["bond_config_api_v1_bonds_config_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/bonds/holdings/me": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** My Bond Holdings */
+        get: operations["my_bond_holdings_api_v1_bonds_holdings_me_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/bonds/issues": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Bond Issues */
+        get: operations["bond_issues_api_v1_bonds_issues_get"];
+        put?: never;
+        /** Post Bond Issue */
+        post: operations["post_bond_issue_api_v1_bonds_issues_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/bonds/issues/{issue_id}/activate": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Post Activate Bond Issue */
+        post: operations["post_activate_bond_issue_api_v1_bonds_issues__issue_id__activate_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/bonds/issues/{issue_id}/settlements": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Bond Settlements */
+        get: operations["bond_settlements_api_v1_bonds_issues__issue_id__settlements_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/bonds/issues/{issue_id}/subscribe": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Post Bond Subscription */
+        post: operations["post_bond_subscription_api_v1_bonds_issues__issue_id__subscribe_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/businesses": {
         parameters: {
             query?: never;
@@ -601,6 +994,282 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/cartels": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Cartels List */
+        get: operations["cartels_list_api_v1_cartels_get"];
+        put?: never;
+        /** Cartels Create */
+        post: operations["cartels_create_api_v1_cartels_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cartels/invitations/me": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Cartel Invitations Me */
+        get: operations["cartel_invitations_me_api_v1_cartels_invitations_me_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cartels/{cartel_id}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Cartel Get */
+        get: operations["cartel_get_api_v1_cartels__cartel_id__get"];
+        put?: never;
+        post?: never;
+        /** Cartel Dissolve */
+        delete: operations["cartel_dissolve_api_v1_cartels__cartel_id__delete"];
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cartels/{cartel_id}/activity": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Cartel Activity Log */
+        get: operations["cartel_activity_log_api_v1_cartels__cartel_id__activity_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cartels/{cartel_id}/invitations": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Cartel Invitation Create */
+        post: operations["cartel_invitation_create_api_v1_cartels__cartel_id__invitations_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cartels/{cartel_id}/join": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Cartel Join */
+        post: operations["cartel_join_api_v1_cartels__cartel_id__join_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cartels/{cartel_id}/leadership-transfer": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Cartel Leadership Transfer */
+        post: operations["cartel_leadership_transfer_api_v1_cartels__cartel_id__leadership_transfer_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cartels/{cartel_id}/leave": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Cartel Leave */
+        post: operations["cartel_leave_api_v1_cartels__cartel_id__leave_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cartels/{cartel_id}/members": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Cartel Members */
+        get: operations["cartel_members_api_v1_cartels__cartel_id__members_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cartels/{cartel_id}/members/{player_id}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        /** Cartel Member Update */
+        patch: operations["cartel_member_update_api_v1_cartels__cartel_id__members__player_id__patch"];
+        trace?: never;
+    };
+    "/api/v1/cartels/{cartel_id}/projects": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Cartel Projects */
+        get: operations["cartel_projects_api_v1_cartels__cartel_id__projects_get"];
+        put?: never;
+        /** Cartel Project Create */
+        post: operations["cartel_project_create_api_v1_cartels__cartel_id__projects_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cartels/{cartel_id}/projects/{project_id}/contribute": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Cartel Project Contribute */
+        post: operations["cartel_project_contribute_api_v1_cartels__cartel_id__projects__project_id__contribute_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cartels/{cartel_id}/treasury": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Cartel Treasury */
+        get: operations["cartel_treasury_api_v1_cartels__cartel_id__treasury_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cartels/{cartel_id}/treasury/deposit": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Cartel Treasury Deposit */
+        post: operations["cartel_treasury_deposit_api_v1_cartels__cartel_id__treasury_deposit_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cartels/{cartel_id}/treasury/expenses": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Cartel Expenses */
+        get: operations["cartel_expenses_api_v1_cartels__cartel_id__treasury_expenses_get"];
+        put?: never;
+        /** Cartel Expense Create */
+        post: operations["cartel_expense_create_api_v1_cartels__cartel_id__treasury_expenses_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/cartels/{cartel_id}/treasury/expenses/{expense_id}/approve": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Cartel Expense Approve */
+        post: operations["cartel_expense_approve_api_v1_cartels__cartel_id__treasury_expenses__expense_id__approve_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/chat/channels": {
         parameters: {
             query?: never;
@@ -670,6 +1339,177 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/companies": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Companies */
+        get: operations["companies_api_v1_companies_get"];
+        put?: never;
+        /** Company Create */
+        post: operations["company_create_api_v1_companies_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/companies/config": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Companies Config */
+        get: operations["companies_config_api_v1_companies_config_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/companies/{company_id}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Company Detail */
+        get: operations["company_detail_api_v1_companies__company_id__get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/companies/{company_id}/dividends": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Company Dividend Declare */
+        post: operations["company_dividend_declare_api_v1_companies__company_id__dividends_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/companies/{company_id}/economy-reports": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Company Economy Reports */
+        get: operations["company_economy_reports_api_v1_companies__company_id__economy_reports_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/companies/{company_id}/investments": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Company Invest */
+        post: operations["company_invest_api_v1_companies__company_id__investments_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/companies/{company_id}/ipo": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Company Ipo */
+        post: operations["company_ipo_api_v1_companies__company_id__ipo_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/companies/{company_id}/ipo-eligibility": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Company Ipo Eligibility */
+        get: operations["company_ipo_eligibility_api_v1_companies__company_id__ipo_eligibility_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/companies/{company_id}/ownership": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Company Ownership */
+        get: operations["company_ownership_api_v1_companies__company_id__ownership_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/companies/{company_id}/specialist-effects": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Company Specialist Effect Summary */
+        get: operations["company_specialist_effect_summary_api_v1_companies__company_id__specialist_effects_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/config": {
         parameters: {
             query?: never;
@@ -679,6 +1519,110 @@ export interface paths {
         };
         /** Public Config */
         get: operations["public_config_api_v1_config_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/contracts/config": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Contract Config */
+        get: operations["contract_config_api_v1_contracts_config_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/contracts/me": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** My Contracts */
+        get: operations["my_contracts_api_v1_contracts_me_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/contracts/tenders": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Contract Tenders */
+        get: operations["contract_tenders_api_v1_contracts_tenders_get"];
+        put?: never;
+        /** Post Contract Tender */
+        post: operations["post_contract_tender_api_v1_contracts_tenders_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/contracts/tenders/{tender_id}/award": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Post Contract Award */
+        post: operations["post_contract_award_api_v1_contracts_tenders__tender_id__award_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/contracts/tenders/{tender_id}/bids": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Contract Bids */
+        get: operations["contract_bids_api_v1_contracts_tenders__tender_id__bids_get"];
+        put?: never;
+        /** Post Contract Bid */
+        post: operations["post_contract_bid_api_v1_contracts_tenders__tender_id__bids_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/contracts/{contract_id}/settlements": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Contract Settlements */
+        get: operations["contract_settlements_api_v1_contracts__contract_id__settlements_get"];
         put?: never;
         post?: never;
         delete?: never;
@@ -721,6 +1665,1068 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/economy/competitors": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Economy Competitors */
+        get: operations["economy_competitors_api_v1_economy_competitors_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/economy/markets": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Economy Markets */
+        get: operations["economy_markets_api_v1_economy_markets_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/economy/markets/{market_id}/reports": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Economy Market Reports */
+        get: operations["economy_market_reports_api_v1_economy_markets__market_id__reports_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/economy/status": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Economy Status */
+        get: operations["economy_status_api_v1_economy_status_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/adaptive-help": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Help Offers */
+        get: operations["help_offers_api_v1_engagement_adaptive_help_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/adaptive-help/{offer_id}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        /** Help Respond */
+        patch: operations["help_respond_api_v1_engagement_adaptive_help__offer_id__patch"];
+        trace?: never;
+    };
+    "/api/v1/engagement/admin/guardrails/evaluate": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Guardrails Evaluate */
+        post: operations["guardrails_evaluate_api_v1_engagement_admin_guardrails_evaluate_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/admin/metrics/daily": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Engagement Metrics List */
+        get: operations["engagement_metrics_list_api_v1_engagement_admin_metrics_daily_get"];
+        put?: never;
+        /** Engagement Metric Generate */
+        post: operations["engagement_metric_generate_api_v1_engagement_admin_metrics_daily_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/admin/rollouts/{feature_key}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        /** Rollout Update */
+        put: operations["rollout_update_api_v1_engagement_admin_rollouts__feature_key__put"];
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/command-center": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Engagement Command Center */
+        get: operations["engagement_command_center_api_v1_engagement_command_center_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/doctrine": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Doctrine Current */
+        get: operations["doctrine_current_api_v1_engagement_doctrine_get"];
+        /** Doctrine Select */
+        put: operations["doctrine_select_api_v1_engagement_doctrine_put"];
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/doctrines": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Doctrines */
+        get: operations["doctrines_api_v1_engagement_doctrines_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/goals/current": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Current Goals */
+        get: operations["current_goals_api_v1_engagement_goals_current_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/goals/{goal_id}/select": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Goal Select */
+        post: operations["goal_select_api_v1_engagement_goals__goal_id__select_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/goals/{goal_id}/swap": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Goal Swap */
+        post: operations["goal_swap_api_v1_engagement_goals__goal_id__swap_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/initialize": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Initialize */
+        post: operations["initialize_api_v1_engagement_initialize_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/legacy/actors": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Actors */
+        get: operations["actors_api_v1_engagement_legacy_actors_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/legacy/chronicles/{scope_type}/{scope_id}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Chronicle */
+        get: operations["chronicle_api_v1_engagement_legacy_chronicles__scope_type___scope_id__get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/legacy/collection": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Collection */
+        get: operations["collection_api_v1_engagement_legacy_collection_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/legacy/dossiers": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Dossiers */
+        get: operations["dossiers_api_v1_engagement_legacy_dossiers_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/legacy/dossiers/{dossier_id}/investigate": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Dossier Investigate */
+        post: operations["dossier_investigate_api_v1_engagement_legacy_dossiers__dossier_id__investigate_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/legacy/identity": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Identity */
+        get: operations["identity_api_v1_engagement_legacy_identity_get"];
+        /** Identity Update */
+        put: operations["identity_update_api_v1_engagement_legacy_identity_put"];
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/legacy/legacy-records": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Legacy Records */
+        get: operations["legacy_records_api_v1_engagement_legacy_legacy_records_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/legacy/profile-card": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Player Profile Card */
+        get: operations["player_profile_card_api_v1_engagement_legacy_profile_card_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/legacy/rankings": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Parallel Rankings */
+        get: operations["parallel_rankings_api_v1_engagement_legacy_rankings_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/legacy/return-contracts": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Return Contracts */
+        post: operations["return_contracts_api_v1_engagement_legacy_return_contracts_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/legacy/return-contracts/{contract_id}/select": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Return Contract Select */
+        post: operations["return_contract_select_api_v1_engagement_legacy_return_contracts__contract_id__select_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/legacy/season-goals": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Season Goals */
+        get: operations["season_goals_api_v1_engagement_legacy_season_goals_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/legacy/season-goals/{goal_id}/select": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Season Goal Select */
+        post: operations["season_goal_select_api_v1_engagement_legacy_season_goals__goal_id__select_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/mastery": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Mastery */
+        get: operations["mastery_api_v1_engagement_mastery_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/mentorships": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Mentorship List */
+        get: operations["mentorship_list_api_v1_engagement_mentorships_get"];
+        put?: never;
+        /** Mentorship Create */
+        post: operations["mentorship_create_api_v1_engagement_mentorships_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/mentorships/{mentorship_id}/answer": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Mentorship Answer */
+        post: operations["mentorship_answer_api_v1_engagement_mentorships__mentorship_id__answer_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/mentorships/{mentorship_id}/refresh": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Mentorship Refresh */
+        post: operations["mentorship_refresh_api_v1_engagement_mentorships__mentorship_id__refresh_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/notification-preferences": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Notification Preferences */
+        get: operations["notification_preferences_api_v1_engagement_notification_preferences_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/notification-preferences/{category}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        /** Notification Preference Update */
+        put: operations["notification_preference_update_api_v1_engagement_notification_preferences__category__put"];
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/open-plans": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Open Plans */
+        get: operations["open_plans_api_v1_engagement_open_plans_get"];
+        put?: never;
+        /** Open Plan Create */
+        post: operations["open_plan_create_api_v1_engagement_open_plans_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/open-plans/{plan_id}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        /** Open Plan Update */
+        patch: operations["open_plan_update_api_v1_engagement_open_plans__plan_id__patch"];
+        trace?: never;
+    };
+    "/api/v1/engagement/outcome-reports": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Outcome Reports */
+        get: operations["outcome_reports_api_v1_engagement_outcome_reports_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/return-briefings": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Return Briefing Generate */
+        post: operations["return_briefing_generate_api_v1_engagement_return_briefings_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/return-briefings/{briefing_id}/acknowledge": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Return Briefing Acknowledge */
+        post: operations["return_briefing_acknowledge_api_v1_engagement_return_briefings__briefing_id__acknowledge_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/sessions": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Session Start */
+        post: operations["session_start_api_v1_engagement_sessions_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/sessions/latest-summary": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Session Latest Summary */
+        get: operations["session_latest_summary_api_v1_engagement_sessions_latest_summary_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/sessions/{session_id}/finish": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Session Finish */
+        post: operations["session_finish_api_v1_engagement_sessions__session_id__finish_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/settings": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Settings */
+        get: operations["settings_api_v1_engagement_settings_get"];
+        /** Settings Update */
+        put: operations["settings_update_api_v1_engagement_settings_put"];
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/social/cartels/{cartel_id}/chronicle": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Cartel Chronicle */
+        get: operations["cartel_chronicle_api_v1_engagement_social_cartels__cartel_id__chronicle_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/social/cartels/{cartel_id}/delegations": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Delegations */
+        get: operations["delegations_api_v1_engagement_social_cartels__cartel_id__delegations_get"];
+        put?: never;
+        /** Delegation Create */
+        post: operations["delegation_create_api_v1_engagement_social_cartels__cartel_id__delegations_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/social/cartels/{cartel_id}/pause": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Cartel Current Pause */
+        get: operations["cartel_current_pause_api_v1_engagement_social_cartels__cartel_id__pause_get"];
+        put?: never;
+        /** Cartel Pause */
+        post: operations["cartel_pause_api_v1_engagement_social_cartels__cartel_id__pause_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/social/cartels/{cartel_id}/resume": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Cartel Resume */
+        post: operations["cartel_resume_api_v1_engagement_social_cartels__cartel_id__resume_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/success-chain": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Personal Success Chain */
+        get: operations["personal_success_chain_api_v1_engagement_success_chain_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/exchange/config": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Exchange Config */
+        get: operations["exchange_config_api_v1_exchange_config_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/exchange/listings": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Exchange Listings */
+        get: operations["exchange_listings_api_v1_exchange_listings_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/exchange/listings/{listing_id}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Exchange Listing Detail */
+        get: operations["exchange_listing_detail_api_v1_exchange_listings__listing_id__get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/exchange/listings/{listing_id}/dividends": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Exchange Dividends */
+        get: operations["exchange_dividends_api_v1_exchange_listings__listing_id__dividends_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/exchange/listings/{listing_id}/order-book": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Exchange Order Book */
+        get: operations["exchange_order_book_api_v1_exchange_listings__listing_id__order_book_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/exchange/listings/{listing_id}/prices": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Exchange Price History */
+        get: operations["exchange_price_history_api_v1_exchange_listings__listing_id__prices_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/exchange/listings/{listing_id}/reports": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Exchange Company Reports */
+        get: operations["exchange_company_reports_api_v1_exchange_listings__listing_id__reports_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/exchange/listings/{listing_id}/shareholders": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Exchange Shareholders */
+        get: operations["exchange_shareholders_api_v1_exchange_listings__listing_id__shareholders_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/exchange/listings/{listing_id}/trades": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Exchange Trades */
+        get: operations["exchange_trades_api_v1_exchange_listings__listing_id__trades_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/exchange/orders": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Exchange Order Create */
+        post: operations["exchange_order_create_api_v1_exchange_orders_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/exchange/orders/me": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Exchange Own Orders */
+        get: operations["exchange_own_orders_api_v1_exchange_orders_me_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/exchange/orders/{order_id}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        post?: never;
+        /** Exchange Order Cancel */
+        delete: operations["exchange_order_cancel_api_v1_exchange_orders__order_id__delete"];
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/exchange/portfolio": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Exchange Portfolio */
+        get: operations["exchange_portfolio_api_v1_exchange_portfolio_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/facilities": {
         parameters: {
             query?: never;
@@ -733,6 +2739,23 @@ export interface paths {
         put?: never;
         /** Facility Build */
         post: operations["facility_build_api_v1_facilities_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/hall-of-fame": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Hall Of Fame */
+        get: operations["hall_of_fame_api_v1_hall_of_fame_get"];
+        put?: never;
+        post?: never;
         delete?: never;
         options?: never;
         head?: never;
@@ -756,6 +2779,23 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/influence/cities/{city_id}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Cartel City Influence */
+        get: operations["cartel_city_influence_api_v1_influence_cities__city_id__get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/intelligence": {
         parameters: {
             query?: never;
@@ -767,6 +2807,109 @@ export interface paths {
         get: operations["intelligence_api_v1_intelligence_get"];
         put?: never;
         post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/intelligence/offers": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Intelligence Offer List */
+        get: operations["intelligence_offer_list_api_v1_intelligence_offers_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/intelligence/offers/{offer_id}/buy": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Intelligence Offer Buy */
+        post: operations["intelligence_offer_buy_api_v1_intelligence_offers__offer_id__buy_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/intelligence/operations": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Intelligence Operation List */
+        get: operations["intelligence_operation_list_api_v1_intelligence_operations_get"];
+        put?: never;
+        /** Intelligence Operation Create */
+        post: operations["intelligence_operation_create_api_v1_intelligence_operations_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/intelligence/reports": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Intelligence Report List */
+        get: operations["intelligence_report_list_api_v1_intelligence_reports_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/intelligence/reports/{report_id}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Intelligence Report Get */
+        get: operations["intelligence_report_get_api_v1_intelligence_reports__report_id__get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/intelligence/reports/{report_id}/sell": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Intelligence Report Sell */
+        post: operations["intelligence_report_sell_api_v1_intelligence_reports__report_id__sell_post"];
         delete?: never;
         options?: never;
         head?: never;
@@ -799,6 +2942,125 @@ export interface paths {
         };
         /** Investigation */
         get: operations["investigation_api_v1_investigations_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/leaderboards/cartels/current": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Cartel Leaderboard */
+        get: operations["cartel_leaderboard_api_v1_leaderboards_cartels_current_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/loans/applications": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Post Loan Application */
+        post: operations["post_loan_application_api_v1_loans_applications_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/loans/applications/me": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** My Loan Applications */
+        get: operations["my_loan_applications_api_v1_loans_applications_me_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/loans/applications/{application_id}/accept": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Post Accept Loan Offer */
+        post: operations["post_accept_loan_offer_api_v1_loans_applications__application_id__accept_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/loans/config": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Loan Config */
+        get: operations["loan_config_api_v1_loans_config_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/loans/me": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** My Loans */
+        get: operations["my_loans_api_v1_loans_me_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/loans/{loan_id}/payments": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Loan Payments */
+        get: operations["loan_payments_api_v1_loans__loan_id__payments_get"];
         put?: never;
         post?: never;
         delete?: never;
@@ -937,6 +3199,40 @@ export interface paths {
         };
         /** Notifications */
         get: operations["notifications_api_v1_notifications_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/notifications/read-all": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Read All Notifications */
+        post: operations["read_all_notifications_api_v1_notifications_read_all_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/notifications/unread-count": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Unread Notification Count */
+        get: operations["unread_notification_count_api_v1_notifications_unread_count_get"];
         put?: never;
         post?: never;
         delete?: never;
@@ -1095,6 +3391,57 @@ export interface paths {
         put?: never;
         /** Treasury Deposit */
         post: operations["treasury_deposit_api_v1_organizations__organization_id__treasury_deposit_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/players/me": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Player Me */
+        get: operations["player_me_api_v1_players_me_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/players/me/resources": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Player Resources */
+        get: operations["player_resources_api_v1_players_me_resources_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/players/me/select-city": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Player Select City */
+        post: operations["player_select_city_api_v1_players_me_select_city_post"];
         delete?: never;
         options?: never;
         head?: never;
@@ -1391,6 +3738,227 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/real-estate/config": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Real Estate Config */
+        get: operations["real_estate_config_api_v1_real_estate_config_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/real-estate/indices": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Real Estate Indices */
+        get: operations["real_estate_indices_api_v1_real_estate_indices_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/real-estate/leases/me": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** My Property Leases */
+        get: operations["my_property_leases_api_v1_real_estate_leases_me_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/real-estate/properties": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Real Estate Properties */
+        get: operations["real_estate_properties_api_v1_real_estate_properties_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/real-estate/properties/{property_id}/assign": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Post Property Assignment */
+        post: operations["post_property_assignment_api_v1_real_estate_properties__property_id__assign_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/real-estate/properties/{property_id}/buy": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Post Property Purchase */
+        post: operations["post_property_purchase_api_v1_real_estate_properties__property_id__buy_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/real-estate/properties/{property_id}/headquarters/upgrade": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Post Headquarters Upgrade */
+        post: operations["post_headquarters_upgrade_api_v1_real_estate_properties__property_id__headquarters_upgrade_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/real-estate/properties/{property_id}/lease": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Post Property Lease */
+        post: operations["post_property_lease_api_v1_real_estate_properties__property_id__lease_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/real-estate/properties/{property_id}/list-rent": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Post Property Rent Listing */
+        post: operations["post_property_rent_listing_api_v1_real_estate_properties__property_id__list_rent_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/real-estate/properties/{property_id}/list-sale": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Post Property Sale Listing */
+        post: operations["post_property_sale_listing_api_v1_real_estate_properties__property_id__list_sale_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/real-estate/properties/{property_id}/unassign": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Post Property Unassignment */
+        post: operations["post_property_unassignment_api_v1_real_estate_properties__property_id__unassign_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/realtime/channels": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Realtime Channels */
+        get: operations["realtime_channels_api_v1_realtime_channels_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/realtime/events": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Realtime Event Feed */
+        get: operations["realtime_event_feed_api_v1_realtime_events_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/research": {
         parameters: {
             query?: never;
@@ -1426,6 +3994,91 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/seasons/current": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Get Current Season */
+        get: operations["get_current_season_api_v1_seasons_current_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/seasons/current/leaderboards/{category}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Get Current Leaderboard */
+        get: operations["get_current_leaderboard_api_v1_seasons_current_leaderboards__category__get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/seasons/{season_id}/leaderboards/{category}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Get Season Leaderboard */
+        get: operations["get_season_leaderboard_api_v1_seasons__season_id__leaderboards__category__get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/specialist-market": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Specialist Market */
+        get: operations["specialist_market_api_v1_specialist_market_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/specialist-market/{candidate_id}/hire": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Specialist Hire */
+        post: operations["specialist_hire_api_v1_specialist_market__candidate_id__hire_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/specialists": {
         parameters: {
             query?: never;
@@ -1438,6 +4091,108 @@ export interface paths {
         put?: never;
         /** Specialist Recruit */
         post: operations["specialist_recruit_api_v1_specialists_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/specialists/{specialist_id}/assign": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Specialist Assign */
+        post: operations["specialist_assign_api_v1_specialists__specialist_id__assign_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/specialists/{specialist_id}/payroll-reports": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Specialist Payroll Reports */
+        get: operations["specialist_payroll_reports_api_v1_specialists__specialist_id__payroll_reports_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/specialists/{specialist_id}/release": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Specialist Release */
+        post: operations["specialist_release_api_v1_specialists__specialist_id__release_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/strategic-actions": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Strategic Action Create */
+        post: operations["strategic_action_create_api_v1_strategic_actions_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/strategic-actions/effects/me": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Strategic Effect List */
+        get: operations["strategic_effect_list_api_v1_strategic_actions_effects_me_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/strategic-actions/me": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Strategic Action List */
+        get: operations["strategic_action_list_api_v1_strategic_actions_me_get"];
+        put?: never;
+        post?: never;
         delete?: never;
         options?: never;
         head?: never;
@@ -1615,6 +4370,74 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/world-events/current": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** World Event Current */
+        get: operations["world_event_current_api_v1_world_events_current_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/world-events/{instance_id}/responses": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** World Event Response */
+        post: operations["world_event_response_api_v1_world_events__instance_id__responses_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/world/cities": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** World Cities */
+        get: operations["world_cities_api_v1_world_cities_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/world/cities/{city_id}/districts": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** City Districts */
+        get: operations["city_districts_api_v1_world_cities__city_id__districts_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/worlds": {
         parameters: {
             query?: never;
@@ -1670,6 +4493,138 @@ export interface paths {
 export type webhooks = Record<string, never>;
 export interface components {
     schemas: {
+        /** AccountRewardView */
+        AccountRewardView: {
+            /**
+             * Awarded At
+             * Format: date-time
+             */
+            awarded_at: string;
+            /** Id */
+            id: string;
+            /** Label */
+            label: string;
+            /** Metadata Json */
+            metadata_json: {
+                [key: string]: unknown;
+            };
+            /** Reward Key */
+            reward_key: string;
+            /**
+             * Reward Type
+             * @enum {string}
+             */
+            reward_type: "achievement" | "title" | "cosmetic";
+            /** Season Id */
+            season_id: string;
+        };
+        /** ActorRelationshipView */
+        ActorRelationshipView: {
+            /** Actor Id */
+            actor_id: string;
+            /** Actor Key */
+            actor_key: string;
+            /**
+             * Actor Type
+             * @enum {string}
+             */
+            actor_type: "entrepreneur" | "journalist" | "analyst" | "decision_maker";
+            /** Description Key */
+            description_key: string;
+            /** History Keys */
+            history_keys: string[];
+            /** Information Access */
+            information_access: number;
+            /** Interaction Count */
+            interaction_count: number;
+            /** Name Key */
+            name_key: string;
+            /** Reputation */
+            reputation: number;
+            /** Rivalry */
+            rivalry: number;
+            /** Trust */
+            trust: number;
+        };
+        /** AdaptiveHelpResponse */
+        AdaptiveHelpResponse: {
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "accepted" | "dismissed" | "completed";
+        };
+        /** AdaptiveHelpView */
+        AdaptiveHelpView: {
+            /** Context Key */
+            context_key: string;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Explanation Key */
+            explanation_key: string;
+            /** Id */
+            id: string;
+            /** Responded At */
+            responded_at: string | null;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "offered" | "accepted" | "dismissed" | "completed";
+            /** Suggestion Key */
+            suggestion_key: string;
+            /** Target Path */
+            target_path: string;
+        };
+        /** AiDecisionTickView */
+        AiDecisionTickView: {
+            /** Completed At */
+            completed_at: string | null;
+            /** Economy Tick Id */
+            economy_tick_id: string | null;
+            /** Id */
+            id: string;
+            /** Period Key */
+            period_key: string;
+            /** Profile Count */
+            profile_count: number;
+            /**
+             * Started At
+             * Format: date-time
+             */
+            started_at: string;
+            /** Status */
+            status: string;
+            /** World Id */
+            world_id: string;
+        };
+        /** AiPauseRequest */
+        AiPauseRequest: {
+            /** Paused */
+            paused: boolean;
+        };
+        /** AiProfileView */
+        AiProfileView: {
+            /** Ai Paused */
+            ai_paused: boolean;
+            /** Ai Seed */
+            ai_seed: number | null;
+            /** Ai Strategy */
+            ai_strategy: string | null;
+            /** City Id */
+            city_id: string | null;
+            /** Codename */
+            codename: string;
+            /** Id */
+            id: string;
+            /** Is Local Ai */
+            is_local_ai: boolean;
+            /** World Id */
+            world_id: string;
+        };
         /** AllianceCreateRequest */
         AllianceCreateRequest: {
             /**
@@ -1748,6 +4703,215 @@ export interface components {
             /** World Id */
             world_id: string;
         };
+        /** AssignSpecialistRequest */
+        AssignSpecialistRequest: {
+            /** Company Id */
+            company_id: string;
+        };
+        /** AwardBidRequest */
+        AwardBidRequest: {
+            /** Bid Id */
+            bid_id: string;
+        };
+        /** BidView */
+        BidView: {
+            /** Bidder Company Id */
+            bidder_company_id: string;
+            /** Bidder Company Name */
+            bidder_company_name: string;
+            /** Capacity Units */
+            capacity_units: number;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Id */
+            id: string;
+            /** Price Cents */
+            price_cents: number;
+            /** Score Breakdown Json */
+            score_breakdown_json: {
+                [key: string]: number;
+            };
+            /** Score Points */
+            score_points: number;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "submitted" | "won" | "lost" | "withdrawn";
+            /** Submitted By Profile Id */
+            submitted_by_profile_id: string;
+            /** Tender Id */
+            tender_id: string;
+        };
+        /** BondConfigView */
+        BondConfigView: {
+            /** Coupon Interval Minutes */
+            coupon_interval_minutes: number;
+            /** Default Investigation Penalty Bps */
+            default_investigation_penalty_bps: number;
+            /** Default Reputation Penalty Bps */
+            default_reputation_penalty_bps: number;
+            /** Max Principal Cents */
+            max_principal_cents: number;
+            /** Max Term Periods */
+            max_term_periods: number;
+            /** Offering Minutes */
+            offering_minutes: number;
+        };
+        /** BondHoldingView */
+        BondHoldingView: {
+            /**
+             * Acquired At
+             * Format: date-time
+             */
+            acquired_at: string;
+            /** Coupon Rate Bps */
+            coupon_rate_bps: number;
+            /** Face Value Cents */
+            face_value_cents: number;
+            /** Id */
+            id: string;
+            /** Issue Id */
+            issue_id: string;
+            /** Issue Status */
+            issue_status: string;
+            /** Issuer Company Name */
+            issuer_company_name: string;
+            /** Profile Id */
+            profile_id: string;
+            /** Quantity */
+            quantity: number;
+            /** Symbol */
+            symbol: string;
+            /** Title */
+            title: string;
+            /**
+             * Updated At
+             * Format: date-time
+             */
+            updated_at: string;
+        };
+        /** BondIssueView */
+        BondIssueView: {
+            /** Activated At */
+            activated_at: string | null;
+            /** Cancelled At */
+            cancelled_at: string | null;
+            /** Coupon Rate Bps */
+            coupon_rate_bps: number;
+            /** Coupons Paid */
+            coupons_paid: number;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Created By Profile Id */
+            created_by_profile_id: string;
+            /** Default Reason */
+            default_reason: string | null;
+            /** Defaulted At */
+            defaulted_at: string | null;
+            /** Ends At */
+            ends_at: string | null;
+            /** Face Value Cents */
+            face_value_cents: number;
+            /** Holder Count */
+            holder_count: number;
+            /** Id */
+            id: string;
+            /** Issuer Company Id */
+            issuer_company_id: string;
+            /** Issuer Company Name */
+            issuer_company_name: string;
+            /** Next Coupon At */
+            next_coupon_at: string | null;
+            /**
+             * Offering Ends At
+             * Format: date-time
+             */
+            offering_ends_at: string;
+            /** Repaid At */
+            repaid_at: string | null;
+            /** Sold Units */
+            sold_units: number;
+            /** Starts At */
+            starts_at: string | null;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "offering" | "active" | "repaid" | "defaulted" | "cancelled";
+            /** Symbol */
+            symbol: string;
+            /** Term Periods */
+            term_periods: number;
+            /** Title */
+            title: string;
+            /** Total Units */
+            total_units: number;
+            /** World Id */
+            world_id: string;
+        };
+        /** BondSettlementView */
+        BondSettlementView: {
+            /** Amount Cents */
+            amount_cents: number;
+            /** Id */
+            id: string;
+            /** Input Snapshot Json */
+            input_snapshot_json: {
+                [key: string]: unknown;
+            };
+            /** Issue Id */
+            issue_id: string;
+            /**
+             * Payment Type
+             * @enum {string}
+             */
+            payment_type: "coupon" | "redemption";
+            /** Period Number */
+            period_number: number;
+            /** Profile Id */
+            profile_id: string;
+            /** Quantity */
+            quantity: number;
+            /**
+             * Settled At
+             * Format: date-time
+             */
+            settled_at: string;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "paid" | "defaulted";
+            /** Transaction Id */
+            transaction_id: string | null;
+        };
+        /** BondSubscriptionView */
+        BondSubscriptionView: {
+            /** Amount Cents */
+            amount_cents: number;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Id */
+            id: string;
+            /** Issue Id */
+            issue_id: string;
+            /** Quantity */
+            quantity: number;
+            /** Subscriber Profile Id */
+            subscriber_profile_id: string;
+            /** Transaction Id */
+            transaction_id: string;
+        };
         /** BusinessView */
         BusinessView: {
             /** Business Type */
@@ -1789,6 +4953,289 @@ export interface components {
             district_id: string;
             /** Name */
             name: string;
+        };
+        /** CartelActivityView */
+        CartelActivityView: {
+            /** Action */
+            action: string;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Id */
+            id: string;
+            /** Metadata Json */
+            metadata_json: {
+                [key: string]: unknown;
+            };
+        };
+        /** CartelChronicleView */
+        CartelChronicleView: {
+            /** Actor Profile Id */
+            actor_profile_id: string | null;
+            /** Body Key */
+            body_key: string;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Entry Type */
+            entry_type: string;
+            /** Id */
+            id: string;
+            /** Metadata Json */
+            metadata_json: {
+                [key: string]: unknown;
+            };
+            /** Organization Id */
+            organization_id: string;
+            /** Source Id */
+            source_id: string;
+            /** Source Type */
+            source_type: string;
+            /** Title Key */
+            title_key: string;
+        };
+        /** CartelExpenseRequest */
+        CartelExpenseRequest: {
+            /** Amount Cents */
+            amount_cents: number;
+            /** Purpose */
+            purpose: string;
+        };
+        /** CartelExpenseView */
+        CartelExpenseView: {
+            /** Amount Cents */
+            amount_cents: number;
+            /** Approved By Profile Id */
+            approved_by_profile_id: string | null;
+            /** Id */
+            id: string;
+            /** Organization Id */
+            organization_id: string;
+            /** Purpose */
+            purpose: string;
+            /**
+             * Requested At
+             * Format: date-time
+             */
+            requested_at: string;
+            /** Requested By Profile Id */
+            requested_by_profile_id: string;
+            /** Requires Approval */
+            requires_approval: boolean;
+            /** Resolved At */
+            resolved_at: string | null;
+            /** Status */
+            status: string;
+            /** Transaction Id */
+            transaction_id: string | null;
+        };
+        /** CartelInfluenceEntry */
+        CartelInfluenceEntry: {
+            /** Cartel Id */
+            cartel_id: string;
+            /** Cartel Name */
+            cartel_name: string;
+            /** Kind */
+            kind: string;
+            /** Points */
+            points: number;
+        };
+        /** CartelInvitationRequest */
+        CartelInvitationRequest: {
+            /**
+             * Email
+             * Format: email
+             */
+            email: string;
+        };
+        /** CartelInvitationView */
+        CartelInvitationView: {
+            /**
+             * Cartel Name
+             * @default
+             */
+            cartel_name: string;
+            /**
+             * Cartel Tag
+             * @default
+             */
+            cartel_tag: string;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Email */
+            email: string;
+            /**
+             * Expires At
+             * Format: date-time
+             */
+            expires_at: string;
+            /** Id */
+            id: string;
+            /** Organization Id */
+            organization_id: string;
+            /** Status */
+            status: string;
+        };
+        /** CartelMemberView */
+        CartelMemberView: {
+            /** Codename */
+            codename: string;
+            /**
+             * Joined At
+             * Format: date-time
+             */
+            joined_at: string;
+            /** Profile Id */
+            profile_id: string;
+            /** Role */
+            role: string;
+            /** Status */
+            status: string;
+        };
+        /** CartelProjectContributionRequest */
+        CartelProjectContributionRequest: {
+            /** Amount Units */
+            amount_units: number;
+            /** Resource Type */
+            resource_type: string;
+        };
+        /** CartelProjectView */
+        CartelProjectView: {
+            /** Completed At */
+            completed_at: string | null;
+            /** Contributed Cash Cents */
+            contributed_cash_cents: number;
+            /** Contributed Influence */
+            contributed_influence: number;
+            /** Contributed Intelligence */
+            contributed_intelligence: number;
+            /** District Id */
+            district_id: string;
+            /**
+             * Ends At
+             * Format: date-time
+             */
+            ends_at: string;
+            /** Id */
+            id: string;
+            /** Influence Kind */
+            influence_kind: string;
+            /** Influence Reward */
+            influence_reward: number;
+            /** Organization Id */
+            organization_id: string;
+            /**
+             * Progress Bps
+             * @default 0
+             */
+            progress_bps: number;
+            /** Project Type */
+            project_type: string;
+            /** Required Cash Cents */
+            required_cash_cents: number;
+            /** Required Influence */
+            required_influence: number;
+            /** Required Intelligence */
+            required_intelligence: number;
+            /**
+             * Starts At
+             * Format: date-time
+             */
+            starts_at: string;
+            /** Status */
+            status: string;
+            /** Title */
+            title: string;
+        };
+        /** CartelRankingView */
+        CartelRankingView: {
+            /** Cartel Id */
+            cartel_id: string;
+            /** Completed Projects */
+            completed_projects: number;
+            /** Influence */
+            influence: number;
+            /** Member Count */
+            member_count: number;
+            /** Name */
+            name: string;
+            /** Rank */
+            rank: number;
+            /** Score */
+            score: number;
+            /** Season Number */
+            season_number: number;
+            /** Tag */
+            tag: string;
+            /** Treasury Cents */
+            treasury_cents: number;
+        };
+        /** CartelTreasuryView */
+        CartelTreasuryView: {
+            /** Approval Threshold Cents */
+            approval_threshold_cents: number;
+            /** Balance Cents */
+            balance_cents: number;
+            /** Cartel Id */
+            cartel_id: string;
+            /** Reserved Cents */
+            reserved_cents: number;
+            /** Single Spend Limit Cents */
+            single_spend_limit_cents: number;
+        };
+        /** CartelView */
+        CartelView: {
+            /** Approval Threshold Cents */
+            approval_threshold_cents: number;
+            /** Archetype */
+            archetype: string;
+            /** City Id */
+            city_id: string | null;
+            /** Description */
+            description: string;
+            /** Governance Model */
+            governance_model: string;
+            /** Id */
+            id: string;
+            /** Investigation Pressure */
+            investigation_pressure: number;
+            /**
+             * Member Count
+             * @default 0
+             */
+            member_count: number;
+            /** Member Limit */
+            member_limit: number;
+            /** My Permissions */
+            my_permissions?: string[];
+            /** My Role */
+            my_role?: string | null;
+            /** Name */
+            name: string;
+            /** Reputation */
+            reputation: number;
+            /** Single Spend Limit Cents */
+            single_spend_limit_cents: number;
+            /** Stability */
+            stability: number;
+            /** Status */
+            status: string;
+            /** Tag */
+            tag: string;
+            /**
+             * Treasury Balance Cents
+             * @default 0
+             */
+            treasury_balance_cents: number;
+            /** World Id */
+            world_id: string;
         };
         /** CartelWarCommitRequest */
         CartelWarCommitRequest: {
@@ -1975,6 +5422,45 @@ export interface components {
             /** Sender Profile Id */
             sender_profile_id: string;
         };
+        /** ChronicleEntryView */
+        ChronicleEntryView: {
+            /** Actor Keys Json */
+            actor_keys_json: string[];
+            /** Body Key */
+            body_key: string;
+            /** Cause Keys Json */
+            cause_keys_json: string[];
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Entry Type */
+            entry_type: string;
+            /** Id */
+            id: string;
+            /** Impact Keys Json */
+            impact_keys_json: string[];
+            /** Metadata Json */
+            metadata_json: {
+                [key: string]: unknown;
+            };
+            /** Open Question Keys Json */
+            open_question_keys_json: string[];
+            /** Scope Id */
+            scope_id: string;
+            /**
+             * Scope Type
+             * @enum {string}
+             */
+            scope_type: "company" | "world" | "profile";
+            /** Source Id */
+            source_id: string;
+            /** Source Type */
+            source_type: string;
+            /** Title Key */
+            title_key: string;
+        };
         /** CityMarketView */
         CityMarketView: {
             /** Demand */
@@ -1992,6 +5478,27 @@ export interface components {
             updated_at: string;
             /** Version */
             version: number;
+        };
+        /** CitySectorMarketView */
+        CitySectorMarketView: {
+            /** City Id */
+            city_id: string;
+            /** Demand Units */
+            demand_units: number;
+            /** Fixed Cost Cents */
+            fixed_cost_cents: number;
+            /** Id */
+            id: string;
+            /** Industry */
+            industry: string;
+            /** Unit Revenue Cents */
+            unit_revenue_cents: number;
+            /** Variable Cost Per Unit Cents */
+            variable_cost_per_unit_cents: number;
+            /** Version */
+            version: number;
+            /** World Id */
+            world_id: string;
         };
         /** CityView */
         CityView: {
@@ -2022,6 +5529,618 @@ export interface components {
             /** World Id */
             world_id: string;
         };
+        /** CollectionEntryView */
+        CollectionEntryView: {
+            /** Description Key */
+            description_key: string;
+            /** Duplicate Points */
+            duplicate_points: number;
+            /** Id */
+            id: string;
+            /** Item Id */
+            item_id: string;
+            /** Item Key */
+            item_key: string;
+            /**
+             * Item Type
+             * @enum {string}
+             */
+            item_type: "title" | "emblem" | "hq_cosmetic" | "chronicle" | "discovery";
+            /** Rarity */
+            rarity: string;
+            /** Title Key */
+            title_key: string;
+            /**
+             * Unlocked At
+             * Format: date-time
+             */
+            unlocked_at: string;
+        };
+        /** CommandCenterOpportunity */
+        CommandCenterOpportunity: {
+            /**
+             * Category
+             * @enum {string}
+             */
+            category: "urgent" | "strategic" | "discoverable";
+            /** Detail */
+            detail: string;
+            /** Priority */
+            priority: number;
+            /** Source Id */
+            source_id: string;
+            /**
+             * Source Type
+             * @enum {string}
+             */
+            source_type: "plan" | "goal" | "world_event" | "system";
+            /** Target Path */
+            target_path: string;
+            /** Title */
+            title: string;
+        };
+        /** CommandCenterView */
+        CommandCenterView: {
+            /** Active Goal Count */
+            active_goal_count: number;
+            /** Natural Break Available */
+            natural_break_available: boolean;
+            /** Open Plan Count */
+            open_plan_count: number;
+            /** Opportunities */
+            opportunities: components["schemas"]["CommandCenterOpportunity"][];
+        };
+        /** CommercialContractView */
+        CommercialContractView: {
+            /** Bid Id */
+            bid_id: string;
+            /** Breach Reason */
+            breach_reason: string | null;
+            /** Breached At */
+            breached_at: string | null;
+            /** Completed At */
+            completed_at: string | null;
+            /**
+             * Contract Type
+             * @enum {string}
+             */
+            contract_type: "supply" | "service";
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Duration Periods */
+            duration_periods: number;
+            /**
+             * Ends At
+             * Format: date-time
+             */
+            ends_at: string;
+            /** Id */
+            id: string;
+            /** Issuer Company Id */
+            issuer_company_id: string;
+            /** Issuer Company Name */
+            issuer_company_name: string;
+            /**
+             * Next Settlement At
+             * Format: date-time
+             */
+            next_settlement_at: string;
+            /** Periods Settled */
+            periods_settled: number;
+            /** Price Cents Per Period */
+            price_cents_per_period: number;
+            /** Provider Company Id */
+            provider_company_id: string;
+            /** Provider Company Name */
+            provider_company_name: string;
+            /** Reputation Reward Bps */
+            reputation_reward_bps: number;
+            /** Reserved Capacity Units */
+            reserved_capacity_units: number;
+            /**
+             * Starts At
+             * Format: date-time
+             */
+            starts_at: string;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "active" | "completed" | "breached" | "cancelled";
+            /** Tender Id */
+            tender_id: string;
+            /** Title */
+            title: string;
+            /** World Id */
+            world_id: string;
+        };
+        /** CompanyConfigurationView */
+        CompanyConfigurationView: {
+            /** Founding Cost Cents */
+            founding_cost_cents: number;
+            /** Industries */
+            industries: {
+                [key: string]: components["schemas"]["CompanyIndustryConfigView"];
+            };
+            /** Investments */
+            investments: {
+                [key: string]: components["schemas"]["CompanyInvestmentConfigView"];
+            };
+        };
+        /** CompanyDetailView */
+        CompanyDetailView: {
+            /** Account Balance Cents */
+            account_balance_cents: number;
+            /** Capacity */
+            capacity: number;
+            /** Compliance Bps */
+            compliance_bps: number;
+            /** Cost Cents */
+            cost_cents: number;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Debt Cents */
+            debt_cents: number;
+            /** District Id */
+            district_id: string;
+            /** Employees */
+            employees: number;
+            /** Enterprise Value Cents */
+            enterprise_value_cents: number;
+            /** Founder Profile Id */
+            founder_profile_id: string;
+            /** Id */
+            id: string;
+            /** Industry */
+            industry: string;
+            /** Innovation Bps */
+            innovation_bps: number;
+            /** Investigation Pressure Bps */
+            investigation_pressure_bps: number;
+            /** Investments */
+            investments: components["schemas"]["CompanyInvestmentView"][];
+            /** Is Local Simulation */
+            is_local_simulation: boolean;
+            /** Market Share Bps */
+            market_share_bps: number;
+            /** Metrics History */
+            metrics_history: components["schemas"]["CompanyMetricView"][];
+            /** Name */
+            name: string;
+            /** Ownership */
+            ownership: components["schemas"]["CompanyOwnershipView"][];
+            /** Profit Cents */
+            profit_cents: number;
+            /** Quality */
+            quality: number;
+            /** Reputation Bps */
+            reputation_bps: number;
+            /** Revenue Cents */
+            revenue_cents: number;
+            /** Risk Bps */
+            risk_bps: number;
+            /** Status */
+            status: string;
+            /**
+             * Updated At
+             * Format: date-time
+             */
+            updated_at: string;
+            /** Version */
+            version: number;
+            /** World Id */
+            world_id: string;
+        };
+        /** CompanyEconomyReportView */
+        CompanyEconomyReportView: {
+            /** Allocated Units */
+            allocated_units: number;
+            /** Attractiveness Points */
+            attractiveness_points: number;
+            /** Cash Delta Cents */
+            cash_delta_cents: number;
+            /** Company Id */
+            company_id: string;
+            /** Cost Cents */
+            cost_cents: number;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Debt Delta Cents */
+            debt_delta_cents: number;
+            /** Enterprise Value After Cents */
+            enterprise_value_after_cents: number;
+            /** Enterprise Value Before Cents */
+            enterprise_value_before_cents: number;
+            /** Id */
+            id: string;
+            /** Inputs Json */
+            inputs_json: {
+                [key: string]: unknown;
+            };
+            /** Market Report Id */
+            market_report_id: string;
+            /** Market Share Bps */
+            market_share_bps: number;
+            /** Modifiers Json */
+            modifiers_json: {
+                [key: string]: unknown;
+            };
+            /** Profit Cents */
+            profit_cents: number;
+            /** Revenue Cents */
+            revenue_cents: number;
+            /** Settlement Transaction Id */
+            settlement_transaction_id: string | null;
+            /** Tick Id */
+            tick_id: string;
+        };
+        /** CompanyIndustryConfigView */
+        CompanyIndustryConfigView: {
+            /** Capacity */
+            capacity: number;
+            /** Compliance Bps */
+            compliance_bps: number;
+            /** Cost Cents */
+            cost_cents: number;
+            /** Employees */
+            employees: number;
+            /** Enterprise Value Cents */
+            enterprise_value_cents: number;
+            /** Innovation Bps */
+            innovation_bps: number;
+            /** Market Share Bps */
+            market_share_bps: number;
+            /** Quality */
+            quality: number;
+            /** Reputation Bps */
+            reputation_bps: number;
+            /** Revenue Cents */
+            revenue_cents: number;
+            /** Risk Bps */
+            risk_bps: number;
+        };
+        /** CompanyInvestmentConfigView */
+        CompanyInvestmentConfigView: {
+            /** Cost Cents */
+            cost_cents: number;
+            /** Increase */
+            increase: number;
+            /** Metric */
+            metric: string;
+        };
+        /** CompanyInvestmentRequest */
+        CompanyInvestmentRequest: {
+            /** Investment Type */
+            investment_type: string;
+        };
+        /** CompanyInvestmentView */
+        CompanyInvestmentView: {
+            /** Amount Cents */
+            amount_cents: number;
+            /** Company Id */
+            company_id: string;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Id */
+            id: string;
+            /** Investment Type */
+            investment_type: string;
+            /** Investor Profile Id */
+            investor_profile_id: string;
+            /** Metric After */
+            metric_after: number;
+            /** Metric Before */
+            metric_before: number;
+        };
+        /** CompanyLoanView */
+        CompanyLoanView: {
+            /** Application Id */
+            application_id: string;
+            /** Borrower Profile Id */
+            borrower_profile_id: string;
+            /** Cancelled At */
+            cancelled_at: string | null;
+            /** Collateral Score Bps */
+            collateral_score_bps: number;
+            /** Company Id */
+            company_id: string;
+            /** Company Name */
+            company_name: string;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Default Reason */
+            default_reason: string | null;
+            /** Defaulted At */
+            defaulted_at: string | null;
+            /** Disbursement Transaction Id */
+            disbursement_transaction_id: string;
+            /**
+             * Ends At
+             * Format: date-time
+             */
+            ends_at: string;
+            /** Id */
+            id: string;
+            /** Interest Rate Bps */
+            interest_rate_bps: number;
+            /**
+             * Next Payment At
+             * Format: date-time
+             */
+            next_payment_at: string;
+            /** Outstanding Interest Cents */
+            outstanding_interest_cents: number;
+            /** Outstanding Principal Cents */
+            outstanding_principal_cents: number;
+            /** Payments Made */
+            payments_made: number;
+            /** Principal Cents */
+            principal_cents: number;
+            /** Repaid At */
+            repaid_at: string | null;
+            /** Scheduled Installment Cents */
+            scheduled_installment_cents: number;
+            /**
+             * Starts At
+             * Format: date-time
+             */
+            starts_at: string;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "active" | "repaid" | "defaulted" | "cancelled";
+            /** Term Periods */
+            term_periods: number;
+            /** Total Interest Cents */
+            total_interest_cents: number;
+            /** Total Repayment Cents */
+            total_repayment_cents: number;
+            /** World Id */
+            world_id: string;
+        };
+        /** CompanyMetricView */
+        CompanyMetricView: {
+            /** Account Balance Cents */
+            account_balance_cents: number;
+            /** Capacity */
+            capacity: number;
+            /** Company Id */
+            company_id: string;
+            /** Compliance Bps */
+            compliance_bps: number;
+            /** Cost Cents */
+            cost_cents: number;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Enterprise Value Cents */
+            enterprise_value_cents: number;
+            /** Id */
+            id: string;
+            /** Innovation Bps */
+            innovation_bps: number;
+            /** Profit Cents */
+            profit_cents: number;
+            /** Quality */
+            quality: number;
+            /** Reason */
+            reason: string;
+            /** Reference Id */
+            reference_id: string;
+            /** Revenue Cents */
+            revenue_cents: number;
+            /** Version */
+            version: number;
+        };
+        /** CompanyOwnershipView */
+        CompanyOwnershipView: {
+            /** Company Id */
+            company_id: string;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Id */
+            id: string;
+            /** Owner Profile Id */
+            owner_profile_id: string;
+            /** Ownership Bps */
+            ownership_bps: number;
+        };
+        /** CompanyView */
+        CompanyView: {
+            /** Account Balance Cents */
+            account_balance_cents: number;
+            /** Capacity */
+            capacity: number;
+            /** Compliance Bps */
+            compliance_bps: number;
+            /** Cost Cents */
+            cost_cents: number;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Debt Cents */
+            debt_cents: number;
+            /** District Id */
+            district_id: string;
+            /** Employees */
+            employees: number;
+            /** Enterprise Value Cents */
+            enterprise_value_cents: number;
+            /** Founder Profile Id */
+            founder_profile_id: string;
+            /** Id */
+            id: string;
+            /** Industry */
+            industry: string;
+            /** Innovation Bps */
+            innovation_bps: number;
+            /** Investigation Pressure Bps */
+            investigation_pressure_bps: number;
+            /** Is Local Simulation */
+            is_local_simulation: boolean;
+            /** Market Share Bps */
+            market_share_bps: number;
+            /** Name */
+            name: string;
+            /** Profit Cents */
+            profit_cents: number;
+            /** Quality */
+            quality: number;
+            /** Reputation Bps */
+            reputation_bps: number;
+            /** Revenue Cents */
+            revenue_cents: number;
+            /** Risk Bps */
+            risk_bps: number;
+            /** Status */
+            status: string;
+            /**
+             * Updated At
+             * Format: date-time
+             */
+            updated_at: string;
+            /** Version */
+            version: number;
+            /** World Id */
+            world_id: string;
+        };
+        /** ContractConfigView */
+        ContractConfigView: {
+            /** Breach Investigation Penalty Bps */
+            breach_investigation_penalty_bps: number;
+            /** Breach Reputation Penalty Bps */
+            breach_reputation_penalty_bps: number;
+            /** Max Duration Periods */
+            max_duration_periods: number;
+            /** Reputation Reward Bps */
+            reputation_reward_bps: number;
+            /** Settlement Interval Minutes */
+            settlement_interval_minutes: number;
+        };
+        /** ContractSettlementView */
+        ContractSettlementView: {
+            /** Amount Cents */
+            amount_cents: number;
+            /** Contract Id */
+            contract_id: string;
+            /** Id */
+            id: string;
+            /** Input Snapshot Json */
+            input_snapshot_json: {
+                [key: string]: unknown;
+            };
+            /** Period Number */
+            period_number: number;
+            /**
+             * Settled At
+             * Format: date-time
+             */
+            settled_at: string;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "paid" | "defaulted";
+            /** Transaction Id */
+            transaction_id: string | null;
+        };
+        /** CreateBondIssueRequest */
+        CreateBondIssueRequest: {
+            /** Coupon Rate Bps */
+            coupon_rate_bps: number;
+            /** Face Value Cents */
+            face_value_cents: number;
+            /** Issuer Company Id */
+            issuer_company_id: string;
+            /** Symbol */
+            symbol: string;
+            /** Term Periods */
+            term_periods: number;
+            /** Title */
+            title: string;
+            /** Total Units */
+            total_units: number;
+        };
+        /** CreateCartelProjectRequest */
+        CreateCartelProjectRequest: {
+            /** District Id */
+            district_id: string;
+            /** Project Type */
+            project_type: string;
+        };
+        /** CreateCartelRequest */
+        CreateCartelRequest: {
+            /** Archetype */
+            archetype: string;
+            /**
+             * Description
+             * @default
+             */
+            description: string;
+            /**
+             * Governance Model
+             * @default directorate
+             */
+            governance_model: string;
+            /** Name */
+            name: string;
+            /** Tag */
+            tag: string;
+        };
+        /** CreateCompanyRequest */
+        CreateCompanyRequest: {
+            /** District Id */
+            district_id: string;
+            /** Industry */
+            industry: string;
+            /** Name */
+            name: string;
+        };
+        /** CreateIpoRequest */
+        CreateIpoRequest: {
+            /** Offered Shares */
+            offered_shares: number;
+            /** Symbol */
+            symbol: string;
+            /** Total Shares */
+            total_shares: number;
+        };
+        /** CreateLoanApplicationRequest */
+        CreateLoanApplicationRequest: {
+            /** Collateral Score Bps */
+            collateral_score_bps: number;
+            /** Company Id */
+            company_id: string;
+            /** Purpose */
+            purpose: string;
+            /** Requested Principal Cents */
+            requested_principal_cents: number;
+            /** Term Periods */
+            term_periods: number;
+        };
         /** CreateOrganizationRequest */
         CreateOrganizationRequest: {
             /** Archetype */
@@ -2040,6 +6159,61 @@ export interface components {
             name: string;
             /** Tag */
             tag: string;
+        };
+        /** CreateSeasonRequest */
+        CreateSeasonRequest: {
+            /** Starts At */
+            starts_at?: string | null;
+            /**
+             * Template Key
+             * @default cologne_standard
+             */
+            template_key: string;
+            /**
+             * Template Version
+             * @default 1
+             */
+            template_version: number;
+            /** World Id */
+            world_id: string;
+        };
+        /** CreateTenderRequest */
+        CreateTenderRequest: {
+            /** Capacity Units */
+            capacity_units: number;
+            /**
+             * Contract Type
+             * @enum {string}
+             */
+            contract_type: "supply" | "service";
+            /**
+             * Description
+             * @default
+             */
+            description: string;
+            /** Duration Periods */
+            duration_periods: number;
+            /** Issuer Company Id */
+            issuer_company_id: string;
+            /** Max Price Cents */
+            max_price_cents: number;
+            /**
+             * Min Compliance Bps
+             * @default 0
+             */
+            min_compliance_bps: number;
+            /**
+             * Min Reputation Bps
+             * @default 0
+             */
+            min_reputation_bps: number;
+            /**
+             * Submission Minutes
+             * @default 60
+             */
+            submission_minutes: number;
+            /** Title */
+            title: string;
         };
         /** CreateTreatyRequest */
         CreateTreatyRequest: {
@@ -2067,6 +6241,50 @@ export interface components {
             /** Password */
             password: string;
         };
+        /** DelegationCreateRequest */
+        DelegationCreateRequest: {
+            /** Delegate Profile Id */
+            delegate_profile_id: string;
+            /** Duration Days */
+            duration_days: number;
+            /**
+             * Role Key
+             * @enum {string}
+             */
+            role_key: "economic_analyst" | "diplomat" | "intelligence_coordinator" | "project_manager" | "trainer" | "archivist" | "event_planner";
+        };
+        /** DelegationView */
+        DelegationView: {
+            /** Delegate Membership Id */
+            delegate_membership_id: string;
+            /**
+             * Expires At
+             * Format: date-time
+             */
+            expires_at: string;
+            /** Grantor Membership Id */
+            grantor_membership_id: string;
+            /** Id */
+            id: string;
+            /** Organization Id */
+            organization_id: string;
+            /** Permissions Json */
+            permissions_json: string[];
+            /** Revoked At */
+            revoked_at: string | null;
+            /** Role Key */
+            role_key: string;
+            /**
+             * Starts At
+             * Format: date-time
+             */
+            starts_at: string;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "active" | "revoked" | "expired";
+        };
         /** DirectMessageCreate */
         DirectMessageCreate: {
             /** Body */
@@ -2093,6 +6311,23 @@ export interface components {
             sender_profile_id: string;
             /** Status */
             status: string;
+        };
+        /** DistrictCartelInfluenceView */
+        DistrictCartelInfluenceView: {
+            /** Controlling Cartel Id */
+            controlling_cartel_id: string | null;
+            /** Controlling Cartel Name */
+            controlling_cartel_name: string | null;
+            /** District Id */
+            district_id: string;
+            /** District Name */
+            district_name: string;
+            /** Entries */
+            entries: components["schemas"]["CartelInfluenceEntry"][];
+            /** Status */
+            status: string;
+            /** Top Points */
+            top_points: number;
         };
         /** DistrictView */
         DistrictView: {
@@ -2136,6 +6371,448 @@ export interface components {
             /** Social Stability */
             social_stability: number;
         };
+        /** DividendDeclarationView */
+        DividendDeclarationView: {
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Declared By Profile Id */
+            declared_by_profile_id: string;
+            /** Eligible Shares */
+            eligible_shares: number;
+            /** Id */
+            id: string;
+            /** Listing Id */
+            listing_id: string;
+            /**
+             * Paid At
+             * Format: date-time
+             */
+            paid_at: string;
+            /** Per Share Cents */
+            per_share_cents: number;
+            /** Share Class Id */
+            share_class_id: string;
+            /**
+             * Snapshot At
+             * Format: date-time
+             */
+            snapshot_at: string;
+            /** Status */
+            status: string;
+            /** Total Paid Cents */
+            total_paid_cents: number;
+        };
+        /** DividendRequest */
+        DividendRequest: {
+            /** Per Share Cents */
+            per_share_cents: number;
+        };
+        /** DoctrineCatalogItem */
+        DoctrineCatalogItem: {
+            /** Description Key */
+            description_key: string;
+            /**
+             * Economic Bonus
+             * @constant
+             */
+            economic_bonus: false;
+            /** Focus Areas */
+            focus_areas: ("company_management" | "market_analysis" | "capital_markets" | "contract_management" | "people_leadership" | "real_estate" | "cartel_leadership" | "diplomacy" | "intelligence" | "risk_management" | "season_strategy")[];
+            /**
+             * Key
+             * @enum {string}
+             */
+            key: "industrial_captain" | "financial_architect" | "innovator" | "real_estate_strategist" | "networker" | "information_strategist" | "opportunist";
+            /**
+             * Reversible
+             * @constant
+             */
+            reversible: true;
+            /** Title Key */
+            title_key: string;
+        };
+        /** DoctrineSelectRequest */
+        DoctrineSelectRequest: {
+            /**
+             * Doctrine Key
+             * @enum {string}
+             */
+            doctrine_key: "industrial_captain" | "financial_architect" | "innovator" | "real_estate_strategist" | "networker" | "information_strategist" | "opportunist";
+        };
+        /** DoctrineStateView */
+        DoctrineStateView: {
+            /**
+             * Changed At
+             * Format: date-time
+             */
+            changed_at: string;
+            /**
+             * Doctrine Key
+             * @enum {string}
+             */
+            doctrine_key: "industrial_captain" | "financial_architect" | "innovator" | "real_estate_strategist" | "networker" | "information_strategist" | "opportunist";
+            /** Id */
+            id: string;
+            /**
+             * Selected At
+             * Format: date-time
+             */
+            selected_at: string;
+            /** Version */
+            version: number;
+        };
+        /** DossierClueView */
+        DossierClueView: {
+            /** Clue Key */
+            clue_key: string;
+            /** Discovered */
+            discovered: boolean;
+            /** Id */
+            id: string;
+            /** Order Index */
+            order_index: number;
+            /** Rare */
+            rare: boolean;
+        };
+        /** DossierView */
+        DossierView: {
+            /** Archived */
+            archived: boolean;
+            /** Cause Key */
+            cause_key: string;
+            /** Clues */
+            clues: components["schemas"]["DossierClueView"][];
+            /** Completed At */
+            completed_at: string | null;
+            /** Id */
+            id: string;
+            /** Investigation Count */
+            investigation_count: number;
+            /** Local Impact Key */
+            local_impact_key: string;
+            /** Open Question Key */
+            open_question_key: string;
+            /** Title Key */
+            title_key: string;
+            /** World Event Instance Id */
+            world_event_instance_id: string;
+        };
+        /** EconomyStatusView */
+        EconomyStatusView: {
+            last_tick: components["schemas"]["EconomyTickView"] | null;
+            /**
+             * Next Scheduled At
+             * Format: date-time
+             */
+            next_scheduled_at: string;
+        };
+        /** EconomyTickView */
+        EconomyTickView: {
+            /** Company Count */
+            company_count: number;
+            /** Completed At */
+            completed_at: string | null;
+            /** Id */
+            id: string;
+            /** Market Count */
+            market_count: number;
+            /**
+             * Period End
+             * Format: date-time
+             */
+            period_end: string;
+            /** Period Key */
+            period_key: string;
+            /**
+             * Period Start
+             * Format: date-time
+             */
+            period_start: string;
+            /**
+             * Started At
+             * Format: date-time
+             */
+            started_at: string;
+            /** Status */
+            status: string;
+            /** World Id */
+            world_id: string;
+        };
+        /** EndWorldEventRequest */
+        EndWorldEventRequest: {
+            /** Reason */
+            reason: string;
+        };
+        /** EngagementMetricRequest */
+        EngagementMetricRequest: {
+            /** Fairness Bps */
+            fairness_bps?: number | null;
+            /** Metric Date */
+            metric_date?: string | null;
+            /** Satisfaction Bps */
+            satisfaction_bps?: number | null;
+            /**
+             * Survey Response Count
+             * @default 0
+             */
+            survey_response_count: number;
+        };
+        /** EngagementMetricView */
+        EngagementMetricView: {
+            /** Active Profile Count */
+            active_profile_count: number;
+            /** Cohort Key */
+            cohort_key: string;
+            /** Collection Completion Bps */
+            collection_completion_bps: number;
+            /** D1 Return Bps */
+            d1_return_bps: number;
+            /** D30 Return Bps */
+            d30_return_bps: number;
+            /** D7 Return Bps */
+            d7_return_bps: number;
+            /** Fairness Bps */
+            fairness_bps: number | null;
+            /**
+             * Generated At
+             * Format: date-time
+             */
+            generated_at: string;
+            /** Goal Completion Bps */
+            goal_completion_bps: number;
+            /** Id */
+            id: string;
+            /** Meaningful Decision Count */
+            meaningful_decision_count: number;
+            /**
+             * Metric Date
+             * Format: date
+             */
+            metric_date: string;
+            /** Natural Break Bps */
+            natural_break_bps: number;
+            /** Pause Return 14 Bps */
+            pause_return_14_bps: number;
+            /** Pause Return 30 Bps */
+            pause_return_30_bps: number;
+            /** Pause Return 7 Bps */
+            pause_return_7_bps: number;
+            /** Profile Count */
+            profile_count: number;
+            /** Satisfaction Bps */
+            satisfaction_bps: number | null;
+            /** Scope Key */
+            scope_key: string;
+            /** Season Participation Bps */
+            season_participation_bps: number;
+            /** Socially Engaged Bps */
+            socially_engaged_bps: number;
+            /** Story Progress Count */
+            story_progress_count: number;
+            /** Strategy Diversity Bps */
+            strategy_diversity_bps: number;
+            /** Survey Response Count */
+            survey_response_count: number;
+            /** Weekly Return Bps */
+            weekly_return_bps: number;
+            /** World Id */
+            world_id: string | null;
+        };
+        /** EngagementSettingUpdate */
+        EngagementSettingUpdate: {
+            /** Adaptive Help Enabled */
+            adaptive_help_enabled: boolean;
+            /**
+             * Information Density
+             * @enum {string}
+             */
+            information_density: "compact" | "standard" | "detailed";
+            /** Ranking Visible */
+            ranking_visible: boolean;
+            /** Session Summary Enabled */
+            session_summary_enabled: boolean;
+        };
+        /** EngagementSettingView */
+        EngagementSettingView: {
+            /** Adaptive Help Enabled */
+            adaptive_help_enabled: boolean;
+            /** Id */
+            id: string;
+            /**
+             * Information Density
+             * @enum {string}
+             */
+            information_density: "compact" | "standard" | "detailed";
+            /** Ranking Visible */
+            ranking_visible: boolean;
+            /** Session Summary Enabled */
+            session_summary_enabled: boolean;
+            /**
+             * Updated At
+             * Format: date-time
+             */
+            updated_at: string;
+        };
+        /** ExchangeConfigurationView */
+        ExchangeConfigurationView: {
+            /** Ipo Fee Cents */
+            ipo_fee_cents: number;
+            /** Max Investigation Pressure Bps */
+            max_investigation_pressure_bps: number;
+            /** Max Price Deviation Bps */
+            max_price_deviation_bps: number;
+            /** Min Compliance Bps */
+            min_compliance_bps: number;
+            /** Min Employees */
+            min_employees: number;
+            /** Min Enterprise Value Cents */
+            min_enterprise_value_cents: number;
+            /** Order Rate Limit Per Minute */
+            order_rate_limit_per_minute: number;
+            /** Profitable Periods */
+            profitable_periods: number;
+        };
+        /** ExchangeListingView */
+        ExchangeListingView: {
+            /** Company Id */
+            company_id: string;
+            /** Company Industry */
+            company_industry: string;
+            /** Company Name */
+            company_name: string;
+            /** Debt Cents */
+            debt_cents: number;
+            /** Enterprise Value Cents */
+            enterprise_value_cents: number;
+            /** Id */
+            id: string;
+            /** Initial Price Cents */
+            initial_price_cents: number;
+            /** Ipo Fee Cents */
+            ipo_fee_cents: number;
+            /** Last Price Cents */
+            last_price_cents: number;
+            /**
+             * Listed At
+             * Format: date-time
+             */
+            listed_at: string;
+            /** Offered Shares */
+            offered_shares: number;
+            /** Profit Cents */
+            profit_cents: number;
+            /** Status */
+            status: string;
+            /** Symbol */
+            symbol: string;
+            /** Total Shares */
+            total_shares: number;
+            /**
+             * Updated At
+             * Format: date-time
+             */
+            updated_at: string;
+            /** World Id */
+            world_id: string;
+        };
+        /** ExchangeOrderBookView */
+        ExchangeOrderBookView: {
+            /** Buys */
+            buys: components["schemas"]["ExchangeOrderView"][];
+            /** Sells */
+            sells: components["schemas"]["ExchangeOrderView"][];
+        };
+        /** ExchangeOrderRequest */
+        ExchangeOrderRequest: {
+            /** Expires At */
+            expires_at?: string | null;
+            /** Limit Price Cents */
+            limit_price_cents?: number | null;
+            /** Listing Id */
+            listing_id: string;
+            /**
+             * Order Type
+             * @enum {string}
+             */
+            order_type: "market" | "limit";
+            /** Quantity */
+            quantity: number;
+            /**
+             * Side
+             * @enum {string}
+             */
+            side: "buy" | "sell";
+        };
+        /** ExchangeOrderView */
+        ExchangeOrderView: {
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Expires At */
+            expires_at: string | null;
+            /** Id */
+            id: string;
+            /** Limit Price Cents */
+            limit_price_cents: number | null;
+            /** Listing Id */
+            listing_id: string;
+            /** Order Type */
+            order_type: string;
+            /** Original Quantity */
+            original_quantity: number;
+            /** Remaining Quantity */
+            remaining_quantity: number;
+            /** Reserved Cash Cents */
+            reserved_cash_cents: number;
+            /** Reserved Shares */
+            reserved_shares: number;
+            /** Share Class Id */
+            share_class_id: string;
+            /** Side */
+            side: string;
+            /** Status */
+            status: string;
+            /**
+             * Updated At
+             * Format: date-time
+             */
+            updated_at: string;
+        };
+        /** ExchangeTradeView */
+        ExchangeTradeView: {
+            /** Buy Order Id */
+            buy_order_id: string;
+            /** Buyer Profile Id */
+            buyer_profile_id: string;
+            /**
+             * Executed At
+             * Format: date-time
+             */
+            executed_at: string;
+            /** Gross Cents */
+            gross_cents: number;
+            /** Id */
+            id: string;
+            /** Listing Id */
+            listing_id: string;
+            /** Price Cents */
+            price_cents: number;
+            /** Quantity */
+            quantity: number;
+            /** Sell Order Id */
+            sell_order_id: string;
+            /** Seller Company Id */
+            seller_company_id: string | null;
+            /** Seller Profile Id */
+            seller_profile_id: string | null;
+            /** Share Class Id */
+            share_class_id: string;
+        };
         /** FacilityRequest */
         FacilityRequest: {
             /** Facility Type */
@@ -2154,10 +6831,183 @@ export interface components {
             /** Status */
             status: string;
         };
+        /** GoalView */
+        GoalView: {
+            /**
+             * Catch Up Until
+             * Format: date-time
+             */
+            catch_up_until: string;
+            /**
+             * Category
+             * @enum {string}
+             */
+            category: "economic" | "social" | "exploration" | "risk" | "long_term" | "season";
+            /** Choice Window Id */
+            choice_window_id: string;
+            /** Completed At */
+            completed_at: string | null;
+            /** Description Key */
+            description_key: string;
+            /** Id */
+            id: string;
+            /** Progress Value */
+            progress_value: number;
+            /** Recommended For Doctrine */
+            recommended_for_doctrine: boolean;
+            /** Reward Key */
+            reward_key: string;
+            /** Reward Type */
+            reward_type: string;
+            /** Selected At */
+            selected_at: string | null;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "offered" | "active" | "completed" | "swapped" | "declined" | "expired";
+            /** Target Value */
+            target_value: number;
+            /** Template Key */
+            template_key: string;
+            /** Title Key */
+            title_key: string;
+            /** Unit Key */
+            unit_key: string;
+        };
+        /** GoalWindowView */
+        GoalWindowView: {
+            /**
+             * Catch Up Until
+             * Format: date-time
+             */
+            catch_up_until: string;
+            /**
+             * Ends At
+             * Format: date-time
+             */
+            ends_at: string;
+            /** Goals */
+            goals: components["schemas"]["GoalView"][];
+            /** Id */
+            id: string;
+            /** Max Choices */
+            max_choices: number;
+            /** Selected Count */
+            selected_count: number;
+            /**
+             * Starts At
+             * Format: date-time
+             */
+            starts_at: string;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "open" | "catch_up" | "closed";
+        };
+        /** GuardrailEvaluationRequest */
+        GuardrailEvaluationRequest: {
+            /**
+             * Accessibility Status
+             * @default insufficient_data
+             * @enum {string}
+             */
+            accessibility_status: "passed" | "failed" | "insufficient_data";
+            /**
+             * Technical Status
+             * @default insufficient_data
+             * @enum {string}
+             */
+            technical_status: "passed" | "failed" | "insufficient_data";
+            /**
+             * Voluntary Return Status
+             * @default insufficient_data
+             * @enum {string}
+             */
+            voluntary_return_status: "passed" | "failed" | "insufficient_data";
+            wellbeing_signals: components["schemas"]["WellbeingSignals"];
+            /**
+             * Wellbeing Status
+             * @default insufficient_data
+             * @enum {string}
+             */
+            wellbeing_status: "passed" | "failed" | "insufficient_data";
+        };
+        /** GuardrailEvaluationView */
+        GuardrailEvaluationView: {
+            /** Accessibility Status */
+            accessibility_status: string;
+            /** Cartel Dominance Bps */
+            cartel_dominance_bps: number;
+            /**
+             * Evaluated At
+             * Format: date-time
+             */
+            evaluated_at: string;
+            /** Id */
+            id: string;
+            /** Ledger Imbalance Cents */
+            ledger_imbalance_cents: number;
+            /** Negative Balance Count */
+            negative_balance_count: number;
+            /** Newcomer Wealth Bps */
+            newcomer_wealth_bps: number;
+            /** Passed */
+            passed: boolean;
+            /** Reasons Json */
+            reasons_json: string[];
+            /** Strategy Spread Bps */
+            strategy_spread_bps: number;
+            /** Technical Status */
+            technical_status: string;
+            /** Voluntary Return Status */
+            voluntary_return_status: string;
+            /** Wellbeing Signals Json */
+            wellbeing_signals_json: {
+                [key: string]: unknown;
+            };
+            /** Wellbeing Status */
+            wellbeing_status: string;
+            /** World Id */
+            world_id: string | null;
+        };
         /** HTTPValidationError */
         HTTPValidationError: {
             /** Detail */
             detail?: components["schemas"]["ValidationError"][];
+        };
+        /** HallOfFameView */
+        HallOfFameView: {
+            /**
+             * Awarded At
+             * Format: date-time
+             */
+            awarded_at: string;
+            /** Category */
+            category: string;
+            /** Entity Id */
+            entity_id: string;
+            /** Entity Name */
+            entity_name: string;
+            /** Entity Type */
+            entity_type: string;
+            /** Id */
+            id: string;
+            /** Metrics Json */
+            metrics_json: {
+                [key: string]: unknown;
+            };
+            /** Rank */
+            rank: number;
+            /** Score Value */
+            score_value: number;
+            /** Season Id */
+            season_id: string;
+            /** Season Number */
+            season_number: number;
+            /** Tied */
+            tied: boolean;
         };
         /** HealthResponse */
         HealthResponse: {
@@ -2170,6 +7020,43 @@ export interface components {
             status: string;
             /** Version */
             version: string;
+        };
+        /** HireSpecialistRequest */
+        HireSpecialistRequest: {
+            /** Company Id */
+            company_id: string;
+        };
+        /** IdentityUpdateRequest */
+        IdentityUpdateRequest: {
+            /** Emblem Item Id */
+            emblem_item_id?: string | null;
+            /** Hq Cosmetic Item Id */
+            hq_cosmetic_item_id?: string | null;
+            /**
+             * Profile Card Public
+             * @default true
+             */
+            profile_card_public: boolean;
+            /** Title Item Id */
+            title_item_id?: string | null;
+        };
+        /** IdentityView */
+        IdentityView: {
+            /** Active Emblem Item Id */
+            active_emblem_item_id: string | null;
+            /** Active Hq Cosmetic Item Id */
+            active_hq_cosmetic_item_id: string | null;
+            /** Active Title Item Id */
+            active_title_item_id: string | null;
+            /** Id */
+            id: string;
+            /** Profile Card Public */
+            profile_card_public: boolean;
+            /**
+             * Updated At
+             * Format: date-time
+             */
+            updated_at: string;
         };
         /** IntelReportView */
         IntelReportView: {
@@ -2200,6 +7087,251 @@ export interface components {
             /** Visible Confidence */
             visible_confidence: number;
         };
+        /** IntelligenceAdminOperationView */
+        IntelligenceAdminOperationView: {
+            /** Action Type */
+            action_type: string;
+            /** Actor Profile Id */
+            actor_profile_id: string;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Detected */
+            detected: boolean;
+            /** Detection Roll */
+            detection_roll: number;
+            /** Id */
+            id: string;
+            /** Kind */
+            kind: string;
+            /** Outcome */
+            outcome: string;
+            /** Random Seed */
+            random_seed: string;
+            /** Success Roll */
+            success_roll: number;
+            /** Target Profile Id */
+            target_profile_id: string;
+        };
+        /** IntelligenceOfferRequest */
+        IntelligenceOfferRequest: {
+            /**
+             * Expires In Hours
+             * @default 24
+             */
+            expires_in_hours: number;
+            /** Price Cents */
+            price_cents: number;
+        };
+        /** IntelligenceOfferView */
+        IntelligenceOfferView: {
+            /** Buyer Profile Id */
+            buyer_profile_id: string | null;
+            /**
+             * Category
+             * @default
+             */
+            category: string;
+            /**
+             * Confidence Bps
+             * @default 0
+             */
+            confidence_bps: number;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /**
+             * Expires At
+             * Format: date-time
+             */
+            expires_at: string;
+            /** Id */
+            id: string;
+            /** Price Cents */
+            price_cents: number;
+            /** Purchased Report Id */
+            purchased_report_id: string | null;
+            /** Report Id */
+            report_id: string;
+            /** Seller Profile Id */
+            seller_profile_id: string;
+            /** Sold At */
+            sold_at: string | null;
+            /** Status */
+            status: string;
+            /**
+             * Target Id
+             * @default
+             */
+            target_id: string;
+            /**
+             * Target Type
+             * @default
+             */
+            target_type: string;
+        };
+        /** IntelligenceOperationRequest */
+        IntelligenceOperationRequest: {
+            /** Category */
+            category: string;
+            /** Information Type */
+            information_type: string;
+            /** Specialist Id */
+            specialist_id: string;
+            /** Target Profile Id */
+            target_profile_id: string;
+        };
+        /** IntelligenceOperationView */
+        IntelligenceOperationView: {
+            /** Category */
+            category: string;
+            /**
+             * Cooldown Until
+             * Format: date-time
+             */
+            cooldown_until: string;
+            /** Cost Cash Cents */
+            cost_cash_cents: number;
+            /** Cost Intelligence */
+            cost_intelligence: number;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Detected */
+            detected: boolean;
+            /** Detection Chance Bps */
+            detection_chance_bps: number;
+            /** Id */
+            id: string;
+            /** Information Type */
+            information_type: string;
+            /** Investigation Pressure Delta */
+            investigation_pressure_delta: number;
+            /** Outcome */
+            outcome: string;
+            /** Report Id */
+            report_id: string | null;
+            /** Specialist Id */
+            specialist_id: string;
+            /** Success Chance Bps */
+            success_chance_bps: number;
+            /** Target Profile Id */
+            target_profile_id: string;
+        };
+        /** IntelligenceReportAdminView */
+        IntelligenceReportAdminView: {
+            /** Accuracy State */
+            accuracy_state: string;
+            /**
+             * Age Seconds
+             * @default 0
+             */
+            age_seconds: number;
+            /** Category */
+            category: string;
+            /** Confidence Bps */
+            confidence_bps: number;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /**
+             * Expires At
+             * Format: date-time
+             */
+            expires_at: string;
+            /** Id */
+            id: string;
+            /** Information Type */
+            information_type: string;
+            /**
+             * Is Expired
+             * @default false
+             */
+            is_expired: boolean;
+            /**
+             * Observed At
+             * Format: date-time
+             */
+            observed_at: string;
+            /** Operation Id */
+            operation_id: string | null;
+            /** Owner Profile Id */
+            owner_profile_id: string;
+            /** Snapshot Json */
+            snapshot_json: {
+                [key: string]: unknown;
+            };
+            /** Source Category */
+            source_category: string;
+            /** Source Report Id */
+            source_report_id: string | null;
+            /** Statement */
+            statement: string;
+            /** Target Id */
+            target_id: string;
+            /** Target Type */
+            target_type: string;
+            /** Tradable */
+            tradable: boolean;
+        };
+        /** IntelligenceReportView */
+        IntelligenceReportView: {
+            /**
+             * Age Seconds
+             * @default 0
+             */
+            age_seconds: number;
+            /** Category */
+            category: string;
+            /** Confidence Bps */
+            confidence_bps: number;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /**
+             * Expires At
+             * Format: date-time
+             */
+            expires_at: string;
+            /** Id */
+            id: string;
+            /** Information Type */
+            information_type: string;
+            /**
+             * Is Expired
+             * @default false
+             */
+            is_expired: boolean;
+            /**
+             * Observed At
+             * Format: date-time
+             */
+            observed_at: string;
+            /** Owner Profile Id */
+            owner_profile_id: string;
+            /** Source Category */
+            source_category: string;
+            /** Source Report Id */
+            source_report_id: string | null;
+            /** Statement */
+            statement: string;
+            /** Target Id */
+            target_id: string;
+            /** Target Type */
+            target_type: string;
+            /** Tradable */
+            tradable: boolean;
+        };
         /** InviteRequest */
         InviteRequest: {
             /**
@@ -2207,6 +7339,22 @@ export interface components {
              * Format: email
              */
             email: string;
+        };
+        /** IpoEligibilityView */
+        IpoEligibilityView: {
+            /** Eligible */
+            eligible: boolean;
+            /** Metrics */
+            metrics: {
+                [key: string]: number;
+            };
+            /** Reasons */
+            reasons: string[];
+        };
+        /** JoinCartelRequest */
+        JoinCartelRequest: {
+            /** Invitation Id */
+            invitation_id: string;
         };
         /** JoinWorldRequest */
         JoinWorldRequest: {
@@ -2216,6 +7364,132 @@ export interface components {
             codename: string;
             /** Home District Id */
             home_district_id: string;
+        };
+        /** LeadershipTransferRequest */
+        LeadershipTransferRequest: {
+            /** Target Profile Id */
+            target_profile_id: string;
+        };
+        /** LegacyRecordView */
+        LegacyRecordView: {
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Id */
+            id: string;
+            /** Metadata Json */
+            metadata_json: {
+                [key: string]: unknown;
+            };
+            /** Record Key */
+            record_key: string;
+            /** Source Id */
+            source_id: string;
+            /** Source Type */
+            source_type: string;
+            /** Title Key */
+            title_key: string;
+        };
+        /** LoanApplicationView */
+        LoanApplicationView: {
+            /** Accepted At */
+            accepted_at: string | null;
+            /** Applicant Profile Id */
+            applicant_profile_id: string;
+            /** Cancelled At */
+            cancelled_at: string | null;
+            /** Collateral Score Bps */
+            collateral_score_bps: number;
+            /** Company Id */
+            company_id: string;
+            /** Company Name */
+            company_name: string;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Id */
+            id: string;
+            /** Offer Expires At */
+            offer_expires_at: string | null;
+            /** Offered Installment Cents */
+            offered_installment_cents: number | null;
+            /** Offered Interest Rate Bps */
+            offered_interest_rate_bps: number | null;
+            /** Offered Total Repayment Cents */
+            offered_total_repayment_cents: number | null;
+            /** Purpose */
+            purpose: string;
+            /** Rejection Reason */
+            rejection_reason: string | null;
+            /** Requested Principal Cents */
+            requested_principal_cents: number;
+            /** Risk Snapshot Json */
+            risk_snapshot_json: {
+                [key: string]: number;
+            };
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "offered" | "rejected" | "accepted" | "cancelled";
+            /** Term Periods */
+            term_periods: number;
+            /** World Id */
+            world_id: string;
+        };
+        /** LoanConfigView */
+        LoanConfigView: {
+            /** Default Investigation Penalty Bps */
+            default_investigation_penalty_bps: number;
+            /** Default Reputation Penalty Bps */
+            default_reputation_penalty_bps: number;
+            /** Max Interest Rate Bps */
+            max_interest_rate_bps: number;
+            /** Max Principal Cents */
+            max_principal_cents: number;
+            /** Max Term Periods */
+            max_term_periods: number;
+            /** Min Interest Rate Bps */
+            min_interest_rate_bps: number;
+            /** Offer Valid Minutes */
+            offer_valid_minutes: number;
+            /** Payment Interval Minutes */
+            payment_interval_minutes: number;
+        };
+        /** LoanPaymentView */
+        LoanPaymentView: {
+            /** Amount Cents */
+            amount_cents: number;
+            /** Id */
+            id: string;
+            /** Input Snapshot Json */
+            input_snapshot_json: {
+                [key: string]: unknown;
+            };
+            /** Interest Cents */
+            interest_cents: number;
+            /** Loan Id */
+            loan_id: string;
+            /**
+             * Paid At
+             * Format: date-time
+             */
+            paid_at: string;
+            /** Period Number */
+            period_number: number;
+            /** Principal Cents */
+            principal_cents: number;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "paid" | "defaulted";
+            /** Transaction Id */
+            transaction_id: string | null;
         };
         /** LoginRequest */
         LoginRequest: {
@@ -2228,6 +7502,61 @@ export interface components {
             password: string;
             /** Totp Code */
             totp_code?: string | null;
+        };
+        /** ManualAiTickRequest */
+        ManualAiTickRequest: {
+            /** Period Start */
+            period_start?: string | null;
+            /** World Id */
+            world_id: string;
+        };
+        /** ManualEconomyTickRequest */
+        ManualEconomyTickRequest: {
+            /** Period Start */
+            period_start?: string | null;
+            /** World Id */
+            world_id: string;
+        };
+        /** ManualSpecialistPayrollRequest */
+        ManualSpecialistPayrollRequest: {
+            /** Period Start */
+            period_start?: string | null;
+            /** World Id */
+            world_id: string;
+        };
+        /** MarketEconomyReportView */
+        MarketEconomyReportView: {
+            /** Allocated Share Bps */
+            allocated_share_bps: number;
+            /** Allocated Units */
+            allocated_units: number;
+            /** Company Count */
+            company_count: number;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Demand Units */
+            demand_units: number;
+            /** Id */
+            id: string;
+            /** Inputs Json */
+            inputs_json: {
+                [key: string]: unknown;
+            };
+            /** Market Id */
+            market_id: string;
+            /** Tick Id */
+            tick_id: string;
+            /** Total Cost Cents */
+            total_cost_cents: number;
+            /** Total Profit Cents */
+            total_profit_cents: number;
+            /** Total Revenue Cents */
+            total_revenue_cents: number;
+            /** Unfilled Units */
+            unfilled_units: number;
         };
         /** MarketOfferCreate */
         MarketOfferCreate: {
@@ -2289,6 +7618,113 @@ export interface components {
             /** Total Price */
             total_price: string;
         };
+        /** MasteryHighlight */
+        MasteryHighlight: {
+            /** Area Key */
+            area_key: string;
+            /** Level */
+            level: number;
+            /** Points */
+            points: number;
+        };
+        /** MasteryProgressView */
+        MasteryProgressView: {
+            /**
+             * Area Key
+             * @enum {string}
+             */
+            area_key: "company_management" | "market_analysis" | "capital_markets" | "contract_management" | "people_leadership" | "real_estate" | "cartel_leadership" | "diplomacy" | "intelligence" | "risk_management" | "season_strategy";
+            /** Distinct Decisions Json */
+            distinct_decisions_json: string[];
+            /** Id */
+            id: string;
+            /** Level */
+            level: number;
+            /** Points */
+            points: number;
+            /**
+             * Updated At
+             * Format: date-time
+             */
+            updated_at: string;
+        };
+        /** MembershipPauseRequest */
+        MembershipPauseRequest: {
+            /** Duration Days */
+            duration_days: number;
+            /** Private Reason */
+            private_reason?: string | null;
+        };
+        /** MembershipPauseView */
+        MembershipPauseView: {
+            /** Id */
+            id: string;
+            /** Membership Id */
+            membership_id: string;
+            /**
+             * Planned Until
+             * Format: date-time
+             */
+            planned_until: string;
+            /** Resumed At */
+            resumed_at: string | null;
+            /**
+             * Starts At
+             * Format: date-time
+             */
+            starts_at: string;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "active" | "completed" | "cancelled";
+        };
+        /** MentorshipAnswerRequest */
+        MentorshipAnswerRequest: {
+            /** Accept */
+            accept: boolean;
+        };
+        /** MentorshipCreateRequest */
+        MentorshipCreateRequest: {
+            /** Mentee Profile Id */
+            mentee_profile_id: string;
+        };
+        /** MentorshipRefreshRequest */
+        MentorshipRefreshRequest: {
+            /** Positive Feedback */
+            positive_feedback?: boolean | null;
+        };
+        /** MentorshipView */
+        MentorshipView: {
+            /** Accepted At */
+            accepted_at: string | null;
+            /** Completed At */
+            completed_at: string | null;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Feedback Positive */
+            feedback_positive: boolean | null;
+            /** Id */
+            id: string;
+            /** Mentee Opted In */
+            mentee_opted_in: boolean;
+            /** Mentee Profile Id */
+            mentee_profile_id: string;
+            /** Mentor Opted In */
+            mentor_opted_in: boolean;
+            /** Mentor Profile Id */
+            mentor_profile_id: string;
+            /** Milestones */
+            milestones?: string[];
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "proposed" | "active" | "paused" | "completed" | "declined" | "cancelled";
+        };
         /** MessageResponse */
         MessageResponse: {
             /** Message */
@@ -2342,6 +7778,115 @@ export interface components {
             edges: components["schemas"]["NetworkEdge"][];
             /** Nodes */
             nodes: components["schemas"]["NetworkNode"][];
+        };
+        /** NotificationPreferenceUpdate */
+        NotificationPreferenceUpdate: {
+            /**
+             * Digest Frequency
+             * @enum {string}
+             */
+            digest_frequency: "immediate" | "daily" | "weekly" | "off";
+            /** Live Enabled */
+            live_enabled: boolean;
+            /** Quiet End Minute */
+            quiet_end_minute: number;
+            /** Quiet Start Minute */
+            quiet_start_minute: number;
+            /**
+             * Timezone
+             * @default Europe/Berlin
+             */
+            timezone: string;
+        };
+        /** NotificationPreferenceView */
+        NotificationPreferenceView: {
+            /**
+             * Category
+             * @enum {string}
+             */
+            category: "critical" | "strategic" | "social" | "summary";
+            /**
+             * Digest Frequency
+             * @enum {string}
+             */
+            digest_frequency: "immediate" | "daily" | "weekly" | "off";
+            /** Id */
+            id: string;
+            /** Live Enabled */
+            live_enabled: boolean;
+            /** Quiet End Minute */
+            quiet_end_minute: number;
+            /** Quiet Start Minute */
+            quiet_start_minute: number;
+            /** Timezone */
+            timezone: string;
+            /**
+             * Updated At
+             * Format: date-time
+             */
+            updated_at: string;
+        };
+        /** OpenPlanCreateRequest */
+        OpenPlanCreateRequest: {
+            /**
+             * Category
+             * @enum {string}
+             */
+            category: "urgent" | "strategic" | "discoverable";
+            /** Next Step */
+            next_step: string;
+            /**
+             * Priority
+             * @default 50
+             */
+            priority: number;
+            /** Target Path */
+            target_path: string;
+            /** Title */
+            title: string;
+        };
+        /** OpenPlanUpdateRequest */
+        OpenPlanUpdateRequest: {
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "active" | "completed" | "archived";
+        };
+        /** OpenPlanView */
+        OpenPlanView: {
+            /**
+             * Category
+             * @enum {string}
+             */
+            category: "urgent" | "strategic" | "discoverable";
+            /** Completed At */
+            completed_at: string | null;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Id */
+            id: string;
+            /** Next Step */
+            next_step: string;
+            /** Priority */
+            priority: number;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "active" | "completed" | "archived";
+            /** Target Path */
+            target_path: string;
+            /** Title */
+            title: string;
+            /**
+             * Updated At
+             * Format: date-time
+             */
+            updated_at: string;
         };
         /** OperationView */
         OperationView: {
@@ -2440,6 +7985,42 @@ export interface components {
             /** World Id */
             world_id: string;
         };
+        /** OutcomeReportView */
+        OutcomeReportView: {
+            /** Alternatives Json */
+            alternatives_json: string[];
+            /** Controllable Factors Json */
+            controllable_factors_json: string[];
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** External Factors Json */
+            external_factors_json: string[];
+            /** Id */
+            id: string;
+            /** Knowledge Unlocked Json */
+            knowledge_unlocked_json: string[];
+            /** Source Id */
+            source_id: string;
+            /** Source Type */
+            source_type: string;
+            /** Title Key */
+            title_key: string;
+            /** Worked Well Json */
+            worked_well_json: string[];
+        };
+        /** ParallelRankingsView */
+        ParallelRankingsView: {
+            /** Categories */
+            categories: components["schemas"]["RankingCategoryView"][];
+            /**
+             * Economic Rewards
+             * @constant
+             */
+            economic_rewards: false;
+        };
         /** PasswordForgotRequest */
         PasswordForgotRequest: {
             /**
@@ -2454,6 +8035,72 @@ export interface components {
             password: string;
             /** Token */
             token: string;
+        };
+        /** PortfolioItemView */
+        PortfolioItemView: {
+            /** Available Quantity */
+            available_quantity: number;
+            /** Average Cost Cents */
+            average_cost_cents: number;
+            /** Company Id */
+            company_id: string;
+            /** Company Name */
+            company_name: string;
+            /** Holding Id */
+            holding_id: string;
+            /** Last Price Cents */
+            last_price_cents: number;
+            /** Listing Id */
+            listing_id: string;
+            /** Market Value Cents */
+            market_value_cents: number;
+            /** Quantity */
+            quantity: number;
+            /** Reserved Quantity */
+            reserved_quantity: number;
+            /** Share Class */
+            share_class: string;
+            /** Symbol */
+            symbol: string;
+            /** Voting Rights */
+            voting_rights: number;
+        };
+        /** PriceSnapshotView */
+        PriceSnapshotView: {
+            /**
+             * Captured At
+             * Format: date-time
+             */
+            captured_at: string;
+            /** Id */
+            id: string;
+            /** Listing Id */
+            listing_id: string;
+            /** Price Cents */
+            price_cents: number;
+            /** Trade Id */
+            trade_id: string;
+            /** Volume */
+            volume: number;
+        };
+        /** ProfileCardView */
+        ProfileCardView: {
+            /** Active Emblem Item Id */
+            active_emblem_item_id: string | null;
+            /** Active Hq Cosmetic Item Id */
+            active_hq_cosmetic_item_id: string | null;
+            /** Active Title Item Id */
+            active_title_item_id: string | null;
+            /** Codename */
+            codename: string;
+            /** Doctrine Key */
+            doctrine_key: string | null;
+            /** Mastery Highlights */
+            mastery_highlights: components["schemas"]["MasteryHighlight"][];
+            /** Profile Card Public */
+            profile_card_public: boolean;
+            /** Profile Id */
+            profile_id: string;
         };
         /** ProfileView */
         ProfileView: {
@@ -2493,6 +8140,165 @@ export interface components {
             tutorial_step: number;
             /** World Id */
             world_id: string;
+        };
+        /** PropertyCompanyAssignmentRequest */
+        PropertyCompanyAssignmentRequest: {
+            /** Company Id */
+            company_id: string;
+        };
+        /** PropertyImprovementView */
+        PropertyImprovementView: {
+            /** Company Id */
+            company_id: string;
+            /** Cost Cents */
+            cost_cents: number;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Id */
+            id: string;
+            /**
+             * Improvement Type
+             * @constant
+             */
+            improvement_type: "headquarters_upgrade";
+            /** Level After */
+            level_after: number;
+            /** Property Id */
+            property_id: string;
+            /** Transaction Id */
+            transaction_id: string;
+        };
+        /** PropertyLeasePaymentView */
+        PropertyLeasePaymentView: {
+            /** Amount Cents */
+            amount_cents: number;
+            /** Id */
+            id: string;
+            /** Input Snapshot Json */
+            input_snapshot_json: {
+                [key: string]: unknown;
+            };
+            /**
+             * Paid At
+             * Format: date-time
+             */
+            paid_at: string;
+            /** Period Number */
+            period_number: number;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "paid" | "defaulted";
+            /** Transaction Id */
+            transaction_id: string | null;
+        };
+        /** PropertyLeaseRequest */
+        PropertyLeaseRequest: {
+            /** Tenant Company Id */
+            tenant_company_id: string;
+            /** Term Periods */
+            term_periods: number;
+        };
+        /** PropertyLeaseView */
+        PropertyLeaseView: {
+            /** Cancelled At */
+            cancelled_at: string | null;
+            /** Completed At */
+            completed_at: string | null;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Default Reason */
+            default_reason: string | null;
+            /** Defaulted At */
+            defaulted_at: string | null;
+            /**
+             * Ends At
+             * Format: date-time
+             */
+            ends_at: string;
+            /** Id */
+            id: string;
+            /** Landlord Name */
+            landlord_name: string;
+            /** Landlord Profile Id */
+            landlord_profile_id: string;
+            /**
+             * Next Payment At
+             * Format: date-time
+             */
+            next_payment_at: string;
+            /** Payments */
+            payments: components["schemas"]["PropertyLeasePaymentView"][];
+            /** Periods Paid */
+            periods_paid: number;
+            /** Property Id */
+            property_id: string;
+            /** Property Name */
+            property_name: string;
+            /** Rent Cents Per Period */
+            rent_cents_per_period: number;
+            /**
+             * Starts At
+             * Format: date-time
+             */
+            starts_at: string;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "active" | "completed" | "defaulted" | "cancelled";
+            /** Tenant Company Id */
+            tenant_company_id: string;
+            /** Tenant Company Name */
+            tenant_company_name: string;
+            /** Term Periods */
+            term_periods: number;
+            /** World Id */
+            world_id: string;
+        };
+        /** PropertyRentListingRequest */
+        PropertyRentListingRequest: {
+            /** Rent Cents Per Period */
+            rent_cents_per_period: number;
+        };
+        /** PropertySaleListingRequest */
+        PropertySaleListingRequest: {
+            /** Asking Price Cents */
+            asking_price_cents: number;
+        };
+        /** PropertyTransferView */
+        PropertyTransferView: {
+            /** Buyer Profile Id */
+            buyer_profile_id: string;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Id */
+            id: string;
+            /** Price Cents */
+            price_cents: number;
+            /** Price Index Bps */
+            price_index_bps: number;
+            /** Property Id */
+            property_id: string;
+            /** Seller Profile Id */
+            seller_profile_id: string | null;
+            /** Transaction Id */
+            transaction_id: string;
+            /**
+             * Transfer Type
+             * @enum {string}
+             */
+            transfer_type: "system_sale" | "resale";
         };
         /** PvpDefenseRequest */
         PvpDefenseRequest: {
@@ -2737,6 +8543,190 @@ export interface components {
             /** Treaty Status */
             treaty_status: string | null;
         };
+        /** RankingCategoryView */
+        RankingCategoryView: {
+            /** Category */
+            category: string;
+            /** Entries */
+            entries: components["schemas"]["RankingEntryView"][];
+        };
+        /** RankingEntryView */
+        RankingEntryView: {
+            /**
+             * Bracket
+             * @enum {string}
+             */
+            bracket: "newcomer" | "veteran";
+            /** Codename */
+            codename: string;
+            /** Historical Best Score */
+            historical_best_score: number;
+            /** Is Self */
+            is_self: boolean;
+            /** Profile Id */
+            profile_id: string;
+            /** Rank */
+            rank: number;
+            /** Score */
+            score: number;
+        };
+        /** RealEstateConfigView */
+        RealEstateConfigView: {
+            /** Headquarters Upgrade Base Cost Cents */
+            headquarters_upgrade_base_cost_cents: number;
+            /** Index Interval Minutes */
+            index_interval_minutes: number;
+            /** Lease Interval Minutes */
+            lease_interval_minutes: number;
+            /** Max Lease Periods */
+            max_lease_periods: number;
+        };
+        /** RealEstateIndexView */
+        RealEstateIndexView: {
+            /** Cartel Control Points */
+            cartel_control_points: number;
+            /** City Id */
+            city_id: string;
+            /** City Name */
+            city_name: string;
+            /** Demand Bps */
+            demand_bps: number;
+            /** District Id */
+            district_id: string;
+            /** District Name */
+            district_name: string;
+            /** Economic Score */
+            economic_score: number;
+            /** Event Multiplier Bps */
+            event_multiplier_bps: number;
+            /** Id */
+            id: string;
+            /** Infrastructure Score */
+            infrastructure_score: number;
+            /** Price Index Bps */
+            price_index_bps: number;
+            /** Rent Index Bps */
+            rent_index_bps: number;
+            /** Safety Score */
+            safety_score: number;
+            /**
+             * Updated At
+             * Format: date-time
+             */
+            updated_at: string;
+            /** Version */
+            version: number;
+            /** World Id */
+            world_id: string;
+        };
+        /** RealEstatePropertyView */
+        RealEstatePropertyView: {
+            /** Area Units */
+            area_units: number;
+            /** Asking Price Cents */
+            asking_price_cents: number;
+            /** Base Value Cents */
+            base_value_cents: number;
+            /** City Id */
+            city_id: string;
+            /** City Name */
+            city_name: string;
+            /** Company Use Id */
+            company_use_id: string | null;
+            /** Company Use Name */
+            company_use_name: string | null;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** District Id */
+            district_id: string;
+            /** District Name */
+            district_name: string;
+            /** Effective Rent Cents Per Period */
+            effective_rent_cents_per_period: number;
+            /** Effective Sale Price Cents */
+            effective_sale_price_cents: number;
+            /** Headquarters Level */
+            headquarters_level: number;
+            /** Id */
+            id: string;
+            /** Improvement Value Cents */
+            improvement_value_cents: number;
+            /** Is Owned By Me */
+            is_owned_by_me: boolean;
+            /** Listing Type */
+            listing_type: ("sale" | "rent") | null;
+            /** Name */
+            name: string;
+            /** Owner Name */
+            owner_name: string | null;
+            /** Owner Profile Id */
+            owner_profile_id: string | null;
+            /** Property Code */
+            property_code: string;
+            /**
+             * Property Type
+             * @enum {string}
+             */
+            property_type: "land" | "building" | "commercial_space" | "headquarters";
+            /** Rent Cents Per Period */
+            rent_cents_per_period: number;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "available" | "owned" | "leased" | "archived";
+            /**
+             * Updated At
+             * Format: date-time
+             */
+            updated_at: string;
+            /** Version */
+            version: number;
+            /** World Id */
+            world_id: string;
+        };
+        /** RealtimeChannelsView */
+        RealtimeChannelsView: {
+            /** Channels */
+            channels: string[];
+            /** Protocol Version */
+            protocol_version: number;
+        };
+        /** RealtimeEventView */
+        RealtimeEventView: {
+            /**
+             * Audience Type
+             * @enum {string}
+             */
+            audience_type: "world" | "player" | "cartel" | "city";
+            /** Channel */
+            channel: string;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Event Type */
+            event_type: string;
+            /** Event Version */
+            event_version: number;
+            /**
+             * Expires At
+             * Format: date-time
+             */
+            expires_at: string;
+            /** Id */
+            id: string;
+            /** Payload Json */
+            payload_json: {
+                [key: string]: unknown;
+            };
+            /** World Id */
+            world_id: string;
+        };
         /** RecruitSpecialistRequest */
         RecruitSpecialistRequest: {
             /** Role */
@@ -2806,35 +8796,474 @@ export interface components {
             /** Version */
             version: number;
         };
-        /** SessionView */
-        SessionView: {
+        /** ReturnBriefingView */
+        ReturnBriefingView: {
+            /** Acknowledged At */
+            acknowledged_at: string | null;
+            /** Available Content Json */
+            available_content_json: {
+                [key: string]: unknown;
+            }[];
+            /** Company Changes Json */
+            company_changes_json: {
+                [key: string]: unknown;
+            }[];
+            /** Entry Points Json */
+            entry_points_json: {
+                [key: string]: unknown;
+            }[];
+            /**
+             * Generated At
+             * Format: date-time
+             */
+            generated_at: string;
+            /** Id */
+            id: string;
+            /** Relevant Decisions Json */
+            relevant_decisions_json: {
+                [key: string]: unknown;
+            }[];
+            /**
+             * Since At
+             * Format: date-time
+             */
+            since_at: string;
+            /** World Changes Json */
+            world_changes_json: {
+                [key: string]: unknown;
+            }[];
+        };
+        /** ReturnContractView */
+        ReturnContractView: {
+            /** Absence Days */
+            absence_days: number;
+            /** Completed At */
+            completed_at: string | null;
+            /** Contract Key */
+            contract_key: string;
+            /** Description Key */
+            description_key: string;
+            /** Id */
+            id: string;
+            /**
+             * Offered At
+             * Format: date-time
+             */
+            offered_at: string;
+            /** Progress Value */
+            progress_value: number;
+            /** Selected At */
+            selected_at: string | null;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "offered" | "active" | "completed" | "declined";
+            /** Target Value */
+            target_value: number;
+            /** Title Key */
+            title_key: string;
+        };
+        /** RolloutUpdateRequest */
+        RolloutUpdateRequest: {
+            /**
+             * Cohort Bps
+             * @enum {integer}
+             */
+            cohort_bps: 0 | 500 | 2000 | 5000 | 10000;
+        };
+        /** RolloutView */
+        RolloutView: {
+            /** Cohort Bps */
+            cohort_bps: number;
+            /** Feature Key */
+            feature_key: string;
+            /** Id */
+            id: string;
+            /** Last Evaluation Id */
+            last_evaluation_id: string | null;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "disabled" | "internal" | "staged" | "active" | "paused";
+            /**
+             * Updated At
+             * Format: date-time
+             */
+            updated_at: string;
+        };
+        /** SeasonCloseView */
+        SeasonCloseView: {
+            /** Archive Count */
+            archive_count: number;
+            /** Hall Of Fame Count */
+            hall_of_fame_count: number;
+            /** Reward Count */
+            reward_count: number;
+            /** Score Count */
+            score_count: number;
+            season: components["schemas"]["SeasonView"];
+        };
+        /** SeasonGoalView */
+        SeasonGoalView: {
+            /** Completed At */
+            completed_at: string | null;
+            /** Description Key */
+            description_key: string;
+            /** Goal Key */
+            goal_key: string;
+            /** Id */
+            id: string;
+            /** Progress Value */
+            progress_value: number;
+            /** Season Id */
+            season_id: string;
+            /** Selected At */
+            selected_at: string | null;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "offered" | "active" | "completed" | "archived";
+            /** Target Value */
+            target_value: number;
+            /** Title Key */
+            title_key: string;
+        };
+        /** SeasonScoreView */
+        SeasonScoreView: {
+            /** Captured At */
+            captured_at: string | null;
+            /** Category */
+            category: string;
+            /** Entity Id */
+            entity_id: string;
+            /** Entity Name */
+            entity_name: string;
+            /** Entity Type */
+            entity_type: string;
+            /** Metrics Json */
+            metrics_json: {
+                [key: string]: unknown;
+            };
+            /** Rank */
+            rank: number;
+            /** Score Value */
+            score_value: number;
+            /** Tied */
+            tied: boolean;
+        };
+        /** SeasonTemplateView */
+        SeasonTemplateView: {
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Duration Minutes */
+            duration_minutes: number;
+            /** Enabled */
+            enabled: boolean;
+            /** Goals Json */
+            goals_json: {
+                [key: string]: unknown;
+            }[];
+            /** Id */
+            id: string;
+            /** Name */
+            name: string;
+            /** Phase Weights Json */
+            phase_weights_json: {
+                [key: string]: number;
+            };
+            /** Scoring Categories Json */
+            scoring_categories_json: string[];
+            /** Starting Cash Cents */
+            starting_cash_cents: number;
+            /** Template Key */
+            template_key: string;
+            /** Version */
+            version: number;
+        };
+        /** SeasonView */
+        SeasonView: {
+            /** Archived At */
+            archived_at: string | null;
+            /** Closed At */
+            closed_at: string | null;
             /**
              * Created At
              * Format: date-time
              */
             created_at: string;
             /**
-             * Expires At
+             * Ends At
              * Format: date-time
              */
-            expires_at: string;
+            ends_at: string;
+            /** Goals Json */
+            goals_json: {
+                [key: string]: unknown;
+            }[];
             /** Id */
             id: string;
-            /** Revoked At */
-            revoked_at: string | null;
-            /** User Agent */
-            user_agent: string;
+            /** Name */
+            name: string;
+            /**
+             * Phase
+             * @enum {string}
+             */
+            phase: "setup" | "early" | "mid" | "late" | "scoring" | "archived";
+            /**
+             * Phase Changed At
+             * Format: date-time
+             */
+            phase_changed_at: string;
+            /**
+             * Phase Ends At
+             * Format: date-time
+             */
+            phase_ends_at: string;
+            /** Phase Schedule Json */
+            phase_schedule_json: {
+                [key: string]: unknown;
+            }[];
+            /** Remaining Seconds */
+            remaining_seconds: number;
+            /** Scoring Categories Json */
+            scoring_categories_json: string[];
+            /** Scoring Started At */
+            scoring_started_at: string | null;
+            /** Season Number */
+            season_number: number;
+            /** Starting Cash Cents */
+            starting_cash_cents: number;
+            /**
+             * Starts At
+             * Format: date-time
+             */
+            starts_at: string;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "active" | "scoring" | "archived";
+            /** Template Id */
+            template_id: string;
+            /** World Id */
+            world_id: string;
+        };
+        /** SelectCityRequest */
+        SelectCityRequest: {
+            /** Archetype */
+            archetype: string;
+            /** City Id */
+            city_id: string;
+            /** Codename */
+            codename: string;
+            /** Home District Id */
+            home_district_id: string;
+        };
+        /** SessionFinishRequest */
+        SessionFinishRequest: {
+            /** Decision Keys */
+            decision_keys?: string[];
+        };
+        /** SessionStartRequest */
+        SessionStartRequest: {
+            /** Client Session Key */
+            client_session_key: string;
+        };
+        /** SessionSummaryView */
+        SessionSummaryView: {
+            /** Changes Json */
+            changes_json: {
+                [key: string]: unknown;
+            }[];
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Decisions Json */
+            decisions_json: {
+                [key: string]: unknown;
+            }[];
+            /** Duration Seconds */
+            duration_seconds: number;
+            /** Id */
+            id: string;
+            /** Natural Break Reached */
+            natural_break_reached: boolean;
+            /** Next Entry Points Json */
+            next_entry_points_json: {
+                [key: string]: unknown;
+            }[];
+            /** Open Plans Json */
+            open_plans_json: {
+                [key: string]: unknown;
+            }[];
+            /** Session Id */
+            session_id: string;
+        };
+        /** ShareholderView */
+        ShareholderView: {
+            /** Codename */
+            codename: string;
+            /** Holding Id */
+            holding_id: string;
+            /** Ownership Bps */
+            ownership_bps: number;
+            /** Profile Id */
+            profile_id: string;
+            /** Quantity */
+            quantity: number;
+            /** Voting Rights */
+            voting_rights: number;
+        };
+        /** ShortenSeasonRequest */
+        ShortenSeasonRequest: {
+            /** Duration Minutes */
+            duration_minutes: number;
+        };
+        /** SimulateSeasonRequest */
+        SimulateSeasonRequest: {
+            /**
+             * At
+             * Format: date-time
+             */
+            at: string;
+        };
+        /** SpecialistEffectsView */
+        SpecialistEffectsView: {
+            /** Active Specialists */
+            active_specialists: number;
+            /** Attractiveness Bonus Points */
+            attractiveness_bonus_points: number;
+            /** Capacity Bonus Units */
+            capacity_bonus_units: number;
+            /** Cost Reduction Bps */
+            cost_reduction_bps: number;
+            /** Revenue Bonus Bps */
+            revenue_bonus_bps: number;
+        };
+        /** SpecialistMarketCandidateView */
+        SpecialistMarketCandidateView: {
+            /**
+             * Available Until
+             * Format: date-time
+             */
+            available_until: string;
+            /** City Id */
+            city_id: string;
+            /** Energy */
+            energy: number;
+            /** Id */
+            id: string;
+            /** Level */
+            level: number;
+            /** Loyalty */
+            loyalty: number;
+            /** Market Cycle Key */
+            market_cycle_key: string;
+            /** Name */
+            name: string;
+            /** Role */
+            role: string;
+            /** Salary Cents */
+            salary_cents: number;
+            /** Skills Json */
+            skills_json: {
+                [key: string]: number;
+            };
+            /** Status */
+            status: string;
+            /** World Id */
+            world_id: string;
+        };
+        /** SpecialistPayrollReportView */
+        SpecialistPayrollReportView: {
+            /** Company Id */
+            company_id: string;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Energy After */
+            energy_after: number;
+            /** Energy Before */
+            energy_before: number;
+            /** Id */
+            id: string;
+            /** Level After */
+            level_after: number;
+            /** Level Before */
+            level_before: number;
+            /** Loyalty After */
+            loyalty_after: number;
+            /** Loyalty Before */
+            loyalty_before: number;
+            /** Payroll Tick Id */
+            payroll_tick_id: string;
+            /** Salary Due Cents */
+            salary_due_cents: number;
+            /** Salary Paid Cents */
+            salary_paid_cents: number;
+            /** Specialist Id */
+            specialist_id: string;
+            /** Transaction Id */
+            transaction_id: string | null;
+            /** Unpaid Cents */
+            unpaid_cents: number;
+        };
+        /** SpecialistPayrollTickView */
+        SpecialistPayrollTickView: {
+            /** Completed At */
+            completed_at: string | null;
+            /** Economy Tick Id */
+            economy_tick_id: string;
+            /** Id */
+            id: string;
+            /** Period Key */
+            period_key: string;
+            /** Specialist Count */
+            specialist_count: number;
+            /**
+             * Started At
+             * Format: date-time
+             */
+            started_at: string;
+            /** Status */
+            status: string;
+            /** World Id */
+            world_id: string;
         };
         /** SpecialistView */
         SpecialistView: {
             /** Ambition */
             ambition: number;
+            /** Assigned Operation Id */
+            assigned_operation_id: string | null;
             /** Competence */
             competence: number;
+            /** Cooldown Until */
+            cooldown_until: string | null;
+            /** Employer Company Id */
+            employer_company_id: string | null;
+            /** Energy */
+            energy: number;
+            /** Experience Points */
+            experience_points: number;
             /** Exposure */
             exposure: number;
+            /** Hired At */
+            hired_at: string | null;
             /** Id */
             id: string;
+            /** Level */
+            level: number;
             /** Loyalty */
             loyalty: number;
             /** Name */
@@ -2843,6 +9272,12 @@ export interface components {
             role: string;
             /** Salary */
             salary: string;
+            /** Salary Cents */
+            salary_cents: number;
+            /** Skills Json */
+            skills_json: {
+                [key: string]: number;
+            };
             /** Status */
             status: string;
             /** Stress */
@@ -2880,6 +9315,174 @@ export interface components {
         StartResearchRequest: {
             /** Research Key */
             research_key: string;
+        };
+        /** StrategicActionRequest */
+        StrategicActionRequest: {
+            /** Action Type */
+            action_type: string;
+            /** Specialist Id */
+            specialist_id: string;
+            /** Target Id */
+            target_id: string;
+            /** Target Profile Id */
+            target_profile_id: string;
+        };
+        /** StrategicActionView */
+        StrategicActionView: {
+            /** Action Type */
+            action_type: string;
+            /**
+             * Cooldown Until
+             * Format: date-time
+             */
+            cooldown_until: string;
+            /** Cost Cash Cents */
+            cost_cash_cents: number;
+            /** Cost Intelligence */
+            cost_intelligence: number;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Detected */
+            detected: boolean;
+            /** Detection Chance Bps */
+            detection_chance_bps: number;
+            /** Effect Id */
+            effect_id: string | null;
+            /** Id */
+            id: string;
+            /** Investigation Pressure Delta */
+            investigation_pressure_delta: number;
+            /** Outcome */
+            outcome: string;
+            /** Specialist Id */
+            specialist_id: string;
+            /** Success Chance Bps */
+            success_chance_bps: number;
+            /** Target Id */
+            target_id: string;
+            /** Target Profile Id */
+            target_profile_id: string;
+            /** Target Type */
+            target_type: string;
+        };
+        /** StrategicEffectView */
+        StrategicEffectView: {
+            /** Effect Type */
+            effect_type: string;
+            /**
+             * Ends At
+             * Format: date-time
+             */
+            ends_at: string;
+            /** Id */
+            id: string;
+            /** Magnitude */
+            magnitude: number;
+            /**
+             * Starts At
+             * Format: date-time
+             */
+            starts_at: string;
+            /** Target Id */
+            target_id: string;
+            /** Target Type */
+            target_type: string;
+        };
+        /** SubmitBidRequest */
+        SubmitBidRequest: {
+            /** Bidder Company Id */
+            bidder_company_id: string;
+            /** Price Cents */
+            price_cents: number;
+        };
+        /** SubscribeBondRequest */
+        SubscribeBondRequest: {
+            /** Quantity */
+            quantity: number;
+        };
+        /** SuccessChainView */
+        SuccessChainView: {
+            /** Chain Key */
+            chain_key: string;
+            /** Completed At */
+            completed_at: string | null;
+            /** Completed Event Types Json */
+            completed_event_types_json: string[];
+            /** Completed Steps */
+            completed_steps: number;
+            /** Id */
+            id: string;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "active" | "completed";
+            /** Total Steps */
+            total_steps: number;
+            /**
+             * Updated At
+             * Format: date-time
+             */
+            updated_at: string;
+        };
+        /** SwapGoalRequest */
+        SwapGoalRequest: {
+            /** Replacement Goal Id */
+            replacement_goal_id: string;
+        };
+        /** TenderView */
+        TenderView: {
+            /** Awarded At */
+            awarded_at: string | null;
+            /** Bid Count */
+            bid_count: number;
+            /** Capacity Units */
+            capacity_units: number;
+            /**
+             * Contract Type
+             * @enum {string}
+             */
+            contract_type: "supply" | "service";
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Created By Profile Id */
+            created_by_profile_id: string;
+            /** Description */
+            description: string;
+            /** Duration Periods */
+            duration_periods: number;
+            /** Id */
+            id: string;
+            /** Issuer Company Id */
+            issuer_company_id: string;
+            /** Issuer Company Name */
+            issuer_company_name: string;
+            /** Max Price Cents */
+            max_price_cents: number;
+            /** Min Compliance Bps */
+            min_compliance_bps: number;
+            /** Min Reputation Bps */
+            min_reputation_bps: number;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "open" | "awarded" | "cancelled" | "expired";
+            /**
+             * Submission Ends At
+             * Format: date-time
+             */
+            submission_ends_at: string;
+            /** Title */
+            title: string;
+            /** World Id */
+            world_id: string;
         };
         /** TerritoryChallengeRequest */
         TerritoryChallengeRequest: {
@@ -2973,6 +9576,11 @@ export interface components {
              */
             token_type: string;
         };
+        /** TreasuryDepositRequest */
+        TreasuryDepositRequest: {
+            /** Amount Cents */
+            amount_cents: number;
+        };
         /** TreasuryRequest */
         TreasuryRequest: {
             /** Amount */
@@ -3012,6 +9620,11 @@ export interface components {
         TutorialRequest: {
             /** Step */
             step: number;
+        };
+        /** UpdateCartelRoleRequest */
+        UpdateCartelRoleRequest: {
+            /** Role */
+            role: string;
         };
         /** UpdateOrganizationRoleRequest */
         UpdateOrganizationRoleRequest: {
@@ -3061,6 +9674,173 @@ export interface components {
             /** Token */
             token: string;
         };
+        /** WellbeingSignals */
+        WellbeingSignals: {
+            /** Absence Pressure Reports */
+            absence_pressure_reports: number;
+            /** Exhaustion After Session Bps */
+            exhaustion_after_session_bps: number;
+            /** Fear Motivated Return Bps */
+            fear_motivated_return_bps: number;
+            /** Obligation Reports */
+            obligation_reports: number;
+            /** Push Disable Delta Bps */
+            push_disable_delta_bps: number;
+            /** Very Long Sessions Delta Bps */
+            very_long_sessions_delta_bps: number;
+        };
+        /** WorldEventDefinitionView */
+        WorldEventDefinitionView: {
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Default Duration Minutes */
+            default_duration_minutes: number;
+            /** Default Scope Type */
+            default_scope_type: string;
+            /** Description */
+            description: string;
+            /** Effect Config Json */
+            effect_config_json: {
+                [key: string]: number;
+            };
+            /** Enabled */
+            enabled: boolean;
+            /** Event Key */
+            event_key: string;
+            /** Id */
+            id: string;
+            /** Title */
+            title: string;
+            /** Version */
+            version: number;
+        };
+        /** WorldEventInstanceView */
+        WorldEventInstanceView: {
+            /** Activated At */
+            activated_at: string | null;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Definition Id */
+            definition_id: string;
+            /** Description */
+            description: string;
+            /** Effect Config Json */
+            effect_config_json: {
+                [key: string]: number;
+            };
+            /** End Reason */
+            end_reason: string | null;
+            /** Ended At */
+            ended_at: string | null;
+            /**
+             * Ends At
+             * Format: date-time
+             */
+            ends_at: string;
+            /** Event Key */
+            event_key: string;
+            /** Id */
+            id: string;
+            /** Scope Id */
+            scope_id: string;
+            /** Scope Type */
+            scope_type: string;
+            /**
+             * Starts At
+             * Format: date-time
+             */
+            starts_at: string;
+            /** Status */
+            status: string;
+            /** Template Version */
+            template_version: number;
+            /** Title */
+            title: string;
+            /** World Id */
+            world_id: string;
+        };
+        /** WorldEventPlanRequest */
+        WorldEventPlanRequest: {
+            /** Duration Minutes */
+            duration_minutes?: number | null;
+            /** Effect Overrides */
+            effect_overrides?: {
+                [key: string]: number;
+            };
+            /** Event Key */
+            event_key: string;
+            /** Scope Id */
+            scope_id?: string | null;
+            /** Scope Type */
+            scope_type?: string | null;
+            /**
+             * Starts At
+             * Format: date-time
+             */
+            starts_at?: string;
+            /** Version */
+            version?: number | null;
+            /** World Id */
+            world_id: string;
+        };
+        /** WorldEventPreviewView */
+        WorldEventPreviewView: {
+            /** Affected Companies */
+            affected_companies: number;
+            /** Definition Id */
+            definition_id: string;
+            /** Description */
+            description: string;
+            /** Effect Config */
+            effect_config: {
+                [key: string]: number;
+            };
+            /**
+             * Ends At
+             * Format: date-time
+             */
+            ends_at: string;
+            /** Event Key */
+            event_key: string;
+            /** Scope Id */
+            scope_id: string;
+            /** Scope Type */
+            scope_type: string;
+            /**
+             * Starts At
+             * Format: date-time
+             */
+            starts_at: string;
+            /** Template Version */
+            template_version: number;
+            /** Title */
+            title: string;
+        };
+        /** WorldEventResponseRequest */
+        WorldEventResponseRequest: {
+            /** Response Key */
+            response_key: string;
+        };
+        /** WorldEventResponseView */
+        WorldEventResponseView: {
+            /** Id */
+            id: string;
+            /**
+             * Occurred At
+             * Format: date-time
+             */
+            occurred_at: string;
+            /** Response Key */
+            response_key: string;
+            /** World Event Id */
+            world_event_id: string;
+        };
         /** WorldView */
         WorldView: {
             /**
@@ -3084,6 +9864,51 @@ export interface components {
             /** Status */
             status: string;
         };
+        /** SessionView */
+        shadowgrid__engagement_schemas__SessionView: {
+            /** Client Session Key */
+            client_session_key: string;
+            /** Ended At */
+            ended_at: string | null;
+            /** Id */
+            id: string;
+            /**
+             * Last Activity At
+             * Format: date-time
+             */
+            last_activity_at: string;
+            /** Profile Id */
+            profile_id: string;
+            /**
+             * Started At
+             * Format: date-time
+             */
+            started_at: string;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "active" | "completed" | "abandoned";
+        };
+        /** SessionView */
+        shadowgrid__schemas__SessionView: {
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /**
+             * Expires At
+             * Format: date-time
+             */
+            expires_at: string;
+            /** Id */
+            id: string;
+            /** Revoked At */
+            revoked_at: string | null;
+            /** User Agent */
+            user_agent: string;
+        };
     };
     responses: never;
     parameters: never;
@@ -3093,6 +9918,431 @@ export interface components {
 }
 export type $defs = Record<string, never>;
 export interface operations {
+    my_account_rewards_api_v1_account_rewards_me_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["AccountRewardView"][];
+                };
+            };
+        };
+    };
+    ai_players_api_v1_admin_ai_players_get: {
+        parameters: {
+            query?: {
+                world_id?: string | null;
+            };
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["AiProfileView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    ai_player_pause_api_v1_admin_ai_players__profile_id__patch: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                profile_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["AiPauseRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["AiProfileView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    ai_tick_manual_api_v1_admin_ai_ticks_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["ManualAiTickRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["AiDecisionTickView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    economy_tick_manual_api_v1_admin_economy_ticks_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["ManualEconomyTickRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["EconomyTickView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    intelligence_admin_trace_api_v1_admin_intelligence_operations_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["IntelligenceAdminOperationView"][];
+                };
+            };
+        };
+    };
+    intelligence_admin_report_api_v1_admin_intelligence_reports__report_id__get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                report_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["IntelligenceReportAdminView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    admin_seasons_api_v1_admin_seasons_get: {
+        parameters: {
+            query: {
+                world_id: string;
+            };
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SeasonView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    admin_create_season_api_v1_admin_seasons_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "Idempotency-Key"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["CreateSeasonRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SeasonView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    season_templates_api_v1_admin_seasons_templates_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SeasonTemplateView"][];
+                };
+            };
+        };
+    };
+    admin_close_season_api_v1_admin_seasons__season_id__close_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                season_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SeasonCloseView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    admin_shorten_season_api_v1_admin_seasons__season_id__shorten_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                season_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["ShortenSeasonRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SeasonView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    admin_simulate_season_api_v1_admin_seasons__season_id__simulate_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                season_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["SimulateSeasonRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SeasonView"] | components["schemas"]["SeasonCloseView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    specialist_payroll_manual_api_v1_admin_specialists_payroll_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["ManualSpecialistPayrollRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SpecialistPayrollTickView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
     admin_summary_api_v1_admin_summary_get: {
         parameters: {
             query?: never;
@@ -3111,6 +10361,131 @@ export interface operations {
                     "application/json": {
                         [key: string]: number;
                     };
+                };
+            };
+        };
+    };
+    world_event_activate_api_v1_admin_world_events_activate_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "Idempotency-Key"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["WorldEventPlanRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["WorldEventInstanceView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    world_event_definitions_api_v1_admin_world_events_definitions_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["WorldEventDefinitionView"][];
+                };
+            };
+        };
+    };
+    world_event_preview_api_v1_admin_world_events_preview_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["WorldEventPlanRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["WorldEventPreviewView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    world_event_end_api_v1_admin_world_events__instance_id__end_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                instance_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["EndWorldEventRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["WorldEventInstanceView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
                 };
             };
         };
@@ -3631,7 +11006,7 @@ export interface operations {
                     [name: string]: unknown;
                 };
                 content: {
-                    "application/json": components["schemas"]["SessionView"][];
+                    "application/json": components["schemas"]["shadowgrid__schemas__SessionView"][];
                 };
             };
         };
@@ -3720,6 +11095,239 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["MessageResponse"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    bond_config_api_v1_bonds_config_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["BondConfigView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    my_bond_holdings_api_v1_bonds_holdings_me_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["BondHoldingView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    bond_issues_api_v1_bonds_issues_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["BondIssueView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    post_bond_issue_api_v1_bonds_issues_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["CreateBondIssueRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["BondIssueView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    post_activate_bond_issue_api_v1_bonds_issues__issue_id__activate_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                issue_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["BondIssueView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    bond_settlements_api_v1_bonds_issues__issue_id__settlements_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                issue_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["BondSettlementView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    post_bond_subscription_api_v1_bonds_issues__issue_id__subscribe_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                issue_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["SubscribeBondRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["BondSubscriptionView"];
                 };
             };
             /** @description Validation Error */
@@ -4299,6 +11907,711 @@ export interface operations {
             };
         };
     };
+    cartels_list_api_v1_cartels_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartels_create_api_v1_cartels_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["CreateCartelRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_invitations_me_api_v1_cartels_invitations_me_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelInvitationView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_get_api_v1_cartels__cartel_id__get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_dissolve_api_v1_cartels__cartel_id__delete: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MessageResponse"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_activity_log_api_v1_cartels__cartel_id__activity_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelActivityView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_invitation_create_api_v1_cartels__cartel_id__invitations_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["CartelInvitationRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelInvitationView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_join_api_v1_cartels__cartel_id__join_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["JoinCartelRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_leadership_transfer_api_v1_cartels__cartel_id__leadership_transfer_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["LeadershipTransferRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MessageResponse"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_leave_api_v1_cartels__cartel_id__leave_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MessageResponse"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_members_api_v1_cartels__cartel_id__members_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelMemberView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_member_update_api_v1_cartels__cartel_id__members__player_id__patch: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+                player_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["UpdateCartelRoleRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelMemberView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_projects_api_v1_cartels__cartel_id__projects_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelProjectView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_project_create_api_v1_cartels__cartel_id__projects_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["CreateCartelProjectRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelProjectView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_project_contribute_api_v1_cartels__cartel_id__projects__project_id__contribute_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+                project_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["CartelProjectContributionRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelProjectView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_treasury_api_v1_cartels__cartel_id__treasury_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelTreasuryView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_treasury_deposit_api_v1_cartels__cartel_id__treasury_deposit_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["TreasuryDepositRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelTreasuryView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_expenses_api_v1_cartels__cartel_id__treasury_expenses_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelExpenseView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_expense_create_api_v1_cartels__cartel_id__treasury_expenses_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["CartelExpenseRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelExpenseView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_expense_approve_api_v1_cartels__cartel_id__treasury_expenses__expense_id__approve_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+                expense_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelExpenseView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
     chat_channel_list_api_v1_chat_channels_get: {
         parameters: {
             query?: never;
@@ -4466,6 +12779,385 @@ export interface operations {
             };
         };
     };
+    companies_api_v1_companies_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CompanyView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    company_create_api_v1_companies_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["CreateCompanyRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CompanyView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    companies_config_api_v1_companies_config_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CompanyConfigurationView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    company_detail_api_v1_companies__company_id__get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                company_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CompanyDetailView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    company_dividend_declare_api_v1_companies__company_id__dividends_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                company_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["DividendRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["DividendDeclarationView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    company_economy_reports_api_v1_companies__company_id__economy_reports_get: {
+        parameters: {
+            query?: {
+                limit?: number;
+            };
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                company_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CompanyEconomyReportView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    company_invest_api_v1_companies__company_id__investments_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                company_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["CompanyInvestmentRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CompanyView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    company_ipo_api_v1_companies__company_id__ipo_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                company_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["CreateIpoRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ExchangeListingView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    company_ipo_eligibility_api_v1_companies__company_id__ipo_eligibility_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                company_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["IpoEligibilityView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    company_ownership_api_v1_companies__company_id__ownership_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                company_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CompanyOwnershipView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    company_specialist_effect_summary_api_v1_companies__company_id__specialist_effects_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                company_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SpecialistEffectsView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
     public_config_api_v1_config_get: {
         parameters: {
             query?: never;
@@ -4484,6 +13176,277 @@ export interface operations {
                     "application/json": {
                         [key: string]: unknown;
                     };
+                };
+            };
+        };
+    };
+    contract_config_api_v1_contracts_config_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ContractConfigView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    my_contracts_api_v1_contracts_me_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CommercialContractView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    contract_tenders_api_v1_contracts_tenders_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["TenderView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    post_contract_tender_api_v1_contracts_tenders_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["CreateTenderRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["TenderView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    post_contract_award_api_v1_contracts_tenders__tender_id__award_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                tender_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["AwardBidRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CommercialContractView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    contract_bids_api_v1_contracts_tenders__tender_id__bids_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                tender_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["BidView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    post_contract_bid_api_v1_contracts_tenders__tender_id__bids_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                tender_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["SubmitBidRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["BidView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    contract_settlements_api_v1_contracts__contract_id__settlements_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                contract_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ContractSettlementView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
                 };
             };
         };
@@ -4539,6 +13502,2331 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["DistrictView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    economy_competitors_api_v1_economy_competitors_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CompanyView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    economy_markets_api_v1_economy_markets_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CitySectorMarketView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    economy_market_reports_api_v1_economy_markets__market_id__reports_get: {
+        parameters: {
+            query?: {
+                limit?: number;
+            };
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                market_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MarketEconomyReportView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    economy_status_api_v1_economy_status_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["EconomyStatusView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    help_offers_api_v1_engagement_adaptive_help_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["AdaptiveHelpView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    help_respond_api_v1_engagement_adaptive_help__offer_id__patch: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                offer_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["AdaptiveHelpResponse"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["AdaptiveHelpView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    guardrails_evaluate_api_v1_engagement_admin_guardrails_evaluate_post: {
+        parameters: {
+            query?: {
+                world_id?: string | null;
+            };
+            header?: {
+                "Idempotency-Key"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["GuardrailEvaluationRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["GuardrailEvaluationView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    engagement_metrics_list_api_v1_engagement_admin_metrics_daily_get: {
+        parameters: {
+            query?: {
+                world_id?: string | null;
+                limit?: number;
+            };
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["EngagementMetricView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    engagement_metric_generate_api_v1_engagement_admin_metrics_daily_post: {
+        parameters: {
+            query?: {
+                world_id?: string | null;
+            };
+            header?: {
+                "Idempotency-Key"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["EngagementMetricRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["EngagementMetricView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    rollout_update_api_v1_engagement_admin_rollouts__feature_key__put: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                feature_key: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["RolloutUpdateRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["RolloutView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    engagement_command_center_api_v1_engagement_command_center_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CommandCenterView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    doctrine_current_api_v1_engagement_doctrine_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["DoctrineStateView"] | null;
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    doctrine_select_api_v1_engagement_doctrine_put: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["DoctrineSelectRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["DoctrineStateView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    doctrines_api_v1_engagement_doctrines_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["DoctrineCatalogItem"][];
+                };
+            };
+        };
+    };
+    current_goals_api_v1_engagement_goals_current_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["GoalWindowView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    goal_select_api_v1_engagement_goals__goal_id__select_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                goal_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["GoalView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    goal_swap_api_v1_engagement_goals__goal_id__swap_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                goal_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["SwapGoalRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["GoalView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    initialize_api_v1_engagement_initialize_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["GoalWindowView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    actors_api_v1_engagement_legacy_actors_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ActorRelationshipView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    chronicle_api_v1_engagement_legacy_chronicles__scope_type___scope_id__get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                scope_type: "company" | "world" | "profile";
+                scope_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ChronicleEntryView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    collection_api_v1_engagement_legacy_collection_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CollectionEntryView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    dossiers_api_v1_engagement_legacy_dossiers_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["DossierView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    dossier_investigate_api_v1_engagement_legacy_dossiers__dossier_id__investigate_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                dossier_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["DossierView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    identity_api_v1_engagement_legacy_identity_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["IdentityView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    identity_update_api_v1_engagement_legacy_identity_put: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["IdentityUpdateRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["IdentityView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    legacy_records_api_v1_engagement_legacy_legacy_records_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["LegacyRecordView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    player_profile_card_api_v1_engagement_legacy_profile_card_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ProfileCardView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    parallel_rankings_api_v1_engagement_legacy_rankings_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ParallelRankingsView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    return_contracts_api_v1_engagement_legacy_return_contracts_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ReturnContractView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    return_contract_select_api_v1_engagement_legacy_return_contracts__contract_id__select_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                contract_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ReturnContractView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    season_goals_api_v1_engagement_legacy_season_goals_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SeasonGoalView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    season_goal_select_api_v1_engagement_legacy_season_goals__goal_id__select_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                goal_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SeasonGoalView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    mastery_api_v1_engagement_mastery_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MasteryProgressView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    mentorship_list_api_v1_engagement_mentorships_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MentorshipView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    mentorship_create_api_v1_engagement_mentorships_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["MentorshipCreateRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MentorshipView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    mentorship_answer_api_v1_engagement_mentorships__mentorship_id__answer_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                mentorship_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["MentorshipAnswerRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MentorshipView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    mentorship_refresh_api_v1_engagement_mentorships__mentorship_id__refresh_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                mentorship_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["MentorshipRefreshRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MentorshipView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    notification_preferences_api_v1_engagement_notification_preferences_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["NotificationPreferenceView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    notification_preference_update_api_v1_engagement_notification_preferences__category__put: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                category: "critical" | "strategic" | "social" | "summary";
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["NotificationPreferenceUpdate"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["NotificationPreferenceView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    open_plans_api_v1_engagement_open_plans_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["OpenPlanView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    open_plan_create_api_v1_engagement_open_plans_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["OpenPlanCreateRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["OpenPlanView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    open_plan_update_api_v1_engagement_open_plans__plan_id__patch: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                plan_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["OpenPlanUpdateRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["OpenPlanView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    outcome_reports_api_v1_engagement_outcome_reports_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["OutcomeReportView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    return_briefing_generate_api_v1_engagement_return_briefings_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ReturnBriefingView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    return_briefing_acknowledge_api_v1_engagement_return_briefings__briefing_id__acknowledge_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                briefing_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ReturnBriefingView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    session_start_api_v1_engagement_sessions_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["SessionStartRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["shadowgrid__engagement_schemas__SessionView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    session_latest_summary_api_v1_engagement_sessions_latest_summary_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SessionSummaryView"] | null;
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    session_finish_api_v1_engagement_sessions__session_id__finish_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                session_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["SessionFinishRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SessionSummaryView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    settings_api_v1_engagement_settings_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["EngagementSettingView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    settings_update_api_v1_engagement_settings_put: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["EngagementSettingUpdate"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["EngagementSettingView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_chronicle_api_v1_engagement_social_cartels__cartel_id__chronicle_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelChronicleView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    delegations_api_v1_engagement_social_cartels__cartel_id__delegations_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["DelegationView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    delegation_create_api_v1_engagement_social_cartels__cartel_id__delegations_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["DelegationCreateRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["DelegationView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_current_pause_api_v1_engagement_social_cartels__cartel_id__pause_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MembershipPauseView"] | null;
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_pause_api_v1_engagement_social_cartels__cartel_id__pause_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["MembershipPauseRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MembershipPauseView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_resume_api_v1_engagement_social_cartels__cartel_id__resume_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MembershipPauseView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    personal_success_chain_api_v1_engagement_success_chain_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SuccessChainView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    exchange_config_api_v1_exchange_config_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ExchangeConfigurationView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    exchange_listings_api_v1_exchange_listings_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ExchangeListingView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    exchange_listing_detail_api_v1_exchange_listings__listing_id__get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                listing_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ExchangeListingView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    exchange_dividends_api_v1_exchange_listings__listing_id__dividends_get: {
+        parameters: {
+            query?: {
+                limit?: number;
+            };
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                listing_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["DividendDeclarationView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    exchange_order_book_api_v1_exchange_listings__listing_id__order_book_get: {
+        parameters: {
+            query?: {
+                limit?: number;
+            };
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                listing_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ExchangeOrderBookView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    exchange_price_history_api_v1_exchange_listings__listing_id__prices_get: {
+        parameters: {
+            query?: {
+                limit?: number;
+            };
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                listing_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["PriceSnapshotView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    exchange_company_reports_api_v1_exchange_listings__listing_id__reports_get: {
+        parameters: {
+            query?: {
+                limit?: number;
+            };
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                listing_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CompanyEconomyReportView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    exchange_shareholders_api_v1_exchange_listings__listing_id__shareholders_get: {
+        parameters: {
+            query?: {
+                limit?: number;
+            };
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                listing_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ShareholderView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    exchange_trades_api_v1_exchange_listings__listing_id__trades_get: {
+        parameters: {
+            query?: {
+                limit?: number;
+            };
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                listing_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ExchangeTradeView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    exchange_order_create_api_v1_exchange_orders_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["ExchangeOrderRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ExchangeOrderView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    exchange_own_orders_api_v1_exchange_orders_me_get: {
+        parameters: {
+            query?: {
+                limit?: number;
+            };
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ExchangeOrderView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    exchange_order_cancel_api_v1_exchange_orders__order_id__delete: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                order_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ExchangeOrderView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    exchange_portfolio_api_v1_exchange_portfolio_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["PortfolioItemView"][];
                 };
             };
             /** @description Validation Error */
@@ -4619,6 +15907,40 @@ export interface operations {
             };
         };
     };
+    hall_of_fame_api_v1_hall_of_fame_get: {
+        parameters: {
+            query?: {
+                season_number?: number | null;
+                category?: string | null;
+            };
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HallOfFameView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
     health_api_v1_health_get: {
         parameters: {
             query?: never;
@@ -4635,6 +15957,39 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["HealthResponse"];
+                };
+            };
+        };
+    };
+    cartel_city_influence_api_v1_influence_cities__city_id__get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                city_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["DistrictCartelInfluenceView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
                 };
             };
         };
@@ -4657,6 +16012,240 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["IntelReportView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    intelligence_offer_list_api_v1_intelligence_offers_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["IntelligenceOfferView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    intelligence_offer_buy_api_v1_intelligence_offers__offer_id__buy_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                offer_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["IntelligenceReportView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    intelligence_operation_list_api_v1_intelligence_operations_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["IntelligenceOperationView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    intelligence_operation_create_api_v1_intelligence_operations_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["IntelligenceOperationRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["IntelligenceOperationView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    intelligence_report_list_api_v1_intelligence_reports_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["IntelligenceReportView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    intelligence_report_get_api_v1_intelligence_reports__report_id__get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                report_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["IntelligenceReportView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    intelligence_report_sell_api_v1_intelligence_reports__report_id__sell_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                report_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["IntelligenceOfferRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["IntelligenceOfferView"];
                 };
             };
             /** @description Validation Error */
@@ -4725,6 +16314,233 @@ export interface operations {
                     "application/json": {
                         [key: string]: unknown;
                     };
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_leaderboard_api_v1_leaderboards_cartels_current_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelRankingView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    post_loan_application_api_v1_loans_applications_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["CreateLoanApplicationRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["LoanApplicationView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    my_loan_applications_api_v1_loans_applications_me_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["LoanApplicationView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    post_accept_loan_offer_api_v1_loans_applications__application_id__accept_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                application_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CompanyLoanView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    loan_config_api_v1_loans_config_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["LoanConfigView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    my_loans_api_v1_loans_me_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CompanyLoanView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    loan_payments_api_v1_loans__loan_id__payments_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                loan_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["LoanPaymentView"][];
                 };
             };
             /** @description Validation Error */
@@ -5028,7 +16844,11 @@ export interface operations {
     };
     notifications_api_v1_notifications_get: {
         parameters: {
-            query?: never;
+            query?: {
+                unread_only?: boolean;
+                category?: string | null;
+                limit?: number;
+            };
             header?: never;
             path?: never;
             cookie?: never;
@@ -5044,6 +16864,57 @@ export interface operations {
                     "application/json": {
                         [key: string]: unknown;
                     }[];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    read_all_notifications_api_v1_notifications_read_all_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MessageResponse"];
+                };
+            };
+        };
+    };
+    unread_notification_count_api_v1_notifications_unread_count_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": {
+                        [key: string]: number;
+                    };
                 };
             };
         };
@@ -5446,6 +17317,103 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["OrganizationView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    player_me_api_v1_players_me_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ProfileView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    player_resources_api_v1_players_me_resources_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ResourceView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    player_select_city_api_v1_players_me_select_city_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "Idempotency-Key"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["SelectCityRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ProfileView"];
                 };
             };
             /** @description Validation Error */
@@ -6024,6 +17992,449 @@ export interface operations {
             };
         };
     };
+    real_estate_config_api_v1_real_estate_config_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["RealEstateConfigView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    real_estate_indices_api_v1_real_estate_indices_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["RealEstateIndexView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    my_property_leases_api_v1_real_estate_leases_me_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["PropertyLeaseView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    real_estate_properties_api_v1_real_estate_properties_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["RealEstatePropertyView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    post_property_assignment_api_v1_real_estate_properties__property_id__assign_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                property_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["PropertyCompanyAssignmentRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["RealEstatePropertyView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    post_property_purchase_api_v1_real_estate_properties__property_id__buy_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                property_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["PropertyTransferView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    post_headquarters_upgrade_api_v1_real_estate_properties__property_id__headquarters_upgrade_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                property_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["PropertyImprovementView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    post_property_lease_api_v1_real_estate_properties__property_id__lease_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                property_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["PropertyLeaseRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["PropertyLeaseView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    post_property_rent_listing_api_v1_real_estate_properties__property_id__list_rent_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                property_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["PropertyRentListingRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["RealEstatePropertyView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    post_property_sale_listing_api_v1_real_estate_properties__property_id__list_sale_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                property_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["PropertySaleListingRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["RealEstatePropertyView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    post_property_unassignment_api_v1_real_estate_properties__property_id__unassign_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                property_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["RealEstatePropertyView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    realtime_channels_api_v1_realtime_channels_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["RealtimeChannelsView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    realtime_event_feed_api_v1_realtime_events_get: {
+        parameters: {
+            query?: {
+                after_id?: string | null;
+                limit?: number;
+            };
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["RealtimeEventView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
     research_projects_api_v1_research_get: {
         parameters: {
             query?: never;
@@ -6124,6 +18535,173 @@ export interface operations {
             };
         };
     };
+    get_current_season_api_v1_seasons_current_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SeasonView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    get_current_leaderboard_api_v1_seasons_current_leaderboards__category__get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                category: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SeasonScoreView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    get_season_leaderboard_api_v1_seasons__season_id__leaderboards__category__get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                season_id: string;
+                category: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SeasonScoreView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    specialist_market_api_v1_specialist_market_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SpecialistMarketCandidateView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    specialist_hire_api_v1_specialist_market__candidate_id__hire_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                candidate_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["HireSpecialistRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SpecialistView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
     specialists_api_v1_specialists_get: {
         parameters: {
             query?: never;
@@ -6178,6 +18756,211 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["SpecialistView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    specialist_assign_api_v1_specialists__specialist_id__assign_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                specialist_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["AssignSpecialistRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SpecialistView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    specialist_payroll_reports_api_v1_specialists__specialist_id__payroll_reports_get: {
+        parameters: {
+            query?: {
+                limit?: number;
+            };
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                specialist_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SpecialistPayrollReportView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    specialist_release_api_v1_specialists__specialist_id__release_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                specialist_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SpecialistView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    strategic_action_create_api_v1_strategic_actions_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["StrategicActionRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["StrategicActionView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    strategic_effect_list_api_v1_strategic_actions_effects_me_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["StrategicEffectView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    strategic_action_list_api_v1_strategic_actions_me_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["StrategicActionView"][];
                 };
             };
             /** @description Validation Error */
@@ -6556,6 +19339,126 @@ export interface operations {
                     "application/json": {
                         [key: string]: unknown;
                     }[];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    world_event_current_api_v1_world_events_current_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["WorldEventInstanceView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    world_event_response_api_v1_world_events__instance_id__responses_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                instance_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["WorldEventResponseRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["WorldEventResponseView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    world_cities_api_v1_world_cities_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CityView"][];
+                };
+            };
+        };
+    };
+    city_districts_api_v1_world_cities__city_id__districts_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                city_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["DistrictView"][];
                 };
             };
             /** @description Validation Error */

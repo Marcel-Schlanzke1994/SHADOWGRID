@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import asyncio
+import hmac
 import json
 import logging
 import time
@@ -16,17 +17,40 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse, Response
 from prometheus_client import CONTENT_TYPE_LATEST, Counter, Histogram, generate_latest
-from sqlalchemy import and_, or_, select
+from pydantic import ValidationError
+from sqlalchemy import select
 from starlette.middleware.base import RequestResponseEndpoint
+from starlette.types import Message
 
 from shadowgrid.api import router
+from shadowgrid.bond_api import router as bond_router
+from shadowgrid.cartel_api import router as cartel_router
 from shadowgrid.config import get_settings
+from shadowgrid.contract_api import router as contract_router
 from shadowgrid.database import SessionLocal
-from shadowgrid.models import PlayerProfile, RealtimeEvent, RefreshSession, User
+from shadowgrid.engagement_api import router as engagement_router
+from shadowgrid.errors import DomainError
+from shadowgrid.intelligence_api import router as intelligence_router
+from shadowgrid.legacy_api import router as legacy_router
+from shadowgrid.loan_api import router as loan_router
+from shadowgrid.models import PlayerProfile, RefreshSession, User, as_utc
 from shadowgrid.multiplayer_api import router as multiplayer_router
+from shadowgrid.real_estate_api import router as real_estate_router
+from shadowgrid.realtime import (
+    channel_names,
+    event_channel,
+    list_realtime_events_after,
+    realtime_cursor,
+)
+from shadowgrid.realtime_api import router as realtime_router
+from shadowgrid.realtime_schemas import RealtimeConnectMessage
+from shadowgrid.season_api import router as season_router
 from shadowgrid.security import decode_access_token
+from shadowgrid.world_event_api import router as world_event_router
 
 settings = get_settings()
+MAX_REQUEST_BODY_BYTES = 1_048_576
+MAX_WEBSOCKET_MESSAGE_BYTES = 16_384
 WEB_DIST = (settings.web_dist_path or Path(__file__).resolve().parents[1] / "web-dist").resolve()
 logging.basicConfig(level=settings.log_level, format="%(message)s")
 structlog.configure(
@@ -66,6 +90,10 @@ app.add_middleware(
 )
 
 
+class RequestBodyTooLargeError(Exception):
+    """Internal signal raised while consuming an oversized streaming request."""
+
+
 @app.middleware("http")
 async def security_and_observability(
     request: Request, call_next: RequestResponseEndpoint
@@ -73,7 +101,24 @@ async def security_and_observability(
     request_id = request.headers.get("x-request-id", str(uuid4()))[:60]
     request.state.request_id = request_id
     content_length = request.headers.get("content-length")
-    if content_length and int(content_length) > 1_048_576:
+    if content_length:
+        try:
+            declared_length = int(content_length)
+        except ValueError:
+            return JSONResponse(
+                status_code=400,
+                content={
+                    "error": {
+                        "code": "request.invalid_content_length",
+                        "message": "Content-Length must be an integer",
+                        "request_id": request_id,
+                    },
+                    "server_time": datetime.now(UTC).isoformat(),
+                },
+            )
+    else:
+        declared_length = 0
+    if declared_length > MAX_REQUEST_BODY_BYTES:
         return JSONResponse(
             status_code=413,
             content={
@@ -85,8 +130,48 @@ async def security_and_observability(
                 "server_time": datetime.now(UTC).isoformat(),
             },
         )
+    received_bytes = 0
+    original_receive = request._receive
+
+    async def limited_receive() -> Message:
+        nonlocal received_bytes
+        message = await original_receive()
+        if message.get("type") == "http.request":
+            body = message.get("body", b"")
+            received_bytes += len(body)
+            if received_bytes > MAX_REQUEST_BODY_BYTES:
+                request.state.body_too_large = True
+                raise RequestBodyTooLargeError
+        return message
+
+    request._receive = limited_receive
     started = time.perf_counter()
-    response = await call_next(request)
+    try:
+        response = await call_next(request)
+    except RequestBodyTooLargeError:
+        response = JSONResponse(
+            status_code=413,
+            content={
+                "error": {
+                    "code": "request.too_large",
+                    "message": "Request body exceeds 1 MiB",
+                    "request_id": request_id,
+                },
+                "server_time": datetime.now(UTC).isoformat(),
+            },
+        )
+    if getattr(request.state, "body_too_large", False):
+        response = JSONResponse(
+            status_code=413,
+            content={
+                "error": {
+                    "code": "request.too_large",
+                    "message": "Request body exceeds 1 MiB",
+                    "request_id": request_id,
+                },
+                "server_time": datetime.now(UTC).isoformat(),
+            },
+        )
     route = getattr(request.scope.get("route"), "path", request.url.path)
     elapsed = time.perf_counter() - started
     REQUESTS.labels(request.method, route, response.status_code).inc()
@@ -133,6 +218,21 @@ async def http_exception_handler(request: Request, exc: HTTPException) -> JSONRe
     )
 
 
+@app.exception_handler(DomainError)
+async def domain_exception_handler(request: Request, exc: DomainError) -> JSONResponse:
+    detail: dict[str, Any] = {
+        "code": exc.code,
+        "message": exc.message,
+        "request_id": getattr(request.state, "request_id", None),
+    }
+    if exc.fields is not None:
+        detail["fields"] = exc.fields
+    return JSONResponse(
+        status_code=exc.status_code,
+        content={"error": detail, "server_time": datetime.now(UTC).isoformat()},
+    )
+
+
 @app.exception_handler(RequestValidationError)
 async def validation_exception_handler(
     request: Request, exc: RequestValidationError
@@ -173,12 +273,33 @@ async def unhandled_exception_handler(request: Request, exc: Exception) -> JSONR
 
 
 @app.get("/metrics", include_in_schema=False)
-def metrics() -> Response:
+def metrics(request: Request) -> Response:
+    if settings.app_env in {"production", "staging"}:
+        expected = settings.metrics_token
+        authorization = request.headers.get("authorization", "")
+        provided = authorization.removeprefix("Bearer ")
+        if (
+            expected is None
+            or not provided
+            or not hmac.compare_digest(expected.get_secret_value(), provided)
+        ):
+            return Response(status_code=404)
     return Response(generate_latest(), media_type=CONTENT_TYPE_LATEST)
 
 
 app.include_router(router, prefix=settings.api_prefix)
+app.include_router(cartel_router, prefix=settings.api_prefix)
+app.include_router(intelligence_router, prefix=settings.api_prefix)
+app.include_router(world_event_router, prefix=settings.api_prefix)
+app.include_router(season_router, prefix=settings.api_prefix)
+app.include_router(contract_router, prefix=settings.api_prefix)
+app.include_router(bond_router, prefix=settings.api_prefix)
+app.include_router(loan_router, prefix=settings.api_prefix)
+app.include_router(real_estate_router, prefix=settings.api_prefix)
+app.include_router(realtime_router, prefix=settings.api_prefix)
 app.include_router(multiplayer_router, prefix=settings.api_prefix)
+app.include_router(engagement_router, prefix=settings.api_prefix)
+app.include_router(legacy_router, prefix=settings.api_prefix)
 
 
 @app.websocket(f"{settings.api_prefix}/ws")
@@ -186,37 +307,59 @@ async def websocket_updates(websocket: WebSocket) -> None:
     await websocket.accept()
     try:
         first = await asyncio.wait_for(websocket.receive_text(), timeout=8)
-        message = json.loads(first)
-        token = str(message.get("access_token", ""))
-        requested_world_id = str(message.get("world_id", "")).strip() or None
-        payload = decode_access_token(token, settings)
+        if len(first.encode("utf-8")) > MAX_WEBSOCKET_MESSAGE_BYTES:
+            await websocket.close(code=1009)
+            return
+        message = RealtimeConnectMessage.model_validate_json(first)
+        payload = decode_access_token(message.access_token, settings)
         db = SessionLocal()
         try:
             user = db.get(User, payload.get("sub"))
             session = db.get(RefreshSession, payload.get("sid"))
-            if user is None or session is None or session.revoked_at is not None:
+            now = datetime.now(UTC)
+            if (
+                user is None
+                or user.disabled_at is not None
+                or session is None
+                or session.revoked_at is not None
+                or as_utc(session.expires_at) <= now
+            ):
                 await websocket.close(code=4401)
                 return
             profile_query = select(PlayerProfile).where(PlayerProfile.user_id == user.id)
-            if requested_world_id is not None:
-                profile_query = profile_query.where(PlayerProfile.world_id == requested_world_id)
+            if message.world_id is not None:
+                profile_query = profile_query.where(PlayerProfile.world_id == message.world_id)
             profile = db.scalar(profile_query.order_by(PlayerProfile.created_at).limit(1))
             if profile is None:
                 await websocket.close(code=4403)
                 return
             profile_id = profile.id
             world_id = profile.world_id
+            channels = channel_names(db, profile)
+            connected_at = now
+            if message.last_event_id is None:
+                last_event_at = connected_at
+                last_event_id = ""
+            else:
+                last_event_at, last_event_id = realtime_cursor(
+                    db,
+                    profile,
+                    message.last_event_id,
+                )
         finally:
             db.close()
-        connected_at = datetime.now(UTC)
-        last_event_at = connected_at
-        last_event_id = ""
         last_heartbeat = time.monotonic()
         await websocket.send_json(
             {
                 "event_id": str(uuid4()),
                 "type": "connected",
-                "payload": {"world_id": world_id, "profile_id": profile_id},
+                "event_version": 1,
+                "payload": {
+                    "world_id": world_id,
+                    "profile_id": profile_id,
+                    "channels": channels,
+                    "resumed_after": message.last_event_id,
+                },
                 "server_time": connected_at.isoformat(),
             }
         )
@@ -229,6 +372,7 @@ async def websocket_updates(websocket: WebSocket) -> None:
                         {
                             "event_id": str(uuid4()),
                             "type": "pong",
+                            "event_version": 1,
                             "server_time": datetime.now(UTC).isoformat(),
                         }
                     )
@@ -238,27 +382,22 @@ async def websocket_updates(websocket: WebSocket) -> None:
             now = datetime.now(UTC)
             db = SessionLocal()
             try:
-                events = list(
-                    db.scalars(
-                        select(RealtimeEvent)
-                        .where(
-                            RealtimeEvent.world_id == world_id,
-                            or_(
-                                RealtimeEvent.profile_id.is_(None),
-                                RealtimeEvent.profile_id == profile_id,
-                            ),
-                            RealtimeEvent.expires_at > now,
-                            or_(
-                                RealtimeEvent.created_at > last_event_at,
-                                and_(
-                                    RealtimeEvent.created_at == last_event_at,
-                                    RealtimeEvent.id > last_event_id,
-                                ),
-                            ),
-                        )
-                        .order_by(RealtimeEvent.created_at, RealtimeEvent.id)
-                        .limit(100)
-                    )
+                profile = db.get(PlayerProfile, profile_id)
+                session = db.get(RefreshSession, payload.get("sid"))
+                if (
+                    profile is None
+                    or session is None
+                    or session.revoked_at is not None
+                    or as_utc(session.expires_at) <= now
+                ):
+                    await websocket.close(code=4401)
+                    return
+                events = list_realtime_events_after(
+                    db,
+                    profile,
+                    created_at=last_event_at,
+                    event_id=last_event_id,
+                    at=now,
                 )
             finally:
                 db.close()
@@ -267,6 +406,8 @@ async def websocket_updates(websocket: WebSocket) -> None:
                     {
                         "event_id": event.id,
                         "type": event.event_type,
+                        "event_version": event.event_version,
+                        "channel": event_channel(event),
                         "payload": event.payload_json,
                         "server_time": event.created_at.isoformat(),
                     }
@@ -278,11 +419,20 @@ async def websocket_updates(websocket: WebSocket) -> None:
                     {
                         "event_id": str(uuid4()),
                         "type": "heartbeat",
+                        "event_version": 1,
                         "server_time": now.isoformat(),
                     }
                 )
                 last_heartbeat = time.monotonic()
-    except (WebSocketDisconnect, json.JSONDecodeError, jwt.PyJWTError, TimeoutError):
+    except WebSocketDisconnect:
+        return
+    except (json.JSONDecodeError, ValidationError):
+        if websocket.client_state.name != "DISCONNECTED":
+            await websocket.close(code=4400)
+    except DomainError:
+        if websocket.client_state.name != "DISCONNECTED":
+            await websocket.close(code=4409)
+    except (jwt.PyJWTError, TimeoutError):
         if websocket.client_state.name != "DISCONNECTED":
             await websocket.close(code=4401)
 

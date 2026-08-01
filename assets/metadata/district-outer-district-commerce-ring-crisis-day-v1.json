@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-outer-district-commerce-ring-crisis-day-v1",
+  "manifest_order": 459,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "crisis-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-outer-district-commerce-ring-crisis-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100459,
+  "content_hash": "3bc06f90128f0d15d031c3cf6fa25b5f3c682d4d889296f4e005f054c9feff46",
+  "source_file": "assets/source/districts/district-outer-district-commerce-ring-crisis-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-crisis-day-v1-320.avif",
+      "bytes": 2800,
+      "sha256": "649c20d1da31badb7d6152c577aa077ff78882679b70c24cd855b26c524ba126"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-crisis-day-v1-320.webp",
+      "bytes": 2490,
+      "sha256": "58a55b41289c836b844864877b6f6804ed5a2862c4ec03892508223f011ec456"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-crisis-day-v1-640.avif",
+      "bytes": 6398,
+      "sha256": "b8ddaf30c9c6351b8c30028256b364a39c1a10b0bbd4d7507b47b37308b0279e"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-crisis-day-v1-640.webp",
+      "bytes": 4936,
+      "sha256": "eb0158a51e95f8c06b53c515dcc9ef15a7b458693d1924874b6a72226985c62e"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-crisis-day-v1-960.avif",
+      "bytes": 9957,
+      "sha256": "2169b633e50abeb6521056cb2f56fee8e3830a5ea00e974f6e4f840b53bd1b79"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-crisis-day-v1-960.webp",
+      "bytes": 8050,
+      "sha256": "a8632436fd810050c99dc7b7a4505832934779e792bce1ce467aae99803b4d88"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-crisis-day-v1-1280.avif",
+      "bytes": 14072,
+      "sha256": "4d79fe8771205e508d7b647987bad6cd8d771e7183b57747bd404eb060a39722"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-crisis-day-v1-1280.webp",
+      "bytes": 10762,
+      "sha256": "014d6580389ed59c865a4051fa9473c89070b83db1ed7260ab0d226bd7b7b32a"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-crisis-day-v1-1920.avif",
+      "bytes": 21316,
+      "sha256": "49792c2ff3e50cb5f89ccf57ca24b1b7eced034984a0327ff88c84c1d638ec33"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-crisis-day-v1-1920.webp",
+      "bytes": 17260,
+      "sha256": "4bdd1bebc7c1d488cc5871bcf61b5eb4c7e9f44aca76fd24bd1a32ca9f23237c"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-crisis-day-v1-2560.avif",
+      "bytes": 28294,
+      "sha256": "38e3469ea8f49eb0b9399f0d0c8ed8b6385e37262fa0c9fcb7f94642ef51c7a6"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-crisis-day-v1-2560.webp",
+      "bytes": 24260,
+      "sha256": "edfa14877fe77aab5f225505a48146d92a8b6aa292b164a17259e2b8a82d9ccd"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-crisis-day-v1-3840.avif",
+      "bytes": 46943,
+      "sha256": "127de32b1edb1db94bc79a9363f0432ac77dd829c4ebd53b7f92e0b453aa6f84"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-crisis-day-v1-3840.webp",
+      "bytes": 41028,
+      "sha256": "d9c525b9c9abbbe1dfff30d132270a2f398efb32b534154abd46de953a70dfaa"
+    },
+    {
+      "path": "assets/production/png/district-outer-district-commerce-ring-crisis-day-v1-1280.png",
+      "bytes": 624899,
+      "sha256": "22779eee46ee85641ad8ef5141164897cb73b28960a7a9afab135cf4b569aa62"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-outer-district-commerce-ring-crisis-day-v1.webp",
+      "bytes": 2490,
+      "sha256": "58a55b41289c836b844864877b6f6804ed5a2862c4ec03892508223f011ec456"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-outer-district-commerce-ring-crisis-day-v1.webp",
+      "bytes": 2490,
+      "sha256": "58a55b41289c836b844864877b6f6804ed5a2862c4ec03892508223f011ec456"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.474Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1444630
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:50:44.114Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

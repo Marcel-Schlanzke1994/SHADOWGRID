@@ -1,0 +1,171 @@
+{
+  "asset_id": "character-technology-expert-younger-man-v1",
+  "manifest_order": 564,
+  "category": "character",
+  "batch": "specialists",
+  "city": null,
+  "variant": "younger-man",
+  "gameplay_state": "normal",
+  "aspect_ratio": "4:5",
+  "width": 1280,
+  "height": 1600,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/character-technology-expert-younger-man-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100564,
+  "content_hash": "7485a19bebdc63276b6c155e3cd802b04879383ea48e5d496f0965f163694e2d",
+  "source_file": "assets/source/characters/character-technology-expert-younger-man-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/character-technology-expert-younger-man-v1-320.avif",
+      "bytes": 2748,
+      "sha256": "0d0e5be0fe08db56ee3ccda529d1bf8d1dfaa96533fa1d611b81572d7489687f"
+    },
+    {
+      "path": "assets/production/webp/character-technology-expert-younger-man-v1-320.webp",
+      "bytes": 1962,
+      "sha256": "a5dcab997cabfbcd2057fdb30df0408dd8e06d36da83090794eb5ff3f3f40e59"
+    },
+    {
+      "path": "assets/production/avif/character-technology-expert-younger-man-v1-640.avif",
+      "bytes": 6010,
+      "sha256": "4053f0254de72b5073fe1fbb570d936d9010fc41f06302299a471ea2fb93cd71"
+    },
+    {
+      "path": "assets/production/webp/character-technology-expert-younger-man-v1-640.webp",
+      "bytes": 4638,
+      "sha256": "d6265a3fe2dbe6eae04f60f478974780a00327da2ef815901311b1611596707c"
+    },
+    {
+      "path": "assets/production/avif/character-technology-expert-younger-man-v1-960.avif",
+      "bytes": 12971,
+      "sha256": "12b7fca363f26665dd1980d3d3854ad884a287687c304b9ba56f4fa022afb403"
+    },
+    {
+      "path": "assets/production/webp/character-technology-expert-younger-man-v1-960.webp",
+      "bytes": 8744,
+      "sha256": "e7d04b5a6acad647e4c0145a9fbf5d19a5f68af632895d26059e072487568bb8"
+    },
+    {
+      "path": "assets/production/avif/character-technology-expert-younger-man-v1-1280.avif",
+      "bytes": 19059,
+      "sha256": "e73622ebbab96a2cd847ac9a07b16ef9bb32cc508cb6ecd3bc9a4de224157ed6"
+    },
+    {
+      "path": "assets/production/webp/character-technology-expert-younger-man-v1-1280.webp",
+      "bytes": 13546,
+      "sha256": "996fcdaa8376954ad36db533b920d7ec42fd109554b5942b47a0da92f94a6ee8"
+    },
+    {
+      "path": "assets/production/avif/character-technology-expert-younger-man-v1-1920.avif",
+      "bytes": 29720,
+      "sha256": "6bb3e09e39c16fb24b29d8fcef28c9f7bdaa9c1010928b0fc6996ae333725173"
+    },
+    {
+      "path": "assets/production/webp/character-technology-expert-younger-man-v1-1920.webp",
+      "bytes": 23584,
+      "sha256": "550b5b57050f35e5cb106f856076012819800ff9d9e2c8c2c31a541d08e8dc98"
+    },
+    {
+      "path": "assets/production/avif/character-technology-expert-younger-man-v1-2560.avif",
+      "bytes": 43277,
+      "sha256": "14baeb964ed77c6a4827100674762e920c5ee3d7514262f17d8f6728cce4e75c"
+    },
+    {
+      "path": "assets/production/webp/character-technology-expert-younger-man-v1-2560.webp",
+      "bytes": 36178,
+      "sha256": "04a068ddcdeb88d73fba3b9d6aa4010063bb2961f66238da451d7f22ae1d47a4"
+    },
+    {
+      "path": "assets/production/avif/character-technology-expert-younger-man-v1-3840.avif",
+      "bytes": 71287,
+      "sha256": "340e9490dd487de7d5599388844ee3860121636d027bec5f840413f6e04458d4"
+    },
+    {
+      "path": "assets/production/webp/character-technology-expert-younger-man-v1-3840.webp",
+      "bytes": 68704,
+      "sha256": "0b26759704e9c6780a459ad335a6ca6aafc4eb3333fd174baf9cad31229e9d11"
+    },
+    {
+      "path": "assets/production/png/character-technology-expert-younger-man-v1-1280.png",
+      "bytes": 203070,
+      "sha256": "7485a19bebdc63276b6c155e3cd802b04879383ea48e5d496f0965f163694e2d"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/character-technology-expert-younger-man-v1.webp",
+      "bytes": 1962,
+      "sha256": "a5dcab997cabfbcd2057fdb30df0408dd8e06d36da83090794eb5ff3f3f40e59"
+    },
+    {
+      "path": "apps/mobile/assets/library/character-technology-expert-younger-man-v1.webp",
+      "bytes": 1962,
+      "sha256": "a5dcab997cabfbcd2057fdb30df0408dd8e06d36da83090794eb5ff3f3f40e59"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:37.480Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1280,
+      "height": 1600,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 203070
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:21:21.173Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

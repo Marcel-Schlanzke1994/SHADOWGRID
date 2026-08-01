@@ -38,6 +38,11 @@
       "path": "assets/production/png/branding-shadowgrid-favicon-v1-64.png",
       "bytes": 619,
       "sha256": "c4d72555f0c488e1caa13af0b8558f0e3d8f5a9c04ca365eeca1d1b5f7c6f672"
+    },
+    {
+      "path": "assets/production/webp/branding-shadowgrid-favicon-v1-320.webp",
+      "bytes": 1048,
+      "sha256": "8e9995dd17950d1a51e7af9954bdfb65512922a576e9008ff2d0876a8980bdf5"
     }
   ],
   "runtime_files": [
@@ -50,6 +55,16 @@
       "path": "apps/web/public/favicon.svg",
       "bytes": 835,
       "sha256": "fb6df238c749c92460cfb4373aea0d3f08f53ad0a934dff430fcb48a89bc62e2"
+    },
+    {
+      "path": "apps/web/public/assets/library/branding-shadowgrid-favicon-v1.webp",
+      "bytes": 1048,
+      "sha256": "8e9995dd17950d1a51e7af9954bdfb65512922a576e9008ff2d0876a8980bdf5"
+    },
+    {
+      "path": "apps/mobile/assets/library/branding-shadowgrid-favicon-v1.webp",
+      "bytes": 1048,
+      "sha256": "8e9995dd17950d1a51e7af9954bdfb65512922a576e9008ff2d0876a8980bdf5"
     }
   ],
   "contains_text": false,

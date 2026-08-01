@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-administrative-center-normal-day-v1",
+  "manifest_order": 407,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-administrative-center-normal-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100407,
+  "content_hash": "6dd63f63a4b319f6303d79d0a6c047abbf2ebdd753fe8811e376febb9d8bd3f8",
+  "source_file": "assets/source/districts/district-administrative-center-normal-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-administrative-center-normal-day-v1-320.avif",
+      "bytes": 2817,
+      "sha256": "959c06296f1235b222def868cff82f9509081b978a332109c00baf3299d63903"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-normal-day-v1-320.webp",
+      "bytes": 2388,
+      "sha256": "9278dbd5c940c4cb31362857d2ec4b759cdbe419b8e78086bb089826102b502d"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-normal-day-v1-640.avif",
+      "bytes": 5880,
+      "sha256": "0d72a3cc27e2f84fada2c681ae0903556fa203693e70a53512d77307a9c1a331"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-normal-day-v1-640.webp",
+      "bytes": 4710,
+      "sha256": "4401a28fe4b454d3143a5bafac0a414d3a23ca1ec95d6ed8ffa7a395fefbb4dc"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-normal-day-v1-960.avif",
+      "bytes": 9564,
+      "sha256": "9db67496e84f4629ad0286fad2ee63ce5751368a4b6fd38df690783e3a6961ec"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-normal-day-v1-960.webp",
+      "bytes": 7928,
+      "sha256": "9be69214a48f39f3bfa5b6e79b39bd2bc84e4c3435f0476c7b9f4fe457a1e2e4"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-normal-day-v1-1280.avif",
+      "bytes": 13658,
+      "sha256": "c8c6f652a1c11b38587a17f64e5d15f540f42cd47397c942258cb77feb054a8f"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-normal-day-v1-1280.webp",
+      "bytes": 10706,
+      "sha256": "1ff8592bda172ab0e9229fa90d5c4775a8676eac89a3833f524d27c225aa9e27"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-normal-day-v1-1920.avif",
+      "bytes": 20605,
+      "sha256": "148d6f7a944ddff21fb9a5bf0cbd9de4f12c5d3da25bb0bb88fe3dffce7faa27"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-normal-day-v1-1920.webp",
+      "bytes": 16910,
+      "sha256": "7189329e1fba582e3fb0d7fb97b0caf967a975a9a4c6123cff3e0a35975d62db"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-normal-day-v1-2560.avif",
+      "bytes": 27557,
+      "sha256": "4a9f8698fd0409019907b37ed5e0e9537bfa76f2097e60afe75febf15bf80755"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-normal-day-v1-2560.webp",
+      "bytes": 23524,
+      "sha256": "0132a7a47895f9c80a2b14a6238d004689c179ea5b22f53b5863205d335fab0a"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-normal-day-v1-3840.avif",
+      "bytes": 45231,
+      "sha256": "5dc0c7d0639dfa5c16aca59ac309279fc1e6daa72bac93994e3f05745f249896"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-normal-day-v1-3840.webp",
+      "bytes": 40886,
+      "sha256": "c81d6d6b8a57bd349cf2f44bb0ab3aa77938ee958670aaa32df42a27701c4340"
+    },
+    {
+      "path": "assets/production/png/district-administrative-center-normal-day-v1-1280.png",
+      "bytes": 619815,
+      "sha256": "0265538b595085e8aff48e70f4c21ec0899e8b054b549506eeb24e7ac5b01ae7"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-administrative-center-normal-day-v1.webp",
+      "bytes": 2388,
+      "sha256": "9278dbd5c940c4cb31362857d2ec4b759cdbe419b8e78086bb089826102b502d"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-administrative-center-normal-day-v1.webp",
+      "bytes": 2388,
+      "sha256": "9278dbd5c940c4cb31362857d2ec4b759cdbe419b8e78086bb089826102b502d"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.869Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1428638
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:33:47.432Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

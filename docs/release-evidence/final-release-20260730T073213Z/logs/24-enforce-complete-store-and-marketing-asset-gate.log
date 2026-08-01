@@ -1,0 +1,10 @@
+SHADOWGRID final release evidence
+Step: Enforce complete store and marketing asset gate
+Command: pnpm store:gate
+Started: 2026-07-30T09:01:45.938Z
+
+$ node scripts/write-store-readiness.mjs --gate
+Store asset readiness passed: 30 entries, 0 finding(s).
+
+Finished: 2026-07-30T09:01:49.783Z
+Exit code: 0

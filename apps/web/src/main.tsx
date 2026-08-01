@@ -5,6 +5,7 @@ import { BrowserRouter } from "react-router-dom";
 import "@shadowgrid/i18n";
 import { App } from "./App";
 import "./styles.css";
+import "./premium.css";
 
 const queryClient = new QueryClient({
   defaultOptions: {

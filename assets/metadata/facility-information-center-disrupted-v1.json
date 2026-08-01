@@ -1,0 +1,171 @@
+{
+  "asset_id": "facility-information-center-disrupted-v1",
+  "manifest_order": 522,
+  "category": "facility",
+  "batch": "facilities",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "disrupted",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/facility-information-center-disrupted-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100522,
+  "content_hash": "cda90d469c72678f66141e640c9197ff33ac90e242837f8fb9e1ebab1a940d0e",
+  "source_file": "assets/source/facilities/facility-information-center-disrupted-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/facility-information-center-disrupted-v1-320.avif",
+      "bytes": 3025,
+      "sha256": "5cd9b7da01a3e395d06a9ff27ac14f2c3b825e92d2eea3d4a1db9c7501646632"
+    },
+    {
+      "path": "assets/production/webp/facility-information-center-disrupted-v1-320.webp",
+      "bytes": 2606,
+      "sha256": "b95db14865c88f6f60516944c92eacd40e0f81d650d18c1617c6aa148d13caee"
+    },
+    {
+      "path": "assets/production/avif/facility-information-center-disrupted-v1-640.avif",
+      "bytes": 6643,
+      "sha256": "02460000fb6046e5927d093ba52004795d46927f949c023b2a8df3e7f556a894"
+    },
+    {
+      "path": "assets/production/webp/facility-information-center-disrupted-v1-640.webp",
+      "bytes": 5418,
+      "sha256": "d439da985f0ec70489b3b7da8749a69b7139ec3acc7daeb9800a6aa9d75c750c"
+    },
+    {
+      "path": "assets/production/avif/facility-information-center-disrupted-v1-960.avif",
+      "bytes": 10728,
+      "sha256": "96a7f3edb97a9e824f3e1aa230c670bc2327ddb34900c2392d9584b8e229348c"
+    },
+    {
+      "path": "assets/production/webp/facility-information-center-disrupted-v1-960.webp",
+      "bytes": 8752,
+      "sha256": "ec8e3f59df9ca5c2b796da510127a4e472499db01c5eb6f645fe67e9e22558a6"
+    },
+    {
+      "path": "assets/production/avif/facility-information-center-disrupted-v1-1280.avif",
+      "bytes": 15226,
+      "sha256": "bbed54cecc29af565de669b758be337562ddc20cafc0449e0b47e8fae416c73f"
+    },
+    {
+      "path": "assets/production/webp/facility-information-center-disrupted-v1-1280.webp",
+      "bytes": 11740,
+      "sha256": "e79e60269e6f3ee390ebb1070f6bc522ed89e7ecee0be676a3c3862cccc49d63"
+    },
+    {
+      "path": "assets/production/avif/facility-information-center-disrupted-v1-1920.avif",
+      "bytes": 22801,
+      "sha256": "08e1ea1d2d592653c73f5badfc1e6ad6b358fb77b69d2dfdf914e4460afdc49a"
+    },
+    {
+      "path": "assets/production/webp/facility-information-center-disrupted-v1-1920.webp",
+      "bytes": 18518,
+      "sha256": "a2d1c53c360379bd61c81da9c22a6f92dcbab68f2ad20eadbb50d091d0192510"
+    },
+    {
+      "path": "assets/production/avif/facility-information-center-disrupted-v1-2560.avif",
+      "bytes": 30178,
+      "sha256": "b052b8a51d82ee95a201b19281117164c275364e70ebf1844dd9eadc36d98538"
+    },
+    {
+      "path": "assets/production/webp/facility-information-center-disrupted-v1-2560.webp",
+      "bytes": 25844,
+      "sha256": "815cd43f84e8cfb46e4d7e4092c8afeedef0989436515df370cd809bb0699a52"
+    },
+    {
+      "path": "assets/production/avif/facility-information-center-disrupted-v1-3840.avif",
+      "bytes": 50163,
+      "sha256": "355f30eb5f0f80cdb26e511b6e5bf4bdf7cc31b0ce8f5f8757e89fae347f7175"
+    },
+    {
+      "path": "assets/production/webp/facility-information-center-disrupted-v1-3840.webp",
+      "bytes": 45350,
+      "sha256": "b2405b8994abfcbe0346f56a60e4f562c9628fbb3affd8e1c7a62fd85d863ceb"
+    },
+    {
+      "path": "assets/production/png/facility-information-center-disrupted-v1-1280.png",
+      "bytes": 642664,
+      "sha256": "709814f7db9e2e93916535bafb5e0e8bb52251844e40012ce86bd220fb27d956"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/facility-information-center-disrupted-v1.webp",
+      "bytes": 2606,
+      "sha256": "b95db14865c88f6f60516944c92eacd40e0f81d650d18c1617c6aa148d13caee"
+    },
+    {
+      "path": "apps/mobile/assets/library/facility-information-center-disrupted-v1.webp",
+      "bytes": 2606,
+      "sha256": "b95db14865c88f6f60516944c92eacd40e0f81d650d18c1617c6aa148d13caee"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:27.032Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 92,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 90,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution.",
+      "Facility categories remain visually coherent and readable without depicting sensitive real-world infrastructure.",
+      "No missing render, unsafe detail, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1460263
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:09:46.424Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,16 +1,16 @@
 # Final asset coverage
 
-- Total: 896
-- Generated or processed: 131
-- Procedurally produced: 50
-- Approved: 130
-- Review required: 1
+- Total: 898
+- Generated or processed: 898
+- Procedurally produced: 795
+- Approved: 898
+- Review required: 0
 - Rejected: 0
-- Missing/pending: 765
+- Missing/pending: 0
 - Failed: 0
 - Recorded cost: €0.0000
-- Production storage: 392.43 MiB
-- Assets without metadata: 765
+- Production storage: 1055.73 MiB
+- Assets without metadata: 0
 - Assets without a valid license field: 0
 
 ## Assets per category
@@ -28,7 +28,7 @@
   "district": 96,
   "event": 12,
   "facility": 24,
-  "global": 16,
+  "global": 18,
   "icon": 96,
   "map": 12,
   "marker": 19,

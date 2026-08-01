@@ -1,0 +1,171 @@
+{
+  "asset_id": "character-strategist-younger-man-v1",
+  "manifest_order": 536,
+  "category": "character",
+  "batch": "specialists",
+  "city": null,
+  "variant": "younger-man",
+  "gameplay_state": "normal",
+  "aspect_ratio": "4:5",
+  "width": 1280,
+  "height": 1600,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/character-strategist-younger-man-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100536,
+  "content_hash": "5f20c5bdfd523d3ef7b538b95ad5278b8d93c00bc65be1520129560590f37fe0",
+  "source_file": "assets/source/characters/character-strategist-younger-man-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/character-strategist-younger-man-v1-320.avif",
+      "bytes": 2713,
+      "sha256": "cb7b7ee2da4d4f59cc61085a2d19395f5a7c89078cca417aea398b6bfdf940f8"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-younger-man-v1-320.webp",
+      "bytes": 1762,
+      "sha256": "5412ddf8ccef9a4d53aea33c01c846b3f521294212e0a75e424a652ac9ee05dc"
+    },
+    {
+      "path": "assets/production/avif/character-strategist-younger-man-v1-640.avif",
+      "bytes": 5983,
+      "sha256": "8f11c3c5f313c6a236df27208bc300c442abc04fa32d80c56781c8a2fa5146e8"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-younger-man-v1-640.webp",
+      "bytes": 4246,
+      "sha256": "283902bdf199c725b556639915bc4344eebf9f6fdb8762bcad70229101fad5e7"
+    },
+    {
+      "path": "assets/production/avif/character-strategist-younger-man-v1-960.avif",
+      "bytes": 13034,
+      "sha256": "e7f36ee21d1e08a2be312b09a46825e3f5ac3320c92ff46031ede08ad36c17d4"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-younger-man-v1-960.webp",
+      "bytes": 8290,
+      "sha256": "1a47668790706e8a2ee07c8a44ae8a35fc08836762d8f1a9a797cef0626502ef"
+    },
+    {
+      "path": "assets/production/avif/character-strategist-younger-man-v1-1280.avif",
+      "bytes": 19209,
+      "sha256": "e5be83d8c6945c400c2c51985c914a9c19f93f6980e7d966c71b0cf39fd701f1"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-younger-man-v1-1280.webp",
+      "bytes": 13060,
+      "sha256": "b0a382bbdaec83ad66c261b4ddb959a3ac163dd40da33e93502acb9742fb8434"
+    },
+    {
+      "path": "assets/production/avif/character-strategist-younger-man-v1-1920.avif",
+      "bytes": 30224,
+      "sha256": "ff970ae916d585b2b87882f073ac39b144171d5323cc2c5c4561c367d03d6b11"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-younger-man-v1-1920.webp",
+      "bytes": 23096,
+      "sha256": "64a05f139c550e04726eaf0908a74d0590d905af4e2d008d74cb1a67f0d3c211"
+    },
+    {
+      "path": "assets/production/avif/character-strategist-younger-man-v1-2560.avif",
+      "bytes": 43793,
+      "sha256": "4d86533fee9d159789af599ec6919d076b8c17dbf94b703c7e8cf96131996b20"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-younger-man-v1-2560.webp",
+      "bytes": 35484,
+      "sha256": "1f80eeec12db06aa632b280b43d9217617d95be2c3a83b275ea52dfcaf3cca48"
+    },
+    {
+      "path": "assets/production/avif/character-strategist-younger-man-v1-3840.avif",
+      "bytes": 72053,
+      "sha256": "a4ecb9f417e7b40bb75133a04f6992e6dd873e755e1d66770bfa70999582f93c"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-younger-man-v1-3840.webp",
+      "bytes": 67694,
+      "sha256": "6f4b1847e04a5846e035a177a5b39e6072aaa579c0b2b874056708b3554b70b5"
+    },
+    {
+      "path": "assets/production/png/character-strategist-younger-man-v1-1280.png",
+      "bytes": 202219,
+      "sha256": "5f20c5bdfd523d3ef7b538b95ad5278b8d93c00bc65be1520129560590f37fe0"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/character-strategist-younger-man-v1.webp",
+      "bytes": 1762,
+      "sha256": "5412ddf8ccef9a4d53aea33c01c846b3f521294212e0a75e424a652ac9ee05dc"
+    },
+    {
+      "path": "apps/mobile/assets/library/character-strategist-younger-man-v1.webp",
+      "bytes": 1762,
+      "sha256": "5412ddf8ccef9a4d53aea33c01c846b3f521294212e0a75e424a652ac9ee05dc"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:36.789Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1280,
+      "height": 1600,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 202219
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:14:18.228Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

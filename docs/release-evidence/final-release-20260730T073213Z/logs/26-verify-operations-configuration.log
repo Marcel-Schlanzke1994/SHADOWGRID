@@ -1,0 +1,10 @@
+SHADOWGRID final release evidence
+Step: Verify operations configuration
+Command: pnpm ops:verify
+Started: 2026-07-30T09:02:03.813Z
+
+$ node scripts/verify-operations.mjs
+Operations configuration passed: 7 alerts, authenticated production metrics, season and smoke runners.
+
+Finished: 2026-07-30T09:02:07.947Z
+Exit code: 0

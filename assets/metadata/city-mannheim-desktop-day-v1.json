@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-mannheim-desktop-day-v1",
+  "manifest_order": 237,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "mannheim",
+  "variant": "desktop-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-mannheim-desktop-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100237,
+  "content_hash": "4997fc05661b755937d53572676bea35cd31903afdb0fa593d29f8399740d5d9",
+  "source_file": "assets/source/cities/city-mannheim-desktop-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-mannheim-desktop-day-v1-320.avif",
+      "bytes": 2830,
+      "sha256": "bce86beeff717f8a4886ca34d28e10d6b76ec9484e594cdece940253ac63ce3e"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-desktop-day-v1-320.webp",
+      "bytes": 2638,
+      "sha256": "bba809a73b71b3e0e4137400a1b8a35182e1290d7d577a9909cb47c629f06f43"
+    },
+    {
+      "path": "assets/production/avif/city-mannheim-desktop-day-v1-640.avif",
+      "bytes": 6059,
+      "sha256": "71eb407dab0c014f475e0d9aab8cfb51682868fb1b49b6331adc4be395b720ab"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-desktop-day-v1-640.webp",
+      "bytes": 5144,
+      "sha256": "f070b067a37217bc85f4826c047aa64015932015aa4fa17d11162bb8b17102be"
+    },
+    {
+      "path": "assets/production/avif/city-mannheim-desktop-day-v1-960.avif",
+      "bytes": 10004,
+      "sha256": "ac45face23dcd04f6176852299acd94e67e6e8a17127085c0e70969a999fd35d"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-desktop-day-v1-960.webp",
+      "bytes": 8656,
+      "sha256": "1f95eebe7797c125962a61f9206713ba8b9ed1a83dd51023564c1e836c87e25e"
+    },
+    {
+      "path": "assets/production/avif/city-mannheim-desktop-day-v1-1280.avif",
+      "bytes": 14766,
+      "sha256": "d57538ed007411bf99b65cdda89e7fb4fea2a059cfa9546e7805a0f372ab68d8"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-desktop-day-v1-1280.webp",
+      "bytes": 11488,
+      "sha256": "49bbea2185ef3b0a07d3f0a714859e01097058e068b25b7bbb956a538fd9c738"
+    },
+    {
+      "path": "assets/production/avif/city-mannheim-desktop-day-v1-1920.avif",
+      "bytes": 21024,
+      "sha256": "6dcc3f4eee95db9741bd729ed0827d61b5c0b0e5bbee8f0fe399a112848bfc75"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-desktop-day-v1-1920.webp",
+      "bytes": 17510,
+      "sha256": "73302bcaa6f7ce01a2c5a91efea5addf4091e9ab5b67dac07532f3255c0e6d2b"
+    },
+    {
+      "path": "assets/production/avif/city-mannheim-desktop-day-v1-2560.avif",
+      "bytes": 29412,
+      "sha256": "d311beb1e10659c4c1b182009d20a9946df1dd3f3a5ed6c3845d1cd65e1b3f90"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-desktop-day-v1-2560.webp",
+      "bytes": 24792,
+      "sha256": "910e973903f222d4e1645895b3b9a71ed8a075deb9aea701ac5b4411adafbd99"
+    },
+    {
+      "path": "assets/production/avif/city-mannheim-desktop-day-v1-3840.avif",
+      "bytes": 47653,
+      "sha256": "3f9889da2cfb51eba412fb614faa7dffd4cdb11da1c24653419bf1c7f4baa9e8"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-desktop-day-v1-3840.webp",
+      "bytes": 43404,
+      "sha256": "4804adac660f830798d76217348834dd418101b1b3750b4d286bdd9cb711f83f"
+    },
+    {
+      "path": "assets/production/png/city-mannheim-desktop-day-v1-1280.png",
+      "bytes": 724412,
+      "sha256": "3240c27f7fc4a78f0397f46a386dda5a5da55cb550d4cf30e50776127249e673"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-desktop-day-v1-320.avif",
+      "bytes": 2830,
+      "sha256": "bce86beeff717f8a4886ca34d28e10d6b76ec9484e594cdece940253ac63ce3e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-desktop-day-v1-320.webp",
+      "bytes": 2638,
+      "sha256": "bba809a73b71b3e0e4137400a1b8a35182e1290d7d577a9909cb47c629f06f43"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-desktop-day-v1-640.avif",
+      "bytes": 6059,
+      "sha256": "71eb407dab0c014f475e0d9aab8cfb51682868fb1b49b6331adc4be395b720ab"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-desktop-day-v1-640.webp",
+      "bytes": 5144,
+      "sha256": "f070b067a37217bc85f4826c047aa64015932015aa4fa17d11162bb8b17102be"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-desktop-day-v1-960.avif",
+      "bytes": 10004,
+      "sha256": "ac45face23dcd04f6176852299acd94e67e6e8a17127085c0e70969a999fd35d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-desktop-day-v1-960.webp",
+      "bytes": 8656,
+      "sha256": "1f95eebe7797c125962a61f9206713ba8b9ed1a83dd51023564c1e836c87e25e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-desktop-day-v1-1280.avif",
+      "bytes": 14766,
+      "sha256": "d57538ed007411bf99b65cdda89e7fb4fea2a059cfa9546e7805a0f372ab68d8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-desktop-day-v1-1280.webp",
+      "bytes": 11488,
+      "sha256": "49bbea2185ef3b0a07d3f0a714859e01097058e068b25b7bbb956a538fd9c738"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-desktop-day-v1-1920.avif",
+      "bytes": 21024,
+      "sha256": "6dcc3f4eee95db9741bd729ed0827d61b5c0b0e5bbee8f0fe399a112848bfc75"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-desktop-day-v1-1920.webp",
+      "bytes": 17510,
+      "sha256": "73302bcaa6f7ce01a2c5a91efea5addf4091e9ab5b67dac07532f3255c0e6d2b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-desktop-day-v1-2560.avif",
+      "bytes": 29412,
+      "sha256": "d311beb1e10659c4c1b182009d20a9946df1dd3f3a5ed6c3845d1cd65e1b3f90"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-desktop-day-v1-2560.webp",
+      "bytes": 24792,
+      "sha256": "910e973903f222d4e1645895b3b9a71ed8a075deb9aea701ac5b4411adafbd99"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-desktop-day-v1-3840.avif",
+      "bytes": 47653,
+      "sha256": "3f9889da2cfb51eba412fb614faa7dffd4cdb11da1c24653419bf1c7f4baa9e8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-desktop-day-v1-3840.webp",
+      "bytes": 43404,
+      "sha256": "4804adac660f830798d76217348834dd418101b1b3750b4d286bdd9cb711f83f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-desktop-day-v1-1280.png",
+      "bytes": 724412,
+      "sha256": "3240c27f7fc4a78f0397f46a386dda5a5da55cb550d4cf30e50776127249e673"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-mannheim-desktop-day-v1.webp",
+      "bytes": 2638,
+      "sha256": "bba809a73b71b3e0e4137400a1b8a35182e1290d7d577a9909cb47c629f06f43"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-mannheim-desktop-day-v1.webp",
+      "bytes": 2638,
+      "sha256": "bba809a73b71b3e0e4137400a1b8a35182e1290d7d577a9909cb47c629f06f43"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.452Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1670409
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:24:50.784Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -23,6 +23,11 @@
       "path": "assets/production/svg/marker-control-coordination-center-v1.svg",
       "bytes": 781,
       "sha256": "03e3df798899e9e4208a6bb2d5130ed45d842f94179dee36a81d275dcbdfd13d"
+    },
+    {
+      "path": "assets/production/webp/marker-control-coordination-center-v1-320.webp",
+      "bytes": 3502,
+      "sha256": "d9750e5a9bad0378bf0c60186e3317a44ff734f6431c765193195d1ae34e8bb7"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/markers/marker-control-coordination-center-v1.svg",
       "bytes": 781,
       "sha256": "03e3df798899e9e4208a6bb2d5130ed45d842f94179dee36a81d275dcbdfd13d"
+    },
+    {
+      "path": "apps/web/public/assets/markers/marker-control-coordination-center-v1-320.webp",
+      "bytes": 3502,
+      "sha256": "d9750e5a9bad0378bf0c60186e3317a44ff734f6431c765193195d1ae34e8bb7"
+    },
+    {
+      "path": "apps/web/public/assets/library/marker-control-coordination-center-v1.webp",
+      "bytes": 3502,
+      "sha256": "d9750e5a9bad0378bf0c60186e3317a44ff734f6431c765193195d1ae34e8bb7"
+    },
+    {
+      "path": "apps/mobile/assets/library/marker-control-coordination-center-v1.webp",
+      "bytes": 3502,
+      "sha256": "d9750e5a9bad0378bf0c60186e3317a44ff734f6431c765193195d1ae34e8bb7"
     }
   ],
   "contains_text": false,

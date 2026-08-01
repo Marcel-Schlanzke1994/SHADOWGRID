@@ -1,0 +1,171 @@
+{
+  "asset_id": "facility-information-center-level-2-v1",
+  "manifest_order": 520,
+  "category": "facility",
+  "batch": "facilities",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "level-2",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/facility-information-center-level-2-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100520,
+  "content_hash": "f5d4abc3b631a43625f50bfa81eddc06d83b1d21e78916a215395c3ba62710d2",
+  "source_file": "assets/source/facilities/facility-information-center-level-2-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/facility-information-center-level-2-v1-320.avif",
+      "bytes": 2977,
+      "sha256": "4c0bfb5e13f5054486d55d360c44c91136fa3585cf5b44c5c4f18a7b9575c0f2"
+    },
+    {
+      "path": "assets/production/webp/facility-information-center-level-2-v1-320.webp",
+      "bytes": 2804,
+      "sha256": "b3caa935147e975dc39ed9a595500e62b55243a94e091e8301803323b48e9173"
+    },
+    {
+      "path": "assets/production/avif/facility-information-center-level-2-v1-640.avif",
+      "bytes": 6677,
+      "sha256": "f10bbfca26652e61a5b106c7ca1f8299ee2027dace87a8aace11a67cdc144f51"
+    },
+    {
+      "path": "assets/production/webp/facility-information-center-level-2-v1-640.webp",
+      "bytes": 5772,
+      "sha256": "94b8cafe3f5882274e181bc7d89361997858794eccb6df0e4f5069750d8bb502"
+    },
+    {
+      "path": "assets/production/avif/facility-information-center-level-2-v1-960.avif",
+      "bytes": 10824,
+      "sha256": "ca0b57a7db03b333ebd301bf22995530861ecad858f110efe09144926462c75d"
+    },
+    {
+      "path": "assets/production/webp/facility-information-center-level-2-v1-960.webp",
+      "bytes": 9304,
+      "sha256": "6e9c724593993fa379433470da71290e581f7dd62915f87c72f15d6f97bd4332"
+    },
+    {
+      "path": "assets/production/avif/facility-information-center-level-2-v1-1280.avif",
+      "bytes": 15654,
+      "sha256": "7e3f08c106ed5eb06aaeb3893799d84b38714506f5d93e8c115c9750be2221f6"
+    },
+    {
+      "path": "assets/production/webp/facility-information-center-level-2-v1-1280.webp",
+      "bytes": 12624,
+      "sha256": "b8a8e9819c63a1531efef5efa21e597372f25063a83df5c45036f010c1578731"
+    },
+    {
+      "path": "assets/production/avif/facility-information-center-level-2-v1-1920.avif",
+      "bytes": 23195,
+      "sha256": "49090b13468be935eea5557a36c940055748df2b82bd7c9a790d0ac821c9e3e9"
+    },
+    {
+      "path": "assets/production/webp/facility-information-center-level-2-v1-1920.webp",
+      "bytes": 19914,
+      "sha256": "07add17362ad971e432dda26a780681844bd0f7f6eb48861c9316072086c3ca9"
+    },
+    {
+      "path": "assets/production/avif/facility-information-center-level-2-v1-2560.avif",
+      "bytes": 31491,
+      "sha256": "22f448586cce31acb10bdaba7d1c6b5888fe7de1f94d4e0d96de8c97ceea4082"
+    },
+    {
+      "path": "assets/production/webp/facility-information-center-level-2-v1-2560.webp",
+      "bytes": 27768,
+      "sha256": "c7a1873bbde408a8ab2bdeb2ea86d7046d9958cbe3ed1bf537c18ed5ed3941ae"
+    },
+    {
+      "path": "assets/production/avif/facility-information-center-level-2-v1-3840.avif",
+      "bytes": 50531,
+      "sha256": "dbf93320428875f68534720009a5b7db06d9706faac3f781b013292657001a8d"
+    },
+    {
+      "path": "assets/production/webp/facility-information-center-level-2-v1-3840.webp",
+      "bytes": 46210,
+      "sha256": "01fa5f685ed2263d430b76c6c1d5085b89846ed459af9b9cb77463a1831125e4"
+    },
+    {
+      "path": "assets/production/png/facility-information-center-level-2-v1-1280.png",
+      "bytes": 644815,
+      "sha256": "0a389eecc8bcf544f968442a087f8c4fbbe8859d7565990f86144989dc163879"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/facility-information-center-level-2-v1.webp",
+      "bytes": 2804,
+      "sha256": "b3caa935147e975dc39ed9a595500e62b55243a94e091e8301803323b48e9173"
+    },
+    {
+      "path": "apps/mobile/assets/library/facility-information-center-level-2-v1.webp",
+      "bytes": 2804,
+      "sha256": "b3caa935147e975dc39ed9a595500e62b55243a94e091e8301803323b48e9173"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:27.000Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 92,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 90,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution.",
+      "Facility categories remain visually coherent and readable without depicting sensitive real-world infrastructure.",
+      "No missing render, unsafe detail, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1465614
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:09:12.413Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

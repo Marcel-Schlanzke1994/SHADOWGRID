@@ -1,0 +1,171 @@
+{
+  "asset_id": "organization-conflict-dominant-territory-v1",
+  "manifest_order": 608,
+  "category": "organization-conflict",
+  "batch": "cartel-conflicts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "dominant-territory",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/organization-conflict-dominant-territory-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100608,
+  "content_hash": "abce92a660e31e3e8754f63d436eac549137e084dde02c5a2dc459960f06f7da",
+  "source_file": "assets/source/cartels/organization-conflict-dominant-territory-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/organization-conflict-dominant-territory-v1-320.avif",
+      "bytes": 2323,
+      "sha256": "453334a596f040412fdcda7bd37a45e11a12900c000bc5fd322bdba70d3b7aad"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-dominant-territory-v1-320.webp",
+      "bytes": 1430,
+      "sha256": "6122c8ddec5153c19afed2d29b94757bb79ae9ec3e21d2fed20633399c3080db"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-dominant-territory-v1-640.avif",
+      "bytes": 5764,
+      "sha256": "7064f0215e637f0bf32874e5e53f423305381e1fbeb04922ad65528b73f1e44b"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-dominant-territory-v1-640.webp",
+      "bytes": 3828,
+      "sha256": "b3106206e0c26e216913128aac283e9fd6f0196edce7ee136d3740a152276c1f"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-dominant-territory-v1-960.avif",
+      "bytes": 11347,
+      "sha256": "5306245c44d3b9f5ed3a3f978106cdf0ec68fca713f9c1738308b39a8a4458fe"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-dominant-territory-v1-960.webp",
+      "bytes": 7262,
+      "sha256": "3d5d353244ddac0ea1b98786d906440fc238adda8ae1b2e27b36445baea98610"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-dominant-territory-v1-1280.avif",
+      "bytes": 16557,
+      "sha256": "bd26a767b7ccda1853b8e21cf61e47b78a786f69f409dbbdadb6d44d5818062a"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-dominant-territory-v1-1280.webp",
+      "bytes": 10652,
+      "sha256": "7f6391814209e191cf22a97af9237063375f3d7bcc72726d4aab7609def33863"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-dominant-territory-v1-1920.avif",
+      "bytes": 25549,
+      "sha256": "07e9f0e458e33961cd2283af4184b207e0568c06de04923d2549c6b3d8c1fc50"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-dominant-territory-v1-1920.webp",
+      "bytes": 17670,
+      "sha256": "defcffe43811f9142c0a3ad313a96e70372db0e6dd1119ab3d9926e29f7dc785"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-dominant-territory-v1-2560.avif",
+      "bytes": 33262,
+      "sha256": "4c3633a88ac266cf69fa446b260530bf6f80cc3fb4d148c79d4289fbd7868906"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-dominant-territory-v1-2560.webp",
+      "bytes": 24238,
+      "sha256": "b9be332d6c6395cb03a7cf0ee18a53a712c4eaa0fc66b3330e8340dfb55536e6"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-dominant-territory-v1-3840.avif",
+      "bytes": 51630,
+      "sha256": "4420da8b1c84e66ca67011d2730c95b015abfb55d3a40106536d3c81eae5004e"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-dominant-territory-v1-3840.webp",
+      "bytes": 40636,
+      "sha256": "9e23370be9d9a961050f45c9fe85b7203161dd5a4066a31fe7451eb99672b617"
+    },
+    {
+      "path": "assets/production/png/organization-conflict-dominant-territory-v1-1280.png",
+      "bytes": 158712,
+      "sha256": "ed3bc5bdb8a18de0a49efca4104cac3ea424dc8e618179e2d869c61ad0ee211b"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/organization-conflict-dominant-territory-v1.webp",
+      "bytes": 1430,
+      "sha256": "6122c8ddec5153c19afed2d29b94757bb79ae9ec3e21d2fed20633399c3080db"
+    },
+    {
+      "path": "apps/mobile/assets/library/organization-conflict-dominant-territory-v1.webp",
+      "bytes": 1430,
+      "sha256": "6122c8ddec5153c19afed2d29b94757bb79ae9ec3e21d2fed20633399c3080db"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:59.552Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 93,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Conflict phases remain fictional and abstract, with no actionable real-world violence, hacking, or sabotage content.",
+      "No missing render, unsafe instruction, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 199765
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:29:03.842Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

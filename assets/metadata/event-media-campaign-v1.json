@@ -1,0 +1,171 @@
+{
+  "asset_id": "event-media-campaign-v1",
+  "manifest_order": 702,
+  "category": "event",
+  "batch": "world-events",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/event-media-campaign-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100702,
+  "content_hash": "29667dda828b5e22d9677b6ff1eed9cf10c98b03cc4c529b624b6d2b806ec1d6",
+  "source_file": "assets/source/events/event-media-campaign-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/event-media-campaign-v1-320.avif",
+      "bytes": 2926,
+      "sha256": "251fde7377b28ce31aac89ad012019a291257e11cc0f974295b150913e39410d"
+    },
+    {
+      "path": "assets/production/webp/event-media-campaign-v1-320.webp",
+      "bytes": 2738,
+      "sha256": "19129bf7b4825c729b45550d8e3b35be2edf76c62bb1e3813f66b60f466924dd"
+    },
+    {
+      "path": "assets/production/avif/event-media-campaign-v1-640.avif",
+      "bytes": 6400,
+      "sha256": "2f6e4f233d83a8e272ca629dfa10d1191f27494a233f9226b419da4983d75065"
+    },
+    {
+      "path": "assets/production/webp/event-media-campaign-v1-640.webp",
+      "bytes": 5440,
+      "sha256": "6fe447633cfcaef263788af9bfe62f1bb41456a21868562a50caaec24cc966eb"
+    },
+    {
+      "path": "assets/production/avif/event-media-campaign-v1-960.avif",
+      "bytes": 10462,
+      "sha256": "5b80cb54174b67913295564f4df996838dc565bbf0e80daf7560d23135ccbbde"
+    },
+    {
+      "path": "assets/production/webp/event-media-campaign-v1-960.webp",
+      "bytes": 9176,
+      "sha256": "b3c10c7e5b637de86cdbf23ac0789af175f0b8d64cc8c49279b24374946cdc56"
+    },
+    {
+      "path": "assets/production/avif/event-media-campaign-v1-1280.avif",
+      "bytes": 15328,
+      "sha256": "814f00bfe0d63a21efa6c3b2dc510c6caf0fcae8938fd996b20a534861bbeb51"
+    },
+    {
+      "path": "assets/production/webp/event-media-campaign-v1-1280.webp",
+      "bytes": 12340,
+      "sha256": "02aa64aa0ade6ecd775ca19a3c30f487f926869c63aad158424c711e77efe658"
+    },
+    {
+      "path": "assets/production/avif/event-media-campaign-v1-1920.avif",
+      "bytes": 23444,
+      "sha256": "4d42845afadc05ac71290fae3c7c8a703ad03cdf8df57dc74d58e6a52ad50773"
+    },
+    {
+      "path": "assets/production/webp/event-media-campaign-v1-1920.webp",
+      "bytes": 19564,
+      "sha256": "4693d5a2eee87a165760f6f48ce148bc41022638c1fbf021b53e94ec649d2db8"
+    },
+    {
+      "path": "assets/production/avif/event-media-campaign-v1-2560.avif",
+      "bytes": 32194,
+      "sha256": "8590126d4cb5b39a57ba65dfb6d9a07da09add0c8717a5a7cad11b3b8897f74f"
+    },
+    {
+      "path": "assets/production/webp/event-media-campaign-v1-2560.webp",
+      "bytes": 27134,
+      "sha256": "6081e58a17f143d90616ce5964e6ca0a057b38089bef9032f416de9e26db9362"
+    },
+    {
+      "path": "assets/production/avif/event-media-campaign-v1-3840.avif",
+      "bytes": 51664,
+      "sha256": "1312ec5a5ad6adfb38fd64000d377324e982694f24a922bae7ad7597d73d6ac8"
+    },
+    {
+      "path": "assets/production/webp/event-media-campaign-v1-3840.webp",
+      "bytes": 46534,
+      "sha256": "be748ce49cc06b0c236cc3c29e7f85357bb544d5c0471bd6ad0797e13a7acb73"
+    },
+    {
+      "path": "assets/production/png/event-media-campaign-v1-1280.png",
+      "bytes": 686668,
+      "sha256": "e5e8fdade4c18700da83cfdc766d09f2c101f961e12a1bc55f479cecb33bcbb5"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/event-media-campaign-v1.webp",
+      "bytes": 2738,
+      "sha256": "19129bf7b4825c729b45550d8e3b35be2edf76c62bb1e3813f66b60f466924dd"
+    },
+    {
+      "path": "apps/mobile/assets/library/event-media-campaign-v1.webp",
+      "bytes": 2738,
+      "sha256": "19129bf7b4825c729b45550d8e3b35be2edf76c62bb1e3813f66b60f466924dd"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:10.703Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 88,
+      "light_quality": 91,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Repeated motifs form a coherent event family while color, direction, and state treatment keep event classes distinguishable.",
+      "No missing render, unsafe real-world guidance, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1577961
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:31:35.757Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "completed_at": "2026-07-30T08:33:37.723637+00:00",
+  "mode": "isolated-local-sqlite",
+  "source": ".local/final-release-20260730T073213Z.sqlite3",
+  "backup": "backups/shadowgrid-20260730-083332-607691-restore-drill.sqlite3",
+  "backup_sha256": "2aeaaf81f5af8ec3b6f7b27337a4364d9d89403ff4ea83dc22acdbb05fc05300",
+  "restored_sha256": "2aeaaf81f5af8ec3b6f7b27337a4364d9d89403ff4ea83dc22acdbb05fc05300",
+  "probe_removed": true,
+  "post_restore_data_verify_exit_code": 0,
+  "post_restore_data_verify_output": "Release data invariants passed.",
+  "source_database_replaced": false
+}

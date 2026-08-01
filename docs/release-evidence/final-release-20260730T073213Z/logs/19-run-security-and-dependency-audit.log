@@ -1,0 +1,14 @@
+SHADOWGRID final release evidence
+Step: Run security and dependency audit
+Command: pnpm test:security
+Started: 2026-07-30T08:53:39.986Z
+
+$ powershell -ExecutionPolicy Bypass -File scripts/security-scan.ps1
+Secret scan passed without credential or private-key patterns.
+No known vulnerabilities found
+1 vulnerabilities found
+Severity: 1 high (1 ignored)
+Security scan passed without credential patterns or high-severity audit findings.
+
+Finished: 2026-07-30T08:55:29.380Z
+Exit code: 0

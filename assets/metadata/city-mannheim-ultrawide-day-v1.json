@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-mannheim-ultrawide-day-v1",
+  "manifest_order": 235,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "mannheim",
+  "variant": "ultrawide-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-mannheim-ultrawide-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100235,
+  "content_hash": "cd5e530949a5e04d6a169e6d8f48fdea180e5f405590366b16a155f5970c7bda",
+  "source_file": "assets/source/cities/city-mannheim-ultrawide-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-mannheim-ultrawide-day-v1-320.avif",
+      "bytes": 2594,
+      "sha256": "c778a290df9b6d7778b66321a47222e5b7449879df0d61799f2d11d6b41a448e"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-ultrawide-day-v1-320.webp",
+      "bytes": 2434,
+      "sha256": "17ca455ca94603ebdf8b9e5c1c403fb846f5b97a677f76d326e395e5c100d4c2"
+    },
+    {
+      "path": "assets/production/avif/city-mannheim-ultrawide-day-v1-640.avif",
+      "bytes": 5306,
+      "sha256": "48e28f3bd68e698dfd1bbcfd787032ae379522bcc0e808085cae92bdb74e20d3"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-ultrawide-day-v1-640.webp",
+      "bytes": 4700,
+      "sha256": "3ec44000b535896948a7e0f4b848bb6183961ce4224534f993ef49de8412a838"
+    },
+    {
+      "path": "assets/production/avif/city-mannheim-ultrawide-day-v1-960.avif",
+      "bytes": 9484,
+      "sha256": "b3deb6c61243da266721508c0bd53c2783b9c38c8f1c91b0670632fc326b323b"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-ultrawide-day-v1-960.webp",
+      "bytes": 7816,
+      "sha256": "160d00a7764311ba6683d98226fcd6e2214fd3ca4a9e9b2e079daa342e20520d"
+    },
+    {
+      "path": "assets/production/avif/city-mannheim-ultrawide-day-v1-1280.avif",
+      "bytes": 12267,
+      "sha256": "350ef40c343b1195e4bfd08a5cc8b6c9864a6c2c601b8ed16dc907d0e160665d"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-ultrawide-day-v1-1280.webp",
+      "bytes": 10322,
+      "sha256": "d1e6296367ff4c7ffb076961cc595931727a11fbe23cde69a5223c46267f1b8c"
+    },
+    {
+      "path": "assets/production/avif/city-mannheim-ultrawide-day-v1-1920.avif",
+      "bytes": 19055,
+      "sha256": "045f31abc22b452448711b5b57d7e2e60d7f9a06dca7c3ca192d8556c8c4bf60"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-ultrawide-day-v1-1920.webp",
+      "bytes": 15470,
+      "sha256": "9f679b72e099d34a238a928d48f566341247ed0919c0d42f1e31b5eaf65a1a81"
+    },
+    {
+      "path": "assets/production/avif/city-mannheim-ultrawide-day-v1-2560.avif",
+      "bytes": 25623,
+      "sha256": "0a7e9ea9d467ddd0ad314854af3ae1fbcd693345cfcfba3901691de4aa808bc8"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-ultrawide-day-v1-2560.webp",
+      "bytes": 21972,
+      "sha256": "be288788a189dc4ce1ddd401235c7710cce9dc00eb933aaf7a139126dafc8911"
+    },
+    {
+      "path": "assets/production/avif/city-mannheim-ultrawide-day-v1-3840.avif",
+      "bytes": 40481,
+      "sha256": "a325e85bc95f825b97af0c084345b1d14cb54874ad1412863ce5d4fd13e19fab"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-ultrawide-day-v1-3840.webp",
+      "bytes": 36312,
+      "sha256": "84b595bef0039be7d3fdfb601562246bc27cae14f562dc20a7d6833889a9cddd"
+    },
+    {
+      "path": "assets/production/png/city-mannheim-ultrawide-day-v1-1280.png",
+      "bytes": 408986,
+      "sha256": "cddef6595b9b7430ffe08f57828b54b13e4e81e4316075264579bf63cabe4060"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-ultrawide-day-v1-320.avif",
+      "bytes": 2594,
+      "sha256": "c778a290df9b6d7778b66321a47222e5b7449879df0d61799f2d11d6b41a448e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-ultrawide-day-v1-320.webp",
+      "bytes": 2434,
+      "sha256": "17ca455ca94603ebdf8b9e5c1c403fb846f5b97a677f76d326e395e5c100d4c2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-ultrawide-day-v1-640.avif",
+      "bytes": 5306,
+      "sha256": "48e28f3bd68e698dfd1bbcfd787032ae379522bcc0e808085cae92bdb74e20d3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-ultrawide-day-v1-640.webp",
+      "bytes": 4700,
+      "sha256": "3ec44000b535896948a7e0f4b848bb6183961ce4224534f993ef49de8412a838"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-ultrawide-day-v1-960.avif",
+      "bytes": 9484,
+      "sha256": "b3deb6c61243da266721508c0bd53c2783b9c38c8f1c91b0670632fc326b323b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-ultrawide-day-v1-960.webp",
+      "bytes": 7816,
+      "sha256": "160d00a7764311ba6683d98226fcd6e2214fd3ca4a9e9b2e079daa342e20520d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-ultrawide-day-v1-1280.avif",
+      "bytes": 12267,
+      "sha256": "350ef40c343b1195e4bfd08a5cc8b6c9864a6c2c601b8ed16dc907d0e160665d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-ultrawide-day-v1-1280.webp",
+      "bytes": 10322,
+      "sha256": "d1e6296367ff4c7ffb076961cc595931727a11fbe23cde69a5223c46267f1b8c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-ultrawide-day-v1-1920.avif",
+      "bytes": 19055,
+      "sha256": "045f31abc22b452448711b5b57d7e2e60d7f9a06dca7c3ca192d8556c8c4bf60"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-ultrawide-day-v1-1920.webp",
+      "bytes": 15470,
+      "sha256": "9f679b72e099d34a238a928d48f566341247ed0919c0d42f1e31b5eaf65a1a81"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-ultrawide-day-v1-2560.avif",
+      "bytes": 25623,
+      "sha256": "0a7e9ea9d467ddd0ad314854af3ae1fbcd693345cfcfba3901691de4aa808bc8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-ultrawide-day-v1-2560.webp",
+      "bytes": 21972,
+      "sha256": "be288788a189dc4ce1ddd401235c7710cce9dc00eb933aaf7a139126dafc8911"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-ultrawide-day-v1-3840.avif",
+      "bytes": 40481,
+      "sha256": "a325e85bc95f825b97af0c084345b1d14cb54874ad1412863ce5d4fd13e19fab"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-ultrawide-day-v1-3840.webp",
+      "bytes": 36312,
+      "sha256": "84b595bef0039be7d3fdfb601562246bc27cae14f562dc20a7d6833889a9cddd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-ultrawide-day-v1-1280.png",
+      "bytes": 408986,
+      "sha256": "cddef6595b9b7430ffe08f57828b54b13e4e81e4316075264579bf63cabe4060"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-mannheim-ultrawide-day-v1.webp",
+      "bytes": 2434,
+      "sha256": "17ca455ca94603ebdf8b9e5c1c403fb846f5b97a677f76d326e395e5c100d4c2"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-mannheim-ultrawide-day-v1.webp",
+      "bytes": 2434,
+      "sha256": "17ca455ca94603ebdf8b9e5c1c403fb846f5b97a677f76d326e395e5c100d4c2"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.427Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 2073263
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:23:14.759Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

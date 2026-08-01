@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-muenster-mobile-day-v1",
+  "manifest_order": 223,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "muenster",
+  "variant": "mobile-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-muenster-mobile-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100223,
+  "content_hash": "829dde05b1b6289767db18e1ad7048337cf973933b138b907febc7a0ea7e2935",
+  "source_file": "assets/source/cities/city-muenster-mobile-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-muenster-mobile-day-v1-320.avif",
+      "bytes": 5002,
+      "sha256": "4a46435466009ac55c0c2719244b9915798e5e4c80a51db0dc2b439a81efd96a"
+    },
+    {
+      "path": "assets/production/webp/city-muenster-mobile-day-v1-320.webp",
+      "bytes": 4454,
+      "sha256": "17fefeabcb380e1e7f5a92b7bc7d64e26c5626131cb86509b6c8feebea7af47a"
+    },
+    {
+      "path": "assets/production/avif/city-muenster-mobile-day-v1-640.avif",
+      "bytes": 10390,
+      "sha256": "45006e5e6d03a85abf24c57cfa6de1428ddaffb6828b31c430a5e5f93fa2807f"
+    },
+    {
+      "path": "assets/production/webp/city-muenster-mobile-day-v1-640.webp",
+      "bytes": 8698,
+      "sha256": "06d91857766b3a0c62999bc39d0bb12b762d5bd3ed96696a9ed3a3958eb76dce"
+    },
+    {
+      "path": "assets/production/avif/city-muenster-mobile-day-v1-960.avif",
+      "bytes": 18412,
+      "sha256": "06a56c018b5acd4b1cc24c7e6f602de9a3675179022e5a3305515794d6320477"
+    },
+    {
+      "path": "assets/production/webp/city-muenster-mobile-day-v1-960.webp",
+      "bytes": 14646,
+      "sha256": "c286b50889d4ace45aa868a752f547c079320cef1eaec1a0da918ae5e1fc01e3"
+    },
+    {
+      "path": "assets/production/avif/city-muenster-mobile-day-v1-1280.avif",
+      "bytes": 24347,
+      "sha256": "c6be5a577984bdfeb990b65976095f62c521ec54a24353f4c6db4b48f774b3ed"
+    },
+    {
+      "path": "assets/production/webp/city-muenster-mobile-day-v1-1280.webp",
+      "bytes": 20578,
+      "sha256": "4f66a06b24d37772e03865e91d9a0abebe27f2b7765403ca8c49b277f956282b"
+    },
+    {
+      "path": "assets/production/avif/city-muenster-mobile-day-v1-1920.avif",
+      "bytes": 39796,
+      "sha256": "e5df9c46b9904f883bf0f37518addb4be48bb84ec4e3faff25f3d0588a37d0f9"
+    },
+    {
+      "path": "assets/production/webp/city-muenster-mobile-day-v1-1920.webp",
+      "bytes": 36478,
+      "sha256": "c1e1336be772066e475dc26e6e1d58e109c3ef2b9be3afaf3a82ac08bb41066d"
+    },
+    {
+      "path": "assets/production/avif/city-muenster-mobile-day-v1-2560.avif",
+      "bytes": 58122,
+      "sha256": "5793d1b93b65f06d33f8ea82c0ba4ed6b90c859e5332b1fee63722b44cfa36e3"
+    },
+    {
+      "path": "assets/production/webp/city-muenster-mobile-day-v1-2560.webp",
+      "bytes": 56076,
+      "sha256": "003b2c6e6aa64b6d8973bb007d499bd347beee5b2895f02347ca23fdf09cfab4"
+    },
+    {
+      "path": "assets/production/avif/city-muenster-mobile-day-v1-3840.avif",
+      "bytes": 103212,
+      "sha256": "56c723c881ad823382f24d7b7f7c76ff8e0c08c723bf78de08e6b59a7512b64f"
+    },
+    {
+      "path": "assets/production/webp/city-muenster-mobile-day-v1-3840.webp",
+      "bytes": 107352,
+      "sha256": "109fb64dec577b636268269deac80b6cdf8bd9e67f4d5720b819b0e5475201b9"
+    },
+    {
+      "path": "assets/production/png/city-muenster-mobile-day-v1-1152.png",
+      "bytes": 1683911,
+      "sha256": "829dde05b1b6289767db18e1ad7048337cf973933b138b907febc7a0ea7e2935"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-mobile-day-v1-320.avif",
+      "bytes": 5002,
+      "sha256": "4a46435466009ac55c0c2719244b9915798e5e4c80a51db0dc2b439a81efd96a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-mobile-day-v1-320.webp",
+      "bytes": 4454,
+      "sha256": "17fefeabcb380e1e7f5a92b7bc7d64e26c5626131cb86509b6c8feebea7af47a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-mobile-day-v1-640.avif",
+      "bytes": 10390,
+      "sha256": "45006e5e6d03a85abf24c57cfa6de1428ddaffb6828b31c430a5e5f93fa2807f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-mobile-day-v1-640.webp",
+      "bytes": 8698,
+      "sha256": "06d91857766b3a0c62999bc39d0bb12b762d5bd3ed96696a9ed3a3958eb76dce"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-mobile-day-v1-960.avif",
+      "bytes": 18412,
+      "sha256": "06a56c018b5acd4b1cc24c7e6f602de9a3675179022e5a3305515794d6320477"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-mobile-day-v1-960.webp",
+      "bytes": 14646,
+      "sha256": "c286b50889d4ace45aa868a752f547c079320cef1eaec1a0da918ae5e1fc01e3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-mobile-day-v1-1280.avif",
+      "bytes": 24347,
+      "sha256": "c6be5a577984bdfeb990b65976095f62c521ec54a24353f4c6db4b48f774b3ed"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-mobile-day-v1-1280.webp",
+      "bytes": 20578,
+      "sha256": "4f66a06b24d37772e03865e91d9a0abebe27f2b7765403ca8c49b277f956282b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-mobile-day-v1-1920.avif",
+      "bytes": 39796,
+      "sha256": "e5df9c46b9904f883bf0f37518addb4be48bb84ec4e3faff25f3d0588a37d0f9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-mobile-day-v1-1920.webp",
+      "bytes": 36478,
+      "sha256": "c1e1336be772066e475dc26e6e1d58e109c3ef2b9be3afaf3a82ac08bb41066d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-mobile-day-v1-2560.avif",
+      "bytes": 58122,
+      "sha256": "5793d1b93b65f06d33f8ea82c0ba4ed6b90c859e5332b1fee63722b44cfa36e3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-mobile-day-v1-2560.webp",
+      "bytes": 56076,
+      "sha256": "003b2c6e6aa64b6d8973bb007d499bd347beee5b2895f02347ca23fdf09cfab4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-mobile-day-v1-3840.avif",
+      "bytes": 103212,
+      "sha256": "56c723c881ad823382f24d7b7f7c76ff8e0c08c723bf78de08e6b59a7512b64f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-mobile-day-v1-3840.webp",
+      "bytes": 107352,
+      "sha256": "109fb64dec577b636268269deac80b6cdf8bd9e67f4d5720b819b0e5475201b9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-mobile-day-v1-1152.png",
+      "bytes": 1683911,
+      "sha256": "829dde05b1b6289767db18e1ad7048337cf973933b138b907febc7a0ea7e2935"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-muenster-mobile-day-v1.webp",
+      "bytes": 4454,
+      "sha256": "17fefeabcb380e1e7f5a92b7bc7d64e26c5626131cb86509b6c8feebea7af47a"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-muenster-mobile-day-v1.webp",
+      "bytes": 4454,
+      "sha256": "17fefeabcb380e1e7f5a92b7bc7d64e26c5626131cb86509b6c8feebea7af47a"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.285Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1683911
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:14:32.055Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -23,6 +23,11 @@
       "path": "assets/production/svg/map-coasts-water-v1.svg",
       "bytes": 73096,
       "sha256": "f7c3487d1108d83a50d513d5d85208a287f3555b17f90a70d201adf143f32115"
+    },
+    {
+      "path": "assets/production/webp/map-coasts-water-v1-320.webp",
+      "bytes": 7860,
+      "sha256": "8a10b38718e735e681b16dbe6bb3aa028604fe514677d43afeac9d5f589d59be"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/maps/map-coasts-water-v1.svg",
       "bytes": 73096,
       "sha256": "f7c3487d1108d83a50d513d5d85208a287f3555b17f90a70d201adf143f32115"
+    },
+    {
+      "path": "apps/web/public/assets/maps/map-coasts-water-v1-320.webp",
+      "bytes": 7860,
+      "sha256": "8a10b38718e735e681b16dbe6bb3aa028604fe514677d43afeac9d5f589d59be"
+    },
+    {
+      "path": "apps/web/public/assets/library/map-coasts-water-v1.webp",
+      "bytes": 7860,
+      "sha256": "8a10b38718e735e681b16dbe6bb3aa028604fe514677d43afeac9d5f589d59be"
+    },
+    {
+      "path": "apps/mobile/assets/library/map-coasts-water-v1.webp",
+      "bytes": 7860,
+      "sha256": "8a10b38718e735e681b16dbe6bb3aa028604fe514677d43afeac9d5f589d59be"
     }
   ],
   "contains_text": false,

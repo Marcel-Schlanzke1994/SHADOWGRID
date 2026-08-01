@@ -1,0 +1,171 @@
+{
+  "asset_id": "city-template-metropolis-river-square-v1",
+  "manifest_order": 311,
+  "category": "city-template",
+  "batch": "procedural-city-templates",
+  "city": null,
+  "variant": "square",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-template-metropolis-river-square-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100311,
+  "content_hash": "0bf9fe18f9d94070172f910560f7183625223130380e7bf926ac4995135fcdae",
+  "source_file": "assets/source/global/city-template-metropolis-river-square-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-template-metropolis-river-square-v1-320.avif",
+      "bytes": 3499,
+      "sha256": "0bba5e089ceb02c7c8f4d3cbfac806beeba71ba6810875ce93cc1cda6541714f"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-river-square-v1-320.webp",
+      "bytes": 3442,
+      "sha256": "9ed4399d72be8ea99e86f6166f4bddf0458222f7fd5b633ebecaaa88c1beb4fc"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-river-square-v1-640.avif",
+      "bytes": 7512,
+      "sha256": "ec30a3c92614aee092230712c6a1c45c930d7b45cece4c73d72b5d525ed06a98"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-river-square-v1-640.webp",
+      "bytes": 6432,
+      "sha256": "b280b4f46d920f24863cba8bc70d317159d8a2f43c476fc376bc1eb804082170"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-river-square-v1-960.avif",
+      "bytes": 13518,
+      "sha256": "3809b77f335d84400ecea68041a1934025acc1aa62b75b7b3d7f762bbd9292cb"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-river-square-v1-960.webp",
+      "bytes": 11048,
+      "sha256": "334788bb8c7749cc2317092b438ed0311b0b46aa2536dcb56b5dcce3c254b5ca"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-river-square-v1-1280.avif",
+      "bytes": 18499,
+      "sha256": "d46bef3d0267f24559d1555675d02cd0094359633bce4047dc9ffdcfcd7fef40"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-river-square-v1-1280.webp",
+      "bytes": 15028,
+      "sha256": "876ca2651b75388eaf25a3163ce4181e5f7bdbd9b29f211d0b085afb41b11ce4"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-river-square-v1-1920.avif",
+      "bytes": 28152,
+      "sha256": "9f6cec9617c89d1361ebd0feb6758a8d71cd624bb497fd8c4870227485353a4c"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-river-square-v1-1920.webp",
+      "bytes": 24116,
+      "sha256": "c9cd005b729856324b05f6c0fdf8b00dbf25fb464b385507c659d208db5f8b26"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-river-square-v1-2560.avif",
+      "bytes": 39982,
+      "sha256": "9f6381ad4b214b78e6b53e89e8c270496fa1979c52b844434bd51e67628a1d95"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-river-square-v1-2560.webp",
+      "bytes": 35912,
+      "sha256": "658fe8841a22853a1ff5092656e081e78e9bd52501f42c668c0d4efca62e4466"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-river-square-v1-3840.avif",
+      "bytes": 64470,
+      "sha256": "dbc616308edfdd79030aae6b8f29a455a8750f2b643392fa0797a6c0218cae10"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-river-square-v1-3840.webp",
+      "bytes": 64320,
+      "sha256": "eaca6fbd887b8988740a0f9d1e3b7d920d0bae9e9ef9bdfadb44d0cc432bf4fa"
+    },
+    {
+      "path": "assets/production/png/city-template-metropolis-river-square-v1-1280.png",
+      "bytes": 1243186,
+      "sha256": "4e2ef61d8152e225301f301c3b1fbb9cf2b576cd68961f600e9cd8466e376d7d"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/city-template-metropolis-river-square-v1.webp",
+      "bytes": 3442,
+      "sha256": "9ed4399d72be8ea99e86f6166f4bddf0458222f7fd5b633ebecaaa88c1beb4fc"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-template-metropolis-river-square-v1.webp",
+      "bytes": 3442,
+      "sha256": "9ed4399d72be8ea99e86f6166f4bddf0458222f7fd5b633ebecaaa88c1beb4fc"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 91.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:54.864Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 92,
+      "material_quality": 87,
+      "light_quality": 89,
+      "architecture_plausibility": 89,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 92,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All four paged contact sheets were inspected at original resolution.",
+      "The templates are intentionally stylized deterministic fallbacks and remain compositionally useful across every required aspect ratio.",
+      "No missing render, broken geometry, sensitive infrastructure detail, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1647391
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:21:25.958Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

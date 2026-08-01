@@ -1,0 +1,75 @@
+{
+  "asset_id": "icon-resource-capital-v1",
+  "manifest_order": 741,
+  "category": "icon",
+  "batch": "ui-icons",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "24:24",
+  "width": 24,
+  "height": 24,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/icon-resource-capital-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100741,
+  "content_hash": "bd899627820e299b90405bf3509b69c1f6cf3add3739558970e17e3e9b09b039",
+  "source_file": "assets/source/icons/icon-resource-capital-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/icon-resource-capital-v1.svg",
+      "bytes": 609,
+      "sha256": "bd899627820e299b90405bf3509b69c1f6cf3add3739558970e17e3e9b09b039"
+    },
+    {
+      "path": "assets/production/webp/icon-resource-capital-v1-320.webp",
+      "bytes": 3748,
+      "sha256": "67255164c09a85e45f8f675fce2a80c793542e6ef4a0e63dea427e72bf3d731a"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/icon-resource-capital-v1.webp",
+      "bytes": 3748,
+      "sha256": "67255164c09a85e45f8f675fce2a80c793542e6ef4a0e63dea427e72bf3d731a"
+    },
+    {
+      "path": "apps/mobile/assets/library/icon-resource-capital-v1.webp",
+      "bytes": 3748,
+      "sha256": "67255164c09a85e45f8f675fce2a80c793542e6ef4a0e63dea427e72bf3d731a"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 609
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:51:37.550Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

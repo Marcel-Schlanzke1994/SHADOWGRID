@@ -170,35 +170,49 @@
       "path": "apps/web/public/assets/cities/city-hamburg-card-v1-1280.png",
       "bytes": 2804560,
       "sha256": "671e3329402df03c0ee6db2ff1d71e8dc2af60fec5e7fe47d6de7a50a5fccfae"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-hamburg-card-v1.webp",
+      "bytes": 6458,
+      "sha256": "ba68196f9d8761c833d414e9cbddcc965d40c8756f4781a67581a297dd877389"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-hamburg-card-v1.webp",
+      "bytes": 6458,
+      "sha256": "ba68196f9d8761c833d414e9cbddcc965d40c8756f4781a67581a297dd877389"
     }
   ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,
   "moderation_status": "approved",
-  "quality_score": 98.6,
+  "quality_score": 92.9,
   "quality_status": "approved",
   "review_status": "codex-visual-approved",
   "visual_review": {
-    "realism": 98,
-    "style_consistency": 100,
-    "composition": 100,
-    "material_quality": 98,
-    "lighting_quality": 98,
-    "architecture_plausibility": 97,
-    "ui_suitability": 100,
-    "mobile_suitability": 99,
-    "originality": 96,
-    "safety_compliance": 100,
-    "revision_prompt": "Revise this square fictional Hamburg-inspired SHADOWGRID city-card backing plate while preserving the exact 1:1 canvas, stormy daylight, fictional brick waterfront peninsula, centered water-and-bridge anchor, skyline, original architecture, and premium realistic visual style.\n\nMandatory correction: simplify the entire bottom 24% into a darker, calm, low-detail external-label safe area. Remove the two prominent foreground vessels, remove the bright detailed lower-right office/quay frontage from that bottom band, and replace them with physically plausible dark open water plus a subtle shadowed quay edge whose reflections are very restrained. Keep the bottom band free of high-contrast lights, focal objects, fine architecture, and intersecting bridge geometry. Blend the revision naturally into the accepted water and city above. Keep all important city, bridge, and brick-district shapes inside the upper 76% and inner 82% card-safe area.\n\nDo not change the image into night; retain overcast northern daytime after rain. Do not add any real Hamburg landmark, recognizable real port layout, operational infrastructure, company livery, or known viewpoint.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, flags, authority marks, criminal symbols, extremist symbols, weapons, violence, operational wrongdoing, routes, instructions, fantasy architecture, impossible geometry, neon, warning red, blur, or fake writing.\n\nDeliver only the corrected clean premium 1:1 city-card backing plate with the entire lower 24% visibly calm and suitable for external localized labels, badges, and one action.",
-    "reference_images": [
-      "assets/source/cities/city-hamburg-desktop-day-v1.png"
-    ],
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.127Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
     "notes": [
-      "The first square recomposition was held back because two foreground vessels and a bright lower-right office/quay frontage made the requested bottom label area too detailed.",
-      "The accepted revision replaces the full lower 24 percent with calm dark water and a subtle shadowed edge, leaving localized labels, badges, and one action a reliable low-detail surface.",
-      "The fictional brick peninsula, original bridge, layered waterways, and skyline remain a centered city-card anchor above the label-safe band.",
-      "No recognizable Hamburg landmark, sensitive port layout, embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
     ]
   },
   "technical_validation": {

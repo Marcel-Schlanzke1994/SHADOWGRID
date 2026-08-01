@@ -1,0 +1,75 @@
+{
+  "asset_id": "icon-status-online-v1",
+  "manifest_order": 763,
+  "category": "icon",
+  "batch": "ui-icons",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "24:24",
+  "width": 24,
+  "height": 24,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/icon-status-online-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100763,
+  "content_hash": "eea670470400311222d82884f270c45c98dfd8b1a4c5d8fbbbe998c915c1e6e3",
+  "source_file": "assets/source/icons/icon-status-online-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/icon-status-online-v1.svg",
+      "bytes": 590,
+      "sha256": "eea670470400311222d82884f270c45c98dfd8b1a4c5d8fbbbe998c915c1e6e3"
+    },
+    {
+      "path": "assets/production/webp/icon-status-online-v1-320.webp",
+      "bytes": 3186,
+      "sha256": "b3d85ddf6ffa3fa6f9e9545321bfc977ad8852c682ff506c6429c2cb2e0275f3"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/icon-status-online-v1.webp",
+      "bytes": 3186,
+      "sha256": "b3d85ddf6ffa3fa6f9e9545321bfc977ad8852c682ff506c6429c2cb2e0275f3"
+    },
+    {
+      "path": "apps/mobile/assets/library/icon-status-online-v1.webp",
+      "bytes": 3186,
+      "sha256": "b3d85ddf6ffa3fa6f9e9545321bfc977ad8852c682ff506c6429c2cb2e0275f3"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 590
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:51:40.180Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

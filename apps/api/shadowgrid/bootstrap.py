@@ -7,10 +7,19 @@ from sqlalchemy.orm import Session
 
 from shadowgrid.config import Settings, get_settings
 from shadowgrid.database import SessionLocal
-from shadowgrid.game_config import DISTRICTS, TERRITORY_CONTROL_POINTS, WORLD_EVENTS
+from shadowgrid.game_config import (
+    DISTRICTS,
+    ECONOMY_MARKETS,
+    START_CITY,
+    TERRITORY_CONTROL_POINTS,
+    WORLD_EVENTS,
+    WORLD_NAME,
+    WORLD_SLUG,
+)
 from shadowgrid.models import (
     City,
     CityMarket,
+    CitySectorMarket,
     District,
     TerritoryControlPoint,
     User,
@@ -21,12 +30,12 @@ from shadowgrid.security import hash_password
 
 
 def bootstrap_world(db: Session, settings: Settings) -> World:
-    world = db.scalar(select(World).where(World.slug == "vesper-season-0"))
+    world = db.scalar(select(World).where(World.slug == WORLD_SLUG))
     if world is None:
         now = datetime.now(UTC)
         world = World(
-            slug="vesper-season-0",
-            name="Vesper Metropolitan Zone — Season 0",
+            slug=WORLD_SLUG,
+            name=WORLD_NAME,
             status="active",
             starts_at=now,
             ends_at=now + timedelta(days=settings.season_days),
@@ -38,17 +47,17 @@ def bootstrap_world(db: Session, settings: Settings) -> World:
     city = db.scalar(
         select(City).where(
             City.world_id == world.id,
-            City.slug == "vesper-metropolitan",
-            City.instance_key == "sector-a",
+            City.slug == START_CITY["slug"],
+            City.instance_key == START_CITY["instance_key"],
         )
     )
     if city is None:
         city = City(
             world_id=world.id,
-            slug="vesper-metropolitan",
-            name="Vesper Metropolitan Zone",
-            region_key="vesper-region",
-            instance_key="sector-a",
+            slug=START_CITY["slug"],
+            name=START_CITY["name"],
+            region_key=START_CITY["region_key"],
+            instance_key=START_CITY["instance_key"],
             market_state_json={"sentiment": 50, "volatility": 10},
         )
         db.add(city)
@@ -80,7 +89,7 @@ def bootstrap_world(db: Session, settings: Settings) -> World:
                     map_points=data[14],
                 )
             )
-        elif district.city_id is None:
+        elif district.city_id != city.id:
             district.city_id = city.id
 
     db.flush()
@@ -107,7 +116,31 @@ def bootstrap_world(db: Session, settings: Settings) -> World:
                 )
             )
 
-    districts = list(db.scalars(select(District).where(District.world_id == world.id)))
+    for industry, definition in ECONOMY_MARKETS.items():
+        economy_market = db.scalar(
+            select(CitySectorMarket).where(
+                CitySectorMarket.city_id == city.id,
+                CitySectorMarket.industry == industry,
+            )
+        )
+        if economy_market is None:
+            db.add(
+                CitySectorMarket(
+                    world_id=world.id,
+                    city_id=city.id,
+                    industry=industry,
+                    **definition,
+                )
+            )
+
+    districts = list(
+        db.scalars(
+            select(District).where(
+                District.world_id == world.id,
+                District.city_id == city.id,
+            )
+        )
+    )
     for district in districts:
         for point_type in TERRITORY_CONTROL_POINTS:
             point = db.scalar(
@@ -145,6 +178,15 @@ def bootstrap_world(db: Session, settings: Settings) -> World:
                 ends_at=starts_at + timedelta(hours=12),
             )
         )
+    from shadowgrid.world_events import seed_event_definitions
+
+    seed_event_definitions(db)
+    from shadowgrid.seasons import ensure_current_season
+
+    ensure_current_season(db, world, settings)
+    from shadowgrid.real_estate import seed_real_estate
+
+    seed_real_estate(db, world.id)
     return world
 
 

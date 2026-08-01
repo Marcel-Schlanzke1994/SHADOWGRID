@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-property-management-management-interior-v1",
+  "manifest_order": 496,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "management-interior",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-property-management-management-interior-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100496,
+  "content_hash": "f9a81cfdb05fb93db62aba989c38b76c7299fe082bf10994fe6c26baa47e8ed3",
+  "source_file": "assets/source/businesses/business-property-management-management-interior-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-property-management-management-interior-v1-320.avif",
+      "bytes": 3013,
+      "sha256": "844fb223bd6655b842786eab3ce4db3d3d1e5729722f61a7b74548483e3b760b"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-management-interior-v1-320.webp",
+      "bytes": 2582,
+      "sha256": "721bbafbc095268686478513944e942e39b8caab8117778127c0bb202d4ab2b0"
+    },
+    {
+      "path": "assets/production/avif/business-property-management-management-interior-v1-640.avif",
+      "bytes": 6449,
+      "sha256": "db713a2de63f5f8a841c64768da1c31cdd4455b1a2db337ae004bb6e16bf72dc"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-management-interior-v1-640.webp",
+      "bytes": 5404,
+      "sha256": "6e8777c745b6fe22ab3631d6a99c8d49c0079860a0c18bc2bc8fdb9d80d203e7"
+    },
+    {
+      "path": "assets/production/avif/business-property-management-management-interior-v1-960.avif",
+      "bytes": 10207,
+      "sha256": "739f8b0fbebdf50f8d439d0b1d40cf12349fd42860f6f1f87e90ce6adbfdde27"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-management-interior-v1-960.webp",
+      "bytes": 8578,
+      "sha256": "7c43f0358c9c63dd6e1b6cb473b7b32effa3bdfc9a4cedf481f5f209944dd230"
+    },
+    {
+      "path": "assets/production/avif/business-property-management-management-interior-v1-1280.avif",
+      "bytes": 14771,
+      "sha256": "a655029b0361e0c0cb633c46df320de25bfb8cb6d41160793705b83e935cc5e6"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-management-interior-v1-1280.webp",
+      "bytes": 11612,
+      "sha256": "ff5778343d38246e954cf2a8b285e6781f527e270c68b18b2ec19769a74b6de1"
+    },
+    {
+      "path": "assets/production/avif/business-property-management-management-interior-v1-1920.avif",
+      "bytes": 22193,
+      "sha256": "79257e4222a41a8649f6e6adf1d132ec7b420a50374595634b202d87b7148537"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-management-interior-v1-1920.webp",
+      "bytes": 18316,
+      "sha256": "e4869b9f1e55ca0ffb5ac42ae908e340ae961c66fc58bde33035adde76d80877"
+    },
+    {
+      "path": "assets/production/avif/business-property-management-management-interior-v1-2560.avif",
+      "bytes": 29492,
+      "sha256": "0306c618acf39a125f85e9998b9c719b9c073e3e930dfff8520789067616e7b5"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-management-interior-v1-2560.webp",
+      "bytes": 25510,
+      "sha256": "f2e4134a712d44670e9b9370a17622457717e311db061e94b53d7757e56827ee"
+    },
+    {
+      "path": "assets/production/avif/business-property-management-management-interior-v1-3840.avif",
+      "bytes": 47875,
+      "sha256": "3cbc38a4c98b6bf4917fe037d91f3dc9f39cabc766102dfdd43d36e441a14d1c"
+    },
+    {
+      "path": "assets/production/webp/business-property-management-management-interior-v1-3840.webp",
+      "bytes": 42838,
+      "sha256": "d1ce01c52887218ae6e4d428b461728f3f58bbbf20b9d5c094f8b358ba88dcf5"
+    },
+    {
+      "path": "assets/production/png/business-property-management-management-interior-v1-1280.png",
+      "bytes": 630094,
+      "sha256": "ef7eb79ee576a6ebb6c9472879337d51ab857f03deaf2caa58830f6d4228c61d"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-property-management-management-interior-v1.webp",
+      "bytes": 2582,
+      "sha256": "721bbafbc095268686478513944e942e39b8caab8117778127c0bb202d4ab2b0"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-property-management-management-interior-v1.webp",
+      "bytes": 2582,
+      "sha256": "721bbafbc095268686478513944e942e39b8caab8117778127c0bb202d4ab2b0"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.674Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1440127
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:01:38.267Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

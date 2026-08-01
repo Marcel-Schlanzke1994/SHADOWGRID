@@ -23,6 +23,11 @@
       "path": "assets/production/svg/city-berlin-silhouette-v1.svg",
       "bytes": 3763,
       "sha256": "de157e26c3ae524731972cff0a5db1de4b33a4072e10bc11faa98eb335c4e53e"
+    },
+    {
+      "path": "assets/production/webp/city-berlin-silhouette-v1-320.webp",
+      "bytes": 3454,
+      "sha256": "f598490b11544d959949fd44914ebf07ee7854479cdf66a00d3362391dc29577"
     }
   ],
   "runtime_files": [
@@ -30,16 +35,56 @@
       "path": "apps/web/public/assets/cities/city-berlin-silhouette-v1.svg",
       "bytes": 3763,
       "sha256": "de157e26c3ae524731972cff0a5db1de4b33a4072e10bc11faa98eb335c4e53e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-berlin-silhouette-v1-320.webp",
+      "bytes": 3454,
+      "sha256": "f598490b11544d959949fd44914ebf07ee7854479cdf66a00d3362391dc29577"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-berlin-silhouette-v1.webp",
+      "bytes": 3454,
+      "sha256": "f598490b11544d959949fd44914ebf07ee7854479cdf66a00d3362391dc29577"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-berlin-silhouette-v1.webp",
+      "bytes": 3454,
+      "sha256": "f598490b11544d959949fd44914ebf07ee7854479cdf66a00d3362391dc29577"
     }
   ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,
   "moderation_status": "approved",
-  "quality_score": 88,
+  "quality_score": 92.9,
   "quality_status": "approved",
-  "review_status": "automatic-approved",
-  "visual_review": null,
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.183Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
   "technical_validation": {
     "ok": true,
     "issues": [],

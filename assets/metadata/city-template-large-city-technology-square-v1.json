@@ -1,0 +1,171 @@
+{
+  "asset_id": "city-template-large-city-technology-square-v1",
+  "manifest_order": 331,
+  "category": "city-template",
+  "batch": "procedural-city-templates",
+  "city": null,
+  "variant": "square",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-template-large-city-technology-square-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100331,
+  "content_hash": "2b8c2b82882f1f26012592ec68b4389687da9bd2eaf8f8208ca24010a09f4d61",
+  "source_file": "assets/source/global/city-template-large-city-technology-square-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-template-large-city-technology-square-v1-320.avif",
+      "bytes": 3604,
+      "sha256": "2225db1f8b0b89ea41f3b9114bff40ca387dfa287f59d360b323ef65e9120847"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-technology-square-v1-320.webp",
+      "bytes": 3342,
+      "sha256": "374179312c61ce0070f494c16b435eadfc52ba6494ac7a59f49a5a016a1f0576"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-technology-square-v1-640.avif",
+      "bytes": 7659,
+      "sha256": "daf3069c73d025cdfd05e79057867f4a66c67303ca3bf44429a775a6f0114c5d"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-technology-square-v1-640.webp",
+      "bytes": 6542,
+      "sha256": "12c98c7347b402e1221ba0c511227d6f1dcdaa633d11c9ce534f535cd9c86aa0"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-technology-square-v1-960.avif",
+      "bytes": 12989,
+      "sha256": "ea8f66d5f2037df5165be1656137ffe0045d2fb4635496310aff35061cb613fb"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-technology-square-v1-960.webp",
+      "bytes": 10870,
+      "sha256": "5f0c90161b7e669acdb53be4cc1e9515e3646de266da74a34b6851268c5ddfe7"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-technology-square-v1-1280.avif",
+      "bytes": 18172,
+      "sha256": "14aa0ee428e487755d99fac880965b3853bf5e5be26e8f8c019cbffb975637f0"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-technology-square-v1-1280.webp",
+      "bytes": 14884,
+      "sha256": "23264f3642498e875164782e3f5521740e7ace3a9ca1b426086053e25f165544"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-technology-square-v1-1920.avif",
+      "bytes": 27625,
+      "sha256": "8b94c45c6547241107c331962e14968fddeae4c8bb20e7567cf19415a1116d2d"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-technology-square-v1-1920.webp",
+      "bytes": 24424,
+      "sha256": "9e7a456a1a22c469c9121474d5dd60b0d7d41f7d1cd37cecd54db026d183648d"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-technology-square-v1-2560.avif",
+      "bytes": 39471,
+      "sha256": "c1b7d9097b5908fe45c83da74f30d58b16e8beeddb2ee66b3f68bc885d2d45fd"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-technology-square-v1-2560.webp",
+      "bytes": 36352,
+      "sha256": "9756834918f829425e4e38b2d4a90a482ead7a17396b32647cc4c66f5ea0ae64"
+    },
+    {
+      "path": "assets/production/avif/city-template-large-city-technology-square-v1-3840.avif",
+      "bytes": 63633,
+      "sha256": "bafb9d12f5926d8854d2c0530eb675df2aaf9a5f1f9832a84732ae458803ed84"
+    },
+    {
+      "path": "assets/production/webp/city-template-large-city-technology-square-v1-3840.webp",
+      "bytes": 65574,
+      "sha256": "81f9d85117c2a41304228624b31cdc0e8c53e93c456381d0f30d4a0ba72e5024"
+    },
+    {
+      "path": "assets/production/png/city-template-large-city-technology-square-v1-1280.png",
+      "bytes": 1251149,
+      "sha256": "77872606fe3ae6db754a2535d221981cbcdace2833ca8cb46273aac3585b1ed3"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/city-template-large-city-technology-square-v1.webp",
+      "bytes": 3342,
+      "sha256": "374179312c61ce0070f494c16b435eadfc52ba6494ac7a59f49a5a016a1f0576"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-template-large-city-technology-square-v1.webp",
+      "bytes": 3342,
+      "sha256": "374179312c61ce0070f494c16b435eadfc52ba6494ac7a59f49a5a016a1f0576"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 91.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:55.232Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 92,
+      "material_quality": 87,
+      "light_quality": 89,
+      "architecture_plausibility": 89,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 92,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All four paged contact sheets were inspected at original resolution.",
+      "The templates are intentionally stylized deterministic fallbacks and remain compositionally useful across every required aspect ratio.",
+      "No missing render, broken geometry, sensitive infrastructure detail, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1655538
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:33:58.081Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

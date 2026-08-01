@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "locale": "en",
+  "catalogStatus": "in_game_approved",
+  "defaultKeyStatus": "in_game_approved",
+  "keyStatusOverrides": {},
+  "contextStatus": "machine_draft",
+  "glossaryStatus": "human_translated",
+  "roles": {
+    "leadTranslator": null,
+    "nativeReviewer": null,
+    "linguisticQa": null,
+    "localizationOwner": null,
+    "domainReviewer": null,
+    "releaseOwner": null
+  },
+  "approvals": {
+    "nativeReview": null,
+    "inGameQa": null,
+    "release": null
+  },
+  "accessibility": {
+    "status": "in_game_approved",
+    "evidence": []
+  },
+  "screenshots": {
+    "status": "not_started",
+    "evidence": []
+  },
+  "updatedAt": null,
+  "sourceIdenticalApprovals": {}
+}

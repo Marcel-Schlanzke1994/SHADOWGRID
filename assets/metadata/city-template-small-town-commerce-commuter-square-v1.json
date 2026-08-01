@@ -1,0 +1,171 @@
+{
+  "asset_id": "city-template-small-town-commerce-commuter-square-v1",
+  "manifest_order": 366,
+  "category": "city-template",
+  "batch": "procedural-city-templates",
+  "city": null,
+  "variant": "square",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-template-small-town-commerce-commuter-square-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100366,
+  "content_hash": "69df3c60a0ae0db60ff1556ac30cadbf2af2a66ab0ba3285649d6ce51d583e92",
+  "source_file": "assets/source/global/city-template-small-town-commerce-commuter-square-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-template-small-town-commerce-commuter-square-v1-320.avif",
+      "bytes": 3660,
+      "sha256": "88deea4d95dd6d1f383d8a14504f7620a80ecde3ca9394122dd0888be6628f08"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-commerce-commuter-square-v1-320.webp",
+      "bytes": 3548,
+      "sha256": "9a9ca5cd7eb07cbff5595f797bd46692c1a1b6c8284f9750a5a103245c90f9a3"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-commerce-commuter-square-v1-640.avif",
+      "bytes": 8022,
+      "sha256": "8ccf2cbfc942b9f873a2fa9626f1db6e5f78d50826ec6c02e875c67c334f7797"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-commerce-commuter-square-v1-640.webp",
+      "bytes": 6772,
+      "sha256": "23291ec7194819fc142b2eb908d7478b0596b9d203d9a0f9af5db8b325f5a7e5"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-commerce-commuter-square-v1-960.avif",
+      "bytes": 14050,
+      "sha256": "41077950964a37a5197299f17400bf63addcb888a38726678769a2c292d08d01"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-commerce-commuter-square-v1-960.webp",
+      "bytes": 11114,
+      "sha256": "5eecfc404d631a37c60156b06fdb503a275a6c7fb2c47c2eb47c30e26a8ca30d"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-commerce-commuter-square-v1-1280.avif",
+      "bytes": 19162,
+      "sha256": "211c9bc17d864d8fc5032ddf4a37f99f0495e8d146ce6b2fa487ee0b1b8e8e74"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-commerce-commuter-square-v1-1280.webp",
+      "bytes": 15176,
+      "sha256": "a4f239f7fd746c01549332b3cb772c016f291ac2c4c345f7443088e5be197526"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-commerce-commuter-square-v1-1920.avif",
+      "bytes": 28231,
+      "sha256": "80f6b538d6b0344b4ed3f2b1827ee54596d6acf0c736360794aa002080f62c0f"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-commerce-commuter-square-v1-1920.webp",
+      "bytes": 24718,
+      "sha256": "151bf2facdff01f2da254a3f6ad4bcec106588e279d359ff8f4756c3cbd9ed59"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-commerce-commuter-square-v1-2560.avif",
+      "bytes": 40316,
+      "sha256": "2591d03a8f4c35c7d900267be56f3c6200af0e60d2bec355d35b40cb6f947725"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-commerce-commuter-square-v1-2560.webp",
+      "bytes": 37098,
+      "sha256": "54f57378bc1678b871cd378f74247be415a8427b48a814c70eb50b37b02832ba"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-commerce-commuter-square-v1-3840.avif",
+      "bytes": 63932,
+      "sha256": "c737d050df5613c916d76072ab5b4b663922351627c49460ab466026e89ef0d1"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-commerce-commuter-square-v1-3840.webp",
+      "bytes": 66156,
+      "sha256": "6e8ec10cce24f292cbb15b86779b68b2880411a4b58aadd6f6dc080919ae30bb"
+    },
+    {
+      "path": "assets/production/png/city-template-small-town-commerce-commuter-square-v1-1280.png",
+      "bytes": 1243353,
+      "sha256": "6bc0526c4bd5480224552b86a7e1a1d2e83c558538660ed234fb33d49baa5c2e"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/city-template-small-town-commerce-commuter-square-v1.webp",
+      "bytes": 3548,
+      "sha256": "9a9ca5cd7eb07cbff5595f797bd46692c1a1b6c8284f9750a5a103245c90f9a3"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-template-small-town-commerce-commuter-square-v1.webp",
+      "bytes": 3548,
+      "sha256": "9a9ca5cd7eb07cbff5595f797bd46692c1a1b6c8284f9750a5a103245c90f9a3"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 91.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:55.747Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 92,
+      "material_quality": 87,
+      "light_quality": 89,
+      "architecture_plausibility": 89,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 92,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All four paged contact sheets were inspected at original resolution.",
+      "The templates are intentionally stylized deterministic fallbacks and remain compositionally useful across every required aspect ratio.",
+      "No missing render, broken geometry, sensitive infrastructure detail, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1632499
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:53:41.042Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "chronicle": "Chronik",
+  "companyHistory": "Kennzahlenverlauf",
+  "contractActiveAndHistory": "Verträge und Abrechnungshistorie",
+  "exchangePriceHistory": "Kursverlauf",
+  "exchangePriceHistoryEmpty": "Noch hat kein Handel einen Kursverlauf erzeugt.",
+  "intelOperationHistory": "Verlauf der Informationsoperationen",
+  "navLegacy": "Chronik",
+  "payrollHistory": "Gehaltsverlauf",
+  "payrollHistoryEmpty": "Es wurde noch kein Gehalt abgerechnet.",
+  "propertyLeaseHistory": "Miet- und Zahlungshistorie",
+  "strategicHistory": "Verlauf strategischer Aktionen",
+  "strategicHistoryEmpty": "Noch keine strategischen Aktionen ausgewertet."
+}

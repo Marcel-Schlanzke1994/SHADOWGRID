@@ -1,0 +1,171 @@
+{
+  "asset_id": "character-negotiation-younger-woman-v1",
+  "manifest_order": 551,
+  "category": "character",
+  "batch": "specialists",
+  "city": null,
+  "variant": "younger-woman",
+  "gameplay_state": "normal",
+  "aspect_ratio": "4:5",
+  "width": 1280,
+  "height": 1600,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/character-negotiation-younger-woman-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100551,
+  "content_hash": "75a5d19940ef6ec89f7206140e98c7449f2b6d2a366f1b1a62d58c01b2e049a6",
+  "source_file": "assets/source/characters/character-negotiation-younger-woman-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/character-negotiation-younger-woman-v1-320.avif",
+      "bytes": 3023,
+      "sha256": "d28c9d86579c7e422e2e8cc95276620930216c14718080e68be1c91c139251d3"
+    },
+    {
+      "path": "assets/production/webp/character-negotiation-younger-woman-v1-320.webp",
+      "bytes": 2094,
+      "sha256": "96e7dff94de2b04a8ac7950a4b507a74033eaeafe657163803ddae867d0ed08c"
+    },
+    {
+      "path": "assets/production/avif/character-negotiation-younger-woman-v1-640.avif",
+      "bytes": 6485,
+      "sha256": "5291e2fda32ae561f817e5a09ce9cb40a0aca6484bbcfd5c1a5227a3479c8c68"
+    },
+    {
+      "path": "assets/production/webp/character-negotiation-younger-woman-v1-640.webp",
+      "bytes": 4888,
+      "sha256": "167de67adca00709e3266d9b2d4b3b093478b64e95d963c062607a56c4a2ac9c"
+    },
+    {
+      "path": "assets/production/avif/character-negotiation-younger-woman-v1-960.avif",
+      "bytes": 13641,
+      "sha256": "70cbb6d712a790966b93462651faff85dac66a9e2ea6823a584b7ee161e2791e"
+    },
+    {
+      "path": "assets/production/webp/character-negotiation-younger-woman-v1-960.webp",
+      "bytes": 9310,
+      "sha256": "9c608a2a2a694ab136d6aaf412b95116eb0fcbc906c4d0074386134438a78c37"
+    },
+    {
+      "path": "assets/production/avif/character-negotiation-younger-woman-v1-1280.avif",
+      "bytes": 19942,
+      "sha256": "ce43fea9adc451629d236405db70888d84ef11e26c307b65b07a5f53a7420a2f"
+    },
+    {
+      "path": "assets/production/webp/character-negotiation-younger-woman-v1-1280.webp",
+      "bytes": 14264,
+      "sha256": "23f86574f1823335ac6e664ac2a7730364866e5e144a2395e7256d01e8d2cd5b"
+    },
+    {
+      "path": "assets/production/avif/character-negotiation-younger-woman-v1-1920.avif",
+      "bytes": 31643,
+      "sha256": "7c511d11a44a9ea035bcef06d627de58c222ce1b1c12222640677a64c69ac3bc"
+    },
+    {
+      "path": "assets/production/webp/character-negotiation-younger-woman-v1-1920.webp",
+      "bytes": 24462,
+      "sha256": "724f43a97202a8546645e8f7df90bd6199183051477c12dd1a0561252804d1b3"
+    },
+    {
+      "path": "assets/production/avif/character-negotiation-younger-woman-v1-2560.avif",
+      "bytes": 45250,
+      "sha256": "8e648ef9275dd5efd5fa21e2a337d7df17dce4cd501e3792492ef069fb9260ef"
+    },
+    {
+      "path": "assets/production/webp/character-negotiation-younger-woman-v1-2560.webp",
+      "bytes": 37118,
+      "sha256": "80efeae0e43fc0e257b1a2d0f5265c3006231a5b51588b9ca668999f0f1406ca"
+    },
+    {
+      "path": "assets/production/avif/character-negotiation-younger-woman-v1-3840.avif",
+      "bytes": 74605,
+      "sha256": "0944f8b6ec94f7e2c8c7eb6aacb2ab66efcb8d97c40e75102bfcf425ce0858fd"
+    },
+    {
+      "path": "assets/production/webp/character-negotiation-younger-woman-v1-3840.webp",
+      "bytes": 69764,
+      "sha256": "abef84eafa278bcd77935e69f053e1ed60d469e6999283370fa43ef7085a5a85"
+    },
+    {
+      "path": "assets/production/png/character-negotiation-younger-woman-v1-1280.png",
+      "bytes": 209037,
+      "sha256": "75a5d19940ef6ec89f7206140e98c7449f2b6d2a366f1b1a62d58c01b2e049a6"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/character-negotiation-younger-woman-v1.webp",
+      "bytes": 2094,
+      "sha256": "96e7dff94de2b04a8ac7950a4b507a74033eaeafe657163803ddae867d0ed08c"
+    },
+    {
+      "path": "apps/mobile/assets/library/character-negotiation-younger-woman-v1.webp",
+      "bytes": 2094,
+      "sha256": "96e7dff94de2b04a8ac7950a4b507a74033eaeafe657163803ddae867d0ed08c"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:37.139Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1280,
+      "height": 1600,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 209037
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:18:20.632Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

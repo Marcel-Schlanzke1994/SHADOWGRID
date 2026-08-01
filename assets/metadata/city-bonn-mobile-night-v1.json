@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-bonn-mobile-night-v1",
+  "manifest_order": 216,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "bonn",
+  "variant": "mobile-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-bonn-mobile-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100216,
+  "content_hash": "0ac355c964f87148d8e0a46cdd14b8619129a85cea62829581dd68a0f61c8d55",
+  "source_file": "assets/source/cities/city-bonn-mobile-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-bonn-mobile-night-v1-320.avif",
+      "bytes": 5736,
+      "sha256": "8b6d2c20f9a8c21d1b56836a714f358b1c694777f9fbef926c732d2e590ffa62"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-mobile-night-v1-320.webp",
+      "bytes": 5520,
+      "sha256": "aa9d954074a717900693f9671662270f1b4befb404f42928bf9fea7bb9b7516c"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-mobile-night-v1-640.avif",
+      "bytes": 11659,
+      "sha256": "081b0518450d4100e44976191ae7f843bc34604baf512f427e505ee7d33c109b"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-mobile-night-v1-640.webp",
+      "bytes": 10986,
+      "sha256": "d8b48878b46e9125e08a679bfee233f344c6a52b0eea9992fdd37dd4fd27cff5"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-mobile-night-v1-960.avif",
+      "bytes": 20833,
+      "sha256": "72edf10d97ebc511167fa19de6223c62f44da83283927327a8552005edb881cc"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-mobile-night-v1-960.webp",
+      "bytes": 17900,
+      "sha256": "ed22e5569c919eacc06fc7cda440eacbf57f993c565bab04832dffd1365c230b"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-mobile-night-v1-1280.avif",
+      "bytes": 27567,
+      "sha256": "ba76788a3f4f135fe027741abeaae312f30549b218baea59ef4857ad059bcbee"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-mobile-night-v1-1280.webp",
+      "bytes": 24912,
+      "sha256": "7a3bc3611814edf0cf3627a4f7b179c2cb84f4e8531885186c0262d5dfcd0c1b"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-mobile-night-v1-1920.avif",
+      "bytes": 45533,
+      "sha256": "dfe3b0cf2564336beeeeb2dd586fd02714639bc88e096f9f2b4b02a4267a3d57"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-mobile-night-v1-1920.webp",
+      "bytes": 40838,
+      "sha256": "8cc3096f42d0b9a10e071079cf3df68eeb73629cb67afe5795a0bcfe755ad175"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-mobile-night-v1-2560.avif",
+      "bytes": 62258,
+      "sha256": "decb0c25b4228d660ca844a3e6b498826a94468d0751c336b0947a29b38dab63"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-mobile-night-v1-2560.webp",
+      "bytes": 59608,
+      "sha256": "cddb8c2ee80abf7a3c357d55bf17b1b9bc87c7862f9bbd24461c75be4dc816fd"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-mobile-night-v1-3840.avif",
+      "bytes": 111597,
+      "sha256": "17bdbe8c15bf3944d90005c58b1fa5791239e69a289d094d1a3c38055c0d6624"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-mobile-night-v1-3840.webp",
+      "bytes": 112830,
+      "sha256": "ae130f88ae66b989850af11e173f6d082edabb9c538e79fc16dc9f9359a86c76"
+    },
+    {
+      "path": "assets/production/png/city-bonn-mobile-night-v1-1152.png",
+      "bytes": 1728139,
+      "sha256": "0ac355c964f87148d8e0a46cdd14b8619129a85cea62829581dd68a0f61c8d55"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-night-v1-320.avif",
+      "bytes": 5736,
+      "sha256": "8b6d2c20f9a8c21d1b56836a714f358b1c694777f9fbef926c732d2e590ffa62"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-night-v1-320.webp",
+      "bytes": 5520,
+      "sha256": "aa9d954074a717900693f9671662270f1b4befb404f42928bf9fea7bb9b7516c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-night-v1-640.avif",
+      "bytes": 11659,
+      "sha256": "081b0518450d4100e44976191ae7f843bc34604baf512f427e505ee7d33c109b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-night-v1-640.webp",
+      "bytes": 10986,
+      "sha256": "d8b48878b46e9125e08a679bfee233f344c6a52b0eea9992fdd37dd4fd27cff5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-night-v1-960.avif",
+      "bytes": 20833,
+      "sha256": "72edf10d97ebc511167fa19de6223c62f44da83283927327a8552005edb881cc"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-night-v1-960.webp",
+      "bytes": 17900,
+      "sha256": "ed22e5569c919eacc06fc7cda440eacbf57f993c565bab04832dffd1365c230b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-night-v1-1280.avif",
+      "bytes": 27567,
+      "sha256": "ba76788a3f4f135fe027741abeaae312f30549b218baea59ef4857ad059bcbee"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-night-v1-1280.webp",
+      "bytes": 24912,
+      "sha256": "7a3bc3611814edf0cf3627a4f7b179c2cb84f4e8531885186c0262d5dfcd0c1b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-night-v1-1920.avif",
+      "bytes": 45533,
+      "sha256": "dfe3b0cf2564336beeeeb2dd586fd02714639bc88e096f9f2b4b02a4267a3d57"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-night-v1-1920.webp",
+      "bytes": 40838,
+      "sha256": "8cc3096f42d0b9a10e071079cf3df68eeb73629cb67afe5795a0bcfe755ad175"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-night-v1-2560.avif",
+      "bytes": 62258,
+      "sha256": "decb0c25b4228d660ca844a3e6b498826a94468d0751c336b0947a29b38dab63"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-night-v1-2560.webp",
+      "bytes": 59608,
+      "sha256": "cddb8c2ee80abf7a3c357d55bf17b1b9bc87c7862f9bbd24461c75be4dc816fd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-night-v1-3840.avif",
+      "bytes": 111597,
+      "sha256": "17bdbe8c15bf3944d90005c58b1fa5791239e69a289d094d1a3c38055c0d6624"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-night-v1-3840.webp",
+      "bytes": 112830,
+      "sha256": "ae130f88ae66b989850af11e173f6d082edabb9c538e79fc16dc9f9359a86c76"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-mobile-night-v1-1152.png",
+      "bytes": 1728139,
+      "sha256": "0ac355c964f87148d8e0a46cdd14b8619129a85cea62829581dd68a0f61c8d55"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-bonn-mobile-night-v1.webp",
+      "bytes": 5520,
+      "sha256": "aa9d954074a717900693f9671662270f1b4befb404f42928bf9fea7bb9b7516c"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-bonn-mobile-night-v1.webp",
+      "bytes": 5520,
+      "sha256": "aa9d954074a717900693f9671662270f1b4befb404f42928bf9fea7bb9b7516c"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.201Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1728139
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:07:12.491Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

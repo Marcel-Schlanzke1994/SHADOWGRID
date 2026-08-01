@@ -1,0 +1,25 @@
+{
+  "schema": "shadowgrid/contact-sheet-pages/v1",
+  "batch": "tutorial",
+  "generated_at": "2026-07-30T06:19:20.698Z",
+  "asset_count": 10,
+  "page_size": 18,
+  "pages": [
+    {
+      "page": 1,
+      "path": "assets/reports/contact-sheets/tutorial-pages/page-001.png",
+      "assets": [
+        "tutorial-germany-map-city-selection-v1",
+        "tutorial-city-profile-v1",
+        "tutorial-first-business-v1",
+        "tutorial-specialists-v1",
+        "tutorial-resources-v1",
+        "tutorial-first-operation-v1",
+        "tutorial-district-control-v1",
+        "tutorial-player-versus-player-v1",
+        "tutorial-organization-membership-v1",
+        "tutorial-organization-conflict-season-goals-v1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-university-quarter-crisis-day-v1",
+  "manifest_order": 427,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "crisis-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-university-quarter-crisis-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100427,
+  "content_hash": "ec76452c29e883924babfb87c50cfd6b9a39bf27f773a630be0666ebd1ca195f",
+  "source_file": "assets/source/districts/district-university-quarter-crisis-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-university-quarter-crisis-day-v1-320.avif",
+      "bytes": 2836,
+      "sha256": "137b2deb63fcb63e87fda42613f3fb5c164e8cae422361b07dde4c45098cdc0c"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-crisis-day-v1-320.webp",
+      "bytes": 2274,
+      "sha256": "66a561f08abc8b609e6b01a0842a2b323688591b80034835f821a69d3ad187ca"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-crisis-day-v1-640.avif",
+      "bytes": 6358,
+      "sha256": "0490c3002152e460c83e0f81a108c36c5486a1f9710205b5b51ed2cc868b0014"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-crisis-day-v1-640.webp",
+      "bytes": 4974,
+      "sha256": "b32bd77568fa3f02e02177553499cf4d5bc994fad4108361b181300844d3d0ad"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-crisis-day-v1-960.avif",
+      "bytes": 9947,
+      "sha256": "dc1b288d2b348e194387fce83dba961d27a832880983b554063615101a544c6e"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-crisis-day-v1-960.webp",
+      "bytes": 8180,
+      "sha256": "4dfa4f1fb3cc76451ecea892a37e2a80e9be9304695831fbe5925154a8d69e88"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-crisis-day-v1-1280.avif",
+      "bytes": 14313,
+      "sha256": "e209b9419e98989e719bfb46d469fc27fec639debd899f1079c04afef81ce6c7"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-crisis-day-v1-1280.webp",
+      "bytes": 11104,
+      "sha256": "da9bbfe39098b5af07cbb57fdd2760200535fc06006b51539ed5b86775237c5b"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-crisis-day-v1-1920.avif",
+      "bytes": 21765,
+      "sha256": "fe9bc1c6c3365769d40f2c3d6579a3f6f011b495574ba2fa47e27b497f5891c4"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-crisis-day-v1-1920.webp",
+      "bytes": 17950,
+      "sha256": "f8ddf4916690d83a19c5ed62812ae7e2735664915c9ebefcf40ace9de7e41f06"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-crisis-day-v1-2560.avif",
+      "bytes": 28846,
+      "sha256": "1ef35313e36667f19bbd2df60a3373f308e4acd9906fb2790cea16c7c04bf3c0"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-crisis-day-v1-2560.webp",
+      "bytes": 25158,
+      "sha256": "b8aeda1ee6310cd1cc5c7deb587516f66e2476ec63db82cf44db596c0cc09968"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-crisis-day-v1-3840.avif",
+      "bytes": 47623,
+      "sha256": "1561a18950764c01de225627d24d553593bd9b41ae2187b4f6ed0625a7f9c46f"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-crisis-day-v1-3840.webp",
+      "bytes": 42912,
+      "sha256": "1a3d030db2d452405732e7a276cb10a7dafb2e588ff131efe74a3b0ad52510a8"
+    },
+    {
+      "path": "assets/production/png/district-university-quarter-crisis-day-v1-1280.png",
+      "bytes": 636877,
+      "sha256": "9d3ffaad4a200b05e9b7cc0ea149120409d8ae29e705ae1fbe86b46d9f25cb2d"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-university-quarter-crisis-day-v1.webp",
+      "bytes": 2274,
+      "sha256": "66a561f08abc8b609e6b01a0842a2b323688591b80034835f821a69d3ad187ca"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-university-quarter-crisis-day-v1.webp",
+      "bytes": 2274,
+      "sha256": "66a561f08abc8b609e6b01a0842a2b323688591b80034835f821a69d3ad187ca"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.104Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1460763
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:40:26.741Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

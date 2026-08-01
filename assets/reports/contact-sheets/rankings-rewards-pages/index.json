@@ -1,0 +1,40 @@
+{
+  "schema": "shadowgrid/contact-sheet-pages/v1",
+  "batch": "rankings-rewards",
+  "generated_at": "2026-07-30T06:20:41.719Z",
+  "asset_count": 19,
+  "page_size": 18,
+  "pages": [
+    {
+      "page": 1,
+      "path": "assets/reports/contact-sheets/rankings-rewards-pages/page-001.png",
+      "assets": [
+        "reward-gold-medal-v1",
+        "reward-silver-medal-v1",
+        "reward-bronze-medal-v1",
+        "reward-strongest-player-v1",
+        "reward-strongest-organization-v1",
+        "reward-best-economy-v1",
+        "reward-best-district-control-v1",
+        "reward-best-diplomacy-v1",
+        "reward-best-information-network-v1",
+        "reward-highest-stability-v1",
+        "reward-best-defense-v1",
+        "reward-strongest-recovery-v1",
+        "reward-most-successful-alliance-v1",
+        "reward-top-1-v1",
+        "reward-top-10-v1",
+        "reward-top-100-v1",
+        "reward-city-champion-v1",
+        "reward-state-champion-v1"
+      ]
+    },
+    {
+      "page": 2,
+      "path": "assets/reports/contact-sheets/rankings-rewards-pages/page-002.png",
+      "assets": [
+        "reward-germany-champion-v1"
+      ]
+    }
+  ]
+}

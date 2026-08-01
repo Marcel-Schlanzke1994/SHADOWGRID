@@ -1,0 +1,75 @@
+{
+  "asset_id": "reward-highest-stability-v1",
+  "manifest_order": 845,
+  "category": "reward",
+  "batch": "rankings-rewards",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/reward-highest-stability-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100845,
+  "content_hash": "11ff9a80b41013704b6049f4286d2f5f73aa9777b32f32bb422506d6c4a5a3bc",
+  "source_file": "assets/source/rewards/reward-highest-stability-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/reward-highest-stability-v1.svg",
+      "bytes": 950,
+      "sha256": "11ff9a80b41013704b6049f4286d2f5f73aa9777b32f32bb422506d6c4a5a3bc"
+    },
+    {
+      "path": "assets/production/webp/reward-highest-stability-v1-320.webp",
+      "bytes": 14060,
+      "sha256": "5726a3a93894c541703128f01c1cba6e18d9d765cae497122b96a36b3c1a4111"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/reward-highest-stability-v1.webp",
+      "bytes": 14060,
+      "sha256": "5726a3a93894c541703128f01c1cba6e18d9d765cae497122b96a36b3c1a4111"
+    },
+    {
+      "path": "apps/mobile/assets/library/reward-highest-stability-v1.webp",
+      "bytes": 14060,
+      "sha256": "5726a3a93894c541703128f01c1cba6e18d9d765cae497122b96a36b3c1a4111"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 950
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:41:14.181Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

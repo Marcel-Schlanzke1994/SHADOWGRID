@@ -1,0 +1,28 @@
+SHADOWGRID final release evidence
+Step: Migrate fresh release database
+Command: pnpm migrate
+Started: 2026-07-30T07:21:51.289Z
+
+$ node scripts/run-python.mjs --cwd apps/api -m alembic upgrade head
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+INFO  [alembic.runtime.migration] Running upgrade  -> 0001_initial_schema, Create the initial server-authoritative schema.
+INFO  [alembic.runtime.migration] Running upgrade 0001_initial_schema -> 0002_multiplayer_core, Add the persistent multiplayer, PvP, territory, war, alliance and chat core.
+INFO  [alembic.runtime.migration] Running upgrade 0002_multiplayer_core -> 0003_company_finance, Add Phase 2 companies, ownership and balanced financial accounts.
+INFO  [alembic.runtime.migration] Running upgrade 0003_company_finance -> 0004_economy_ticks, Add deterministic city-sector economy ticks and immutable reports.
+INFO  [alembic.runtime.migration] Running upgrade 0004_economy_ticks -> 0005_specialists_ai, Add Phase 4 specialist employment, payroll and local AI state.
+INFO  [alembic.runtime.migration] Running upgrade 0005_specialists_ai -> 0006_city_foreign_keys, Align city foreign keys across PostgreSQL and SQLite.
+INFO  [alembic.runtime.migration] Running upgrade 0006_city_foreign_keys -> 0007_exchange, Add Phase 5 exchange listings, reservations, orders, trades and dividends.
+INFO  [alembic.runtime.migration] Running upgrade 0007_exchange -> 0008_cartels, Add Phase 6 cartel governance, treasury projects and influence.
+INFO  [alembic.runtime.migration] Running upgrade 0008_cartels -> 0009_intelligence_pvp, Add Phase 7 intelligence reports, trading and abstract strategic actions.
+INFO  [alembic.runtime.migration] Running upgrade 0009_intelligence_pvp -> 0010_world_events, Add Phase 8 versioned world-event definitions and concrete instances.
+INFO  [alembic.runtime.migration] Running upgrade 0010_world_events -> 0011_seasons, Add Phase 9 seasons, immutable scoring, rewards and archival snapshots.
+INFO  [alembic.runtime.migration] Running upgrade 0011_seasons -> 0012_contracts, Add Phase 10A commercial tenders, bids, contracts and settlements.
+INFO  [alembic.runtime.migration] Running upgrade 0012_contracts -> 0013_loans, Add Phase 10B loan applications, company loans and payments.
+INFO  [alembic.runtime.migration] Running upgrade 0013_loans -> 0014_bonds, Add Phase 10C bond issuance, holdings and settlements.
+INFO  [alembic.runtime.migration] Running upgrade 0014_bonds -> 0015_real_estate, Add Phase 10D district real estate, leases and improvements.
+INFO  [alembic.runtime.migration] Running upgrade 0015_real_estate -> 0016_realtime_notifications, Add Phase 11 scoped realtime event contracts and notification index.
+INFO  [alembic.runtime.migration] Running upgrade 0016_realtime_notifications -> 0017_release_hardening, Add shared transactional rate-limit buckets for release hardening.
+
+Finished: 2026-07-30T07:22:12.682Z
+Exit code: 0

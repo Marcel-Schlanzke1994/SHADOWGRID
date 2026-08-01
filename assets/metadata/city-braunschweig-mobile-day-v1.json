@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-braunschweig-mobile-day-v1",
+  "manifest_order": 287,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "braunschweig",
+  "variant": "mobile-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-braunschweig-mobile-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100287,
+  "content_hash": "e7f60a3d5905ded052a80b1b8f5a73c0d3210b40240dc23f1ecf93fafc3d3371",
+  "source_file": "assets/source/cities/city-braunschweig-mobile-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-braunschweig-mobile-day-v1-320.avif",
+      "bytes": 4655,
+      "sha256": "f614b3b1cdbe27d0a3274eab0b7a53eceff3cffc93fc7ac93004321af902b002"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-mobile-day-v1-320.webp",
+      "bytes": 4092,
+      "sha256": "8e61170e266008dc4a4a6186b1a7e9c68105c016aa7c2a8009a853ce8b93bb75"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-mobile-day-v1-640.avif",
+      "bytes": 9960,
+      "sha256": "9d587e8d22710c8ba0c9c86a972c94f8071ee77f528dae082479367404752c45"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-mobile-day-v1-640.webp",
+      "bytes": 7946,
+      "sha256": "dd907a517ecb5c6db7ef2f90a5dad826b9c90d58fc284df06e14bd112a60127c"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-mobile-day-v1-960.avif",
+      "bytes": 16884,
+      "sha256": "b2939f97eaa8eb95adee4ce400b0d0c66e0a16189f7fc676004d0f60f978bf0c"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-mobile-day-v1-960.webp",
+      "bytes": 13696,
+      "sha256": "b262cdfb361bc0b91bb204565990929b4241c9cfb0825e9a4edeec80d88c8df4"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-mobile-day-v1-1280.avif",
+      "bytes": 22790,
+      "sha256": "f635e4d69a376e13d0058070794de2983e3bcd5d5d780049f6275b42d2b27623"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-mobile-day-v1-1280.webp",
+      "bytes": 19518,
+      "sha256": "12bb5580d1b67916f412b206c36cefa0ab6df7898c2df7136852ac28f2bdc02d"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-mobile-day-v1-1920.avif",
+      "bytes": 37470,
+      "sha256": "56a81cc99b4dc530fc6e947087b6823b173ce23fdd400e99b136cc25e57e33ff"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-mobile-day-v1-1920.webp",
+      "bytes": 34502,
+      "sha256": "7282397d43043f8a9b3a5971a821c9471f9fb62d2c9343398a51912827d2bda1"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-mobile-day-v1-2560.avif",
+      "bytes": 54393,
+      "sha256": "be0105cb86a1866bd36a5a5f458ae97df7e5f12392b2c05d05604069a43d2913"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-mobile-day-v1-2560.webp",
+      "bytes": 52188,
+      "sha256": "e10422ce56db68e0ac73725dede531827328438180bf4aa28f292d7bc5ac7f43"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-mobile-day-v1-3840.avif",
+      "bytes": 98121,
+      "sha256": "cec11923075c0294b517e28a87d2ce2a2abfc73d7d79526e39318041f109071a"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-mobile-day-v1-3840.webp",
+      "bytes": 103620,
+      "sha256": "d94c5530da4597b5a57143cc22631b55890c46279b9e986f34ae7b0c7ecc495a"
+    },
+    {
+      "path": "assets/production/png/city-braunschweig-mobile-day-v1-1152.png",
+      "bytes": 1697345,
+      "sha256": "e7f60a3d5905ded052a80b1b8f5a73c0d3210b40240dc23f1ecf93fafc3d3371"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-day-v1-320.avif",
+      "bytes": 4655,
+      "sha256": "f614b3b1cdbe27d0a3274eab0b7a53eceff3cffc93fc7ac93004321af902b002"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-day-v1-320.webp",
+      "bytes": 4092,
+      "sha256": "8e61170e266008dc4a4a6186b1a7e9c68105c016aa7c2a8009a853ce8b93bb75"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-day-v1-640.avif",
+      "bytes": 9960,
+      "sha256": "9d587e8d22710c8ba0c9c86a972c94f8071ee77f528dae082479367404752c45"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-day-v1-640.webp",
+      "bytes": 7946,
+      "sha256": "dd907a517ecb5c6db7ef2f90a5dad826b9c90d58fc284df06e14bd112a60127c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-day-v1-960.avif",
+      "bytes": 16884,
+      "sha256": "b2939f97eaa8eb95adee4ce400b0d0c66e0a16189f7fc676004d0f60f978bf0c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-day-v1-960.webp",
+      "bytes": 13696,
+      "sha256": "b262cdfb361bc0b91bb204565990929b4241c9cfb0825e9a4edeec80d88c8df4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-day-v1-1280.avif",
+      "bytes": 22790,
+      "sha256": "f635e4d69a376e13d0058070794de2983e3bcd5d5d780049f6275b42d2b27623"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-day-v1-1280.webp",
+      "bytes": 19518,
+      "sha256": "12bb5580d1b67916f412b206c36cefa0ab6df7898c2df7136852ac28f2bdc02d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-day-v1-1920.avif",
+      "bytes": 37470,
+      "sha256": "56a81cc99b4dc530fc6e947087b6823b173ce23fdd400e99b136cc25e57e33ff"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-day-v1-1920.webp",
+      "bytes": 34502,
+      "sha256": "7282397d43043f8a9b3a5971a821c9471f9fb62d2c9343398a51912827d2bda1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-day-v1-2560.avif",
+      "bytes": 54393,
+      "sha256": "be0105cb86a1866bd36a5a5f458ae97df7e5f12392b2c05d05604069a43d2913"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-day-v1-2560.webp",
+      "bytes": 52188,
+      "sha256": "e10422ce56db68e0ac73725dede531827328438180bf4aa28f292d7bc5ac7f43"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-day-v1-3840.avif",
+      "bytes": 98121,
+      "sha256": "cec11923075c0294b517e28a87d2ce2a2abfc73d7d79526e39318041f109071a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-day-v1-3840.webp",
+      "bytes": 103620,
+      "sha256": "d94c5530da4597b5a57143cc22631b55890c46279b9e986f34ae7b0c7ecc495a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-day-v1-1152.png",
+      "bytes": 1697345,
+      "sha256": "e7f60a3d5905ded052a80b1b8f5a73c0d3210b40240dc23f1ecf93fafc3d3371"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-braunschweig-mobile-day-v1.webp",
+      "bytes": 4092,
+      "sha256": "8e61170e266008dc4a4a6186b1a7e9c68105c016aa7c2a8009a853ce8b93bb75"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-braunschweig-mobile-day-v1.webp",
+      "bytes": 4092,
+      "sha256": "8e61170e266008dc4a4a6186b1a7e9c68105c016aa7c2a8009a853ce8b93bb75"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:42.248Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1697345
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:09:11.373Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

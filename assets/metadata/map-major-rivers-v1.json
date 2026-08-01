@@ -23,6 +23,11 @@
       "path": "assets/production/svg/map-major-rivers-v1.svg",
       "bytes": 75041,
       "sha256": "f41e1dc84286def02bf7a3e718c36c47a5bd54bbcf00f67f9a5106123ed0e6ab"
+    },
+    {
+      "path": "assets/production/webp/map-major-rivers-v1-320.webp",
+      "bytes": 7640,
+      "sha256": "dd507ef7b664233312439177a35d6fe6006b1f50fc339515032a74b0705f8058"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/maps/map-major-rivers-v1.svg",
       "bytes": 75041,
       "sha256": "f41e1dc84286def02bf7a3e718c36c47a5bd54bbcf00f67f9a5106123ed0e6ab"
+    },
+    {
+      "path": "apps/web/public/assets/maps/map-major-rivers-v1-320.webp",
+      "bytes": 7640,
+      "sha256": "dd507ef7b664233312439177a35d6fe6006b1f50fc339515032a74b0705f8058"
+    },
+    {
+      "path": "apps/web/public/assets/library/map-major-rivers-v1.webp",
+      "bytes": 7640,
+      "sha256": "dd507ef7b664233312439177a35d6fe6006b1f50fc339515032a74b0705f8058"
+    },
+    {
+      "path": "apps/mobile/assets/library/map-major-rivers-v1.webp",
+      "bytes": 7640,
+      "sha256": "dd507ef7b664233312439177a35d6fe6006b1f50fc339515032a74b0705f8058"
     }
   ],
   "contains_text": false,

@@ -23,6 +23,7 @@ from shadowgrid.game_config import (
     RISK_POSTURES,
     WAR_SCORE_WEIGHTS,
 )
+from shadowgrid.intelligence import active_reputation_penalty
 from shadowgrid.models import (
     AllianceMembership,
     Business,
@@ -46,7 +47,6 @@ from shadowgrid.models import (
     PvpProtectionState,
     PvpReport,
     PvpReputation,
-    RealtimeEvent,
     ResourceBalance,
     TerritoryClaim,
     TerritoryContribution,
@@ -64,6 +64,7 @@ from shadowgrid.multiplayer_schemas import (
     TerritoryControlPointView,
     TerritoryView,
 )
+from shadowgrid.realtime import emit_realtime_event
 
 PVP_OPEN_STATES = {"warning", "running"}
 WAR_OPEN_STATES = {"ultimatum", "preparation", "active", "aftermath"}
@@ -85,21 +86,25 @@ def emit_realtime(
     payload: dict[str, Any],
     profile_ids: list[str] | None = None,
 ) -> None:
-    targets: list[str | None]
     if profile_ids:
-        targets = list(dict.fromkeys(profile_ids))
-    else:
-        targets = [None]
-    for profile_id in targets:
-        db.add(
-            RealtimeEvent(
+        for profile_id in dict.fromkeys(profile_ids):
+            emit_realtime_event(
+                db,
                 world_id=world_id,
-                profile_id=profile_id,
                 event_type=event_type,
-                payload_json=payload,
-                expires_at=datetime.now(UTC) + timedelta(hours=24),
+                payload=payload,
+                audience_type="player",
+                audience_id=profile_id,
+                ttl=timedelta(hours=24),
             )
-        )
+        return
+    emit_realtime_event(
+        db,
+        world_id=world_id,
+        event_type=event_type,
+        payload=payload,
+        ttl=timedelta(hours=24),
+    )
 
 
 def protection_for_profile(db: Session, profile: PlayerProfile) -> PvpProtectionView:
@@ -244,6 +249,7 @@ def pvp_targets(db: Session, profile: PlayerProfile) -> list[PvpTargetView]:
     for target in targets:
         target_cartel = _cartel_for_profile(db, target.id)
         reputation = get_or_create_reputation(db, target)
+        reputation_penalty = active_reputation_penalty(db, target.id, datetime.now(UTC))
         protection = protection_for_profile(db, target)
         business_count = (
             db.scalar(
@@ -274,12 +280,12 @@ def pvp_targets(db: Session, profile: PlayerProfile) -> list[PvpTargetView]:
                 cartel_id=target_cartel.id if target_cartel else None,
                 cartel_name=target_cartel.name if target_cartel else None,
                 public_reputation={
-                    "reliability": reputation.reliability,
+                    "reliability": max(0, reputation.reliability - reputation_penalty),
                     "economic_strength": reputation.economic_strength,
                     "diplomacy": reputation.diplomacy,
                     "aggression": reputation.aggression,
                     "defense": reputation.defense,
-                    "stability": reputation.stability,
+                    "stability": max(0, reputation.stability - reputation_penalty),
                 },
                 estimated_strength=recommendation,
                 known_businesses=int(business_count),

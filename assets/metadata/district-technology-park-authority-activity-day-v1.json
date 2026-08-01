@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-technology-park-authority-activity-day-v1",
+  "manifest_order": 405,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "authority-activity-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-technology-park-authority-activity-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100405,
+  "content_hash": "015bf8e13e02144c3c13c98f72cfe5cf07673803d08f0590ef50ffe473860f5c",
+  "source_file": "assets/source/districts/district-technology-park-authority-activity-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-technology-park-authority-activity-day-v1-320.avif",
+      "bytes": 3049,
+      "sha256": "3cb76808fee5abb74fa9273f77d33e9673f6a6870446b0ed4e00c72ed08f4051"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-authority-activity-day-v1-320.webp",
+      "bytes": 2776,
+      "sha256": "89c083859faaafca3396e35d87ee72cb857094582e9f06251fbc234e24598c8f"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-authority-activity-day-v1-640.avif",
+      "bytes": 6564,
+      "sha256": "7dfa8486f0a76b54d0b14ec0efa10da5c892258552663ece94fc58736377d1e4"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-authority-activity-day-v1-640.webp",
+      "bytes": 5366,
+      "sha256": "7a56a98de31cad5c406cb5b08758abc62da9b9ecea29189e41f10bf72927cb50"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-authority-activity-day-v1-960.avif",
+      "bytes": 11115,
+      "sha256": "4202cd48a4d67d6593d5d3f6678be66dbe924e7c68385f6fdf4cccda040f794a"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-authority-activity-day-v1-960.webp",
+      "bytes": 8976,
+      "sha256": "458f462d276e503984ed38cf1327d7a2997248df5da07138b5c805936d195097"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-authority-activity-day-v1-1280.avif",
+      "bytes": 15383,
+      "sha256": "a9361f92ff946e60dec70a105be21624002b28a94d4189d1b0bec344d81af438"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-authority-activity-day-v1-1280.webp",
+      "bytes": 11908,
+      "sha256": "d8d1adb8a9832ac6807b5612647f9ef4787ad50632f8629e5383ba5314878f99"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-authority-activity-day-v1-1920.avif",
+      "bytes": 23309,
+      "sha256": "a276578163d8d9181a82287d1054ebd06ecc1b5b283c5601c3edd28b8a7b1d23"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-authority-activity-day-v1-1920.webp",
+      "bytes": 19364,
+      "sha256": "dd97380c64e1d9876f859a1bf579defd9f6fccb2e2a019e4a9927b3844226555"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-authority-activity-day-v1-2560.avif",
+      "bytes": 31386,
+      "sha256": "4fe98c54ee58cb07ee2d61618a26da7fe906ec9a47607fd7a618ee449ab2933c"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-authority-activity-day-v1-2560.webp",
+      "bytes": 26532,
+      "sha256": "64760d434049dfa6803837a5b2e0eaf99ef290620cbb20f9a771daec133e14a4"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-authority-activity-day-v1-3840.avif",
+      "bytes": 51408,
+      "sha256": "d315390e5942b46a7eeda5878c1200ecc69e034a3d145a89b6c8e7824691a2b9"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-authority-activity-day-v1-3840.webp",
+      "bytes": 45638,
+      "sha256": "094e7ae4bbdee81936961cc6ad47596d59258294867f8ed45ba3759a0be06a37"
+    },
+    {
+      "path": "assets/production/png/district-technology-park-authority-activity-day-v1-1280.png",
+      "bytes": 637740,
+      "sha256": "f606cda218a5a7bfa919873b0a7165ed6cb79746d6abb4b43a4fdc6342ccf0e5"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-technology-park-authority-activity-day-v1.webp",
+      "bytes": 2776,
+      "sha256": "89c083859faaafca3396e35d87ee72cb857094582e9f06251fbc234e24598c8f"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-technology-park-authority-activity-day-v1.webp",
+      "bytes": 2776,
+      "sha256": "89c083859faaafca3396e35d87ee72cb857094582e9f06251fbc234e24598c8f"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.843Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1440326
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:33:06.335Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

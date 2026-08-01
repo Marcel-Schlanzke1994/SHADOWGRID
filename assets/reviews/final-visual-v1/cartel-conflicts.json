@@ -1,0 +1,26 @@
+{
+  "schema": "shadowgrid-visual-review-v2",
+  "reviewer": "codex-final-visual-review",
+  "batch": "cartel-conflicts",
+  "scores": {
+    "realism": 87,
+    "style_consistency": 96,
+    "composition": 94,
+    "material_quality": 89,
+    "light_quality": 92,
+    "architecture_plausibility": 90,
+    "ui_suitability": 95,
+    "mobile_suitability": 93,
+    "originality": 93,
+    "safety_compliance": 100,
+    "small_size_legibility": 92,
+    "contrast": 95,
+    "geometry_quality": 94,
+    "technical_quality": 97
+  },
+  "notes": [
+    "The complete paged contact sheet was inspected at original resolution.",
+    "Conflict phases remain fictional and abstract, with no actionable real-world violence, hacking, or sabotage content.",
+    "No missing render, unsafe instruction, broken crop, logo, or unintended text was observed."
+  ]
+}

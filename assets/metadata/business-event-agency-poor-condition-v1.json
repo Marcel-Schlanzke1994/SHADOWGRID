@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-event-agency-poor-condition-v1",
+  "manifest_order": 473,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "poor-condition",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-event-agency-poor-condition-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100473,
+  "content_hash": "518f7183210aff890809bede0e735879d5f3fc34bc7922817323340859067a95",
+  "source_file": "assets/source/businesses/business-event-agency-poor-condition-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-event-agency-poor-condition-v1-320.avif",
+      "bytes": 2792,
+      "sha256": "21611866044409e8906441ac051770339a67cd1f6ef7bb0bc959da5458dedfa6"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-poor-condition-v1-320.webp",
+      "bytes": 2344,
+      "sha256": "2d5cb0a9a815f0d724e902fc83d7492123e2ca2924a796f8055e748500742120"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-poor-condition-v1-640.avif",
+      "bytes": 6035,
+      "sha256": "1f38bc01a77ea43b4240be0667af14ff5ad8ec19be161bd225c63feefe87237c"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-poor-condition-v1-640.webp",
+      "bytes": 4786,
+      "sha256": "268c97d36f9826244926f6558a73d2a3421a9fd8f7d6b2a8e2ea2e595e34cb3a"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-poor-condition-v1-960.avif",
+      "bytes": 9610,
+      "sha256": "e851c57643a27e701428a0b3b075ea5d5d5454c15f28bfe8e6c6bbed5e5e08c1"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-poor-condition-v1-960.webp",
+      "bytes": 7586,
+      "sha256": "70a3f55be6e01e685fcef8c7626133c9768953da617e9afaf5715a9652c63bc7"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-poor-condition-v1-1280.avif",
+      "bytes": 13625,
+      "sha256": "5d2b4f310a9a1a9f03b1678228d034725283ea209853b8ef48fd95da6f4472a7"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-poor-condition-v1-1280.webp",
+      "bytes": 10558,
+      "sha256": "05433409895c4b0ebb110bdf8cf207298a214d54efb94ab09fdb77ac737bcfae"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-poor-condition-v1-1920.avif",
+      "bytes": 21164,
+      "sha256": "5b0592cdaf7cde6685ba7b98d14c2387408de4d943eb18203054b9a5a7fb18fa"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-poor-condition-v1-1920.webp",
+      "bytes": 16334,
+      "sha256": "afbac94b722d03cdc7539506cc5fdad3c79dc6305512a830627ff4415078e989"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-poor-condition-v1-2560.avif",
+      "bytes": 28099,
+      "sha256": "6bce63de00940df4bdf975f0ca912aeeb8cb8af89767999f2e07c982c31f2a76"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-poor-condition-v1-2560.webp",
+      "bytes": 23430,
+      "sha256": "3951ae2ddf8afe4c89600bc0677878c33759bc76187bb683406512349a91ab7c"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-poor-condition-v1-3840.avif",
+      "bytes": 46442,
+      "sha256": "db4340eb7c0ebe4db1ec35005ad9e81754b7bacc50ec695f3c9b1eb681e903fd"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-poor-condition-v1-3840.webp",
+      "bytes": 39684,
+      "sha256": "4ef613716c2ec2ba5ecc19130d774d8681575978e58be7c3b5e8b6e84f76207c"
+    },
+    {
+      "path": "assets/production/png/business-event-agency-poor-condition-v1-1280.png",
+      "bytes": 621037,
+      "sha256": "50a164c373127191950db4cd3061012f8e21fb99a768e69df42f32365b9891c7"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-event-agency-poor-condition-v1.webp",
+      "bytes": 2344,
+      "sha256": "2d5cb0a9a815f0d724e902fc83d7492123e2ca2924a796f8055e748500742120"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-event-agency-poor-condition-v1.webp",
+      "bytes": 2344,
+      "sha256": "2d5cb0a9a815f0d724e902fc83d7492123e2ca2924a796f8055e748500742120"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.409Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1438190
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:55:00.987Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

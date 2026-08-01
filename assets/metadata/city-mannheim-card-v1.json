@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-mannheim-card-v1",
+  "manifest_order": 241,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "mannheim",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-mannheim-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100241,
+  "content_hash": "4ad2b998bbd6acd78e824423dfbd8ee1ea3cec18a98dc0a759a73c72d7ad4782",
+  "source_file": "assets/source/cities/city-mannheim-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-mannheim-card-v1-320.avif",
+      "bytes": 3590,
+      "sha256": "8f6fcdff3a22bf058b79d5493077e99e246c63c51d0139ae85281e1654db1f31"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-card-v1-320.webp",
+      "bytes": 3408,
+      "sha256": "98075af59f42b0e0535c9c01aa7eadd8c2877d7bb40b1c235bfa4a6627378d4f"
+    },
+    {
+      "path": "assets/production/avif/city-mannheim-card-v1-640.avif",
+      "bytes": 7791,
+      "sha256": "afe95061fa47fcf20c277ba396b5631d370db1f969013fd8f89e68e7cbca15b7"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-card-v1-640.webp",
+      "bytes": 6674,
+      "sha256": "19790a025d9bd3815f80c0f14566f625e8c3ac5aaf011b7490a5aec1dcd55acd"
+    },
+    {
+      "path": "assets/production/avif/city-mannheim-card-v1-960.avif",
+      "bytes": 13770,
+      "sha256": "fe411d4fcccbda74221cde7a38b208233b7ac5dea9be7ba065f8e46c10d8c5f2"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-card-v1-960.webp",
+      "bytes": 11048,
+      "sha256": "1d33cec90a89b2a8fbcc9e1c4bedd5928f614b89073890f2dca287359f3fdc87"
+    },
+    {
+      "path": "assets/production/avif/city-mannheim-card-v1-1280.avif",
+      "bytes": 18723,
+      "sha256": "e828bfd97c22adaa52801617ee6f2b9d2ba9ed363b76b9015b13f154968c4a73"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-card-v1-1280.webp",
+      "bytes": 14988,
+      "sha256": "43b1dded1ac53182ba56efd742bb27ca9a4db315c6fdecbe4d453ce69f9b56a5"
+    },
+    {
+      "path": "assets/production/avif/city-mannheim-card-v1-1920.avif",
+      "bytes": 28393,
+      "sha256": "353b9f6f1f59d72e37d5f0bb95e7ba0ec19f85243b2a564abdcf37aba2f37650"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-card-v1-1920.webp",
+      "bytes": 24828,
+      "sha256": "2bec142ef70dadd2ab8a04798379a942ee4a96b5cfbd01bd8767fb711c965279"
+    },
+    {
+      "path": "assets/production/avif/city-mannheim-card-v1-2560.avif",
+      "bytes": 40050,
+      "sha256": "1b5252c9be8bcbe9d94676a44e8d5853246aa36ad369ccbfbde3846a1459bbca"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-card-v1-2560.webp",
+      "bytes": 36454,
+      "sha256": "dfa91984e0716787ca088a0557aaeb91962e802a87680a2534d4d10586b17f37"
+    },
+    {
+      "path": "assets/production/avif/city-mannheim-card-v1-3840.avif",
+      "bytes": 65194,
+      "sha256": "40876c321f3c27a4f10c51d2efd1ef9576eead16f8b72970b05b8098fdd81a5b"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-card-v1-3840.webp",
+      "bytes": 65466,
+      "sha256": "67d11af2c07ad57adff31feb32a1cb7e798260a215ef9fd02b6cb545a18604b4"
+    },
+    {
+      "path": "assets/production/png/city-mannheim-card-v1-1280.png",
+      "bytes": 1256268,
+      "sha256": "fbe4a85d58d7fedfd44f2d82e5f4b925149ad168f2cb0906e78f7ae33bca1781"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-card-v1-320.avif",
+      "bytes": 3590,
+      "sha256": "8f6fcdff3a22bf058b79d5493077e99e246c63c51d0139ae85281e1654db1f31"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-card-v1-320.webp",
+      "bytes": 3408,
+      "sha256": "98075af59f42b0e0535c9c01aa7eadd8c2877d7bb40b1c235bfa4a6627378d4f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-card-v1-640.avif",
+      "bytes": 7791,
+      "sha256": "afe95061fa47fcf20c277ba396b5631d370db1f969013fd8f89e68e7cbca15b7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-card-v1-640.webp",
+      "bytes": 6674,
+      "sha256": "19790a025d9bd3815f80c0f14566f625e8c3ac5aaf011b7490a5aec1dcd55acd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-card-v1-960.avif",
+      "bytes": 13770,
+      "sha256": "fe411d4fcccbda74221cde7a38b208233b7ac5dea9be7ba065f8e46c10d8c5f2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-card-v1-960.webp",
+      "bytes": 11048,
+      "sha256": "1d33cec90a89b2a8fbcc9e1c4bedd5928f614b89073890f2dca287359f3fdc87"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-card-v1-1280.avif",
+      "bytes": 18723,
+      "sha256": "e828bfd97c22adaa52801617ee6f2b9d2ba9ed363b76b9015b13f154968c4a73"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-card-v1-1280.webp",
+      "bytes": 14988,
+      "sha256": "43b1dded1ac53182ba56efd742bb27ca9a4db315c6fdecbe4d453ce69f9b56a5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-card-v1-1920.avif",
+      "bytes": 28393,
+      "sha256": "353b9f6f1f59d72e37d5f0bb95e7ba0ec19f85243b2a564abdcf37aba2f37650"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-card-v1-1920.webp",
+      "bytes": 24828,
+      "sha256": "2bec142ef70dadd2ab8a04798379a942ee4a96b5cfbd01bd8767fb711c965279"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-card-v1-2560.avif",
+      "bytes": 40050,
+      "sha256": "1b5252c9be8bcbe9d94676a44e8d5853246aa36ad369ccbfbde3846a1459bbca"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-card-v1-2560.webp",
+      "bytes": 36454,
+      "sha256": "dfa91984e0716787ca088a0557aaeb91962e802a87680a2534d4d10586b17f37"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-card-v1-3840.avif",
+      "bytes": 65194,
+      "sha256": "40876c321f3c27a4f10c51d2efd1ef9576eead16f8b72970b05b8098fdd81a5b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-card-v1-3840.webp",
+      "bytes": 65466,
+      "sha256": "67d11af2c07ad57adff31feb32a1cb7e798260a215ef9fd02b6cb545a18604b4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-card-v1-1280.png",
+      "bytes": 1256268,
+      "sha256": "fbe4a85d58d7fedfd44f2d82e5f4b925149ad168f2cb0906e78f7ae33bca1781"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-mannheim-card-v1.webp",
+      "bytes": 3408,
+      "sha256": "98075af59f42b0e0535c9c01aa7eadd8c2877d7bb40b1c235bfa4a6627378d4f"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-mannheim-card-v1.webp",
+      "bytes": 3408,
+      "sha256": "98075af59f42b0e0535c9c01aa7eadd8c2877d7bb40b1c235bfa4a6627378d4f"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.499Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1659216
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:28:32.616Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

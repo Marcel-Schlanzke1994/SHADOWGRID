@@ -33,9 +33,25 @@
       "path": "assets/production/webp/branding-shadowgrid-symbol-gold-v1-1536.webp",
       "bytes": 10726,
       "sha256": "14ea99c35470f1c80617bc2f4f0be2856b421b45deea0d9a507de3cb7c8b6783"
+    },
+    {
+      "path": "assets/production/webp/branding-shadowgrid-symbol-gold-v1-320.webp",
+      "bytes": 2728,
+      "sha256": "aa297f47cf4b1d70c5a0c9838bae8750f307103d2636a23707abb4546fa67eaf"
     }
   ],
-  "runtime_files": [],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/branding-shadowgrid-symbol-gold-v1.webp",
+      "bytes": 2728,
+      "sha256": "aa297f47cf4b1d70c5a0c9838bae8750f307103d2636a23707abb4546fa67eaf"
+    },
+    {
+      "path": "apps/mobile/assets/library/branding-shadowgrid-symbol-gold-v1.webp",
+      "bytes": 2728,
+      "sha256": "aa297f47cf4b1d70c5a0c9838bae8750f307103d2636a23707abb4546fa67eaf"
+    }
+  ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,

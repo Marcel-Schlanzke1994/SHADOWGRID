@@ -1,0 +1,75 @@
+{
+  "asset_id": "icon-pvp-information-operation-v1",
+  "manifest_order": 768,
+  "category": "icon",
+  "batch": "ui-icons",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "24:24",
+  "width": 24,
+  "height": 24,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/icon-pvp-information-operation-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100768,
+  "content_hash": "e174b73c7ac44202087a038001e656511cae6e3ba7caed58fae954b5cb1e1d35",
+  "source_file": "assets/source/icons/icon-pvp-information-operation-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/icon-pvp-information-operation-v1.svg",
+      "bytes": 823,
+      "sha256": "e174b73c7ac44202087a038001e656511cae6e3ba7caed58fae954b5cb1e1d35"
+    },
+    {
+      "path": "assets/production/webp/icon-pvp-information-operation-v1-320.webp",
+      "bytes": 2934,
+      "sha256": "207aa644097f71b96442955b46f44de02dd562b1acc96e6795365927b9b767ab"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/icon-pvp-information-operation-v1.webp",
+      "bytes": 2934,
+      "sha256": "207aa644097f71b96442955b46f44de02dd562b1acc96e6795365927b9b767ab"
+    },
+    {
+      "path": "apps/mobile/assets/library/icon-pvp-information-operation-v1.webp",
+      "bytes": 2934,
+      "sha256": "207aa644097f71b96442955b46f44de02dd562b1acc96e6795365927b9b767ab"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 823
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:51:41.179Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

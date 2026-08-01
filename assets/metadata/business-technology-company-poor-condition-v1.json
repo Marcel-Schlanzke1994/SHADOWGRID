@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-technology-company-poor-condition-v1",
+  "manifest_order": 491,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "poor-condition",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-technology-company-poor-condition-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100491,
+  "content_hash": "9bbf629bd11a71bbb73efd9cf6f0e335b18011c9f3b47822e3a63d97a2a7226f",
+  "source_file": "assets/source/businesses/business-technology-company-poor-condition-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-technology-company-poor-condition-v1-320.avif",
+      "bytes": 2966,
+      "sha256": "a2d3c4d65345929a11e9ee167654b65678c09ee8d1a6c99b3422c7f5b6c5242e"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-poor-condition-v1-320.webp",
+      "bytes": 2472,
+      "sha256": "99eac38d8cd59153711f6c90ac178ba417b67092b514879b1d666df76325f0b1"
+    },
+    {
+      "path": "assets/production/avif/business-technology-company-poor-condition-v1-640.avif",
+      "bytes": 6616,
+      "sha256": "6052eec80f2051dddc619520f5f9bb506c0e87f2edd5da7fb65dfbdcd6dd44c7"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-poor-condition-v1-640.webp",
+      "bytes": 5318,
+      "sha256": "65a80723dfde9c6443271d45aa7f00320c4e6a8feda0a63783084fb946e7fc5b"
+    },
+    {
+      "path": "assets/production/avif/business-technology-company-poor-condition-v1-960.avif",
+      "bytes": 10558,
+      "sha256": "0abc05e3bcd8cae3e2efd92c097d7c1bddbef833a9ca90bf514749fb649cafcb"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-poor-condition-v1-960.webp",
+      "bytes": 8624,
+      "sha256": "47a401654ad22559c51da122ae62d1719668828e711b64debc2f8d918d5f0c63"
+    },
+    {
+      "path": "assets/production/avif/business-technology-company-poor-condition-v1-1280.avif",
+      "bytes": 14835,
+      "sha256": "fe17775b6e4a765977ff14e0d0a452f00c55e92c846f0d3d7e7149e451c0a26c"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-poor-condition-v1-1280.webp",
+      "bytes": 11670,
+      "sha256": "aa717bbfbdaa93a4804681f54ca567ff56b991ef72cc8394a398444cfc37a5ec"
+    },
+    {
+      "path": "assets/production/avif/business-technology-company-poor-condition-v1-1920.avif",
+      "bytes": 22509,
+      "sha256": "dcd44f1cff34eb62bfa0d5786de0569b01bcaaaa76776e083f2a42827ac94485"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-poor-condition-v1-1920.webp",
+      "bytes": 18538,
+      "sha256": "745e1785c7ad10af32566817b1b4694198a94330a207bd8e3b83995026313755"
+    },
+    {
+      "path": "assets/production/avif/business-technology-company-poor-condition-v1-2560.avif",
+      "bytes": 29407,
+      "sha256": "f2b3110a194a4539ef1a395bffa996cbd5ccf72a54ffce62ca01d4bb0d01b5b4"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-poor-condition-v1-2560.webp",
+      "bytes": 25884,
+      "sha256": "2ebe678a64c8fab93224125253a733f7f7e1a5e4afa12e1f754a94a69816c9dd"
+    },
+    {
+      "path": "assets/production/avif/business-technology-company-poor-condition-v1-3840.avif",
+      "bytes": 48526,
+      "sha256": "1ef4ee03282459484a7f835c6d7c56bd23d44524f1894b5edb3211cc3946710d"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-poor-condition-v1-3840.webp",
+      "bytes": 43796,
+      "sha256": "0685577cc2087aeefa7a9a300800d47d9b1eca6686075a6a2ade35d4e855e8f8"
+    },
+    {
+      "path": "assets/production/png/business-technology-company-poor-condition-v1-1280.png",
+      "bytes": 629928,
+      "sha256": "5204cef754cd7b0c9ada8d32785bc61e0ea1766e558b58679810cc6e09436fd3"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-technology-company-poor-condition-v1.webp",
+      "bytes": 2472,
+      "sha256": "99eac38d8cd59153711f6c90ac178ba417b67092b514879b1d666df76325f0b1"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-technology-company-poor-condition-v1.webp",
+      "bytes": 2472,
+      "sha256": "99eac38d8cd59153711f6c90ac178ba417b67092b514879b1d666df76325f0b1"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.616Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1446881
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:00:19.954Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

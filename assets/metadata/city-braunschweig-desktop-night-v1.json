@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-braunschweig-desktop-night-v1",
+  "manifest_order": 286,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "braunschweig",
+  "variant": "desktop-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-braunschweig-desktop-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100286,
+  "content_hash": "2c02222c05ed2402db4071440c123fd7e017b4680081890ef409c281d4657fc7",
+  "source_file": "assets/source/cities/city-braunschweig-desktop-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-braunschweig-desktop-night-v1-320.avif",
+      "bytes": 3579,
+      "sha256": "de7c65ae5b6a92ea15f26bac7cb08bdd01b8777b5c6349146e24d2e5750dd0ce"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-desktop-night-v1-320.webp",
+      "bytes": 3698,
+      "sha256": "b19577c60c5860f641ab11bd479e5aa03a93f8443bd90bfbc5a88104cfccddcd"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-desktop-night-v1-640.avif",
+      "bytes": 8075,
+      "sha256": "371de23ded445d50738af90be0829a04f6adf9367b2ba62ecd3ddf1cce7f8a0f"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-desktop-night-v1-640.webp",
+      "bytes": 7936,
+      "sha256": "ec690da88f66a66ba26e81a13f060ecbf45036314412e702485f44a4d9693ede"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-desktop-night-v1-960.avif",
+      "bytes": 12850,
+      "sha256": "45eca0d03ca6116423152e80a650e26e4c7c90d011f75773ef2691f3689b0280"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-desktop-night-v1-960.webp",
+      "bytes": 13750,
+      "sha256": "b9db222aadb36e924e9fcd772e2366ecd5a42ab7a8acd8db3fc5df3d8a811879"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-desktop-night-v1-1280.avif",
+      "bytes": 18130,
+      "sha256": "2adc61876c57ebea58cd27854248f5825c317f4927faa787132c5c283c7826d5"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-desktop-night-v1-1280.webp",
+      "bytes": 17706,
+      "sha256": "80db5281b832d57f5b9dc55ec5928ec1f68eb70c68582f61adaae360cfbcbbcd"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-desktop-night-v1-1920.avif",
+      "bytes": 26832,
+      "sha256": "e288f39f486f2f4f0869f5c0bc22ffbf1b75b55b12dabcf4b4e8d6dbdd5c0d85"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-desktop-night-v1-1920.webp",
+      "bytes": 26240,
+      "sha256": "7239ef8800351f421ee7f2ffa36e3c7c74b1803b4cf6fff194ff52a92f7a05a1"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-desktop-night-v1-2560.avif",
+      "bytes": 37526,
+      "sha256": "ba45d9575f7ad812c0ad2fef183b882fb8af804cb1032ac744f370755871a75b"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-desktop-night-v1-2560.webp",
+      "bytes": 34990,
+      "sha256": "ea9ef848cc7e511662cf9be1ba716da4457f8f58d4a68b664ee485bbf63ce609"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-desktop-night-v1-3840.avif",
+      "bytes": 57387,
+      "sha256": "d483c275d0abeca8eaa076c651de8aec9a93039a7a96078b7c35fc90c389c5be"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-desktop-night-v1-3840.webp",
+      "bytes": 55874,
+      "sha256": "ab87959bec3c310822f189f3f44a072223875ee83dd0b5430c24eb722b9e3be0"
+    },
+    {
+      "path": "assets/production/png/city-braunschweig-desktop-night-v1-1280.png",
+      "bytes": 754053,
+      "sha256": "ee24006d09d0491796dbb731a2c1ee41b7b61d3a30cff9ebf75a9da8186386ac"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-desktop-night-v1-320.avif",
+      "bytes": 3579,
+      "sha256": "de7c65ae5b6a92ea15f26bac7cb08bdd01b8777b5c6349146e24d2e5750dd0ce"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-desktop-night-v1-320.webp",
+      "bytes": 3698,
+      "sha256": "b19577c60c5860f641ab11bd479e5aa03a93f8443bd90bfbc5a88104cfccddcd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-desktop-night-v1-640.avif",
+      "bytes": 8075,
+      "sha256": "371de23ded445d50738af90be0829a04f6adf9367b2ba62ecd3ddf1cce7f8a0f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-desktop-night-v1-640.webp",
+      "bytes": 7936,
+      "sha256": "ec690da88f66a66ba26e81a13f060ecbf45036314412e702485f44a4d9693ede"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-desktop-night-v1-960.avif",
+      "bytes": 12850,
+      "sha256": "45eca0d03ca6116423152e80a650e26e4c7c90d011f75773ef2691f3689b0280"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-desktop-night-v1-960.webp",
+      "bytes": 13750,
+      "sha256": "b9db222aadb36e924e9fcd772e2366ecd5a42ab7a8acd8db3fc5df3d8a811879"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-desktop-night-v1-1280.avif",
+      "bytes": 18130,
+      "sha256": "2adc61876c57ebea58cd27854248f5825c317f4927faa787132c5c283c7826d5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-desktop-night-v1-1280.webp",
+      "bytes": 17706,
+      "sha256": "80db5281b832d57f5b9dc55ec5928ec1f68eb70c68582f61adaae360cfbcbbcd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-desktop-night-v1-1920.avif",
+      "bytes": 26832,
+      "sha256": "e288f39f486f2f4f0869f5c0bc22ffbf1b75b55b12dabcf4b4e8d6dbdd5c0d85"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-desktop-night-v1-1920.webp",
+      "bytes": 26240,
+      "sha256": "7239ef8800351f421ee7f2ffa36e3c7c74b1803b4cf6fff194ff52a92f7a05a1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-desktop-night-v1-2560.avif",
+      "bytes": 37526,
+      "sha256": "ba45d9575f7ad812c0ad2fef183b882fb8af804cb1032ac744f370755871a75b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-desktop-night-v1-2560.webp",
+      "bytes": 34990,
+      "sha256": "ea9ef848cc7e511662cf9be1ba716da4457f8f58d4a68b664ee485bbf63ce609"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-desktop-night-v1-3840.avif",
+      "bytes": 57387,
+      "sha256": "d483c275d0abeca8eaa076c651de8aec9a93039a7a96078b7c35fc90c389c5be"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-desktop-night-v1-3840.webp",
+      "bytes": 55874,
+      "sha256": "ab87959bec3c310822f189f3f44a072223875ee83dd0b5430c24eb722b9e3be0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-desktop-night-v1-1280.png",
+      "bytes": 754053,
+      "sha256": "ee24006d09d0491796dbb731a2c1ee41b7b61d3a30cff9ebf75a9da8186386ac"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-braunschweig-desktop-night-v1.webp",
+      "bytes": 3698,
+      "sha256": "b19577c60c5860f641ab11bd479e5aa03a93f8443bd90bfbc5a88104cfccddcd"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-braunschweig-desktop-night-v1.webp",
+      "bytes": 3698,
+      "sha256": "b19577c60c5860f641ab11bd479e5aa03a93f8443bd90bfbc5a88104cfccddcd"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:42.229Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1685261
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:08:31.134Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-technology-company-audited-frozen-closed-v1",
+  "manifest_order": 492,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "audited-frozen-closed",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-technology-company-audited-frozen-closed-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100492,
+  "content_hash": "8ea792790127c3d1f69b375c5a6092983a8a0855887d16c609182b4565eee267",
+  "source_file": "assets/source/businesses/business-technology-company-audited-frozen-closed-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-technology-company-audited-frozen-closed-v1-320.avif",
+      "bytes": 3121,
+      "sha256": "de26eec751f0bed2f7a6faf0dae486280604d32e2faf34454601c3a82b21ba1b"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-audited-frozen-closed-v1-320.webp",
+      "bytes": 2696,
+      "sha256": "8bac7b3b8298154df1d955bcf8f168f9b50c3fec7b8dc6756649c858bef78f45"
+    },
+    {
+      "path": "assets/production/avif/business-technology-company-audited-frozen-closed-v1-640.avif",
+      "bytes": 6796,
+      "sha256": "096dd47aa46cbb08e69da6ffba7d8eb08f8e0832aff2b72f4c5bf8afb037a9f8"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-audited-frozen-closed-v1-640.webp",
+      "bytes": 5506,
+      "sha256": "9534b896df1c21acbe6849eb5268e901e817b96736b4d2f96e4c4bef9b304053"
+    },
+    {
+      "path": "assets/production/avif/business-technology-company-audited-frozen-closed-v1-960.avif",
+      "bytes": 11173,
+      "sha256": "d781dc75e70fab94ceaf14ff8b3a672e86267e4632e9494906b62d029ac60082"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-audited-frozen-closed-v1-960.webp",
+      "bytes": 9086,
+      "sha256": "667c6c733c189f2b336f8e3a33a5629b9ff5fa1ee2baf0904283847609764ef2"
+    },
+    {
+      "path": "assets/production/avif/business-technology-company-audited-frozen-closed-v1-1280.avif",
+      "bytes": 15437,
+      "sha256": "28872ff65295fb98c32059691368cf827b7f8500156c06cb0ca904d36976455a"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-audited-frozen-closed-v1-1280.webp",
+      "bytes": 11982,
+      "sha256": "27d8b5f7250d29d81c163e8145228bd8d6c932d9e197898493d8070a21625d80"
+    },
+    {
+      "path": "assets/production/avif/business-technology-company-audited-frozen-closed-v1-1920.avif",
+      "bytes": 23173,
+      "sha256": "3128efac32dbbae2908638f760fe730ba5a33e6171843efcdd17eebee29145b2"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-audited-frozen-closed-v1-1920.webp",
+      "bytes": 19444,
+      "sha256": "3570de1407bffd558d709ef5f9765f8a8dfbc162e05410352f2902e15c2ad82b"
+    },
+    {
+      "path": "assets/production/avif/business-technology-company-audited-frozen-closed-v1-2560.avif",
+      "bytes": 31081,
+      "sha256": "451590a35e03aa44c1e5c3ed4844dc6b56ef54bb2707a5d1d3ec6c0a9e979bdb"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-audited-frozen-closed-v1-2560.webp",
+      "bytes": 26360,
+      "sha256": "1863581786704c35d61b0322ae6af6d13341beaf01ccfbed2df8d58efb772304"
+    },
+    {
+      "path": "assets/production/avif/business-technology-company-audited-frozen-closed-v1-3840.avif",
+      "bytes": 50322,
+      "sha256": "b4e37f9d89e7acf79d02f87fd1ead4047dda0796a6ab3a78280f11e851f39268"
+    },
+    {
+      "path": "assets/production/webp/business-technology-company-audited-frozen-closed-v1-3840.webp",
+      "bytes": 45896,
+      "sha256": "02586b05926721e2ae12cc9bbdce2b4da6664b74d04f498065bfc32d79ae0f8a"
+    },
+    {
+      "path": "assets/production/png/business-technology-company-audited-frozen-closed-v1-1280.png",
+      "bytes": 641170,
+      "sha256": "b38568796e16af28eb4955dfd3248077f8695e96e2af18cc79d4ec3a6cbde85f"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-technology-company-audited-frozen-closed-v1.webp",
+      "bytes": 2696,
+      "sha256": "8bac7b3b8298154df1d955bcf8f168f9b50c3fec7b8dc6756649c858bef78f45"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-technology-company-audited-frozen-closed-v1.webp",
+      "bytes": 2696,
+      "sha256": "8bac7b3b8298154df1d955bcf8f168f9b50c3fec7b8dc6756649c858bef78f45"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.627Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1457919
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:33:33.573Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

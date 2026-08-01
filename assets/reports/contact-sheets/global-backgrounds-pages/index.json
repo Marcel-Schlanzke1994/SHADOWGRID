@@ -1,0 +1,33 @@
+{
+  "schema": "shadowgrid/contact-sheet-pages/v1",
+  "batch": "global-backgrounds",
+  "generated_at": "2026-08-01T19:02:55.605Z",
+  "asset_count": 18,
+  "page_size": 18,
+  "pages": [
+    {
+      "page": 1,
+      "path": "assets/reports/contact-sheets/global-backgrounds-pages/page-001.png",
+      "assets": [
+        "global-landing-desktop-day-v1",
+        "global-landing-desktop-night-v1",
+        "global-landing-mobile-day-v1",
+        "global-landing-mobile-night-v1",
+        "global-login-desktop-v1",
+        "global-login-mobile-v1",
+        "global-registration-desktop-v1",
+        "global-registration-mobile-v1",
+        "global-world-selection-desktop-v1",
+        "global-world-selection-mobile-v1",
+        "global-command-center-day-v1",
+        "global-command-center-night-v1",
+        "global-germany-map-atmosphere-v1",
+        "global-season-complete-v1",
+        "global-maintenance-v1",
+        "global-offline-v1",
+        "global-command-center-premium-night-v2",
+        "global-command-center-premium-day-v2"
+      ]
+    }
+  ]
+}

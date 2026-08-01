@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-kiel-ultrawide-night-v1",
+  "manifest_order": 292,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "kiel",
+  "variant": "ultrawide-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-kiel-ultrawide-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100292,
+  "content_hash": "4247935dedef31adb1c0ed21adef8017f367388bc31cc9baee5e9b675d1cf756",
+  "source_file": "assets/source/cities/city-kiel-ultrawide-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-kiel-ultrawide-night-v1-320.avif",
+      "bytes": 3354,
+      "sha256": "9f7389c59ece3c0acc2c37ac3b34d59d0b452a4766ade66c58a7de358752f9da"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-ultrawide-night-v1-320.webp",
+      "bytes": 3518,
+      "sha256": "91e243fc13ac41ef124e6ba1593c5d95a60581f79933bbdad613cc3da1e0857d"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-ultrawide-night-v1-640.avif",
+      "bytes": 7189,
+      "sha256": "df7ab907ef063350d386f527042b7e2dadd94462c5bcf0017ae4a75b3cf660b2"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-ultrawide-night-v1-640.webp",
+      "bytes": 8092,
+      "sha256": "34adb838d73bc53aaf214c1c8909200050a547f2a4ce41c099c630d20aa9901c"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-ultrawide-night-v1-960.avif",
+      "bytes": 12516,
+      "sha256": "b41e80e7c57d959d2b41590ff4c6b9cbe4dac43fbd8e6ee7ac3ebcbc0086f7d9"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-ultrawide-night-v1-960.webp",
+      "bytes": 13740,
+      "sha256": "007f768a9d707d149ae3afc9c55cc69353ed24cb601be6f6dcda5b00184f78e9"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-ultrawide-night-v1-1280.avif",
+      "bytes": 16057,
+      "sha256": "31057b9d5f7e427c635c753459bdbfc4e44149beb6efab8bd39ea5d14012f04e"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-ultrawide-night-v1-1280.webp",
+      "bytes": 17974,
+      "sha256": "e411b76e68985a7c06e4afb82cad9deae4ef2a85506c0a42a9b6ef03e7ad7869"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-ultrawide-night-v1-1920.avif",
+      "bytes": 25301,
+      "sha256": "8d31551cba8e88153c02f4ead369898d22c250fb4f88ac8e6274402f1ea57b78"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-ultrawide-night-v1-1920.webp",
+      "bytes": 27124,
+      "sha256": "22438f68533de14b8194d1b28872e3e0a2ed2a6f5d1d61140db82939ded2cc8b"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-ultrawide-night-v1-2560.avif",
+      "bytes": 33458,
+      "sha256": "8a6bfbe88b6beada8fdae4ce23d7821a949d588c1f76ae772cd896258d5c9fc6"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-ultrawide-night-v1-2560.webp",
+      "bytes": 35240,
+      "sha256": "2932b520ca1069e15a1d7620ec3f89fa5abfb4c0bcaf1d9e63c116a21355c648"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-ultrawide-night-v1-3840.avif",
+      "bytes": 52585,
+      "sha256": "6aeae07b761751a926b8707b8a82bfb12e6c419479db63d01ab65e802e13ea21"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-ultrawide-night-v1-3840.webp",
+      "bytes": 52842,
+      "sha256": "db8afbb234d0ceeac65c0eb510b891846b37ca08e9d99dd2337a43224f527df3"
+    },
+    {
+      "path": "assets/production/png/city-kiel-ultrawide-night-v1-1280.png",
+      "bytes": 483170,
+      "sha256": "28c4173460c51f0f5f2791e90514aaa1ef255ebbdf4b6d3b4d3baf048a44258f"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-ultrawide-night-v1-320.avif",
+      "bytes": 3354,
+      "sha256": "9f7389c59ece3c0acc2c37ac3b34d59d0b452a4766ade66c58a7de358752f9da"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-ultrawide-night-v1-320.webp",
+      "bytes": 3518,
+      "sha256": "91e243fc13ac41ef124e6ba1593c5d95a60581f79933bbdad613cc3da1e0857d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-ultrawide-night-v1-640.avif",
+      "bytes": 7189,
+      "sha256": "df7ab907ef063350d386f527042b7e2dadd94462c5bcf0017ae4a75b3cf660b2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-ultrawide-night-v1-640.webp",
+      "bytes": 8092,
+      "sha256": "34adb838d73bc53aaf214c1c8909200050a547f2a4ce41c099c630d20aa9901c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-ultrawide-night-v1-960.avif",
+      "bytes": 12516,
+      "sha256": "b41e80e7c57d959d2b41590ff4c6b9cbe4dac43fbd8e6ee7ac3ebcbc0086f7d9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-ultrawide-night-v1-960.webp",
+      "bytes": 13740,
+      "sha256": "007f768a9d707d149ae3afc9c55cc69353ed24cb601be6f6dcda5b00184f78e9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-ultrawide-night-v1-1280.avif",
+      "bytes": 16057,
+      "sha256": "31057b9d5f7e427c635c753459bdbfc4e44149beb6efab8bd39ea5d14012f04e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-ultrawide-night-v1-1280.webp",
+      "bytes": 17974,
+      "sha256": "e411b76e68985a7c06e4afb82cad9deae4ef2a85506c0a42a9b6ef03e7ad7869"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-ultrawide-night-v1-1920.avif",
+      "bytes": 25301,
+      "sha256": "8d31551cba8e88153c02f4ead369898d22c250fb4f88ac8e6274402f1ea57b78"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-ultrawide-night-v1-1920.webp",
+      "bytes": 27124,
+      "sha256": "22438f68533de14b8194d1b28872e3e0a2ed2a6f5d1d61140db82939ded2cc8b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-ultrawide-night-v1-2560.avif",
+      "bytes": 33458,
+      "sha256": "8a6bfbe88b6beada8fdae4ce23d7821a949d588c1f76ae772cd896258d5c9fc6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-ultrawide-night-v1-2560.webp",
+      "bytes": 35240,
+      "sha256": "2932b520ca1069e15a1d7620ec3f89fa5abfb4c0bcaf1d9e63c116a21355c648"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-ultrawide-night-v1-3840.avif",
+      "bytes": 52585,
+      "sha256": "6aeae07b761751a926b8707b8a82bfb12e6c419479db63d01ab65e802e13ea21"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-ultrawide-night-v1-3840.webp",
+      "bytes": 52842,
+      "sha256": "db8afbb234d0ceeac65c0eb510b891846b37ca08e9d99dd2337a43224f527df3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-ultrawide-night-v1-1280.png",
+      "bytes": 483170,
+      "sha256": "28c4173460c51f0f5f2791e90514aaa1ef255ebbdf4b6d3b4d3baf048a44258f"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-kiel-ultrawide-night-v1.webp",
+      "bytes": 3518,
+      "sha256": "91e243fc13ac41ef124e6ba1593c5d95a60581f79933bbdad613cc3da1e0857d"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-kiel-ultrawide-night-v1.webp",
+      "bytes": 3518,
+      "sha256": "91e243fc13ac41ef124e6ba1593c5d95a60581f79933bbdad613cc3da1e0857d"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:42.335Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 2142128
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:11:26.952Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

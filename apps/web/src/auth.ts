@@ -38,7 +38,7 @@ const refresh = (): Promise<boolean> => {
       }
       const tokens = (await response.json()) as { access_token: string };
       useAuth.setState({ accessToken: tokens.access_token });
-      const user = await client.get<User>("/api/v1/auth/me");
+      const user = await client.get<User>("/auth/me");
       useAuth.getState().setSession(tokens.access_token, user);
       return true;
     })

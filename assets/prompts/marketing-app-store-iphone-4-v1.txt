@@ -1,0 +1,7 @@
+Capture type: functioning SHADOWGRID application screenshot
+Asset: marketing-app-store-iphone-4-v1
+Source: functioning local seeded SHADOWGRID application
+Route: /exchange
+Language: en-US
+Generated or mocked user interfaces are forbidden.
+The Playwright capture gate verified loaded state, absence of debug output, demo secrets, direct email addresses and private identifiers.

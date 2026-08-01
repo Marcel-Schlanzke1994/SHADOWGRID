@@ -1,0 +1,171 @@
+{
+  "asset_id": "character-information-analysis-younger-man-v1",
+  "manifest_order": 548,
+  "category": "character",
+  "batch": "specialists",
+  "city": null,
+  "variant": "younger-man",
+  "gameplay_state": "normal",
+  "aspect_ratio": "4:5",
+  "width": 1280,
+  "height": 1600,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/character-information-analysis-younger-man-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100548,
+  "content_hash": "047bdb9feaccdfd6531147a1f2024555a2aad48b0be864685f978f5000a2897f",
+  "source_file": "assets/source/characters/character-information-analysis-younger-man-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/character-information-analysis-younger-man-v1-320.avif",
+      "bytes": 2688,
+      "sha256": "44f48926ea562b281c3ec8aaefa9556522aea048216d10dfc3c5fc735f2ed391"
+    },
+    {
+      "path": "assets/production/webp/character-information-analysis-younger-man-v1-320.webp",
+      "bytes": 1864,
+      "sha256": "2145b834eb106c50a44b823a2f59ce07dc3b6f8c9ad34510d4e674609baf1d41"
+    },
+    {
+      "path": "assets/production/avif/character-information-analysis-younger-man-v1-640.avif",
+      "bytes": 5832,
+      "sha256": "0c1b8e441310ce6a2aea9c598832d3acde7d43f43eef0db82fc50aba17bdb3c9"
+    },
+    {
+      "path": "assets/production/webp/character-information-analysis-younger-man-v1-640.webp",
+      "bytes": 4404,
+      "sha256": "0fbfb12bb53353cc755ed7447e5e6bdce49612a820968f51901ce518f218dc10"
+    },
+    {
+      "path": "assets/production/avif/character-information-analysis-younger-man-v1-960.avif",
+      "bytes": 12923,
+      "sha256": "471604b73ac83a8f77f30564618d02fa333cb7a172372547d849499ab9ddf389"
+    },
+    {
+      "path": "assets/production/webp/character-information-analysis-younger-man-v1-960.webp",
+      "bytes": 8468,
+      "sha256": "cc89ccea408e13495fa1614bc129bd62686ad38aa5f840f442c75270243a464d"
+    },
+    {
+      "path": "assets/production/avif/character-information-analysis-younger-man-v1-1280.avif",
+      "bytes": 18876,
+      "sha256": "c33348ce303201f7f0339cc3ce8778ceb86a4295a111b2927d13e8fde84fa678"
+    },
+    {
+      "path": "assets/production/webp/character-information-analysis-younger-man-v1-1280.webp",
+      "bytes": 13144,
+      "sha256": "b8985f7fdb9c35b94607d4ac2daf6daf525e6526c7baa20ff1cd8b511f7027ff"
+    },
+    {
+      "path": "assets/production/avif/character-information-analysis-younger-man-v1-1920.avif",
+      "bytes": 29818,
+      "sha256": "064748d081087e5759572cc02ff0f7a408703075e2a659635040ede3f30263a1"
+    },
+    {
+      "path": "assets/production/webp/character-information-analysis-younger-man-v1-1920.webp",
+      "bytes": 22956,
+      "sha256": "723836a4dcc21e6aa4828cff16eec3f108c232d9ca164458c0c981597295694e"
+    },
+    {
+      "path": "assets/production/avif/character-information-analysis-younger-man-v1-2560.avif",
+      "bytes": 42942,
+      "sha256": "c181a47da50d853859ccdd9ec605650b01095aab866af9664ba8168c4e27fb2c"
+    },
+    {
+      "path": "assets/production/webp/character-information-analysis-younger-man-v1-2560.webp",
+      "bytes": 35532,
+      "sha256": "ac4f4d7940974fb3dbdbb98fbab71f9ca8ccacb412a8bc52b32c6273bc489674"
+    },
+    {
+      "path": "assets/production/avif/character-information-analysis-younger-man-v1-3840.avif",
+      "bytes": 71187,
+      "sha256": "cfedbca6dae9f90b084b318144984e59de417c54043664a06fbcc54e08412d3f"
+    },
+    {
+      "path": "assets/production/webp/character-information-analysis-younger-man-v1-3840.webp",
+      "bytes": 67408,
+      "sha256": "9b9dab781c764a3c0bb156f36f6897dc01b40eced3a8af1fcd0888e7db68967a"
+    },
+    {
+      "path": "assets/production/png/character-information-analysis-younger-man-v1-1280.png",
+      "bytes": 202100,
+      "sha256": "047bdb9feaccdfd6531147a1f2024555a2aad48b0be864685f978f5000a2897f"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/character-information-analysis-younger-man-v1.webp",
+      "bytes": 1864,
+      "sha256": "2145b834eb106c50a44b823a2f59ce07dc3b6f8c9ad34510d4e674609baf1d41"
+    },
+    {
+      "path": "apps/mobile/assets/library/character-information-analysis-younger-man-v1.webp",
+      "bytes": 1864,
+      "sha256": "2145b834eb106c50a44b823a2f59ce07dc3b6f8c9ad34510d4e674609baf1d41"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:37.074Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1280,
+      "height": 1600,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 202100
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:17:14.987Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

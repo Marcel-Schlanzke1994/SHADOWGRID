@@ -1,0 +1,28 @@
+{
+  "schema": "project-owned-store-static-v1",
+  "reviewer": "codex-visual",
+  "reviewed_at": "2026-07-30T05:14:48.425Z",
+  "provider": "sharp-procedural",
+  "source_type": "procedural",
+  "license": "project-owned-procedural-asset",
+  "revision_prompt": "Compose the approved SHADOWGRID night command-center background, gold symbol and wordmark into an opaque brand-neutral Google Play feature graphic.",
+  "realism": 96,
+  "style_consistency": 98,
+  "composition": 94,
+  "material_quality": 96,
+  "lighting_quality": 95,
+  "architecture_plausibility": 95,
+  "ui_suitability": 98,
+  "mobile_suitability": 96,
+  "originality": 97,
+  "safety_compliance": 100,
+  "provenance": {
+    "source": "project-owned-visual-library",
+    "preparation_report": "assets/reports/store-static-art-preparation.json",
+    "paid_generation_cost_eur": 0
+  },
+  "notes": [
+    "Exact dimensions, PNG encoding and byte constraints are machine validated.",
+    "No external brand, authority mark, private person, identifier or gameplay claim is present."
+  ]
+}

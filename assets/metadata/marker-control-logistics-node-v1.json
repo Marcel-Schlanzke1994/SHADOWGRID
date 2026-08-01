@@ -23,6 +23,11 @@
       "path": "assets/production/svg/marker-control-logistics-node-v1.svg",
       "bytes": 756,
       "sha256": "83ff2bb071a157de6f8f4b9ac200e3de9fb773746180569b08abcddcd47ddc5f"
+    },
+    {
+      "path": "assets/production/webp/marker-control-logistics-node-v1-320.webp",
+      "bytes": 2844,
+      "sha256": "86fba96eefd4f9089c15ca2ce452a1feecbee65863c8a26e352f96dfa84cabd0"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/markers/marker-control-logistics-node-v1.svg",
       "bytes": 756,
       "sha256": "83ff2bb071a157de6f8f4b9ac200e3de9fb773746180569b08abcddcd47ddc5f"
+    },
+    {
+      "path": "apps/web/public/assets/markers/marker-control-logistics-node-v1-320.webp",
+      "bytes": 2844,
+      "sha256": "86fba96eefd4f9089c15ca2ce452a1feecbee65863c8a26e352f96dfa84cabd0"
+    },
+    {
+      "path": "apps/web/public/assets/library/marker-control-logistics-node-v1.webp",
+      "bytes": 2844,
+      "sha256": "86fba96eefd4f9089c15ca2ce452a1feecbee65863c8a26e352f96dfa84cabd0"
+    },
+    {
+      "path": "apps/mobile/assets/library/marker-control-logistics-node-v1.webp",
+      "bytes": 2844,
+      "sha256": "86fba96eefd4f9089c15ca2ce452a1feecbee65863c8a26e352f96dfa84cabd0"
     }
   ],
   "contains_text": false,

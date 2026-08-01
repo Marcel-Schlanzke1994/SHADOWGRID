@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-financial-center-crisis-night-v1",
+  "manifest_order": 372,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "crisis-night",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-financial-center-crisis-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100372,
+  "content_hash": "af579bee6c5b7714976e4b42ad2c13cbd07b41db3758e1acbe04ce66df96d515",
+  "source_file": "assets/source/districts/district-financial-center-crisis-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-financial-center-crisis-night-v1-320.avif",
+      "bytes": 3554,
+      "sha256": "77c47ae4b9b23c98f90638091fafb604dbf537c159462a4643ab7675e2d2e6a0"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-crisis-night-v1-320.webp",
+      "bytes": 3496,
+      "sha256": "935ef4fff8db144fd5bcb23c173e4520f9e57be96ed36067f2d68dfa52288cb6"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-crisis-night-v1-640.avif",
+      "bytes": 7856,
+      "sha256": "272a702574a92d5138533299788d307b9ed8d153aefbb2fe173c225f73570922"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-crisis-night-v1-640.webp",
+      "bytes": 7466,
+      "sha256": "9311414ff3f108174fd493fc67c268aac6c17c11f2720c25d6e4a5a0dd3df634"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-crisis-night-v1-960.avif",
+      "bytes": 12951,
+      "sha256": "2d758724203268bbb1508d8efc37eb42eb1c3dd1afc854548fda76384b3ceb03"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-crisis-night-v1-960.webp",
+      "bytes": 13076,
+      "sha256": "62111468ef9613cef7303c1d89a163e9d7aba893c554861043b4f6b0cf282ac2"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-crisis-night-v1-1280.avif",
+      "bytes": 17790,
+      "sha256": "f72417ab134772943068701359e4c07801f778b1c46958ad62873a3241125341"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-crisis-night-v1-1280.webp",
+      "bytes": 17188,
+      "sha256": "76dd6271411fe1bf6898bc03a0ceec2dda58c63d3fbc9e9e10d9015bbda0e65c"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-crisis-night-v1-1920.avif",
+      "bytes": 27442,
+      "sha256": "d9aa57dbac0262a7fc025fd2899b9adc06ce8bfa175356808be4536e7981df4f"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-crisis-night-v1-1920.webp",
+      "bytes": 25708,
+      "sha256": "66a74c89a094dbc8e8831bb2f00300d60ff661741feeaa504ff7902744498140"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-crisis-night-v1-2560.avif",
+      "bytes": 36413,
+      "sha256": "4562dad03fe9165d214d93db508b30b06068a6fb102176ba3d9640797e404c08"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-crisis-night-v1-2560.webp",
+      "bytes": 33792,
+      "sha256": "99802494322f7b22297501e3b081b29831710af496a98bdcac506567b69f8ac7"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-crisis-night-v1-3840.avif",
+      "bytes": 57495,
+      "sha256": "e29b7ee7b462bfabc921a1de0462b056f01dd0965f9232a7b3206e8a69ebcf2b"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-crisis-night-v1-3840.webp",
+      "bytes": 54850,
+      "sha256": "f5c66bdc639061ceebc78728d6d6ee917ef974069510c6f68a9a6aeaf0908aea"
+    },
+    {
+      "path": "assets/production/png/district-financial-center-crisis-night-v1-1280.png",
+      "bytes": 647558,
+      "sha256": "ed5581751e0e85cf117573113d30a59eef358dddf9c493530a3b3a6d2bd3946f"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-financial-center-crisis-night-v1.webp",
+      "bytes": 3496,
+      "sha256": "935ef4fff8db144fd5bcb23c173e4520f9e57be96ed36067f2d68dfa52288cb6"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-financial-center-crisis-night-v1.webp",
+      "bytes": 3496,
+      "sha256": "935ef4fff8db144fd5bcb23c173e4520f9e57be96ed36067f2d68dfa52288cb6"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.454Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1440533
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:21:00.157Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -170,6 +170,16 @@
       "path": "apps/web/public/assets/global/global-offline-v1-1280.png",
       "bytes": 1401116,
       "sha256": "4232c928b576bd6d86353b5256b36c15a6874b1c1a9b86103345374b3fa724eb"
+    },
+    {
+      "path": "apps/web/public/assets/library/global-offline-v1.webp",
+      "bytes": 2628,
+      "sha256": "1df2979c6cd08f89bdbbcab3b685357935e000bf03d02b0ab8c19955921d2f37"
+    },
+    {
+      "path": "apps/mobile/assets/library/global-offline-v1.webp",
+      "bytes": 2628,
+      "sha256": "1df2979c6cd08f89bdbbcab3b685357935e000bf03d02b0ab8c19955921d2f37"
     }
   ],
   "contains_text": false,

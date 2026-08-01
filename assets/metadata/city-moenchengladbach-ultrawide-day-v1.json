@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-moenchengladbach-ultrawide-day-v1",
+  "manifest_order": 267,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "moenchengladbach",
+  "variant": "ultrawide-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-moenchengladbach-ultrawide-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100267,
+  "content_hash": "cb8634f8776bfe70764b20879d191171eb6e3acb1178ac32cd0e61ca67c988fa",
+  "source_file": "assets/source/cities/city-moenchengladbach-ultrawide-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-moenchengladbach-ultrawide-day-v1-320.avif",
+      "bytes": 2786,
+      "sha256": "36f66b6b75c1eef478b16f0ec128fd6077fdcda0ac1d08626edde179d3837258"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-ultrawide-day-v1-320.webp",
+      "bytes": 2592,
+      "sha256": "23d0f8fcd93611abbf3cfa533283784d7b92340aa1eb17d7e9827d1d1e4bfb7d"
+    },
+    {
+      "path": "assets/production/avif/city-moenchengladbach-ultrawide-day-v1-640.avif",
+      "bytes": 5541,
+      "sha256": "d0ea880f5b55d597a6f90769db73fe56fcf3a7872f55323e5c11fabe1582c04b"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-ultrawide-day-v1-640.webp",
+      "bytes": 5174,
+      "sha256": "27354a7d48f613361763a9a2429603e79c712a90adfbe2c3b5824badcf9c2dde"
+    },
+    {
+      "path": "assets/production/avif/city-moenchengladbach-ultrawide-day-v1-960.avif",
+      "bytes": 9775,
+      "sha256": "afadf51205cf6c6f1defc43c7dce422be19c7d97e549f65c69181d566d04d03b"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-ultrawide-day-v1-960.webp",
+      "bytes": 8304,
+      "sha256": "633c432a4b1d6cbc697f8df54bb81a777e94c0a14d7e76fad79df5c3f690a7a7"
+    },
+    {
+      "path": "assets/production/avif/city-moenchengladbach-ultrawide-day-v1-1280.avif",
+      "bytes": 12835,
+      "sha256": "6e4917f9bc3aab9efbb952513a0aeb32c6ab7b8eeaa1f78886acb635189f2ba0"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-ultrawide-day-v1-1280.webp",
+      "bytes": 10982,
+      "sha256": "6dec7d187b9a4995154ed708d6b7d5cd6458986356257c81209eb5c6043027f5"
+    },
+    {
+      "path": "assets/production/avif/city-moenchengladbach-ultrawide-day-v1-1920.avif",
+      "bytes": 20111,
+      "sha256": "c6568b4378771cb43b04d9c5ff76229ce6df497ab1bbb300ce26d447ada18850"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-ultrawide-day-v1-1920.webp",
+      "bytes": 16440,
+      "sha256": "417c8bbf17d128ebf838f08c9bbe8327095139220d016bb1ffe9451aaf4d31ad"
+    },
+    {
+      "path": "assets/production/avif/city-moenchengladbach-ultrawide-day-v1-2560.avif",
+      "bytes": 26323,
+      "sha256": "b860ac8e255ba657f1ab1a5a46839e235eb92ea15a0248d8a3b7ca817b353796"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-ultrawide-day-v1-2560.webp",
+      "bytes": 22516,
+      "sha256": "a49d35014554333975198bb01c9b1f510ac443df5ac6a7202ad5746f5d8ded49"
+    },
+    {
+      "path": "assets/production/avif/city-moenchengladbach-ultrawide-day-v1-3840.avif",
+      "bytes": 42072,
+      "sha256": "e41a9c5a30ff3882897ce7e37f009818a17724dfe481d79b1b57471ee00891a9"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-ultrawide-day-v1-3840.webp",
+      "bytes": 37670,
+      "sha256": "c09115f525e6839b98b18660a721e3cb1cde3e0646c3c91f6948e1ef1f1030bc"
+    },
+    {
+      "path": "assets/production/png/city-moenchengladbach-ultrawide-day-v1-1280.png",
+      "bytes": 418435,
+      "sha256": "953c1c497ae5e95760bfc5dafc13cbdb0fac27e685aeed49653e4b2887e35d5b"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-ultrawide-day-v1-320.avif",
+      "bytes": 2786,
+      "sha256": "36f66b6b75c1eef478b16f0ec128fd6077fdcda0ac1d08626edde179d3837258"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-ultrawide-day-v1-320.webp",
+      "bytes": 2592,
+      "sha256": "23d0f8fcd93611abbf3cfa533283784d7b92340aa1eb17d7e9827d1d1e4bfb7d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-ultrawide-day-v1-640.avif",
+      "bytes": 5541,
+      "sha256": "d0ea880f5b55d597a6f90769db73fe56fcf3a7872f55323e5c11fabe1582c04b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-ultrawide-day-v1-640.webp",
+      "bytes": 5174,
+      "sha256": "27354a7d48f613361763a9a2429603e79c712a90adfbe2c3b5824badcf9c2dde"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-ultrawide-day-v1-960.avif",
+      "bytes": 9775,
+      "sha256": "afadf51205cf6c6f1defc43c7dce422be19c7d97e549f65c69181d566d04d03b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-ultrawide-day-v1-960.webp",
+      "bytes": 8304,
+      "sha256": "633c432a4b1d6cbc697f8df54bb81a777e94c0a14d7e76fad79df5c3f690a7a7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-ultrawide-day-v1-1280.avif",
+      "bytes": 12835,
+      "sha256": "6e4917f9bc3aab9efbb952513a0aeb32c6ab7b8eeaa1f78886acb635189f2ba0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-ultrawide-day-v1-1280.webp",
+      "bytes": 10982,
+      "sha256": "6dec7d187b9a4995154ed708d6b7d5cd6458986356257c81209eb5c6043027f5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-ultrawide-day-v1-1920.avif",
+      "bytes": 20111,
+      "sha256": "c6568b4378771cb43b04d9c5ff76229ce6df497ab1bbb300ce26d447ada18850"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-ultrawide-day-v1-1920.webp",
+      "bytes": 16440,
+      "sha256": "417c8bbf17d128ebf838f08c9bbe8327095139220d016bb1ffe9451aaf4d31ad"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-ultrawide-day-v1-2560.avif",
+      "bytes": 26323,
+      "sha256": "b860ac8e255ba657f1ab1a5a46839e235eb92ea15a0248d8a3b7ca817b353796"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-ultrawide-day-v1-2560.webp",
+      "bytes": 22516,
+      "sha256": "a49d35014554333975198bb01c9b1f510ac443df5ac6a7202ad5746f5d8ded49"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-ultrawide-day-v1-3840.avif",
+      "bytes": 42072,
+      "sha256": "e41a9c5a30ff3882897ce7e37f009818a17724dfe481d79b1b57471ee00891a9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-ultrawide-day-v1-3840.webp",
+      "bytes": 37670,
+      "sha256": "c09115f525e6839b98b18660a721e3cb1cde3e0646c3c91f6948e1ef1f1030bc"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-ultrawide-day-v1-1280.png",
+      "bytes": 418435,
+      "sha256": "953c1c497ae5e95760bfc5dafc13cbdb0fac27e685aeed49653e4b2887e35d5b"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-moenchengladbach-ultrawide-day-v1.webp",
+      "bytes": 2592,
+      "sha256": "23d0f8fcd93611abbf3cfa533283784d7b92340aa1eb17d7e9827d1d1e4bfb7d"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-moenchengladbach-ultrawide-day-v1.webp",
+      "bytes": 2592,
+      "sha256": "23d0f8fcd93611abbf3cfa533283784d7b92340aa1eb17d7e9827d1d1e4bfb7d"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.797Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 2063529
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:46:43.955Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

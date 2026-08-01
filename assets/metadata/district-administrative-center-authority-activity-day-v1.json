@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-administrative-center-authority-activity-day-v1",
+  "manifest_order": 413,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "authority-activity-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-administrative-center-authority-activity-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100413,
+  "content_hash": "0c7382baa7fa9702617e630d62f72b68237be8163ae2296c31e5f1382d1b46c3",
+  "source_file": "assets/source/districts/district-administrative-center-authority-activity-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-administrative-center-authority-activity-day-v1-320.avif",
+      "bytes": 2993,
+      "sha256": "6fc2976aa4b634964bda4de78a5af60fcdc33443c606900141198fae2887c7b6"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-authority-activity-day-v1-320.webp",
+      "bytes": 2506,
+      "sha256": "a64f393832b0e87444be61c8632524b53d7660bd15cc4d523d81db2286b9098c"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-authority-activity-day-v1-640.avif",
+      "bytes": 6121,
+      "sha256": "3607271c343ae00fd362efef3b133746ba3f126487d56f2bd4756ca4d860d9b2"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-authority-activity-day-v1-640.webp",
+      "bytes": 4982,
+      "sha256": "60612791a0da045aaa879c4e0bbdbefbc6c8b4ddd95cd4e51ebbed07a1c35d1e"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-authority-activity-day-v1-960.avif",
+      "bytes": 10224,
+      "sha256": "e9d9c5213d9e5c8f606376bf97de4f43b03e2e0be4cad812ac7154094395461d"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-authority-activity-day-v1-960.webp",
+      "bytes": 8448,
+      "sha256": "1ad886bf8fd300cdb893f7b7cd56b6c3893f364056ac9747d4e25fa0eb52e5c6"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-authority-activity-day-v1-1280.avif",
+      "bytes": 14291,
+      "sha256": "e16655c7f2c31e6268fe8094fcbc464cb3bec4a23b7e5643c1337108e21dc232"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-authority-activity-day-v1-1280.webp",
+      "bytes": 11212,
+      "sha256": "56e45425dbbcca91a11fe93a3dabefde7b06045ae399084dc28634b2f49bec24"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-authority-activity-day-v1-1920.avif",
+      "bytes": 21572,
+      "sha256": "04194f98d850d26fd096328237b4368489344b4b13e2971959104331e44a242e"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-authority-activity-day-v1-1920.webp",
+      "bytes": 17400,
+      "sha256": "670fa66c7d4d5816d137cb836df24688a69f2442a7443bbc4c90b1c4e6dd3a59"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-authority-activity-day-v1-2560.avif",
+      "bytes": 29398,
+      "sha256": "1ca1e4cb9c23e0c2977bfec22807425a097c8e4faf40a580a18c6a9585e56e48"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-authority-activity-day-v1-2560.webp",
+      "bytes": 24702,
+      "sha256": "4aca550f0a048df1f8d0e4595d6be4414b5cea914e721c2b0726b4766ba449a3"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-authority-activity-day-v1-3840.avif",
+      "bytes": 48360,
+      "sha256": "b92f14766ab5d4c9f15bfddfc108677e4ebafc05b84b70ea61b8860eb1f19004"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-authority-activity-day-v1-3840.webp",
+      "bytes": 43512,
+      "sha256": "7eeea85ea350dfe92c00b2b0b92e569d6e1669dde031a1317e00c01570b3e677"
+    },
+    {
+      "path": "assets/production/png/district-administrative-center-authority-activity-day-v1-1280.png",
+      "bytes": 634857,
+      "sha256": "ce8df115dbfcf896778f48719a3026b4b9e1f830413c0b0538b1d608d1d7730d"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-administrative-center-authority-activity-day-v1.webp",
+      "bytes": 2506,
+      "sha256": "a64f393832b0e87444be61c8632524b53d7660bd15cc4d523d81db2286b9098c"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-administrative-center-authority-activity-day-v1.webp",
+      "bytes": 2506,
+      "sha256": "a64f393832b0e87444be61c8632524b53d7660bd15cc4d523d81db2286b9098c"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.941Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1466461
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:35:39.273Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

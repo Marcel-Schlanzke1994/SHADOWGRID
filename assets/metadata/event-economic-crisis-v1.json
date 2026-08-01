@@ -1,0 +1,171 @@
+{
+  "asset_id": "event-economic-crisis-v1",
+  "manifest_order": 701,
+  "category": "event",
+  "batch": "world-events",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/event-economic-crisis-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100701,
+  "content_hash": "bb349b1ef4d9ee4dbb3efa358786c27fc1d8207a36b30759cce8c501315ec57b",
+  "source_file": "assets/source/events/event-economic-crisis-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/event-economic-crisis-v1-320.avif",
+      "bytes": 2817,
+      "sha256": "4ad1999a033dfd40b4f4331a2de2e39da686f0cdab420562c7a219542e0fac65"
+    },
+    {
+      "path": "assets/production/webp/event-economic-crisis-v1-320.webp",
+      "bytes": 2668,
+      "sha256": "87b5a32da65773adb970666ad9f6cba1546fcc44451c68661263918f375cf516"
+    },
+    {
+      "path": "assets/production/avif/event-economic-crisis-v1-640.avif",
+      "bytes": 6256,
+      "sha256": "76ea03812c8b3faf222dafd9daf2000319baf71f7545ac4fa9154f686c4d7cd6"
+    },
+    {
+      "path": "assets/production/webp/event-economic-crisis-v1-640.webp",
+      "bytes": 5282,
+      "sha256": "61f919d378593fac45a083043416c26c3c73e007036d426bdae1d7a06f1c28d4"
+    },
+    {
+      "path": "assets/production/avif/event-economic-crisis-v1-960.avif",
+      "bytes": 10405,
+      "sha256": "d384354f5d8401f3044173a43e6dfee282b724b56374977ff0e44c5274dc4fde"
+    },
+    {
+      "path": "assets/production/webp/event-economic-crisis-v1-960.webp",
+      "bytes": 9054,
+      "sha256": "c8624cd4c3959b4e9e3135774eb85cf709fbbe99dec9fa301869d6d5d774801a"
+    },
+    {
+      "path": "assets/production/avif/event-economic-crisis-v1-1280.avif",
+      "bytes": 15464,
+      "sha256": "a466113064a9a05d25351cd351d7e0f3e75df2ae9b0f47dcf3a2c1b29a56e04d"
+    },
+    {
+      "path": "assets/production/webp/event-economic-crisis-v1-1280.webp",
+      "bytes": 12186,
+      "sha256": "091a6ae99dd8cd5bca8ae4bb8379a3fda4fc57bbe3d8f2523e69d0f4e3e07245"
+    },
+    {
+      "path": "assets/production/avif/event-economic-crisis-v1-1920.avif",
+      "bytes": 23220,
+      "sha256": "520759b0bf8f5a6ea29f68775a1a424004c1cc039b8ec73920aa8b30f8f8403b"
+    },
+    {
+      "path": "assets/production/webp/event-economic-crisis-v1-1920.webp",
+      "bytes": 19416,
+      "sha256": "8463c9d4a9eb7804c683964efb3218167cf9c3734d0dfe4e2c60cff8a03c9e2f"
+    },
+    {
+      "path": "assets/production/avif/event-economic-crisis-v1-2560.avif",
+      "bytes": 32045,
+      "sha256": "23d492a1a0932788c4e2823c5244440dfc81bbb21099a48be73cbf603e68d7f1"
+    },
+    {
+      "path": "assets/production/webp/event-economic-crisis-v1-2560.webp",
+      "bytes": 27130,
+      "sha256": "479f529ab7a674e7d1c42092d416d91dc1566f324c02500636c077d90651e8c2"
+    },
+    {
+      "path": "assets/production/avif/event-economic-crisis-v1-3840.avif",
+      "bytes": 51850,
+      "sha256": "57783bcea3dac358bc9aa286328ca7838c8fba05b7d7340722947bf8a03ff852"
+    },
+    {
+      "path": "assets/production/webp/event-economic-crisis-v1-3840.webp",
+      "bytes": 47138,
+      "sha256": "e63bc08e939de4d64d63758642d3f3322311bfccc84cd70a6d7e670ac0b7c3d2"
+    },
+    {
+      "path": "assets/production/png/event-economic-crisis-v1-1280.png",
+      "bytes": 691225,
+      "sha256": "e654048e26dcb6ce57d7be3b014f7d58cb3ad11d6a756e5b03e8be655b1ccac4"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/event-economic-crisis-v1.webp",
+      "bytes": 2668,
+      "sha256": "87b5a32da65773adb970666ad9f6cba1546fcc44451c68661263918f375cf516"
+    },
+    {
+      "path": "apps/mobile/assets/library/event-economic-crisis-v1.webp",
+      "bytes": 2668,
+      "sha256": "87b5a32da65773adb970666ad9f6cba1546fcc44451c68661263918f375cf516"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:10.692Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 88,
+      "light_quality": 91,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Repeated motifs form a coherent event family while color, direction, and state treatment keep event classes distinguishable.",
+      "No missing render, unsafe real-world guidance, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1582194
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:30:53.823Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

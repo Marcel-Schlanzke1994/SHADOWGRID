@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-wuppertal-card-v1",
+  "manifest_order": 201,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "wuppertal",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-wuppertal-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100201,
+  "content_hash": "1bee5ba2a9403056f056e4c7707736b4df2849c3e6aaa46fc8522b0aeb4c6ec3",
+  "source_file": "assets/source/cities/city-wuppertal-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-wuppertal-card-v1-320.avif",
+      "bytes": 3580,
+      "sha256": "37c1f658ef2e88ccd19ba8391ce794aab1dd70009585c8f70c3049eab0d4d647"
+    },
+    {
+      "path": "assets/production/webp/city-wuppertal-card-v1-320.webp",
+      "bytes": 3514,
+      "sha256": "408ae7c1115fef1cab3bf4b1b9bebe4389315b14f2430a28b81eb7fb8022cbf1"
+    },
+    {
+      "path": "assets/production/avif/city-wuppertal-card-v1-640.avif",
+      "bytes": 7894,
+      "sha256": "5663bd9c118812ad359dd396d7cbd26dbd8ce61c7bbb02207645863c89615876"
+    },
+    {
+      "path": "assets/production/webp/city-wuppertal-card-v1-640.webp",
+      "bytes": 6598,
+      "sha256": "ca9db409d00b61b8b7572c5c71802bd40e7978fcd4f59219119482a89029713c"
+    },
+    {
+      "path": "assets/production/avif/city-wuppertal-card-v1-960.avif",
+      "bytes": 13824,
+      "sha256": "4c33f53c317f6710f61aa11e9247eb99807bd3e2772291d45144b60c7c7f4a56"
+    },
+    {
+      "path": "assets/production/webp/city-wuppertal-card-v1-960.webp",
+      "bytes": 10986,
+      "sha256": "5d187eac1d4dba1cfe833e5ff90712f916aa8e1ccde695f07b1ebfca1039c0a2"
+    },
+    {
+      "path": "assets/production/avif/city-wuppertal-card-v1-1280.avif",
+      "bytes": 19216,
+      "sha256": "9ad062e0466161fde728ad136db0ff6fbf26e24d2cdf7f10148f7b67c1befb55"
+    },
+    {
+      "path": "assets/production/webp/city-wuppertal-card-v1-1280.webp",
+      "bytes": 15070,
+      "sha256": "7226d58b22586992638ed59100635a9a34c07c06fd1cbc5e21179b2960c55557"
+    },
+    {
+      "path": "assets/production/avif/city-wuppertal-card-v1-1920.avif",
+      "bytes": 28839,
+      "sha256": "e1122f41af151e882b14866c977d19a7ffa5d49ad3e6d36c80408981c09941da"
+    },
+    {
+      "path": "assets/production/webp/city-wuppertal-card-v1-1920.webp",
+      "bytes": 24604,
+      "sha256": "dcc9c1fe56293a79419421b37fa7bc6786947e4884fd3ea1da60e819f5b40844"
+    },
+    {
+      "path": "assets/production/avif/city-wuppertal-card-v1-2560.avif",
+      "bytes": 40270,
+      "sha256": "39dca1fcd7a080f5990ae3b3e953e98a78330ae164861ef912652862b2e5a1ac"
+    },
+    {
+      "path": "assets/production/webp/city-wuppertal-card-v1-2560.webp",
+      "bytes": 36744,
+      "sha256": "b1f439b396c23ae06ed4aeb19e28af5997d854abe0e0c7dffdf8466cd2f30735"
+    },
+    {
+      "path": "assets/production/avif/city-wuppertal-card-v1-3840.avif",
+      "bytes": 65445,
+      "sha256": "d914da37acd076c2cb0208dea11f0445cdf9800f7690c54b328e56df83e51d7e"
+    },
+    {
+      "path": "assets/production/webp/city-wuppertal-card-v1-3840.webp",
+      "bytes": 66258,
+      "sha256": "e7969ea9ed83fd9e281f0bd018e174c1f7828e755432de670598718fe57a8162"
+    },
+    {
+      "path": "assets/production/png/city-wuppertal-card-v1-1280.png",
+      "bytes": 1270058,
+      "sha256": "85067ae87651c1e24c4e23209cedd55254cd2871fce1a083f8a3332ef061d991"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-card-v1-320.avif",
+      "bytes": 3580,
+      "sha256": "37c1f658ef2e88ccd19ba8391ce794aab1dd70009585c8f70c3049eab0d4d647"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-card-v1-320.webp",
+      "bytes": 3514,
+      "sha256": "408ae7c1115fef1cab3bf4b1b9bebe4389315b14f2430a28b81eb7fb8022cbf1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-card-v1-640.avif",
+      "bytes": 7894,
+      "sha256": "5663bd9c118812ad359dd396d7cbd26dbd8ce61c7bbb02207645863c89615876"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-card-v1-640.webp",
+      "bytes": 6598,
+      "sha256": "ca9db409d00b61b8b7572c5c71802bd40e7978fcd4f59219119482a89029713c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-card-v1-960.avif",
+      "bytes": 13824,
+      "sha256": "4c33f53c317f6710f61aa11e9247eb99807bd3e2772291d45144b60c7c7f4a56"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-card-v1-960.webp",
+      "bytes": 10986,
+      "sha256": "5d187eac1d4dba1cfe833e5ff90712f916aa8e1ccde695f07b1ebfca1039c0a2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-card-v1-1280.avif",
+      "bytes": 19216,
+      "sha256": "9ad062e0466161fde728ad136db0ff6fbf26e24d2cdf7f10148f7b67c1befb55"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-card-v1-1280.webp",
+      "bytes": 15070,
+      "sha256": "7226d58b22586992638ed59100635a9a34c07c06fd1cbc5e21179b2960c55557"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-card-v1-1920.avif",
+      "bytes": 28839,
+      "sha256": "e1122f41af151e882b14866c977d19a7ffa5d49ad3e6d36c80408981c09941da"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-card-v1-1920.webp",
+      "bytes": 24604,
+      "sha256": "dcc9c1fe56293a79419421b37fa7bc6786947e4884fd3ea1da60e819f5b40844"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-card-v1-2560.avif",
+      "bytes": 40270,
+      "sha256": "39dca1fcd7a080f5990ae3b3e953e98a78330ae164861ef912652862b2e5a1ac"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-card-v1-2560.webp",
+      "bytes": 36744,
+      "sha256": "b1f439b396c23ae06ed4aeb19e28af5997d854abe0e0c7dffdf8466cd2f30735"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-card-v1-3840.avif",
+      "bytes": 65445,
+      "sha256": "d914da37acd076c2cb0208dea11f0445cdf9800f7690c54b328e56df83e51d7e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-card-v1-3840.webp",
+      "bytes": 66258,
+      "sha256": "e7969ea9ed83fd9e281f0bd018e174c1f7828e755432de670598718fe57a8162"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wuppertal-card-v1-1280.png",
+      "bytes": 1270058,
+      "sha256": "85067ae87651c1e24c4e23209cedd55254cd2871fce1a083f8a3332ef061d991"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-wuppertal-card-v1.webp",
+      "bytes": 3514,
+      "sha256": "408ae7c1115fef1cab3bf4b1b9bebe4389315b14f2430a28b81eb7fb8022cbf1"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-wuppertal-card-v1.webp",
+      "bytes": 3514,
+      "sha256": "408ae7c1115fef1cab3bf4b1b9bebe4389315b14f2430a28b81eb7fb8022cbf1"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.040Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1672143
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:49:07.686Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

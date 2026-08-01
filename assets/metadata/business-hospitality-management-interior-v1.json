@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-hospitality-management-interior-v1",
+  "manifest_order": 466,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "management-interior",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-hospitality-management-interior-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100466,
+  "content_hash": "a0f9744a82f65d12bd0bebd72d60adb67b4e5f8d7b40804ba13612ae12bc8686",
+  "source_file": "assets/source/businesses/business-hospitality-management-interior-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-hospitality-management-interior-v1-320.avif",
+      "bytes": 2839,
+      "sha256": "63d0aacbe17341a971be8642a519f41b08d59a1b50318c126f2eeac96350068a"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-management-interior-v1-320.webp",
+      "bytes": 2534,
+      "sha256": "e60010e4c17c565cb2df53af2bfb1664c513224ee82c6aa208bbab3c7c152a7b"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-management-interior-v1-640.avif",
+      "bytes": 6190,
+      "sha256": "0c0ee1761128c1f767adcea757eeea3498128bdb5583257a206f4090c08b5e29"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-management-interior-v1-640.webp",
+      "bytes": 5086,
+      "sha256": "9661570e60f2043149987db60072a42ac693eab2fadccbb975d1e5815acd4e0c"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-management-interior-v1-960.avif",
+      "bytes": 10155,
+      "sha256": "1d3ca982919045f7904bf1a700140ce3b1ddc38eca0bb657ea198db5b46b54e3"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-management-interior-v1-960.webp",
+      "bytes": 8612,
+      "sha256": "c1d9363ab296460bb82c37cf6d496ff60fec5bd2255107dc22d2f26894f7e3f9"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-management-interior-v1-1280.avif",
+      "bytes": 14546,
+      "sha256": "7805e2307b9af51829f6f15979e0812fe5859c3cdb331513c813878867619a89"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-management-interior-v1-1280.webp",
+      "bytes": 11368,
+      "sha256": "d3825edbaf3e79e0d696eb85e0dcdf4ac118fed14478083e93f1ba8e5fc4863e"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-management-interior-v1-1920.avif",
+      "bytes": 21711,
+      "sha256": "ec1cdec009dadec5d3ee4b46652b4682806401cffab6e37bbb1b916d0d406afe"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-management-interior-v1-1920.webp",
+      "bytes": 18094,
+      "sha256": "8c277bd33f67252c3768edecd396f50e232732940f9bc3930f176a8fef89c446"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-management-interior-v1-2560.avif",
+      "bytes": 29161,
+      "sha256": "df7ae0148f25f29d84afc7a8d920fd637b80c699f2743699167e0df984c0cac0"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-management-interior-v1-2560.webp",
+      "bytes": 24684,
+      "sha256": "bdd4b0d8adfcf4bc2ca1659f460a191eef7ddff3ea9329c0fb2339fe2cb7550c"
+    },
+    {
+      "path": "assets/production/avif/business-hospitality-management-interior-v1-3840.avif",
+      "bytes": 46888,
+      "sha256": "681d8cf14f674c79e862c369fca0755d93fc59aeb933fd1399ebb002f268d932"
+    },
+    {
+      "path": "assets/production/webp/business-hospitality-management-interior-v1-3840.webp",
+      "bytes": 42070,
+      "sha256": "d9fd1d1054433ca243392817f97d29076b9e6b4c3ff091d5f2eabfd26b26a93e"
+    },
+    {
+      "path": "assets/production/png/business-hospitality-management-interior-v1-1280.png",
+      "bytes": 625368,
+      "sha256": "d098b227f66ef1e5810d778bd07b6e06e469fdce9ed59fcdcf2eb358464400b8"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-hospitality-management-interior-v1.webp",
+      "bytes": 2534,
+      "sha256": "e60010e4c17c565cb2df53af2bfb1664c513224ee82c6aa208bbab3c7c152a7b"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-hospitality-management-interior-v1.webp",
+      "bytes": 2534,
+      "sha256": "e60010e4c17c565cb2df53af2bfb1664c513224ee82c6aa208bbab3c7c152a7b"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.331Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1432505
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:52:56.817Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

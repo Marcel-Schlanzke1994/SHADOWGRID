@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-harbor-quarter-authority-activity-day-v1",
+  "manifest_order": 381,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "authority-activity-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-harbor-quarter-authority-activity-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100381,
+  "content_hash": "f22c726b52f809c877a132ee9c7e48291bdb45ba6a4df820c79fa965e4a3515c",
+  "source_file": "assets/source/districts/district-harbor-quarter-authority-activity-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-harbor-quarter-authority-activity-day-v1-320.avif",
+      "bytes": 2924,
+      "sha256": "49288705e95944297b8942bead9a3974183a1f527024f374d68cdfea4ebd1629"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-authority-activity-day-v1-320.webp",
+      "bytes": 2548,
+      "sha256": "e89ceb83e6003790f4b7300cd8c52f10d4413451532782012183116e51dcfe3c"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-authority-activity-day-v1-640.avif",
+      "bytes": 6261,
+      "sha256": "5a16f2e87ab9f2a5790576f4c0c22bdca84df6791a51919c1bb96a56a4ee0448"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-authority-activity-day-v1-640.webp",
+      "bytes": 4870,
+      "sha256": "20116cb42c156ea7e4a7189c9db19e22bd0bcfb8b93ffec1a3d86f05700f2d1a"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-authority-activity-day-v1-960.avif",
+      "bytes": 10348,
+      "sha256": "e5420e31bcf559a8282df3364acb2033aefd2b46209b8fdc0eb5fb241534db3c"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-authority-activity-day-v1-960.webp",
+      "bytes": 8320,
+      "sha256": "690675c8b7356d2270f4598de5dc8a9ada8fe8d6b609fa24064fd161f9975cc8"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-authority-activity-day-v1-1280.avif",
+      "bytes": 14416,
+      "sha256": "f2efe29d3da0a011e888f9e023887c9d5efd7b1872f2ccfca339b651ade13a92"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-authority-activity-day-v1-1280.webp",
+      "bytes": 11218,
+      "sha256": "ac7dd852a5d34007e57be0962c2a42883e8eb17d42c77a9ff3f8a7b11f640a85"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-authority-activity-day-v1-1920.avif",
+      "bytes": 21776,
+      "sha256": "a4f67e16a669f8996ee357dbc84715a50cd9204d915c15472350ce94aaf15dfa"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-authority-activity-day-v1-1920.webp",
+      "bytes": 17416,
+      "sha256": "6da47764c35c037096b41022a0e9484d612b882051a1a33d1dd0f204e05a5b98"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-authority-activity-day-v1-2560.avif",
+      "bytes": 29211,
+      "sha256": "dda77e2c6b1732109b45299498674fc6c54e3ce8d28a4e81405f74a3f89634b0"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-authority-activity-day-v1-2560.webp",
+      "bytes": 24302,
+      "sha256": "5f8e54ec094efd70ec5562fd7576a200c6f032eeb0460889410dc333be28f0ea"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-authority-activity-day-v1-3840.avif",
+      "bytes": 48319,
+      "sha256": "b0610fd43e4e967e58183b55cdd89487e2d266bca263069ff10412887c1a8eef"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-authority-activity-day-v1-3840.webp",
+      "bytes": 43150,
+      "sha256": "158fa7495ad0eec5e38fa4467c375ce68990bbad27d3e5109f0c16f9272a0aa6"
+    },
+    {
+      "path": "assets/production/png/district-harbor-quarter-authority-activity-day-v1-1280.png",
+      "bytes": 621474,
+      "sha256": "d03ff030dad2bcb8d26dac5ed4b0a1c68698c7277a3cea7e54a979c9362078db"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-harbor-quarter-authority-activity-day-v1.webp",
+      "bytes": 2548,
+      "sha256": "e89ceb83e6003790f4b7300cd8c52f10d4413451532782012183116e51dcfe3c"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-harbor-quarter-authority-activity-day-v1.webp",
+      "bytes": 2548,
+      "sha256": "e89ceb83e6003790f4b7300cd8c52f10d4413451532782012183116e51dcfe3c"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.565Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1418119
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:24:53.456Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "asset_id": "tutorial-specialists-v1",
+  "manifest_order": 713,
+  "category": "tutorial",
+  "batch": "tutorial",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/tutorial-specialists-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100713,
+  "content_hash": "ec7b6b76ca1fa8af217608d86a4643a085e99e06392d9fc1177d69e0e30a0a0d",
+  "source_file": "assets/source/tutorial/tutorial-specialists-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/tutorial-specialists-v1-320.avif",
+      "bytes": 2054,
+      "sha256": "92a5979c88b51026f9f8c85d0ea7951feccd5654c7441ae8f3a7044136597508"
+    },
+    {
+      "path": "assets/production/webp/tutorial-specialists-v1-320.webp",
+      "bytes": 1346,
+      "sha256": "1b97e028ffee25916380a1c3f31f7dc9f1817d3bd20e668d12f405e14aa0b181"
+    },
+    {
+      "path": "assets/production/avif/tutorial-specialists-v1-640.avif",
+      "bytes": 4401,
+      "sha256": "2713c56de3c9e1611dfa1e2457c4410bd4707ff010d8ed722c24d6a25eea9655"
+    },
+    {
+      "path": "assets/production/webp/tutorial-specialists-v1-640.webp",
+      "bytes": 3402,
+      "sha256": "34042c2598e1f0cd53faa9c3058870a69aa7acc42a8cf51034eca692edc6ffda"
+    },
+    {
+      "path": "assets/production/avif/tutorial-specialists-v1-960.avif",
+      "bytes": 8857,
+      "sha256": "d422785c6326169bce0e04b2b6af39a24468459543e4da0e6cae0e1034adbf79"
+    },
+    {
+      "path": "assets/production/webp/tutorial-specialists-v1-960.webp",
+      "bytes": 6410,
+      "sha256": "d834294560714f189e7f9f94f04c304ed13e21835092d35d1025b1f8c690734a"
+    },
+    {
+      "path": "assets/production/avif/tutorial-specialists-v1-1280.avif",
+      "bytes": 12746,
+      "sha256": "c61a3223510edb5a5d5bdb7e99e2da067c4cb74e5e4548a0ca9d2aad03a4822c"
+    },
+    {
+      "path": "assets/production/webp/tutorial-specialists-v1-1280.webp",
+      "bytes": 9508,
+      "sha256": "3c194940150be63ba0afb0a0be6795057320a6400df443a1ce35c89e5a54ae9d"
+    },
+    {
+      "path": "assets/production/avif/tutorial-specialists-v1-1920.avif",
+      "bytes": 20237,
+      "sha256": "1bfb675250f992797884c44b55e28b3d89747a4207d59b5906a79cca419e5efd"
+    },
+    {
+      "path": "assets/production/webp/tutorial-specialists-v1-1920.webp",
+      "bytes": 17264,
+      "sha256": "6348b4f61ce5a0457365c3366ace7d1c762f28e824ad3392d0dd6b3602bfab56"
+    },
+    {
+      "path": "assets/production/avif/tutorial-specialists-v1-2560.avif",
+      "bytes": 27902,
+      "sha256": "ead18ebdfa67d6c08805128e2e8c337f8a8e110435e9024ec48ef4bd76488c35"
+    },
+    {
+      "path": "assets/production/webp/tutorial-specialists-v1-2560.webp",
+      "bytes": 24322,
+      "sha256": "2542442176b5ae57d86f91596963440465e8a37e8b3b03b8794bee50e490f8d6"
+    },
+    {
+      "path": "assets/production/avif/tutorial-specialists-v1-3840.avif",
+      "bytes": 47499,
+      "sha256": "9e20e7be75154bd6fa8cd97e711e6e3a8dfa706a17f364a80e8a40c37a90f736"
+    },
+    {
+      "path": "assets/production/webp/tutorial-specialists-v1-3840.webp",
+      "bytes": 41674,
+      "sha256": "598ae2c02d8a22c62deaf620c42e833926d48c0bdbce10e07ce6ba089e9ac4fc"
+    },
+    {
+      "path": "assets/production/png/tutorial-specialists-v1-1280.png",
+      "bytes": 131285,
+      "sha256": "78a5e9d36bc0d998aaa0d6349d8c8793ea64284b1ceda5f4c69bf71bc25963ae"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/tutorial-specialists-v1.webp",
+      "bytes": 1346,
+      "sha256": "1b97e028ffee25916380a1c3f31f7dc9f1817d3bd20e668d12f405e14aa0b181"
+    },
+    {
+      "path": "apps/mobile/assets/library/tutorial-specialists-v1.webp",
+      "bytes": 1346,
+      "sha256": "1b97e028ffee25916380a1c3f31f7dc9f1817d3bd20e668d12f405e14aa0b181"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:19.721Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 95,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 97,
+      "mobile_suitability": 95,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 94,
+      "contrast": 95,
+      "geometry_quality": 95,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "The thematic glyph, card progression, safe area, and directional flow remain clear in both desktop and mobile placements.",
+      "No missing render, unsafe content, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 174454
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:34:00.508Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

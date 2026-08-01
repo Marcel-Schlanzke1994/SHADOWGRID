@@ -1,0 +1,40 @@
+{
+  "schema": "shadowgrid/contact-sheet-pages/v1",
+  "batch": "map-markers",
+  "generated_at": "2026-07-30T05:54:41.535Z",
+  "asset_count": 19,
+  "page_size": 18,
+  "pages": [
+    {
+      "page": 1,
+      "path": "assets/reports/contact-sheets/map-markers-pages/page-001.png",
+      "assets": [
+        "marker-metropolis-v1",
+        "marker-large-city-v1",
+        "marker-medium-city-v1",
+        "marker-small-town-v1",
+        "marker-home-city-v1",
+        "marker-cartel-headquarters-v1",
+        "marker-contested-city-v1",
+        "marker-seasonal-event-v1",
+        "marker-influence-economy-v1",
+        "marker-influence-street-v1",
+        "marker-influence-information-v1",
+        "marker-influence-society-v1",
+        "marker-influence-digital-v1",
+        "marker-control-economic-network-v1",
+        "marker-control-information-center-v1",
+        "marker-control-logistics-node-v1",
+        "marker-control-social-access-v1",
+        "marker-control-digital-node-v1"
+      ]
+    },
+    {
+      "page": 2,
+      "path": "assets/reports/contact-sheets/map-markers-pages/page-002.png",
+      "assets": [
+        "marker-control-coordination-center-v1"
+      ]
+    }
+  ]
+}

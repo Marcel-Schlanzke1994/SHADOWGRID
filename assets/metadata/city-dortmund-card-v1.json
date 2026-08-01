@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-dortmund-card-v1",
+  "manifest_order": 137,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "dortmund",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-dortmund-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100137,
+  "content_hash": "20c2185210a39e0eb8b2ae5b7e8d400e82e80efebe0e3f56944fe21e7d85bf88",
+  "source_file": "assets/source/cities/city-dortmund-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-dortmund-card-v1-320.avif",
+      "bytes": 3753,
+      "sha256": "b9a86e400042900abb074fcdb3772ff9444d5612a06d3f0ac868664c4f254e58"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-card-v1-320.webp",
+      "bytes": 3576,
+      "sha256": "04e105e0590b0109dde10bd4c14da789d3ff9946c9b1661efa9cbd3468bad81e"
+    },
+    {
+      "path": "assets/production/avif/city-dortmund-card-v1-640.avif",
+      "bytes": 8311,
+      "sha256": "58de76d4e37a85a49aa9053b974f1a7c5448d0c08861e8401c3b1f41b406b75e"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-card-v1-640.webp",
+      "bytes": 7104,
+      "sha256": "ac9aa99b6cf1e6e474cdbdd1c6d3d6fcb34c222d5eacc967378ee93872dff190"
+    },
+    {
+      "path": "assets/production/avif/city-dortmund-card-v1-960.avif",
+      "bytes": 14640,
+      "sha256": "b27eec2e4ac1dc603a370f60cc6f6853553ee774f0cb99c0b920197a3ee43534"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-card-v1-960.webp",
+      "bytes": 11922,
+      "sha256": "0ed1d3230db7cf385519a7b8a2635e5b3f31942f7aed0d84949f3cc50f20dd41"
+    },
+    {
+      "path": "assets/production/avif/city-dortmund-card-v1-1280.avif",
+      "bytes": 19935,
+      "sha256": "0867955c7ffde490a747cc9400b85fe9a3f901df0e0b49ea06458f780c4d5e0b"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-card-v1-1280.webp",
+      "bytes": 15742,
+      "sha256": "b0b3601b00673ec316bc412435d37ec3fe5be9c339b910fbd9f78c638db2da32"
+    },
+    {
+      "path": "assets/production/avif/city-dortmund-card-v1-1920.avif",
+      "bytes": 30023,
+      "sha256": "7c49499790e9ee7bb26bcf2dbe0b067c8d6987177fde2e4787dad72885f2fdb5"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-card-v1-1920.webp",
+      "bytes": 25560,
+      "sha256": "63faa41e950699d18d040cff1717298c31ee356b5673197a0fbf8996692fbf7c"
+    },
+    {
+      "path": "assets/production/avif/city-dortmund-card-v1-2560.avif",
+      "bytes": 41988,
+      "sha256": "b292ab9dd714d51328e81b5b398b85f003c8e4b11ef8af2f447a2bc84dc2877e"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-card-v1-2560.webp",
+      "bytes": 37564,
+      "sha256": "f82f31dfff79cb284085f33f654d6d503fad68e09bba8ce983a122909f63db2d"
+    },
+    {
+      "path": "assets/production/avif/city-dortmund-card-v1-3840.avif",
+      "bytes": 66897,
+      "sha256": "20dfb3d190613453ffff876fddc2f721d3a6d66464bc810b2939d5fa43956ba6"
+    },
+    {
+      "path": "assets/production/webp/city-dortmund-card-v1-3840.webp",
+      "bytes": 70030,
+      "sha256": "fa74b8c7c28c5d212a6f1915a3cb3ffa3613be6454f767000296e3034f3204ca"
+    },
+    {
+      "path": "assets/production/png/city-dortmund-card-v1-1280.png",
+      "bytes": 1267255,
+      "sha256": "3b5b748919b6d01d697358e92a1d8ea726fdc8c853308c4e35a2ce7891d74648"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-card-v1-320.avif",
+      "bytes": 3753,
+      "sha256": "b9a86e400042900abb074fcdb3772ff9444d5612a06d3f0ac868664c4f254e58"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-card-v1-320.webp",
+      "bytes": 3576,
+      "sha256": "04e105e0590b0109dde10bd4c14da789d3ff9946c9b1661efa9cbd3468bad81e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-card-v1-640.avif",
+      "bytes": 8311,
+      "sha256": "58de76d4e37a85a49aa9053b974f1a7c5448d0c08861e8401c3b1f41b406b75e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-card-v1-640.webp",
+      "bytes": 7104,
+      "sha256": "ac9aa99b6cf1e6e474cdbdd1c6d3d6fcb34c222d5eacc967378ee93872dff190"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-card-v1-960.avif",
+      "bytes": 14640,
+      "sha256": "b27eec2e4ac1dc603a370f60cc6f6853553ee774f0cb99c0b920197a3ee43534"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-card-v1-960.webp",
+      "bytes": 11922,
+      "sha256": "0ed1d3230db7cf385519a7b8a2635e5b3f31942f7aed0d84949f3cc50f20dd41"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-card-v1-1280.avif",
+      "bytes": 19935,
+      "sha256": "0867955c7ffde490a747cc9400b85fe9a3f901df0e0b49ea06458f780c4d5e0b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-card-v1-1280.webp",
+      "bytes": 15742,
+      "sha256": "b0b3601b00673ec316bc412435d37ec3fe5be9c339b910fbd9f78c638db2da32"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-card-v1-1920.avif",
+      "bytes": 30023,
+      "sha256": "7c49499790e9ee7bb26bcf2dbe0b067c8d6987177fde2e4787dad72885f2fdb5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-card-v1-1920.webp",
+      "bytes": 25560,
+      "sha256": "63faa41e950699d18d040cff1717298c31ee356b5673197a0fbf8996692fbf7c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-card-v1-2560.avif",
+      "bytes": 41988,
+      "sha256": "b292ab9dd714d51328e81b5b398b85f003c8e4b11ef8af2f447a2bc84dc2877e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-card-v1-2560.webp",
+      "bytes": 37564,
+      "sha256": "f82f31dfff79cb284085f33f654d6d503fad68e09bba8ce983a122909f63db2d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-card-v1-3840.avif",
+      "bytes": 66897,
+      "sha256": "20dfb3d190613453ffff876fddc2f721d3a6d66464bc810b2939d5fa43956ba6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-card-v1-3840.webp",
+      "bytes": 70030,
+      "sha256": "fa74b8c7c28c5d212a6f1915a3cb3ffa3613be6454f767000296e3034f3204ca"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-dortmund-card-v1-1280.png",
+      "bytes": 1267255,
+      "sha256": "3b5b748919b6d01d697358e92a1d8ea726fdc8c853308c4e35a2ce7891d74648"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-dortmund-card-v1.webp",
+      "bytes": 3576,
+      "sha256": "04e105e0590b0109dde10bd4c14da789d3ff9946c9b1661efa9cbd3468bad81e"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-dortmund-card-v1.webp",
+      "bytes": 3576,
+      "sha256": "04e105e0590b0109dde10bd4c14da789d3ff9946c9b1661efa9cbd3468bad81e"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.500Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1642865
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-29T23:50:25.135Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

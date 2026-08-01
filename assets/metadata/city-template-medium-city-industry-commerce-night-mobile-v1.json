@@ -1,0 +1,171 @@
+{
+  "asset_id": "city-template-medium-city-industry-commerce-night-mobile-v1",
+  "manifest_order": 345,
+  "category": "city-template",
+  "batch": "procedural-city-templates",
+  "city": null,
+  "variant": "night-mobile",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-template-medium-city-industry-commerce-night-mobile-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100345,
+  "content_hash": "422c4e55337fa4af733056145e0e0ad915dfffaa256582140bd64d62ecb8b611",
+  "source_file": "assets/source/global/city-template-medium-city-industry-commerce-night-mobile-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-template-medium-city-industry-commerce-night-mobile-v1-320.avif",
+      "bytes": 5926,
+      "sha256": "88406e69cf0de094e71fa603da0b18f9289709c786390202d20cee3d4a1f7de7"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-industry-commerce-night-mobile-v1-320.webp",
+      "bytes": 6314,
+      "sha256": "4bd5284fe04edb59cd52396a1388afbc94c1139442eabcf83a2eac60f8d976d8"
+    },
+    {
+      "path": "assets/production/avif/city-template-medium-city-industry-commerce-night-mobile-v1-640.avif",
+      "bytes": 12293,
+      "sha256": "d1d996b24ce5afce595947c4911416497a5f26e1f6ffc32c9233853b5e1652a0"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-industry-commerce-night-mobile-v1-640.webp",
+      "bytes": 12530,
+      "sha256": "dd65e14918859607921f99fabdf07ae4efa0c916ad39c2b66cc90b59d7f93fb3"
+    },
+    {
+      "path": "assets/production/avif/city-template-medium-city-industry-commerce-night-mobile-v1-960.avif",
+      "bytes": 21709,
+      "sha256": "0954b894b7bc3327b84267a6a0b46df664c19bfc79814b7174d60f1cddb57b96"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-industry-commerce-night-mobile-v1-960.webp",
+      "bytes": 20596,
+      "sha256": "af69ba023b121cd2da166debd9221885a60aafc5cd26b07b7c2f11b1f24a7b55"
+    },
+    {
+      "path": "assets/production/avif/city-template-medium-city-industry-commerce-night-mobile-v1-1280.avif",
+      "bytes": 30005,
+      "sha256": "80121768917f698ebec606043694620daf53cbd1a84c558dbf7557e7f27ac395"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-industry-commerce-night-mobile-v1-1280.webp",
+      "bytes": 27276,
+      "sha256": "24915a867cbc2dc5c7c774eaf2cca16c9310bb3fca4fd5dce7544a0f50d9170a"
+    },
+    {
+      "path": "assets/production/avif/city-template-medium-city-industry-commerce-night-mobile-v1-1920.avif",
+      "bytes": 48500,
+      "sha256": "fbc4d6e59481144a313c6878783a5aa63d4b5e59246a465d4e5177badbca6183"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-industry-commerce-night-mobile-v1-1920.webp",
+      "bytes": 44334,
+      "sha256": "cf986ee756f7b5e321efd35f26fe0b31c2b13b74bad851541e34ff6cab7fd6fb"
+    },
+    {
+      "path": "assets/production/avif/city-template-medium-city-industry-commerce-night-mobile-v1-2560.avif",
+      "bytes": 66909,
+      "sha256": "a499733ef9a0a68d14a4c21ae92ed5ece23d95a178bad04ccd73806d8c23c611"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-industry-commerce-night-mobile-v1-2560.webp",
+      "bytes": 62952,
+      "sha256": "d6dbc0dea4e8b8829ff58f28a3c85c496da29a2635fa5040d89b055e77b0b712"
+    },
+    {
+      "path": "assets/production/avif/city-template-medium-city-industry-commerce-night-mobile-v1-3840.avif",
+      "bytes": 120829,
+      "sha256": "2ae3a0665f092f41f4fe5987bb278a5a3508de22c8ecf6611efbea1e72a27aac"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-industry-commerce-night-mobile-v1-3840.webp",
+      "bytes": 117856,
+      "sha256": "77404d3496f4ccb239ffa148989bbb9fd542b84086117622d6da4d5fb54ac327"
+    },
+    {
+      "path": "assets/production/png/city-template-medium-city-industry-commerce-night-mobile-v1-1152.png",
+      "bytes": 1754111,
+      "sha256": "422c4e55337fa4af733056145e0e0ad915dfffaa256582140bd64d62ecb8b611"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/city-template-medium-city-industry-commerce-night-mobile-v1.webp",
+      "bytes": 6314,
+      "sha256": "4bd5284fe04edb59cd52396a1388afbc94c1139442eabcf83a2eac60f8d976d8"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-template-medium-city-industry-commerce-night-mobile-v1.webp",
+      "bytes": 6314,
+      "sha256": "4bd5284fe04edb59cd52396a1388afbc94c1139442eabcf83a2eac60f8d976d8"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 91.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:55.432Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 92,
+      "material_quality": 87,
+      "light_quality": 89,
+      "architecture_plausibility": 89,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 92,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All four paged contact sheets were inspected at original resolution.",
+      "The templates are intentionally stylized deterministic fallbacks and remain compositionally useful across every required aspect ratio.",
+      "No missing render, broken geometry, sensitive infrastructure detail, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1754111
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:42:57.935Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

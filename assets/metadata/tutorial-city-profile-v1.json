@@ -1,0 +1,171 @@
+{
+  "asset_id": "tutorial-city-profile-v1",
+  "manifest_order": 711,
+  "category": "tutorial",
+  "batch": "tutorial",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/tutorial-city-profile-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100711,
+  "content_hash": "92cc2c856edf5a6cb44ca27905a5696c06ad877f96e9c883d613fa84437d0166",
+  "source_file": "assets/source/tutorial/tutorial-city-profile-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/tutorial-city-profile-v1-320.avif",
+      "bytes": 1979,
+      "sha256": "a5b9953a408f99524bed4b1de0a53284393a69b05835a89cf3f0d4fcb4b067b5"
+    },
+    {
+      "path": "assets/production/webp/tutorial-city-profile-v1-320.webp",
+      "bytes": 1418,
+      "sha256": "f60b069e17ac282068021d53e7b4d9311cd12619caccce2657a35908fab845c3"
+    },
+    {
+      "path": "assets/production/avif/tutorial-city-profile-v1-640.avif",
+      "bytes": 4610,
+      "sha256": "8b2862c47d05ecb0cc2f9fe3819bb7e79dd4f090f4fe415127fb386a3f92f28c"
+    },
+    {
+      "path": "assets/production/webp/tutorial-city-profile-v1-640.webp",
+      "bytes": 3528,
+      "sha256": "9e46586e0e3737c114f848ca705fd98e2b3315796bf5e28c48d5d0bf845ee75a"
+    },
+    {
+      "path": "assets/production/avif/tutorial-city-profile-v1-960.avif",
+      "bytes": 8974,
+      "sha256": "c6b2887472444f77fef68f6cc885c4287e5789de91bb8feb4de01dbd5a3cc0ea"
+    },
+    {
+      "path": "assets/production/webp/tutorial-city-profile-v1-960.webp",
+      "bytes": 6722,
+      "sha256": "fbf959529b8abf80b285c35f4cf3306ac0fd3e34f56accf4c2ef5043262cd07c"
+    },
+    {
+      "path": "assets/production/avif/tutorial-city-profile-v1-1280.avif",
+      "bytes": 13052,
+      "sha256": "cbb8fddbc276742d41f12df5cc719de7ad23b6b61e5bc30b873e12e49e551f55"
+    },
+    {
+      "path": "assets/production/webp/tutorial-city-profile-v1-1280.webp",
+      "bytes": 9592,
+      "sha256": "4faa579f62da68d24b6bdb856864154880d6004faa371ddf8e9a464e139480c6"
+    },
+    {
+      "path": "assets/production/avif/tutorial-city-profile-v1-1920.avif",
+      "bytes": 20610,
+      "sha256": "70bc24eb768d8d041d7fe697ad675ee7fcace778e1166fe550880433d2e02a50"
+    },
+    {
+      "path": "assets/production/webp/tutorial-city-profile-v1-1920.webp",
+      "bytes": 17480,
+      "sha256": "f7ea8867d53b480467b1d1dad6b7b092668959491c1e227a499bfb47d23dee2b"
+    },
+    {
+      "path": "assets/production/avif/tutorial-city-profile-v1-2560.avif",
+      "bytes": 28411,
+      "sha256": "879266b533a0c14caa786a239991ad11f0424c9df425d096a1c97112e375d0ad"
+    },
+    {
+      "path": "assets/production/webp/tutorial-city-profile-v1-2560.webp",
+      "bytes": 24584,
+      "sha256": "5511d90e8e143850235e0583ce85892fe1726d821730238bfa660c1735e8f076"
+    },
+    {
+      "path": "assets/production/avif/tutorial-city-profile-v1-3840.avif",
+      "bytes": 48152,
+      "sha256": "e7c91b1c9f14eee2112e0e0cdb8e4a82f24a4d6db638b9c4da16d77d536df205"
+    },
+    {
+      "path": "assets/production/webp/tutorial-city-profile-v1-3840.webp",
+      "bytes": 41874,
+      "sha256": "86f39a8cf5e712fcd62cbc57e9136f44d15b150fd1415d8c12af297baa5a4b79"
+    },
+    {
+      "path": "assets/production/png/tutorial-city-profile-v1-1280.png",
+      "bytes": 132133,
+      "sha256": "0c5bfadc1482e653bc1b6512541f9e2feecad3112840c8f615948b6d8f36969a"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/tutorial-city-profile-v1.webp",
+      "bytes": 1418,
+      "sha256": "f60b069e17ac282068021d53e7b4d9311cd12619caccce2657a35908fab845c3"
+    },
+    {
+      "path": "apps/mobile/assets/library/tutorial-city-profile-v1.webp",
+      "bytes": 1418,
+      "sha256": "f60b069e17ac282068021d53e7b4d9311cd12619caccce2657a35908fab845c3"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:19.709Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 95,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 97,
+      "mobile_suitability": 95,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 94,
+      "contrast": 95,
+      "geometry_quality": 95,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "The thematic glyph, card progression, safe area, and directional flow remain clear in both desktop and mobile placements.",
+      "No missing render, unsafe content, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 175547
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:33:40.181Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

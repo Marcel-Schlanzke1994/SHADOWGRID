@@ -1,0 +1,171 @@
+{
+  "asset_id": "organization-conflict-active-conflict-v1",
+  "manifest_order": 601,
+  "category": "organization-conflict",
+  "batch": "cartel-conflicts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "active-conflict",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/organization-conflict-active-conflict-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100601,
+  "content_hash": "bf4559585e6b501f5b866ed12f387a7f9bf1f44c9185540bc45d4bfea50c39f1",
+  "source_file": "assets/source/cartels/organization-conflict-active-conflict-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/organization-conflict-active-conflict-v1-320.avif",
+      "bytes": 2470,
+      "sha256": "a53acb33345b503c43539f92e5cd1f4f914c6da36b76834250590426b0ae8941"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-active-conflict-v1-320.webp",
+      "bytes": 1540,
+      "sha256": "93d3af4996c328699cad616037fb28fde2f1293bbbf0aacbdd89b86d52b7fc2e"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-active-conflict-v1-640.avif",
+      "bytes": 6369,
+      "sha256": "9131fcfe5ae558e03359a2139f8fd8d42812269b702a0e8bf0cb53170bfbfcd4"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-active-conflict-v1-640.webp",
+      "bytes": 4368,
+      "sha256": "cc8bb27bed0097698cb2dedc4549d92c446e379e4da3fd6b662592d07d3f9cdf"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-active-conflict-v1-960.avif",
+      "bytes": 12736,
+      "sha256": "8f6c2dce82cb2d11b994ffeac4e453852c664adb0fa85786135d8c070e960ad6"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-active-conflict-v1-960.webp",
+      "bytes": 8290,
+      "sha256": "ce73d0b9d816e258e1d02c91ae9dc86d93db90a04304f04c8bb7249da4e5cfb6"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-active-conflict-v1-1280.avif",
+      "bytes": 18830,
+      "sha256": "3fedc2151a2a8e4642797dd0d7d7e49e40b9b5daeb01fe4e34eaa83be6598091"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-active-conflict-v1-1280.webp",
+      "bytes": 12224,
+      "sha256": "8683f615f88266de2a9a448d6804b433d8e3841ff7be6cf472489934cc123386"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-active-conflict-v1-1920.avif",
+      "bytes": 28447,
+      "sha256": "e02aa6b0c5d3cf7ea22262a5a4c1dbeeb4a510b785d06e7c14ce2192bb1fd0a7"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-active-conflict-v1-1920.webp",
+      "bytes": 20426,
+      "sha256": "40b257ac8af875b4737b7089549e8279ab6b7c0d6b37eda73fedb642c2b89295"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-active-conflict-v1-2560.avif",
+      "bytes": 36796,
+      "sha256": "f6939d9c328eef88d8687403abffeb8b196e8f05ff7f23ce725b1fc01ce1f997"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-active-conflict-v1-2560.webp",
+      "bytes": 27464,
+      "sha256": "b514f85b1b98f9f4b44d4a8bea0be56b6271fa8279562dfe40393c5610d9ea7f"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-active-conflict-v1-3840.avif",
+      "bytes": 56806,
+      "sha256": "d5ecbc2b790fc0dac8a5aaf4d74fcf50eddb499807184c0131b33e6f8e693daf"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-active-conflict-v1-3840.webp",
+      "bytes": 45778,
+      "sha256": "4d2ea5cb4657759d5605a739ca4bdec86daafb5d82c4d36cf5c83a9c5a0c2f35"
+    },
+    {
+      "path": "assets/production/png/organization-conflict-active-conflict-v1-1280.png",
+      "bytes": 172441,
+      "sha256": "553a9faab9f6824a751c7df15f846797729b6a9f99730d67a22fdd20bdb28b5d"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/organization-conflict-active-conflict-v1.webp",
+      "bytes": 1540,
+      "sha256": "93d3af4996c328699cad616037fb28fde2f1293bbbf0aacbdd89b86d52b7fc2e"
+    },
+    {
+      "path": "apps/mobile/assets/library/organization-conflict-active-conflict-v1.webp",
+      "bytes": 1540,
+      "sha256": "93d3af4996c328699cad616037fb28fde2f1293bbbf0aacbdd89b86d52b7fc2e"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:59.470Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 93,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Conflict phases remain fictional and abstract, with no actionable real-world violence, hacking, or sabotage content.",
+      "No missing render, unsafe instruction, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 214562
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:27:54.527Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

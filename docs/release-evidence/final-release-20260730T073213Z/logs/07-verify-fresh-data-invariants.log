@@ -1,0 +1,10 @@
+SHADOWGRID final release evidence
+Step: Verify fresh data invariants
+Command: pnpm data:verify
+Started: 2026-07-30T07:34:16.872Z
+
+$ node scripts/run-python.mjs --cwd apps/api -m shadowgrid.release_checks
+Release data invariants passed.
+
+Finished: 2026-07-30T07:34:27.966Z
+Exit code: 0

@@ -1,0 +1,110 @@
+{
+  "schema": "shadowgrid/final-release-run/v1",
+  "run_id": "final-release-20260730T072106Z",
+  "status": "failed",
+  "candidate_commit": "52a2c9f3fe7ec66082d22ae8adb27b2bec4959ca",
+  "branch": "codex/finalize-shadowgrid",
+  "started_at": "2026-07-30T07:21:06.779Z",
+  "finished_at": "2026-07-30T07:27:11.608Z",
+  "database": ".local/final-release-20260730T072106Z.sqlite3",
+  "clean_candidate_worktree": true,
+  "tool_versions": {
+    "git": "git version 2.50.0.windows.2",
+    "node": "v22.16.0",
+    "pnpm": "11.1.3",
+    "python": "Python 3.14.5",
+    "playwright": "Version 1.55.1"
+  },
+  "steps": [
+    {
+      "index": 1,
+      "name": "Clean reproducible build outputs",
+      "command": "pnpm clean",
+      "started_at": "2026-07-30T07:21:21.620Z",
+      "finished_at": "2026-07-30T07:21:34.381Z",
+      "duration_seconds": 12.761,
+      "exit_code": 0,
+      "log": "docs/release-evidence/final-release-20260730T072106Z/logs/01-clean-reproducible-build-outputs.log",
+      "log_sha256": "61ce87c85f29ab823c35c72b0c5193297731331955aa844f7b62bd69f465b609"
+    },
+    {
+      "index": 2,
+      "name": "Install lockfile dependencies",
+      "command": "pnpm install --frozen-lockfile",
+      "started_at": "2026-07-30T07:21:34.400Z",
+      "finished_at": "2026-07-30T07:21:38.861Z",
+      "duration_seconds": 4.461,
+      "exit_code": 0,
+      "log": "docs/release-evidence/final-release-20260730T072106Z/logs/02-install-lockfile-dependencies.log",
+      "log_sha256": "0b3fd24e2633239a22f56573a560582a38e2ecf524e80847d19a816d5e5e9027"
+    },
+    {
+      "index": 3,
+      "name": "Install pinned Python dependencies",
+      "command": "python -m pip install --disable-pip-version-check -r apps/api/requirements-dev.txt",
+      "started_at": "2026-07-30T07:21:38.873Z",
+      "finished_at": "2026-07-30T07:21:51.274Z",
+      "duration_seconds": 12.401,
+      "exit_code": 0,
+      "log": "docs/release-evidence/final-release-20260730T072106Z/logs/03-install-pinned-python-dependencies.log",
+      "log_sha256": "4a94c0a44ba031a7f57d53d9cb21a677c1fc1ca6e177687b0939be4f1ccfc1de"
+    },
+    {
+      "index": 4,
+      "name": "Migrate fresh release database",
+      "command": "pnpm migrate",
+      "started_at": "2026-07-30T07:21:51.289Z",
+      "finished_at": "2026-07-30T07:22:12.682Z",
+      "duration_seconds": 21.393,
+      "exit_code": 0,
+      "log": "docs/release-evidence/final-release-20260730T072106Z/logs/04-migrate-fresh-release-database.log",
+      "log_sha256": "dbefc8ffff955a87a70810830ac80a42c0993d2b66fbdc211833e5ad260abbec"
+    },
+    {
+      "index": 5,
+      "name": "Seed fresh release database first pass",
+      "command": "pnpm seed",
+      "started_at": "2026-07-30T07:22:12.687Z",
+      "finished_at": "2026-07-30T07:22:43.745Z",
+      "duration_seconds": 31.058,
+      "exit_code": 0,
+      "log": "docs/release-evidence/final-release-20260730T072106Z/logs/05-seed-fresh-release-database-first-pass.log",
+      "log_sha256": "956a4fd485007d24598cae73954fa9447b35c87aa0de1955f43157674f515ddf"
+    },
+    {
+      "index": 6,
+      "name": "Seed fresh release database idempotency pass",
+      "command": "pnpm seed",
+      "started_at": "2026-07-30T07:22:43.767Z",
+      "finished_at": "2026-07-30T07:23:13.622Z",
+      "duration_seconds": 29.855,
+      "exit_code": 0,
+      "log": "docs/release-evidence/final-release-20260730T072106Z/logs/06-seed-fresh-release-database-idempotency-pass.log",
+      "log_sha256": "35afc3e572343b0258b4228a901bc64e1c71926171fd8055ec1704d9d9837032"
+    },
+    {
+      "index": 7,
+      "name": "Verify fresh data invariants",
+      "command": "pnpm data:verify",
+      "started_at": "2026-07-30T07:23:13.637Z",
+      "finished_at": "2026-07-30T07:23:26.767Z",
+      "duration_seconds": 13.13,
+      "exit_code": 0,
+      "log": "docs/release-evidence/final-release-20260730T072106Z/logs/07-verify-fresh-data-invariants.log",
+      "log_sha256": "2a18ee63897873536a1c3139b537579b8c0969e5c6b076b803a1d057e12e1740"
+    },
+    {
+      "index": 8,
+      "name": "Run complete validation gate",
+      "command": "pnpm validate",
+      "started_at": "2026-07-30T07:23:26.775Z",
+      "finished_at": "2026-07-30T07:27:11.608Z",
+      "duration_seconds": 224.833,
+      "exit_code": 1,
+      "log": "docs/release-evidence/final-release-20260730T072106Z/logs/08-run-complete-validation-gate.log",
+      "log_sha256": "79f07bce44bc2f613cf795ada2fa667e3c33910f1bfaa81fbf6197749476ab5e"
+    }
+  ],
+  "summaries": {},
+  "external_gates": []
+}

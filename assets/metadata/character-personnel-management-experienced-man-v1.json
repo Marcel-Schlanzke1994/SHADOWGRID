@@ -1,0 +1,171 @@
+{
+  "asset_id": "character-personnel-management-experienced-man-v1",
+  "manifest_order": 562,
+  "category": "character",
+  "batch": "specialists",
+  "city": null,
+  "variant": "experienced-man",
+  "gameplay_state": "normal",
+  "aspect_ratio": "4:5",
+  "width": 1280,
+  "height": 1600,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/character-personnel-management-experienced-man-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100562,
+  "content_hash": "60a8cf383ccb8a5a03bf069873d9c7554fed8efceba6fc4ed4a46e8bf9e83a3c",
+  "source_file": "assets/source/characters/character-personnel-management-experienced-man-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/character-personnel-management-experienced-man-v1-320.avif",
+      "bytes": 3003,
+      "sha256": "ffbe3e846e6ae4887243652557d0b358a19e9543a5fb9fdceb1d780b5a0db137"
+    },
+    {
+      "path": "assets/production/webp/character-personnel-management-experienced-man-v1-320.webp",
+      "bytes": 2206,
+      "sha256": "f2cb7e2e06f22688ef5fe90954a6988cac5af167ba16974684c3392dc70d4ce0"
+    },
+    {
+      "path": "assets/production/avif/character-personnel-management-experienced-man-v1-640.avif",
+      "bytes": 6695,
+      "sha256": "5ea6fc740a538234ea233f6a3dfd4ad0057fa4788700867adc88bb84e09f7e31"
+    },
+    {
+      "path": "assets/production/webp/character-personnel-management-experienced-man-v1-640.webp",
+      "bytes": 5242,
+      "sha256": "78b8f51da2ea8bf782ba4340111dba7f14721b7a74a46d50e0a7315877126c51"
+    },
+    {
+      "path": "assets/production/avif/character-personnel-management-experienced-man-v1-960.avif",
+      "bytes": 14468,
+      "sha256": "0280993e93d24c97f71b17a46cdf80f284b1ee49c2173c4b5873392c59771dd7"
+    },
+    {
+      "path": "assets/production/webp/character-personnel-management-experienced-man-v1-960.webp",
+      "bytes": 9850,
+      "sha256": "1c18fe1c66addbd2d85706b3b76aeb10492145eeba2d83bf708b19d7e5c6190b"
+    },
+    {
+      "path": "assets/production/avif/character-personnel-management-experienced-man-v1-1280.avif",
+      "bytes": 20631,
+      "sha256": "eda3cb4b6d015aeffc47c0030f9e4a613823ca4091a0324bce3ce9d96727a764"
+    },
+    {
+      "path": "assets/production/webp/character-personnel-management-experienced-man-v1-1280.webp",
+      "bytes": 14930,
+      "sha256": "f249bb3e1f4ea31ef7faa4b296c8c718029d82d8766c55622258e5ca458d03f4"
+    },
+    {
+      "path": "assets/production/avif/character-personnel-management-experienced-man-v1-1920.avif",
+      "bytes": 33214,
+      "sha256": "6b5bccb0de6e2e76a0d747a94500d308379e92f9e87903473f8ab6129dcbdae0"
+    },
+    {
+      "path": "assets/production/webp/character-personnel-management-experienced-man-v1-1920.webp",
+      "bytes": 25414,
+      "sha256": "d80fca198debff3d2d5ba3c30844e062cd6a36f9e243b55fe05e10628c976d3f"
+    },
+    {
+      "path": "assets/production/avif/character-personnel-management-experienced-man-v1-2560.avif",
+      "bytes": 46614,
+      "sha256": "e4cf9b3ef71a4e8947440e2ba5071a0cbe55697b23c41cc0949526f43fe27d31"
+    },
+    {
+      "path": "assets/production/webp/character-personnel-management-experienced-man-v1-2560.webp",
+      "bytes": 38636,
+      "sha256": "bc0dfea6e53b394b552d303fceec00cb31c1a9b7c100909a172a90cba61160a8"
+    },
+    {
+      "path": "assets/production/avif/character-personnel-management-experienced-man-v1-3840.avif",
+      "bytes": 77658,
+      "sha256": "42592b50418f196b08614d6da170aac93b8069c10a0bc304fb40880e487d049f"
+    },
+    {
+      "path": "assets/production/webp/character-personnel-management-experienced-man-v1-3840.webp",
+      "bytes": 72342,
+      "sha256": "b955c4fba7157f9d7f7826dd265e27acc2bb055d5266ea48922ef2c06f067941"
+    },
+    {
+      "path": "assets/production/png/character-personnel-management-experienced-man-v1-1280.png",
+      "bytes": 211039,
+      "sha256": "60a8cf383ccb8a5a03bf069873d9c7554fed8efceba6fc4ed4a46e8bf9e83a3c"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/character-personnel-management-experienced-man-v1.webp",
+      "bytes": 2206,
+      "sha256": "f2cb7e2e06f22688ef5fe90954a6988cac5af167ba16974684c3392dc70d4ce0"
+    },
+    {
+      "path": "apps/mobile/assets/library/character-personnel-management-experienced-man-v1.webp",
+      "bytes": 2206,
+      "sha256": "f2cb7e2e06f22688ef5fe90954a6988cac5af167ba16974684c3392dc70d4ce0"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:37.422Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1280,
+      "height": 1600,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 211039
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:20:56.000Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

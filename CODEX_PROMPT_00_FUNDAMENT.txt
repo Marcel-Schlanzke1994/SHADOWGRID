@@ -1,0 +1,34 @@
+Du arbeitest im neuen Repository SHADOWGRID.
+
+Lies zuerst AGENTS.md vollständig. Erstelle danach Phase 0 des Projekts als
+sauberes Full-Stack-Monorepo.
+
+Verbindlicher Stack:
+- Flask, SQLAlchemy 2, Alembic/Flask-Migrate, PostgreSQL
+- Redis, Celery Worker, Celery Beat
+- React, TypeScript strict, Vite, Tailwind
+- Docker Compose
+- pytest, Ruff, Black, mypy
+- Vitest, ESLint, Prettier
+- Playwright-Grundkonfiguration
+
+Anforderungen:
+1. `docker compose up --build` muss alle Dienste starten.
+2. Backend stellt `/api/v1/health` bereit.
+3. Frontend zeigt den Backendstatus.
+4. PostgreSQL- und Redis-Healthchecks einbauen.
+5. Keine Secrets committen.
+6. `.env.example` mit sicheren Platzhaltern erstellen.
+7. Root-Makefile mit bootstrap, up, down, logs, migrate, seed, lint, test.
+8. Ein idempotentes `scripts/bootstrap.sh` erstellen.
+9. README mit exakten WSL2- und Startbefehlen erstellen.
+10. GitHub-Actions-Grundworkflows erstellen.
+11. Tests für Health-Endpunkt und Frontendstatus erstellen.
+12. Vor Abschluss alle verfügbaren Lints, Typprüfungen und Tests ausführen.
+13. Keine Fachfeatures aus späteren Phasen vorwegnehmen.
+
+Erstelle zuerst einen knappen Plan. Implementiere danach. Berichte abschließend:
+- geänderte Dateien,
+- ausgeführte Befehle,
+- Testergebnisse,
+- verbleibende Risiken.

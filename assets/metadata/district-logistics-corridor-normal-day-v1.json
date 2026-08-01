@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-logistics-corridor-normal-day-v1",
+  "manifest_order": 431,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-logistics-corridor-normal-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100431,
+  "content_hash": "405dc52c70375b07bc5238884c6353abebcb3e53087a821f2d550d07833aa06f",
+  "source_file": "assets/source/districts/district-logistics-corridor-normal-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-logistics-corridor-normal-day-v1-320.avif",
+      "bytes": 2933,
+      "sha256": "825cf897bf1e9ce5ca0f761efd2403c71629ec81882fca0b7b44dd3b486cea27"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-normal-day-v1-320.webp",
+      "bytes": 2580,
+      "sha256": "3f21d84bc3ccd5523a9669b9f10ba96c378652adc504917a057032faf000b564"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-normal-day-v1-640.avif",
+      "bytes": 6402,
+      "sha256": "b07d8e0d3a300e6fa595bbe48fadd243ca64f61ad080a61cc02b916dbe5742f4"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-normal-day-v1-640.webp",
+      "bytes": 5592,
+      "sha256": "f574f4177c1afcd6109eec52233b8bbecbb974140f17ac265eda018bd864b58d"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-normal-day-v1-960.avif",
+      "bytes": 10320,
+      "sha256": "0ab5ecacea3d5b2dea7ba8c4530fda7ccb9a658d45673b253c2dd9ff9bd192c7"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-normal-day-v1-960.webp",
+      "bytes": 9306,
+      "sha256": "aecc117450648670dcfb0f0c039e971fe99730312b6c63ad3f7a6e1ea5fb5220"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-normal-day-v1-1280.avif",
+      "bytes": 15097,
+      "sha256": "af0f25192d6f53ca5505770dc5766f2c99a864587512715756e1675325b722fa"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-normal-day-v1-1280.webp",
+      "bytes": 12220,
+      "sha256": "30eae49564fbc1ce410da56f214dfd536a5c677f687db8dcca6476e46717596f"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-normal-day-v1-1920.avif",
+      "bytes": 22384,
+      "sha256": "73af36c138818fdeca9817a21261ae26ad4d5b5e9fb82acce77c3940480a5f0b"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-normal-day-v1-1920.webp",
+      "bytes": 19582,
+      "sha256": "f75fb5a6eaa818beb6816457cc5fff076022f5d69879d2310e13ab86a2f27920"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-normal-day-v1-2560.avif",
+      "bytes": 29717,
+      "sha256": "fd99f61f1346f18c8bc782ebe31e36d72546cab78dfcccaf3dcdd8a26b59d20c"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-normal-day-v1-2560.webp",
+      "bytes": 26810,
+      "sha256": "8ac22998e6b17e166d4382b482f719ecaad9256944910b388024377f07e877de"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-normal-day-v1-3840.avif",
+      "bytes": 48427,
+      "sha256": "4895e97a77545da38fdce7863d1944799ffcf5c6135413aa4a6486ba1e554d91"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-normal-day-v1-3840.webp",
+      "bytes": 45568,
+      "sha256": "2d8a81ce46393509a2eeb34f55b2e5b6df859dff5918c4d7b8ba4b9b04deb7fb"
+    },
+    {
+      "path": "assets/production/png/district-logistics-corridor-normal-day-v1-1280.png",
+      "bytes": 637204,
+      "sha256": "0fc1e73eda093ebb638c5aa0e70484d43758c63ec8b694dfa1fd05b078f93ad6"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-logistics-corridor-normal-day-v1.webp",
+      "bytes": 2580,
+      "sha256": "3f21d84bc3ccd5523a9669b9f10ba96c378652adc504917a057032faf000b564"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-logistics-corridor-normal-day-v1.webp",
+      "bytes": 2580,
+      "sha256": "3f21d84bc3ccd5523a9669b9f10ba96c378652adc504917a057032faf000b564"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.150Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1461984
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:41:50.374Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

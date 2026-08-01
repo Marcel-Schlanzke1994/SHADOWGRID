@@ -1,0 +1,25 @@
+{
+  "realism": 98,
+  "style_consistency": 99,
+  "composition": 96,
+  "material_quality": 99,
+  "lighting_quality": 98,
+  "architecture_plausibility": 97,
+  "ui_suitability": 94,
+  "mobile_suitability": 88,
+  "originality": 96,
+  "safety_compliance": 100,
+  "accepted_prompt": "Use case: stylized-concept\nAsset type: SHADOWGRID game command-center background, 16:9 desktop hero environment\nPrimary request: an ultra-premium executive cyber-finance war room inside a high-rise overlooking a fictional Cologne-inspired Rhine metropolis at night; a long dark titanium command table with embedded low-profile tactical light surfaces, smoked glass architecture, obsidian wall panels, satin gold edge lighting, restrained cyan intelligence reflections, distant river and city lights\nScene/backdrop: cavernous modern control room with realistic architectural scale, cinematic urban night panorama through floor-to-ceiling glass, no recognizable landmark copied exactly\nSubject: the room and command infrastructure only, no people\nStyle/medium: ultra-realistic cinematic architectural visualization, AAA strategy game environment, physically plausible materials, serious luxury, not concept-sketchy\nComposition/framing: wide 16:9 establishing view; generous calm negative space across the left and central foreground for readable UI overlays; strongest architectural detail and city vista toward the right; clean perspective and strong depth layers\nLighting/mood: low-key filmic contrast, subtle volumetric haze, warm champagne-gold practical lights balanced by very restrained electric-cyan data glow, secretive and powerful\nColor palette: 85 percent obsidian black, deep carbon and graphite; satin royal gold highlights; sparse electric cyan; no other saturated colors\nMaterials/textures: smoked glass, dark titanium, brushed steel, black stone, satin gold trim, realistic reflections and microtexture\nConstraints: no text, no logos, no watermark, no floating UI, no readable screens, no people, no weapons, no cartoon sci-fi, no neon overload, no purple, no blue-dominant color cast, no generic office stock-photo look",
+  "reference_images": [],
+  "notes": [
+    "Accepted first built-in generation attempt for the Visual Master Directive.",
+    "The tactical table, smoked glazing and controlled gold lighting establish a bespoke executive war-room identity.",
+    "The image contains no people, readable text, logos, weapons or identifiable real-world authority marks."
+  ],
+  "provider": "codex-built-in",
+  "license": "project-owned-generated-asset",
+  "provenance": {
+    "source": "codex-built-in-image-generation",
+    "thread": "019fbcc9-ef84-7a11-800a-125a47b84b04"
+  }
+}

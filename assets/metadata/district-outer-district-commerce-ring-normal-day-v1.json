@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-outer-district-commerce-ring-normal-day-v1",
+  "manifest_order": 455,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-outer-district-commerce-ring-normal-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100455,
+  "content_hash": "a5296facb1f5ce7dc38525caa7502cdf7e0cd2eef3b0983b2e628c62d6200765",
+  "source_file": "assets/source/districts/district-outer-district-commerce-ring-normal-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-normal-day-v1-320.avif",
+      "bytes": 2787,
+      "sha256": "a811a5b9121b77ce9d8a9770184e02b43305760856b3b511c45ccce70b930b2a"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-normal-day-v1-320.webp",
+      "bytes": 2320,
+      "sha256": "ffd385713d87c16e69e6397b1b819ce50f635368803134109c2d1b4af65af010"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-normal-day-v1-640.avif",
+      "bytes": 5932,
+      "sha256": "7c3a4ce4d517b7dac7c3a71a8e46b247c2e51bebe40f7405cbf512379ea8894a"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-normal-day-v1-640.webp",
+      "bytes": 4754,
+      "sha256": "c79f8177a78424e061ac150d6ab409779f3de4b4e74c698ee643f4e1b7e4075c"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-normal-day-v1-960.avif",
+      "bytes": 9200,
+      "sha256": "7cf2c677202fe571918472cb529c3a9cbb73d0ebdb7632172ac469ae8b6b539d"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-normal-day-v1-960.webp",
+      "bytes": 7934,
+      "sha256": "6de84aa057c1e907e4ac4e62ae4ae7da26bbab6fd8bb46934b24339489d2eea6"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-normal-day-v1-1280.avif",
+      "bytes": 13585,
+      "sha256": "a811afbdc97e797f7821446c7f29572e488ffcc35cdaad918fe918dfd7bd2f84"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-normal-day-v1-1280.webp",
+      "bytes": 10654,
+      "sha256": "e93c3d4b5382108fd24360e3a84fbf31175c4686468fd16877222e4884ac908a"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-normal-day-v1-1920.avif",
+      "bytes": 20401,
+      "sha256": "e3110d113aa6af1ed4fa438b9118756eef3fdd23070f36ee55c8f98afa35160e"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-normal-day-v1-1920.webp",
+      "bytes": 16940,
+      "sha256": "e52ce5858c42bb49ab2a7527356fab256e9640173454364f3b9260ea563d49ef"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-normal-day-v1-2560.avif",
+      "bytes": 27492,
+      "sha256": "a8eed0f6dd623c8867eaaa2fd0021d48aed34edda5984ca9fda2b6caa8e6300e"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-normal-day-v1-2560.webp",
+      "bytes": 23516,
+      "sha256": "cbf242d3007ca61fb910d340c6317e325e7813940ab9a0dc8c94d222fd83d17c"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-normal-day-v1-3840.avif",
+      "bytes": 45057,
+      "sha256": "2054c32234d810ee809c321d080c494682a162935cf63b4b126603bf7448dce7"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-normal-day-v1-3840.webp",
+      "bytes": 41334,
+      "sha256": "e14e2aadd64c433f5113837a0c0caf554ac4e353e28ee571843503b990cdf488"
+    },
+    {
+      "path": "assets/production/png/district-outer-district-commerce-ring-normal-day-v1-1280.png",
+      "bytes": 615351,
+      "sha256": "71ee7c4766218e41a6497e713138b788372be3578aa6f8a14b70caf9aff9ccb6"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-outer-district-commerce-ring-normal-day-v1.webp",
+      "bytes": 2320,
+      "sha256": "ffd385713d87c16e69e6397b1b819ce50f635368803134109c2d1b4af65af010"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-outer-district-commerce-ring-normal-day-v1.webp",
+      "bytes": 2320,
+      "sha256": "ffd385713d87c16e69e6397b1b819ce50f635368803134109c2d1b4af65af010"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.430Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1439976
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:49:27.463Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

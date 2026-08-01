@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "personas": [
+    "entrepreneur",
+    "investor",
+    "cartel_leader",
+    "cartel_member",
+    "intelligence_strategist",
+    "administrator",
+    "local_ai_player"
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "name": "registration_and_verification",
+      "personas": ["entrepreneur"],
+      "api_tests": ["tests/test_auth.py::test_registration_verification_and_session_rotation_lifecycle"],
+      "e2e_specs": ["e2e/auth-assets.spec.ts"]
+    },
+    {
+      "number": 2,
+      "name": "login_and_session_rotation",
+      "personas": ["entrepreneur"],
+      "api_tests": ["tests/test_auth.py::test_registration_verification_and_session_rotation_lifecycle"],
+      "e2e_specs": ["e2e/critical-flow.spec.ts"]
+    },
+    {
+      "number": 3,
+      "name": "select_cologne_and_district",
+      "personas": ["entrepreneur"],
+      "api_tests": ["tests/test_onboarding.py::test_cologne_selection_grants_starting_cash_exactly_once"],
+      "e2e_specs": ["e2e/critical-flow.spec.ts"]
+    },
+    {
+      "number": 4,
+      "name": "found_company",
+      "personas": ["entrepreneur"],
+      "api_tests": ["tests/test_companies.py::test_company_creation_is_idempotent_owned_and_balanced"],
+      "e2e_specs": ["e2e/company-flow.spec.ts"]
+    },
+    {
+      "number": 5,
+      "name": "invest_in_company",
+      "personas": ["entrepreneur"],
+      "api_tests": ["tests/test_companies.py::test_company_investment_changes_only_configured_metric_and_is_idempotent"],
+      "e2e_specs": ["e2e/company-flow.spec.ts"]
+    },
+    {
+      "number": 6,
+      "name": "hire_and_assign_specialist",
+      "personas": ["entrepreneur"],
+      "api_tests": ["tests/test_specialists_ai.py::test_hire_assign_release_is_owned_idempotent_and_exposes_effects"],
+      "e2e_specs": ["e2e/specialist-flow.spec.ts"]
+    },
+    {
+      "number": 7,
+      "name": "economy_tick_and_payroll",
+      "personas": ["entrepreneur"],
+      "api_tests": [
+        "tests/test_economy.py::test_economy_tick_is_idempotent_balanced_and_reported",
+        "tests/test_specialists_ai.py::test_payroll_is_idempotent_balanced_and_updates_specialist"
+      ],
+      "e2e_specs": ["e2e/specialist-flow.spec.ts"]
+    },
+    {
+      "number": 8,
+      "name": "local_ai_decision",
+      "personas": ["local_ai_player", "administrator"],
+      "api_tests": ["tests/test_specialists_ai.py::test_ai_uses_company_services_is_deterministic_and_can_be_paused"],
+      "e2e_specs": ["e2e/critical-flow.spec.ts"]
+    },
+    {
+      "number": 9,
+      "name": "initial_public_offering",
+      "personas": ["entrepreneur"],
+      "api_tests": ["tests/test_exchange.py::test_ipo_contract_eligibility_rounding_idempotency_and_supply"],
+      "e2e_specs": ["e2e/exchange-flow.spec.ts"]
+    },
+    {
+      "number": 10,
+      "name": "buy_and_sell_orders",
+      "personas": ["entrepreneur", "investor"],
+      "api_tests": ["tests/test_exchange.py::test_full_and_partial_fills_reservations_cancellation_expiry_and_guards"],
+      "e2e_specs": ["e2e/exchange-flow.spec.ts"]
+    },
+    {
+      "number": 11,
+      "name": "partial_fill_and_cancellation",
+      "personas": ["investor"],
+      "api_tests": ["tests/test_exchange.py::test_full_and_partial_fills_reservations_cancellation_expiry_and_guards"],
+      "e2e_specs": ["e2e/exchange-flow.spec.ts"]
+    },
+    {
+      "number": 12,
+      "name": "dividend",
+      "personas": ["entrepreneur", "investor"],
+      "api_tests": ["tests/test_exchange.py::test_dividend_snapshot_is_atomic_balanced_immutable_and_idempotent"],
+      "e2e_specs": ["e2e/exchange-flow.spec.ts"]
+    },
+    {
+      "number": 13,
+      "name": "create_cartel",
+      "personas": ["cartel_leader"],
+      "api_tests": ["tests/test_cartels.py::test_cartel_creation_membership_roles_and_dissolution_guards"],
+      "e2e_specs": ["e2e/cartel-flow.spec.ts"]
+    },
+    {
+      "number": 14,
+      "name": "cartel_invitation_and_join",
+      "personas": ["cartel_leader", "cartel_member"],
+      "api_tests": ["tests/test_cartels.py::test_cartel_creation_membership_roles_and_dissolution_guards"],
+      "e2e_specs": ["e2e/cartel-flow.spec.ts"]
+    },
+    {
+      "number": 15,
+      "name": "treasury_deposit_and_four_eyes_expense",
+      "personas": ["cartel_leader", "cartel_member"],
+      "api_tests": ["tests/test_cartels.py::test_cartel_treasury_is_balanced_idempotent_and_requires_independent_approval"],
+      "e2e_specs": ["e2e/cartel-flow.spec.ts"]
+    },
+    {
+      "number": 16,
+      "name": "cartel_project_and_district_control",
+      "personas": ["cartel_leader", "cartel_member"],
+      "api_tests": ["tests/test_cartels.py::test_concurrent_project_contributions_complete_influence_and_ranking"],
+      "e2e_specs": ["e2e/cartel-flow.spec.ts"]
+    },
+    {
+      "number": 17,
+      "name": "intelligence_operation",
+      "personas": ["intelligence_strategist"],
+      "api_tests": ["tests/test_intelligence_pvp.py::test_intelligence_success_idempotency_cooldown_resources_and_access"],
+      "e2e_specs": ["e2e/intelligence-flow.spec.ts"]
+    },
+    {
+      "number": 18,
+      "name": "intelligence_report_trade",
+      "personas": ["intelligence_strategist", "investor"],
+      "api_tests": ["tests/test_intelligence_pvp.py::test_report_trade_creates_balanced_immutable_buyer_copy"],
+      "e2e_specs": ["e2e/intelligence-flow.spec.ts"]
+    },
+    {
+      "number": 19,
+      "name": "abstract_strategic_action",
+      "personas": ["intelligence_strategist"],
+      "api_tests": ["tests/test_intelligence_pvp.py::test_strategic_action_effect_detection_idempotency_and_cooldown"],
+      "e2e_specs": ["e2e/intelligence-flow.spec.ts"]
+    },
+    {
+      "number": 20,
+      "name": "world_event_preview_and_activation",
+      "personas": ["administrator"],
+      "api_tests": ["tests/test_world_events.py::test_admin_preview_activation_safe_end_rbac_and_immutability"],
+      "e2e_specs": ["e2e/world-events-flow.spec.ts"]
+    },
+    {
+      "number": 21,
+      "name": "tender_bid_award_and_settlement",
+      "personas": ["entrepreneur"],
+      "api_tests": [
+        "tests/test_contracts.py::test_tender_bid_award_capacity_visibility_and_idempotency",
+        "tests/test_contracts.py::test_paid_contract_periods_use_balanced_ledger_and_complete_once"
+      ],
+      "e2e_specs": ["e2e/contract-flow.spec.ts"]
+    },
+    {
+      "number": 22,
+      "name": "loan_offer_acceptance_and_installment",
+      "personas": ["entrepreneur"],
+      "api_tests": [
+        "tests/test_loans.py::test_loan_application_underwriting_rbac_acceptance_and_idempotency",
+        "tests/test_loans.py::test_due_installments_sum_exactly_use_balanced_ledger_and_repay_once"
+      ],
+      "e2e_specs": ["e2e/loan-flow.spec.ts"]
+    },
+    {
+      "number": 23,
+      "name": "bond_subscription_coupon_and_redemption",
+      "personas": ["entrepreneur", "investor"],
+      "api_tests": [
+        "tests/test_bonds.py::test_bond_issue_subscriptions_reservations_holdings_and_activation",
+        "tests/test_bonds.py::test_coupon_and_redemption_pay_every_holder_exactly_once"
+      ],
+      "e2e_specs": ["e2e/bond-flow.spec.ts"]
+    },
+    {
+      "number": 24,
+      "name": "property_purchase_lease_and_headquarters_upgrade",
+      "personas": ["entrepreneur"],
+      "api_tests": [
+        "tests/test_real_estate.py::test_system_purchase_resale_and_ownership_are_ledger_backed",
+        "tests/test_real_estate.py::test_lease_pays_each_period_once_and_completes",
+        "tests/test_real_estate.py::test_rent_default_and_headquarters_upgrade_are_retry_safe"
+      ],
+      "e2e_specs": ["e2e/real-estate-flow.spec.ts"]
+    },
+    {
+      "number": 25,
+      "name": "realtime_reconnect_and_notification_reconciliation",
+      "personas": ["entrepreneur"],
+      "api_tests": [
+        "tests/test_realtime_notifications.py::test_authenticated_websocket_reconnect_resumes_after_durable_cursor",
+        "tests/test_realtime_notifications.py::test_notifications_have_unread_read_all_and_owner_isolation"
+      ],
+      "e2e_specs": ["e2e/realtime-notifications-flow.spec.ts"]
+    },
+    {
+      "number": 26,
+      "name": "season_phases",
+      "personas": ["administrator"],
+      "api_tests": [
+        "tests/test_seasons.py::test_season_state_admin_shortening_simulation_and_rbac",
+        "tests/test_seasons.py::test_repeated_season_scheduler_changes_each_phase_only_once"
+      ],
+      "e2e_specs": ["e2e/season-flow.spec.ts"]
+    },
+    {
+      "number": 27,
+      "name": "season_close",
+      "personas": ["administrator"],
+      "api_tests": ["tests/test_seasons.py::test_final_scoring_ties_idempotency_archival_and_persistent_rewards"],
+      "e2e_specs": ["e2e/season-flow.spec.ts"]
+    },
+    {
+      "number": 28,
+      "name": "hall_of_fame_and_permanent_reward",
+      "personas": ["administrator", "investor"],
+      "api_tests": ["tests/test_seasons.py::test_final_scoring_ties_idempotency_archival_and_persistent_rewards"],
+      "e2e_specs": ["e2e/season-flow.spec.ts"]
+    },
+    {
+      "number": 29,
+      "name": "next_season",
+      "personas": ["administrator"],
+      "api_tests": ["tests/test_seasons.py::test_new_season_from_template_is_idempotent_and_preserves_history"],
+      "e2e_specs": ["e2e/season-flow.spec.ts"]
+    },
+    {
+      "number": 30,
+      "name": "immutable_history_is_preserved",
+      "personas": ["administrator"],
+      "api_tests": [
+        "tests/test_seasons.py::test_final_scoring_ties_idempotency_archival_and_persistent_rewards",
+        "tests/test_seasons.py::test_new_season_from_template_is_idempotent_and_preserves_history"
+      ],
+      "e2e_specs": ["e2e/season-flow.spec.ts"]
+    }
+  ]
+}

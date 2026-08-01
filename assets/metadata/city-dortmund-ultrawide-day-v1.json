@@ -21,8 +21,8 @@
   "production_files": [
     {
       "path": "assets/production/avif/city-dortmund-ultrawide-day-v1-320.avif",
-      "bytes": 4024,
-      "sha256": "01667e40f8f05a1b4ba2e6005a944aedac656a5feda69784ba2821bf7feddf06"
+      "bytes": 2629,
+      "sha256": "e120be2767cc57db6ce3b46282859db6c698d2d612898d8ded671cafe2a96c6a"
     },
     {
       "path": "assets/production/webp/city-dortmund-ultrawide-day-v1-320.webp",
@@ -31,8 +31,8 @@
     },
     {
       "path": "assets/production/avif/city-dortmund-ultrawide-day-v1-640.avif",
-      "bytes": 9618,
-      "sha256": "99e70df7cf382d579a2450c583c58e889002cb6a24094d0abbfeb65c7f0f897d"
+      "bytes": 5569,
+      "sha256": "211af4542271ed31cab34b68100dc1ba0a2843baf70b473942e71c981d0a5f84"
     },
     {
       "path": "assets/production/webp/city-dortmund-ultrawide-day-v1-640.webp",
@@ -41,8 +41,8 @@
     },
     {
       "path": "assets/production/avif/city-dortmund-ultrawide-day-v1-960.avif",
-      "bytes": 21792,
-      "sha256": "eeedededd792e0690d4ca8b78472fced023004603aa0995ba2df0aa6c1c8564f"
+      "bytes": 9587,
+      "sha256": "6fafe6347fdf26954d7a74ded88e029974b92e4b5ae0ad9963840b4528061a21"
     },
     {
       "path": "assets/production/webp/city-dortmund-ultrawide-day-v1-960.webp",
@@ -51,8 +51,8 @@
     },
     {
       "path": "assets/production/avif/city-dortmund-ultrawide-day-v1-1280.avif",
-      "bytes": 41524,
-      "sha256": "f6969ec2a1ddeddec2d7b69270ad62ed7731ee2a6255554112f8a2c4f7706b24"
+      "bytes": 12857,
+      "sha256": "03bd3d753ab96f6e5ae2e84b70de5e3485d451652660ee110f92d1cd9480455f"
     },
     {
       "path": "assets/production/webp/city-dortmund-ultrawide-day-v1-1280.webp",
@@ -61,8 +61,8 @@
     },
     {
       "path": "assets/production/avif/city-dortmund-ultrawide-day-v1-1920.avif",
-      "bytes": 130897,
-      "sha256": "d6eb9fbdd897ea7db109e6090b87c7ab506544aa7e371da64885ed838f7bbf91"
+      "bytes": 19606,
+      "sha256": "5b099600bb78cc53a48e81e9d1494175d48cb68f5ea5c7d437ffee7284e812fa"
     },
     {
       "path": "assets/production/webp/city-dortmund-ultrawide-day-v1-1920.webp",
@@ -71,8 +71,8 @@
     },
     {
       "path": "assets/production/avif/city-dortmund-ultrawide-day-v1-2560.avif",
-      "bytes": 247348,
-      "sha256": "6d8c067d8433c72cc83c0bfbbe060383cf5737348828c5a8b83e74aedf28c211"
+      "bytes": 25754,
+      "sha256": "9940d53cfd348310719f4e9a4001e3797e8fd8302ad7cd4c0075f7f659ce0794"
     },
     {
       "path": "assets/production/webp/city-dortmund-ultrawide-day-v1-2560.webp",
@@ -81,8 +81,8 @@
     },
     {
       "path": "assets/production/avif/city-dortmund-ultrawide-day-v1-3840.avif",
-      "bytes": 465783,
-      "sha256": "0a9209b240d7a167825ea6365ef5d8d441f92e50fc3287f269f4e57fa008fa54"
+      "bytes": 40914,
+      "sha256": "c6b323266ae177dfb6153d1bc7386873b13bcf89ca9617087bc47b930ff44adf"
     },
     {
       "path": "assets/production/webp/city-dortmund-ultrawide-day-v1-3840.webp",
@@ -98,8 +98,8 @@
   "runtime_files": [
     {
       "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-day-v1-320.avif",
-      "bytes": 4024,
-      "sha256": "01667e40f8f05a1b4ba2e6005a944aedac656a5feda69784ba2821bf7feddf06"
+      "bytes": 2629,
+      "sha256": "e120be2767cc57db6ce3b46282859db6c698d2d612898d8ded671cafe2a96c6a"
     },
     {
       "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-day-v1-320.webp",
@@ -108,8 +108,8 @@
     },
     {
       "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-day-v1-640.avif",
-      "bytes": 9618,
-      "sha256": "99e70df7cf382d579a2450c583c58e889002cb6a24094d0abbfeb65c7f0f897d"
+      "bytes": 5569,
+      "sha256": "211af4542271ed31cab34b68100dc1ba0a2843baf70b473942e71c981d0a5f84"
     },
     {
       "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-day-v1-640.webp",
@@ -118,8 +118,8 @@
     },
     {
       "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-day-v1-960.avif",
-      "bytes": 21792,
-      "sha256": "eeedededd792e0690d4ca8b78472fced023004603aa0995ba2df0aa6c1c8564f"
+      "bytes": 9587,
+      "sha256": "6fafe6347fdf26954d7a74ded88e029974b92e4b5ae0ad9963840b4528061a21"
     },
     {
       "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-day-v1-960.webp",
@@ -128,8 +128,8 @@
     },
     {
       "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-day-v1-1280.avif",
-      "bytes": 41524,
-      "sha256": "f6969ec2a1ddeddec2d7b69270ad62ed7731ee2a6255554112f8a2c4f7706b24"
+      "bytes": 12857,
+      "sha256": "03bd3d753ab96f6e5ae2e84b70de5e3485d451652660ee110f92d1cd9480455f"
     },
     {
       "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-day-v1-1280.webp",
@@ -138,8 +138,8 @@
     },
     {
       "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-day-v1-1920.avif",
-      "bytes": 130897,
-      "sha256": "d6eb9fbdd897ea7db109e6090b87c7ab506544aa7e371da64885ed838f7bbf91"
+      "bytes": 19606,
+      "sha256": "5b099600bb78cc53a48e81e9d1494175d48cb68f5ea5c7d437ffee7284e812fa"
     },
     {
       "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-day-v1-1920.webp",
@@ -148,8 +148,8 @@
     },
     {
       "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-day-v1-2560.avif",
-      "bytes": 247348,
-      "sha256": "6d8c067d8433c72cc83c0bfbbe060383cf5737348828c5a8b83e74aedf28c211"
+      "bytes": 25754,
+      "sha256": "9940d53cfd348310719f4e9a4001e3797e8fd8302ad7cd4c0075f7f659ce0794"
     },
     {
       "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-day-v1-2560.webp",
@@ -158,8 +158,8 @@
     },
     {
       "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-day-v1-3840.avif",
-      "bytes": 465783,
-      "sha256": "0a9209b240d7a167825ea6365ef5d8d441f92e50fc3287f269f4e57fa008fa54"
+      "bytes": 40914,
+      "sha256": "c6b323266ae177dfb6153d1bc7386873b13bcf89ca9617087bc47b930ff44adf"
     },
     {
       "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-day-v1-3840.webp",
@@ -170,16 +170,51 @@
       "path": "apps/web/public/assets/cities/city-dortmund-ultrawide-day-v1-1280.png",
       "bytes": 426320,
       "sha256": "3c5d80ea424ffdf3ca6bec3a6dbb8ca18ffc8ce2f566009518e277d4c744eb3b"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-dortmund-ultrawide-day-v1.webp",
+      "bytes": 2552,
+      "sha256": "14bdeb9c7333a5e34235a98238c8895bc6687d4380b640a96a1f90dbb5fb6e3d"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-dortmund-ultrawide-day-v1.webp",
+      "bytes": 2552,
+      "sha256": "14bdeb9c7333a5e34235a98238c8895bc6687d4380b640a96a1f90dbb5fb6e3d"
     }
   ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,
   "moderation_status": "approved",
-  "quality_score": null,
-  "quality_status": "review_required",
-  "review_status": "provider-disabled-review-required",
-  "visual_review": null,
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.461Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
   "technical_validation": {
     "ok": true,
     "issues": [],
@@ -202,7 +237,7 @@
     "width": 0.84,
     "height": 0.76
   },
-  "created_at": "2026-07-26T13:26:03.003Z",
+  "created_at": "2026-07-30T01:58:42.421Z",
   "license": "project-owned-generated-asset",
   "provenance": null,
   "notes": [

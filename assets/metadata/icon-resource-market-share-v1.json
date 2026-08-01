@@ -1,0 +1,75 @@
+{
+  "asset_id": "icon-resource-market-share-v1",
+  "manifest_order": 753,
+  "category": "icon",
+  "batch": "ui-icons",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "24:24",
+  "width": 24,
+  "height": 24,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/icon-resource-market-share-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100753,
+  "content_hash": "07b029e0af5685f6a3b4ba72d55ed71ded27d4bf5b4713e9812957e7d0cb6e10",
+  "source_file": "assets/source/icons/icon-resource-market-share-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/icon-resource-market-share-v1.svg",
+      "bytes": 567,
+      "sha256": "07b029e0af5685f6a3b4ba72d55ed71ded27d4bf5b4713e9812957e7d0cb6e10"
+    },
+    {
+      "path": "assets/production/webp/icon-resource-market-share-v1-320.webp",
+      "bytes": 3908,
+      "sha256": "0d174eda984e80a410a285850ab48cf9928c09506fbaa66e79cd87e083b105b2"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/icon-resource-market-share-v1.webp",
+      "bytes": 3908,
+      "sha256": "0d174eda984e80a410a285850ab48cf9928c09506fbaa66e79cd87e083b105b2"
+    },
+    {
+      "path": "apps/mobile/assets/library/icon-resource-market-share-v1.webp",
+      "bytes": 3908,
+      "sha256": "0d174eda984e80a410a285850ab48cf9928c09506fbaa66e79cd87e083b105b2"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 567
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:51:38.849Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

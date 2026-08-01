@@ -1,0 +1,171 @@
+{
+  "asset_id": "overlay-economic-boom-v1",
+  "manifest_order": 823,
+  "category": "overlay",
+  "batch": "weather-overlays",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/overlay-economic-boom-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100823,
+  "content_hash": "2ce293d6e3427f7a941b7f3c433dec225ce9a68102ac362374c28196e7ec2c60",
+  "source_file": "assets/source/effects/overlay-economic-boom-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/overlay-economic-boom-v1-320.avif",
+      "bytes": 8026,
+      "sha256": "e6cc312b194fa5651fccdf7c5592cbf481cc7a83e925164d04315344b10c7289"
+    },
+    {
+      "path": "assets/production/webp/overlay-economic-boom-v1-320.webp",
+      "bytes": 9202,
+      "sha256": "3594cffc1e786de3937bdaa5aece5fe5d25a561194bc959a8089de2659e4324c"
+    },
+    {
+      "path": "assets/production/avif/overlay-economic-boom-v1-640.avif",
+      "bytes": 13111,
+      "sha256": "9aa20e5c5ea64d9c6b99da892566998e43e1638c332fecf490dbe9562c8929c7"
+    },
+    {
+      "path": "assets/production/webp/overlay-economic-boom-v1-640.webp",
+      "bytes": 16048,
+      "sha256": "cb968a123640168545a8193cc9d01fb44cc2793d9b549fc6bf734f4c5d776293"
+    },
+    {
+      "path": "assets/production/avif/overlay-economic-boom-v1-960.avif",
+      "bytes": 21425,
+      "sha256": "d60e4bd0f586e4ee952268d4dfb57248d6c75a98976b26b11a7b7ad908497727"
+    },
+    {
+      "path": "assets/production/webp/overlay-economic-boom-v1-960.webp",
+      "bytes": 26144,
+      "sha256": "c8c248355ec39fcc9ede7dba9bac31f3b68d2345271dcb381a1fdd54b1881769"
+    },
+    {
+      "path": "assets/production/avif/overlay-economic-boom-v1-1280.avif",
+      "bytes": 25484,
+      "sha256": "0e17e53b41f587adccb25e1781358522283db887e8348ea2121601e348c46fca"
+    },
+    {
+      "path": "assets/production/webp/overlay-economic-boom-v1-1280.webp",
+      "bytes": 33358,
+      "sha256": "31ca7db948d4d1ece7ae9265f957281058c0b6dea426b82a8e4646f2cff71829"
+    },
+    {
+      "path": "assets/production/avif/overlay-economic-boom-v1-1920.avif",
+      "bytes": 34181,
+      "sha256": "5f28d834bd425f0ab8b1e090eaa1c748e319f0b401d6bd93720782516ad6c889"
+    },
+    {
+      "path": "assets/production/webp/overlay-economic-boom-v1-1920.webp",
+      "bytes": 45218,
+      "sha256": "1bf90ca042777feb29910ee1b0d5f925c5d834df2b59eb219d3ecc1c4fb6e9f3"
+    },
+    {
+      "path": "assets/production/avif/overlay-economic-boom-v1-2560.avif",
+      "bytes": 38320,
+      "sha256": "06a2a82e421cec7ad21bb17595c8712e62fd48104683a7169d7f1a4777cd2d94"
+    },
+    {
+      "path": "assets/production/webp/overlay-economic-boom-v1-2560.webp",
+      "bytes": 45990,
+      "sha256": "d795763518c7bf3e439bbeca57b921b3bf74089ac36a95e005b1c7e402aa2433"
+    },
+    {
+      "path": "assets/production/avif/overlay-economic-boom-v1-3840.avif",
+      "bytes": 53438,
+      "sha256": "b8ba80940b6ac18d10c93b4250858cac0456202831a25edc46c4adcf03a8d6df"
+    },
+    {
+      "path": "assets/production/webp/overlay-economic-boom-v1-3840.webp",
+      "bytes": 79658,
+      "sha256": "dba49365501b76c4c9608ba4abfc67b7f5eb3dbac4b198d2e0ff527389acb6a2"
+    },
+    {
+      "path": "assets/production/png/overlay-economic-boom-v1-1280.png",
+      "bytes": 38222,
+      "sha256": "f4b5f48750f999837793b6fd82bd6072ebc306807787253da8a38b353d888aa1"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/overlay-economic-boom-v1.webp",
+      "bytes": 9202,
+      "sha256": "3594cffc1e786de3937bdaa5aece5fe5d25a561194bc959a8089de2659e4324c"
+    },
+    {
+      "path": "apps/mobile/assets/library/overlay-economic-boom-v1.webp",
+      "bytes": 9202,
+      "sha256": "3594cffc1e786de3937bdaa5aece5fe5d25a561194bc959a8089de2659e4324c"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.4,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:28.118Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 93,
+      "architecture_plausibility": 90,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Boom, crisis, authority, organization control, contested, and blocked states use distinct graph, scan, zone, cross, and hatch semantics.",
+      "Transparent weather and material overlays were checked against the contact-sheet dark background; no unintended opaque fill or broken render remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": true,
+      "bytes": 34194
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T06:04:22.513Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

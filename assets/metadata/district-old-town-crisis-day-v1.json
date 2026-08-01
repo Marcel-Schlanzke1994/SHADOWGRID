@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-old-town-crisis-day-v1",
+  "manifest_order": 395,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "crisis-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-old-town-crisis-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100395,
+  "content_hash": "4c14755a85d88043b6c557723e6093deecdd4c8da4657eddc77c301571654798",
+  "source_file": "assets/source/districts/district-old-town-crisis-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-old-town-crisis-day-v1-320.avif",
+      "bytes": 2910,
+      "sha256": "4f658d690389871db797bf335137d65e4ac60ad4956e0a65f20778f5a10b3871"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-crisis-day-v1-320.webp",
+      "bytes": 2480,
+      "sha256": "89d276cdb72f5f04d52b82515e571a5242cf600d47eed9803f54e65da5bc570c"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-crisis-day-v1-640.avif",
+      "bytes": 6397,
+      "sha256": "ef82a34cd6b2c7fa26ef9cd847f79e0650e51d9b1b38d398f671fc3aea8b4ff2"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-crisis-day-v1-640.webp",
+      "bytes": 5104,
+      "sha256": "0da5d8ce768c37255a9c2b96fa7d2a4d78b2e91ea444d028cf3895886f4ab414"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-crisis-day-v1-960.avif",
+      "bytes": 10107,
+      "sha256": "801a18a0df8fb0608a775588527fff3f6b2f7ab949546de2087a8965f5d5cbdf"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-crisis-day-v1-960.webp",
+      "bytes": 8302,
+      "sha256": "524371f54413d5c91addca7c4ec97ae0570e6dc439e6b715a7da6cefba56ebb1"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-crisis-day-v1-1280.avif",
+      "bytes": 13976,
+      "sha256": "3793e6f26e934062f1af1c662a5ce841a3c0747c6ddba104c2044b1a9be6e71b"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-crisis-day-v1-1280.webp",
+      "bytes": 11008,
+      "sha256": "3cbd882eb512bbca38b18d45ca60faabc54f4b564d179ca44827560ea5ec9cde"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-crisis-day-v1-1920.avif",
+      "bytes": 21198,
+      "sha256": "a0e56a834e7d24e22916d54815a8799017de633da04d83d0f69c3783d46ef8bb"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-crisis-day-v1-1920.webp",
+      "bytes": 17424,
+      "sha256": "244971654166a5d6da7a27dab4947c635d3c6b1104cddd50086390d3e3816108"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-crisis-day-v1-2560.avif",
+      "bytes": 28234,
+      "sha256": "533bd60d297a0b4d1a8f330eeb1cdbe8db1326f5295eeb01f1fa4f2377876bab"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-crisis-day-v1-2560.webp",
+      "bytes": 24676,
+      "sha256": "e231e77d758d6112aad101573704acb6ab0ef357082655b04e847e47ad900d77"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-crisis-day-v1-3840.avif",
+      "bytes": 47485,
+      "sha256": "c90e143e652ca84eb30b4d90df2bc65d289cc460882b97a4201fcdf7400ed8c8"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-crisis-day-v1-3840.webp",
+      "bytes": 42718,
+      "sha256": "4581fffa8c6c23de4076794499130c02a05c0b9631fb7a4bde3db0ea73b4af76"
+    },
+    {
+      "path": "assets/production/png/district-old-town-crisis-day-v1-1280.png",
+      "bytes": 631837,
+      "sha256": "bd9c9d20427293f2f10d5517cafd49332658bbd07bfd368b4f17de000ff088e5"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-old-town-crisis-day-v1.webp",
+      "bytes": 2480,
+      "sha256": "89d276cdb72f5f04d52b82515e571a5242cf600d47eed9803f54e65da5bc570c"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-old-town-crisis-day-v1.webp",
+      "bytes": 2480,
+      "sha256": "89d276cdb72f5f04d52b82515e571a5242cf600d47eed9803f54e65da5bc570c"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.728Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1462778
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:29:41.922Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

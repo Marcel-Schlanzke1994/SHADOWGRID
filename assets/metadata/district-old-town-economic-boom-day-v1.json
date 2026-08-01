@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-old-town-economic-boom-day-v1",
+  "manifest_order": 393,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "economic-boom-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-old-town-economic-boom-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100393,
+  "content_hash": "21d35255478eb72433c9e2102d8015efba680257759e40d0bc045cad42341033",
+  "source_file": "assets/source/districts/district-old-town-economic-boom-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-old-town-economic-boom-day-v1-320.avif",
+      "bytes": 2914,
+      "sha256": "06469e846275df2e58e8f7b710c724b8d0f80a3c9f89395aaa1cad3c7848785a"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-economic-boom-day-v1-320.webp",
+      "bytes": 2840,
+      "sha256": "e6973cd151e1c68473db46a329c072a232195dfbb53df69068f6145d9129ea1e"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-economic-boom-day-v1-640.avif",
+      "bytes": 6412,
+      "sha256": "4b981fe1de7b075c1967a1d4ba780a7a19b7571a747261de0ce8ea651813d4bb"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-economic-boom-day-v1-640.webp",
+      "bytes": 5780,
+      "sha256": "08dccbc49b14d3c43d3c682d6f131ffdb966efb4b79fd0f5af1ee0a45b9f943f"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-economic-boom-day-v1-960.avif",
+      "bytes": 10549,
+      "sha256": "d923de521c246160e3bb428a1c98bff5d3451b048bc2cb25fb6fb6ca6cf96251"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-economic-boom-day-v1-960.webp",
+      "bytes": 9254,
+      "sha256": "7bb8b5f62d45386f6af101f1c832797374c52f112c88c4653f0d00718ac99c43"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-economic-boom-day-v1-1280.avif",
+      "bytes": 15179,
+      "sha256": "296af87541895270cb306a714058e942167e2a9b47b890a2bd9571e06181c76a"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-economic-boom-day-v1-1280.webp",
+      "bytes": 12436,
+      "sha256": "1e3e983ed2a4171f6a97fb605464b53cc4543853a1ca7fa737c92ed498501cc5"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-economic-boom-day-v1-1920.avif",
+      "bytes": 23249,
+      "sha256": "14fb25c256514045dd7b1f60dcf2eadda4ff691be9555d7c98b8174b7241ddcb"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-economic-boom-day-v1-1920.webp",
+      "bytes": 19436,
+      "sha256": "65ebc21c6a830bda41de65601d95fd4d425e2e8a006b60411f07c97b863f21e5"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-economic-boom-day-v1-2560.avif",
+      "bytes": 30738,
+      "sha256": "8ff231324d5cbf6c736712dcb593b7f064949ce86d8111431cf7b36c716d7c66"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-economic-boom-day-v1-2560.webp",
+      "bytes": 26886,
+      "sha256": "9fed937957892e830bf329cb98b92bbcf0df4e52fba265e10076f9c04e24cdb4"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-economic-boom-day-v1-3840.avif",
+      "bytes": 50457,
+      "sha256": "e4770bddb31b5a4744c64ebfdd653d232ed3a45d51874c1f4d323afcf9cd6307"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-economic-boom-day-v1-3840.webp",
+      "bytes": 46320,
+      "sha256": "7b8cff40e820b299caa89fdaf3f25062c30c177ae8308e5f103ce49be3af8fdc"
+    },
+    {
+      "path": "assets/production/png/district-old-town-economic-boom-day-v1-1280.png",
+      "bytes": 639622,
+      "sha256": "447bf5f45b0c365ec9af2d63598c29c57dff7c86b5264d78de8d370d2f8ec4f5"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-old-town-economic-boom-day-v1.webp",
+      "bytes": 2840,
+      "sha256": "e6973cd151e1c68473db46a329c072a232195dfbb53df69068f6145d9129ea1e"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-old-town-economic-boom-day-v1.webp",
+      "bytes": 2840,
+      "sha256": "e6973cd151e1c68473db46a329c072a232195dfbb53df69068f6145d9129ea1e"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.704Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1457438
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:29:05.932Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

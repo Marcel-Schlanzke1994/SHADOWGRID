@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-old-town-normal-day-v1",
+  "manifest_order": 391,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-old-town-normal-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100391,
+  "content_hash": "d807cb3131b3abaa9170f4534fcb35d14b04ac76b9e185390970b1a09bd945d4",
+  "source_file": "assets/source/districts/district-old-town-normal-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-old-town-normal-day-v1-320.avif",
+      "bytes": 2827,
+      "sha256": "76b152f686b1b54815833da88ac2d6bea0a56b03728db364359f1df7530c9542"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-normal-day-v1-320.webp",
+      "bytes": 2414,
+      "sha256": "d7b68ef2296684c9c468e51ff86d4cea7a94f19af7424bc686ba51aea26174e5"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-normal-day-v1-640.avif",
+      "bytes": 5891,
+      "sha256": "26e602837f28644bc78e04a25f81ad0fa7be61e99040dca3d196c9db07efcdba"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-normal-day-v1-640.webp",
+      "bytes": 4798,
+      "sha256": "0ec1b3656c8e314cbee962da0245133911fc29d629714e82f9e67f3960401b3e"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-normal-day-v1-960.avif",
+      "bytes": 9721,
+      "sha256": "7ed4be5d8876f44b52cc15f05332f0194cf5a1bfc5aa28d1417f7d5d33476013"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-normal-day-v1-960.webp",
+      "bytes": 7998,
+      "sha256": "cf76406c8821704968dbb857e4a1def43acfcfa3119d40cbd87378adf37373c2"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-normal-day-v1-1280.avif",
+      "bytes": 13790,
+      "sha256": "a0db7b3b3040159739e66f97574113bf2d0b8df9769b39dcfc7ccfe6a6539977"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-normal-day-v1-1280.webp",
+      "bytes": 10794,
+      "sha256": "85df1824a0450efca0bdd382d1c13a4ed538b90fc3abf10441c77406060504f8"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-normal-day-v1-1920.avif",
+      "bytes": 20627,
+      "sha256": "7eaf69a8c69d49c3ac1f07a0c23c2e74c159682db9b56fb97aa57ea800e4af73"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-normal-day-v1-1920.webp",
+      "bytes": 17168,
+      "sha256": "5afed62f1843eeef87432b67213ced8b9e258b05f6d4329212d80aac47321ec9"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-normal-day-v1-2560.avif",
+      "bytes": 27371,
+      "sha256": "b93651f58a734acc3be6894fef7bfaf758f95810d7bcf746f9e655e4c6ba2fc3"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-normal-day-v1-2560.webp",
+      "bytes": 23706,
+      "sha256": "d30511af667dce33e87d4823792422dce7fde0c9bd97b41b68f09c6bd7888f6c"
+    },
+    {
+      "path": "assets/production/avif/district-old-town-normal-day-v1-3840.avif",
+      "bytes": 45415,
+      "sha256": "a2ac11541ec3e0d7fbbf899452ee2bd258558f0dff86cf15a59bbda49c5cac34"
+    },
+    {
+      "path": "assets/production/webp/district-old-town-normal-day-v1-3840.webp",
+      "bytes": 41544,
+      "sha256": "8f664fa720003f48c011f050bb849f3288f8715eb59242fa4a25c5571a8aed8f"
+    },
+    {
+      "path": "assets/production/png/district-old-town-normal-day-v1-1280.png",
+      "bytes": 629988,
+      "sha256": "6fcd122b52898f73a64ae515469264742f827a601adf0e3d7e77d9e42c4cbe8c"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-old-town-normal-day-v1.webp",
+      "bytes": 2414,
+      "sha256": "d7b68ef2296684c9c468e51ff86d4cea7a94f19af7424bc686ba51aea26174e5"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-old-town-normal-day-v1.webp",
+      "bytes": 2414,
+      "sha256": "d7b68ef2296684c9c468e51ff86d4cea7a94f19af7424bc686ba51aea26174e5"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.681Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1468407
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:28:26.020Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

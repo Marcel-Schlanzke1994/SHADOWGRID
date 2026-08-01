@@ -2,5 +2,5 @@
 
 All prompts prohibit real criminal groups, extremist symbols, real authority or company branding, readable private addresses or plates, identifiable private people, graphic violence, weapon focus and operational wrongdoing instructions.
 
-- Metadata moderation approved: 131
+- Metadata moderation approved: 898
 - Rejected assets excluded from production: 0

@@ -1,0 +1,227 @@
+{
+  "project": "shadowgrid",
+  "generated_at": "2026-07-30T01:10:01.107Z",
+  "capture_count": 20,
+  "captures": [
+    {
+      "asset_id": "marketing-google-play-city-selection-v1",
+      "platform": "google-play",
+      "language": "en-US",
+      "route": "/worlds",
+      "width": 2048,
+      "height": 1152,
+      "source": "functioning-local-application",
+      "seeded_account": "advanced-demo-persona",
+      "file": "assets/source/marketing/marketing-google-play-city-selection-v1.png"
+    },
+    {
+      "asset_id": "marketing-google-play-dashboard-v1",
+      "platform": "google-play",
+      "language": "en-US",
+      "route": "/command",
+      "width": 2048,
+      "height": 1152,
+      "source": "functioning-local-application",
+      "seeded_account": "advanced-demo-persona",
+      "file": "assets/source/marketing/marketing-google-play-dashboard-v1.png"
+    },
+    {
+      "asset_id": "marketing-google-play-city-map-v1",
+      "platform": "google-play",
+      "language": "en-US",
+      "route": "/city",
+      "width": 2048,
+      "height": 1152,
+      "source": "functioning-local-application",
+      "seeded_account": "advanced-demo-persona",
+      "file": "assets/source/marketing/marketing-google-play-city-map-v1.png"
+    },
+    {
+      "asset_id": "marketing-google-play-pvp-v1",
+      "platform": "google-play",
+      "language": "en-US",
+      "route": "/pvp",
+      "width": 2048,
+      "height": 1152,
+      "source": "functioning-local-application",
+      "seeded_account": "advanced-demo-persona",
+      "file": "assets/source/marketing/marketing-google-play-pvp-v1.png"
+    },
+    {
+      "asset_id": "marketing-google-play-organization-v1",
+      "platform": "google-play",
+      "language": "en-US",
+      "route": "/cartels",
+      "width": 2048,
+      "height": 1152,
+      "source": "functioning-local-application",
+      "seeded_account": "advanced-demo-persona",
+      "file": "assets/source/marketing/marketing-google-play-organization-v1.png"
+    },
+    {
+      "asset_id": "marketing-google-play-organization-conflict-v1",
+      "platform": "google-play",
+      "language": "en-US",
+      "route": "/wars",
+      "width": 2048,
+      "height": 1152,
+      "source": "functioning-local-application",
+      "seeded_account": "advanced-demo-persona",
+      "file": "assets/source/marketing/marketing-google-play-organization-conflict-v1.png"
+    },
+    {
+      "asset_id": "marketing-google-play-business-v1",
+      "platform": "google-play",
+      "language": "en-US",
+      "route": "/companies",
+      "width": 2048,
+      "height": 1152,
+      "source": "functioning-local-application",
+      "seeded_account": "advanced-demo-persona",
+      "file": "assets/source/marketing/marketing-google-play-business-v1.png"
+    },
+    {
+      "asset_id": "marketing-google-play-ranking-v1",
+      "platform": "google-play",
+      "language": "en-US",
+      "route": "/rankings",
+      "width": 2048,
+      "height": 1152,
+      "source": "functioning-local-application",
+      "seeded_account": "advanced-demo-persona",
+      "file": "assets/source/marketing/marketing-google-play-ranking-v1.png"
+    },
+    {
+      "asset_id": "marketing-app-store-iphone-1-v1",
+      "platform": "app-store-iphone",
+      "language": "en-US",
+      "route": "/command",
+      "width": 1290,
+      "height": 2796,
+      "source": "functioning-local-application",
+      "seeded_account": "advanced-demo-persona",
+      "file": "assets/source/marketing/marketing-app-store-iphone-1-v1.png"
+    },
+    {
+      "asset_id": "marketing-app-store-iphone-2-v1",
+      "platform": "app-store-iphone",
+      "language": "en-US",
+      "route": "/city",
+      "width": 1290,
+      "height": 2796,
+      "source": "functioning-local-application",
+      "seeded_account": "advanced-demo-persona",
+      "file": "assets/source/marketing/marketing-app-store-iphone-2-v1.png"
+    },
+    {
+      "asset_id": "marketing-app-store-iphone-3-v1",
+      "platform": "app-store-iphone",
+      "language": "en-US",
+      "route": "/companies",
+      "width": 1290,
+      "height": 2796,
+      "source": "functioning-local-application",
+      "seeded_account": "advanced-demo-persona",
+      "file": "assets/source/marketing/marketing-app-store-iphone-3-v1.png"
+    },
+    {
+      "asset_id": "marketing-app-store-iphone-4-v1",
+      "platform": "app-store-iphone",
+      "language": "en-US",
+      "route": "/exchange",
+      "width": 1290,
+      "height": 2796,
+      "source": "functioning-local-application",
+      "seeded_account": "advanced-demo-persona",
+      "file": "assets/source/marketing/marketing-app-store-iphone-4-v1.png"
+    },
+    {
+      "asset_id": "marketing-app-store-iphone-5-v1",
+      "platform": "app-store-iphone",
+      "language": "en-US",
+      "route": "/specialists",
+      "width": 1290,
+      "height": 2796,
+      "source": "functioning-local-application",
+      "seeded_account": "advanced-demo-persona",
+      "file": "assets/source/marketing/marketing-app-store-iphone-5-v1.png"
+    },
+    {
+      "asset_id": "marketing-app-store-iphone-6-v1",
+      "platform": "app-store-iphone",
+      "language": "en-US",
+      "route": "/cartels",
+      "width": 1290,
+      "height": 2796,
+      "source": "functioning-local-application",
+      "seeded_account": "advanced-demo-persona",
+      "file": "assets/source/marketing/marketing-app-store-iphone-6-v1.png"
+    },
+    {
+      "asset_id": "marketing-app-store-iphone-7-v1",
+      "platform": "app-store-iphone",
+      "language": "en-US",
+      "route": "/intelligence",
+      "width": 1290,
+      "height": 2796,
+      "source": "functioning-local-application",
+      "seeded_account": "advanced-demo-persona",
+      "file": "assets/source/marketing/marketing-app-store-iphone-7-v1.png"
+    },
+    {
+      "asset_id": "marketing-app-store-iphone-8-v1",
+      "platform": "app-store-iphone",
+      "language": "en-US",
+      "route": "/rankings",
+      "width": 1290,
+      "height": 2796,
+      "source": "functioning-local-application",
+      "seeded_account": "advanced-demo-persona",
+      "file": "assets/source/marketing/marketing-app-store-iphone-8-v1.png"
+    },
+    {
+      "asset_id": "marketing-app-store-ipad-1-v1",
+      "platform": "app-store-ipad",
+      "language": "en-US",
+      "route": "/germany",
+      "width": 2048,
+      "height": 2732,
+      "source": "functioning-local-application",
+      "seeded_account": "advanced-demo-persona",
+      "file": "assets/source/marketing/marketing-app-store-ipad-1-v1.png"
+    },
+    {
+      "asset_id": "marketing-app-store-ipad-2-v1",
+      "platform": "app-store-ipad",
+      "language": "en-US",
+      "route": "/command",
+      "width": 2048,
+      "height": 2732,
+      "source": "functioning-local-application",
+      "seeded_account": "advanced-demo-persona",
+      "file": "assets/source/marketing/marketing-app-store-ipad-2-v1.png"
+    },
+    {
+      "asset_id": "marketing-app-store-ipad-3-v1",
+      "platform": "app-store-ipad",
+      "language": "en-US",
+      "route": "/exchange",
+      "width": 2048,
+      "height": 2732,
+      "source": "functioning-local-application",
+      "seeded_account": "advanced-demo-persona",
+      "file": "assets/source/marketing/marketing-app-store-ipad-3-v1.png"
+    },
+    {
+      "asset_id": "marketing-app-store-ipad-4-v1",
+      "platform": "app-store-ipad",
+      "language": "en-US",
+      "route": "/real-estate",
+      "width": 2048,
+      "height": 2732,
+      "source": "functioning-local-application",
+      "seeded_account": "advanced-demo-persona",
+      "file": "assets/source/marketing/marketing-app-store-ipad-4-v1.png"
+    }
+  ]
+}

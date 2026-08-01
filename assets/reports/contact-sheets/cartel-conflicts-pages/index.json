@@ -1,0 +1,30 @@
+{
+  "schema": "shadowgrid/contact-sheet-pages/v1",
+  "batch": "cartel-conflicts",
+  "generated_at": "2026-07-30T06:17:41.781Z",
+  "asset_count": 15,
+  "page_size": 18,
+  "pages": [
+    {
+      "page": 1,
+      "path": "assets/reports/contact-sheets/cartel-conflicts-pages/page-001.png",
+      "assets": [
+        "organization-conflict-tension-v1",
+        "organization-conflict-ultimatum-v1",
+        "organization-conflict-preparation-v1",
+        "organization-conflict-active-conflict-v1",
+        "organization-conflict-turning-point-v1",
+        "organization-conflict-ceasefire-v1",
+        "organization-conflict-aftermath-v1",
+        "organization-conflict-neutral-territory-v1",
+        "organization-conflict-contested-territory-v1",
+        "organization-conflict-controlled-territory-v1",
+        "organization-conflict-dominant-territory-v1",
+        "organization-conflict-blocked-territory-v1",
+        "organization-conflict-alliance-formed-v1",
+        "organization-conflict-treaty-broken-v1",
+        "organization-conflict-peace-treaty-v1"
+      ]
+    }
+  ]
+}

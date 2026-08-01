@@ -38,6 +38,11 @@
       "path": "assets/production/png/branding-shadowgrid-android-adaptive-foreground-v1-1024.png",
       "bytes": 17500,
       "sha256": "d47ce8c91e22dbd3e9e36079c6177d920ba2210a4ba595b4f238ec67a3ee0c0b"
+    },
+    {
+      "path": "assets/production/webp/branding-shadowgrid-android-adaptive-foreground-v1-320.webp",
+      "bytes": 2074,
+      "sha256": "ee3c4f1212232ea877f50407da1e6756d9ecb2947d504ee99d25b4474ef72491"
     }
   ],
   "runtime_files": [
@@ -45,6 +50,16 @@
       "path": "apps/mobile/assets/adaptive-icon.png",
       "bytes": 17500,
       "sha256": "d47ce8c91e22dbd3e9e36079c6177d920ba2210a4ba595b4f238ec67a3ee0c0b"
+    },
+    {
+      "path": "apps/web/public/assets/library/branding-shadowgrid-android-adaptive-foreground-v1.webp",
+      "bytes": 2074,
+      "sha256": "ee3c4f1212232ea877f50407da1e6756d9ecb2947d504ee99d25b4474ef72491"
+    },
+    {
+      "path": "apps/mobile/assets/library/branding-shadowgrid-android-adaptive-foreground-v1.webp",
+      "bytes": 2074,
+      "sha256": "ee3c4f1212232ea877f50407da1e6756d9ecb2947d504ee99d25b4474ef72491"
     }
   ],
   "contains_text": false,

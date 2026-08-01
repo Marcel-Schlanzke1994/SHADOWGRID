@@ -170,35 +170,49 @@
       "path": "apps/web/public/assets/cities/city-frankfurt-am-main-card-v1-1280.png",
       "bytes": 2892910,
       "sha256": "2ed5faaf7f3eaf4d9a4a61db7c6f38a69d86ad5157e4c472169dcf1e54003f5e"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-frankfurt-am-main-card-v1.webp",
+      "bytes": 7544,
+      "sha256": "a41736e85105f20eaeff4296665f4ac3e3ad8fb290564ff2eb273b40275f2c0b"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-frankfurt-am-main-card-v1.webp",
+      "bytes": 7544,
+      "sha256": "a41736e85105f20eaeff4296665f4ac3e3ad8fb290564ff2eb273b40275f2c0b"
     }
   ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,
   "moderation_status": "approved",
-  "quality_score": 99,
+  "quality_score": 92.9,
   "quality_status": "approved",
   "review_status": "codex-visual-approved",
   "visual_review": {
-    "realism": 98,
-    "style_consistency": 100,
-    "composition": 100,
-    "material_quality": 99,
-    "lighting_quality": 99,
-    "architecture_plausibility": 98,
-    "ui_suitability": 100,
-    "mobile_suitability": 99,
-    "originality": 97,
-    "safety_compliance": 100,
-    "revision_prompt": "Revise this square fictional Frankfurt-inspired SHADOWGRID city-card backing plate while preserving the exact 1:1 canvas, original river, bridge, compact unbranded tower cluster, lower stone district, calm dark lower-water label band, overcast daylight, and premium realistic visual style.\n\nMandatory correction: remove the isolated pointed church/cathedral spire on the far-right skyline. Replace it with low neutral original stone and glass urban blocks whose rooflines are modest, varied, physically plausible, and not religious, monumental, governmental, or recognizable. Do not add any dome, bell tower, steeple, monument, antenna landmark, real skyline element, sign, or logo. Preserve the rest of the skyline and all river/bridge geometry.\n\nKeep the entire bottom 24% calm dark low-detail water with no bridge, building, vehicle, bright lamp cluster, or detailed terrace in that label-safe band. All tower crowns must remain unbranded dark glass without bright sign-like panels.\n\nNo text, letters, numbers, signs, logos, brands, stock tickers, currency symbols, interface, watermarks, identifiable people, flags, authority marks, criminal symbols, extremist symbols, weapons, violence, fraud instructions, operational wrongdoing, routes, fantasy architecture, impossible geometry, neon, warning red, blur, or fake writing.\n\nDeliver only the corrected clean premium 1:1 city-card backing plate with no isolated religious spire and with the full lower 24% preserved as calm dark water.",
-    "reference_images": [
-      "assets/source/cities/city-frankfurt-am-main-desktop-day-v1.png"
-    ],
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.283Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
     "notes": [
-      "The first square recomposition was held back because an isolated pointed church spire on the far-right skyline could read as a real cathedral association.",
-      "The accepted revision replaces the spire with modest neutral original stone and glass blocks, without altering the tower cluster, river, bridge, or lower stone district.",
-      "The complete lower 24 percent remains calm dark low-detail river water for external localized labels, badges, and one action.",
-      "No real financial institution, bank mark, exchange symbol, known landmark, religious silhouette, text, identifiable person, authority mark, criminal symbol, extremist symbol, weapon, violence, fraud instruction, or operational wrongdoing is present."
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
     ]
   },
   "technical_validation": {

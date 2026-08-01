@@ -1,0 +1,14 @@
+{
+  "chronicle": "Chronicle",
+  "companyHistory": "Metrics history",
+  "contractActiveAndHistory": "Contracts and settlement history",
+  "exchangePriceHistory": "Price history",
+  "exchangePriceHistoryEmpty": "No trade has established a price history yet.",
+  "intelOperationHistory": "Information operation history",
+  "navLegacy": "Chronicle",
+  "payrollHistory": "Payroll history",
+  "payrollHistoryEmpty": "No salary has been settled yet.",
+  "propertyLeaseHistory": "Lease and payment history",
+  "strategicHistory": "Strategic action history",
+  "strategicHistoryEmpty": "No strategic actions have been resolved."
+}

@@ -1,0 +1,171 @@
+{
+  "asset_id": "city-template-medium-city-university-square-v1",
+  "manifest_order": 351,
+  "category": "city-template",
+  "batch": "procedural-city-templates",
+  "city": null,
+  "variant": "square",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-template-medium-city-university-square-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100351,
+  "content_hash": "41e8119ef79fa8f65c1416a450757f10bd85ebbc10969dc74847b58a651ce40c",
+  "source_file": "assets/source/global/city-template-medium-city-university-square-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-template-medium-city-university-square-v1-320.avif",
+      "bytes": 3436,
+      "sha256": "6b79e87b9e96414f511a8b8d1dbb469671a291879797de19551e0998d06346a0"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-university-square-v1-320.webp",
+      "bytes": 3134,
+      "sha256": "96e8550de597c5e2a6b55912afb78d49a32ae203df7d324190b761d603ce5ba2"
+    },
+    {
+      "path": "assets/production/avif/city-template-medium-city-university-square-v1-640.avif",
+      "bytes": 7127,
+      "sha256": "0ce37673827df30b08049660f6f27b4a9e2630bb4eaf212a6ad722191d6c42e6"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-university-square-v1-640.webp",
+      "bytes": 6108,
+      "sha256": "2adf0dc37fccbae12e5583d8b6799f1618e5474f7cbe0f8764d543c1982814f9"
+    },
+    {
+      "path": "assets/production/avif/city-template-medium-city-university-square-v1-960.avif",
+      "bytes": 12802,
+      "sha256": "94ec8aa648c2a9fa55ca2ea804216810d586cb739b49d3d80ae5a4d715913acf"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-university-square-v1-960.webp",
+      "bytes": 10128,
+      "sha256": "a321ec36bc6b755a1070770fdc80449ca307477edfb3efb6f0f5b8744fc0a4bc"
+    },
+    {
+      "path": "assets/production/avif/city-template-medium-city-university-square-v1-1280.avif",
+      "bytes": 17218,
+      "sha256": "3f5963ed9cdde909528ccb626a4d96d064452f184b62686a413f1983980d2419"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-university-square-v1-1280.webp",
+      "bytes": 14126,
+      "sha256": "ee38d53c80c660aff1bcaadfa127ae11ed6ec8dae7ae6a18ac9b3ab059587cba"
+    },
+    {
+      "path": "assets/production/avif/city-template-medium-city-university-square-v1-1920.avif",
+      "bytes": 26527,
+      "sha256": "682c0f5b4365be8b3f99f3438f947e3161cb622ffd021323ecea2441fdf826b1"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-university-square-v1-1920.webp",
+      "bytes": 23902,
+      "sha256": "78256b4cb8b03f9047fb10a312cc163a98bae0c49dd5540afcdedb56c94452f6"
+    },
+    {
+      "path": "assets/production/avif/city-template-medium-city-university-square-v1-2560.avif",
+      "bytes": 37131,
+      "sha256": "a81cdac9a46303d3e645546818c42d7758d55e75b66d427d81906b875e153208"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-university-square-v1-2560.webp",
+      "bytes": 34868,
+      "sha256": "bfa7e9ab711e428d2051aac9d482a63fb41fbf5aee6d6215125a17bafef988ad"
+    },
+    {
+      "path": "assets/production/avif/city-template-medium-city-university-square-v1-3840.avif",
+      "bytes": 60552,
+      "sha256": "71ba7de904bd599e057b985afa964432efabe3b4802438c3ea4a46ca45bc057f"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-university-square-v1-3840.webp",
+      "bytes": 63134,
+      "sha256": "8cbb52822fc48c44a7360fa63033480a9945ecb3a7f06e54ef9e702c98ee54ce"
+    },
+    {
+      "path": "assets/production/png/city-template-medium-city-university-square-v1-1280.png",
+      "bytes": 1243474,
+      "sha256": "8f45a34278aa9c124ce8f7147718b6a80b7a83d13ddb02413f0490b59ea80806"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/city-template-medium-city-university-square-v1.webp",
+      "bytes": 3134,
+      "sha256": "96e8550de597c5e2a6b55912afb78d49a32ae203df7d324190b761d603ce5ba2"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-template-medium-city-university-square-v1.webp",
+      "bytes": 3134,
+      "sha256": "96e8550de597c5e2a6b55912afb78d49a32ae203df7d324190b761d603ce5ba2"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 91.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:55.525Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 92,
+      "material_quality": 87,
+      "light_quality": 89,
+      "architecture_plausibility": 89,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 92,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All four paged contact sheets were inspected at original resolution.",
+      "The templates are intentionally stylized deterministic fallbacks and remain compositionally useful across every required aspect ratio.",
+      "No missing render, broken geometry, sensitive infrastructure detail, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1662376
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:45:46.326Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

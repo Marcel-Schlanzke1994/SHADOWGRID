@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-logistics-company-poor-condition-v1",
+  "manifest_order": 485,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "poor-condition",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-logistics-company-poor-condition-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100485,
+  "content_hash": "de37cd58c234668876c9d8bc1fcaaf612d7d2c826db7e4977a601def70bef783",
+  "source_file": "assets/source/businesses/business-logistics-company-poor-condition-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-logistics-company-poor-condition-v1-320.avif",
+      "bytes": 3170,
+      "sha256": "993c4ea5a8cba28d29273324fe215ff310905bdd91ae18a9428cc2037222bb40"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-poor-condition-v1-320.webp",
+      "bytes": 2540,
+      "sha256": "260656997b27b456fd4d4461a0ca66b12d82703fcbf340daaebcd2b55e7ea82d"
+    },
+    {
+      "path": "assets/production/avif/business-logistics-company-poor-condition-v1-640.avif",
+      "bytes": 6629,
+      "sha256": "15fb2edb544085326c9992f93e746cf87c1ab3a2585d37899caf35036f7c3aaf"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-poor-condition-v1-640.webp",
+      "bytes": 5330,
+      "sha256": "e6a870af621df175bd2b05c30a25a162e4764e70bc97774af70d8dcd228d1e65"
+    },
+    {
+      "path": "assets/production/avif/business-logistics-company-poor-condition-v1-960.avif",
+      "bytes": 10649,
+      "sha256": "08d820cda34ecc8f55f9fece4ac6ea5ab6c60db0a790d817c9a7f33299b46a0c"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-poor-condition-v1-960.webp",
+      "bytes": 8838,
+      "sha256": "0cb114ce7da1cd747168e96e74a2250b9482a068cfbd14546dab07d25d6c92a7"
+    },
+    {
+      "path": "assets/production/avif/business-logistics-company-poor-condition-v1-1280.avif",
+      "bytes": 14950,
+      "sha256": "709ef0bdc9cc9fcec252a457d259fa8add7ccd5582c9c1e6964cc2b72e81481f"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-poor-condition-v1-1280.webp",
+      "bytes": 11756,
+      "sha256": "d70189dcee0beb251e257882b99625ecdd2aa9c0471b20adfda6a67bcd2bf8c3"
+    },
+    {
+      "path": "assets/production/avif/business-logistics-company-poor-condition-v1-1920.avif",
+      "bytes": 23055,
+      "sha256": "f43d16da64287559c2dc90e6d129626bd36143a01d7338ab3f7d981951ce9857"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-poor-condition-v1-1920.webp",
+      "bytes": 18718,
+      "sha256": "c0392fe6e4eaa3013c9be290048ef9b641342a9ffa61c40793fadeeec01d5a23"
+    },
+    {
+      "path": "assets/production/avif/business-logistics-company-poor-condition-v1-2560.avif",
+      "bytes": 29413,
+      "sha256": "873d949eed59b8366c54224b4f55ab915b76bc1a518d3e6373eab3c630a9d227"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-poor-condition-v1-2560.webp",
+      "bytes": 26012,
+      "sha256": "ba162d06321890ba0784c63ea544fcc49f68257b91422ce311249f63897889fe"
+    },
+    {
+      "path": "assets/production/avif/business-logistics-company-poor-condition-v1-3840.avif",
+      "bytes": 48627,
+      "sha256": "70329396c8e4d584f72878d800aaa7e9df76c920df537a9cd883881559df76b0"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-poor-condition-v1-3840.webp",
+      "bytes": 44724,
+      "sha256": "1bc72f16d6e7c445b7cd6772828e9e35709e907f337ad973347b814c8a269106"
+    },
+    {
+      "path": "assets/production/png/business-logistics-company-poor-condition-v1-1280.png",
+      "bytes": 628896,
+      "sha256": "cceccec561d096030145dedad0ded7f8faa72f531ffb656f1a45a08f1efd72a9"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-logistics-company-poor-condition-v1.webp",
+      "bytes": 2540,
+      "sha256": "260656997b27b456fd4d4461a0ca66b12d82703fcbf340daaebcd2b55e7ea82d"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-logistics-company-poor-condition-v1.webp",
+      "bytes": 2540,
+      "sha256": "260656997b27b456fd4d4461a0ca66b12d82703fcbf340daaebcd2b55e7ea82d"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.546Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1437262
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:58:36.914Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

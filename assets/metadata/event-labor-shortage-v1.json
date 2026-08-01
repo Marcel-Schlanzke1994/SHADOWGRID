@@ -1,0 +1,171 @@
+{
+  "asset_id": "event-labor-shortage-v1",
+  "manifest_order": 705,
+  "category": "event",
+  "batch": "world-events",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/event-labor-shortage-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100705,
+  "content_hash": "5f502c1e8e3e9ca97232c73e79d4574ab828cdfab6f39c3bada99ae38ba37cd8",
+  "source_file": "assets/source/events/event-labor-shortage-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/event-labor-shortage-v1-320.avif",
+      "bytes": 2887,
+      "sha256": "b888e98d50816288c1f98a75a9d8070cd52e4295b69b72e40589b40ba89189e9"
+    },
+    {
+      "path": "assets/production/webp/event-labor-shortage-v1-320.webp",
+      "bytes": 2600,
+      "sha256": "eb89af1ab9dc39bb3657ff5b0fc17c0b96c3388313e55a3dddca32781333a4dc"
+    },
+    {
+      "path": "assets/production/avif/event-labor-shortage-v1-640.avif",
+      "bytes": 6392,
+      "sha256": "509374050acdab2e4ac66248d83873abef1fe536352151c74bc70ab0ccefb783"
+    },
+    {
+      "path": "assets/production/webp/event-labor-shortage-v1-640.webp",
+      "bytes": 5316,
+      "sha256": "413fc4e0aacb0c6f5622eaeabfbbe9a5724126cdee6755c62666e9234acf7583"
+    },
+    {
+      "path": "assets/production/avif/event-labor-shortage-v1-960.avif",
+      "bytes": 10447,
+      "sha256": "9dda0bfa1007f9f01b97bfd3f9e0eb475f7cf656fe154270824407f7717c2f45"
+    },
+    {
+      "path": "assets/production/webp/event-labor-shortage-v1-960.webp",
+      "bytes": 8944,
+      "sha256": "b3cbc2de4502bf90db5d7e75e82cfe130b6b9381224b245620ebf2882ed165eb"
+    },
+    {
+      "path": "assets/production/avif/event-labor-shortage-v1-1280.avif",
+      "bytes": 15046,
+      "sha256": "1deb99d1f9f8773455ca5cf0c09e209383932a4b39785b0932db59e608a94757"
+    },
+    {
+      "path": "assets/production/webp/event-labor-shortage-v1-1280.webp",
+      "bytes": 12306,
+      "sha256": "c324ebc7d56ae955807b1f2a31356b3db6d285437ff4dd0019ce438801b84f80"
+    },
+    {
+      "path": "assets/production/avif/event-labor-shortage-v1-1920.avif",
+      "bytes": 23112,
+      "sha256": "88a987f08edc9046aa7c365a4658a93a8eba3fc8088fcaf959b91dd4d573f478"
+    },
+    {
+      "path": "assets/production/webp/event-labor-shortage-v1-1920.webp",
+      "bytes": 19236,
+      "sha256": "28eaa7e0399a076a278185fa543ce06415a3f1066e9038f04684f486f18bdd0b"
+    },
+    {
+      "path": "assets/production/avif/event-labor-shortage-v1-2560.avif",
+      "bytes": 31515,
+      "sha256": "3a4b7b6637002d9cecd3ce5642efa885791f0f337a2c848c6e0537fa4113f9df"
+    },
+    {
+      "path": "assets/production/webp/event-labor-shortage-v1-2560.webp",
+      "bytes": 26894,
+      "sha256": "40d57bcbced09a302e8527b78c9a735a2fb16b2b18c32f334584b478e465ba3e"
+    },
+    {
+      "path": "assets/production/avif/event-labor-shortage-v1-3840.avif",
+      "bytes": 50567,
+      "sha256": "a11b374c9680fa1d55d06859acf06ea97bd49bad16605a18eed0983f6b7c515f"
+    },
+    {
+      "path": "assets/production/webp/event-labor-shortage-v1-3840.webp",
+      "bytes": 46628,
+      "sha256": "5c43aa1709ebdd2fc53b590459c54f209abcc321ce5a5089198512a89e70e96b"
+    },
+    {
+      "path": "assets/production/png/event-labor-shortage-v1-1280.png",
+      "bytes": 683955,
+      "sha256": "ae0d6f1748abf05a0f5a1f015e3be6d9ec84db453cc653245533b402a3af3f59"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/event-labor-shortage-v1.webp",
+      "bytes": 2600,
+      "sha256": "eb89af1ab9dc39bb3657ff5b0fc17c0b96c3388313e55a3dddca32781333a4dc"
+    },
+    {
+      "path": "apps/mobile/assets/library/event-labor-shortage-v1.webp",
+      "bytes": 2600,
+      "sha256": "eb89af1ab9dc39bb3657ff5b0fc17c0b96c3388313e55a3dddca32781333a4dc"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:10.735Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 88,
+      "light_quality": 91,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Repeated motifs form a coherent event family while color, direction, and state treatment keep event classes distinguishable.",
+      "No missing render, unsafe real-world guidance, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1564781
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:32:13.480Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

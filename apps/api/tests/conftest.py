@@ -14,7 +14,13 @@ os.environ["ALLOW_EXTERNAL_DEPLOY"] = "false"
 import pytest
 from fastapi.testclient import TestClient
 from shadowgrid.database import Base, SessionLocal, engine
-from shadowgrid.game_config import DISTRICTS, TERRITORY_CONTROL_POINTS
+from shadowgrid.game_config import (
+    DISTRICTS,
+    START_CITY,
+    TERRITORY_CONTROL_POINTS,
+    WORLD_NAME,
+    WORLD_SLUG,
+)
 from shadowgrid.main import app
 from shadowgrid.models import City, CityMarket, District, TerritoryControlPoint, User, World
 from shadowgrid.security import hash_password
@@ -27,8 +33,8 @@ def clean_database() -> Generator[None]:
     Base.metadata.create_all(bind=engine)
     db = SessionLocal()
     world = World(
-        slug="test-world",
-        name="Test Vesper",
+        slug=WORLD_SLUG,
+        name=WORLD_NAME,
         status="active",
         ends_at=__import__("datetime").datetime.now(__import__("datetime").UTC)
         + __import__("datetime").timedelta(days=14),
@@ -37,10 +43,10 @@ def clean_database() -> Generator[None]:
     db.flush()
     city = City(
         world_id=world.id,
-        slug="vesper-metropolitan",
-        name="Vesper Metropolitan Zone",
-        region_key="vesper-region",
-        instance_key="sector-test",
+        slug=START_CITY["slug"],
+        name=START_CITY["name"],
+        region_key=START_CITY["region_key"],
+        instance_key=START_CITY["instance_key"],
         status="active",
     )
     db.add(city)

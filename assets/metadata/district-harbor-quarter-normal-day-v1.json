@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-harbor-quarter-normal-day-v1",
+  "manifest_order": 375,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-harbor-quarter-normal-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100375,
+  "content_hash": "e934cb2df5cf0348aa12158a761971466ac0b0c5168d73609ca6bd9ae0f9dcd9",
+  "source_file": "assets/source/districts/district-harbor-quarter-normal-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-harbor-quarter-normal-day-v1-320.avif",
+      "bytes": 2929,
+      "sha256": "5c86586a4cf487e70a009bcc0082c9ae33938fb5a01e1dcfb2903aadbc66ce32"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-normal-day-v1-320.webp",
+      "bytes": 2592,
+      "sha256": "2aed5b4c1fd0adecfa2307b850c998314ed9b5ac6712c50139e8d174e8449ee8"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-normal-day-v1-640.avif",
+      "bytes": 6325,
+      "sha256": "0d27563720612f4371564098cc77fb5aadc74005103edc68ac7868b4ce48f8dc"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-normal-day-v1-640.webp",
+      "bytes": 5114,
+      "sha256": "35e348830f11d393a1b83aea5a200c16962ea38ecb6109ce2a40c83636610931"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-normal-day-v1-960.avif",
+      "bytes": 9916,
+      "sha256": "02e3396571e00534fa703818a8d7e537a680c1bfa4c028713cdbe3c509bd86eb"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-normal-day-v1-960.webp",
+      "bytes": 8384,
+      "sha256": "5a89b5a4f43f5264ef01f27253b1a0795ec34410c854f61d4cdb165191e3338a"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-normal-day-v1-1280.avif",
+      "bytes": 14387,
+      "sha256": "3e4b26260afbb6e79c785b55ab273ffbc8c92867c4e8e9f090e5355561d0babf"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-normal-day-v1-1280.webp",
+      "bytes": 11158,
+      "sha256": "6f4dfe057184c62e859a53ba0084d5a3b0741c7c70b3e0782a55241d281379f8"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-normal-day-v1-1920.avif",
+      "bytes": 21407,
+      "sha256": "b8126cc66daf726d82bd057c778313c8b17d2df7856552f21bf02b2d6adc6822"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-normal-day-v1-1920.webp",
+      "bytes": 17772,
+      "sha256": "a3a542a34c44aa21caf0d80e9c433f58f785f82e1cb1a9f4374db75216a87e1c"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-normal-day-v1-2560.avif",
+      "bytes": 28789,
+      "sha256": "c855faf39229bac2e795b070aceb8b7debbc76234f9d51f1f7049c3506f14de0"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-normal-day-v1-2560.webp",
+      "bytes": 24088,
+      "sha256": "77008c115a520344b4d9e34a7a4dbee4084bbd24e50b9aac50d4866147979886"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-normal-day-v1-3840.avif",
+      "bytes": 47036,
+      "sha256": "d5dfb38cde753b6f83d5bdd5f7184d87a0bead9af77b90098cd88b3368ea453e"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-normal-day-v1-3840.webp",
+      "bytes": 42168,
+      "sha256": "f0b7a51a7251ab22179ce3007cf0759a82e16fdfe11fb804e1ba84a592948553"
+    },
+    {
+      "path": "assets/production/png/district-harbor-quarter-normal-day-v1-1280.png",
+      "bytes": 630940,
+      "sha256": "13258a6eb3566d37c55f7a34b4290a8d5f13eae03fcc972f3b8b105758733795"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-harbor-quarter-normal-day-v1.webp",
+      "bytes": 2592,
+      "sha256": "2aed5b4c1fd0adecfa2307b850c998314ed9b5ac6712c50139e8d174e8449ee8"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-harbor-quarter-normal-day-v1.webp",
+      "bytes": 2592,
+      "sha256": "2aed5b4c1fd0adecfa2307b850c998314ed9b5ac6712c50139e8d174e8449ee8"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.492Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1452296
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:09:54.227Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

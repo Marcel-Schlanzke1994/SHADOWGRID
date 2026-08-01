@@ -1,0 +1,75 @@
+{
+  "asset_id": "reward-best-information-network-v1",
+  "manifest_order": 844,
+  "category": "reward",
+  "batch": "rankings-rewards",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/reward-best-information-network-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100844,
+  "content_hash": "dc705f482ba8c926ef1a5dd1c48afa8ec5888156eb0cf22de92f24ed331da39e",
+  "source_file": "assets/source/rewards/reward-best-information-network-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/reward-best-information-network-v1.svg",
+      "bytes": 1100,
+      "sha256": "dc705f482ba8c926ef1a5dd1c48afa8ec5888156eb0cf22de92f24ed331da39e"
+    },
+    {
+      "path": "assets/production/webp/reward-best-information-network-v1-320.webp",
+      "bytes": 13074,
+      "sha256": "dad0e036596174c03e9fc41dc65b60974c87c9a7b01a7efbda1295c8bc628eda"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/reward-best-information-network-v1.webp",
+      "bytes": 13074,
+      "sha256": "dad0e036596174c03e9fc41dc65b60974c87c9a7b01a7efbda1295c8bc628eda"
+    },
+    {
+      "path": "apps/mobile/assets/library/reward-best-information-network-v1.webp",
+      "bytes": 13074,
+      "sha256": "dad0e036596174c03e9fc41dc65b60974c87c9a7b01a7efbda1295c8bc628eda"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 1100
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:41:14.139Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

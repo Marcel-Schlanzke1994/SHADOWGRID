@@ -1,0 +1,75 @@
+{
+  "asset_id": "icon-building-hospitality-v1",
+  "manifest_order": 782,
+  "category": "icon",
+  "batch": "ui-icons",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "24:24",
+  "width": 24,
+  "height": 24,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/icon-building-hospitality-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100782,
+  "content_hash": "983d505a260d99c55081c0d24b7702e4afab443c625503760dabe3ba07490b85",
+  "source_file": "assets/source/icons/icon-building-hospitality-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/icon-building-hospitality-v1.svg",
+      "bytes": 494,
+      "sha256": "983d505a260d99c55081c0d24b7702e4afab443c625503760dabe3ba07490b85"
+    },
+    {
+      "path": "assets/production/webp/icon-building-hospitality-v1-320.webp",
+      "bytes": 1628,
+      "sha256": "f399f61769e92f353ff505e936bbdb412868f14aa0ceb3e2518108d8ff96764c"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/icon-building-hospitality-v1.webp",
+      "bytes": 1628,
+      "sha256": "f399f61769e92f353ff505e936bbdb412868f14aa0ceb3e2518108d8ff96764c"
+    },
+    {
+      "path": "apps/mobile/assets/library/icon-building-hospitality-v1.webp",
+      "bytes": 1628,
+      "sha256": "f399f61769e92f353ff505e936bbdb412868f14aa0ceb3e2518108d8ff96764c"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 494
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:51:43.871Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

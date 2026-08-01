@@ -149,5 +149,16 @@
     "Night lighting remains restrained and physically plausible rather than neon-heavy.",
     "No visible text, logos, private details, weapons, violence or operational wrongdoing."
   ],
-  "runtime_files": []
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/style-proof-german-metropolis-night-v1.webp",
+      "bytes": 8124,
+      "sha256": "31d72aa3a0b6d9a7820450132704e4aefe210826efab628d15c724e52416d9eb"
+    },
+    {
+      "path": "apps/mobile/assets/library/style-proof-german-metropolis-night-v1.webp",
+      "bytes": 8124,
+      "sha256": "31d72aa3a0b6d9a7820450132704e4aefe210826efab628d15c724e52416d9eb"
+    }
+  ]
 }

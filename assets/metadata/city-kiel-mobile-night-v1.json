@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-kiel-mobile-night-v1",
+  "manifest_order": 296,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "kiel",
+  "variant": "mobile-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-kiel-mobile-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100296,
+  "content_hash": "835b890f6401be500f1faa4503a6bf2e50a6404a720e9a81f0d2f5776354c4cb",
+  "source_file": "assets/source/cities/city-kiel-mobile-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-kiel-mobile-night-v1-320.avif",
+      "bytes": 5691,
+      "sha256": "06b1dddbddaecd6ad1c7840e98d2f4ffbe34c08aae8f8c23c55276f1aee3903c"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-mobile-night-v1-320.webp",
+      "bytes": 5770,
+      "sha256": "f33fec96dd13393c3cf2f15bf82b0b255539ddff0efe111047d902302e279b18"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-mobile-night-v1-640.avif",
+      "bytes": 11375,
+      "sha256": "9565a46dd778b7c8e9b55e3051404d50d5a675aeabd7bf38375926037d82642d"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-mobile-night-v1-640.webp",
+      "bytes": 11320,
+      "sha256": "3931a22f362a572af4e9c10eecfd40a5e7908d1632faa0ae6a0f429d0a6282f2"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-mobile-night-v1-960.avif",
+      "bytes": 20437,
+      "sha256": "7147a498be6deb471ec1a5039361dea45e65cdb7528f78e6a4cc12f5a89e3a9e"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-mobile-night-v1-960.webp",
+      "bytes": 19258,
+      "sha256": "d386d5e928eaa03ee5499f4f97db9bfa3e7c54d72e184f866c4f05f894e2d319"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-mobile-night-v1-1280.avif",
+      "bytes": 27282,
+      "sha256": "dc44bc2c59d75b3374acc3d9cf159a3723f7b2e97e53b48abb99f8a5b33e294a"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-mobile-night-v1-1280.webp",
+      "bytes": 25274,
+      "sha256": "5dfd7795e7777df28af7fefebd857b676d8902b1736b3237d8c7318f27214915"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-mobile-night-v1-1920.avif",
+      "bytes": 43529,
+      "sha256": "8680796a4eb2ffe85a3b9b42d34446804ef2f2deff0e6bb8d3b4f63f785d1482"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-mobile-night-v1-1920.webp",
+      "bytes": 41574,
+      "sha256": "12ee0fa66feaf5bbedb9042132571dbc45c6131c9a716cf9a221389643b9d2dc"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-mobile-night-v1-2560.avif",
+      "bytes": 61014,
+      "sha256": "75c285546dd16f39b3a00a5ca1a9529077a9bcab855c3ae1e54c1c184c315b6d"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-mobile-night-v1-2560.webp",
+      "bytes": 60282,
+      "sha256": "63d354c8d074b7312b7512f9a93ed90a1c9109b976d3ab497b99bfadfd37978e"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-mobile-night-v1-3840.avif",
+      "bytes": 110920,
+      "sha256": "5a232334dc595f3b3eda722d2564f000897a80f15ee4b0cd812457a6d5bc544d"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-mobile-night-v1-3840.webp",
+      "bytes": 113414,
+      "sha256": "e8a6ac3a0140f55ecd7902e017f43df37f066ea1aa156efb52ad523064b7c7d3"
+    },
+    {
+      "path": "assets/production/png/city-kiel-mobile-night-v1-1152.png",
+      "bytes": 1711591,
+      "sha256": "835b890f6401be500f1faa4503a6bf2e50a6404a720e9a81f0d2f5776354c4cb"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-night-v1-320.avif",
+      "bytes": 5691,
+      "sha256": "06b1dddbddaecd6ad1c7840e98d2f4ffbe34c08aae8f8c23c55276f1aee3903c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-night-v1-320.webp",
+      "bytes": 5770,
+      "sha256": "f33fec96dd13393c3cf2f15bf82b0b255539ddff0efe111047d902302e279b18"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-night-v1-640.avif",
+      "bytes": 11375,
+      "sha256": "9565a46dd778b7c8e9b55e3051404d50d5a675aeabd7bf38375926037d82642d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-night-v1-640.webp",
+      "bytes": 11320,
+      "sha256": "3931a22f362a572af4e9c10eecfd40a5e7908d1632faa0ae6a0f429d0a6282f2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-night-v1-960.avif",
+      "bytes": 20437,
+      "sha256": "7147a498be6deb471ec1a5039361dea45e65cdb7528f78e6a4cc12f5a89e3a9e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-night-v1-960.webp",
+      "bytes": 19258,
+      "sha256": "d386d5e928eaa03ee5499f4f97db9bfa3e7c54d72e184f866c4f05f894e2d319"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-night-v1-1280.avif",
+      "bytes": 27282,
+      "sha256": "dc44bc2c59d75b3374acc3d9cf159a3723f7b2e97e53b48abb99f8a5b33e294a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-night-v1-1280.webp",
+      "bytes": 25274,
+      "sha256": "5dfd7795e7777df28af7fefebd857b676d8902b1736b3237d8c7318f27214915"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-night-v1-1920.avif",
+      "bytes": 43529,
+      "sha256": "8680796a4eb2ffe85a3b9b42d34446804ef2f2deff0e6bb8d3b4f63f785d1482"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-night-v1-1920.webp",
+      "bytes": 41574,
+      "sha256": "12ee0fa66feaf5bbedb9042132571dbc45c6131c9a716cf9a221389643b9d2dc"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-night-v1-2560.avif",
+      "bytes": 61014,
+      "sha256": "75c285546dd16f39b3a00a5ca1a9529077a9bcab855c3ae1e54c1c184c315b6d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-night-v1-2560.webp",
+      "bytes": 60282,
+      "sha256": "63d354c8d074b7312b7512f9a93ed90a1c9109b976d3ab497b99bfadfd37978e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-night-v1-3840.avif",
+      "bytes": 110920,
+      "sha256": "5a232334dc595f3b3eda722d2564f000897a80f15ee4b0cd812457a6d5bc544d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-night-v1-3840.webp",
+      "bytes": 113414,
+      "sha256": "e8a6ac3a0140f55ecd7902e017f43df37f066ea1aa156efb52ad523064b7c7d3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-night-v1-1152.png",
+      "bytes": 1711591,
+      "sha256": "835b890f6401be500f1faa4503a6bf2e50a6404a720e9a81f0d2f5776354c4cb"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-kiel-mobile-night-v1.webp",
+      "bytes": 5770,
+      "sha256": "f33fec96dd13393c3cf2f15bf82b0b255539ddff0efe111047d902302e279b18"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-kiel-mobile-night-v1.webp",
+      "bytes": 5770,
+      "sha256": "f33fec96dd13393c3cf2f15bf82b0b255539ddff0efe111047d902302e279b18"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:42.408Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1711591
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:14:08.170Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -170,6 +170,16 @@
       "path": "apps/web/public/assets/global/global-command-center-day-v1-1280.png",
       "bytes": 1494267,
       "sha256": "f3c976d8891bc8cfc6b5c0bbbd211fae62691f3b2fa8f40fa465736e4d5ed7e9"
+    },
+    {
+      "path": "apps/web/public/assets/library/global-command-center-day-v1.webp",
+      "bytes": 4408,
+      "sha256": "ac9f099cc71f805e6d48b26f0b79eb90b33f8561d0e4b7596c1955f835468a1c"
+    },
+    {
+      "path": "apps/mobile/assets/library/global-command-center-day-v1.webp",
+      "bytes": 4408,
+      "sha256": "ac9f099cc71f805e6d48b26f0b79eb90b33f8561d0e4b7596c1955f835468a1c"
     }
   ],
   "contains_text": false,

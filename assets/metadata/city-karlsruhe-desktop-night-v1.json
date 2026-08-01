@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-karlsruhe-desktop-night-v1",
+  "manifest_order": 246,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "karlsruhe",
+  "variant": "desktop-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-karlsruhe-desktop-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100246,
+  "content_hash": "7e23ba02009d542be4001a8c026c05b708a79561fe3be44ffc58ae11606a3f30",
+  "source_file": "assets/source/cities/city-karlsruhe-desktop-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-karlsruhe-desktop-night-v1-320.avif",
+      "bytes": 3937,
+      "sha256": "fb8f7400f36d12a7c8fbb108ae6de4ddcd7714bb69f3bbf653bf3c02fe97a807"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-desktop-night-v1-320.webp",
+      "bytes": 4168,
+      "sha256": "00a3ec8d5bbcb536b9153431d08a4d0165a266e5714d514b2ba4cb1f98dcc467"
+    },
+    {
+      "path": "assets/production/avif/city-karlsruhe-desktop-night-v1-640.avif",
+      "bytes": 8242,
+      "sha256": "d7709885e3a13f40e160fcfc5b2384abd8e8675b36f3cf060adef0a51aecce9e"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-desktop-night-v1-640.webp",
+      "bytes": 8952,
+      "sha256": "3c01b9bf9732d54d4b616cd04a52cf8615ef1176f1e60a075ccde2e8d576ecaa"
+    },
+    {
+      "path": "assets/production/avif/city-karlsruhe-desktop-night-v1-960.avif",
+      "bytes": 14026,
+      "sha256": "dc3258fa7a74646c76e617043f5d27d456ee9a64cebf5cb7ff92280e3be5f1af"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-desktop-night-v1-960.webp",
+      "bytes": 15036,
+      "sha256": "7f029be3501ce8f4317b6882420e013a8e6f3b703d0ca26c490e33ccb4c67a23"
+    },
+    {
+      "path": "assets/production/avif/city-karlsruhe-desktop-night-v1-1280.avif",
+      "bytes": 19338,
+      "sha256": "671bf3b055ed6d13fdc2a299503b722ee553329179a07542099c6216d3ed0433"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-desktop-night-v1-1280.webp",
+      "bytes": 19852,
+      "sha256": "8b825db7cf9a2f122797523d25f15aea78f3dd43baf520e68d8e15b15b50530e"
+    },
+    {
+      "path": "assets/production/avif/city-karlsruhe-desktop-night-v1-1920.avif",
+      "bytes": 29814,
+      "sha256": "676a294c05e223ba8cfafe67623c0d641fd1a9251a181027078af23d0d1f499b"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-desktop-night-v1-1920.webp",
+      "bytes": 29176,
+      "sha256": "2e5ae6485f86da394986acba181733679ae4984bc9447d00967fec70079ef520"
+    },
+    {
+      "path": "assets/production/avif/city-karlsruhe-desktop-night-v1-2560.avif",
+      "bytes": 40282,
+      "sha256": "8e5ed1fde8fd729b3d96218efde4ffcb8f6ce61f15bc83844881ca383e64b213"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-desktop-night-v1-2560.webp",
+      "bytes": 38038,
+      "sha256": "1cc9500501d07475434ac6af91bde6cef89cb3c3e4e1b83e7e4966c405195483"
+    },
+    {
+      "path": "assets/production/avif/city-karlsruhe-desktop-night-v1-3840.avif",
+      "bytes": 62973,
+      "sha256": "638bc0319fb5f831f811862d8a031444c15df1a4937dca112d4c9ef74d846207"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-desktop-night-v1-3840.webp",
+      "bytes": 59686,
+      "sha256": "568848fb0069dc8da4742b4653f9f87212b7fbd2913800be183955d98a1f66be"
+    },
+    {
+      "path": "assets/production/png/city-karlsruhe-desktop-night-v1-1280.png",
+      "bytes": 764214,
+      "sha256": "660f646ecd1dd273f5e19cd63217f2744af76b995dd30720de32e28f06f72240"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-desktop-night-v1-320.avif",
+      "bytes": 3937,
+      "sha256": "fb8f7400f36d12a7c8fbb108ae6de4ddcd7714bb69f3bbf653bf3c02fe97a807"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-desktop-night-v1-320.webp",
+      "bytes": 4168,
+      "sha256": "00a3ec8d5bbcb536b9153431d08a4d0165a266e5714d514b2ba4cb1f98dcc467"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-desktop-night-v1-640.avif",
+      "bytes": 8242,
+      "sha256": "d7709885e3a13f40e160fcfc5b2384abd8e8675b36f3cf060adef0a51aecce9e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-desktop-night-v1-640.webp",
+      "bytes": 8952,
+      "sha256": "3c01b9bf9732d54d4b616cd04a52cf8615ef1176f1e60a075ccde2e8d576ecaa"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-desktop-night-v1-960.avif",
+      "bytes": 14026,
+      "sha256": "dc3258fa7a74646c76e617043f5d27d456ee9a64cebf5cb7ff92280e3be5f1af"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-desktop-night-v1-960.webp",
+      "bytes": 15036,
+      "sha256": "7f029be3501ce8f4317b6882420e013a8e6f3b703d0ca26c490e33ccb4c67a23"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-desktop-night-v1-1280.avif",
+      "bytes": 19338,
+      "sha256": "671bf3b055ed6d13fdc2a299503b722ee553329179a07542099c6216d3ed0433"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-desktop-night-v1-1280.webp",
+      "bytes": 19852,
+      "sha256": "8b825db7cf9a2f122797523d25f15aea78f3dd43baf520e68d8e15b15b50530e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-desktop-night-v1-1920.avif",
+      "bytes": 29814,
+      "sha256": "676a294c05e223ba8cfafe67623c0d641fd1a9251a181027078af23d0d1f499b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-desktop-night-v1-1920.webp",
+      "bytes": 29176,
+      "sha256": "2e5ae6485f86da394986acba181733679ae4984bc9447d00967fec70079ef520"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-desktop-night-v1-2560.avif",
+      "bytes": 40282,
+      "sha256": "8e5ed1fde8fd729b3d96218efde4ffcb8f6ce61f15bc83844881ca383e64b213"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-desktop-night-v1-2560.webp",
+      "bytes": 38038,
+      "sha256": "1cc9500501d07475434ac6af91bde6cef89cb3c3e4e1b83e7e4966c405195483"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-desktop-night-v1-3840.avif",
+      "bytes": 62973,
+      "sha256": "638bc0319fb5f831f811862d8a031444c15df1a4937dca112d4c9ef74d846207"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-desktop-night-v1-3840.webp",
+      "bytes": 59686,
+      "sha256": "568848fb0069dc8da4742b4653f9f87212b7fbd2913800be183955d98a1f66be"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-desktop-night-v1-1280.png",
+      "bytes": 764214,
+      "sha256": "660f646ecd1dd273f5e19cd63217f2744af76b995dd30720de32e28f06f72240"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-karlsruhe-desktop-night-v1.webp",
+      "bytes": 4168,
+      "sha256": "00a3ec8d5bbcb536b9153431d08a4d0165a266e5714d514b2ba4cb1f98dcc467"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-karlsruhe-desktop-night-v1.webp",
+      "bytes": 4168,
+      "sha256": "00a3ec8d5bbcb536b9153431d08a4d0165a266e5714d514b2ba4cb1f98dcc467"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.556Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1689111
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:31:49.490Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

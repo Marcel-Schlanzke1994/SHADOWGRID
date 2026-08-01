@@ -1,10 +1,12 @@
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import UTC, datetime
 from decimal import Decimal
-from typing import Any
+from typing import Any, Literal
 
 from pydantic import BaseModel, ConfigDict, EmailStr, Field, field_validator
+
+from shadowgrid.localization import normalize_account_locale
 
 
 class ORMModel(BaseModel):
@@ -29,6 +31,11 @@ class RegisterRequest(BaseModel):
     password: str = Field(min_length=12, max_length=128)
     locale: str = Field(default="en", min_length=2, max_length=16)
     terms_accepted: bool
+
+    @field_validator("locale")
+    @classmethod
+    def supported_locale(cls, value: str) -> str:
+        return normalize_account_locale(value)
 
     @field_validator("password")
     @classmethod
@@ -114,6 +121,10 @@ class JoinWorldRequest(BaseModel):
     home_district_id: str
 
 
+class SelectCityRequest(JoinWorldRequest):
+    city_id: str
+
+
 class ResourceView(ORMModel):
     cash: Decimal
     capital: Decimal
@@ -192,6 +203,220 @@ class BuyBusinessRequest(BaseModel):
     name: str = Field(min_length=2, max_length=100)
 
 
+class CompanyIndustryConfigView(BaseModel):
+    enterprise_value_cents: int
+    revenue_cents: int
+    cost_cents: int
+    employees: int
+    capacity: int
+    quality: int
+    market_share_bps: int
+    reputation_bps: int
+    compliance_bps: int
+    innovation_bps: int
+    risk_bps: int
+
+
+class CompanyInvestmentConfigView(BaseModel):
+    cost_cents: int
+    metric: str
+    increase: int
+
+
+class CompanyConfigurationView(BaseModel):
+    founding_cost_cents: int
+    industries: dict[str, CompanyIndustryConfigView]
+    investments: dict[str, CompanyInvestmentConfigView]
+
+
+class CreateCompanyRequest(BaseModel):
+    name: str = Field(min_length=2, max_length=100)
+    industry: str
+    district_id: str
+
+    @field_validator("name")
+    @classmethod
+    def validate_name(cls, value: str) -> str:
+        normalized = " ".join(value.split())
+        if not any(character.isalpha() for character in normalized):
+            raise ValueError("company name must contain at least one letter")
+        allowed_punctuation = {" ", "&", ".", "-", "'", "’"}
+        if any(
+            not character.isalnum() and character not in allowed_punctuation
+            for character in normalized
+        ):
+            raise ValueError("company name contains unsupported characters")
+        return normalized
+
+
+class CompanyInvestmentRequest(BaseModel):
+    investment_type: str
+
+
+class CompanyView(ORMModel):
+    id: str
+    world_id: str
+    founder_profile_id: str
+    district_id: str
+    industry: str
+    name: str
+    status: str
+    account_balance_cents: int
+    enterprise_value_cents: int
+    revenue_cents: int
+    cost_cents: int
+    profit_cents: int
+    debt_cents: int
+    employees: int
+    capacity: int
+    quality: int
+    market_share_bps: int
+    reputation_bps: int
+    compliance_bps: int
+    innovation_bps: int
+    risk_bps: int
+    investigation_pressure_bps: int
+    is_local_simulation: bool
+    version: int
+    created_at: datetime
+    updated_at: datetime
+
+
+class CompanyOwnershipView(ORMModel):
+    id: str
+    company_id: str
+    owner_profile_id: str
+    ownership_bps: int
+    created_at: datetime
+
+
+class CompanyInvestmentView(ORMModel):
+    id: str
+    company_id: str
+    investor_profile_id: str
+    investment_type: str
+    amount_cents: int
+    metric_before: int
+    metric_after: int
+    created_at: datetime
+
+
+class CompanyMetricView(ORMModel):
+    id: str
+    company_id: str
+    version: int
+    reason: str
+    reference_id: str
+    enterprise_value_cents: int
+    account_balance_cents: int
+    revenue_cents: int
+    cost_cents: int
+    profit_cents: int
+    capacity: int
+    quality: int
+    compliance_bps: int
+    innovation_bps: int
+    created_at: datetime
+
+
+class CompanyDetailView(CompanyView):
+    ownership: list[CompanyOwnershipView]
+    investments: list[CompanyInvestmentView]
+    metrics_history: list[CompanyMetricView]
+
+
+class EconomyTickView(ORMModel):
+    id: str
+    world_id: str
+    period_key: str
+    period_start: datetime
+    period_end: datetime
+    status: str
+    company_count: int
+    market_count: int
+    started_at: datetime
+    completed_at: datetime | None
+
+    @field_validator(
+        "period_start",
+        "period_end",
+        "started_at",
+        "completed_at",
+        mode="before",
+    )
+    @classmethod
+    def normalize_utc(cls, value: datetime | None) -> datetime | None:
+        if value is not None and value.tzinfo is None:
+            return value.replace(tzinfo=UTC)
+        return value
+
+
+class EconomyStatusView(BaseModel):
+    last_tick: EconomyTickView | None
+    next_scheduled_at: datetime
+
+
+class ManualEconomyTickRequest(BaseModel):
+    world_id: str
+    period_start: datetime | None = None
+
+    @field_validator("period_start")
+    @classmethod
+    def require_timezone(cls, value: datetime | None) -> datetime | None:
+        if value is not None and value.tzinfo is None:
+            raise ValueError("period_start must include a timezone")
+        return value
+
+
+class CitySectorMarketView(ORMModel):
+    id: str
+    world_id: str
+    city_id: str
+    industry: str
+    demand_units: int
+    unit_revenue_cents: int
+    variable_cost_per_unit_cents: int
+    fixed_cost_cents: int
+    version: int
+
+
+class MarketEconomyReportView(ORMModel):
+    id: str
+    tick_id: str
+    market_id: str
+    demand_units: int
+    allocated_units: int
+    unfilled_units: int
+    allocated_share_bps: int
+    company_count: int
+    total_revenue_cents: int
+    total_cost_cents: int
+    total_profit_cents: int
+    inputs_json: dict[str, Any]
+    created_at: datetime
+
+
+class CompanyEconomyReportView(ORMModel):
+    id: str
+    tick_id: str
+    market_report_id: str
+    company_id: str
+    settlement_transaction_id: str | None
+    attractiveness_points: int
+    allocated_units: int
+    market_share_bps: int
+    revenue_cents: int
+    cost_cents: int
+    profit_cents: int
+    cash_delta_cents: int
+    debt_delta_cents: int
+    enterprise_value_before_cents: int
+    enterprise_value_after_cents: int
+    inputs_json: dict[str, Any]
+    modifiers_json: dict[str, Any]
+    created_at: datetime
+
+
 class FacilityView(ORMModel):
     id: str
     facility_type: str
@@ -208,13 +433,284 @@ class SpecialistView(ORMModel):
     id: str
     name: str
     role: str
+    level: int
+    energy: int
+    experience_points: int
+    skills_json: dict[str, int]
     competence: int
     loyalty: int
     ambition: int
     stress: int
     exposure: int
     salary: Decimal
+    salary_cents: int
     status: str
+    employer_company_id: str | None
+    assigned_operation_id: str | None
+    cooldown_until: datetime | None
+    hired_at: datetime | None
+
+
+class SpecialistMarketCandidateView(ORMModel):
+    id: str
+    world_id: str
+    city_id: str
+    market_cycle_key: str
+    role: str
+    name: str
+    level: int
+    salary_cents: int
+    loyalty: int
+    energy: int
+    skills_json: dict[str, int]
+    status: str
+    available_until: datetime
+
+
+class HireSpecialistRequest(BaseModel):
+    company_id: str
+
+
+class AssignSpecialistRequest(BaseModel):
+    company_id: str
+
+
+class SpecialistEffectsView(BaseModel):
+    active_specialists: int
+    capacity_bonus_units: int
+    revenue_bonus_bps: int
+    cost_reduction_bps: int
+    attractiveness_bonus_points: int
+
+
+class SpecialistPayrollTickView(ORMModel):
+    id: str
+    world_id: str
+    economy_tick_id: str
+    period_key: str
+    status: str
+    specialist_count: int
+    started_at: datetime
+    completed_at: datetime | None
+
+
+class ManualSpecialistPayrollRequest(BaseModel):
+    world_id: str
+    period_start: datetime | None = None
+
+    @field_validator("period_start")
+    @classmethod
+    def require_timezone(cls, value: datetime | None) -> datetime | None:
+        if value is not None and value.tzinfo is None:
+            raise ValueError("period_start must include a timezone")
+        return value
+
+
+class SpecialistPayrollReportView(ORMModel):
+    id: str
+    payroll_tick_id: str
+    specialist_id: str
+    company_id: str
+    transaction_id: str | None
+    salary_due_cents: int
+    salary_paid_cents: int
+    unpaid_cents: int
+    loyalty_before: int
+    loyalty_after: int
+    energy_before: int
+    energy_after: int
+    level_before: int
+    level_after: int
+    created_at: datetime
+
+
+class AiProfileView(ORMModel):
+    id: str
+    world_id: str
+    city_id: str | None
+    codename: str
+    is_local_ai: bool
+    ai_strategy: str | None
+    ai_paused: bool
+    ai_seed: int | None
+
+
+class AiPauseRequest(BaseModel):
+    paused: bool
+
+
+class ManualAiTickRequest(BaseModel):
+    world_id: str
+    period_start: datetime | None = None
+
+    @field_validator("period_start")
+    @classmethod
+    def require_timezone(cls, value: datetime | None) -> datetime | None:
+        if value is not None and value.tzinfo is None:
+            raise ValueError("period_start must include a timezone")
+        return value
+
+
+class AiDecisionTickView(ORMModel):
+    id: str
+    world_id: str
+    economy_tick_id: str | None
+    period_key: str
+    status: str
+    profile_count: int
+    started_at: datetime
+    completed_at: datetime | None
+
+
+class ExchangeConfigurationView(BaseModel):
+    min_enterprise_value_cents: int
+    profitable_periods: int
+    min_compliance_bps: int
+    min_employees: int
+    max_investigation_pressure_bps: int
+    ipo_fee_cents: int
+    order_rate_limit_per_minute: int
+    max_price_deviation_bps: int
+
+
+class IpoEligibilityView(BaseModel):
+    eligible: bool
+    reasons: list[str]
+    metrics: dict[str, int]
+
+
+class CreateIpoRequest(BaseModel):
+    symbol: str = Field(min_length=2, max_length=8, pattern=r"^[A-Za-z0-9]+$")
+    total_shares: int = Field(ge=2, le=100_000_000_000)
+    offered_shares: int = Field(ge=1, le=100_000_000_000)
+
+
+class ExchangeListingView(ORMModel):
+    id: str
+    world_id: str
+    company_id: str
+    company_name: str
+    company_industry: str
+    symbol: str
+    status: str
+    total_shares: int
+    offered_shares: int
+    initial_price_cents: int
+    last_price_cents: int
+    enterprise_value_cents: int
+    profit_cents: int
+    debt_cents: int
+    ipo_fee_cents: int
+    listed_at: datetime
+    updated_at: datetime
+
+
+class ExchangeOrderRequest(BaseModel):
+    listing_id: str
+    side: Literal["buy", "sell"]
+    order_type: Literal["market", "limit"]
+    quantity: int = Field(ge=1, le=100_000_000_000)
+    limit_price_cents: int | None = Field(default=None, ge=1, le=100_000_000_000)
+    expires_at: datetime | None = None
+
+    @field_validator("expires_at")
+    @classmethod
+    def require_exchange_expiry_timezone(
+        cls,
+        value: datetime | None,
+    ) -> datetime | None:
+        if value is not None and value.tzinfo is None:
+            raise ValueError("expires_at must include a timezone")
+        return value
+
+
+class ExchangeOrderView(ORMModel):
+    id: str
+    listing_id: str
+    share_class_id: str
+    side: str
+    order_type: str
+    limit_price_cents: int | None
+    original_quantity: int
+    remaining_quantity: int
+    reserved_cash_cents: int
+    reserved_shares: int
+    status: str
+    expires_at: datetime | None
+    created_at: datetime
+    updated_at: datetime
+
+
+class ExchangeOrderBookView(BaseModel):
+    buys: list[ExchangeOrderView]
+    sells: list[ExchangeOrderView]
+
+
+class ExchangeTradeView(ORMModel):
+    id: str
+    listing_id: str
+    share_class_id: str
+    buy_order_id: str
+    sell_order_id: str
+    buyer_profile_id: str
+    seller_profile_id: str | None
+    seller_company_id: str | None
+    quantity: int
+    price_cents: int
+    gross_cents: int
+    executed_at: datetime
+
+
+class PriceSnapshotView(ORMModel):
+    id: str
+    listing_id: str
+    trade_id: str
+    price_cents: int
+    volume: int
+    captured_at: datetime
+
+
+class PortfolioItemView(ORMModel):
+    holding_id: str
+    listing_id: str
+    company_id: str
+    company_name: str
+    symbol: str
+    share_class: str
+    quantity: int
+    reserved_quantity: int
+    available_quantity: int
+    average_cost_cents: int
+    last_price_cents: int
+    market_value_cents: int
+    voting_rights: int
+
+
+class ShareholderView(ORMModel):
+    holding_id: str
+    profile_id: str
+    codename: str
+    quantity: int
+    ownership_bps: int
+    voting_rights: int
+
+
+class DividendRequest(BaseModel):
+    per_share_cents: int = Field(ge=1, le=1_000_000_000)
+
+
+class DividendDeclarationView(ORMModel):
+    id: str
+    listing_id: str
+    share_class_id: str
+    declared_by_profile_id: str
+    per_share_cents: int
+    total_paid_cents: int
+    eligible_shares: int
+    status: str
+    snapshot_at: datetime
+    paid_at: datetime
+    created_at: datetime
 
 
 class RecruitSpecialistRequest(BaseModel):

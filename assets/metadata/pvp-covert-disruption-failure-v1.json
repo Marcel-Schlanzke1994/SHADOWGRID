@@ -1,0 +1,171 @@
+{
+  "asset_id": "pvp-covert-disruption-failure-v1",
+  "manifest_order": 597,
+  "category": "pvp",
+  "batch": "pvp",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "failure",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/pvp-covert-disruption-failure-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100597,
+  "content_hash": "f85876b254fce9a2c48df8d5cc59f02af90aa24d12cce12dacfaaa88f0dd3c59",
+  "source_file": "assets/source/pvp/pvp-covert-disruption-failure-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/pvp-covert-disruption-failure-v1-320.avif",
+      "bytes": 2512,
+      "sha256": "3d85a5edd42c98322607eb43450e3e2e611af3aa74be5abc563a3ad448f7a31d"
+    },
+    {
+      "path": "assets/production/webp/pvp-covert-disruption-failure-v1-320.webp",
+      "bytes": 1520,
+      "sha256": "e0762599709583bcf2fcba1cb375a3e019d9ddaa35fd186dd4412c1312a8375d"
+    },
+    {
+      "path": "assets/production/avif/pvp-covert-disruption-failure-v1-640.avif",
+      "bytes": 6644,
+      "sha256": "1781bcb464da806464b012910a9cf4b5a2362e091d21710c9254845502308fee"
+    },
+    {
+      "path": "assets/production/webp/pvp-covert-disruption-failure-v1-640.webp",
+      "bytes": 4546,
+      "sha256": "abeb7e2886562ca6214788de075e3630773ac6c8985f0f21c3e8fcdaed169475"
+    },
+    {
+      "path": "assets/production/avif/pvp-covert-disruption-failure-v1-960.avif",
+      "bytes": 13255,
+      "sha256": "a4a013b1ca2dff32ccb0ae67746be5fecf69285717bcabea7ea332a4c7930d22"
+    },
+    {
+      "path": "assets/production/webp/pvp-covert-disruption-failure-v1-960.webp",
+      "bytes": 8890,
+      "sha256": "2b43d86835b562fc8ec7db75dad91a9ada7215886d4e5432b9a9823776dad41a"
+    },
+    {
+      "path": "assets/production/avif/pvp-covert-disruption-failure-v1-1280.avif",
+      "bytes": 19372,
+      "sha256": "68f0334643be890a284de7a92528c8b2c29a1701e4ee71743f51a551e7216e61"
+    },
+    {
+      "path": "assets/production/webp/pvp-covert-disruption-failure-v1-1280.webp",
+      "bytes": 13442,
+      "sha256": "46a204320e7c7404e85bb19d950b93a68b1362619f441ff4d0e133a2cc1737bb"
+    },
+    {
+      "path": "assets/production/avif/pvp-covert-disruption-failure-v1-1920.avif",
+      "bytes": 29811,
+      "sha256": "3f9539c994aefc2126d50465b48668ac295afeebefb5bef2f57a9fa27ee0e872"
+    },
+    {
+      "path": "assets/production/webp/pvp-covert-disruption-failure-v1-1920.webp",
+      "bytes": 21584,
+      "sha256": "2bcd86b00dee48c23ed4353236a5c1f6d11638c356af5a6943abd98c18fb4e40"
+    },
+    {
+      "path": "assets/production/avif/pvp-covert-disruption-failure-v1-2560.avif",
+      "bytes": 38188,
+      "sha256": "89842d0840845fc4f9581cf0f8e474e9cb9107d887fd0f728180ce7c4a5a7bae"
+    },
+    {
+      "path": "assets/production/webp/pvp-covert-disruption-failure-v1-2560.webp",
+      "bytes": 28830,
+      "sha256": "132399046c5acd5d6527da9a3b8500c7f619c70413329d438de3d8b8fe4bd958"
+    },
+    {
+      "path": "assets/production/avif/pvp-covert-disruption-failure-v1-3840.avif",
+      "bytes": 58154,
+      "sha256": "a930fa3a93b029f706822a9996c8becc5d1fd71dd22075eb7323b5b9ac78020e"
+    },
+    {
+      "path": "assets/production/webp/pvp-covert-disruption-failure-v1-3840.webp",
+      "bytes": 47550,
+      "sha256": "f9f7cbbe385dcb36e7fb0d10b538bf4f3df3c7f6c018a01e31158ccfb2220c98"
+    },
+    {
+      "path": "assets/production/png/pvp-covert-disruption-failure-v1-1280.png",
+      "bytes": 174265,
+      "sha256": "6813ad3806f90de69d66a3087f568ce69fa25d5bd7907c2da482bec128a2e8af"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/pvp-covert-disruption-failure-v1.webp",
+      "bytes": 1520,
+      "sha256": "e0762599709583bcf2fcba1cb375a3e019d9ddaa35fd186dd4412c1312a8375d"
+    },
+    {
+      "path": "apps/mobile/assets/library/pvp-covert-disruption-failure-v1.webp",
+      "bytes": 1520,
+      "sha256": "e0762599709583bcf2fcba1cb375a3e019d9ddaa35fd186dd4412c1312a8375d"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:48.982Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 93,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Preparation, success, and failure remain abstract strategic game states without actionable real-world attack or sabotage detail.",
+      "No missing render, unsafe instruction, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 211115
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:27:21.676Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

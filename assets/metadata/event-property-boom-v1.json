@@ -1,0 +1,171 @@
+{
+  "asset_id": "event-property-boom-v1",
+  "manifest_order": 706,
+  "category": "event",
+  "batch": "world-events",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/event-property-boom-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100706,
+  "content_hash": "b82f69e37f4e9a2e8d8fcb2f4c7224cb58f54f76c390d10923300bb71de9b086",
+  "source_file": "assets/source/events/event-property-boom-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/event-property-boom-v1-320.avif",
+      "bytes": 2999,
+      "sha256": "a594c12c6e5a5cd8cde8b2fa669e70a7c3ca7b1f3ad324ac77f683d1a67de764"
+    },
+    {
+      "path": "assets/production/webp/event-property-boom-v1-320.webp",
+      "bytes": 2884,
+      "sha256": "e81bf805727577348129e7a23cd031e0d4f2eae3c0e1763970043d40b7f920b2"
+    },
+    {
+      "path": "assets/production/avif/event-property-boom-v1-640.avif",
+      "bytes": 6603,
+      "sha256": "b98f497f23307475d8c533c1042948764110785b7ae03f25a416369a44865142"
+    },
+    {
+      "path": "assets/production/webp/event-property-boom-v1-640.webp",
+      "bytes": 5800,
+      "sha256": "0db81f4b7889ec6fe660d3e9f6b4d7769d15aa982f74c2f7a9670196491c0aa0"
+    },
+    {
+      "path": "assets/production/avif/event-property-boom-v1-960.avif",
+      "bytes": 11280,
+      "sha256": "815f31426ce657c3626bff5d09eca93dc6dc897d85d449285e2fe5a88e04c5af"
+    },
+    {
+      "path": "assets/production/webp/event-property-boom-v1-960.webp",
+      "bytes": 9410,
+      "sha256": "95b523e363551d43158cc22d3d2b34ee73d7a544cf82d723a9c03d87d7134912"
+    },
+    {
+      "path": "assets/production/avif/event-property-boom-v1-1280.avif",
+      "bytes": 16532,
+      "sha256": "b004d20ccf8c5a726d0ad2083884d4e68f999cbee94b22039f3c5c9b7885811a"
+    },
+    {
+      "path": "assets/production/webp/event-property-boom-v1-1280.webp",
+      "bytes": 12818,
+      "sha256": "a51cd80867e09bd89a5c3b54a62a3496b2e31e9f10da5d232fc157dc0f9ae0f2"
+    },
+    {
+      "path": "assets/production/avif/event-property-boom-v1-1920.avif",
+      "bytes": 24944,
+      "sha256": "8591c3c2bf3d07905d59979e90456d39e0f1491be6d8fcb795e172dcb41fef7e"
+    },
+    {
+      "path": "assets/production/webp/event-property-boom-v1-1920.webp",
+      "bytes": 20248,
+      "sha256": "106dc41d62859220e99e0c965ffba9a5f2bbe164a22c19a427b1340624009f69"
+    },
+    {
+      "path": "assets/production/avif/event-property-boom-v1-2560.avif",
+      "bytes": 33549,
+      "sha256": "2d810a683d9d938eda1b0f56992c1e5400d824509d9e598368da6f85a3d4347a"
+    },
+    {
+      "path": "assets/production/webp/event-property-boom-v1-2560.webp",
+      "bytes": 28272,
+      "sha256": "a5add5dd330d4ebfdd5a1d8a8cfac7c15e361a7864fb6c32c12f7799d891bac1"
+    },
+    {
+      "path": "assets/production/avif/event-property-boom-v1-3840.avif",
+      "bytes": 53315,
+      "sha256": "f28401810a06de8e27bd2835ec1fba5c568e06aa1b31a12fe832a35a532522ad"
+    },
+    {
+      "path": "assets/production/webp/event-property-boom-v1-3840.webp",
+      "bytes": 47708,
+      "sha256": "338ae6ff347388faaef08a22db16977593bfdb3c4fecad1a771851f731ed6282"
+    },
+    {
+      "path": "assets/production/png/event-property-boom-v1-1280.png",
+      "bytes": 700565,
+      "sha256": "7d49deab739d8124b3e413bde5c3b2d776ec3a7b49fa9eba59a957be6a4d7a29"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/event-property-boom-v1.webp",
+      "bytes": 2884,
+      "sha256": "e81bf805727577348129e7a23cd031e0d4f2eae3c0e1763970043d40b7f920b2"
+    },
+    {
+      "path": "apps/mobile/assets/library/event-property-boom-v1.webp",
+      "bytes": 2884,
+      "sha256": "e81bf805727577348129e7a23cd031e0d4f2eae3c0e1763970043d40b7f920b2"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:10.744Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 88,
+      "light_quality": 91,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Repeated motifs form a coherent event family while color, direction, and state treatment keep event classes distinguishable.",
+      "No missing render, unsafe real-world guidance, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1590255
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:32:47.997Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

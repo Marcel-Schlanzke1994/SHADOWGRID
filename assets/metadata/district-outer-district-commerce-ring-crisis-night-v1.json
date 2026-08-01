@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-outer-district-commerce-ring-crisis-night-v1",
+  "manifest_order": 460,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "crisis-night",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-outer-district-commerce-ring-crisis-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100460,
+  "content_hash": "5ac4f8abc3899eb5525d4965e2d3942fcdcffe3cc5d4d3c3395feb89fc148548",
+  "source_file": "assets/source/districts/district-outer-district-commerce-ring-crisis-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-crisis-night-v1-320.avif",
+      "bytes": 3300,
+      "sha256": "8305b6cee4c1a6a6bfb874d9ff6b65f7e549bc5d18c09496b522e1d407fcba62"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-crisis-night-v1-320.webp",
+      "bytes": 2956,
+      "sha256": "0d53207bd54f64ff5f39fc318193bb1302dd12e740cc941a015be9b389ff53cc"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-crisis-night-v1-640.avif",
+      "bytes": 7026,
+      "sha256": "dc43d599099526f51de562d3a97f014cd4dd9f206d8b4a9a06932a9a090b967b"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-crisis-night-v1-640.webp",
+      "bytes": 6266,
+      "sha256": "a11215e7b69597339b76dc48be2b631b8ad10b6f3f9391d43bc11320094bd59c"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-crisis-night-v1-960.avif",
+      "bytes": 11547,
+      "sha256": "c8fc79d9e2baa25391457337baa3165ca350f00555776978963595247a236b30"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-crisis-night-v1-960.webp",
+      "bytes": 10852,
+      "sha256": "971cec3f55fd968e8fced75e1dbed44e7bbb3896c8e0c9ccbc5a05238b1792f7"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-crisis-night-v1-1280.avif",
+      "bytes": 15614,
+      "sha256": "7b9729637d3abfd9ac37274720d98103c06c59193d5fc7985d47291efcfa2824"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-crisis-night-v1-1280.webp",
+      "bytes": 14256,
+      "sha256": "5d228a1996aa085bb7cf8de2607cca42b978d870b6cff4ae81d85155edda401d"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-crisis-night-v1-1920.avif",
+      "bytes": 24493,
+      "sha256": "834926f753c9325db2cddcf585ef0327da5c23f1924a4b1052dc3985b63493fe"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-crisis-night-v1-1920.webp",
+      "bytes": 22450,
+      "sha256": "148ddb49d12d8c4e25f0b575653e283eba2153c842b4d715ae7fc6de642cea4b"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-crisis-night-v1-2560.avif",
+      "bytes": 32053,
+      "sha256": "f2d8ff3a42e2418ef161ae3eaec6e89021446e0d30b33ebe87ce9dc9a2d07c09"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-crisis-night-v1-2560.webp",
+      "bytes": 30436,
+      "sha256": "01b92e1b7d4d0b010e2397b4e2c7aa9a064ac38b14dc35521f001dbb77035ea7"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-crisis-night-v1-3840.avif",
+      "bytes": 52246,
+      "sha256": "70b561223b6daa17adb54df230960bc4d4cb1909a9779e86fd1b245c15cc6416"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-crisis-night-v1-3840.webp",
+      "bytes": 48306,
+      "sha256": "4daee0ad3fe77d085a29aec49884e69b2f111c190bdf9183905998e5363103cd"
+    },
+    {
+      "path": "assets/production/png/district-outer-district-commerce-ring-crisis-night-v1-1280.png",
+      "bytes": 648782,
+      "sha256": "742b3422ce0e2168389d37b3629c16ab183e56cd0a098ae5157828864c178bb3"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-outer-district-commerce-ring-crisis-night-v1.webp",
+      "bytes": 2956,
+      "sha256": "0d53207bd54f64ff5f39fc318193bb1302dd12e740cc941a015be9b389ff53cc"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-outer-district-commerce-ring-crisis-night-v1.webp",
+      "bytes": 2956,
+      "sha256": "0d53207bd54f64ff5f39fc318193bb1302dd12e740cc941a015be9b389ff53cc"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.488Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1475303
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:51:20.696Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

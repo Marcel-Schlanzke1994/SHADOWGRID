@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-chemnitz-ultrawide-day-v1",
+  "manifest_order": 299,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "chemnitz",
+  "variant": "ultrawide-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-chemnitz-ultrawide-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100299,
+  "content_hash": "236272a101b6ca6f32bccbd41d968ed32f8de3c26a649721f9e7146bfaaf806d",
+  "source_file": "assets/source/cities/city-chemnitz-ultrawide-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-chemnitz-ultrawide-day-v1-320.avif",
+      "bytes": 2650,
+      "sha256": "6997b43cefce4a7301994ce17a82cf493be922e1823f760236fb6008f1a18d3e"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-ultrawide-day-v1-320.webp",
+      "bytes": 2570,
+      "sha256": "99bab2a9b9bb5b25b693a55b79c541713c6531d7876186cebf7a7745e98e96e6"
+    },
+    {
+      "path": "assets/production/avif/city-chemnitz-ultrawide-day-v1-640.avif",
+      "bytes": 5619,
+      "sha256": "2e83a84d0509e327991f020cb1c7185649dc333b1efc838fe25fbaebfda79913"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-ultrawide-day-v1-640.webp",
+      "bytes": 5134,
+      "sha256": "4dd2100df0071e066097c55e4bcc2aac90fc3f88e0603b616ea51a2e6ef60501"
+    },
+    {
+      "path": "assets/production/avif/city-chemnitz-ultrawide-day-v1-960.avif",
+      "bytes": 9842,
+      "sha256": "c72134594141e4e732d6aba57f0ea0b5a44aa4e90fade5c5929b89c906e7f502"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-ultrawide-day-v1-960.webp",
+      "bytes": 8292,
+      "sha256": "b51594e254504fdbcd9b7f7dc0927cf77a49678a839d76de4eb9734978f3f148"
+    },
+    {
+      "path": "assets/production/avif/city-chemnitz-ultrawide-day-v1-1280.avif",
+      "bytes": 13110,
+      "sha256": "ca0f7b9409776b21d6c6ecbc8e02201811d88bfa934508d50c3a902d2eff0c23"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-ultrawide-day-v1-1280.webp",
+      "bytes": 10988,
+      "sha256": "f4104ec20a9f6e2cd9d271f1d3667d38e8ac8acb8af003eabe7875c75b7fbbbf"
+    },
+    {
+      "path": "assets/production/avif/city-chemnitz-ultrawide-day-v1-1920.avif",
+      "bytes": 19938,
+      "sha256": "95d393c8361d540cd6fdfbfa140aac68274ecce2740e7b3590c9431c18b729a8"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-ultrawide-day-v1-1920.webp",
+      "bytes": 16814,
+      "sha256": "3d6f42da63745da50d9799c6f5ce43025415763e067d1cb8ca5e266062c54397"
+    },
+    {
+      "path": "assets/production/avif/city-chemnitz-ultrawide-day-v1-2560.avif",
+      "bytes": 26567,
+      "sha256": "779324cc7564d384d7f6d33f893b292830e5a3b4abd81c875106329a0da9af6d"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-ultrawide-day-v1-2560.webp",
+      "bytes": 22348,
+      "sha256": "cdade96808c52f24144ec5f7243c97a0161f1d396ab8d1f1bec5d710e853afa2"
+    },
+    {
+      "path": "assets/production/avif/city-chemnitz-ultrawide-day-v1-3840.avif",
+      "bytes": 42119,
+      "sha256": "402b71c7f392ee3a6f6d9faaa096d447e048a405620177ba6e88bfe929447c57"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-ultrawide-day-v1-3840.webp",
+      "bytes": 37594,
+      "sha256": "ae085404598c1f7d0354253a81a5b0dbf449d5ef3f39e39a963fb9a9edfa29d0"
+    },
+    {
+      "path": "assets/production/png/city-chemnitz-ultrawide-day-v1-1280.png",
+      "bytes": 424089,
+      "sha256": "f20d12df22ccd513a13b12dc35ad028f77d7cb3d80ffc790d56f8597cb229f70"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-ultrawide-day-v1-320.avif",
+      "bytes": 2650,
+      "sha256": "6997b43cefce4a7301994ce17a82cf493be922e1823f760236fb6008f1a18d3e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-ultrawide-day-v1-320.webp",
+      "bytes": 2570,
+      "sha256": "99bab2a9b9bb5b25b693a55b79c541713c6531d7876186cebf7a7745e98e96e6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-ultrawide-day-v1-640.avif",
+      "bytes": 5619,
+      "sha256": "2e83a84d0509e327991f020cb1c7185649dc333b1efc838fe25fbaebfda79913"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-ultrawide-day-v1-640.webp",
+      "bytes": 5134,
+      "sha256": "4dd2100df0071e066097c55e4bcc2aac90fc3f88e0603b616ea51a2e6ef60501"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-ultrawide-day-v1-960.avif",
+      "bytes": 9842,
+      "sha256": "c72134594141e4e732d6aba57f0ea0b5a44aa4e90fade5c5929b89c906e7f502"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-ultrawide-day-v1-960.webp",
+      "bytes": 8292,
+      "sha256": "b51594e254504fdbcd9b7f7dc0927cf77a49678a839d76de4eb9734978f3f148"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-ultrawide-day-v1-1280.avif",
+      "bytes": 13110,
+      "sha256": "ca0f7b9409776b21d6c6ecbc8e02201811d88bfa934508d50c3a902d2eff0c23"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-ultrawide-day-v1-1280.webp",
+      "bytes": 10988,
+      "sha256": "f4104ec20a9f6e2cd9d271f1d3667d38e8ac8acb8af003eabe7875c75b7fbbbf"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-ultrawide-day-v1-1920.avif",
+      "bytes": 19938,
+      "sha256": "95d393c8361d540cd6fdfbfa140aac68274ecce2740e7b3590c9431c18b729a8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-ultrawide-day-v1-1920.webp",
+      "bytes": 16814,
+      "sha256": "3d6f42da63745da50d9799c6f5ce43025415763e067d1cb8ca5e266062c54397"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-ultrawide-day-v1-2560.avif",
+      "bytes": 26567,
+      "sha256": "779324cc7564d384d7f6d33f893b292830e5a3b4abd81c875106329a0da9af6d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-ultrawide-day-v1-2560.webp",
+      "bytes": 22348,
+      "sha256": "cdade96808c52f24144ec5f7243c97a0161f1d396ab8d1f1bec5d710e853afa2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-ultrawide-day-v1-3840.avif",
+      "bytes": 42119,
+      "sha256": "402b71c7f392ee3a6f6d9faaa096d447e048a405620177ba6e88bfe929447c57"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-ultrawide-day-v1-3840.webp",
+      "bytes": 37594,
+      "sha256": "ae085404598c1f7d0354253a81a5b0dbf449d5ef3f39e39a963fb9a9edfa29d0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-ultrawide-day-v1-1280.png",
+      "bytes": 424089,
+      "sha256": "f20d12df22ccd513a13b12dc35ad028f77d7cb3d80ffc790d56f8597cb229f70"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-chemnitz-ultrawide-day-v1.webp",
+      "bytes": 2570,
+      "sha256": "99bab2a9b9bb5b25b693a55b79c541713c6531d7876186cebf7a7745e98e96e6"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-chemnitz-ultrawide-day-v1.webp",
+      "bytes": 2570,
+      "sha256": "99bab2a9b9bb5b25b693a55b79c541713c6531d7876186cebf7a7745e98e96e6"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:42.458Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 2095923
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:15:01.492Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

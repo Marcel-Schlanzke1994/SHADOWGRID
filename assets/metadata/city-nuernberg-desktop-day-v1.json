@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-nuernberg-desktop-day-v1",
+  "manifest_order": 173,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "nuernberg",
+  "variant": "desktop-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-nuernberg-desktop-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100173,
+  "content_hash": "05e5b5c766f899d1dfee386a8a91257df22b8a7c14be9676b475760266c97cec",
+  "source_file": "assets/source/cities/city-nuernberg-desktop-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-nuernberg-desktop-day-v1-320.avif",
+      "bytes": 2994,
+      "sha256": "cc9b71d08bf053f846b8280d249c8332baac16ebc1e2097e78473d02e4e43517"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-desktop-day-v1-320.webp",
+      "bytes": 2864,
+      "sha256": "2f3bb0b9d3994ca7b81c09373ecdc4196c3a0e78ee38710af646283c6f7cd757"
+    },
+    {
+      "path": "assets/production/avif/city-nuernberg-desktop-day-v1-640.avif",
+      "bytes": 6516,
+      "sha256": "6e7c1d8351278582831433862cd72f630c7332cd13d0bf94a99ac56b594db766"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-desktop-day-v1-640.webp",
+      "bytes": 5636,
+      "sha256": "bd0110c23d416bf942a3ce42aaac377badec56db6339e9c22ece1f9b89ea5bb2"
+    },
+    {
+      "path": "assets/production/avif/city-nuernberg-desktop-day-v1-960.avif",
+      "bytes": 10945,
+      "sha256": "284a6dbafa3b5bce971db31934f6594ecce47d7b5e292a604285f129c09bf1f3"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-desktop-day-v1-960.webp",
+      "bytes": 8948,
+      "sha256": "19771be903489fd78af838cbc17249581487243eeac893337cb1b4a7e1086b5c"
+    },
+    {
+      "path": "assets/production/avif/city-nuernberg-desktop-day-v1-1280.avif",
+      "bytes": 15588,
+      "sha256": "4ee4d388eb04a8e3a3eebde810c8fdecc894c39b2682c79808c05c79320d49b6"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-desktop-day-v1-1280.webp",
+      "bytes": 11842,
+      "sha256": "ed679967a0e76d5bd5871dc5be5b642c22b076873c84569d993296dd23fcbd59"
+    },
+    {
+      "path": "assets/production/avif/city-nuernberg-desktop-day-v1-1920.avif",
+      "bytes": 22866,
+      "sha256": "8347fcaa0aa2400150d7b40928d89bb40f702728ddd787ec2401e677be403b42"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-desktop-day-v1-1920.webp",
+      "bytes": 18188,
+      "sha256": "33c8dd88e5705641c287b121dfa354495d550122f324989aabb8364c5c54c7bc"
+    },
+    {
+      "path": "assets/production/avif/city-nuernberg-desktop-day-v1-2560.avif",
+      "bytes": 31365,
+      "sha256": "972d7b3a9b1e8e3938552131a3c14f0d4ef6f3ed06713eec0b60235c3d896eb5"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-desktop-day-v1-2560.webp",
+      "bytes": 25652,
+      "sha256": "072b948d42ae73dff4e5469f88b56e7277e76d7278aa6cc2284ffc90e41309c3"
+    },
+    {
+      "path": "assets/production/avif/city-nuernberg-desktop-day-v1-3840.avif",
+      "bytes": 48656,
+      "sha256": "c8b17527315c67dbcba4b938236ababae98e9c283400f25b9ebd73b4646bef8f"
+    },
+    {
+      "path": "assets/production/webp/city-nuernberg-desktop-day-v1-3840.webp",
+      "bytes": 44700,
+      "sha256": "589346cedd2972353827e192148f4fbfccfc26a8a5d7c9958abe3918136ca4a7"
+    },
+    {
+      "path": "assets/production/png/city-nuernberg-desktop-day-v1-1280.png",
+      "bytes": 721344,
+      "sha256": "ced890e2a2298420fb9729f2a8d65430106ef383cf7571729ec24822e2e6e3cf"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-desktop-day-v1-320.avif",
+      "bytes": 2994,
+      "sha256": "cc9b71d08bf053f846b8280d249c8332baac16ebc1e2097e78473d02e4e43517"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-desktop-day-v1-320.webp",
+      "bytes": 2864,
+      "sha256": "2f3bb0b9d3994ca7b81c09373ecdc4196c3a0e78ee38710af646283c6f7cd757"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-desktop-day-v1-640.avif",
+      "bytes": 6516,
+      "sha256": "6e7c1d8351278582831433862cd72f630c7332cd13d0bf94a99ac56b594db766"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-desktop-day-v1-640.webp",
+      "bytes": 5636,
+      "sha256": "bd0110c23d416bf942a3ce42aaac377badec56db6339e9c22ece1f9b89ea5bb2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-desktop-day-v1-960.avif",
+      "bytes": 10945,
+      "sha256": "284a6dbafa3b5bce971db31934f6594ecce47d7b5e292a604285f129c09bf1f3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-desktop-day-v1-960.webp",
+      "bytes": 8948,
+      "sha256": "19771be903489fd78af838cbc17249581487243eeac893337cb1b4a7e1086b5c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-desktop-day-v1-1280.avif",
+      "bytes": 15588,
+      "sha256": "4ee4d388eb04a8e3a3eebde810c8fdecc894c39b2682c79808c05c79320d49b6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-desktop-day-v1-1280.webp",
+      "bytes": 11842,
+      "sha256": "ed679967a0e76d5bd5871dc5be5b642c22b076873c84569d993296dd23fcbd59"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-desktop-day-v1-1920.avif",
+      "bytes": 22866,
+      "sha256": "8347fcaa0aa2400150d7b40928d89bb40f702728ddd787ec2401e677be403b42"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-desktop-day-v1-1920.webp",
+      "bytes": 18188,
+      "sha256": "33c8dd88e5705641c287b121dfa354495d550122f324989aabb8364c5c54c7bc"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-desktop-day-v1-2560.avif",
+      "bytes": 31365,
+      "sha256": "972d7b3a9b1e8e3938552131a3c14f0d4ef6f3ed06713eec0b60235c3d896eb5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-desktop-day-v1-2560.webp",
+      "bytes": 25652,
+      "sha256": "072b948d42ae73dff4e5469f88b56e7277e76d7278aa6cc2284ffc90e41309c3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-desktop-day-v1-3840.avif",
+      "bytes": 48656,
+      "sha256": "c8b17527315c67dbcba4b938236ababae98e9c283400f25b9ebd73b4646bef8f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-desktop-day-v1-3840.webp",
+      "bytes": 44700,
+      "sha256": "589346cedd2972353827e192148f4fbfccfc26a8a5d7c9958abe3918136ca4a7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-nuernberg-desktop-day-v1-1280.png",
+      "bytes": 721344,
+      "sha256": "ced890e2a2298420fb9729f2a8d65430106ef383cf7571729ec24822e2e6e3cf"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-nuernberg-desktop-day-v1.webp",
+      "bytes": 2864,
+      "sha256": "2f3bb0b9d3994ca7b81c09373ecdc4196c3a0e78ee38710af646283c6f7cd757"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-nuernberg-desktop-day-v1.webp",
+      "bytes": 2864,
+      "sha256": "2f3bb0b9d3994ca7b81c09373ecdc4196c3a0e78ee38710af646283c6f7cd757"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.761Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1640172
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:20:07.414Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

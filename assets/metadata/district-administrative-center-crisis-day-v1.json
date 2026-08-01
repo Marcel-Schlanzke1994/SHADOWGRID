@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-administrative-center-crisis-day-v1",
+  "manifest_order": 411,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "crisis-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-administrative-center-crisis-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100411,
+  "content_hash": "8b3d2174b8c8c70a9fcdc226c5ebebdf3d4cb570c2f49cd411ef2ecd682f6ca7",
+  "source_file": "assets/source/districts/district-administrative-center-crisis-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-administrative-center-crisis-day-v1-320.avif",
+      "bytes": 2990,
+      "sha256": "295f3362ca2a49263a057ec83b53cc945adb52388f1bd3fb823a24c03ef3c753"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-crisis-day-v1-320.webp",
+      "bytes": 2476,
+      "sha256": "7b1296f0818b6261f1c26ce317c730b2193b6b6631c3bdced0bffbcc22cc9fd5"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-crisis-day-v1-640.avif",
+      "bytes": 6425,
+      "sha256": "278cfdee962cd5bc23e84b7de30e4085e5e75d20ff0a37e3bab833e369f3b600"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-crisis-day-v1-640.webp",
+      "bytes": 5146,
+      "sha256": "d7eb55cc1ebf93f22669bdd178f679c62f7f787029165602bb1e1731a9d46b73"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-crisis-day-v1-960.avif",
+      "bytes": 10199,
+      "sha256": "a88c8869abeb981b61928512de63a49a14cae972dcfc291aa88510735f773af7"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-crisis-day-v1-960.webp",
+      "bytes": 8234,
+      "sha256": "28760022c3feae7469255a0ad621432c654edaa6d70b3f91818116842333a22c"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-crisis-day-v1-1280.avif",
+      "bytes": 14108,
+      "sha256": "89a4a0a43795472285fc277597e3155cda9f36184d42994b63b0ab471b97e58a"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-crisis-day-v1-1280.webp",
+      "bytes": 10994,
+      "sha256": "bd4ce4d73815d6a3858bf7401c8004754ab12ef1238016d0417594e32ae27064"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-crisis-day-v1-1920.avif",
+      "bytes": 21510,
+      "sha256": "7e969de23801a49a281f3095208662d493e450e5abcafe452c65be40cc796f72"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-crisis-day-v1-1920.webp",
+      "bytes": 17520,
+      "sha256": "3629f8cd7aa9a4214a5b753f4c48af95c90b5bb51c0e83c67f54ad947b280753"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-crisis-day-v1-2560.avif",
+      "bytes": 28754,
+      "sha256": "d5699f97f13797b4cfd1c7149cb85ee0c2d59534a630c95fc64dfbb2628c402e"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-crisis-day-v1-2560.webp",
+      "bytes": 24380,
+      "sha256": "9f7abf550fb6bd44d0f23e347ab10eded62921f75eaa69fb4e2da24d88852a6c"
+    },
+    {
+      "path": "assets/production/avif/district-administrative-center-crisis-day-v1-3840.avif",
+      "bytes": 46824,
+      "sha256": "57ce39eefe6c9f38e300c5cf3fc43af48d8b7d40b34c59bd8cae6b274863668d"
+    },
+    {
+      "path": "assets/production/webp/district-administrative-center-crisis-day-v1-3840.webp",
+      "bytes": 42698,
+      "sha256": "7ed66f5d629a8761b8e7f8a59adc85199d9789fb96ce3421f4a92d8eed7dcda6"
+    },
+    {
+      "path": "assets/production/png/district-administrative-center-crisis-day-v1-1280.png",
+      "bytes": 626425,
+      "sha256": "201488aa2d59f1d6cd2fc2734bd0805f36c8e950c05681ccb3d005433e625374"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-administrative-center-crisis-day-v1.webp",
+      "bytes": 2476,
+      "sha256": "7b1296f0818b6261f1c26ce317c730b2193b6b6631c3bdced0bffbcc22cc9fd5"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-administrative-center-crisis-day-v1.webp",
+      "bytes": 2476,
+      "sha256": "7b1296f0818b6261f1c26ce317c730b2193b6b6631c3bdced0bffbcc22cc9fd5"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.919Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1436072
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:35:01.140Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

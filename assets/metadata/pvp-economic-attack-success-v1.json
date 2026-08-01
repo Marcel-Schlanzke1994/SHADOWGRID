@@ -1,0 +1,171 @@
+{
+  "asset_id": "pvp-economic-attack-success-v1",
+  "manifest_order": 584,
+  "category": "pvp",
+  "batch": "pvp",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "success",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/pvp-economic-attack-success-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100584,
+  "content_hash": "309cc832d71978441e7b029c498ebe2cd3d5026473cd24a99419ed8d91111a48",
+  "source_file": "assets/source/pvp/pvp-economic-attack-success-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/pvp-economic-attack-success-v1-320.avif",
+      "bytes": 2663,
+      "sha256": "cda63de468ef8eeb786ee9f9551461d96f4dfea15a221e25a0ba507ffd931ea7"
+    },
+    {
+      "path": "assets/production/webp/pvp-economic-attack-success-v1-320.webp",
+      "bytes": 1644,
+      "sha256": "29b4200d4b60db14ebfaf89961ef3754aa1a938f7051aa84296a9ba8a06c22b1"
+    },
+    {
+      "path": "assets/production/avif/pvp-economic-attack-success-v1-640.avif",
+      "bytes": 6656,
+      "sha256": "72a595fbfd364815a3d9a7d24a72eff579330d62936dcf7a8387a836bedbaa39"
+    },
+    {
+      "path": "assets/production/webp/pvp-economic-attack-success-v1-640.webp",
+      "bytes": 4456,
+      "sha256": "df4e9dca18dbbdfd1bad90b7a6ab701991cdc0099ac6ba20eeea5db2481cf315"
+    },
+    {
+      "path": "assets/production/avif/pvp-economic-attack-success-v1-960.avif",
+      "bytes": 12883,
+      "sha256": "ac49340971d66901bc2d68da4687b78a0805dd54c6f11782ecab3ac9feb61f13"
+    },
+    {
+      "path": "assets/production/webp/pvp-economic-attack-success-v1-960.webp",
+      "bytes": 8444,
+      "sha256": "98ed68458b50b72400284b1c540aa4f8aa0f90997ae742b7c8408ec5b06450e3"
+    },
+    {
+      "path": "assets/production/avif/pvp-economic-attack-success-v1-1280.avif",
+      "bytes": 18728,
+      "sha256": "0289e69a31cbcfd40cdbd0ddea30b9c54c614ff3569d678202b1ed42e3ef2ee7"
+    },
+    {
+      "path": "assets/production/webp/pvp-economic-attack-success-v1-1280.webp",
+      "bytes": 12042,
+      "sha256": "0512e822ce478936c30c3ed8c7791bf61f90643f3b0a29ed2cc00316ca7ae899"
+    },
+    {
+      "path": "assets/production/avif/pvp-economic-attack-success-v1-1920.avif",
+      "bytes": 29453,
+      "sha256": "1da8ea2eb0932d9605f8d520080eee26e8aade0b4de3dfa344380d5c6c6540d8"
+    },
+    {
+      "path": "assets/production/webp/pvp-economic-attack-success-v1-1920.webp",
+      "bytes": 20226,
+      "sha256": "b3f9ec0e4e12d85557a1c2e28c4a5f2506c7fe00ed6b69394c3206a8f93d3387"
+    },
+    {
+      "path": "assets/production/avif/pvp-economic-attack-success-v1-2560.avif",
+      "bytes": 38388,
+      "sha256": "1a1a03f2c0a9f64171b38d21cb685ebe6e8b13f7298ca49f557a51b691da6480"
+    },
+    {
+      "path": "assets/production/webp/pvp-economic-attack-success-v1-2560.webp",
+      "bytes": 27536,
+      "sha256": "e099fd0d6a5f599b600d6b791363c445011867e430f6e475133b3ea7f4780bf8"
+    },
+    {
+      "path": "assets/production/avif/pvp-economic-attack-success-v1-3840.avif",
+      "bytes": 58775,
+      "sha256": "1ed1ddf6e333c3e360c99646385aa65a6d93e42cbeee855f7e95e4a74500c371"
+    },
+    {
+      "path": "assets/production/webp/pvp-economic-attack-success-v1-3840.webp",
+      "bytes": 45234,
+      "sha256": "cef8fc9afb2a40bd09b891bd987d746a43473f8d782621f5e1522075cf74037c"
+    },
+    {
+      "path": "assets/production/png/pvp-economic-attack-success-v1-1280.png",
+      "bytes": 176573,
+      "sha256": "7155363f547401d05460a5db29ff1bf870bd736b549b4cd9296485cf32321925"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/pvp-economic-attack-success-v1.webp",
+      "bytes": 1644,
+      "sha256": "29b4200d4b60db14ebfaf89961ef3754aa1a938f7051aa84296a9ba8a06c22b1"
+    },
+    {
+      "path": "apps/mobile/assets/library/pvp-economic-attack-success-v1.webp",
+      "bytes": 1644,
+      "sha256": "29b4200d4b60db14ebfaf89961ef3754aa1a938f7051aa84296a9ba8a06c22b1"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:48.847Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 93,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Preparation, success, and failure remain abstract strategic game states without actionable real-world attack or sabotage detail.",
+      "No missing render, unsafe instruction, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 224257
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:25:39.668Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

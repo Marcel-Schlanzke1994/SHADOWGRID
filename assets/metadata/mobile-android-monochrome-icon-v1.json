@@ -1,0 +1,171 @@
+{
+  "asset_id": "mobile-android-monochrome-icon-v1",
+  "manifest_order": 859,
+  "category": "mobile",
+  "batch": "mobile",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/mobile-android-monochrome-icon-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100859,
+  "content_hash": "ded6cb4e2b6d3be65c617984378601148eae9d4328da611d0ee04fdfdd2ee8d9",
+  "source_file": "assets/source/marketing/mobile-android-monochrome-icon-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/mobile-android-monochrome-icon-v1-320.avif",
+      "bytes": 4935,
+      "sha256": "dd7eb034703d7210a425875d1780719c02ba260fa634fa7976b07b5a258083b5"
+    },
+    {
+      "path": "assets/production/webp/mobile-android-monochrome-icon-v1-320.webp",
+      "bytes": 5116,
+      "sha256": "d733fb2db239626bb92011b5244bc38e3eaedcfab5aa5a6c79f20500340a56cb"
+    },
+    {
+      "path": "assets/production/avif/mobile-android-monochrome-icon-v1-640.avif",
+      "bytes": 10684,
+      "sha256": "50f8d6c24ef3311a458b6fe894dede51246bc9fa8dddc7e9172673db6d275d58"
+    },
+    {
+      "path": "assets/production/webp/mobile-android-monochrome-icon-v1-640.webp",
+      "bytes": 10218,
+      "sha256": "dccc2512c8f2266a09e546ecf1c0e1bf91937d65f1bbd3ccdfd2a566e698d2d0"
+    },
+    {
+      "path": "assets/production/avif/mobile-android-monochrome-icon-v1-960.avif",
+      "bytes": 19177,
+      "sha256": "09b6225c54097aeb5cf24aaa5cd461eaeb35d080f8c4d606bb91398d8b2f1cc7"
+    },
+    {
+      "path": "assets/production/webp/mobile-android-monochrome-icon-v1-960.webp",
+      "bytes": 15506,
+      "sha256": "a1ef9afa68b55d7871a2df4a19da2eef6c4172a96150ff1460ac7bc5bf9f8fd1"
+    },
+    {
+      "path": "assets/production/avif/mobile-android-monochrome-icon-v1-1280.avif",
+      "bytes": 23082,
+      "sha256": "b47a8dad5e8989fa0fb63bcd11793975aabe75d44426751b4e374acf7244859a"
+    },
+    {
+      "path": "assets/production/webp/mobile-android-monochrome-icon-v1-1280.webp",
+      "bytes": 20060,
+      "sha256": "8455e3a8ac9b7297b1a2ca228fe1ce2803362df1d7c8d965d151e9f6b93317e3"
+    },
+    {
+      "path": "assets/production/avif/mobile-android-monochrome-icon-v1-1920.avif",
+      "bytes": 25039,
+      "sha256": "8e3aa9f2c4318d4542d135bcd84fbad4218be68563ae4c2c2be0d37ccb3a6a18"
+    },
+    {
+      "path": "assets/production/webp/mobile-android-monochrome-icon-v1-1920.webp",
+      "bytes": 26544,
+      "sha256": "7147200ed01eeced33701e164d0c83c2b1a4cf0c87a6d47a5f163b4367f10f51"
+    },
+    {
+      "path": "assets/production/avif/mobile-android-monochrome-icon-v1-2560.avif",
+      "bytes": 34443,
+      "sha256": "a4086d821ca342769ad88ead7dc2a45ae5996c9b48271a9b00405acc9e763f4b"
+    },
+    {
+      "path": "assets/production/webp/mobile-android-monochrome-icon-v1-2560.webp",
+      "bytes": 43074,
+      "sha256": "6d7fbbae928e446dfae9e544e06fe238eb07dd248eb0ae7c18d37925e3786621"
+    },
+    {
+      "path": "assets/production/avif/mobile-android-monochrome-icon-v1-3840.avif",
+      "bytes": 53535,
+      "sha256": "317930e3826e29c93873a203a7e0d58aedffd19ba2f85dce9812f6533fd2bb11"
+    },
+    {
+      "path": "assets/production/webp/mobile-android-monochrome-icon-v1-3840.webp",
+      "bytes": 87030,
+      "sha256": "c9317d362f6b90d9f7a5daccb1c6a94cef6643ba1f106667e87033c9b07fbff8"
+    },
+    {
+      "path": "assets/production/png/mobile-android-monochrome-icon-v1-1280.png",
+      "bytes": 46030,
+      "sha256": "15681cce5a96ff62e16465aa0d3f7d8bb69793243063333b955634d6f5a91828"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/mobile-android-monochrome-icon-v1.webp",
+      "bytes": 5116,
+      "sha256": "d733fb2db239626bb92011b5244bc38e3eaedcfab5aa5a6c79f20500340a56cb"
+    },
+    {
+      "path": "apps/mobile/assets/library/mobile-android-monochrome-icon-v1.webp",
+      "bytes": 5116,
+      "sha256": "d733fb2db239626bb92011b5244bc38e3eaedcfab5aa5a6c79f20500340a56cb"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 94.4,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:37.208Z",
+    "scores": {
+      "realism": 90,
+      "style_consistency": 97,
+      "composition": 95,
+      "material_quality": 91,
+      "light_quality": 93,
+      "architecture_plausibility": 91,
+      "ui_suitability": 97,
+      "mobile_suitability": 98,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 96,
+      "contrast": 96,
+      "geometry_quality": 96,
+      "technical_quality": 98
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution, including transparent adaptive and monochrome assets.",
+      "The apparently empty monochrome contact-sheet cell was separately inspected and confirmed as a valid transparent single-color platform glyph.",
+      "Safe areas, contrast, transparency, and small-size behavior are suitable for the intended mobile placements."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": true,
+      "bytes": 19511
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:43:04.541Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

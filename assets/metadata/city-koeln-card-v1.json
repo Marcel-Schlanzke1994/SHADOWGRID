@@ -170,35 +170,49 @@
       "path": "apps/web/public/assets/cities/city-koeln-card-v1-1280.png",
       "bytes": 2817642,
       "sha256": "88b382e5078bec5faa85b7fe9a0d56b3a96294db6999299c1b6525bdb3cbf36b"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-koeln-card-v1.webp",
+      "bytes": 7764,
+      "sha256": "7b7d39530875ddd18fba05b57504689fdeb13c929a97c63967b0a67d26828010"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-koeln-card-v1.webp",
+      "bytes": 7764,
+      "sha256": "7b7d39530875ddd18fba05b57504689fdeb13c929a97c63967b0a67d26828010"
     }
   ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,
   "moderation_status": "approved",
-  "quality_score": 98.4,
+  "quality_score": 92.9,
   "quality_status": "approved",
   "review_status": "codex-visual-approved",
   "visual_review": {
-    "realism": 98,
-    "style_consistency": 100,
-    "composition": 99,
-    "material_quality": 98,
-    "lighting_quality": 99,
-    "architecture_plausibility": 97,
-    "ui_suitability": 100,
-    "mobile_suitability": 98,
-    "originality": 95,
-    "safety_compliance": 100,
-    "accepted_prompt": "Create a separately composed square city-card image for the same accepted fictional Köln-inspired SHADOWGRID city.\n\nOutput composition: exact 1:1 square, intended final size 1536×1536. Reconstruct the view for a premium city-selection card rather than cropping the desktop hero. Preserve the family identity: broad Rhine-like river, one original low-profile truss bridge, generic low- and mid-rise civic skyline, restrained media/trade/logistics cues, cool neutral blue-gray atmosphere, and warm late-afternoon gold highlights.\n\nPlace the river bend and original bridge as a strong centered geometric anchor. Keep the fictional skyline in the upper-middle third, with realistic atmospheric depth and physically plausible architecture. Reserve a slightly darker, lower-detail bottom 24% for external localized city name, status badges, and one action; do not embed any of that UI. Keep all important shapes inside an inner 82% safe area for rounded card masks. No focal people.\n\nDo not add Cologne Cathedral, twin Gothic spires, the Hohenzollern Bridge, any recognizable real Cologne landmark, or a known photographic viewpoint. The scene must be an original fictionalized Rhine metropolis.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, trafficking routes, fantasy architecture, impossible bridge geometry, excessive neon, warning red, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic 1:1 daytime city-card backing plate with no border, rounded mask, title, or device mockup.",
-    "reference_images": [
-      "assets/source/cities/city-koeln-desktop-day-v1.png"
-    ],
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.074Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
     "notes": [
-      "Accepted first square-card recomposition attempt.",
-      "The river bend and original bridge form a centered anchor, while the fictional skyline remains within the inner card-safe area.",
-      "The lower quarter is dark and lower-detail for external localized labels, badges, and one action.",
-      "No recognizable Cologne landmark, copied viewpoint, embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
     ]
   },
   "technical_validation": {

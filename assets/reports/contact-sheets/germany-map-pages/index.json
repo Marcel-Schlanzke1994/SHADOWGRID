@@ -1,0 +1,27 @@
+{
+  "schema": "shadowgrid/contact-sheet-pages/v1",
+  "batch": "germany-map",
+  "generated_at": "2026-07-30T05:54:34.929Z",
+  "asset_count": 12,
+  "page_size": 18,
+  "pages": [
+    {
+      "page": 1,
+      "path": "assets/reports/contact-sheets/germany-map-pages/page-001.png",
+      "assets": [
+        "map-germany-outline-v1",
+        "map-federal-state-borders-v1",
+        "map-coasts-water-v1",
+        "map-major-rivers-v1",
+        "map-map-background-day-v1",
+        "map-map-background-night-v1",
+        "map-map-background-neutral-v1",
+        "map-heatmap-economy-legend-v1",
+        "map-heatmap-information-legend-v1",
+        "map-heatmap-authority-legend-v1",
+        "map-heatmap-organization-legend-v1",
+        "map-heatmap-event-legend-v1"
+      ]
+    }
+  ]
+}

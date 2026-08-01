@@ -1,0 +1,250 @@
+{
+  "asset_id": "global-command-center-premium-night-v2",
+  "manifest_order": 897,
+  "category": "global",
+  "batch": "global-backgrounds",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/global-command-center-premium-night-v2.txt",
+  "prompt_version": "2.0.0",
+  "style_version": "2.0.0",
+  "seed": 100897,
+  "content_hash": "d1189221739837d38193e551a9b29577cd51ed45ddd2bb7d72b3d32e97f2c1c9",
+  "source_file": "assets/source/global/global-command-center-premium-night-v2.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/global-command-center-premium-night-v2-320.avif",
+      "bytes": 5321,
+      "sha256": "fb915aa172028b84ff04f4db65d54d1d558d252417721a966fea91f7ddfc0340"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-premium-night-v2-320.webp",
+      "bytes": 5472,
+      "sha256": "5a23923f212f98bc544f853494442c86ca1d91a02db6a53287e764bdf62c9032"
+    },
+    {
+      "path": "assets/production/avif/global-command-center-premium-night-v2-640.avif",
+      "bytes": 17877,
+      "sha256": "62ffebf28f54a41f03b9abf54f57c849f55f8f8a6f10d54d4889a2f78400c38d"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-premium-night-v2-640.webp",
+      "bytes": 18934,
+      "sha256": "4041bf53416da207ca9b9ae9fd2876c35b79431753ceda4ed780d2c5ee2b51eb"
+    },
+    {
+      "path": "assets/production/avif/global-command-center-premium-night-v2-960.avif",
+      "bytes": 46365,
+      "sha256": "6d64b579ab31ad4c15dad1dff43f855863e08fc9b1e7424632ec6921f419e5e8"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-premium-night-v2-960.webp",
+      "bytes": 45300,
+      "sha256": "0bd9c1dddf4891fe9715ee75eee3d2caf628a5423b3676a919b29448b7342db1"
+    },
+    {
+      "path": "assets/production/avif/global-command-center-premium-night-v2-1280.avif",
+      "bytes": 76731,
+      "sha256": "d346fa65a3090042265111083e19ad8baa2f528eab060727a6a68905ea263afc"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-premium-night-v2-1280.webp",
+      "bytes": 73590,
+      "sha256": "103e17fb4d0c0beee2e02f0fb38df39975370f8002958694335f2305ae0c89b0"
+    },
+    {
+      "path": "assets/production/avif/global-command-center-premium-night-v2-1920.avif",
+      "bytes": 139710,
+      "sha256": "f6b9cc4064c5afdf880dec65196bd6bb8bcb692f9cd381fe3e2e8e6ca65bc229"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-premium-night-v2-1920.webp",
+      "bytes": 127126,
+      "sha256": "04b6f46e5d1d26a1a7b68cc98778c512e170dbc0651673a6549b110de3106597"
+    },
+    {
+      "path": "assets/production/avif/global-command-center-premium-night-v2-2560.avif",
+      "bytes": 196451,
+      "sha256": "c64dcb1ed9d622b255e1022b9006188e76aaa4442be38bf640595b7fa2f938db"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-premium-night-v2-2560.webp",
+      "bytes": 168794,
+      "sha256": "e700c69f67320ae6fdc96aeb6fa8a76fb2fe90be5676805af6ac6d4a1cfb3984"
+    },
+    {
+      "path": "assets/production/avif/global-command-center-premium-night-v2-3840.avif",
+      "bytes": 323044,
+      "sha256": "9fe96cc34e0c53620c492004b6eb3f0cbe04da9557e557b0bee6e968ee199fed"
+    },
+    {
+      "path": "assets/production/webp/global-command-center-premium-night-v2-3840.webp",
+      "bytes": 271104,
+      "sha256": "4ffb07b2dc4f63a580b14409dce2823cc667187423a5332f845b5ded93da5dc0"
+    },
+    {
+      "path": "assets/production/png/global-command-center-premium-night-v2-1280.png",
+      "bytes": 1577494,
+      "sha256": "f4dae83ebe4362ef03c55873d176666d535026e1ea4a6e5824423a4e6dcdd36a"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-night-v2-320.avif",
+      "bytes": 5321,
+      "sha256": "fb915aa172028b84ff04f4db65d54d1d558d252417721a966fea91f7ddfc0340"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-night-v2-320.webp",
+      "bytes": 5472,
+      "sha256": "5a23923f212f98bc544f853494442c86ca1d91a02db6a53287e764bdf62c9032"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-night-v2-640.avif",
+      "bytes": 17877,
+      "sha256": "62ffebf28f54a41f03b9abf54f57c849f55f8f8a6f10d54d4889a2f78400c38d"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-night-v2-640.webp",
+      "bytes": 18934,
+      "sha256": "4041bf53416da207ca9b9ae9fd2876c35b79431753ceda4ed780d2c5ee2b51eb"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-night-v2-960.avif",
+      "bytes": 46365,
+      "sha256": "6d64b579ab31ad4c15dad1dff43f855863e08fc9b1e7424632ec6921f419e5e8"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-night-v2-960.webp",
+      "bytes": 45300,
+      "sha256": "0bd9c1dddf4891fe9715ee75eee3d2caf628a5423b3676a919b29448b7342db1"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-night-v2-1280.avif",
+      "bytes": 76731,
+      "sha256": "d346fa65a3090042265111083e19ad8baa2f528eab060727a6a68905ea263afc"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-night-v2-1280.webp",
+      "bytes": 73590,
+      "sha256": "103e17fb4d0c0beee2e02f0fb38df39975370f8002958694335f2305ae0c89b0"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-night-v2-1920.avif",
+      "bytes": 139710,
+      "sha256": "f6b9cc4064c5afdf880dec65196bd6bb8bcb692f9cd381fe3e2e8e6ca65bc229"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-night-v2-1920.webp",
+      "bytes": 127126,
+      "sha256": "04b6f46e5d1d26a1a7b68cc98778c512e170dbc0651673a6549b110de3106597"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-night-v2-2560.avif",
+      "bytes": 196451,
+      "sha256": "c64dcb1ed9d622b255e1022b9006188e76aaa4442be38bf640595b7fa2f938db"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-night-v2-2560.webp",
+      "bytes": 168794,
+      "sha256": "e700c69f67320ae6fdc96aeb6fa8a76fb2fe90be5676805af6ac6d4a1cfb3984"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-night-v2-3840.avif",
+      "bytes": 323044,
+      "sha256": "9fe96cc34e0c53620c492004b6eb3f0cbe04da9557e557b0bee6e968ee199fed"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-night-v2-3840.webp",
+      "bytes": 271104,
+      "sha256": "4ffb07b2dc4f63a580b14409dce2823cc667187423a5332f845b5ded93da5dc0"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-command-center-premium-night-v2-1280.png",
+      "bytes": 1577494,
+      "sha256": "f4dae83ebe4362ef03c55873d176666d535026e1ea4a6e5824423a4e6dcdd36a"
+    },
+    {
+      "path": "apps/web/public/assets/library/global-command-center-premium-night-v2.webp",
+      "bytes": 5472,
+      "sha256": "5a23923f212f98bc544f853494442c86ca1d91a02db6a53287e764bdf62c9032"
+    },
+    {
+      "path": "apps/mobile/assets/library/global-command-center-premium-night-v2.webp",
+      "bytes": 5472,
+      "sha256": "5a23923f212f98bc544f853494442c86ca1d91a02db6a53287e764bdf62c9032"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 96.5,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 99,
+    "composition": 96,
+    "material_quality": 99,
+    "lighting_quality": 98,
+    "architecture_plausibility": 97,
+    "ui_suitability": 94,
+    "mobile_suitability": 88,
+    "originality": 96,
+    "safety_compliance": 100,
+    "accepted_prompt": "Use case: stylized-concept\nAsset type: SHADOWGRID game command-center background, 16:9 desktop hero environment\nPrimary request: an ultra-premium executive cyber-finance war room inside a high-rise overlooking a fictional Cologne-inspired Rhine metropolis at night; a long dark titanium command table with embedded low-profile tactical light surfaces, smoked glass architecture, obsidian wall panels, satin gold edge lighting, restrained cyan intelligence reflections, distant river and city lights\nScene/backdrop: cavernous modern control room with realistic architectural scale, cinematic urban night panorama through floor-to-ceiling glass, no recognizable landmark copied exactly\nSubject: the room and command infrastructure only, no people\nStyle/medium: ultra-realistic cinematic architectural visualization, AAA strategy game environment, physically plausible materials, serious luxury, not concept-sketchy\nComposition/framing: wide 16:9 establishing view; generous calm negative space across the left and central foreground for readable UI overlays; strongest architectural detail and city vista toward the right; clean perspective and strong depth layers\nLighting/mood: low-key filmic contrast, subtle volumetric haze, warm champagne-gold practical lights balanced by very restrained electric-cyan data glow, secretive and powerful\nColor palette: 85 percent obsidian black, deep carbon and graphite; satin royal gold highlights; sparse electric cyan; no other saturated colors\nMaterials/textures: smoked glass, dark titanium, brushed steel, black stone, satin gold trim, realistic reflections and microtexture\nConstraints: no text, no logos, no watermark, no floating UI, no readable screens, no people, no weapons, no cartoon sci-fi, no neon overload, no purple, no blue-dominant color cast, no generic office stock-photo look",
+    "reference_images": [],
+    "notes": [
+      "Accepted first built-in generation attempt for the Visual Master Directive.",
+      "The tactical table, smoked glazing and controlled gold lighting establish a bespoke executive war-room identity.",
+      "The image contains no people, readable text, logos, weapons or identifiable real-world authority marks."
+    ],
+    "provider": "codex-built-in",
+    "license": "project-owned-generated-asset",
+    "provenance": {
+      "source": "codex-built-in-image-generation",
+      "thread": "019fbcc9-ef84-7a11-800a-125a47b84b04"
+    }
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3798261
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-08-01T19:01:12.787Z",
+  "license": "project-owned-generated-asset",
+  "provenance": {
+    "source": "codex-built-in-image-generation",
+    "thread": "019fbcc9-ef84-7a11-800a-125a47b84b04"
+  },
+  "notes": [
+    "Accepted first built-in generation attempt for the Visual Master Directive.",
+    "The tactical table, smoked glazing and controlled gold lighting establish a bespoke executive war-room identity.",
+    "The image contains no people, readable text, logos, weapons or identifiable real-world authority marks."
+  ]
+}

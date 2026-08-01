@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-mannheim-mobile-day-v1",
+  "manifest_order": 239,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "mannheim",
+  "variant": "mobile-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-mannheim-mobile-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100239,
+  "content_hash": "2e13008991459f71e684e34de1254b4db2135c5b567a74db8af31be4aef38e1a",
+  "source_file": "assets/source/cities/city-mannheim-mobile-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-mannheim-mobile-day-v1-320.avif",
+      "bytes": 4703,
+      "sha256": "f022593187ffdc8fef9b0282894998f5f763fb280d50a52d6450769f14c9040b"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-mobile-day-v1-320.webp",
+      "bytes": 4192,
+      "sha256": "7732b4d967d1e806147fac47b57d8aa3951984ffb0f0360ee22239d47ea3f9a4"
+    },
+    {
+      "path": "assets/production/avif/city-mannheim-mobile-day-v1-640.avif",
+      "bytes": 10103,
+      "sha256": "a62a85187b1ee7f2a656cfb4650aac2be33d3e0a4237c77f223c8442e1777ecf"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-mobile-day-v1-640.webp",
+      "bytes": 8210,
+      "sha256": "4783899e769a5cdf8de83a8726b79919a2c06ef15793a8c5ebaf5c0b4c6cccaa"
+    },
+    {
+      "path": "assets/production/avif/city-mannheim-mobile-day-v1-960.avif",
+      "bytes": 17213,
+      "sha256": "f79d114852517efeac00f0c6761d47784623edfb5adf1d31d90d664e7cdfd1a3"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-mobile-day-v1-960.webp",
+      "bytes": 14216,
+      "sha256": "bb660098f17d5c5eed1d957e7b94134f5c0e17afee2408d49fe7454640fbe620"
+    },
+    {
+      "path": "assets/production/avif/city-mannheim-mobile-day-v1-1280.avif",
+      "bytes": 23761,
+      "sha256": "8650ea4cc85defc975a6160cb15643bbd5067e8e605202e503ce73d14ab91c0d"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-mobile-day-v1-1280.webp",
+      "bytes": 19860,
+      "sha256": "0a1f79223f0d4a3a12cae6d4e20d3b82fbaec31a64eb703e9eec3b709a7ef1bc"
+    },
+    {
+      "path": "assets/production/avif/city-mannheim-mobile-day-v1-1920.avif",
+      "bytes": 39105,
+      "sha256": "9febf59bd76fdb47ebef505d81ee44bc52940edf16a4a83a3564cf904463b11f"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-mobile-day-v1-1920.webp",
+      "bytes": 35416,
+      "sha256": "2664650c48b5132ee0d50f1bdd9f6c19f6d9f72e9a2c0d348482db7572e9e402"
+    },
+    {
+      "path": "assets/production/avif/city-mannheim-mobile-day-v1-2560.avif",
+      "bytes": 56621,
+      "sha256": "dff6c91867889f694060088b065e683e3069d6765cf009381ab05080ef239049"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-mobile-day-v1-2560.webp",
+      "bytes": 55360,
+      "sha256": "aef1d38ef84703f07509170a165df206f38ca209b84cd16540273968026aa3b5"
+    },
+    {
+      "path": "assets/production/avif/city-mannheim-mobile-day-v1-3840.avif",
+      "bytes": 100487,
+      "sha256": "07cd94d60ba2dcb0b2daf3b3e7c1d0de97b9123ab19f7299699ae583ac60ab5f"
+    },
+    {
+      "path": "assets/production/webp/city-mannheim-mobile-day-v1-3840.webp",
+      "bytes": 104604,
+      "sha256": "227f8d95a326bc374dfd72d295c97adfee3f6ecf871f056b49f2270b40e08d64"
+    },
+    {
+      "path": "assets/production/png/city-mannheim-mobile-day-v1-1152.png",
+      "bytes": 1685677,
+      "sha256": "2e13008991459f71e684e34de1254b4db2135c5b567a74db8af31be4aef38e1a"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-mobile-day-v1-320.avif",
+      "bytes": 4703,
+      "sha256": "f022593187ffdc8fef9b0282894998f5f763fb280d50a52d6450769f14c9040b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-mobile-day-v1-320.webp",
+      "bytes": 4192,
+      "sha256": "7732b4d967d1e806147fac47b57d8aa3951984ffb0f0360ee22239d47ea3f9a4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-mobile-day-v1-640.avif",
+      "bytes": 10103,
+      "sha256": "a62a85187b1ee7f2a656cfb4650aac2be33d3e0a4237c77f223c8442e1777ecf"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-mobile-day-v1-640.webp",
+      "bytes": 8210,
+      "sha256": "4783899e769a5cdf8de83a8726b79919a2c06ef15793a8c5ebaf5c0b4c6cccaa"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-mobile-day-v1-960.avif",
+      "bytes": 17213,
+      "sha256": "f79d114852517efeac00f0c6761d47784623edfb5adf1d31d90d664e7cdfd1a3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-mobile-day-v1-960.webp",
+      "bytes": 14216,
+      "sha256": "bb660098f17d5c5eed1d957e7b94134f5c0e17afee2408d49fe7454640fbe620"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-mobile-day-v1-1280.avif",
+      "bytes": 23761,
+      "sha256": "8650ea4cc85defc975a6160cb15643bbd5067e8e605202e503ce73d14ab91c0d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-mobile-day-v1-1280.webp",
+      "bytes": 19860,
+      "sha256": "0a1f79223f0d4a3a12cae6d4e20d3b82fbaec31a64eb703e9eec3b709a7ef1bc"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-mobile-day-v1-1920.avif",
+      "bytes": 39105,
+      "sha256": "9febf59bd76fdb47ebef505d81ee44bc52940edf16a4a83a3564cf904463b11f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-mobile-day-v1-1920.webp",
+      "bytes": 35416,
+      "sha256": "2664650c48b5132ee0d50f1bdd9f6c19f6d9f72e9a2c0d348482db7572e9e402"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-mobile-day-v1-2560.avif",
+      "bytes": 56621,
+      "sha256": "dff6c91867889f694060088b065e683e3069d6765cf009381ab05080ef239049"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-mobile-day-v1-2560.webp",
+      "bytes": 55360,
+      "sha256": "aef1d38ef84703f07509170a165df206f38ca209b84cd16540273968026aa3b5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-mobile-day-v1-3840.avif",
+      "bytes": 100487,
+      "sha256": "07cd94d60ba2dcb0b2daf3b3e7c1d0de97b9123ab19f7299699ae583ac60ab5f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-mobile-day-v1-3840.webp",
+      "bytes": 104604,
+      "sha256": "227f8d95a326bc374dfd72d295c97adfee3f6ecf871f056b49f2270b40e08d64"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-mannheim-mobile-day-v1-1152.png",
+      "bytes": 1685677,
+      "sha256": "2e13008991459f71e684e34de1254b4db2135c5b567a74db8af31be4aef38e1a"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-mannheim-mobile-day-v1.webp",
+      "bytes": 4192,
+      "sha256": "7732b4d967d1e806147fac47b57d8aa3951984ffb0f0360ee22239d47ea3f9a4"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-mannheim-mobile-day-v1.webp",
+      "bytes": 4192,
+      "sha256": "7732b4d967d1e806147fac47b57d8aa3951984ffb0f0360ee22239d47ea3f9a4"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.475Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1685677
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:26:43.258Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

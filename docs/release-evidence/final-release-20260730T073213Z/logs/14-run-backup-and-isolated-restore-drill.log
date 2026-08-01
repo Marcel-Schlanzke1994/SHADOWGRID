@@ -1,0 +1,10 @@
+SHADOWGRID final release evidence
+Step: Run backup and isolated restore drill
+Command: pnpm ops:restore-drill
+Started: 2026-07-30T08:33:27.554Z
+
+$ node scripts/run-python.mjs --cwd apps/api -m shadowgrid.restore_drill
+Restore drill passed: isolated restore, matching SHA-256 and post-restore data verification.
+
+Finished: 2026-07-30T08:33:37.897Z
+Exit code: 0

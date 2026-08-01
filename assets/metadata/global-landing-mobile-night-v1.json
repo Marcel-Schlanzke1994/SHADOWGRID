@@ -170,6 +170,16 @@
       "path": "apps/web/public/assets/global/global-landing-mobile-night-v1-1152.png",
       "bytes": 3923492,
       "sha256": "850e69ce70f08266409d3383321c1c19352bf96162cc76df599fa55c667e1bdd"
+    },
+    {
+      "path": "apps/web/public/assets/library/global-landing-mobile-night-v1.webp",
+      "bytes": 15350,
+      "sha256": "72033eb12854691c7d1c9f93f0f445ab9cab072e945399e99d34e5901819b9d1"
+    },
+    {
+      "path": "apps/mobile/assets/library/global-landing-mobile-night-v1.webp",
+      "bytes": 15350,
+      "sha256": "72033eb12854691c7d1c9f93f0f445ab9cab072e945399e99d34e5901819b9d1"
     }
   ],
   "contains_text": false,

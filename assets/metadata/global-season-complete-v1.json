@@ -170,6 +170,16 @@
       "path": "apps/web/public/assets/global/global-season-complete-v1-1280.png",
       "bytes": 1537610,
       "sha256": "1c17d4d8bee1ae428fa613e804287bc12348c3e8c9dca11cf4780a76c868427c"
+    },
+    {
+      "path": "apps/web/public/assets/library/global-season-complete-v1.webp",
+      "bytes": 3730,
+      "sha256": "650315aff0a5863f178d68aec6e4b4109b99babd36201989d17b60f418e12cd1"
+    },
+    {
+      "path": "apps/mobile/assets/library/global-season-complete-v1.webp",
+      "bytes": 3730,
+      "sha256": "650315aff0a5863f178d68aec6e4b4109b99babd36201989d17b60f418e12cd1"
     }
   ],
   "contains_text": false,

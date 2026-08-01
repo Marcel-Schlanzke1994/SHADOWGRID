@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-moenchengladbach-mobile-night-v1",
+  "manifest_order": 272,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "moenchengladbach",
+  "variant": "mobile-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-moenchengladbach-mobile-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100272,
+  "content_hash": "3f8c87da114d466761f9e5724e2b4356f6bdb3183f54b036dba35d96811811e2",
+  "source_file": "assets/source/cities/city-moenchengladbach-mobile-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-moenchengladbach-mobile-night-v1-320.avif",
+      "bytes": 6215,
+      "sha256": "73f40cd01cb45a9fc17d8ca492e16fa1de919d9c794b3defccfa6304d3137ef6"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-mobile-night-v1-320.webp",
+      "bytes": 6398,
+      "sha256": "fd3484a0bc8985920f07d406b42156374237d7df207c8cfdf7acd807d18595ae"
+    },
+    {
+      "path": "assets/production/avif/city-moenchengladbach-mobile-night-v1-640.avif",
+      "bytes": 12870,
+      "sha256": "84cd6e35f8ea6234566a74ead39cd76f3fc88fbd4aac111502bc0cdc4627762c"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-mobile-night-v1-640.webp",
+      "bytes": 12396,
+      "sha256": "b9507f369c6be0d04afff6e379f45ef0dd4de76c04fb837001ce117cf72ca9b1"
+    },
+    {
+      "path": "assets/production/avif/city-moenchengladbach-mobile-night-v1-960.avif",
+      "bytes": 22596,
+      "sha256": "4f10930107bec9eb7808a8bb71c51670d30da6ee8bee146e68d0ddcd8e324ea7"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-mobile-night-v1-960.webp",
+      "bytes": 20618,
+      "sha256": "05091ad3c3c27b46b70a68d559eae0fc0b9e2735ed1f374050529283dadc22ec"
+    },
+    {
+      "path": "assets/production/avif/city-moenchengladbach-mobile-night-v1-1280.avif",
+      "bytes": 31179,
+      "sha256": "0bb9a18d057f135bba7b28ea3c2ae513b0d993152a21af35db24653bb5dd6324"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-mobile-night-v1-1280.webp",
+      "bytes": 27184,
+      "sha256": "d71ae642cadf8749e0b5b7fd54bcbd9eebb57a3a10927de87f2dd6a751ad3969"
+    },
+    {
+      "path": "assets/production/avif/city-moenchengladbach-mobile-night-v1-1920.avif",
+      "bytes": 48624,
+      "sha256": "621dfc0924f160ad614b6d0492264030e587b2e6e3e84bdd39aeffd9dcb25783"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-mobile-night-v1-1920.webp",
+      "bytes": 43572,
+      "sha256": "22b22b747c6cb18487877004bdd6ad68a61cd21cf9c4605b2df6f7d2c2c118ed"
+    },
+    {
+      "path": "assets/production/avif/city-moenchengladbach-mobile-night-v1-2560.avif",
+      "bytes": 68144,
+      "sha256": "97d35305bb51a7693407b19d37385274372da74325fe3e32cb324011f1116714"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-mobile-night-v1-2560.webp",
+      "bytes": 65880,
+      "sha256": "1e24edceaaaf6f1883e1fbfc705765606ae4414b087abd8a747b641aefa03c2d"
+    },
+    {
+      "path": "assets/production/avif/city-moenchengladbach-mobile-night-v1-3840.avif",
+      "bytes": 119731,
+      "sha256": "ac41f32b4ce5830d5672049ba8803a782fe45f173c7f48b48448d83468a399c2"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-mobile-night-v1-3840.webp",
+      "bytes": 117198,
+      "sha256": "468f35e987c44e0ebcccdd2d7085b2fb1cd02fa418b9e07b45c2812061bac903"
+    },
+    {
+      "path": "assets/production/png/city-moenchengladbach-mobile-night-v1-1152.png",
+      "bytes": 1723589,
+      "sha256": "3f8c87da114d466761f9e5724e2b4356f6bdb3183f54b036dba35d96811811e2"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-night-v1-320.avif",
+      "bytes": 6215,
+      "sha256": "73f40cd01cb45a9fc17d8ca492e16fa1de919d9c794b3defccfa6304d3137ef6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-night-v1-320.webp",
+      "bytes": 6398,
+      "sha256": "fd3484a0bc8985920f07d406b42156374237d7df207c8cfdf7acd807d18595ae"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-night-v1-640.avif",
+      "bytes": 12870,
+      "sha256": "84cd6e35f8ea6234566a74ead39cd76f3fc88fbd4aac111502bc0cdc4627762c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-night-v1-640.webp",
+      "bytes": 12396,
+      "sha256": "b9507f369c6be0d04afff6e379f45ef0dd4de76c04fb837001ce117cf72ca9b1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-night-v1-960.avif",
+      "bytes": 22596,
+      "sha256": "4f10930107bec9eb7808a8bb71c51670d30da6ee8bee146e68d0ddcd8e324ea7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-night-v1-960.webp",
+      "bytes": 20618,
+      "sha256": "05091ad3c3c27b46b70a68d559eae0fc0b9e2735ed1f374050529283dadc22ec"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-night-v1-1280.avif",
+      "bytes": 31179,
+      "sha256": "0bb9a18d057f135bba7b28ea3c2ae513b0d993152a21af35db24653bb5dd6324"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-night-v1-1280.webp",
+      "bytes": 27184,
+      "sha256": "d71ae642cadf8749e0b5b7fd54bcbd9eebb57a3a10927de87f2dd6a751ad3969"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-night-v1-1920.avif",
+      "bytes": 48624,
+      "sha256": "621dfc0924f160ad614b6d0492264030e587b2e6e3e84bdd39aeffd9dcb25783"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-night-v1-1920.webp",
+      "bytes": 43572,
+      "sha256": "22b22b747c6cb18487877004bdd6ad68a61cd21cf9c4605b2df6f7d2c2c118ed"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-night-v1-2560.avif",
+      "bytes": 68144,
+      "sha256": "97d35305bb51a7693407b19d37385274372da74325fe3e32cb324011f1116714"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-night-v1-2560.webp",
+      "bytes": 65880,
+      "sha256": "1e24edceaaaf6f1883e1fbfc705765606ae4414b087abd8a747b641aefa03c2d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-night-v1-3840.avif",
+      "bytes": 119731,
+      "sha256": "ac41f32b4ce5830d5672049ba8803a782fe45f173c7f48b48448d83468a399c2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-night-v1-3840.webp",
+      "bytes": 117198,
+      "sha256": "468f35e987c44e0ebcccdd2d7085b2fb1cd02fa418b9e07b45c2812061bac903"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-mobile-night-v1-1152.png",
+      "bytes": 1723589,
+      "sha256": "3f8c87da114d466761f9e5724e2b4356f6bdb3183f54b036dba35d96811811e2"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-moenchengladbach-mobile-night-v1.webp",
+      "bytes": 6398,
+      "sha256": "fd3484a0bc8985920f07d406b42156374237d7df207c8cfdf7acd807d18595ae"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-moenchengladbach-mobile-night-v1.webp",
+      "bytes": 6398,
+      "sha256": "fd3484a0bc8985920f07d406b42156374237d7df207c8cfdf7acd807d18595ae"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.877Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1723589
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:51:08.674Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

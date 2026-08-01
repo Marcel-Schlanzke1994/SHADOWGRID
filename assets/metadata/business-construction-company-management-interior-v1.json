@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-construction-company-management-interior-v1",
+  "manifest_order": 502,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "management-interior",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-construction-company-management-interior-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100502,
+  "content_hash": "f0c7966deaef0dec14f0cd33eed9d6f69ac6e7be3cd2ca0cf2f06cd309fe6f34",
+  "source_file": "assets/source/businesses/business-construction-company-management-interior-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-construction-company-management-interior-v1-320.avif",
+      "bytes": 2902,
+      "sha256": "d17b17250b88c0a9fb8a0a23d347b1a7c2bebcc1629ce3c6fdb17d70cab7106a"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-management-interior-v1-320.webp",
+      "bytes": 2416,
+      "sha256": "48da10669af8207dae8c1764b8c16dee3e4002a48058e1a771c5d002a9646029"
+    },
+    {
+      "path": "assets/production/avif/business-construction-company-management-interior-v1-640.avif",
+      "bytes": 6293,
+      "sha256": "01f889d7e1e5dceaaa3e5f505820d9600b13dd3e8129bc991467b65a18e58e25"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-management-interior-v1-640.webp",
+      "bytes": 5208,
+      "sha256": "84978cf283b35bc078ed39de4bb09894fc1111504a3b9b8e050491dba236e3a8"
+    },
+    {
+      "path": "assets/production/avif/business-construction-company-management-interior-v1-960.avif",
+      "bytes": 10238,
+      "sha256": "6c47a2549b19147084d2d644d370f9c6ddd0ad05c7e55c36543dbe8b797eb304"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-management-interior-v1-960.webp",
+      "bytes": 8940,
+      "sha256": "4f59464974d559818b445eee59aeed48ec154663a92880016facb99d2276921c"
+    },
+    {
+      "path": "assets/production/avif/business-construction-company-management-interior-v1-1280.avif",
+      "bytes": 14479,
+      "sha256": "6137e3dee4c8600fd4afaea0abe11828ac973378c10e4c8cb83dbb5ecb769725"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-management-interior-v1-1280.webp",
+      "bytes": 11630,
+      "sha256": "23e4d78cc52b099e43c4d1cc0346f1277413b633ac9aff9014ad5e4f7151d61f"
+    },
+    {
+      "path": "assets/production/avif/business-construction-company-management-interior-v1-1920.avif",
+      "bytes": 21779,
+      "sha256": "3f62eb71fd5e3fce4a99d78bda21f952ba6307091783214d2d23442bd9862bc0"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-management-interior-v1-1920.webp",
+      "bytes": 18726,
+      "sha256": "830ae2245b23413ce8a1a7f021b88ea2f3b8c4a460231bf35e8c2e317e74a784"
+    },
+    {
+      "path": "assets/production/avif/business-construction-company-management-interior-v1-2560.avif",
+      "bytes": 29087,
+      "sha256": "59508f4de9646b3a36798fb0147d14c67c0e31a8e93c65e40dadd99fb28c262b"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-management-interior-v1-2560.webp",
+      "bytes": 25534,
+      "sha256": "b13eeaa5ef8c3f8ecbef427786ee19673164c23c07fee2649a4beb76805f962a"
+    },
+    {
+      "path": "assets/production/avif/business-construction-company-management-interior-v1-3840.avif",
+      "bytes": 46871,
+      "sha256": "c655ece578527f28f265a672509b913c62e52d7cfc9d6a8a7e96b0d65d2f5a27"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-management-interior-v1-3840.webp",
+      "bytes": 44168,
+      "sha256": "1da804083885f67178793d8c5698e7b4a301bbde90e11a0856fe513a66be204d"
+    },
+    {
+      "path": "assets/production/png/business-construction-company-management-interior-v1-1280.png",
+      "bytes": 627955,
+      "sha256": "7ca74e153ce5bb6e6d152debd9b8159465e33a34a7a510cc997a142930b25664"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-construction-company-management-interior-v1.webp",
+      "bytes": 2416,
+      "sha256": "48da10669af8207dae8c1764b8c16dee3e4002a48058e1a771c5d002a9646029"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-construction-company-management-interior-v1.webp",
+      "bytes": 2416,
+      "sha256": "48da10669af8207dae8c1764b8c16dee3e4002a48058e1a771c5d002a9646029"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.748Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1452113
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:03:35.645Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

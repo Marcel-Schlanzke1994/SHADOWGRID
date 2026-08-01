@@ -1,0 +1,12 @@
+SHADOWGRID final release evidence
+Step: Verify asset runtime integration
+Command: pnpm assets:integration-test
+Started: 2026-07-30T08:30:13.496Z
+
+$ node scripts/assets/pipeline.mjs integration-test
+Processed asset validation passed.
+Asset reports refreshed.
+Asset integration checks completed.
+
+Finished: 2026-07-30T08:31:29.360Z
+Exit code: 0

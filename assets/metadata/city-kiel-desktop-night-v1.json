@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-kiel-desktop-night-v1",
+  "manifest_order": 294,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "kiel",
+  "variant": "desktop-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-kiel-desktop-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100294,
+  "content_hash": "99f7298d98f37f453977505373ad67a6aa0f7ac8e236149128a4acd42e9aabe5",
+  "source_file": "assets/source/cities/city-kiel-desktop-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-kiel-desktop-night-v1-640.avif",
+      "bytes": 7757,
+      "sha256": "3e1bc487891cca5812a3337ff591108f88c0a5ec93ea507ddadbb0de3b3d4cd6"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-desktop-night-v1-640.webp",
+      "bytes": 8294,
+      "sha256": "c375914d6dcc0c81ad86f1c8d7a1963996df9e0dc8709262d3a87a897896ec05"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-desktop-night-v1-320.avif",
+      "bytes": 3618,
+      "sha256": "788ad09a66267e5df2b4b20c6cf78e46656e4ad40db984c30c0c5f89e1918e8e"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-desktop-night-v1-320.webp",
+      "bytes": 3702,
+      "sha256": "9cf340f3050e74319b290fd0960245983ced42601e56e343e3b31ec94bedf4e7"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-desktop-night-v1-960.avif",
+      "bytes": 13008,
+      "sha256": "816f9c2949c884d7fee4202bfd7652a7a998b40aaa85b4ff184101399f1d9a6e"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-desktop-night-v1-960.webp",
+      "bytes": 14132,
+      "sha256": "32749ec7e768840bd09e28f679d6becef646ee5d49dc2d7764452e6e13ebb0d0"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-desktop-night-v1-1280.avif",
+      "bytes": 18029,
+      "sha256": "525d549adc65cce7cac05ce81eb3655877d8d7e7cb78c22a2866758b0a9014bc"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-desktop-night-v1-1280.webp",
+      "bytes": 18318,
+      "sha256": "89ea8dc5b4297eaf8442afde963eae9548890505245cc2ce71b35b7bacd7618c"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-desktop-night-v1-1920.avif",
+      "bytes": 27850,
+      "sha256": "fecefd3881cdaa2abdeca1f1c8c2254ba7f4680c3fa56248ae47472508283a97"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-desktop-night-v1-1920.webp",
+      "bytes": 26710,
+      "sha256": "9bd5836918dae54deae4b9625a149db3e66fd423752f23ec6fdb0d57dfbf554c"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-desktop-night-v1-2560.avif",
+      "bytes": 38203,
+      "sha256": "cd64f7693f62fbddcda380c188548aa65f814939fdbdcccf258cf34bea49c3bd"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-desktop-night-v1-2560.webp",
+      "bytes": 36408,
+      "sha256": "1fcc88bd2fe28dc12aef13028d6b4fee7adb69d022a601f5d6e2e28e377c8f9b"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-desktop-night-v1-3840.avif",
+      "bytes": 59920,
+      "sha256": "3733ce7e65e40ae9efc2315d9dc76be66e90473234fcd8b37cdefe153222dfde"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-desktop-night-v1-3840.webp",
+      "bytes": 57546,
+      "sha256": "d4612e0b398d7e86e8f6c02eba7055d78f68ac8cd72437504e8ce91e30a10167"
+    },
+    {
+      "path": "assets/production/png/city-kiel-desktop-night-v1-1280.png",
+      "bytes": 766497,
+      "sha256": "d44717743f440e1bcde01fca78ccec25dfb63294f0522384a5fa6089b75e3500"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-night-v1-640.avif",
+      "bytes": 7757,
+      "sha256": "3e1bc487891cca5812a3337ff591108f88c0a5ec93ea507ddadbb0de3b3d4cd6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-night-v1-640.webp",
+      "bytes": 8294,
+      "sha256": "c375914d6dcc0c81ad86f1c8d7a1963996df9e0dc8709262d3a87a897896ec05"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-night-v1-320.avif",
+      "bytes": 3618,
+      "sha256": "788ad09a66267e5df2b4b20c6cf78e46656e4ad40db984c30c0c5f89e1918e8e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-night-v1-320.webp",
+      "bytes": 3702,
+      "sha256": "9cf340f3050e74319b290fd0960245983ced42601e56e343e3b31ec94bedf4e7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-night-v1-960.avif",
+      "bytes": 13008,
+      "sha256": "816f9c2949c884d7fee4202bfd7652a7a998b40aaa85b4ff184101399f1d9a6e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-night-v1-960.webp",
+      "bytes": 14132,
+      "sha256": "32749ec7e768840bd09e28f679d6becef646ee5d49dc2d7764452e6e13ebb0d0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-night-v1-1280.avif",
+      "bytes": 18029,
+      "sha256": "525d549adc65cce7cac05ce81eb3655877d8d7e7cb78c22a2866758b0a9014bc"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-night-v1-1280.webp",
+      "bytes": 18318,
+      "sha256": "89ea8dc5b4297eaf8442afde963eae9548890505245cc2ce71b35b7bacd7618c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-night-v1-1920.avif",
+      "bytes": 27850,
+      "sha256": "fecefd3881cdaa2abdeca1f1c8c2254ba7f4680c3fa56248ae47472508283a97"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-night-v1-1920.webp",
+      "bytes": 26710,
+      "sha256": "9bd5836918dae54deae4b9625a149db3e66fd423752f23ec6fdb0d57dfbf554c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-night-v1-2560.avif",
+      "bytes": 38203,
+      "sha256": "cd64f7693f62fbddcda380c188548aa65f814939fdbdcccf258cf34bea49c3bd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-night-v1-2560.webp",
+      "bytes": 36408,
+      "sha256": "1fcc88bd2fe28dc12aef13028d6b4fee7adb69d022a601f5d6e2e28e377c8f9b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-night-v1-3840.avif",
+      "bytes": 59920,
+      "sha256": "3733ce7e65e40ae9efc2315d9dc76be66e90473234fcd8b37cdefe153222dfde"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-night-v1-3840.webp",
+      "bytes": 57546,
+      "sha256": "d4612e0b398d7e86e8f6c02eba7055d78f68ac8cd72437504e8ce91e30a10167"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-night-v1-1280.png",
+      "bytes": 766497,
+      "sha256": "d44717743f440e1bcde01fca78ccec25dfb63294f0522384a5fa6089b75e3500"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-kiel-desktop-night-v1.webp",
+      "bytes": 3702,
+      "sha256": "9cf340f3050e74319b290fd0960245983ced42601e56e343e3b31ec94bedf4e7"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-kiel-desktop-night-v1.webp",
+      "bytes": 3702,
+      "sha256": "9cf340f3050e74319b290fd0960245983ced42601e56e343e3b31ec94bedf4e7"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:42.372Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1727062
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:12:26.286Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

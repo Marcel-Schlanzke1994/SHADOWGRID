@@ -170,6 +170,16 @@
       "path": "apps/web/public/assets/global/global-login-mobile-v1-1152.png",
       "bytes": 3466334,
       "sha256": "c743e15c7b27f0e9696ab007f86c1ac062d8ca2c9167a53cad36236504708fa2"
+    },
+    {
+      "path": "apps/web/public/assets/library/global-login-mobile-v1.webp",
+      "bytes": 7554,
+      "sha256": "5ce424ffa43ca27aae8a64c743bb52f17c81f4d0075ef2d62f4d6f105ff316e7"
+    },
+    {
+      "path": "apps/mobile/assets/library/global-login-mobile-v1.webp",
+      "bytes": 7554,
+      "sha256": "5ce424ffa43ca27aae8a64c743bb52f17c81f4d0075ef2d62f4d6f105ff316e7"
     }
   ],
   "contains_text": false,

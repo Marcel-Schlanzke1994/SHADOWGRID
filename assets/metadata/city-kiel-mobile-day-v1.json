@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-kiel-mobile-day-v1",
+  "manifest_order": 295,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "kiel",
+  "variant": "mobile-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-kiel-mobile-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100295,
+  "content_hash": "de1d854abbbc45fea9942586a0f9829aea328c8a50549fb1894bc84c9c95b7b3",
+  "source_file": "assets/source/cities/city-kiel-mobile-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-kiel-mobile-day-v1-320.avif",
+      "bytes": 4489,
+      "sha256": "7455173d2e6e355ff71fff0047ac9ea88d8fdd3753f0432d75a982f47ebd2be2"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-mobile-day-v1-320.webp",
+      "bytes": 3910,
+      "sha256": "9829f1464d584423a3ebd904d85a1ba59a60708ca0525f0b3843532fb84a3784"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-mobile-day-v1-640.avif",
+      "bytes": 9552,
+      "sha256": "ef4af2cfb4ef9d66112082748a84aed0fead53d6748131065cb05af99b927161"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-mobile-day-v1-640.webp",
+      "bytes": 7888,
+      "sha256": "0e965a84ef43b86834ec9979ba38df5116291a8cccca83ffd115de8cc8bc0e05"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-mobile-day-v1-960.avif",
+      "bytes": 16763,
+      "sha256": "882eb6a8819d648109df6d95ec931e398872d2403af5a7d1cc6f841067b0660e"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-mobile-day-v1-960.webp",
+      "bytes": 13852,
+      "sha256": "4009db6fc9ce261f63b290aef392c63944436c8ab0119b39e1fe4e8a6eefc6d3"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-mobile-day-v1-1280.avif",
+      "bytes": 22913,
+      "sha256": "f3bd4381f57b8aa2beae07a0a072baa3079c04643a20264cf1f1f5b80b94e9a3"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-mobile-day-v1-1280.webp",
+      "bytes": 19444,
+      "sha256": "75a66320d15b99e73251c0db8a10d0ac3c97c175b774b38de3d13cc7cfeee45e"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-mobile-day-v1-1920.avif",
+      "bytes": 37857,
+      "sha256": "cff48e277c017dce16dbd46ddc95f011b259a9622a155586c6bc3dc719c0c297"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-mobile-day-v1-1920.webp",
+      "bytes": 35244,
+      "sha256": "296e8ee896a03863b83ccac3a4a6a0458fe76f93178b9616138a6bf3f2b792d7"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-mobile-day-v1-2560.avif",
+      "bytes": 54439,
+      "sha256": "28e5ddbd49a44c446ff36581ced5983e433701b3ee5c90c9e169664758b909e7"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-mobile-day-v1-2560.webp",
+      "bytes": 52650,
+      "sha256": "01769afb47af580dcbe451e79bd4bb079410fdcc7256c2f850aded28e9cecc20"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-mobile-day-v1-3840.avif",
+      "bytes": 97422,
+      "sha256": "2a0ff02f3220d203780822873b151af006092c257a2eee9e76a77b21fd2970e8"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-mobile-day-v1-3840.webp",
+      "bytes": 103734,
+      "sha256": "9298e76987759c4714532acdcece71664b561700e3c0b02a511ef33aed490c1b"
+    },
+    {
+      "path": "assets/production/png/city-kiel-mobile-day-v1-1152.png",
+      "bytes": 1681588,
+      "sha256": "de1d854abbbc45fea9942586a0f9829aea328c8a50549fb1894bc84c9c95b7b3"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-day-v1-320.avif",
+      "bytes": 4489,
+      "sha256": "7455173d2e6e355ff71fff0047ac9ea88d8fdd3753f0432d75a982f47ebd2be2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-day-v1-320.webp",
+      "bytes": 3910,
+      "sha256": "9829f1464d584423a3ebd904d85a1ba59a60708ca0525f0b3843532fb84a3784"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-day-v1-640.avif",
+      "bytes": 9552,
+      "sha256": "ef4af2cfb4ef9d66112082748a84aed0fead53d6748131065cb05af99b927161"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-day-v1-640.webp",
+      "bytes": 7888,
+      "sha256": "0e965a84ef43b86834ec9979ba38df5116291a8cccca83ffd115de8cc8bc0e05"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-day-v1-960.avif",
+      "bytes": 16763,
+      "sha256": "882eb6a8819d648109df6d95ec931e398872d2403af5a7d1cc6f841067b0660e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-day-v1-960.webp",
+      "bytes": 13852,
+      "sha256": "4009db6fc9ce261f63b290aef392c63944436c8ab0119b39e1fe4e8a6eefc6d3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-day-v1-1280.avif",
+      "bytes": 22913,
+      "sha256": "f3bd4381f57b8aa2beae07a0a072baa3079c04643a20264cf1f1f5b80b94e9a3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-day-v1-1280.webp",
+      "bytes": 19444,
+      "sha256": "75a66320d15b99e73251c0db8a10d0ac3c97c175b774b38de3d13cc7cfeee45e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-day-v1-1920.avif",
+      "bytes": 37857,
+      "sha256": "cff48e277c017dce16dbd46ddc95f011b259a9622a155586c6bc3dc719c0c297"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-day-v1-1920.webp",
+      "bytes": 35244,
+      "sha256": "296e8ee896a03863b83ccac3a4a6a0458fe76f93178b9616138a6bf3f2b792d7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-day-v1-2560.avif",
+      "bytes": 54439,
+      "sha256": "28e5ddbd49a44c446ff36581ced5983e433701b3ee5c90c9e169664758b909e7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-day-v1-2560.webp",
+      "bytes": 52650,
+      "sha256": "01769afb47af580dcbe451e79bd4bb079410fdcc7256c2f850aded28e9cecc20"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-day-v1-3840.avif",
+      "bytes": 97422,
+      "sha256": "2a0ff02f3220d203780822873b151af006092c257a2eee9e76a77b21fd2970e8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-day-v1-3840.webp",
+      "bytes": 103734,
+      "sha256": "9298e76987759c4714532acdcece71664b561700e3c0b02a511ef33aed490c1b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-mobile-day-v1-1152.png",
+      "bytes": 1681588,
+      "sha256": "de1d854abbbc45fea9942586a0f9829aea328c8a50549fb1894bc84c9c95b7b3"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-kiel-mobile-day-v1.webp",
+      "bytes": 3910,
+      "sha256": "9829f1464d584423a3ebd904d85a1ba59a60708ca0525f0b3843532fb84a3784"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-kiel-mobile-day-v1.webp",
+      "bytes": 3910,
+      "sha256": "9829f1464d584423a3ebd904d85a1ba59a60708ca0525f0b3843532fb84a3784"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:42.390Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1681588
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:13:09.599Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

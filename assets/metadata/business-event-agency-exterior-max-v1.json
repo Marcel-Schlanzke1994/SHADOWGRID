@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-event-agency-exterior-max-v1",
+  "manifest_order": 471,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "exterior-max",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-event-agency-exterior-max-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100471,
+  "content_hash": "fa6cda619b1679182461a5a3ba751bcc3edbe125d4f6c90a8928d4300f0d46f0",
+  "source_file": "assets/source/businesses/business-event-agency-exterior-max-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-event-agency-exterior-max-v1-320.avif",
+      "bytes": 2991,
+      "sha256": "2e4af6f3436d46132558f1dc270393f2f54edf0f80da8d4337299966a2db4161"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-exterior-max-v1-320.webp",
+      "bytes": 2848,
+      "sha256": "f29553e7c63337336ebaa46c511a7c1628bcd53a2229e2fb927dba1ce7256f5b"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-exterior-max-v1-640.avif",
+      "bytes": 6510,
+      "sha256": "90a57d8293f29633671a9b74cff60be4f3058f8cc4f0d645ce662e635a4948a5"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-exterior-max-v1-640.webp",
+      "bytes": 5742,
+      "sha256": "9aa89565bb2b58a92edb5213d9e25621aec7c7cb7ced58b9e370d2c4abe006bd"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-exterior-max-v1-960.avif",
+      "bytes": 10649,
+      "sha256": "b6597271c5a26e05d0215a5fec6b835b680ed5733f76a2cd583e391223492c28"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-exterior-max-v1-960.webp",
+      "bytes": 9516,
+      "sha256": "b265ba8f2de3baaf2e212cad033f2acf6d85e1e13016e1b60f8d334e2a7d58a4"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-exterior-max-v1-1280.avif",
+      "bytes": 15336,
+      "sha256": "98b6e3d7f654e72e092eb3fd0c3236714e267c0c7c339bfe1d90022734319cc0"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-exterior-max-v1-1280.webp",
+      "bytes": 12364,
+      "sha256": "0572d5df2ffa79ee9bdba1978873a0f4c5d6a79f23bb718cce606817d20569dc"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-exterior-max-v1-1920.avif",
+      "bytes": 22446,
+      "sha256": "ac2a38689c839005775bfe0b157d9cf48b280268428c06fae6172f4eaf6968ff"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-exterior-max-v1-1920.webp",
+      "bytes": 19676,
+      "sha256": "8aceb71f6b95513ae22e6dd0f674d2aef1eda0a2a732ab6fdeb85b9e6bc67dbb"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-exterior-max-v1-2560.avif",
+      "bytes": 31084,
+      "sha256": "8f0b353351773498940c4d5e2272a0e4b073487fdf2d73334461285336a5598c"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-exterior-max-v1-2560.webp",
+      "bytes": 26642,
+      "sha256": "80908fdd7aa9dd136ecfaf89b151e86af02a8560d1a113cbfc950e65375c7a41"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-exterior-max-v1-3840.avif",
+      "bytes": 49282,
+      "sha256": "22289b92f32509e3b4600a09c95f1d85206021a3c21b96265e7dd513a2bf6da1"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-exterior-max-v1-3840.webp",
+      "bytes": 45964,
+      "sha256": "ef4f6c5175cbe3e149c108d11c40de5cfaf9f12fab35fdb2cebb8eea2bbb9449"
+    },
+    {
+      "path": "assets/production/png/business-event-agency-exterior-max-v1-1280.png",
+      "bytes": 646823,
+      "sha256": "fa890b30e5cbe72c46a43d79f3baa30e62c313195035ab0ecc8578003c453534"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-event-agency-exterior-max-v1.webp",
+      "bytes": 2848,
+      "sha256": "f29553e7c63337336ebaa46c511a7c1628bcd53a2229e2fb927dba1ce7256f5b"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-event-agency-exterior-max-v1.webp",
+      "bytes": 2848,
+      "sha256": "f29553e7c63337336ebaa46c511a7c1628bcd53a2229e2fb927dba1ce7256f5b"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.387Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1465614
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:54:30.142Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

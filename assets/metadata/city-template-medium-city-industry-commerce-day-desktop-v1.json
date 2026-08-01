@@ -1,0 +1,171 @@
+{
+  "asset_id": "city-template-medium-city-industry-commerce-day-desktop-v1",
+  "manifest_order": 342,
+  "category": "city-template",
+  "batch": "procedural-city-templates",
+  "city": null,
+  "variant": "day-desktop",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-template-medium-city-industry-commerce-day-desktop-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100342,
+  "content_hash": "e8e02f7fc33ac23874e4b86ad0583d71981fc634789ef6c0fc08258f1f027592",
+  "source_file": "assets/source/global/city-template-medium-city-industry-commerce-day-desktop-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-template-medium-city-industry-commerce-day-desktop-v1-320.avif",
+      "bytes": 2853,
+      "sha256": "a72dfa9e6260a12024175af65e1eca4055a9a825fb1f19146d06589f5ce3b91f"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-industry-commerce-day-desktop-v1-320.webp",
+      "bytes": 2688,
+      "sha256": "cff05860bb5b4a76d4d23397cfd77b38f6966c2128f70a863ed8bd3f8e9e32ab"
+    },
+    {
+      "path": "assets/production/avif/city-template-medium-city-industry-commerce-day-desktop-v1-640.avif",
+      "bytes": 6397,
+      "sha256": "6e1617350aa43980ef7bb5954c0ff383362a0179e9b67c5e76f6e457db3c37d3"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-industry-commerce-day-desktop-v1-640.webp",
+      "bytes": 5348,
+      "sha256": "079057612f9040a54cde2a207db2092d6deed961a0f63df0a59d552895fa24e7"
+    },
+    {
+      "path": "assets/production/avif/city-template-medium-city-industry-commerce-day-desktop-v1-960.avif",
+      "bytes": 10322,
+      "sha256": "9284a22e78d382909c8ff6fc8e6deeeb5e6bbc8e393b6aa85e298c06cebfb376"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-industry-commerce-day-desktop-v1-960.webp",
+      "bytes": 8534,
+      "sha256": "794481420e40a3eda3fbaefa4e1cee688cdb2e058f38beed877b94e7213e046c"
+    },
+    {
+      "path": "assets/production/avif/city-template-medium-city-industry-commerce-day-desktop-v1-1280.avif",
+      "bytes": 14476,
+      "sha256": "44d64ee2e6ae1b5384fa9ab0b9a2c5ef3d5c1abbdbe169351363f7f0e8131a9a"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-industry-commerce-day-desktop-v1-1280.webp",
+      "bytes": 11614,
+      "sha256": "0cab5e5372e761e1687cb22d4b120a0ebea09b6eb3611e8495220cec789200b4"
+    },
+    {
+      "path": "assets/production/avif/city-template-medium-city-industry-commerce-day-desktop-v1-1920.avif",
+      "bytes": 21691,
+      "sha256": "6d6409bb9f0ff3811d870394e288e3c661f21ee02028e85eab3b5c8e122df42f"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-industry-commerce-day-desktop-v1-1920.webp",
+      "bytes": 17814,
+      "sha256": "7fc5fd241b6eb7511a5b7cc8ca1ccd1a4a356f23e27f33130b8d58d3dfa72ecf"
+    },
+    {
+      "path": "assets/production/avif/city-template-medium-city-industry-commerce-day-desktop-v1-2560.avif",
+      "bytes": 29713,
+      "sha256": "f02327b42b3024fab3ad1fedd5f257214a6b84389280c37dacddb540e774edc1"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-industry-commerce-day-desktop-v1-2560.webp",
+      "bytes": 25118,
+      "sha256": "55e5f557496dc34d9bb9f98cd336a3359e61a461a22d7f4452aaee938b02f470"
+    },
+    {
+      "path": "assets/production/avif/city-template-medium-city-industry-commerce-day-desktop-v1-3840.avif",
+      "bytes": 47317,
+      "sha256": "b2095eec310f3303ca0a02e30bacef5c7c091c8a4ba4c83ef7ca0f093266ed83"
+    },
+    {
+      "path": "assets/production/webp/city-template-medium-city-industry-commerce-day-desktop-v1-3840.webp",
+      "bytes": 44168,
+      "sha256": "3ae64b9b9921037e5293deefcd95479428521f951c24f34a0a177d7b53edff0b"
+    },
+    {
+      "path": "assets/production/png/city-template-medium-city-industry-commerce-day-desktop-v1-1280.png",
+      "bytes": 720583,
+      "sha256": "81a2589743328d9446907d6656d9fc49b3dad079f1fc8b2ad105f81862c02148"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/city-template-medium-city-industry-commerce-day-desktop-v1.webp",
+      "bytes": 2688,
+      "sha256": "cff05860bb5b4a76d4d23397cfd77b38f6966c2128f70a863ed8bd3f8e9e32ab"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-template-medium-city-industry-commerce-day-desktop-v1.webp",
+      "bytes": 2688,
+      "sha256": "cff05860bb5b4a76d4d23397cfd77b38f6966c2128f70a863ed8bd3f8e9e32ab"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 91.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:55.389Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 92,
+      "material_quality": 87,
+      "light_quality": 89,
+      "architecture_plausibility": 89,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 92,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All four paged contact sheets were inspected at original resolution.",
+      "The templates are intentionally stylized deterministic fallbacks and remain compositionally useful across every required aspect ratio.",
+      "No missing render, broken geometry, sensitive infrastructure detail, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1647681
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:41:35.812Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "asset_id": "organization-conflict-neutral-territory-v1",
+  "manifest_order": 605,
+  "category": "organization-conflict",
+  "batch": "cartel-conflicts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "neutral-territory",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/organization-conflict-neutral-territory-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100605,
+  "content_hash": "de988f5209a3105f37999cfbeac0528eab7f66d86dad654e1bfd79680e2553dd",
+  "source_file": "assets/source/cartels/organization-conflict-neutral-territory-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/organization-conflict-neutral-territory-v1-320.avif",
+      "bytes": 2646,
+      "sha256": "92c8525418bb33f34191844c6538c0120a833d5b42a231c851bf9da69fafaae4"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-neutral-territory-v1-320.webp",
+      "bytes": 1774,
+      "sha256": "f912d8e8fd36e02d316e270daf6fa07f2469295716c9ae6026c276fbb6f3aa8c"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-neutral-territory-v1-640.avif",
+      "bytes": 6267,
+      "sha256": "f37f887bd0f7d39a1abc09652ef8803bbeb6935610df7ed3e58ccc443f241033"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-neutral-territory-v1-640.webp",
+      "bytes": 4886,
+      "sha256": "db3e83e90d6e2ea58b45e24db4ceb6785d2378500293e71abba3421af47ba2cc"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-neutral-territory-v1-960.avif",
+      "bytes": 12292,
+      "sha256": "12e246b5b3cb981d47d746d1cfd41f277567452a5dca391e1aad22e7aefd2cec"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-neutral-territory-v1-960.webp",
+      "bytes": 9274,
+      "sha256": "684c7febabf8a4d8fb23682a6f86ef82259c016ccc7eabb76f4860d69bf353e8"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-neutral-territory-v1-1280.avif",
+      "bytes": 18253,
+      "sha256": "362feca34de6ae8b960a314cc5110bc6434c7efba8170ec0ffd832851393234e"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-neutral-territory-v1-1280.webp",
+      "bytes": 13200,
+      "sha256": "abac31227d38a0638b587a28a8381a978acd5206d9601f00c5126206b74f9741"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-neutral-territory-v1-1920.avif",
+      "bytes": 28638,
+      "sha256": "890cb41b9b290cfc73107a54369155e6b1e89ddabd30009f2362d07b8b248d63"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-neutral-territory-v1-1920.webp",
+      "bytes": 22062,
+      "sha256": "d8bd6d60141369a320722543b39850faae6dc82aa3cee23e1c09c9d1d6b9d4cb"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-neutral-territory-v1-2560.avif",
+      "bytes": 36804,
+      "sha256": "6511b7d63ca1bbf04e02c50ec96ee96d776dc052bb4068efa8d59488c3f64705"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-neutral-territory-v1-2560.webp",
+      "bytes": 29454,
+      "sha256": "297a3bd78650331fafed0e72c094b71a7364d24478ba025f5d41a46a63cf0f72"
+    },
+    {
+      "path": "assets/production/avif/organization-conflict-neutral-territory-v1-3840.avif",
+      "bytes": 57076,
+      "sha256": "6cf55a768d478f8e8499bded6e824968e3714264104526cc20092a88deb78042"
+    },
+    {
+      "path": "assets/production/webp/organization-conflict-neutral-territory-v1-3840.webp",
+      "bytes": 48376,
+      "sha256": "50f150901d5c2fa94b470d8714b5368d3cbfe69987320e7761fb968240a7fa3a"
+    },
+    {
+      "path": "assets/production/png/organization-conflict-neutral-territory-v1-1280.png",
+      "bytes": 171382,
+      "sha256": "3ca79c86916a40d58bdfcd3035f2fabb619e32b7c5655dc225e9a32e6d80e8f5"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/organization-conflict-neutral-territory-v1.webp",
+      "bytes": 1774,
+      "sha256": "f912d8e8fd36e02d316e270daf6fa07f2469295716c9ae6026c276fbb6f3aa8c"
+    },
+    {
+      "path": "apps/mobile/assets/library/organization-conflict-neutral-territory-v1.webp",
+      "bytes": 1774,
+      "sha256": "f912d8e8fd36e02d316e270daf6fa07f2469295716c9ae6026c276fbb6f3aa8c"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:59.519Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 93,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Conflict phases remain fictional and abstract, with no actionable real-world violence, hacking, or sabotage content.",
+      "No missing render, unsafe instruction, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 213137
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:28:34.526Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

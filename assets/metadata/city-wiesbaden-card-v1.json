@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-wiesbaden-card-v1",
+  "manifest_order": 265,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "wiesbaden",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-wiesbaden-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100265,
+  "content_hash": "2101ba8aa486b68380910f8e6bdaaeeca7dcf818c5cce024e4e44a47366d47ce",
+  "source_file": "assets/source/cities/city-wiesbaden-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-wiesbaden-card-v1-320.avif",
+      "bytes": 3546,
+      "sha256": "1ae8a89e34f154a9a11967b67e6b302b30a4f917375918794c647f45ac2fe807"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-card-v1-320.webp",
+      "bytes": 3402,
+      "sha256": "fa3a98bcbaf6befbed19219748c7303b2745258a654764917ab831376617e744"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-card-v1-640.avif",
+      "bytes": 7557,
+      "sha256": "1a46e575ba428349b46ed0002a7f7151b6bb4cf905f8f2a6c482e3e7b18f6252"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-card-v1-640.webp",
+      "bytes": 6520,
+      "sha256": "c5174d9d4c3fc2015ffe3aa01ee82334e9d7de44d4d16cb7bdbdf9b4199e5940"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-card-v1-960.avif",
+      "bytes": 13206,
+      "sha256": "c56706bdfe4048f62901f2c4e6480e828528d68a537b69305553b01ab0f83499"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-card-v1-960.webp",
+      "bytes": 10590,
+      "sha256": "cea4cb2bfe7f0c3e39a047508450a480b37ea961f6730006f3736877ce7da9a4"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-card-v1-1280.avif",
+      "bytes": 18097,
+      "sha256": "de5e7bf7d08ccfcd058b38d54743d0c079079bb8de6c92da80475f5e95e9dccd"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-card-v1-1280.webp",
+      "bytes": 14998,
+      "sha256": "c56fd46fc9a65598bdaead0b358b16306c9f89d07270414640e0ec1c70689738"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-card-v1-1920.avif",
+      "bytes": 27659,
+      "sha256": "c262d562cc190b6ac56b4f4cdf393150c57b8fe08837c80bee839f62be8385f7"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-card-v1-1920.webp",
+      "bytes": 24210,
+      "sha256": "9120d26b9d911d60da16fa9a15630fdefa16074f4128406a4b1ada59201bea9b"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-card-v1-2560.avif",
+      "bytes": 39582,
+      "sha256": "34f4612f040e4798c158c42dee3a59cab0055c098e213cdce172c2ef83061228"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-card-v1-2560.webp",
+      "bytes": 36018,
+      "sha256": "bef61ac62d72799a31634fb0f93d335e06e1e707fe9230824070484e3d0cc22f"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-card-v1-3840.avif",
+      "bytes": 63419,
+      "sha256": "e39e6942b6ce0ed6e1d2e45c1b43d81d34bbf0e36385a15031f8b2123827f5a7"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-card-v1-3840.webp",
+      "bytes": 64816,
+      "sha256": "4d9faed6fab9f22d80cdfd8e8ca8f8c197df691633355d3968273bc4803fd24b"
+    },
+    {
+      "path": "assets/production/png/city-wiesbaden-card-v1-1280.png",
+      "bytes": 1249871,
+      "sha256": "0682b3685e6cfe342d13f10927533c7870931b6dae92f507dc8ff3258aed1464"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-card-v1-320.avif",
+      "bytes": 3546,
+      "sha256": "1ae8a89e34f154a9a11967b67e6b302b30a4f917375918794c647f45ac2fe807"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-card-v1-320.webp",
+      "bytes": 3402,
+      "sha256": "fa3a98bcbaf6befbed19219748c7303b2745258a654764917ab831376617e744"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-card-v1-640.avif",
+      "bytes": 7557,
+      "sha256": "1a46e575ba428349b46ed0002a7f7151b6bb4cf905f8f2a6c482e3e7b18f6252"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-card-v1-640.webp",
+      "bytes": 6520,
+      "sha256": "c5174d9d4c3fc2015ffe3aa01ee82334e9d7de44d4d16cb7bdbdf9b4199e5940"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-card-v1-960.avif",
+      "bytes": 13206,
+      "sha256": "c56706bdfe4048f62901f2c4e6480e828528d68a537b69305553b01ab0f83499"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-card-v1-960.webp",
+      "bytes": 10590,
+      "sha256": "cea4cb2bfe7f0c3e39a047508450a480b37ea961f6730006f3736877ce7da9a4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-card-v1-1280.avif",
+      "bytes": 18097,
+      "sha256": "de5e7bf7d08ccfcd058b38d54743d0c079079bb8de6c92da80475f5e95e9dccd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-card-v1-1280.webp",
+      "bytes": 14998,
+      "sha256": "c56fd46fc9a65598bdaead0b358b16306c9f89d07270414640e0ec1c70689738"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-card-v1-1920.avif",
+      "bytes": 27659,
+      "sha256": "c262d562cc190b6ac56b4f4cdf393150c57b8fe08837c80bee839f62be8385f7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-card-v1-1920.webp",
+      "bytes": 24210,
+      "sha256": "9120d26b9d911d60da16fa9a15630fdefa16074f4128406a4b1ada59201bea9b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-card-v1-2560.avif",
+      "bytes": 39582,
+      "sha256": "34f4612f040e4798c158c42dee3a59cab0055c098e213cdce172c2ef83061228"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-card-v1-2560.webp",
+      "bytes": 36018,
+      "sha256": "bef61ac62d72799a31634fb0f93d335e06e1e707fe9230824070484e3d0cc22f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-card-v1-3840.avif",
+      "bytes": 63419,
+      "sha256": "e39e6942b6ce0ed6e1d2e45c1b43d81d34bbf0e36385a15031f8b2123827f5a7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-card-v1-3840.webp",
+      "bytes": 64816,
+      "sha256": "4d9faed6fab9f22d80cdfd8e8ca8f8c197df691633355d3968273bc4803fd24b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-card-v1-1280.png",
+      "bytes": 1249871,
+      "sha256": "0682b3685e6cfe342d13f10927533c7870931b6dae92f507dc8ff3258aed1464"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-wiesbaden-card-v1.webp",
+      "bytes": 3402,
+      "sha256": "fa3a98bcbaf6befbed19219748c7303b2745258a654764917ab831376617e744"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-wiesbaden-card-v1.webp",
+      "bytes": 3402,
+      "sha256": "fa3a98bcbaf6befbed19219748c7303b2745258a654764917ab831376617e744"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.774Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1660848
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:46:02.376Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

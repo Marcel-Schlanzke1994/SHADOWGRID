@@ -1,0 +1,110 @@
+{
+  "asset_id": "city-hannover-silhouette-v1",
+  "manifest_order": 170,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "hannover",
+  "variant": "silhouette",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:5",
+  "width": 3200,
+  "height": 1000,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/city-hannover-silhouette-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100170,
+  "content_hash": "736871c5fc7da1439441a84c7d5f7d1f3fde02635164b94614f338dc50e475f3",
+  "source_file": "assets/source/cities/city-hannover-silhouette-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/city-hannover-silhouette-v1.svg",
+      "bytes": 3687,
+      "sha256": "736871c5fc7da1439441a84c7d5f7d1f3fde02635164b94614f338dc50e475f3"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-silhouette-v1-320.webp",
+      "bytes": 3346,
+      "sha256": "4ea1ca2c4f5fe2c35eb08fbd7cda0819645d9320b6871ce3f13d1031b7f9a7b0"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-silhouette-v1.svg",
+      "bytes": 3687,
+      "sha256": "736871c5fc7da1439441a84c7d5f7d1f3fde02635164b94614f338dc50e475f3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-silhouette-v1-320.webp",
+      "bytes": 3346,
+      "sha256": "4ea1ca2c4f5fe2c35eb08fbd7cda0819645d9320b6871ce3f13d1031b7f9a7b0"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-hannover-silhouette-v1.webp",
+      "bytes": 3346,
+      "sha256": "4ea1ca2c4f5fe2c35eb08fbd7cda0819645d9320b6871ce3f13d1031b7f9a7b0"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-hannover-silhouette-v1.webp",
+      "bytes": 3346,
+      "sha256": "4ea1ca2c4f5fe2c35eb08fbd7cda0819645d9320b6871ce3f13d1031b7f9a7b0"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.739Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 3687
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:16:55.365Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

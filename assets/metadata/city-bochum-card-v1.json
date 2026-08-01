@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-bochum-card-v1",
+  "manifest_order": 193,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "bochum",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-bochum-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100193,
+  "content_hash": "419168c99dd205bafbaf6aab8834cd619bf2164c6507a21bc7ca220359d25b99",
+  "source_file": "assets/source/cities/city-bochum-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-bochum-card-v1-320.avif",
+      "bytes": 3412,
+      "sha256": "9b6e0185b84f43feb227d6aded2d1e04e2482f4ec69999b6fe785b85f7fa89f0"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-card-v1-320.webp",
+      "bytes": 3220,
+      "sha256": "94f3bc5d1884a729546b3556bf0fe1cb164f72fbc78520805586589cde4d1ec5"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-card-v1-640.avif",
+      "bytes": 7251,
+      "sha256": "a91dc849b29c9570e770363a006b94b4f9ea38a188807538ae2db998fbde0776"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-card-v1-640.webp",
+      "bytes": 6178,
+      "sha256": "8286d4f7876063297348af28e7faefa311466219e555be5c24d304a6e334b5a8"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-card-v1-960.avif",
+      "bytes": 13058,
+      "sha256": "b728fca291992da5798c291b46721dcb575b563fd30c7383c07e3161d72c3aa4"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-card-v1-960.webp",
+      "bytes": 10238,
+      "sha256": "9e22b50d709d257315f26759e627b3a9ef9ffccb020e13dee6e1b0d5ffb8a86d"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-card-v1-1280.avif",
+      "bytes": 17749,
+      "sha256": "e8b1b05aa0a271415252d721425b70bc7949c9776708873f5c88f3d6b9aed003"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-card-v1-1280.webp",
+      "bytes": 14262,
+      "sha256": "f0e1a97fa31a3770f8b0f29bf2809c5c37c629222429947043f660da1fd54ead"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-card-v1-1920.avif",
+      "bytes": 27157,
+      "sha256": "217fa801435a25ed05a67a89149f240c11d61ceb20173f241e35b7d78f488f6d"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-card-v1-1920.webp",
+      "bytes": 23664,
+      "sha256": "0bf3f60175e6af716138bc52dd018ef73c7b990e0cc85c424677d752fd894289"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-card-v1-2560.avif",
+      "bytes": 38393,
+      "sha256": "7284dc8da8aff4160100b9026b3d2ae4e4d93713531fec0739cf344368d3aa5e"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-card-v1-2560.webp",
+      "bytes": 35076,
+      "sha256": "5d0a0ca4a79e8215bea9be415105d97c7373cca537759ed62f828b9c45a72118"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-card-v1-3840.avif",
+      "bytes": 61789,
+      "sha256": "4d3e86bc6105463086d0d7774c85cdee63be3cfa03b551829fdb7420bf4d8a6c"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-card-v1-3840.webp",
+      "bytes": 63130,
+      "sha256": "09d6e71f39da07d7a444ccb856d891acc5ea03fc1aa183a43334f19b1cfcb6fb"
+    },
+    {
+      "path": "assets/production/png/city-bochum-card-v1-1280.png",
+      "bytes": 1222003,
+      "sha256": "98b421b414e581441e6a758e91ed49e08e47a62722568b17e351d21590aa6a01"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-card-v1-320.avif",
+      "bytes": 3412,
+      "sha256": "9b6e0185b84f43feb227d6aded2d1e04e2482f4ec69999b6fe785b85f7fa89f0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-card-v1-320.webp",
+      "bytes": 3220,
+      "sha256": "94f3bc5d1884a729546b3556bf0fe1cb164f72fbc78520805586589cde4d1ec5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-card-v1-640.avif",
+      "bytes": 7251,
+      "sha256": "a91dc849b29c9570e770363a006b94b4f9ea38a188807538ae2db998fbde0776"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-card-v1-640.webp",
+      "bytes": 6178,
+      "sha256": "8286d4f7876063297348af28e7faefa311466219e555be5c24d304a6e334b5a8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-card-v1-960.avif",
+      "bytes": 13058,
+      "sha256": "b728fca291992da5798c291b46721dcb575b563fd30c7383c07e3161d72c3aa4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-card-v1-960.webp",
+      "bytes": 10238,
+      "sha256": "9e22b50d709d257315f26759e627b3a9ef9ffccb020e13dee6e1b0d5ffb8a86d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-card-v1-1280.avif",
+      "bytes": 17749,
+      "sha256": "e8b1b05aa0a271415252d721425b70bc7949c9776708873f5c88f3d6b9aed003"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-card-v1-1280.webp",
+      "bytes": 14262,
+      "sha256": "f0e1a97fa31a3770f8b0f29bf2809c5c37c629222429947043f660da1fd54ead"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-card-v1-1920.avif",
+      "bytes": 27157,
+      "sha256": "217fa801435a25ed05a67a89149f240c11d61ceb20173f241e35b7d78f488f6d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-card-v1-1920.webp",
+      "bytes": 23664,
+      "sha256": "0bf3f60175e6af716138bc52dd018ef73c7b990e0cc85c424677d752fd894289"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-card-v1-2560.avif",
+      "bytes": 38393,
+      "sha256": "7284dc8da8aff4160100b9026b3d2ae4e4d93713531fec0739cf344368d3aa5e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-card-v1-2560.webp",
+      "bytes": 35076,
+      "sha256": "5d0a0ca4a79e8215bea9be415105d97c7373cca537759ed62f828b9c45a72118"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-card-v1-3840.avif",
+      "bytes": 61789,
+      "sha256": "4d3e86bc6105463086d0d7774c85cdee63be3cfa03b551829fdb7420bf4d8a6c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-card-v1-3840.webp",
+      "bytes": 63130,
+      "sha256": "09d6e71f39da07d7a444ccb856d891acc5ea03fc1aa183a43334f19b1cfcb6fb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-card-v1-1280.png",
+      "bytes": 1222003,
+      "sha256": "98b421b414e581441e6a758e91ed49e08e47a62722568b17e351d21590aa6a01"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-bochum-card-v1.webp",
+      "bytes": 3220,
+      "sha256": "94f3bc5d1884a729546b3556bf0fe1cb164f72fbc78520805586589cde4d1ec5"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-bochum-card-v1.webp",
+      "bytes": 3220,
+      "sha256": "94f3bc5d1884a729546b3556bf0fe1cb164f72fbc78520805586589cde4d1ec5"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.957Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1621555
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:41:02.641Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-logistics-company-management-interior-v1",
+  "manifest_order": 484,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "management-interior",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-logistics-company-management-interior-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100484,
+  "content_hash": "84c357fa991bc94e9ec8721a818080d4415aff8a0b42c1d44099a973d570e23e",
+  "source_file": "assets/source/businesses/business-logistics-company-management-interior-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-logistics-company-management-interior-v1-320.avif",
+      "bytes": 2890,
+      "sha256": "72cd765c91435bae26c2e4261bea1536bc2c704d37d5a3b1cc031071bf125c7e"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-management-interior-v1-320.webp",
+      "bytes": 2558,
+      "sha256": "ad002bc7248d057b7cd91f282d56e08b3f0e3a134bc48a5267a28798ced0323e"
+    },
+    {
+      "path": "assets/production/avif/business-logistics-company-management-interior-v1-640.avif",
+      "bytes": 6289,
+      "sha256": "15e3897b08a95ef3abecd7415ae37991efecb6c60cfc289afe935db48025f93a"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-management-interior-v1-640.webp",
+      "bytes": 5288,
+      "sha256": "668a130b93bf52e8f632b262f1ea87edcb17e67f5463716a62d4b486389dc1ef"
+    },
+    {
+      "path": "assets/production/avif/business-logistics-company-management-interior-v1-960.avif",
+      "bytes": 10263,
+      "sha256": "d8420f7c93f849ad80918e07d4c5c85f77d0e6285e44cc8c0d988dade35d3568"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-management-interior-v1-960.webp",
+      "bytes": 9014,
+      "sha256": "2fc53b0e85e9c45542c3d7264249ae9fc5ba4095bd6ff8b643dbdbb15bc48aa3"
+    },
+    {
+      "path": "assets/production/avif/business-logistics-company-management-interior-v1-1280.avif",
+      "bytes": 14390,
+      "sha256": "f21f36f5e1e472bd8f5b6d2b522447d8936f9d772e635e4f9e376cc01efaed44"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-management-interior-v1-1280.webp",
+      "bytes": 11906,
+      "sha256": "ec75a24a21c961e06fb9c20fac40e276717390f479218fe65442084b39e82ebf"
+    },
+    {
+      "path": "assets/production/avif/business-logistics-company-management-interior-v1-1920.avif",
+      "bytes": 21823,
+      "sha256": "b8431d94778c054e58572134cbd20cf0d40de4b70afb056cf5e727d36945f3d7"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-management-interior-v1-1920.webp",
+      "bytes": 19328,
+      "sha256": "6f08af08a6e41efbc2ddb310419db8953a18ee68b328b12da24ac9e6c44967bf"
+    },
+    {
+      "path": "assets/production/avif/business-logistics-company-management-interior-v1-2560.avif",
+      "bytes": 29090,
+      "sha256": "983ea0d0bf337d6b3402a4c85bd3c1cd68db26aa9fff3188f401fdf353c3949a"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-management-interior-v1-2560.webp",
+      "bytes": 26318,
+      "sha256": "f90aa98a95718cefcd54c2a3dd72748308613776b6851c548b1d3d7f94f31024"
+    },
+    {
+      "path": "assets/production/avif/business-logistics-company-management-interior-v1-3840.avif",
+      "bytes": 47494,
+      "sha256": "dbfe293040c156ee649391feb4c5551aec3f76c554e5fa9561f1f0d9f1b85e91"
+    },
+    {
+      "path": "assets/production/webp/business-logistics-company-management-interior-v1-3840.webp",
+      "bytes": 44504,
+      "sha256": "2bac04f970f957864698fc6a2921b4bfe166953bd6c7dc6de116be0429e3e7fb"
+    },
+    {
+      "path": "assets/production/png/business-logistics-company-management-interior-v1-1280.png",
+      "bytes": 629484,
+      "sha256": "272d2eef87a1abfd1f494125d36381e4384c337cd362c518c458f8ad910068b5"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-logistics-company-management-interior-v1.webp",
+      "bytes": 2558,
+      "sha256": "ad002bc7248d057b7cd91f282d56e08b3f0e3a134bc48a5267a28798ced0323e"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-logistics-company-management-interior-v1.webp",
+      "bytes": 2558,
+      "sha256": "ad002bc7248d057b7cd91f282d56e08b3f0e3a134bc48a5267a28798ced0323e"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.536Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1436288
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:57:57.905Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

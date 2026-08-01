@@ -1,0 +1,171 @@
+{
+  "asset_id": "tutorial-organization-conflict-season-goals-v1",
+  "manifest_order": 719,
+  "category": "tutorial",
+  "batch": "tutorial",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/tutorial-organization-conflict-season-goals-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100719,
+  "content_hash": "3165f537546c4fce3420a7f4556e1ba8c3d660b856b6b3feeb4bc2350bd847d0",
+  "source_file": "assets/source/tutorial/tutorial-organization-conflict-season-goals-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/tutorial-organization-conflict-season-goals-v1-320.avif",
+      "bytes": 2047,
+      "sha256": "52f2a730f51037250fd5251bfc1a46304e1a190f03700afa3d2e6db6eb1426a4"
+    },
+    {
+      "path": "assets/production/webp/tutorial-organization-conflict-season-goals-v1-320.webp",
+      "bytes": 1306,
+      "sha256": "65d814847a2f5601ad29bb5463a3a864e661254a16cae29372f8634ecd613b7f"
+    },
+    {
+      "path": "assets/production/avif/tutorial-organization-conflict-season-goals-v1-640.avif",
+      "bytes": 4443,
+      "sha256": "6660007e6812fa82b82807552b71786da28f5359ba3d808b83035bb35d0ce376"
+    },
+    {
+      "path": "assets/production/webp/tutorial-organization-conflict-season-goals-v1-640.webp",
+      "bytes": 3314,
+      "sha256": "884b08898bfc256884e3ac191a526dabc05b6683845e44c00359015085165e23"
+    },
+    {
+      "path": "assets/production/avif/tutorial-organization-conflict-season-goals-v1-960.avif",
+      "bytes": 8822,
+      "sha256": "4dad40b33f5e051ae64ebbcf53f8f077db48d30f0bef7d9356c4bf9ab694ef62"
+    },
+    {
+      "path": "assets/production/webp/tutorial-organization-conflict-season-goals-v1-960.webp",
+      "bytes": 6250,
+      "sha256": "f78f60daa0481bb0e2bfa10be1ab2bf3d6d74bc2a50ec2e74ccb23988fe9a49d"
+    },
+    {
+      "path": "assets/production/avif/tutorial-organization-conflict-season-goals-v1-1280.avif",
+      "bytes": 12632,
+      "sha256": "18532985b8d03e87a9353864eb98bf15eda1ac7ccfa4b7df754955010967997c"
+    },
+    {
+      "path": "assets/production/webp/tutorial-organization-conflict-season-goals-v1-1280.webp",
+      "bytes": 9060,
+      "sha256": "1b51ff3f06e015efccc10698268000896802132cf06afb7ea5373ba4fc95a107"
+    },
+    {
+      "path": "assets/production/avif/tutorial-organization-conflict-season-goals-v1-1920.avif",
+      "bytes": 20262,
+      "sha256": "186bbf754e1b721c5f05639334fcff36774500813df3685834c63dd9fe878607"
+    },
+    {
+      "path": "assets/production/webp/tutorial-organization-conflict-season-goals-v1-1920.webp",
+      "bytes": 16360,
+      "sha256": "948ba3f3c5561b827806a09b9693a45c04c2fd96bb440bbd1af5cc6a65ed192c"
+    },
+    {
+      "path": "assets/production/avif/tutorial-organization-conflict-season-goals-v1-2560.avif",
+      "bytes": 28014,
+      "sha256": "12aff0bb2de350cf3cb58ed1c063fdda45d65ad4337033cb82f92247d9b304ac"
+    },
+    {
+      "path": "assets/production/webp/tutorial-organization-conflict-season-goals-v1-2560.webp",
+      "bytes": 23110,
+      "sha256": "746dd73baa776f359007cddd29aa417800d6a5ff7232610477f9c70cc22bfee3"
+    },
+    {
+      "path": "assets/production/avif/tutorial-organization-conflict-season-goals-v1-3840.avif",
+      "bytes": 47245,
+      "sha256": "e74093125ab5c24de844f4e825f68f9c251a8efb9241ce51a1e6ff16db7b99dd"
+    },
+    {
+      "path": "assets/production/webp/tutorial-organization-conflict-season-goals-v1-3840.webp",
+      "bytes": 40370,
+      "sha256": "1c6448a4a7be34c471e8035ec4759f27a3b791830979d46c6e8cfccc1657a638"
+    },
+    {
+      "path": "assets/production/png/tutorial-organization-conflict-season-goals-v1-1280.png",
+      "bytes": 129406,
+      "sha256": "b7fdbb616f190a27dd8059068c20969db7e386322e637af5eecbc90f80319f05"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/tutorial-organization-conflict-season-goals-v1.webp",
+      "bytes": 1306,
+      "sha256": "65d814847a2f5601ad29bb5463a3a864e661254a16cae29372f8634ecd613b7f"
+    },
+    {
+      "path": "apps/mobile/assets/library/tutorial-organization-conflict-season-goals-v1.webp",
+      "bytes": 1306,
+      "sha256": "65d814847a2f5601ad29bb5463a3a864e661254a16cae29372f8634ecd613b7f"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:19.756Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 95,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 97,
+      "mobile_suitability": 95,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 94,
+      "contrast": 95,
+      "geometry_quality": 95,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "The thematic glyph, card progression, safe area, and directional flow remain clear in both desktop and mobile placements.",
+      "No missing render, unsafe content, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 172143
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:34:51.244Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

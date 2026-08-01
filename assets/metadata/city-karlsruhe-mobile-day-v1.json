@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-karlsruhe-mobile-day-v1",
+  "manifest_order": 247,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "karlsruhe",
+  "variant": "mobile-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-karlsruhe-mobile-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100247,
+  "content_hash": "0b9c45aa35d82b4592d1965dbfd5fe489f5ac467e15e7c6ee9e6fdf8e9c26e30",
+  "source_file": "assets/source/cities/city-karlsruhe-mobile-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-karlsruhe-mobile-day-v1-320.avif",
+      "bytes": 4458,
+      "sha256": "369ef170e00786c2e4862cb3c94b38374f9af6d30c0741a38c6cd0a9a7bf1a6f"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-mobile-day-v1-320.webp",
+      "bytes": 3816,
+      "sha256": "9f44ca6fbc6eb8609d350d20b480ab5f8a38f4ab003311a8e1a90dc2b12d2f56"
+    },
+    {
+      "path": "assets/production/avif/city-karlsruhe-mobile-day-v1-640.avif",
+      "bytes": 9659,
+      "sha256": "77dceaa057a7e9378741d9656528fc90f88bc4ccaf70965da753c18e4a1ba5b8"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-mobile-day-v1-640.webp",
+      "bytes": 7544,
+      "sha256": "6ed6c7160e579c6072c7ab8eaf8b870b92008b5416cdb1227f0af4625d57d81a"
+    },
+    {
+      "path": "assets/production/avif/city-karlsruhe-mobile-day-v1-960.avif",
+      "bytes": 16423,
+      "sha256": "856a0a2dd0235f2a36fca4a882f25767b67b3bc0569f98bbdbcbd6b8193a0d16"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-mobile-day-v1-960.webp",
+      "bytes": 13398,
+      "sha256": "1f5e70d0251c4c133009fb37855c79174bf17ab261a53dd0a2c780dcc37cc940"
+    },
+    {
+      "path": "assets/production/avif/city-karlsruhe-mobile-day-v1-1280.avif",
+      "bytes": 22218,
+      "sha256": "948042f8b290a7ba294992fba309dae262d1b443be587174985ebc72fdb9a9f1"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-mobile-day-v1-1280.webp",
+      "bytes": 19018,
+      "sha256": "eea93067ae99636215162fb6ba5306c32e0342e6dcf8dea04c08c3e08ced9a7b"
+    },
+    {
+      "path": "assets/production/avif/city-karlsruhe-mobile-day-v1-1920.avif",
+      "bytes": 36183,
+      "sha256": "37a9d3685c47034788d59b97be44acbd76a9cea070a68560a6bd3b2e803bd44b"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-mobile-day-v1-1920.webp",
+      "bytes": 33996,
+      "sha256": "f005cc5406d7c8412cd3536ff26c5a50f5241e258b1c7cd517e2fbdd21b79a62"
+    },
+    {
+      "path": "assets/production/avif/city-karlsruhe-mobile-day-v1-2560.avif",
+      "bytes": 52806,
+      "sha256": "f37dac563f344aaa028b0dffa217afce166682e07a9998fdc2785b428315ec7a"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-mobile-day-v1-2560.webp",
+      "bytes": 51692,
+      "sha256": "e24d9a049cce5ece80977d87b0e68605ae50c119cb031ebe03d24f80f64ff65e"
+    },
+    {
+      "path": "assets/production/avif/city-karlsruhe-mobile-day-v1-3840.avif",
+      "bytes": 94354,
+      "sha256": "f9da5ea08ed919877dddd6ecf8c12c7b009fc4fa467c31f8eabb3bac5b6a4eb8"
+    },
+    {
+      "path": "assets/production/webp/city-karlsruhe-mobile-day-v1-3840.webp",
+      "bytes": 102524,
+      "sha256": "7df90f1c40c7f73ea99c500f37180a3b29802662003daee085a127acfc2caae4"
+    },
+    {
+      "path": "assets/production/png/city-karlsruhe-mobile-day-v1-1152.png",
+      "bytes": 1689784,
+      "sha256": "0b9c45aa35d82b4592d1965dbfd5fe489f5ac467e15e7c6ee9e6fdf8e9c26e30"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-mobile-day-v1-320.avif",
+      "bytes": 4458,
+      "sha256": "369ef170e00786c2e4862cb3c94b38374f9af6d30c0741a38c6cd0a9a7bf1a6f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-mobile-day-v1-320.webp",
+      "bytes": 3816,
+      "sha256": "9f44ca6fbc6eb8609d350d20b480ab5f8a38f4ab003311a8e1a90dc2b12d2f56"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-mobile-day-v1-640.avif",
+      "bytes": 9659,
+      "sha256": "77dceaa057a7e9378741d9656528fc90f88bc4ccaf70965da753c18e4a1ba5b8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-mobile-day-v1-640.webp",
+      "bytes": 7544,
+      "sha256": "6ed6c7160e579c6072c7ab8eaf8b870b92008b5416cdb1227f0af4625d57d81a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-mobile-day-v1-960.avif",
+      "bytes": 16423,
+      "sha256": "856a0a2dd0235f2a36fca4a882f25767b67b3bc0569f98bbdbcbd6b8193a0d16"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-mobile-day-v1-960.webp",
+      "bytes": 13398,
+      "sha256": "1f5e70d0251c4c133009fb37855c79174bf17ab261a53dd0a2c780dcc37cc940"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-mobile-day-v1-1280.avif",
+      "bytes": 22218,
+      "sha256": "948042f8b290a7ba294992fba309dae262d1b443be587174985ebc72fdb9a9f1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-mobile-day-v1-1280.webp",
+      "bytes": 19018,
+      "sha256": "eea93067ae99636215162fb6ba5306c32e0342e6dcf8dea04c08c3e08ced9a7b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-mobile-day-v1-1920.avif",
+      "bytes": 36183,
+      "sha256": "37a9d3685c47034788d59b97be44acbd76a9cea070a68560a6bd3b2e803bd44b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-mobile-day-v1-1920.webp",
+      "bytes": 33996,
+      "sha256": "f005cc5406d7c8412cd3536ff26c5a50f5241e258b1c7cd517e2fbdd21b79a62"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-mobile-day-v1-2560.avif",
+      "bytes": 52806,
+      "sha256": "f37dac563f344aaa028b0dffa217afce166682e07a9998fdc2785b428315ec7a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-mobile-day-v1-2560.webp",
+      "bytes": 51692,
+      "sha256": "e24d9a049cce5ece80977d87b0e68605ae50c119cb031ebe03d24f80f64ff65e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-mobile-day-v1-3840.avif",
+      "bytes": 94354,
+      "sha256": "f9da5ea08ed919877dddd6ecf8c12c7b009fc4fa467c31f8eabb3bac5b6a4eb8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-mobile-day-v1-3840.webp",
+      "bytes": 102524,
+      "sha256": "7df90f1c40c7f73ea99c500f37180a3b29802662003daee085a127acfc2caae4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-karlsruhe-mobile-day-v1-1152.png",
+      "bytes": 1689784,
+      "sha256": "0b9c45aa35d82b4592d1965dbfd5fe489f5ac467e15e7c6ee9e6fdf8e9c26e30"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-karlsruhe-mobile-day-v1.webp",
+      "bytes": 3816,
+      "sha256": "9f44ca6fbc6eb8609d350d20b480ab5f8a38f4ab003311a8e1a90dc2b12d2f56"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-karlsruhe-mobile-day-v1.webp",
+      "bytes": 3816,
+      "sha256": "9f44ca6fbc6eb8609d350d20b480ab5f8a38f4ab003311a8e1a90dc2b12d2f56"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.567Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1689784
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:32:47.833Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

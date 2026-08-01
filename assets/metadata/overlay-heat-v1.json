@@ -1,0 +1,171 @@
+{
+  "asset_id": "overlay-heat-v1",
+  "manifest_order": 821,
+  "category": "overlay",
+  "batch": "weather-overlays",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/overlay-heat-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100821,
+  "content_hash": "a218d8a6b939ccd1b19f46ac7a54551b9e0bb04c8bdedebd5e5f7980444947c2",
+  "source_file": "assets/source/effects/overlay-heat-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/overlay-heat-v1-320.avif",
+      "bytes": 11850,
+      "sha256": "76a09539443119a82cc537554e72c7cc8429356b2fa839e474fe757ae80c4e9e"
+    },
+    {
+      "path": "assets/production/webp/overlay-heat-v1-320.webp",
+      "bytes": 16880,
+      "sha256": "72902ceded214c4e27735500f6eb5f342cd36307350157ca6639ff1b53803920"
+    },
+    {
+      "path": "assets/production/avif/overlay-heat-v1-640.avif",
+      "bytes": 23094,
+      "sha256": "23dfa261e83700eab3ff485e1185e789d170a77343c79d5d454a28a715dc7fad"
+    },
+    {
+      "path": "assets/production/webp/overlay-heat-v1-640.webp",
+      "bytes": 30702,
+      "sha256": "7a5ba5d8f1424d58122f212a8dd4d6fdc9f9bf6210d139d26386265481a3b345"
+    },
+    {
+      "path": "assets/production/avif/overlay-heat-v1-960.avif",
+      "bytes": 41233,
+      "sha256": "9dedf41eae22943eb92f621baffbdbc45fd2a8e8169bb659a8336ef3434cb66b"
+    },
+    {
+      "path": "assets/production/webp/overlay-heat-v1-960.webp",
+      "bytes": 52190,
+      "sha256": "4b6f33856a75f6fd773a48e1f3f618de6b04266ab598868bb1615e27d66e88a7"
+    },
+    {
+      "path": "assets/production/avif/overlay-heat-v1-1280.avif",
+      "bytes": 57601,
+      "sha256": "e3df4f95c997a8b2a7012fdd651767e6e9fd34a3deae062960fd4aebd9294105"
+    },
+    {
+      "path": "assets/production/webp/overlay-heat-v1-1280.webp",
+      "bytes": 72030,
+      "sha256": "ab261ef809d54324695f75affb3f54859da328ce016c9e2a4ff1e611627e3ff5"
+    },
+    {
+      "path": "assets/production/avif/overlay-heat-v1-1920.avif",
+      "bytes": 127960,
+      "sha256": "b6e7f53afecd5b97ce793b54d3a2347998f2a1ea7cca73b28551b639db7a36d4"
+    },
+    {
+      "path": "assets/production/webp/overlay-heat-v1-1920.webp",
+      "bytes": 103318,
+      "sha256": "b26e74337396c75fe069ae09534ccdb93bcda5506bc8377a9db0c350c25d7be4"
+    },
+    {
+      "path": "assets/production/avif/overlay-heat-v1-2560.avif",
+      "bytes": 113811,
+      "sha256": "7cf89fba0926a8ba567d4202e739505d4b4e672b40a3372b526f6bcce7d0ea54"
+    },
+    {
+      "path": "assets/production/webp/overlay-heat-v1-2560.webp",
+      "bytes": 96624,
+      "sha256": "059708f5f987bf30366dfaad15fc98617b9bf62528215ce603bac7765db5aa02"
+    },
+    {
+      "path": "assets/production/avif/overlay-heat-v1-3840.avif",
+      "bytes": 180068,
+      "sha256": "9cafe02e5b92675c6f0597281a6bed21d88c950f6c2ae3a538d09b755ce937f5"
+    },
+    {
+      "path": "assets/production/webp/overlay-heat-v1-3840.webp",
+      "bytes": 179844,
+      "sha256": "7d07fc6f9bcabc06c313c18aa8fe4a43e5b5a26df4dd1c36362be92f105406b5"
+    },
+    {
+      "path": "assets/production/png/overlay-heat-v1-1280.png",
+      "bytes": 45452,
+      "sha256": "26f003aff794f59a99188598715b6aa530569248278f8b22cf1f53f10fb38731"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/overlay-heat-v1.webp",
+      "bytes": 16880,
+      "sha256": "72902ceded214c4e27735500f6eb5f342cd36307350157ca6639ff1b53803920"
+    },
+    {
+      "path": "apps/mobile/assets/library/overlay-heat-v1.webp",
+      "bytes": 16880,
+      "sha256": "72902ceded214c4e27735500f6eb5f342cd36307350157ca6639ff1b53803920"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.4,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:28.101Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 93,
+      "architecture_plausibility": 90,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Boom, crisis, authority, organization control, contested, and blocked states use distinct graph, scan, zone, cross, and hatch semantics.",
+      "Transparent weather and material overlays were checked against the contact-sheet dark background; no unintended opaque fill or broken render remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": true,
+      "bytes": 70875
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T06:03:20.466Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

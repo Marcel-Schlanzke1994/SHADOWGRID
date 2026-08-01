@@ -1,0 +1,171 @@
+{
+  "asset_id": "facility-headquarters-maximum-level-v1",
+  "manifest_order": 513,
+  "category": "facility",
+  "batch": "facilities",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "maximum-level",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/facility-headquarters-maximum-level-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100513,
+  "content_hash": "b60d33fecf894d05f7feec758eae2fda1019e8cb452b16f2b6c6baa7ff34611e",
+  "source_file": "assets/source/facilities/facility-headquarters-maximum-level-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/facility-headquarters-maximum-level-v1-320.avif",
+      "bytes": 3057,
+      "sha256": "710a7bd94e9596c9dc570c3423074cbc339bc3801aec9d0b89306df57831668f"
+    },
+    {
+      "path": "assets/production/webp/facility-headquarters-maximum-level-v1-320.webp",
+      "bytes": 3056,
+      "sha256": "f241b8a5fd79b9387b517b4b392edf396ef1b2cafd251fd8eac3dc2767736af3"
+    },
+    {
+      "path": "assets/production/avif/facility-headquarters-maximum-level-v1-640.avif",
+      "bytes": 6938,
+      "sha256": "a66cdfb6a84132ff13c5f52d80f80a7a5704b9ba47b02d5efa49d137c141e252"
+    },
+    {
+      "path": "assets/production/webp/facility-headquarters-maximum-level-v1-640.webp",
+      "bytes": 6636,
+      "sha256": "9e975d8ad8395eccd2708c9dd027749f766c58e847ec66ff7e8360484ad3bb25"
+    },
+    {
+      "path": "assets/production/avif/facility-headquarters-maximum-level-v1-960.avif",
+      "bytes": 11591,
+      "sha256": "de397f290123fe9e10dce3e889a8fc5000123804e6a325ded688046250356e4a"
+    },
+    {
+      "path": "assets/production/webp/facility-headquarters-maximum-level-v1-960.webp",
+      "bytes": 10828,
+      "sha256": "47c7ed824d04f30727cf88f094235dd70dbcabe0f37c1dafd2347421ddf9275c"
+    },
+    {
+      "path": "assets/production/avif/facility-headquarters-maximum-level-v1-1280.avif",
+      "bytes": 16742,
+      "sha256": "b8c6f0915f2b0770d60a54d7e6fb6dc3ede8fccb0a33425a1402a3163de52d09"
+    },
+    {
+      "path": "assets/production/webp/facility-headquarters-maximum-level-v1-1280.webp",
+      "bytes": 14296,
+      "sha256": "7b209a0b9030b4933d1df8ce90cc41269978561adb8493a0b2d520819f07f177"
+    },
+    {
+      "path": "assets/production/avif/facility-headquarters-maximum-level-v1-1920.avif",
+      "bytes": 25976,
+      "sha256": "432f5de2e9633c4523eca7f3e17d61bc8e896bbefe9a2f6c4c04827fd91481ed"
+    },
+    {
+      "path": "assets/production/webp/facility-headquarters-maximum-level-v1-1920.webp",
+      "bytes": 22656,
+      "sha256": "b1f7dc3d4e66655f041c00c918649eebd5e3a1feafbaf09f1c7cc3c2e3134f52"
+    },
+    {
+      "path": "assets/production/avif/facility-headquarters-maximum-level-v1-2560.avif",
+      "bytes": 34991,
+      "sha256": "6f5488e99e383908b7be9b4c7f8ac0fd457fe7dd8ba219411ae031a5d35bf5c1"
+    },
+    {
+      "path": "assets/production/webp/facility-headquarters-maximum-level-v1-2560.webp",
+      "bytes": 31084,
+      "sha256": "b787f63b8ec7eee4511e07bd60ca022b8a80295236e6a8d6aa78f7821464276e"
+    },
+    {
+      "path": "assets/production/avif/facility-headquarters-maximum-level-v1-3840.avif",
+      "bytes": 57211,
+      "sha256": "af6dbb97b2a516c2171eaaa875b2950e7553ad323ccb95545e47990c76b4e142"
+    },
+    {
+      "path": "assets/production/webp/facility-headquarters-maximum-level-v1-3840.webp",
+      "bytes": 51870,
+      "sha256": "cfdfb674d8c6c79301ba747643a0263ee2ff6241aa007b9f8b52c4b07d18cc1e"
+    },
+    {
+      "path": "assets/production/png/facility-headquarters-maximum-level-v1-1280.png",
+      "bytes": 661957,
+      "sha256": "a755937cb7d571963388797c955eebf27b1b773cb27f56cb944802e2c3f73936"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/facility-headquarters-maximum-level-v1.webp",
+      "bytes": 3056,
+      "sha256": "f241b8a5fd79b9387b517b4b392edf396ef1b2cafd251fd8eac3dc2767736af3"
+    },
+    {
+      "path": "apps/mobile/assets/library/facility-headquarters-maximum-level-v1.webp",
+      "bytes": 3056,
+      "sha256": "f241b8a5fd79b9387b517b4b392edf396ef1b2cafd251fd8eac3dc2767736af3"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:26.882Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 92,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 90,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution.",
+      "Facility categories remain visually coherent and readable without depicting sensitive real-world infrastructure.",
+      "No missing render, unsafe detail, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1484608
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:07:28.618Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

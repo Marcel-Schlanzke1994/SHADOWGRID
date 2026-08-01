@@ -170,6 +170,16 @@
       "path": "apps/web/public/assets/global/global-command-center-night-v1-1280.png",
       "bytes": 1324144,
       "sha256": "81427830c89b23996f2aab9351b33025cbb57bb131042f3c6d1e878753051294"
+    },
+    {
+      "path": "apps/web/public/assets/library/global-command-center-night-v1.webp",
+      "bytes": 2672,
+      "sha256": "c1b846f87933b75f1c8170bebf23143211404d515dae204f994e3b5ba76ce236"
+    },
+    {
+      "path": "apps/mobile/assets/library/global-command-center-night-v1.webp",
+      "bytes": 2672,
+      "sha256": "c1b846f87933b75f1c8170bebf23143211404d515dae204f994e3b5ba76ce236"
     }
   ],
   "contains_text": false,

@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-bremen-mobile-day-v1",
+  "manifest_order": 151,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "bremen",
+  "variant": "mobile-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-bremen-mobile-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100151,
+  "content_hash": "0dc288dfe482999bc4d186411c43020879a5eb563c2ff4534ce8d7cc1880dd22",
+  "source_file": "assets/source/cities/city-bremen-mobile-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-bremen-mobile-day-v1-320.avif",
+      "bytes": 4959,
+      "sha256": "b5250140e3b0a1ec0f2ecc36656d53589e7b1259e8006a8ccbe47bfae6c55f17"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-mobile-day-v1-320.webp",
+      "bytes": 4420,
+      "sha256": "f08ca69b255bf205307168bc32306bb9362122550c277fa023eabf19aadf5492"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-mobile-day-v1-640.avif",
+      "bytes": 10525,
+      "sha256": "020191420004b5a342b8277fdecb8150480926be0434de279cb48e0977dbbd0e"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-mobile-day-v1-640.webp",
+      "bytes": 8502,
+      "sha256": "17b29eaa2c79d92816641f427d3208044911dc77aab0721010d79eaed0b44e5c"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-mobile-day-v1-960.avif",
+      "bytes": 18143,
+      "sha256": "5ee7f460b753df6eead6b931829897f519e2933643615104fc69faa2dd44506f"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-mobile-day-v1-960.webp",
+      "bytes": 14608,
+      "sha256": "28352fb6ef16ca831cba29048c2fa52926346f4d5f6fb4c4e2f28b8184b7b931"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-mobile-day-v1-1280.avif",
+      "bytes": 24261,
+      "sha256": "e7f013a0be736e3e27ddc13336e2ad35e04686380d5e1705047fe797ee068a73"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-mobile-day-v1-1280.webp",
+      "bytes": 20146,
+      "sha256": "d710ac31fb3e2cadd8e9ce42903e326ef155b156475989a12462455cd061f44c"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-mobile-day-v1-1920.avif",
+      "bytes": 39031,
+      "sha256": "a4405fbf017d1d7891053786a7650ceb53aab92572c01ee72dd597a3b8e441f5"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-mobile-day-v1-1920.webp",
+      "bytes": 35722,
+      "sha256": "ac4fc67ff15e27a3cb011746bbdfc6473070acb9b545d526f00d2d1ae92feb75"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-mobile-day-v1-2560.avif",
+      "bytes": 55852,
+      "sha256": "e6cebf4e2c7f3c5652e3e3cbea3c98c6909b367f202a6fce9d345563b0b240bb"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-mobile-day-v1-2560.webp",
+      "bytes": 54814,
+      "sha256": "fc5741ee126891492371c3a53c45a59783aab8f98308b80397b7daf47f714b37"
+    },
+    {
+      "path": "assets/production/avif/city-bremen-mobile-day-v1-3840.avif",
+      "bytes": 100656,
+      "sha256": "b290a3492283d643028515ba4d3657276e94831aba5031445251cb202acc3543"
+    },
+    {
+      "path": "assets/production/webp/city-bremen-mobile-day-v1-3840.webp",
+      "bytes": 105352,
+      "sha256": "b47bd255d17cf63bb6ea2ae60ca03cdc44f29e57740e1292964770ddf7e5ff11"
+    },
+    {
+      "path": "assets/production/png/city-bremen-mobile-day-v1-1152.png",
+      "bytes": 1661411,
+      "sha256": "0dc288dfe482999bc4d186411c43020879a5eb563c2ff4534ce8d7cc1880dd22"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-day-v1-320.avif",
+      "bytes": 4959,
+      "sha256": "b5250140e3b0a1ec0f2ecc36656d53589e7b1259e8006a8ccbe47bfae6c55f17"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-day-v1-320.webp",
+      "bytes": 4420,
+      "sha256": "f08ca69b255bf205307168bc32306bb9362122550c277fa023eabf19aadf5492"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-day-v1-640.avif",
+      "bytes": 10525,
+      "sha256": "020191420004b5a342b8277fdecb8150480926be0434de279cb48e0977dbbd0e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-day-v1-640.webp",
+      "bytes": 8502,
+      "sha256": "17b29eaa2c79d92816641f427d3208044911dc77aab0721010d79eaed0b44e5c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-day-v1-960.avif",
+      "bytes": 18143,
+      "sha256": "5ee7f460b753df6eead6b931829897f519e2933643615104fc69faa2dd44506f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-day-v1-960.webp",
+      "bytes": 14608,
+      "sha256": "28352fb6ef16ca831cba29048c2fa52926346f4d5f6fb4c4e2f28b8184b7b931"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-day-v1-1280.avif",
+      "bytes": 24261,
+      "sha256": "e7f013a0be736e3e27ddc13336e2ad35e04686380d5e1705047fe797ee068a73"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-day-v1-1280.webp",
+      "bytes": 20146,
+      "sha256": "d710ac31fb3e2cadd8e9ce42903e326ef155b156475989a12462455cd061f44c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-day-v1-1920.avif",
+      "bytes": 39031,
+      "sha256": "a4405fbf017d1d7891053786a7650ceb53aab92572c01ee72dd597a3b8e441f5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-day-v1-1920.webp",
+      "bytes": 35722,
+      "sha256": "ac4fc67ff15e27a3cb011746bbdfc6473070acb9b545d526f00d2d1ae92feb75"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-day-v1-2560.avif",
+      "bytes": 55852,
+      "sha256": "e6cebf4e2c7f3c5652e3e3cbea3c98c6909b367f202a6fce9d345563b0b240bb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-day-v1-2560.webp",
+      "bytes": 54814,
+      "sha256": "fc5741ee126891492371c3a53c45a59783aab8f98308b80397b7daf47f714b37"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-day-v1-3840.avif",
+      "bytes": 100656,
+      "sha256": "b290a3492283d643028515ba4d3657276e94831aba5031445251cb202acc3543"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-day-v1-3840.webp",
+      "bytes": 105352,
+      "sha256": "b47bd255d17cf63bb6ea2ae60ca03cdc44f29e57740e1292964770ddf7e5ff11"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bremen-mobile-day-v1-1152.png",
+      "bytes": 1661411,
+      "sha256": "0dc288dfe482999bc4d186411c43020879a5eb563c2ff4534ce8d7cc1880dd22"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-bremen-mobile-day-v1.webp",
+      "bytes": 4420,
+      "sha256": "f08ca69b255bf205307168bc32306bb9362122550c277fa023eabf19aadf5492"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-bremen-mobile-day-v1.webp",
+      "bytes": 4420,
+      "sha256": "f08ca69b255bf205307168bc32306bb9362122550c277fa023eabf19aadf5492"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.595Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1661411
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:00:53.405Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

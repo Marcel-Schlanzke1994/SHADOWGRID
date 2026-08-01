@@ -1,0 +1,75 @@
+{
+  "asset_id": "icon-diplomacy-proposal-v1",
+  "manifest_order": 776,
+  "category": "icon",
+  "batch": "ui-icons",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "24:24",
+  "width": 24,
+  "height": 24,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/icon-diplomacy-proposal-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100776,
+  "content_hash": "609547a3ae0f5091b9493fc3122f1c35523a9975d97466069274dc81ccb2bb18",
+  "source_file": "assets/source/icons/icon-diplomacy-proposal-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/icon-diplomacy-proposal-v1.svg",
+      "bytes": 561,
+      "sha256": "609547a3ae0f5091b9493fc3122f1c35523a9975d97466069274dc81ccb2bb18"
+    },
+    {
+      "path": "assets/production/webp/icon-diplomacy-proposal-v1-320.webp",
+      "bytes": 1230,
+      "sha256": "135b0003d4d3c4781de45a137c5e0b7c6014bfce28e09cd744c506f56b3385c8"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/icon-diplomacy-proposal-v1.webp",
+      "bytes": 1230,
+      "sha256": "135b0003d4d3c4781de45a137c5e0b7c6014bfce28e09cd744c506f56b3385c8"
+    },
+    {
+      "path": "apps/mobile/assets/library/icon-diplomacy-proposal-v1.webp",
+      "bytes": 1230,
+      "sha256": "135b0003d4d3c4781de45a137c5e0b7c6014bfce28e09cd744c506f56b3385c8"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 561
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:51:42.661Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

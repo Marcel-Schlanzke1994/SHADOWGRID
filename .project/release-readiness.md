@@ -1,18 +1,22 @@
 # Release readiness
 
+Status: **German-city roadmap release candidate passed** on 2026-07-28.
+
 | Area | Status | Evidence |
 | --- | --- | --- |
-| Local build | Passed | Web production bundle and 13-route Expo export completed |
-| Tests | Passed | 20 API, 6 web, 3 mobile, 6 browser E2E and load-smoke checks passed |
-| Security | Passed | secret scan, Bandit, pip-audit and pnpm audit report no known issue |
-| Containers | Passed in CI | GitHub Actions builds API/web images and runs migration, bootstrap, Redis, ARQ, API and SPA smoke checks |
-| Production data | Live | dedicated Railway PostgreSQL migrated; one Vesper world with 8 districts and 12 events bootstrapped idempotently |
-| Production cache/worker | Live | dedicated Railway Redis 8.2.1; ARQ cron worker healthy in the supervised service |
-| Web/API production | Live | <https://shadowgrid-production-be34.up.railway.app> returns HTTPS web, PWA, health and readiness responses |
-| Initial administration | Passed | ignored local credential handoff verified against live auth; one-time Railway bootstrap variables removed afterward |
-| Localization/accessibility | Passed | 198-key EN/DE parity, pseudo-locales, RTL E2E and axe checks |
-| Transactional email | Provider input required | SMTP TLS/auth is implemented; host, sender and credentials must come from a real mail provider |
-| Android | Source/config ready | signed AAB/APK requires EAS/Google signing credentials and device checks |
-| iOS | Source/config ready | signed IPA requires Apple/EAS credentials and provider environment |
+| Roadmap | Passed | Phases 0–12 are aligned in the gap analysis and traceability matrix |
+| Bootstrap/data | Passed | Migration, repeated deterministic seed, Alembic drift check and persisted release invariants |
+| Backend | Passed | 107 tests, 84.38% coverage, strict mypy over 61 source files |
+| Web | Passed | 12 Vitest tests, 95.74% statement/80% branch coverage, 222-module production build |
+| Mobile | Passed | 3 Jest tests at 100%, strict lint/typecheck and 15-route Expo export |
+| Browser | Passed | 54 Playwright desktop/mobile scenarios; 4 intentional mobile-only desktop-zoom skips |
+| Load | Passed | 100 players, 500 companies and 10,000 orders; real tick, query and atomic match in 78.90 seconds |
+| Security | Passed | no Critical or unresolved High finding; secret scan, Bandit, pip-audit and reviewed pnpm gate passed |
+| Recovery | Passed | verified local backup/restore preserved SHA-256 and post-restore invariants; PostgreSQL dump path retained |
+| API/i18n | Passed | OpenAPI client regenerated; 777 canonical English keys with complete German parity |
+| Full gate | Passed | `pnpm validate`, the exact command behind `make verify-release`, exited 0 |
 
-RUN 2 is complete for the explicitly authorized GitHub-to-Railway browser/API release. Signed store artifacts and real outbound email remain provider-account operations; neither is falsely claimed as configured.
+The earlier Railway browser/API deployment remains historical evidence and was not
+silently mutated by this local roadmap implementation. Promoting this candidate, signing
+native store artifacts and configuring outbound transactional-email credentials remain
+explicit external operator actions.

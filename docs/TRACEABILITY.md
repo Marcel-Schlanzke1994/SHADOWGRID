@@ -1,6 +1,34 @@
 # Master-goal traceability
 
+The finalization run maintains the current, status-controlled evidence matrix in
+[FINAL_REQUIREMENT_MATRIX.md](FINAL_REQUIREMENT_MATRIX.md), with the machine-readable
+source at `.project/final-requirement-matrix.json`. The historical tables below remain the
+implementation trace for the release-candidate roadmap.
+
 This matrix maps the reviewed project briefs and Season 0 design document to the implemented RUN 1 deliverables and the verified RUN 2 Railway release. The two “Projekt Netzwerke” exports contain the same normalized text and were both reviewed.
+
+The newer German-city economy roadmap is now tracked independently in
+[roadmap-gap-analysis.md](../.project/roadmap-gap-analysis.md). The earlier RUN 1/RUN 2
+release evidence remains valid for its original Vesper scope; it does not claim completion
+of the expanded roadmap.
+
+| German-city roadmap slice | Implementation | Verification |
+| --- | --- | --- |
+| Phase 1: authentication and onboarding | Köln, five districts, one-time city selection and exact €80,000 cash grant | `test_onboarding.py`, auth regression tests and `world-assets.spec.ts` |
+| Phase 2: companies and investments | Private companies, accounts, balanced ledger, 10,000-bps ownership, investment history and confirmation UI | migration `0003_company_finance`, `test_companies.py` and `company-flow.spec.ts` |
+| Phase 3: economy and ledger | City-sector markets, deterministic capacity allocation, balanced profit/loss settlement, atomic hourly ticks, immutable reports and accessible dashboard time series | migration `0004_economy_ticks`, `test_economy.py`, generated OpenAPI and `company-flow.spec.ts` |
+| Phase 4: specialists and local AI | Deterministic six-role labour market, owned-company hiring/assignment/release, transparent economy modifiers, balanced salary settlement, immutable payroll reports, five pausable strategies and nine seeded local competitors | migrations `0005_specialists_ai` and `0006_city_foreign_keys`, Alembic drift check, `test_specialists_ai.py`, generated OpenAPI and `specialist-flow.spec.ts` |
+| Phase 5: IPO and stock exchange | Configurable IPO qualification, immutable fixed share supply, holdings, price-time order book, atomic ledger-backed trades, reservations, expiry, price snapshots, portfolio, dividends and shareholder views | migration `0007_exchange`, fresh upgrade/downgrade/drift cycle, `test_exchange.py`, generated OpenAPI and desktop/mobile `exchange-flow.spec.ts` |
+| Phase 6: cartels and district influence | One-active-membership constraint, invitations, six canonical roles, transactional leadership transfer, cartel ledger accounts, two-person expense approval, projects, concurrent contributions, aggregate district influence, control points, audit activity and seasonal ranking | migration `0008_cartels`, fresh upgrade/downgrade/drift cycle, `test_cartels.py`, generated OpenAPI and desktop/mobile `cartel-flow.spec.ts` |
+| Phase 7: intelligence and abstract PvP | Three information classes, stored deterministic outcomes, confidence/accuracy/age/expiry, protection and cartel modifiers, detection pressure, cooldowns/rate limits, immutable buyer report copies and five temporary abstract strategic effects | migration `0009_intelligence_pvp`, fresh upgrade/downgrade/drift cycle, `test_intelligence_pvp.py`, generated OpenAPI and desktop/mobile `intelligence-flow.spec.ts` |
+| Phase 8: world events and administration | Five versioned event contracts, preview without activation, immutable concrete instances, deterministic bounded overlap, idempotent start/expiry/end, economy and payroll modifiers, audit and durable realtime notifications | migration `0010_world_events`, fresh upgrade/downgrade/drift cycle, `test_world_events.py`, generated OpenAPI and desktop/mobile `world-events-flow.spec.ts` |
+| Phase 9: seasons, scoring and reset | Six scheduled phases, template goals, twelve integer scoring categories, explicit competition ties, immutable score/Hall-of-Fame/archive snapshots, permanent account rewards and ledger-backed non-destructive reset | migration `0011_seasons`, fresh upgrade/downgrade/drift cycle, `test_seasons.py`, generated OpenAPI and desktop/mobile `season-flow.spec.ts` |
+| Phase 10A: commercial contracts | Transparent supply/service tenders, immutable scored bids and terms, explicit issuer award, provider-capacity reservation, balanced periodic settlements, abstract breach/reputation effects and season-safe cancellation | migration `0012_contracts`, fresh upgrade/downgrade/drift cycle, `test_contracts.py`, season regression and desktop/mobile `contract-flow.spec.ts` |
+| Phase 10B: company loans | Immutable risk snapshots and fixed-rate offers, abstract collateral, confirmed balanced disbursement, exact principal/interest installments, abstract default effects and season-safe archival | migration `0013_loans`, fresh upgrade/downgrade/drift cycle, `test_loans.py`, season regression and desktop/mobile `loan-flow.spec.ts` |
+| Phase 10C: company bonds | Immutable fixed-supply terms, reserved offering proceeds, holdings plus ownership ledger, balanced subscriptions/coupons/redemption, atomic holder settlement, abstract default and season redemption | migration `0014_bonds`, fresh upgrade/downgrade/drift cycle, `test_bonds.py`, season regression and desktop/mobile `bond-flow.spec.ts` |
+| Phase 10D: real estate and headquarters | Daily district price/rent indices, persistent player property, balanced system purchase and resale, company leases and use, immutable rent/improvement history, headquarters upgrades and season-safe ownership | migration `0015_real_estate`, fresh upgrade/downgrade/drift cycle, `test_real_estate.py`, season regression and desktop/mobile `real-estate-flow.spec.ts` |
+| Phase 11: realtime and UX | Authenticated versioned WebSocket delivery, server-derived world/city/cartel/player audiences, durable reconnect cursors, canonical gameplay events, immutable notifications, unread/read reconciliation and accessible responsive feed | migration `0016_realtime_notifications`, fresh upgrade/downgrade/drift cycle, `test_realtime_notifications.py`, backend regression and desktop/mobile `realtime-notifications-flow.spec.ts` |
+| Phase 12: release hardening | Shared transactional rate limits, bounded HTTP/WebSocket input, production CORS validation, persisted seed contract, database invariant verifier, real release-scale load fixture, verified PostgreSQL/local backup and restore, dependency hardening and deterministic browser orchestration | migration `0017_release_hardening`, release-hardening regressions, `pnpm data:verify`, `pnpm test:load`, `pnpm test:security`, backup/restore proof and the full release gate |
 
 | Requirement area | Implementation | Verification |
 | --- | --- | --- |

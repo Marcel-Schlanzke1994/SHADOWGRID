@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-event-agency-management-interior-v1",
+  "manifest_order": 472,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "management-interior",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-event-agency-management-interior-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100472,
+  "content_hash": "6209fc32709eb7e833afb1dbcbe36a16adf8d16127a5b9b137c1f789bea03e13",
+  "source_file": "assets/source/businesses/business-event-agency-management-interior-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-event-agency-management-interior-v1-320.avif",
+      "bytes": 2828,
+      "sha256": "c86ab00246f1cf5dac2add643690cc0b74f223ebf4cc1860ee2a1a2a3cc69c3a"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-management-interior-v1-320.webp",
+      "bytes": 2498,
+      "sha256": "19a7f29a07de8afe5807459c1030d0b393f3ba2a9ec6767428ecaece9076b2c5"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-management-interior-v1-640.avif",
+      "bytes": 6171,
+      "sha256": "fc2f9cc96e49f7a02abbd6a09978a425ce28eff81e911cc45953603e5351f1b9"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-management-interior-v1-640.webp",
+      "bytes": 4982,
+      "sha256": "f6bd55feba1c1b290c6bc2b95706b364d4cc409afef3614388eaf0b1a638f410"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-management-interior-v1-960.avif",
+      "bytes": 10073,
+      "sha256": "eedd475cf3c3ca5ba730a31dc1391cf0631586c647a41dc2d4236317f62b9f89"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-management-interior-v1-960.webp",
+      "bytes": 8250,
+      "sha256": "146c0d349f0d8cac44816a48f91cc6030422982f0d8a71cf0a073fe1e707978c"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-management-interior-v1-1280.avif",
+      "bytes": 13728,
+      "sha256": "ae2316584696fd0332ef10d1bf7bd7e64f599b71e8eda869fa09904c0bb63afe"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-management-interior-v1-1280.webp",
+      "bytes": 11096,
+      "sha256": "c488bbfd5f0e2405b01a875bcd61bd53f167d2f2545f3993d2c6105e2faa23b4"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-management-interior-v1-1920.avif",
+      "bytes": 21356,
+      "sha256": "c7d84038176c485fb9f55250f19ddac873d323c81eaa4c41e9adca1f23ba8c35"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-management-interior-v1-1920.webp",
+      "bytes": 17030,
+      "sha256": "9e24eb3e1ad37c59d69fae169561950db0cad5ba7ad1af673dac6860a719412e"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-management-interior-v1-2560.avif",
+      "bytes": 27960,
+      "sha256": "c4916780f09d4f77182aba927f817f78bd11f0501662487d38b652fdcb3cd0da"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-management-interior-v1-2560.webp",
+      "bytes": 23702,
+      "sha256": "78b8ff3014c69e05a0edeff0978dd280e118ead0d2435292d48f6fc62a5d24eb"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-management-interior-v1-3840.avif",
+      "bytes": 45681,
+      "sha256": "dbef648dcbe828ec0796f0b34fd5a552dbd573150feec953639c23ce24874776"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-management-interior-v1-3840.webp",
+      "bytes": 41206,
+      "sha256": "5a97ccfad01af064b0849000a1518cfc55f5120847bbddeebac56ba5009e5ebc"
+    },
+    {
+      "path": "assets/production/png/business-event-agency-management-interior-v1-1280.png",
+      "bytes": 622515,
+      "sha256": "635ff0e253fcdfa5c72d1477bff413c6de45693c33f732d10c392d223f37de1b"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-event-agency-management-interior-v1.webp",
+      "bytes": 2498,
+      "sha256": "19a7f29a07de8afe5807459c1030d0b393f3ba2a9ec6767428ecaece9076b2c5"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-event-agency-management-interior-v1.webp",
+      "bytes": 2498,
+      "sha256": "19a7f29a07de8afe5807459c1030d0b393f3ba2a9ec6767428ecaece9076b2c5"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.399Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1436263
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:54:31.366Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

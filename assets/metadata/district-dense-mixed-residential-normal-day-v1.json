@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-dense-mixed-residential-normal-day-v1",
+  "manifest_order": 447,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-dense-mixed-residential-normal-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100447,
+  "content_hash": "fe160993bddf7170a048923f27dcc40a1f88e79d3e389ae3667baeef4dd0873b",
+  "source_file": "assets/source/districts/district-dense-mixed-residential-normal-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-normal-day-v1-320.avif",
+      "bytes": 2937,
+      "sha256": "a926d4b7685a0b5cff783a8762b53c3e4d605c90b676478340696d890325db22"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-normal-day-v1-320.webp",
+      "bytes": 2540,
+      "sha256": "7d49a89b66a4a0105bbae18628b36bebef2a163d7735065ed50b86fa0eeab87f"
+    },
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-normal-day-v1-640.avif",
+      "bytes": 6288,
+      "sha256": "9d74bedb517bb1cfa9f2b76ef306d853acee1cdfcc45a79729cd77ea3ad52a40"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-normal-day-v1-640.webp",
+      "bytes": 5196,
+      "sha256": "4df70f4c18b4052c9aebc40df13f87197c7c17098dcc940cb61d2433f899534f"
+    },
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-normal-day-v1-960.avif",
+      "bytes": 10072,
+      "sha256": "1a57e181f96a0210fbadc61ef724ab30820bd02c330bdb1c0e1c9cb268793e9d"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-normal-day-v1-960.webp",
+      "bytes": 8530,
+      "sha256": "4c12bb5b5ce1354579350b1a29403fa5deaf0e3664bcc35ada58745bf84eb937"
+    },
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-normal-day-v1-1280.avif",
+      "bytes": 14497,
+      "sha256": "bdb26cca147e6133c15638227fed9bb5f7e3cf93fcadd8f0709bc81ef95fa593"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-normal-day-v1-1280.webp",
+      "bytes": 11346,
+      "sha256": "4df5a0b8258ecfb5358da367fba988dc0d2e4b6ccc2384ae47411d852a8472e4"
+    },
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-normal-day-v1-1920.avif",
+      "bytes": 21526,
+      "sha256": "677680f2a1b625bd182b1524e8bcd3fdf6d37dd5065f4c5958f6900afa409277"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-normal-day-v1-1920.webp",
+      "bytes": 17894,
+      "sha256": "cd6281c5de8aaa9477b22153daf4399b7f3b7e049f124311735b10dd1de60cb3"
+    },
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-normal-day-v1-2560.avif",
+      "bytes": 28847,
+      "sha256": "124a89376e3ff2d904b69a5847bee47dcfd2e8e611ca8cb052099be84431408e"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-normal-day-v1-2560.webp",
+      "bytes": 24402,
+      "sha256": "57e63f4217fda136ec9724c3251c671717e4eb03bc75767932681de49d21f20f"
+    },
+    {
+      "path": "assets/production/avif/district-dense-mixed-residential-normal-day-v1-3840.avif",
+      "bytes": 46890,
+      "sha256": "cb0827303a4a4f41109e54eb2235438a0f78d29e92c5b4ee0ef33f7f956f08bc"
+    },
+    {
+      "path": "assets/production/webp/district-dense-mixed-residential-normal-day-v1-3840.webp",
+      "bytes": 43014,
+      "sha256": "0bbe0e5e0fae35464a8c81fd3aa15fa372803109f9dff6e1dcf149307271b158"
+    },
+    {
+      "path": "assets/production/png/district-dense-mixed-residential-normal-day-v1-1280.png",
+      "bytes": 628134,
+      "sha256": "84ccc0b1e178034848a8c89ee79f5f8da8e1fa6c280c510fb928cffbdee6c55c"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-dense-mixed-residential-normal-day-v1.webp",
+      "bytes": 2540,
+      "sha256": "7d49a89b66a4a0105bbae18628b36bebef2a163d7735065ed50b86fa0eeab87f"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-dense-mixed-residential-normal-day-v1.webp",
+      "bytes": 2540,
+      "sha256": "7d49a89b66a4a0105bbae18628b36bebef2a163d7735065ed50b86fa0eeab87f"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.342Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1430344
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:46:59.491Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

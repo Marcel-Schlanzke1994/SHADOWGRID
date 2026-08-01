@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-bonn-desktop-night-v1",
+  "manifest_order": 214,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "bonn",
+  "variant": "desktop-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-bonn-desktop-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100214,
+  "content_hash": "c4395bd56853cd0043ac45bbbe9252c3048bf7ea5e4fd8a80f514b65bb514cbf",
+  "source_file": "assets/source/cities/city-bonn-desktop-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-bonn-desktop-night-v1-640.avif",
+      "bytes": 8698,
+      "sha256": "72e6a388a91981060efd87ccd5d17d91736c60b203d78e8aede2e680ea1a8995"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-desktop-night-v1-640.webp",
+      "bytes": 9802,
+      "sha256": "01ea88afcc8f2736b37f4908187862afb0fad095fc63748bae1f14404b4c7a7d"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-desktop-night-v1-320.avif",
+      "bytes": 3977,
+      "sha256": "577faee1b3f45cf980f53d8b3653e24d16e5dc89e3293e6d767277c56e5d7fb3"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-desktop-night-v1-320.webp",
+      "bytes": 4514,
+      "sha256": "898c2cfbf7ed5bd8b27453ce83c39843b4a15a33020a3473b79ba8fdc9fa4390"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-desktop-night-v1-960.avif",
+      "bytes": 14635,
+      "sha256": "9c7dd81af5e18549f498946a9ab0ab9e4b2a1987398974e90f39374e17f3e7ac"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-desktop-night-v1-960.webp",
+      "bytes": 16252,
+      "sha256": "be1c2ad9b12afad76b6a4ad4b94aba1e26d8ce99ce17190972286e5fab09f42b"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-desktop-night-v1-1280.avif",
+      "bytes": 20783,
+      "sha256": "afeafe7119dc2e62a6dfd0c857317cbf33b71f5ad698331804ad16eac50a1fbe"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-desktop-night-v1-1280.webp",
+      "bytes": 21100,
+      "sha256": "72ecea7c79cd5c3bcda67f82071bc4ef1b54c858e893502c4c5d0c4a91caedaa"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-desktop-night-v1-1920.avif",
+      "bytes": 31681,
+      "sha256": "418fb972fdb598a972b64f29d49ce10c8e2cf097204095f7e5ee1b5c38fd2b74"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-desktop-night-v1-1920.webp",
+      "bytes": 30954,
+      "sha256": "8b701db34232b0f66d9791fef06be655189f64d90d104c39b0570e6685c9215c"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-desktop-night-v1-2560.avif",
+      "bytes": 43741,
+      "sha256": "194ab812cc56019049f8c30f6477d64aba1f4a055b8666acc8f62d5456b55e26"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-desktop-night-v1-2560.webp",
+      "bytes": 40286,
+      "sha256": "f0c39b932d6a195377e0534ef552e1efa5b46d94fb522fa8d79f0b27f1b61108"
+    },
+    {
+      "path": "assets/production/avif/city-bonn-desktop-night-v1-3840.avif",
+      "bytes": 66629,
+      "sha256": "4127520532850d95e7509858bbbe000174302e68c23de45ff67d9cd6b2526701"
+    },
+    {
+      "path": "assets/production/webp/city-bonn-desktop-night-v1-3840.webp",
+      "bytes": 62954,
+      "sha256": "913bb3d74536681a199f10a47dd31eb2d84f0bc9cf96766b59e66450bba84e89"
+    },
+    {
+      "path": "assets/production/png/city-bonn-desktop-night-v1-1280.png",
+      "bytes": 772733,
+      "sha256": "9c9c8dc2b21b7185dd265b25410b9b3737d924f414d34aa6580906fad537727d"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-night-v1-640.avif",
+      "bytes": 8698,
+      "sha256": "72e6a388a91981060efd87ccd5d17d91736c60b203d78e8aede2e680ea1a8995"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-night-v1-640.webp",
+      "bytes": 9802,
+      "sha256": "01ea88afcc8f2736b37f4908187862afb0fad095fc63748bae1f14404b4c7a7d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-night-v1-320.avif",
+      "bytes": 3977,
+      "sha256": "577faee1b3f45cf980f53d8b3653e24d16e5dc89e3293e6d767277c56e5d7fb3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-night-v1-320.webp",
+      "bytes": 4514,
+      "sha256": "898c2cfbf7ed5bd8b27453ce83c39843b4a15a33020a3473b79ba8fdc9fa4390"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-night-v1-960.avif",
+      "bytes": 14635,
+      "sha256": "9c7dd81af5e18549f498946a9ab0ab9e4b2a1987398974e90f39374e17f3e7ac"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-night-v1-960.webp",
+      "bytes": 16252,
+      "sha256": "be1c2ad9b12afad76b6a4ad4b94aba1e26d8ce99ce17190972286e5fab09f42b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-night-v1-1280.avif",
+      "bytes": 20783,
+      "sha256": "afeafe7119dc2e62a6dfd0c857317cbf33b71f5ad698331804ad16eac50a1fbe"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-night-v1-1280.webp",
+      "bytes": 21100,
+      "sha256": "72ecea7c79cd5c3bcda67f82071bc4ef1b54c858e893502c4c5d0c4a91caedaa"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-night-v1-1920.avif",
+      "bytes": 31681,
+      "sha256": "418fb972fdb598a972b64f29d49ce10c8e2cf097204095f7e5ee1b5c38fd2b74"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-night-v1-1920.webp",
+      "bytes": 30954,
+      "sha256": "8b701db34232b0f66d9791fef06be655189f64d90d104c39b0570e6685c9215c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-night-v1-2560.avif",
+      "bytes": 43741,
+      "sha256": "194ab812cc56019049f8c30f6477d64aba1f4a055b8666acc8f62d5456b55e26"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-night-v1-2560.webp",
+      "bytes": 40286,
+      "sha256": "f0c39b932d6a195377e0534ef552e1efa5b46d94fb522fa8d79f0b27f1b61108"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-night-v1-3840.avif",
+      "bytes": 66629,
+      "sha256": "4127520532850d95e7509858bbbe000174302e68c23de45ff67d9cd6b2526701"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-night-v1-3840.webp",
+      "bytes": 62954,
+      "sha256": "913bb3d74536681a199f10a47dd31eb2d84f0bc9cf96766b59e66450bba84e89"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bonn-desktop-night-v1-1280.png",
+      "bytes": 772733,
+      "sha256": "9c9c8dc2b21b7185dd265b25410b9b3737d924f414d34aa6580906fad537727d"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-bonn-desktop-night-v1.webp",
+      "bytes": 4514,
+      "sha256": "898c2cfbf7ed5bd8b27453ce83c39843b4a15a33020a3473b79ba8fdc9fa4390"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-bonn-desktop-night-v1.webp",
+      "bytes": 4514,
+      "sha256": "898c2cfbf7ed5bd8b27453ce83c39843b4a15a33020a3473b79ba8fdc9fa4390"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.175Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1688671
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:03:14.005Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

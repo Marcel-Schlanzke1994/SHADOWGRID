@@ -1,0 +1,141 @@
+{
+  "schema": "shadowgrid/contact-sheet-pages/v1",
+  "batch": "ui-icons",
+  "generated_at": "2026-07-30T06:19:56.969Z",
+  "asset_count": 96,
+  "page_size": 18,
+  "pages": [
+    {
+      "page": 1,
+      "path": "assets/reports/contact-sheets/ui-icons-pages/page-001.png",
+      "assets": [
+        "icon-navigation-command-v1",
+        "icon-navigation-city-v1",
+        "icon-navigation-germany-v1",
+        "icon-navigation-network-v1",
+        "icon-navigation-businesses-v1",
+        "icon-navigation-specialists-v1",
+        "icon-navigation-operations-v1",
+        "icon-navigation-pvp-v1",
+        "icon-navigation-organization-v1",
+        "icon-navigation-organization-conflict-v1",
+        "icon-navigation-territories-v1",
+        "icon-navigation-alliances-v1",
+        "icon-navigation-diplomacy-v1",
+        "icon-navigation-investigations-v1",
+        "icon-navigation-research-v1",
+        "icon-navigation-messages-v1",
+        "icon-navigation-rankings-v1",
+        "icon-navigation-profile-v1"
+      ]
+    },
+    {
+      "page": 2,
+      "path": "assets/reports/contact-sheets/ui-icons-pages/page-002.png",
+      "assets": [
+        "icon-navigation-settings-v1",
+        "icon-navigation-administration-v1",
+        "icon-resource-cash-v1",
+        "icon-resource-capital-v1",
+        "icon-resource-influence-v1",
+        "icon-resource-information-v1",
+        "icon-resource-logistics-v1",
+        "icon-resource-personnel-v1",
+        "icon-resource-loyalty-v1",
+        "icon-resource-legitimacy-v1",
+        "icon-resource-fear-v1",
+        "icon-resource-investigation-pressure-v1",
+        "icon-resource-stress-v1",
+        "icon-resource-stability-v1",
+        "icon-resource-reputation-v1",
+        "icon-resource-market-share-v1",
+        "icon-resource-defense-v1",
+        "icon-resource-activity-v1"
+      ]
+    },
+    {
+      "page": 3,
+      "path": "assets/reports/contact-sheets/ui-icons-pages/page-003.png",
+      "assets": [
+        "icon-status-pending-v1",
+        "icon-status-active-v1",
+        "icon-status-completed-v1",
+        "icon-status-failed-v1",
+        "icon-status-blocked-v1",
+        "icon-status-locked-v1",
+        "icon-status-warning-v1",
+        "icon-status-online-v1",
+        "icon-status-offline-v1",
+        "icon-status-boosted-v1",
+        "icon-status-reduced-v1",
+        "icon-pvp-economic-attack-v1",
+        "icon-pvp-information-operation-v1",
+        "icon-pvp-influence-conflict-v1",
+        "icon-pvp-talent-recruitment-v1",
+        "icon-pvp-covert-disruption-v1",
+        "icon-diplomacy-alliance-v1",
+        "icon-diplomacy-treaty-v1"
+      ]
+    },
+    {
+      "page": 4,
+      "path": "assets/reports/contact-sheets/ui-icons-pages/page-004.png",
+      "assets": [
+        "icon-diplomacy-ceasefire-v1",
+        "icon-diplomacy-negotiation-v1",
+        "icon-diplomacy-proposal-v1",
+        "icon-diplomacy-accepted-v1",
+        "icon-diplomacy-rejected-v1",
+        "icon-diplomacy-neutral-v1",
+        "icon-diplomacy-contested-v1",
+        "icon-diplomacy-controlled-v1",
+        "icon-building-hospitality-v1",
+        "icon-building-event-agency-v1",
+        "icon-building-security-company-v1",
+        "icon-building-logistics-company-v1",
+        "icon-building-technology-company-v1",
+        "icon-building-property-management-v1",
+        "icon-building-construction-company-v1",
+        "icon-building-media-company-v1",
+        "icon-building-headquarters-v1",
+        "icon-building-finance-office-v1"
+      ]
+    },
+    {
+      "page": 5,
+      "path": "assets/reports/contact-sheets/ui-icons-pages/page-005.png",
+      "assets": [
+        "icon-building-information-center-v1",
+        "icon-building-logistics-center-v1",
+        "icon-building-personnel-academy-v1",
+        "icon-building-compliance-office-v1",
+        "icon-control-add-v1",
+        "icon-control-remove-v1",
+        "icon-control-edit-v1",
+        "icon-control-close-v1",
+        "icon-control-menu-v1",
+        "icon-control-search-v1",
+        "icon-control-filter-v1",
+        "icon-control-sort-v1",
+        "icon-control-previous-v1",
+        "icon-control-next-v1",
+        "icon-control-expand-v1",
+        "icon-control-collapse-v1",
+        "icon-control-refresh-v1",
+        "icon-control-download-v1"
+      ]
+    },
+    {
+      "page": 6,
+      "path": "assets/reports/contact-sheets/ui-icons-pages/page-006.png",
+      "assets": [
+        "icon-control-upload-v1",
+        "icon-control-share-v1",
+        "icon-control-copy-v1",
+        "icon-control-check-v1",
+        "icon-control-alert-v1",
+        "icon-control-help-v1"
+      ]
+    }
+  ]
+}

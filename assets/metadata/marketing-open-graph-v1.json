@@ -1,0 +1,171 @@
+{
+  "asset_id": "marketing-open-graph-v1",
+  "manifest_order": 889,
+  "category": "marketing",
+  "batch": "store-marketing",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "40:21",
+  "width": 1200,
+  "height": 630,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/marketing-open-graph-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100889,
+  "content_hash": "19a17e0ef0fd5a8b6db54755b585911b37e2f4f62a44e6bca7e48d6efac01f91",
+  "source_file": "assets/source/marketing/marketing-open-graph-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/marketing-open-graph-v1-320.avif",
+      "bytes": 2848,
+      "sha256": "69d6a1a3256ce9212ed594049b95c02bbef8e5a590a0a4ec298d1bfdac94cc65"
+    },
+    {
+      "path": "assets/production/webp/marketing-open-graph-v1-320.webp",
+      "bytes": 3144,
+      "sha256": "989d164bc99d4e26ba910d68ea94adea6f006e38a22c8fe0e63f5334e3d62f56"
+    },
+    {
+      "path": "assets/production/avif/marketing-open-graph-v1-640.avif",
+      "bytes": 6131,
+      "sha256": "3690d7e908a57365e3c6dc07a9e0bd6fb9fabc8396a153c7e3a9ca7721e61e6f"
+    },
+    {
+      "path": "assets/production/webp/marketing-open-graph-v1-640.webp",
+      "bytes": 5686,
+      "sha256": "a765a69e560dd5f04bbb0d48c2e949a560f1bdff17dbce884a87c8f0a606dc3a"
+    },
+    {
+      "path": "assets/production/avif/marketing-open-graph-v1-960.avif",
+      "bytes": 11327,
+      "sha256": "2d62a4b5911422e8c2010fe61a7bbd5e52259cfb575053b46729c65d6c1332cf"
+    },
+    {
+      "path": "assets/production/webp/marketing-open-graph-v1-960.webp",
+      "bytes": 8850,
+      "sha256": "6ea50a3bb584d4ad6b0a2206a98f1806f22fb28c619f56bf8d22fca31242b5e1"
+    },
+    {
+      "path": "assets/production/avif/marketing-open-graph-v1-1280.avif",
+      "bytes": 14620,
+      "sha256": "5821cf249c1cba85599aec8281b15c4ecde12f26a6a467246b7ae26519654ff9"
+    },
+    {
+      "path": "assets/production/webp/marketing-open-graph-v1-1280.webp",
+      "bytes": 11874,
+      "sha256": "12bb3b0ff562030cfe4a62dd4da97eb8bb905017b0c3138fd0f5bf0c79f01c7d"
+    },
+    {
+      "path": "assets/production/avif/marketing-open-graph-v1-1920.avif",
+      "bytes": 24269,
+      "sha256": "25bcad8b15b0855f51ca888acef2e89fa1bb65039613aceaf7ce87068755ea42"
+    },
+    {
+      "path": "assets/production/webp/marketing-open-graph-v1-1920.webp",
+      "bytes": 18394,
+      "sha256": "db6696551b42e2222a344a4cbd5cfe4d7675d4afc36549c94f00e34da91d4827"
+    },
+    {
+      "path": "assets/production/avif/marketing-open-graph-v1-2560.avif",
+      "bytes": 32342,
+      "sha256": "281634641431413400c59ee24e3e9ff6476ae1ed50b8d82cacf7e56c2307ab81"
+    },
+    {
+      "path": "assets/production/webp/marketing-open-graph-v1-2560.webp",
+      "bytes": 26292,
+      "sha256": "b5be802c6fef6a79bdbbcce27e31e931e02e40b8ab286768e3b170430ce1d6f3"
+    },
+    {
+      "path": "assets/production/avif/marketing-open-graph-v1-3840.avif",
+      "bytes": 54371,
+      "sha256": "22bcc0f84b151a2235c73cbcc2665cc4cd4eb7cf8ae8b9c487c2aced75ebea70"
+    },
+    {
+      "path": "assets/production/webp/marketing-open-graph-v1-3840.webp",
+      "bytes": 46548,
+      "sha256": "9e1198864ea14dc347ad3da8bc56143a0a556a204950b35c14e0523ad2428779"
+    },
+    {
+      "path": "assets/production/png/marketing-open-graph-v1-1200.png",
+      "bytes": 570088,
+      "sha256": "19a17e0ef0fd5a8b6db54755b585911b37e2f4f62a44e6bca7e48d6efac01f91"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/marketing-open-graph-v1.webp",
+      "bytes": 3144,
+      "sha256": "989d164bc99d4e26ba910d68ea94adea6f006e38a22c8fe0e63f5334e3d62f56"
+    },
+    {
+      "path": "apps/mobile/assets/library/marketing-open-graph-v1.webp",
+      "bytes": 3144,
+      "sha256": "989d164bc99d4e26ba910d68ea94adea6f006e38a22c8fe0e63f5334e3d62f56"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 94.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:37:55.560Z",
+    "scores": {
+      "realism": 94,
+      "style_consistency": 96,
+      "composition": 95,
+      "material_quality": 93,
+      "light_quality": 94,
+      "architecture_plausibility": 92,
+      "ui_suitability": 97,
+      "mobile_suitability": 97,
+      "originality": 90,
+      "safety_compliance": 100,
+      "small_size_legibility": 94,
+      "contrast": 96,
+      "geometry_quality": 96,
+      "technical_quality": 98
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution.",
+      "All 20 store captures are sourced from the functioning application at exact declared dimensions; feature graphic and icon are opaque exact-size static art.",
+      "Text-free community and release banners are intentionally neutral procedural variants, with no fake UI, third-party logo, unsafe content, broken crop, or unintended text."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1200,
+      "height": 630,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 570088
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T06:36:55.323Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

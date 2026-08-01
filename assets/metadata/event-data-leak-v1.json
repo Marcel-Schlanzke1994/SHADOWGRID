@@ -1,0 +1,171 @@
+{
+  "asset_id": "event-data-leak-v1",
+  "manifest_order": 700,
+  "category": "event",
+  "batch": "world-events",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/event-data-leak-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100700,
+  "content_hash": "5afcb4f6a3abdc6b5b91dc753493e2fa7d26875160cee59cb2c46cd6df09cd14",
+  "source_file": "assets/source/events/event-data-leak-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/event-data-leak-v1-320.avif",
+      "bytes": 2987,
+      "sha256": "b4944c205203de32f6fcaf1fe5a65af933152cce947cd18931e8c49827d8f91e"
+    },
+    {
+      "path": "assets/production/webp/event-data-leak-v1-320.webp",
+      "bytes": 2670,
+      "sha256": "e94a56c164b2496f11e71de6954710431b3ecd999a61f0e8b7b86ebaa313eb45"
+    },
+    {
+      "path": "assets/production/avif/event-data-leak-v1-640.avif",
+      "bytes": 6572,
+      "sha256": "d149638580efb7c4bd72870a1a669223ec96052b66489deb73a60b5b82e2c946"
+    },
+    {
+      "path": "assets/production/webp/event-data-leak-v1-640.webp",
+      "bytes": 5320,
+      "sha256": "0efa4e83d79668b6bc75d923605be42476371d567364898cdcf5fce2dfab8902"
+    },
+    {
+      "path": "assets/production/avif/event-data-leak-v1-960.avif",
+      "bytes": 10746,
+      "sha256": "89e54d338a72323919ea08bc7b22c618964948b30819db2cd52f08cc0867b6f1"
+    },
+    {
+      "path": "assets/production/webp/event-data-leak-v1-960.webp",
+      "bytes": 9182,
+      "sha256": "cc1b1956c36a16b067f56383a861c3df886da480d0e24e450f328524b48814c5"
+    },
+    {
+      "path": "assets/production/avif/event-data-leak-v1-1280.avif",
+      "bytes": 15999,
+      "sha256": "1ba41493a2513317f681855f1c3ce9227cb85721f1043589a868ce803de5d61b"
+    },
+    {
+      "path": "assets/production/webp/event-data-leak-v1-1280.webp",
+      "bytes": 12274,
+      "sha256": "b79605440ff47d5b4efd0bd8b6535c574db4f6a276ef85e81418836ef4dc73b9"
+    },
+    {
+      "path": "assets/production/avif/event-data-leak-v1-1920.avif",
+      "bytes": 23687,
+      "sha256": "6d8f7f5cf9d8262e6d4ecb9633511632f1ad48c53782dc9c38cf257cbb82def8"
+    },
+    {
+      "path": "assets/production/webp/event-data-leak-v1-1920.webp",
+      "bytes": 19574,
+      "sha256": "a507fdf9ebf0f56db1a082d08605548756bb23d18e9f8d5e4f4644804f5ab557"
+    },
+    {
+      "path": "assets/production/avif/event-data-leak-v1-2560.avif",
+      "bytes": 32262,
+      "sha256": "c156fc8a166cfd1df612724f027acdb762792485dc659b44b6f8bd0125d89729"
+    },
+    {
+      "path": "assets/production/webp/event-data-leak-v1-2560.webp",
+      "bytes": 27604,
+      "sha256": "6d244938c47516131e348f16528c64e7aba0973649569d491fabe8374039bae4"
+    },
+    {
+      "path": "assets/production/avif/event-data-leak-v1-3840.avif",
+      "bytes": 51854,
+      "sha256": "4f38df5b0e56c578c29451bf544561611c6a16fbaaa9f42b4a519b4d639199d4"
+    },
+    {
+      "path": "assets/production/webp/event-data-leak-v1-3840.webp",
+      "bytes": 45728,
+      "sha256": "d9ea10e7eadf8cd59540bdb3e97e4d903aaebb82c7afed9c5cda4e45d59512b7"
+    },
+    {
+      "path": "assets/production/png/event-data-leak-v1-1280.png",
+      "bytes": 686606,
+      "sha256": "ca20f557ac5075e8c16a44c73e1f02c80d4dc347c03c9affedb60f7f0de58222"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/event-data-leak-v1.webp",
+      "bytes": 2670,
+      "sha256": "e94a56c164b2496f11e71de6954710431b3ecd999a61f0e8b7b86ebaa313eb45"
+    },
+    {
+      "path": "apps/mobile/assets/library/event-data-leak-v1.webp",
+      "bytes": 2670,
+      "sha256": "e94a56c164b2496f11e71de6954710431b3ecd999a61f0e8b7b86ebaa313eb45"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:10.681Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 88,
+      "light_quality": 91,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Repeated motifs form a coherent event family while color, direction, and state treatment keep event classes distinguishable.",
+      "No missing render, unsafe real-world guidance, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1563893
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:30:55.765Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

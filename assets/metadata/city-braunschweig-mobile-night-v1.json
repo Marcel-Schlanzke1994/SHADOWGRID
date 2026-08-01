@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-braunschweig-mobile-night-v1",
+  "manifest_order": 288,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "braunschweig",
+  "variant": "mobile-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-braunschweig-mobile-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100288,
+  "content_hash": "18dbb2afe32ed135a3eb105af736c9d431fab1fe1b716a22a3eff68e40a485fa",
+  "source_file": "assets/source/cities/city-braunschweig-mobile-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-braunschweig-mobile-night-v1-320.avif",
+      "bytes": 5798,
+      "sha256": "93d77a8c75ac8642c9f3a78690fe3fba14f0078a5437928f6e038582b01d9b86"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-mobile-night-v1-320.webp",
+      "bytes": 5814,
+      "sha256": "6220f0f8a7806c4c2c6f96f850803d3516d6f76b9957343505c600f0c76f861e"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-mobile-night-v1-640.avif",
+      "bytes": 11723,
+      "sha256": "baac3e41f515ead8665b71f7858e6b9cf8d9d9c54b7546b36c727fea5f2e1f4a"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-mobile-night-v1-640.webp",
+      "bytes": 11212,
+      "sha256": "3c41943b58115cb10b0edb1ff73f697947f943dae615bc2adf42a00b644c3173"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-mobile-night-v1-960.avif",
+      "bytes": 20574,
+      "sha256": "222e5cf3a3d93ad37d60622c1ce6231b2edd3913a26092ecf162372ee6409d60"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-mobile-night-v1-960.webp",
+      "bytes": 19126,
+      "sha256": "b30697e1b526670aa3e9a61eeec901451bfc0230cae600f8f5ebeab9ac6b1b45"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-mobile-night-v1-1280.avif",
+      "bytes": 28154,
+      "sha256": "40b134746a1d47bc88f414825fe49c0e8c1b1e7afa94ba4b4b010692008ba34d"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-mobile-night-v1-1280.webp",
+      "bytes": 25464,
+      "sha256": "865284be4d95218d34112a3dc91542b2ca304b041614c2cff783a5c6b2a464d0"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-mobile-night-v1-1920.avif",
+      "bytes": 44971,
+      "sha256": "438bc20b2377439ce4a76852e1f827ef75e02c0e7d34411ff4ede2011e31a06e"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-mobile-night-v1-1920.webp",
+      "bytes": 41668,
+      "sha256": "4cbdd6b4123000dbf798aee9c173a9969d4eddd918194db259957270583eb350"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-mobile-night-v1-2560.avif",
+      "bytes": 63824,
+      "sha256": "d3c5dfd69b3f71e285706e065b75e9f3b451d889d27f7f369e5fdf2cd4e754f4"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-mobile-night-v1-2560.webp",
+      "bytes": 62998,
+      "sha256": "54990a2110f379abaefe3f56f8baaac228bda5c4db227c9ba4fe5dcc1e6221bc"
+    },
+    {
+      "path": "assets/production/avif/city-braunschweig-mobile-night-v1-3840.avif",
+      "bytes": 111977,
+      "sha256": "0ebdbe8643871a4ac64d2f64d1766c6bd92464dcdd0a1c7c63335f485c8b4d67"
+    },
+    {
+      "path": "assets/production/webp/city-braunschweig-mobile-night-v1-3840.webp",
+      "bytes": 114292,
+      "sha256": "ffa93448dc37eb78e1cb0de60f4960cd2369079121a0dfcfde6694e04b907c3c"
+    },
+    {
+      "path": "assets/production/png/city-braunschweig-mobile-night-v1-1152.png",
+      "bytes": 1731669,
+      "sha256": "18dbb2afe32ed135a3eb105af736c9d431fab1fe1b716a22a3eff68e40a485fa"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-night-v1-320.avif",
+      "bytes": 5798,
+      "sha256": "93d77a8c75ac8642c9f3a78690fe3fba14f0078a5437928f6e038582b01d9b86"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-night-v1-320.webp",
+      "bytes": 5814,
+      "sha256": "6220f0f8a7806c4c2c6f96f850803d3516d6f76b9957343505c600f0c76f861e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-night-v1-640.avif",
+      "bytes": 11723,
+      "sha256": "baac3e41f515ead8665b71f7858e6b9cf8d9d9c54b7546b36c727fea5f2e1f4a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-night-v1-640.webp",
+      "bytes": 11212,
+      "sha256": "3c41943b58115cb10b0edb1ff73f697947f943dae615bc2adf42a00b644c3173"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-night-v1-960.avif",
+      "bytes": 20574,
+      "sha256": "222e5cf3a3d93ad37d60622c1ce6231b2edd3913a26092ecf162372ee6409d60"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-night-v1-960.webp",
+      "bytes": 19126,
+      "sha256": "b30697e1b526670aa3e9a61eeec901451bfc0230cae600f8f5ebeab9ac6b1b45"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-night-v1-1280.avif",
+      "bytes": 28154,
+      "sha256": "40b134746a1d47bc88f414825fe49c0e8c1b1e7afa94ba4b4b010692008ba34d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-night-v1-1280.webp",
+      "bytes": 25464,
+      "sha256": "865284be4d95218d34112a3dc91542b2ca304b041614c2cff783a5c6b2a464d0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-night-v1-1920.avif",
+      "bytes": 44971,
+      "sha256": "438bc20b2377439ce4a76852e1f827ef75e02c0e7d34411ff4ede2011e31a06e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-night-v1-1920.webp",
+      "bytes": 41668,
+      "sha256": "4cbdd6b4123000dbf798aee9c173a9969d4eddd918194db259957270583eb350"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-night-v1-2560.avif",
+      "bytes": 63824,
+      "sha256": "d3c5dfd69b3f71e285706e065b75e9f3b451d889d27f7f369e5fdf2cd4e754f4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-night-v1-2560.webp",
+      "bytes": 62998,
+      "sha256": "54990a2110f379abaefe3f56f8baaac228bda5c4db227c9ba4fe5dcc1e6221bc"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-night-v1-3840.avif",
+      "bytes": 111977,
+      "sha256": "0ebdbe8643871a4ac64d2f64d1766c6bd92464dcdd0a1c7c63335f485c8b4d67"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-night-v1-3840.webp",
+      "bytes": 114292,
+      "sha256": "ffa93448dc37eb78e1cb0de60f4960cd2369079121a0dfcfde6694e04b907c3c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-braunschweig-mobile-night-v1-1152.png",
+      "bytes": 1731669,
+      "sha256": "18dbb2afe32ed135a3eb105af736c9d431fab1fe1b716a22a3eff68e40a485fa"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-braunschweig-mobile-night-v1.webp",
+      "bytes": 5814,
+      "sha256": "6220f0f8a7806c4c2c6f96f850803d3516d6f76b9957343505c600f0c76f861e"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-braunschweig-mobile-night-v1.webp",
+      "bytes": 5814,
+      "sha256": "6220f0f8a7806c4c2c6f96f850803d3516d6f76b9957343505c600f0c76f861e"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:42.265Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1731669
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:09:53.508Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

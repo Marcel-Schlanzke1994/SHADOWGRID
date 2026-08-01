@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import hashlib
 import secrets
 import threading
 from datetime import UTC, datetime, timedelta
@@ -12,6 +11,21 @@ from fastapi import APIRouter, Cookie, Depends, HTTPException, Query, Request, R
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
+from shadowgrid.ai import (
+    list_ai_profiles,
+    list_local_companies,
+    run_ai_tick,
+    set_ai_paused,
+)
+from shadowgrid.cartels import ensure_cartel_account
+from shadowgrid.companies import (
+    company_configuration,
+    company_history,
+    create_company,
+    get_company,
+    invest_in_company,
+    list_owned_companies,
+)
 from shadowgrid.config import Settings, get_settings
 from shadowgrid.dependencies import (
     AppSettings,
@@ -27,7 +41,6 @@ from shadowgrid.domain import (
     audit,
     build_facility,
     buy_business,
-    create_player_profile,
     get_idempotent,
     membership_with_permission,
     recruit_specialist,
@@ -37,6 +50,33 @@ from shadowgrid.domain import (
     start_operation,
     start_research,
 )
+from shadowgrid.economy import (
+    latest_economy_tick,
+    list_city_sector_markets,
+    list_company_economy_reports,
+    list_market_economy_reports,
+    next_economy_tick_at,
+    run_economy_tick,
+)
+from shadowgrid.exchange import (
+    cancel_order,
+    create_ipo,
+    declare_dividend,
+    exchange_configuration,
+    get_company_exchange_listing,
+    get_exchange_listing,
+    ipo_eligibility,
+    list_dividends,
+    list_exchange_listings,
+    list_profile_orders,
+    listing_company_reports,
+    listing_order_book,
+    listing_price_history,
+    listing_shareholders,
+    listing_trades,
+    place_order,
+    profile_portfolio,
+)
 from shadowgrid.game_config import (
     ARCHETYPES,
     BUSINESS_TYPES,
@@ -44,10 +84,11 @@ from shadowgrid.game_config import (
     OPERATION_TYPES,
     RESEARCH,
 )
-from shadowgrid.mailer import deliver_email, queue_email
+from shadowgrid.mailer import account_email_copy, deliver_email, queue_email
 from shadowgrid.models import (
     AuditLog,
     Business,
+    Company,
     District,
     DistrictInfluence,
     EmailOutbox,
@@ -71,19 +112,60 @@ from shadowgrid.models import (
     WorldEvent,
     as_utc,
 )
+from shadowgrid.multiplayer_schemas import CityView
+from shadowgrid.onboarding import (
+    join_world as join_world_service,
+)
+from shadowgrid.onboarding import (
+    list_active_cities,
+    list_city_districts,
+    select_city,
+)
+from shadowgrid.rate_limits import clear_rate_limit, consume_rate_limit
 from shadowgrid.schemas import (
+    AiDecisionTickView,
+    AiPauseRequest,
+    AiProfileView,
+    AssignSpecialistRequest,
     BusinessView,
     BuyBusinessRequest,
+    CitySectorMarketView,
+    CompanyConfigurationView,
+    CompanyDetailView,
+    CompanyEconomyReportView,
+    CompanyInvestmentRequest,
+    CompanyInvestmentView,
+    CompanyMetricView,
+    CompanyOwnershipView,
+    CompanyView,
+    CreateCompanyRequest,
+    CreateIpoRequest,
     CreateOrganizationRequest,
     CreateTreatyRequest,
     DistrictView,
+    DividendDeclarationView,
+    DividendRequest,
+    EconomyStatusView,
+    EconomyTickView,
+    ExchangeConfigurationView,
+    ExchangeListingView,
+    ExchangeOrderBookView,
+    ExchangeOrderRequest,
+    ExchangeOrderView,
+    ExchangeTradeView,
     FacilityRequest,
     FacilityView,
     HealthResponse,
+    HireSpecialistRequest,
     IntelReportView,
     InviteRequest,
+    IpoEligibilityView,
     JoinWorldRequest,
     LoginRequest,
+    ManualAiTickRequest,
+    ManualEconomyTickRequest,
+    ManualSpecialistPayrollRequest,
+    MarketEconomyReportView,
     MessageResponse,
     NetworkEdge,
     NetworkNode,
@@ -93,12 +175,21 @@ from shadowgrid.schemas import (
     OrganizationView,
     PasswordForgotRequest,
     PasswordResetRequest,
+    PortfolioItemView,
+    PriceSnapshotView,
     ProfileView,
     RecruitSpecialistRequest,
     RefreshRequest,
     RegisterRequest,
     ResearchView,
+    ResourceView,
+    SelectCityRequest,
     SessionView,
+    ShareholderView,
+    SpecialistEffectsView,
+    SpecialistMarketCandidateView,
+    SpecialistPayrollReportView,
+    SpecialistPayrollTickView,
     SpecialistView,
     StartOperationRequest,
     StartResearchRequest,
@@ -120,9 +211,19 @@ from shadowgrid.security import (
     verify_password,
     verify_totp,
 )
+from shadowgrid.specialists import (
+    assign_specialist,
+    company_specialist_effects,
+    hire_specialist,
+    list_market_candidates,
+    list_profile_specialists,
+    list_specialist_payroll_reports,
+    release_specialist,
+    run_specialist_payroll,
+)
+from shadowgrid.world_events import event_feed
 
 router = APIRouter()
-_login_attempts: dict[str, list[datetime]] = {}
 _operation_resolution_lock = threading.Lock()
 
 
@@ -180,21 +281,61 @@ def _consume_one_time_token(db: Session, raw: str, purpose: str, settings: Setti
     return user
 
 
-def _email_attempt_key(email: str) -> str:
-    return hashlib.sha256(email.lower().encode()).hexdigest()
-
-
-def _check_login_limit(email: str) -> None:
-    now = datetime.now(UTC)
-    key = _email_attempt_key(email)
-    recent = [item for item in _login_attempts.get(key, []) if item > now - timedelta(minutes=10)]
-    if len(recent) >= 8:
+def _check_login_limit(email: str, settings: Settings) -> None:
+    attempts, retry_after = consume_rate_limit(
+        scope="auth.login",
+        raw_key=email,
+        limit=settings.auth_login_rate_limit,
+        window_seconds=settings.auth_login_rate_window_seconds,
+    )
+    if attempts > settings.auth_login_rate_limit:
         raise HTTPException(
             status_code=429,
             detail={"code": "auth.rate_limited", "message": "Too many login attempts; retry later"},
+            headers={"Retry-After": str(retry_after)},
         )
-    recent.append(now)
-    _login_attempts[key] = recent
+
+
+def _check_auth_action_limit(
+    scope: str,
+    raw_key: str,
+    *,
+    limit: int,
+    window_seconds: int,
+) -> None:
+    attempts, retry_after = consume_rate_limit(
+        scope=scope,
+        raw_key=raw_key,
+        limit=limit,
+        window_seconds=window_seconds,
+    )
+    if attempts > limit:
+        raise HTTPException(
+            status_code=429,
+            detail={
+                "code": "auth.rate_limited",
+                "message": "Too many authentication requests; retry later",
+            },
+            headers={"Retry-After": str(retry_after)},
+        )
+
+
+def _check_trading_limit(profile_id: str, settings: Settings) -> None:
+    attempts, retry_after = consume_rate_limit(
+        scope="exchange.order",
+        raw_key=profile_id,
+        limit=settings.exchange_order_rate_limit_per_minute,
+        window_seconds=60,
+    )
+    if attempts > settings.exchange_order_rate_limit_per_minute:
+        raise HTTPException(
+            status_code=429,
+            detail={
+                "code": "exchange.rate_limited",
+                "message": "Too many exchange order requests; retry later",
+            },
+            headers={"Retry-After": str(retry_after)},
+        )
 
 
 @router.get("/health", response_model=HealthResponse, tags=["operations"])
@@ -213,6 +354,12 @@ def register(
     payload: RegisterRequest, request: Request, db: Db, settings: AppSettings
 ) -> MessageResponse:
     email = payload.email.lower()
+    _check_auth_action_limit(
+        "auth.register",
+        email,
+        limit=settings.auth_email_rate_limit,
+        window_seconds=settings.auth_email_rate_window_seconds,
+    )
     if db.scalar(select(User).where(User.email == email)):
         return MessageResponse(
             message="If the address can be registered, a verification email will arrive shortly."
@@ -226,8 +373,12 @@ def register(
     db.add(user)
     db.flush()
     raw = _issue_one_time_token(db, user, "verify_email", settings)
-    body = f"Welcome to SHADOWGRID. Verify your local account:\nhttp://localhost:5173/verify-email?token={raw}\n\nThis fictional game never requests real-world operational information."
-    message = queue_email(db, user.email, "Verify your SHADOWGRID account", body)
+    subject, body = account_email_copy(
+        "verify_email",
+        user.locale,
+        f"{settings.web_url}/verify-email?token={raw}",
+    )
+    message = queue_email(db, user.email, subject, body)
     audit(db, user.id, "auth.register", "user", user.id, request_id(request))
     db.commit()
     deliver_email(db, message, settings)
@@ -239,6 +390,12 @@ def register(
 
 @router.post("/auth/verify-email", response_model=MessageResponse, tags=["auth"])
 def verify_email(payload: VerifyEmailRequest, db: Db, settings: AppSettings) -> MessageResponse:
+    _check_auth_action_limit(
+        "auth.verify_email",
+        payload.token,
+        limit=settings.auth_token_rate_limit,
+        window_seconds=settings.auth_token_rate_window_seconds,
+    )
     user = _consume_one_time_token(db, payload.token, "verify_email", settings)
     user.email_verified = True
     db.commit()
@@ -249,7 +406,7 @@ def verify_email(payload: VerifyEmailRequest, db: Db, settings: AppSettings) -> 
 def login(
     payload: LoginRequest, request: Request, response: Response, db: Db, settings: AppSettings
 ) -> TokenPair:
-    _check_login_limit(payload.email)
+    _check_login_limit(payload.email, settings)
     user = db.scalar(select(User).where(User.email == payload.email.lower()))
     valid = user is not None and verify_password(payload.password, user.password_hash)
     if not valid or user is None or not verify_totp(user, payload.totp_code):
@@ -273,7 +430,7 @@ def login(
             status_code=403,
             detail={"code": "auth.account_disabled", "message": "Account is disabled"},
         )
-    _login_attempts.pop(_email_attempt_key(payload.email), None)
+    clear_rate_limit(scope="auth.login", raw_key=payload.email)
     refresh_session, raw = create_refresh_session(
         db, user, settings, request.headers.get("user-agent", "unknown")
     )
@@ -342,14 +499,26 @@ def logout(response: Response, db: Db, user: CurrentUser, request: Request) -> M
 def forgot_password(
     payload: PasswordForgotRequest, db: Db, settings: AppSettings
 ) -> MessageResponse:
-    user = db.scalar(select(User).where(User.email == payload.email.lower()))
+    email = payload.email.lower()
+    _check_auth_action_limit(
+        "auth.password_forgot",
+        email,
+        limit=settings.auth_email_rate_limit,
+        window_seconds=settings.auth_email_rate_window_seconds,
+    )
+    user = db.scalar(select(User).where(User.email == email))
     if user:
         raw = _issue_one_time_token(db, user, "password_reset", settings)
+        subject, body = account_email_copy(
+            "password_reset",
+            user.locale,
+            f"{settings.web_url}/reset-password?token={raw}",
+        )
         message = queue_email(
             db,
             user.email,
-            "Reset your SHADOWGRID password",
-            f"Reset your local password:\nhttp://localhost:5173/reset-password?token={raw}",
+            subject,
+            body,
         )
         db.commit()
         deliver_email(db, message, settings)
@@ -359,6 +528,12 @@ def forgot_password(
 
 @router.post("/auth/password/reset", response_model=MessageResponse, tags=["auth"])
 def reset_password(payload: PasswordResetRequest, db: Db, settings: AppSettings) -> MessageResponse:
+    _check_auth_action_limit(
+        "auth.password_reset",
+        payload.token,
+        limit=settings.auth_token_rate_limit,
+        window_seconds=settings.auth_token_rate_window_seconds,
+    )
     user = _consume_one_time_token(db, payload.token, "password_reset", settings)
     user.password_hash = hash_password(payload.password)
     now = datetime.now(UTC)
@@ -447,34 +622,74 @@ def world_districts(world_id: str, db: Db, _: CurrentUser) -> list[DistrictView]
     ]
 
 
+@router.get("/world/cities", response_model=list[CityView], tags=["world"])
+def world_cities(db: Db, _: CurrentUser) -> list[CityView]:
+    return [CityView.model_validate(city) for city in list_active_cities(db)]
+
+
+@router.get(
+    "/world/cities/{city_id}/districts",
+    response_model=list[DistrictView],
+    tags=["world"],
+)
+def city_districts(city_id: str, db: Db, _: CurrentUser) -> list[DistrictView]:
+    return [DistrictView.model_validate(item) for item in list_city_districts(db, city_id)]
+
+
 @router.post("/worlds/{world_id}/join", response_model=ProfileView, tags=["worlds"])
 def join_world(
-    world_id: str, payload: JoinWorldRequest, db: Db, user: CurrentUser, key: IdempotencyKey
+    world_id: str,
+    payload: JoinWorldRequest,
+    db: Db,
+    user: CurrentUser,
+    key: IdempotencyKey,
+    settings: AppSettings,
 ) -> PlayerProfile:
-    existing_command = get_idempotent(db, user.id, key, "world.join")
-    if existing_command:
-        profile = db.get(PlayerProfile, existing_command.resource_id)
-        if profile:
-            return profile
-    world = db.get(World, world_id)
-    district = db.get(District, payload.home_district_id)
-    if world is None or world.status != "active" or district is None:
-        raise HTTPException(
-            status_code=404,
-            detail={"code": "world.not_found", "message": "Active world or district not found"},
-        )
-    profile = create_player_profile(
-        db, user, world, payload.codename, payload.archetype, district, key
+    return join_world_service(
+        db,
+        user,
+        world_id=world_id,
+        codename=payload.codename,
+        archetype=payload.archetype,
+        home_district_id=payload.home_district_id,
+        idempotency_key=key,
+        settings=settings,
     )
-    remember_idempotent(db, user.id, key, "world.join", profile.id, {"profile_id": profile.id})
-    db.commit()
-    db.refresh(profile)
-    return profile
 
 
 @router.get("/profiles/me", response_model=ProfileView, tags=["profiles"])
 def profile_me(profile: CurrentProfile) -> PlayerProfile:
     return profile
+
+
+@router.get("/players/me", response_model=ProfileView, tags=["players"])
+def player_me(profile: CurrentProfile) -> PlayerProfile:
+    return profile
+
+
+@router.post("/players/me/select-city", response_model=ProfileView, tags=["players"])
+def player_select_city(
+    payload: SelectCityRequest,
+    db: Db,
+    user: CurrentUser,
+    key: IdempotencyKey,
+    settings: AppSettings,
+) -> PlayerProfile:
+    return select_city(
+        db,
+        user,
+        city_id=payload.city_id,
+        codename=payload.codename,
+        archetype=payload.archetype,
+        home_district_id=payload.home_district_id,
+        idempotency_key=key,
+        settings=settings,
+    )
+
+
+@router.get("/players/me/resources", response_model=ResourceView, tags=["players"])
+def player_resources(profile: CurrentProfile) -> ResourceView:
+    return ResourceView.model_validate(profile.resources)
 
 
 @router.patch("/profiles/me/tutorial", response_model=ProfileView, tags=["profiles"])
@@ -654,6 +869,593 @@ def upgrade_business(
     return business
 
 
+@router.get(
+    "/companies/config",
+    response_model=CompanyConfigurationView,
+    tags=["companies"],
+)
+def companies_config(settings: AppSettings, _: CurrentProfile) -> dict[str, Any]:
+    return company_configuration(settings)
+
+
+@router.get("/companies", response_model=list[CompanyView], tags=["companies"])
+def companies(db: Db, profile: CurrentProfile) -> list[Company]:
+    return list_owned_companies(db, profile)
+
+
+@router.post(
+    "/companies",
+    response_model=CompanyView,
+    status_code=201,
+    tags=["companies"],
+)
+def company_create(
+    payload: CreateCompanyRequest,
+    request: Request,
+    db: Db,
+    profile: CurrentProfile,
+    key: IdempotencyKey,
+    settings: AppSettings,
+) -> Company:
+    return create_company(
+        db,
+        profile,
+        name=payload.name,
+        industry=payload.industry,
+        district_id=payload.district_id,
+        idempotency_key=key,
+        settings=settings,
+        request_id=request_id(request),
+    )
+
+
+@router.get(
+    "/companies/{company_id}",
+    response_model=CompanyDetailView,
+    tags=["companies"],
+)
+def company_detail(company_id: str, db: Db, profile: CurrentProfile) -> CompanyDetailView:
+    company = get_company(db, profile, company_id)
+    metrics, investments, ownership = company_history(db, company.id)
+    return CompanyDetailView(
+        **CompanyView.model_validate(company).model_dump(),
+        ownership=[CompanyOwnershipView.model_validate(item) for item in ownership],
+        investments=[CompanyInvestmentView.model_validate(item) for item in investments],
+        metrics_history=[CompanyMetricView.model_validate(item) for item in metrics],
+    )
+
+
+@router.post(
+    "/companies/{company_id}/investments",
+    response_model=CompanyView,
+    tags=["companies"],
+)
+def company_invest(
+    company_id: str,
+    payload: CompanyInvestmentRequest,
+    request: Request,
+    db: Db,
+    profile: CurrentProfile,
+    key: IdempotencyKey,
+) -> Company:
+    return invest_in_company(
+        db,
+        profile,
+        company_id=company_id,
+        investment_type=payload.investment_type,
+        idempotency_key=key,
+        request_id=request_id(request),
+    )
+
+
+@router.get(
+    "/companies/{company_id}/ownership",
+    response_model=list[CompanyOwnershipView],
+    tags=["companies"],
+)
+def company_ownership(
+    company_id: str,
+    db: Db,
+    profile: CurrentProfile,
+) -> list[CompanyOwnershipView]:
+    company = get_company(db, profile, company_id)
+    _, _, ownership = company_history(db, company.id)
+    return [CompanyOwnershipView.model_validate(item) for item in ownership]
+
+
+@router.get(
+    "/companies/{company_id}/specialist-effects",
+    response_model=SpecialistEffectsView,
+    tags=["companies", "specialists"],
+)
+def company_specialist_effect_summary(
+    company_id: str,
+    db: Db,
+    profile: CurrentProfile,
+) -> SpecialistEffectsView:
+    get_company(db, profile, company_id)
+    return SpecialistEffectsView(**company_specialist_effects(db, company_id).as_dict())
+
+
+@router.get(
+    "/companies/{company_id}/economy-reports",
+    response_model=list[CompanyEconomyReportView],
+    tags=["economy"],
+)
+def company_economy_reports(
+    company_id: str,
+    db: Db,
+    profile: CurrentProfile,
+    limit: Annotated[int, Query(ge=1, le=168)] = 24,
+) -> list[CompanyEconomyReportView]:
+    return [
+        CompanyEconomyReportView.model_validate(report)
+        for report in list_company_economy_reports(
+            db,
+            profile,
+            company_id,
+            limit=limit,
+        )
+    ]
+
+
+@router.get(
+    "/exchange/config",
+    response_model=ExchangeConfigurationView,
+    tags=["exchange"],
+)
+def exchange_config(
+    settings: AppSettings,
+    _profile: CurrentProfile,
+) -> ExchangeConfigurationView:
+    return ExchangeConfigurationView(**exchange_configuration(settings))
+
+
+@router.get(
+    "/companies/{company_id}/ipo-eligibility",
+    response_model=IpoEligibilityView,
+    tags=["companies", "exchange"],
+)
+def company_ipo_eligibility(
+    company_id: str,
+    db: Db,
+    profile: CurrentProfile,
+    settings: AppSettings,
+) -> IpoEligibilityView:
+    result = ipo_eligibility(db, profile, company_id, settings)
+    return IpoEligibilityView(
+        eligible=result.eligible,
+        reasons=list(result.reasons),
+        metrics=result.metrics,
+    )
+
+
+@router.post(
+    "/companies/{company_id}/ipo",
+    response_model=ExchangeListingView,
+    status_code=201,
+    tags=["companies", "exchange"],
+)
+def company_ipo(
+    company_id: str,
+    payload: CreateIpoRequest,
+    request: Request,
+    db: Db,
+    profile: CurrentProfile,
+    key: IdempotencyKey,
+    settings: AppSettings,
+) -> ExchangeListingView:
+    listing = create_ipo(
+        db,
+        profile,
+        company_id=company_id,
+        symbol=payload.symbol,
+        total_shares=payload.total_shares,
+        offered_shares=payload.offered_shares,
+        idempotency_key=key,
+        request_id=request_id(request),
+        settings=settings,
+    )
+    return ExchangeListingView.model_validate(listing)
+
+
+@router.get(
+    "/exchange/listings",
+    response_model=list[ExchangeListingView],
+    tags=["exchange"],
+)
+def exchange_listings(
+    db: Db,
+    profile: CurrentProfile,
+) -> list[ExchangeListingView]:
+    return [
+        ExchangeListingView.model_validate(listing)
+        for listing in list_exchange_listings(db, profile)
+    ]
+
+
+@router.get(
+    "/exchange/listings/{listing_id}",
+    response_model=ExchangeListingView,
+    tags=["exchange"],
+)
+def exchange_listing_detail(
+    listing_id: str,
+    db: Db,
+    profile: CurrentProfile,
+) -> ExchangeListingView:
+    return ExchangeListingView.model_validate(get_exchange_listing(db, profile, listing_id))
+
+
+@router.get(
+    "/exchange/listings/{listing_id}/order-book",
+    response_model=ExchangeOrderBookView,
+    tags=["exchange"],
+)
+def exchange_order_book(
+    listing_id: str,
+    db: Db,
+    profile: CurrentProfile,
+    limit: Annotated[int, Query(ge=1, le=200)] = 50,
+) -> ExchangeOrderBookView:
+    buys, sells = listing_order_book(db, profile, listing_id, limit=limit)
+    return ExchangeOrderBookView(
+        buys=[ExchangeOrderView.model_validate(order) for order in buys],
+        sells=[ExchangeOrderView.model_validate(order) for order in sells],
+    )
+
+
+@router.get(
+    "/exchange/listings/{listing_id}/trades",
+    response_model=list[ExchangeTradeView],
+    tags=["exchange"],
+)
+def exchange_trades(
+    listing_id: str,
+    db: Db,
+    profile: CurrentProfile,
+    limit: Annotated[int, Query(ge=1, le=500)] = 100,
+) -> list[ExchangeTradeView]:
+    return [
+        ExchangeTradeView.model_validate(trade)
+        for trade in listing_trades(db, profile, listing_id, limit=limit)
+    ]
+
+
+@router.get(
+    "/exchange/listings/{listing_id}/prices",
+    response_model=list[PriceSnapshotView],
+    tags=["exchange"],
+)
+def exchange_price_history(
+    listing_id: str,
+    db: Db,
+    profile: CurrentProfile,
+    limit: Annotated[int, Query(ge=1, le=1_000)] = 200,
+) -> list[PriceSnapshotView]:
+    return [
+        PriceSnapshotView.model_validate(snapshot)
+        for snapshot in listing_price_history(db, profile, listing_id, limit=limit)
+    ]
+
+
+@router.get(
+    "/exchange/listings/{listing_id}/shareholders",
+    response_model=list[ShareholderView],
+    tags=["exchange"],
+)
+def exchange_shareholders(
+    listing_id: str,
+    db: Db,
+    profile: CurrentProfile,
+    limit: Annotated[int, Query(ge=1, le=200)] = 50,
+) -> list[ShareholderView]:
+    return [
+        ShareholderView.model_validate(shareholder)
+        for shareholder in listing_shareholders(db, profile, listing_id, limit=limit)
+    ]
+
+
+@router.get(
+    "/exchange/listings/{listing_id}/reports",
+    response_model=list[CompanyEconomyReportView],
+    tags=["exchange"],
+)
+def exchange_company_reports(
+    listing_id: str,
+    db: Db,
+    profile: CurrentProfile,
+    limit: Annotated[int, Query(ge=1, le=168)] = 24,
+) -> list[CompanyEconomyReportView]:
+    return [
+        CompanyEconomyReportView.model_validate(report)
+        for report in listing_company_reports(db, profile, listing_id, limit=limit)
+    ]
+
+
+@router.post(
+    "/exchange/orders",
+    response_model=ExchangeOrderView,
+    status_code=201,
+    tags=["exchange"],
+)
+def exchange_order_create(
+    payload: ExchangeOrderRequest,
+    request: Request,
+    db: Db,
+    profile: CurrentProfile,
+    key: IdempotencyKey,
+    settings: AppSettings,
+) -> ExchangeOrderView:
+    _check_trading_limit(profile.id, settings)
+    order = place_order(
+        db,
+        profile,
+        listing_id=payload.listing_id,
+        side=payload.side,
+        order_type=payload.order_type,
+        quantity=payload.quantity,
+        limit_price_cents=payload.limit_price_cents,
+        expires_at=payload.expires_at,
+        idempotency_key=key,
+        request_id=request_id(request),
+        settings=settings,
+    )
+    return ExchangeOrderView.model_validate(order)
+
+
+@router.delete(
+    "/exchange/orders/{order_id}",
+    response_model=ExchangeOrderView,
+    tags=["exchange"],
+)
+def exchange_order_cancel(
+    order_id: str,
+    request: Request,
+    db: Db,
+    profile: CurrentProfile,
+    key: IdempotencyKey,
+    settings: AppSettings,
+) -> ExchangeOrderView:
+    _check_trading_limit(profile.id, settings)
+    return ExchangeOrderView.model_validate(
+        cancel_order(
+            db,
+            profile,
+            order_id,
+            idempotency_key=key,
+            request_id=request_id(request),
+        )
+    )
+
+
+@router.get(
+    "/exchange/orders/me",
+    response_model=list[ExchangeOrderView],
+    tags=["exchange"],
+)
+def exchange_own_orders(
+    db: Db,
+    profile: CurrentProfile,
+    limit: Annotated[int, Query(ge=1, le=500)] = 100,
+) -> list[ExchangeOrderView]:
+    return [
+        ExchangeOrderView.model_validate(order)
+        for order in list_profile_orders(db, profile, limit=limit)
+    ]
+
+
+@router.get(
+    "/exchange/portfolio",
+    response_model=list[PortfolioItemView],
+    tags=["exchange"],
+)
+def exchange_portfolio(
+    db: Db,
+    profile: CurrentProfile,
+) -> list[PortfolioItemView]:
+    return [
+        PortfolioItemView.model_validate(position) for position in profile_portfolio(db, profile)
+    ]
+
+
+@router.get(
+    "/exchange/listings/{listing_id}/dividends",
+    response_model=list[DividendDeclarationView],
+    tags=["exchange"],
+)
+def exchange_dividends(
+    listing_id: str,
+    db: Db,
+    profile: CurrentProfile,
+    limit: Annotated[int, Query(ge=1, le=200)] = 50,
+) -> list[DividendDeclarationView]:
+    return [
+        DividendDeclarationView.model_validate(dividend)
+        for dividend in list_dividends(db, profile, listing_id, limit=limit)
+    ]
+
+
+@router.post(
+    "/companies/{company_id}/dividends",
+    response_model=DividendDeclarationView,
+    status_code=201,
+    tags=["companies", "exchange"],
+)
+def company_dividend_declare(
+    company_id: str,
+    payload: DividendRequest,
+    request: Request,
+    db: Db,
+    profile: CurrentProfile,
+    key: IdempotencyKey,
+) -> DividendDeclarationView:
+    listing = get_company_exchange_listing(db, profile, company_id)
+    dividend = declare_dividend(
+        db,
+        profile,
+        listing_id=listing.id,
+        per_share_cents=payload.per_share_cents,
+        idempotency_key=key,
+        request_id=request_id(request),
+    )
+    return DividendDeclarationView.model_validate(dividend)
+
+
+@router.get(
+    "/economy/status",
+    response_model=EconomyStatusView,
+    tags=["economy"],
+)
+def economy_status(db: Db, profile: CurrentProfile) -> EconomyStatusView:
+    last_tick = latest_economy_tick(db, profile.world_id)
+    return EconomyStatusView(
+        last_tick=(EconomyTickView.model_validate(last_tick) if last_tick is not None else None),
+        next_scheduled_at=next_economy_tick_at(last_tick),
+    )
+
+
+@router.get(
+    "/economy/markets",
+    response_model=list[CitySectorMarketView],
+    tags=["economy"],
+)
+def economy_markets(
+    db: Db,
+    profile: CurrentProfile,
+) -> list[CitySectorMarketView]:
+    return [
+        CitySectorMarketView.model_validate(market)
+        for market in list_city_sector_markets(db, profile)
+    ]
+
+
+@router.get(
+    "/economy/competitors",
+    response_model=list[CompanyView],
+    tags=["economy"],
+)
+def economy_competitors(db: Db, profile: CurrentProfile) -> list[Company]:
+    return list_local_companies(db, profile)
+
+
+@router.get(
+    "/economy/markets/{market_id}/reports",
+    response_model=list[MarketEconomyReportView],
+    tags=["economy"],
+)
+def economy_market_reports(
+    market_id: str,
+    db: Db,
+    profile: CurrentProfile,
+    limit: Annotated[int, Query(ge=1, le=168)] = 24,
+) -> list[MarketEconomyReportView]:
+    return [
+        MarketEconomyReportView.model_validate(report)
+        for report in list_market_economy_reports(
+            db,
+            profile,
+            market_id,
+            limit=limit,
+        )
+    ]
+
+
+@router.post(
+    "/admin/economy/ticks",
+    response_model=EconomyTickView,
+    tags=["admin", "economy"],
+)
+def economy_tick_manual(
+    payload: ManualEconomyTickRequest,
+    db: Db,
+    _: Annotated[User, Depends(require_admin)],
+) -> EconomyTickView:
+    return EconomyTickView.model_validate(
+        run_economy_tick(
+            db,
+            payload.world_id,
+            at=payload.period_start,
+        )
+    )
+
+
+@router.post(
+    "/admin/specialists/payroll",
+    response_model=SpecialistPayrollTickView,
+    tags=["admin", "specialists"],
+)
+def specialist_payroll_manual(
+    payload: ManualSpecialistPayrollRequest,
+    db: Db,
+    _: Annotated[User, Depends(require_admin)],
+) -> SpecialistPayrollTickView:
+    return SpecialistPayrollTickView.model_validate(
+        run_specialist_payroll(
+            db,
+            payload.world_id,
+            at=payload.period_start,
+        )
+    )
+
+
+@router.get(
+    "/admin/ai/players",
+    response_model=list[AiProfileView],
+    tags=["admin", "ai"],
+)
+def ai_players(
+    db: Db,
+    _: Annotated[User, Depends(require_admin)],
+    world_id: str | None = None,
+) -> list[AiProfileView]:
+    return [AiProfileView.model_validate(profile) for profile in list_ai_profiles(db, world_id)]
+
+
+@router.patch(
+    "/admin/ai/players/{profile_id}",
+    response_model=AiProfileView,
+    tags=["admin", "ai"],
+)
+def ai_player_pause(
+    profile_id: str,
+    payload: AiPauseRequest,
+    request: Request,
+    db: Db,
+    admin: Annotated[User, Depends(require_admin)],
+) -> AiProfileView:
+    return AiProfileView.model_validate(
+        set_ai_paused(
+            db,
+            profile_id,
+            paused=payload.paused,
+            actor_user_id=admin.id,
+            request_id=request_id(request),
+        )
+    )
+
+
+@router.post(
+    "/admin/ai/ticks",
+    response_model=AiDecisionTickView,
+    tags=["admin", "ai"],
+)
+def ai_tick_manual(
+    payload: ManualAiTickRequest,
+    db: Db,
+    settings: AppSettings,
+    _: Annotated[User, Depends(require_admin)],
+) -> AiDecisionTickView:
+    return AiDecisionTickView.model_validate(
+        run_ai_tick(
+            db,
+            payload.world_id,
+            settings=settings,
+            at=payload.period_start,
+        )
+    )
+
+
 def as_money(value: Any) -> Decimal:
     return Decimal(str(value)).quantize(Decimal("0.01"))
 
@@ -686,13 +1488,108 @@ def facility_build(
 
 @router.get("/specialists", response_model=list[SpecialistView], tags=["specialists"])
 def specialists(db: Db, profile: CurrentProfile) -> list[Specialist]:
-    return list(
-        db.scalars(
-            select(Specialist)
-            .where(Specialist.profile_id == profile.id)
-            .order_by(Specialist.created_at)
-        )
+    return list_profile_specialists(db, profile)
+
+
+@router.get(
+    "/specialist-market",
+    response_model=list[SpecialistMarketCandidateView],
+    tags=["specialists"],
+)
+def specialist_market(db: Db, profile: CurrentProfile) -> list[SpecialistMarketCandidateView]:
+    candidates = list_market_candidates(db, profile)
+    safe_commit(db)
+    return [SpecialistMarketCandidateView.model_validate(candidate) for candidate in candidates]
+
+
+@router.post(
+    "/specialist-market/{candidate_id}/hire",
+    response_model=SpecialistView,
+    status_code=201,
+    tags=["specialists"],
+)
+def specialist_hire(
+    candidate_id: str,
+    payload: HireSpecialistRequest,
+    request: Request,
+    db: Db,
+    profile: CurrentProfile,
+    key: IdempotencyKey,
+) -> Specialist:
+    return hire_specialist(
+        db,
+        profile,
+        candidate_id=candidate_id,
+        company_id=payload.company_id,
+        idempotency_key=key,
+        request_id=request_id(request),
     )
+
+
+@router.post(
+    "/specialists/{specialist_id}/assign",
+    response_model=SpecialistView,
+    tags=["specialists"],
+)
+def specialist_assign(
+    specialist_id: str,
+    payload: AssignSpecialistRequest,
+    request: Request,
+    db: Db,
+    profile: CurrentProfile,
+    key: IdempotencyKey,
+) -> Specialist:
+    return assign_specialist(
+        db,
+        profile,
+        specialist_id=specialist_id,
+        company_id=payload.company_id,
+        idempotency_key=key,
+        request_id=request_id(request),
+    )
+
+
+@router.post(
+    "/specialists/{specialist_id}/release",
+    response_model=SpecialistView,
+    tags=["specialists"],
+)
+def specialist_release(
+    specialist_id: str,
+    request: Request,
+    db: Db,
+    profile: CurrentProfile,
+    key: IdempotencyKey,
+) -> Specialist:
+    return release_specialist(
+        db,
+        profile,
+        specialist_id=specialist_id,
+        idempotency_key=key,
+        request_id=request_id(request),
+    )
+
+
+@router.get(
+    "/specialists/{specialist_id}/payroll-reports",
+    response_model=list[SpecialistPayrollReportView],
+    tags=["specialists"],
+)
+def specialist_payroll_reports(
+    specialist_id: str,
+    db: Db,
+    profile: CurrentProfile,
+    limit: Annotated[int, Query(ge=1, le=168)] = 24,
+) -> list[SpecialistPayrollReportView]:
+    return [
+        SpecialistPayrollReportView.model_validate(report)
+        for report in list_specialist_payroll_reports(
+            db,
+            profile,
+            specialist_id,
+            limit=limit,
+        )
+    ]
 
 
 @router.post("/specialists", response_model=SpecialistView, status_code=201, tags=["specialists"])
@@ -1130,6 +2027,7 @@ def organization_create(
     )
     db.add(organization)
     db.flush()
+    ensure_cartel_account(db, organization)
     apply_profile_resource(
         db,
         profile.id,
@@ -1422,6 +2320,23 @@ def research_start(
 
 @router.get("/world-events", tags=["world-events"])
 def world_events(db: Db, profile: CurrentProfile) -> list[dict[str, Any]]:
+    instances = event_feed(db, profile.world_id)
+    if instances:
+        return [
+            {
+                "id": item.id,
+                "event_key": item.event_key,
+                "title": item.title,
+                "description": item.description,
+                "status": item.status,
+                "scope_type": item.scope_type,
+                "scope_id": item.scope_id,
+                "effects": item.effect_config_json,
+                "starts_at": item.starts_at,
+                "ends_at": item.ends_at,
+            }
+            for item in instances
+        ]
     return [
         {
             "id": item.id,
@@ -1461,23 +2376,48 @@ def news(db: Db, profile: CurrentProfile) -> list[dict[str, Any]]:
 
 
 @router.get("/notifications", tags=["notifications"])
-def notifications(db: Db, user: CurrentUser) -> list[dict[str, Any]]:
+def notifications(
+    db: Db,
+    user: CurrentUser,
+    unread_only: bool = False,
+    category: Annotated[str | None, Query(pattern=r"^(critical|strategic|social|summary)$")] = None,
+    limit: Annotated[int, Query(ge=1, le=100)] = 50,
+) -> list[dict[str, Any]]:
+    statement = select(Notification).where(Notification.user_id == user.id)
+    if unread_only:
+        statement = statement.where(Notification.read_at.is_(None))
+    if category is not None:
+        statement = statement.where(Notification.category == category)
     return [
         {
             "id": item.id,
             "event_type": item.event_type,
+            "category": item.category,
             "title": item.title,
             "body": item.body,
+            "metadata_json": item.metadata_json,
             "read_at": item.read_at,
             "created_at": item.created_at,
         }
-        for item in db.scalars(
-            select(Notification)
-            .where(Notification.user_id == user.id)
-            .order_by(Notification.created_at.desc())
-            .limit(100)
-        )
+        for item in db.scalars(statement.order_by(Notification.created_at.desc()).limit(limit))
     ]
+
+
+@router.get("/notifications/unread-count", tags=["notifications"])
+def unread_notification_count(db: Db, user: CurrentUser) -> dict[str, int]:
+    return {
+        "unread_count": int(
+            db.scalar(
+                select(func.count())
+                .select_from(Notification)
+                .where(
+                    Notification.user_id == user.id,
+                    Notification.read_at.is_(None),
+                )
+            )
+            or 0
+        )
+    }
 
 
 @router.post(
@@ -1494,9 +2434,30 @@ def read_notification(notification_id: str, db: Db, user: CurrentUser) -> Messag
             status_code=404,
             detail={"code": "notification.not_found", "message": "Notification not found"},
         )
-    item.read_at = datetime.now(UTC)
+    if item.read_at is None:
+        item.read_at = datetime.now(UTC)
     db.commit()
     return MessageResponse(message="Notification marked as read.")
+
+
+@router.post(
+    "/notifications/read-all",
+    response_model=MessageResponse,
+    tags=["notifications"],
+)
+def read_all_notifications(db: Db, user: CurrentUser) -> MessageResponse:
+    now = datetime.now(UTC)
+    for item in db.scalars(
+        select(Notification)
+        .where(
+            Notification.user_id == user.id,
+            Notification.read_at.is_(None),
+        )
+        .with_for_update()
+    ):
+        item.read_at = now
+    db.commit()
+    return MessageResponse(message="All notifications marked as read.")
 
 
 @router.get("/rankings", tags=["rankings"])
@@ -1580,30 +2541,70 @@ def privacy_export(db: Db, user: CurrentUser) -> dict[str, Any]:
         "ledger": [
             {
                 "resource_type": item.resource_type,
-                "amount": float(item.amount),
-                "balance_after": float(item.balance_after),
+                "amount": str(item.amount),
+                "balance_after": str(item.balance_after),
                 "reason": item.reason,
                 "created_at": item.created_at,
             }
             for item in db.scalars(
-                select(LedgerEntry).where(
-                    LedgerEntry.owner_type == "profile", LedgerEntry.owner_id.in_(profile_ids)
+                select(LedgerEntry)
+                .where(
+                    LedgerEntry.owner_type == "profile",
+                    LedgerEntry.owner_id.in_(profile_ids),
                 )
+                .order_by(LedgerEntry.created_at, LedgerEntry.id)
             )
         ],
     }
 
 
 @router.delete("/privacy/account", response_model=MessageResponse, tags=["privacy"])
-def delete_account(db: Db, user: CurrentUser) -> MessageResponse:
+def delete_account(request: Request, db: Db, user: CurrentUser) -> MessageResponse:
     now = datetime.now(UTC)
+    original_email = user.email
+    pseudonym_email = f"deleted-{user.id}@shadowgrid.invalid"
     user.disabled_at = now
-    user.email = f"deleted-{user.id}@shadowgrid.invalid"
+    user.email = pseudonym_email
     user.display_name = "Deleted player"
+    user.locale = "en"
+    user.email_verified = False
     user.password_hash = hash_password(secrets.token_urlsafe(48))
     user.totp_secret = None
     db.query(RefreshSession).filter(RefreshSession.user_id == user.id).update(
-        {RefreshSession.revoked_at: now}
+        {
+            RefreshSession.revoked_at: now,
+            RefreshSession.user_agent: "deleted-account",
+        }
+    )
+    db.query(OneTimeToken).filter(OneTimeToken.user_id == user.id).update(
+        {OneTimeToken.consumed_at: now}
+    )
+    db.query(EmailOutbox).filter(
+        func.lower(EmailOutbox.recipient) == original_email.lower()
+    ).update(
+        {
+            EmailOutbox.recipient: pseudonym_email,
+            EmailOutbox.subject: "Deleted account email",
+            EmailOutbox.body: "Content removed during account deletion.",
+            EmailOutbox.status: "cancelled",
+        }
+    )
+    db.query(OrganizationInvite).filter(
+        func.lower(OrganizationInvite.email) == original_email.lower()
+    ).update(
+        {
+            OrganizationInvite.email: pseudonym_email,
+            OrganizationInvite.status: "revoked",
+        }
+    )
+    audit(
+        db,
+        user.id,
+        "privacy.account_pseudonymized",
+        "user",
+        user.id,
+        request_id(request),
+        {"direct_identifiers_removed": True, "sessions_revoked": True},
     )
     db.commit()
     return MessageResponse(message="Account disabled and personal identifiers pseudonymized.")

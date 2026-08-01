@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-muenster-card-v1",
+  "manifest_order": 225,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "muenster",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-muenster-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100225,
+  "content_hash": "6db124ebcf5d0f0fa620633fbfdd50dc33b497048b2776cf21ce7c2e83fef8a0",
+  "source_file": "assets/source/cities/city-muenster-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-muenster-card-v1-320.avif",
+      "bytes": 3719,
+      "sha256": "983ba02a331bb91fa346eec52ab2bb21d11acd012250b8bb084ec98791615afa"
+    },
+    {
+      "path": "assets/production/webp/city-muenster-card-v1-320.webp",
+      "bytes": 3488,
+      "sha256": "31bd4747fac323a162a4775be60dc66a7cab64e2f5c875e3313ea1307d98da7f"
+    },
+    {
+      "path": "assets/production/avif/city-muenster-card-v1-640.avif",
+      "bytes": 7840,
+      "sha256": "c8f090f8ca326628de563b56604d5bd98a87140b8a1a43350a4623ccb8d26c27"
+    },
+    {
+      "path": "assets/production/webp/city-muenster-card-v1-640.webp",
+      "bytes": 6822,
+      "sha256": "c49fa49fc1bd10204d21d9803b3c0fe31a34917c07c1c8c25c40db060a003496"
+    },
+    {
+      "path": "assets/production/avif/city-muenster-card-v1-960.avif",
+      "bytes": 13670,
+      "sha256": "f1e83adf7dfee09c0d8cfc95eae2a309f4328aa85f24e5516a45909ac461831a"
+    },
+    {
+      "path": "assets/production/webp/city-muenster-card-v1-960.webp",
+      "bytes": 11310,
+      "sha256": "e4a31004270b246b5cbd61557323e1926735cd28130559e7497a3fe3ee90670b"
+    },
+    {
+      "path": "assets/production/avif/city-muenster-card-v1-1280.avif",
+      "bytes": 19260,
+      "sha256": "21490fcd57b639f6fe0954d201c0b396e6c7d8a99a5faefb27efe25357e7752c"
+    },
+    {
+      "path": "assets/production/webp/city-muenster-card-v1-1280.webp",
+      "bytes": 15334,
+      "sha256": "2730dc9138f00265bd0bfa8bd4a52b3c38fc76c48c0cf3d1d4c1d8e9e8344d83"
+    },
+    {
+      "path": "assets/production/avif/city-muenster-card-v1-1920.avif",
+      "bytes": 29465,
+      "sha256": "945aa3528ea1ab968c809f3cddb0e581ae7da90fda3bd04619d4ab9bb3836f9a"
+    },
+    {
+      "path": "assets/production/webp/city-muenster-card-v1-1920.webp",
+      "bytes": 25120,
+      "sha256": "144836d678e989f63a923e70f765296d9bacfb10e2c2a1fcac85cf0409812429"
+    },
+    {
+      "path": "assets/production/avif/city-muenster-card-v1-2560.avif",
+      "bytes": 41278,
+      "sha256": "61ddc827613594fd40bf7818feb7ee0705cdb4e6f8aa93af2569cae2862ad034"
+    },
+    {
+      "path": "assets/production/webp/city-muenster-card-v1-2560.webp",
+      "bytes": 36784,
+      "sha256": "6dcb61617f349a107c10fcd0fbab8ae7c1c1c7e9bdb8c2baf82393c892d36cbd"
+    },
+    {
+      "path": "assets/production/avif/city-muenster-card-v1-3840.avif",
+      "bytes": 65495,
+      "sha256": "4c0f8fdf473b630a33a81ddd0a0e344fb48723059e78c8a46bfdcb2a5691156f"
+    },
+    {
+      "path": "assets/production/webp/city-muenster-card-v1-3840.webp",
+      "bytes": 66420,
+      "sha256": "0fb6e7e9672808ca0b112a2565da5e02e735de352a0c2852cdadd840695706be"
+    },
+    {
+      "path": "assets/production/png/city-muenster-card-v1-1280.png",
+      "bytes": 1274128,
+      "sha256": "39eff3a715f643f9f6e07f0fa3df27c2d1c6804fe0311cfd8310d1f58feaf332"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-card-v1-320.avif",
+      "bytes": 3719,
+      "sha256": "983ba02a331bb91fa346eec52ab2bb21d11acd012250b8bb084ec98791615afa"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-card-v1-320.webp",
+      "bytes": 3488,
+      "sha256": "31bd4747fac323a162a4775be60dc66a7cab64e2f5c875e3313ea1307d98da7f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-card-v1-640.avif",
+      "bytes": 7840,
+      "sha256": "c8f090f8ca326628de563b56604d5bd98a87140b8a1a43350a4623ccb8d26c27"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-card-v1-640.webp",
+      "bytes": 6822,
+      "sha256": "c49fa49fc1bd10204d21d9803b3c0fe31a34917c07c1c8c25c40db060a003496"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-card-v1-960.avif",
+      "bytes": 13670,
+      "sha256": "f1e83adf7dfee09c0d8cfc95eae2a309f4328aa85f24e5516a45909ac461831a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-card-v1-960.webp",
+      "bytes": 11310,
+      "sha256": "e4a31004270b246b5cbd61557323e1926735cd28130559e7497a3fe3ee90670b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-card-v1-1280.avif",
+      "bytes": 19260,
+      "sha256": "21490fcd57b639f6fe0954d201c0b396e6c7d8a99a5faefb27efe25357e7752c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-card-v1-1280.webp",
+      "bytes": 15334,
+      "sha256": "2730dc9138f00265bd0bfa8bd4a52b3c38fc76c48c0cf3d1d4c1d8e9e8344d83"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-card-v1-1920.avif",
+      "bytes": 29465,
+      "sha256": "945aa3528ea1ab968c809f3cddb0e581ae7da90fda3bd04619d4ab9bb3836f9a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-card-v1-1920.webp",
+      "bytes": 25120,
+      "sha256": "144836d678e989f63a923e70f765296d9bacfb10e2c2a1fcac85cf0409812429"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-card-v1-2560.avif",
+      "bytes": 41278,
+      "sha256": "61ddc827613594fd40bf7818feb7ee0705cdb4e6f8aa93af2569cae2862ad034"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-card-v1-2560.webp",
+      "bytes": 36784,
+      "sha256": "6dcb61617f349a107c10fcd0fbab8ae7c1c1c7e9bdb8c2baf82393c892d36cbd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-card-v1-3840.avif",
+      "bytes": 65495,
+      "sha256": "4c0f8fdf473b630a33a81ddd0a0e344fb48723059e78c8a46bfdcb2a5691156f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-card-v1-3840.webp",
+      "bytes": 66420,
+      "sha256": "0fb6e7e9672808ca0b112a2565da5e02e735de352a0c2852cdadd840695706be"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-muenster-card-v1-1280.png",
+      "bytes": 1274128,
+      "sha256": "39eff3a715f643f9f6e07f0fa3df27c2d1c6804fe0311cfd8310d1f58feaf332"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-muenster-card-v1.webp",
+      "bytes": 3488,
+      "sha256": "31bd4747fac323a162a4775be60dc66a7cab64e2f5c875e3313ea1307d98da7f"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-muenster-card-v1.webp",
+      "bytes": 3488,
+      "sha256": "31bd4747fac323a162a4775be60dc66a7cab64e2f5c875e3313ea1307d98da7f"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.308Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1667933
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:16:24.803Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

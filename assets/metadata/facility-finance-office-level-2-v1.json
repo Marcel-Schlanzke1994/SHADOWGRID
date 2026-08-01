@@ -1,0 +1,171 @@
+{
+  "asset_id": "facility-finance-office-level-2-v1",
+  "manifest_order": 516,
+  "category": "facility",
+  "batch": "facilities",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "level-2",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/facility-finance-office-level-2-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100516,
+  "content_hash": "f4ae9dba30f282c9ba79670ba066925d3d017a1c981b81d2621174ee33cb2280",
+  "source_file": "assets/source/facilities/facility-finance-office-level-2-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/facility-finance-office-level-2-v1-320.avif",
+      "bytes": 3109,
+      "sha256": "42517cbb071236e9221fb7112562aa1152cc27546846d59a5a31357f5a9d317e"
+    },
+    {
+      "path": "assets/production/webp/facility-finance-office-level-2-v1-320.webp",
+      "bytes": 2692,
+      "sha256": "1c7d71eaa9e2bd42bf1f10d022dd4006a047bb37dee33b9d843690c8eadabbd3"
+    },
+    {
+      "path": "assets/production/avif/facility-finance-office-level-2-v1-640.avif",
+      "bytes": 6602,
+      "sha256": "3aec97303c9d486e5df9506bc7daa6b1efc8be6ab90b8c7c02d849b2f1e8ade5"
+    },
+    {
+      "path": "assets/production/webp/facility-finance-office-level-2-v1-640.webp",
+      "bytes": 5662,
+      "sha256": "f3bf0531f0d2fc3e0652d6144cd57e56ad558b627dd84290edef2d4adf056e83"
+    },
+    {
+      "path": "assets/production/avif/facility-finance-office-level-2-v1-960.avif",
+      "bytes": 10407,
+      "sha256": "e354b84603e78b0aaa7962a2caa4e13f5b9b6e0c56d52cad7df782e2913d90ff"
+    },
+    {
+      "path": "assets/production/webp/facility-finance-office-level-2-v1-960.webp",
+      "bytes": 9244,
+      "sha256": "053c464ff4534f58d03dd5963d0c92ec00206bdbaff21271e6cf4bae8eaf1727"
+    },
+    {
+      "path": "assets/production/avif/facility-finance-office-level-2-v1-1280.avif",
+      "bytes": 14793,
+      "sha256": "a830972ac010952634296275dd28d65350d230e717ca777a660e2e1de53006e5"
+    },
+    {
+      "path": "assets/production/webp/facility-finance-office-level-2-v1-1280.webp",
+      "bytes": 12286,
+      "sha256": "6ff054417e6e52d1e9d360376c9574fdcb31f12314c7e06b23f44d2a57c2f1f1"
+    },
+    {
+      "path": "assets/production/avif/facility-finance-office-level-2-v1-1920.avif",
+      "bytes": 22211,
+      "sha256": "748002e4d370ffc3202877bf6241126394323b121b4a5d25c6b5ea38d613e99f"
+    },
+    {
+      "path": "assets/production/webp/facility-finance-office-level-2-v1-1920.webp",
+      "bytes": 19200,
+      "sha256": "26ac05a4389833d84183ede3d89164999d7a7861115a336d964f6c602030b457"
+    },
+    {
+      "path": "assets/production/avif/facility-finance-office-level-2-v1-2560.avif",
+      "bytes": 29763,
+      "sha256": "aa83bedb40fb05ce8a6cd4d4d25d0bbff53544c0108df4db91dd12ec1e64f2e9"
+    },
+    {
+      "path": "assets/production/webp/facility-finance-office-level-2-v1-2560.webp",
+      "bytes": 26908,
+      "sha256": "b016d4892950262056b26c5c783cd4ac04969801427387afef8baaa8376da1c5"
+    },
+    {
+      "path": "assets/production/avif/facility-finance-office-level-2-v1-3840.avif",
+      "bytes": 49255,
+      "sha256": "4eeb3c5b9bda82bae68f0d6df0dad9c5d6676ef95ae24a5a6ece49b22ea9ec21"
+    },
+    {
+      "path": "assets/production/webp/facility-finance-office-level-2-v1-3840.webp",
+      "bytes": 45934,
+      "sha256": "8d41fcbcedd6f4cf759665175317acf9479a37d718efb8c9c1d61af4a326ef58"
+    },
+    {
+      "path": "assets/production/png/facility-finance-office-level-2-v1-1280.png",
+      "bytes": 628544,
+      "sha256": "069030ad7391f0acf7b88245f0035bef002a80b5fa5bd1ba3bb284d6fdf705c9"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/facility-finance-office-level-2-v1.webp",
+      "bytes": 2692,
+      "sha256": "1c7d71eaa9e2bd42bf1f10d022dd4006a047bb37dee33b9d843690c8eadabbd3"
+    },
+    {
+      "path": "apps/mobile/assets/library/facility-finance-office-level-2-v1.webp",
+      "bytes": 2692,
+      "sha256": "1c7d71eaa9e2bd42bf1f10d022dd4006a047bb37dee33b9d843690c8eadabbd3"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:26.932Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 92,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 90,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution.",
+      "Facility categories remain visually coherent and readable without depicting sensitive real-world infrastructure.",
+      "No missing render, unsafe detail, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1439817
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:08:03.094Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

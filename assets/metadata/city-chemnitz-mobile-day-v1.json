@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-chemnitz-mobile-day-v1",
+  "manifest_order": 303,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "chemnitz",
+  "variant": "mobile-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-chemnitz-mobile-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100303,
+  "content_hash": "d4cdbac7a5584c2ecfae7de406bb6aa3917031d44499a940adc14ff63dd53569",
+  "source_file": "assets/source/cities/city-chemnitz-mobile-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-chemnitz-mobile-day-v1-320.avif",
+      "bytes": 4514,
+      "sha256": "ca98984e3e117dbf5be9bce0bd5142014028f1ef6f70332aa6bc50110511cd84"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-mobile-day-v1-320.webp",
+      "bytes": 3988,
+      "sha256": "ebda3c342bc6414e8f720cc78940e0cc9e4aa80048b038176a22686496a5a3c1"
+    },
+    {
+      "path": "assets/production/avif/city-chemnitz-mobile-day-v1-640.avif",
+      "bytes": 9958,
+      "sha256": "5997082eec175f12094099f328b01c1b972af0dcefe24078077a76182ad2aaf8"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-mobile-day-v1-640.webp",
+      "bytes": 7970,
+      "sha256": "7393e78a3d4b7f1385f6262e1168ac09d7959baf12fe9b344b8637cc8170c821"
+    },
+    {
+      "path": "assets/production/avif/city-chemnitz-mobile-day-v1-960.avif",
+      "bytes": 17179,
+      "sha256": "249171c6145dfe6fb49f41982b9970b23fc0ed3081672e6b9bf803e9210bcc7f"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-mobile-day-v1-960.webp",
+      "bytes": 13822,
+      "sha256": "36050ad5f70130223c0710a1bced4b52d9f6714fafd9bc57336a310bb292a1ca"
+    },
+    {
+      "path": "assets/production/avif/city-chemnitz-mobile-day-v1-1280.avif",
+      "bytes": 23160,
+      "sha256": "8b8fe711ad6eefd0a80b813f613e61dfd0b5f79cff68dca14a3109282ec44a8c"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-mobile-day-v1-1280.webp",
+      "bytes": 19208,
+      "sha256": "a540bca93fc84a90845e5dff9ccd5203427e71b8ddf5cf36258b3d32a27a5955"
+    },
+    {
+      "path": "assets/production/avif/city-chemnitz-mobile-day-v1-1920.avif",
+      "bytes": 37386,
+      "sha256": "009d7556fe28965173992dcf8494183b7b042dab174e2e63d43d7c5e9e202a39"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-mobile-day-v1-1920.webp",
+      "bytes": 35048,
+      "sha256": "15e7a956ef47d1f6325eb2506b653036420f2100c759af4793e1960ee5837ed5"
+    },
+    {
+      "path": "assets/production/avif/city-chemnitz-mobile-day-v1-2560.avif",
+      "bytes": 55106,
+      "sha256": "273dc3354417c0c216ab4f9001d56c5644ec93b03d5b44e1a007ae645788435f"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-mobile-day-v1-2560.webp",
+      "bytes": 52226,
+      "sha256": "6d1843c1c834a0cdeafc931c2beb469d9677a8ba5397f8c039b9d13e105dae06"
+    },
+    {
+      "path": "assets/production/avif/city-chemnitz-mobile-day-v1-3840.avif",
+      "bytes": 98426,
+      "sha256": "ff3a80f87c50b6c132db4cec23f7bac4219b347ddd33fe1a0494e4ada3fe64fc"
+    },
+    {
+      "path": "assets/production/webp/city-chemnitz-mobile-day-v1-3840.webp",
+      "bytes": 103546,
+      "sha256": "153725c67ae31de7d35576f436bb648e770f09433ccc67d27d1fc7f71b178472"
+    },
+    {
+      "path": "assets/production/png/city-chemnitz-mobile-day-v1-1152.png",
+      "bytes": 1696309,
+      "sha256": "d4cdbac7a5584c2ecfae7de406bb6aa3917031d44499a940adc14ff63dd53569"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-day-v1-320.avif",
+      "bytes": 4514,
+      "sha256": "ca98984e3e117dbf5be9bce0bd5142014028f1ef6f70332aa6bc50110511cd84"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-day-v1-320.webp",
+      "bytes": 3988,
+      "sha256": "ebda3c342bc6414e8f720cc78940e0cc9e4aa80048b038176a22686496a5a3c1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-day-v1-640.avif",
+      "bytes": 9958,
+      "sha256": "5997082eec175f12094099f328b01c1b972af0dcefe24078077a76182ad2aaf8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-day-v1-640.webp",
+      "bytes": 7970,
+      "sha256": "7393e78a3d4b7f1385f6262e1168ac09d7959baf12fe9b344b8637cc8170c821"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-day-v1-960.avif",
+      "bytes": 17179,
+      "sha256": "249171c6145dfe6fb49f41982b9970b23fc0ed3081672e6b9bf803e9210bcc7f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-day-v1-960.webp",
+      "bytes": 13822,
+      "sha256": "36050ad5f70130223c0710a1bced4b52d9f6714fafd9bc57336a310bb292a1ca"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-day-v1-1280.avif",
+      "bytes": 23160,
+      "sha256": "8b8fe711ad6eefd0a80b813f613e61dfd0b5f79cff68dca14a3109282ec44a8c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-day-v1-1280.webp",
+      "bytes": 19208,
+      "sha256": "a540bca93fc84a90845e5dff9ccd5203427e71b8ddf5cf36258b3d32a27a5955"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-day-v1-1920.avif",
+      "bytes": 37386,
+      "sha256": "009d7556fe28965173992dcf8494183b7b042dab174e2e63d43d7c5e9e202a39"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-day-v1-1920.webp",
+      "bytes": 35048,
+      "sha256": "15e7a956ef47d1f6325eb2506b653036420f2100c759af4793e1960ee5837ed5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-day-v1-2560.avif",
+      "bytes": 55106,
+      "sha256": "273dc3354417c0c216ab4f9001d56c5644ec93b03d5b44e1a007ae645788435f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-day-v1-2560.webp",
+      "bytes": 52226,
+      "sha256": "6d1843c1c834a0cdeafc931c2beb469d9677a8ba5397f8c039b9d13e105dae06"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-day-v1-3840.avif",
+      "bytes": 98426,
+      "sha256": "ff3a80f87c50b6c132db4cec23f7bac4219b347ddd33fe1a0494e4ada3fe64fc"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-day-v1-3840.webp",
+      "bytes": 103546,
+      "sha256": "153725c67ae31de7d35576f436bb648e770f09433ccc67d27d1fc7f71b178472"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-chemnitz-mobile-day-v1-1152.png",
+      "bytes": 1696309,
+      "sha256": "d4cdbac7a5584c2ecfae7de406bb6aa3917031d44499a940adc14ff63dd53569"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-chemnitz-mobile-day-v1.webp",
+      "bytes": 3988,
+      "sha256": "ebda3c342bc6414e8f720cc78940e0cc9e4aa80048b038176a22686496a5a3c1"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-chemnitz-mobile-day-v1.webp",
+      "bytes": 3988,
+      "sha256": "ebda3c342bc6414e8f720cc78940e0cc9e4aa80048b038176a22686496a5a3c1"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:42.526Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1696309
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:17:11.800Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

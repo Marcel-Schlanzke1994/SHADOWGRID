@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-harbor-quarter-crisis-day-v1",
+  "manifest_order": 379,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "crisis-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-harbor-quarter-crisis-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100379,
+  "content_hash": "d9f879251de96d031993ef9aafc3a64d9cf57f2422fc5e51bf428f9280b7acef",
+  "source_file": "assets/source/districts/district-harbor-quarter-crisis-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-harbor-quarter-crisis-day-v1-320.avif",
+      "bytes": 3050,
+      "sha256": "abfd9691da62a963b8b921e49116c53db7c9a1762064658865f2f277ca38076d"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-crisis-day-v1-320.webp",
+      "bytes": 2584,
+      "sha256": "bcff5673591c68f3ef9d35f1d2704015c324381ed74432584d9dc3ad944e1f55"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-crisis-day-v1-640.avif",
+      "bytes": 6686,
+      "sha256": "dd0cdf4dc2f4f3ae2a5ed25a3fc0057c3fc86510674737ece884bb3b0d0e26b9"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-crisis-day-v1-640.webp",
+      "bytes": 5372,
+      "sha256": "06b723cc230c9a0408e4976128c8d4be5bd01210545d7897877c6ecaaec7b686"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-crisis-day-v1-960.avif",
+      "bytes": 10704,
+      "sha256": "9bdb4be6c5de78dc0decb470ea628fbd8d4eb9c52318ec3a86dfd79ef3adad24"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-crisis-day-v1-960.webp",
+      "bytes": 8596,
+      "sha256": "b26501dacc92722457e70e0413a14a3d501c03a50f5c915c701e4b81293de30e"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-crisis-day-v1-1280.avif",
+      "bytes": 15223,
+      "sha256": "75cc2e8129cfd196d891ecd25ce6041b0178d094ee83db5811152b475e0831f6"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-crisis-day-v1-1280.webp",
+      "bytes": 11648,
+      "sha256": "c13bd425e2c1a960b01259229378a86192c2dbf46824c1507ef663aa1553db26"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-crisis-day-v1-1920.avif",
+      "bytes": 22685,
+      "sha256": "b8938ce162c00b8443ccd492b32862bebcc083a39c3f43016168fc045c460687"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-crisis-day-v1-1920.webp",
+      "bytes": 18048,
+      "sha256": "a633f9d85e7895b287774728a5c272631a85e2e8c4be1a097c7c18679811e212"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-crisis-day-v1-2560.avif",
+      "bytes": 30437,
+      "sha256": "37d7cc2178d41bef3d2cc13fa0e6f4fcf2356e5840b6a926c4da538861cae5d5"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-crisis-day-v1-2560.webp",
+      "bytes": 25502,
+      "sha256": "36ae6b0866c83c21d447894f80b0ed6ab24cb5de7f0ab1a026dce716975418be"
+    },
+    {
+      "path": "assets/production/avif/district-harbor-quarter-crisis-day-v1-3840.avif",
+      "bytes": 49338,
+      "sha256": "7361c7e6957408d08077e70c278a8117e5dabc9995d8e71cf013f9cbbdcd6f64"
+    },
+    {
+      "path": "assets/production/webp/district-harbor-quarter-crisis-day-v1-3840.webp",
+      "bytes": 43790,
+      "sha256": "51229c955ffd56644aa75e25588910a8cc6a498fb3eb9915b25906c14601ff36"
+    },
+    {
+      "path": "assets/production/png/district-harbor-quarter-crisis-day-v1-1280.png",
+      "bytes": 629869,
+      "sha256": "d55f0b3606efc6d086a64ef30585f3a251f8976171faac7cf69c6d06f44d83ab"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-harbor-quarter-crisis-day-v1.webp",
+      "bytes": 2584,
+      "sha256": "bcff5673591c68f3ef9d35f1d2704015c324381ed74432584d9dc3ad944e1f55"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-harbor-quarter-crisis-day-v1.webp",
+      "bytes": 2584,
+      "sha256": "bcff5673591c68f3ef9d35f1d2704015c324381ed74432584d9dc3ad944e1f55"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.541Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1435141
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:23:20.958Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

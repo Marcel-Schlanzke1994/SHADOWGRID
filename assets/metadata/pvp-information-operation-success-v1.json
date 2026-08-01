@@ -1,0 +1,171 @@
+{
+  "asset_id": "pvp-information-operation-success-v1",
+  "manifest_order": 587,
+  "category": "pvp",
+  "batch": "pvp",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "success",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/pvp-information-operation-success-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100587,
+  "content_hash": "d7bb9781882edfb1cd7fbb2e89af00188902895d0e299384b5a60e8f0cb63b04",
+  "source_file": "assets/source/pvp/pvp-information-operation-success-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/pvp-information-operation-success-v1-320.avif",
+      "bytes": 2697,
+      "sha256": "b6be82422939128e32ea6e576db4fce75d6dc4c05880be4e393fc7b5698b5666"
+    },
+    {
+      "path": "assets/production/webp/pvp-information-operation-success-v1-320.webp",
+      "bytes": 1754,
+      "sha256": "fc0e147ee2fe717c43d4f41f66a48f443c51214eaabdd5cf1fe3181f35669fd0"
+    },
+    {
+      "path": "assets/production/avif/pvp-information-operation-success-v1-640.avif",
+      "bytes": 6681,
+      "sha256": "94153a07946abe5459d7f3e452acc29c36633a415a0eb09db6f0f1ac82c81462"
+    },
+    {
+      "path": "assets/production/webp/pvp-information-operation-success-v1-640.webp",
+      "bytes": 4760,
+      "sha256": "cdde4c83afcc3362abb3a98251ba425269e8fbf0d91d571e3517271c4b395918"
+    },
+    {
+      "path": "assets/production/avif/pvp-information-operation-success-v1-960.avif",
+      "bytes": 13184,
+      "sha256": "8568b9b0aeece0b59e17ac03a161645e975103cf756b5d694816be369f7295f3"
+    },
+    {
+      "path": "assets/production/webp/pvp-information-operation-success-v1-960.webp",
+      "bytes": 9040,
+      "sha256": "e4c72601a5679f2b8b8dd1d4e32a5abb2bb5a4ed0f21c980f4e3f7fe9ae26a94"
+    },
+    {
+      "path": "assets/production/avif/pvp-information-operation-success-v1-1280.avif",
+      "bytes": 19490,
+      "sha256": "b8ef95d94d4bc0dbb3fd6fb310cd0326061998439836fe5bb1e14e190f490fb0"
+    },
+    {
+      "path": "assets/production/webp/pvp-information-operation-success-v1-1280.webp",
+      "bytes": 13146,
+      "sha256": "d966230e7782bf408c7d7e6913d6775858d8d4ebdbf8b7fe687d62c74acfcce7"
+    },
+    {
+      "path": "assets/production/avif/pvp-information-operation-success-v1-1920.avif",
+      "bytes": 30140,
+      "sha256": "55165c2ab0f89db158d81e3c38af066eb2132355b14b8cc2715cfea56be5c41b"
+    },
+    {
+      "path": "assets/production/webp/pvp-information-operation-success-v1-1920.webp",
+      "bytes": 21996,
+      "sha256": "ed47413b8d8a08b09fd5c460318bf4af84e16443a15f0f74f9c5af3e818639bf"
+    },
+    {
+      "path": "assets/production/avif/pvp-information-operation-success-v1-2560.avif",
+      "bytes": 39603,
+      "sha256": "17e602c74c7ff64bb945da1307acc181253672b1727558d8a1fefa4b6336d9c5"
+    },
+    {
+      "path": "assets/production/webp/pvp-information-operation-success-v1-2560.webp",
+      "bytes": 30214,
+      "sha256": "1c66c580c06c7f5f42a10ad7ca82cf68f73166201ea007f23b29a90b49eab001"
+    },
+    {
+      "path": "assets/production/avif/pvp-information-operation-success-v1-3840.avif",
+      "bytes": 61641,
+      "sha256": "10d5b787d501f38d308f7c236e1153aaa760352e958e0464be62b0d29cd84a4d"
+    },
+    {
+      "path": "assets/production/webp/pvp-information-operation-success-v1-3840.webp",
+      "bytes": 49268,
+      "sha256": "66a5c577d4cfca23026636763fb9f8b329935ee8f3a74af086e0cec5fe3541df"
+    },
+    {
+      "path": "assets/production/png/pvp-information-operation-success-v1-1280.png",
+      "bytes": 185837,
+      "sha256": "e845e0b657d990c3d5f2fdded32a891fe603e455eec0659b98df8444ff5377ae"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/pvp-information-operation-success-v1.webp",
+      "bytes": 1754,
+      "sha256": "fc0e147ee2fe717c43d4f41f66a48f443c51214eaabdd5cf1fe3181f35669fd0"
+    },
+    {
+      "path": "apps/mobile/assets/library/pvp-information-operation-success-v1.webp",
+      "bytes": 1754,
+      "sha256": "fc0e147ee2fe717c43d4f41f66a48f443c51214eaabdd5cf1fe3181f35669fd0"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:48.873Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 93,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Preparation, success, and failure remain abstract strategic game states without actionable real-world attack or sabotage detail.",
+      "No missing render, unsafe instruction, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 238346
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:26:05.464Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

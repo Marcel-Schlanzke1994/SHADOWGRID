@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-event-agency-audited-frozen-closed-v1",
+  "manifest_order": 474,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "audited-frozen-closed",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-event-agency-audited-frozen-closed-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100474,
+  "content_hash": "429537fdf4e5fdc261e7d160567ac95ebe4de452f9bb1fa6a7ad34e5df1c8ee6",
+  "source_file": "assets/source/businesses/business-event-agency-audited-frozen-closed-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-event-agency-audited-frozen-closed-v1-320.avif",
+      "bytes": 2913,
+      "sha256": "a76a1d5ff2cb383eed56108840982fe17ab5d64068eb4de45df461fec419944e"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-audited-frozen-closed-v1-320.webp",
+      "bytes": 2512,
+      "sha256": "9adb6803fb35efc356bc28485e5510ae340678d0cdab6b8e9ba6bdad46e3d18d"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-audited-frozen-closed-v1-640.avif",
+      "bytes": 6213,
+      "sha256": "3657511b0046b68ea97371181af52d5b0a13b98af008cc4058e167cf37047475"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-audited-frozen-closed-v1-640.webp",
+      "bytes": 4820,
+      "sha256": "46cc66a1ac83afefb133bcd42dce44d7e84ae84a417054877ff32287f705139a"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-audited-frozen-closed-v1-960.avif",
+      "bytes": 10248,
+      "sha256": "e59964540881f05a16272ec3d2d59cb2dea06f9c601b6cf4c201db533d8d1d40"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-audited-frozen-closed-v1-960.webp",
+      "bytes": 8144,
+      "sha256": "fc8613e0989bbb577f3902d28c002640162fc77c8b70ea60c622dcf95b0ae106"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-audited-frozen-closed-v1-1280.avif",
+      "bytes": 14348,
+      "sha256": "9223b909c19e4af271919d67127110b9971bcf9cf8a9fa2832a58af336f4bb30"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-audited-frozen-closed-v1-1280.webp",
+      "bytes": 10644,
+      "sha256": "7088c6d1712e4f6e5b712714c818d1d271112543d31ab0aae15f5f06d1bb836d"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-audited-frozen-closed-v1-1920.avif",
+      "bytes": 21167,
+      "sha256": "34a067e55ec85187978da45501cdc4ce411d96f952e46d4c1c040835a013eee3"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-audited-frozen-closed-v1-1920.webp",
+      "bytes": 17522,
+      "sha256": "4a82df5175541e0fb554df574951709ead0e688b9bb839b17a8de5bfc08a458a"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-audited-frozen-closed-v1-2560.avif",
+      "bytes": 29009,
+      "sha256": "c7567f4fef140bbc0e115b9aecdf477823d3a8ae861a155409739893dc76d6f1"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-audited-frozen-closed-v1-2560.webp",
+      "bytes": 23774,
+      "sha256": "ce1f41d50e5a073424d5c5255af60c87fd8c2a42b0a66adbbb083c11b4c5711e"
+    },
+    {
+      "path": "assets/production/avif/business-event-agency-audited-frozen-closed-v1-3840.avif",
+      "bytes": 46783,
+      "sha256": "26f75fbd94d4eef9ae0d521ef0437400b4034f5bc9d8cd47338785a3d1100c4a"
+    },
+    {
+      "path": "assets/production/webp/business-event-agency-audited-frozen-closed-v1-3840.webp",
+      "bytes": 42092,
+      "sha256": "e89d066c946b4b08636bd7bf188b19ec0254ae19b5610f259e369d1a17b264b2"
+    },
+    {
+      "path": "assets/production/png/business-event-agency-audited-frozen-closed-v1-1280.png",
+      "bytes": 627961,
+      "sha256": "10519767b8b10c2d59136fcec663f815a153b525b269a1ed07a042aacd517dc7"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-event-agency-audited-frozen-closed-v1.webp",
+      "bytes": 2512,
+      "sha256": "9adb6803fb35efc356bc28485e5510ae340678d0cdab6b8e9ba6bdad46e3d18d"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-event-agency-audited-frozen-closed-v1.webp",
+      "bytes": 2512,
+      "sha256": "9adb6803fb35efc356bc28485e5510ae340678d0cdab6b8e9ba6bdad46e3d18d"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.421Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1441118
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:30:20.764Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

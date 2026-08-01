@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-university-quarter-normal-day-v1",
+  "manifest_order": 423,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-university-quarter-normal-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100423,
+  "content_hash": "dafab4331d5ac3f3b87b57f731b316c0145c397f33dac1ac0a8d8e04cf8ad31c",
+  "source_file": "assets/source/districts/district-university-quarter-normal-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-university-quarter-normal-day-v1-320.avif",
+      "bytes": 2917,
+      "sha256": "152d59ff38303a0b29bf1dbe408fe014c9487ddefb9c79bf02675a72f5840f27"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-normal-day-v1-320.webp",
+      "bytes": 2440,
+      "sha256": "bbd7239310b3c91414f53b92f97accc266177b9ef738351890a86642d0c19cd1"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-normal-day-v1-640.avif",
+      "bytes": 6473,
+      "sha256": "3beeabe85b3a92e6bc13eb3d04e217c084c28274e2327729ae018e8a01c10cbd"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-normal-day-v1-640.webp",
+      "bytes": 5210,
+      "sha256": "cfc16919ba23cef3fc3d17a05ee91917b4ec14a3f385ef5ca3e4962a03656379"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-normal-day-v1-960.avif",
+      "bytes": 10082,
+      "sha256": "651528bd3371eec34561dcdc9ce49fc6a1762e13f012488a13f97006171274ca"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-normal-day-v1-960.webp",
+      "bytes": 8622,
+      "sha256": "0df38a702e88be0fc24609d8083526c4a8e0149d79dacfccc172b15ba724e4af"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-normal-day-v1-1280.avif",
+      "bytes": 14284,
+      "sha256": "8f212710d8a4919d39c808f2f38337d4cc56f6069ebe278af2a3fc26cf87cbad"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-normal-day-v1-1280.webp",
+      "bytes": 11550,
+      "sha256": "dc75ccb737bb4ab7e4a47be5205e4561f0b47d999e28f5f887e7025cd2788fcc"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-normal-day-v1-1920.avif",
+      "bytes": 21522,
+      "sha256": "f6f26c623f25604e493838b877776c348c909c88806ac2713b6388dfd4fd5c38"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-normal-day-v1-1920.webp",
+      "bytes": 18520,
+      "sha256": "04efb9df1098c6d8818e111d9ef27773ab6778d941aaec258792fee6a01e0af5"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-normal-day-v1-2560.avif",
+      "bytes": 28812,
+      "sha256": "514cb70142612489b512cc1bbc679dc0d1f4c89231104344a69fb430bc855409"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-normal-day-v1-2560.webp",
+      "bytes": 25586,
+      "sha256": "03428fb7b609d53cbae69c2bad3a2df7d45313208ec11ac6acdd145efa126cdc"
+    },
+    {
+      "path": "assets/production/avif/district-university-quarter-normal-day-v1-3840.avif",
+      "bytes": 47618,
+      "sha256": "e077d5f18579a5966117c7e2e65e94a7a60c0e0b3f53e3ea0070db2ce35b2c80"
+    },
+    {
+      "path": "assets/production/webp/district-university-quarter-normal-day-v1-3840.webp",
+      "bytes": 44214,
+      "sha256": "00b4f11bc8d0629312088aaf9b10ab6474cee01d087ba7204c9d24cb0f965f16"
+    },
+    {
+      "path": "assets/production/png/district-university-quarter-normal-day-v1-1280.png",
+      "bytes": 622192,
+      "sha256": "7f688cd0f0887913a2b0cde5f691b4d22c29506e3fa1249fa31d0df5ee2c7627"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-university-quarter-normal-day-v1.webp",
+      "bytes": 2440,
+      "sha256": "bbd7239310b3c91414f53b92f97accc266177b9ef738351890a86642d0c19cd1"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-university-quarter-normal-day-v1.webp",
+      "bytes": 2440,
+      "sha256": "bbd7239310b3c91414f53b92f97accc266177b9ef738351890a86642d0c19cd1"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.058Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1431136
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:39:01.031Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

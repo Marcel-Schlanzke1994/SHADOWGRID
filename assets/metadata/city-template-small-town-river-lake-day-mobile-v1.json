@@ -1,0 +1,171 @@
+{
+  "asset_id": "city-template-small-town-river-lake-day-mobile-v1",
+  "manifest_order": 359,
+  "category": "city-template",
+  "batch": "procedural-city-templates",
+  "city": null,
+  "variant": "day-mobile",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-template-small-town-river-lake-day-mobile-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100359,
+  "content_hash": "89910afc85b4b2cb93e89193499fdc5b2ffbfce9d3289d260909b9f8d07618ca",
+  "source_file": "assets/source/global/city-template-small-town-river-lake-day-mobile-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-template-small-town-river-lake-day-mobile-v1-320.avif",
+      "bytes": 4561,
+      "sha256": "c2718556ed3fc4d7b7809fbab0df292944f2197794e4ba2bcd591946a8a84c52"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-river-lake-day-mobile-v1-320.webp",
+      "bytes": 3986,
+      "sha256": "ef3e63392f0838b1466195dcd7814ea2a9994f5745722b1df099e691a4617956"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-river-lake-day-mobile-v1-640.avif",
+      "bytes": 9851,
+      "sha256": "4e0b853f137de7b9b5ca19739f240ba4071afa0c077dda19d534aca5718c27a6"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-river-lake-day-mobile-v1-640.webp",
+      "bytes": 7848,
+      "sha256": "c7221b204afc679510aa3f276a9ddc5fd5844979a41b236e2b37aa019534a780"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-river-lake-day-mobile-v1-960.avif",
+      "bytes": 17351,
+      "sha256": "6a368eaf1e1ab69e190a5a5fd52f806b65fb8325db49b6abfb0d9d32ea461fed"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-river-lake-day-mobile-v1-960.webp",
+      "bytes": 13822,
+      "sha256": "cf1a393b19fe21db919b442cebf93b6b0bdce34c9ee3c517a29f14eb7ce21f42"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-river-lake-day-mobile-v1-1280.avif",
+      "bytes": 22742,
+      "sha256": "fda29e8f90cabcdbb387134766786ec472ed172fd968d9a4a6397fcee7e787d0"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-river-lake-day-mobile-v1-1280.webp",
+      "bytes": 19476,
+      "sha256": "91db6ee2871993dd635afbfaea5fb7bb0feeab0c7d4481a547c69b6cf93dbaf1"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-river-lake-day-mobile-v1-1920.avif",
+      "bytes": 38073,
+      "sha256": "782f6874e4dceeaed8da608de87d1290f4ff8a47069b3e893830e2b278473155"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-river-lake-day-mobile-v1-1920.webp",
+      "bytes": 34910,
+      "sha256": "3789273785a89b7228dd09465c88c6185f329ae71dc8eaac2a5f0cce56dadb7d"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-river-lake-day-mobile-v1-2560.avif",
+      "bytes": 55085,
+      "sha256": "99eacb3cec566af19bde8764721de1094fcff29848a9f0e43b7ed8155057661a"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-river-lake-day-mobile-v1-2560.webp",
+      "bytes": 52538,
+      "sha256": "167622f65c10f1cfe1992ec7e170d0eb4155646e2bf32212809f0a7e4b3bcf07"
+    },
+    {
+      "path": "assets/production/avif/city-template-small-town-river-lake-day-mobile-v1-3840.avif",
+      "bytes": 98794,
+      "sha256": "a49bf4d84004aa37c14bcbb9c17405dfcf67e2674e32722366d7d64ccb0aa07e"
+    },
+    {
+      "path": "assets/production/webp/city-template-small-town-river-lake-day-mobile-v1-3840.webp",
+      "bytes": 103940,
+      "sha256": "956cc8cad90767488c85baf3478e1b87a5502d511a55408b482d1e231ee2eb1a"
+    },
+    {
+      "path": "assets/production/png/city-template-small-town-river-lake-day-mobile-v1-1152.png",
+      "bytes": 1699792,
+      "sha256": "89910afc85b4b2cb93e89193499fdc5b2ffbfce9d3289d260909b9f8d07618ca"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/city-template-small-town-river-lake-day-mobile-v1.webp",
+      "bytes": 3986,
+      "sha256": "ef3e63392f0838b1466195dcd7814ea2a9994f5745722b1df099e691a4617956"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-template-small-town-river-lake-day-mobile-v1.webp",
+      "bytes": 3986,
+      "sha256": "ef3e63392f0838b1466195dcd7814ea2a9994f5745722b1df099e691a4617956"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 91.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:55.652Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 92,
+      "material_quality": 87,
+      "light_quality": 89,
+      "architecture_plausibility": 89,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 92,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All four paged contact sheets were inspected at original resolution.",
+      "The templates are intentionally stylized deterministic fallbacks and remain compositionally useful across every required aspect ratio.",
+      "No missing render, broken geometry, sensitive infrastructure detail, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1699792
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:49:54.495Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

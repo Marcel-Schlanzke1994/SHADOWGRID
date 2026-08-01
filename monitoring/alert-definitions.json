@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "evaluation_timezone": "UTC",
+  "alerts": [
+    {
+      "id": "SHADOWGRID-READINESS",
+      "severity": "critical",
+      "signal": "HTTP GET /api/v1/ready",
+      "condition": "non-200 or payload.status != ready for 2 minutes",
+      "evaluation_interval_seconds": 30,
+      "owner": "operations",
+      "runbook": "docs/OPERATIONS_RUNBOOK.md#health-and-observability",
+      "operator_binding": "external"
+    },
+    {
+      "id": "SHADOWGRID-HTTP-5XX",
+      "severity": "high",
+      "signal": "shadowgrid_http_requests_total",
+      "condition": "5xx ratio > 0.02 for 5 minutes",
+      "evaluation_interval_seconds": 60,
+      "owner": "backend",
+      "runbook": "docs/OPERATIONS_RUNBOOK.md#triage",
+      "operator_binding": "external"
+    },
+    {
+      "id": "SHADOWGRID-P95-LATENCY",
+      "severity": "medium",
+      "signal": "shadowgrid_http_request_seconds_bucket",
+      "condition": "p95 > 1.5 seconds for 10 minutes",
+      "evaluation_interval_seconds": 60,
+      "owner": "backend",
+      "runbook": "docs/OPERATIONS_RUNBOOK.md#triage",
+      "operator_binding": "external"
+    },
+    {
+      "id": "SHADOWGRID-WORKER",
+      "severity": "high",
+      "signal": "arq apps.worker.worker.WorkerSettings --check",
+      "condition": "health command exits non-zero twice or worker process is absent",
+      "evaluation_interval_seconds": 60,
+      "owner": "operations",
+      "runbook": "docs/OPERATIONS_RUNBOOK.md#worker-recovery",
+      "operator_binding": "external"
+    },
+    {
+      "id": "SHADOWGRID-REDIS",
+      "severity": "high",
+      "signal": "managed Redis availability and ARQ health",
+      "condition": "Redis unavailable for 2 minutes",
+      "evaluation_interval_seconds": 30,
+      "owner": "operations",
+      "runbook": "docs/OPERATIONS_RUNBOOK.md#worker-recovery",
+      "operator_binding": "external"
+    },
+    {
+      "id": "SHADOWGRID-POSTGRESQL",
+      "severity": "critical",
+      "signal": "managed PostgreSQL availability plus /api/v1/ready",
+      "condition": "database unavailable for 2 minutes or storage > 85 percent",
+      "evaluation_interval_seconds": 30,
+      "owner": "database-operations",
+      "runbook": "docs/OPERATIONS_RUNBOOK.md#database-recovery",
+      "operator_binding": "external"
+    },
+    {
+      "id": "SHADOWGRID-LEDGER-RECONCILIATION",
+      "severity": "critical",
+      "signal": "pnpm data:verify exit code",
+      "condition": "any invariant failure",
+      "evaluation_interval_seconds": 900,
+      "owner": "economy-integrity",
+      "runbook": "docs/OPERATIONS_RUNBOOK.md#ledger-reconciliation",
+      "operator_binding": "external"
+    }
+  ]
+}

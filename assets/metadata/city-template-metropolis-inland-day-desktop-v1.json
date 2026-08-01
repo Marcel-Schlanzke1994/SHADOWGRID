@@ -1,0 +1,171 @@
+{
+  "asset_id": "city-template-metropolis-inland-day-desktop-v1",
+  "manifest_order": 312,
+  "category": "city-template",
+  "batch": "procedural-city-templates",
+  "city": null,
+  "variant": "day-desktop",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-template-metropolis-inland-day-desktop-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100312,
+  "content_hash": "d4a017c3126b2d437fe0cba8bf3a04fc660152a21569792dcec1c4c19f8c61bc",
+  "source_file": "assets/source/global/city-template-metropolis-inland-day-desktop-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-template-metropolis-inland-day-desktop-v1-320.avif",
+      "bytes": 2814,
+      "sha256": "e0300e8142f4edb3d0fb3f61e505594bc1d5ae87ce0537f2c791d8e52ab9e291"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-inland-day-desktop-v1-320.webp",
+      "bytes": 2808,
+      "sha256": "26a29dd4ff42ae9edcbd46000607e9c0466a8765a9beb59d7b97a63237aac53c"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-inland-day-desktop-v1-640.avif",
+      "bytes": 6322,
+      "sha256": "4ce93c85a9d824107a2d1f4a40aab90486d88af07959c73c5d29e39429ce2b61"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-inland-day-desktop-v1-640.webp",
+      "bytes": 5474,
+      "sha256": "e006086bc8403e1c24c1b444f9e2bd131e63bfe01c540ca43732bb623644ca04"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-inland-day-desktop-v1-960.avif",
+      "bytes": 10450,
+      "sha256": "85526815ed80fa211cc155dc7808ab91f7389aa70014d4d7df260af31b839bee"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-inland-day-desktop-v1-960.webp",
+      "bytes": 8884,
+      "sha256": "09871367ea4c584276e7803cbdad05789143e3c9d9f3733a23cbb1d6b1ca8724"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-inland-day-desktop-v1-1280.avif",
+      "bytes": 15198,
+      "sha256": "5cc63ef3707ab699e6c7c6ebcf886c45292698b9795e94c96ce744706f6b74de"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-inland-day-desktop-v1-1280.webp",
+      "bytes": 11616,
+      "sha256": "053f23ecd55fd4405d3511e60d7eb6f35ef090ada436c3229020e8861e2bb7bc"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-inland-day-desktop-v1-1920.avif",
+      "bytes": 22158,
+      "sha256": "885493e01b15124a96e1947c8049b92f0339e1add7ca9865330a10ec86b43ab9"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-inland-day-desktop-v1-1920.webp",
+      "bytes": 18110,
+      "sha256": "9a779b9449b299505b247955de6ab8fc745c44f54f4499664dbfe407ee18d44e"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-inland-day-desktop-v1-2560.avif",
+      "bytes": 30470,
+      "sha256": "a8f134f2cd85d2e8800f1ab6126804a0d9fb76a22fcae0b21c8e2cc52338c8cc"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-inland-day-desktop-v1-2560.webp",
+      "bytes": 25396,
+      "sha256": "2d7db62d76f63e8f47d5c87c5fed55f24f66e1ca8e1ffd714760fde7e49cae37"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-inland-day-desktop-v1-3840.avif",
+      "bytes": 48208,
+      "sha256": "f713f18febdb1b7005bb537793dbae0c6c26ecaaca04086af6cd7fbd4615cb62"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-inland-day-desktop-v1-3840.webp",
+      "bytes": 44616,
+      "sha256": "880815790c167b98c5884d013303e0570b4f30d4f92ae29950d4833c9d3b423f"
+    },
+    {
+      "path": "assets/production/png/city-template-metropolis-inland-day-desktop-v1-1280.png",
+      "bytes": 721546,
+      "sha256": "120ebafcb1d4daa00a48470eb072ce519000a3780195c015a8ad736b6ecda6ed"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/city-template-metropolis-inland-day-desktop-v1.webp",
+      "bytes": 2808,
+      "sha256": "26a29dd4ff42ae9edcbd46000607e9c0466a8765a9beb59d7b97a63237aac53c"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-template-metropolis-inland-day-desktop-v1.webp",
+      "bytes": 2808,
+      "sha256": "26a29dd4ff42ae9edcbd46000607e9c0466a8765a9beb59d7b97a63237aac53c"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 91.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:54.885Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 92,
+      "material_quality": 87,
+      "light_quality": 89,
+      "architecture_plausibility": 89,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 92,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All four paged contact sheets were inspected at original resolution.",
+      "The templates are intentionally stylized deterministic fallbacks and remain compositionally useful across every required aspect ratio.",
+      "No missing render, broken geometry, sensitive infrastructure detail, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1641671
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:21:48.395Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

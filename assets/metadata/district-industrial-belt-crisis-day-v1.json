@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-industrial-belt-crisis-day-v1",
+  "manifest_order": 387,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "crisis-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-industrial-belt-crisis-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100387,
+  "content_hash": "59fee1bb0f44449ab382579e0c47148ab28edd827f6ecf1e452c5fa422e3c284",
+  "source_file": "assets/source/districts/district-industrial-belt-crisis-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-industrial-belt-crisis-day-v1-320.avif",
+      "bytes": 3002,
+      "sha256": "74dbb7acc722e641118e3847a0ab1a18a8b6702d2987bbebfe196b3c51e8e201"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-crisis-day-v1-320.webp",
+      "bytes": 2450,
+      "sha256": "69ccded82ca64e7483ecad3ee4b46f47a421e63d9fc60ab0383254190befea52"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-crisis-day-v1-640.avif",
+      "bytes": 6414,
+      "sha256": "bc6180a351dadb8a9cafbe8421df2c664cb7dbef844d797abc6910facfa9c0f1"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-crisis-day-v1-640.webp",
+      "bytes": 5050,
+      "sha256": "4994620c2e915db7c9b037e2c767c6605c0fea5ac2e928f40e72094c5dbea6ac"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-crisis-day-v1-960.avif",
+      "bytes": 10431,
+      "sha256": "5024a94c3ebba35e8e0199fdc7cb4879d54d192c269ad932213bd7768fc36421"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-crisis-day-v1-960.webp",
+      "bytes": 8488,
+      "sha256": "6516757879bba99418158259be74a328142606c5b8d84c2fc0c1393136e4bffa"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-crisis-day-v1-1280.avif",
+      "bytes": 14545,
+      "sha256": "05a71ceff6a44feb1ce03426d687c2f09f2cd8dba26522f251dbc8f8e0244a56"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-crisis-day-v1-1280.webp",
+      "bytes": 11174,
+      "sha256": "2bf4741aec8ae4334bc15fe6b0185c017a2a96da082fe576cae1ddc9b72c49d1"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-crisis-day-v1-1920.avif",
+      "bytes": 21950,
+      "sha256": "f7dd8d55b35a8200fe5b2bd546617de0173018b904291c3dd13f90e475a958fe"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-crisis-day-v1-1920.webp",
+      "bytes": 18090,
+      "sha256": "8b211654c5d3f10f914da96cd849788d8992773ae292b7284c25545a8fac56ff"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-crisis-day-v1-2560.avif",
+      "bytes": 28955,
+      "sha256": "e34a1ac31cc029a76c3f0f4e7d94644ef2d96c78af24c3d6202e1bf8176ceb6c"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-crisis-day-v1-2560.webp",
+      "bytes": 25464,
+      "sha256": "fcbd5d50c039b3e97fdd83c2962424d03667b38a4be6de30274f96b03b188dc9"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-crisis-day-v1-3840.avif",
+      "bytes": 47672,
+      "sha256": "b45e059ec6ea835882d394f2ee7e35ecfb6f00c971148da176347f5dd02cf4d0"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-crisis-day-v1-3840.webp",
+      "bytes": 44074,
+      "sha256": "153d532e6bef03e96b8fddffe428a17371ca29b41f12ed2035ebb218d3625f0d"
+    },
+    {
+      "path": "assets/production/png/district-industrial-belt-crisis-day-v1-1280.png",
+      "bytes": 630158,
+      "sha256": "be955517be9a967542c404bd8071de76c2fce38de6ed5b175d79d4bca80a26d9"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-industrial-belt-crisis-day-v1.webp",
+      "bytes": 2450,
+      "sha256": "69ccded82ca64e7483ecad3ee4b46f47a421e63d9fc60ab0383254190befea52"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-industrial-belt-crisis-day-v1.webp",
+      "bytes": 2450,
+      "sha256": "69ccded82ca64e7483ecad3ee4b46f47a421e63d9fc60ab0383254190befea52"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.636Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1443692
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:27:12.122Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

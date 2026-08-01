@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-moenchengladbach-card-v1",
+  "manifest_order": 273,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "moenchengladbach",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-moenchengladbach-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100273,
+  "content_hash": "eafed519326b2b3b2b92a30aa21477a6517739ee90f3bd7e9d1d9c9026091fb6",
+  "source_file": "assets/source/cities/city-moenchengladbach-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-moenchengladbach-card-v1-320.avif",
+      "bytes": 3640,
+      "sha256": "b87062a92346ddf242851f4608192a8ce788ddb4d1c18b9d3637185544644f9c"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-card-v1-320.webp",
+      "bytes": 3600,
+      "sha256": "131e1b9e3a92009927f8b4e6f85a39009930240540cfbe7381bd82b901d748d9"
+    },
+    {
+      "path": "assets/production/avif/city-moenchengladbach-card-v1-640.avif",
+      "bytes": 7965,
+      "sha256": "803a2dc6657283f1c8848cc7a17596bd9398f4c4a12332c241303b637aad625f"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-card-v1-640.webp",
+      "bytes": 6792,
+      "sha256": "948ed2476eee09cf34f6309258b6f614a61b4be833b06de9aa91d722a2f7563d"
+    },
+    {
+      "path": "assets/production/avif/city-moenchengladbach-card-v1-960.avif",
+      "bytes": 13854,
+      "sha256": "f16a8a659aecf512cc99847a4b11d6ca75082b89e1b1afe990a4ee73b9edc69b"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-card-v1-960.webp",
+      "bytes": 11216,
+      "sha256": "52bd24ea27a8b1d574edccb75c468b9341989ba269b8862bd343128abee0c7f1"
+    },
+    {
+      "path": "assets/production/avif/city-moenchengladbach-card-v1-1280.avif",
+      "bytes": 19164,
+      "sha256": "b2336dd6eca3113ebf90a3d63724dfbf1b8517d207c06802da51376c67f62ecb"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-card-v1-1280.webp",
+      "bytes": 15140,
+      "sha256": "8c5935808567ce737ddbee7ed389aeec256ec2be3750054105150b968e914cdc"
+    },
+    {
+      "path": "assets/production/avif/city-moenchengladbach-card-v1-1920.avif",
+      "bytes": 29029,
+      "sha256": "0d6e217810cfe598f0214b7cedb75acbca33714bb140b90a738da61daf806616"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-card-v1-1920.webp",
+      "bytes": 24910,
+      "sha256": "e6a522dd955a9d5d1e8c3cc0379743b03c12db3c99510b7e1a626ae43dd59049"
+    },
+    {
+      "path": "assets/production/avif/city-moenchengladbach-card-v1-2560.avif",
+      "bytes": 40960,
+      "sha256": "72cebde4c4b5afdd1a2c4fb8af2af4252641e919498edfd1faad7cb2d51332e8"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-card-v1-2560.webp",
+      "bytes": 36754,
+      "sha256": "4c97caa2a388ced91e9930cda0a1f3067d9cc60adb134a9bc2f9175494e75690"
+    },
+    {
+      "path": "assets/production/avif/city-moenchengladbach-card-v1-3840.avif",
+      "bytes": 67194,
+      "sha256": "5722745b686dafc2acee7e3b42d70bb23cd0fb58969f1faf5d2fb154a4d48e32"
+    },
+    {
+      "path": "assets/production/webp/city-moenchengladbach-card-v1-3840.webp",
+      "bytes": 65742,
+      "sha256": "7473aa7172765fac4310eb0e442f3ad742d5f6701a297e0ee18b1114ebf24b00"
+    },
+    {
+      "path": "assets/production/png/city-moenchengladbach-card-v1-1280.png",
+      "bytes": 1273579,
+      "sha256": "2da9de47089f3c2e3ca0cbe5e1f7e8448dc6dc400eaad4388088e0e5d6d0bc3a"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-card-v1-320.avif",
+      "bytes": 3640,
+      "sha256": "b87062a92346ddf242851f4608192a8ce788ddb4d1c18b9d3637185544644f9c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-card-v1-320.webp",
+      "bytes": 3600,
+      "sha256": "131e1b9e3a92009927f8b4e6f85a39009930240540cfbe7381bd82b901d748d9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-card-v1-640.avif",
+      "bytes": 7965,
+      "sha256": "803a2dc6657283f1c8848cc7a17596bd9398f4c4a12332c241303b637aad625f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-card-v1-640.webp",
+      "bytes": 6792,
+      "sha256": "948ed2476eee09cf34f6309258b6f614a61b4be833b06de9aa91d722a2f7563d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-card-v1-960.avif",
+      "bytes": 13854,
+      "sha256": "f16a8a659aecf512cc99847a4b11d6ca75082b89e1b1afe990a4ee73b9edc69b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-card-v1-960.webp",
+      "bytes": 11216,
+      "sha256": "52bd24ea27a8b1d574edccb75c468b9341989ba269b8862bd343128abee0c7f1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-card-v1-1280.avif",
+      "bytes": 19164,
+      "sha256": "b2336dd6eca3113ebf90a3d63724dfbf1b8517d207c06802da51376c67f62ecb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-card-v1-1280.webp",
+      "bytes": 15140,
+      "sha256": "8c5935808567ce737ddbee7ed389aeec256ec2be3750054105150b968e914cdc"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-card-v1-1920.avif",
+      "bytes": 29029,
+      "sha256": "0d6e217810cfe598f0214b7cedb75acbca33714bb140b90a738da61daf806616"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-card-v1-1920.webp",
+      "bytes": 24910,
+      "sha256": "e6a522dd955a9d5d1e8c3cc0379743b03c12db3c99510b7e1a626ae43dd59049"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-card-v1-2560.avif",
+      "bytes": 40960,
+      "sha256": "72cebde4c4b5afdd1a2c4fb8af2af4252641e919498edfd1faad7cb2d51332e8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-card-v1-2560.webp",
+      "bytes": 36754,
+      "sha256": "4c97caa2a388ced91e9930cda0a1f3067d9cc60adb134a9bc2f9175494e75690"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-card-v1-3840.avif",
+      "bytes": 67194,
+      "sha256": "5722745b686dafc2acee7e3b42d70bb23cd0fb58969f1faf5d2fb154a4d48e32"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-card-v1-3840.webp",
+      "bytes": 65742,
+      "sha256": "7473aa7172765fac4310eb0e442f3ad742d5f6701a297e0ee18b1114ebf24b00"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-moenchengladbach-card-v1-1280.png",
+      "bytes": 1273579,
+      "sha256": "2da9de47089f3c2e3ca0cbe5e1f7e8448dc6dc400eaad4388088e0e5d6d0bc3a"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-moenchengladbach-card-v1.webp",
+      "bytes": 3600,
+      "sha256": "131e1b9e3a92009927f8b4e6f85a39009930240540cfbe7381bd82b901d748d9"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-moenchengladbach-card-v1.webp",
+      "bytes": 3600,
+      "sha256": "131e1b9e3a92009927f8b4e6f85a39009930240540cfbe7381bd82b901d748d9"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.898Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1675157
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:51:59.581Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

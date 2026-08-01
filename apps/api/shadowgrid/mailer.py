@@ -3,12 +3,32 @@ from __future__ import annotations
 import smtplib
 from datetime import UTC, datetime, timedelta
 from email.message import EmailMessage
+from typing import Literal
 
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from shadowgrid.config import Settings
+from shadowgrid.localization import load_auth_catalog, normalize_account_locale
 from shadowgrid.models import EmailOutbox
+
+
+def account_email_copy(
+    kind: Literal["verify_email", "password_reset"],
+    locale: str,
+    link: str,
+) -> tuple[str, str]:
+    normalized = normalize_account_locale(locale)
+    catalog = load_auth_catalog(normalized)
+    if kind == "verify_email":
+        return (
+            catalog["emailVerifySubject"],
+            catalog["emailVerifyBody"].format(link=link),
+        )
+    return (
+        catalog["emailResetSubject"],
+        catalog["emailResetBody"].format(link=link),
+    )
 
 
 def queue_email(db: Session, recipient: str, subject: str, body: str) -> EmailOutbox:

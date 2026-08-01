@@ -1,0 +1,12 @@
+SHADOWGRID final release evidence
+Step: Run deterministic balance simulation
+Command: pnpm test:balance
+Started: 2026-07-30T08:32:50.987Z
+
+$ node scripts/run-python.mjs --cwd apps/api -m shadowgrid.balance_simulation && node scripts/run-python.mjs --cwd apps/api -m pytest -q tests/test_balance_simulation.py
+Balance simulation passed: 100 players, 500 companies, 4 seasons.
+.                                                                        [100%]
+1 passed, 1 warning in 14.14s
+
+Finished: 2026-07-30T08:33:27.541Z
+Exit code: 0

@@ -1,0 +1,99 @@
+{
+  "project": "SHADOWGRID",
+  "run_id": "finalize-20260729T205043Z-9e706c8",
+  "started_at": "2026-07-29T20:50:43Z",
+  "updated_at": "2026-07-30T06:44:22Z",
+  "current_phase": "phase_13_final_release_run",
+  "current_task": "prepare_clean_release_candidate_commit",
+  "last_completed_phase": "phase_12_transactional_email",
+  "baseline_commit": "9e706c86b309ebb7d6a2e056b0104b30c876c1ef",
+  "working_branch": "codex/finalize-shadowgrid",
+  "release_version": "0.1.0-rc.2",
+  "phases": {
+    "phase_0_repository_baseline": "verified",
+    "phase_1_release_candidate_baseline": "blocked_external",
+    "phase_2_gap_analysis": "verified",
+    "phase_3_local_one_click_start": "verified",
+    "phase_4_player_lifecycle": "verified",
+    "phase_5_ux_accessibility_responsive": "verified",
+    "phase_6_asset_pipeline": "verified",
+    "phase_7_store_marketing_community": "verified",
+    "phase_8_balancing_simulation": "verified",
+    "phase_9_security_privacy_compliance": "verified",
+    "phase_10_operations_backup_deployment": "verified",
+    "phase_11_mobile_store_readiness": "verified",
+    "phase_12_transactional_email": "verified",
+    "phase_13_final_release_run": "running",
+    "phase_14_version_and_promotion": "pending",
+    "phase_15_completion_reports": "pending"
+  },
+  "external_gates": [
+    {
+      "id": "EXT-PRODUCTION-DEPLOY",
+      "flag": "FINALIZE_ALLOW_PRODUCTION_DEPLOY",
+      "status": "blocked_external"
+    },
+    {
+      "id": "EXT-GIT-PUSH",
+      "flag": "FINALIZE_ALLOW_GIT_PUSH",
+      "status": "blocked_external"
+    },
+    {
+      "id": "EXT-GIT-TAG",
+      "flag": "FINALIZE_ALLOW_GIT_TAG",
+      "status": "blocked_external"
+    },
+    {
+      "id": "EXT-PAID-ASSETS",
+      "flag": "FINALIZE_ALLOW_PAID_ASSET_GENERATION",
+      "status": "blocked_external"
+    },
+    {
+      "id": "EXT-STORE-SUBMISSION",
+      "flag": "FINALIZE_ALLOW_STORE_SUBMISSION",
+      "status": "blocked_external"
+    },
+    {
+      "id": "EXT-SMTP-ACTIVATION",
+      "flag": "FINALIZE_ALLOW_EMAIL_PROVIDER_ACTIVATION",
+      "status": "blocked_external"
+    },
+    {
+      "id": "EXT-DOCKER-POSTGRES-REDIS",
+      "required_input": "Docker Desktop or equivalent PostgreSQL/Redis host runtime",
+      "status": "blocked_external"
+    },
+    {
+      "id": "EXT-LEGAL-PRIVACY",
+      "required_input": "Named legal owner approval for privacy, retention and processor records",
+      "status": "blocked_external"
+    },
+    {
+      "id": "EXT-SUPPORT-CONTACT",
+      "required_input": "Published monitored support identity and response owner",
+      "status": "blocked_external"
+    },
+    {
+      "id": "EXT-GITHUB-DEPENDENCY-REVIEW",
+      "required_input": "Pushed branch and pull request context",
+      "status": "blocked_external"
+    },
+    {
+      "id": "EXT-EAS-SIGNING-ACCOUNT",
+      "required_input": "Real EAS project, Apple/Google developer accounts and signing credentials",
+      "status": "blocked_external"
+    },
+    {
+      "id": "EXT-PHYSICAL-DEVICE-ACCESSIBILITY",
+      "required_input": "Signed builds, Android/iOS devices, TalkBack/VoiceOver and human operator",
+      "status": "blocked_external"
+    },
+    {
+      "id": "EXT-ALERT-PROVIDER-BINDING",
+      "required_input": "Production monitoring provider and on-call routing ownership",
+      "status": "blocked_external"
+    }
+  ],
+  "critical_failures": [],
+  "final_status": "running"
+}

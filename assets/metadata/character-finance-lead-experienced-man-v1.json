@@ -1,0 +1,171 @@
+{
+  "asset_id": "character-finance-lead-experienced-man-v1",
+  "manifest_order": 542,
+  "category": "character",
+  "batch": "specialists",
+  "city": null,
+  "variant": "experienced-man",
+  "gameplay_state": "normal",
+  "aspect_ratio": "4:5",
+  "width": 1280,
+  "height": 1600,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/character-finance-lead-experienced-man-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100542,
+  "content_hash": "5f073cbfa3bd2cdd946ae32a26fa945d8758ae4a4a2552e645f00a4df94c0498",
+  "source_file": "assets/source/characters/character-finance-lead-experienced-man-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/character-finance-lead-experienced-man-v1-320.avif",
+      "bytes": 2956,
+      "sha256": "589f199d30c259fe93c83f601ecc3fe21ad55fb94989a011e4b4bcaa059c6725"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-experienced-man-v1-320.webp",
+      "bytes": 2238,
+      "sha256": "5810fa949dd4400d2cc5c88987e8b348d739cc820fe300dad513fb04fd14c3fe"
+    },
+    {
+      "path": "assets/production/avif/character-finance-lead-experienced-man-v1-640.avif",
+      "bytes": 6480,
+      "sha256": "f3135de625c2b2a603c13d9015f740da55a350ea79effcefb03e21aeab1bca52"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-experienced-man-v1-640.webp",
+      "bytes": 5262,
+      "sha256": "dcac3ff5b29e1a17bfe87e6a9fe089f9c2708409e5e0c52e74428a80690fbd83"
+    },
+    {
+      "path": "assets/production/avif/character-finance-lead-experienced-man-v1-960.avif",
+      "bytes": 13786,
+      "sha256": "cea20482d7eec4ab341f5571b341d67c15356586db7bf43e29670d672af10000"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-experienced-man-v1-960.webp",
+      "bytes": 9770,
+      "sha256": "ee1b8dbac9e8248931e3f8568834f0ac37050deb851decf22c13e48a010d2c8b"
+    },
+    {
+      "path": "assets/production/avif/character-finance-lead-experienced-man-v1-1280.avif",
+      "bytes": 20019,
+      "sha256": "0e9145c108fede67e83d036fec0a164b07f1b6510e7d7e1b126780547f055613"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-experienced-man-v1-1280.webp",
+      "bytes": 14928,
+      "sha256": "a7f1c46b9771c8f855620f85cb0e412ddf58f315892be126a5f4ca8a91607be6"
+    },
+    {
+      "path": "assets/production/avif/character-finance-lead-experienced-man-v1-1920.avif",
+      "bytes": 31791,
+      "sha256": "fce1f37e3f284e6dc50aa63e606496379f230a81c82ee1c75591d3aad007d4bc"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-experienced-man-v1-1920.webp",
+      "bytes": 25130,
+      "sha256": "35087a6bc48f54bf6f3ae7dd99d7aa5594f4278c7bd1b1f5b04bb0f2e6ab7d74"
+    },
+    {
+      "path": "assets/production/avif/character-finance-lead-experienced-man-v1-2560.avif",
+      "bytes": 45582,
+      "sha256": "a3d1923798424490a1953985e156931a32d7699d02b09850d13e466195ca48fd"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-experienced-man-v1-2560.webp",
+      "bytes": 38120,
+      "sha256": "454a4ceda09dd9582354573f42db06f5eb5aea6cd107afb1f623b5ffc414c3ca"
+    },
+    {
+      "path": "assets/production/avif/character-finance-lead-experienced-man-v1-3840.avif",
+      "bytes": 75572,
+      "sha256": "6b6c79dc9670a5526cd2e53d6ec9d358804c6f8bb0e16edf1cc42c497326cd53"
+    },
+    {
+      "path": "assets/production/webp/character-finance-lead-experienced-man-v1-3840.webp",
+      "bytes": 71342,
+      "sha256": "d252db9882f947866f03c342e939b1fe14d55857039a01ef28f18a06f3538935"
+    },
+    {
+      "path": "assets/production/png/character-finance-lead-experienced-man-v1-1280.png",
+      "bytes": 207624,
+      "sha256": "5f073cbfa3bd2cdd946ae32a26fa945d8758ae4a4a2552e645f00a4df94c0498"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/character-finance-lead-experienced-man-v1.webp",
+      "bytes": 2238,
+      "sha256": "5810fa949dd4400d2cc5c88987e8b348d739cc820fe300dad513fb04fd14c3fe"
+    },
+    {
+      "path": "apps/mobile/assets/library/character-finance-lead-experienced-man-v1.webp",
+      "bytes": 2238,
+      "sha256": "5810fa949dd4400d2cc5c88987e8b348d739cc820fe300dad513fb04fd14c3fe"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:36.932Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1280,
+      "height": 1600,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 207624
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:15:51.787Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

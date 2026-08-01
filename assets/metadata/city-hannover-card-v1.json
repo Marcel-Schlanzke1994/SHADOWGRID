@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-hannover-card-v1",
+  "manifest_order": 169,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "hannover",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-hannover-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100169,
+  "content_hash": "3cf32f8af7a873e3f5bb5fe130d32783644e8d6ea915318945be3c42fa9da58f",
+  "source_file": "assets/source/cities/city-hannover-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-hannover-card-v1-320.avif",
+      "bytes": 3583,
+      "sha256": "d4f460f95f62b81c0a68c479956537ee435236f3aa87e6f8754d5974b74670b7"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-card-v1-320.webp",
+      "bytes": 3484,
+      "sha256": "a09e1bc5a3e39c0ab26d78d17aee5a24f8fc80d0abc2318d852bf695d9f24e6d"
+    },
+    {
+      "path": "assets/production/avif/city-hannover-card-v1-640.avif",
+      "bytes": 8058,
+      "sha256": "a9c3724f75e1ce0f5f9c9a033c97de044ea085b97c248b2eb549a95ecdde6164"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-card-v1-640.webp",
+      "bytes": 6498,
+      "sha256": "92a1306895a4d897627995ac92d1acb2ff4d3b22dd9a614a244335c3868892e5"
+    },
+    {
+      "path": "assets/production/avif/city-hannover-card-v1-960.avif",
+      "bytes": 13951,
+      "sha256": "e4b0212c10ba1111f3a9705a0d85cfca073f9b55c0e230d2071154df8d4e5d25"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-card-v1-960.webp",
+      "bytes": 11144,
+      "sha256": "19c019837144c0f5e68ee4eb251e4cbaac20263179ee037ca020c807849ef6c6"
+    },
+    {
+      "path": "assets/production/avif/city-hannover-card-v1-1280.avif",
+      "bytes": 19126,
+      "sha256": "4215037cb62d35e7cf79ac5d11f94a9f51e66d7e93bf4a74fda308c8a1335399"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-card-v1-1280.webp",
+      "bytes": 15168,
+      "sha256": "1f56ae65697bfd161078897223fa77fdb285390594d93411d47dde2f35f2d511"
+    },
+    {
+      "path": "assets/production/avif/city-hannover-card-v1-1920.avif",
+      "bytes": 29349,
+      "sha256": "b6374bd8157ec552826af588f973eb5a5e3d36c626844b4da1a8b28dfa8e5df3"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-card-v1-1920.webp",
+      "bytes": 25088,
+      "sha256": "a1ab34bc1e097a90121162009e765afc9e68a9d74b9c0b2058b6c090a0a48d69"
+    },
+    {
+      "path": "assets/production/avif/city-hannover-card-v1-2560.avif",
+      "bytes": 41103,
+      "sha256": "ca70a03e5c37e3cc40343f6d34ae90f703e1b410cca774a1dd28deb154886fe4"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-card-v1-2560.webp",
+      "bytes": 36876,
+      "sha256": "69c3f823ad858f3a28ebc71ba093231586cc704339d1f2f206aaf35ec31ec70a"
+    },
+    {
+      "path": "assets/production/avif/city-hannover-card-v1-3840.avif",
+      "bytes": 66711,
+      "sha256": "cc5fa7496067c27bfd859d51ba69a483d46a9419f524de26b5952ab250532a94"
+    },
+    {
+      "path": "assets/production/webp/city-hannover-card-v1-3840.webp",
+      "bytes": 66544,
+      "sha256": "3e93b9d8df04a1241d21b1b233fc395940c03b1cffe2523935195f45a331f323"
+    },
+    {
+      "path": "assets/production/png/city-hannover-card-v1-1280.png",
+      "bytes": 1263069,
+      "sha256": "38f4c161963ecb1f4dd5c80faf945098a77677abc9f6d0e22f4e5707cb1d69d8"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-card-v1-320.avif",
+      "bytes": 3583,
+      "sha256": "d4f460f95f62b81c0a68c479956537ee435236f3aa87e6f8754d5974b74670b7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-card-v1-320.webp",
+      "bytes": 3484,
+      "sha256": "a09e1bc5a3e39c0ab26d78d17aee5a24f8fc80d0abc2318d852bf695d9f24e6d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-card-v1-640.avif",
+      "bytes": 8058,
+      "sha256": "a9c3724f75e1ce0f5f9c9a033c97de044ea085b97c248b2eb549a95ecdde6164"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-card-v1-640.webp",
+      "bytes": 6498,
+      "sha256": "92a1306895a4d897627995ac92d1acb2ff4d3b22dd9a614a244335c3868892e5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-card-v1-960.avif",
+      "bytes": 13951,
+      "sha256": "e4b0212c10ba1111f3a9705a0d85cfca073f9b55c0e230d2071154df8d4e5d25"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-card-v1-960.webp",
+      "bytes": 11144,
+      "sha256": "19c019837144c0f5e68ee4eb251e4cbaac20263179ee037ca020c807849ef6c6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-card-v1-1280.avif",
+      "bytes": 19126,
+      "sha256": "4215037cb62d35e7cf79ac5d11f94a9f51e66d7e93bf4a74fda308c8a1335399"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-card-v1-1280.webp",
+      "bytes": 15168,
+      "sha256": "1f56ae65697bfd161078897223fa77fdb285390594d93411d47dde2f35f2d511"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-card-v1-1920.avif",
+      "bytes": 29349,
+      "sha256": "b6374bd8157ec552826af588f973eb5a5e3d36c626844b4da1a8b28dfa8e5df3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-card-v1-1920.webp",
+      "bytes": 25088,
+      "sha256": "a1ab34bc1e097a90121162009e765afc9e68a9d74b9c0b2058b6c090a0a48d69"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-card-v1-2560.avif",
+      "bytes": 41103,
+      "sha256": "ca70a03e5c37e3cc40343f6d34ae90f703e1b410cca774a1dd28deb154886fe4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-card-v1-2560.webp",
+      "bytes": 36876,
+      "sha256": "69c3f823ad858f3a28ebc71ba093231586cc704339d1f2f206aaf35ec31ec70a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-card-v1-3840.avif",
+      "bytes": 66711,
+      "sha256": "cc5fa7496067c27bfd859d51ba69a483d46a9419f524de26b5952ab250532a94"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-card-v1-3840.webp",
+      "bytes": 66544,
+      "sha256": "3e93b9d8df04a1241d21b1b233fc395940c03b1cffe2523935195f45a331f323"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-hannover-card-v1-1280.png",
+      "bytes": 1263069,
+      "sha256": "38f4c161963ecb1f4dd5c80faf945098a77677abc9f6d0e22f4e5707cb1d69d8"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-hannover-card-v1.webp",
+      "bytes": 3484,
+      "sha256": "a09e1bc5a3e39c0ab26d78d17aee5a24f8fc80d0abc2318d852bf695d9f24e6d"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-hannover-card-v1.webp",
+      "bytes": 3484,
+      "sha256": "a09e1bc5a3e39c0ab26d78d17aee5a24f8fc80d0abc2318d852bf695d9f24e6d"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.732Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1654072
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:16:54.842Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

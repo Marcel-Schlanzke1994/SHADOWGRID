@@ -1,0 +1,27 @@
+{
+  "realism": 98,
+  "style_consistency": 99,
+  "composition": 96,
+  "material_quality": 99,
+  "lighting_quality": 98,
+  "architecture_plausibility": 97,
+  "ui_suitability": 94,
+  "mobile_suitability": 88,
+  "originality": 96,
+  "safety_compliance": 100,
+  "accepted_prompt": "Use case: lighting-weather\nAsset type: SHADOWGRID game command-center daytime background variant\nInput images: Image 1: exact night command-center edit target\nPrimary request: change only the exterior time of day and corresponding physically plausible room illumination from night to a restrained overcast premium daytime scene\nConstraints: preserve the exact room geometry, camera angle, framing, command table, wall materials, skyline, river, object placement, proportions and crop; keep the obsidian/titanium interior dark and luxurious; retain subtle satin-gold practical edge lights; replace night sky and city lights with cool overcast daylight and realistic reflections; no people, no text, no logos, no watermark, no floating UI, no added objects, no redesign\nAvoid: bright white office look, blue color cast, sunny lifestyle mood, generic corporate stock photo, cartoon sci-fi",
+  "reference_images": [
+    "assets/source/global/global-command-center-premium-night-v2.png"
+  ],
+  "notes": [
+    "Accepted first built-in lighting edit.",
+    "Geometry, table, camera and material system remain consistent with the night asset.",
+    "Only physically plausible daylight, exterior exposure and corresponding reflections changed."
+  ],
+  "provider": "codex-built-in",
+  "license": "project-owned-generated-asset",
+  "provenance": {
+    "source": "codex-built-in-image-edit",
+    "thread": "019fbcc9-ef84-7a11-800a-125a47b84b04"
+  }
+}

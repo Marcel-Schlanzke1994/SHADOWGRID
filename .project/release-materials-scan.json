@@ -1,0 +1,44 @@
+{
+  "schema": "shadowgrid/release-materials-scan/v1",
+  "checked_at": "2026-07-30T09:01:24.727Z",
+  "documentation": {
+    "markdown_files": 103,
+    "checked_local_links": 32,
+    "syntactically_checked_external_links": 4,
+    "broken": []
+  },
+  "licenses": {
+    "node": {
+      "license_families": {
+        "MIT": 503,
+        "BSD-3-Clause": 15,
+        "ISC": 35,
+        "Python-2.0": 1,
+        "Apache-2.0": 13,
+        "Unlicense": 2,
+        "CC-BY-4.0": 1,
+        "BlueOak-1.0.0": 8,
+        "BSD-2-Clause": 7,
+        "0BSD": 2,
+        "MPL-2.0": 2,
+        "(BSD-3-Clause OR GPL-2.0)": 1,
+        "Apache 2.0": 1,
+        "(BSD-2-Clause OR MIT OR Apache-2.0)": 1,
+        "(MIT OR CC0-1.0)": 1
+      },
+      "package_records": 593
+    },
+    "python": {
+      "package_records": 86,
+      "unknown_license_records": [],
+      "reviewed_weak_copyleft_records": [
+        "certifi@2026.6.17:MPL-2.0",
+        "hypothesis@6.135.20:MPL-2.0",
+        "psycopg@3.3.4:LGPL-3.0-only",
+        "psycopg-binary@3.3.4:LGPL-3.0-only"
+      ]
+    },
+    "forbidden": []
+  },
+  "status": "passed"
+}

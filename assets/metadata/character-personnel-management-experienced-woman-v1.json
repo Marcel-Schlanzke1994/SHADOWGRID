@@ -1,0 +1,171 @@
+{
+  "asset_id": "character-personnel-management-experienced-woman-v1",
+  "manifest_order": 561,
+  "category": "character",
+  "batch": "specialists",
+  "city": null,
+  "variant": "experienced-woman",
+  "gameplay_state": "normal",
+  "aspect_ratio": "4:5",
+  "width": 1280,
+  "height": 1600,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/character-personnel-management-experienced-woman-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100561,
+  "content_hash": "e8b7ab205661c14cc6bad8db9821643f0eac44064a26aa8a11b18cadd18e8615",
+  "source_file": "assets/source/characters/character-personnel-management-experienced-woman-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/character-personnel-management-experienced-woman-v1-320.avif",
+      "bytes": 3073,
+      "sha256": "68a600c35963d63f8872f7f6796d3d32c60cdb30ac4d5f20a448d873a3ee281a"
+    },
+    {
+      "path": "assets/production/webp/character-personnel-management-experienced-woman-v1-320.webp",
+      "bytes": 2264,
+      "sha256": "02388b5e59f9293e8aa51b8de8a51822615b1fd7003cdb676a5c6dac8e82bbd4"
+    },
+    {
+      "path": "assets/production/avif/character-personnel-management-experienced-woman-v1-640.avif",
+      "bytes": 6948,
+      "sha256": "7ea05a75457ad8321034fb054ad140f4900c550818e9c39a324d8ea0fe80511d"
+    },
+    {
+      "path": "assets/production/webp/character-personnel-management-experienced-woman-v1-640.webp",
+      "bytes": 5314,
+      "sha256": "6d2feed147a1ab28063b7bb7959e8f9713722a04ca5572cae16753c106f76dd2"
+    },
+    {
+      "path": "assets/production/avif/character-personnel-management-experienced-woman-v1-960.avif",
+      "bytes": 14358,
+      "sha256": "9a8d26c3e4739e37956131632d543a7181198e2761fe785f3caa8d838eb1b3da"
+    },
+    {
+      "path": "assets/production/webp/character-personnel-management-experienced-woman-v1-960.webp",
+      "bytes": 9918,
+      "sha256": "9b0df47ef4a16344093a296de4097d628d21624ede37b6d31c1e784f0dc36986"
+    },
+    {
+      "path": "assets/production/avif/character-personnel-management-experienced-woman-v1-1280.avif",
+      "bytes": 20832,
+      "sha256": "3774e99b551467123c732d5e2f26efe7b545918c913b6b55821dc91550236a32"
+    },
+    {
+      "path": "assets/production/webp/character-personnel-management-experienced-woman-v1-1280.webp",
+      "bytes": 15172,
+      "sha256": "be0dc85ec04f7b2503868170da05ab91ed547734a4e239860c49b9f8d90546a1"
+    },
+    {
+      "path": "assets/production/avif/character-personnel-management-experienced-woman-v1-1920.avif",
+      "bytes": 33102,
+      "sha256": "d5297b569acc0f8a3a68a21127de417c7f9627b2a30d4ebf98597a68e77e9cdd"
+    },
+    {
+      "path": "assets/production/webp/character-personnel-management-experienced-woman-v1-1920.webp",
+      "bytes": 25584,
+      "sha256": "1bcced2ff04888f435c69b52216d09e25ad8839f893d99ee68072fca10b7fe89"
+    },
+    {
+      "path": "assets/production/avif/character-personnel-management-experienced-woman-v1-2560.avif",
+      "bytes": 46893,
+      "sha256": "5fc73bc7cd96295c38203dbae9a4c77ded8385eaa8bada3608038884744c3d78"
+    },
+    {
+      "path": "assets/production/webp/character-personnel-management-experienced-woman-v1-2560.webp",
+      "bytes": 38260,
+      "sha256": "55525133d853ba97a99416f2afc43964f78cf659a391e2e868f00f5dab113b0e"
+    },
+    {
+      "path": "assets/production/avif/character-personnel-management-experienced-woman-v1-3840.avif",
+      "bytes": 77373,
+      "sha256": "1902f6bc5aff929bc80bb16666f1d3f64385920e83002dbadd6167ed56b298d6"
+    },
+    {
+      "path": "assets/production/webp/character-personnel-management-experienced-woman-v1-3840.webp",
+      "bytes": 71724,
+      "sha256": "7d373dc61fafb531e553d874278ae069a783891f362ae4cafd3f440d1570e6b7"
+    },
+    {
+      "path": "assets/production/png/character-personnel-management-experienced-woman-v1-1280.png",
+      "bytes": 214012,
+      "sha256": "e8b7ab205661c14cc6bad8db9821643f0eac44064a26aa8a11b18cadd18e8615"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/character-personnel-management-experienced-woman-v1.webp",
+      "bytes": 2264,
+      "sha256": "02388b5e59f9293e8aa51b8de8a51822615b1fd7003cdb676a5c6dac8e82bbd4"
+    },
+    {
+      "path": "apps/mobile/assets/library/character-personnel-management-experienced-woman-v1.webp",
+      "bytes": 2264,
+      "sha256": "02388b5e59f9293e8aa51b8de8a51822615b1fd7003cdb676a5c6dac8e82bbd4"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:37.394Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1280,
+      "height": 1600,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 214012
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:20:53.209Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

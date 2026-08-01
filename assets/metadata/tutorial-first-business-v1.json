@@ -1,0 +1,171 @@
+{
+  "asset_id": "tutorial-first-business-v1",
+  "manifest_order": 712,
+  "category": "tutorial",
+  "batch": "tutorial",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/tutorial-first-business-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100712,
+  "content_hash": "6b89de1b53e2efbec259b096dae1d932e39e2bba97b28328fe8c7c6bdbacdcef",
+  "source_file": "assets/source/tutorial/tutorial-first-business-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/tutorial-first-business-v1-320.avif",
+      "bytes": 1999,
+      "sha256": "16e63ade57857eb733d61c0fb356a82679dea4dbda2cb308f99c50f0b462a444"
+    },
+    {
+      "path": "assets/production/webp/tutorial-first-business-v1-320.webp",
+      "bytes": 1316,
+      "sha256": "c40bb186c0df52dcdb92823ac69562960caad871981597c1147a245c3ca49a0d"
+    },
+    {
+      "path": "assets/production/avif/tutorial-first-business-v1-640.avif",
+      "bytes": 4407,
+      "sha256": "259ae3ec085df3c5e2d2e1895311a5d3f97d9e053aa0ccbf3d3909d5be830692"
+    },
+    {
+      "path": "assets/production/webp/tutorial-first-business-v1-640.webp",
+      "bytes": 3184,
+      "sha256": "d64e5f6ea08cabed78dee94c9a41e46390e770d23b64fb3880d58dddebd87c01"
+    },
+    {
+      "path": "assets/production/avif/tutorial-first-business-v1-960.avif",
+      "bytes": 8456,
+      "sha256": "f57c9604dd22a001220b1a924a2fde205fa25d0a6af01616d6415510b1138ff6"
+    },
+    {
+      "path": "assets/production/webp/tutorial-first-business-v1-960.webp",
+      "bytes": 5878,
+      "sha256": "1e72eb1e87be7d7d7ca69840872c4ce5d55ad1bfce1680efdd878906bfb0c334"
+    },
+    {
+      "path": "assets/production/avif/tutorial-first-business-v1-1280.avif",
+      "bytes": 12291,
+      "sha256": "f946e864a97aeedc1f0d9fa65e0aa4db81a80ba9160d696528b0b74dd6034f80"
+    },
+    {
+      "path": "assets/production/webp/tutorial-first-business-v1-1280.webp",
+      "bytes": 8412,
+      "sha256": "063719624a1b654c3315c272a364ff3a37cc0c8787b44d1b10d690e8a1acdecc"
+    },
+    {
+      "path": "assets/production/avif/tutorial-first-business-v1-1920.avif",
+      "bytes": 19517,
+      "sha256": "1ee33ca5425639deca77c1ccc0b5892a044d11ac735ef6f2cae101831c648c56"
+    },
+    {
+      "path": "assets/production/webp/tutorial-first-business-v1-1920.webp",
+      "bytes": 15358,
+      "sha256": "896bbe21a6acdf18fc8d0a290878d0dadaef2fedca045fff35d2f2908bb08e83"
+    },
+    {
+      "path": "assets/production/avif/tutorial-first-business-v1-2560.avif",
+      "bytes": 26841,
+      "sha256": "a21e7fd5a0725f87f23885bf1ee8fc2d79f6a337b7d131ca6b0d3c0d24de9b9e"
+    },
+    {
+      "path": "assets/production/webp/tutorial-first-business-v1-2560.webp",
+      "bytes": 21564,
+      "sha256": "504bf74109a9f0096005dacc93c9176b15fa8ad82aefae40e7d4cefca9e34d6d"
+    },
+    {
+      "path": "assets/production/avif/tutorial-first-business-v1-3840.avif",
+      "bytes": 46089,
+      "sha256": "2726dbfe8fc062abfdf10c3ecf72bcd2f3b20422afaae31bf1e608ef91874019"
+    },
+    {
+      "path": "assets/production/webp/tutorial-first-business-v1-3840.webp",
+      "bytes": 38310,
+      "sha256": "7fc95ffae91a81f05e0f436ff20e663300e44b5e0f8a9a691b3219c8b0f90211"
+    },
+    {
+      "path": "assets/production/png/tutorial-first-business-v1-1280.png",
+      "bytes": 125742,
+      "sha256": "7472535f658060f8f0a05f5db1f8924af9ffd595f5640728a3d1a374fd4a6cc8"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/tutorial-first-business-v1.webp",
+      "bytes": 1316,
+      "sha256": "c40bb186c0df52dcdb92823ac69562960caad871981597c1147a245c3ca49a0d"
+    },
+    {
+      "path": "apps/mobile/assets/library/tutorial-first-business-v1.webp",
+      "bytes": 1316,
+      "sha256": "c40bb186c0df52dcdb92823ac69562960caad871981597c1147a245c3ca49a0d"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:19.715Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 95,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 97,
+      "mobile_suitability": 95,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 94,
+      "contrast": 95,
+      "geometry_quality": 95,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "The thematic glyph, card progression, safe area, and directional flow remain clear in both desktop and mobile placements.",
+      "No missing render, unsafe content, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 167704
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:33:57.745Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

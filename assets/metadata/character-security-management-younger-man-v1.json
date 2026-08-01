@@ -1,0 +1,171 @@
+{
+  "asset_id": "character-security-management-younger-man-v1",
+  "manifest_order": 556,
+  "category": "character",
+  "batch": "specialists",
+  "city": null,
+  "variant": "younger-man",
+  "gameplay_state": "normal",
+  "aspect_ratio": "4:5",
+  "width": 1280,
+  "height": 1600,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/character-security-management-younger-man-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100556,
+  "content_hash": "055b970e522a059dedbbaf61776ccf1fce77cce4a63fb28564731f174e15e17b",
+  "source_file": "assets/source/characters/character-security-management-younger-man-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/character-security-management-younger-man-v1-320.avif",
+      "bytes": 2793,
+      "sha256": "be8db5e2c3b0fab1c4aebd60d0ed388b4b3c4e300d4e13e2344e807a727fdd47"
+    },
+    {
+      "path": "assets/production/webp/character-security-management-younger-man-v1-320.webp",
+      "bytes": 1968,
+      "sha256": "634e3591c2293c722daa8a1d35620947f4b80718e4a94c6ea5d8cc783f89391a"
+    },
+    {
+      "path": "assets/production/avif/character-security-management-younger-man-v1-640.avif",
+      "bytes": 6091,
+      "sha256": "a6e7c6128aaa651e08f25a6d9573fa89cd8f1f4b7d972fdc86a75038315b0e74"
+    },
+    {
+      "path": "assets/production/webp/character-security-management-younger-man-v1-640.webp",
+      "bytes": 4622,
+      "sha256": "b7bf56b62a5f0059a920cece006fefedee01f0c626761939f867cefadd0f97e1"
+    },
+    {
+      "path": "assets/production/avif/character-security-management-younger-man-v1-960.avif",
+      "bytes": 13163,
+      "sha256": "16c0e59d05c47b3b118396b72711164cdd19865e70de0353f5c6ce2e2d908cd7"
+    },
+    {
+      "path": "assets/production/webp/character-security-management-younger-man-v1-960.webp",
+      "bytes": 8844,
+      "sha256": "bb13641a1bab4b549eb4843f15d60041cb2f115a0578b89181bd23cb10360c5f"
+    },
+    {
+      "path": "assets/production/avif/character-security-management-younger-man-v1-1280.avif",
+      "bytes": 19407,
+      "sha256": "8701dadd026682e489b06c7f4b0c8da2520a8bc6b63dcb1ca4178084c96cb788"
+    },
+    {
+      "path": "assets/production/webp/character-security-management-younger-man-v1-1280.webp",
+      "bytes": 13686,
+      "sha256": "f2e625bb654a56911ba379f21224c6dfd2c7f1ead2b3f3889acea56416b321e4"
+    },
+    {
+      "path": "assets/production/avif/character-security-management-younger-man-v1-1920.avif",
+      "bytes": 30721,
+      "sha256": "6fe9e07568bd214052d688aa48a52ef07f0665f7e2a2a4bb289c7596c84c615a"
+    },
+    {
+      "path": "assets/production/webp/character-security-management-younger-man-v1-1920.webp",
+      "bytes": 23756,
+      "sha256": "b35129283063379c7d2251cde68d2b57a721a6e6479a32f41d7b97eba276ef3d"
+    },
+    {
+      "path": "assets/production/avif/character-security-management-younger-man-v1-2560.avif",
+      "bytes": 44071,
+      "sha256": "5440bc44efc3de94b6a2ed3d647e59eccdd1409b38c51f504221b32e18558cfb"
+    },
+    {
+      "path": "assets/production/webp/character-security-management-younger-man-v1-2560.webp",
+      "bytes": 36296,
+      "sha256": "f62498da73d70e15bc9ea21b205734c8e442d0fd0256a8a543e13ed0abb08270"
+    },
+    {
+      "path": "assets/production/avif/character-security-management-younger-man-v1-3840.avif",
+      "bytes": 73388,
+      "sha256": "b966f34a3cb0525930234835479f112109069ff0661ac069d7c0d30dd87397c4"
+    },
+    {
+      "path": "assets/production/webp/character-security-management-younger-man-v1-3840.webp",
+      "bytes": 68880,
+      "sha256": "f4ae62201cb2cb1754c6704da9337b53deb08498cfbe267fd5b9e37304750d6f"
+    },
+    {
+      "path": "assets/production/png/character-security-management-younger-man-v1-1280.png",
+      "bytes": 204671,
+      "sha256": "055b970e522a059dedbbaf61776ccf1fce77cce4a63fb28564731f174e15e17b"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/character-security-management-younger-man-v1.webp",
+      "bytes": 1968,
+      "sha256": "634e3591c2293c722daa8a1d35620947f4b80718e4a94c6ea5d8cc783f89391a"
+    },
+    {
+      "path": "apps/mobile/assets/library/character-security-management-younger-man-v1.webp",
+      "bytes": 1968,
+      "sha256": "634e3591c2293c722daa8a1d35620947f4b80718e4a94c6ea5d8cc783f89391a"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:37.263Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1280,
+      "height": 1600,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 204671
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:19:17.204Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

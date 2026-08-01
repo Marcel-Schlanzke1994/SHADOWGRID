@@ -1,0 +1,171 @@
+{
+  "asset_id": "pvp-influence-conflict-preparation-v1",
+  "manifest_order": 589,
+  "category": "pvp",
+  "batch": "pvp",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "preparation",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/pvp-influence-conflict-preparation-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100589,
+  "content_hash": "d62250214abfdac3ee5480cd9db1e9698364bea0f67e514e1e8ea92d4ac41c63",
+  "source_file": "assets/source/pvp/pvp-influence-conflict-preparation-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/pvp-influence-conflict-preparation-v1-320.avif",
+      "bytes": 2847,
+      "sha256": "af224d4a9ac1e9b38ca28b0d40dc61536925f1c063103251fdde1cc1007cfc86"
+    },
+    {
+      "path": "assets/production/webp/pvp-influence-conflict-preparation-v1-320.webp",
+      "bytes": 1882,
+      "sha256": "bddaed9ee308e3c6cf7f452dbfdaf994b13c6dc297d98ce5401e873977f3f45b"
+    },
+    {
+      "path": "assets/production/avif/pvp-influence-conflict-preparation-v1-640.avif",
+      "bytes": 6430,
+      "sha256": "ef4f39fac4f694dec64a09c9086f2c0fa3e55adce2a28aeb8d332c4924209ea3"
+    },
+    {
+      "path": "assets/production/webp/pvp-influence-conflict-preparation-v1-640.webp",
+      "bytes": 4842,
+      "sha256": "4a472b57c1eaaccc2053b497d8071e28844087554f920e1084cd3a1d45a11f2d"
+    },
+    {
+      "path": "assets/production/avif/pvp-influence-conflict-preparation-v1-960.avif",
+      "bytes": 12835,
+      "sha256": "63437759b721339d285cdf40dd7e2b2fc2d7e669cd5b4cdbc49e4449558a58ee"
+    },
+    {
+      "path": "assets/production/webp/pvp-influence-conflict-preparation-v1-960.webp",
+      "bytes": 9106,
+      "sha256": "249f243d18ba40ce73ccfefa03a034197efe432bac0346f77663e4e3f00bf387"
+    },
+    {
+      "path": "assets/production/avif/pvp-influence-conflict-preparation-v1-1280.avif",
+      "bytes": 18843,
+      "sha256": "66678cdb6a407da25c88c1ddae22174a18811a41734837f6dcdf228408be43e5"
+    },
+    {
+      "path": "assets/production/webp/pvp-influence-conflict-preparation-v1-1280.webp",
+      "bytes": 13310,
+      "sha256": "0273bb534769fe4ccffaa54768994f585bab729db96b989ad772b63dca31e8b9"
+    },
+    {
+      "path": "assets/production/avif/pvp-influence-conflict-preparation-v1-1920.avif",
+      "bytes": 28679,
+      "sha256": "6497cb1c67a61a0aa58cc96fce41e57c768cb995984969b0a7eaed6c25c4f696"
+    },
+    {
+      "path": "assets/production/webp/pvp-influence-conflict-preparation-v1-1920.webp",
+      "bytes": 22082,
+      "sha256": "22b9f4dae63605d6fa4a432a822e7fa6d9854c6119a9dd7e65336b5d0c22f4a9"
+    },
+    {
+      "path": "assets/production/avif/pvp-influence-conflict-preparation-v1-2560.avif",
+      "bytes": 37453,
+      "sha256": "c5010033dc25c10fe300ac5d8988fd00a61f1b82fceefc55cc29475de70ce5cb"
+    },
+    {
+      "path": "assets/production/webp/pvp-influence-conflict-preparation-v1-2560.webp",
+      "bytes": 29782,
+      "sha256": "3306c1d5a73f07eaea77aff64ff94ae1e49c304e8729f9909dad35b18a816e46"
+    },
+    {
+      "path": "assets/production/avif/pvp-influence-conflict-preparation-v1-3840.avif",
+      "bytes": 57277,
+      "sha256": "bc9c29c23d2c3e5e0a81dc3a01f63737f15fe159f7927c9a0ad50646b06c2184"
+    },
+    {
+      "path": "assets/production/webp/pvp-influence-conflict-preparation-v1-3840.webp",
+      "bytes": 48596,
+      "sha256": "1379e85bfe41f02c28374128fcb6ff3bcf2a06a4bb5c38e2b9a419f3b7b42762"
+    },
+    {
+      "path": "assets/production/png/pvp-influence-conflict-preparation-v1-1280.png",
+      "bytes": 171333,
+      "sha256": "9fb23bf5facc4eb598fbf1aafb270d4df5f62e62f56469b3d64b504df19adb0a"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/pvp-influence-conflict-preparation-v1.webp",
+      "bytes": 1882,
+      "sha256": "bddaed9ee308e3c6cf7f452dbfdaf994b13c6dc297d98ce5401e873977f3f45b"
+    },
+    {
+      "path": "apps/mobile/assets/library/pvp-influence-conflict-preparation-v1.webp",
+      "bytes": 1882,
+      "sha256": "bddaed9ee308e3c6cf7f452dbfdaf994b13c6dc297d98ce5401e873977f3f45b"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:48.891Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 93,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Preparation, success, and failure remain abstract strategic game states without actionable real-world attack or sabotage detail.",
+      "No missing render, unsafe instruction, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 215714
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:26:22.838Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

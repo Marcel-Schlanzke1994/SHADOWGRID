@@ -1,0 +1,160 @@
+SHADOWGRID final release evidence
+Step: Run complete validation gate
+Command: pnpm validate
+Started: 2026-07-30T07:23:26.775Z
+
+$ powershell -ExecutionPolicy Bypass -File scripts/project.ps1 validate
+== Environment check ==
+[OK] Git: C:\Program Files\Git\cmd\git.exe
+[OK] Node.js: C:\Program Files\nodejs\node.exe
+[OK] pnpm: C:\Program Files\nodejs\pnpm.ps1
+[OK] Python: C:\Users\Marcel\AppData\Local\Python\bin\python.exe
+[OPTIONAL] Docker: missing
+[OPTIONAL] Java: missing
+[OPTIONAL] Android Debug Bridge: missing
+[INFO] CPU: Intel(R) Core(TM) i9-10900F CPU @ 2.80GHz, 20 logical processors
+[INFO] RAM: 31.9 GB
+[OK] Required native prerequisites are available.
+== Install Python dependencies ==
+Requirement already satisfied: fastapi==0.139.2 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 1)) (0.139.2)
+Requirement already satisfied: uvicorn==0.51.0 in .\.venv\Lib\site-packages (from uvicorn[standard]==0.51.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 2)) (0.51.0)
+Requirement already satisfied: sqlalchemy==2.0.51 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 3)) (2.0.51)
+Requirement already satisfied: alembic==1.18.5 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 4)) (1.18.5)
+Requirement already satisfied: pydantic==2.13.4 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 5)) (2.13.4)
+Requirement already satisfied: pydantic-settings==2.14.2 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 6)) (2.14.2)
+Requirement already satisfied: psycopg==3.3.4 in .\.venv\Lib\site-packages (from psycopg[binary]==3.3.4->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 7)) (3.3.4)
+Requirement already satisfied: redis==5.3.1 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 8)) (5.3.1)
+Requirement already satisfied: arq==0.28.0 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 9)) (0.28.0)
+Requirement already satisfied: argon2-cffi==25.1.0 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 10)) (25.1.0)
+Requirement already satisfied: PyJWT==2.13.0 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 11)) (2.13.0)
+Requirement already satisfied: python-multipart==0.0.32 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 12)) (0.0.32)
+Requirement already satisfied: email-validator==2.2.0 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 13)) (2.2.0)
+Requirement already satisfied: pyotp==2.9.0 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 14)) (2.9.0)
+Requirement already satisfied: httpx==0.28.1 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 15)) (0.28.1)
+Requirement already satisfied: structlog==25.4.0 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 16)) (25.4.0)
+Requirement already satisfied: prometheus-client==0.22.1 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 17)) (0.22.1)
+Requirement already satisfied: pip==26.1.2 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 2)) (26.1.2)
+Requirement already satisfied: pytest==9.0.3 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 3)) (9.0.3)
+Requirement already satisfied: pytest-asyncio==1.4.0 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 4)) (1.4.0)
+Requirement already satisfied: pytest-cov==7.1.0 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 5)) (7.1.0)
+Requirement already satisfied: hypothesis==6.135.20 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 6)) (6.135.20)
+Requirement already satisfied: ruff==0.15.22 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 7)) (0.15.22)
+Requirement already satisfied: mypy==2.3.0 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 8)) (2.3.0)
+Requirement already satisfied: bandit==1.9.4 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 9)) (1.9.4)
+Requirement already satisfied: pip-audit==2.9.0 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (2.9.0)
+Requirement already satisfied: starlette>=0.46.0 in .\.venv\Lib\site-packages (from fastapi==0.139.2->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 1)) (1.3.1)
+Requirement already satisfied: typing-extensions>=4.8.0 in .\.venv\Lib\site-packages (from fastapi==0.139.2->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 1)) (4.16.0)
+Requirement already satisfied: typing-inspection>=0.4.2 in .\.venv\Lib\site-packages (from fastapi==0.139.2->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 1)) (0.4.2)
+Requirement already satisfied: annotated-doc>=0.0.2 in .\.venv\Lib\site-packages (from fastapi==0.139.2->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 1)) (0.0.4)
+Requirement already satisfied: click>=7.0 in .\.venv\Lib\site-packages (from uvicorn==0.51.0->uvicorn[standard]==0.51.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 2)) (8.4.2)
+Requirement already satisfied: h11>=0.8 in .\.venv\Lib\site-packages (from uvicorn==0.51.0->uvicorn[standard]==0.51.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 2)) (0.16.0)
+Requirement already satisfied: greenlet>=1 in .\.venv\Lib\site-packages (from sqlalchemy==2.0.51->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 3)) (3.5.3)
+Requirement already satisfied: Mako in .\.venv\Lib\site-packages (from alembic==1.18.5->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 4)) (1.3.12)
+Requirement already satisfied: annotated-types>=0.6.0 in .\.venv\Lib\site-packages (from pydantic==2.13.4->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 5)) (0.7.0)
+Requirement already satisfied: pydantic-core==2.46.4 in .\.venv\Lib\site-packages (from pydantic==2.13.4->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 5)) (2.46.4)
+Requirement already satisfied: python-dotenv>=0.21.0 in .\.venv\Lib\site-packages (from pydantic-settings==2.14.2->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 6)) (1.2.2)
+Requirement already satisfied: tzdata in .\.venv\Lib\site-packages (from psycopg==3.3.4->psycopg[binary]==3.3.4->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 7)) (2026.3)
+Requirement already satisfied: argon2-cffi-bindings in .\.venv\Lib\site-packages (from argon2-cffi==25.1.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 10)) (25.1.0)
+Requirement already satisfied: dnspython>=2.0.0 in .\.venv\Lib\site-packages (from email-validator==2.2.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 13)) (2.8.0)
+Requirement already satisfied: idna>=2.0.0 in .\.venv\Lib\site-packages (from email-validator==2.2.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 13)) (3.18)
+Requirement already satisfied: anyio in .\.venv\Lib\site-packages (from httpx==0.28.1->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 15)) (4.14.2)
+Requirement already satisfied: certifi in .\.venv\Lib\site-packages (from httpx==0.28.1->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 15)) (2026.6.17)
+Requirement already satisfied: httpcore==1.* in .\.venv\Lib\site-packages (from httpx==0.28.1->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 15)) (1.0.9)
+Requirement already satisfied: colorama>=0.4 in .\.venv\Lib\site-packages (from pytest==9.0.3->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 3)) (0.4.6)
+Requirement already satisfied: iniconfig>=1.0.1 in .\.venv\Lib\site-packages (from pytest==9.0.3->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 3)) (2.3.0)
+Requirement already satisfied: packaging>=22 in .\.venv\Lib\site-packages (from pytest==9.0.3->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 3)) (26.2)
+Requirement already satisfied: pluggy<2,>=1.5 in .\.venv\Lib\site-packages (from pytest==9.0.3->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 3)) (1.6.0)
+Requirement already satisfied: pygments>=2.7.2 in .\.venv\Lib\site-packages (from pytest==9.0.3->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 3)) (2.20.0)
+Requirement already satisfied: coverage>=7.10.6 in .\.venv\Lib\site-packages (from coverage[toml]>=7.10.6->pytest-cov==7.1.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 5)) (7.15.2)
+Requirement already satisfied: attrs>=22.2.0 in .\.venv\Lib\site-packages (from hypothesis==6.135.20->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 6)) (26.1.0)
+Requirement already satisfied: sortedcontainers<3.0.0,>=2.1.0 in .\.venv\Lib\site-packages (from hypothesis==6.135.20->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 6)) (2.4.0)
+Requirement already satisfied: mypy_extensions>=1.0.0 in .\.venv\Lib\site-packages (from mypy==2.3.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 8)) (1.1.0)
+Requirement already satisfied: pathspec>=1.0.0 in .\.venv\Lib\site-packages (from mypy==2.3.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 8)) (1.1.1)
+Requirement already satisfied: librt>=0.13.0 in .\.venv\Lib\site-packages (from mypy==2.3.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 8)) (0.13.0)
+Requirement already satisfied: ast-serialize<1.0.0,>=0.6.0 in .\.venv\Lib\site-packages (from mypy==2.3.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 8)) (0.6.0)
+Requirement already satisfied: PyYAML>=5.3.1 in .\.venv\Lib\site-packages (from bandit==1.9.4->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 9)) (6.0.3)
+Requirement already satisfied: stevedore>=1.20.0 in .\.venv\Lib\site-packages (from bandit==1.9.4->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 9)) (5.9.0)
+Requirement already satisfied: rich in .\.venv\Lib\site-packages (from bandit==1.9.4->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 9)) (15.0.0)
+Requirement already satisfied: CacheControl>=0.13.0 in .\.venv\Lib\site-packages (from CacheControl[filecache]>=0.13.0->pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (0.14.4)
+Requirement already satisfied: cyclonedx-python-lib<10,>=5 in .\.venv\Lib\site-packages (from pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (9.1.0)
+Requirement already satisfied: pip-api>=0.0.28 in .\.venv\Lib\site-packages (from pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (0.0.34)
+Requirement already satisfied: pip-requirements-parser>=32.0.0 in .\.venv\Lib\site-packages (from pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (32.0.1)
+Requirement already satisfied: requests>=2.31.0 in .\.venv\Lib\site-packages (from pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (2.34.2)
+Requirement already satisfied: toml>=0.10 in .\.venv\Lib\site-packages (from pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (0.10.2)
+Requirement already satisfied: platformdirs>=4.2.0 in .\.venv\Lib\site-packages (from pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (4.10.1)
+Requirement already satisfied: psycopg-binary==3.3.4 in .\.venv\Lib\site-packages (from psycopg[binary]==3.3.4->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 7)) (3.3.4)
+Requirement already satisfied: httptools>=0.8.0 in .\.venv\Lib\site-packages (from uvicorn[standard]==0.51.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 2)) (0.8.0)
+Requirement already satisfied: watchfiles>=0.20 in .\.venv\Lib\site-packages (from uvicorn[standard]==0.51.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 2)) (1.2.0)
+Requirement already satisfied: websockets>=13.0 in .\.venv\Lib\site-packages (from uvicorn[standard]==0.51.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 2)) (16.1.1)
+Requirement already satisfied: license-expression<31,>=30 in .\.venv\Lib\site-packages (from cyclonedx-python-lib<10,>=5->pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (30.4.4)
+Requirement already satisfied: packageurl-python<2,>=0.11 in .\.venv\Lib\site-packages (from cyclonedx-python-lib<10,>=5->pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (0.17.6)
+Requirement already satisfied: py-serializable<3.0.0,>=2.0.0 in .\.venv\Lib\site-packages (from cyclonedx-python-lib<10,>=5->pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (2.1.0)
+Requirement already satisfied: boolean.py>=4.0 in .\.venv\Lib\site-packages (from license-expression<31,>=30->cyclonedx-python-lib<10,>=5->pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (5.0)
+Requirement already satisfied: defusedxml<0.8.0,>=0.7.1 in .\.venv\Lib\site-packages (from py-serializable<3.0.0,>=2.0.0->cyclonedx-python-lib<10,>=5->pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (0.7.1)
+Requirement already satisfied: hiredis>=3.0.0 in .\.venv\Lib\site-packages (from redis[hiredis]<6,>=4.2.0->arq==0.28.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 9)) (3.4.0)
+Requirement already satisfied: msgpack<2.0.0,>=0.5.2 in .\.venv\Lib\site-packages (from CacheControl>=0.13.0->CacheControl[filecache]>=0.13.0->pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (1.2.1)
+Requirement already satisfied: filelock>=3.8.0 in .\.venv\Lib\site-packages (from CacheControl[filecache]>=0.13.0->pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (3.31.0)
+Requirement already satisfied: pyparsing in .\.venv\Lib\site-packages (from pip-requirements-parser>=32.0.0->pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (3.3.2)
+Requirement already satisfied: charset_normalizer<4,>=2 in .\.venv\Lib\site-packages (from requests>=2.31.0->pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (3.4.9)
+Requirement already satisfied: urllib3<3,>=1.26 in .\.venv\Lib\site-packages (from requests>=2.31.0->pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (2.7.0)
+Requirement already satisfied: markdown-it-py>=2.2.0 in .\.venv\Lib\site-packages (from rich->bandit==1.9.4->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 9)) (4.2.0)
+Requirement already satisfied: mdurl~=0.1 in .\.venv\Lib\site-packages (from markdown-it-py>=2.2.0->rich->bandit==1.9.4->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 9)) (0.1.2)
+Requirement already satisfied: cffi>=2.0.0b1 in .\.venv\Lib\site-packages (from argon2-cffi-bindings->argon2-cffi==25.1.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 10)) (2.1.0)
+Requirement already satisfied: pycparser in .\.venv\Lib\site-packages (from cffi>=2.0.0b1->argon2-cffi-bindings->argon2-cffi==25.1.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 10)) (3.0)
+Requirement already satisfied: MarkupSafe>=0.9.2 in .\.venv\Lib\site-packages (from Mako->alembic==1.18.5->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 4)) (3.0.3)
+== Install workspace dependencies ==
+Scope: all 9 workspace projects
+Already up to date
+Done in 4s using pnpm v11.1.3
+== Generate local secrets ==
+Existing local configuration preserved: C:\Users\Marcel\Downloads\shadowgrid\.local\development.env
+== Migration ==
+$ node scripts/run-python.mjs --cwd apps/api -m alembic upgrade head
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+== Seed ==
+$ pnpm migrate && node scripts/run-python.mjs --cwd apps/api -m shadowgrid.seed
+$ node scripts/run-python.mjs --cwd apps/api -m alembic upgrade head
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+Seed complete. Demo credential path: C:\Users\Marcel\Downloads\shadowgrid\.local\demo-credentials.txt
+== Data integrity ==
+$ node scripts/run-python.mjs --cwd apps/api -m shadowgrid.release_checks
+Release data invariants passed.
+== Generate API client ==
+$ node scripts/run-python.mjs scripts/export-openapi.py && pnpm --filter @shadowgrid/api-client generate
+Exported C:\Users\Marcel\Downloads\shadowgrid\.local\openapi.json
+$ openapi-typescript ../../.local/openapi.json -o src/generated/openapi.d.ts
+✨ openapi-typescript 7.8.0
+🚀 ../../.local/openapi.json → src/generated/openapi.d.ts [3.5s]
+== Localization ==
+$ pnpm --filter @shadowgrid/i18n validate
+$ tsx scripts/i18n.ts validate
+Validated 777 canonical English keys and complete German parity.
+== Formatting ==
+$ pnpm --recursive --if-present format:check && node scripts/run-python.mjs -m ruff format --check apps tests
+Scope: 8 of 9 workspace projects
+apps/mobile format:check$ prettier --check app src
+apps/web format:check$ prettier --check src
+apps/mobile format:check: Checking formatting...
+apps/web format:check: Checking formatting...
+apps/mobile format:check: [warn] src/api-config.ts
+apps/mobile format:check: [warn] Code style issues found in the above file. Run Prettier with --write to fix.
+apps/mobile format:check: Failed
+C:\Users\Marcel\Downloads\shadowgrid\apps\mobile:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @shadowgrid/mobile@0.1.0 format:check: `prettier --check app src`
+Exit status 1
+apps/web format:check: All matched files use Prettier code style!
+apps/web format:check: Done
+[ELIFECYCLE] Command failed with exit code 1.
+Formatting failed with exit code 1
+In C:\Users\Marcel\Downloads\shadowgrid\scripts\project.ps1:16 Zeichen:32
++ ... EXITCODE -ne 0) { throw "$Name failed with exit code $LASTEXITCODE" }
++                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Formatting failed with exit code 1:String) [], RuntimeException
+    + FullyQualifiedErrorId : Formatting failed with exit code 1
+
+[ELIFECYCLE] Command failed with exit code 1.
+
+Finished: 2026-07-30T07:27:11.608Z
+Exit code: 1

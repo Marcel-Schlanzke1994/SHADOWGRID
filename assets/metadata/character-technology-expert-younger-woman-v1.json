@@ -1,0 +1,171 @@
+{
+  "asset_id": "character-technology-expert-younger-woman-v1",
+  "manifest_order": 563,
+  "category": "character",
+  "batch": "specialists",
+  "city": null,
+  "variant": "younger-woman",
+  "gameplay_state": "normal",
+  "aspect_ratio": "4:5",
+  "width": 1280,
+  "height": 1600,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/character-technology-expert-younger-woman-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100563,
+  "content_hash": "4f41d60887a004bbe60af8478816ed827905fafa35e5d725220cda32e57b9b7b",
+  "source_file": "assets/source/characters/character-technology-expert-younger-woman-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/character-technology-expert-younger-woman-v1-320.avif",
+      "bytes": 2775,
+      "sha256": "dc35ac95b6b7ea70cbf8013188b4962aa7f3f0048bce0b7289cd6b902b8497e9"
+    },
+    {
+      "path": "assets/production/webp/character-technology-expert-younger-woman-v1-320.webp",
+      "bytes": 1998,
+      "sha256": "c760b995cb616f47e24e35dbe05a9bbf075a55ddae630701e8f78ceb182912ef"
+    },
+    {
+      "path": "assets/production/avif/character-technology-expert-younger-woman-v1-640.avif",
+      "bytes": 6168,
+      "sha256": "ae485c310b1f45001812c0cb8c45af15ccf3ffb38e4a830beec765f77c6b41f4"
+    },
+    {
+      "path": "assets/production/webp/character-technology-expert-younger-woman-v1-640.webp",
+      "bytes": 4608,
+      "sha256": "0f39c9da19e1b1aee62cafba1afa3c7b03da0f51fb24a864a85b4d7c67f2310f"
+    },
+    {
+      "path": "assets/production/avif/character-technology-expert-younger-woman-v1-960.avif",
+      "bytes": 13117,
+      "sha256": "08962933378456f00f036b885a5a19f3b30e259e82d18a10e8e52e8819dda0ee"
+    },
+    {
+      "path": "assets/production/webp/character-technology-expert-younger-woman-v1-960.webp",
+      "bytes": 8820,
+      "sha256": "9de97a865d531cbfc37fb307342b0ea13908043271e1832b38d3a7838a157988"
+    },
+    {
+      "path": "assets/production/avif/character-technology-expert-younger-woman-v1-1280.avif",
+      "bytes": 19018,
+      "sha256": "6fb3d704a10b4e979578836cf1b977689bcfb3c6690c7885a178717dc6843bbe"
+    },
+    {
+      "path": "assets/production/webp/character-technology-expert-younger-woman-v1-1280.webp",
+      "bytes": 13672,
+      "sha256": "9ff6dcaf5e2f89d9a4fec35fd77f89fb61cc919529e70fe8fdaddd7f8bc09a70"
+    },
+    {
+      "path": "assets/production/avif/character-technology-expert-younger-woman-v1-1920.avif",
+      "bytes": 30015,
+      "sha256": "a9931a5dbce3e9620157952ead04787509a1fe24c140100e9b5397540e0bde1e"
+    },
+    {
+      "path": "assets/production/webp/character-technology-expert-younger-woman-v1-1920.webp",
+      "bytes": 23408,
+      "sha256": "e1fdffdba00cb757297a8d43f2131aa350576832852d414bd892f37872839ca2"
+    },
+    {
+      "path": "assets/production/avif/character-technology-expert-younger-woman-v1-2560.avif",
+      "bytes": 43656,
+      "sha256": "4efb59f54125f300f0c383da98c05e025ef244094f2406f82777f1e8e210b2cb"
+    },
+    {
+      "path": "assets/production/webp/character-technology-expert-younger-woman-v1-2560.webp",
+      "bytes": 35744,
+      "sha256": "1bbd01254a83f8d6e696e26fe0707b7cc65ddffee2ca4a68eca6886380e7a058"
+    },
+    {
+      "path": "assets/production/avif/character-technology-expert-younger-woman-v1-3840.avif",
+      "bytes": 71903,
+      "sha256": "c9effa7a4faee4a2a2c177e3aec64a952c55bd8c67f9939f4e5b4952bc4d7e06"
+    },
+    {
+      "path": "assets/production/webp/character-technology-expert-younger-woman-v1-3840.webp",
+      "bytes": 67890,
+      "sha256": "377d67a4f378ef0012f5a382b2473d0274be521e2b48540553dc407f95724fa3"
+    },
+    {
+      "path": "assets/production/png/character-technology-expert-younger-woman-v1-1280.png",
+      "bytes": 206525,
+      "sha256": "4f41d60887a004bbe60af8478816ed827905fafa35e5d725220cda32e57b9b7b"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/character-technology-expert-younger-woman-v1.webp",
+      "bytes": 1998,
+      "sha256": "c760b995cb616f47e24e35dbe05a9bbf075a55ddae630701e8f78ceb182912ef"
+    },
+    {
+      "path": "apps/mobile/assets/library/character-technology-expert-younger-woman-v1.webp",
+      "bytes": 1998,
+      "sha256": "c760b995cb616f47e24e35dbe05a9bbf075a55ddae630701e8f78ceb182912ef"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:37.449Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1280,
+      "height": 1600,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 206525
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:21:18.348Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-industrial-belt-normal-day-v1",
+  "manifest_order": 383,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-industrial-belt-normal-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100383,
+  "content_hash": "411216515b8b8dd02aa6f08b3a3daaf73c6c83457a2b7faef6995cf6db432e65",
+  "source_file": "assets/source/districts/district-industrial-belt-normal-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-industrial-belt-normal-day-v1-320.avif",
+      "bytes": 3151,
+      "sha256": "cfabff2ec180d3ea4326a31e1d46dee95a8267fb1f587fa81c6e295f525fb574"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-normal-day-v1-320.webp",
+      "bytes": 2640,
+      "sha256": "58b758988346d5648194447fd33a710e243b2adcc2405da677e6e058edbf719c"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-normal-day-v1-640.avif",
+      "bytes": 6648,
+      "sha256": "fc9bd15469bb7a0fa968ec5271bdb650dc32900d85ee43c46dc4643e9c4acfd1"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-normal-day-v1-640.webp",
+      "bytes": 5608,
+      "sha256": "06c1186bdcbd16054c46e791d8779492bc478c230bb799df3d7b44353ff961de"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-normal-day-v1-960.avif",
+      "bytes": 10737,
+      "sha256": "e7f7b79ed6c2756fedef0ad47ae368ad3afc54a6870d630be3668726e1028f63"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-normal-day-v1-960.webp",
+      "bytes": 9544,
+      "sha256": "4c9419e9fd52d91ec0cf23055a6539407c725c19c05b58a6a1c94f56710e1e93"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-normal-day-v1-1280.avif",
+      "bytes": 15358,
+      "sha256": "6aa42a92d725cafd08873059658a620d9790e5fed18134a19e8cb6bceef12aed"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-normal-day-v1-1280.webp",
+      "bytes": 12414,
+      "sha256": "bf4dd5186c9884648ca35070f17e46acfa8c9d501cd6252dc71bad83ed6594c7"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-normal-day-v1-1920.avif",
+      "bytes": 22413,
+      "sha256": "8e8e6f19a51cbf0d9656271914b8a9b0240f22f9ecfd45efcfd3220bd758962a"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-normal-day-v1-1920.webp",
+      "bytes": 20078,
+      "sha256": "5cbcc8cc97a8191ccaea5945e54a001dd99dd0eaa0076e6c9d7c4ae634cb5c03"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-normal-day-v1-2560.avif",
+      "bytes": 29918,
+      "sha256": "5b0eacf9b4319596d1a4cfab95455ed787d9def28f2d906a3368027b6fbb60d4"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-normal-day-v1-2560.webp",
+      "bytes": 27142,
+      "sha256": "ad78421bfdbf6dae934a2e042c95db3b038df7b745b4c462cf731a65e05e5e21"
+    },
+    {
+      "path": "assets/production/avif/district-industrial-belt-normal-day-v1-3840.avif",
+      "bytes": 48100,
+      "sha256": "79f49c42335db249c21f37057086cda03cde26c898ccc73f0d5b933a06d66346"
+    },
+    {
+      "path": "assets/production/webp/district-industrial-belt-normal-day-v1-3840.webp",
+      "bytes": 45222,
+      "sha256": "648ffbf831be0a7a892f8ebb9fcd72a88e4b8ea3c9c4e5d17dcc64dc9df1661f"
+    },
+    {
+      "path": "assets/production/png/district-industrial-belt-normal-day-v1-1280.png",
+      "bytes": 625890,
+      "sha256": "3c4e02f25d87ecbe14ee1965bf29b98d9386dc356ef2cb11bd2b59d478ac5202"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-industrial-belt-normal-day-v1.webp",
+      "bytes": 2640,
+      "sha256": "58b758988346d5648194447fd33a710e243b2adcc2405da677e6e058edbf719c"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-industrial-belt-normal-day-v1.webp",
+      "bytes": 2640,
+      "sha256": "58b758988346d5648194447fd33a710e243b2adcc2405da677e6e058edbf719c"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.591Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1422035
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:13:07.522Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

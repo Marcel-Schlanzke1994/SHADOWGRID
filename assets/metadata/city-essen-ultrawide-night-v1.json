@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-essen-ultrawide-night-v1",
+  "manifest_order": 140,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "essen",
+  "variant": "ultrawide-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-essen-ultrawide-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100140,
+  "content_hash": "f6bbeb5cdb290e8dc76046738fc18f6a6c8479f4badd7b23cb5dd03133f598d1",
+  "source_file": "assets/source/cities/city-essen-ultrawide-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-essen-ultrawide-night-v1-320.avif",
+      "bytes": 3173,
+      "sha256": "7e94f477b6e9a100275727378011b27c5ba15da6413a00c0cd499994a966f132"
+    },
+    {
+      "path": "assets/production/webp/city-essen-ultrawide-night-v1-320.webp",
+      "bytes": 3196,
+      "sha256": "3cea9c1c825b38d380a4245e38d6dd16ef69169828fc733b4fa53d53e8e3535f"
+    },
+    {
+      "path": "assets/production/avif/city-essen-ultrawide-night-v1-640.avif",
+      "bytes": 6789,
+      "sha256": "b7775bf11762e6d277a7b1f5b965bd6447755038b4f3e4ac7189e18c532de120"
+    },
+    {
+      "path": "assets/production/webp/city-essen-ultrawide-night-v1-640.webp",
+      "bytes": 7148,
+      "sha256": "51679fbcebfd39878e0b99da1b830e3a99b717d2bbb4998208b02f3d08e2274b"
+    },
+    {
+      "path": "assets/production/avif/city-essen-ultrawide-night-v1-960.avif",
+      "bytes": 11618,
+      "sha256": "98f77394af35ae927552eabe739b6df0d0b21dd227dbef1541d10649a1bb23d7"
+    },
+    {
+      "path": "assets/production/webp/city-essen-ultrawide-night-v1-960.webp",
+      "bytes": 12400,
+      "sha256": "40a51aa42d94b4f1918796c70b2cb3489760cfb7f05f43c9a600191c5809b301"
+    },
+    {
+      "path": "assets/production/avif/city-essen-ultrawide-night-v1-1280.avif",
+      "bytes": 14831,
+      "sha256": "535b7f71c0139da865d808bde39db97c368cd31354aa4dcb5d2bafb4f725f7a9"
+    },
+    {
+      "path": "assets/production/webp/city-essen-ultrawide-night-v1-1280.webp",
+      "bytes": 16532,
+      "sha256": "991a87a80cb85211d556d2c698924a83b178d752116e4fa616f0eeaa0b453733"
+    },
+    {
+      "path": "assets/production/avif/city-essen-ultrawide-night-v1-1920.avif",
+      "bytes": 23284,
+      "sha256": "9220d89f1f497f2d614536942842ff9f1ec637262bf966e1785d04dad826a9b3"
+    },
+    {
+      "path": "assets/production/webp/city-essen-ultrawide-night-v1-1920.webp",
+      "bytes": 24744,
+      "sha256": "e5b2b08289899aad962f5cd1090e453a70611b37c62c67e2f632a76fbee2546f"
+    },
+    {
+      "path": "assets/production/avif/city-essen-ultrawide-night-v1-2560.avif",
+      "bytes": 31623,
+      "sha256": "3802a339217d2d309607a3aeb0740a372b6bc91f3adef1ed6fb2fcf95da756a0"
+    },
+    {
+      "path": "assets/production/webp/city-essen-ultrawide-night-v1-2560.webp",
+      "bytes": 32312,
+      "sha256": "0043622ece8707871a47068c144737234cd56c410e98172f13c0a78a64ab9db3"
+    },
+    {
+      "path": "assets/production/avif/city-essen-ultrawide-night-v1-3840.avif",
+      "bytes": 50209,
+      "sha256": "345ca6683ad8bd8ab2ef4ed5a4735a41af62be41c963e04729a2684befedf5d2"
+    },
+    {
+      "path": "assets/production/webp/city-essen-ultrawide-night-v1-3840.webp",
+      "bytes": 49458,
+      "sha256": "ae05fc5d12603bdad0c6648ac0c935916f929deca3e855df772ca76c83bd131a"
+    },
+    {
+      "path": "assets/production/png/city-essen-ultrawide-night-v1-1280.png",
+      "bytes": 480703,
+      "sha256": "ae5eed45241ff454eb6f846690cda6fb01cf034bc121e240137285a794e9007f"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-essen-ultrawide-night-v1-320.avif",
+      "bytes": 3173,
+      "sha256": "7e94f477b6e9a100275727378011b27c5ba15da6413a00c0cd499994a966f132"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-ultrawide-night-v1-320.webp",
+      "bytes": 3196,
+      "sha256": "3cea9c1c825b38d380a4245e38d6dd16ef69169828fc733b4fa53d53e8e3535f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-ultrawide-night-v1-640.avif",
+      "bytes": 6789,
+      "sha256": "b7775bf11762e6d277a7b1f5b965bd6447755038b4f3e4ac7189e18c532de120"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-ultrawide-night-v1-640.webp",
+      "bytes": 7148,
+      "sha256": "51679fbcebfd39878e0b99da1b830e3a99b717d2bbb4998208b02f3d08e2274b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-ultrawide-night-v1-960.avif",
+      "bytes": 11618,
+      "sha256": "98f77394af35ae927552eabe739b6df0d0b21dd227dbef1541d10649a1bb23d7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-ultrawide-night-v1-960.webp",
+      "bytes": 12400,
+      "sha256": "40a51aa42d94b4f1918796c70b2cb3489760cfb7f05f43c9a600191c5809b301"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-ultrawide-night-v1-1280.avif",
+      "bytes": 14831,
+      "sha256": "535b7f71c0139da865d808bde39db97c368cd31354aa4dcb5d2bafb4f725f7a9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-ultrawide-night-v1-1280.webp",
+      "bytes": 16532,
+      "sha256": "991a87a80cb85211d556d2c698924a83b178d752116e4fa616f0eeaa0b453733"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-ultrawide-night-v1-1920.avif",
+      "bytes": 23284,
+      "sha256": "9220d89f1f497f2d614536942842ff9f1ec637262bf966e1785d04dad826a9b3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-ultrawide-night-v1-1920.webp",
+      "bytes": 24744,
+      "sha256": "e5b2b08289899aad962f5cd1090e453a70611b37c62c67e2f632a76fbee2546f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-ultrawide-night-v1-2560.avif",
+      "bytes": 31623,
+      "sha256": "3802a339217d2d309607a3aeb0740a372b6bc91f3adef1ed6fb2fcf95da756a0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-ultrawide-night-v1-2560.webp",
+      "bytes": 32312,
+      "sha256": "0043622ece8707871a47068c144737234cd56c410e98172f13c0a78a64ab9db3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-ultrawide-night-v1-3840.avif",
+      "bytes": 50209,
+      "sha256": "345ca6683ad8bd8ab2ef4ed5a4735a41af62be41c963e04729a2684befedf5d2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-ultrawide-night-v1-3840.webp",
+      "bytes": 49458,
+      "sha256": "ae05fc5d12603bdad0c6648ac0c935916f929deca3e855df772ca76c83bd131a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-ultrawide-night-v1-1280.png",
+      "bytes": 480703,
+      "sha256": "ae5eed45241ff454eb6f846690cda6fb01cf034bc121e240137285a794e9007f"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-essen-ultrawide-night-v1.webp",
+      "bytes": 3196,
+      "sha256": "3cea9c1c825b38d380a4245e38d6dd16ef69169828fc733b4fa53d53e8e3535f"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-essen-ultrawide-night-v1.webp",
+      "bytes": 3196,
+      "sha256": "3cea9c1c825b38d380a4245e38d6dd16ef69169828fc733b4fa53d53e8e3535f"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.521Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 2177407
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-29T23:51:43.289Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

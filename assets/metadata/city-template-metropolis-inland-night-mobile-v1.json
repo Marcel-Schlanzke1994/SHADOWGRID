@@ -1,0 +1,171 @@
+{
+  "asset_id": "city-template-metropolis-inland-night-mobile-v1",
+  "manifest_order": 315,
+  "category": "city-template",
+  "batch": "procedural-city-templates",
+  "city": null,
+  "variant": "night-mobile",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-template-metropolis-inland-night-mobile-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100315,
+  "content_hash": "f234185a0aa1d859be8f042d5d9c563385f64fa9a7244a29e6855fbd80254802",
+  "source_file": "assets/source/global/city-template-metropolis-inland-night-mobile-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-template-metropolis-inland-night-mobile-v1-320.avif",
+      "bytes": 5872,
+      "sha256": "8c813f289a02433d57e947c74ed0391da6786b7c4a947dfd6d1ea20a59a3018e"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-inland-night-mobile-v1-320.webp",
+      "bytes": 6204,
+      "sha256": "fbe23ec3e76288a4186caddef73d819f19be2c8ae29b879653824be755cb189c"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-inland-night-mobile-v1-640.avif",
+      "bytes": 12110,
+      "sha256": "23455ec8ab59d95c91b817a8e83d6c4adc272053196b1994b01f8d104081f08a"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-inland-night-mobile-v1-640.webp",
+      "bytes": 11926,
+      "sha256": "45a9da6de6339d8572fae798469f25a3dd7df14f2e8436cffea9072ea35783b8"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-inland-night-mobile-v1-960.avif",
+      "bytes": 20920,
+      "sha256": "93268ae767f0fe64e68889984b2f461fe9fd1b645690379f2491f8747b8ceddc"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-inland-night-mobile-v1-960.webp",
+      "bytes": 19270,
+      "sha256": "2fd3fe0213e499fb86a6f8fbaf1773be73d36fbbbc0ff7002d9eaa3f400904c7"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-inland-night-mobile-v1-1280.avif",
+      "bytes": 29027,
+      "sha256": "c4f34761a9be20a20d30dec68a50ed79cf10804e6f8e71ae49f01cb8531e42c9"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-inland-night-mobile-v1-1280.webp",
+      "bytes": 25910,
+      "sha256": "3d64eb43d1cf9d7cc185eda2aaeefb891182d3890c459f3b40bf6e03543655ba"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-inland-night-mobile-v1-1920.avif",
+      "bytes": 46823,
+      "sha256": "81e7e34f70db1a35e7b4b6a2e7e0a6e5a7444420865e84aa5d4405016f741ff5"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-inland-night-mobile-v1-1920.webp",
+      "bytes": 42190,
+      "sha256": "ba9109f6567a1c4afa577cc6bee992a31f82d6e369171adb0632a9af7cb95152"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-inland-night-mobile-v1-2560.avif",
+      "bytes": 65046,
+      "sha256": "ef5559ffe0e72b7c5ae0812f7b50e1d847eb5c2f8004896ea657a03e2af5dcdd"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-inland-night-mobile-v1-2560.webp",
+      "bytes": 64282,
+      "sha256": "54e4210f52752eebc56eb78d024901689282d7eb2883e8ab447afff607869044"
+    },
+    {
+      "path": "assets/production/avif/city-template-metropolis-inland-night-mobile-v1-3840.avif",
+      "bytes": 113972,
+      "sha256": "5bef19f9d3a13dbd634ac5e2616a05e8e08e61a64a8c538454efac3ee51eb73c"
+    },
+    {
+      "path": "assets/production/webp/city-template-metropolis-inland-night-mobile-v1-3840.webp",
+      "bytes": 115272,
+      "sha256": "16b7369726bb9200d1af01a298d1551f1c1dea1a2a60f175f6e2e11b00b02991"
+    },
+    {
+      "path": "assets/production/png/city-template-metropolis-inland-night-mobile-v1-1152.png",
+      "bytes": 1690022,
+      "sha256": "f234185a0aa1d859be8f042d5d9c563385f64fa9a7244a29e6855fbd80254802"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/city-template-metropolis-inland-night-mobile-v1.webp",
+      "bytes": 6204,
+      "sha256": "fbe23ec3e76288a4186caddef73d819f19be2c8ae29b879653824be755cb189c"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-template-metropolis-inland-night-mobile-v1.webp",
+      "bytes": 6204,
+      "sha256": "fbe23ec3e76288a4186caddef73d819f19be2c8ae29b879653824be755cb189c"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 91.6,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:54.942Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 92,
+      "material_quality": 87,
+      "light_quality": 89,
+      "architecture_plausibility": 89,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 92,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All four paged contact sheets were inspected at original resolution.",
+      "The templates are intentionally stylized deterministic fallbacks and remain compositionally useful across every required aspect ratio.",
+      "No missing render, broken geometry, sensitive infrastructure detail, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1690022
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:23:49.550Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

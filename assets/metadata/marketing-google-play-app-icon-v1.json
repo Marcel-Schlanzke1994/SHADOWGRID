@@ -1,0 +1,176 @@
+{
+  "asset_id": "marketing-google-play-app-icon-v1",
+  "manifest_order": 867,
+  "category": "marketing",
+  "batch": "store-marketing",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 512,
+  "height": 512,
+  "source_type": "procedural",
+  "provider": "sharp-procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/marketing-google-play-app-icon-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100867,
+  "content_hash": "686b3cbb42abf614fefc2e21b611efcbd17a57a70bcba6849e08f8f480398b2b",
+  "source_file": "assets/source/marketing/marketing-google-play-app-icon-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/marketing-google-play-app-icon-v1-320.avif",
+      "bytes": 3495,
+      "sha256": "fbd2e93ff362f147e6df2f37854fe50cee91d7b9013b20e4cf733b70036966d5"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-app-icon-v1-320.webp",
+      "bytes": 3674,
+      "sha256": "b64ef867f432da38d86560a141a0f26ce51b3fd1535b9a4890b1127897b3b25c"
+    },
+    {
+      "path": "assets/production/avif/marketing-google-play-app-icon-v1-640.avif",
+      "bytes": 8329,
+      "sha256": "67d192f4832d2c4dcd611cd31c46e1aca9b2ece3324b0b979b672138de3b70e4"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-app-icon-v1-640.webp",
+      "bytes": 7518,
+      "sha256": "7f3599e710f963fabcc09ef2789c384c3c00abc82dec886da5da4e8c5d1e47cf"
+    },
+    {
+      "path": "assets/production/avif/marketing-google-play-app-icon-v1-960.avif",
+      "bytes": 16416,
+      "sha256": "ccbbb970f823b15341225b851287060b4d152360f0eaa9424c61b52f4017214c"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-app-icon-v1-960.webp",
+      "bytes": 12284,
+      "sha256": "96a7ad5cfa0b1a0b8a992242cbe408a1b3c73e2c9d1ac153e0f3b4ffd8fbe74d"
+    },
+    {
+      "path": "assets/production/avif/marketing-google-play-app-icon-v1-1280.avif",
+      "bytes": 22998,
+      "sha256": "d0d836fd2197ea3ee35fcaca683effff3794c3060a47571e1b46107713fcfcb3"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-app-icon-v1-1280.webp",
+      "bytes": 16896,
+      "sha256": "90cc6b4e65238a7379a6d438357c5cb5ac6aafbb46cfb92d690dbcdc060ddc89"
+    },
+    {
+      "path": "assets/production/avif/marketing-google-play-app-icon-v1-1920.avif",
+      "bytes": 34884,
+      "sha256": "d88f36d0c742dff78169119f4fcefb413a6da339aca0061df9fd1c252085df01"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-app-icon-v1-1920.webp",
+      "bytes": 27592,
+      "sha256": "5c7ca2adcb84c7ffae34171cf537f44d1a7b7beec4bde3017b56d5ac71e95a70"
+    },
+    {
+      "path": "assets/production/avif/marketing-google-play-app-icon-v1-2560.avif",
+      "bytes": 50016,
+      "sha256": "7da1c35ca21caa589dfa13359e9db3b33ad64b2edb8f470a9090b021659d53a8"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-app-icon-v1-2560.webp",
+      "bytes": 40538,
+      "sha256": "dde3caf87e1d59624a90d158101945bfc82f7e835320e24d30c8658f2467c2b3"
+    },
+    {
+      "path": "assets/production/avif/marketing-google-play-app-icon-v1-3840.avif",
+      "bytes": 78170,
+      "sha256": "193b439e595419cd0ebc6f7666da5ba2fffd8433a5de791cdd04822a10d046e8"
+    },
+    {
+      "path": "assets/production/webp/marketing-google-play-app-icon-v1-3840.webp",
+      "bytes": 71146,
+      "sha256": "e5fb14a05d6ab2f644118d616ffa58518d3dc6cf9045c00147bbc2d0b49684a8"
+    },
+    {
+      "path": "assets/production/png/marketing-google-play-app-icon-v1-512.png",
+      "bytes": 39744,
+      "sha256": "a2440d4dcb47daf39256c5983168a932272561823c3106942983c78ea976d05e"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/marketing-google-play-app-icon-v1.webp",
+      "bytes": 3674,
+      "sha256": "b64ef867f432da38d86560a141a0f26ce51b3fd1535b9a4890b1127897b3b25c"
+    },
+    {
+      "path": "apps/mobile/assets/library/marketing-google-play-app-icon-v1.webp",
+      "bytes": 3674,
+      "sha256": "b64ef867f432da38d86560a141a0f26ce51b3fd1535b9a4890b1127897b3b25c"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 94.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:37:55.414Z",
+    "scores": {
+      "realism": 94,
+      "style_consistency": 96,
+      "composition": 95,
+      "material_quality": 93,
+      "light_quality": 94,
+      "architecture_plausibility": 92,
+      "ui_suitability": 97,
+      "mobile_suitability": 97,
+      "originality": 90,
+      "safety_compliance": 100,
+      "small_size_legibility": 94,
+      "contrast": 96,
+      "geometry_quality": 96,
+      "technical_quality": 98
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution.",
+      "All 20 store captures are sourced from the functioning application at exact declared dimensions; feature graphic and icon are opaque exact-size static art.",
+      "Text-free community and release banners are intentionally neutral procedural variants, with no fake UI, third-party logo, unsafe content, broken crop, or unintended text."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 512,
+      "height": 512,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 40267
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:15:03.945Z",
+  "license": "project-owned-procedural-asset",
+  "provenance": {
+    "source": "project-owned-visual-library",
+    "preparation_report": "assets/reports/store-static-art-preparation.json",
+    "paid_generation_cost_eur": 0
+  },
+  "notes": [
+    "Exact dimensions, PNG encoding and byte constraints are machine validated.",
+    "No external brand, authority mark, private person, identifier or gameplay claim is present."
+  ]
+}

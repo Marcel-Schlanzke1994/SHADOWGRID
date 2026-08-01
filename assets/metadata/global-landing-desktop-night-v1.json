@@ -170,6 +170,16 @@
       "path": "apps/web/public/assets/global/global-landing-desktop-night-v1-1280.png",
       "bytes": 1232047,
       "sha256": "1501442d6d1dc6d42f813dc19515cddf00772ce47ff1eedbf58185de84c1c007"
+    },
+    {
+      "path": "apps/web/public/assets/library/global-landing-desktop-night-v1.webp",
+      "bytes": 3694,
+      "sha256": "7c23726e4f3465a8d01571aceba5cd488e0861ab5959154b296e1373d0ef012f"
+    },
+    {
+      "path": "apps/mobile/assets/library/global-landing-desktop-night-v1.webp",
+      "bytes": 3694,
+      "sha256": "7c23726e4f3465a8d01571aceba5cd488e0861ab5959154b296e1373d0ef012f"
     }
   ],
   "contains_text": false,

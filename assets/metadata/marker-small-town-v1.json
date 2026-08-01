@@ -23,6 +23,11 @@
       "path": "assets/production/svg/marker-small-town-v1.svg",
       "bytes": 584,
       "sha256": "ea44ebfa5df976b8ab711ce8a12c9bbe042ececdeb930f0b48c70d755c10ecfc"
+    },
+    {
+      "path": "assets/production/webp/marker-small-town-v1-320.webp",
+      "bytes": 1872,
+      "sha256": "40672c4c9738d301408707d88e165a168761935affc031b63fb0634f627ffd4f"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/markers/marker-small-town-v1.svg",
       "bytes": 584,
       "sha256": "ea44ebfa5df976b8ab711ce8a12c9bbe042ececdeb930f0b48c70d755c10ecfc"
+    },
+    {
+      "path": "apps/web/public/assets/markers/marker-small-town-v1-320.webp",
+      "bytes": 1872,
+      "sha256": "40672c4c9738d301408707d88e165a168761935affc031b63fb0634f627ffd4f"
+    },
+    {
+      "path": "apps/web/public/assets/library/marker-small-town-v1.webp",
+      "bytes": 1872,
+      "sha256": "40672c4c9738d301408707d88e165a168761935affc031b63fb0634f627ffd4f"
+    },
+    {
+      "path": "apps/mobile/assets/library/marker-small-town-v1.webp",
+      "bytes": 1872,
+      "sha256": "40672c4c9738d301408707d88e165a168761935affc031b63fb0634f627ffd4f"
     }
   ],
   "contains_text": false,

@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-bielefeld-mobile-day-v1",
+  "manifest_order": 207,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "bielefeld",
+  "variant": "mobile-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-bielefeld-mobile-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100207,
+  "content_hash": "555a28537733d0d66d831fda78b1b8c9099054b8fe0739ae9a13061a8d4dd62d",
+  "source_file": "assets/source/cities/city-bielefeld-mobile-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-bielefeld-mobile-day-v1-320.avif",
+      "bytes": 4628,
+      "sha256": "6bd39a4242e0dfe0503362d42fed087c6ac8353b77ae5a1c211ef83cecb84b1c"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-mobile-day-v1-320.webp",
+      "bytes": 4262,
+      "sha256": "789375ea9b0dca32147ae17cf629fd8148bd88c8e95a6640217de8dda275f715"
+    },
+    {
+      "path": "assets/production/avif/city-bielefeld-mobile-day-v1-640.avif",
+      "bytes": 10394,
+      "sha256": "f55b111da85e9aaf10868a9c4f9d142813e46b82c5596d0dfd064f91e1d6a390"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-mobile-day-v1-640.webp",
+      "bytes": 8358,
+      "sha256": "5daeb74583f7b1a5c95a7da512e0e7a44dcec78f5540674727ad1c6108b7e5d2"
+    },
+    {
+      "path": "assets/production/avif/city-bielefeld-mobile-day-v1-960.avif",
+      "bytes": 17517,
+      "sha256": "4322fdf73117839556508b97883f376a5bc701d778522ff79b25eab4d740a69e"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-mobile-day-v1-960.webp",
+      "bytes": 14616,
+      "sha256": "4e445e5d52c20e65b32fef98d9b17ca70ddb966082288392f67081a33617da2a"
+    },
+    {
+      "path": "assets/production/avif/city-bielefeld-mobile-day-v1-1280.avif",
+      "bytes": 24455,
+      "sha256": "c4a6279d4c1d19ca0206c07e76f360c4b2176b95fc602a3ad3bfce9e24d631ad"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-mobile-day-v1-1280.webp",
+      "bytes": 19792,
+      "sha256": "9a6c941f0a2b9a60920d1daa877b526a5cc71a3983666c6773b9d9bcfd4e03cd"
+    },
+    {
+      "path": "assets/production/avif/city-bielefeld-mobile-day-v1-1920.avif",
+      "bytes": 39388,
+      "sha256": "2de0f98ccb40be876f2ac7e39d9f612c031e231e812a7ca36f869388c0dd3b8d"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-mobile-day-v1-1920.webp",
+      "bytes": 35484,
+      "sha256": "5703c96d6e9c3906677f69f03a1c8c141ed6a0d6ad6f07ff8eb681984b3a77d6"
+    },
+    {
+      "path": "assets/production/avif/city-bielefeld-mobile-day-v1-2560.avif",
+      "bytes": 56990,
+      "sha256": "022c3ee1935d514470ee683069f257c68a3e3a3c92ca0c019a6c4ce503f1fdea"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-mobile-day-v1-2560.webp",
+      "bytes": 54790,
+      "sha256": "6355718b35bd0acc77991c37f0af5bb8d97ee78c67640b4abe9648673cd55211"
+    },
+    {
+      "path": "assets/production/avif/city-bielefeld-mobile-day-v1-3840.avif",
+      "bytes": 100142,
+      "sha256": "b558710697fb9ba53134ab11db81036d5753fc48ab3045978c77592554519724"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-mobile-day-v1-3840.webp",
+      "bytes": 105152,
+      "sha256": "188a932e1eb595da96dfa3a4c92f0420611b2c7f1ac595de411ad88b13f4a491"
+    },
+    {
+      "path": "assets/production/png/city-bielefeld-mobile-day-v1-1152.png",
+      "bytes": 1681772,
+      "sha256": "555a28537733d0d66d831fda78b1b8c9099054b8fe0739ae9a13061a8d4dd62d"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-mobile-day-v1-320.avif",
+      "bytes": 4628,
+      "sha256": "6bd39a4242e0dfe0503362d42fed087c6ac8353b77ae5a1c211ef83cecb84b1c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-mobile-day-v1-320.webp",
+      "bytes": 4262,
+      "sha256": "789375ea9b0dca32147ae17cf629fd8148bd88c8e95a6640217de8dda275f715"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-mobile-day-v1-640.avif",
+      "bytes": 10394,
+      "sha256": "f55b111da85e9aaf10868a9c4f9d142813e46b82c5596d0dfd064f91e1d6a390"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-mobile-day-v1-640.webp",
+      "bytes": 8358,
+      "sha256": "5daeb74583f7b1a5c95a7da512e0e7a44dcec78f5540674727ad1c6108b7e5d2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-mobile-day-v1-960.avif",
+      "bytes": 17517,
+      "sha256": "4322fdf73117839556508b97883f376a5bc701d778522ff79b25eab4d740a69e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-mobile-day-v1-960.webp",
+      "bytes": 14616,
+      "sha256": "4e445e5d52c20e65b32fef98d9b17ca70ddb966082288392f67081a33617da2a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-mobile-day-v1-1280.avif",
+      "bytes": 24455,
+      "sha256": "c4a6279d4c1d19ca0206c07e76f360c4b2176b95fc602a3ad3bfce9e24d631ad"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-mobile-day-v1-1280.webp",
+      "bytes": 19792,
+      "sha256": "9a6c941f0a2b9a60920d1daa877b526a5cc71a3983666c6773b9d9bcfd4e03cd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-mobile-day-v1-1920.avif",
+      "bytes": 39388,
+      "sha256": "2de0f98ccb40be876f2ac7e39d9f612c031e231e812a7ca36f869388c0dd3b8d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-mobile-day-v1-1920.webp",
+      "bytes": 35484,
+      "sha256": "5703c96d6e9c3906677f69f03a1c8c141ed6a0d6ad6f07ff8eb681984b3a77d6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-mobile-day-v1-2560.avif",
+      "bytes": 56990,
+      "sha256": "022c3ee1935d514470ee683069f257c68a3e3a3c92ca0c019a6c4ce503f1fdea"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-mobile-day-v1-2560.webp",
+      "bytes": 54790,
+      "sha256": "6355718b35bd0acc77991c37f0af5bb8d97ee78c67640b4abe9648673cd55211"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-mobile-day-v1-3840.avif",
+      "bytes": 100142,
+      "sha256": "b558710697fb9ba53134ab11db81036d5753fc48ab3045978c77592554519724"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-mobile-day-v1-3840.webp",
+      "bytes": 105152,
+      "sha256": "188a932e1eb595da96dfa3a4c92f0420611b2c7f1ac595de411ad88b13f4a491"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-mobile-day-v1-1152.png",
+      "bytes": 1681772,
+      "sha256": "555a28537733d0d66d831fda78b1b8c9099054b8fe0739ae9a13061a8d4dd62d"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-bielefeld-mobile-day-v1.webp",
+      "bytes": 4262,
+      "sha256": "789375ea9b0dca32147ae17cf629fd8148bd88c8e95a6640217de8dda275f715"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-bielefeld-mobile-day-v1.webp",
+      "bytes": 4262,
+      "sha256": "789375ea9b0dca32147ae17cf629fd8148bd88c8e95a6640217de8dda275f715"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.102Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1681772
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:53:49.833Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

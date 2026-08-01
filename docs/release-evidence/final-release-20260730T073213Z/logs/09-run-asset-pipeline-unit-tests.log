@@ -1,0 +1,85 @@
+SHADOWGRID final release evidence
+Step: Run asset pipeline unit tests
+Command: pnpm assets:test
+Started: 2026-07-30T08:27:51.874Z
+
+$ node --test scripts/assets/*.test.mjs
+TAP version 13
+# Subtest: crest configurator defines 100 unique deterministic combinations
+ok 1 - crest configurator defines 100 unique deterministic combinations
+  ---
+  duration_ms: 21.5568
+  type: 'test'
+  ...
+# Subtest: crest combinations preserve accessible foreground contrast
+ok 2 - crest combinations preserve accessible foreground contrast
+  ---
+  duration_ms: 10.312
+  type: 'test'
+  ...
+# Subtest: manifest catalog has unique sequential order and ids
+ok 3 - manifest catalog has unique sequential order and ids
+  ---
+  duration_ms: 16.8629
+  type: 'test'
+  ...
+# Subtest: all entries reference a declared batch and deterministic seed
+ok 4 - all entries reference a declared batch and deterministic seed
+  ---
+  duration_ms: 3.8008
+  type: 'test'
+  ...
+# Subtest: resume generation skips completed review items
+ok 5 - resume generation skips completed review items
+  ---
+  duration_ms: 1.256
+  type: 'test'
+  ...
+# Subtest: store screenshots cannot be generated mock interfaces
+ok 6 - store screenshots cannot be generated mock interfaces
+  ---
+  duration_ms: 1.6429
+  type: 'test'
+  ...
+# Subtest: store catalog uses current exact icon, feature and screenshot dimensions
+ok 7 - store catalog uses current exact icon, feature and screenshot dimensions
+  ---
+  duration_ms: 2.8582
+  type: 'test'
+  ...
+# Subtest: geographic vectors require licensed source data
+ok 8 - geographic vectors require licensed source data
+  ---
+  duration_ms: 1.5674
+  type: 'test'
+  ...
+# Subtest: map markers are nineteen unique, self-contained runtime SVGs
+ok 9 - map markers are nineteen unique, self-contained runtime SVGs
+  ---
+  duration_ms: 40.9447
+  type: 'test'
+  ...
+# Subtest: interface icons remain visually distinct within each semantic family
+ok 10 - interface icons remain visually distinct within each semantic family
+  ---
+  duration_ms: 99.5261
+  type: 'test'
+  ...
+# Subtest: strategic state overlays use unique visual treatments
+ok 11 - strategic state overlays use unique visual treatments
+  ---
+  duration_ms: 32.8173
+  type: 'test'
+  ...
+1..11
+# tests 11
+# suites 0
+# pass 11
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 970.6849
+
+Finished: 2026-07-30T08:27:56.551Z
+Exit code: 0

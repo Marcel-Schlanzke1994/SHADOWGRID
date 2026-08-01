@@ -170,35 +170,49 @@
       "path": "apps/web/public/assets/cities/city-duesseldorf-mobile-night-v1-1152.png",
       "bytes": 3578522,
       "sha256": "72537e6e80c7dca0894e16c43e1e5d5a74720e3fab8728af191ce2beb97bb1df"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-duesseldorf-mobile-night-v1.webp",
+      "bytes": 10396,
+      "sha256": "9a09a8565b5906010a86bb264a0bdb5f95ccf4110de4286e631bcfcfe727683b"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-duesseldorf-mobile-night-v1.webp",
+      "bytes": 10396,
+      "sha256": "9a09a8565b5906010a86bb264a0bdb5f95ccf4110de4286e631bcfcfe727683b"
     }
   ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,
   "moderation_status": "approved",
-  "quality_score": 99.3,
+  "quality_score": 92.9,
   "quality_status": "approved",
   "review_status": "codex-visual-approved",
   "visual_review": {
-    "realism": 99,
-    "style_consistency": 100,
-    "composition": 100,
-    "material_quality": 99,
-    "lighting_quality": 99,
-    "architecture_plausibility": 99,
-    "ui_suitability": 100,
-    "mobile_suitability": 100,
-    "originality": 97,
-    "safety_compliance": 100,
-    "accepted_prompt": "Create the coordinated 9:16 portrait mobile night counterpart for this accepted fictional Düsseldorf-inspired SHADOWGRID daytime mobile hero.\n\nPreserve the exact portrait camera and geometry: broad fictional river, original low-profile bridge, landscaped promenade, small original canal basin, refined pale-stone service blocks, restrained mid-rise glass-and-metal offices, neutral flat-roofed distant skyline, upper 32% calm low-detail status/title zone, middle-third city decision area, and bottom 18% calm dark open-water primary-control zone. Keep it clearly the same original city composition. Do not reveal or invent any operational river, canal, bridge, street, rail, corporate, media, fashion, fairground, or civic layout.\n\nTransform the scene to physically plausible post-rain night: deep anthracite and cool blue-gray clouds, restrained irregular warm-neutral office windows, subtle promenade and bridge practical lights, readable midtone pale stone and metal, wet paving and water reflections, realistic dark river and canal water, premium contemporary architectural photography, realistic lens and depth, and a quiet corporate-thriller mood. Keep the upper 32% calm and low-detail without bright cloud breaks, lamps, signs, or skyline intrusions. Keep the bottom 18% dark calm open water without bright reflections or objects. Avoid fashion-show lighting, media screens, billboard-like facade panels, patterned facade lighting, saturated neon, overexposure, emergency light, warning-red gameplay cues, black crush, excessive haze, or spectacle.\n\nDo not add the Rheinturm, recognizable MedienHafen or Gehry buildings, Königsallee, Kö-Bogen, Schlossturm, Düsseldorf Rathaus, Oberkasseler Brücke, Rheinkniebrücke, Theodor-Heuss-Brücke, churches, cathedral spires, monuments, civic towers, antenna landmarks, real fashion houses, real trade-fair structures, corporate logos, exact Rhine promenade layouts, real rail maps, or any known photograph or viewpoint. Do not add an identifiable real media company, luxury brand, authority, or operational transport plan.\n\nNo text, letters, numbers, signs, captions, interface, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, politicians, crowds, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, routes, instructions, fantasy architecture, impossible bridges, Gehry-like distorted buildings, excessive neon, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic fictional 9:16 night riverfront-services-metropolis environment, intended final size 1152×2048, with no border, title, UI, or device mockup.",
-    "reference_images": [
-      "assets/source/cities/city-duesseldorf-mobile-day-v1.png"
-    ],
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.328Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
     "notes": [
-      "Accepted first night-conversion attempt.",
-      "The exact portrait camera, original bridge, promenade, canal basin, services district, neutral skyline, and mobile information hierarchy remain coordinated with the approved daytime counterpart.",
-      "The upper status/title zone remains fully calm and dark; the lower primary-control zone remains predominantly dark open water with only sparse physically plausible subdued reflections.",
-      "No known Düsseldorf landmark, religious or civic silhouette, real brand or authority, operational layout, embedded text, identifiable person, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
     ]
   },
   "technical_validation": {

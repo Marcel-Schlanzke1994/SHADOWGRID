@@ -22,7 +22,7 @@ function Ensure-Setup {
         Invoke-Step 'Create Python virtual environment' { python -m venv "$projectRoot\.venv" }
     }
     Invoke-Step 'Install Python dependencies' { & $venvPython -m pip install --disable-pip-version-check -r "$projectRoot\apps\api\requirements-dev.txt" }
-    Invoke-Step 'Install workspace dependencies' { pnpm install --frozen-lockfile=$false }
+    Invoke-Step 'Install workspace dependencies' { pnpm install --no-frozen-lockfile }
     Invoke-Step 'Generate local secrets' { & $venvPython "$PSScriptRoot\generate-local-secrets.py" }
 }
 
@@ -73,6 +73,7 @@ switch ($Action) {
         Ensure-Setup
         Invoke-Step 'Migration' { pnpm migrate }
         Invoke-Step 'Seed' { pnpm seed }
+        Invoke-Step 'Data integrity' { pnpm data:verify }
         Invoke-Step 'Generate API client' { pnpm api:generate }
         Invoke-Step 'Localization' { pnpm i18n:validate }
         Invoke-Step 'Formatting' { pnpm format:check }

@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-augsburg-ultrawide-day-v1",
+  "manifest_order": 251,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "augsburg",
+  "variant": "ultrawide-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-augsburg-ultrawide-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100251,
+  "content_hash": "9caf0b4c3b2813dc0b7558846cd239f1d33fc403c6a053ae376b9651e931ae52",
+  "source_file": "assets/source/cities/city-augsburg-ultrawide-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-augsburg-ultrawide-day-v1-320.avif",
+      "bytes": 2671,
+      "sha256": "18adb165668e6d485561f7a9902cdcee78cdf36d10cd1477361414055a87d02b"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-ultrawide-day-v1-320.webp",
+      "bytes": 2392,
+      "sha256": "3979560601e03037953ec230527c8d9e490222ebdd414d2dacd17e8dc75b560b"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-ultrawide-day-v1-640.avif",
+      "bytes": 5011,
+      "sha256": "5f6744c36794dab92de665c2771155a9a8e1348a39515ec65efc7eba351603ac"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-ultrawide-day-v1-640.webp",
+      "bytes": 4638,
+      "sha256": "6e515674db42a3d1686da8d6c746e17548236dd52847e06242d8cde75aef2bb5"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-ultrawide-day-v1-960.avif",
+      "bytes": 9039,
+      "sha256": "aece7bdf51f0cea863a69d19df71e10373826c63248f6f07b8d299e6278cb5fb"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-ultrawide-day-v1-960.webp",
+      "bytes": 7668,
+      "sha256": "0e0e2362633b3dccc62ef99c4cd62c204a7506305c37d9d720c086f9ae8f133e"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-ultrawide-day-v1-1280.avif",
+      "bytes": 11834,
+      "sha256": "9cca81c14a017bb81c2977b99c5724cbb6d2f844a7171099cf7be7cbb0efb9ec"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-ultrawide-day-v1-1280.webp",
+      "bytes": 10144,
+      "sha256": "a091aadea20e6e7faa64c375ca399841f62abde0c523d3ec2496a61dad43f4b6"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-ultrawide-day-v1-1920.avif",
+      "bytes": 18196,
+      "sha256": "614c5e54399275fe17adc3dce7e5ae72a92c9bae11c0ad6c203a74d3ff89af4b"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-ultrawide-day-v1-1920.webp",
+      "bytes": 15546,
+      "sha256": "c7aa26b4d15e028331b5cfa6f010ae326954fa365fc31c6149d4fa9133c5ecb2"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-ultrawide-day-v1-2560.avif",
+      "bytes": 24826,
+      "sha256": "a9eb68332139e485b2c9cc53243209515c3c38d5327f12c7a4dab92f8682c3ab"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-ultrawide-day-v1-2560.webp",
+      "bytes": 21298,
+      "sha256": "006885be9fa542899dfccead1371b2ebb381ef36bb3a4fcbd442ce1faf6be798"
+    },
+    {
+      "path": "assets/production/avif/city-augsburg-ultrawide-day-v1-3840.avif",
+      "bytes": 39134,
+      "sha256": "049f12c642fad2c8da04016413f76e57da74282458bc09909c67f219f43794e2"
+    },
+    {
+      "path": "assets/production/webp/city-augsburg-ultrawide-day-v1-3840.webp",
+      "bytes": 36402,
+      "sha256": "bb5afc97b3ee6d91fd5bb32454355e63a099899409871a8a01f42576dbe5fc8c"
+    },
+    {
+      "path": "assets/production/png/city-augsburg-ultrawide-day-v1-1280.png",
+      "bytes": 401231,
+      "sha256": "f38667b15f4c39428a7930590328c407be01026f05599267f95e2ac157307ff0"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-ultrawide-day-v1-320.avif",
+      "bytes": 2671,
+      "sha256": "18adb165668e6d485561f7a9902cdcee78cdf36d10cd1477361414055a87d02b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-ultrawide-day-v1-320.webp",
+      "bytes": 2392,
+      "sha256": "3979560601e03037953ec230527c8d9e490222ebdd414d2dacd17e8dc75b560b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-ultrawide-day-v1-640.avif",
+      "bytes": 5011,
+      "sha256": "5f6744c36794dab92de665c2771155a9a8e1348a39515ec65efc7eba351603ac"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-ultrawide-day-v1-640.webp",
+      "bytes": 4638,
+      "sha256": "6e515674db42a3d1686da8d6c746e17548236dd52847e06242d8cde75aef2bb5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-ultrawide-day-v1-960.avif",
+      "bytes": 9039,
+      "sha256": "aece7bdf51f0cea863a69d19df71e10373826c63248f6f07b8d299e6278cb5fb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-ultrawide-day-v1-960.webp",
+      "bytes": 7668,
+      "sha256": "0e0e2362633b3dccc62ef99c4cd62c204a7506305c37d9d720c086f9ae8f133e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-ultrawide-day-v1-1280.avif",
+      "bytes": 11834,
+      "sha256": "9cca81c14a017bb81c2977b99c5724cbb6d2f844a7171099cf7be7cbb0efb9ec"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-ultrawide-day-v1-1280.webp",
+      "bytes": 10144,
+      "sha256": "a091aadea20e6e7faa64c375ca399841f62abde0c523d3ec2496a61dad43f4b6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-ultrawide-day-v1-1920.avif",
+      "bytes": 18196,
+      "sha256": "614c5e54399275fe17adc3dce7e5ae72a92c9bae11c0ad6c203a74d3ff89af4b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-ultrawide-day-v1-1920.webp",
+      "bytes": 15546,
+      "sha256": "c7aa26b4d15e028331b5cfa6f010ae326954fa365fc31c6149d4fa9133c5ecb2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-ultrawide-day-v1-2560.avif",
+      "bytes": 24826,
+      "sha256": "a9eb68332139e485b2c9cc53243209515c3c38d5327f12c7a4dab92f8682c3ab"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-ultrawide-day-v1-2560.webp",
+      "bytes": 21298,
+      "sha256": "006885be9fa542899dfccead1371b2ebb381ef36bb3a4fcbd442ce1faf6be798"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-ultrawide-day-v1-3840.avif",
+      "bytes": 39134,
+      "sha256": "049f12c642fad2c8da04016413f76e57da74282458bc09909c67f219f43794e2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-ultrawide-day-v1-3840.webp",
+      "bytes": 36402,
+      "sha256": "bb5afc97b3ee6d91fd5bb32454355e63a099899409871a8a01f42576dbe5fc8c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-augsburg-ultrawide-day-v1-1280.png",
+      "bytes": 401231,
+      "sha256": "f38667b15f4c39428a7930590328c407be01026f05599267f95e2ac157307ff0"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-augsburg-ultrawide-day-v1.webp",
+      "bytes": 2392,
+      "sha256": "3979560601e03037953ec230527c8d9e490222ebdd414d2dacd17e8dc75b560b"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-augsburg-ultrawide-day-v1.webp",
+      "bytes": 2392,
+      "sha256": "3979560601e03037953ec230527c8d9e490222ebdd414d2dacd17e8dc75b560b"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.611Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 2064024
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:35:26.007Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

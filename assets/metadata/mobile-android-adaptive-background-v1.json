@@ -1,0 +1,171 @@
+{
+  "asset_id": "mobile-android-adaptive-background-v1",
+  "manifest_order": 858,
+  "category": "mobile",
+  "batch": "mobile",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/mobile-android-adaptive-background-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100858,
+  "content_hash": "0d15ae49b22e8c9021cf387d937bcb11023732c1a9fb7ca476401fa01eeac15f",
+  "source_file": "assets/source/marketing/mobile-android-adaptive-background-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/mobile-android-adaptive-background-v1-320.avif",
+      "bytes": 5185,
+      "sha256": "e15ef77bcfbfd518c04b78a86eb4205a2e350ea50d1db64a3da653355e83ca0d"
+    },
+    {
+      "path": "assets/production/webp/mobile-android-adaptive-background-v1-320.webp",
+      "bytes": 4412,
+      "sha256": "18857a1d8421a04d3b4349093f9df53e5d937b0430b50afde988f7a31aa40a6a"
+    },
+    {
+      "path": "assets/production/avif/mobile-android-adaptive-background-v1-640.avif",
+      "bytes": 11273,
+      "sha256": "aa21cb470d7f64428f54972297fffb839f5033c17543d75cfd96fdc5c5d14c89"
+    },
+    {
+      "path": "assets/production/webp/mobile-android-adaptive-background-v1-640.webp",
+      "bytes": 8540,
+      "sha256": "398a2ecd4c3a13887bccd64d89b7b409f24639fa491e351956b8cda5a7619056"
+    },
+    {
+      "path": "assets/production/avif/mobile-android-adaptive-background-v1-960.avif",
+      "bytes": 19351,
+      "sha256": "eef6773db94f0ee60780debfaeaf99fea460cfdcdd574a04e5c5e6cc10402b07"
+    },
+    {
+      "path": "assets/production/webp/mobile-android-adaptive-background-v1-960.webp",
+      "bytes": 14598,
+      "sha256": "a14d6fdf383bb78be1244bb57d3b9b73e3b403c2fc4498bcfe1ba11f6809c28d"
+    },
+    {
+      "path": "assets/production/avif/mobile-android-adaptive-background-v1-1280.avif",
+      "bytes": 26077,
+      "sha256": "a7233a1fcb86927c74c1631968b80bd29f3cdc38eabe6d1f0d208e7eeba114e9"
+    },
+    {
+      "path": "assets/production/webp/mobile-android-adaptive-background-v1-1280.webp",
+      "bytes": 20650,
+      "sha256": "79a7b7450d8c3a0636699d16499c78df7b3e0804a5d644090074619e4f3bb5b5"
+    },
+    {
+      "path": "assets/production/avif/mobile-android-adaptive-background-v1-1920.avif",
+      "bytes": 41744,
+      "sha256": "3bc061d300f4fde46b8ae7fa830a809923839625fdc3f9cd4f035c2356fa8e3c"
+    },
+    {
+      "path": "assets/production/webp/mobile-android-adaptive-background-v1-1920.webp",
+      "bytes": 36674,
+      "sha256": "823e2a4236e61c77a73ba68f3a29756b90c076da4c47af53c649b8b9be40459a"
+    },
+    {
+      "path": "assets/production/avif/mobile-android-adaptive-background-v1-2560.avif",
+      "bytes": 62353,
+      "sha256": "8ba7cccc3a466f7712c91e848e13c9d259828fc4e2d4521504f71a8030b04570"
+    },
+    {
+      "path": "assets/production/webp/mobile-android-adaptive-background-v1-2560.webp",
+      "bytes": 57570,
+      "sha256": "267f906cb399e818388258095db8638dff47af4ec79df8c2ea3e8dfb88ff29fb"
+    },
+    {
+      "path": "assets/production/avif/mobile-android-adaptive-background-v1-3840.avif",
+      "bytes": 107816,
+      "sha256": "ae19ecfb503dc9244874f4e0ef16dba98866d546994b8b2e0946220ab5148a12"
+    },
+    {
+      "path": "assets/production/webp/mobile-android-adaptive-background-v1-3840.webp",
+      "bytes": 108636,
+      "sha256": "719da3bb7d444f652c3512a0a757ec92139227d7ca1a71f59a066226f95649b1"
+    },
+    {
+      "path": "assets/production/png/mobile-android-adaptive-background-v1-1152.png",
+      "bytes": 1713765,
+      "sha256": "0d15ae49b22e8c9021cf387d937bcb11023732c1a9fb7ca476401fa01eeac15f"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/mobile-android-adaptive-background-v1.webp",
+      "bytes": 4412,
+      "sha256": "18857a1d8421a04d3b4349093f9df53e5d937b0430b50afde988f7a31aa40a6a"
+    },
+    {
+      "path": "apps/mobile/assets/library/mobile-android-adaptive-background-v1.webp",
+      "bytes": 4412,
+      "sha256": "18857a1d8421a04d3b4349093f9df53e5d937b0430b50afde988f7a31aa40a6a"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 94.4,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:37.192Z",
+    "scores": {
+      "realism": 90,
+      "style_consistency": 97,
+      "composition": 95,
+      "material_quality": 91,
+      "light_quality": 93,
+      "architecture_plausibility": 91,
+      "ui_suitability": 97,
+      "mobile_suitability": 98,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 96,
+      "contrast": 96,
+      "geometry_quality": 96,
+      "technical_quality": 98
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution, including transparent adaptive and monochrome assets.",
+      "The apparently empty monochrome contact-sheet cell was separately inspected and confirmed as a valid transparent single-color platform glyph.",
+      "Safe areas, contrast, transparency, and small-size behavior are suitable for the intended mobile placements."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1713765
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:42:40.260Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

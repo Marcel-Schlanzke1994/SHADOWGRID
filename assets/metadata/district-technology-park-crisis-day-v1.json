@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-technology-park-crisis-day-v1",
+  "manifest_order": 403,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "crisis-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-technology-park-crisis-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100403,
+  "content_hash": "9e097260b7e7a73de723eac67ff6e8898b934fe626c1fedea6d7a80953b0396d",
+  "source_file": "assets/source/districts/district-technology-park-crisis-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-technology-park-crisis-day-v1-320.avif",
+      "bytes": 2893,
+      "sha256": "751c2b35668e2b105da3cda29641d86e7260fb81af6ab7cd5cfe245b0d7ac840"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-crisis-day-v1-320.webp",
+      "bytes": 2534,
+      "sha256": "136cf87638ebbb8218b8e433b2ac6b4ea086f608ca496610fb48a2a187ccf690"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-crisis-day-v1-640.avif",
+      "bytes": 6692,
+      "sha256": "ff439391be7ff377e70c9175e5d04fb4dc111366e6464be9e79efe3e1cc38fb7"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-crisis-day-v1-640.webp",
+      "bytes": 5410,
+      "sha256": "99973974c9683c2b02a183ed8b2bf5bf76fa1e80a96b06bb2ef38878656d4a26"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-crisis-day-v1-960.avif",
+      "bytes": 10765,
+      "sha256": "7fa22f9fad62f5d9c2cacf91dc7e42420532b25708a880a2d6c3c88edae79969"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-crisis-day-v1-960.webp",
+      "bytes": 8714,
+      "sha256": "bba2dd1616a9dcd2497de1540a105d8bbd068a47a455022bd2d00cf2ccacb931"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-crisis-day-v1-1280.avif",
+      "bytes": 15434,
+      "sha256": "2e6614e731e068ac7c6da94baab3b5c03147fd30bbc11c0bc94eabda53b5edcc"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-crisis-day-v1-1280.webp",
+      "bytes": 11778,
+      "sha256": "320a9a74b265a9d5cb110f2e0995f327ac9efd6c449a8c9f7aeddd4d7dbd6e84"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-crisis-day-v1-1920.avif",
+      "bytes": 22795,
+      "sha256": "275a0ec2aadc469177a9cd6bb23fe73d9fc707cea9929534057b60f9ac309769"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-crisis-day-v1-1920.webp",
+      "bytes": 18742,
+      "sha256": "7b83baad6026452a29dd6c960201e26eb63b9f35be4f5503629ed834023ffb2d"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-crisis-day-v1-2560.avif",
+      "bytes": 30472,
+      "sha256": "bc20bb56c56fa882f5643d7875cfad07ccb062f6b3d4f66c03ff942505af894e"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-crisis-day-v1-2560.webp",
+      "bytes": 26208,
+      "sha256": "f8140e3daf13d5528dd18634454917246de6ff4954f3c5dc7a96641c404ed304"
+    },
+    {
+      "path": "assets/production/avif/district-technology-park-crisis-day-v1-3840.avif",
+      "bytes": 50370,
+      "sha256": "182f49bd5abed2125e3bb53dc428a610178764c500d6cc4532b29c179a9fab5e"
+    },
+    {
+      "path": "assets/production/webp/district-technology-park-crisis-day-v1-3840.webp",
+      "bytes": 45066,
+      "sha256": "da3ec5db28ca1b549785d282f5409f75fe7e44211717fd761b5a26d1805247f0"
+    },
+    {
+      "path": "assets/production/png/district-technology-park-crisis-day-v1-1280.png",
+      "bytes": 632348,
+      "sha256": "ce1fdc072523268d32a94ae83b399a93832e98c76dad8c5dc8b7870619209726"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-technology-park-crisis-day-v1.webp",
+      "bytes": 2534,
+      "sha256": "136cf87638ebbb8218b8e433b2ac6b4ea086f608ca496610fb48a2a187ccf690"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-technology-park-crisis-day-v1.webp",
+      "bytes": 2534,
+      "sha256": "136cf87638ebbb8218b8e433b2ac6b4ea086f608ca496610fb48a2a187ccf690"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.821Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1429691
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:32:25.061Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

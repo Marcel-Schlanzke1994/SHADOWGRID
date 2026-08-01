@@ -1,0 +1,124 @@
+{
+  "schema": "shadowgrid/contact-sheet-pages/v1",
+  "batch": "cartel-crests",
+  "generated_at": "2026-07-30T06:18:51.955Z",
+  "asset_count": 85,
+  "page_size": 18,
+  "pages": [
+    {
+      "page": 1,
+      "path": "assets/reports/contact-sheets/cartel-crests-pages/page-001.png",
+      "assets": [
+        "crest-shape-01-v1",
+        "crest-shape-02-v1",
+        "crest-shape-03-v1",
+        "crest-shape-04-v1",
+        "crest-shape-05-v1",
+        "crest-shape-06-v1",
+        "crest-shape-07-v1",
+        "crest-shape-08-v1",
+        "crest-shape-09-v1",
+        "crest-shape-10-v1",
+        "crest-shape-11-v1",
+        "crest-shape-12-v1",
+        "crest-shape-13-v1",
+        "crest-shape-14-v1",
+        "crest-shape-15-v1",
+        "crest-shape-16-v1",
+        "crest-shape-17-v1",
+        "crest-shape-18-v1"
+      ]
+    },
+    {
+      "page": 2,
+      "path": "assets/reports/contact-sheets/cartel-crests-pages/page-002.png",
+      "assets": [
+        "crest-shape-19-v1",
+        "crest-shape-20-v1",
+        "crest-symbol-01-v1",
+        "crest-symbol-02-v1",
+        "crest-symbol-03-v1",
+        "crest-symbol-04-v1",
+        "crest-symbol-05-v1",
+        "crest-symbol-06-v1",
+        "crest-symbol-07-v1",
+        "crest-symbol-08-v1",
+        "crest-symbol-09-v1",
+        "crest-symbol-10-v1",
+        "crest-symbol-11-v1",
+        "crest-symbol-12-v1",
+        "crest-symbol-13-v1",
+        "crest-symbol-14-v1",
+        "crest-symbol-15-v1",
+        "crest-symbol-16-v1"
+      ]
+    },
+    {
+      "page": 3,
+      "path": "assets/reports/contact-sheets/cartel-crests-pages/page-003.png",
+      "assets": [
+        "crest-symbol-17-v1",
+        "crest-symbol-18-v1",
+        "crest-symbol-19-v1",
+        "crest-symbol-20-v1",
+        "crest-symbol-21-v1",
+        "crest-symbol-22-v1",
+        "crest-symbol-23-v1",
+        "crest-symbol-24-v1",
+        "crest-symbol-25-v1",
+        "crest-symbol-26-v1",
+        "crest-symbol-27-v1",
+        "crest-symbol-28-v1",
+        "crest-symbol-29-v1",
+        "crest-symbol-30-v1",
+        "crest-symbol-31-v1",
+        "crest-symbol-32-v1",
+        "crest-symbol-33-v1",
+        "crest-symbol-34-v1"
+      ]
+    },
+    {
+      "page": 4,
+      "path": "assets/reports/contact-sheets/cartel-crests-pages/page-004.png",
+      "assets": [
+        "crest-symbol-35-v1",
+        "crest-symbol-36-v1",
+        "crest-symbol-37-v1",
+        "crest-symbol-38-v1",
+        "crest-symbol-39-v1",
+        "crest-symbol-40-v1",
+        "crest-pattern-01-v1",
+        "crest-pattern-02-v1",
+        "crest-pattern-03-v1",
+        "crest-pattern-04-v1",
+        "crest-pattern-05-v1",
+        "crest-pattern-06-v1",
+        "crest-pattern-07-v1",
+        "crest-pattern-08-v1",
+        "crest-pattern-09-v1",
+        "crest-pattern-10-v1",
+        "crest-pattern-11-v1",
+        "crest-pattern-12-v1"
+      ]
+    },
+    {
+      "page": 5,
+      "path": "assets/reports/contact-sheets/cartel-crests-pages/page-005.png",
+      "assets": [
+        "crest-frame-01-v1",
+        "crest-frame-02-v1",
+        "crest-frame-03-v1",
+        "crest-frame-04-v1",
+        "crest-frame-05-v1",
+        "crest-frame-06-v1",
+        "crest-frame-07-v1",
+        "crest-frame-08-v1",
+        "crest-frame-09-v1",
+        "crest-frame-10-v1",
+        "crest-frame-11-v1",
+        "crest-frame-12-v1",
+        "crest-test-random-combinations-100-v1"
+      ]
+    }
+  ]
+}

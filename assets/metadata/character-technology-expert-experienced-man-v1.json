@@ -1,0 +1,171 @@
+{
+  "asset_id": "character-technology-expert-experienced-man-v1",
+  "manifest_order": 566,
+  "category": "character",
+  "batch": "specialists",
+  "city": null,
+  "variant": "experienced-man",
+  "gameplay_state": "normal",
+  "aspect_ratio": "4:5",
+  "width": 1280,
+  "height": 1600,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/character-technology-expert-experienced-man-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100566,
+  "content_hash": "ade61b89c0d7141218e76eca1ab4f16d4f806e3053665d87ef38003a3bbbd663",
+  "source_file": "assets/source/characters/character-technology-expert-experienced-man-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/character-technology-expert-experienced-man-v1-320.avif",
+      "bytes": 2888,
+      "sha256": "717d11f895262390dea6dea196331b245062ded4fb00e5e9c433f405bc9277dc"
+    },
+    {
+      "path": "assets/production/webp/character-technology-expert-experienced-man-v1-320.webp",
+      "bytes": 2160,
+      "sha256": "44c62a0a30616b642e1315ea72d0a0758c775e0e5386cddb34dd128063ab6f63"
+    },
+    {
+      "path": "assets/production/avif/character-technology-expert-experienced-man-v1-640.avif",
+      "bytes": 6244,
+      "sha256": "56b8e36ca7738d1a6fe7d7d1ec8a0506047d3278274ceb0a0f1d3082f5077f30"
+    },
+    {
+      "path": "assets/production/webp/character-technology-expert-experienced-man-v1-640.webp",
+      "bytes": 5108,
+      "sha256": "cf82e6b8c9d55b934fcfa4372c622ac4874f3a924d9ef6d5d6b45c9be35e0a0a"
+    },
+    {
+      "path": "assets/production/avif/character-technology-expert-experienced-man-v1-960.avif",
+      "bytes": 13237,
+      "sha256": "2c390a4b2346650e2177c00815b33f1629380445f7bd1207dd18dfc1462e8e77"
+    },
+    {
+      "path": "assets/production/webp/character-technology-expert-experienced-man-v1-960.webp",
+      "bytes": 9552,
+      "sha256": "de40f9a4045cc8cb50ea7a635286b3b397c4e4f0105c3458286fd33f6190c676"
+    },
+    {
+      "path": "assets/production/avif/character-technology-expert-experienced-man-v1-1280.avif",
+      "bytes": 19430,
+      "sha256": "2e1c697c6474500922d7d4d6043843302c37da8256ae4f5b6a9b9286873be91c"
+    },
+    {
+      "path": "assets/production/webp/character-technology-expert-experienced-man-v1-1280.webp",
+      "bytes": 14532,
+      "sha256": "d4088157acb091bb74c92d7ce7051ea59f3db377e124f52d2fb504aac746b350"
+    },
+    {
+      "path": "assets/production/avif/character-technology-expert-experienced-man-v1-1920.avif",
+      "bytes": 30817,
+      "sha256": "24a85a7941fe2cbcea71b3c39553c5dd3a660b204ab440876e83835db39d5393"
+    },
+    {
+      "path": "assets/production/webp/character-technology-expert-experienced-man-v1-1920.webp",
+      "bytes": 24656,
+      "sha256": "354c6d6db9a94ddf7932f544b8ef5b24cacc73ee0ec1c3b8006e42dae6c34654"
+    },
+    {
+      "path": "assets/production/avif/character-technology-expert-experienced-man-v1-2560.avif",
+      "bytes": 44301,
+      "sha256": "6b0d1dd642025fe80cd6a2b576b2931057b1178de964eab89f389071f760325c"
+    },
+    {
+      "path": "assets/production/webp/character-technology-expert-experienced-man-v1-2560.webp",
+      "bytes": 37280,
+      "sha256": "1f26bb134d89a42241b18679d0b7838ac898297f1923bdb858998e5d525a595a"
+    },
+    {
+      "path": "assets/production/avif/character-technology-expert-experienced-man-v1-3840.avif",
+      "bytes": 73996,
+      "sha256": "aee6d80149c3e27ef882f12f8e4b5bd68ed7015917e14665e0f1bf72c6ba4be2"
+    },
+    {
+      "path": "assets/production/webp/character-technology-expert-experienced-man-v1-3840.webp",
+      "bytes": 70408,
+      "sha256": "f1c73b4d49bb1d7229b864020499d5d447e93215912f71293a94bb0b69c0e4df"
+    },
+    {
+      "path": "assets/production/png/character-technology-expert-experienced-man-v1-1280.png",
+      "bytes": 206144,
+      "sha256": "ade61b89c0d7141218e76eca1ab4f16d4f806e3053665d87ef38003a3bbbd663"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/character-technology-expert-experienced-man-v1.webp",
+      "bytes": 2160,
+      "sha256": "44c62a0a30616b642e1315ea72d0a0758c775e0e5386cddb34dd128063ab6f63"
+    },
+    {
+      "path": "apps/mobile/assets/library/character-technology-expert-experienced-man-v1.webp",
+      "bytes": 2160,
+      "sha256": "44c62a0a30616b642e1315ea72d0a0758c775e0e5386cddb34dd128063ab6f63"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:37.534Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1280,
+      "height": 1600,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 206144
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:21:44.177Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

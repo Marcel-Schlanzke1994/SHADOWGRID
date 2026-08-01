@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-outer-district-commerce-ring-authority-activity-day-v1",
+  "manifest_order": 461,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "authority-activity-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-outer-district-commerce-ring-authority-activity-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100461,
+  "content_hash": "96576de1c8395b9233441a15edfca3654df0e3d03ed6256032fe8479bad81ba3",
+  "source_file": "assets/source/districts/district-outer-district-commerce-ring-authority-activity-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-authority-activity-day-v1-320.avif",
+      "bytes": 3105,
+      "sha256": "98391fdbaffa650d8bda8b3a1b17ff7712249efecd4e1a84f9d6652bf6dde171"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-authority-activity-day-v1-320.webp",
+      "bytes": 2782,
+      "sha256": "cf44e31211abb61fabb15a85b1af453a7e41b269ecf40a0c14e2db7f2f7f55a8"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-authority-activity-day-v1-640.avif",
+      "bytes": 6662,
+      "sha256": "6f5d89168c4429394d98dce7e9412dc4bca0571fddeffdb2f4c464af7d3f4067"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-authority-activity-day-v1-640.webp",
+      "bytes": 5582,
+      "sha256": "169e304d4b56afb943a6f776a0b3f33357a6d04aa4da1e4e6d9411fa9d7576ba"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-authority-activity-day-v1-960.avif",
+      "bytes": 11221,
+      "sha256": "474ae8f34757cbe27a4a0898d53ec77f37c0af87c998b46ddfca9af5685b1086"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-authority-activity-day-v1-960.webp",
+      "bytes": 9082,
+      "sha256": "29abb0a6ee1b732a21e6f841c743665467eb0f66b37c48ff09e94857b804523c"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-authority-activity-day-v1-1280.avif",
+      "bytes": 15799,
+      "sha256": "8efb2b26e9235ecb4c27a05a98f83d435879333a5a421a6d505149204bc1715b"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-authority-activity-day-v1-1280.webp",
+      "bytes": 12072,
+      "sha256": "b273c97122180081bad1055d08f83a5bc375d1dc98ffa18697f318e7b5e1644c"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-authority-activity-day-v1-1920.avif",
+      "bytes": 23729,
+      "sha256": "3bda177cb7d9bf8070267b6db452f22e5d77bed19a5ba63f8f8bcccdbd89fa2f"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-authority-activity-day-v1-1920.webp",
+      "bytes": 18774,
+      "sha256": "e4730a7eec3e9d819db6250f27a4ac73c08a6aa95c45948a20354380d7235da1"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-authority-activity-day-v1-2560.avif",
+      "bytes": 31630,
+      "sha256": "31bab8ea5cfa5a152e81a661c5f4d0fb57965c1eeae426fc8e7556ee20ade539"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-authority-activity-day-v1-2560.webp",
+      "bytes": 26202,
+      "sha256": "8ffb168bd2042f0304f93bbb32472841657d514acd215800fe712b90b9849bed"
+    },
+    {
+      "path": "assets/production/avif/district-outer-district-commerce-ring-authority-activity-day-v1-3840.avif",
+      "bytes": 51626,
+      "sha256": "dc36c73dd2137f054ed50344eddb48806520b04978f54b47133a1df6c36f7d09"
+    },
+    {
+      "path": "assets/production/webp/district-outer-district-commerce-ring-authority-activity-day-v1-3840.webp",
+      "bytes": 44568,
+      "sha256": "7ad70829501c835503321f06240126061b2681191d6a6f95d36eec72cce80611"
+    },
+    {
+      "path": "assets/production/png/district-outer-district-commerce-ring-authority-activity-day-v1-1280.png",
+      "bytes": 648293,
+      "sha256": "50df212917086578da94031feb7fdd1b04d9fb93e62752426b15cb00e17046fb"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-outer-district-commerce-ring-authority-activity-day-v1.webp",
+      "bytes": 2782,
+      "sha256": "cf44e31211abb61fabb15a85b1af453a7e41b269ecf40a0c14e2db7f2f7f55a8"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-outer-district-commerce-ring-authority-activity-day-v1.webp",
+      "bytes": 2782,
+      "sha256": "cf44e31211abb61fabb15a85b1af453a7e41b269ecf40a0c14e2db7f2f7f55a8"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.500Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1451270
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:51:16.307Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

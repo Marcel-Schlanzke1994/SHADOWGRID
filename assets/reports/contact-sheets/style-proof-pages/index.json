@@ -1,0 +1,20 @@
+{
+  "schema": "shadowgrid/contact-sheet-pages/v1",
+  "batch": "style-proof",
+  "generated_at": "2026-07-30T05:53:29.152Z",
+  "asset_count": 5,
+  "page_size": 18,
+  "pages": [
+    {
+      "page": 1,
+      "path": "assets/reports/contact-sheets/style-proof-pages/page-001.png",
+      "assets": [
+        "style-proof-urban-control-center-day-v1",
+        "style-proof-urban-control-center-night-v1",
+        "style-proof-german-metropolis-day-v1",
+        "style-proof-german-metropolis-night-v1",
+        "style-proof-corporate-headquarters-v1"
+      ]
+    }
+  ]
+}

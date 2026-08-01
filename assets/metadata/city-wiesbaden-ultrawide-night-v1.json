@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-wiesbaden-ultrawide-night-v1",
+  "manifest_order": 260,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "wiesbaden",
+  "variant": "ultrawide-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "21:9",
+  "width": 2688,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-wiesbaden-ultrawide-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100260,
+  "content_hash": "ca567b2a6e40234e0c4c8970e08e4e9009baf21a65c046581d30cfb581eb113e",
+  "source_file": "assets/source/cities/city-wiesbaden-ultrawide-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-wiesbaden-ultrawide-night-v1-320.avif",
+      "bytes": 3231,
+      "sha256": "87cade5fb74691689dab0d9a860d1b1050af8ff67a9041213606cba0b83f78ec"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-ultrawide-night-v1-320.webp",
+      "bytes": 3240,
+      "sha256": "2eff209df8bb8a54a71195f0179a331f2e79b15c3a00dc637cd5fcf3e87a6fe2"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-ultrawide-night-v1-640.avif",
+      "bytes": 6703,
+      "sha256": "b8733a8359ce71803856afc618ca68600bc2bd27142eb7aaa62bcf07abf1c90f"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-ultrawide-night-v1-640.webp",
+      "bytes": 7200,
+      "sha256": "81502449e7becd28d7b6f285a103721dcff9c37a211a5b41c0f8d5d6f417da00"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-ultrawide-night-v1-960.avif",
+      "bytes": 11505,
+      "sha256": "cced1224d38f531a1f24bc58ef0520d246cd8c7a5c4119118a2c83b9fc28334f"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-ultrawide-night-v1-960.webp",
+      "bytes": 12630,
+      "sha256": "89f500ed0d682b36613726248af3538c38d017531a2dbd21abcb0d9df34fe0b1"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-ultrawide-night-v1-1280.avif",
+      "bytes": 14982,
+      "sha256": "8bdb06924021c187e7e1a94fe1c69d3ac25d29d82fe21c602e6854adebbb35ca"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-ultrawide-night-v1-1280.webp",
+      "bytes": 16832,
+      "sha256": "66e3c835186cd5e24b071ae111fc86c0b0c73ea1f5c383b0eb83f466fa0ad28c"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-ultrawide-night-v1-1920.avif",
+      "bytes": 23411,
+      "sha256": "387472dd717e07b58073ec6564560810955f44244ceca6fcb1064328345c8d01"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-ultrawide-night-v1-1920.webp",
+      "bytes": 25416,
+      "sha256": "77d630424579756c1dca06272a393e6dc8d39f77c24d094f78de534643e6d92b"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-ultrawide-night-v1-2560.avif",
+      "bytes": 32053,
+      "sha256": "f5839703b3f568d260b59c698cd8cfe97424c4cdf316b4ed1fa83107d02e82e2"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-ultrawide-night-v1-2560.webp",
+      "bytes": 33114,
+      "sha256": "c721a4da6b68cf5953884e639905515d5a466c673ed529fc46f75c5eaf87559e"
+    },
+    {
+      "path": "assets/production/avif/city-wiesbaden-ultrawide-night-v1-3840.avif",
+      "bytes": 50759,
+      "sha256": "6960db8a87262714314dae66cda679041d857f48872f887ac720b3b6cd998d36"
+    },
+    {
+      "path": "assets/production/webp/city-wiesbaden-ultrawide-night-v1-3840.webp",
+      "bytes": 50306,
+      "sha256": "aba07d314f5f0cb0277c117c8485cec54aae5010bd3651f011730bd4b459e28e"
+    },
+    {
+      "path": "assets/production/png/city-wiesbaden-ultrawide-night-v1-1280.png",
+      "bytes": 482093,
+      "sha256": "580a9e5f5b73f5c8fe550e01ee25e6ca067241bae5b76365011b58aee3bd9ee0"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-ultrawide-night-v1-320.avif",
+      "bytes": 3231,
+      "sha256": "87cade5fb74691689dab0d9a860d1b1050af8ff67a9041213606cba0b83f78ec"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-ultrawide-night-v1-320.webp",
+      "bytes": 3240,
+      "sha256": "2eff209df8bb8a54a71195f0179a331f2e79b15c3a00dc637cd5fcf3e87a6fe2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-ultrawide-night-v1-640.avif",
+      "bytes": 6703,
+      "sha256": "b8733a8359ce71803856afc618ca68600bc2bd27142eb7aaa62bcf07abf1c90f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-ultrawide-night-v1-640.webp",
+      "bytes": 7200,
+      "sha256": "81502449e7becd28d7b6f285a103721dcff9c37a211a5b41c0f8d5d6f417da00"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-ultrawide-night-v1-960.avif",
+      "bytes": 11505,
+      "sha256": "cced1224d38f531a1f24bc58ef0520d246cd8c7a5c4119118a2c83b9fc28334f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-ultrawide-night-v1-960.webp",
+      "bytes": 12630,
+      "sha256": "89f500ed0d682b36613726248af3538c38d017531a2dbd21abcb0d9df34fe0b1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-ultrawide-night-v1-1280.avif",
+      "bytes": 14982,
+      "sha256": "8bdb06924021c187e7e1a94fe1c69d3ac25d29d82fe21c602e6854adebbb35ca"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-ultrawide-night-v1-1280.webp",
+      "bytes": 16832,
+      "sha256": "66e3c835186cd5e24b071ae111fc86c0b0c73ea1f5c383b0eb83f466fa0ad28c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-ultrawide-night-v1-1920.avif",
+      "bytes": 23411,
+      "sha256": "387472dd717e07b58073ec6564560810955f44244ceca6fcb1064328345c8d01"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-ultrawide-night-v1-1920.webp",
+      "bytes": 25416,
+      "sha256": "77d630424579756c1dca06272a393e6dc8d39f77c24d094f78de534643e6d92b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-ultrawide-night-v1-2560.avif",
+      "bytes": 32053,
+      "sha256": "f5839703b3f568d260b59c698cd8cfe97424c4cdf316b4ed1fa83107d02e82e2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-ultrawide-night-v1-2560.webp",
+      "bytes": 33114,
+      "sha256": "c721a4da6b68cf5953884e639905515d5a466c673ed529fc46f75c5eaf87559e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-ultrawide-night-v1-3840.avif",
+      "bytes": 50759,
+      "sha256": "6960db8a87262714314dae66cda679041d857f48872f887ac720b3b6cd998d36"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-ultrawide-night-v1-3840.webp",
+      "bytes": 50306,
+      "sha256": "aba07d314f5f0cb0277c117c8485cec54aae5010bd3651f011730bd4b459e28e"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-wiesbaden-ultrawide-night-v1-1280.png",
+      "bytes": 482093,
+      "sha256": "580a9e5f5b73f5c8fe550e01ee25e6ca067241bae5b76365011b58aee3bd9ee0"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-wiesbaden-ultrawide-night-v1.webp",
+      "bytes": 3240,
+      "sha256": "2eff209df8bb8a54a71195f0179a331f2e79b15c3a00dc637cd5fcf3e87a6fe2"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-wiesbaden-ultrawide-night-v1.webp",
+      "bytes": 3240,
+      "sha256": "2eff209df8bb8a54a71195f0179a331f2e79b15c3a00dc637cd5fcf3e87a6fe2"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.712Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2688,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 2142441
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:42:07.763Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

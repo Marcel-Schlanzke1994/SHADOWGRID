@@ -1,0 +1,26 @@
+{
+  "schema": "shadowgrid-visual-review-v2",
+  "reviewer": "codex-final-visual-review",
+  "batch": "districts",
+  "scores": {
+    "realism": 89,
+    "style_consistency": 96,
+    "composition": 94,
+    "material_quality": 89,
+    "light_quality": 92,
+    "architecture_plausibility": 91,
+    "ui_suitability": 96,
+    "mobile_suitability": 94,
+    "originality": 91,
+    "safety_compliance": 100,
+    "small_size_legibility": 93,
+    "contrast": 95,
+    "geometry_quality": 94,
+    "technical_quality": 97
+  },
+  "notes": [
+    "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+    "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+    "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+  ]
+}

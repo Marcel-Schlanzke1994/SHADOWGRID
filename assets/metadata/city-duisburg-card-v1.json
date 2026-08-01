@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-duisburg-card-v1",
+  "manifest_order": 185,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "duisburg",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-duisburg-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100185,
+  "content_hash": "d302997e3c63b18b9242f42226337966f84060a14f03f123147f2cf752566d27",
+  "source_file": "assets/source/cities/city-duisburg-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-duisburg-card-v1-320.avif",
+      "bytes": 3707,
+      "sha256": "461690df57fd48d4fdfb4d305c73d57432ad2268227732bed3bb081c51c9e43d"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-card-v1-320.webp",
+      "bytes": 3598,
+      "sha256": "f008e37b8f2c79207138a65d1c7b87e3e9fa29d34d9cd9872ca7ae3ded2eb30a"
+    },
+    {
+      "path": "assets/production/avif/city-duisburg-card-v1-640.avif",
+      "bytes": 7881,
+      "sha256": "55be8e2c430ec81ba06ceabd7e8dbf6875f0df46f58293653bb292ec2d23ba11"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-card-v1-640.webp",
+      "bytes": 6728,
+      "sha256": "c722954b9bca9acfda4f12555df412635ecf3e920d1982260ee6e08b6d07fe95"
+    },
+    {
+      "path": "assets/production/avif/city-duisburg-card-v1-960.avif",
+      "bytes": 14078,
+      "sha256": "7ad228a942629b2efe6e68c5fa17fb05e9a212192af88ec8d68dc175b3c7b30a"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-card-v1-960.webp",
+      "bytes": 11110,
+      "sha256": "b524dde67c589d48ab94a46bf5a07e01d5e9a96828df44a65d63c061367bbc1f"
+    },
+    {
+      "path": "assets/production/avif/city-duisburg-card-v1-1280.avif",
+      "bytes": 19198,
+      "sha256": "8ab187e104aa7cf047fd1be616187fb911494bca9ea7e56a0bf0c35a32340c87"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-card-v1-1280.webp",
+      "bytes": 15360,
+      "sha256": "df4043a7c677af7e0216dcc23d4435a6c001cc51de6952d90c3e84038691d025"
+    },
+    {
+      "path": "assets/production/avif/city-duisburg-card-v1-1920.avif",
+      "bytes": 28933,
+      "sha256": "c7f80084359b55fe9f17a3a93483e1924a35bab6b2b0c8f9646943f07adf6344"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-card-v1-1920.webp",
+      "bytes": 25032,
+      "sha256": "17b32893765aba086a005a827b87dc1eb0989dbad54207b2ca023aa7957ec93f"
+    },
+    {
+      "path": "assets/production/avif/city-duisburg-card-v1-2560.avif",
+      "bytes": 40652,
+      "sha256": "34db0f5c74aa88c7a0f30f958fc068159b11b04305108e06097301f4f78bee3f"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-card-v1-2560.webp",
+      "bytes": 36328,
+      "sha256": "6125d115ad671eb58c73d06693b3ff91a400de93eac85a2961a92f1615a4f542"
+    },
+    {
+      "path": "assets/production/avif/city-duisburg-card-v1-3840.avif",
+      "bytes": 66532,
+      "sha256": "7dbe7bf40aa3b4fc3d1875af20b417f65f33d0ffa9ea8c1b24e972c0c9807c33"
+    },
+    {
+      "path": "assets/production/webp/city-duisburg-card-v1-3840.webp",
+      "bytes": 66170,
+      "sha256": "4685150161e723c70d5fadcc8ffa318ee0d2f53a2552064011d17dd517949bfc"
+    },
+    {
+      "path": "assets/production/png/city-duisburg-card-v1-1280.png",
+      "bytes": 1279969,
+      "sha256": "b15715c4d45a682d14636bd27fc994917551a20c46a6dfa3c23c0903e5dcc4a7"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-card-v1-320.avif",
+      "bytes": 3707,
+      "sha256": "461690df57fd48d4fdfb4d305c73d57432ad2268227732bed3bb081c51c9e43d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-card-v1-320.webp",
+      "bytes": 3598,
+      "sha256": "f008e37b8f2c79207138a65d1c7b87e3e9fa29d34d9cd9872ca7ae3ded2eb30a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-card-v1-640.avif",
+      "bytes": 7881,
+      "sha256": "55be8e2c430ec81ba06ceabd7e8dbf6875f0df46f58293653bb292ec2d23ba11"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-card-v1-640.webp",
+      "bytes": 6728,
+      "sha256": "c722954b9bca9acfda4f12555df412635ecf3e920d1982260ee6e08b6d07fe95"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-card-v1-960.avif",
+      "bytes": 14078,
+      "sha256": "7ad228a942629b2efe6e68c5fa17fb05e9a212192af88ec8d68dc175b3c7b30a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-card-v1-960.webp",
+      "bytes": 11110,
+      "sha256": "b524dde67c589d48ab94a46bf5a07e01d5e9a96828df44a65d63c061367bbc1f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-card-v1-1280.avif",
+      "bytes": 19198,
+      "sha256": "8ab187e104aa7cf047fd1be616187fb911494bca9ea7e56a0bf0c35a32340c87"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-card-v1-1280.webp",
+      "bytes": 15360,
+      "sha256": "df4043a7c677af7e0216dcc23d4435a6c001cc51de6952d90c3e84038691d025"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-card-v1-1920.avif",
+      "bytes": 28933,
+      "sha256": "c7f80084359b55fe9f17a3a93483e1924a35bab6b2b0c8f9646943f07adf6344"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-card-v1-1920.webp",
+      "bytes": 25032,
+      "sha256": "17b32893765aba086a005a827b87dc1eb0989dbad54207b2ca023aa7957ec93f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-card-v1-2560.avif",
+      "bytes": 40652,
+      "sha256": "34db0f5c74aa88c7a0f30f958fc068159b11b04305108e06097301f4f78bee3f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-card-v1-2560.webp",
+      "bytes": 36328,
+      "sha256": "6125d115ad671eb58c73d06693b3ff91a400de93eac85a2961a92f1615a4f542"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-card-v1-3840.avif",
+      "bytes": 66532,
+      "sha256": "7dbe7bf40aa3b4fc3d1875af20b417f65f33d0ffa9ea8c1b24e972c0c9807c33"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-card-v1-3840.webp",
+      "bytes": 66170,
+      "sha256": "4685150161e723c70d5fadcc8ffa318ee0d2f53a2552064011d17dd517949bfc"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duisburg-card-v1-1280.png",
+      "bytes": 1279969,
+      "sha256": "b15715c4d45a682d14636bd27fc994917551a20c46a6dfa3c23c0903e5dcc4a7"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-duisburg-card-v1.webp",
+      "bytes": 3598,
+      "sha256": "f008e37b8f2c79207138a65d1c7b87e3e9fa29d34d9cd9872ca7ae3ded2eb30a"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-duisburg-card-v1.webp",
+      "bytes": 3598,
+      "sha256": "f008e37b8f2c79207138a65d1c7b87e3e9fa29d34d9cd9872ca7ae3ded2eb30a"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.872Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1680266
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:32:38.566Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

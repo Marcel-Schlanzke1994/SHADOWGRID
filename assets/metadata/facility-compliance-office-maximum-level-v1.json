@@ -1,0 +1,171 @@
+{
+  "asset_id": "facility-compliance-office-maximum-level-v1",
+  "manifest_order": 533,
+  "category": "facility",
+  "batch": "facilities",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "maximum-level",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/facility-compliance-office-maximum-level-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100533,
+  "content_hash": "446c2bbc8d8a7772a137aa166bbc105ffe3163bc1cef62cc3781ee26df7c5ad7",
+  "source_file": "assets/source/facilities/facility-compliance-office-maximum-level-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/facility-compliance-office-maximum-level-v1-320.avif",
+      "bytes": 2875,
+      "sha256": "6a89fd6e24034f21a442aef1ba8b476774c5f08ca615380bacfbabaca4d0c511"
+    },
+    {
+      "path": "assets/production/webp/facility-compliance-office-maximum-level-v1-320.webp",
+      "bytes": 2548,
+      "sha256": "f20a23bee591aac1603d25fc92bb87dcd246d0a7692c1481afd4a9f44691b416"
+    },
+    {
+      "path": "assets/production/avif/facility-compliance-office-maximum-level-v1-640.avif",
+      "bytes": 6323,
+      "sha256": "9c5b107c3391b6ccf3d7e66b72f685c8415c9b368e567caab3fc821746316f3d"
+    },
+    {
+      "path": "assets/production/webp/facility-compliance-office-maximum-level-v1-640.webp",
+      "bytes": 5344,
+      "sha256": "bd5f3dc89821436f106c66935df185e274186f831a485fce91da99647e63e707"
+    },
+    {
+      "path": "assets/production/avif/facility-compliance-office-maximum-level-v1-960.avif",
+      "bytes": 10035,
+      "sha256": "b6bdd382dd988bb719f59e1ecbdc293d9580463d024bc46a8c6af5c64ed6ce4a"
+    },
+    {
+      "path": "assets/production/webp/facility-compliance-office-maximum-level-v1-960.webp",
+      "bytes": 8828,
+      "sha256": "a66ce7e1d5adf843f772ed164c8c2a39d1372abfff899b4342c856564798edb2"
+    },
+    {
+      "path": "assets/production/avif/facility-compliance-office-maximum-level-v1-1280.avif",
+      "bytes": 14362,
+      "sha256": "2506788421ce49014a845218844c51e0e44e827bf8f446776711f64dc6234213"
+    },
+    {
+      "path": "assets/production/webp/facility-compliance-office-maximum-level-v1-1280.webp",
+      "bytes": 11786,
+      "sha256": "02d6a0d36eeadb90ad5fd97129cfdf0621904e75524869bcb61db9430760114f"
+    },
+    {
+      "path": "assets/production/avif/facility-compliance-office-maximum-level-v1-1920.avif",
+      "bytes": 21408,
+      "sha256": "5223197a727c363085e9d13e93f691a296f955c6d81d207a0e8a519b86473738"
+    },
+    {
+      "path": "assets/production/webp/facility-compliance-office-maximum-level-v1-1920.webp",
+      "bytes": 18702,
+      "sha256": "f7e65a37d19c96a9696193439fba4c2ddf196bb6293fbeba51b6bfbfc51435c7"
+    },
+    {
+      "path": "assets/production/avif/facility-compliance-office-maximum-level-v1-2560.avif",
+      "bytes": 29384,
+      "sha256": "ad4a220ba682457bdb9e45787e354ff666e6e4bdd8502631a650ccbe9d1fa0ce"
+    },
+    {
+      "path": "assets/production/webp/facility-compliance-office-maximum-level-v1-2560.webp",
+      "bytes": 26024,
+      "sha256": "09dac45b26c13aa70539a19dd812c83d00e8fc59c177fd761d4e877da01f7fc4"
+    },
+    {
+      "path": "assets/production/avif/facility-compliance-office-maximum-level-v1-3840.avif",
+      "bytes": 47676,
+      "sha256": "9847d511e56a2b8d450634f9f193cf63cedd29eea8fec5073c5b382b908577a6"
+    },
+    {
+      "path": "assets/production/webp/facility-compliance-office-maximum-level-v1-3840.webp",
+      "bytes": 43468,
+      "sha256": "5dd7bc8ae9c0e5bc2364f68ec362d2d3321086e5a8f4c0023359539216dc500c"
+    },
+    {
+      "path": "assets/production/png/facility-compliance-office-maximum-level-v1-1280.png",
+      "bytes": 633273,
+      "sha256": "5475d747e11d433268d95146734437dcdc76ab462fcfcf67e0c4f4b66c8cd3e6"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/facility-compliance-office-maximum-level-v1.webp",
+      "bytes": 2548,
+      "sha256": "f20a23bee591aac1603d25fc92bb87dcd246d0a7692c1481afd4a9f44691b416"
+    },
+    {
+      "path": "apps/mobile/assets/library/facility-compliance-office-maximum-level-v1.webp",
+      "bytes": 2548,
+      "sha256": "f20a23bee591aac1603d25fc92bb87dcd246d0a7692c1481afd4a9f44691b416"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:27.212Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 92,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 90,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution.",
+      "Facility categories remain visually coherent and readable without depicting sensitive real-world infrastructure.",
+      "No missing render, unsafe detail, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1464712
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:13:42.111Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "terms": {
+    "company": "A player-controlled economic organization.",
+    "holding": "An owned financial or corporate position.",
+    "share": "One immutable unit of company ownership.",
+    "ownership": "The proportion of an asset controlled by an actor.",
+    "dividend": "A ledger-booked distribution to eligible shareholders.",
+    "order_book": "The authoritative list of open buy and sell orders.",
+    "bid": "A binding offer to buy or provide a service.",
+    "tender": "A time-bounded competitive contract process.",
+    "bond": "A fixed debt instrument issued by a company.",
+    "loan": "A ledger-backed principal with a repayment schedule.",
+    "collateral": "An asset pledged against an obligation.",
+    "ledger": "An immutable financial transaction record.",
+    "district": "A controllable subdivision of a game city.",
+    "cartel": "A player organization for coordinated strategy.",
+    "influence": "A non-cash strategic resource.",
+    "intelligence": "Verified or uncertain strategic information.",
+    "investigation": "A server-resolved process for discovering information.",
+    "operation": "An abstract, time-bounded strategic action.",
+    "world_event": "A server-authoritative event affecting the shared world.",
+    "season": "A bounded competitive period with archived results.",
+    "headquarters": "A company's primary upgradeable property.",
+    "legacy": "Persistent cosmetic and historical recognition.",
+    "mastery": "Evidence-based progress in a strategic discipline."
+  }
+}

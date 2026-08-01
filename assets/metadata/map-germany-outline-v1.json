@@ -23,6 +23,11 @@
       "path": "assets/production/svg/map-germany-outline-v1.svg",
       "bytes": 79997,
       "sha256": "9c963f3f6ac4cc6f8bb2a11c6bdbc750556ab6d7e0bc3934448893cafa63b662"
+    },
+    {
+      "path": "assets/production/webp/map-germany-outline-v1-320.webp",
+      "bytes": 7044,
+      "sha256": "6ee6e43c5ea7351236997028e7b534df64d1450da198e524ff50132151e21a43"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/maps/map-germany-outline-v1.svg",
       "bytes": 79997,
       "sha256": "9c963f3f6ac4cc6f8bb2a11c6bdbc750556ab6d7e0bc3934448893cafa63b662"
+    },
+    {
+      "path": "apps/web/public/assets/maps/map-germany-outline-v1-320.webp",
+      "bytes": 7044,
+      "sha256": "6ee6e43c5ea7351236997028e7b534df64d1450da198e524ff50132151e21a43"
+    },
+    {
+      "path": "apps/web/public/assets/library/map-germany-outline-v1.webp",
+      "bytes": 7044,
+      "sha256": "6ee6e43c5ea7351236997028e7b534df64d1450da198e524ff50132151e21a43"
+    },
+    {
+      "path": "apps/mobile/assets/library/map-germany-outline-v1.webp",
+      "bytes": 7044,
+      "sha256": "6ee6e43c5ea7351236997028e7b534df64d1450da198e524ff50132151e21a43"
     }
   ],
   "contains_text": false,

@@ -1,0 +1,171 @@
+{
+  "asset_id": "overlay-dark-glass-v1",
+  "manifest_order": 829,
+  "category": "overlay",
+  "batch": "weather-overlays",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/overlay-dark-glass-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100829,
+  "content_hash": "aed0dd7b025cb1421055e3bb082ea778f2186bc7e604f3548ce90fc785a7985c",
+  "source_file": "assets/source/effects/overlay-dark-glass-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/overlay-dark-glass-v1-320.avif",
+      "bytes": 25326,
+      "sha256": "0f9cb2930f9b99dd06296d84d288e567d9d91c4ac48e28c0468404b842300014"
+    },
+    {
+      "path": "assets/production/webp/overlay-dark-glass-v1-320.webp",
+      "bytes": 29236,
+      "sha256": "d3c479c4b0212cc196532a09d2ec842c1e188dde3849c695bd1c7efc432de6e5"
+    },
+    {
+      "path": "assets/production/avif/overlay-dark-glass-v1-640.avif",
+      "bytes": 101751,
+      "sha256": "dce1a06d47e8b4182eeafcd5e16cedb6d72436f0efdf5bc014d79ca3585b4e68"
+    },
+    {
+      "path": "assets/production/webp/overlay-dark-glass-v1-640.webp",
+      "bytes": 133266,
+      "sha256": "e3ef1deaee14027bc8b2df6aaf4d8cc62c0840061c5c7df84a14a5dfed6b44c1"
+    },
+    {
+      "path": "assets/production/avif/overlay-dark-glass-v1-960.avif",
+      "bytes": 201356,
+      "sha256": "b22124c6c2adbde5cfc7af7b8f5d582995636e9d55bfe6ad120c76a334d0dbaa"
+    },
+    {
+      "path": "assets/production/webp/overlay-dark-glass-v1-960.webp",
+      "bytes": 372248,
+      "sha256": "a8db6f399becbc0b1e1694aa02ad43c7df7ce0033706f0dfefde8da74f73309f"
+    },
+    {
+      "path": "assets/production/avif/overlay-dark-glass-v1-1280.avif",
+      "bytes": 400732,
+      "sha256": "4d75ff61b60c5fd99c15e5c419224ddfd25ebbf67be61ab0d6d323616d6e19f6"
+    },
+    {
+      "path": "assets/production/webp/overlay-dark-glass-v1-1280.webp",
+      "bytes": 739020,
+      "sha256": "ae14bfcef27c88737fe4c05fa6e6a12f05ce3072e66fb8b791e98d507e765816"
+    },
+    {
+      "path": "assets/production/avif/overlay-dark-glass-v1-1920.avif",
+      "bytes": 1111035,
+      "sha256": "5035812aa966128d3838868e90ef213cd1d592026f94cc0c13a628d850b16969"
+    },
+    {
+      "path": "assets/production/webp/overlay-dark-glass-v1-1920.webp",
+      "bytes": 1878998,
+      "sha256": "ae9845711cab28256e598bf32a27b28941d767a842941b315a87146a940b51d8"
+    },
+    {
+      "path": "assets/production/avif/overlay-dark-glass-v1-2560.avif",
+      "bytes": 1867981,
+      "sha256": "dbe0fea3006304731bd952e2e7e9bcf2d017b2e1607af676a0512f08762a37b8"
+    },
+    {
+      "path": "assets/production/webp/overlay-dark-glass-v1-2560.webp",
+      "bytes": 3299694,
+      "sha256": "a4f1adc45561060471ab409b1874801bd33a5daa4bf6ab390885599bfd7d9588"
+    },
+    {
+      "path": "assets/production/avif/overlay-dark-glass-v1-3840.avif",
+      "bytes": 3895212,
+      "sha256": "20b8a905305a1d4efd28a2fb81b20dfb810eca58012d0b18500fcfa1310c3ce9"
+    },
+    {
+      "path": "assets/production/webp/overlay-dark-glass-v1-3840.webp",
+      "bytes": 7096030,
+      "sha256": "3bf0c4b31ae8c142097dc1d0f7ca2adaea2698ee66605994dd741f3bdc174d03"
+    },
+    {
+      "path": "assets/production/png/overlay-dark-glass-v1-1280.png",
+      "bytes": 926587,
+      "sha256": "15a3ae2093cc418cd22de3ba661c5c587693cc0c07ba225849d3efca34c05339"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/overlay-dark-glass-v1.webp",
+      "bytes": 29236,
+      "sha256": "d3c479c4b0212cc196532a09d2ec842c1e188dde3849c695bd1c7efc432de6e5"
+    },
+    {
+      "path": "apps/mobile/assets/library/overlay-dark-glass-v1.webp",
+      "bytes": 29236,
+      "sha256": "d3c479c4b0212cc196532a09d2ec842c1e188dde3849c695bd1c7efc432de6e5"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.4,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:28.169Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 93,
+      "architecture_plausibility": 90,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Boom, crisis, authority, organization control, contested, and blocked states use distinct graph, scan, zone, cross, and hatch semantics.",
+      "Transparent weather and material overlays were checked against the contact-sheet dark background; no unintended opaque fill or broken render remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": true,
+      "bytes": 1925068
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T06:09:36.712Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "cartel_count": 10,
+  "company_count": 500,
+  "critical_exploits": [],
+  "dominant_strategy": "finance",
+  "investment_roi_bps": {
+    "capacity": 291448,
+    "compliance": 184151,
+    "innovation": 151818,
+    "quality": 204246
+  },
+  "ledger_imbalance_cents": 0,
+  "lifecycle_medians": {
+    "first_company": 1,
+    "first_ipo": 10,
+    "first_profit": 1,
+    "first_specialist": 3
+  },
+  "periods_per_season": 24,
+  "player_count": 100,
+  "season_count": 4,
+  "seasons": [
+    {
+      "active_companies": 500,
+      "bond_default_bps": 1,
+      "cartel_dominance_bps": 1156,
+      "comeback_gain_bps": 4122,
+      "contract_default_bps": 2,
+      "insolvency_bps": 720,
+      "loan_default_bps": 1,
+      "market_hhi": 64,
+      "meaningful_decisions_per_player": 18,
+      "median_wealth_cents": 244084231,
+      "new_to_early_wealth_bps": 11486,
+      "property_top_ten_bps": 1111,
+      "public_companies": 358,
+      "season": 0,
+      "strategy_median_wealth_cents": {
+        "balanced": 310333859,
+        "cartel": 234639375,
+        "expansion": 264742743,
+        "finance": 224298899,
+        "quality": 217736435
+      },
+      "top_ten_wealth_bps": 1853,
+      "trades": 26065,
+      "wealth_gini_bps": 2310
+    },
+    {
+      "active_companies": 500,
+      "bond_default_bps": 0,
+      "cartel_dominance_bps": 1267,
+      "comeback_gain_bps": 6274,
+      "contract_default_bps": 1,
+      "insolvency_bps": 840,
+      "loan_default_bps": 0,
+      "market_hhi": 60,
+      "meaningful_decisions_per_player": 20,
+      "median_wealth_cents": 255080822,
+      "new_to_early_wealth_bps": 10183,
+      "property_top_ten_bps": 1010,
+      "public_companies": 388,
+      "season": 1,
+      "strategy_median_wealth_cents": {
+        "balanced": 204409664,
+        "cartel": 245790629,
+        "expansion": 305155632,
+        "finance": 279244977,
+        "quality": 271095921
+      },
+      "top_ten_wealth_bps": 1979,
+      "trades": 28532,
+      "wealth_gini_bps": 2079
+    },
+    {
+      "active_companies": 500,
+      "bond_default_bps": 0,
+      "cartel_dominance_bps": 1142,
+      "comeback_gain_bps": 5343,
+      "contract_default_bps": 1,
+      "insolvency_bps": 1160,
+      "loan_default_bps": 0,
+      "market_hhi": 49,
+      "meaningful_decisions_per_player": 20,
+      "median_wealth_cents": 257611432,
+      "new_to_early_wealth_bps": 11460,
+      "property_top_ten_bps": 1041,
+      "public_companies": 378,
+      "season": 2,
+      "strategy_median_wealth_cents": {
+        "balanced": 253059184,
+        "cartel": 232812577,
+        "expansion": 261753052,
+        "finance": 273482673,
+        "quality": 287391842
+      },
+      "top_ten_wealth_bps": 1653,
+      "trades": 27963,
+      "wealth_gini_bps": 1886
+    },
+    {
+      "active_companies": 500,
+      "bond_default_bps": 0,
+      "cartel_dominance_bps": 1391,
+      "comeback_gain_bps": 6553,
+      "contract_default_bps": 1,
+      "insolvency_bps": 660,
+      "loan_default_bps": 0,
+      "market_hhi": 57,
+      "meaningful_decisions_per_player": 19,
+      "median_wealth_cents": 258008027,
+      "new_to_early_wealth_bps": 10321,
+      "property_top_ten_bps": 1041,
+      "public_companies": 391,
+      "season": 3,
+      "strategy_median_wealth_cents": {
+        "balanced": 243315804,
+        "cartel": 257810413,
+        "expansion": 240818368,
+        "finance": 308491957,
+        "quality": 266024876
+      },
+      "top_ten_wealth_bps": 1932,
+      "trades": 28979,
+      "wealth_gini_bps": 2006
+    }
+  ],
+  "seed": 20260729,
+  "strategy_mean_wealth_cents": {
+    "balanced": 252779627,
+    "cartel": 242763248,
+    "expansion": 268117448,
+    "finance": 271379626,
+    "quality": 260562268
+  },
+  "strategy_spread_bps": 1178
+}

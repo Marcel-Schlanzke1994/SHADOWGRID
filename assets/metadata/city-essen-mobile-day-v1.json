@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-essen-mobile-day-v1",
+  "manifest_order": 143,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "essen",
+  "variant": "mobile-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-essen-mobile-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100143,
+  "content_hash": "c69e9888051e29ae87677fd5e85c34cd23bf64dfac4ea8e394b45f6bee69a247",
+  "source_file": "assets/source/cities/city-essen-mobile-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-essen-mobile-day-v1-320.avif",
+      "bytes": 4495,
+      "sha256": "b2d82915ef42195ec4d58fd6bdd9920bd3ebcb827ae5cea769fdf973a392eed2"
+    },
+    {
+      "path": "assets/production/webp/city-essen-mobile-day-v1-320.webp",
+      "bytes": 3906,
+      "sha256": "3251e550fa2614f5de2c229a8dae64f1a2003db52b43db75e4a10b966cefb750"
+    },
+    {
+      "path": "assets/production/avif/city-essen-mobile-day-v1-640.avif",
+      "bytes": 9597,
+      "sha256": "126d2621ecac22abeaa792fe37660ae43c67d37c5e7642deeb35207c51b5ed15"
+    },
+    {
+      "path": "assets/production/webp/city-essen-mobile-day-v1-640.webp",
+      "bytes": 7568,
+      "sha256": "73e107e291e2d26f0a72c791fc1d13de4bc6874e2adf11ad53e973c3d5e572a8"
+    },
+    {
+      "path": "assets/production/avif/city-essen-mobile-day-v1-960.avif",
+      "bytes": 16950,
+      "sha256": "9fddb1e4c5f82615fd5a3662984f84d9de6e30047c638be0e38478f9657c81e6"
+    },
+    {
+      "path": "assets/production/webp/city-essen-mobile-day-v1-960.webp",
+      "bytes": 13628,
+      "sha256": "e07e3ad0f36516f3be27639536c0a1493d19c08e44f652e024903de9dda6d2a3"
+    },
+    {
+      "path": "assets/production/avif/city-essen-mobile-day-v1-1280.avif",
+      "bytes": 23243,
+      "sha256": "19ceff480c59c24622894f4ce64e9f3c312a66cdbd401d2f9c4674f3b5fa6c28"
+    },
+    {
+      "path": "assets/production/webp/city-essen-mobile-day-v1-1280.webp",
+      "bytes": 19302,
+      "sha256": "06e8f58ac7be52568b89f66bb53ecf67b77bb136c41de64a325828d38d42b205"
+    },
+    {
+      "path": "assets/production/avif/city-essen-mobile-day-v1-1920.avif",
+      "bytes": 37579,
+      "sha256": "159d29f9750fee3821e24073068638b18382f0c3a1db0d67052a83522b6f74d5"
+    },
+    {
+      "path": "assets/production/webp/city-essen-mobile-day-v1-1920.webp",
+      "bytes": 34284,
+      "sha256": "4b0ac5521fe9d8cde4caca019bef0ad79816695472bbdb604b6b2144a99afaeb"
+    },
+    {
+      "path": "assets/production/avif/city-essen-mobile-day-v1-2560.avif",
+      "bytes": 54293,
+      "sha256": "04c39d2d6bc6b6d1aadc7dec776a416d43f149d870c512d51fd55d007d29a411"
+    },
+    {
+      "path": "assets/production/webp/city-essen-mobile-day-v1-2560.webp",
+      "bytes": 51950,
+      "sha256": "655aa789b9d6dbe48d235b82d78773c79532ea26a6aee8620d624cf936362d2c"
+    },
+    {
+      "path": "assets/production/avif/city-essen-mobile-day-v1-3840.avif",
+      "bytes": 96777,
+      "sha256": "671aa9aa4e73801f51a8f369b8eab27e712c92daab118608cd588152709b83fc"
+    },
+    {
+      "path": "assets/production/webp/city-essen-mobile-day-v1-3840.webp",
+      "bytes": 104020,
+      "sha256": "10b583dc1871053daebb68798ae8f97a243749131781431d03d1aa3880ee3f22"
+    },
+    {
+      "path": "assets/production/png/city-essen-mobile-day-v1-1152.png",
+      "bytes": 1698350,
+      "sha256": "c69e9888051e29ae87677fd5e85c34cd23bf64dfac4ea8e394b45f6bee69a247"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-essen-mobile-day-v1-320.avif",
+      "bytes": 4495,
+      "sha256": "b2d82915ef42195ec4d58fd6bdd9920bd3ebcb827ae5cea769fdf973a392eed2"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-mobile-day-v1-320.webp",
+      "bytes": 3906,
+      "sha256": "3251e550fa2614f5de2c229a8dae64f1a2003db52b43db75e4a10b966cefb750"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-mobile-day-v1-640.avif",
+      "bytes": 9597,
+      "sha256": "126d2621ecac22abeaa792fe37660ae43c67d37c5e7642deeb35207c51b5ed15"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-mobile-day-v1-640.webp",
+      "bytes": 7568,
+      "sha256": "73e107e291e2d26f0a72c791fc1d13de4bc6874e2adf11ad53e973c3d5e572a8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-mobile-day-v1-960.avif",
+      "bytes": 16950,
+      "sha256": "9fddb1e4c5f82615fd5a3662984f84d9de6e30047c638be0e38478f9657c81e6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-mobile-day-v1-960.webp",
+      "bytes": 13628,
+      "sha256": "e07e3ad0f36516f3be27639536c0a1493d19c08e44f652e024903de9dda6d2a3"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-mobile-day-v1-1280.avif",
+      "bytes": 23243,
+      "sha256": "19ceff480c59c24622894f4ce64e9f3c312a66cdbd401d2f9c4674f3b5fa6c28"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-mobile-day-v1-1280.webp",
+      "bytes": 19302,
+      "sha256": "06e8f58ac7be52568b89f66bb53ecf67b77bb136c41de64a325828d38d42b205"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-mobile-day-v1-1920.avif",
+      "bytes": 37579,
+      "sha256": "159d29f9750fee3821e24073068638b18382f0c3a1db0d67052a83522b6f74d5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-mobile-day-v1-1920.webp",
+      "bytes": 34284,
+      "sha256": "4b0ac5521fe9d8cde4caca019bef0ad79816695472bbdb604b6b2144a99afaeb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-mobile-day-v1-2560.avif",
+      "bytes": 54293,
+      "sha256": "04c39d2d6bc6b6d1aadc7dec776a416d43f149d870c512d51fd55d007d29a411"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-mobile-day-v1-2560.webp",
+      "bytes": 51950,
+      "sha256": "655aa789b9d6dbe48d235b82d78773c79532ea26a6aee8620d624cf936362d2c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-mobile-day-v1-3840.avif",
+      "bytes": 96777,
+      "sha256": "671aa9aa4e73801f51a8f369b8eab27e712c92daab118608cd588152709b83fc"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-mobile-day-v1-3840.webp",
+      "bytes": 104020,
+      "sha256": "10b583dc1871053daebb68798ae8f97a243749131781431d03d1aa3880ee3f22"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-essen-mobile-day-v1-1152.png",
+      "bytes": 1698350,
+      "sha256": "c69e9888051e29ae87677fd5e85c34cd23bf64dfac4ea8e394b45f6bee69a247"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-essen-mobile-day-v1.webp",
+      "bytes": 3906,
+      "sha256": "3251e550fa2614f5de2c229a8dae64f1a2003db52b43db75e4a10b966cefb750"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-essen-mobile-day-v1.webp",
+      "bytes": 3906,
+      "sha256": "3251e550fa2614f5de2c229a8dae64f1a2003db52b43db75e4a10b966cefb750"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.543Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1698350
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-29T23:54:13.931Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-bielefeld-card-v1",
+  "manifest_order": 209,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "bielefeld",
+  "variant": "card",
+  "gameplay_state": "normal",
+  "aspect_ratio": "1:1",
+  "width": 1536,
+  "height": 1536,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-bielefeld-card-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100209,
+  "content_hash": "1a8622e885601a47716c3199e068ed33a757025778d690d8e5bc53d3cb52cf19",
+  "source_file": "assets/source/cities/city-bielefeld-card-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-bielefeld-card-v1-320.avif",
+      "bytes": 3664,
+      "sha256": "1af562a1124577f7cdb45791763f8415183fa6c19f26f3d4b33713d149ce92b1"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-card-v1-320.webp",
+      "bytes": 3590,
+      "sha256": "b96d13faf366a425d64388a230c232effa44d8333e4f7952f15af22f93f65567"
+    },
+    {
+      "path": "assets/production/avif/city-bielefeld-card-v1-640.avif",
+      "bytes": 7879,
+      "sha256": "5b6f07bd2d7792842e4912145efe95e5c8e4c4a7520c8ee0dad2161442529b54"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-card-v1-640.webp",
+      "bytes": 6616,
+      "sha256": "fa19e67c1e64f5b60ebc245e6202a0c85b6b2021a65b373faaff42ffe2243bbd"
+    },
+    {
+      "path": "assets/production/avif/city-bielefeld-card-v1-960.avif",
+      "bytes": 14214,
+      "sha256": "e74aae33780a0884c3e838af5d2ebbd1f50364386fed414506dfcc370ed997cf"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-card-v1-960.webp",
+      "bytes": 10940,
+      "sha256": "1937aa8eafba8a9e3c0d383b0b45794891757b67cff1a23aa7099bfceee0a31d"
+    },
+    {
+      "path": "assets/production/avif/city-bielefeld-card-v1-1280.avif",
+      "bytes": 18969,
+      "sha256": "7cb2003f3a0f06f9f1b0d6cd4c3845ba57d3a6eeaa75713c1001a6ace06d0216"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-card-v1-1280.webp",
+      "bytes": 15120,
+      "sha256": "829ae5e830a0e71a77edf9d50f019ec742441f40440eef4f6a67dba2e7909abf"
+    },
+    {
+      "path": "assets/production/avif/city-bielefeld-card-v1-1920.avif",
+      "bytes": 29085,
+      "sha256": "279ed502ba41fa4acf03caee3709aa12f879c67854ab276df1294144d3607c94"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-card-v1-1920.webp",
+      "bytes": 24972,
+      "sha256": "94ce4691973af8cba4655bb8c7454deaa21726385bd8b1dcf975c041c169438a"
+    },
+    {
+      "path": "assets/production/avif/city-bielefeld-card-v1-2560.avif",
+      "bytes": 41337,
+      "sha256": "fadc0e5edfb1df42fc2ed83d45aea380236303a9cd162683c9f5c781cf7bef15"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-card-v1-2560.webp",
+      "bytes": 36674,
+      "sha256": "a546162ea3f0ac26feff20bb2e79d7bac66f0eeb68ec8fdb6fb59c182b77946b"
+    },
+    {
+      "path": "assets/production/avif/city-bielefeld-card-v1-3840.avif",
+      "bytes": 66791,
+      "sha256": "858e11b0ef8cefeb36dbe4e2d27d6e41287a3a107f0414de86dd8b8782624d92"
+    },
+    {
+      "path": "assets/production/webp/city-bielefeld-card-v1-3840.webp",
+      "bytes": 65698,
+      "sha256": "fbd947035a0b7f3bee81fef7fa4485f279a38df539c3220283c7da892eeb1dcf"
+    },
+    {
+      "path": "assets/production/png/city-bielefeld-card-v1-1280.png",
+      "bytes": 1254308,
+      "sha256": "6ea8708868d6aaec03fa76766a1e96095fde6ad782a861237c09e9c55219a03c"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-card-v1-320.avif",
+      "bytes": 3664,
+      "sha256": "1af562a1124577f7cdb45791763f8415183fa6c19f26f3d4b33713d149ce92b1"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-card-v1-320.webp",
+      "bytes": 3590,
+      "sha256": "b96d13faf366a425d64388a230c232effa44d8333e4f7952f15af22f93f65567"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-card-v1-640.avif",
+      "bytes": 7879,
+      "sha256": "5b6f07bd2d7792842e4912145efe95e5c8e4c4a7520c8ee0dad2161442529b54"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-card-v1-640.webp",
+      "bytes": 6616,
+      "sha256": "fa19e67c1e64f5b60ebc245e6202a0c85b6b2021a65b373faaff42ffe2243bbd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-card-v1-960.avif",
+      "bytes": 14214,
+      "sha256": "e74aae33780a0884c3e838af5d2ebbd1f50364386fed414506dfcc370ed997cf"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-card-v1-960.webp",
+      "bytes": 10940,
+      "sha256": "1937aa8eafba8a9e3c0d383b0b45794891757b67cff1a23aa7099bfceee0a31d"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-card-v1-1280.avif",
+      "bytes": 18969,
+      "sha256": "7cb2003f3a0f06f9f1b0d6cd4c3845ba57d3a6eeaa75713c1001a6ace06d0216"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-card-v1-1280.webp",
+      "bytes": 15120,
+      "sha256": "829ae5e830a0e71a77edf9d50f019ec742441f40440eef4f6a67dba2e7909abf"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-card-v1-1920.avif",
+      "bytes": 29085,
+      "sha256": "279ed502ba41fa4acf03caee3709aa12f879c67854ab276df1294144d3607c94"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-card-v1-1920.webp",
+      "bytes": 24972,
+      "sha256": "94ce4691973af8cba4655bb8c7454deaa21726385bd8b1dcf975c041c169438a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-card-v1-2560.avif",
+      "bytes": 41337,
+      "sha256": "fadc0e5edfb1df42fc2ed83d45aea380236303a9cd162683c9f5c781cf7bef15"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-card-v1-2560.webp",
+      "bytes": 36674,
+      "sha256": "a546162ea3f0ac26feff20bb2e79d7bac66f0eeb68ec8fdb6fb59c182b77946b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-card-v1-3840.avif",
+      "bytes": 66791,
+      "sha256": "858e11b0ef8cefeb36dbe4e2d27d6e41287a3a107f0414de86dd8b8782624d92"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-card-v1-3840.webp",
+      "bytes": 65698,
+      "sha256": "fbd947035a0b7f3bee81fef7fa4485f279a38df539c3220283c7da892eeb1dcf"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bielefeld-card-v1-1280.png",
+      "bytes": 1254308,
+      "sha256": "6ea8708868d6aaec03fa76766a1e96095fde6ad782a861237c09e9c55219a03c"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-bielefeld-card-v1.webp",
+      "bytes": 3590,
+      "sha256": "b96d13faf366a425d64388a230c232effa44d8333e4f7952f15af22f93f65567"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-bielefeld-card-v1.webp",
+      "bytes": 3590,
+      "sha256": "b96d13faf366a425d64388a230c232effa44d8333e4f7952f15af22f93f65567"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.122Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1536,
+      "height": 1536,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1639359
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:56:03.460Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

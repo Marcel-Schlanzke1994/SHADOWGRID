@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-aachen-mobile-day-v1",
+  "manifest_order": 231,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "aachen",
+  "variant": "mobile-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-aachen-mobile-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100231,
+  "content_hash": "300a6f184006e67a27ed637b0f68a8e15256ef433661ef2d49c0df2882f24c9e",
+  "source_file": "assets/source/cities/city-aachen-mobile-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-aachen-mobile-day-v1-320.avif",
+      "bytes": 4505,
+      "sha256": "fe66652c2e360fb2a2c5739201b7fdb96a18fe78f5962ea308904a50df372d9b"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-mobile-day-v1-320.webp",
+      "bytes": 3840,
+      "sha256": "1400ffe38f478406b0bd77c52001cd9a440e8d06fd04240a694a0abfe3f99004"
+    },
+    {
+      "path": "assets/production/avif/city-aachen-mobile-day-v1-640.avif",
+      "bytes": 9722,
+      "sha256": "da62e5b1683321d190d43642dca9fba94f47c51abaec10fd0361c3bcd54c17cf"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-mobile-day-v1-640.webp",
+      "bytes": 7602,
+      "sha256": "51caf7f2261ea7188ff2c4eca45a846d2f1b8e64930a03971d43c1f6fb066e83"
+    },
+    {
+      "path": "assets/production/avif/city-aachen-mobile-day-v1-960.avif",
+      "bytes": 16609,
+      "sha256": "e82b7775cdf00e344d6359019b530d694ac938fa2f6e673b268d978ef76b85bb"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-mobile-day-v1-960.webp",
+      "bytes": 13422,
+      "sha256": "6fae73f8ceeb073e7c52ac6c9e59164b44b1dae653b2b5b58bf02ef4419adeb0"
+    },
+    {
+      "path": "assets/production/avif/city-aachen-mobile-day-v1-1280.avif",
+      "bytes": 22283,
+      "sha256": "f8242f849a96ebae8e7d09aa890401f4416143dc696d3900d0bcbe5b21ebdc1c"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-mobile-day-v1-1280.webp",
+      "bytes": 19072,
+      "sha256": "7b65ee7eef7a1633797a933106169490b8a6afad0b01a94522fd77363706effc"
+    },
+    {
+      "path": "assets/production/avif/city-aachen-mobile-day-v1-1920.avif",
+      "bytes": 36480,
+      "sha256": "550ef1f921c5b085a9447247aaf6c520ad629fa55cb97274db32354c0ca805c8"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-mobile-day-v1-1920.webp",
+      "bytes": 34134,
+      "sha256": "5c1abe915a07a95211e453354ffe8b54dae8012cb37387e3297bcf1ec501a295"
+    },
+    {
+      "path": "assets/production/avif/city-aachen-mobile-day-v1-2560.avif",
+      "bytes": 53189,
+      "sha256": "fdb0be4f02fec2b3b624f845f5c775f7a95e2563e691d8a6c5cc05d2e1235927"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-mobile-day-v1-2560.webp",
+      "bytes": 51470,
+      "sha256": "0275a5fdd4a91d4bf68f39a6bf720d91e204b5d6d83b3338a20d7fb9f4bd3ae5"
+    },
+    {
+      "path": "assets/production/avif/city-aachen-mobile-day-v1-3840.avif",
+      "bytes": 95176,
+      "sha256": "8ab3dee257b207e90ba7c01bf625296d42a577fafd0fe2f75d65f9639d8c832a"
+    },
+    {
+      "path": "assets/production/webp/city-aachen-mobile-day-v1-3840.webp",
+      "bytes": 102434,
+      "sha256": "d9a772bb5a7e2d3d9df652228c6ff269b9dcb5bc3a48ee06c264787b05d88eaf"
+    },
+    {
+      "path": "assets/production/png/city-aachen-mobile-day-v1-1152.png",
+      "bytes": 1671348,
+      "sha256": "300a6f184006e67a27ed637b0f68a8e15256ef433661ef2d49c0df2882f24c9e"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-mobile-day-v1-320.avif",
+      "bytes": 4505,
+      "sha256": "fe66652c2e360fb2a2c5739201b7fdb96a18fe78f5962ea308904a50df372d9b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-mobile-day-v1-320.webp",
+      "bytes": 3840,
+      "sha256": "1400ffe38f478406b0bd77c52001cd9a440e8d06fd04240a694a0abfe3f99004"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-mobile-day-v1-640.avif",
+      "bytes": 9722,
+      "sha256": "da62e5b1683321d190d43642dca9fba94f47c51abaec10fd0361c3bcd54c17cf"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-mobile-day-v1-640.webp",
+      "bytes": 7602,
+      "sha256": "51caf7f2261ea7188ff2c4eca45a846d2f1b8e64930a03971d43c1f6fb066e83"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-mobile-day-v1-960.avif",
+      "bytes": 16609,
+      "sha256": "e82b7775cdf00e344d6359019b530d694ac938fa2f6e673b268d978ef76b85bb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-mobile-day-v1-960.webp",
+      "bytes": 13422,
+      "sha256": "6fae73f8ceeb073e7c52ac6c9e59164b44b1dae653b2b5b58bf02ef4419adeb0"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-mobile-day-v1-1280.avif",
+      "bytes": 22283,
+      "sha256": "f8242f849a96ebae8e7d09aa890401f4416143dc696d3900d0bcbe5b21ebdc1c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-mobile-day-v1-1280.webp",
+      "bytes": 19072,
+      "sha256": "7b65ee7eef7a1633797a933106169490b8a6afad0b01a94522fd77363706effc"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-mobile-day-v1-1920.avif",
+      "bytes": 36480,
+      "sha256": "550ef1f921c5b085a9447247aaf6c520ad629fa55cb97274db32354c0ca805c8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-mobile-day-v1-1920.webp",
+      "bytes": 34134,
+      "sha256": "5c1abe915a07a95211e453354ffe8b54dae8012cb37387e3297bcf1ec501a295"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-mobile-day-v1-2560.avif",
+      "bytes": 53189,
+      "sha256": "fdb0be4f02fec2b3b624f845f5c775f7a95e2563e691d8a6c5cc05d2e1235927"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-mobile-day-v1-2560.webp",
+      "bytes": 51470,
+      "sha256": "0275a5fdd4a91d4bf68f39a6bf720d91e204b5d6d83b3338a20d7fb9f4bd3ae5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-mobile-day-v1-3840.avif",
+      "bytes": 95176,
+      "sha256": "8ab3dee257b207e90ba7c01bf625296d42a577fafd0fe2f75d65f9639d8c832a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-mobile-day-v1-3840.webp",
+      "bytes": 102434,
+      "sha256": "d9a772bb5a7e2d3d9df652228c6ff269b9dcb5bc3a48ee06c264787b05d88eaf"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-aachen-mobile-day-v1-1152.png",
+      "bytes": 1671348,
+      "sha256": "300a6f184006e67a27ed637b0f68a8e15256ef433661ef2d49c0df2882f24c9e"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-aachen-mobile-day-v1.webp",
+      "bytes": 3840,
+      "sha256": "1400ffe38f478406b0bd77c52001cd9a440e8d06fd04240a694a0abfe3f99004"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-aachen-mobile-day-v1.webp",
+      "bytes": 3840,
+      "sha256": "1400ffe38f478406b0bd77c52001cd9a440e8d06fd04240a694a0abfe3f99004"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:41.382Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1671348
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T01:20:46.719Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-bochum-mobile-night-v1",
+  "manifest_order": 192,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "bochum",
+  "variant": "mobile-night",
+  "gameplay_state": "normal",
+  "aspect_ratio": "9:16",
+  "width": 1152,
+  "height": 2048,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-bochum-mobile-night-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100192,
+  "content_hash": "182ed4724abd5ce4d68fae08d2a2f77500e13b7e2d7ed296fdb72b3daa0f2a45",
+  "source_file": "assets/source/cities/city-bochum-mobile-night-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-bochum-mobile-night-v1-320.avif",
+      "bytes": 6010,
+      "sha256": "0ad47e961930730ac3ab5723c51b952f99f4f0d0dae41e68b31138edafc08dfd"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-mobile-night-v1-320.webp",
+      "bytes": 6292,
+      "sha256": "83804b7f81f0053d42328739d2fb4edb0c7382b1b12b2c94a1531ff794a876eb"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-mobile-night-v1-640.avif",
+      "bytes": 11843,
+      "sha256": "c89b46176af99da0cf2d8ee6f3932aecf4da6906bde74cc266eff948b0233ded"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-mobile-night-v1-640.webp",
+      "bytes": 12152,
+      "sha256": "a5a648125f4adcd0bbcd1f04d88b760c1223a6e4ffd7399c2c48b72df81100da"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-mobile-night-v1-960.avif",
+      "bytes": 22321,
+      "sha256": "0373278d08a85324b789ded83743fe383985fd2c6bb3f8dcad223235493150db"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-mobile-night-v1-960.webp",
+      "bytes": 19932,
+      "sha256": "b972f079d6714dc41536ef87e90043431196d0a4e848a2dc96366c1a1a6d498a"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-mobile-night-v1-1280.avif",
+      "bytes": 29699,
+      "sha256": "95c94b63ecb9fec99c901438493a5c32c27a43a4cd503a0d1c28e7315df51c6a"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-mobile-night-v1-1280.webp",
+      "bytes": 26730,
+      "sha256": "6f388358835b5b7aac281c62d3a40867993631eb6ca87a3cb370b852d29765ee"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-mobile-night-v1-1920.avif",
+      "bytes": 48632,
+      "sha256": "7583c76f86759051d800c44ede6100c0e2b97ce6a420afd885fc5efef19a3915"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-mobile-night-v1-1920.webp",
+      "bytes": 43406,
+      "sha256": "ee80f22af3926627c9e3b6c90ab418b7629ebc9d1bd392eb64f37530acd2f78f"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-mobile-night-v1-2560.avif",
+      "bytes": 66783,
+      "sha256": "4cd6527851b24ef2dedef7d8d3d62223fe4ac6029d2dcca98de258bab28cf8ec"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-mobile-night-v1-2560.webp",
+      "bytes": 62454,
+      "sha256": "6cad52e5ae7d3a06c123f049d03fe8c8018fb255e651c453bae1fc76db0e14e8"
+    },
+    {
+      "path": "assets/production/avif/city-bochum-mobile-night-v1-3840.avif",
+      "bytes": 116710,
+      "sha256": "04a770a19b1e0f8fcc47a2bf2b06f6c042be3e4f32e3dace9bfbe35a77c7b8e6"
+    },
+    {
+      "path": "assets/production/webp/city-bochum-mobile-night-v1-3840.webp",
+      "bytes": 115964,
+      "sha256": "5a5115fe5800c303f8cb42157144b67e0277ea7f0425c1c0253cb8db556b6054"
+    },
+    {
+      "path": "assets/production/png/city-bochum-mobile-night-v1-1152.png",
+      "bytes": 1736386,
+      "sha256": "182ed4724abd5ce4d68fae08d2a2f77500e13b7e2d7ed296fdb72b3daa0f2a45"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-night-v1-320.avif",
+      "bytes": 6010,
+      "sha256": "0ad47e961930730ac3ab5723c51b952f99f4f0d0dae41e68b31138edafc08dfd"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-night-v1-320.webp",
+      "bytes": 6292,
+      "sha256": "83804b7f81f0053d42328739d2fb4edb0c7382b1b12b2c94a1531ff794a876eb"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-night-v1-640.avif",
+      "bytes": 11843,
+      "sha256": "c89b46176af99da0cf2d8ee6f3932aecf4da6906bde74cc266eff948b0233ded"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-night-v1-640.webp",
+      "bytes": 12152,
+      "sha256": "a5a648125f4adcd0bbcd1f04d88b760c1223a6e4ffd7399c2c48b72df81100da"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-night-v1-960.avif",
+      "bytes": 22321,
+      "sha256": "0373278d08a85324b789ded83743fe383985fd2c6bb3f8dcad223235493150db"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-night-v1-960.webp",
+      "bytes": 19932,
+      "sha256": "b972f079d6714dc41536ef87e90043431196d0a4e848a2dc96366c1a1a6d498a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-night-v1-1280.avif",
+      "bytes": 29699,
+      "sha256": "95c94b63ecb9fec99c901438493a5c32c27a43a4cd503a0d1c28e7315df51c6a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-night-v1-1280.webp",
+      "bytes": 26730,
+      "sha256": "6f388358835b5b7aac281c62d3a40867993631eb6ca87a3cb370b852d29765ee"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-night-v1-1920.avif",
+      "bytes": 48632,
+      "sha256": "7583c76f86759051d800c44ede6100c0e2b97ce6a420afd885fc5efef19a3915"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-night-v1-1920.webp",
+      "bytes": 43406,
+      "sha256": "ee80f22af3926627c9e3b6c90ab418b7629ebc9d1bd392eb64f37530acd2f78f"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-night-v1-2560.avif",
+      "bytes": 66783,
+      "sha256": "4cd6527851b24ef2dedef7d8d3d62223fe4ac6029d2dcca98de258bab28cf8ec"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-night-v1-2560.webp",
+      "bytes": 62454,
+      "sha256": "6cad52e5ae7d3a06c123f049d03fe8c8018fb255e651c453bae1fc76db0e14e8"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-night-v1-3840.avif",
+      "bytes": 116710,
+      "sha256": "04a770a19b1e0f8fcc47a2bf2b06f6c042be3e4f32e3dace9bfbe35a77c7b8e6"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-night-v1-3840.webp",
+      "bytes": 115964,
+      "sha256": "5a5115fe5800c303f8cb42157144b67e0277ea7f0425c1c0253cb8db556b6054"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-bochum-mobile-night-v1-1152.png",
+      "bytes": 1736386,
+      "sha256": "182ed4724abd5ce4d68fae08d2a2f77500e13b7e2d7ed296fdb72b3daa0f2a45"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-bochum-mobile-night-v1.webp",
+      "bytes": 6292,
+      "sha256": "83804b7f81f0053d42328739d2fb4edb0c7382b1b12b2c94a1531ff794a876eb"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-bochum-mobile-night-v1.webp",
+      "bytes": 6292,
+      "sha256": "83804b7f81f0053d42328739d2fb4edb0c7382b1b12b2c94a1531ff794a876eb"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.945Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1152,
+      "height": 2048,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1736386
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T00:40:01.822Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

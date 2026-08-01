@@ -170,35 +170,49 @@
       "path": "apps/web/public/assets/cities/city-koeln-desktop-night-v1-1280.png",
       "bytes": 1440708,
       "sha256": "dfd5191f01dc1d195d88cd08e1d3b0aca803aced397aae54e4bf7391e56b29a0"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-koeln-desktop-night-v1.webp",
+      "bytes": 4386,
+      "sha256": "5f15c82b1f244734c8431482110cf0615047517fb4bb7ab6fe226ed0a778bc4e"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-koeln-desktop-night-v1.webp",
+      "bytes": 4386,
+      "sha256": "5f15c82b1f244734c8431482110cf0615047517fb4bb7ab6fe226ed0a778bc4e"
     }
   ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,
   "moderation_status": "approved",
-  "quality_score": 97.8,
+  "quality_score": 92.9,
   "quality_status": "approved",
   "review_status": "codex-visual-approved",
   "visual_review": {
-    "realism": 98,
-    "style_consistency": 100,
-    "composition": 99,
-    "material_quality": 98,
-    "lighting_quality": 99,
-    "architecture_plausibility": 97,
-    "ui_suitability": 100,
-    "mobile_suitability": 94,
-    "originality": 93,
-    "safety_compliance": 100,
-    "accepted_prompt": "Create the coordinated 16:9 night counterpart for this accepted fictional Köln-inspired SHADOWGRID desktop hero.\n\nPreserve the exact 16:9 canvas and the accepted fictional city geometry: broad Rhine-like river, low-profile foreground truss bridge, generic distant cable-stayed bridge, low- and mid-rise civic skyline, lower-right riverbank depth, center-right detail, and dark low-detail left 32% UI safe area. Keep it clearly the same original city composition.\n\nConvert the scene to physically plausible urban night under a deep anthracite and cool blue-gray cloudy sky. Use restrained warm-gold windows, riverside lamps, and bridge safety lighting with realistic river reflections. Maintain enough midtone detail in buildings, water, and bridge structure for interface use. Do not add saturated neon, emergency lighting, warning red as a gameplay cue, or excessive contrast. Keep the left safe area calm and dark.\n\nDo not add Cologne Cathedral, twin Gothic spires, the Hohenzollern Bridge, any recognizable real Cologne landmark, or a known photographic viewpoint.\n\nNo written words, letters, numbers, signs, captions, UI, logos, watermarks, signatures, brands, readable plates, addresses, identifiable people, flags, police or government insignia, real criminal or gang symbols, extremist or Nazi symbols, weapons, violence, operational wrongdoing, trafficking routes, fantasy architecture, impossible bridge geometry, excessive neon, blur, low resolution, compression artifacts, or fake writing.\n\nDeliver only the clean premium ultra-realistic 16:9 night environment backing plate, intended final size 2048×1152, with no border or device mockup.",
-    "reference_images": [
-      "assets/source/cities/city-koeln-desktop-day-v1.png"
-    ],
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.053Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
     "notes": [
-      "Accepted first desktop night-conversion attempt.",
-      "The 16:9 geometry, lower-right depth, bridges, skyline, and left UI safe area remain coordinated with the approved desktop daytime counterpart.",
-      "Warm practical lighting and river reflections are restrained; shadow detail remains sufficient for a premium game backdrop without neon spectacle.",
-      "No recognizable Cologne landmark, copied viewpoint, embedded text, logo, readable identifier, person focus, authority mark, criminal symbol, extremist symbol, weapon, violence, or operational wrongdoing is present."
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
     ]
   },
   "technical_validation": {

@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-affluent-residential-economic-boom-day-v1",
+  "manifest_order": 441,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "economic-boom-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-affluent-residential-economic-boom-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100441,
+  "content_hash": "8bd042c5b22853221191328902ecca193a1c4f30c0a38a119a968c6c7f2273fb",
+  "source_file": "assets/source/districts/district-affluent-residential-economic-boom-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-affluent-residential-economic-boom-day-v1-320.avif",
+      "bytes": 2875,
+      "sha256": "9042e35754e73ac4602660132e3eb246aec3f6d7cc6f64f5ec0e71d2f4ef318f"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-economic-boom-day-v1-320.webp",
+      "bytes": 2590,
+      "sha256": "16ae517a627c2cf9c294677396018f334f6ca7ef34c6de3b48cd8ff12d7ddb25"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-economic-boom-day-v1-640.avif",
+      "bytes": 6430,
+      "sha256": "bb2487d927e90894e684a0a3df0198d2cae81f3c48feac8f8a37391609bafbce"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-economic-boom-day-v1-640.webp",
+      "bytes": 5428,
+      "sha256": "7385be1393931e20faebdf49166fa525a6b403d515e830297d5c90fdaf6e89ae"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-economic-boom-day-v1-960.avif",
+      "bytes": 10191,
+      "sha256": "bb8c28cf8f07a4a7c185b0a75e32a36868a22151fae3c10c6b4033bd12fd3e96"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-economic-boom-day-v1-960.webp",
+      "bytes": 9004,
+      "sha256": "07e1314e4f77686694b5a9431121d69b7dbd9a0b7a7f36e420b0836da22eb471"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-economic-boom-day-v1-1280.avif",
+      "bytes": 14739,
+      "sha256": "c7fe46847e56f00f93aa6743e5f404cf0512fc4c3292461706c9b8e219b54093"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-economic-boom-day-v1-1280.webp",
+      "bytes": 12064,
+      "sha256": "0f6f25c1ec2c318b0c337fcc4e8f726331ef93a0a384879e5ec125abcdb4dc4c"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-economic-boom-day-v1-1920.avif",
+      "bytes": 21879,
+      "sha256": "1dd0a49b55d412b788b680f5bdf5e08b96dd657ff15662e283babd6ce34d6183"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-economic-boom-day-v1-1920.webp",
+      "bytes": 18786,
+      "sha256": "3731dc63ad5b3fafb0b6c2f8b5b6dbc41561865650a0409a71eada69eb6f7c06"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-economic-boom-day-v1-2560.avif",
+      "bytes": 29450,
+      "sha256": "dc5ea87c39552bbac1648e340bbb5a98572b00d4d181324417d86441fb5f8351"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-economic-boom-day-v1-2560.webp",
+      "bytes": 26170,
+      "sha256": "109f4662ce2d9d3429f61e81ccb668059fb45ae5a5aac7d85d97d9d78ff5aabd"
+    },
+    {
+      "path": "assets/production/avif/district-affluent-residential-economic-boom-day-v1-3840.avif",
+      "bytes": 48519,
+      "sha256": "856fc0c264eaa4e6d10315de39c40b4b1ebb92f274df8c93699739addd963885"
+    },
+    {
+      "path": "assets/production/webp/district-affluent-residential-economic-boom-day-v1-3840.webp",
+      "bytes": 43558,
+      "sha256": "375da67e56c208ef588c5692fbdc6482d54ca080ac432315945f9e6fdd5e6c0a"
+    },
+    {
+      "path": "assets/production/png/district-affluent-residential-economic-boom-day-v1-1280.png",
+      "bytes": 628264,
+      "sha256": "91e546c0fa664ce06cdc7d12612b5687c043c29e2e397a5451f71e65f7a1b599"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-affluent-residential-economic-boom-day-v1.webp",
+      "bytes": 2590,
+      "sha256": "16ae517a627c2cf9c294677396018f334f6ca7ef34c6de3b48cd8ff12d7ddb25"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-affluent-residential-economic-boom-day-v1.webp",
+      "bytes": 2590,
+      "sha256": "16ae517a627c2cf9c294677396018f334f6ca7ef34c6de3b48cd8ff12d7ddb25"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.275Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1455368
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:45:02.713Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

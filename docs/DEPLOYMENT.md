@@ -12,9 +12,13 @@ The Railway environment contains:
 
 `railway.json` selects `apps/api/Dockerfile`, runs `python -m shadowgrid.predeploy`, checks `/api/v1/ready` and restarts failed processes. The pre-deploy module upgrades Alembic before running the idempotent production bootstrap. The container listens on Railway's injected `PORT`.
 
-Persistent variables include independent application secrets, PostgreSQL/Redis references, the exact HTTPS `WEB_ORIGINS` value and production runtime settings. Bootstrap-admin variables are deliberately one-time values and were removed after the live login verification.
+Persistent variables include independent application secrets, PostgreSQL/Redis references, the exact HTTPS `WEB_ORIGINS` value and production runtime settings. Transactional email links use `PUBLIC_WEB_URL` when configured and otherwise the first `WEB_ORIGINS` entry, so production verification and password-reset links never point at localhost. Bootstrap-admin variables are deliberately one-time values and were removed after the live login verification.
 
 Transactional email supports `SMTP_HOST`, `SMTP_PORT`, `SMTP_FROM`, optional `SMTP_USERNAME`/`SMTP_PASSWORD`, `SMTP_STARTTLS` and `SMTP_USE_SSL`. Configure those only through Railway after selecting a provider.
+
+The exact no-secret activation checklist is in
+[`SMTP_PROVIDER_OPERATOR_GATE.md`](SMTP_PROVIDER_OPERATOR_GATE.md). Provider activation is
+not authorized by repository completion.
 
 ## Local service stack
 

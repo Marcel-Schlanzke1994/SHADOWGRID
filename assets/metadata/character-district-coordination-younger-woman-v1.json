@@ -1,0 +1,171 @@
+{
+  "asset_id": "character-district-coordination-younger-woman-v1",
+  "manifest_order": 543,
+  "category": "character",
+  "batch": "specialists",
+  "city": null,
+  "variant": "younger-woman",
+  "gameplay_state": "normal",
+  "aspect_ratio": "4:5",
+  "width": 1280,
+  "height": 1600,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/character-district-coordination-younger-woman-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100543,
+  "content_hash": "21fd5a94329eaa895f4ef4b5ead6edf62274bfa0e3b2f9afb5f865b020e948b8",
+  "source_file": "assets/source/characters/character-district-coordination-younger-woman-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/character-district-coordination-younger-woman-v1-320.avif",
+      "bytes": 2997,
+      "sha256": "676a1ba4dda69c74d8e3004ec772293f319455e02b28524741229876c32090f5"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-younger-woman-v1-320.webp",
+      "bytes": 2278,
+      "sha256": "9b996e8dc71346daf0899458e7ca70e2d7151f36ce28723a7d95774c7412c870"
+    },
+    {
+      "path": "assets/production/avif/character-district-coordination-younger-woman-v1-640.avif",
+      "bytes": 6593,
+      "sha256": "8564be40f2b6f92ce484dd9c4b893c0bb5fc76a126d5694489655787f6c78741"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-younger-woman-v1-640.webp",
+      "bytes": 5336,
+      "sha256": "786671dcc2e079cc327e02dd7b0be8d1b77d676b9187e7b48560dd67f8d8285b"
+    },
+    {
+      "path": "assets/production/avif/character-district-coordination-younger-woman-v1-960.avif",
+      "bytes": 14095,
+      "sha256": "a9a0dc65fd53750c3aea8141f63b8a5d0e5bca6a89274ed10254c33e49af5204"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-younger-woman-v1-960.webp",
+      "bytes": 9934,
+      "sha256": "5bf9e49362168fd1aa5b77d31b8767bbcbb549b00a64b637f636cb63f35b2406"
+    },
+    {
+      "path": "assets/production/avif/character-district-coordination-younger-woman-v1-1280.avif",
+      "bytes": 20584,
+      "sha256": "a85ce8168e9a981a59bcdb6c734fb3219b32bcf141266284c9a1090c8d5c3d4c"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-younger-woman-v1-1280.webp",
+      "bytes": 15196,
+      "sha256": "48fba731a50ef26769ea1c851c5b3425f3a3b03d95cc0f5ac306aebb48c2aaac"
+    },
+    {
+      "path": "assets/production/avif/character-district-coordination-younger-woman-v1-1920.avif",
+      "bytes": 32598,
+      "sha256": "7b606b442d4e6a39bcb963875916b6bd39c4d86594bcbaa46245d192704bca56"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-younger-woman-v1-1920.webp",
+      "bytes": 25730,
+      "sha256": "fec88a70915df964a9afd84efaed2c0eb4be0925c5850c3f5851dc73c2a9d354"
+    },
+    {
+      "path": "assets/production/avif/character-district-coordination-younger-woman-v1-2560.avif",
+      "bytes": 46958,
+      "sha256": "4c2d0ab250762be3add8f3e7e49dca4cb8441920cad8ed9b06ef1f74d4c655fb"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-younger-woman-v1-2560.webp",
+      "bytes": 38940,
+      "sha256": "3b8df8b0b20cb9b109f742dc3aad63156d95a72f9452b295ebd1130a6c3496a2"
+    },
+    {
+      "path": "assets/production/avif/character-district-coordination-younger-woman-v1-3840.avif",
+      "bytes": 76356,
+      "sha256": "af4fe6bddd292ee9203e29469ddc809f70e41b0f95de703efac949e746cc70cc"
+    },
+    {
+      "path": "assets/production/webp/character-district-coordination-younger-woman-v1-3840.webp",
+      "bytes": 72550,
+      "sha256": "d3e9bbf98f3ceacf3b108f2f6171ff8541d5ad78a84cf79c11349288d8ce2c25"
+    },
+    {
+      "path": "assets/production/png/character-district-coordination-younger-woman-v1-1280.png",
+      "bytes": 209800,
+      "sha256": "21fd5a94329eaa895f4ef4b5ead6edf62274bfa0e3b2f9afb5f865b020e948b8"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/character-district-coordination-younger-woman-v1.webp",
+      "bytes": 2278,
+      "sha256": "9b996e8dc71346daf0899458e7ca70e2d7151f36ce28723a7d95774c7412c870"
+    },
+    {
+      "path": "apps/mobile/assets/library/character-district-coordination-younger-woman-v1.webp",
+      "bytes": 2278,
+      "sha256": "9b996e8dc71346daf0899458e7ca70e2d7151f36ce28723a7d95774c7412c870"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:36.956Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1280,
+      "height": 1600,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 209800
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:16:17.538Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

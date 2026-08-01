@@ -23,6 +23,11 @@
       "path": "assets/production/svg/marker-control-economic-network-v1.svg",
       "bytes": 741,
       "sha256": "b514f87d301d87c48c2bcc61e3edd25da5c928503e647e4f029ddc6dd7b4c4c2"
+    },
+    {
+      "path": "assets/production/webp/marker-control-economic-network-v1-320.webp",
+      "bytes": 2808,
+      "sha256": "b6bd9884be4e5596d7147e1557f36b0e98a6a2be4e96a7aa74bc655c4a1ff8c0"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/markers/marker-control-economic-network-v1.svg",
       "bytes": 741,
       "sha256": "b514f87d301d87c48c2bcc61e3edd25da5c928503e647e4f029ddc6dd7b4c4c2"
+    },
+    {
+      "path": "apps/web/public/assets/markers/marker-control-economic-network-v1-320.webp",
+      "bytes": 2808,
+      "sha256": "b6bd9884be4e5596d7147e1557f36b0e98a6a2be4e96a7aa74bc655c4a1ff8c0"
+    },
+    {
+      "path": "apps/web/public/assets/library/marker-control-economic-network-v1.webp",
+      "bytes": 2808,
+      "sha256": "b6bd9884be4e5596d7147e1557f36b0e98a6a2be4e96a7aa74bc655c4a1ff8c0"
+    },
+    {
+      "path": "apps/mobile/assets/library/marker-control-economic-network-v1.webp",
+      "bytes": 2808,
+      "sha256": "b6bd9884be4e5596d7147e1557f36b0e98a6a2be4e96a7aa74bc655c4a1ff8c0"
     }
   ],
   "contains_text": false,

@@ -1,0 +1,171 @@
+{
+  "asset_id": "character-strategist-younger-woman-v1",
+  "manifest_order": 535,
+  "category": "character",
+  "batch": "specialists",
+  "city": null,
+  "variant": "younger-woman",
+  "gameplay_state": "normal",
+  "aspect_ratio": "4:5",
+  "width": 1280,
+  "height": 1600,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/character-strategist-younger-woman-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100535,
+  "content_hash": "0f9c3b70c9561aa12b4314d50338f1f9d907ee0a7ee08020e407340fd7bbcb9d",
+  "source_file": "assets/source/characters/character-strategist-younger-woman-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/character-strategist-younger-woman-v1-320.avif",
+      "bytes": 2776,
+      "sha256": "a6f45b94c577228d28a4a5a77cded327b25ef96735a5b83a4e711cff2b357ba8"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-younger-woman-v1-320.webp",
+      "bytes": 1910,
+      "sha256": "f0878a49bb55a7fa28a5397a94afd215a4f548cbc72948d1eedba0a64a6e8ebd"
+    },
+    {
+      "path": "assets/production/avif/character-strategist-younger-woman-v1-640.avif",
+      "bytes": 6190,
+      "sha256": "5f5f07a613835fed919b088884f9f70c590d43d17059af483fe8dcc38621a55b"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-younger-woman-v1-640.webp",
+      "bytes": 4592,
+      "sha256": "9a460d5e27ec6d2713f3cd52b229f4b6c46ed2a89f01cf9dd14919a5ce4aa226"
+    },
+    {
+      "path": "assets/production/avif/character-strategist-younger-woman-v1-960.avif",
+      "bytes": 13694,
+      "sha256": "6b3f5c18b9b7ea76067f221773f870aa3b8e30401c7b7217b08879c015dd112d"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-younger-woman-v1-960.webp",
+      "bytes": 8950,
+      "sha256": "e2d8f01574a152e986f4c270328791745f6663d17b22252540c23dda387c1f79"
+    },
+    {
+      "path": "assets/production/avif/character-strategist-younger-woman-v1-1280.avif",
+      "bytes": 19676,
+      "sha256": "9dbad0836bd35328da72970b59a6fccb2b92f29a895f2b134d00c80f6a4fe3e6"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-younger-woman-v1-1280.webp",
+      "bytes": 13772,
+      "sha256": "7319d9e1cf20813ea67a3edb7b1214d64320d6f518823dddb2644a46e7cfebac"
+    },
+    {
+      "path": "assets/production/avif/character-strategist-younger-woman-v1-1920.avif",
+      "bytes": 31242,
+      "sha256": "c1ead15625a2b5419c28f2ea8f76fa87cc143b4e425886fe880c00295a6a76d3"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-younger-woman-v1-1920.webp",
+      "bytes": 23702,
+      "sha256": "fecb93206046408437ad93b6d3b0cc387ed9ff021093100c882a8d1c40ca7f08"
+    },
+    {
+      "path": "assets/production/avif/character-strategist-younger-woman-v1-2560.avif",
+      "bytes": 44816,
+      "sha256": "24a98ef88aa4f1308cd37a0d4d30d64182e2044d7c887205b76f63a2d4324348"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-younger-woman-v1-2560.webp",
+      "bytes": 36104,
+      "sha256": "e68f1e09f7ecec19af398706f311fa5245a5c3a5ac39f2e0d43faf771f639c34"
+    },
+    {
+      "path": "assets/production/avif/character-strategist-younger-woman-v1-3840.avif",
+      "bytes": 73766,
+      "sha256": "020c04049abae5801aeac3d9cc199cd66a896abac155ef725e45b387ffb8d019"
+    },
+    {
+      "path": "assets/production/webp/character-strategist-younger-woman-v1-3840.webp",
+      "bytes": 68898,
+      "sha256": "19f3eb3c25483178d2c74ef0fd06e34d2325f5e456b30b6ad93339e2137b49cf"
+    },
+    {
+      "path": "assets/production/png/character-strategist-younger-woman-v1-1280.png",
+      "bytes": 208910,
+      "sha256": "0f9c3b70c9561aa12b4314d50338f1f9d907ee0a7ee08020e407340fd7bbcb9d"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/character-strategist-younger-woman-v1.webp",
+      "bytes": 1910,
+      "sha256": "f0878a49bb55a7fa28a5397a94afd215a4f548cbc72948d1eedba0a64a6e8ebd"
+    },
+    {
+      "path": "apps/mobile/assets/library/character-strategist-younger-woman-v1.webp",
+      "bytes": 1910,
+      "sha256": "f0878a49bb55a7fa28a5397a94afd215a4f548cbc72948d1eedba0a64a6e8ebd"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.8,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:36.757Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution.",
+      "The portraits are intentionally stylized, diverse fictional specialists; role identity is carried jointly by the portrait and authoritative UI label.",
+      "No real-person likeness claim, unsafe content, broken anatomy at display size, missing render, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 1280,
+      "height": 1600,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 208910
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:14:14.476Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

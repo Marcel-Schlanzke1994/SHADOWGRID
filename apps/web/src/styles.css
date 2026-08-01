@@ -144,10 +144,17 @@ pre {
   background: transparent;
   color: var(--gold-strong);
 }
+.button--ghost:hover:not(:disabled) {
+  color: #080a0d;
+}
 .button--danger {
   border-color: var(--danger);
   background: transparent;
   color: #ff8a92;
+}
+.button--danger:hover:not(:disabled) {
+  background: #3a1116;
+  color: #ffb1b6;
 }
 .button--small {
   min-height: 36px;
@@ -158,6 +165,22 @@ pre {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
+}
+.confirm-dialog {
+  width: min(32rem, calc(100vw - 2rem));
+  border: 1px solid var(--gold);
+  border-radius: 0.7rem;
+  padding: 1.25rem;
+  background: var(--surface);
+  color: var(--text);
+}
+.confirm-dialog::backdrop {
+  background: #030507cc;
+  backdrop-filter: blur(3px);
+}
+.confirm-dialog .button-row {
+  justify-content: flex-end;
+  margin-top: 1.25rem;
 }
 .icon-button {
   width: 44px;
@@ -509,6 +532,17 @@ pre {
   background: #d8b15b12;
   color: var(--gold-strong);
 }
+.nav-badge {
+  min-width: 1.5rem;
+  margin-inline-start: auto;
+  border-radius: 999px;
+  padding: 0.1rem 0.4rem;
+  background: var(--danger);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-align: center;
+}
 .app-shell main {
   grid-area: main;
   min-width: 0;
@@ -609,6 +643,173 @@ pre {
 }
 .content-grid > :first-child {
   grid-column: span 2;
+}
+.economy-status {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem 2rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem;
+  background: #111820;
+}
+.economy-status > div {
+  display: grid;
+  gap: 0.25rem;
+}
+.economy-status span:not(.eyebrow) {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+.economy-chart {
+  margin: 1rem 0;
+}
+.economy-chart figcaption {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+.economy-chart svg {
+  display: block;
+  width: 100%;
+  min-height: 12rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: #090d12;
+}
+.economy-chart__axis {
+  stroke: #667383;
+  stroke-width: 1;
+}
+.economy-chart__line {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 4;
+}
+.economy-chart__line--revenue,
+.economy-chart__legend-revenue {
+  color: #72d2f0;
+  stroke: #72d2f0;
+}
+.economy-chart__line--cost,
+.economy-chart__legend-cost {
+  color: #ff8991;
+  stroke: #ff8991;
+}
+.economy-chart__line--profit,
+.economy-chart__legend-profit {
+  color: var(--gold-strong);
+  stroke: var(--gold-strong);
+}
+.economy-chart__legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  margin-top: 0.5rem;
+  font-size: 0.82rem;
+}
+.exchange-overview {
+  margin-bottom: 1.5rem;
+}
+.exchange-listing-header {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 2rem 0 1rem;
+}
+.exchange-listing-header h2 {
+  margin: 0.15rem 0;
+}
+.exchange-listing-header p {
+  margin: 0;
+  color: var(--muted);
+}
+.exchange-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  align-items: start;
+  margin-bottom: 1rem;
+}
+.exchange-chart {
+  margin: 0;
+}
+.exchange-chart figcaption {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+.exchange-chart svg {
+  display: block;
+  width: 100%;
+  min-height: 12rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(#ffffff08 1px, transparent 1px),
+    linear-gradient(90deg, #ffffff08 1px, transparent 1px), #090d12;
+  background-size: 3rem 3rem;
+}
+.exchange-chart polyline {
+  fill: none;
+  stroke: var(--gold-strong);
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.exchange-chart circle {
+  fill: var(--gold-strong);
+  stroke: #090d12;
+  stroke-width: 2;
+}
+.exchange-chart__range {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.4rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+.exchange-requirements {
+  display: grid;
+  gap: 0.4rem;
+  margin: 0.75rem 0;
+  border-left: 2px solid var(--gold);
+  padding-left: 0.75rem;
+}
+.exchange-requirements ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--muted);
+}
+.exchange-inline-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+.exchange-inline-form .field {
+  min-width: min(100%, 20rem);
+  margin: 0;
+}
+.detail-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 0.75rem;
+}
+.detail-list div {
+  border-left: 2px solid var(--border);
+  padding-left: 0.75rem;
+}
+.detail-list dt {
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+.detail-list dd {
+  margin: 0.2rem 0 0;
+  font-weight: 700;
 }
 .list-stack {
   display: grid;
@@ -1091,6 +1292,12 @@ td {
 [dir="rtl"] td {
   text-align: right;
 }
+[dir="rtl"] :where(bdi, strong, dd, td, h3, option, .metric__value) {
+  unicode-bidi: isolate;
+}
+bdi {
+  unicode-bidi: isolate;
+}
 th {
   color: var(--muted);
   font-weight: 600;
@@ -1225,6 +1432,7 @@ th {
   }
   .dashboard-grid,
   .content-grid,
+  .exchange-detail-grid,
   .city-layout,
   .germany-map-toolbar,
   .germany-map-accessibility-grid,
@@ -1308,4 +1516,54 @@ th {
   .unread-dot {
     background: Highlight;
   }
+  .economy-chart__line,
+  .economy-chart__axis,
+  .exchange-chart polyline {
+    stroke: CanvasText;
+  }
+}
+
+.engagement-goal,
+.engagement-preference,
+.return-briefing {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.mastery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: 0.75rem;
+}
+
+.mastery-grid .card {
+  display: grid;
+  align-content: start;
+  gap: 0.65rem;
+}
+
+.engagement-preference {
+  align-content: start;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  background: color-mix(in srgb, var(--surface) 92%, transparent);
+}
+
+.engagement-preference h3,
+.engagement-goal h3 {
+  margin: 0;
+}
+
+.check-row {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  min-height: 2.75rem;
+}
+
+.return-briefing {
+  padding: 1rem;
+  border-inline-start: 3px solid var(--gold);
+  background: color-mix(in srgb, var(--surface) 88%, transparent);
 }

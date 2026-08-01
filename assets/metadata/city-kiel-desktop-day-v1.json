@@ -1,0 +1,246 @@
+{
+  "asset_id": "city-kiel-desktop-day-v1",
+  "manifest_order": 293,
+  "category": "city",
+  "batch": "premium-cities",
+  "city": "kiel",
+  "variant": "desktop-day",
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/city-kiel-desktop-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100293,
+  "content_hash": "eb32a29ab9d2c412340aa5c719e978411a492877f5d1b43e8ab8261c26594080",
+  "source_file": "assets/source/cities/city-kiel-desktop-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/city-kiel-desktop-day-v1-320.avif",
+      "bytes": 2842,
+      "sha256": "e54b73f976e2baf89b7340dc2da942679531be3c64b0ee5293c0ad20ed58b884"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-desktop-day-v1-320.webp",
+      "bytes": 2730,
+      "sha256": "7d71f2170db88a96d63a857e30107bfb0b02d423b8c83e0798c7a63b49251bf9"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-desktop-day-v1-640.avif",
+      "bytes": 6144,
+      "sha256": "7b501f060bf2b3c37515031651278c0664c343ab77a483e8f33ae00b2aad7aed"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-desktop-day-v1-640.webp",
+      "bytes": 5238,
+      "sha256": "16ee0bf9e9ac671a83ef8be0e77edabd79056f77f59249b719a28f8b9f3c44a9"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-desktop-day-v1-960.avif",
+      "bytes": 9733,
+      "sha256": "0a9d273119cdf66d45f25259ae493a026da1bb8ac4e4effae92de5e8122b6f23"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-desktop-day-v1-960.webp",
+      "bytes": 8548,
+      "sha256": "afe7a3dcb4fcc6055840301a68703bc4f32aab07c4c6f330d79f3824e4a859a5"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-desktop-day-v1-1280.avif",
+      "bytes": 14394,
+      "sha256": "411daa59a7cb43c7b0b1b80a3f70cd08ba9aa19dc19a4119937f0c4aeb23241a"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-desktop-day-v1-1280.webp",
+      "bytes": 11594,
+      "sha256": "54f4bc4e774e6849687132dcb12a950b9603ccd7575594ef1d6b13349dfdd1f4"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-desktop-day-v1-1920.avif",
+      "bytes": 21124,
+      "sha256": "5c0720804a62133641bff9135ec5159c28bf01426bcf12ced1c1683c7750a675"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-desktop-day-v1-1920.webp",
+      "bytes": 17724,
+      "sha256": "663a3724eadd8d8ac8ab393a7b7e469dc088908337498778547ce13652e25381"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-desktop-day-v1-2560.avif",
+      "bytes": 29362,
+      "sha256": "9de3a7506f0cd102c4c36bae6f37d3aa958b5da5d69d63f2ffaf1434ead7b45b"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-desktop-day-v1-2560.webp",
+      "bytes": 25214,
+      "sha256": "f341f6915e33a7998549102725b945f4e1515e28b766a8e3e4de4d2266bbe19c"
+    },
+    {
+      "path": "assets/production/avif/city-kiel-desktop-day-v1-3840.avif",
+      "bytes": 47808,
+      "sha256": "97da953feb86964aa525299b044db532af281405f68ba7bf709df8ae8b6833a7"
+    },
+    {
+      "path": "assets/production/webp/city-kiel-desktop-day-v1-3840.webp",
+      "bytes": 43628,
+      "sha256": "922c6f9fd921072255896792a557b9cfe5637e9afda251abd8f5d7e6cbf2471b"
+    },
+    {
+      "path": "assets/production/png/city-kiel-desktop-day-v1-1280.png",
+      "bytes": 724686,
+      "sha256": "67099f4991b8523b99de17e8c0b8b97a57ac7d3f9a3a44f0db788d1ad3e27bce"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-day-v1-320.avif",
+      "bytes": 2842,
+      "sha256": "e54b73f976e2baf89b7340dc2da942679531be3c64b0ee5293c0ad20ed58b884"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-day-v1-320.webp",
+      "bytes": 2730,
+      "sha256": "7d71f2170db88a96d63a857e30107bfb0b02d423b8c83e0798c7a63b49251bf9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-day-v1-640.avif",
+      "bytes": 6144,
+      "sha256": "7b501f060bf2b3c37515031651278c0664c343ab77a483e8f33ae00b2aad7aed"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-day-v1-640.webp",
+      "bytes": 5238,
+      "sha256": "16ee0bf9e9ac671a83ef8be0e77edabd79056f77f59249b719a28f8b9f3c44a9"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-day-v1-960.avif",
+      "bytes": 9733,
+      "sha256": "0a9d273119cdf66d45f25259ae493a026da1bb8ac4e4effae92de5e8122b6f23"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-day-v1-960.webp",
+      "bytes": 8548,
+      "sha256": "afe7a3dcb4fcc6055840301a68703bc4f32aab07c4c6f330d79f3824e4a859a5"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-day-v1-1280.avif",
+      "bytes": 14394,
+      "sha256": "411daa59a7cb43c7b0b1b80a3f70cd08ba9aa19dc19a4119937f0c4aeb23241a"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-day-v1-1280.webp",
+      "bytes": 11594,
+      "sha256": "54f4bc4e774e6849687132dcb12a950b9603ccd7575594ef1d6b13349dfdd1f4"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-day-v1-1920.avif",
+      "bytes": 21124,
+      "sha256": "5c0720804a62133641bff9135ec5159c28bf01426bcf12ced1c1683c7750a675"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-day-v1-1920.webp",
+      "bytes": 17724,
+      "sha256": "663a3724eadd8d8ac8ab393a7b7e469dc088908337498778547ce13652e25381"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-day-v1-2560.avif",
+      "bytes": 29362,
+      "sha256": "9de3a7506f0cd102c4c36bae6f37d3aa958b5da5d69d63f2ffaf1434ead7b45b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-day-v1-2560.webp",
+      "bytes": 25214,
+      "sha256": "f341f6915e33a7998549102725b945f4e1515e28b766a8e3e4de4d2266bbe19c"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-day-v1-3840.avif",
+      "bytes": 47808,
+      "sha256": "97da953feb86964aa525299b044db532af281405f68ba7bf709df8ae8b6833a7"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-day-v1-3840.webp",
+      "bytes": 43628,
+      "sha256": "922c6f9fd921072255896792a557b9cfe5637e9afda251abd8f5d7e6cbf2471b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-kiel-desktop-day-v1-1280.png",
+      "bytes": 724686,
+      "sha256": "67099f4991b8523b99de17e8c0b8b97a57ac7d3f9a3a44f0db788d1ad3e27bce"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-kiel-desktop-day-v1.webp",
+      "bytes": 2730,
+      "sha256": "7d71f2170db88a96d63a857e30107bfb0b02d423b8c83e0798c7a63b49251bf9"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-kiel-desktop-day-v1.webp",
+      "bytes": 2730,
+      "sha256": "7d71f2170db88a96d63a857e30107bfb0b02d423b8c83e0798c7a63b49251bf9"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:42.353Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1661751
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T02:11:50.025Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "locale": "de",
+  "scopes": {
+    "game": "human_translated",
+    "email": "human_translated",
+    "store": "human_translated",
+    "support": "not_started",
+    "legal": "not_started"
+  }
+}

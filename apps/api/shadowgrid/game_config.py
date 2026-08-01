@@ -11,13 +11,79 @@ class ResearchDefinition(TypedDict):
     minutes: int
 
 
+class CartelProjectTemplate(TypedDict):
+    title: str
+    cash_cents: int
+    influence: int
+    intelligence: int
+    duration_hours: int
+    influence_kind: str
+    influence_reward: int
+
+
+class CompanyIndustryDefinition(TypedDict):
+    enterprise_value_cents: int
+    revenue_cents: int
+    cost_cents: int
+    employees: int
+    capacity: int
+    quality: int
+    market_share_bps: int
+    reputation_bps: int
+    compliance_bps: int
+    innovation_bps: int
+    risk_bps: int
+
+
+class CompanyInvestmentDefinition(TypedDict):
+    cost_cents: int
+    metric: str
+    increase: int
+
+
+class EconomyMarketDefinition(TypedDict):
+    demand_units: int
+    unit_revenue_cents: int
+    variable_cost_per_unit_cents: int
+    fixed_cost_cents: int
+
+
+class SpecialistRoleDefinition(TypedDict):
+    base_salary_cents: int
+    primary_skill: str
+    effect: str
+
+
+class WorldEventTemplateDefinition(TypedDict):
+    title: str
+    description: str
+    default_scope_type: str
+    default_duration_minutes: int
+    effects: dict[str, int]
+
+
+class SeasonTemplateDefinition(TypedDict):
+    name: str
+    phase_weights_bps: dict[str, int]
+    goals: list[dict[str, str | int]]
+    scoring_categories: tuple[str, ...]
+
+
 START_RESOURCES: Final = {
-    "cash": 80_000,
     "capital": 25_000,
     "influence": 10,
     "intelligence": 15,
     "logistics_capacity": 10,
     "personnel_capacity": 8,
+}
+
+WORLD_SLUG: Final = "germany-season-0"
+WORLD_NAME: Final = "Deutschland — Saison 0"
+START_CITY: Final = {
+    "slug": "koeln",
+    "name": "Köln",
+    "region_key": "nordrhein-westfalen",
+    "instance_key": "koeln-1",
 }
 
 ARCHETYPES: Final = {
@@ -37,8 +103,8 @@ ARCHETYPES: Final = {
 
 DISTRICTS: Final = (
     (
-        "crown-financial",
-        "Crown Financial District",
+        "innenstadt",
+        "Innenstadt",
         85,
         82,
         74,
@@ -54,8 +120,8 @@ DISTRICTS: Final = (
         "6,14 30,7 43,23 31,42 8,37",
     ),
     (
-        "iron-harbor",
-        "Iron Harbor",
+        "hafenbezirk",
+        "Hafenbezirk",
         56,
         68,
         52,
@@ -71,8 +137,8 @@ DISTRICTS: Final = (
         "8,42 32,43 38,60 18,74 5,61",
     ),
     (
-        "neon-mile",
-        "Neon Mile",
+        "technologiepark",
+        "Technologiepark",
         72,
         70,
         48,
@@ -88,8 +154,8 @@ DISTRICTS: Final = (
         "44,18 68,12 75,33 60,47 41,39",
     ),
     (
-        "meridian-heights",
-        "Meridian Heights",
+        "gewerbering",
+        "Gewerbering",
         91,
         78,
         88,
@@ -105,8 +171,8 @@ DISTRICTS: Final = (
         "64,45 91,39 96,62 79,75 62,63",
     ),
     (
-        "southworks",
-        "Southworks",
+        "medienquartier",
+        "Medienquartier",
         47,
         63,
         54,
@@ -120,57 +186,6 @@ DISTRICTS: Final = (
         38,
         62,
         "31,61 60,61 62,82 35,91 17,76",
-    ),
-    (
-        "nexus-campus",
-        "Nexus Campus",
-        82,
-        76,
-        79,
-        67,
-        98,
-        86,
-        77,
-        62,
-        89,
-        81,
-        39,
-        7,
-        "31,4 57,4 63,19 43,22",
-    ),
-    (
-        "old-quarter",
-        "Old Quarter",
-        64,
-        69,
-        66,
-        61,
-        65,
-        79,
-        73,
-        80,
-        74,
-        68,
-        5,
-        78,
-        "4,64 20,76 18,96 2,91",
-    ),
-    (
-        "greybank",
-        "Greybank",
-        34,
-        48,
-        39,
-        58,
-        47,
-        31,
-        32,
-        52,
-        43,
-        37,
-        62,
-        77,
-        "61,76 80,74 94,91 68,96",
     ),
 )
 
@@ -217,6 +232,84 @@ BUSINESS_TYPES: Final = {
     },
 }
 
+COMPANY_INDUSTRIES: Final[dict[str, CompanyIndustryDefinition]] = {
+    "gastronomy": {
+        "enterprise_value_cents": 20_000_000,
+        "revenue_cents": 3_500_000,
+        "cost_cents": 2_700_000,
+        "employees": 6,
+        "capacity": 2_500,
+        "quality": 5_500,
+        "market_share_bps": 120,
+        "reputation_bps": 5_000,
+        "compliance_bps": 6_500,
+        "innovation_bps": 3_500,
+        "risk_bps": 1_200,
+    },
+    "logistics": {
+        "enterprise_value_cents": 20_000_000,
+        "revenue_cents": 3_500_000,
+        "cost_cents": 2_700_000,
+        "employees": 8,
+        "capacity": 3_000,
+        "quality": 5_000,
+        "market_share_bps": 120,
+        "reputation_bps": 4_800,
+        "compliance_bps": 6_000,
+        "innovation_bps": 4_200,
+        "risk_bps": 1_800,
+    },
+    "technology": {
+        "enterprise_value_cents": 20_000_000,
+        "revenue_cents": 3_500_000,
+        "cost_cents": 2_700_000,
+        "employees": 5,
+        "capacity": 2_200,
+        "quality": 5_200,
+        "market_share_bps": 120,
+        "reputation_bps": 5_200,
+        "compliance_bps": 6_200,
+        "innovation_bps": 6_000,
+        "risk_bps": 1_600,
+    },
+}
+
+COMPANY_INVESTMENTS: Final[dict[str, CompanyInvestmentDefinition]] = {
+    "capacity": {"cost_cents": 500_000, "metric": "capacity", "increase": 500},
+    "quality": {"cost_cents": 750_000, "metric": "quality", "increase": 400},
+    "innovation": {
+        "cost_cents": 1_000_000,
+        "metric": "innovation_bps",
+        "increase": 600,
+    },
+    "compliance": {
+        "cost_cents": 800_000,
+        "metric": "compliance_bps",
+        "increase": 500,
+    },
+}
+
+ECONOMY_MARKETS: Final[dict[str, EconomyMarketDefinition]] = {
+    "gastronomy": {
+        "demand_units": 10_000,
+        "unit_revenue_cents": 1_400,
+        "variable_cost_per_unit_cents": 680,
+        "fixed_cost_cents": 1_000_000,
+    },
+    "logistics": {
+        "demand_units": 10_000,
+        "unit_revenue_cents": 1_167,
+        "variable_cost_per_unit_cents": 600,
+        "fixed_cost_cents": 900_000,
+    },
+    "technology": {
+        "demand_units": 10_000,
+        "unit_revenue_cents": 1_591,
+        "variable_cost_per_unit_cents": 800,
+        "fixed_cost_cents": 940_000,
+    },
+}
+
 FACILITY_TYPES: Final = {
     "headquarters": {"cash": 0, "capital": 0, "hours": 0, "max_level": 5},
     "finance_office": {"cash": 20_000, "capital": 10_000, "hours": 2, "max_level": 5},
@@ -226,15 +319,45 @@ FACILITY_TYPES: Final = {
     "compliance_office": {"cash": 35_000, "capital": 20_000, "hours": 6, "max_level": 5},
 }
 
-SPECIALIST_ROLES: Final = (
-    "strategist",
-    "finance_director",
-    "district_coordinator",
-    "intelligence_analyst",
-    "negotiator",
-    "security_manager",
-    "personnel_manager",
-    "technology_expert",
+SPECIALIST_DEFINITIONS: Final[dict[str, SpecialistRoleDefinition]] = {
+    "finance_director": {
+        "base_salary_cents": 160_000,
+        "primary_skill": "finance",
+        "effect": "cost_reduction_bps",
+    },
+    "technology_expert": {
+        "base_salary_cents": 180_000,
+        "primary_skill": "technology",
+        "effect": "attractiveness_bonus_points",
+    },
+    "market_analyst": {
+        "base_salary_cents": 150_000,
+        "primary_skill": "analysis",
+        "effect": "revenue_bonus_bps",
+    },
+    "compliance_officer": {
+        "base_salary_cents": 165_000,
+        "primary_skill": "compliance",
+        "effect": "attractiveness_bonus_points",
+    },
+    "logistics_expert": {
+        "base_salary_cents": 170_000,
+        "primary_skill": "logistics",
+        "effect": "capacity_bonus_units",
+    },
+    "diplomat": {
+        "base_salary_cents": 155_000,
+        "primary_skill": "diplomacy",
+        "effect": "attractiveness_bonus_points",
+    },
+}
+SPECIALIST_ROLES: Final = tuple(SPECIALIST_DEFINITIONS)
+AI_STRATEGIES: Final = (
+    "growth",
+    "efficiency",
+    "innovation",
+    "market_share",
+    "stability",
 )
 
 OPERATION_TYPES: Final = {
@@ -347,6 +470,112 @@ RESEARCH: Final[dict[str, ResearchDefinition]] = {
     },
 }
 
+WORLD_EVENT_TEMPLATES_V1: Final[dict[str, WorldEventTemplateDefinition]] = {
+    "port_strike": {
+        "title": "Port strike",
+        "description": "A fictional labor dispute constrains logistics capacity and city demand.",
+        "default_scope_type": "city",
+        "default_duration_minutes": 720,
+        "effects": {
+            "revenue_multiplier_bps": 8_500,
+            "cost_multiplier_bps": 11_500,
+            "demand_multiplier_bps": 8_000,
+            "contract_probability_delta_bps": -1_000,
+        },
+    },
+    "technology_boom": {
+        "title": "Technology boom",
+        "description": "Investment and specialist demand accelerate in the technology sector.",
+        "default_scope_type": "industry",
+        "default_duration_minutes": 1_440,
+        "effects": {
+            "revenue_multiplier_bps": 11_500,
+            "demand_multiplier_bps": 11_800,
+            "specialist_salary_multiplier_bps": 10_500,
+            "stock_risk_delta_bps": 500,
+        },
+    },
+    "real_estate_crisis": {
+        "title": "Real-estate crisis",
+        "description": "A fictional property correction changes costs and confidence.",
+        "default_scope_type": "city",
+        "default_duration_minutes": 1_440,
+        "effects": {
+            "cost_multiplier_bps": 10_800,
+            "real_estate_cost_multiplier_bps": 7_000,
+            "reputation_delta_bps": -500,
+            "contract_probability_delta_bps": -700,
+        },
+    },
+    "data_leak": {
+        "title": "Data leak",
+        "description": "An abstract information incident raises uncertainty and scrutiny.",
+        "default_scope_type": "world",
+        "default_duration_minutes": 480,
+        "effects": {
+            "reputation_delta_bps": -800,
+            "investigation_pressure_delta": 12,
+            "stock_risk_delta_bps": 1_500,
+        },
+    },
+    "financial_audit": {
+        "title": "Financial audit",
+        "description": "A fictional compliance review temporarily increases operating pressure.",
+        "default_scope_type": "company",
+        "default_duration_minutes": 720,
+        "effects": {
+            "cost_multiplier_bps": 10_800,
+            "reputation_delta_bps": -300,
+            "investigation_pressure_delta": 10,
+            "contract_probability_delta_bps": -1_000,
+        },
+    },
+}
+
+SEASON_SCORING_CATEGORIES: Final[tuple[str, ...]] = (
+    "wealthiest_player",
+    "portfolio_value",
+    "entrepreneur",
+    "largest_company",
+    "strongest_cartel",
+    "largest_public_company",
+    "dividend_yield",
+    "district_control",
+    "diplomacy",
+    "information_network",
+    "stability",
+    "crisis_recovery",
+)
+
+SEASON_TEMPLATE_V1: Final[SeasonTemplateDefinition] = {
+    "name": "Cologne founding season",
+    "phase_weights_bps": {
+        "setup": 500,
+        "early": 2_500,
+        "mid": 3_500,
+        "late": 2_500,
+        "scoring": 1_000,
+    },
+    "goals": [
+        {
+            "key": "build_company",
+            "title": "Build a sustainable company",
+            "target": 1,
+        },
+        {
+            "key": "form_cartel",
+            "title": "Coordinate a cartel",
+            "target": 1,
+        },
+        {
+            "key": "reach_exchange",
+            "title": "Bring a company to the exchange",
+            "target": 1,
+        },
+    ],
+    "scoring_categories": SEASON_SCORING_CATEGORIES,
+}
+
 WORLD_EVENTS: Final = {
     "port_strike": {"logistics": -20, "economic_activity": -5},
     "financial_audit": {"compliance_risk": 15, "revenue": -5},
@@ -363,6 +592,7 @@ WORLD_EVENTS: Final = {
 }
 
 ROLE_PERMISSIONS: Final = {
+    "leader": {"*"},
     "director": {"*"},
     "deputy": {
         "organization.view",
@@ -480,4 +710,113 @@ ROLE_PERMISSIONS: Final = {
         "alliances.view",
     },
     "candidate": {"organization.view"},
+    "diplomat": {
+        "organization.view",
+        "diplomacy.view",
+        "diplomacy.propose",
+        "diplomacy.accept",
+        "diplomacy.terminate",
+        "wars.negotiate_ceasefire",
+        "alliances.view",
+        "alliances.propose",
+        "alliances.accept",
+        "alliances.terminate",
+    },
+    "strategist": {
+        "organization.view",
+        "projects.create",
+        "projects.view",
+        "territory.view",
+        "territory.claim",
+        "territory.defend",
+        "territory.abandon",
+        "operations.view",
+        "operations.create",
+        "wars.view",
+        "wars.prepare",
+    },
+    "intelligence_officer": {
+        "organization.view",
+        "projects.view",
+        "intel.view_shared",
+        "intel.share",
+        "operations.view",
+        "pvp.view_reports",
+        "pvp.support",
+    },
+    "economic_analyst": {
+        "organization.view",
+        "treasury.view",
+        "audit.view",
+    },
+    "intelligence_coordinator": {
+        "organization.view",
+        "intel.view_shared",
+        "intel.share",
+        "operations.view",
+    },
+    "project_manager": {
+        "organization.view",
+        "projects.view",
+        "projects.create",
+    },
+    "trainer": {"organization.view", "mentoring.view"},
+    "archivist": {
+        "organization.view",
+        "chronicle.view",
+        "chronicle.create",
+    },
+    "event_planner": {
+        "organization.view",
+        "projects.view",
+        "operations.view",
+    },
+}
+
+CARTEL_PROJECT_TEMPLATES: Final[dict[str, CartelProjectTemplate]] = {
+    "logistics_hub": {
+        "title": "Logistics hub",
+        "cash_cents": 1_500_000,
+        "influence": 40,
+        "intelligence": 10,
+        "duration_hours": 72,
+        "influence_kind": "economic",
+        "influence_reward": 70,
+    },
+    "technology_center": {
+        "title": "Technology center",
+        "cash_cents": 2_000_000,
+        "influence": 30,
+        "intelligence": 30,
+        "duration_hours": 96,
+        "influence_kind": "digital",
+        "influence_reward": 80,
+    },
+    "media_campaign": {
+        "title": "Media campaign",
+        "cash_cents": 750_000,
+        "influence": 60,
+        "intelligence": 20,
+        "duration_hours": 48,
+        "influence_kind": "social",
+        "influence_reward": 55,
+    },
+    "compliance_network": {
+        "title": "Compliance network",
+        "cash_cents": 1_250_000,
+        "influence": 25,
+        "intelligence": 50,
+        "duration_hours": 72,
+        "influence_kind": "society",
+        "influence_reward": 60,
+    },
+    "trade_center": {
+        "title": "Trade center",
+        "cash_cents": 2_500_000,
+        "influence": 70,
+        "intelligence": 20,
+        "duration_hours": 120,
+        "influence_kind": "economic",
+        "influence_reward": 100,
+    },
 }

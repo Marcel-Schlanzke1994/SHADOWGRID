@@ -1,0 +1,75 @@
+{
+  "asset_id": "icon-status-failed-v1",
+  "manifest_order": 759,
+  "category": "icon",
+  "batch": "ui-icons",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "24:24",
+  "width": 24,
+  "height": 24,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/icon-status-failed-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100759,
+  "content_hash": "beff634ee9dc7c760a77e9cbe81bf40c38d496bfa7594fc6cf1a9dc18d1ef10a",
+  "source_file": "assets/source/icons/icon-status-failed-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/icon-status-failed-v1.svg",
+      "bytes": 548,
+      "sha256": "beff634ee9dc7c760a77e9cbe81bf40c38d496bfa7594fc6cf1a9dc18d1ef10a"
+    },
+    {
+      "path": "assets/production/webp/icon-status-failed-v1-320.webp",
+      "bytes": 4326,
+      "sha256": "f6734c7d7fcfd0b3c2b23948cfd1f9adb7a1eefde77b4b8d87841cfa461396ee"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/icon-status-failed-v1.webp",
+      "bytes": 4326,
+      "sha256": "f6734c7d7fcfd0b3c2b23948cfd1f9adb7a1eefde77b4b8d87841cfa461396ee"
+    },
+    {
+      "path": "apps/mobile/assets/library/icon-status-failed-v1.webp",
+      "bytes": 4326,
+      "sha256": "f6734c7d7fcfd0b3c2b23948cfd1f9adb7a1eefde77b4b8d87841cfa461396ee"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 548
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:51:39.525Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

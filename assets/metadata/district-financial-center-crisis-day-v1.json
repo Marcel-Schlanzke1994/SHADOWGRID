@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-financial-center-crisis-day-v1",
+  "manifest_order": 371,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "crisis-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-financial-center-crisis-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100371,
+  "content_hash": "55231de285f4e9ab82b5aa9e582f0d9a3338a22de27c5b8ad54334fb394175f4",
+  "source_file": "assets/source/districts/district-financial-center-crisis-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-financial-center-crisis-day-v1-320.avif",
+      "bytes": 2936,
+      "sha256": "7305954ea64aff4c2596931a67858c66df315ec7363bbbcf959406f8bc17d64f"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-crisis-day-v1-320.webp",
+      "bytes": 2662,
+      "sha256": "74ab977b06d9556a0e9cc1968f95adb135d2583995d4f44a367dff4479ea9622"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-crisis-day-v1-640.avif",
+      "bytes": 6781,
+      "sha256": "64139ab99de0a786cb471e703c607e5930c48b12b884db04f8666b1640445719"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-crisis-day-v1-640.webp",
+      "bytes": 5336,
+      "sha256": "9272a5ff75d447e00ed87754c52f28d69358d1c89faa3b77cd9125b6d7dea064"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-crisis-day-v1-960.avif",
+      "bytes": 10602,
+      "sha256": "11ee9281f6b6299ec6dd5f0f455b59f9ffb557a63ee36b910bf29f9ce00bf971"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-crisis-day-v1-960.webp",
+      "bytes": 8628,
+      "sha256": "4a236f818e8baba5b51a0fd27601952476b40a64cededc630d1739c28df9a333"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-crisis-day-v1-1280.avif",
+      "bytes": 14893,
+      "sha256": "04c037a2f2c4232e760d9492d93fcd6fd316a8710ef1e20c8c62e78681c08ebd"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-crisis-day-v1-1280.webp",
+      "bytes": 11158,
+      "sha256": "a926046c4d003aedab5257c3db011cbc38b29a27b76c156db7cc51f43e49e90a"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-crisis-day-v1-1920.avif",
+      "bytes": 22349,
+      "sha256": "74956b72e571337f0ad5e3bfd56ed40d16b62c0ddeb833b6cafd3a25106db5ca"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-crisis-day-v1-1920.webp",
+      "bytes": 17752,
+      "sha256": "11aa0dd078f61d4c837cf87ab2f10c5dd514d0f67dcd0911338c3862af57917c"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-crisis-day-v1-2560.avif",
+      "bytes": 29493,
+      "sha256": "7fb6c6a824faf43a07aacb70f30ed503d52cf87ed0a4f0f27ca7c2ade6a489e9"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-crisis-day-v1-2560.webp",
+      "bytes": 24736,
+      "sha256": "716fd750b1a921d5b9534ae748ac2f44376897540ecd6e17be95054ef76fc498"
+    },
+    {
+      "path": "assets/production/avif/district-financial-center-crisis-day-v1-3840.avif",
+      "bytes": 47951,
+      "sha256": "897ff71f1eafaa4c9c5ef1caa4a865235acc147625945ac5c2232b7361a6ef9d"
+    },
+    {
+      "path": "assets/production/webp/district-financial-center-crisis-day-v1-3840.webp",
+      "bytes": 43302,
+      "sha256": "cc7278aae1a6d1a52dbe56959c5bbbd29336f829821ef9b4e51683996068dfbb"
+    },
+    {
+      "path": "assets/production/png/district-financial-center-crisis-day-v1-1280.png",
+      "bytes": 631594,
+      "sha256": "bd4e5adccdc39bf8d9af07521fa873e742b786b1f64731da8dbe9aed29a38159"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-financial-center-crisis-day-v1.webp",
+      "bytes": 2662,
+      "sha256": "74ab977b06d9556a0e9cc1968f95adb135d2583995d4f44a367dff4479ea9622"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-financial-center-crisis-day-v1.webp",
+      "bytes": 2662,
+      "sha256": "74ab977b06d9556a0e9cc1968f95adb135d2583995d4f44a367dff4479ea9622"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:04.441Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1433906
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:20:12.728Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

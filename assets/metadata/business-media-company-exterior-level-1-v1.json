@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-media-company-exterior-level-1-v1",
+  "manifest_order": 505,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "exterior-level-1",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-media-company-exterior-level-1-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100505,
+  "content_hash": "a303880312fc12a7926e8b0f316107aeff6050f7eef79285872b15dc22adec21",
+  "source_file": "assets/source/businesses/business-media-company-exterior-level-1-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-media-company-exterior-level-1-v1-320.avif",
+      "bytes": 3041,
+      "sha256": "2727cc88c2a64456d6d91b3444a93664b26b4926f2e4009b079b9608312bc7fa"
+    },
+    {
+      "path": "assets/production/webp/business-media-company-exterior-level-1-v1-320.webp",
+      "bytes": 2570,
+      "sha256": "c98f2068efdfc45553707390ac505d0fe6200a09b835ec3ba7eeb7fc1aed8dfe"
+    },
+    {
+      "path": "assets/production/avif/business-media-company-exterior-level-1-v1-640.avif",
+      "bytes": 6670,
+      "sha256": "a6b65cf6eeb93a14ce65cc2a534f82dc2b537a7664fefdbee09f23c3364eac25"
+    },
+    {
+      "path": "assets/production/webp/business-media-company-exterior-level-1-v1-640.webp",
+      "bytes": 5376,
+      "sha256": "175e2b16372acb92984bcada88b23c2206d89afaca1104a2573641f1a5d4443d"
+    },
+    {
+      "path": "assets/production/avif/business-media-company-exterior-level-1-v1-960.avif",
+      "bytes": 10324,
+      "sha256": "01483eb2eacc28d44d524cf223e94069fe3c9f654b875459289f8923b5514a88"
+    },
+    {
+      "path": "assets/production/webp/business-media-company-exterior-level-1-v1-960.webp",
+      "bytes": 8934,
+      "sha256": "fc3d1337bc7d7ac70c8ca91c77606e298c12b40bf9b280ec00e16bb36260dbfa"
+    },
+    {
+      "path": "assets/production/avif/business-media-company-exterior-level-1-v1-1280.avif",
+      "bytes": 14610,
+      "sha256": "cf600a41e55e4a0244c03a1c3138e88fb1382a0ad426b209638da1b5f57e19ea"
+    },
+    {
+      "path": "assets/production/webp/business-media-company-exterior-level-1-v1-1280.webp",
+      "bytes": 11894,
+      "sha256": "38f26107e14255fd9b94b3c2a644d2907562f689300c6d3f72fa5b379eed5acc"
+    },
+    {
+      "path": "assets/production/avif/business-media-company-exterior-level-1-v1-1920.avif",
+      "bytes": 22163,
+      "sha256": "0bc096da20de8ce0f4e243842e764fa17675f28713178b889021121be106c5e5"
+    },
+    {
+      "path": "assets/production/webp/business-media-company-exterior-level-1-v1-1920.webp",
+      "bytes": 19120,
+      "sha256": "aac4ca1d6946d33bd3bda76a2bf1f0fa84480536884392f88dcb74b570703c9d"
+    },
+    {
+      "path": "assets/production/avif/business-media-company-exterior-level-1-v1-2560.avif",
+      "bytes": 30056,
+      "sha256": "77f9820f22edad2153d9593e9cf8625e2de1ea6e8ab77fb1a0ec18dd610edbb0"
+    },
+    {
+      "path": "assets/production/webp/business-media-company-exterior-level-1-v1-2560.webp",
+      "bytes": 26114,
+      "sha256": "2d953ae2c66fa45e5c24f1584e886daabae3a8a297165b66d70dcf790d05d2f1"
+    },
+    {
+      "path": "assets/production/avif/business-media-company-exterior-level-1-v1-3840.avif",
+      "bytes": 48875,
+      "sha256": "414f459eb47fcbcac81af02f76d0760e866c60577ca16a1ac80a02d8da548089"
+    },
+    {
+      "path": "assets/production/webp/business-media-company-exterior-level-1-v1-3840.webp",
+      "bytes": 44752,
+      "sha256": "3cbfd171e29826fcdfcdedd82d57af953b6da913aac1d6f97ed48bb364c13f1b"
+    },
+    {
+      "path": "assets/production/png/business-media-company-exterior-level-1-v1-1280.png",
+      "bytes": 631422,
+      "sha256": "44a4a914e1bdae94e3080b343de4449914f07727536f81547d8ce89ec90f4e51"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-media-company-exterior-level-1-v1.webp",
+      "bytes": 2570,
+      "sha256": "c98f2068efdfc45553707390ac505d0fe6200a09b835ec3ba7eeb7fc1aed8dfe"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-media-company-exterior-level-1-v1.webp",
+      "bytes": 2570,
+      "sha256": "c98f2068efdfc45553707390ac505d0fe6200a09b835ec3ba7eeb7fc1aed8dfe"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.782Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1439876
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:05:03.762Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

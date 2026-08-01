@@ -1,0 +1,75 @@
+{
+  "asset_id": "icon-navigation-command-v1",
+  "manifest_order": 720,
+  "category": "icon",
+  "batch": "ui-icons",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "24:24",
+  "width": 24,
+  "height": 24,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/icon-navigation-command-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100720,
+  "content_hash": "a6a91ced9e85373b9d01af92c8051e08a5bf69da6c583b205255070fc788d1e8",
+  "source_file": "assets/source/icons/icon-navigation-command-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/icon-navigation-command-v1.svg",
+      "bytes": 588,
+      "sha256": "a6a91ced9e85373b9d01af92c8051e08a5bf69da6c583b205255070fc788d1e8"
+    },
+    {
+      "path": "assets/production/webp/icon-navigation-command-v1-320.webp",
+      "bytes": 2084,
+      "sha256": "e9a9be2143033b068d26d01f989cdc1c8dfd4d158204ac624da65f67a33534c9"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/icon-navigation-command-v1.webp",
+      "bytes": 2084,
+      "sha256": "e9a9be2143033b068d26d01f989cdc1c8dfd4d158204ac624da65f67a33534c9"
+    },
+    {
+      "path": "apps/mobile/assets/library/icon-navigation-command-v1.webp",
+      "bytes": 2084,
+      "sha256": "e9a9be2143033b068d26d01f989cdc1c8dfd4d158204ac624da65f67a33534c9"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 588
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:51:35.552Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

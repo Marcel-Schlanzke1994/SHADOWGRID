@@ -23,6 +23,11 @@
       "path": "assets/production/svg/city-duesseldorf-silhouette-v1.svg",
       "bytes": 3771,
       "sha256": "7a8fc5647d7027dbfd01c3ec39d603bc2f2cd60f7d955c239cc9661acdd8464b"
+    },
+    {
+      "path": "assets/production/webp/city-duesseldorf-silhouette-v1-320.webp",
+      "bytes": 3372,
+      "sha256": "9ff957148819e3da67f43818464d7cfa2513de6f42747d5a1b9ad4db5b6534c4"
     }
   ],
   "runtime_files": [
@@ -30,16 +35,56 @@
       "path": "apps/web/public/assets/cities/city-duesseldorf-silhouette-v1.svg",
       "bytes": 3771,
       "sha256": "7a8fc5647d7027dbfd01c3ec39d603bc2f2cd60f7d955c239cc9661acdd8464b"
+    },
+    {
+      "path": "apps/web/public/assets/cities/city-duesseldorf-silhouette-v1-320.webp",
+      "bytes": 3372,
+      "sha256": "9ff957148819e3da67f43818464d7cfa2513de6f42747d5a1b9ad4db5b6534c4"
+    },
+    {
+      "path": "apps/web/public/assets/library/city-duesseldorf-silhouette-v1.webp",
+      "bytes": 3372,
+      "sha256": "9ff957148819e3da67f43818464d7cfa2513de6f42747d5a1b9ad4db5b6534c4"
+    },
+    {
+      "path": "apps/mobile/assets/library/city-duesseldorf-silhouette-v1.webp",
+      "bytes": 3372,
+      "sha256": "9ff957148819e3da67f43818464d7cfa2513de6f42747d5a1b9ad4db5b6534c4"
     }
   ],
   "contains_text": false,
   "contains_real_people": false,
   "contains_real_logos": false,
   "moderation_status": "approved",
-  "quality_score": 88,
+  "quality_score": 92.9,
   "quality_status": "approved",
-  "review_status": "automatic-approved",
-  "visual_review": null,
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:22:40.340Z",
+    "scores": {
+      "realism": 92,
+      "style_consistency": 94,
+      "composition": 93,
+      "material_quality": 91,
+      "light_quality": 92,
+      "architecture_plausibility": 93,
+      "ui_suitability": 94,
+      "mobile_suitability": 92,
+      "originality": 88,
+      "safety_compliance": 100,
+      "small_size_legibility": 90,
+      "contrast": 93,
+      "geometry_quality": 94,
+      "technical_quality": 96
+    },
+    "notes": [
+      "All 14 paged contact sheets were inspected at original resolution.",
+      "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+      "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+    ]
+  },
   "technical_validation": {
     "ok": true,
     "issues": [],

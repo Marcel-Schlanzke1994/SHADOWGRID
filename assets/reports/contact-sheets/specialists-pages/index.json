@@ -1,0 +1,75 @@
+{
+  "schema": "shadowgrid/contact-sheet-pages/v1",
+  "batch": "specialists",
+  "generated_at": "2026-07-30T06:16:39.368Z",
+  "asset_count": 48,
+  "page_size": 18,
+  "pages": [
+    {
+      "page": 1,
+      "path": "assets/reports/contact-sheets/specialists-pages/page-001.png",
+      "assets": [
+        "character-strategist-younger-woman-v1",
+        "character-strategist-younger-man-v1",
+        "character-strategist-experienced-woman-v1",
+        "character-strategist-experienced-man-v1",
+        "character-finance-lead-younger-woman-v1",
+        "character-finance-lead-younger-man-v1",
+        "character-finance-lead-experienced-woman-v1",
+        "character-finance-lead-experienced-man-v1",
+        "character-district-coordination-younger-woman-v1",
+        "character-district-coordination-younger-man-v1",
+        "character-district-coordination-experienced-woman-v1",
+        "character-district-coordination-experienced-man-v1",
+        "character-information-analysis-younger-woman-v1",
+        "character-information-analysis-younger-man-v1",
+        "character-information-analysis-experienced-woman-v1",
+        "character-information-analysis-experienced-man-v1",
+        "character-negotiation-younger-woman-v1",
+        "character-negotiation-younger-man-v1"
+      ]
+    },
+    {
+      "page": 2,
+      "path": "assets/reports/contact-sheets/specialists-pages/page-002.png",
+      "assets": [
+        "character-negotiation-experienced-woman-v1",
+        "character-negotiation-experienced-man-v1",
+        "character-security-management-younger-woman-v1",
+        "character-security-management-younger-man-v1",
+        "character-security-management-experienced-woman-v1",
+        "character-security-management-experienced-man-v1",
+        "character-personnel-management-younger-woman-v1",
+        "character-personnel-management-younger-man-v1",
+        "character-personnel-management-experienced-woman-v1",
+        "character-personnel-management-experienced-man-v1",
+        "character-technology-expert-younger-woman-v1",
+        "character-technology-expert-younger-man-v1",
+        "character-technology-expert-experienced-woman-v1",
+        "character-technology-expert-experienced-man-v1",
+        "avatar-boss-player-preset-01-v1",
+        "avatar-boss-player-preset-02-v1",
+        "avatar-boss-player-preset-03-v1",
+        "avatar-boss-player-preset-04-v1"
+      ]
+    },
+    {
+      "page": 3,
+      "path": "assets/reports/contact-sheets/specialists-pages/page-003.png",
+      "assets": [
+        "avatar-boss-player-preset-05-v1",
+        "avatar-boss-player-preset-06-v1",
+        "avatar-boss-player-preset-07-v1",
+        "avatar-boss-player-preset-08-v1",
+        "avatar-boss-player-preset-09-v1",
+        "avatar-boss-player-preset-10-v1",
+        "avatar-boss-player-preset-11-v1",
+        "avatar-boss-player-preset-12-v1",
+        "avatar-boss-player-preset-13-v1",
+        "avatar-boss-player-preset-14-v1",
+        "avatar-boss-player-preset-15-v1",
+        "avatar-boss-player-preset-16-v1"
+      ]
+    }
+  ]
+}

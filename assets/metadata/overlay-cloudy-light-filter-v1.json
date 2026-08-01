@@ -1,0 +1,171 @@
+{
+  "asset_id": "overlay-cloudy-light-filter-v1",
+  "manifest_order": 822,
+  "category": "overlay",
+  "batch": "weather-overlays",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/overlay-cloudy-light-filter-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100822,
+  "content_hash": "9543148618ced8de9e2d714488105292b2a6d11fa3d1e51bc92f75e90be44cab",
+  "source_file": "assets/source/effects/overlay-cloudy-light-filter-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/overlay-cloudy-light-filter-v1-320.avif",
+      "bytes": 5332,
+      "sha256": "5c91aa39b46ee02a672097b6ef1f5bd8f7c07477aca7fd899f69f726ffcfae16"
+    },
+    {
+      "path": "assets/production/webp/overlay-cloudy-light-filter-v1-320.webp",
+      "bytes": 11512,
+      "sha256": "b86b813145b17b094d12a04c80faab94f656cef793925f9bfddfedc45a535654"
+    },
+    {
+      "path": "assets/production/avif/overlay-cloudy-light-filter-v1-640.avif",
+      "bytes": 11658,
+      "sha256": "89c3575bf12950078ef69fc998d7f8b3e2a8b8b2d34a5c757ab262736c84d81d"
+    },
+    {
+      "path": "assets/production/webp/overlay-cloudy-light-filter-v1-640.webp",
+      "bytes": 24064,
+      "sha256": "9360ebf5b6a7389f63ed97d3f789747ad6ee2d376917c0af76dcb511bebfa582"
+    },
+    {
+      "path": "assets/production/avif/overlay-cloudy-light-filter-v1-960.avif",
+      "bytes": 24135,
+      "sha256": "311ebb5e6304c16ff60d72640ff06ed70ab2d1c61044f3a5065bdb670c2e7ca2"
+    },
+    {
+      "path": "assets/production/webp/overlay-cloudy-light-filter-v1-960.webp",
+      "bytes": 38794,
+      "sha256": "bd1b83fd1a212b869348281291fb17ad4fa38ef9bbc8be5f676ae7af3ac200e2"
+    },
+    {
+      "path": "assets/production/avif/overlay-cloudy-light-filter-v1-1280.avif",
+      "bytes": 35215,
+      "sha256": "4da10444e257034da4353fe87d59bab502c54002b58103f37ab12b7a2a4d1d82"
+    },
+    {
+      "path": "assets/production/webp/overlay-cloudy-light-filter-v1-1280.webp",
+      "bytes": 52752,
+      "sha256": "77ba9811f78cfbfe6c81d115fae7c6549f1da4ab5256ee0cda4ee77b2eb30261"
+    },
+    {
+      "path": "assets/production/avif/overlay-cloudy-light-filter-v1-1920.avif",
+      "bytes": 56069,
+      "sha256": "5ca57513a3686269815186f85abe25b77a88cd6d6e5eeb8747aebf7a9e2aa98f"
+    },
+    {
+      "path": "assets/production/webp/overlay-cloudy-light-filter-v1-1920.webp",
+      "bytes": 80468,
+      "sha256": "66f8d191a25c6de06e2f53bb5344fd88299c27f6858c53d060034b80b3370ec4"
+    },
+    {
+      "path": "assets/production/avif/overlay-cloudy-light-filter-v1-2560.avif",
+      "bytes": 70248,
+      "sha256": "853944ce9e0cd75a868cecf9b86dddc7dead10a01b9efbdcbe760bb2867e8c01"
+    },
+    {
+      "path": "assets/production/webp/overlay-cloudy-light-filter-v1-2560.webp",
+      "bytes": 88978,
+      "sha256": "19a1ded45f6c3d2f3254e8781883f4d7e129fdb187c44ba910d6c23aa9adf7cc"
+    },
+    {
+      "path": "assets/production/avif/overlay-cloudy-light-filter-v1-3840.avif",
+      "bytes": 115535,
+      "sha256": "02951053072cb15ddc2240a3ef513027e5a507669cc3703c2fb169f27668e052"
+    },
+    {
+      "path": "assets/production/webp/overlay-cloudy-light-filter-v1-3840.webp",
+      "bytes": 149810,
+      "sha256": "02dfb7905dd5932d0603935b53cc30c5be46ee846c25caacded2d8e2218e7804"
+    },
+    {
+      "path": "assets/production/png/overlay-cloudy-light-filter-v1-1280.png",
+      "bytes": 107550,
+      "sha256": "edae03a4aae833cbb460edcaa5a9c993f590e74adaf346ec17e4811f593b00ca"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/overlay-cloudy-light-filter-v1.webp",
+      "bytes": 11512,
+      "sha256": "b86b813145b17b094d12a04c80faab94f656cef793925f9bfddfedc45a535654"
+    },
+    {
+      "path": "apps/mobile/assets/library/overlay-cloudy-light-filter-v1.webp",
+      "bytes": 11512,
+      "sha256": "b86b813145b17b094d12a04c80faab94f656cef793925f9bfddfedc45a535654"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.4,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:28.110Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 93,
+      "architecture_plausibility": 90,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 92,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Boom, crisis, authority, organization control, contested, and blocked states use distinct graph, scan, zone, cross, and hatch semantics.",
+      "Transparent weather and material overlays were checked against the contact-sheet dark background; no unintended opaque fill or broken render remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": true,
+      "bytes": 103089
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T06:03:49.441Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "asset_id": "pvp-information-operation-preparation-v1",
+  "manifest_order": 586,
+  "category": "pvp",
+  "batch": "pvp",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "preparation",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/pvp-information-operation-preparation-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100586,
+  "content_hash": "9ce6cc8857410eaffbe53a9ed4e26ca5fafacf03d15448c1341a7c6c1c991c5f",
+  "source_file": "assets/source/pvp/pvp-information-operation-preparation-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/pvp-information-operation-preparation-v1-320.avif",
+      "bytes": 2733,
+      "sha256": "dc67f81f75c261ee44633c46c6b0d722984edd41e19179c82e6c1395988e66b2"
+    },
+    {
+      "path": "assets/production/webp/pvp-information-operation-preparation-v1-320.webp",
+      "bytes": 1890,
+      "sha256": "14e102b7712698c15095e99175fc54d2482e8219f86ac88c09b16320294f3b26"
+    },
+    {
+      "path": "assets/production/avif/pvp-information-operation-preparation-v1-640.avif",
+      "bytes": 6321,
+      "sha256": "a85162c34d90d0ec308d06c8360f6949506799d1740812118a1ffb62c6095780"
+    },
+    {
+      "path": "assets/production/webp/pvp-information-operation-preparation-v1-640.webp",
+      "bytes": 5014,
+      "sha256": "977a1dd6364fb6f0e1e9858813e393ebb6dea6e3e6e06bc6266e9c60b06badc0"
+    },
+    {
+      "path": "assets/production/avif/pvp-information-operation-preparation-v1-960.avif",
+      "bytes": 12339,
+      "sha256": "bcf46c88e03cf02fc9704d93686fdcbdb8b66b45d12c8de6acc33f50f52b7560"
+    },
+    {
+      "path": "assets/production/webp/pvp-information-operation-preparation-v1-960.webp",
+      "bytes": 9286,
+      "sha256": "488dd138571e1907a61e01133a78d92134d51f5012f3c3dfc47e8e2ffc97db6e"
+    },
+    {
+      "path": "assets/production/avif/pvp-information-operation-preparation-v1-1280.avif",
+      "bytes": 18102,
+      "sha256": "5247c6cc9310a4d53cd0f5385b689f08ad4d4901b3400f4013d4b0a5002e0072"
+    },
+    {
+      "path": "assets/production/webp/pvp-information-operation-preparation-v1-1280.webp",
+      "bytes": 13716,
+      "sha256": "29562d4e1ecc3185f5a07ad1bfab23fb7e5c18611d2ad9b91efb6fffe4cb9c19"
+    },
+    {
+      "path": "assets/production/avif/pvp-information-operation-preparation-v1-1920.avif",
+      "bytes": 27602,
+      "sha256": "437f71eee04c0de58614b65389749552ac7d8189f56895e346ed37ed593aba83"
+    },
+    {
+      "path": "assets/production/webp/pvp-information-operation-preparation-v1-1920.webp",
+      "bytes": 22942,
+      "sha256": "6717c7c60309c83c4b940168d05efa04353ba0e04428e502431129878d06721c"
+    },
+    {
+      "path": "assets/production/avif/pvp-information-operation-preparation-v1-2560.avif",
+      "bytes": 36294,
+      "sha256": "631dc861f4e902ba8815daeac5bd7340778e6c94074b1b8d1f2e84c898a10ffe"
+    },
+    {
+      "path": "assets/production/webp/pvp-information-operation-preparation-v1-2560.webp",
+      "bytes": 31044,
+      "sha256": "075a42e02d546153746cdfd96b5de4cf1fd08e16cee44fef35d8b02732c90a8c"
+    },
+    {
+      "path": "assets/production/avif/pvp-information-operation-preparation-v1-3840.avif",
+      "bytes": 56456,
+      "sha256": "9f30e7348b042ccb15864b898cefe9883e5ae7be607225ba0cf961ce39b51f92"
+    },
+    {
+      "path": "assets/production/webp/pvp-information-operation-preparation-v1-3840.webp",
+      "bytes": 50322,
+      "sha256": "f5c4dd0880a6c06ec9a28968a7eb9ff708de7250c57da3a60fd35c8f2eae178c"
+    },
+    {
+      "path": "assets/production/png/pvp-information-operation-preparation-v1-1280.png",
+      "bytes": 170293,
+      "sha256": "83d90912f111eb1117b3dfbf931da481eeefbec211c0ce1e15ef8a5e59d7e867"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/pvp-information-operation-preparation-v1.webp",
+      "bytes": 1890,
+      "sha256": "14e102b7712698c15095e99175fc54d2482e8219f86ac88c09b16320294f3b26"
+    },
+    {
+      "path": "apps/mobile/assets/library/pvp-information-operation-preparation-v1.webp",
+      "bytes": 1890,
+      "sha256": "14e102b7712698c15095e99175fc54d2482e8219f86ac88c09b16320294f3b26"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:48.864Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 93,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Preparation, success, and failure remain abstract strategic game states without actionable real-world attack or sabotage detail.",
+      "No missing render, unsafe instruction, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 203827
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:25:53.983Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

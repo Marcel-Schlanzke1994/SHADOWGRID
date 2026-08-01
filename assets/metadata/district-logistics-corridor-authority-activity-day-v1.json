@@ -1,0 +1,171 @@
+{
+  "asset_id": "district-logistics-corridor-authority-activity-day-v1",
+  "manifest_order": 437,
+  "category": "district",
+  "batch": "districts",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "authority-activity-day",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/district-logistics-corridor-authority-activity-day-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100437,
+  "content_hash": "be511cf5f4cd6dfb929d17f8a1ef13ecdfdc0b86a71f71894d8f6aa847f59662",
+  "source_file": "assets/source/districts/district-logistics-corridor-authority-activity-day-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/district-logistics-corridor-authority-activity-day-v1-320.avif",
+      "bytes": 3054,
+      "sha256": "5cfd9bb1a53de1ab719a662295973444bebc73a98c80879045e139b32237fdf1"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-authority-activity-day-v1-320.webp",
+      "bytes": 2578,
+      "sha256": "d28882ff974cb00b6b96b5fe01eecc5edd7af3e981fbca5feb4846d1a7628873"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-authority-activity-day-v1-640.avif",
+      "bytes": 6486,
+      "sha256": "f60d73630eac44dcdb7be8acdbf9b1a8d498277ea2bbaf8fd49a52fe084bb575"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-authority-activity-day-v1-640.webp",
+      "bytes": 5364,
+      "sha256": "95e1f97c829e0afecdf2383c9ae1a4a8a3c6bde4219c406f6e23d3f09dfc1d8a"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-authority-activity-day-v1-960.avif",
+      "bytes": 10802,
+      "sha256": "4a2aac9109afef8c330ba4c5e59cb4cc81738dab59cf822fcdb999c05d6474e5"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-authority-activity-day-v1-960.webp",
+      "bytes": 8932,
+      "sha256": "f9d783efeadc1a6b91ff53b3018e52a0022d13a8ced241ee10e0cf2c947dad05"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-authority-activity-day-v1-1280.avif",
+      "bytes": 15411,
+      "sha256": "f4c854c0451841abab157dd386f6d630701b69e17b95f9e966cbef951e057605"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-authority-activity-day-v1-1280.webp",
+      "bytes": 11996,
+      "sha256": "164aa06501732a8fa60ff26dd448c2cd98ee0a9db76affa20ef91d5dfe29a1e7"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-authority-activity-day-v1-1920.avif",
+      "bytes": 22948,
+      "sha256": "cf8ea67deef39731538537ab43068487aaf3a2b1080229fc7bd76cdf50a5500e"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-authority-activity-day-v1-1920.webp",
+      "bytes": 19164,
+      "sha256": "29280deff4e35d7cd8c1b401f814a12edd4236ebe8a9ab62fe5ff7e1ce013b72"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-authority-activity-day-v1-2560.avif",
+      "bytes": 30273,
+      "sha256": "8187ac9516f2ba3984db8d0b41a8f472e8ebf371c6d24358c30779d1bdc9c7cc"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-authority-activity-day-v1-2560.webp",
+      "bytes": 25928,
+      "sha256": "50b1d984be689f492428af58f51e5001184c5f8da200792b7c15131fa2733026"
+    },
+    {
+      "path": "assets/production/avif/district-logistics-corridor-authority-activity-day-v1-3840.avif",
+      "bytes": 50061,
+      "sha256": "00edbdc390988d85b2ce2c01b3f3f84bac319a5c04483dbe7f27626a367cd41d"
+    },
+    {
+      "path": "assets/production/webp/district-logistics-corridor-authority-activity-day-v1-3840.webp",
+      "bytes": 45316,
+      "sha256": "aeabe8e7b6de2f24f43d3b1293771ec3a59cb9f0686b68940e913584a2bf8001"
+    },
+    {
+      "path": "assets/production/png/district-logistics-corridor-authority-activity-day-v1-1280.png",
+      "bytes": 633881,
+      "sha256": "a58fb2384c8420fb8313ed7f312aa2c59d6eb7222ee57866ed95de2198c11af8"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/district-logistics-corridor-authority-activity-day-v1.webp",
+      "bytes": 2578,
+      "sha256": "d28882ff974cb00b6b96b5fe01eecc5edd7af3e981fbca5feb4846d1a7628873"
+    },
+    {
+      "path": "apps/mobile/assets/library/district-logistics-corridor-authority-activity-day-v1.webp",
+      "bytes": 2578,
+      "sha256": "d28882ff974cb00b6b96b5fe01eecc5edd7af3e981fbca5feb4846d1a7628873"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.2,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:05.225Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All six paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Neutral, boom, crisis, and authority states are now consistently separated by gold, green, red descending, and blue scan semantics.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous crisis/authority state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1441648
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T03:43:43.582Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "asset_id": "facility-logistics-center-maximum-level-v1",
+  "manifest_order": 525,
+  "category": "facility",
+  "batch": "facilities",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "maximum-level",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/facility-logistics-center-maximum-level-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100525,
+  "content_hash": "af0800983394ea58577595ab5be2ad67a0adfa32291af089f71dcf99581858c8",
+  "source_file": "assets/source/facilities/facility-logistics-center-maximum-level-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/facility-logistics-center-maximum-level-v1-320.avif",
+      "bytes": 3052,
+      "sha256": "eced353bac83368f739dd0a8f6e3c9d8455d3271f2b9561c173985cf55d5efc7"
+    },
+    {
+      "path": "assets/production/webp/facility-logistics-center-maximum-level-v1-320.webp",
+      "bytes": 2936,
+      "sha256": "3ac8a10473fac8b40c2baba4aad4f710d5e7334b86bc6d73a2fd27a2336029ce"
+    },
+    {
+      "path": "assets/production/avif/facility-logistics-center-maximum-level-v1-640.avif",
+      "bytes": 6504,
+      "sha256": "79d4f4076b6d414a15ae1ca222b559eb4a23359cc714dc2e8cdeaf265ded368c"
+    },
+    {
+      "path": "assets/production/webp/facility-logistics-center-maximum-level-v1-640.webp",
+      "bytes": 5962,
+      "sha256": "6f31aaf8d2dab0f22bfae4daa313cdbc305dc69fcb4a5f0a6e46ed656a3992ad"
+    },
+    {
+      "path": "assets/production/avif/facility-logistics-center-maximum-level-v1-960.avif",
+      "bytes": 11134,
+      "sha256": "bebd3c3031537200c2b0d161d6d6cc69f568d685c998c84be362b630744f389f"
+    },
+    {
+      "path": "assets/production/webp/facility-logistics-center-maximum-level-v1-960.webp",
+      "bytes": 9826,
+      "sha256": "4203dbae23b1a38e2655030a21376e20db910c8e8ad4bfb857456aabf3b5f045"
+    },
+    {
+      "path": "assets/production/avif/facility-logistics-center-maximum-level-v1-1280.avif",
+      "bytes": 15639,
+      "sha256": "e25de4f2c8e599605dc12fb762a011e07c29c9a2c25e0a5182f3105992b4fcc1"
+    },
+    {
+      "path": "assets/production/webp/facility-logistics-center-maximum-level-v1-1280.webp",
+      "bytes": 13096,
+      "sha256": "017e77e4b2b307ea847a672f58aed837db8c36f26a1cfba3253f9701f77571f3"
+    },
+    {
+      "path": "assets/production/avif/facility-logistics-center-maximum-level-v1-1920.avif",
+      "bytes": 23350,
+      "sha256": "441cb8eb5c30262fe3c01290d29e644580dd1eb01b24a02226e607d491cf7996"
+    },
+    {
+      "path": "assets/production/webp/facility-logistics-center-maximum-level-v1-1920.webp",
+      "bytes": 20320,
+      "sha256": "4ab1510fe9ba95eb1a34419cb31e0c99841fe29ec74dbd4414c5db90f582c10c"
+    },
+    {
+      "path": "assets/production/avif/facility-logistics-center-maximum-level-v1-2560.avif",
+      "bytes": 31549,
+      "sha256": "3390d4705bba2ad1f5dc782b87769fc049401a1fc5fe26dcec45722c9225c8fe"
+    },
+    {
+      "path": "assets/production/webp/facility-logistics-center-maximum-level-v1-2560.webp",
+      "bytes": 27940,
+      "sha256": "ca015dea91fc86014ec914a7bedbfea576b44fd1de67f73b3f3f94cef02855ed"
+    },
+    {
+      "path": "assets/production/avif/facility-logistics-center-maximum-level-v1-3840.avif",
+      "bytes": 50214,
+      "sha256": "d237d615ba20d229a0bbf034006a1f7379a2a24f135a3adf7c260ee4ab42b23b"
+    },
+    {
+      "path": "assets/production/webp/facility-logistics-center-maximum-level-v1-3840.webp",
+      "bytes": 47456,
+      "sha256": "68d95a7b6ff0938428a2543608315f0dd8e388b3f4ed6513592512b0d6c16f5d"
+    },
+    {
+      "path": "assets/production/png/facility-logistics-center-maximum-level-v1-1280.png",
+      "bytes": 634112,
+      "sha256": "7cbe1c70ff964b8d112a3dd583d7e0978aa6f00117a629d257515d17d07f2401"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/facility-logistics-center-maximum-level-v1.webp",
+      "bytes": 2936,
+      "sha256": "3ac8a10473fac8b40c2baba4aad4f710d5e7334b86bc6d73a2fd27a2336029ce"
+    },
+    {
+      "path": "apps/mobile/assets/library/facility-logistics-center-maximum-level-v1.webp",
+      "bytes": 2936,
+      "sha256": "3ac8a10473fac8b40c2baba4aad4f710d5e7334b86bc6d73a2fd27a2336029ce"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:27.081Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 92,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 90,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "Both paged contact sheets were inspected at original resolution.",
+      "Facility categories remain visually coherent and readable without depicting sensitive real-world infrastructure.",
+      "No missing render, unsafe detail, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1432143
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:11:00.724Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

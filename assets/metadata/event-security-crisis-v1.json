@@ -1,0 +1,171 @@
+{
+  "asset_id": "event-security-crisis-v1",
+  "manifest_order": 707,
+  "category": "event",
+  "batch": "world-events",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/event-security-crisis-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100707,
+  "content_hash": "c51c2fa743aa559e2c34aa34e9edba2ca1b037b974f1f5c29f10942de2814ac2",
+  "source_file": "assets/source/events/event-security-crisis-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/event-security-crisis-v1-320.avif",
+      "bytes": 2899,
+      "sha256": "07cc9cc3f7ecbc8937e2d7f952bac25648b80670c046f060b3f4f6f2567d8506"
+    },
+    {
+      "path": "assets/production/webp/event-security-crisis-v1-320.webp",
+      "bytes": 2586,
+      "sha256": "16293f8308720ac6b950575ae8c3d749c90bc4da808f6d3e836ee0abb32ceb85"
+    },
+    {
+      "path": "assets/production/avif/event-security-crisis-v1-640.avif",
+      "bytes": 6348,
+      "sha256": "67619f66821ebff6485948c101c43b6c787d002c9e508d38c20101db4d783330"
+    },
+    {
+      "path": "assets/production/webp/event-security-crisis-v1-640.webp",
+      "bytes": 5362,
+      "sha256": "09eef406d13805d77dfa63bc783c69552798fd1cd6f340cc639001037758ca48"
+    },
+    {
+      "path": "assets/production/avif/event-security-crisis-v1-960.avif",
+      "bytes": 10578,
+      "sha256": "c4fc5cb0e607d22ea02f5c866bf529d7c3832fc04525c3465bdecbfcd3f9e856"
+    },
+    {
+      "path": "assets/production/webp/event-security-crisis-v1-960.webp",
+      "bytes": 8934,
+      "sha256": "c48fc58621686c18b11f77cce8a07a9e23a51e4b9ae66f8d993358f6c321e586"
+    },
+    {
+      "path": "assets/production/avif/event-security-crisis-v1-1280.avif",
+      "bytes": 15417,
+      "sha256": "ccffa4efa33a15a97c06f1224db7898afc6ae88ede36f26dc1af8c812c0d24b3"
+    },
+    {
+      "path": "assets/production/webp/event-security-crisis-v1-1280.webp",
+      "bytes": 12256,
+      "sha256": "73b3a78ddc35778e660814277988634a5422965ae848daabda8f5e024ca03f3c"
+    },
+    {
+      "path": "assets/production/avif/event-security-crisis-v1-1920.avif",
+      "bytes": 23323,
+      "sha256": "1b92ad1b22bcd0cca65f0f0b7cdc2cc624ecac07e59c54fff45fd71cf38a085c"
+    },
+    {
+      "path": "assets/production/webp/event-security-crisis-v1-1920.webp",
+      "bytes": 19242,
+      "sha256": "de8c66f1d016a8e081011bdd9bf7d4b916d69b9a29e2449b68b5bc296e5b9f97"
+    },
+    {
+      "path": "assets/production/avif/event-security-crisis-v1-2560.avif",
+      "bytes": 32211,
+      "sha256": "126ecd84e5c724519dc778d2f7410935e4dc70a10b7f7c1d9d9706dd579d55ff"
+    },
+    {
+      "path": "assets/production/webp/event-security-crisis-v1-2560.webp",
+      "bytes": 27296,
+      "sha256": "c42203f50c448a5746b772b3aba9a4977be501452d095e427dbd243a3be9aa79"
+    },
+    {
+      "path": "assets/production/avif/event-security-crisis-v1-3840.avif",
+      "bytes": 51105,
+      "sha256": "014e4598e5e42f1b53bbd9725259613e7582e8b890e932961fdc9374bd2093c6"
+    },
+    {
+      "path": "assets/production/webp/event-security-crisis-v1-3840.webp",
+      "bytes": 47136,
+      "sha256": "1530f48e1dcefb3430293c4ae7936289be16766806f17248ffe4ffa0a920f27d"
+    },
+    {
+      "path": "assets/production/png/event-security-crisis-v1-1280.png",
+      "bytes": 700296,
+      "sha256": "57cbd11224d2113906b655e4f13438a1fea49a4eca9c76b33ac26a7fb10daad9"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/event-security-crisis-v1.webp",
+      "bytes": 2586,
+      "sha256": "16293f8308720ac6b950575ae8c3d749c90bc4da808f6d3e836ee0abb32ceb85"
+    },
+    {
+      "path": "apps/mobile/assets/library/event-security-crisis-v1.webp",
+      "bytes": 2586,
+      "sha256": "16293f8308720ac6b950575ae8c3d749c90bc4da808f6d3e836ee0abb32ceb85"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:24:10.752Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 95,
+      "composition": 93,
+      "material_quality": 88,
+      "light_quality": 91,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 94,
+      "geometry_quality": 93,
+      "technical_quality": 96
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Repeated motifs form a coherent event family while color, direction, and state treatment keep event classes distinguishable.",
+      "No missing render, unsafe real-world guidance, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1599571
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:32:46.057Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

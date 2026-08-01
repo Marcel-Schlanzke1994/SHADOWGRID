@@ -23,6 +23,11 @@
       "path": "assets/production/svg/marker-medium-city-v1.svg",
       "bytes": 527,
       "sha256": "2281bc4acdb4e8edfadd888403742d9e5367dc06c29afea2bd0acc8d31b2c43f"
+    },
+    {
+      "path": "assets/production/webp/marker-medium-city-v1-320.webp",
+      "bytes": 3392,
+      "sha256": "176a7eaa4cf8f682507adecf07e76f6c87e43c69d077b195eb96fd492522d0f2"
     }
   ],
   "runtime_files": [
@@ -30,6 +35,21 @@
       "path": "apps/web/public/assets/markers/marker-medium-city-v1.svg",
       "bytes": 527,
       "sha256": "2281bc4acdb4e8edfadd888403742d9e5367dc06c29afea2bd0acc8d31b2c43f"
+    },
+    {
+      "path": "apps/web/public/assets/markers/marker-medium-city-v1-320.webp",
+      "bytes": 3392,
+      "sha256": "176a7eaa4cf8f682507adecf07e76f6c87e43c69d077b195eb96fd492522d0f2"
+    },
+    {
+      "path": "apps/web/public/assets/library/marker-medium-city-v1.webp",
+      "bytes": 3392,
+      "sha256": "176a7eaa4cf8f682507adecf07e76f6c87e43c69d077b195eb96fd492522d0f2"
+    },
+    {
+      "path": "apps/mobile/assets/library/marker-medium-city-v1.webp",
+      "bytes": 3392,
+      "sha256": "176a7eaa4cf8f682507adecf07e76f6c87e43c69d077b195eb96fd492522d0f2"
     }
   ],
   "contains_text": false,

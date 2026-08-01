@@ -1,0 +1,26 @@
+{
+  "schema": "shadowgrid-visual-review-v2",
+  "reviewer": "codex-final-visual-review",
+  "batch": "premium-cities",
+  "scores": {
+    "realism": 92,
+    "style_consistency": 94,
+    "composition": 93,
+    "material_quality": 91,
+    "light_quality": 92,
+    "architecture_plausibility": 93,
+    "ui_suitability": 94,
+    "mobile_suitability": 92,
+    "originality": 88,
+    "safety_compliance": 100,
+    "small_size_legibility": 90,
+    "contrast": 93,
+    "geometry_quality": 94,
+    "technical_quality": 96
+  },
+  "notes": [
+    "All 14 paged contact sheets were inspected at original resolution.",
+    "Licensed/generated city-specific material and deterministic procedural fallbacks are clearly distinguishable in provenance; no fallback is represented as city-specific photography.",
+    "No logos, sensitive infrastructure detail, unsafe content, missing output, broken crop, or unintended text was observed."
+  ]
+}

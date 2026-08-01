@@ -1,0 +1,171 @@
+{
+  "asset_id": "pvp-influence-conflict-failure-v1",
+  "manifest_order": 591,
+  "category": "pvp",
+  "batch": "pvp",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "failure",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/pvp-influence-conflict-failure-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100591,
+  "content_hash": "d6a017d1848d06c60430529995ba04dec17b678304f4338325f8bf35e509605c",
+  "source_file": "assets/source/pvp/pvp-influence-conflict-failure-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/pvp-influence-conflict-failure-v1-320.avif",
+      "bytes": 2462,
+      "sha256": "cb38538ca8d6c0511ceebe23dd29f3756d1cea7dd8e191b62d64adbccdafb508"
+    },
+    {
+      "path": "assets/production/webp/pvp-influence-conflict-failure-v1-320.webp",
+      "bytes": 1530,
+      "sha256": "fc270ecd97e9bd5a93b0630074ac3b77449b8670b4de1c52d3c521054c672812"
+    },
+    {
+      "path": "assets/production/avif/pvp-influence-conflict-failure-v1-640.avif",
+      "bytes": 6537,
+      "sha256": "ac1b03dc291f77dc0500ec48fcaf973b83db6321137e851f97ec23af66b677e5"
+    },
+    {
+      "path": "assets/production/webp/pvp-influence-conflict-failure-v1-640.webp",
+      "bytes": 4272,
+      "sha256": "82a0ed9a7f89c100e5bc46926b4836cbaee6e8226524a13f56a964ece0d47beb"
+    },
+    {
+      "path": "assets/production/avif/pvp-influence-conflict-failure-v1-960.avif",
+      "bytes": 12979,
+      "sha256": "b874743585085f3c8096062d44ea6c8e749177152f6d5912aa663f6048285883"
+    },
+    {
+      "path": "assets/production/webp/pvp-influence-conflict-failure-v1-960.webp",
+      "bytes": 8130,
+      "sha256": "fd510bf3bd0defe5d12243eddae8a467515e60642159a19efd090bb0345390d5"
+    },
+    {
+      "path": "assets/production/avif/pvp-influence-conflict-failure-v1-1280.avif",
+      "bytes": 19456,
+      "sha256": "a61690e86837bcf0e3694e16e0718469a8e47695fa89a35b0c3d94267f4acdeb"
+    },
+    {
+      "path": "assets/production/webp/pvp-influence-conflict-failure-v1-1280.webp",
+      "bytes": 11784,
+      "sha256": "8549b91362a79fe6f99f8a114ac0f20aa4b387e11dc877914feef0ef3f28c852"
+    },
+    {
+      "path": "assets/production/avif/pvp-influence-conflict-failure-v1-1920.avif",
+      "bytes": 28814,
+      "sha256": "9626c5033e4f2d68411a623e7c2df7c0c943e539bddeb2bc4d911e3bba2cc533"
+    },
+    {
+      "path": "assets/production/webp/pvp-influence-conflict-failure-v1-1920.webp",
+      "bytes": 19378,
+      "sha256": "c3a8b5cba3baeb842ccc075c944e89d88dfca07136ab28b156608ea71fe425fa"
+    },
+    {
+      "path": "assets/production/avif/pvp-influence-conflict-failure-v1-2560.avif",
+      "bytes": 36661,
+      "sha256": "7fdc01d68c93e08358c2efed8abefeb42b314c4cca450f9fda1ccbe4d3f9de30"
+    },
+    {
+      "path": "assets/production/webp/pvp-influence-conflict-failure-v1-2560.webp",
+      "bytes": 26306,
+      "sha256": "3035ec3011bbfa043645e84f154b994bc8c1ad074effecf86828ad7f17402678"
+    },
+    {
+      "path": "assets/production/avif/pvp-influence-conflict-failure-v1-3840.avif",
+      "bytes": 56331,
+      "sha256": "f2f47cff462f685048a1076505789b47c12d5671cba47ff64d79cc7dfa630636"
+    },
+    {
+      "path": "assets/production/webp/pvp-influence-conflict-failure-v1-3840.webp",
+      "bytes": 44092,
+      "sha256": "c265b59ac3f3c795238e719f6e51f981ad73a5efbb31292b39f06895c8594d28"
+    },
+    {
+      "path": "assets/production/png/pvp-influence-conflict-failure-v1-1280.png",
+      "bytes": 166894,
+      "sha256": "8d08754686f7d6686617999bbd57baf854e7d1eedc42b90bb952b30a1b5318a6"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/pvp-influence-conflict-failure-v1.webp",
+      "bytes": 1530,
+      "sha256": "fc270ecd97e9bd5a93b0630074ac3b77449b8670b4de1c52d3c521054c672812"
+    },
+    {
+      "path": "apps/mobile/assets/library/pvp-influence-conflict-failure-v1.webp",
+      "bytes": 1530,
+      "sha256": "fc270ecd97e9bd5a93b0630074ac3b77449b8670b4de1c52d3c521054c672812"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 92.9,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:48.913Z",
+    "scores": {
+      "realism": 87,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 89,
+      "light_quality": 92,
+      "architecture_plausibility": 90,
+      "ui_suitability": 95,
+      "mobile_suitability": 93,
+      "originality": 93,
+      "safety_compliance": 100,
+      "small_size_legibility": 92,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "The complete paged contact sheet was inspected at original resolution.",
+      "Preparation, success, and failure remain abstract strategic game states without actionable real-world attack or sabotage detail.",
+      "No missing render, unsafe instruction, broken crop, logo, or unintended text was observed."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 215318
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:26:40.663Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

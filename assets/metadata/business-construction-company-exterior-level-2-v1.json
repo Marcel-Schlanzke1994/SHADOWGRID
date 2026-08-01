@@ -1,0 +1,171 @@
+{
+  "asset_id": "business-construction-company-exterior-level-2-v1",
+  "manifest_order": 500,
+  "category": "business",
+  "batch": "businesses",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "exterior-level-2",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "procedural-fallback",
+  "provider": "disabled",
+  "model": null,
+  "prompt_file": "assets/prompts/business-construction-company-exterior-level-2-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100500,
+  "content_hash": "693f69e224f005dbdbfea6afc2fac4eb3b015c4a7eee977d5acbc3004b72a26a",
+  "source_file": "assets/source/businesses/business-construction-company-exterior-level-2-v1.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/business-construction-company-exterior-level-2-v1-320.avif",
+      "bytes": 3014,
+      "sha256": "04fc0f04000d57e082025e8badb8e8abab55239abe0cdb14da240017e2797c43"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-exterior-level-2-v1-320.webp",
+      "bytes": 2890,
+      "sha256": "eca49494f8033609414d8422d9b4f97e0759247f61def789971d86f2898124bc"
+    },
+    {
+      "path": "assets/production/avif/business-construction-company-exterior-level-2-v1-640.avif",
+      "bytes": 6701,
+      "sha256": "3b1f4ff82e0081e2e3de617b5e7b731e22b05de3fb1a44c4be13aa4b31220f55"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-exterior-level-2-v1-640.webp",
+      "bytes": 6074,
+      "sha256": "bdbdf12bac132772c2482bd47ed692d1f846b5b616865acf1bb0618da2a2f36d"
+    },
+    {
+      "path": "assets/production/avif/business-construction-company-exterior-level-2-v1-960.avif",
+      "bytes": 11261,
+      "sha256": "ce6527718ca1462a775578b49e4b038acc3d1ceb1a28413f7be824fe63ce551a"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-exterior-level-2-v1-960.webp",
+      "bytes": 10086,
+      "sha256": "57e26e0b2cccd41b7b9dcfadb8617298abcd00bcb1aa31690e3eca7001e8b92c"
+    },
+    {
+      "path": "assets/production/avif/business-construction-company-exterior-level-2-v1-1280.avif",
+      "bytes": 16014,
+      "sha256": "dd825fdcceebfe471747582a5c35122f37fa0bc8e39fdef9673f7b20334b6d1c"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-exterior-level-2-v1-1280.webp",
+      "bytes": 13276,
+      "sha256": "db66435dd06ffaaec9252c608e57d486188097ea8660ecea2ef21332bfab0e37"
+    },
+    {
+      "path": "assets/production/avif/business-construction-company-exterior-level-2-v1-1920.avif",
+      "bytes": 24035,
+      "sha256": "3255bd90d72d1c8190b3812ef237137894c6aac398bc27479e20782b2b154d20"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-exterior-level-2-v1-1920.webp",
+      "bytes": 20674,
+      "sha256": "26c93912333734cf7990d98bed5c02a1617fc4d6bd86b9fdb1a523fa39a64d14"
+    },
+    {
+      "path": "assets/production/avif/business-construction-company-exterior-level-2-v1-2560.avif",
+      "bytes": 31750,
+      "sha256": "aebfb0c67ce44e5d667e1ec74393202ad8f059758190b7ed5cb934d52068f63a"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-exterior-level-2-v1-2560.webp",
+      "bytes": 28342,
+      "sha256": "6b2c2f68a16967764d3f15091ffb01a451a6f492691518f46c0ee9aea75687f8"
+    },
+    {
+      "path": "assets/production/avif/business-construction-company-exterior-level-2-v1-3840.avif",
+      "bytes": 52178,
+      "sha256": "090be99853760f87718f37f8b479c559a40b2dd4825665a2132108dd100f794d"
+    },
+    {
+      "path": "assets/production/webp/business-construction-company-exterior-level-2-v1-3840.webp",
+      "bytes": 47908,
+      "sha256": "0ea8af82ea85dc57508fcd31af7ca009f5f9797e2ab93de38875e1dbb89afa87"
+    },
+    {
+      "path": "assets/production/png/business-construction-company-exterior-level-2-v1-1280.png",
+      "bytes": 640233,
+      "sha256": "a0a58c110a46f4df41bea5f005cba0b12b1bf76b603523a34bb0b8624d7ff545"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/business-construction-company-exterior-level-2-v1.webp",
+      "bytes": 2890,
+      "sha256": "eca49494f8033609414d8422d9b4f97e0759247f61def789971d86f2898124bc"
+    },
+    {
+      "path": "apps/mobile/assets/library/business-construction-company-exterior-level-2-v1.webp",
+      "bytes": 2890,
+      "sha256": "eca49494f8033609414d8422d9b4f97e0759247f61def789971d86f2898124bc"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 93.3,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "schema": "shadowgrid-visual-review-v2",
+    "reviewer": "codex-final-visual-review",
+    "reviewed_at": "2026-07-30T06:23:15.724Z",
+    "scores": {
+      "realism": 89,
+      "style_consistency": 96,
+      "composition": 94,
+      "material_quality": 90,
+      "light_quality": 92,
+      "architecture_plausibility": 91,
+      "ui_suitability": 96,
+      "mobile_suitability": 94,
+      "originality": 91,
+      "safety_compliance": 100,
+      "small_size_legibility": 93,
+      "contrast": 95,
+      "geometry_quality": 94,
+      "technical_quality": 97
+    },
+    "notes": [
+      "All three paged contact sheets were inspected at original resolution after selective regeneration.",
+      "Audited, frozen, and closed states use a blue authority scan treatment and are visually distinct from red poor-condition states.",
+      "No missing render, unsafe detail, broken crop, unintended text, or ambiguous state remained."
+    ]
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 1434521
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T04:02:57.263Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": [
+    "Provider is disabled. This deterministic premium fallback is functional but is not represented as a photorealistic generated image."
+  ]
+}

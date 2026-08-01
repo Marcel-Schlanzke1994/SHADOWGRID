@@ -1,0 +1,75 @@
+{
+  "asset_id": "icon-navigation-organization-v1",
+  "manifest_order": 728,
+  "category": "icon",
+  "batch": "ui-icons",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "24:24",
+  "width": 24,
+  "height": 24,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/icon-navigation-organization-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100728,
+  "content_hash": "6da15da84afba7aa26a0efb0986121208da69ed4a74b0d530a2d22c133328066",
+  "source_file": "assets/source/icons/icon-navigation-organization-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/icon-navigation-organization-v1.svg",
+      "bytes": 924,
+      "sha256": "6da15da84afba7aa26a0efb0986121208da69ed4a74b0d530a2d22c133328066"
+    },
+    {
+      "path": "assets/production/webp/icon-navigation-organization-v1-320.webp",
+      "bytes": 2218,
+      "sha256": "9b221b63e45387b0e23038ff02ec2fa92e51639b5e90ceb6f98f6b60a01e95eb"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/icon-navigation-organization-v1.webp",
+      "bytes": 2218,
+      "sha256": "9b221b63e45387b0e23038ff02ec2fa92e51639b5e90ceb6f98f6b60a01e95eb"
+    },
+    {
+      "path": "apps/mobile/assets/library/icon-navigation-organization-v1.webp",
+      "bytes": 2218,
+      "sha256": "9b221b63e45387b0e23038ff02ec2fa92e51639b5e90ceb6f98f6b60a01e95eb"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 924
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:51:36.307Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}

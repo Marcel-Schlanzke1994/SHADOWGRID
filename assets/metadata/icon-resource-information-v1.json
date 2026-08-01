@@ -1,0 +1,75 @@
+{
+  "asset_id": "icon-resource-information-v1",
+  "manifest_order": 743,
+  "category": "icon",
+  "batch": "ui-icons",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "24:24",
+  "width": 24,
+  "height": 24,
+  "source_type": "procedural",
+  "provider": "procedural",
+  "model": null,
+  "prompt_file": "assets/prompts/icon-resource-information-v1.txt",
+  "prompt_version": "1.0.0",
+  "style_version": "1.0.0",
+  "seed": 100743,
+  "content_hash": "9722058975476b346b2038ff5acb89c0940b58cd3e97ffbc5b0b774f2b84d583",
+  "source_file": "assets/source/icons/icon-resource-information-v1.svg",
+  "production_files": [
+    {
+      "path": "assets/production/svg/icon-resource-information-v1.svg",
+      "bytes": 565,
+      "sha256": "9722058975476b346b2038ff5acb89c0940b58cd3e97ffbc5b0b774f2b84d583"
+    },
+    {
+      "path": "assets/production/webp/icon-resource-information-v1-320.webp",
+      "bytes": 1106,
+      "sha256": "0d8fadd28233525aa308ef98df7965322a6859cb393e69347b86885770e14574"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/library/icon-resource-information-v1.webp",
+      "bytes": 1106,
+      "sha256": "0d8fadd28233525aa308ef98df7965322a6859cb393e69347b86885770e14574"
+    },
+    {
+      "path": "apps/mobile/assets/library/icon-resource-information-v1.webp",
+      "bytes": 1106,
+      "sha256": "0d8fadd28233525aa308ef98df7965322a6859cb393e69347b86885770e14574"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 88,
+  "quality_status": "approved",
+  "review_status": "automatic-approved",
+  "visual_review": null,
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "format": "svg",
+      "bytes": 565
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-07-30T05:51:37.773Z",
+  "license": "project-owned-generated-asset",
+  "provenance": null,
+  "notes": []
+}
