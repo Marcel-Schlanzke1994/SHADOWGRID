@@ -72,3 +72,18 @@ class WorldEventInstanceView(ORMModel):
 
 class EndWorldEventRequest(BaseModel):
     reason: str = Field(min_length=3, max_length=240)
+
+
+class WorldEventResponseRequest(BaseModel):
+    response_key: str = Field(
+        min_length=2,
+        max_length=60,
+        pattern=r"^[a-z][a-z0-9_]*$",
+    )
+
+
+class WorldEventResponseView(BaseModel):
+    id: str
+    world_event_id: str
+    response_key: str
+    occurred_at: datetime

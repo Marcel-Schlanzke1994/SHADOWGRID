@@ -1,5 +1,6 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { createIdempotencyKey } from "@shadowgrid/api-client";
+import { translateGameValue } from "@shadowgrid/i18n";
 import type {
   BondConfig,
   BondHolding,
@@ -306,7 +307,7 @@ export function BondsPage() {
                   {issue.default_reason && (
                     <p className="notice notice--warning">
                       {t("bondAbstractDefault", {
-                        reason: issue.default_reason.replaceAll("_", " "),
+                        reason: translateGameValue(issue.default_reason),
                       })}
                     </p>
                   )}

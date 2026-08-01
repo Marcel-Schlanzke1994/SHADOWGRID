@@ -87,6 +87,15 @@ export class ShadowgridClient {
       body: body === undefined ? undefined : JSON.stringify(body),
     });
   }
+  put<T>(path: string, body?: unknown, idempotencyKey?: string): Promise<T> {
+    const headers: Record<string, string> = {};
+    if (idempotencyKey) headers["Idempotency-Key"] = idempotencyKey;
+    return this.request<T>(path, {
+      method: "PUT",
+      headers,
+      body: body === undefined ? undefined : JSON.stringify(body),
+    });
+  }
   delete<T>(path: string, idempotencyKey?: string): Promise<T> {
     const headers: Record<string, string> = {};
     if (idempotencyKey) headers["Idempotency-Key"] = idempotencyKey;

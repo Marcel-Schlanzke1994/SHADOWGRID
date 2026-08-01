@@ -20,12 +20,15 @@ from shadowgrid.world_event_schemas import (
     WorldEventInstanceView,
     WorldEventPlanRequest,
     WorldEventPreviewView,
+    WorldEventResponseRequest,
+    WorldEventResponseView,
 )
 from shadowgrid.world_events import (
     activate_event,
     end_event,
     event_feed,
     preview_event,
+    respond_to_event,
 )
 
 router = APIRouter()
@@ -146,3 +149,26 @@ def world_event_end(
 )
 def world_event_current(db: Db, profile: CurrentProfile) -> list[WorldEventInstance]:
     return event_feed(db, profile.world_id)
+
+
+@router.post(
+    "/world-events/{instance_id}/responses",
+    response_model=WorldEventResponseView,
+    tags=["world-events", "engagement"],
+)
+def world_event_response(
+    instance_id: str,
+    payload: WorldEventResponseRequest,
+    db: Db,
+    profile: CurrentProfile,
+    key: IdempotencyKey,
+) -> WorldEventResponseView:
+    response = respond_to_event(
+        db,
+        profile,
+        instance_id=instance_id,
+        response_key=payload.response_key,
+        idempotency_key=key,
+    )
+    safe_commit(db)
+    return WorldEventResponseView.model_validate(response)

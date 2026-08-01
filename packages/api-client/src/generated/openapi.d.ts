@@ -1733,6 +1733,779 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/engagement/adaptive-help": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Help Offers */
+        get: operations["help_offers_api_v1_engagement_adaptive_help_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/adaptive-help/{offer_id}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        /** Help Respond */
+        patch: operations["help_respond_api_v1_engagement_adaptive_help__offer_id__patch"];
+        trace?: never;
+    };
+    "/api/v1/engagement/admin/guardrails/evaluate": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Guardrails Evaluate */
+        post: operations["guardrails_evaluate_api_v1_engagement_admin_guardrails_evaluate_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/admin/metrics/daily": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Engagement Metrics List */
+        get: operations["engagement_metrics_list_api_v1_engagement_admin_metrics_daily_get"];
+        put?: never;
+        /** Engagement Metric Generate */
+        post: operations["engagement_metric_generate_api_v1_engagement_admin_metrics_daily_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/admin/rollouts/{feature_key}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        /** Rollout Update */
+        put: operations["rollout_update_api_v1_engagement_admin_rollouts__feature_key__put"];
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/command-center": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Engagement Command Center */
+        get: operations["engagement_command_center_api_v1_engagement_command_center_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/doctrine": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Doctrine Current */
+        get: operations["doctrine_current_api_v1_engagement_doctrine_get"];
+        /** Doctrine Select */
+        put: operations["doctrine_select_api_v1_engagement_doctrine_put"];
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/doctrines": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Doctrines */
+        get: operations["doctrines_api_v1_engagement_doctrines_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/goals/current": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Current Goals */
+        get: operations["current_goals_api_v1_engagement_goals_current_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/goals/{goal_id}/select": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Goal Select */
+        post: operations["goal_select_api_v1_engagement_goals__goal_id__select_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/goals/{goal_id}/swap": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Goal Swap */
+        post: operations["goal_swap_api_v1_engagement_goals__goal_id__swap_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/initialize": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Initialize */
+        post: operations["initialize_api_v1_engagement_initialize_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/legacy/actors": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Actors */
+        get: operations["actors_api_v1_engagement_legacy_actors_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/legacy/chronicles/{scope_type}/{scope_id}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Chronicle */
+        get: operations["chronicle_api_v1_engagement_legacy_chronicles__scope_type___scope_id__get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/legacy/collection": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Collection */
+        get: operations["collection_api_v1_engagement_legacy_collection_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/legacy/dossiers": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Dossiers */
+        get: operations["dossiers_api_v1_engagement_legacy_dossiers_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/legacy/dossiers/{dossier_id}/investigate": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Dossier Investigate */
+        post: operations["dossier_investigate_api_v1_engagement_legacy_dossiers__dossier_id__investigate_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/legacy/identity": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Identity */
+        get: operations["identity_api_v1_engagement_legacy_identity_get"];
+        /** Identity Update */
+        put: operations["identity_update_api_v1_engagement_legacy_identity_put"];
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/legacy/legacy-records": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Legacy Records */
+        get: operations["legacy_records_api_v1_engagement_legacy_legacy_records_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/legacy/profile-card": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Player Profile Card */
+        get: operations["player_profile_card_api_v1_engagement_legacy_profile_card_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/legacy/rankings": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Parallel Rankings */
+        get: operations["parallel_rankings_api_v1_engagement_legacy_rankings_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/legacy/return-contracts": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Return Contracts */
+        post: operations["return_contracts_api_v1_engagement_legacy_return_contracts_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/legacy/return-contracts/{contract_id}/select": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Return Contract Select */
+        post: operations["return_contract_select_api_v1_engagement_legacy_return_contracts__contract_id__select_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/legacy/season-goals": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Season Goals */
+        get: operations["season_goals_api_v1_engagement_legacy_season_goals_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/legacy/season-goals/{goal_id}/select": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Season Goal Select */
+        post: operations["season_goal_select_api_v1_engagement_legacy_season_goals__goal_id__select_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/mastery": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Mastery */
+        get: operations["mastery_api_v1_engagement_mastery_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/mentorships": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Mentorship List */
+        get: operations["mentorship_list_api_v1_engagement_mentorships_get"];
+        put?: never;
+        /** Mentorship Create */
+        post: operations["mentorship_create_api_v1_engagement_mentorships_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/mentorships/{mentorship_id}/answer": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Mentorship Answer */
+        post: operations["mentorship_answer_api_v1_engagement_mentorships__mentorship_id__answer_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/mentorships/{mentorship_id}/refresh": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Mentorship Refresh */
+        post: operations["mentorship_refresh_api_v1_engagement_mentorships__mentorship_id__refresh_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/notification-preferences": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Notification Preferences */
+        get: operations["notification_preferences_api_v1_engagement_notification_preferences_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/notification-preferences/{category}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        /** Notification Preference Update */
+        put: operations["notification_preference_update_api_v1_engagement_notification_preferences__category__put"];
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/open-plans": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Open Plans */
+        get: operations["open_plans_api_v1_engagement_open_plans_get"];
+        put?: never;
+        /** Open Plan Create */
+        post: operations["open_plan_create_api_v1_engagement_open_plans_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/open-plans/{plan_id}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        /** Open Plan Update */
+        patch: operations["open_plan_update_api_v1_engagement_open_plans__plan_id__patch"];
+        trace?: never;
+    };
+    "/api/v1/engagement/outcome-reports": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Outcome Reports */
+        get: operations["outcome_reports_api_v1_engagement_outcome_reports_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/return-briefings": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Return Briefing Generate */
+        post: operations["return_briefing_generate_api_v1_engagement_return_briefings_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/return-briefings/{briefing_id}/acknowledge": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Return Briefing Acknowledge */
+        post: operations["return_briefing_acknowledge_api_v1_engagement_return_briefings__briefing_id__acknowledge_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/sessions": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Session Start */
+        post: operations["session_start_api_v1_engagement_sessions_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/sessions/latest-summary": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Session Latest Summary */
+        get: operations["session_latest_summary_api_v1_engagement_sessions_latest_summary_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/sessions/{session_id}/finish": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Session Finish */
+        post: operations["session_finish_api_v1_engagement_sessions__session_id__finish_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/settings": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Settings */
+        get: operations["settings_api_v1_engagement_settings_get"];
+        /** Settings Update */
+        put: operations["settings_update_api_v1_engagement_settings_put"];
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/social/cartels/{cartel_id}/chronicle": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Cartel Chronicle */
+        get: operations["cartel_chronicle_api_v1_engagement_social_cartels__cartel_id__chronicle_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/social/cartels/{cartel_id}/delegations": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Delegations */
+        get: operations["delegations_api_v1_engagement_social_cartels__cartel_id__delegations_get"];
+        put?: never;
+        /** Delegation Create */
+        post: operations["delegation_create_api_v1_engagement_social_cartels__cartel_id__delegations_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/social/cartels/{cartel_id}/pause": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Cartel Current Pause */
+        get: operations["cartel_current_pause_api_v1_engagement_social_cartels__cartel_id__pause_get"];
+        put?: never;
+        /** Cartel Pause */
+        post: operations["cartel_pause_api_v1_engagement_social_cartels__cartel_id__pause_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/social/cartels/{cartel_id}/resume": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Cartel Resume */
+        post: operations["cartel_resume_api_v1_engagement_social_cartels__cartel_id__resume_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/engagement/success-chain": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Personal Success Chain */
+        get: operations["personal_success_chain_api_v1_engagement_success_chain_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/exchange/config": {
         parameters: {
             query?: never;
@@ -3614,6 +4387,23 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/world-events/{instance_id}/responses": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** World Event Response */
+        post: operations["world_event_response_api_v1_world_events__instance_id__responses_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/world/cities": {
         parameters: {
             query?: never;
@@ -3727,6 +4517,67 @@ export interface components {
             reward_type: "achievement" | "title" | "cosmetic";
             /** Season Id */
             season_id: string;
+        };
+        /** ActorRelationshipView */
+        ActorRelationshipView: {
+            /** Actor Id */
+            actor_id: string;
+            /** Actor Key */
+            actor_key: string;
+            /**
+             * Actor Type
+             * @enum {string}
+             */
+            actor_type: "entrepreneur" | "journalist" | "analyst" | "decision_maker";
+            /** Description Key */
+            description_key: string;
+            /** History Keys */
+            history_keys: string[];
+            /** Information Access */
+            information_access: number;
+            /** Interaction Count */
+            interaction_count: number;
+            /** Name Key */
+            name_key: string;
+            /** Reputation */
+            reputation: number;
+            /** Rivalry */
+            rivalry: number;
+            /** Trust */
+            trust: number;
+        };
+        /** AdaptiveHelpResponse */
+        AdaptiveHelpResponse: {
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "accepted" | "dismissed" | "completed";
+        };
+        /** AdaptiveHelpView */
+        AdaptiveHelpView: {
+            /** Context Key */
+            context_key: string;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Explanation Key */
+            explanation_key: string;
+            /** Id */
+            id: string;
+            /** Responded At */
+            responded_at: string | null;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "offered" | "accepted" | "dismissed" | "completed";
+            /** Suggestion Key */
+            suggestion_key: string;
+            /** Target Path */
+            target_path: string;
         };
         /** AiDecisionTickView */
         AiDecisionTickView: {
@@ -4118,6 +4969,34 @@ export interface components {
             metadata_json: {
                 [key: string]: unknown;
             };
+        };
+        /** CartelChronicleView */
+        CartelChronicleView: {
+            /** Actor Profile Id */
+            actor_profile_id: string | null;
+            /** Body Key */
+            body_key: string;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Entry Type */
+            entry_type: string;
+            /** Id */
+            id: string;
+            /** Metadata Json */
+            metadata_json: {
+                [key: string]: unknown;
+            };
+            /** Organization Id */
+            organization_id: string;
+            /** Source Id */
+            source_id: string;
+            /** Source Type */
+            source_type: string;
+            /** Title Key */
+            title_key: string;
         };
         /** CartelExpenseRequest */
         CartelExpenseRequest: {
@@ -4543,6 +5422,45 @@ export interface components {
             /** Sender Profile Id */
             sender_profile_id: string;
         };
+        /** ChronicleEntryView */
+        ChronicleEntryView: {
+            /** Actor Keys Json */
+            actor_keys_json: string[];
+            /** Body Key */
+            body_key: string;
+            /** Cause Keys Json */
+            cause_keys_json: string[];
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Entry Type */
+            entry_type: string;
+            /** Id */
+            id: string;
+            /** Impact Keys Json */
+            impact_keys_json: string[];
+            /** Metadata Json */
+            metadata_json: {
+                [key: string]: unknown;
+            };
+            /** Open Question Keys Json */
+            open_question_keys_json: string[];
+            /** Scope Id */
+            scope_id: string;
+            /**
+             * Scope Type
+             * @enum {string}
+             */
+            scope_type: "company" | "world" | "profile";
+            /** Source Id */
+            source_id: string;
+            /** Source Type */
+            source_type: string;
+            /** Title Key */
+            title_key: string;
+        };
         /** CityMarketView */
         CityMarketView: {
             /** Demand */
@@ -4610,6 +5528,67 @@ export interface components {
             status: string;
             /** World Id */
             world_id: string;
+        };
+        /** CollectionEntryView */
+        CollectionEntryView: {
+            /** Description Key */
+            description_key: string;
+            /** Duplicate Points */
+            duplicate_points: number;
+            /** Id */
+            id: string;
+            /** Item Id */
+            item_id: string;
+            /** Item Key */
+            item_key: string;
+            /**
+             * Item Type
+             * @enum {string}
+             */
+            item_type: "title" | "emblem" | "hq_cosmetic" | "chronicle" | "discovery";
+            /** Rarity */
+            rarity: string;
+            /** Title Key */
+            title_key: string;
+            /**
+             * Unlocked At
+             * Format: date-time
+             */
+            unlocked_at: string;
+        };
+        /** CommandCenterOpportunity */
+        CommandCenterOpportunity: {
+            /**
+             * Category
+             * @enum {string}
+             */
+            category: "urgent" | "strategic" | "discoverable";
+            /** Detail */
+            detail: string;
+            /** Priority */
+            priority: number;
+            /** Source Id */
+            source_id: string;
+            /**
+             * Source Type
+             * @enum {string}
+             */
+            source_type: "plan" | "goal" | "world_event" | "system";
+            /** Target Path */
+            target_path: string;
+            /** Title */
+            title: string;
+        };
+        /** CommandCenterView */
+        CommandCenterView: {
+            /** Active Goal Count */
+            active_goal_count: number;
+            /** Natural Break Available */
+            natural_break_available: boolean;
+            /** Open Plan Count */
+            open_plan_count: number;
+            /** Opportunities */
+            opportunities: components["schemas"]["CommandCenterOpportunity"][];
         };
         /** CommercialContractView */
         CommercialContractView: {
@@ -5262,6 +6241,50 @@ export interface components {
             /** Password */
             password: string;
         };
+        /** DelegationCreateRequest */
+        DelegationCreateRequest: {
+            /** Delegate Profile Id */
+            delegate_profile_id: string;
+            /** Duration Days */
+            duration_days: number;
+            /**
+             * Role Key
+             * @enum {string}
+             */
+            role_key: "economic_analyst" | "diplomat" | "intelligence_coordinator" | "project_manager" | "trainer" | "archivist" | "event_planner";
+        };
+        /** DelegationView */
+        DelegationView: {
+            /** Delegate Membership Id */
+            delegate_membership_id: string;
+            /**
+             * Expires At
+             * Format: date-time
+             */
+            expires_at: string;
+            /** Grantor Membership Id */
+            grantor_membership_id: string;
+            /** Id */
+            id: string;
+            /** Organization Id */
+            organization_id: string;
+            /** Permissions Json */
+            permissions_json: string[];
+            /** Revoked At */
+            revoked_at: string | null;
+            /** Role Key */
+            role_key: string;
+            /**
+             * Starts At
+             * Format: date-time
+             */
+            starts_at: string;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "active" | "revoked" | "expired";
+        };
         /** DirectMessageCreate */
         DirectMessageCreate: {
             /** Body */
@@ -5387,6 +6410,96 @@ export interface components {
             /** Per Share Cents */
             per_share_cents: number;
         };
+        /** DoctrineCatalogItem */
+        DoctrineCatalogItem: {
+            /** Description Key */
+            description_key: string;
+            /**
+             * Economic Bonus
+             * @constant
+             */
+            economic_bonus: false;
+            /** Focus Areas */
+            focus_areas: ("company_management" | "market_analysis" | "capital_markets" | "contract_management" | "people_leadership" | "real_estate" | "cartel_leadership" | "diplomacy" | "intelligence" | "risk_management" | "season_strategy")[];
+            /**
+             * Key
+             * @enum {string}
+             */
+            key: "industrial_captain" | "financial_architect" | "innovator" | "real_estate_strategist" | "networker" | "information_strategist" | "opportunist";
+            /**
+             * Reversible
+             * @constant
+             */
+            reversible: true;
+            /** Title Key */
+            title_key: string;
+        };
+        /** DoctrineSelectRequest */
+        DoctrineSelectRequest: {
+            /**
+             * Doctrine Key
+             * @enum {string}
+             */
+            doctrine_key: "industrial_captain" | "financial_architect" | "innovator" | "real_estate_strategist" | "networker" | "information_strategist" | "opportunist";
+        };
+        /** DoctrineStateView */
+        DoctrineStateView: {
+            /**
+             * Changed At
+             * Format: date-time
+             */
+            changed_at: string;
+            /**
+             * Doctrine Key
+             * @enum {string}
+             */
+            doctrine_key: "industrial_captain" | "financial_architect" | "innovator" | "real_estate_strategist" | "networker" | "information_strategist" | "opportunist";
+            /** Id */
+            id: string;
+            /**
+             * Selected At
+             * Format: date-time
+             */
+            selected_at: string;
+            /** Version */
+            version: number;
+        };
+        /** DossierClueView */
+        DossierClueView: {
+            /** Clue Key */
+            clue_key: string;
+            /** Discovered */
+            discovered: boolean;
+            /** Id */
+            id: string;
+            /** Order Index */
+            order_index: number;
+            /** Rare */
+            rare: boolean;
+        };
+        /** DossierView */
+        DossierView: {
+            /** Archived */
+            archived: boolean;
+            /** Cause Key */
+            cause_key: string;
+            /** Clues */
+            clues: components["schemas"]["DossierClueView"][];
+            /** Completed At */
+            completed_at: string | null;
+            /** Id */
+            id: string;
+            /** Investigation Count */
+            investigation_count: number;
+            /** Local Impact Key */
+            local_impact_key: string;
+            /** Open Question Key */
+            open_question_key: string;
+            /** Title Key */
+            title_key: string;
+            /** World Event Instance Id */
+            world_event_instance_id: string;
+        };
         /** EconomyStatusView */
         EconomyStatusView: {
             last_tick: components["schemas"]["EconomyTickView"] | null;
@@ -5432,6 +6545,116 @@ export interface components {
         EndWorldEventRequest: {
             /** Reason */
             reason: string;
+        };
+        /** EngagementMetricRequest */
+        EngagementMetricRequest: {
+            /** Fairness Bps */
+            fairness_bps?: number | null;
+            /** Metric Date */
+            metric_date?: string | null;
+            /** Satisfaction Bps */
+            satisfaction_bps?: number | null;
+            /**
+             * Survey Response Count
+             * @default 0
+             */
+            survey_response_count: number;
+        };
+        /** EngagementMetricView */
+        EngagementMetricView: {
+            /** Active Profile Count */
+            active_profile_count: number;
+            /** Cohort Key */
+            cohort_key: string;
+            /** Collection Completion Bps */
+            collection_completion_bps: number;
+            /** D1 Return Bps */
+            d1_return_bps: number;
+            /** D30 Return Bps */
+            d30_return_bps: number;
+            /** D7 Return Bps */
+            d7_return_bps: number;
+            /** Fairness Bps */
+            fairness_bps: number | null;
+            /**
+             * Generated At
+             * Format: date-time
+             */
+            generated_at: string;
+            /** Goal Completion Bps */
+            goal_completion_bps: number;
+            /** Id */
+            id: string;
+            /** Meaningful Decision Count */
+            meaningful_decision_count: number;
+            /**
+             * Metric Date
+             * Format: date
+             */
+            metric_date: string;
+            /** Natural Break Bps */
+            natural_break_bps: number;
+            /** Pause Return 14 Bps */
+            pause_return_14_bps: number;
+            /** Pause Return 30 Bps */
+            pause_return_30_bps: number;
+            /** Pause Return 7 Bps */
+            pause_return_7_bps: number;
+            /** Profile Count */
+            profile_count: number;
+            /** Satisfaction Bps */
+            satisfaction_bps: number | null;
+            /** Scope Key */
+            scope_key: string;
+            /** Season Participation Bps */
+            season_participation_bps: number;
+            /** Socially Engaged Bps */
+            socially_engaged_bps: number;
+            /** Story Progress Count */
+            story_progress_count: number;
+            /** Strategy Diversity Bps */
+            strategy_diversity_bps: number;
+            /** Survey Response Count */
+            survey_response_count: number;
+            /** Weekly Return Bps */
+            weekly_return_bps: number;
+            /** World Id */
+            world_id: string | null;
+        };
+        /** EngagementSettingUpdate */
+        EngagementSettingUpdate: {
+            /** Adaptive Help Enabled */
+            adaptive_help_enabled: boolean;
+            /**
+             * Information Density
+             * @enum {string}
+             */
+            information_density: "compact" | "standard" | "detailed";
+            /** Ranking Visible */
+            ranking_visible: boolean;
+            /** Session Summary Enabled */
+            session_summary_enabled: boolean;
+        };
+        /** EngagementSettingView */
+        EngagementSettingView: {
+            /** Adaptive Help Enabled */
+            adaptive_help_enabled: boolean;
+            /** Id */
+            id: string;
+            /**
+             * Information Density
+             * @enum {string}
+             */
+            information_density: "compact" | "standard" | "detailed";
+            /** Ranking Visible */
+            ranking_visible: boolean;
+            /** Session Summary Enabled */
+            session_summary_enabled: boolean;
+            /**
+             * Updated At
+             * Format: date-time
+             */
+            updated_at: string;
         };
         /** ExchangeConfigurationView */
         ExchangeConfigurationView: {
@@ -5608,6 +6831,147 @@ export interface components {
             /** Status */
             status: string;
         };
+        /** GoalView */
+        GoalView: {
+            /**
+             * Catch Up Until
+             * Format: date-time
+             */
+            catch_up_until: string;
+            /**
+             * Category
+             * @enum {string}
+             */
+            category: "economic" | "social" | "exploration" | "risk" | "long_term" | "season";
+            /** Choice Window Id */
+            choice_window_id: string;
+            /** Completed At */
+            completed_at: string | null;
+            /** Description Key */
+            description_key: string;
+            /** Id */
+            id: string;
+            /** Progress Value */
+            progress_value: number;
+            /** Recommended For Doctrine */
+            recommended_for_doctrine: boolean;
+            /** Reward Key */
+            reward_key: string;
+            /** Reward Type */
+            reward_type: string;
+            /** Selected At */
+            selected_at: string | null;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "offered" | "active" | "completed" | "swapped" | "declined" | "expired";
+            /** Target Value */
+            target_value: number;
+            /** Template Key */
+            template_key: string;
+            /** Title Key */
+            title_key: string;
+            /** Unit Key */
+            unit_key: string;
+        };
+        /** GoalWindowView */
+        GoalWindowView: {
+            /**
+             * Catch Up Until
+             * Format: date-time
+             */
+            catch_up_until: string;
+            /**
+             * Ends At
+             * Format: date-time
+             */
+            ends_at: string;
+            /** Goals */
+            goals: components["schemas"]["GoalView"][];
+            /** Id */
+            id: string;
+            /** Max Choices */
+            max_choices: number;
+            /** Selected Count */
+            selected_count: number;
+            /**
+             * Starts At
+             * Format: date-time
+             */
+            starts_at: string;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "open" | "catch_up" | "closed";
+        };
+        /** GuardrailEvaluationRequest */
+        GuardrailEvaluationRequest: {
+            /**
+             * Accessibility Status
+             * @default insufficient_data
+             * @enum {string}
+             */
+            accessibility_status: "passed" | "failed" | "insufficient_data";
+            /**
+             * Technical Status
+             * @default insufficient_data
+             * @enum {string}
+             */
+            technical_status: "passed" | "failed" | "insufficient_data";
+            /**
+             * Voluntary Return Status
+             * @default insufficient_data
+             * @enum {string}
+             */
+            voluntary_return_status: "passed" | "failed" | "insufficient_data";
+            wellbeing_signals: components["schemas"]["WellbeingSignals"];
+            /**
+             * Wellbeing Status
+             * @default insufficient_data
+             * @enum {string}
+             */
+            wellbeing_status: "passed" | "failed" | "insufficient_data";
+        };
+        /** GuardrailEvaluationView */
+        GuardrailEvaluationView: {
+            /** Accessibility Status */
+            accessibility_status: string;
+            /** Cartel Dominance Bps */
+            cartel_dominance_bps: number;
+            /**
+             * Evaluated At
+             * Format: date-time
+             */
+            evaluated_at: string;
+            /** Id */
+            id: string;
+            /** Ledger Imbalance Cents */
+            ledger_imbalance_cents: number;
+            /** Negative Balance Count */
+            negative_balance_count: number;
+            /** Newcomer Wealth Bps */
+            newcomer_wealth_bps: number;
+            /** Passed */
+            passed: boolean;
+            /** Reasons Json */
+            reasons_json: string[];
+            /** Strategy Spread Bps */
+            strategy_spread_bps: number;
+            /** Technical Status */
+            technical_status: string;
+            /** Voluntary Return Status */
+            voluntary_return_status: string;
+            /** Wellbeing Signals Json */
+            wellbeing_signals_json: {
+                [key: string]: unknown;
+            };
+            /** Wellbeing Status */
+            wellbeing_status: string;
+            /** World Id */
+            world_id: string | null;
+        };
         /** HTTPValidationError */
         HTTPValidationError: {
             /** Detail */
@@ -5661,6 +7025,38 @@ export interface components {
         HireSpecialistRequest: {
             /** Company Id */
             company_id: string;
+        };
+        /** IdentityUpdateRequest */
+        IdentityUpdateRequest: {
+            /** Emblem Item Id */
+            emblem_item_id?: string | null;
+            /** Hq Cosmetic Item Id */
+            hq_cosmetic_item_id?: string | null;
+            /**
+             * Profile Card Public
+             * @default true
+             */
+            profile_card_public: boolean;
+            /** Title Item Id */
+            title_item_id?: string | null;
+        };
+        /** IdentityView */
+        IdentityView: {
+            /** Active Emblem Item Id */
+            active_emblem_item_id: string | null;
+            /** Active Hq Cosmetic Item Id */
+            active_hq_cosmetic_item_id: string | null;
+            /** Active Title Item Id */
+            active_title_item_id: string | null;
+            /** Id */
+            id: string;
+            /** Profile Card Public */
+            profile_card_public: boolean;
+            /**
+             * Updated At
+             * Format: date-time
+             */
+            updated_at: string;
         };
         /** IntelReportView */
         IntelReportView: {
@@ -5974,6 +7370,28 @@ export interface components {
             /** Target Profile Id */
             target_profile_id: string;
         };
+        /** LegacyRecordView */
+        LegacyRecordView: {
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Id */
+            id: string;
+            /** Metadata Json */
+            metadata_json: {
+                [key: string]: unknown;
+            };
+            /** Record Key */
+            record_key: string;
+            /** Source Id */
+            source_id: string;
+            /** Source Type */
+            source_type: string;
+            /** Title Key */
+            title_key: string;
+        };
         /** LoanApplicationView */
         LoanApplicationView: {
             /** Accepted At */
@@ -6200,6 +7618,113 @@ export interface components {
             /** Total Price */
             total_price: string;
         };
+        /** MasteryHighlight */
+        MasteryHighlight: {
+            /** Area Key */
+            area_key: string;
+            /** Level */
+            level: number;
+            /** Points */
+            points: number;
+        };
+        /** MasteryProgressView */
+        MasteryProgressView: {
+            /**
+             * Area Key
+             * @enum {string}
+             */
+            area_key: "company_management" | "market_analysis" | "capital_markets" | "contract_management" | "people_leadership" | "real_estate" | "cartel_leadership" | "diplomacy" | "intelligence" | "risk_management" | "season_strategy";
+            /** Distinct Decisions Json */
+            distinct_decisions_json: string[];
+            /** Id */
+            id: string;
+            /** Level */
+            level: number;
+            /** Points */
+            points: number;
+            /**
+             * Updated At
+             * Format: date-time
+             */
+            updated_at: string;
+        };
+        /** MembershipPauseRequest */
+        MembershipPauseRequest: {
+            /** Duration Days */
+            duration_days: number;
+            /** Private Reason */
+            private_reason?: string | null;
+        };
+        /** MembershipPauseView */
+        MembershipPauseView: {
+            /** Id */
+            id: string;
+            /** Membership Id */
+            membership_id: string;
+            /**
+             * Planned Until
+             * Format: date-time
+             */
+            planned_until: string;
+            /** Resumed At */
+            resumed_at: string | null;
+            /**
+             * Starts At
+             * Format: date-time
+             */
+            starts_at: string;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "active" | "completed" | "cancelled";
+        };
+        /** MentorshipAnswerRequest */
+        MentorshipAnswerRequest: {
+            /** Accept */
+            accept: boolean;
+        };
+        /** MentorshipCreateRequest */
+        MentorshipCreateRequest: {
+            /** Mentee Profile Id */
+            mentee_profile_id: string;
+        };
+        /** MentorshipRefreshRequest */
+        MentorshipRefreshRequest: {
+            /** Positive Feedback */
+            positive_feedback?: boolean | null;
+        };
+        /** MentorshipView */
+        MentorshipView: {
+            /** Accepted At */
+            accepted_at: string | null;
+            /** Completed At */
+            completed_at: string | null;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Feedback Positive */
+            feedback_positive: boolean | null;
+            /** Id */
+            id: string;
+            /** Mentee Opted In */
+            mentee_opted_in: boolean;
+            /** Mentee Profile Id */
+            mentee_profile_id: string;
+            /** Mentor Opted In */
+            mentor_opted_in: boolean;
+            /** Mentor Profile Id */
+            mentor_profile_id: string;
+            /** Milestones */
+            milestones?: string[];
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "proposed" | "active" | "paused" | "completed" | "declined" | "cancelled";
+        };
         /** MessageResponse */
         MessageResponse: {
             /** Message */
@@ -6253,6 +7778,115 @@ export interface components {
             edges: components["schemas"]["NetworkEdge"][];
             /** Nodes */
             nodes: components["schemas"]["NetworkNode"][];
+        };
+        /** NotificationPreferenceUpdate */
+        NotificationPreferenceUpdate: {
+            /**
+             * Digest Frequency
+             * @enum {string}
+             */
+            digest_frequency: "immediate" | "daily" | "weekly" | "off";
+            /** Live Enabled */
+            live_enabled: boolean;
+            /** Quiet End Minute */
+            quiet_end_minute: number;
+            /** Quiet Start Minute */
+            quiet_start_minute: number;
+            /**
+             * Timezone
+             * @default Europe/Berlin
+             */
+            timezone: string;
+        };
+        /** NotificationPreferenceView */
+        NotificationPreferenceView: {
+            /**
+             * Category
+             * @enum {string}
+             */
+            category: "critical" | "strategic" | "social" | "summary";
+            /**
+             * Digest Frequency
+             * @enum {string}
+             */
+            digest_frequency: "immediate" | "daily" | "weekly" | "off";
+            /** Id */
+            id: string;
+            /** Live Enabled */
+            live_enabled: boolean;
+            /** Quiet End Minute */
+            quiet_end_minute: number;
+            /** Quiet Start Minute */
+            quiet_start_minute: number;
+            /** Timezone */
+            timezone: string;
+            /**
+             * Updated At
+             * Format: date-time
+             */
+            updated_at: string;
+        };
+        /** OpenPlanCreateRequest */
+        OpenPlanCreateRequest: {
+            /**
+             * Category
+             * @enum {string}
+             */
+            category: "urgent" | "strategic" | "discoverable";
+            /** Next Step */
+            next_step: string;
+            /**
+             * Priority
+             * @default 50
+             */
+            priority: number;
+            /** Target Path */
+            target_path: string;
+            /** Title */
+            title: string;
+        };
+        /** OpenPlanUpdateRequest */
+        OpenPlanUpdateRequest: {
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "active" | "completed" | "archived";
+        };
+        /** OpenPlanView */
+        OpenPlanView: {
+            /**
+             * Category
+             * @enum {string}
+             */
+            category: "urgent" | "strategic" | "discoverable";
+            /** Completed At */
+            completed_at: string | null;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Id */
+            id: string;
+            /** Next Step */
+            next_step: string;
+            /** Priority */
+            priority: number;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "active" | "completed" | "archived";
+            /** Target Path */
+            target_path: string;
+            /** Title */
+            title: string;
+            /**
+             * Updated At
+             * Format: date-time
+             */
+            updated_at: string;
         };
         /** OperationView */
         OperationView: {
@@ -6351,6 +7985,42 @@ export interface components {
             /** World Id */
             world_id: string;
         };
+        /** OutcomeReportView */
+        OutcomeReportView: {
+            /** Alternatives Json */
+            alternatives_json: string[];
+            /** Controllable Factors Json */
+            controllable_factors_json: string[];
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** External Factors Json */
+            external_factors_json: string[];
+            /** Id */
+            id: string;
+            /** Knowledge Unlocked Json */
+            knowledge_unlocked_json: string[];
+            /** Source Id */
+            source_id: string;
+            /** Source Type */
+            source_type: string;
+            /** Title Key */
+            title_key: string;
+            /** Worked Well Json */
+            worked_well_json: string[];
+        };
+        /** ParallelRankingsView */
+        ParallelRankingsView: {
+            /** Categories */
+            categories: components["schemas"]["RankingCategoryView"][];
+            /**
+             * Economic Rewards
+             * @constant
+             */
+            economic_rewards: false;
+        };
         /** PasswordForgotRequest */
         PasswordForgotRequest: {
             /**
@@ -6412,6 +8082,25 @@ export interface components {
             trade_id: string;
             /** Volume */
             volume: number;
+        };
+        /** ProfileCardView */
+        ProfileCardView: {
+            /** Active Emblem Item Id */
+            active_emblem_item_id: string | null;
+            /** Active Hq Cosmetic Item Id */
+            active_hq_cosmetic_item_id: string | null;
+            /** Active Title Item Id */
+            active_title_item_id: string | null;
+            /** Codename */
+            codename: string;
+            /** Doctrine Key */
+            doctrine_key: string | null;
+            /** Mastery Highlights */
+            mastery_highlights: components["schemas"]["MasteryHighlight"][];
+            /** Profile Card Public */
+            profile_card_public: boolean;
+            /** Profile Id */
+            profile_id: string;
         };
         /** ProfileView */
         ProfileView: {
@@ -6854,6 +8543,33 @@ export interface components {
             /** Treaty Status */
             treaty_status: string | null;
         };
+        /** RankingCategoryView */
+        RankingCategoryView: {
+            /** Category */
+            category: string;
+            /** Entries */
+            entries: components["schemas"]["RankingEntryView"][];
+        };
+        /** RankingEntryView */
+        RankingEntryView: {
+            /**
+             * Bracket
+             * @enum {string}
+             */
+            bracket: "newcomer" | "veteran";
+            /** Codename */
+            codename: string;
+            /** Historical Best Score */
+            historical_best_score: number;
+            /** Is Self */
+            is_self: boolean;
+            /** Profile Id */
+            profile_id: string;
+            /** Rank */
+            rank: number;
+            /** Score */
+            score: number;
+        };
         /** RealEstateConfigView */
         RealEstateConfigView: {
             /** Headquarters Upgrade Base Cost Cents */
@@ -7080,6 +8796,103 @@ export interface components {
             /** Version */
             version: number;
         };
+        /** ReturnBriefingView */
+        ReturnBriefingView: {
+            /** Acknowledged At */
+            acknowledged_at: string | null;
+            /** Available Content Json */
+            available_content_json: {
+                [key: string]: unknown;
+            }[];
+            /** Company Changes Json */
+            company_changes_json: {
+                [key: string]: unknown;
+            }[];
+            /** Entry Points Json */
+            entry_points_json: {
+                [key: string]: unknown;
+            }[];
+            /**
+             * Generated At
+             * Format: date-time
+             */
+            generated_at: string;
+            /** Id */
+            id: string;
+            /** Relevant Decisions Json */
+            relevant_decisions_json: {
+                [key: string]: unknown;
+            }[];
+            /**
+             * Since At
+             * Format: date-time
+             */
+            since_at: string;
+            /** World Changes Json */
+            world_changes_json: {
+                [key: string]: unknown;
+            }[];
+        };
+        /** ReturnContractView */
+        ReturnContractView: {
+            /** Absence Days */
+            absence_days: number;
+            /** Completed At */
+            completed_at: string | null;
+            /** Contract Key */
+            contract_key: string;
+            /** Description Key */
+            description_key: string;
+            /** Id */
+            id: string;
+            /**
+             * Offered At
+             * Format: date-time
+             */
+            offered_at: string;
+            /** Progress Value */
+            progress_value: number;
+            /** Selected At */
+            selected_at: string | null;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "offered" | "active" | "completed" | "declined";
+            /** Target Value */
+            target_value: number;
+            /** Title Key */
+            title_key: string;
+        };
+        /** RolloutUpdateRequest */
+        RolloutUpdateRequest: {
+            /**
+             * Cohort Bps
+             * @enum {integer}
+             */
+            cohort_bps: 0 | 500 | 2000 | 5000 | 10000;
+        };
+        /** RolloutView */
+        RolloutView: {
+            /** Cohort Bps */
+            cohort_bps: number;
+            /** Feature Key */
+            feature_key: string;
+            /** Id */
+            id: string;
+            /** Last Evaluation Id */
+            last_evaluation_id: string | null;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "disabled" | "internal" | "staged" | "active" | "paused";
+            /**
+             * Updated At
+             * Format: date-time
+             */
+            updated_at: string;
+        };
         /** SeasonCloseView */
         SeasonCloseView: {
             /** Archive Count */
@@ -7091,6 +8904,32 @@ export interface components {
             /** Score Count */
             score_count: number;
             season: components["schemas"]["SeasonView"];
+        };
+        /** SeasonGoalView */
+        SeasonGoalView: {
+            /** Completed At */
+            completed_at: string | null;
+            /** Description Key */
+            description_key: string;
+            /** Goal Key */
+            goal_key: string;
+            /** Id */
+            id: string;
+            /** Progress Value */
+            progress_value: number;
+            /** Season Id */
+            season_id: string;
+            /** Selected At */
+            selected_at: string | null;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "offered" | "active" | "completed" | "archived";
+            /** Target Value */
+            target_value: number;
+            /** Title Key */
+            title_key: string;
         };
         /** SeasonScoreView */
         SeasonScoreView: {
@@ -7226,24 +9065,47 @@ export interface components {
             /** Home District Id */
             home_district_id: string;
         };
-        /** SessionView */
-        SessionView: {
+        /** SessionFinishRequest */
+        SessionFinishRequest: {
+            /** Decision Keys */
+            decision_keys?: string[];
+        };
+        /** SessionStartRequest */
+        SessionStartRequest: {
+            /** Client Session Key */
+            client_session_key: string;
+        };
+        /** SessionSummaryView */
+        SessionSummaryView: {
+            /** Changes Json */
+            changes_json: {
+                [key: string]: unknown;
+            }[];
             /**
              * Created At
              * Format: date-time
              */
             created_at: string;
-            /**
-             * Expires At
-             * Format: date-time
-             */
-            expires_at: string;
+            /** Decisions Json */
+            decisions_json: {
+                [key: string]: unknown;
+            }[];
+            /** Duration Seconds */
+            duration_seconds: number;
             /** Id */
             id: string;
-            /** Revoked At */
-            revoked_at: string | null;
-            /** User Agent */
-            user_agent: string;
+            /** Natural Break Reached */
+            natural_break_reached: boolean;
+            /** Next Entry Points Json */
+            next_entry_points_json: {
+                [key: string]: unknown;
+            }[];
+            /** Open Plans Json */
+            open_plans_json: {
+                [key: string]: unknown;
+            }[];
+            /** Session Id */
+            session_id: string;
         };
         /** ShareholderView */
         ShareholderView: {
@@ -7541,6 +9403,36 @@ export interface components {
             /** Quantity */
             quantity: number;
         };
+        /** SuccessChainView */
+        SuccessChainView: {
+            /** Chain Key */
+            chain_key: string;
+            /** Completed At */
+            completed_at: string | null;
+            /** Completed Event Types Json */
+            completed_event_types_json: string[];
+            /** Completed Steps */
+            completed_steps: number;
+            /** Id */
+            id: string;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "active" | "completed";
+            /** Total Steps */
+            total_steps: number;
+            /**
+             * Updated At
+             * Format: date-time
+             */
+            updated_at: string;
+        };
+        /** SwapGoalRequest */
+        SwapGoalRequest: {
+            /** Replacement Goal Id */
+            replacement_goal_id: string;
+        };
         /** TenderView */
         TenderView: {
             /** Awarded At */
@@ -7782,6 +9674,21 @@ export interface components {
             /** Token */
             token: string;
         };
+        /** WellbeingSignals */
+        WellbeingSignals: {
+            /** Absence Pressure Reports */
+            absence_pressure_reports: number;
+            /** Exhaustion After Session Bps */
+            exhaustion_after_session_bps: number;
+            /** Fear Motivated Return Bps */
+            fear_motivated_return_bps: number;
+            /** Obligation Reports */
+            obligation_reports: number;
+            /** Push Disable Delta Bps */
+            push_disable_delta_bps: number;
+            /** Very Long Sessions Delta Bps */
+            very_long_sessions_delta_bps: number;
+        };
         /** WorldEventDefinitionView */
         WorldEventDefinitionView: {
             /**
@@ -7915,6 +9822,25 @@ export interface components {
             /** Title */
             title: string;
         };
+        /** WorldEventResponseRequest */
+        WorldEventResponseRequest: {
+            /** Response Key */
+            response_key: string;
+        };
+        /** WorldEventResponseView */
+        WorldEventResponseView: {
+            /** Id */
+            id: string;
+            /**
+             * Occurred At
+             * Format: date-time
+             */
+            occurred_at: string;
+            /** Response Key */
+            response_key: string;
+            /** World Event Id */
+            world_event_id: string;
+        };
         /** WorldView */
         WorldView: {
             /**
@@ -7937,6 +9863,51 @@ export interface components {
             starts_at: string;
             /** Status */
             status: string;
+        };
+        /** SessionView */
+        shadowgrid__engagement_schemas__SessionView: {
+            /** Client Session Key */
+            client_session_key: string;
+            /** Ended At */
+            ended_at: string | null;
+            /** Id */
+            id: string;
+            /**
+             * Last Activity At
+             * Format: date-time
+             */
+            last_activity_at: string;
+            /** Profile Id */
+            profile_id: string;
+            /**
+             * Started At
+             * Format: date-time
+             */
+            started_at: string;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "active" | "completed" | "abandoned";
+        };
+        /** SessionView */
+        shadowgrid__schemas__SessionView: {
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /**
+             * Expires At
+             * Format: date-time
+             */
+            expires_at: string;
+            /** Id */
+            id: string;
+            /** Revoked At */
+            revoked_at: string | null;
+            /** User Agent */
+            user_agent: string;
         };
     };
     responses: never;
@@ -9035,7 +11006,7 @@ export interface operations {
                     [name: string]: unknown;
                 };
                 content: {
-                    "application/json": components["schemas"]["SessionView"][];
+                    "application/json": components["schemas"]["shadowgrid__schemas__SessionView"][];
                 };
             };
         };
@@ -11672,6 +13643,1764 @@ export interface operations {
             };
         };
     };
+    help_offers_api_v1_engagement_adaptive_help_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["AdaptiveHelpView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    help_respond_api_v1_engagement_adaptive_help__offer_id__patch: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                offer_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["AdaptiveHelpResponse"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["AdaptiveHelpView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    guardrails_evaluate_api_v1_engagement_admin_guardrails_evaluate_post: {
+        parameters: {
+            query?: {
+                world_id?: string | null;
+            };
+            header?: {
+                "Idempotency-Key"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["GuardrailEvaluationRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["GuardrailEvaluationView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    engagement_metrics_list_api_v1_engagement_admin_metrics_daily_get: {
+        parameters: {
+            query?: {
+                world_id?: string | null;
+                limit?: number;
+            };
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["EngagementMetricView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    engagement_metric_generate_api_v1_engagement_admin_metrics_daily_post: {
+        parameters: {
+            query?: {
+                world_id?: string | null;
+            };
+            header?: {
+                "Idempotency-Key"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["EngagementMetricRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["EngagementMetricView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    rollout_update_api_v1_engagement_admin_rollouts__feature_key__put: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                feature_key: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["RolloutUpdateRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["RolloutView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    engagement_command_center_api_v1_engagement_command_center_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CommandCenterView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    doctrine_current_api_v1_engagement_doctrine_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["DoctrineStateView"] | null;
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    doctrine_select_api_v1_engagement_doctrine_put: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["DoctrineSelectRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["DoctrineStateView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    doctrines_api_v1_engagement_doctrines_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["DoctrineCatalogItem"][];
+                };
+            };
+        };
+    };
+    current_goals_api_v1_engagement_goals_current_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["GoalWindowView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    goal_select_api_v1_engagement_goals__goal_id__select_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                goal_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["GoalView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    goal_swap_api_v1_engagement_goals__goal_id__swap_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                goal_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["SwapGoalRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["GoalView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    initialize_api_v1_engagement_initialize_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["GoalWindowView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    actors_api_v1_engagement_legacy_actors_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ActorRelationshipView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    chronicle_api_v1_engagement_legacy_chronicles__scope_type___scope_id__get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                scope_type: "company" | "world" | "profile";
+                scope_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ChronicleEntryView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    collection_api_v1_engagement_legacy_collection_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CollectionEntryView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    dossiers_api_v1_engagement_legacy_dossiers_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["DossierView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    dossier_investigate_api_v1_engagement_legacy_dossiers__dossier_id__investigate_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                dossier_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["DossierView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    identity_api_v1_engagement_legacy_identity_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["IdentityView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    identity_update_api_v1_engagement_legacy_identity_put: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["IdentityUpdateRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["IdentityView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    legacy_records_api_v1_engagement_legacy_legacy_records_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["LegacyRecordView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    player_profile_card_api_v1_engagement_legacy_profile_card_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ProfileCardView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    parallel_rankings_api_v1_engagement_legacy_rankings_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ParallelRankingsView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    return_contracts_api_v1_engagement_legacy_return_contracts_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ReturnContractView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    return_contract_select_api_v1_engagement_legacy_return_contracts__contract_id__select_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                contract_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ReturnContractView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    season_goals_api_v1_engagement_legacy_season_goals_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SeasonGoalView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    season_goal_select_api_v1_engagement_legacy_season_goals__goal_id__select_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                goal_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SeasonGoalView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    mastery_api_v1_engagement_mastery_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MasteryProgressView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    mentorship_list_api_v1_engagement_mentorships_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MentorshipView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    mentorship_create_api_v1_engagement_mentorships_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["MentorshipCreateRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MentorshipView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    mentorship_answer_api_v1_engagement_mentorships__mentorship_id__answer_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                mentorship_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["MentorshipAnswerRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MentorshipView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    mentorship_refresh_api_v1_engagement_mentorships__mentorship_id__refresh_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                mentorship_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["MentorshipRefreshRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MentorshipView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    notification_preferences_api_v1_engagement_notification_preferences_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["NotificationPreferenceView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    notification_preference_update_api_v1_engagement_notification_preferences__category__put: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                category: "critical" | "strategic" | "social" | "summary";
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["NotificationPreferenceUpdate"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["NotificationPreferenceView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    open_plans_api_v1_engagement_open_plans_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["OpenPlanView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    open_plan_create_api_v1_engagement_open_plans_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["OpenPlanCreateRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["OpenPlanView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    open_plan_update_api_v1_engagement_open_plans__plan_id__patch: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                plan_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["OpenPlanUpdateRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["OpenPlanView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    outcome_reports_api_v1_engagement_outcome_reports_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["OutcomeReportView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    return_briefing_generate_api_v1_engagement_return_briefings_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ReturnBriefingView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    return_briefing_acknowledge_api_v1_engagement_return_briefings__briefing_id__acknowledge_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                briefing_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ReturnBriefingView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    session_start_api_v1_engagement_sessions_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["SessionStartRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["shadowgrid__engagement_schemas__SessionView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    session_latest_summary_api_v1_engagement_sessions_latest_summary_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SessionSummaryView"] | null;
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    session_finish_api_v1_engagement_sessions__session_id__finish_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                session_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["SessionFinishRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SessionSummaryView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    settings_api_v1_engagement_settings_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["EngagementSettingView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    settings_update_api_v1_engagement_settings_put: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["EngagementSettingUpdate"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["EngagementSettingView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_chronicle_api_v1_engagement_social_cartels__cartel_id__chronicle_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CartelChronicleView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    delegations_api_v1_engagement_social_cartels__cartel_id__delegations_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["DelegationView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    delegation_create_api_v1_engagement_social_cartels__cartel_id__delegations_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["DelegationCreateRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["DelegationView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_current_pause_api_v1_engagement_social_cartels__cartel_id__pause_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MembershipPauseView"] | null;
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_pause_api_v1_engagement_social_cartels__cartel_id__pause_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["MembershipPauseRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MembershipPauseView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    cartel_resume_api_v1_engagement_social_cartels__cartel_id__resume_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path: {
+                cartel_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MembershipPauseView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    personal_success_chain_api_v1_engagement_success_chain_get: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SuccessChainView"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
     exchange_config_api_v1_exchange_config_get: {
         parameters: {
             query?: never;
@@ -13117,6 +16846,7 @@ export interface operations {
         parameters: {
             query?: {
                 unread_only?: boolean;
+                category?: string | null;
                 limit?: number;
             };
             header?: never;
@@ -15640,6 +19370,44 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["WorldEventInstanceView"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    world_event_response_api_v1_world_events__instance_id__responses_post: {
+        parameters: {
+            query?: never;
+            header?: {
+                "x-world-id"?: string | null;
+                "Idempotency-Key"?: string | null;
+            };
+            path: {
+                instance_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["WorldEventResponseRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["WorldEventResponseView"];
                 };
             };
             /** @description Validation Error */

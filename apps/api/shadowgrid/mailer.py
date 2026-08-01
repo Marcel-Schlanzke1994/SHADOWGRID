@@ -9,6 +9,7 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from shadowgrid.config import Settings
+from shadowgrid.localization import load_auth_catalog, normalize_account_locale
 from shadowgrid.models import EmailOutbox
 
 
@@ -17,30 +18,16 @@ def account_email_copy(
     locale: str,
     link: str,
 ) -> tuple[str, str]:
-    german = locale.lower().startswith("de")
+    normalized = normalize_account_locale(locale)
+    catalog = load_auth_catalog(normalized)
     if kind == "verify_email":
-        if german:
-            return (
-                "Bestätige dein SHADOWGRID-Konto",
-                "Willkommen bei SHADOWGRID. Bestätige dein Konto:\n"
-                f"{link}\n\n"
-                "Dieses fiktive Spiel fragt nie nach realen operativen Informationen.",
-            )
         return (
-            "Verify your SHADOWGRID account",
-            "Welcome to SHADOWGRID. Verify your account:\n"
-            f"{link}\n\n"
-            "This fictional game never requests real-world operational information.",
-        )
-    if german:
-        return (
-            "Setze dein SHADOWGRID-Passwort zurück",
-            f"Setze dein Passwort zurück:\n{link}\n\n"
-            "Wenn du dies nicht angefordert hast, ignoriere diese Nachricht.",
+            catalog["emailVerifySubject"],
+            catalog["emailVerifyBody"].format(link=link),
         )
     return (
-        "Reset your SHADOWGRID password",
-        f"Reset your password:\n{link}\n\nIf you did not request this, ignore this message.",
+        catalog["emailResetSubject"],
+        catalog["emailResetBody"].format(link=link),
     )
 
 

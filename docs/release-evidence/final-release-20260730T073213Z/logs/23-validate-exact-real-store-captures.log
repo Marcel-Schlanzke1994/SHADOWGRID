@@ -1,0 +1,10 @@
+SHADOWGRID final release evidence
+Step: Validate exact real store captures
+Command: pnpm store:validate-captures
+Started: 2026-07-30T09:01:35.227Z
+
+$ node scripts/validate-store-assets.mjs
+Store capture validation passed: 20 exact PNGs; contact sheet C:\Users\Marcel\Downloads\shadowgrid\assets\reports\contact-sheets\store-captures-v1.png.
+
+Finished: 2026-07-30T09:01:45.929Z
+Exit code: 0

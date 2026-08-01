@@ -11,8 +11,10 @@
     "typecheck": "tsc -b --pretty false",
     "test": "vitest run --coverage",
     "test:e2e": "playwright test",
+    "test:e2e:production-i18n": "playwright test --config=playwright.production.config.ts",
     "test:e2e:assets": "playwright test --config=playwright.assets.config.ts e2e/landing-assets.spec.ts e2e/auth-assets.spec.ts e2e/world-assets.spec.ts e2e/command-assets.spec.ts e2e/germany-assets.spec.ts",
-    "capture:store": "playwright test --config=playwright.capture.config.ts",
+    "capture:store": "playwright test --config=playwright.capture.config.ts e2e/store-capture.capture.ts",
+    "capture:localization": "playwright test --config=playwright.capture.config.ts e2e/localization-release.capture.ts",
     "format:check": "prettier --check src"
   },
   "dependencies": {

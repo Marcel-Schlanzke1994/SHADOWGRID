@@ -14,6 +14,7 @@ from shadowgrid.bonds import archive_world_bonds
 from shadowgrid.cartels import cartel_rankings
 from shadowgrid.config import Settings
 from shadowgrid.domain import apply_profile_resource, audit
+from shadowgrid.engagement import record_engagement_event
 from shadowgrid.errors import DomainError
 from shadowgrid.exchange import archive_world_exchange
 from shadowgrid.finance import money_to_cents
@@ -1140,6 +1141,19 @@ def close_season(
         season.phase_changed_at = now
         world.status = "season_break"
         world.ends_at = now
+        for profile in db.scalars(
+            select(PlayerProfile).where(PlayerProfile.world_id == season.world_id)
+        ):
+            record_engagement_event(
+                db,
+                profile_id=profile.id,
+                event_type="season.closed",
+                source_type="season",
+                source_id=season.id,
+                idempotency_key=f"season.closed:{season.id}:{profile.id}",
+                payload={"season_number": season.season_number},
+                occurred_at=now,
+            )
         emit_realtime_event(
             db,
             world_id=world.id,

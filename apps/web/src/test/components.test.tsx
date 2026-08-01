@@ -36,7 +36,7 @@ describe("accessible data primitives", () => {
 
   it("renders non-color status text", () => {
     render(<Status value="partial_success" uncertain />);
-    expect(screen.getByText("partial success")).toBeVisible();
+    expect(screen.getByText("Partial success")).toBeVisible();
   });
 
   it("clamps visual progress while retaining its label", () => {
@@ -58,7 +58,9 @@ describe("accessible data primitives", () => {
     );
     expect(screen.getByRole("heading", { name: "Profile" })).toBeVisible();
     expect(screen.getByText("Public")).toBeVisible();
-    expect(screen.getByRole("alert")).toHaveTextContent("Required");
+    expect(screen.getByRole("alert")).toHaveTextContent(
+      "Enter a valid value for this field.",
+    );
     expect(container.querySelector("input")?.id).toMatch(/^field-codename-/);
   });
 
@@ -106,7 +108,11 @@ describe("accessible data primitives", () => {
         content
       </StateView>,
     );
-    expect(screen.getByText("State conflict")).toBeVisible();
+    expect(
+      screen.getByText(
+        "The state changed before this action completed. Refresh and try again.",
+      ),
+    ).toBeVisible();
     expect(screen.getByText(/req-42/)).toBeVisible();
     fireEvent.click(screen.getByRole("button", { name: "Try again" }));
     expect(retry).toHaveBeenCalledOnce();

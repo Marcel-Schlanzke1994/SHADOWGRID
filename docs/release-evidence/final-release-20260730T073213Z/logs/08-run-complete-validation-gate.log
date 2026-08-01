@@ -1,0 +1,459 @@
+SHADOWGRID final release evidence
+Step: Run complete validation gate
+Command: pnpm validate
+Started: 2026-07-30T07:34:27.974Z
+
+$ powershell -ExecutionPolicy Bypass -File scripts/project.ps1 validate
+== Environment check ==
+[OK] Git: C:\Program Files\Git\cmd\git.exe
+[OK] Node.js: C:\Program Files\nodejs\node.exe
+[OK] pnpm: C:\Program Files\nodejs\pnpm.ps1
+[OK] Python: C:\Users\Marcel\AppData\Local\Python\bin\python.exe
+[OPTIONAL] Docker: missing
+[OPTIONAL] Java: missing
+[OPTIONAL] Android Debug Bridge: missing
+[INFO] CPU: Intel(R) Core(TM) i9-10900F CPU @ 2.80GHz, 20 logical processors
+[INFO] RAM: 31.9 GB
+[OK] Required native prerequisites are available.
+== Install Python dependencies ==
+Requirement already satisfied: fastapi==0.139.2 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 1)) (0.139.2)
+Requirement already satisfied: uvicorn==0.51.0 in .\.venv\Lib\site-packages (from uvicorn[standard]==0.51.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 2)) (0.51.0)
+Requirement already satisfied: sqlalchemy==2.0.51 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 3)) (2.0.51)
+Requirement already satisfied: alembic==1.18.5 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 4)) (1.18.5)
+Requirement already satisfied: pydantic==2.13.4 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 5)) (2.13.4)
+Requirement already satisfied: pydantic-settings==2.14.2 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 6)) (2.14.2)
+Requirement already satisfied: psycopg==3.3.4 in .\.venv\Lib\site-packages (from psycopg[binary]==3.3.4->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 7)) (3.3.4)
+Requirement already satisfied: redis==5.3.1 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 8)) (5.3.1)
+Requirement already satisfied: arq==0.28.0 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 9)) (0.28.0)
+Requirement already satisfied: argon2-cffi==25.1.0 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 10)) (25.1.0)
+Requirement already satisfied: PyJWT==2.13.0 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 11)) (2.13.0)
+Requirement already satisfied: python-multipart==0.0.32 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 12)) (0.0.32)
+Requirement already satisfied: email-validator==2.2.0 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 13)) (2.2.0)
+Requirement already satisfied: pyotp==2.9.0 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 14)) (2.9.0)
+Requirement already satisfied: httpx==0.28.1 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 15)) (0.28.1)
+Requirement already satisfied: structlog==25.4.0 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 16)) (25.4.0)
+Requirement already satisfied: prometheus-client==0.22.1 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 17)) (0.22.1)
+Requirement already satisfied: pip==26.1.2 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 2)) (26.1.2)
+Requirement already satisfied: pytest==9.0.3 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 3)) (9.0.3)
+Requirement already satisfied: pytest-asyncio==1.4.0 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 4)) (1.4.0)
+Requirement already satisfied: pytest-cov==7.1.0 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 5)) (7.1.0)
+Requirement already satisfied: hypothesis==6.135.20 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 6)) (6.135.20)
+Requirement already satisfied: ruff==0.15.22 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 7)) (0.15.22)
+Requirement already satisfied: mypy==2.3.0 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 8)) (2.3.0)
+Requirement already satisfied: bandit==1.9.4 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 9)) (1.9.4)
+Requirement already satisfied: pip-audit==2.9.0 in .\.venv\Lib\site-packages (from -r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (2.9.0)
+Requirement already satisfied: starlette>=0.46.0 in .\.venv\Lib\site-packages (from fastapi==0.139.2->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 1)) (1.3.1)
+Requirement already satisfied: typing-extensions>=4.8.0 in .\.venv\Lib\site-packages (from fastapi==0.139.2->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 1)) (4.16.0)
+Requirement already satisfied: typing-inspection>=0.4.2 in .\.venv\Lib\site-packages (from fastapi==0.139.2->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 1)) (0.4.2)
+Requirement already satisfied: annotated-doc>=0.0.2 in .\.venv\Lib\site-packages (from fastapi==0.139.2->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 1)) (0.0.4)
+Requirement already satisfied: click>=7.0 in .\.venv\Lib\site-packages (from uvicorn==0.51.0->uvicorn[standard]==0.51.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 2)) (8.4.2)
+Requirement already satisfied: h11>=0.8 in .\.venv\Lib\site-packages (from uvicorn==0.51.0->uvicorn[standard]==0.51.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 2)) (0.16.0)
+Requirement already satisfied: greenlet>=1 in .\.venv\Lib\site-packages (from sqlalchemy==2.0.51->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 3)) (3.5.3)
+Requirement already satisfied: Mako in .\.venv\Lib\site-packages (from alembic==1.18.5->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 4)) (1.3.12)
+Requirement already satisfied: annotated-types>=0.6.0 in .\.venv\Lib\site-packages (from pydantic==2.13.4->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 5)) (0.7.0)
+Requirement already satisfied: pydantic-core==2.46.4 in .\.venv\Lib\site-packages (from pydantic==2.13.4->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 5)) (2.46.4)
+Requirement already satisfied: python-dotenv>=0.21.0 in .\.venv\Lib\site-packages (from pydantic-settings==2.14.2->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 6)) (1.2.2)
+Requirement already satisfied: tzdata in .\.venv\Lib\site-packages (from psycopg==3.3.4->psycopg[binary]==3.3.4->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 7)) (2026.3)
+Requirement already satisfied: argon2-cffi-bindings in .\.venv\Lib\site-packages (from argon2-cffi==25.1.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 10)) (25.1.0)
+Requirement already satisfied: dnspython>=2.0.0 in .\.venv\Lib\site-packages (from email-validator==2.2.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 13)) (2.8.0)
+Requirement already satisfied: idna>=2.0.0 in .\.venv\Lib\site-packages (from email-validator==2.2.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 13)) (3.18)
+Requirement already satisfied: anyio in .\.venv\Lib\site-packages (from httpx==0.28.1->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 15)) (4.14.2)
+Requirement already satisfied: certifi in .\.venv\Lib\site-packages (from httpx==0.28.1->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 15)) (2026.6.17)
+Requirement already satisfied: httpcore==1.* in .\.venv\Lib\site-packages (from httpx==0.28.1->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 15)) (1.0.9)
+Requirement already satisfied: colorama>=0.4 in .\.venv\Lib\site-packages (from pytest==9.0.3->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 3)) (0.4.6)
+Requirement already satisfied: iniconfig>=1.0.1 in .\.venv\Lib\site-packages (from pytest==9.0.3->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 3)) (2.3.0)
+Requirement already satisfied: packaging>=22 in .\.venv\Lib\site-packages (from pytest==9.0.3->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 3)) (26.2)
+Requirement already satisfied: pluggy<2,>=1.5 in .\.venv\Lib\site-packages (from pytest==9.0.3->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 3)) (1.6.0)
+Requirement already satisfied: pygments>=2.7.2 in .\.venv\Lib\site-packages (from pytest==9.0.3->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 3)) (2.20.0)
+Requirement already satisfied: coverage>=7.10.6 in .\.venv\Lib\site-packages (from coverage[toml]>=7.10.6->pytest-cov==7.1.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 5)) (7.15.2)
+Requirement already satisfied: attrs>=22.2.0 in .\.venv\Lib\site-packages (from hypothesis==6.135.20->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 6)) (26.1.0)
+Requirement already satisfied: sortedcontainers<3.0.0,>=2.1.0 in .\.venv\Lib\site-packages (from hypothesis==6.135.20->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 6)) (2.4.0)
+Requirement already satisfied: mypy_extensions>=1.0.0 in .\.venv\Lib\site-packages (from mypy==2.3.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 8)) (1.1.0)
+Requirement already satisfied: pathspec>=1.0.0 in .\.venv\Lib\site-packages (from mypy==2.3.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 8)) (1.1.1)
+Requirement already satisfied: librt>=0.13.0 in .\.venv\Lib\site-packages (from mypy==2.3.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 8)) (0.13.0)
+Requirement already satisfied: ast-serialize<1.0.0,>=0.6.0 in .\.venv\Lib\site-packages (from mypy==2.3.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 8)) (0.6.0)
+Requirement already satisfied: PyYAML>=5.3.1 in .\.venv\Lib\site-packages (from bandit==1.9.4->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 9)) (6.0.3)
+Requirement already satisfied: stevedore>=1.20.0 in .\.venv\Lib\site-packages (from bandit==1.9.4->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 9)) (5.9.0)
+Requirement already satisfied: rich in .\.venv\Lib\site-packages (from bandit==1.9.4->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 9)) (15.0.0)
+Requirement already satisfied: CacheControl>=0.13.0 in .\.venv\Lib\site-packages (from CacheControl[filecache]>=0.13.0->pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (0.14.4)
+Requirement already satisfied: cyclonedx-python-lib<10,>=5 in .\.venv\Lib\site-packages (from pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (9.1.0)
+Requirement already satisfied: pip-api>=0.0.28 in .\.venv\Lib\site-packages (from pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (0.0.34)
+Requirement already satisfied: pip-requirements-parser>=32.0.0 in .\.venv\Lib\site-packages (from pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (32.0.1)
+Requirement already satisfied: requests>=2.31.0 in .\.venv\Lib\site-packages (from pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (2.34.2)
+Requirement already satisfied: toml>=0.10 in .\.venv\Lib\site-packages (from pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (0.10.2)
+Requirement already satisfied: platformdirs>=4.2.0 in .\.venv\Lib\site-packages (from pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (4.10.1)
+Requirement already satisfied: psycopg-binary==3.3.4 in .\.venv\Lib\site-packages (from psycopg[binary]==3.3.4->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 7)) (3.3.4)
+Requirement already satisfied: httptools>=0.8.0 in .\.venv\Lib\site-packages (from uvicorn[standard]==0.51.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 2)) (0.8.0)
+Requirement already satisfied: watchfiles>=0.20 in .\.venv\Lib\site-packages (from uvicorn[standard]==0.51.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 2)) (1.2.0)
+Requirement already satisfied: websockets>=13.0 in .\.venv\Lib\site-packages (from uvicorn[standard]==0.51.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 2)) (16.1.1)
+Requirement already satisfied: license-expression<31,>=30 in .\.venv\Lib\site-packages (from cyclonedx-python-lib<10,>=5->pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (30.4.4)
+Requirement already satisfied: packageurl-python<2,>=0.11 in .\.venv\Lib\site-packages (from cyclonedx-python-lib<10,>=5->pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (0.17.6)
+Requirement already satisfied: py-serializable<3.0.0,>=2.0.0 in .\.venv\Lib\site-packages (from cyclonedx-python-lib<10,>=5->pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (2.1.0)
+Requirement already satisfied: boolean.py>=4.0 in .\.venv\Lib\site-packages (from license-expression<31,>=30->cyclonedx-python-lib<10,>=5->pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (5.0)
+Requirement already satisfied: defusedxml<0.8.0,>=0.7.1 in .\.venv\Lib\site-packages (from py-serializable<3.0.0,>=2.0.0->cyclonedx-python-lib<10,>=5->pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (0.7.1)
+Requirement already satisfied: hiredis>=3.0.0 in .\.venv\Lib\site-packages (from redis[hiredis]<6,>=4.2.0->arq==0.28.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 9)) (3.4.0)
+Requirement already satisfied: msgpack<2.0.0,>=0.5.2 in .\.venv\Lib\site-packages (from CacheControl>=0.13.0->CacheControl[filecache]>=0.13.0->pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (1.2.1)
+Requirement already satisfied: filelock>=3.8.0 in .\.venv\Lib\site-packages (from CacheControl[filecache]>=0.13.0->pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (3.31.0)
+Requirement already satisfied: pyparsing in .\.venv\Lib\site-packages (from pip-requirements-parser>=32.0.0->pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (3.3.2)
+Requirement already satisfied: charset_normalizer<4,>=2 in .\.venv\Lib\site-packages (from requests>=2.31.0->pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (3.4.9)
+Requirement already satisfied: urllib3<3,>=1.26 in .\.venv\Lib\site-packages (from requests>=2.31.0->pip-audit==2.9.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 10)) (2.7.0)
+Requirement already satisfied: markdown-it-py>=2.2.0 in .\.venv\Lib\site-packages (from rich->bandit==1.9.4->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 9)) (4.2.0)
+Requirement already satisfied: mdurl~=0.1 in .\.venv\Lib\site-packages (from markdown-it-py>=2.2.0->rich->bandit==1.9.4->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements-dev.txt (line 9)) (0.1.2)
+Requirement already satisfied: cffi>=2.0.0b1 in .\.venv\Lib\site-packages (from argon2-cffi-bindings->argon2-cffi==25.1.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 10)) (2.1.0)
+Requirement already satisfied: pycparser in .\.venv\Lib\site-packages (from cffi>=2.0.0b1->argon2-cffi-bindings->argon2-cffi==25.1.0->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 10)) (3.0)
+Requirement already satisfied: MarkupSafe>=0.9.2 in .\.venv\Lib\site-packages (from Mako->alembic==1.18.5->-r C:\Users\Marcel\Downloads\shadowgrid\apps\api\requirements.txt (line 4)) (3.0.3)
+== Install workspace dependencies ==
+Scope: all 9 workspace projects
+Already up to date
+Done in 3s using pnpm v11.1.3
+== Generate local secrets ==
+Existing local configuration preserved: C:\Users\Marcel\Downloads\shadowgrid\.local\development.env
+== Migration ==
+$ node scripts/run-python.mjs --cwd apps/api -m alembic upgrade head
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+== Seed ==
+$ pnpm migrate && node scripts/run-python.mjs --cwd apps/api -m shadowgrid.seed
+$ node scripts/run-python.mjs --cwd apps/api -m alembic upgrade head
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+Seed complete. Demo credential path: C:\Users\Marcel\Downloads\shadowgrid\.local\demo-credentials.txt
+== Data integrity ==
+$ node scripts/run-python.mjs --cwd apps/api -m shadowgrid.release_checks
+Release data invariants passed.
+== Generate API client ==
+$ node scripts/run-python.mjs scripts/export-openapi.py && pnpm --filter @shadowgrid/api-client generate
+Exported C:\Users\Marcel\Downloads\shadowgrid\.local\openapi.json
+$ openapi-typescript ../../.local/openapi.json -o src/generated/openapi.d.ts
+✨ openapi-typescript 7.8.0
+🚀 ../../.local/openapi.json → src/generated/openapi.d.ts [4.3s]
+== Localization ==
+$ pnpm --filter @shadowgrid/i18n validate
+$ tsx scripts/i18n.ts validate
+Validated 777 canonical English keys and complete German parity.
+== Formatting ==
+$ pnpm --recursive --if-present format:check && node scripts/run-python.mjs -m ruff format --check apps tests
+Scope: 8 of 9 workspace projects
+apps/mobile format:check$ prettier --check app src
+apps/web format:check$ prettier --check src
+apps/mobile format:check: Checking formatting...
+apps/web format:check: Checking formatting...
+apps/mobile format:check: All matched files use Prettier code style!
+apps/mobile format:check: Done
+apps/web format:check: All matched files use Prettier code style!
+apps/web format:check: Done
+121 files already formatted
+== Lint ==
+$ pnpm --recursive --if-present lint && node scripts/run-python.mjs -m ruff check apps tests
+Scope: 8 of 9 workspace projects
+apps/mobile lint$ eslint app src --max-warnings 0
+apps/web lint$ eslint src --max-warnings 0
+apps/web lint: Done
+apps/mobile lint: Done
+[1;32mAll checks passed![0m
+== Typecheck ==
+$ pnpm --recursive --if-present typecheck && node scripts/run-python.mjs -m mypy apps/api/shadowgrid apps/worker
+Scope: 8 of 9 workspace projects
+packages/game-config typecheck$ tsc --noEmit
+packages/shared-types typecheck$ tsc --noEmit
+packages/ui-tokens typecheck$ tsc --noEmit
+packages/validation typecheck$ tsc --noEmit
+packages/shared-types typecheck: Done
+packages/validation typecheck: Done
+packages/ui-tokens typecheck: Done
+packages/game-config typecheck: Done
+packages/api-client typecheck$ tsc --noEmit
+packages/i18n typecheck$ tsc --noEmit
+packages/api-client typecheck: Done
+packages/i18n typecheck: Done
+apps/mobile typecheck$ tsc --noEmit
+apps/web typecheck$ tsc -b --pretty false
+apps/mobile typecheck: Done
+apps/web typecheck: Done
+Success: no issues found in 64 source files
+== Tests ==
+$ pnpm --recursive --if-present test && node scripts/run-python.mjs --cwd apps/api -m pytest tests -q --cov=shadowgrid --cov-report=term --cov-fail-under=65
+Scope: 8 of 9 workspace projects
+apps/mobile test$ jest --runInBand --coverage
+apps/web test$ vitest run --coverage
+apps/web test:  RUN  v3.2.6 C:/Users/Marcel/Downloads/shadowgrid/apps/web
+apps/web test:       Coverage enabled with v8
+apps/mobile test: PASS src/api-config.test.ts (6.674 s)
+apps/mobile test: PASS src/theme.test.ts
+apps/mobile test: ----------|---------|----------|---------|---------|-------------------
+apps/mobile test: File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
+apps/mobile test: ----------|---------|----------|---------|---------|-------------------
+apps/mobile test: All files |     100 |      100 |     100 |     100 |
+apps/mobile test:  theme.ts |     100 |      100 |     100 |     100 |
+apps/mobile test: ----------|---------|----------|---------|---------|-------------------
+apps/mobile test: Test Suites: 2 passed, 2 total
+apps/mobile test: Tests:       9 passed, 9 total
+apps/mobile test: Snapshots:   0 total
+apps/mobile test: Time:        22.276 s
+apps/mobile test: Ran all test suites.
+apps/mobile test: Done
+apps/web test:  ✓ src/test/components.test.tsx (12 tests) 1412ms
+apps/web test:    ✓ accessible data primitives > renders licensed Germany map layers with non-color equivalents  671ms
+apps/web test:  Test Files  1 passed (1)
+apps/web test:       Tests  12 passed (12)
+apps/web test:    Start at  09:39:26
+apps/web test:    Duration  25.91s (transform 1.22s, setup 2.34s, collect 4.69s, tests 1.41s, environment 8.41s, prepare 3.08s)
+apps/web test:  % Coverage report from v8
+apps/web test: ----------------|---------|----------|---------|---------|----------------------
+apps/web test: File            | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
+apps/web test: ----------------|---------|----------|---------|---------|----------------------
+apps/web test: All files       |   95.74 |       80 |   91.66 |   95.74 |
+apps/web test:  components.tsx |   95.23 |    77.41 |    87.5 |   95.23 | ...6,196-197,205-207
+apps/web test:  format.ts      |     100 |      100 |     100 |     100 |
+apps/web test: ----------------|---------|----------|---------|---------|----------------------
+apps/web test: Done
+........................................................................ [ 56%]
+.......................................................                  [100%]
+=============================== tests coverage ================================
+_______________ coverage: platform win32, python 3.14.5-final-0 _______________
+
+Name                                 Stmts   Miss  Cover
+--------------------------------------------------------
+shadowgrid\__init__.py                   1      0   100%
+shadowgrid\ai.py                       119     27    77%
+shadowgrid\api.py                      731    273    63%
+shadowgrid\balance_simulation.py       324     29    91%
+shadowgrid\bond_api.py                  41     10    76%
+shadowgrid\bond_schemas.py              84      0   100%
+shadowgrid\bonds.py                    294     52    82%
+shadowgrid\bootstrap.py                 80     19    76%
+shadowgrid\cartel_api.py               121     20    83%
+shadowgrid\cartel_schemas.py           131      0   100%
+shadowgrid\cartels.py                  441     60    86%
+shadowgrid\companies.py                115     15    87%
+shadowgrid\config.py                   150      4    97%
+shadowgrid\contract_api.py              48      5    90%
+shadowgrid\contract_schemas.py          99      3    97%
+shadowgrid\contracts.py                240     40    83%
+shadowgrid\database.py                  22      0   100%
+shadowgrid\dependencies.py              48      5    90%
+shadowgrid\domain.py                   329    132    60%
+shadowgrid\economy.py                  237     27    89%
+shadowgrid\errors.py                     8      0   100%
+shadowgrid\exchange.py                 535     90    83%
+shadowgrid\finance.py                  175     20    89%
+shadowgrid\game_config.py               79      0   100%
+shadowgrid\intelligence.py             251     36    86%
+shadowgrid\intelligence_api.py          74      6    92%
+shadowgrid\intelligence_schemas.py     107      0   100%
+shadowgrid\loan_api.py                  35      5    86%
+shadowgrid\loan_schemas.py              85      3    96%
+shadowgrid\loans.py                    193     24    88%
+shadowgrid\local_backups.py            103     48    53%
+shadowgrid\mailer.py                    51      5    90%
+shadowgrid\main.py                     220     35    84%
+shadowgrid\models.py                  1983     24    99%
+shadowgrid\multiplayer_api.py          297     77    74%
+shadowgrid\multiplayer_domain.py       576    160    72%
+shadowgrid\multiplayer_schemas.py      289      0   100%
+shadowgrid\multiplayer_social.py       223     68    70%
+shadowgrid\onboarding.py                42      4    90%
+shadowgrid\predeploy.py                 13      1    92%
+shadowgrid\production.py                39     26    33%
+shadowgrid\rate_limits.py               53     17    68%
+shadowgrid\real_estate.py              378     54    86%
+shadowgrid\real_estate_api.py           67      3    96%
+shadowgrid\real_estate_schemas.py      118      0   100%
+shadowgrid\realtime.py                  85     10    88%
+shadowgrid\realtime_api.py              16      0   100%
+shadowgrid\realtime_schemas.py          23      0   100%
+shadowgrid\release_checks.py            67     19    72%
+shadowgrid\restore_drill.py             69     69     0%
+shadowgrid\schemas.py                  689     11    98%
+shadowgrid\season_api.py                85     26    69%
+shadowgrid\season_schemas.py            97      3    97%
+shadowgrid\seasons.py                  426     55    87%
+shadowgrid\security.py                  63      4    94%
+shadowgrid\seed.py                     213    169    21%
+shadowgrid\specialists.py              259     49    81%
+shadowgrid\tick_time.py                  8      1    88%
+shadowgrid\world_event_api.py           31      1    97%
+shadowgrid\world_event_schemas.py       57      0   100%
+shadowgrid\world_events.py             210     25    88%
+--------------------------------------------------------
+TOTAL                                12047   1869    84%
+Required test coverage of 65% reached. Total coverage: 84.49%
+127 passed, 1 warning in 1706.57s (0:28:26)
+== Load smoke test ==
+$ node scripts/run-python.mjs -m pytest tests/load -q
+....                                                                     [100%]
+4 passed in 30.37s
+== Security ==
+$ powershell -ExecutionPolicy Bypass -File scripts/security-scan.ps1
+Secret scan passed without credential or private-key patterns.
+No known vulnerabilities found
+1 vulnerabilities found
+Severity: 1 high (1 ignored)
+Security scan passed without credential patterns or high-severity audit findings.
+== Production builds ==
+$ pnpm --workspace-concurrency=1 --recursive --if-present build
+Scope: 8 of 9 workspace projects
+$ expo export --platform web
+Starting Metro Bundler
+Static rendering is enabled. Learn more: https://docs.expo.dev/router/reference/static-rendering/
+Web node_modules\.pnpm\expo-router@5.1.11_6be0ae7517fd58eed8e2556a52996047\node_modules\expo-router\entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+λ node_modules\.pnpm\expo-router@5.1.11_6be0ae7517fd58eed8e2556a52996047\node_modules\expo-router\node\render.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web node_modules\.pnpm\expo-router@5.1.11_6be0ae7517fd58eed8e2556a52996047\node_modules\expo-router\entry.js ▓▓▓░░░░░░░░░░░░░ 20.9% (106/244)
+λ node_modules\.pnpm\expo-router@5.1.11_6be0ae7517fd58eed8e2556a52996047\node_modules\expo-router\node\render.js ▓▓▓▓▓▓▓░░░░░░░░░ 44.3% (295/443)
+Web node_modules\.pnpm\expo-router@5.1.11_6be0ae7517fd58eed8e2556a52996047\node_modules\expo-router\entry.js ▓▓▓▓▓▓░░░░░░░░░░ 41.5% (235/365)
+λ node_modules\.pnpm\expo-router@5.1.11_6be0ae7517fd58eed8e2556a52996047\node_modules\expo-router\node\render.js ▓▓▓▓▓▓▓▓░░░░░░░░ 55.5% ( 399/1456)
+Web node_modules\.pnpm\expo-router@5.1.11_6be0ae7517fd58eed8e2556a52996047\node_modules\expo-router\entry.js ▓▓▓▓▓▓░░░░░░░░░░ 41.5% ( 377/1428)
+λ node_modules\.pnpm\expo-router@5.1.11_6be0ae7517fd58eed8e2556a52996047\node_modules\expo-router\node\render.js ▓▓▓▓▓▓▓▓░░░░░░░░ 55.5% ( 461/1480)
+Web node_modules\.pnpm\expo-router@5.1.11_6be0ae7517fd58eed8e2556a52996047\node_modules\expo-router\entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░ 88.1% (1419/1512)
+λ node_modules\.pnpm\expo-router@5.1.11_6be0ae7517fd58eed8e2556a52996047\node_modules\expo-router\node\render.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░ 90.2% (1487/1571)
+Web node_modules\.pnpm\expo-router@5.1.11_6be0ae7517fd58eed8e2556a52996047\node_modules\expo-router\entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 97.7% (1631/1650)
+λ node_modules\.pnpm\expo-router@5.1.11_6be0ae7517fd58eed8e2556a52996047\node_modules\expo-router\node\render.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 99.8% (1695/1697)
+| (node:26500) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+Web node_modules\.pnpm\expo-router@5.1.11_6be0ae7517fd58eed8e2556a52996047\node_modules\expo-router\entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 99.9% (1659/1660)
+λ node_modules\.pnpm\expo-router@5.1.11_6be0ae7517fd58eed8e2556a52996047\node_modules\expo-router\node\render.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 99.9% (1696/1697)
+| (node:50436) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+λ Bundled 22206ms node_modules\.pnpm\expo-router@5.1.11_6be0ae7517fd58eed8e2556a52996047\node_modules\expo-router\node\render.js (1697 modules)
+Web node_modules\.pnpm\expo-router@5.1.11_6be0ae7517fd58eed8e2556a52996047\node_modules\expo-router\entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 99.9% (1660/1660)
+Web Bundled 37556ms node_modules\.pnpm\expo-router@5.1.11_6be0ae7517fd58eed8e2556a52996047\node_modules\expo-router\entry.js (1660 modules)
+Web node_modules\.pnpm\expo-router@5.1.11_6be0ae7517fd58eed8e2556a52996047\node_modules\expo-router\entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 99.9% (1660/1660)
+
+› web bundles (1):
+_expo/static/js/web/entry-42db1257cdba01e5d2e5408611760df5.js (1.5 MB)
+
+› Static routes (15):
+/ (index) (18.6 kB)
+/login (19.7 kB)
+/_sitemap (22.2 kB)
+/settings (31.5 kB)
+/+not-found (20.4 kB)
+/businesses (31 kB)
+/operations (31.2 kB)
+/multiplayer (32.8 kB)
+/(tabs) (31.2 kB)
+/organization (31 kB)
+/(tabs)/settings (31.5 kB)
+/(tabs)/businesses (31 kB)
+/(tabs)/operations (31.2 kB)
+/(tabs)/multiplayer (32.8 kB)
+/(tabs)/organization (31 kB)
+
+Exported: dist
+$ tsc -b && vite build
+vite v6.4.3 building for production...
+transforming...
+✓ 222 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.97 kB │ gzip:   0.45 kB
+dist/assets/index-BF_2oxfM.css   23.73 kB │ gzip:   5.85 kB
+dist/assets/i18n-BpSawzFj.js     49.71 kB │ gzip:  16.37 kB
+dist/assets/vendor-Dn88nvzs.js  127.59 kB │ gzip:  33.66 kB
+dist/assets/index-BkeayuAQ.js   255.20 kB │ gzip:  62.59 kB
+dist/assets/react-a77w5I3T.js   260.43 kB │ gzip:  84.94 kB
+dist/assets/graph-CKShIO4H.js   438.67 kB │ gzip: 140.34 kB
+✓ built in 51.81s
+== Browser end-to-end tests ==
+$ pnpm --filter @shadowgrid/web test:e2e
+$ playwright test
+[WebServer] $ node scripts/run-python.mjs --cwd apps/api -m uvicorn shadowgrid.main:app --reload --host 0.0.0.0 --port 8000
+[WebServer] INFO:     Will watch for changes in these directories: ['C:\\Users\\Marcel\\Downloads\\shadowgrid\\apps\\api']
+[WebServer] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[WebServer] INFO:     Started reloader process [56952] using WatchFiles
+[WebServer] INFO:     Started server process [15272]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] $ vite --host 0.0.0.0
+
+Running 62 tests using 2 workers
+
+(node:23016) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:49156) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:23016) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:49156) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 [chromium] › e2e\auth-assets.spec.ts:20:3 › login artwork is responsive, loaded and accessible (20.3s)
+  ok  3 [chromium] › e2e\auth-assets.spec.ts:68:3 › login artwork reflows at 200 percent (5.2s)
+  ok  4 [chromium] › e2e\auth-assets.spec.ts:20:3 › registration artwork is responsive, loaded and accessible (12.8s)
+  ok  5 [chromium] › e2e\auth-assets.spec.ts:68:3 › registration artwork reflows at 200 percent (3.8s)
+  ok  6 [chromium] › e2e\bond-flow.spec.ts:247:1 › player issues, subscribes to and activates company bonds (13.0s)
+  ok  7 [chromium] › e2e\cartel-flow.spec.ts:293:1 › cartel leader manages treasury, projects and approvals accessibly (18.3s)
+  ok  8 [chromium] › e2e\command-assets.spec.ts:107:1 › command center loads the responsive daytime artwork (15.8s)
+  ok  9 [chromium] › e2e\command-assets.spec.ts:156:1 › offline state loads its accessible decorative artwork (13.3s)
+  ok 10 [chromium] › e2e\company-flow.spec.ts:321:1 › company founding and investment require cost confirmation (14.7s)
+  ok 11 [chromium] › e2e\contract-flow.spec.ts:237:1 › player publishes, bids, reviews and awards commercial contracts (14.3s)
+  ok 12 [chromium] › e2e\critical-flow.spec.ts:34:1 › login, dashboard, city, businesses and operation planning are reachable (11.0s)
+  ok 13 [chromium] › e2e\critical-flow.spec.ts:58:1 › authenticated command center has no serious automated accessibility violations (15.0s)
+  ok 14 [chromium] › e2e\critical-flow.spec.ts:76:1 › language switch applies RTL direction (11.3s)
+  ok 15 [chromium] › e2e\exchange-flow.spec.ts:355:1 › IPO, order lifecycle and dividend flow are explicit and accessible (26.8s)
+  ok 16 [chromium] › e2e\germany-assets.spec.ts:64:1 › licensed Germany map assets load and remain keyboard operable (46.5s)
+  ok  2 [chromium] › e2e\accessibility-matrix.spec.ts:63:1 › every primary page has landmarks and no serious automated accessibility violation (4.3m)
+  ok 17 [chromium] › e2e\intelligence-flow.spec.ts:273:1 › analyst gathers, trades and applies abstract pressure accessibly (18.1s)
+  ok 18 [chromium] › e2e\accessibility-matrix.spec.ts:86:1 › skip navigation, reduced motion and pseudo-locales remain operable (13.0s)
+  ok 19 [chromium] › e2e\landing-assets.spec.ts:4:1 › landing artwork is responsive, loaded and accessible (10.4s)
+  ok 21 [chromium] › e2e\landing-assets.spec.ts:42:1 › landing artwork selects the matching night variant (6.3s)
+  ok 20 [chromium] › e2e\loan-flow.spec.ts:182:1 › player requests, reviews and accepts a fixed-rate company loan (12.5s)
+  ok 22 [chromium] › e2e\landing-assets.spec.ts:60:1 › landing artwork reflows at 200 percent without horizontal overflow (3.6s)
+  ok 24 [chromium] › e2e\realtime-notifications-flow.spec.ts:151:1 › event feed and unread notifications reconcile through REST (10.8s)
+  ok 23 [chromium] › e2e\real-estate-flow.spec.ts:317:1 › player buys, lists and leases property, then upgrades headquarters (16.8s)
+  ok 25 [chromium] › e2e\season-flow.spec.ts:288:1 › player sees season phase, goals, ties, rewards and champions (12.6s)
+  ok 26 [chromium] › e2e\specialist-flow.spec.ts:200:1 › specialist hiring, assignment and release are explicit and accessible (15.2s)
+  ok 27 [chromium] › e2e\season-flow.spec.ts:308:1 › local administrator shortens, simulates, closes and recreates a season (14.2s)
+  ok 28 [chromium] › e2e\world-assets.spec.ts:75:1 › world selection artwork is responsive, loaded and accessible (9.8s)
+  ok 30 [chromium] › e2e\world-assets.spec.ts:128:1 › world selection artwork reflows at 200 percent (3.6s)
+(node:6776) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 29 [chromium] › e2e\world-events-flow.spec.ts:214:1 › administrator previews, activates and safely ends a world event (10.8s)
+(node:6776) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 31 [chromium] › e2e\world-events-flow.spec.ts:243:1 › active world event is visible in the player command center (10.1s)
+(node:60088) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:60088) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 33 [mobile] › e2e\auth-assets.spec.ts:20:3 › login artwork is responsive, loaded and accessible (10.2s)
+  -  34 [mobile] › e2e\auth-assets.spec.ts:68:3 › login artwork reflows at 200 percent
+  ok 35 [mobile] › e2e\auth-assets.spec.ts:20:3 › registration artwork is responsive, loaded and accessible (9.8s)
+  -  36 [mobile] › e2e\auth-assets.spec.ts:68:3 › registration artwork reflows at 200 percent
+  ok 37 [mobile] › e2e\bond-flow.spec.ts:247:1 › player issues, subscribes to and activates company bonds (15.9s)
+  ok 38 [mobile] › e2e\cartel-flow.spec.ts:293:1 › cartel leader manages treasury, projects and approvals accessibly (20.8s)
+  ok 39 [mobile] › e2e\command-assets.spec.ts:107:1 › command center loads the responsive daytime artwork (16.9s)
+  ok 40 [mobile] › e2e\command-assets.spec.ts:156:1 › offline state loads its accessible decorative artwork (18.9s)
+  ok 41 [mobile] › e2e\company-flow.spec.ts:321:1 › company founding and investment require cost confirmation (19.2s)
+  ok 42 [mobile] › e2e\contract-flow.spec.ts:237:1 › player publishes, bids, reviews and awards commercial contracts (14.8s)
+  ok 43 [mobile] › e2e\critical-flow.spec.ts:34:1 › login, dashboard, city, businesses and operation planning are reachable (12.0s)
+  ok 44 [mobile] › e2e\critical-flow.spec.ts:58:1 › authenticated command center has no serious automated accessibility violations (12.0s)
+  ok 45 [mobile] › e2e\critical-flow.spec.ts:76:1 › language switch applies RTL direction (11.5s)
+  ok 46 [mobile] › e2e\exchange-flow.spec.ts:355:1 › IPO, order lifecycle and dividend flow are explicit and accessible (26.9s)
+  ok 32 [mobile] › e2e\accessibility-matrix.spec.ts:63:1 › every primary page has landmarks and no serious automated accessibility violation (3.6m)
+  ok 48 [mobile] › e2e\accessibility-matrix.spec.ts:86:1 › skip navigation, reduced motion and pseudo-locales remain operable (22.5s)
+  ok 47 [mobile] › e2e\germany-assets.spec.ts:64:1 › licensed Germany map assets load and remain keyboard operable (36.0s)
+  ok 50 [mobile] › e2e\landing-assets.spec.ts:4:1 › landing artwork is responsive, loaded and accessible (11.9s)
+  ok 49 [mobile] › e2e\intelligence-flow.spec.ts:273:1 › analyst gathers, trades and applies abstract pressure accessibly (17.7s)
+  ok 51 [mobile] › e2e\landing-assets.spec.ts:42:1 › landing artwork selects the matching night variant (6.9s)
+  -  53 [mobile] › e2e\landing-assets.spec.ts:60:1 › landing artwork reflows at 200 percent without horizontal overflow
+  ok 52 [mobile] › e2e\loan-flow.spec.ts:182:1 › player requests, reviews and accepts a fixed-rate company loan (13.6s)
+  ok 55 [mobile] › e2e\realtime-notifications-flow.spec.ts:151:1 › event feed and unread notifications reconcile through REST (10.2s)
+  ok 54 [mobile] › e2e\real-estate-flow.spec.ts:317:1 › player buys, lists and leases property, then upgrades headquarters (16.1s)
+  ok 56 [mobile] › e2e\season-flow.spec.ts:288:1 › player sees season phase, goals, ties, rewards and champions (12.7s)
+  ok 57 [mobile] › e2e\specialist-flow.spec.ts:200:1 › specialist hiring, assignment and release are explicit and accessible (16.9s)
+  ok 58 [mobile] › e2e\season-flow.spec.ts:308:1 › local administrator shortens, simulates, closes and recreates a season (14.5s)
+  ok 59 [mobile] › e2e\world-assets.spec.ts:75:1 › world selection artwork is responsive, loaded and accessible (10.4s)
+  -  61 [mobile] › e2e\world-assets.spec.ts:128:1 › world selection artwork reflows at 200 percent
+  ok 60 [mobile] › e2e\world-events-flow.spec.ts:214:1 › administrator previews, activates and safely ends a world event (11.0s)
+  ok 62 [mobile] › e2e\world-events-flow.spec.ts:243:1 › active world event is visible in the player command center (7.7s)
+
+  4 skipped
+  58 passed (12.4m)
+
+To open last HTML report run:
+
+  pnpm exec playwright show-report
+
+
+Finished: 2026-07-30T08:27:51.853Z
+Exit code: 0

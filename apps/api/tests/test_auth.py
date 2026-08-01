@@ -56,6 +56,22 @@ def test_unverified_user_cannot_login(client: TestClient) -> None:
     assert login.json()["error"]["code"] == "auth.email_unverified"
 
 
+def test_registration_rejects_a_locale_without_approved_email_copy(
+    client: TestClient,
+) -> None:
+    response = client.post(
+        "/api/v1/auth/register",
+        json={
+            "email": "unapproved-locale@example.com",
+            "display_name": "Locale Guard",
+            "password": "StrongPassword123",
+            "locale": "es",
+            "terms_accepted": True,
+        },
+    )
+    assert response.status_code == 422
+
+
 def test_registration_email_uses_configured_web_origin(client: TestClient) -> None:
     response = client.post(
         "/api/v1/auth/register",

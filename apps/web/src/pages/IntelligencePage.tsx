@@ -1,5 +1,6 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { createIdempotencyKey } from "@shadowgrid/api-client";
+import { translateGameValue } from "@shadowgrid/i18n";
 import type {
   IntelligenceOffer,
   IntelligenceOperation,
@@ -63,8 +64,7 @@ const profileActionTypes = new Set([
   "make_information_unreliable",
 ]);
 
-const humanize = (value: string) =>
-  value.replaceAll("_", " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
+const humanize = translateGameValue;
 
 function OperationForm({
   targets,
@@ -106,8 +106,8 @@ function OperationForm({
         <select {...register("specialist_id")}>
           {specialists.map((specialist) => (
             <option key={specialist.id} value={specialist.id}>
-              {specialist.name} · {humanize(specialist.role)} · E
-              {specialist.energy}
+              {specialist.name} · {humanize(specialist.role)} ·{" "}
+              {t("specialistEnergyValue", { value: specialist.energy })}
             </option>
           ))}
         </select>
@@ -408,7 +408,7 @@ export function IntelligencePage() {
     effects.isLoading;
 
   return (
-    <div className="page">
+    <div className="page page--intelligence">
       <header className="page-header">
         <h1>{t("intelPhaseTitle")}</h1>
         <p>{t("intelPhaseDescription")}</p>
@@ -479,11 +479,9 @@ export function IntelligencePage() {
                     <div>
                       <dt>{t("intelAge")}</dt>
                       <dd>
-                        {formatNumber(
-                          Math.floor(report.age_seconds / 3600),
-                          i18n.language,
-                        )}{" "}
-                        h
+                        {t("hoursValue", {
+                          count: Math.floor(report.age_seconds / 3600),
+                        })}
                       </dd>
                     </div>
                     <div>

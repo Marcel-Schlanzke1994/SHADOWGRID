@@ -1,0 +1,10 @@
+SHADOWGRID final release evidence
+Step: Check documentation links and dependency licenses
+Command: pnpm release:materials
+Started: 2026-07-30T09:01:09.534Z
+
+$ node scripts/verify-release-materials.mjs
+Release materials passed: 103 Markdown files, 32 local links, 593 Node and 86 Python package records.
+
+Finished: 2026-07-30T09:01:24.794Z
+Exit code: 0

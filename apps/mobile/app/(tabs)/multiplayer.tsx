@@ -10,7 +10,7 @@ import { useEffect, useState } from "react";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useTranslation } from "react-i18next";
 import { createIdempotencyKey } from "@shadowgrid/api-client";
-import { i18n as shadowgridI18n } from "@shadowgrid/i18n";
+import { i18n as shadowgridI18n, translateGameValue } from "@shadowgrid/i18n";
 import type {
   Alliance,
   CartelWar,
@@ -23,7 +23,7 @@ import type {
 import { api } from "../../src/api";
 import { styles } from "../../src/theme";
 
-const humanize = (value: string) => value.replaceAll("_", " ");
+const humanize = translateGameValue;
 
 export default function Multiplayer() {
   const { t } = useTranslation(undefined, { i18n: shadowgridI18n });

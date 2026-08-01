@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "locale": "de",
+  "status": "human_translated",
+  "entries": {
+    "company": {
+      "meaning": "A player-controlled economic organization.",
+      "approved": null,
+      "proposed": "Unternehmen",
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "human_translated"
+    },
+    "holding": {
+      "meaning": "An owned financial or corporate position.",
+      "approved": null,
+      "proposed": "Beteiligung",
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "human_translated"
+    },
+    "share": {
+      "meaning": "One immutable unit of company ownership.",
+      "approved": null,
+      "proposed": "Aktie",
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "human_translated"
+    },
+    "ownership": {
+      "meaning": "The proportion of an asset controlled by an actor.",
+      "approved": null,
+      "proposed": "Eigentum",
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "human_translated"
+    },
+    "dividend": {
+      "meaning": "A ledger-booked distribution to eligible shareholders.",
+      "approved": null,
+      "proposed": "Dividende",
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "human_translated"
+    },
+    "order_book": {
+      "meaning": "The authoritative list of open buy and sell orders.",
+      "approved": null,
+      "proposed": "Orderbuch",
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "human_translated"
+    },
+    "bid": {
+      "meaning": "A binding offer to buy or provide a service.",
+      "approved": null,
+      "proposed": "Gebot",
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "human_translated"
+    },
+    "tender": {
+      "meaning": "A time-bounded competitive contract process.",
+      "approved": null,
+      "proposed": "Ausschreibung",
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "human_translated"
+    },
+    "bond": {
+      "meaning": "A fixed debt instrument issued by a company.",
+      "approved": null,
+      "proposed": "Anleihe",
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "human_translated"
+    },
+    "loan": {
+      "meaning": "A ledger-backed principal with a repayment schedule.",
+      "approved": null,
+      "proposed": "Kredit",
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "human_translated"
+    },
+    "collateral": {
+      "meaning": "An asset pledged against an obligation.",
+      "approved": null,
+      "proposed": "Sicherheit",
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "human_translated"
+    },
+    "ledger": {
+      "meaning": "An immutable financial transaction record.",
+      "approved": null,
+      "proposed": "Hauptbuch",
+      "allowedShortForm": null,
+      "forbidden": [
+        "Liste",
+        "Kontoauszug"
+      ],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "human_translated"
+    },
+    "district": {
+      "meaning": "A controllable subdivision of a game city.",
+      "approved": null,
+      "proposed": "Distrikt",
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "human_translated"
+    },
+    "cartel": {
+      "meaning": "A player organization for coordinated strategy.",
+      "approved": null,
+      "proposed": "Kartell",
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "human_translated"
+    },
+    "influence": {
+      "meaning": "A non-cash strategic resource.",
+      "approved": null,
+      "proposed": "Einfluss",
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "human_translated"
+    },
+    "intelligence": {
+      "meaning": "Verified or uncertain strategic information.",
+      "approved": null,
+      "proposed": "Aufklärung",
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "human_translated"
+    },
+    "investigation": {
+      "meaning": "A server-resolved process for discovering information.",
+      "approved": null,
+      "proposed": "Untersuchung",
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "human_translated"
+    },
+    "operation": {
+      "meaning": "An abstract, time-bounded strategic action.",
+      "approved": null,
+      "proposed": "Operation",
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "human_translated"
+    },
+    "world_event": {
+      "meaning": "A server-authoritative event affecting the shared world.",
+      "approved": null,
+      "proposed": "Weltereignis",
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "human_translated"
+    },
+    "season": {
+      "meaning": "A bounded competitive period with archived results.",
+      "approved": null,
+      "proposed": "Saison",
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "human_translated"
+    },
+    "headquarters": {
+      "meaning": "A company's primary upgradeable property.",
+      "approved": null,
+      "proposed": "Hauptquartier",
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "human_translated"
+    },
+    "legacy": {
+      "meaning": "Persistent cosmetic and historical recognition.",
+      "approved": null,
+      "proposed": "Vermächtnis",
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "human_translated"
+    },
+    "mastery": {
+      "meaning": "Evidence-based progress in a strategic discipline.",
+      "approved": null,
+      "proposed": "Meisterschaft",
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "human_translated"
+    }
+  }
+}

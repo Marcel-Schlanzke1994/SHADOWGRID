@@ -4,6 +4,7 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useTranslation } from "react-i18next";
 import cytoscape from "cytoscape";
 import { ApiError, createIdempotencyKey } from "@shadowgrid/api-client";
+import { translateGameValue } from "@shadowgrid/i18n";
 import {
   companyIndustries,
   companyInvestmentTypes,
@@ -17,9 +18,12 @@ import type {
   CompanyEconomyReport,
   District,
   EconomyStatus,
+  EngagementCommandCenter,
   IntelReport,
   Operation,
+  PlayerSession,
   Profile,
+  SessionSummary,
   Specialist,
   SpecialistEffects,
   SpecialistMarketCandidate,
@@ -44,8 +48,7 @@ import {
   formatNumber,
 } from "../format";
 
-const humanize = (value: string) =>
-  value.replaceAll("_", " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
+const humanize = translateGameValue;
 const useProfile = () =>
   useQuery({
     queryKey: ["profile"],
@@ -101,15 +104,13 @@ function EconomyReportChart({
       >
         <desc id={`${chartId}-description`}>
           {chronological
-            .map(
-              (report) =>
-                `${formatDate(report.created_at, locale)}: ${t(
-                  "revenue",
-                )} ${formatCents(report.revenue_cents, locale)}, ${t(
-                  "cost",
-                )} ${formatCents(report.cost_cents, locale)}, ${t(
-                  "companyProfit",
-                )} ${formatCents(report.profit_cents, locale)}`,
+            .map((report) =>
+              t("economyChartPoint", {
+                date: formatDate(report.created_at, locale),
+                revenue: formatCents(report.revenue_cents, locale),
+                cost: formatCents(report.cost_cents, locale),
+                profit: formatCents(report.profit_cents, locale),
+              }),
             )
             .join(". ")}
         </desc>
@@ -318,15 +319,63 @@ export function TutorialPage() {
 export function DashboardPage() {
   const { t, i18n } = useTranslation();
   const profile = useProfile();
-  const operations = useQuery({
-    queryKey: ["operations"],
-    queryFn: () => client.get<Operation[]>("/operations"),
-    enabled: Boolean(profile.data),
+  const queryClient = useQueryClient();
+  const initializeKey = useRef(createIdempotencyKey());
+  const initializationStarted = useRef(false);
+  const initialize = useMutation({
+    mutationFn: () =>
+      client.post("/engagement/initialize", {}, initializeKey.current),
+    onSuccess: async () => {
+      await queryClient.invalidateQueries({
+        queryKey: ["engagement-command-center"],
+      });
+    },
+  });
+  useEffect(() => {
+    if (profile.data && !initializationStarted.current) {
+      initializationStarted.current = true;
+      initialize.mutate();
+    }
+    // The ref and idempotency key make the profile-dependent bootstrap one-shot.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [profile.data]);
+  const engagement = useQuery({
+    queryKey: ["engagement-command-center"],
+    queryFn: () =>
+      client.get<EngagementCommandCenter>("/engagement/command-center"),
+    enabled: initialize.isSuccess,
   });
   const events = useQuery({
     queryKey: ["events"],
     queryFn: () => client.get<WorldEventInstance[]>("/world-events"),
     enabled: Boolean(profile.data),
+  });
+  const sessionKey = useRef(
+    sessionStorage.getItem("shadowgrid.engagement.session") ??
+      `web:${createIdempotencyKey()}`,
+  );
+  useEffect(() => {
+    sessionStorage.setItem("shadowgrid.engagement.session", sessionKey.current);
+  }, []);
+  const session = useQuery({
+    queryKey: ["engagement-session", sessionKey.current],
+    queryFn: () =>
+      client.post<PlayerSession>("/engagement/sessions", {
+        client_session_key: sessionKey.current,
+      }),
+    enabled: initialize.isSuccess,
+    refetchOnWindowFocus: false,
+  });
+  const [summary, setSummary] = useState<SessionSummary | null>(null);
+  const finishSession = useMutation({
+    mutationFn: (sessionId: string) =>
+      client.post<SessionSummary>(`/engagement/sessions/${sessionId}/finish`, {
+        decision_keys: [],
+      }),
+    onSuccess: (value) => {
+      sessionStorage.removeItem("shadowgrid.engagement.session");
+      setSummary(value);
+    },
   });
   if (
     profile.error instanceof ApiError &&
@@ -337,8 +386,8 @@ export function DashboardPage() {
   return (
     <div className="page page--command">
       <GlobalDayNightBackdrop
-        dayAssetId="global-command-center-day-v1"
-        nightAssetId="global-command-center-night-v1"
+        dayAssetId="global-command-center-premium-day-v2"
+        nightAssetId="global-command-center-premium-night-v2"
         variant="command"
       />
       <header className="page-header">
@@ -395,47 +444,97 @@ export function DashboardPage() {
               />
             </div>
             <div className="dashboard-grid">
-              <Panel title={t("operationsTitle")}>
+              <Panel title={t("engagementCommandOpportunities")}>
                 <StateView
-                  loading={operations.isLoading}
-                  error={operations.error}
-                  empty={!operations.data?.length}
+                  loading={initialize.isPending || engagement.isLoading}
+                  error={initialize.error ?? engagement.error}
+                  empty={!engagement.data?.opportunities.length}
                 >
-                  {operations.data?.slice(0, 3).map((item) => (
+                  {engagement.data?.opportunities.map((item) => (
                     <Link
                       className="list-row"
-                      to={`/operations/${item.id}`}
-                      key={item.id}
+                      to={item.target_path}
+                      key={`${item.source_type}-${item.source_id}`}
                     >
                       <span>
-                        <strong>{humanize(item.operation_type)}</strong>
-                        <small>{item.target}</small>
+                        <small>
+                          {t(
+                            item.category === "urgent"
+                              ? "engagementOpportunityUrgent"
+                              : item.category === "strategic"
+                                ? "engagementOpportunityStrategic"
+                                : "engagementOpportunityDiscoverable",
+                          )}
+                        </small>
+                        <strong>
+                          {item.source_type === "plan"
+                            ? item.title
+                            : t(item.title)}
+                        </strong>
+                        <small>
+                          {item.source_type === "plan"
+                            ? item.detail
+                            : t(item.detail)}
+                        </small>
                       </span>
-                      <Status value={item.status} />
                     </Link>
                   ))}
-                  <Link className="text-link" to="/operations">
-                    {t("operationPlan")} →
+                  <Link className="text-link" to="/engagement">
+                    {t("engagementManagePlans")} →
                   </Link>
                 </StateView>
               </Panel>
-              <Panel title={t("newsTitle")}>
+              <Panel title={t("engagementSessionTitle")}>
                 <StateView
-                  loading={events.isLoading}
-                  error={events.error}
-                  empty={!events.data?.length}
+                  loading={session.isLoading}
+                  error={session.error ?? finishSession.error}
                 >
-                  {events.data?.slice(0, 3).map((item) => (
-                    <div className="list-row" key={item.id}>
-                      <span>
-                        <strong>{item.title}</strong>
-                        <small>
-                          {formatDate(item.starts_at, i18n.language)}
-                        </small>
-                      </span>
-                      <Status value={item.status} />
+                  {!summary && session.data && (
+                    <>
+                      <p>{t("engagementSessionDescription")}</p>
+                      <small>
+                        {t("engagementSessionStarted", {
+                          date: formatDate(
+                            session.data.started_at,
+                            i18n.language,
+                          ),
+                        })}
+                      </small>
+                      <button
+                        className="button button--secondary"
+                        disabled={finishSession.isPending}
+                        onClick={() => finishSession.mutate(session.data.id)}
+                      >
+                        {t("engagementFinishSession")}
+                      </button>
+                    </>
+                  )}
+                  {summary && (
+                    <div aria-live="polite">
+                      <p>{t("engagementNaturalBreak")}</p>
+                      <ul>
+                        <li>
+                          {t("engagementSessionDuration", {
+                            minutes: Math.max(
+                              1,
+                              Math.round(summary.duration_seconds / 60),
+                            ),
+                          })}
+                        </li>
+                        <li>
+                          {t("engagementSessionDecisions", {
+                            count: summary.decisions_json.length,
+                          })}
+                        </li>
+                        <li>
+                          {t("engagementSessionChanges", {
+                            count: summary.changes_json.length,
+                          })}
+                        </li>
+                      </ul>
+                      <p>{t("engagementNoAutomaticMission")}</p>
                     </div>
-                  ))}
+                  )}
                 </StateView>
               </Panel>
               <Panel title={t("resourcesTitle")}>
@@ -471,7 +570,7 @@ export function CityPage() {
   const color = (value: number) =>
     `hsl(${38 + value * 0.08} 55% ${16 + value * 0.22}%)`;
   return (
-    <div className="page">
+    <div className="page page--city">
       <header className="page-header">
         <h1>{t("cityTitle")}</h1>
         <p>{t("citySubtitle")}</p>
@@ -1462,8 +1561,11 @@ export function SpecialistsPage() {
                   <span className="eyebrow">{humanize(candidate.role)}</span>
                   <h3>{candidate.name}</h3>
                   <p>
-                    {t("level")} {candidate.level} · {t("loyalty")}{" "}
-                    {candidate.loyalty} · {t("energy")} {candidate.energy}
+                    {t("specialistCandidateSummary", {
+                      level: candidate.level,
+                      loyalty: candidate.loyalty,
+                      energy: candidate.energy,
+                    })}
                   </p>
                   <strong>
                     {formatCents(candidate.salary_cents, i18n.language)}
@@ -1715,27 +1817,39 @@ export function NetworkPage() {
         {
           selector: "node",
           style: {
-            "background-color": "#d8b15b",
-            color: "#f3f0e7",
+            "background-color": "#c8a96b",
+            "border-color": "#e8d2a4",
+            "border-width": 1.5,
+            color: "#f4f1e8",
             label: "data(label)",
-            "font-size": 9,
+            "font-family": "Bahnschrift, Arial Narrow, sans-serif",
+            "font-size": 10,
+            "font-weight": "bold",
             "text-valign": "bottom",
-            "text-margin-y": 7,
+            "text-margin-y": 9,
+            "text-background-color": "#07090d",
+            "text-background-opacity": 0.78,
+            "text-background-padding": "3px",
           },
         },
         {
           selector: "edge",
           style: {
-            width: 2,
-            "line-color": "#596575",
-            "target-arrow-color": "#596575",
+            width: 1.5,
+            "line-color": "#128db5",
+            "target-arrow-color": "#39d0ff",
             "target-arrow-shape": "triangle",
             "curve-style": "bezier",
+            opacity: 0.72,
           },
         },
         {
           selector: "edge[uncertain]",
-          style: { "line-style": "dashed", "line-color": "#ffbe5c" },
+          style: {
+            "line-style": "dashed",
+            "line-color": "#ffb84d",
+            "target-arrow-color": "#ffb84d",
+          },
         },
       ],
       layout: { name: "cose", animate: false },
@@ -1743,7 +1857,7 @@ export function NetworkPage() {
     return () => graph.destroy();
   }, [query.data]);
   return (
-    <div className="page">
+    <div className="page page--network">
       <header className="page-header">
         <h1>{t("networkTitle")}</h1>
       </header>

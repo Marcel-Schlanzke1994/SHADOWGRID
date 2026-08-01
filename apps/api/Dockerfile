@@ -19,6 +19,7 @@ COPY apps/api/requirements.txt /tmp/requirements.txt
 RUN pip install --no-cache-dir --requirement /tmp/requirements.txt
 COPY apps/api /app/apps/api
 COPY apps/worker /app/apps/worker
+COPY packages/i18n/locales /app/packages/i18n/locales
 COPY --from=web-build /app/apps/web/dist /app/apps/api/web-dist
 RUN chown -R shadowgrid:shadowgrid /app
 USER shadowgrid

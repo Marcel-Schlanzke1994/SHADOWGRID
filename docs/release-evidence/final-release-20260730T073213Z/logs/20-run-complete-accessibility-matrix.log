@@ -1,0 +1,38 @@
+SHADOWGRID final release evidence
+Step: Run complete accessibility matrix
+Command: pnpm --filter @shadowgrid/web exec playwright test e2e/accessibility-matrix.spec.ts
+Started: 2026-07-30T08:55:29.386Z
+
+[WebServer] $ node scripts/run-python.mjs --cwd apps/api -m uvicorn shadowgrid.main:app --reload --host 0.0.0.0 --port 8000
+[WebServer] INFO:     Will watch for changes in these directories: ['C:\\Users\\Marcel\\Downloads\\shadowgrid\\apps\\api']
+[WebServer] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[WebServer] INFO:     Started reloader process [27788] using WatchFiles
+[WebServer] INFO:     Started server process [11620]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] $ vite --host 0.0.0.0
+
+Running 4 tests using 2 workers
+
+(node:41384) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:34496) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:41384) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:34496) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 2 [mobile] › e2e\accessibility-matrix.spec.ts:63:1 › every primary page has landmarks and no serious automated accessibility violation (4.1m)
+  ok 3 [mobile] › e2e\accessibility-matrix.spec.ts:86:1 › skip navigation, reduced motion and pseudo-locales remain operable (14.5s)
+  ok 1 [chromium] › e2e\accessibility-matrix.spec.ts:63:1 › every primary page has landmarks and no serious automated accessibility violation (4.4m)
+  ok 4 [chromium] › e2e\accessibility-matrix.spec.ts:86:1 › skip navigation, reduced motion and pseudo-locales remain operable (12.4s)
+
+  4 passed (5.5m)
+
+To open last HTML report run:
+
+  pnpm exec playwright show-report
+
+
+Finished: 2026-07-30T09:01:09.521Z
+Exit code: 0

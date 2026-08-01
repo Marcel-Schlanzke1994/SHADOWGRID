@@ -1,6 +1,7 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { createIdempotencyKey } from "@shadowgrid/api-client";
+import { translateGameValue } from "@shadowgrid/i18n";
 import type {
   Company,
   CompanyEconomyReport,
@@ -38,8 +39,7 @@ import {
 } from "../components";
 import { formatCents, formatDate, formatNumber } from "../format";
 
-const humanize = (value: string) =>
-  value.replaceAll("_", " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
+const humanize = translateGameValue;
 
 type PendingAction =
   | { kind: "order"; value: ExchangeOrderInput }

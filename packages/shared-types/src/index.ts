@@ -1330,11 +1330,432 @@ export interface PropertyImprovement {
 export interface InAppNotification {
   id: string;
   event_type: string;
+  category: "critical" | "strategic" | "social" | "summary";
   title: string;
   body: string;
   metadata_json: Record<string, string | number | boolean | null>;
   read_at: ISODateTime | null;
   created_at: ISODateTime;
+}
+
+export type EngagementGoalCategory =
+  | "economic"
+  | "social"
+  | "exploration"
+  | "risk"
+  | "long_term"
+  | "season";
+
+export interface EngagementGoal {
+  id: string;
+  template_key: string;
+  category: EngagementGoalCategory;
+  title_key: string;
+  description_key: string;
+  unit_key: string;
+  status:
+    | "offered"
+    | "active"
+    | "completed"
+    | "swapped"
+    | "declined"
+    | "expired";
+  target_value: number;
+  progress_value: number;
+  recommended_for_doctrine: boolean;
+  choice_window_id: string;
+  selected_at: ISODateTime | null;
+  completed_at: ISODateTime | null;
+  catch_up_until: ISODateTime;
+  reward_type: "knowledge" | "chronicle" | "mastery" | "cosmetic";
+  reward_key: string;
+}
+
+export interface EngagementGoalWindow {
+  id: string;
+  starts_at: ISODateTime;
+  ends_at: ISODateTime;
+  catch_up_until: ISODateTime;
+  max_choices: number;
+  status: "open" | "catch_up" | "closed";
+  selected_count: number;
+  goals: EngagementGoal[];
+}
+
+export interface OpenPlan {
+  id: string;
+  category: "urgent" | "strategic" | "discoverable";
+  title: string;
+  next_step: string;
+  target_path: string;
+  status: "active" | "completed" | "archived";
+  priority: number;
+  created_at: ISODateTime;
+  updated_at: ISODateTime;
+  completed_at: ISODateTime | null;
+}
+
+export interface CommandCenterOpportunity {
+  category: "urgent" | "strategic" | "discoverable";
+  source_type: "plan" | "goal" | "world_event" | "system";
+  source_id: string;
+  title: string;
+  detail: string;
+  target_path: string;
+  priority: number;
+}
+
+export interface EngagementCommandCenter {
+  opportunities: CommandCenterOpportunity[];
+  active_goal_count: number;
+  open_plan_count: number;
+  natural_break_available: boolean;
+}
+
+export interface PlayerSession {
+  id: string;
+  profile_id: string;
+  client_session_key: string;
+  status: "active" | "completed" | "abandoned";
+  started_at: ISODateTime;
+  last_activity_at: ISODateTime;
+  ended_at: ISODateTime | null;
+}
+
+export interface SessionSummary {
+  id: string;
+  session_id: string;
+  duration_seconds: number;
+  decisions_json: Record<string, unknown>[];
+  changes_json: Record<string, unknown>[];
+  open_plans_json: Record<string, unknown>[];
+  next_entry_points_json: CommandCenterOpportunity[];
+  natural_break_reached: boolean;
+  created_at: ISODateTime;
+}
+
+export interface ReturnBriefing {
+  id: string;
+  since_at: ISODateTime;
+  world_changes_json: Record<string, unknown>[];
+  company_changes_json: Record<string, unknown>[];
+  relevant_decisions_json: Record<string, unknown>[];
+  available_content_json: Record<string, unknown>[];
+  entry_points_json: CommandCenterOpportunity[];
+  generated_at: ISODateTime;
+  acknowledged_at: ISODateTime | null;
+}
+
+export interface NotificationPreference {
+  id: string;
+  category: "critical" | "strategic" | "social" | "summary";
+  live_enabled: boolean;
+  digest_frequency: "immediate" | "daily" | "weekly" | "off";
+  quiet_start_minute: number;
+  quiet_end_minute: number;
+  timezone: string;
+  updated_at: ISODateTime;
+}
+
+export interface EngagementSettings {
+  id: string;
+  adaptive_help_enabled: boolean;
+  session_summary_enabled: boolean;
+  ranking_visible: boolean;
+  information_density: "compact" | "standard" | "detailed";
+  updated_at: ISODateTime;
+}
+
+export type DoctrineKey =
+  | "industrial_captain"
+  | "financial_architect"
+  | "innovator"
+  | "real_estate_strategist"
+  | "networker"
+  | "information_strategist"
+  | "opportunist";
+
+export type MasteryArea =
+  | "company_management"
+  | "market_analysis"
+  | "capital_markets"
+  | "contract_management"
+  | "people_leadership"
+  | "real_estate"
+  | "cartel_leadership"
+  | "diplomacy"
+  | "intelligence"
+  | "risk_management"
+  | "season_strategy";
+
+export interface DoctrineCatalogItem {
+  key: DoctrineKey;
+  title_key: string;
+  description_key: string;
+  focus_areas: MasteryArea[];
+  economic_bonus: false;
+  reversible: true;
+}
+
+export interface DoctrineState {
+  id: string;
+  doctrine_key: DoctrineKey;
+  version: number;
+  selected_at: ISODateTime;
+  changed_at: ISODateTime;
+}
+
+export interface MasteryProgress {
+  id: string;
+  area_key: MasteryArea;
+  points: number;
+  level: number;
+  distinct_decisions_json: string[];
+  updated_at: ISODateTime;
+}
+
+export interface OutcomeReport {
+  id: string;
+  source_type: string;
+  source_id: string;
+  title_key: string;
+  controllable_factors_json: string[];
+  external_factors_json: string[];
+  worked_well_json: string[];
+  alternatives_json: string[];
+  knowledge_unlocked_json: string[];
+  created_at: ISODateTime;
+}
+
+export interface AdaptiveHelpOffer {
+  id: string;
+  context_key: string;
+  explanation_key: string;
+  suggestion_key: string;
+  target_path: string;
+  status: "offered" | "accepted" | "dismissed" | "completed";
+  created_at: ISODateTime;
+  responded_at: ISODateTime | null;
+}
+
+export interface PersonalSuccessChain {
+  id: string;
+  chain_key: string;
+  completed_steps: number;
+  total_steps: number;
+  status: "active" | "completed";
+  completed_event_types_json: string[];
+  updated_at: ISODateTime;
+  completed_at: ISODateTime | null;
+}
+
+export interface Mentorship {
+  id: string;
+  mentor_profile_id: string;
+  mentee_profile_id: string;
+  status:
+    | "proposed"
+    | "active"
+    | "paused"
+    | "completed"
+    | "declined"
+    | "cancelled";
+  mentor_opted_in: boolean;
+  mentee_opted_in: boolean;
+  feedback_positive: boolean | null;
+  created_at: ISODateTime;
+  accepted_at: ISODateTime | null;
+  completed_at: ISODateTime | null;
+  milestones: string[];
+}
+
+export interface CartelDelegation {
+  id: string;
+  organization_id: string;
+  grantor_membership_id: string;
+  delegate_membership_id: string;
+  role_key: string;
+  permissions_json: string[];
+  status: "active" | "revoked" | "expired";
+  starts_at: ISODateTime;
+  expires_at: ISODateTime;
+  revoked_at: ISODateTime | null;
+}
+
+export interface CartelMembershipPause {
+  id: string;
+  membership_id: string;
+  status: "active" | "completed" | "cancelled";
+  starts_at: ISODateTime;
+  planned_until: ISODateTime;
+  resumed_at: ISODateTime | null;
+}
+
+export interface CartelChronicleEntry {
+  id: string;
+  organization_id: string;
+  actor_profile_id: string | null;
+  entry_type: string;
+  source_type: string;
+  source_id: string;
+  title_key: string;
+  body_key: string;
+  metadata_json: Record<string, unknown>;
+  created_at: ISODateTime;
+}
+
+export interface NarrativeChronicleEntry {
+  id: string;
+  scope_type: "company" | "world" | "profile";
+  scope_id: string;
+  source_type: string;
+  source_id: string;
+  entry_type: string;
+  title_key: string;
+  body_key: string;
+  cause_keys_json: string[];
+  actor_keys_json: string[];
+  impact_keys_json: string[];
+  open_question_keys_json: string[];
+  metadata_json: Record<string, unknown>;
+  created_at: ISODateTime;
+}
+
+export interface NarrativeActorRelationship {
+  actor_id: string;
+  actor_key: string;
+  actor_type: "entrepreneur" | "journalist" | "analyst" | "decision_maker";
+  name_key: string;
+  description_key: string;
+  trust: number;
+  rivalry: number;
+  reputation: number;
+  information_access: number;
+  interaction_count: number;
+  history_keys: string[];
+}
+
+export interface EventDossierClue {
+  id: string;
+  clue_key: string;
+  order_index: number;
+  rare: boolean;
+  discovered: boolean;
+}
+
+export interface EventDossier {
+  id: string;
+  world_event_instance_id: string;
+  title_key: string;
+  cause_key: string;
+  local_impact_key: string;
+  open_question_key: string;
+  archived: boolean;
+  investigation_count: number;
+  completed_at: ISODateTime | null;
+  clues: EventDossierClue[];
+}
+
+export type CollectionItemType =
+  | "title"
+  | "emblem"
+  | "hq_cosmetic"
+  | "chronicle"
+  | "discovery";
+
+export interface CollectionEntry {
+  id: string;
+  item_id: string;
+  item_key: string;
+  item_type: CollectionItemType;
+  title_key: string;
+  description_key: string;
+  rarity: string;
+  duplicate_points: number;
+  unlocked_at: ISODateTime;
+}
+
+export interface PlayerIdentity {
+  id: string;
+  active_title_item_id: string | null;
+  active_emblem_item_id: string | null;
+  active_hq_cosmetic_item_id: string | null;
+  profile_card_public: boolean;
+  updated_at: ISODateTime;
+}
+
+export interface MasteryHighlight {
+  area_key: string;
+  level: number;
+  points: number;
+}
+
+export interface StrategicProfileCard {
+  profile_id: string;
+  codename: string;
+  doctrine_key: string | null;
+  active_title_item_id: string | null;
+  active_emblem_item_id: string | null;
+  active_hq_cosmetic_item_id: string | null;
+  profile_card_public: boolean;
+  mastery_highlights: MasteryHighlight[];
+}
+
+export interface LegacyRecord {
+  id: string;
+  record_key: string;
+  source_type: string;
+  source_id: string;
+  title_key: string;
+  metadata_json: Record<string, unknown>;
+  created_at: ISODateTime;
+}
+
+export interface PlayerSeasonGoal {
+  id: string;
+  season_id: string;
+  goal_key: string;
+  title_key: string;
+  description_key: string;
+  target_value: number;
+  progress_value: number;
+  status: "offered" | "active" | "completed" | "archived";
+  selected_at: ISODateTime | null;
+  completed_at: ISODateTime | null;
+}
+
+export interface ReturnContract {
+  id: string;
+  contract_key: string;
+  title_key: string;
+  description_key: string;
+  target_value: number;
+  progress_value: number;
+  status: "offered" | "active" | "completed" | "declined";
+  absence_days: number;
+  offered_at: ISODateTime;
+  selected_at: ISODateTime | null;
+  completed_at: ISODateTime | null;
+}
+
+export interface RankingEntry {
+  rank: number;
+  profile_id: string;
+  codename: string;
+  score: number;
+  historical_best_score: number;
+  bracket: "newcomer" | "veteran";
+  is_self: boolean;
+}
+
+export interface ParallelRankingCategory {
+  category: string;
+  entries: RankingEntry[];
+}
+
+export interface ParallelRankings {
+  categories: ParallelRankingCategory[];
+  economic_rewards: false;
 }
 
 export interface NotificationCount {

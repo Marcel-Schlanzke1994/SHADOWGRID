@@ -10,6 +10,7 @@ from sqlalchemy.orm import Session
 
 from shadowgrid.config import Settings
 from shadowgrid.domain import audit, get_idempotent, remember_idempotent
+from shadowgrid.engagement import record_engagement_event
 from shadowgrid.errors import DomainError
 from shadowgrid.finance import (
     create_company_cash_account,
@@ -240,6 +241,15 @@ def create_company(
         company.id,
         request_id,
         {"industry": industry, "founding_cost_cents": settings.company_founding_cost_cents},
+    )
+    record_engagement_event(
+        db,
+        profile_id=locked_profile.id,
+        event_type="company.founded",
+        source_type="company",
+        source_id=company.id,
+        idempotency_key=f"company.founded:{company.id}",
+        payload={"industry": industry, "district_id": district.id},
     )
     try:
         db.commit()

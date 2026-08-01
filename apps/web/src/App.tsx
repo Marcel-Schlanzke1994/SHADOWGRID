@@ -31,6 +31,8 @@ import { FinancePage } from "./pages/FinancePage";
 import { BondsPage } from "./pages/BondsPage";
 import { RealEstatePage } from "./pages/RealEstatePage";
 import { IntelligencePage } from "./pages/IntelligencePage";
+import { EngagementPage } from "./pages/EngagementPage";
+import { LegacyPage } from "./pages/LegacyPage";
 import {
   DiplomacyPage,
   ResearchPage,
@@ -103,6 +105,8 @@ export function App() {
         }
       >
         <Route path="/command" element={<DashboardPage />} />
+        <Route path="/engagement" element={<EngagementPage />} />
+        <Route path="/legacy" element={<LegacyPage />} />
         <Route path="/city" element={<CityPage />} />
         <Route path="/city/:districtId" element={<CityPage />} />
         <Route path="/germany" element={<GermanyPage />} />

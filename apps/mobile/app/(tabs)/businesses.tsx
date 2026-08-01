@@ -1,13 +1,17 @@
 import { ScrollView, Text, View } from "react-native";
 import { useQuery } from "@tanstack/react-query";
 import { useTranslation } from "react-i18next";
-import { i18n as shadowgridI18n } from "@shadowgrid/i18n";
+import {
+  formatCurrency,
+  i18n as shadowgridI18n,
+  translateGameValue,
+} from "@shadowgrid/i18n";
 import type { Business } from "@shadowgrid/shared-types";
 import { api } from "../../src/api";
 import { styles } from "../../src/theme";
 
 export default function Businesses() {
-  const { t } = useTranslation(undefined, { i18n: shadowgridI18n });
+  const { t, i18n } = useTranslation(undefined, { i18n: shadowgridI18n });
   const query = useQuery({
     queryKey: ["businesses"],
     queryFn: () => api.get<Business[]>("/businesses"),
@@ -21,15 +25,10 @@ export default function Businesses() {
         <View style={styles.card} key={item.id}>
           <Text style={styles.cardTitle}>{item.name}</Text>
           <Text style={styles.muted}>
-            {item.business_type.replaceAll("_", " ")} · {t("level")}{" "}
-            {item.level}
+            {translateGameValue(item.business_type)} · {t("level")} {item.level}
           </Text>
           <Text style={styles.value}>
-            {new Intl.NumberFormat(undefined, {
-              style: "currency",
-              currency: "EUR",
-              maximumFractionDigits: 0,
-            }).format(item.revenue - item.operating_cost)}
+            {formatCurrency(item.revenue - item.operating_cost, i18n.language)}
           </Text>
           <Text style={styles.text}>
             {t("compliance")}: {item.compliance}/100

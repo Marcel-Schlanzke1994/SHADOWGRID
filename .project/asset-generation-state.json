@@ -1,15 +1,15 @@
 {
   "project": "shadowgrid",
   "manifest_version": "1.0.0",
-  "total_assets": 896,
-  "completed_assets": 896,
-  "approved_assets": 896,
+  "total_assets": 898,
+  "completed_assets": 898,
+  "approved_assets": 898,
   "review_required_assets": 0,
   "failed_assets": 0,
   "rejected_assets": 0,
   "pending_assets": 0,
   "current_batch": null,
   "current_asset_id": null,
-  "last_completed_asset_id": "marketing-release-banner-v1",
-  "updated_at": "2026-07-30T06:43:33.738Z"
+  "last_completed_asset_id": "global-command-center-premium-day-v2",
+  "updated_at": "2026-08-01T19:33:45.356Z"
 }

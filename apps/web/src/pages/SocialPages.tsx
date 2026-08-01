@@ -3,12 +3,14 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useTranslation } from "react-i18next";
 import { createIdempotencyKey } from "@shadowgrid/api-client";
+import { organizationArchetypes } from "@shadowgrid/game-config";
 import {
-  configuredLocales,
-  organizationArchetypes,
+  localeMetadata,
+  selectableLocales,
+  setLocale,
+  translateGameValue,
   type Locale,
-} from "@shadowgrid/game-config";
-import { setLocale } from "@shadowgrid/i18n";
+} from "@shadowgrid/i18n";
 import type {
   AccountReward,
   HallOfFameEntry,
@@ -31,8 +33,7 @@ import {
 } from "../components";
 import { formatCurrency, formatDate } from "../format";
 
-const humanize = (value: string) =>
-  value.replaceAll("_", " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
+const humanize = translateGameValue;
 const assignableOrganizationRoles = [
   "candidate",
   "member",
@@ -691,7 +692,7 @@ export function RankingsPage() {
   });
   const number = new Intl.NumberFormat(i18n.language);
   return (
-    <div className="page">
+    <div className="page page--rankings">
       <header className="page-header">
         <h1>{t("rankingsTitle")}</h1>
         <p>{t("seasonRankingDescription")}</p>
@@ -704,9 +705,10 @@ export function RankingsPage() {
         {season.data && (
           <div className="stack">
             <Panel
-              title={`${t("seasonLabel", {
+              title={t("seasonNamedLabel", {
                 number: season.data.season_number,
-              })} · ${season.data.name}`}
+                name: season.data.name,
+              })}
             >
               {season.data.status === "archived" && (
                 <p className="notice notice--success">
@@ -910,11 +912,11 @@ export function SettingsPage() {
               value={i18n.language}
               onChange={(event) => void setLocale(event.target.value as Locale)}
             >
-              {configuredLocales.map((locale) => (
+              {selectableLocales.map((locale) => (
                 <option value={locale} key={locale}>
-                  {new Intl.DisplayNames([i18n.language], {
-                    type: "language",
-                  }).of(locale.split("-")[0] ?? locale) ?? locale}{" "}
+                  {locale in localeMetadata
+                    ? localeMetadata[locale as keyof typeof localeMetadata].name
+                    : locale}{" "}
                   ({locale})
                 </option>
               ))}

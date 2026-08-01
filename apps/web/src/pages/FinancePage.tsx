@@ -1,5 +1,6 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { createIdempotencyKey } from "@shadowgrid/api-client";
+import { translateGameValue } from "@shadowgrid/i18n";
 import type {
   Company,
   CompanyLoan,
@@ -306,7 +307,7 @@ export function FinancePage() {
                   {loan.default_reason && (
                     <p className="notice notice--warning">
                       {t("loanAbstractDefault", {
-                        reason: loan.default_reason.replaceAll("_", " "),
+                        reason: translateGameValue(loan.default_reason),
                       })}
                     </p>
                   )}

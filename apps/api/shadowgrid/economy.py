@@ -9,6 +9,7 @@ from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 
 from shadowgrid.companies import snapshot_company
+from shadowgrid.engagement import record_engagement_event
 from shadowgrid.errors import DomainError
 from shadowgrid.finance import settle_company_operating_result
 from shadowgrid.game_config import ECONOMY_MARKETS
@@ -482,6 +483,17 @@ def _run_economy_tick_locked(
                         modifiers_json=modifiers,
                     )
                 )
+                if profit_cents > 0:
+                    record_engagement_event(
+                        db,
+                        profile_id=company.founder_profile_id,
+                        event_type="company.first_profit",
+                        source_type="company",
+                        source_id=company.id,
+                        idempotency_key=f"company.first_profit:{company.id}",
+                        payload={"tick_id": tick.id, "profit_cents": profit_cents},
+                        occurred_at=now,
+                    )
                 db.add(
                     snapshot_company(
                         company,

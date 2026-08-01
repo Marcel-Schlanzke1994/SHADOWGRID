@@ -18,6 +18,8 @@ is documented separately from the legal decision.
 | Structured application logs | deployment provider | No bodies, credentials, email-link tokens or direct email field | `[PROVIDER_POLICY_REQUIRED]` | Operations/Security |
 | Database backups | encrypted external backup storage | Verified, access-controlled copies; deletion follows approved backup expiry | Proposed operations rotation 7 daily/5 weekly/12 monthly, pending legal approval | Database Operations/Legal |
 | Store crash/analytics data | none in launch repository | Analytics disabled; no crash/advertising SDK configured | Not collected | Product/Privacy |
+| Engagement events, goals, sessions, dossiers and identity state | engagement gameplay tables | Operational, ownership-scoped game state; no device fingerprint, advertising ID or inferred vulnerability profile | `[LEGAL_DURATION_REQUIRED]`; immutable history remains pseudonymous where world integrity requires it | Product/Privacy/Game Operations |
+| Aggregate engagement product metrics | `engagement_metrics_daily` | Admin-generated daily counts/rates only; no player/user/device ID or chat; survey aggregates below five responses are suppressed; rows are immutable | `[LEGAL_DURATION_REQUIRED]`; generation remains disabled until privacy approval | Product Analytics/Privacy |
 
 Any change to collection, SDKs, processors, game telemetry or identifiers requires a new
 privacy review, updated store disclosures and an updated matrix before deployment.

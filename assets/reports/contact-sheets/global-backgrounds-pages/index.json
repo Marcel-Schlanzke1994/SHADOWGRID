@@ -1,8 +1,8 @@
 {
   "schema": "shadowgrid/contact-sheet-pages/v1",
   "batch": "global-backgrounds",
-  "generated_at": "2026-07-30T05:54:21.430Z",
-  "asset_count": 16,
+  "generated_at": "2026-08-01T19:02:55.605Z",
+  "asset_count": 18,
   "page_size": 18,
   "pages": [
     {
@@ -24,7 +24,9 @@
         "global-germany-map-atmosphere-v1",
         "global-season-complete-v1",
         "global-maintenance-v1",
-        "global-offline-v1"
+        "global-offline-v1",
+        "global-command-center-premium-night-v2",
+        "global-command-center-premium-day-v2"
       ]
     }
   ]

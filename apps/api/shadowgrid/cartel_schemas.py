@@ -70,7 +70,9 @@ class JoinCartelRequest(BaseModel):
 
 
 class UpdateCartelRoleRequest(BaseModel):
-    role: str = Field(pattern=r"^(member|finance_lead|diplomat|strategist|intelligence_officer)$")
+    role: str = Field(
+        pattern=r"^(member|finance_lead|diplomat|strategist|intelligence_officer|economic_analyst|intelligence_coordinator|project_manager|trainer|archivist|event_planner)$"
+    )
 
 
 class LeadershipTransferRequest(BaseModel):

@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "locale": "arz",
+  "status": "not_started",
+  "entries": {
+    "company": {
+      "meaning": "A player-controlled economic organization.",
+      "approved": null,
+      "proposed": null,
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "not_started"
+    },
+    "holding": {
+      "meaning": "An owned financial or corporate position.",
+      "approved": null,
+      "proposed": null,
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "not_started"
+    },
+    "share": {
+      "meaning": "One immutable unit of company ownership.",
+      "approved": null,
+      "proposed": null,
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "not_started"
+    },
+    "ownership": {
+      "meaning": "The proportion of an asset controlled by an actor.",
+      "approved": null,
+      "proposed": null,
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "not_started"
+    },
+    "dividend": {
+      "meaning": "A ledger-booked distribution to eligible shareholders.",
+      "approved": null,
+      "proposed": null,
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "not_started"
+    },
+    "order_book": {
+      "meaning": "The authoritative list of open buy and sell orders.",
+      "approved": null,
+      "proposed": null,
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "not_started"
+    },
+    "bid": {
+      "meaning": "A binding offer to buy or provide a service.",
+      "approved": null,
+      "proposed": null,
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "not_started"
+    },
+    "tender": {
+      "meaning": "A time-bounded competitive contract process.",
+      "approved": null,
+      "proposed": null,
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "not_started"
+    },
+    "bond": {
+      "meaning": "A fixed debt instrument issued by a company.",
+      "approved": null,
+      "proposed": null,
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "not_started"
+    },
+    "loan": {
+      "meaning": "A ledger-backed principal with a repayment schedule.",
+      "approved": null,
+      "proposed": null,
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "not_started"
+    },
+    "collateral": {
+      "meaning": "An asset pledged against an obligation.",
+      "approved": null,
+      "proposed": null,
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "not_started"
+    },
+    "ledger": {
+      "meaning": "An immutable financial transaction record.",
+      "approved": null,
+      "proposed": null,
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "not_started"
+    },
+    "district": {
+      "meaning": "A controllable subdivision of a game city.",
+      "approved": null,
+      "proposed": null,
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "not_started"
+    },
+    "cartel": {
+      "meaning": "A player organization for coordinated strategy.",
+      "approved": null,
+      "proposed": null,
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "not_started"
+    },
+    "influence": {
+      "meaning": "A non-cash strategic resource.",
+      "approved": null,
+      "proposed": null,
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "not_started"
+    },
+    "intelligence": {
+      "meaning": "Verified or uncertain strategic information.",
+      "approved": null,
+      "proposed": null,
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "not_started"
+    },
+    "investigation": {
+      "meaning": "A server-resolved process for discovering information.",
+      "approved": null,
+      "proposed": null,
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "not_started"
+    },
+    "operation": {
+      "meaning": "An abstract, time-bounded strategic action.",
+      "approved": null,
+      "proposed": null,
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "not_started"
+    },
+    "world_event": {
+      "meaning": "A server-authoritative event affecting the shared world.",
+      "approved": null,
+      "proposed": null,
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "not_started"
+    },
+    "season": {
+      "meaning": "A bounded competitive period with archived results.",
+      "approved": null,
+      "proposed": null,
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "not_started"
+    },
+    "headquarters": {
+      "meaning": "A company's primary upgradeable property.",
+      "approved": null,
+      "proposed": null,
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "not_started"
+    },
+    "legacy": {
+      "meaning": "Persistent cosmetic and historical recognition.",
+      "approved": null,
+      "proposed": null,
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "not_started"
+    },
+    "mastery": {
+      "meaning": "Evidence-based progress in a strategic discipline.",
+      "approved": null,
+      "proposed": null,
+      "allowedShortForm": null,
+      "forbidden": [],
+      "grammaticalGender": null,
+      "example": null,
+      "status": "not_started"
+    }
+  }
+}

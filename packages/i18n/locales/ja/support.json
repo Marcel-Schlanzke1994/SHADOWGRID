@@ -1,0 +1,20 @@
+{
+  "companiesEmpty": "No company has been founded yet.",
+  "empty": "No records exist yet.",
+  "errorConflict": "The state changed before this action completed. Refresh and try again.",
+  "errorForbidden": "You do not have permission for this action.",
+  "errorNotFound": "The requested record is no longer available.",
+  "errorRateLimited": "Too many requests were sent. Wait briefly and try again.",
+  "errorServer": "The server could not complete the request. Try again later.",
+  "errorTitle": "The request could not be completed",
+  "errorValidation": "Check the marked values and try again.",
+  "eventFeedEmpty": "No event instances exist yet.",
+  "loading": "Loading verified state…",
+  "localCompetitorsEmpty": "No local simulation company is active yet.",
+  "maintenanceTitle": "SHADOWGRID systems are in maintenance",
+  "offlineBody": "The last verified view remains visible where available. Authoritative actions are disabled until the API reconnects.",
+  "offlineTitle": "Connection interrupted",
+  "requestId": "Request ID: {id}",
+  "retry": "Try again",
+  "support": "Support"
+}

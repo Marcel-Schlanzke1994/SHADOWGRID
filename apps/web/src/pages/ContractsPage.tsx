@@ -1,5 +1,6 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { createIdempotencyKey } from "@shadowgrid/api-client";
+import { translateGameValue } from "@shadowgrid/i18n";
 import type {
   CommercialContract,
   Company,
@@ -407,7 +408,7 @@ export function ContractsPage() {
                   {contract.breach_reason && (
                     <p className="notice notice--warning">
                       {t("contractAbstractBreach", {
-                        reason: contract.breach_reason.replaceAll("_", " "),
+                        reason: translateGameValue(contract.breach_reason),
                       })}
                     </p>
                   )}

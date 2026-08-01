@@ -20,6 +20,8 @@ const routes = [
   { path: "/worlds", purpose: "world selection" },
   { path: "/tutorial", purpose: "tutorial" },
   { path: "/command", purpose: "command center" },
+  { path: "/engagement", purpose: "voluntary engagement controls" },
+  { path: "/legacy", purpose: "chronicle and legacy" },
   { path: "/city", purpose: "city and districts" },
   { path: "/germany", purpose: "Germany map" },
   { path: "/companies", purpose: "company portfolio" },
@@ -63,7 +65,7 @@ const login = async (page: Page) => {
 test("every primary page has landmarks and no serious automated accessibility violation", async ({
   page,
 }) => {
-  test.setTimeout(360_000);
+  test.setTimeout(600_000);
   await login(page);
 
   for (const route of [...routes].reverse()) {

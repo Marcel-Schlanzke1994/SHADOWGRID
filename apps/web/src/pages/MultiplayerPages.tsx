@@ -2,6 +2,7 @@ import { useEffect, useState, type FormEvent } from "react";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useTranslation } from "react-i18next";
 import { createIdempotencyKey } from "@shadowgrid/api-client";
+import { translateGameValue } from "@shadowgrid/i18n";
 import type {
   Alliance,
   CartelWar,
@@ -28,8 +29,7 @@ import {
 } from "../components";
 import { formatCurrency, formatDate, formatNumber } from "../format";
 
-const humanize = (value: string) =>
-  value.replaceAll("_", " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
+const humanize = translateGameValue;
 
 const operationTypes = [
   "intelligence_probe",
@@ -771,7 +771,9 @@ export function MarketPage() {
                       {formatNumber(offer.amount, i18n.language)}
                     </strong>
                     <small>
-                      {formatCurrency(offer.unit_price, i18n.language)} / unit
+                      {t("perUnitValue", {
+                        value: formatCurrency(offer.unit_price, i18n.language),
+                      })}
                     </small>
                   </span>
                   <button

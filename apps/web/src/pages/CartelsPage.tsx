@@ -2,12 +2,16 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { createIdempotencyKey } from "@shadowgrid/api-client";
 import { organizationArchetypes } from "@shadowgrid/game-config";
+import { translateGameValue } from "@shadowgrid/i18n";
 import type {
   Cartel,
   CartelActivity,
+  CartelChronicleEntry,
+  CartelDelegation,
   CartelExpense,
   CartelInvitation,
   CartelMember,
+  CartelMembershipPause,
   CartelProject,
   CartelRanking,
   CartelTreasury,
@@ -32,6 +36,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 import { Link, useParams } from "react-router-dom";
+import { z } from "zod";
 import { client } from "../auth";
 import {
   ConfirmDialog,
@@ -44,8 +49,7 @@ import {
 } from "../components";
 import { formatCents, formatDate, formatNumber } from "../format";
 
-const humanize = (value: string) =>
-  value.replaceAll("_", " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
+const humanize = translateGameValue;
 
 const assignableRoles = [
   "member",
@@ -53,7 +57,34 @@ const assignableRoles = [
   "diplomat",
   "strategist",
   "intelligence_officer",
+  "economic_analyst",
+  "intelligence_coordinator",
+  "project_manager",
+  "trainer",
+  "archivist",
+  "event_planner",
 ] as const;
+
+const delegationSchema = z.object({
+  delegate_profile_id: z.string().uuid(),
+  role_key: z.enum([
+    "economic_analyst",
+    "diplomat",
+    "intelligence_coordinator",
+    "project_manager",
+    "trainer",
+    "archivist",
+    "event_planner",
+  ]),
+  duration_days: z.number().int().min(1).max(30),
+});
+type DelegationInput = z.infer<typeof delegationSchema>;
+
+const pauseSchema = z.object({
+  duration_days: z.number().int().min(1).max(180),
+  private_reason: z.string().trim().max(240),
+});
+type PauseInput = z.infer<typeof pauseSchema>;
 
 const financeRoles = new Set(["leader", "director", "deputy", "finance_lead"]);
 const projectRoles = new Set([
@@ -375,6 +406,107 @@ function ContributionForm({
   );
 }
 
+function DelegationForm({
+  members,
+  pending,
+  onSubmit,
+}: {
+  members: CartelMember[];
+  pending: boolean;
+  onSubmit: (value: DelegationInput) => void;
+}) {
+  const { t } = useTranslation();
+  const form = useForm<DelegationInput>({
+    resolver: zodResolver(delegationSchema),
+    defaultValues: {
+      delegate_profile_id: members[0]?.profile_id ?? "",
+      role_key: "project_manager",
+      duration_days: 7,
+    },
+  });
+  return (
+    <form onSubmit={form.handleSubmit(onSubmit)}>
+      <Field
+        label={t("engagementDelegateMember")}
+        error={form.formState.errors.delegate_profile_id?.message}
+      >
+        <select {...form.register("delegate_profile_id")}>
+          {members.map((member) => (
+            <option key={member.profile_id} value={member.profile_id}>
+              {member.codename}
+            </option>
+          ))}
+        </select>
+      </Field>
+      <Field
+        label={t("engagementDelegationRole")}
+        error={form.formState.errors.role_key?.message}
+      >
+        <select {...form.register("role_key")}>
+          {delegationSchema.shape.role_key.options.map((role) => (
+            <option key={role} value={role}>
+              {humanize(role)}
+            </option>
+          ))}
+        </select>
+      </Field>
+      <Field
+        label={t("engagementDelegationDays")}
+        error={form.formState.errors.duration_days?.message}
+      >
+        <input
+          type="number"
+          min={1}
+          max={30}
+          {...form.register("duration_days", { valueAsNumber: true })}
+        />
+      </Field>
+      <button className="button" disabled={pending || members.length === 0}>
+        {t("engagementCreateDelegation")}
+      </button>
+    </form>
+  );
+}
+
+function PauseForm({
+  pending,
+  onSubmit,
+}: {
+  pending: boolean;
+  onSubmit: (value: PauseInput) => void;
+}) {
+  const { t } = useTranslation();
+  const form = useForm<PauseInput>({
+    resolver: zodResolver(pauseSchema),
+    defaultValues: { duration_days: 14, private_reason: "" },
+  });
+  return (
+    <form onSubmit={form.handleSubmit(onSubmit)}>
+      <Field
+        label={t("engagementPauseDays")}
+        error={form.formState.errors.duration_days?.message}
+      >
+        <input
+          type="number"
+          min={1}
+          max={180}
+          {...form.register("duration_days", { valueAsNumber: true })}
+        />
+      </Field>
+      <Field
+        label={t("engagementPausePrivateReason")}
+        hint={t("engagementPausePrivateHint")}
+        error={form.formState.errors.private_reason?.message}
+      >
+        <textarea {...form.register("private_reason")} maxLength={240} />
+      </Field>
+      <button className="button button--secondary" disabled={pending}>
+        {t("engagementStartPause")}
+      </button>
+    </form>
+  );
+}
+
 export function CartelsPage() {
   const { t, i18n } = useTranslation();
   const { cartelId } = useParams();
@@ -442,6 +574,30 @@ export function CartelsPage() {
         `/influence/cities/${selected?.city_id}`,
       ),
     enabled: Boolean(selected?.city_id && isMember),
+  });
+  const delegations = useQuery({
+    queryKey: ["cartels", selectedId, "delegations"],
+    queryFn: () =>
+      client.get<CartelDelegation[]>(
+        `/engagement/social/cartels/${selectedId}/delegations`,
+      ),
+    enabled: Boolean(selectedId && isMember),
+  });
+  const membershipPause = useQuery({
+    queryKey: ["cartels", selectedId, "pause"],
+    queryFn: () =>
+      client.get<CartelMembershipPause | null>(
+        `/engagement/social/cartels/${selectedId}/pause`,
+      ),
+    enabled: Boolean(selectedId && isMember),
+  });
+  const chronicle = useQuery({
+    queryKey: ["cartels", selectedId, "chronicle"],
+    queryFn: () =>
+      client.get<CartelChronicleEntry[]>(
+        `/engagement/social/cartels/${selectedId}/chronicle`,
+      ),
+    enabled: Boolean(selectedId && isMember),
   });
 
   const refresh = async () => {
@@ -554,6 +710,49 @@ export function CartelsPage() {
       await refreshSelected();
     },
   });
+  const createDelegation = useMutation({
+    mutationFn: (value: DelegationInput) =>
+      client.post<CartelDelegation>(
+        `/engagement/social/cartels/${selectedId}/delegations`,
+        value,
+        createIdempotencyKey(),
+      ),
+    onSuccess: async () => {
+      setSuccess(t("engagementDelegationSuccess"));
+      await queryClient.invalidateQueries({
+        queryKey: ["cartels", selectedId, "delegations"],
+      });
+      await queryClient.invalidateQueries({
+        queryKey: ["cartels", selectedId, "chronicle"],
+      });
+    },
+  });
+  const startPause = useMutation({
+    mutationFn: (value: PauseInput) =>
+      client.post<CartelMembershipPause>(
+        `/engagement/social/cartels/${selectedId}/pause`,
+        value,
+        createIdempotencyKey(),
+      ),
+    onSuccess: async () => {
+      setSuccess(t("engagementPauseSuccess"));
+      await queryClient.invalidateQueries({
+        queryKey: ["cartels", selectedId, "pause"],
+      });
+    },
+  });
+  const resumePause = useMutation({
+    mutationFn: () =>
+      client.post<CartelMembershipPause>(
+        `/engagement/social/cartels/${selectedId}/resume`,
+      ),
+    onSuccess: async () => {
+      setSuccess(t("engagementResumeSuccess"));
+      await queryClient.invalidateQueries({
+        queryKey: ["cartels", selectedId, "pause"],
+      });
+    },
+  });
   const action = useMutation({
     mutationFn: async (pending: PendingAction) => {
       if (pending.kind === "approve") {
@@ -596,6 +795,9 @@ export function CartelsPage() {
     projects.error ??
     activity.error ??
     influence.error ??
+    delegations.error ??
+    membershipPause.error ??
+    chronicle.error ??
     create.error ??
     invite.error ??
     join.error ??
@@ -604,10 +806,13 @@ export function CartelsPage() {
     expense.error ??
     project.error ??
     contribution.error ??
+    createDelegation.error ??
+    startPause.error ??
+    resumePause.error ??
     action.error;
 
   return (
-    <div className="page">
+    <div className="page page--cartels">
       <header className="page-header">
         <h1>{t("cartelTitle")}</h1>
         <p>{t("cartelSubtitle")}</p>
@@ -978,6 +1183,95 @@ export function CartelsPage() {
                       </div>
                     ))}
                   </div>
+                </StateView>
+              </Panel>
+
+              <Panel title={t("engagementAsyncCollaborationTitle")}>
+                <p>{t("engagementAsyncCollaborationDescription")}</p>
+                <div className="two-column">
+                  <div>
+                    <h3>{t("engagementDelegationsTitle")}</h3>
+                    <StateView
+                      loading={delegations.isLoading}
+                      empty={!delegations.data?.length}
+                    >
+                      {delegations.data?.map((delegation) => (
+                        <div className="list-row" key={delegation.id}>
+                          <span>
+                            <strong>{humanize(delegation.role_key)}</strong>
+                            <small>
+                              {t("engagementDelegationUntil", {
+                                date: formatDate(
+                                  delegation.expires_at,
+                                  i18n.language,
+                                ),
+                              })}
+                            </small>
+                          </span>
+                          <Status value={delegation.status} />
+                        </div>
+                      ))}
+                    </StateView>
+                    {members.data && (
+                      <DelegationForm
+                        members={members.data.filter(
+                          (member) => member.status === "active",
+                        )}
+                        pending={createDelegation.isPending}
+                        onSubmit={(value) => createDelegation.mutate(value)}
+                      />
+                    )}
+                  </div>
+                  <div>
+                    <h3>{t("engagementSocialPauseTitle")}</h3>
+                    <p>{t("engagementSocialPauseDescription")}</p>
+                    {membershipPause.data ? (
+                      <div className="card">
+                        <Status value={membershipPause.data.status} />
+                        <p>
+                          {t("engagementPauseUntil", {
+                            date: formatDate(
+                              membershipPause.data.planned_until,
+                              i18n.language,
+                            ),
+                          })}
+                        </p>
+                        <button
+                          className="button button--secondary"
+                          disabled={resumePause.isPending}
+                          onClick={() => resumePause.mutate()}
+                        >
+                          {t("engagementResumeNow")}
+                        </button>
+                      </div>
+                    ) : (
+                      <PauseForm
+                        pending={startPause.isPending}
+                        onSubmit={(value) => startPause.mutate(value)}
+                      />
+                    )}
+                  </div>
+                </div>
+              </Panel>
+
+              <Panel title={t("engagementCartelChronicleTitle")}>
+                <StateView
+                  loading={chronicle.isLoading}
+                  empty={!chronicle.data?.length}
+                >
+                  <ol className="list-stack">
+                    {chronicle.data?.map((entry) => (
+                      <li className="list-row" key={entry.id}>
+                        <span>
+                          <strong>{t(entry.title_key)}</strong>
+                          <small>{t(entry.body_key)}</small>
+                        </span>
+                        <time dateTime={entry.created_at}>
+                          {formatDate(entry.created_at, i18n.language)}
+                        </time>
+                      </li>
+                    ))}
+                  </ol>
                 </StateView>
               </Panel>
             </>

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "locale": "ja",
+  "scopes": {
+    "game": "machine_draft",
+    "email": "not_started",
+    "store": "not_started",
+    "support": "not_started",
+    "legal": "not_started"
+  }
+}

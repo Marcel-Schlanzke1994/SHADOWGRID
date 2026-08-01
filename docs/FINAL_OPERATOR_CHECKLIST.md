@@ -26,6 +26,7 @@ Compose remains the PostgreSQL/Redis production-parity path when Docker is insta
 - Run `pnpm release:final-run`; never use `--no-verify` or disable a failing gate.
 - Review the generated `docs/release-evidence/final-release-*/FINAL_RELEASE_RUN.json`.
 - Confirm every recorded step has exit code 0 and a SHA-256 log hash.
+- Confirm `pnpm i18n:release` reports 36/36 approved packages with no fallback, source clone, incomplete role or missing evidence.
 - Confirm the asset gate reports 896/896 approved, zero pending/review/rejected/failed.
 - Confirm store readiness reports 30/30 approved and 20 real application captures.
 - Confirm the balance report has no critical exploit or ledger imbalance.
@@ -61,8 +62,8 @@ logs by request ID. Roll back on any required failure.
 
 - Verify the 20 source screenshots and ten static marketing entries in
   `STORE_ASSET_READINESS.md`.
-- Approve English/German store copy and decide whether a separate German screenshot set is
-  required for the selected storefronts.
+- Approve store copy and the required screenshot set for every public locale; the global
+  build cannot ship a partial language set.
 - Complete physical-device login, session restore, deep-link, offline, dark-mode, maximum
   text-size, TalkBack/VoiceOver, touch-target and tablet checks.
 - Build signed AAB/IPA only from the real EAS organization account.

@@ -24,7 +24,7 @@ flowchart LR
     Prom[Prometheus] --> API
 ```
 
-The monorepo separates deployable applications (`apps/api`, `apps/worker`, `apps/web`, `apps/mobile`) from shared contracts and configuration (`packages/*`). FastAPI produces the canonical OpenAPI document; `openapi-typescript` generates the client contract. English is the canonical message catalogue, German is human-reviewed, and all other configured locales fall back to English until reviewed translations are supplied.
+The monorepo separates deployable applications (`apps/api`, `apps/worker`, `apps/web`, `apps/mobile`) from shared contracts and configuration (`packages/*`). FastAPI produces the canonical OpenAPI document; `openapi-typescript` generates the client contract. English is the canonical message catalogue. The 36 BCP 47 launch packages, context records, glossaries and review evidence live in `packages/i18n/locales`. Runtime fallback is disabled. A locale can enter a public bundle only after its catalogue is complete and its independent native, in-game, accessibility, screenshot, store, support and legal approvals pass `pnpm i18n:release`.
 
 ## Data and consistency
 

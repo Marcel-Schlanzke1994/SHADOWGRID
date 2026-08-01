@@ -898,6 +898,8 @@ export const runtimeAssetLibrary = {
   "marketing-closed-alpha-banner-v1": require("./assets/library/marketing-closed-alpha-banner-v1.webp"),
   "marketing-open-beta-banner-v1": require("./assets/library/marketing-open-beta-banner-v1.webp"),
   "marketing-release-banner-v1": require("./assets/library/marketing-release-banner-v1.webp"),
+  "global-command-center-premium-night-v2": require("./assets/library/global-command-center-premium-night-v2.webp"),
+  "global-command-center-premium-day-v2": require("./assets/library/global-command-center-premium-day-v2.webp"),
 } as const;
 
 export type RuntimeAssetId = keyof typeof runtimeAssetLibrary;

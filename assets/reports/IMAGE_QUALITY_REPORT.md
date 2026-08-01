@@ -1,6 +1,6 @@
 # Image quality report
 
-- Approved: 896
+- Approved: 898
 - Review required: 0
 - Rejected: 0
 - Failed: 0

@@ -19,6 +19,7 @@ from shadowgrid.domain import resolve_due, settle_businesses  # noqa: E402
 from shadowgrid.economy import run_due_economy_ticks  # noqa: E402
 from shadowgrid.exchange import expire_due_orders  # noqa: E402
 from shadowgrid.mailer import deliver_pending_email  # noqa: E402
+from shadowgrid.progression import expire_delegations, expire_pauses  # noqa: E402
 from shadowgrid.specialists import (  # noqa: E402
     run_due_specialist_market_refresh,
     run_due_specialist_payrolls,
@@ -89,6 +90,21 @@ async def expire_exchange_orders(_: dict[Any, Any], *args: Any, **kwargs: Any) -
         db.close()
 
 
+async def expire_collaboration_windows(
+    _: dict[Any, Any], *args: Any, **kwargs: Any
+) -> dict[str, int]:
+    db = SessionLocal()
+    try:
+        result = {
+            "delegations": expire_delegations(db),
+            "membership_pauses": expire_pauses(db),
+        }
+        db.commit()
+        return result
+    finally:
+        db.close()
+
+
 class WorkerSettings:
     redis_settings = RedisSettings.from_dsn(get_settings().redis_url)
     functions = [
@@ -100,11 +116,18 @@ class WorkerSettings:
         ai_hourly,
         mail_every_minute,
         expire_exchange_orders,
+        expire_collaboration_windows,
     ]
     cron_jobs = [
         cron(cast(WorkerCoroutine, due_every_minute), minute=None, second=0, unique=True),
         cron(cast(WorkerCoroutine, mail_every_minute), minute=None, second=10, unique=True),
         cron(cast(WorkerCoroutine, expire_exchange_orders), minute=None, second=15, unique=True),
+        cron(
+            cast(WorkerCoroutine, expire_collaboration_windows),
+            minute=None,
+            second=25,
+            unique=True,
+        ),
         cron(cast(WorkerCoroutine, settle_hourly), minute=0, second=20, unique=True),
         cron(cast(WorkerCoroutine, economy_hourly), minute=0, second=30, unique=True),
         cron(

@@ -744,6 +744,33 @@ ROLE_PERMISSIONS: Final = {
         "pvp.view_reports",
         "pvp.support",
     },
+    "economic_analyst": {
+        "organization.view",
+        "treasury.view",
+        "audit.view",
+    },
+    "intelligence_coordinator": {
+        "organization.view",
+        "intel.view_shared",
+        "intel.share",
+        "operations.view",
+    },
+    "project_manager": {
+        "organization.view",
+        "projects.view",
+        "projects.create",
+    },
+    "trainer": {"organization.view", "mentoring.view"},
+    "archivist": {
+        "organization.view",
+        "chronicle.view",
+        "chronicle.create",
+    },
+    "event_planner": {
+        "organization.view",
+        "projects.view",
+        "operations.view",
+    },
 }
 
 CARTEL_PROJECT_TEMPLATES: Final[dict[str, CartelProjectTemplate]] = {

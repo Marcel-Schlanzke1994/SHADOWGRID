@@ -17,6 +17,7 @@ from shadowgrid.domain import (
     remember_idempotent,
     safe_commit,
 )
+from shadowgrid.engagement import record_engagement_event
 from shadowgrid.errors import DomainError
 from shadowgrid.finance import (
     cents_to_money,
@@ -45,6 +46,7 @@ from shadowgrid.models import (
     World,
     as_utc,
 )
+from shadowgrid.progression import record_cartel_chronicle
 from shadowgrid.realtime import emit_realtime_event
 
 _cartel_mutation_lock = threading.RLock()
@@ -63,6 +65,12 @@ ASSIGNABLE_ROLES = {
     "diplomat",
     "strategist",
     "intelligence_officer",
+    "economic_analyst",
+    "intelligence_coordinator",
+    "project_manager",
+    "trainer",
+    "archivist",
+    "event_planner",
 }
 POINT_TYPE_BY_INFLUENCE_KIND = {
     "economic": "economic_network",
@@ -382,6 +390,7 @@ def create_invitation(
                 "invitation_id": invitation.id,
                 "cartel_id": cartel.id,
             },
+            category="social",
         )
         emit_realtime_event(
             db,
@@ -595,6 +604,18 @@ def update_member_role(
             )
         previous_role = target.role
         target.role = role
+        db.flush()
+        record_cartel_chronicle(
+            db,
+            organization_id=cartel.id,
+            actor_profile_id=profile.id,
+            entry_type="role_changed",
+            source_type="organization_membership",
+            source_id=f"{target.id}:{role}",
+            title_key="engagementChronicleRoleTitle",
+            body_key="engagementChronicleRoleBody",
+            metadata={"role": role, "previous_role": previous_role},
+        )
         remember_idempotent(
             db,
             user.id,
@@ -949,6 +970,17 @@ def create_project(
         )
         db.add(project)
         db.flush()
+        record_cartel_chronicle(
+            db,
+            organization_id=cartel.id,
+            actor_profile_id=profile.id,
+            entry_type="project_started",
+            source_type="cartel_project",
+            source_id=project.id,
+            title_key="engagementChronicleProjectStartedTitle",
+            body_key="engagementChronicleProjectStartedBody",
+            metadata={"project_type": project.project_type, "title": project.title},
+        )
         audit(
             db,
             user.id,
@@ -1135,6 +1167,31 @@ def contribute_to_project(
             idempotency_key=idempotency_key,
         )
         db.add(contribution)
+        db.flush()
+        record_engagement_event(
+            db,
+            profile_id=profile.id,
+            event_type="cartel.project_contributed",
+            source_type="cartel_project_contribution",
+            source_id=contribution.id,
+            idempotency_key=f"cartel.project_contributed:{contribution.id}",
+            payload={
+                "project_id": project.id,
+                "resource_type": resource_type,
+                "progress_value": 1,
+            },
+        )
+        record_cartel_chronicle(
+            db,
+            organization_id=cartel.id,
+            actor_profile_id=profile.id,
+            entry_type="project_contribution",
+            source_type="cartel_project_contribution",
+            source_id=contribution.id,
+            title_key="engagementChronicleContributionTitle",
+            body_key="engagementChronicleContributionBody",
+            metadata={"project_id": project.id, "resource_type": resource_type},
+        )
         if (
             project.contributed_cash_cents >= project.required_cash_cents
             and project.contributed_influence >= project.required_influence
@@ -1164,6 +1221,17 @@ def contribute_to_project(
             project.status = "completed"
             project.completed_at = datetime.now(UTC)
             db.flush()
+            record_cartel_chronicle(
+                db,
+                organization_id=cartel.id,
+                actor_profile_id=profile.id,
+                entry_type="project_completed",
+                source_type="cartel_project",
+                source_id=project.id,
+                title_key="engagementChronicleProjectCompletedTitle",
+                body_key="engagementChronicleProjectCompletedBody",
+                metadata={"project_type": project.project_type, "title": project.title},
+            )
             _recalculate_control_point(db, project, settings)
         audit(
             db,

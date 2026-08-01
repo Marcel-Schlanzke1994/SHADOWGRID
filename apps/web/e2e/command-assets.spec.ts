@@ -120,7 +120,7 @@ test("command center loads the responsive daytime artwork", async ({
     .poll(() =>
       backdrop.evaluate((image: HTMLImageElement) => image.currentSrc),
     )
-    .toContain("global-command-center-day-v1");
+    .toContain("global-command-center-premium-day-v2");
   expect(
     await page.evaluate(
       () => document.documentElement.scrollWidth <= window.innerWidth,
@@ -140,7 +140,7 @@ test("command center loads the responsive daytime artwork", async ({
     .poll(() =>
       backdrop.evaluate((image: HTMLImageElement) => image.currentSrc),
     )
-    .toContain("global-command-center-night-v1");
+    .toContain("global-command-center-premium-night-v2");
   await expect
     .poll(() =>
       backdrop.evaluate(

@@ -8,6 +8,7 @@ import {
 } from "react";
 import { useTranslation } from "react-i18next";
 import { ApiError } from "@shadowgrid/api-client";
+import { translateGameValue } from "@shadowgrid/i18n";
 import { GlobalStateBackdrop } from "./GlobalBackdrop";
 
 export const Panel = ({
@@ -20,7 +21,14 @@ export const Panel = ({
   className?: string;
 }) => (
   <section className={`panel ${className}`}>
-    {title && <h2>{title}</h2>}
+    <span className="panel__edge panel__edge--top" aria-hidden="true" />
+    <span className="panel__edge panel__edge--bottom" aria-hidden="true" />
+    {title && (
+      <header className="panel__heading">
+        <span className="panel__signal" aria-hidden="true" />
+        <h2>{title}</h2>
+      </header>
+    )}
     {children}
   </section>
 );
@@ -35,8 +43,10 @@ export const Metric = ({
   tone?: "default" | "warning" | "good";
 }) => (
   <div className={`metric metric--${tone}`}>
+    <span className="metric__scan" aria-hidden="true" />
     <span className="metric__label">{label}</span>
     <strong>{value}</strong>
+    <span className="metric__signal" aria-hidden="true" />
   </div>
 );
 
@@ -76,21 +86,34 @@ export const StateView = ({
     return (
       <div className="state" role="status">
         <span className="spinner" aria-hidden="true" />
-        {t("loading")}
+        <span>{t("loading")}</span>
+        <span className="state__scan" aria-hidden="true" />
       </div>
     );
   if (error) {
     const apiError = error instanceof ApiError ? error : null;
     const offline = !navigator.onLine || error instanceof TypeError;
+    const errorKey =
+      apiError?.status === 401
+        ? "errorUnauthorized"
+        : apiError?.status === 403
+          ? "errorForbidden"
+          : apiError?.status === 404
+            ? "errorNotFound"
+            : apiError?.status === 409
+              ? "errorConflict"
+              : apiError?.status === 422
+                ? "errorValidation"
+                : apiError?.status === 429
+                  ? "errorRateLimited"
+                  : "errorServer";
     const errorState = (
       <div
         className={`state state--error ${offline ? "state--offline" : ""}`}
         role="alert"
       >
         <h2>{t(offline ? "offlineTitle" : "errorTitle")}</h2>
-        <p>
-          {offline ? t("offlineBody") : (apiError?.message ?? t("errorTitle"))}
-        </p>
+        <p>{offline ? t("offlineBody") : t(errorKey)}</p>
         {apiError?.requestId && (
           <small>{t("requestId", { id: apiError.requestId })}</small>
         )}
@@ -129,6 +152,7 @@ export const Field = ({
   hint?: string;
   error?: string;
 }) => {
+  const { t } = useTranslation();
   const uniqueId = useId().replace(/[^a-zA-Z0-9_-]/g, "");
   const id = `field-${label.toLowerCase().replace(/[^a-z0-9]/g, "-")}-${uniqueId}`;
   const controlId = isValidElement<{ id?: string }>(children)
@@ -148,7 +172,7 @@ export const Field = ({
       {hint && <small>{hint}</small>}
       {error && (
         <small className="field__error" role="alert">
-          {error}
+          {t("formFieldInvalid")}
         </small>
       )}
     </label>
@@ -164,7 +188,7 @@ export const Status = ({
 }) => (
   <span className={`status ${uncertain ? "status--uncertain" : ""}`}>
     <span aria-hidden="true">{uncertain ? "?" : "●"}</span>
-    {value.replaceAll("_", " ")}
+    {translateGameValue(value)}
   </span>
 );
 
@@ -221,9 +245,10 @@ export const ConfirmDialog = ({
           className="button"
           type="button"
           disabled={pending}
+          aria-busy={pending}
           onClick={onConfirm}
         >
-          {confirmLabel}
+          <span>{confirmLabel}</span>
         </button>
       </div>
     </dialog>

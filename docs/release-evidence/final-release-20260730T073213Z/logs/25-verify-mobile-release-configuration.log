@@ -1,0 +1,10 @@
+SHADOWGRID final release evidence
+Step: Verify mobile release configuration
+Command: pnpm mobile:release:verify
+Started: 2026-07-30T09:01:49.793Z
+
+$ node scripts/verify-mobile-release.mjs
+Mobile release configuration passed: identifiers, HTTPS API, store drafts, preview export and credential hygiene.
+
+Finished: 2026-07-30T09:02:03.804Z
+Exit code: 0

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import hashlib
 import threading
 from dataclasses import dataclass
 from datetime import UTC, datetime, timedelta
@@ -10,11 +11,14 @@ from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
 from shadowgrid.domain import audit
+from shadowgrid.engagement import record_engagement_event
+from shadowgrid.errors import DomainError
 from shadowgrid.game_config import WORLD_EVENT_TEMPLATES_V1
 from shadowgrid.models import (
     City,
     Company,
     District,
+    PlayerProfile,
     User,
     World,
     WorldEventDefinition,
@@ -554,3 +558,44 @@ def event_feed(
             .limit(limit)
         )
     )
+
+
+def respond_to_event(
+    db: Session,
+    profile: PlayerProfile,
+    *,
+    instance_id: str,
+    response_key: str,
+    idempotency_key: str,
+) -> dict[str, object]:
+    instance = db.scalar(
+        select(WorldEventInstance).where(
+            WorldEventInstance.id == instance_id,
+            WorldEventInstance.world_id == profile.world_id,
+        )
+    )
+    if instance is None:
+        raise DomainError(404, "world_event.not_found", "World event not found")
+    now = datetime.now(UTC)
+    if instance.status not in {"active", "ended"} or as_utc(instance.starts_at) > now:
+        raise DomainError(
+            409,
+            "world_event.response_unavailable",
+            "This world event is not available for investigation",
+        )
+    event = record_engagement_event(
+        db,
+        profile_id=profile.id,
+        event_type="world_event.responded",
+        source_type="world_event",
+        source_id=f"{instance.id}:{hashlib.sha256(response_key.encode()).hexdigest()[:8]}",
+        idempotency_key=f"world_event.responded:{profile.id}:{idempotency_key}",
+        payload={"response_key": response_key, "event_key": instance.event_key},
+        occurred_at=now,
+    )
+    return {
+        "id": event.id,
+        "world_event_id": instance.id,
+        "response_key": response_key,
+        "occurred_at": event.occurred_at,
+    }

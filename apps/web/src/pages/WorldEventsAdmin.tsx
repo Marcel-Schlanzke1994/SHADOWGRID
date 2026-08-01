@@ -1,5 +1,6 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { createIdempotencyKey } from "@shadowgrid/api-client";
+import { translateGameValue } from "@shadowgrid/i18n";
 import type {
   Profile,
   WorldEventDefinition,
@@ -26,8 +27,7 @@ const scopeTypes = [
   "company",
 ] as const;
 
-const humanize = (value: string) =>
-  value.replaceAll("_", " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
+const humanize = translateGameValue;
 
 export function WorldEventsAdmin() {
   const { t, i18n } = useTranslation();
@@ -158,7 +158,8 @@ export function WorldEventsAdmin() {
                 ?.filter((item) => item.enabled)
                 .map((item) => (
                   <option key={item.id} value={item.event_key}>
-                    {item.title} · v{item.version}
+                    {item.title} ·{" "}
+                    {t("versionValue", { version: item.version })}
                   </option>
                 ))}
             </select>

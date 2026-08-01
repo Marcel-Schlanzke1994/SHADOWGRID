@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import json
 import re
-from datetime import UTC, datetime
+from datetime import UTC, date, datetime
 from decimal import Decimal
 from typing import Any
 from uuid import uuid4
@@ -12,6 +12,7 @@ from sqlalchemy import (
     BigInteger,
     Boolean,
     CheckConstraint,
+    Date,
     DateTime,
     ForeignKey,
     Index,
@@ -2985,15 +2986,1128 @@ class PropertyImprovement(Base):
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
 
 
+class EngagementEvent(Base):
+    __tablename__ = "engagement_events"
+    __table_args__ = (
+        UniqueConstraint("world_id", "idempotency_key", name="uq_engagement_event_key"),
+        UniqueConstraint(
+            "profile_id",
+            "event_type",
+            "source_type",
+            "source_id",
+            name="uq_engagement_event_source",
+        ),
+        CheckConstraint(
+            "event_type IN ("
+            "'company.founded', 'company.first_profit', 'specialist.assigned', "
+            "'exchange.ipo_completed', 'cartel.project_contributed', "
+            "'intelligence.report_acquired', 'world_event.responded', 'season.closed', "
+            "'mentoring.system_understood', 'mentoring.independent_decision', "
+            "'mentoring.positive_feedback')",
+            name="ck_engagement_event_type",
+        ),
+        Index("ix_engagement_event_profile_occurred", "profile_id", "occurred_at"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    world_id: Mapped[str] = mapped_column(ForeignKey("worlds.id", ondelete="RESTRICT"), index=True)
+    profile_id: Mapped[str] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), index=True
+    )
+    event_type: Mapped[str] = mapped_column(String(64), index=True)
+    source_type: Mapped[str] = mapped_column(String(40))
+    source_id: Mapped[str] = mapped_column(String(80))
+    idempotency_key: Mapped[str] = mapped_column(String(120))
+    payload_json: Mapped[dict[str, Any]] = mapped_column(JSON, default=dict)
+    occurred_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+    processed_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+
+
+class GoalTemplate(Base):
+    __tablename__ = "goal_templates"
+    __table_args__ = (
+        UniqueConstraint("template_key", "version", name="uq_goal_template_version"),
+        CheckConstraint("version > 0", name="ck_goal_template_version"),
+        CheckConstraint(
+            "category IN ('economic', 'social', 'exploration', 'risk', 'long_term', 'season')",
+            name="ck_goal_template_category",
+        ),
+        CheckConstraint("target_value > 0", name="ck_goal_template_target"),
+        CheckConstraint("catch_up_weeks BETWEEN 1 AND 8", name="ck_goal_template_catchup"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    template_key: Mapped[str] = mapped_column(String(80), index=True)
+    version: Mapped[int] = mapped_column(Integer, default=1)
+    category: Mapped[str] = mapped_column(String(24))
+    title_key: Mapped[str] = mapped_column(String(120))
+    description_key: Mapped[str] = mapped_column(String(120))
+    event_type: Mapped[str] = mapped_column(String(64), index=True)
+    target_value: Mapped[int] = mapped_column(Integer)
+    unit_key: Mapped[str] = mapped_column(String(60), default="engagementUnitDecision")
+    catch_up_weeks: Mapped[int] = mapped_column(Integer, default=2)
+    doctrine_keys_json: Mapped[list[str]] = mapped_column(JSON, default=list)
+    reward_type: Mapped[str] = mapped_column(String(24), default="chronicle")
+    reward_key: Mapped[str] = mapped_column(String(80))
+    active: Mapped[bool] = mapped_column(Boolean, default=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+
+
+class GoalChoiceWindow(Base):
+    __tablename__ = "goal_choice_windows"
+    __table_args__ = (
+        UniqueConstraint("profile_id", "starts_at", name="uq_goal_window_profile_start"),
+        CheckConstraint("ends_at > starts_at", name="ck_goal_window_duration"),
+        CheckConstraint("catch_up_until >= ends_at", name="ck_goal_window_catchup"),
+        CheckConstraint("max_choices BETWEEN 1 AND 3", name="ck_goal_window_choices"),
+        CheckConstraint(
+            "status IN ('open', 'catch_up', 'closed')",
+            name="ck_goal_window_status",
+        ),
+        Index("ix_goal_window_profile_status", "profile_id", "status", "starts_at"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    profile_id: Mapped[str] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), index=True
+    )
+    starts_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
+    ends_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
+    catch_up_until: Mapped[datetime] = mapped_column(DateTime(timezone=True))
+    max_choices: Mapped[int] = mapped_column(Integer, default=3)
+    status: Mapped[str] = mapped_column(String(16), default="open")
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+
+
+class GoalInstance(Base):
+    __tablename__ = "goal_instances"
+    __table_args__ = (
+        UniqueConstraint("profile_id", "idempotency_key", name="uq_goal_instance_profile_key"),
+        UniqueConstraint("choice_window_id", "template_id", name="uq_goal_window_template"),
+        CheckConstraint(
+            "status IN ('offered', 'active', 'completed', 'swapped', 'declined', 'expired')",
+            name="ck_goal_instance_status",
+        ),
+        CheckConstraint(
+            "target_value > 0 AND progress_value >= 0 AND progress_value <= target_value",
+            name="ck_goal_instance_progress",
+        ),
+        Index("ix_goal_instance_profile_status", "profile_id", "status", "created_at"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    template_id: Mapped[str] = mapped_column(
+        ForeignKey("goal_templates.id", ondelete="RESTRICT"), index=True
+    )
+    profile_id: Mapped[str] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), index=True
+    )
+    choice_window_id: Mapped[str] = mapped_column(
+        ForeignKey("goal_choice_windows.id", ondelete="RESTRICT"), index=True
+    )
+    status: Mapped[str] = mapped_column(String(16), default="offered")
+    target_value: Mapped[int] = mapped_column(Integer)
+    progress_value: Mapped[int] = mapped_column(Integer, default=0)
+    recommended_for_doctrine: Mapped[bool] = mapped_column(Boolean, default=False)
+    idempotency_key: Mapped[str] = mapped_column(String(120))
+    selected_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+    completed_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+    swapped_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+
+
+class GoalProgress(Base):
+    __tablename__ = "goal_progress"
+    __table_args__ = (
+        UniqueConstraint("goal_instance_id", "event_id", name="uq_goal_progress_event"),
+        CheckConstraint("delta_value > 0", name="ck_goal_progress_delta"),
+        CheckConstraint("progress_after > 0", name="ck_goal_progress_after"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    goal_instance_id: Mapped[str] = mapped_column(
+        ForeignKey("goal_instances.id", ondelete="RESTRICT"), index=True
+    )
+    event_id: Mapped[str] = mapped_column(
+        ForeignKey("engagement_events.id", ondelete="RESTRICT"), index=True
+    )
+    delta_value: Mapped[int] = mapped_column(Integer)
+    progress_after: Mapped[int] = mapped_column(Integer)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+
+
+class GoalReward(Base):
+    __tablename__ = "goal_rewards"
+    __table_args__ = (
+        UniqueConstraint("goal_instance_id", "reward_key", name="uq_goal_reward_key"),
+        CheckConstraint(
+            "reward_type IN ('knowledge', 'chronicle', 'mastery', 'cosmetic')",
+            name="ck_goal_reward_type",
+        ),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    goal_instance_id: Mapped[str] = mapped_column(
+        ForeignKey("goal_instances.id", ondelete="RESTRICT"), index=True
+    )
+    reward_type: Mapped[str] = mapped_column(String(24))
+    reward_key: Mapped[str] = mapped_column(String(80))
+    metadata_json: Mapped[dict[str, Any]] = mapped_column(JSON, default=dict)
+    awarded_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+
+
+class PlayerOpenPlan(Base):
+    __tablename__ = "player_open_plans"
+    __table_args__ = (
+        UniqueConstraint("profile_id", "idempotency_key", name="uq_open_plan_profile_key"),
+        CheckConstraint(
+            "category IN ('urgent', 'strategic', 'discoverable')",
+            name="ck_open_plan_category",
+        ),
+        CheckConstraint(
+            "status IN ('active', 'completed', 'archived')",
+            name="ck_open_plan_status",
+        ),
+        CheckConstraint("priority BETWEEN 0 AND 100", name="ck_open_plan_priority"),
+        Index("ix_open_plan_profile_status", "profile_id", "status", "priority"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    profile_id: Mapped[str] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), index=True
+    )
+    category: Mapped[str] = mapped_column(String(16))
+    title: Mapped[str] = mapped_column(String(140))
+    next_step: Mapped[str] = mapped_column(String(280))
+    target_path: Mapped[str] = mapped_column(String(180))
+    status: Mapped[str] = mapped_column(String(16), default="active")
+    priority: Mapped[int] = mapped_column(Integer, default=50)
+    idempotency_key: Mapped[str] = mapped_column(String(120))
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, onupdate=utcnow
+    )
+    completed_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+
+
+class PlayerSession(Base):
+    __tablename__ = "player_sessions"
+    __table_args__ = (
+        UniqueConstraint("profile_id", "client_session_key", name="uq_player_session_key"),
+        CheckConstraint(
+            "status IN ('active', 'completed', 'abandoned')",
+            name="ck_player_session_status",
+        ),
+        CheckConstraint(
+            "ended_at IS NULL OR ended_at >= started_at",
+            name="ck_player_session_duration",
+        ),
+        Index("ix_player_session_profile_started", "profile_id", "started_at"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    profile_id: Mapped[str] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), index=True
+    )
+    client_session_key: Mapped[str] = mapped_column(String(80))
+    status: Mapped[str] = mapped_column(String(16), default="active")
+    initial_snapshot_json: Mapped[dict[str, Any]] = mapped_column(JSON, default=dict)
+    started_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+    last_activity_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+    ended_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+
+
+class SessionSummary(Base):
+    __tablename__ = "session_summaries"
+    __table_args__ = (
+        UniqueConstraint("session_id", name="uq_session_summary_session"),
+        CheckConstraint("duration_seconds >= 0", name="ck_session_summary_duration"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    session_id: Mapped[str] = mapped_column(
+        ForeignKey("player_sessions.id", ondelete="RESTRICT"), index=True
+    )
+    profile_id: Mapped[str] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), index=True
+    )
+    duration_seconds: Mapped[int] = mapped_column(Integer)
+    decisions_json: Mapped[list[dict[str, Any]]] = mapped_column(JSON, default=list)
+    changes_json: Mapped[list[dict[str, Any]]] = mapped_column(JSON, default=list)
+    open_plans_json: Mapped[list[dict[str, Any]]] = mapped_column(JSON, default=list)
+    next_entry_points_json: Mapped[list[dict[str, Any]]] = mapped_column(JSON, default=list)
+    natural_break_reached: Mapped[bool] = mapped_column(Boolean, default=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+
+
+class ReturnBriefing(Base):
+    __tablename__ = "return_briefings"
+    __table_args__ = (
+        UniqueConstraint("profile_id", "since_at", name="uq_return_briefing_since"),
+        Index("ix_return_briefing_profile_generated", "profile_id", "generated_at"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    profile_id: Mapped[str] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), index=True
+    )
+    since_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
+    world_changes_json: Mapped[list[dict[str, Any]]] = mapped_column(JSON, default=list)
+    company_changes_json: Mapped[list[dict[str, Any]]] = mapped_column(JSON, default=list)
+    relevant_decisions_json: Mapped[list[dict[str, Any]]] = mapped_column(JSON, default=list)
+    available_content_json: Mapped[list[dict[str, Any]]] = mapped_column(JSON, default=list)
+    entry_points_json: Mapped[list[dict[str, Any]]] = mapped_column(JSON, default=list)
+    generated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+    acknowledged_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+
+
+class NotificationPreference(Base):
+    __tablename__ = "notification_preferences"
+    __table_args__ = (
+        UniqueConstraint("profile_id", "category", name="uq_notification_preference_category"),
+        CheckConstraint(
+            "category IN ('critical', 'strategic', 'social', 'summary')",
+            name="ck_notification_preference_category",
+        ),
+        CheckConstraint(
+            "digest_frequency IN ('immediate', 'daily', 'weekly', 'off')",
+            name="ck_notification_preference_digest",
+        ),
+        CheckConstraint(
+            "quiet_start_minute BETWEEN 0 AND 1439 AND quiet_end_minute BETWEEN 0 AND 1439",
+            name="ck_notification_preference_quiet_hours",
+        ),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    profile_id: Mapped[str] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), index=True
+    )
+    category: Mapped[str] = mapped_column(String(16))
+    live_enabled: Mapped[bool] = mapped_column(Boolean, default=True)
+    digest_frequency: Mapped[str] = mapped_column(String(16), default="daily")
+    quiet_start_minute: Mapped[int] = mapped_column(Integer, default=1_320)
+    quiet_end_minute: Mapped[int] = mapped_column(Integer, default=420)
+    timezone: Mapped[str] = mapped_column(String(64), default="Europe/Berlin")
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, onupdate=utcnow
+    )
+
+
+class EngagementSetting(Base):
+    __tablename__ = "engagement_settings"
+    __table_args__ = (
+        UniqueConstraint("profile_id", name="uq_engagement_setting_profile"),
+        CheckConstraint(
+            "information_density IN ('compact', 'standard', 'detailed')",
+            name="ck_engagement_setting_density",
+        ),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    profile_id: Mapped[str] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), index=True
+    )
+    adaptive_help_enabled: Mapped[bool] = mapped_column(Boolean, default=True)
+    session_summary_enabled: Mapped[bool] = mapped_column(Boolean, default=True)
+    ranking_visible: Mapped[bool] = mapped_column(Boolean, default=True)
+    information_density: Mapped[str] = mapped_column(String(16), default="standard")
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, onupdate=utcnow
+    )
+
+
+class EngagementGuardrailEvaluation(Base):
+    __tablename__ = "engagement_guardrail_evaluations"
+    __table_args__ = (
+        UniqueConstraint("idempotency_key", name="uq_engagement_guardrail_key"),
+        CheckConstraint("strategy_spread_bps >= 0", name="ck_guardrail_strategy_spread"),
+        CheckConstraint("cartel_dominance_bps >= 0", name="ck_guardrail_cartel_dominance"),
+        CheckConstraint("newcomer_wealth_bps >= 0", name="ck_guardrail_newcomer_wealth"),
+        CheckConstraint("negative_balance_count >= 0", name="ck_guardrail_negative_balances"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    world_id: Mapped[str | None] = mapped_column(
+        ForeignKey("worlds.id", ondelete="RESTRICT"), nullable=True, index=True
+    )
+    idempotency_key: Mapped[str] = mapped_column(String(120))
+    strategy_spread_bps: Mapped[int] = mapped_column(Integer)
+    cartel_dominance_bps: Mapped[int] = mapped_column(Integer)
+    newcomer_wealth_bps: Mapped[int] = mapped_column(Integer)
+    ledger_imbalance_cents: Mapped[int] = mapped_column(BigInteger)
+    negative_balance_count: Mapped[int] = mapped_column(Integer)
+    wellbeing_status: Mapped[str] = mapped_column(String(24), default="insufficient_data")
+    technical_status: Mapped[str] = mapped_column(String(24), default="insufficient_data")
+    accessibility_status: Mapped[str] = mapped_column(String(24), default="insufficient_data")
+    voluntary_return_status: Mapped[str] = mapped_column(String(24), default="insufficient_data")
+    wellbeing_signals_json: Mapped[dict[str, Any]] = mapped_column(JSON, default=dict)
+    passed: Mapped[bool] = mapped_column(Boolean)
+    reasons_json: Mapped[list[str]] = mapped_column(JSON, default=list)
+    evaluated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+
+
+class EngagementMetricDaily(Base):
+    __tablename__ = "engagement_metrics_daily"
+    __table_args__ = (
+        UniqueConstraint("scope_key", "metric_date", "cohort_key", name="uq_engagement_metric_day"),
+        UniqueConstraint("idempotency_key", name="uq_engagement_metric_key"),
+        CheckConstraint("profile_count >= 0", name="ck_engagement_metric_profiles"),
+        CheckConstraint("active_profile_count >= 0", name="ck_engagement_metric_active_profiles"),
+        CheckConstraint("meaningful_decision_count >= 0", name="ck_engagement_metric_decisions"),
+        CheckConstraint("story_progress_count >= 0", name="ck_engagement_metric_story"),
+        CheckConstraint(
+            "d1_return_bps BETWEEN 0 AND 10000 AND d7_return_bps BETWEEN 0 AND 10000 "
+            "AND d30_return_bps BETWEEN 0 AND 10000 AND weekly_return_bps BETWEEN 0 AND 10000",
+            name="ck_engagement_metric_return_bps",
+        ),
+        CheckConstraint(
+            "goal_completion_bps BETWEEN 0 AND 10000 "
+            "AND strategy_diversity_bps BETWEEN 0 AND 10000 "
+            "AND season_participation_bps BETWEEN 0 AND 10000 "
+            "AND socially_engaged_bps BETWEEN 0 AND 10000",
+            name="ck_engagement_metric_engagement_bps",
+        ),
+        CheckConstraint(
+            "pause_return_7_bps BETWEEN 0 AND 10000 "
+            "AND pause_return_14_bps BETWEEN 0 AND 10000 "
+            "AND pause_return_30_bps BETWEEN 0 AND 10000",
+            name="ck_engagement_metric_pause_return_bps",
+        ),
+        CheckConstraint(
+            "natural_break_bps BETWEEN 0 AND 10000 "
+            "AND collection_completion_bps BETWEEN 0 AND 10000",
+            name="ck_engagement_metric_quality_bps",
+        ),
+        CheckConstraint(
+            "satisfaction_bps IS NULL OR satisfaction_bps BETWEEN 0 AND 10000",
+            name="ck_engagement_metric_satisfaction",
+        ),
+        CheckConstraint(
+            "fairness_bps IS NULL OR fairness_bps BETWEEN 0 AND 10000",
+            name="ck_engagement_metric_fairness",
+        ),
+        CheckConstraint("survey_response_count >= 0", name="ck_engagement_metric_surveys"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    world_id: Mapped[str | None] = mapped_column(
+        ForeignKey("worlds.id", ondelete="RESTRICT"), nullable=True, index=True
+    )
+    scope_key: Mapped[str] = mapped_column(String(40), index=True)
+    metric_date: Mapped[date] = mapped_column(Date, index=True)
+    cohort_key: Mapped[str] = mapped_column(String(40), default="all")
+    idempotency_key: Mapped[str] = mapped_column(String(120))
+    profile_count: Mapped[int] = mapped_column(Integer)
+    active_profile_count: Mapped[int] = mapped_column(Integer)
+    d1_return_bps: Mapped[int] = mapped_column(Integer)
+    d7_return_bps: Mapped[int] = mapped_column(Integer)
+    d30_return_bps: Mapped[int] = mapped_column(Integer)
+    weekly_return_bps: Mapped[int] = mapped_column(Integer)
+    goal_completion_bps: Mapped[int] = mapped_column(Integer)
+    meaningful_decision_count: Mapped[int] = mapped_column(Integer)
+    strategy_diversity_bps: Mapped[int] = mapped_column(Integer)
+    season_participation_bps: Mapped[int] = mapped_column(Integer)
+    socially_engaged_bps: Mapped[int] = mapped_column(Integer)
+    pause_return_7_bps: Mapped[int] = mapped_column(Integer)
+    pause_return_14_bps: Mapped[int] = mapped_column(Integer)
+    pause_return_30_bps: Mapped[int] = mapped_column(Integer)
+    satisfaction_bps: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    fairness_bps: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    survey_response_count: Mapped[int] = mapped_column(Integer, default=0)
+    natural_break_bps: Mapped[int] = mapped_column(Integer)
+    story_progress_count: Mapped[int] = mapped_column(Integer)
+    collection_completion_bps: Mapped[int] = mapped_column(Integer)
+    generated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+
+
+class EngagementRollout(Base):
+    __tablename__ = "engagement_rollouts"
+    __table_args__ = (
+        UniqueConstraint("feature_key", name="uq_engagement_rollout_feature"),
+        CheckConstraint("cohort_bps BETWEEN 0 AND 10000", name="ck_rollout_cohort"),
+        CheckConstraint(
+            "status IN ('disabled', 'internal', 'staged', 'active', 'paused')",
+            name="ck_rollout_status",
+        ),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    feature_key: Mapped[str] = mapped_column(String(80))
+    cohort_bps: Mapped[int] = mapped_column(Integer, default=0)
+    status: Mapped[str] = mapped_column(String(16), default="disabled")
+    last_evaluation_id: Mapped[str | None] = mapped_column(
+        ForeignKey("engagement_guardrail_evaluations.id", ondelete="RESTRICT"), nullable=True
+    )
+    updated_by_user_id: Mapped[str | None] = mapped_column(
+        ForeignKey("users.id", ondelete="RESTRICT"), nullable=True
+    )
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, onupdate=utcnow
+    )
+
+
+class DoctrineSelection(Base):
+    __tablename__ = "doctrine_selections"
+    __table_args__ = (
+        UniqueConstraint("profile_id", "idempotency_key", name="uq_doctrine_selection_key"),
+        CheckConstraint(
+            "doctrine_key IN ('industrial_captain', 'financial_architect', 'innovator', "
+            "'real_estate_strategist', 'networker', 'information_strategist', 'opportunist')",
+            name="ck_doctrine_selection_key",
+        ),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    profile_id: Mapped[str] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), index=True
+    )
+    doctrine_key: Mapped[str] = mapped_column(String(40), index=True)
+    previous_doctrine_key: Mapped[str | None] = mapped_column(String(40), nullable=True)
+    reason: Mapped[str] = mapped_column(String(160), default="player_choice")
+    idempotency_key: Mapped[str] = mapped_column(String(120))
+    selected_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+
+
+class PlayerDoctrine(Base):
+    __tablename__ = "player_doctrines"
+    __table_args__ = (
+        UniqueConstraint("profile_id", name="uq_player_doctrine_profile"),
+        CheckConstraint(
+            "doctrine_key IN ('industrial_captain', 'financial_architect', 'innovator', "
+            "'real_estate_strategist', 'networker', 'information_strategist', 'opportunist')",
+            name="ck_player_doctrine_key",
+        ),
+        CheckConstraint("version > 0", name="ck_player_doctrine_version"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    profile_id: Mapped[str] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), index=True
+    )
+    doctrine_key: Mapped[str] = mapped_column(String(40))
+    selection_id: Mapped[str] = mapped_column(
+        ForeignKey("doctrine_selections.id", ondelete="RESTRICT"), unique=True
+    )
+    version: Mapped[int] = mapped_column(Integer, default=1)
+    selected_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+    changed_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+
+
+class MasteryEntry(Base):
+    __tablename__ = "mastery_entries"
+    __table_args__ = (
+        UniqueConstraint(
+            "profile_id", "area_key", "source_type", "source_id", name="uq_mastery_source"
+        ),
+        CheckConstraint(
+            "area_key IN ('company_management', 'market_analysis', 'capital_markets', "
+            "'contract_management', 'people_leadership', 'real_estate', 'cartel_leadership', "
+            "'diplomacy', 'intelligence', 'risk_management', 'season_strategy')",
+            name="ck_mastery_entry_area",
+        ),
+        CheckConstraint("points > 0 AND points <= 100", name="ck_mastery_entry_points"),
+        CheckConstraint("diversity_bps BETWEEN 1000 AND 10000", name="ck_mastery_entry_diversity"),
+        Index("ix_mastery_entry_profile_created", "profile_id", "created_at"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    profile_id: Mapped[str] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), index=True
+    )
+    area_key: Mapped[str] = mapped_column(String(40), index=True)
+    decision_key: Mapped[str] = mapped_column(String(80))
+    source_type: Mapped[str] = mapped_column(String(40))
+    source_id: Mapped[str] = mapped_column(String(80))
+    base_points: Mapped[int] = mapped_column(Integer)
+    diversity_bps: Mapped[int] = mapped_column(Integer)
+    points: Mapped[int] = mapped_column(Integer)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+
+
+class MasteryProgress(Base):
+    __tablename__ = "mastery_progress"
+    __table_args__ = (
+        UniqueConstraint("profile_id", "area_key", name="uq_mastery_progress_area"),
+        CheckConstraint(
+            "area_key IN ('company_management', 'market_analysis', 'capital_markets', "
+            "'contract_management', 'people_leadership', 'real_estate', 'cartel_leadership', "
+            "'diplomacy', 'intelligence', 'risk_management', 'season_strategy')",
+            name="ck_mastery_progress_area",
+        ),
+        CheckConstraint("points >= 0", name="ck_mastery_progress_points"),
+        CheckConstraint("level BETWEEN 0 AND 10", name="ck_mastery_progress_level"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    profile_id: Mapped[str] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), index=True
+    )
+    area_key: Mapped[str] = mapped_column(String(40))
+    points: Mapped[int] = mapped_column(Integer, default=0)
+    level: Mapped[int] = mapped_column(Integer, default=0)
+    distinct_decisions_json: Mapped[list[str]] = mapped_column(JSON, default=list)
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, onupdate=utcnow
+    )
+
+
+class OutcomeReport(Base):
+    __tablename__ = "outcome_reports"
+    __table_args__ = (
+        UniqueConstraint("profile_id", "source_type", "source_id", name="uq_outcome_report_source"),
+        Index("ix_outcome_report_profile_created", "profile_id", "created_at"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    profile_id: Mapped[str] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), index=True
+    )
+    source_type: Mapped[str] = mapped_column(String(40))
+    source_id: Mapped[str] = mapped_column(String(80))
+    title_key: Mapped[str] = mapped_column(String(120))
+    controllable_factors_json: Mapped[list[str]] = mapped_column(JSON, default=list)
+    external_factors_json: Mapped[list[str]] = mapped_column(JSON, default=list)
+    worked_well_json: Mapped[list[str]] = mapped_column(JSON, default=list)
+    alternatives_json: Mapped[list[str]] = mapped_column(JSON, default=list)
+    knowledge_unlocked_json: Mapped[list[str]] = mapped_column(JSON, default=list)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+
+
+class AdaptiveHelpOffer(Base):
+    __tablename__ = "adaptive_help_offers"
+    __table_args__ = (
+        UniqueConstraint("profile_id", "context_key", name="uq_adaptive_help_context"),
+        CheckConstraint(
+            "status IN ('offered', 'accepted', 'dismissed', 'completed')",
+            name="ck_adaptive_help_status",
+        ),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    profile_id: Mapped[str] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), index=True
+    )
+    context_key: Mapped[str] = mapped_column(String(80))
+    explanation_key: Mapped[str] = mapped_column(String(120))
+    suggestion_key: Mapped[str] = mapped_column(String(120))
+    target_path: Mapped[str] = mapped_column(String(180))
+    status: Mapped[str] = mapped_column(String(16), default="offered")
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+    responded_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+
+
+class PersonalSuccessChain(Base):
+    __tablename__ = "personal_success_chains"
+    __table_args__ = (
+        UniqueConstraint("profile_id", "chain_key", name="uq_success_chain_profile"),
+        CheckConstraint("completed_steps BETWEEN 0 AND total_steps", name="ck_success_chain_steps"),
+        CheckConstraint("total_steps BETWEEN 1 AND 12", name="ck_success_chain_total"),
+        CheckConstraint("status IN ('active', 'completed')", name="ck_success_chain_status"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    profile_id: Mapped[str] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), index=True
+    )
+    chain_key: Mapped[str] = mapped_column(String(80), default="first_foundations")
+    completed_steps: Mapped[int] = mapped_column(Integer, default=0)
+    total_steps: Mapped[int] = mapped_column(Integer, default=3)
+    status: Mapped[str] = mapped_column(String(16), default="active")
+    completed_event_types_json: Mapped[list[str]] = mapped_column(JSON, default=list)
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, onupdate=utcnow
+    )
+    completed_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+
+
+class Mentorship(Base):
+    __tablename__ = "mentorships"
+    __table_args__ = (
+        UniqueConstraint("mentor_profile_id", "idempotency_key", name="uq_mentorship_key"),
+        CheckConstraint("mentor_profile_id <> mentee_profile_id", name="ck_mentorship_distinct"),
+        CheckConstraint(
+            "status IN ('proposed', 'active', 'paused', 'completed', 'declined', 'cancelled')",
+            name="ck_mentorship_status",
+        ),
+        Index("ix_mentorship_mentee_status", "mentee_profile_id", "status"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    world_id: Mapped[str] = mapped_column(ForeignKey("worlds.id", ondelete="RESTRICT"), index=True)
+    mentor_profile_id: Mapped[str] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), index=True
+    )
+    mentee_profile_id: Mapped[str] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), index=True
+    )
+    status: Mapped[str] = mapped_column(String(16), default="proposed")
+    mentor_opted_in: Mapped[bool] = mapped_column(Boolean, default=True)
+    mentee_opted_in: Mapped[bool] = mapped_column(Boolean, default=False)
+    feedback_positive: Mapped[bool | None] = mapped_column(Boolean, nullable=True)
+    idempotency_key: Mapped[str] = mapped_column(String(120))
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+    accepted_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+    completed_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+
+
+class MentoringMilestone(Base):
+    __tablename__ = "mentoring_milestones"
+    __table_args__ = (
+        UniqueConstraint("mentorship_id", "milestone_key", name="uq_mentoring_milestone"),
+        CheckConstraint(
+            "milestone_key IN ('system_understood', 'independent_decision', 'positive_feedback')",
+            name="ck_mentoring_milestone_key",
+        ),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    mentorship_id: Mapped[str] = mapped_column(
+        ForeignKey("mentorships.id", ondelete="RESTRICT"), index=True
+    )
+    verified_event_id: Mapped[str | None] = mapped_column(
+        ForeignKey("engagement_events.id", ondelete="RESTRICT"), nullable=True
+    )
+    milestone_key: Mapped[str] = mapped_column(String(40))
+    evidence_json: Mapped[dict[str, Any]] = mapped_column(JSON, default=dict)
+    achieved_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+
+
+class CartelDelegation(Base):
+    __tablename__ = "cartel_delegations"
+    __table_args__ = (
+        UniqueConstraint("grantor_membership_id", "idempotency_key", name="uq_delegation_key"),
+        CheckConstraint("expires_at > starts_at", name="ck_delegation_duration"),
+        CheckConstraint("status IN ('active', 'revoked', 'expired')", name="ck_delegation_status"),
+        Index("ix_delegation_org_status", "organization_id", "status", "expires_at"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    organization_id: Mapped[str] = mapped_column(
+        ForeignKey("organizations.id", ondelete="RESTRICT"), index=True
+    )
+    grantor_membership_id: Mapped[str] = mapped_column(
+        ForeignKey("organization_memberships.id", ondelete="RESTRICT"), index=True
+    )
+    delegate_membership_id: Mapped[str] = mapped_column(
+        ForeignKey("organization_memberships.id", ondelete="RESTRICT"), index=True
+    )
+    role_key: Mapped[str] = mapped_column(String(40))
+    permissions_json: Mapped[list[str]] = mapped_column(JSON, default=list)
+    status: Mapped[str] = mapped_column(String(16), default="active")
+    idempotency_key: Mapped[str] = mapped_column(String(120))
+    starts_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+    expires_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
+    revoked_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+
+
+class CartelMembershipPause(Base):
+    __tablename__ = "cartel_membership_pauses"
+    __table_args__ = (
+        UniqueConstraint("membership_id", "idempotency_key", name="uq_membership_pause_key"),
+        CheckConstraint("planned_until > starts_at", name="ck_membership_pause_duration"),
+        CheckConstraint(
+            "status IN ('active', 'completed', 'cancelled')", name="ck_membership_pause_status"
+        ),
+        Index("ix_membership_pause_status_until", "status", "planned_until"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    membership_id: Mapped[str] = mapped_column(
+        ForeignKey("organization_memberships.id", ondelete="RESTRICT"), index=True
+    )
+    status: Mapped[str] = mapped_column(String(16), default="active")
+    private_reason: Mapped[str | None] = mapped_column(String(240), nullable=True)
+    idempotency_key: Mapped[str] = mapped_column(String(120))
+    starts_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+    planned_until: Mapped[datetime] = mapped_column(DateTime(timezone=True))
+    resumed_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+
+
+class CartelChronicleEntry(Base):
+    __tablename__ = "cartel_chronicle_entries"
+    __table_args__ = (
+        UniqueConstraint(
+            "organization_id",
+            "source_type",
+            "source_id",
+            "entry_type",
+            name="uq_cartel_chronicle_source",
+        ),
+        Index("ix_cartel_chronicle_org_created", "organization_id", "created_at"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    organization_id: Mapped[str] = mapped_column(
+        ForeignKey("organizations.id", ondelete="RESTRICT"), index=True
+    )
+    actor_profile_id: Mapped[str | None] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), nullable=True, index=True
+    )
+    entry_type: Mapped[str] = mapped_column(String(40))
+    source_type: Mapped[str] = mapped_column(String(40))
+    source_id: Mapped[str] = mapped_column(String(80))
+    title_key: Mapped[str] = mapped_column(String(120))
+    body_key: Mapped[str] = mapped_column(String(120))
+    metadata_json: Mapped[dict[str, Any]] = mapped_column(JSON, default=dict)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+
+
+class NarrativeActor(Base):
+    __tablename__ = "narrative_actors"
+    __table_args__ = (
+        UniqueConstraint("world_id", "actor_key", name="uq_narrative_actor_world_key"),
+        CheckConstraint(
+            "actor_type IN ('entrepreneur', 'journalist', 'analyst', 'decision_maker')",
+            name="ck_narrative_actor_type",
+        ),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    world_id: Mapped[str] = mapped_column(ForeignKey("worlds.id", ondelete="RESTRICT"), index=True)
+    actor_key: Mapped[str] = mapped_column(String(80), index=True)
+    actor_type: Mapped[str] = mapped_column(String(32))
+    name_key: Mapped[str] = mapped_column(String(120))
+    description_key: Mapped[str] = mapped_column(String(120))
+    active: Mapped[bool] = mapped_column(Boolean, default=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+
+
+class PlayerActorRelationship(Base):
+    __tablename__ = "player_actor_relationships"
+    __table_args__ = (
+        UniqueConstraint("profile_id", "actor_id", name="uq_player_actor_relationship"),
+        CheckConstraint("trust BETWEEN -100 AND 100", name="ck_actor_relationship_trust"),
+        CheckConstraint("rivalry BETWEEN 0 AND 100", name="ck_actor_relationship_rivalry"),
+        CheckConstraint("reputation BETWEEN -100 AND 100", name="ck_actor_relationship_reputation"),
+        CheckConstraint(
+            "information_access BETWEEN 0 AND 100",
+            name="ck_actor_relationship_information_access",
+        ),
+        CheckConstraint("interaction_count >= 0", name="ck_actor_relationship_interactions"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    profile_id: Mapped[str] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), index=True
+    )
+    actor_id: Mapped[str] = mapped_column(
+        ForeignKey("narrative_actors.id", ondelete="RESTRICT"), index=True
+    )
+    trust: Mapped[int] = mapped_column(Integer, default=0)
+    rivalry: Mapped[int] = mapped_column(Integer, default=0)
+    reputation: Mapped[int] = mapped_column(Integer, default=0)
+    information_access: Mapped[int] = mapped_column(Integer, default=0)
+    interaction_count: Mapped[int] = mapped_column(Integer, default=0)
+    history_keys_json: Mapped[list[str]] = mapped_column(JSON, default=list)
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, onupdate=utcnow
+    )
+
+
+class NarrativeChronicleEntry(Base):
+    __tablename__ = "narrative_chronicle_entries"
+    __table_args__ = (
+        UniqueConstraint(
+            "scope_type",
+            "scope_id",
+            "source_type",
+            "source_id",
+            "entry_type",
+            name="uq_narrative_chronicle_source",
+        ),
+        CheckConstraint(
+            "scope_type IN ('company', 'world', 'profile')", name="ck_narrative_chronicle_scope"
+        ),
+        Index("ix_narrative_chronicle_scope_created", "scope_type", "scope_id", "created_at"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    world_id: Mapped[str] = mapped_column(ForeignKey("worlds.id", ondelete="RESTRICT"), index=True)
+    profile_id: Mapped[str | None] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), nullable=True, index=True
+    )
+    event_id: Mapped[str] = mapped_column(
+        ForeignKey("engagement_events.id", ondelete="RESTRICT"), index=True
+    )
+    scope_type: Mapped[str] = mapped_column(String(20))
+    scope_id: Mapped[str] = mapped_column(String(80))
+    source_type: Mapped[str] = mapped_column(String(40))
+    source_id: Mapped[str] = mapped_column(String(80))
+    entry_type: Mapped[str] = mapped_column(String(40))
+    title_key: Mapped[str] = mapped_column(String(120))
+    body_key: Mapped[str] = mapped_column(String(120))
+    cause_keys_json: Mapped[list[str]] = mapped_column(JSON, default=list)
+    actor_keys_json: Mapped[list[str]] = mapped_column(JSON, default=list)
+    impact_keys_json: Mapped[list[str]] = mapped_column(JSON, default=list)
+    open_question_keys_json: Mapped[list[str]] = mapped_column(JSON, default=list)
+    metadata_json: Mapped[dict[str, Any]] = mapped_column(JSON, default=dict)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+
+
+class EventDossier(Base):
+    __tablename__ = "event_dossiers"
+    __table_args__ = (
+        UniqueConstraint("world_event_instance_id", name="uq_event_dossier_instance"),
+        CheckConstraint("total_clues BETWEEN 1 AND 12", name="ck_event_dossier_clues"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    world_id: Mapped[str] = mapped_column(ForeignKey("worlds.id", ondelete="RESTRICT"), index=True)
+    world_event_instance_id: Mapped[str] = mapped_column(
+        ForeignKey("world_event_instances.id", ondelete="RESTRICT"), unique=True
+    )
+    title_key: Mapped[str] = mapped_column(String(120))
+    cause_key: Mapped[str] = mapped_column(String(120))
+    local_impact_key: Mapped[str] = mapped_column(String(120))
+    open_question_key: Mapped[str] = mapped_column(String(120))
+    total_clues: Mapped[int] = mapped_column(Integer, default=3)
+    archived: Mapped[bool] = mapped_column(Boolean, default=False)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+
+
+class DossierClue(Base):
+    __tablename__ = "dossier_clues"
+    __table_args__ = (
+        UniqueConstraint("dossier_id", "clue_key", name="uq_dossier_clue_key"),
+        UniqueConstraint("dossier_id", "order_index", name="uq_dossier_clue_order"),
+        CheckConstraint("order_index BETWEEN 1 AND 12", name="ck_dossier_clue_order"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    dossier_id: Mapped[str] = mapped_column(
+        ForeignKey("event_dossiers.id", ondelete="RESTRICT"), index=True
+    )
+    clue_key: Mapped[str] = mapped_column(String(120))
+    order_index: Mapped[int] = mapped_column(Integer)
+    rare: Mapped[bool] = mapped_column(Boolean, default=False)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+
+
+class PlayerDossierProgress(Base):
+    __tablename__ = "player_dossier_progress"
+    __table_args__ = (
+        UniqueConstraint("profile_id", "dossier_id", name="uq_player_dossier_progress"),
+        CheckConstraint("investigation_count >= 0", name="ck_dossier_investigations"),
+        CheckConstraint("collection_points >= 0", name="ck_dossier_collection_points"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    profile_id: Mapped[str] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), index=True
+    )
+    dossier_id: Mapped[str] = mapped_column(
+        ForeignKey("event_dossiers.id", ondelete="RESTRICT"), index=True
+    )
+    investigation_count: Mapped[int] = mapped_column(Integer, default=0)
+    discovered_clue_ids_json: Mapped[list[str]] = mapped_column(JSON, default=list)
+    collection_points: Mapped[int] = mapped_column(Integer, default=0)
+    completed_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, onupdate=utcnow
+    )
+
+
+class CollectionItem(Base):
+    __tablename__ = "collection_items"
+    __table_args__ = (
+        UniqueConstraint("item_key", name="uq_collection_item_key"),
+        CheckConstraint(
+            "item_type IN ('title', 'emblem', 'hq_cosmetic', 'chronicle', 'discovery')",
+            name="ck_collection_item_type",
+        ),
+        CheckConstraint("guarantee_after >= 0", name="ck_collection_item_guarantee"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    item_key: Mapped[str] = mapped_column(String(80), index=True)
+    item_type: Mapped[str] = mapped_column(String(24), index=True)
+    title_key: Mapped[str] = mapped_column(String(120))
+    description_key: Mapped[str] = mapped_column(String(120))
+    rarity: Mapped[str] = mapped_column(String(20), default="common")
+    guarantee_after: Mapped[int] = mapped_column(Integer, default=0)
+    active: Mapped[bool] = mapped_column(Boolean, default=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+
+
+class PlayerCollection(Base):
+    __tablename__ = "player_collections"
+    __table_args__ = (
+        UniqueConstraint("profile_id", "item_id", name="uq_player_collection_item"),
+        CheckConstraint("duplicate_points >= 0", name="ck_player_collection_duplicates"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    profile_id: Mapped[str] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), index=True
+    )
+    item_id: Mapped[str] = mapped_column(
+        ForeignKey("collection_items.id", ondelete="RESTRICT"), index=True
+    )
+    source_type: Mapped[str] = mapped_column(String(40))
+    source_id: Mapped[str] = mapped_column(String(80))
+    duplicate_points: Mapped[int] = mapped_column(Integer, default=0)
+    unlocked_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+
+
+class PlayerIdentity(Base):
+    __tablename__ = "player_identities"
+    __table_args__ = (UniqueConstraint("profile_id", name="uq_player_identity_profile"),)
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    profile_id: Mapped[str] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), index=True
+    )
+    active_title_item_id: Mapped[str | None] = mapped_column(
+        ForeignKey("collection_items.id", ondelete="RESTRICT"), nullable=True
+    )
+    active_emblem_item_id: Mapped[str | None] = mapped_column(
+        ForeignKey("collection_items.id", ondelete="RESTRICT"), nullable=True
+    )
+    active_hq_cosmetic_item_id: Mapped[str | None] = mapped_column(
+        ForeignKey("collection_items.id", ondelete="RESTRICT"), nullable=True
+    )
+    profile_card_public: Mapped[bool] = mapped_column(Boolean, default=True)
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, onupdate=utcnow
+    )
+
+
+class LegacyRecord(Base):
+    __tablename__ = "legacy_records"
+    __table_args__ = (
+        UniqueConstraint("profile_id", "record_key", "source_id", name="uq_legacy_record_source"),
+        Index("ix_legacy_record_profile_created", "profile_id", "created_at"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    profile_id: Mapped[str] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), index=True
+    )
+    record_key: Mapped[str] = mapped_column(String(80))
+    source_type: Mapped[str] = mapped_column(String(40))
+    source_id: Mapped[str] = mapped_column(String(80))
+    title_key: Mapped[str] = mapped_column(String(120))
+    metadata_json: Mapped[dict[str, Any]] = mapped_column(JSON, default=dict)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+
+
+class PlayerRankingBest(Base):
+    __tablename__ = "player_ranking_bests"
+    __table_args__ = (
+        UniqueConstraint("profile_id", "category", name="uq_player_ranking_best"),
+        CheckConstraint("best_score >= 0", name="ck_player_ranking_best_score"),
+        CheckConstraint(
+            "category IN ('company_value', 'sustainable_profit', 'innovation', "
+            "'contract_reliability', 'portfolio_return', 'district_development', "
+            "'cartel_influence', 'intelligence_success', 'diplomatic_stability', "
+            "'comeback_performance', 'mentoring', 'season_goals')",
+            name="ck_player_ranking_best_category",
+        ),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    profile_id: Mapped[str] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), index=True
+    )
+    category: Mapped[str] = mapped_column(String(40), index=True)
+    best_score: Mapped[int] = mapped_column(BigInteger, default=0)
+    achieved_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, onupdate=utcnow
+    )
+
+
+class PlayerSeasonGoal(Base):
+    __tablename__ = "player_season_goals"
+    __table_args__ = (
+        UniqueConstraint("profile_id", "season_id", "goal_key", name="uq_player_season_goal"),
+        CheckConstraint(
+            "goal_key IN ('economic_resilience', 'social_impact', 'world_exploration', "
+            "'intelligence_depth', 'strategic_variety')",
+            name="ck_player_season_goal_key",
+        ),
+        CheckConstraint(
+            "status IN ('offered', 'active', 'completed', 'archived')",
+            name="ck_player_season_goal_status",
+        ),
+        CheckConstraint(
+            "target_value > 0 AND progress_value BETWEEN 0 AND target_value",
+            name="ck_player_season_goal_progress",
+        ),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    profile_id: Mapped[str] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), index=True
+    )
+    season_id: Mapped[str] = mapped_column(
+        ForeignKey("seasons.id", ondelete="RESTRICT"), index=True
+    )
+    goal_key: Mapped[str] = mapped_column(String(40))
+    title_key: Mapped[str] = mapped_column(String(120))
+    description_key: Mapped[str] = mapped_column(String(120))
+    event_types_json: Mapped[list[str]] = mapped_column(JSON, default=list)
+    target_value: Mapped[int] = mapped_column(Integer)
+    progress_value: Mapped[int] = mapped_column(Integer, default=0)
+    status: Mapped[str] = mapped_column(String(16), default="offered")
+    selected_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+    completed_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+
+
+class ReturnContract(Base):
+    __tablename__ = "return_contracts"
+    __table_args__ = (
+        UniqueConstraint(
+            "profile_id", "contract_key", "offered_at", name="uq_return_contract_offer"
+        ),
+        CheckConstraint(
+            "contract_key IN ('stabilize_company', 'review_world', 'reconnect_social')",
+            name="ck_return_contract_key",
+        ),
+        CheckConstraint(
+            "status IN ('offered', 'active', 'completed', 'declined')",
+            name="ck_return_contract_status",
+        ),
+        CheckConstraint(
+            "target_value > 0 AND progress_value BETWEEN 0 AND target_value",
+            name="ck_return_contract_progress",
+        ),
+        Index("ix_return_contract_profile_status", "profile_id", "status", "offered_at"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
+    profile_id: Mapped[str] = mapped_column(
+        ForeignKey("player_profiles.id", ondelete="RESTRICT"), index=True
+    )
+    contract_key: Mapped[str] = mapped_column(String(40))
+    title_key: Mapped[str] = mapped_column(String(120))
+    description_key: Mapped[str] = mapped_column(String(120))
+    event_type: Mapped[str] = mapped_column(String(64))
+    target_value: Mapped[int] = mapped_column(Integer, default=1)
+    progress_value: Mapped[int] = mapped_column(Integer, default=0)
+    status: Mapped[str] = mapped_column(String(16), default="offered")
+    absence_days: Mapped[int] = mapped_column(Integer)
+    offered_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+    selected_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+    completed_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+
+
 class Notification(Base):
     __tablename__ = "notifications"
     __table_args__ = (
         Index("ix_notification_user_read_created", "user_id", "read_at", "created_at"),
+        CheckConstraint(
+            "category IN ('critical', 'strategic', 'social', 'summary')",
+            name="ck_notification_category",
+        ),
     )
 
     id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid_str)
     user_id: Mapped[str] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
     event_type: Mapped[str] = mapped_column(String(48))
+    category: Mapped[str] = mapped_column(String(16), default="strategic", index=True)
     title: Mapped[str] = mapped_column(String(140))
     body: Mapped[str] = mapped_column(String(500))
     metadata_json: Mapped[dict[str, Any]] = mapped_column(JSON, default=dict)
@@ -4046,6 +5160,7 @@ def _reject_notification_content_change(_: object, __: object, target: Notificat
     immutable_fields = (
         "user_id",
         "event_type",
+        "category",
         "title",
         "body",
         "metadata_json",
@@ -4053,6 +5168,38 @@ def _reject_notification_content_change(_: object, __: object, target: Notificat
     )
     if any(state.attrs[field].history.has_changes() for field in immutable_fields):
         raise ValueError("Notification content is immutable")
+
+
+def _reject_engagement_event_content_change(_: object, __: object, target: EngagementEvent) -> None:
+    state = inspect(target)
+    immutable_fields = (
+        "world_id",
+        "profile_id",
+        "event_type",
+        "source_type",
+        "source_id",
+        "idempotency_key",
+        "payload_json",
+        "occurred_at",
+    )
+    if any(state.attrs[field].history.has_changes() for field in immutable_fields):
+        raise ValueError("EngagementEvent content is immutable")
+
+
+def _reject_return_briefing_content_change(_: object, __: object, target: ReturnBriefing) -> None:
+    state = inspect(target)
+    immutable_fields = (
+        "profile_id",
+        "since_at",
+        "world_changes_json",
+        "company_changes_json",
+        "relevant_decisions_json",
+        "available_content_json",
+        "entry_points_json",
+        "generated_at",
+    )
+    if any(state.attrs[field].history.has_changes() for field in immutable_fields):
+        raise ValueError("ReturnBriefing content is immutable")
 
 
 for immutable_model in (
@@ -4088,6 +5235,18 @@ for immutable_model in (
     PropertyTransfer,
     PropertyLeasePayment,
     PropertyImprovement,
+    GoalProgress,
+    GoalReward,
+    SessionSummary,
+    EngagementGuardrailEvaluation,
+    EngagementMetricDaily,
+    DoctrineSelection,
+    MasteryEntry,
+    OutcomeReport,
+    MentoringMilestone,
+    CartelChronicleEntry,
+    NarrativeChronicleEntry,
+    LegacyRecord,
     RealtimeEvent,
     MarketTrade,
     AuditLog,
@@ -4155,5 +5314,11 @@ event.listen(RealEstateProperty, "before_delete", _reject_immutable_write)
 event.listen(PropertyLease, "before_update", _reject_property_lease_terms_change)
 event.listen(PropertyLease, "before_delete", _reject_immutable_write)
 event.listen(RealtimeEvent, "before_insert", _validate_realtime_event)
+event.listen(EngagementEvent, "before_update", _reject_engagement_event_content_change)
+event.listen(EngagementEvent, "before_delete", _reject_immutable_write)
+event.listen(GoalTemplate, "before_update", _reject_immutable_write)
+event.listen(GoalTemplate, "before_delete", _reject_immutable_write)
+event.listen(ReturnBriefing, "before_update", _reject_return_briefing_content_change)
+event.listen(ReturnBriefing, "before_delete", _reject_immutable_write)
 event.listen(Notification, "before_update", _reject_notification_content_change)
 event.listen(Notification, "before_delete", _reject_immutable_write)

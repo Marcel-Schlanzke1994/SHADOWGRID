@@ -5,12 +5,13 @@
   migrations, release invariants and backup scripts. Runtime coverage must remain at least
   65%.
 - Web: Vitest covers reusable accessible UI, client reconciliation and locale formatting.
-  The 58-scenario Playwright matrix covers Chromium desktop and Pixel 7 layouts, real
+  The Playwright matrix covers Chromium desktop and Pixel 7 layouts, real
   login/navigation, all roadmap verticals, confirmation/error states, zoom, RTL and Axe.
   Two workers share one local API/Vite pair and assertions allow 15 seconds for a loaded
-  state on constrained release hosts.
+  state on constrained release hosts. A separate production-preview test rejects persisted
+  internal and pseudo locales from the built application.
 - Mobile: Jest enforces high-contrast tokens and 44-point controls with an 80% threshold;
-  strict typecheck, lint and the 15-route Expo web export prove the package after dependency
+  strict typecheck, lint and the 19-route Expo web export prove the package after dependency
   changes.
 - Load: `tests/load/test_release_scale.py` creates 100 players, 500 companies and 10,000
   open exchange orders in a real SQLAlchemy database. It invokes the authoritative economy
@@ -28,6 +29,11 @@
   entry must be approved and have source, production files, license metadata and, for real
   screenshots, functioning-application provenance. Pending, review-required, rejected or
   failed entries stop release.
+- Localization: `pnpm i18n:validate` checks all 36 packages, ICU syntax and variables,
+  context/glossary parity, BCP 47/RTL metadata and hardcoded visible JSX. The separate
+  `pnpm i18n:release` gate requires real independent approvals and 36-locale game, e-mail,
+  store, support, legal, screenshot and accessibility evidence. `pnpm i18n:screenshots`
+  generates the 216-profile capture matrix only after catalogue/accessibility approval.
 - Final evidence: after committing the reviewed candidate, `pnpm release:final-run` requires
   a clean working tree, uses a new isolated SQLite database, executes every Phase 13 gate and
   writes command, exit-code, tool-version, log-hash, build-size, asset, balance and recovery

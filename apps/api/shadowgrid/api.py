@@ -2380,15 +2380,19 @@ def notifications(
     db: Db,
     user: CurrentUser,
     unread_only: bool = False,
+    category: Annotated[str | None, Query(pattern=r"^(critical|strategic|social|summary)$")] = None,
     limit: Annotated[int, Query(ge=1, le=100)] = 50,
 ) -> list[dict[str, Any]]:
     statement = select(Notification).where(Notification.user_id == user.id)
     if unread_only:
         statement = statement.where(Notification.read_at.is_(None))
+    if category is not None:
+        statement = statement.where(Notification.category == category)
     return [
         {
             "id": item.id,
             "event_type": item.event_type,
+            "category": item.category,
             "title": item.title,
             "body": item.body,
             "metadata_json": item.metadata_json,

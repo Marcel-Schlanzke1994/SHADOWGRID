@@ -1,8 +1,10 @@
 from unittest.mock import patch
 
+import pytest
 from pydantic import SecretStr
 from shadowgrid.config import get_settings
 from shadowgrid.database import SessionLocal
+from shadowgrid.localization import UnsupportedLocaleError
 from shadowgrid.mailer import account_email_copy, deliver_email, queue_email
 
 
@@ -27,6 +29,11 @@ def test_account_email_copy_is_complete_in_german_and_english() -> None:
     assert german_reset_subject == "Setze dein SHADOWGRID-Passwort zurück"
     assert "Wenn du dies nicht angefordert hast" in german_reset_body
     assert reset_url in english_reset_body and reset_url in german_reset_body
+
+
+def test_account_email_never_falls_back_to_an_unapproved_locale() -> None:
+    with pytest.raises(UnsupportedLocaleError):
+        account_email_copy("verify_email", "es", "https://example.invalid/verify")
 
 
 def test_deliver_email_uses_starttls_and_credentials() -> None:

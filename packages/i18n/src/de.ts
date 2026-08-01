@@ -1,4 +1,5 @@
 import type { MessageKey } from "./en";
+import { deValueLabels } from "./value-labels";
 
 export const de: Record<MessageKey, string> = {
   appName: "SHADOWGRID",
@@ -33,6 +34,12 @@ export const de: Record<MessageKey, string> = {
   authCheckEmail: "Prüfe Mailpit auf den Verifizierungslink.",
   forgotPassword: "Passwort vergessen",
   resetPassword: "Passwort zurücksetzen",
+  emailVerifySubject: "Bestätige dein SHADOWGRID-Konto",
+  emailVerifyBody:
+    "Willkommen bei SHADOWGRID. Bestätige dein Konto:\n{link}\n\nDieses fiktive Spiel fragt nie nach realen operativen Informationen.",
+  emailResetSubject: "Setze dein SHADOWGRID-Passwort zurück",
+  emailResetBody:
+    "Setze dein Passwort zurück:\n{link}\n\nWenn du dies nicht angefordert hast, ignoriere diese Nachricht.",
   verifyEmail: "E-Mail bestätigen",
   landingTitle: "Eine Stadt ist ein System. Finde heraus, wo es nachgibt.",
   landingBody:
@@ -41,6 +48,7 @@ export const de: Record<MessageKey, string> = {
     "Alle Unternehmen, Gruppen und strategischen Operationen sind fiktiv und abstrahiert.",
   playNow: "Lokal spielen",
   navCommand: "Kommando",
+  navEngagement: "Engagement",
   navCity: "Stadt",
   navGermany: "Deutschland",
   navNetwork: "Netzwerk",
@@ -89,6 +97,7 @@ export const de: Record<MessageKey, string> = {
   intelExpires: "Läuft ab",
   intelOfferPrice: "Preis in Cent",
   intelOfferHours: "Angebotsdauer in Stunden",
+  hoursValue: "{count, plural, one {# Stunde} other {# Stunden}}",
   intelSell: "Bericht anbieten",
   intelOfferSuccess: "Berichtsangebot erstellt.",
   intelMarket: "Berichtsmarkt",
@@ -194,6 +203,7 @@ export const de: Record<MessageKey, string> = {
   resource: "Ressource",
   amount: "Menge",
   unitPrice: "Stückpreis",
+  perUnitValue: "{value} je Einheit",
   logistics: "Logistik",
   personnel: "Personal",
   worldsTitle: "Startstadt wählen",
@@ -386,6 +396,7 @@ export const de: Record<MessageKey, string> = {
   companyAccount: "Geschäftskonto",
   companyValue: "Unternehmenswert",
   companyProfit: "Gewinn",
+  economyChartPoint: "{date}: Umsatz {revenue}, Kosten {cost}, Gewinn {profit}",
   companyInvestments: "Investitionen",
   companyHistory: "Kennzahlenverlauf",
   economyStatus: "Letzter Wirtschaftstick",
@@ -410,6 +421,7 @@ export const de: Record<MessageKey, string> = {
   quality: "Qualität",
   innovation: "Innovation",
   version: "Version",
+  versionValue: "Version {version}",
   revenue: "Umsatz",
   cost: "Betriebskosten",
   compliance: "Compliance",
@@ -523,6 +535,9 @@ export const de: Record<MessageKey, string> = {
   release: "Entlassen",
   employer: "Arbeitgeberunternehmen",
   energy: "Energie",
+  specialistEnergyValue: "Energie {value}",
+  specialistCandidateSummary:
+    "Stufe {level} · Loyalität {loyalty} · Energie {energy}",
   skills: "Fähigkeiten",
   companyEffects: "Transparente Unternehmenseffekte",
   payrollHistory: "Gehaltsverlauf",
@@ -658,6 +673,7 @@ export const de: Record<MessageKey, string> = {
   seasonRankingDescription:
     "Verfolge die aktuelle Phase, gemeinsame Ziele, Kategorien und dauerhafte Champions.",
   seasonLabel: "Saison {number}",
+  seasonNamedLabel: "Saison {number} · {name}",
   seasonPhase: "Phase",
   seasonRemainingTime: "Verbleibende Zeit",
   seasonMinutesRemaining: "{count} Minuten",
@@ -843,10 +859,447 @@ export const de: Record<MessageKey, string> = {
   propertyUnassigned: "Unternehmensnutzung beendet.",
   propertyHeadquartersUpgraded:
     "Hauptsitz über das Unternehmens-Ledger ausgebaut.",
+  engagementEyebrow: "Dein Tempo, deine Prioritäten",
+  engagementTitle: "Engagement-Zentrale",
+  engagementDescription:
+    "Wähle sinnvolle Ziele, bewahre offene Pläne und bestimme, wie SHADOWGRID dich kontaktiert.",
+  engagementGoalsTitle: "Wöchentliche Ziele",
+  engagementGoalsChoice:
+    "{selected} von {maximum} freiwilligen Zielen gewählt.",
+  engagementGoalEstablishCompanyTitle: "Unternehmen gründen",
+  engagementGoalEstablishCompanyDescription:
+    "Gründe dein erstes Unternehmen und eröffne einen neuen strategischen Weg.",
+  engagementGoalBuildStableGrowthTitle: "Stabiles Wachstum aufbauen",
+  engagementGoalBuildStableGrowthDescription:
+    "Führe ein Unternehmen zur ersten profitablen Wirtschaftsperiode.",
+  engagementGoalDevelopSpecialistsTitle: "Spezialisten entwickeln",
+  engagementGoalDevelopSpecialistsDescription:
+    "Weise Spezialisten Rollen zu, die deine Strategie unterstützen.",
+  engagementGoalSupportCartelProjectTitle: "Kartellprojekt unterstützen",
+  engagementGoalSupportCartelProjectDescription:
+    "Trage ohne versteckten Druck oder Serienzwang zu einem Gemeinschaftsprojekt bei.",
+  engagementGoalCompareIntelligenceTitle: "Informationen vergleichen",
+  engagementGoalCompareIntelligenceDescription:
+    "Beschaffe Berichte, bevor du eine folgenreiche Entscheidung triffst.",
+  engagementGoalInvestigateWorldEventTitle: "Weltereignis untersuchen",
+  engagementGoalInvestigateWorldEventDescription:
+    "Wähle eine ausdrückliche Reaktion auf ein aktives Weltereignis.",
+  engagementGoalCompleteIpoTitle: "Börsengang abschließen",
+  engagementGoalCompleteIpoDescription:
+    "Führe ein geeignetes Unternehmen durch den transparenten Börsengang.",
+  engagementGoalShapeSeasonLegacyTitle: "Saisonvermächtnis prägen",
+  engagementGoalShapeSeasonLegacyDescription:
+    "Schließe eine Saison ab und bewahre ihre strategische Geschichte.",
+  engagementUnitDecision: "Entscheidungen",
+  engagementCategoryEconomic: "Wirtschaft",
+  engagementCategorySocial: "Soziales",
+  engagementCategoryExploration: "Erkundung",
+  engagementCategoryRisk: "Risiko",
+  engagementCategoryLongTerm: "Langfristig",
+  engagementCategorySeason: "Saison",
+  engagementGoalProgress: "{current} von {target}",
+  engagementCatchUpUntil: "Nachholzeit bis {date}.",
+  engagementChooseGoal: "Ziel wählen",
+  engagementReplacementGoal: "Ersatzziel",
+  engagementSwapGoal: "Ziel tauschen",
+  engagementOpenPlansTitle: "Offene Pläne",
+  engagementAddPlanTitle: "Plan hinzufügen",
+  engagementPlanCategory: "Chancenklasse",
+  engagementPlanTitle: "Plantitel",
+  engagementNextStep: "Nächster Schritt",
+  engagementTargetPath: "Zielpfad",
+  engagementPriority: "Priorität von 0 bis 100",
+  engagementAddPlan: "Offenen Plan speichern",
+  engagementCompletePlan: "Abschließen",
+  engagementArchivePlan: "Archivieren",
+  engagementReturnTitle: "Rückkehr-Briefing",
+  engagementReturnDescription:
+    "Fordere bei deiner Rückkehr eine kompakte, servergeprüfte Übersicht an. Sie startet niemals automatisch eine weitere Mission.",
+  engagementCreateBriefing: "Briefing erstellen",
+  engagementChangesSince: "Änderungen seit {date}",
+  engagementWorldChanges: "{count} Weltänderungen",
+  engagementCompanyChanges: "{count} Unternehmensänderungen",
+  engagementAvailableContent: "{count} verfügbare Entdeckungen",
+  engagementEntryPoints: "Optionale Einstiegspunkte",
+  engagementBriefingUnderstood: "Briefing verstanden",
+  engagementNotificationSettings: "Benachrichtigungen steuern",
+  engagementNotificationCritical: "Kritisch",
+  engagementNotificationStrategic: "Strategisch",
+  engagementNotificationSocial: "Sozial",
+  engagementNotificationSummary: "Zusammenfassungen",
+  engagementLiveUpdates: "Live-Aktualisierungen erlauben",
+  engagementDigest: "Zusammenfassungsrhythmus",
+  engagementDigestImmediate: "Sofort",
+  engagementDigestDaily: "Täglich",
+  engagementDigestWeekly: "Wöchentlich",
+  engagementDigestOff: "Aus",
+  engagementQuietStart: "Ruhezeit beginnt (Minute des Tages)",
+  engagementQuietEnd: "Ruhezeit endet (Minute des Tages)",
+  engagementTimezone: "IANA-Zeitzone",
+  engagementCriticalAlwaysOn:
+    "Kritische Konto- und Sicherheitshinweise bleiben aktiviert.",
+  engagementExperienceSettings: "Darstellung steuern",
+  engagementAdaptiveHelp: "Adaptive Hilfe anbieten",
+  engagementSessionSummaries: "Sitzungszusammenfassungen anbieten",
+  engagementRankingsVisible: "Mein Profil in Ranglisten zeigen",
+  engagementInformationDensity: "Informationsdichte",
+  engagementDensityCompact: "Kompakt",
+  engagementDensityStandard: "Standard",
+  engagementDensityDetailed: "Detailliert",
+  engagementOpportunityUrgent: "Dringend",
+  engagementOpportunityStrategic: "Strategisch",
+  engagementOpportunityDiscoverable: "Entdeckbar",
+  engagementCommandOpportunities: "Aktuelle Chancen",
+  engagementManagePlans: "Ziele und Pläne verwalten",
+  engagementSessionTitle: "Sitzungsgrenze",
+  engagementSessionDescription:
+    "Beende die aktuelle Sitzung, sobald du einen natürlichen Haltepunkt erreichst.",
+  engagementSessionStarted: "Sitzung begonnen am {date}",
+  engagementFinishSession: "Beenden und zusammenfassen",
+  engagementNaturalBreak: "Ein natürlicher Haltepunkt ist erreicht.",
+  engagementSessionDuration: "Etwa {minutes} Minuten",
+  engagementSessionDecisions: "{count} erfasste Entscheidungen",
+  engagementSessionChanges: "{count} bestätigte Änderungen",
+  engagementNoAutomaticMission:
+    "Nichts Weiteres startet automatisch. Fahre nur fort, wenn du es möchtest.",
+  engagementGoalStableGrowthTitle: "Stabiles Wachstum aufbauen",
+  engagementGoalStableGrowthDescription:
+    "Führe ein Unternehmen durch zwei profitable Wirtschaftsperioden.",
+  engagementGoalSpecialistsTitle: "Spezialisten entwickeln",
+  engagementGoalSpecialistsDescription:
+    "Weise Spezialisten unterschiedlichen strategischen Verantwortungen zu.",
+  engagementGoalCartelProjectTitle: "Kartellprojekt unterstützen",
+  engagementGoalCartelProjectDescription:
+    "Trage freiwillig und ohne Anwesenheitspflicht zum gemeinsamen Fortschritt bei.",
+  engagementGoalIntelligenceTitle: "Informationen vergleichen",
+  engagementGoalIntelligenceDescription:
+    "Beschaffe mehrere Berichte vor einer fundierten Entscheidung.",
+  engagementGoalWorldEventTitle: "Weltereignis untersuchen",
+  engagementGoalWorldEventDescription:
+    "Wähle ausdrückliche Reaktionen auf unterschiedliche Aspekte eines Weltereignisses.",
+  engagementGoalIpoTitle: "Börsengang abschließen",
+  engagementGoalIpoDescription:
+    "Führe ein geeignetes Unternehmen durch den transparenten Börsengang.",
+  engagementGoalSeasonLegacyTitle: "Saisonvermächtnis prägen",
+  engagementGoalSeasonLegacyDescription:
+    "Schließe eine Saison ab und bewahre ihre strategische Geschichte.",
+  engagementDoctrineTitle: "Strategische Doktrin",
+  engagementDoctrineDescription:
+    "Wähle eine reversible Identität, die Empfehlungen und Darstellung verändert, niemals wirtschaftliche Ergebnisse.",
+  engagementDoctrineNoEconomicBonus:
+    "Kein versteckter Bonus, Matchmaking-Vorteil oder exklusiver Pflichtweg.",
+  engagementDoctrineChoose: "Doktrin wählen",
+  engagementDoctrineSelected: "Aktuelle Doktrin",
+  engagementDoctrineIndustrialCaptain: "Industriekapitän",
+  engagementDoctrineIndustrialCaptainDescription:
+    "Fokussiert Empfehlungen auf Produktion, Kapazität und beständige Abläufe.",
+  engagementDoctrineFinancialArchitect: "Finanzarchitekt",
+  engagementDoctrineFinancialArchitectDescription:
+    "Priorisiert transparente Lernwege für Kapitalmarkt und Beteiligungen.",
+  engagementDoctrineInnovator: "Innovator",
+  engagementDoctrineInnovatorDescription:
+    "Hebt Forschung, Spezialisten, Qualität und unterschiedliche Lösungen hervor.",
+  engagementDoctrineRealEstateStrategist: "Immobilienstratege",
+  engagementDoctrineRealEstateStrategistDescription:
+    "Betont Standorte, Hauptquartiere und Marktvergleiche.",
+  engagementDoctrineNetworker: "Netzwerker",
+  engagementDoctrineNetworkerDescription:
+    "Zeigt Kartell-, Diplomatie- und Kooperationschancen.",
+  engagementDoctrineInformationStrategist: "Informationsstratege",
+  engagementDoctrineInformationStrategistDescription:
+    "Priorisiert Informationen, Unsicherheit und Gegenspiel.",
+  engagementDoctrineOpportunist: "Opportunist",
+  engagementDoctrineOpportunistDescription:
+    "Hebt flexible, ausdrückliche Reaktionen auf Weltveränderungen hervor.",
+  engagementMasteryTitle: "Mehrdimensionale Meisterschaft",
+  engagementMasteryCompanyManagement: "Unternehmensführung",
+  engagementMasteryMarketAnalysis: "Marktanalyse",
+  engagementMasteryCapitalMarkets: "Kapitalmarkt",
+  engagementMasteryContractManagement: "Vertragsmanagement",
+  engagementMasteryPeopleLeadership: "Personalführung",
+  engagementMasteryRealEstate: "Immobilien",
+  engagementMasteryCartelLeadership: "Kartellführung",
+  engagementMasteryDiplomacy: "Diplomatie",
+  engagementMasteryIntelligence: "Intelligence",
+  engagementMasteryRiskManagement: "Risikomanagement",
+  engagementMasterySeasonStrategy: "Saisonstrategie",
+  engagementMasteryLevel: "Stufe {level} · {points} Punkte",
+  engagementMasteryDiversity:
+    "{count} unterschiedliche bestätigte Entscheidungen",
+  engagementSuccessChainTitle: "Erste Grundlagen",
+  engagementSuccessChainDescription:
+    "Ein dauerhafter erster Erfolgsweg: Unternehmen gründen, Gewinn erreichen und Spezialist zuweisen.",
+  engagementSuccessChainProgress: "{current} von {total} Grundlagen",
+  engagementAdaptiveHelpTitle: "Optionale Lernunterstützung",
+  engagementHelpAccept: "Hilfe verwenden",
+  engagementHelpDismiss: "Ausblenden",
+  engagementHelpTutorialExplanation:
+    "Das Grundlagen-Tutorial ist weiterhin verfügbar.",
+  engagementHelpTutorialSuggestion:
+    "Fahre nur fort, wenn du eine geführte Erklärung des nächsten Systems möchtest.",
+  engagementHelpFirstDecisionExplanation:
+    "Noch wurde keine bestätigte strategische Entscheidung erfasst.",
+  engagementHelpFirstDecisionSuggestion:
+    "Wähle ein freiwilliges Ziel und prüfe seine transparente Fortschrittsbedingung.",
+  engagementHelpMarketExplanation:
+    "Marktanalyse ist ein möglicher nächster Lernbereich.",
+  engagementHelpMarketSuggestion:
+    "Vergleiche sichtbare Marktdaten; Ergebnisse bleiben für alle Spieler gleich.",
+  engagementOutcomeReportsTitle: "Erklärbare Ergebnisberichte",
+  engagementOutcomeControllable: "Was du beeinflussen konntest",
+  engagementOutcomeExternal: "Externe Faktoren",
+  engagementOutcomeControllableChoice:
+    "Deine ausdrückliche strategische Wahl beeinflusste das Ergebnis.",
+  engagementOutcomeControllablePreparation:
+    "Vorbereitung und verfügbare Informationen lagen in deiner Hand.",
+  engagementOutcomeExternalWorld:
+    "Der autoritative Weltzustand galt für alle Spieler gleichermaßen.",
+  engagementOutcomeExternalMarket:
+    "Marktbedingungen wurden nicht heimlich personalisiert.",
+  engagementOutcomeWorkedDiversification:
+    "Eine andere Entscheidung erweiterte deine nachgewiesene Meisterschaft.",
+  engagementOutcomeAlternativeReview:
+    "Prüfe einen weiteren sichtbaren Weg, bevor du dieselbe Aktion wiederholst.",
+  engagementOutcomeCompanyFoundedTitle: "Unternehmen gegründet",
+  engagementOutcomeFirstProfitTitle: "Erste profitable Periode",
+  engagementOutcomeSpecialistAssignedTitle: "Spezialist zugewiesen",
+  engagementOutcomeIpoCompletedTitle: "Börsengang abgeschlossen",
+  engagementOutcomeCartelContributionTitle: "Beitrag zum Kartellprojekt",
+  engagementOutcomeIntelligenceTitle: "Information beschafft",
+  engagementOutcomeWorldEventTitle: "Reaktion auf Weltereignis",
+  engagementOutcomeSeasonClosedTitle: "Saison abgeschlossen",
+  engagementKnowledgeCompanyManagement: "Erkenntnis zur Unternehmensführung",
+  engagementKnowledgeMarketAnalysis: "Erkenntnis zur Marktanalyse",
+  engagementKnowledgeCapitalMarkets: "Erkenntnis zum Kapitalmarkt",
+  engagementKnowledgeContractManagement: "Erkenntnis zum Vertragsmanagement",
+  engagementKnowledgePeopleLeadership: "Erkenntnis zur Personalführung",
+  engagementKnowledgeRealEstate: "Erkenntnis zu Immobilien",
+  engagementKnowledgeCartelLeadership: "Erkenntnis zur Kartellführung",
+  engagementKnowledgeDiplomacy: "Erkenntnis zur Diplomatie",
+  engagementKnowledgeIntelligence: "Erkenntnis zu Intelligence",
+  engagementKnowledgeRiskManagement: "Erkenntnis zum Risikomanagement",
+  engagementKnowledgeSeasonStrategy: "Erkenntnis zur Saisonstrategie",
+  engagementMentoringTitle: "Freiwilliges Mentoring",
+  engagementMentoringDescription:
+    "Mentoring belohnt keine Rekrutierung. Anerkennung folgt erst auf Verständnis, eigenständige Entscheidungen und freiwilliges positives Feedback.",
+  engagementMenteeProfile: "Profil-ID des Mentees",
+  engagementOfferMentoring: "Mentoring anbieten",
+  engagementYourMentor: "Dein Mentor",
+  engagementYourMentee: "Dein Mentee",
+  engagementMentoringMilestones: "{count} von 3 bestätigten Lernmeilensteinen",
+  engagementMentoringAccept: "Freiwillig annehmen",
+  engagementMentoringDecline: "Ablehnen",
+  engagementMentoringPositiveFeedback:
+    "Positives Feedback geben und Fortschritt prüfen",
+  engagementAsyncCollaborationTitle: "Asynchrone Zusammenarbeit",
+  engagementAsyncCollaborationDescription:
+    "Delegiere begrenzte Werkzeuge oder nimm eine private Pause ohne Anwesenheitspflicht.",
+  engagementDelegationsTitle: "Temporäre Vertretungen",
+  engagementDelegateMember: "Vertretendes Mitglied",
+  engagementDelegationRole: "Begrenzte Rolle",
+  engagementDelegationDays: "Dauer in Tagen",
+  engagementCreateDelegation: "Vertretung anlegen",
+  engagementDelegationUntil: "Verfügbar bis {date}",
+  engagementDelegationSuccess: "Temporäre Vertretung angelegt.",
+  engagementSocialPauseTitle: "Private soziale Pause",
+  engagementSocialPauseDescription:
+    "Deine Mitgliedschaft bleibt aktiv und es erscheint keine öffentliche Inaktivitätsmarkierung.",
+  engagementPauseDays: "Pausendauer in Tagen",
+  engagementPausePrivateReason: "Private Notiz",
+  engagementPausePrivateHint: "Nur in deinem privaten Pauseneintrag sichtbar.",
+  engagementStartPause: "Private Pause beginnen",
+  engagementPauseUntil: "Geplant bis {date}",
+  engagementResumeNow: "Jetzt zurückkehren",
+  engagementPauseSuccess: "Private Mitgliedschaftspause begonnen.",
+  engagementResumeSuccess: "Mitgliedschaftspause abgeschlossen.",
+  engagementCartelChronicleTitle: "Gemeinsame Kartellchronik",
+  engagementChronicleDelegationTitle: "Verantwortung delegiert",
+  engagementChronicleDelegationBody:
+    "Eine begrenzte, temporäre Kooperationsrolle wurde angelegt.",
+  engagementChronicleRoleTitle: "Kartellrolle geändert",
+  engagementChronicleRoleBody:
+    "Das Kartell hat eine sichtbare Verantwortung zugewiesen.",
+  engagementChronicleProjectStartedTitle: "Gemeinschaftsprojekt begonnen",
+  engagementChronicleProjectStartedBody:
+    "Das Kartell hat ein asynchrones Projekt eröffnet.",
+  engagementChronicleContributionTitle: "Projekt vorangebracht",
+  engagementChronicleContributionBody:
+    "Ein freiwilliger Beitrag brachte das Gemeinschaftsprojekt voran.",
+  engagementChronicleProjectCompletedTitle:
+    "Gemeinschaftsprojekt abgeschlossen",
+  engagementChronicleProjectCompletedBody:
+    "Das Kartell hat ein gemeinsames Ziel erreicht.",
+  navLegacy: "Chronik",
+  engagementLegacyEyebrow: "Deine Geschichte bleibt",
+  engagementLegacyTitle: "Chronik und Vermächtnis",
+  engagementLegacyDescription:
+    "Erkunde dauerhafte Weltfolgen, freiwillige Saisonziele und die Identität, die aus deinen Entscheidungen entsteht.",
+  engagementActorsTitle: "Wiederkehrende Figuren",
+  engagementActorMaraVoss: "Mara Voss",
+  engagementActorMaraVossDescription:
+    "Eine lokale Unternehmerin, die auf Aufbau, Teams und belastbare Entscheidungen reagiert.",
+  engagementActorEliasKern: "Elias Kern",
+  engagementActorEliasKernDescription:
+    "Ein Stadtjournalist, der Ursachen, offene Fragen und Weltfolgen verfolgt.",
+  engagementActorNiaCalder: "Nia Calder",
+  engagementActorNiaCalderDescription:
+    "Eine Analystin, die Informationen und Kapitalmarktentscheidungen langfristig einordnet.",
+  engagementActorJunArendt: "Jun Arendt",
+  engagementActorJunArendtDescription:
+    "Ein lokaler Entscheidungsträger, der Kooperation und Saisonvermächtnisse beobachtet.",
+  engagementActorTrust: "Vertrauen",
+  engagementActorRivalry: "Rivalität",
+  engagementActorReputation: "Reputation",
+  engagementActorInformationAccess: "Informationszugang",
+  engagementActorHistorycompany_founded:
+    "Mara erinnerte sich an die Unternehmensgründung.",
+  engagementActorHistorycompany_first_profit:
+    "Mara registrierte die erste profitable Periode.",
+  engagementActorHistoryspecialist_assigned:
+    "Mara bemerkte den Aufbau des Teams.",
+  engagementActorHistoryexchange_ipo_completed:
+    "Nia analysierte den Börsengang.",
+  engagementActorHistorycartel_project_contributed:
+    "Jun verfolgte den freiwilligen Projektbeitrag.",
+  engagementActorHistoryintelligence_report_acquired:
+    "Nia registrierte die neue Informationslage.",
+  engagementActorHistoryworld_event_responded:
+    "Elias dokumentierte die Reaktion auf das Weltereignis.",
+  engagementActorHistoryseason_closed: "Jun bewahrte das Ergebnis der Saison.",
+  engagementCompanyChronicleTitle: "Unternehmenschronik",
+  engagementWorldChronicleTitle: "Kölner Stadtchronik",
+  engagementChronicleCompany: "Unternehmen",
+  engagementChronicleCompanyFoundedTitle: "Ein Unternehmen entsteht",
+  engagementChronicleCompanyFoundedBody:
+    "Eine neue Organisation wurde Teil der wirtschaftlichen Geschichte Kölns.",
+  engagementChronicleFirstProfitTitle: "Erste profitable Periode",
+  engagementChronicleFirstProfitBody:
+    "Das Unternehmen hat erstmals einen belastbaren Überschuss erreicht.",
+  engagementChronicleSpecialistTitle: "Eine neue Fachkraft prägt das Team",
+  engagementChronicleSpecialistBody:
+    "Eine bewusste Rollenentscheidung hat die Geschichte des Unternehmens erweitert.",
+  engagementChronicleIpoTitle: "Der Weg an die Börse",
+  engagementChronicleIpoBody:
+    "Das Unternehmen hat seinen transparenten Börsengang abgeschlossen.",
+  engagementChronicleWorldResponseTitle: "Köln erhält eine Antwort",
+  engagementChronicleWorldResponseBody:
+    "Eine ausdrückliche Entscheidung hat die gemeinsame Reaktion auf ein Weltereignis geprägt.",
+  engagementChronicleSeasonFinaleTitle: "Das Kapitel einer Saison",
+  engagementChronicleSeasonFinaleBody:
+    "Die Ergebnisse der Saison bleiben als gemeinsames Stadtgedächtnis erhalten.",
+  engagementChronicleCauseDecision:
+    "Eine ausdrückliche strategische Entscheidung löste dieses Kapitel aus.",
+  engagementChronicleImpactPersistent:
+    "Die Folge bleibt in der Chronik sichtbar und kann spätere Einordnungen prägen.",
+  engagementChronicleOpenQuestion:
+    "Welche Konsequenz wird sich als Nächstes zeigen?",
+  engagementLegacyCauses: "Ursache",
+  engagementLegacyConsequences: "Folge",
+  engagementDossiersTitle: "Event-Dossiers und Entdeckungen",
+  engagementDossierTitle: "Dossier eines Stadtereignisses",
+  engagementDossierCause:
+    "Untersuche, wodurch dieses Ereignis in Bewegung kam.",
+  engagementDossierLocalImpact:
+    "Ordne ein, welche lokale Auswirkung für Köln relevant ist.",
+  engagementDossierOpenQuestion:
+    "Ein Teil der Geschichte bleibt offen und später untersuchbar.",
+  engagementDossierClueCause:
+    "Die erste Spur verbindet sichtbare Veränderungen mit ihrer Ursache.",
+  engagementDossierClueActor:
+    "Eine zweite Spur verweist auf einen beteiligten lokalen Akteur.",
+  engagementDossierClueRare:
+    "Die seltene Spur enthüllt eine verborgene Verbindung in der Stadt.",
+  engagementDossierHiddenClue: "Noch nicht entdeckte Spur",
+  engagementDossierInvestigate: "Nächste Spur untersuchen",
+  engagementDossierCompleted: "Dossier vollständig",
+  engagementCollectionTitle: "Sammlung und Profilidentität",
+  engagementCollectionFounderTitle: "Titel: Stadtgründer",
+  engagementCollectionFounderDescription:
+    "Erinnert dauerhaft an die Gründung eines eigenen Unternehmens.",
+  engagementCollectionTeamBuilderTitle: "Emblem: Teambauer",
+  engagementCollectionTeamBuilderDescription:
+    "Zeigt den bewussten Aufbau eines spezialisierten Teams.",
+  engagementCollectionIpoTitle: "Emblem: Börsenpionier",
+  engagementCollectionIpoDescription:
+    "Bewahrt die Erinnerung an einen transparenten Börsengang.",
+  engagementCollectionInvestigatorTitle: "Chronik: Weltermittler",
+  engagementCollectionInvestigatorDescription:
+    "Archiviert eine ausdrückliche Reaktion auf ein Stadtereignis.",
+  engagementCollectionSeasonTitle: "Titel: Saisonarchivar",
+  engagementCollectionSeasonDescription:
+    "Dauerhafte kosmetische Anerkennung für eine abgeschlossene Saison.",
+  engagementCollectionSeasonHqTitle: "HQ-Erinnerungsstück",
+  engagementCollectionSeasonHqDescription:
+    "Eine rein kosmetische Erinnerung an ein Saisonfinale.",
+  engagementCollectionCitySignalTitle: "Seltenes Stadtsignal",
+  engagementCollectionCitySignalDescription:
+    "Eine garantiert erreichbare Entdeckung aus einem vollständigen Dossier.",
+  engagementCollectionRarity: "Seltenheit: {rarity}",
+  engagementCollectionDuplicatePoints: "{count} Sammlungspunkte aus Duplikaten",
+  engagementIdentityTitle: "Titel",
+  engagementIdentityEmblem: "Emblem",
+  engagementIdentityHq: "HQ-Kosmetik",
+  engagementIdentityNone: "Nicht ausrüsten",
+  engagementIdentityPublic:
+    "Strategische Profilkarte in freiwilligen Ranglisten zeigen",
+  engagementIdentityNoDoctrine: "Noch keine Doktrin gewählt",
+  engagementIdentityEquip: "Kosmetik ausrüsten",
+  engagementLegacySeasonCompleted: "Saison dauerhaft abgeschlossen",
+  engagementSeasonGoalsTitle: "Flexible Saisonziele",
+  engagementSeasonGoalEconomicTitle: "Wirtschaftliche Resilienz",
+  engagementSeasonGoalEconomicDescription:
+    "Erreiche drei profitable Unternehmensperioden.",
+  engagementSeasonGoalSocialTitle: "Soziale Wirkung",
+  engagementSeasonGoalSocialDescription:
+    "Unterstütze drei freiwillige Kartellprojekt-Schritte.",
+  engagementSeasonGoalWorldTitle: "Welterkundung",
+  engagementSeasonGoalWorldDescription:
+    "Untersuche drei unterschiedliche Reaktionen auf Stadtereignisse.",
+  engagementSeasonGoalIntelligenceTitle: "Informationstiefe",
+  engagementSeasonGoalIntelligenceDescription:
+    "Beschaffe vier verifizierte Intelligence-Berichte.",
+  engagementSeasonGoalVarietyTitle: "Strategische Vielfalt",
+  engagementSeasonGoalVarietyDescription:
+    "Nutze fünf unterschiedliche verifizierte Entscheidungsarten.",
+  engagementReturnContractsTitle: "Freiwillige Rückkehrverträge",
+  engagementReturnContractsDescription:
+    "Nach einer Pause kannst du genau einen transparenten Wiedereinstieg wählen. Es gibt keine verpasste Belohnung und keinen Zeitdruck.",
+  engagementReturnContractsCheck: "Wiedereinstiege prüfen",
+  engagementReturnContractCompanyTitle: "Unternehmen stabilisieren",
+  engagementReturnContractCompanyDescription:
+    "Führe eine profitable Unternehmensperiode als ruhigen Wiedereinstieg durch.",
+  engagementReturnContractWorldTitle: "Weltlage neu einordnen",
+  engagementReturnContractWorldDescription:
+    "Reagiere bewusst auf ein aktuelles Weltereignis.",
+  engagementReturnContractSocialTitle: "Freiwillig wieder verbinden",
+  engagementReturnContractSocialDescription:
+    "Trage ohne Anwesenheitspflicht zu einem Kartellprojekt bei.",
+  engagementReturnAbsence: "Angeboten nach {days} Tagen Pause",
+  engagementReturnContractChoose: "Diesen Wiedereinstieg wählen",
+  engagementParallelRankingsTitle: "Mehrdimensionale Ranglisten",
+  engagementParallelRankingsDescription:
+    "Zwölf getrennte Leistungen, Anfänger- und Veteranenklassen und keine wirtschaftliche Belohnung für Spitzenplätze.",
+  engagementRankingCompanyValue: "Unternehmenswert",
+  engagementRankingSustainableProfit: "Nachhaltiger Gewinn",
+  engagementRankingInnovation: "Innovation",
+  engagementRankingContractReliability: "Vertragszuverlässigkeit",
+  engagementRankingPortfolioReturn: "Portfoliorendite",
+  engagementRankingDistrictDevelopment: "Distriktentwicklung",
+  engagementRankingCartelInfluence: "Kartelleinfluss",
+  engagementRankingIntelligenceSuccess: "Intelligence-Erfolg",
+  engagementRankingDiplomaticStability: "Diplomatische Stabilität",
+  engagementRankingComebackPerformance: "Comeback-Leistung",
+  engagementRankingMentoring: "Mentoring",
+  engagementRankingSeasonGoals: "Saisonziele",
+  engagementRankingBracketNewcomer: "Anfängerklasse",
+  engagementRankingBracketVeteran: "Veteranenklasse",
+  engagementRankingHistoricalBest: "Historische Bestleistung: {score}",
   rank: "Rang",
   score: "Punkte",
   settingsTitle: "Einstellungen und Konto",
   language: "Sprache",
+  languageRestartRequired:
+    "Starte die mobile App einmal neu, um die neue Leserichtung zu übernehmen.",
   sessions: "Sitzungen",
   revoke: "Widerrufen",
   privacy: "Datenschutz",
@@ -862,9 +1315,21 @@ export const de: Record<MessageKey, string> = {
   maintenanceTitle: "SHADOWGRID-Systeme werden gewartet",
   seasonCompleteTitle: "Saison abgeschlossen",
   errorTitle: "Die Anfrage konnte nicht abgeschlossen werden",
+  errorUnauthorized: "Melde dich erneut an, um fortzufahren.",
+  errorForbidden: "Du hast keine Berechtigung für diese Aktion.",
+  errorNotFound: "Der angeforderte Eintrag ist nicht mehr verfügbar.",
+  errorConflict:
+    "Der Zustand hat sich vor Abschluss der Aktion geändert. Aktualisiere die Ansicht und versuche es erneut.",
+  errorValidation: "Prüfe die markierten Werte und versuche es erneut.",
+  errorRateLimited:
+    "Es wurden zu viele Anfragen gesendet. Warte kurz und versuche es erneut.",
+  errorServer:
+    "Der Server konnte die Anfrage nicht abschließen. Versuche es später erneut.",
+  formFieldInvalid: "Gib für dieses Feld einen gültigen Wert ein.",
   requestId: "Anfrage-ID: {id}",
   success: "Zustand erfolgreich aktualisiert.",
   noExactChance:
     "Die Erfolgschance erscheint als qualitative Schätzung; der Server hält den exakten Zufallswert verborgen.",
   localDemo: "Lokale Demo-Zugangsdaten stehen in .local/demo-credentials.txt.",
+  ...deValueLabels,
 };

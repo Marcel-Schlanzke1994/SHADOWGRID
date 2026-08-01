@@ -16,6 +16,7 @@ below remains blocked until its named input and explicit release flag exist.
 | GitHub Dependency Review | blocked_external | Pushed branch and pull-request context | Run the repository Dependency Review workflow on the resulting pull request |
 | Physical accessibility | blocked_external | Signed builds, real Android/iOS devices and human TalkBack/VoiceOver review | Record every item in `ACCESSIBILITY_FINAL_REPORT.md` and `MOBILE_RELEASE_READINESS.md` |
 | Alert-provider binding | blocked_external | Production telemetry provider and on-call routing owner | Import `monitoring/alert-definitions.json`, bind real data sources and test each route |
+| Global localization | blocked_external | Qualified translators, independent native reviewers, linguistic QA, legal/store/support owners and physical-device evidence for all 36 locales | Complete every locale `review.json`/`coverage.json`, run `pnpm i18n:screenshots`, then `pnpm i18n:release` |
 
 ## Production sequence
 

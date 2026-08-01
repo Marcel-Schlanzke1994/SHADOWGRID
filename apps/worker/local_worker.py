@@ -9,6 +9,7 @@ from .worker import (
     ai_hourly,
     due_every_minute,
     economy_hourly,
+    expire_collaboration_windows,
     expire_exchange_orders,
     mail_every_minute,
     settle_hourly,
@@ -30,6 +31,7 @@ async def run_cycle() -> dict[str, object]:
         "ai": await ai_hourly(context),
         "mail": await mail_every_minute(context),
         "expired_orders": await expire_exchange_orders(context),
+        "expired_collaboration": await expire_collaboration_windows(context),
     }
 
 

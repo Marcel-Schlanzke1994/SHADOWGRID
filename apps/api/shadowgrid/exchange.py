@@ -12,6 +12,7 @@ from sqlalchemy.orm import Session
 from shadowgrid.companies import snapshot_company
 from shadowgrid.config import Settings
 from shadowgrid.domain import audit, create_notification, get_idempotent, remember_idempotent
+from shadowgrid.engagement import record_engagement_event
 from shadowgrid.errors import DomainError
 from shadowgrid.finance import (
     ensure_profile_cash_account,
@@ -347,6 +348,15 @@ def create_ipo(
     )
     db.add(listing)
     db.flush()
+    record_engagement_event(
+        db,
+        profile_id=profile.id,
+        event_type="exchange.ipo_completed",
+        source_type="exchange_listing",
+        source_id=listing.id,
+        idempotency_key=f"exchange.ipo_completed:{listing.id}",
+        payload={"company_id": company.id, "symbol": listing.symbol},
+    )
     share_class = ShareClass(
         listing_id=listing.id,
         class_code="common",

@@ -13,6 +13,7 @@ from sqlalchemy.orm import Session
 
 from shadowgrid.config import Settings
 from shadowgrid.domain import apply_profile_resource, audit, create_notification
+from shadowgrid.engagement import record_engagement_event
 from shadowgrid.finance import cents_to_money
 from shadowgrid.models import (
     CartelProject,
@@ -424,6 +425,16 @@ def launch_intelligence_operation(
             created_at=now,
         )
         db.add_all((operation, report))
+        record_engagement_event(
+            db,
+            profile_id=profile.id,
+            event_type="intelligence.report_acquired",
+            source_type="intelligence_report",
+            source_id=report.id,
+            idempotency_key=f"intelligence.report_acquired:{report.id}",
+            payload={"information_type": information_type, "category": category},
+            occurred_at=now,
+        )
         if detected:
             create_notification(
                 db,
@@ -600,6 +611,20 @@ def purchase_report_offer(
         )
         db.add(copied)
         db.flush()
+        record_engagement_event(
+            db,
+            profile_id=profile.id,
+            event_type="intelligence.report_acquired",
+            source_type="intelligence_report",
+            source_id=copied.id,
+            idempotency_key=f"intelligence.report_acquired:{copied.id}",
+            payload={
+                "information_type": copied.information_type,
+                "category": copied.category,
+                "acquisition": "player_market",
+            },
+            occurred_at=now,
+        )
         offer.status = "sold"
         offer.buyer_profile_id = profile.id
         offer.purchased_report_id = copied.id

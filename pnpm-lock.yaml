@@ -31,6 +31,9 @@ importers:
       '@expo/metro-runtime':
         specifier: 5.0.5
         version: 5.0.5(react-native@0.79.6(@babel/core@7.29.7)(@types/react@19.0.14)(react@19.0.0))
+      '@hookform/resolvers':
+        specifier: 5.4.0
+        version: 5.4.0(react-hook-form@7.83.0(react@19.0.0))
       '@shadowgrid/api-client':
         specifier: workspace:*
         version: link:../../packages/api-client
@@ -76,6 +79,9 @@ importers:
       react-dom:
         specifier: 19.0.0
         version: 19.0.0(react@19.0.0)
+      react-hook-form:
+        specifier: 7.83.0
+        version: 7.83.0(react@19.0.0)
       react-i18next:
         specifier: 15.5.3
         version: 15.5.3(i18next@25.2.1(typescript@5.8.3))(react-dom@19.0.0(react@19.0.0))(react-native@0.79.6(@babel/core@7.29.7)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)(typescript@5.8.3)
@@ -91,6 +97,9 @@ importers:
       react-native-web:
         specifier: 0.20.0
         version: 0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      zod:
+        specifier: 3.25.67
+        version: 3.25.67
     devDependencies:
       '@types/jest':
         specifier: 29.5.14
@@ -269,6 +278,9 @@ importers:
         specifier: 15.5.3
         version: 15.5.3(i18next@25.2.1(typescript@5.8.3))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)
     devDependencies:
+      '@formatjs/icu-messageformat-parser':
+        specifier: 2.11.4
+        version: 2.11.4
       '@types/node':
         specifier: 26.1.1
         version: 26.1.1
@@ -6919,6 +6931,11 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
+  '@hookform/resolvers@5.4.0(react-hook-form@7.83.0(react@19.0.0))':
+    dependencies:
+      '@standard-schema/utils': 0.3.0
+      react-hook-form: 7.83.0(react@19.0.0)
+
   '@hookform/resolvers@5.4.0(react-hook-form@7.83.0(react@19.1.0))':
     dependencies:
       '@standard-schema/utils': 0.3.0
@@ -11149,6 +11166,10 @@ snapshots:
   react-fast-compare@3.2.2: {}
 
   react-freeze@1.0.4(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+
+  react-hook-form@7.83.0(react@19.0.0):
     dependencies:
       react: 19.0.0
 

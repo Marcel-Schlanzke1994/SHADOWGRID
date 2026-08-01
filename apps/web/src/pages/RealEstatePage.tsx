@@ -1,5 +1,6 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { createIdempotencyKey } from "@shadowgrid/api-client";
+import { translateGameValue } from "@shadowgrid/i18n";
 import type {
   Company,
   PropertyImprovement,
@@ -241,7 +242,7 @@ export function RealEstatePage() {
   );
 
   return (
-    <div className="page">
+    <div className="page page--real-estate">
       <header className="page-header">
         <h1>{t("realEstateTitle")}</h1>
         <p>{t("realEstateDescription")}</p>
@@ -589,7 +590,7 @@ export function RealEstatePage() {
                   {lease.default_reason && (
                     <p className="notice notice--warning">
                       {t("propertyAbstractDefault", {
-                        reason: lease.default_reason.replaceAll("_", " "),
+                        reason: translateGameValue(lease.default_reason),
                       })}
                     </p>
                   )}

@@ -2,7 +2,7 @@
 
 Status: **passed**
 
-Generated: `2026-07-30T06:42:11.503Z`
+Generated: `2026-07-30T09:01:49.699Z`
 
 The inventory contains exactly 30 required store, marketing and community entries. The
 20 UI screenshots originate from the functioning seeded application; Playwright rejects

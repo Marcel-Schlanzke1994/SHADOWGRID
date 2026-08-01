@@ -1,0 +1,20 @@
+{
+  "companiesEmpty": "Noch wurde kein Unternehmen gegründet.",
+  "empty": "Noch keine Einträge vorhanden.",
+  "errorConflict": "Der Zustand hat sich vor Abschluss der Aktion geändert. Aktualisiere die Ansicht und versuche es erneut.",
+  "errorForbidden": "Du hast keine Berechtigung für diese Aktion.",
+  "errorNotFound": "Der angeforderte Eintrag ist nicht mehr verfügbar.",
+  "errorRateLimited": "Es wurden zu viele Anfragen gesendet. Warte kurz und versuche es erneut.",
+  "errorServer": "Der Server konnte die Anfrage nicht abschließen. Versuche es später erneut.",
+  "errorTitle": "Die Anfrage konnte nicht abgeschlossen werden",
+  "errorValidation": "Prüfe die markierten Werte und versuche es erneut.",
+  "eventFeedEmpty": "Noch keine Ereignisinstanzen vorhanden.",
+  "loading": "Verifizierter Zustand wird geladen…",
+  "localCompetitorsEmpty": "Noch ist kein lokales Simulationsunternehmen aktiv.",
+  "maintenanceTitle": "SHADOWGRID-Systeme werden gewartet",
+  "offlineBody": "Die letzte verifizierte Ansicht bleibt sichtbar, soweit verfügbar. Autoritative Aktionen sind bis zur erneuten Verbindung deaktiviert.",
+  "offlineTitle": "Verbindung unterbrochen",
+  "requestId": "Anfrage-ID: {id}",
+  "retry": "Erneut versuchen",
+  "support": "Unterstützen"
+}

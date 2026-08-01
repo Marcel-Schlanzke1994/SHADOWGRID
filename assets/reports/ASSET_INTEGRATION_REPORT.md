@@ -1,8 +1,8 @@
 # Asset integration report
 
-- Processed assets with source files: 896
-- Processed assets with production variants: 896
-- Runtime-integrated assets: 896
+- Processed assets with source files: 898
+- Processed assets with production variants: 898
+- Runtime-integrated assets: 898
 - Crest configurator combinations: 100
 - Crest duplicate signatures: 0
 - Crest minimum foreground contrast: 4.567:1

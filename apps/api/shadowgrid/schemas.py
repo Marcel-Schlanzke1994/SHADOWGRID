@@ -6,6 +6,8 @@ from typing import Any, Literal
 
 from pydantic import BaseModel, ConfigDict, EmailStr, Field, field_validator
 
+from shadowgrid.localization import normalize_account_locale
+
 
 class ORMModel(BaseModel):
     model_config = ConfigDict(from_attributes=True)
@@ -29,6 +31,11 @@ class RegisterRequest(BaseModel):
     password: str = Field(min_length=12, max_length=128)
     locale: str = Field(default="en", min_length=2, max_length=16)
     terms_accepted: bool
+
+    @field_validator("locale")
+    @classmethod
+    def supported_locale(cls, value: str) -> str:
+        return normalize_account_locale(value)
 
     @field_validator("password")
     @classmethod

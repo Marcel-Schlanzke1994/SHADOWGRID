@@ -1,0 +1,10 @@
+SHADOWGRID final release evidence
+Step: Validate asset files and metadata
+Command: pnpm assets:validate
+Started: 2026-07-30T08:27:56.568Z
+
+$ node scripts/assets/pipeline.mjs validate
+Processed asset validation passed.
+
+Finished: 2026-07-30T08:30:13.486Z
+Exit code: 0

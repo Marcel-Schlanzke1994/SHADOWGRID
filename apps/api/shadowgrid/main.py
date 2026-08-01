@@ -28,8 +28,10 @@ from shadowgrid.cartel_api import router as cartel_router
 from shadowgrid.config import get_settings
 from shadowgrid.contract_api import router as contract_router
 from shadowgrid.database import SessionLocal
+from shadowgrid.engagement_api import router as engagement_router
 from shadowgrid.errors import DomainError
 from shadowgrid.intelligence_api import router as intelligence_router
+from shadowgrid.legacy_api import router as legacy_router
 from shadowgrid.loan_api import router as loan_router
 from shadowgrid.models import PlayerProfile, RefreshSession, User, as_utc
 from shadowgrid.multiplayer_api import router as multiplayer_router
@@ -296,6 +298,8 @@ app.include_router(loan_router, prefix=settings.api_prefix)
 app.include_router(real_estate_router, prefix=settings.api_prefix)
 app.include_router(realtime_router, prefix=settings.api_prefix)
 app.include_router(multiplayer_router, prefix=settings.api_prefix)
+app.include_router(engagement_router, prefix=settings.api_prefix)
+app.include_router(legacy_router, prefix=settings.api_prefix)
 
 
 @app.websocket(f"{settings.api_prefix}/ws")

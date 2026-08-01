@@ -212,6 +212,7 @@ const steps = [
   ["Seed fresh release database idempotency pass", pnpm("seed")],
   ["Verify fresh data invariants", pnpm("data:verify")],
   ["Run complete validation gate", pnpm("validate")],
+  ["Enforce 36-locale release approval", pnpm("i18n:release")],
   ["Run asset pipeline unit tests", pnpm("assets:test")],
   ["Validate asset files and metadata", pnpm("assets:validate")],
   ["Verify asset runtime integration", pnpm("assets:integration-test")],
@@ -221,6 +222,10 @@ const steps = [
   ["Verify data invariants after restore drill", pnpm("data:verify")],
   ["Run full multi-persona lifecycle gate", pnpm("test:lifecycle")],
   ["Build web production bundle", pnpm("--filter", "@shadowgrid/web", "build")],
+  [
+    "Verify production locale isolation",
+    pnpm("--filter", "@shadowgrid/web", "test:e2e:production-i18n"),
+  ],
   [
     "Build unsigned all-platform mobile preview",
     pnpm("--filter", "@shadowgrid/mobile", "build:preview"),

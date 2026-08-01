@@ -12,6 +12,7 @@ from sqlalchemy.orm import Session
 
 from shadowgrid.companies import snapshot_company
 from shadowgrid.domain import audit, get_idempotent, remember_idempotent
+from shadowgrid.engagement import record_engagement_event
 from shadowgrid.errors import DomainError
 from shadowgrid.finance import cents_to_money, pay_company_expense
 from shadowgrid.game_config import SPECIALIST_DEFINITIONS, SPECIALIST_ROLES
@@ -464,6 +465,15 @@ def assign_specialist(
     specialist.employer_company_id = company.id
     specialist.status = "assigned" if specialist.assigned_operation_id else "hired"
     specialist.cooldown_until = now + timedelta(hours=1)
+    record_engagement_event(
+        db,
+        profile_id=profile.id,
+        event_type="specialist.assigned",
+        source_type="specialist_assignment",
+        source_id=f"{specialist.id}:{company.id}",
+        idempotency_key=f"specialist.assigned:{specialist.id}:{company.id}",
+        payload={"company_id": company.id, "role": specialist.role},
+    )
     remember_idempotent(
         db,
         profile.user_id,

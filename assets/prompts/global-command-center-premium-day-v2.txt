@@ -1,0 +1,26 @@
+Use case: stylized-concept
+Asset type: global asset for a cross-platform strategy game
+Primary request: Create a premium ultra-realistic visual asset for the multiplayer strategy game SHADOWGRID.
+Scene/backdrop: Fictional contemporary German urban environment, geographically and architecturally plausible.
+Subject: Premium tactical command center, day
+Category: global.
+Gameplay state: normal.
+Style/medium: contemporary Germany; high-end urban economic strategy simulation; cinematic corporate thriller atmosphere; subtle cyber-noir; physically plausible glass, concrete, steel, stone and asphalt; original scene, not a known photograph, film frame, game screenshot or branded design.
+Composition/framing: Wide cinematic establishing composition, human eye-level or plausible elevated viewpoint, controlled depth, and calm negative space on the left for user-interface overlays.
+Lighting/mood: natural daylight with natural cinematic lighting, realistic reflections and restrained atmosphere.
+Color palette: black and anthracite framing, cool neutral blue-gray, restrained warm gold accents; warning red only if the gameplay state requires danger.
+Materials/textures: physically plausible dark glass, brushed metal, concrete, stone and asphalt with realistic scale.
+Constraints: no embedded captions or interface text; no real brands; no real authorities; no readable plates or addresses; no recognizable private people; no copied landmark-photo angle; space reserved for UI overlays; suitable for desktop and mobile crops; output aspect ratio 16:9.
+Avoid: Do not include: written words, captions, watermarks, signatures, existing game logos, real company logos, real police insignia, real government insignia, readable private license plates, readable private addresses, recognizable private individuals, celebrities, politicians, real criminal organizations, real gang symbols, extremist symbols, Nazi symbols, graphic violence, visible illegal instructions, firearms as the central subject, drug production, crime tutorials, copied photography, copied landmarks from an identical photo angle, fantasy skyscrapers, impossible architecture, distorted buildings, duplicate people, deformed hands, unrealistic vehicles, floating objects, overexposed neon, cartoon style, anime style, comic style, plastic mobile-game appearance, blurry image, low resolution, compression artifacts, unreadable fake text.
+Seed reference: 100898. Style lock: 1.0.0.
+
+Accepted generation prompt:
+Use case: lighting-weather
+Asset type: SHADOWGRID game command-center daytime background variant
+Input images: Image 1: exact night command-center edit target
+Primary request: change only the exterior time of day and corresponding physically plausible room illumination from night to a restrained overcast premium daytime scene
+Constraints: preserve the exact room geometry, camera angle, framing, command table, wall materials, skyline, river, object placement, proportions and crop; keep the obsidian/titanium interior dark and luxurious; retain subtle satin-gold practical edge lights; replace night sky and city lights with cool overcast daylight and realistic reflections; no people, no text, no logos, no watermark, no floating UI, no added objects, no redesign
+Avoid: bright white office look, blue color cast, sunny lifestyle mood, generic corporate stock photo, cartoon sci-fi
+
+Style-reference images:
+- assets/source/global/global-command-center-premium-night-v2.png

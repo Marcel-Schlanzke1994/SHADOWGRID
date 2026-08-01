@@ -32,7 +32,6 @@ assumed or silently untested.
 | REQ-19 | Cross-platform one-click local lifecycle | PowerShell/Linux setup, start, stop, reset and verify scripts | Two real SQLite API/worker/web cycles plus syntax and script tests |
 | REQ-20 | Verified recovery drill | Isolated backup/restore runner and post-restore invariant verifier | SHA-256-identical restore; probe removed; data verifier exit 0 |
 | REQ-21 | Operations automation | Protected metrics, machine-readable alerts, smoke and recovery scripts | Operations verifier, smoke tests, season runbook and restore drill passed |
-| REQ-23 | Localization truthfulness | 777-key English/German catalogs plus pseudo-locales | Parity validator and RTL E2E |
 | REQ-24 | Complete asset library | Resumable 896-entry catalog, provenance, visual reviews, production variants and Web/Mobile registries | 896/896 approved; validation, integration and asset release gate passed |
 | REQ-25 | Multi-season balance evidence | Integer-only deterministic simulation and versioned config | 100 players, 500 companies, 10 cartels, four seasons; no critical exploit |
 | REQ-26 | Complete player lifecycle | Ordered 30-step plan and cross-platform runner | API 33/33; Playwright 40 passed with two expected skips |
@@ -56,6 +55,7 @@ remain isolated below.
 | --- | --- | --- | --- |
 | REQ-22 | EAS project/account and signing credentials | Placeholder IDs/domains removed; 69-file all-platform preview, tests, verified config and store copy | Initialize real EAS project, device-test signed AAB/IPA, submit only with flag |
 | REQ-28 | Docker/Mailpit unavailable and SMTP flag false | Localized mailer, complete account-flow tests, hardened SMTP validation and exact operator gate | Run Mailpit after Docker install; activate provider only with flag |
+| REQ-23 | 36-language global localization | Exact packages, zero-fallback runtime, ICU/context/glossary/status/release gates and 216-capture workflow are repository-complete | Assign qualified independent reviewers; complete 36 translations, in-game/accessibility/store/support/legal approvals; run `pnpm i18n:release` |
 | HOST-DOCKER-001 | Docker/PostgreSQL/Redis CLIs unavailable | SQLite release path fully green | Install Docker Desktop and execute Compose/worker/readiness checks |
 
 These statuses are inputs to Phases 3–15. They are not release-completion claims.

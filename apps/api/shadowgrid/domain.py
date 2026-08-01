@@ -5,6 +5,7 @@ import hmac
 from datetime import UTC, datetime, timedelta
 from decimal import Decimal
 from typing import Any
+from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 from fastapi import HTTPException
 from sqlalchemy import func, select
@@ -38,6 +39,7 @@ from shadowgrid.models import (
     IntelReport,
     LedgerEntry,
     Notification,
+    NotificationPreference,
     Operation,
     OrganizationMembership,
     PlayerProfile,
@@ -311,6 +313,15 @@ def create_player_profile(
         )
     )
     db.flush()
+    from shadowgrid.engagement import (
+        ensure_engagement_setting,
+        ensure_goal_window,
+        ensure_notification_preferences,
+    )
+
+    ensure_goal_window(db, profile)
+    ensure_notification_preferences(db, profile)
+    ensure_engagement_setting(db, profile)
     return profile
 
 
@@ -956,10 +967,15 @@ def create_notification(
     title: str,
     body: str,
     metadata: dict[str, Any] | None = None,
+    *,
+    category: str = "strategic",
 ) -> Notification:
+    if category not in {"critical", "strategic", "social", "summary"}:
+        raise ValueError("Unsupported notification category")
     notification = Notification(
         user_id=user_id,
         event_type=event_type,
+        category=category,
         title=title,
         body=body,
         metadata_json=metadata or {},
@@ -976,6 +992,26 @@ def create_notification(
         )
     )
     for profile in profiles:
+        preference = db.scalar(
+            select(NotificationPreference).where(
+                NotificationPreference.profile_id == profile.id,
+                NotificationPreference.category == category,
+            )
+        )
+        live_enabled = preference is None or preference.live_enabled or category == "critical"
+        quiet = False
+        if preference is not None and category != "critical":
+            try:
+                timezone = ZoneInfo(preference.timezone)
+            except ZoneInfoNotFoundError:
+                timezone = ZoneInfo("Europe/Berlin")
+            local_now = datetime.now(UTC).astimezone(timezone)
+            minute = local_now.hour * 60 + local_now.minute
+            start = preference.quiet_start_minute
+            end = preference.quiet_end_minute
+            quiet = start <= minute < end if start < end else minute >= start or minute < end
+        if not live_enabled or quiet:
+            continue
         emit_realtime_event(
             db,
             world_id=profile.world_id,
