@@ -111,7 +111,7 @@ export function FinancePage() {
     acceptOffer.error;
 
   return (
-    <div className="page">
+    <div className="page page--finance">
       <header className="page-header">
         <h1>{t("financeTitle")}</h1>
         <p>{t("loanDescription")}</p>

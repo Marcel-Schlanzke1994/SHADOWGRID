@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "prompt_version": "1.0.0",
   "style_version": "1.0.0",
-  "generated_at": "2026-08-01T19:02:34.743Z",
-  "asset_count": 896,
+  "generated_at": "2026-08-01T21:19:06.430Z",
+  "asset_count": 899,
   "batches": [
     {
       "order": 1,
@@ -22,7 +22,7 @@
       "order": 3,
       "batch": "global-backgrounds",
       "priority": 1,
-      "asset_count": 18
+      "asset_count": 19
     },
     {
       "order": 4,
@@ -22525,6 +22525,30 @@
       "gameplay_state": "normal",
       "attempts": 2,
       "completed_at": "2026-08-01T19:02:34.379Z",
+      "failure_reason": null
+    },
+    {
+      "order": 899,
+      "asset_id": "global-exchange-terminal-premium-night-v2",
+      "batch": "global-backgrounds",
+      "category": "global",
+      "title": "Premium institutional exchange terminal, night",
+      "source_type": "generated",
+      "required": true,
+      "priority": 1,
+      "width": 2048,
+      "height": 1152,
+      "aspect_ratio": "16:9",
+      "transparent_background": false,
+      "prompt_template": "global",
+      "prompt_version": "2.0.0",
+      "style_version": "2.0.0",
+      "seed": 100899,
+      "variants": [],
+      "status": "approved",
+      "gameplay_state": "normal",
+      "attempts": 2,
+      "completed_at": "2026-08-01T21:19:06.234Z",
       "failure_reason": null
     }
   ]

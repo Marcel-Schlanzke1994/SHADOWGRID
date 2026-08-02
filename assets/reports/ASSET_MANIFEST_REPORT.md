@@ -1,7 +1,7 @@
 # Asset manifest report
 
 - Manifest version: 1.0.0
-- Entries: 898
-- Unique IDs: 898
-- Unique order values: 898
-- Required entries: 898
+- Entries: 899
+- Unique IDs: 899
+- Unique order values: 899
+- Required entries: 899

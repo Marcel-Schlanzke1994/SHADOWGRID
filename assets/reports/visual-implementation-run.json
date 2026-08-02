@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-02T00:02:30.709Z",
+  "phase": "visual-implementation-run",
+  "status": "passed",
+  "inventory": {
+    "report": "assets/reports/visual-implementation-inventory.json",
+    "web_route_count": 49,
+    "web_screen_count": 39,
+    "web_dynamic_route_count": 7,
+    "web_redirect_count": 3,
+    "mobile_route_count": 10,
+    "exported_component_count": 55,
+    "component_definition_count": 91,
+    "files_with_visual_primitives": 29,
+    "primitive_totals": {
+      "html_button": 116,
+      "html_input": 78,
+      "html_select": 63,
+      "html_textarea": 9,
+      "html_table": 15,
+      "html_dialog": 1,
+      "html_details": 7,
+      "html_svg": 4,
+      "html_progress": 0,
+      "rn_pressable": 5,
+      "rn_text_input": 6,
+      "rn_scroll_view": 9,
+      "rn_flat_list": 0,
+      "rn_modal": 0,
+      "rn_image": 0,
+      "rn_activity_indicator": 4
+    }
+  },
+  "directlyModifiedRoutes": [
+    {
+      "path": "/",
+      "screen": "LandingPage",
+      "identity": "cinematic-entry"
+    },
+    {
+      "path": "/command",
+      "screen": "DashboardPage",
+      "identity": "war-room"
+    },
+    {
+      "path": "/exchange",
+      "screen": "ExchangePage",
+      "identity": "trading-terminal"
+    },
+    {
+      "path": "/companies",
+      "screen": "BusinessesPage",
+      "identity": "executive-finance"
+    },
+    {
+      "path": "/companies/:companyId",
+      "screen": "BusinessesPage",
+      "identity": "executive-finance"
+    },
+    {
+      "path": "/businesses",
+      "screen": "BusinessesPage",
+      "identity": "executive-finance"
+    },
+    {
+      "path": "/businesses/:businessId",
+      "screen": "BusinessesPage",
+      "identity": "executive-finance"
+    },
+    {
+      "path": "/facilities",
+      "screen": "FacilitiesPage",
+      "identity": "executive-finance"
+    },
+    {
+      "path": "/specialists",
+      "screen": "SpecialistsPage",
+      "identity": "executive-finance"
+    },
+    {
+      "path": "/specialists/:specialistId",
+      "screen": "SpecialistsPage",
+      "identity": "executive-finance"
+    },
+    {
+      "path": "/finance",
+      "screen": "FinancePage",
+      "identity": "capital-ledger"
+    },
+    {
+      "path": "/bonds",
+      "screen": "BondsPage",
+      "identity": "capital-ledger"
+    },
+    {
+      "path": "/contracts",
+      "screen": "ContractsPage",
+      "identity": "capital-ledger"
+    }
+  ],
+  "directlyModifiedComponents": [
+    {
+      "name": "GlobalStaticBackdrop",
+      "file": "apps/web/src/GlobalBackdrop.tsx",
+      "effect": "responsive Exchange environment"
+    },
+    {
+      "name": "StateView",
+      "file": "apps/web/src/components.tsx",
+      "effect": "premium empty, loading, error and retry presentation"
+    },
+    {
+      "name": "LandingPage",
+      "file": "apps/web/src/pages/PublicPages.tsx",
+      "effect": "localized capability rail"
+    },
+    {
+      "name": "ExchangePage",
+      "file": "apps/web/src/pages/ExchangePage.tsx",
+      "effect": "market rail and cinematic environment"
+    },
+    {
+      "name": "Button system",
+      "file": "apps/web/src/premium.css",
+      "effect": "complex-script wrapping and text expansion"
+    },
+    {
+      "name": "Domain identity system",
+      "file": "apps/web/src/premium.css",
+      "effect": "company and capital-ledger variants plus existing domain variants"
+    }
+  ],
+  "customAsset": {
+    "id": "global-exchange-terminal-premium-night-v2",
+    "source": "assets/source/global/global-exchange-terminal-premium-night-v2.png",
+    "prompt": "assets/prompts/global-exchange-terminal-premium-night-v2.txt",
+    "review": "assets/reports/reviews/global-exchange-terminal-premium-night-v2.json",
+    "productionVariants": 15
+  },
+  "evidence": {
+    "baseline": {
+      "report": "assets/reports/visual-baseline-captures.json",
+      "captures": 74,
+      "desktop": 37,
+      "mobile": 37
+    },
+    "referenceGoldens": [
+      "landing-chromium-win32.png",
+      "landing-mobile-win32.png",
+      "command-chromium-win32.png",
+      "command-mobile-win32.png",
+      "exchange-chromium-win32.png",
+      "exchange-mobile-win32.png"
+    ],
+    "localeLayout": {
+      "report": "assets/reports/visual-locale-layout-gate.json",
+      "localeCount": 36,
+      "combinations": 216,
+      "passed": true,
+      "mode": "layout-stress-with-configured-locale-metadata",
+      "runtimeReleaseNote": "Layout support is verified for all configured locales; production catalogs remain gated by native review and in-game approval."
+    },
+    "performance": {
+      "report": "assets/reports/visual-performance-budget.json",
+      "passed": true,
+      "checks": {
+        "javascriptGzipBytes": {
+          "actual": 364702,
+          "budget": 471040,
+          "passed": true
+        },
+        "cssGzipBytes": {
+          "actual": 13989,
+          "budget": 24576,
+          "passed": true
+        },
+        "htmlBytes": {
+          "actual": 966,
+          "budget": 6144,
+          "passed": true
+        },
+        "largestReferenceImageBytes": {
+          "actual": 198410,
+          "budget": 409600,
+          "passed": true
+        }
+      }
+    },
+    "assets": {
+      "report": "assets/reports/asset-validation.json",
+      "passed": true,
+      "approved": 899,
+      "required": 899
+    }
+  },
+  "gates": [
+    {
+      "command": "pnpm visual:test-reference",
+      "result": "4 passed"
+    },
+    {
+      "command": "pnpm visual:test-locales",
+      "result": "216 combinations passed"
+    },
+    {
+      "command": "pnpm build",
+      "result": "passed"
+    },
+    {
+      "command": "pnpm visual:performance-budget",
+      "result": "4 budgets passed"
+    },
+    {
+      "command": "pnpm --filter @shadowgrid/web test",
+      "result": "12 passed"
+    },
+    {
+      "command": "pnpm --filter @shadowgrid/mobile test",
+      "result": "9 passed"
+    },
+    {
+      "command": "pnpm i18n:validate",
+      "result": "36/36 packages valid"
+    },
+    {
+      "command": "pnpm assets:gate",
+      "result": "899/899 approved"
+    },
+    {
+      "command": "pnpm format:check",
+      "result": "passed"
+    },
+    {
+      "command": "pnpm lint",
+      "result": "passed"
+    },
+    {
+      "command": "pnpm typecheck",
+      "result": "passed"
+    }
+  ]
+}

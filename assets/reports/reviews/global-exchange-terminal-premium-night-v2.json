@@ -1,0 +1,25 @@
+{
+  "realism": 98,
+  "style_consistency": 99,
+  "composition": 97,
+  "material_quality": 99,
+  "lighting_quality": 98,
+  "architecture_plausibility": 96,
+  "ui_suitability": 97,
+  "mobile_suitability": 86,
+  "originality": 97,
+  "safety_compliance": 100,
+  "accepted_prompt": "Use case: stylized-concept\nAsset type: SHADOWGRID Exchange Terminal background, 16:9 responsive game environment\nPrimary request: an ultra-premium institutional trading command floor inside a fictional German high-rise at night, designed for a serious economic strategy game; dark titanium trading desks, smoked glass architecture, an abstract market-data light wall with no readable content, subtle depth layers and disciplined executive luxury\nScene/backdrop: large private capital-market operations room overlooking a fictional Rhine metropolis; no recognizable real landmark or copied photograph\nSubject: environment and market infrastructure only, no people\nStyle/medium: ultra-realistic cinematic architectural visualization, AAA strategy game environment, physically plausible contemporary materials, serious and expensive, not a UI mockup\nComposition/framing: wide 16:9 establishing view; calm darker negative space through the left and central foreground for HTML interface overlays; strongest glass architecture, abstract data reflections and city depth toward the upper-right; clean perspective; safe mobile crop through the center\nLighting/mood: low-key institutional trading atmosphere, controlled volumetric haze, restrained electric-cyan market reflections, sparse champagne-gold practical edge lights, high-stakes but calm\nColor palette: 85 percent obsidian black, carbon and graphite; sparse electric cyan; satin royal gold and champagne highlights; no other saturated colors\nMaterials/textures: smoked glass, dark titanium, brushed steel, black stone, fine metal mesh, realistic microtexture and reflections\nConstraints: no text, no numbers, no logos, no watermark, no floating UI, no readable charts, no people, no weapons, no generic office stock-photo look, original fictional architecture, usable behind accessible web UI\nAvoid: neon overload, blue-dominant wash, purple, cartoon sci-fi, fantasy holograms, trading-floor crowd, visible brand terminals, fake text, flat illustration, bright white office lighting",
+  "reference_images": [],
+  "notes": [
+    "Accepted first built-in generation attempt for the Visual Implementation Run.",
+    "The controlled data wall, titanium desks and Rhine-city depth establish a bespoke institutional Exchange identity.",
+    "The image contains no people, readable text, logos, weapons or identifiable real-world authority marks."
+  ],
+  "provider": "codex-built-in",
+  "license": "project-owned-generated-asset",
+  "provenance": {
+    "source": "codex-built-in-image-generation",
+    "thread": "019fbcc9-ef84-7a11-800a-125a47b84b04"
+  }
+}

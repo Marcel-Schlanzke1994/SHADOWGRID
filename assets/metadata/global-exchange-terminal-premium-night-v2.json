@@ -1,0 +1,250 @@
+{
+  "asset_id": "global-exchange-terminal-premium-night-v2",
+  "manifest_order": 899,
+  "category": "global",
+  "batch": "global-backgrounds",
+  "city": null,
+  "variant": null,
+  "gameplay_state": "normal",
+  "aspect_ratio": "16:9",
+  "width": 2048,
+  "height": 1152,
+  "source_type": "generated",
+  "provider": "codex-built-in",
+  "model": "built-in-image-generator",
+  "prompt_file": "assets/prompts/global-exchange-terminal-premium-night-v2.txt",
+  "prompt_version": "2.0.0",
+  "style_version": "2.0.0",
+  "seed": 100899,
+  "content_hash": "6894453e8ca82098126e752ae7628bcbe9325c46c6d57cd94c87dca5320a0748",
+  "source_file": "assets/source/global/global-exchange-terminal-premium-night-v2.png",
+  "production_files": [
+    {
+      "path": "assets/production/avif/global-exchange-terminal-premium-night-v2-320.avif",
+      "bytes": 4737,
+      "sha256": "e8b203641f6e5031a7d497d76569d6e1b3395d495f5bf28adfc341b66d39f439"
+    },
+    {
+      "path": "assets/production/webp/global-exchange-terminal-premium-night-v2-320.webp",
+      "bytes": 4190,
+      "sha256": "3fecd215b14de0bdaa458defd32f3d5ae2c8efaa341ac9aedd38934a81f62f94"
+    },
+    {
+      "path": "assets/production/avif/global-exchange-terminal-premium-night-v2-640.avif",
+      "bytes": 14422,
+      "sha256": "4229f4cae6496a23b7864f9c67b68434bb187ee49fc1a5c1f88bf8fa57889d1f"
+    },
+    {
+      "path": "assets/production/webp/global-exchange-terminal-premium-night-v2-640.webp",
+      "bytes": 13250,
+      "sha256": "0ee3e101d2a888df2fec0f45e06f788094330b2aa3f67fd4546a34c219ba2f91"
+    },
+    {
+      "path": "assets/production/avif/global-exchange-terminal-premium-night-v2-960.avif",
+      "bytes": 35707,
+      "sha256": "b7392fbbd10f72286155ac984b2275dfc92915dd4b39b3c517bb441787235dd4"
+    },
+    {
+      "path": "assets/production/webp/global-exchange-terminal-premium-night-v2-960.webp",
+      "bytes": 31876,
+      "sha256": "a2b3d8bd143847ab4156ba7e20d1b1e094d7f9adeab8d6f0b13147b3f3c4117b"
+    },
+    {
+      "path": "assets/production/avif/global-exchange-terminal-premium-night-v2-1280.avif",
+      "bytes": 58350,
+      "sha256": "5f6956b8df68f10f9999217175bc625c1a35b1d3387e10087b7df7ce29d90a09"
+    },
+    {
+      "path": "assets/production/webp/global-exchange-terminal-premium-night-v2-1280.webp",
+      "bytes": 49962,
+      "sha256": "9cc7e89eb0f94c85101f828c58dccc41736d71fb2707945f2f11ececc43f097a"
+    },
+    {
+      "path": "assets/production/avif/global-exchange-terminal-premium-night-v2-1920.avif",
+      "bytes": 108248,
+      "sha256": "243dcbdc5f1fd5a5ad47da4cf4c79d877ec7a1e9fc4afecec42dbc905043036f"
+    },
+    {
+      "path": "assets/production/webp/global-exchange-terminal-premium-night-v2-1920.webp",
+      "bytes": 87066,
+      "sha256": "66f7038a4376e76283bcf7537691c92189c9265126dfa8fd3d4a19e71be4bb02"
+    },
+    {
+      "path": "assets/production/avif/global-exchange-terminal-premium-night-v2-2560.avif",
+      "bytes": 153749,
+      "sha256": "ae00ef79964bcb16c03ff79870275f8b919f6d7f6c90b53c67f1fee5ec8c94f6"
+    },
+    {
+      "path": "assets/production/webp/global-exchange-terminal-premium-night-v2-2560.webp",
+      "bytes": 118518,
+      "sha256": "7f306da71494b03f5e53f195444bd32d3eac81c2217c52b0f18a8df6b67ee279"
+    },
+    {
+      "path": "assets/production/avif/global-exchange-terminal-premium-night-v2-3840.avif",
+      "bytes": 255673,
+      "sha256": "f20ed64008046cfdfc3a67579120118435e4fd4c38c15a02624afc2e60da1f9d"
+    },
+    {
+      "path": "assets/production/webp/global-exchange-terminal-premium-night-v2-3840.webp",
+      "bytes": 195976,
+      "sha256": "8f0ff22e659bf8ccad3d6bc72dafa5ea9ffd0c5f93cee5734b2f2b62a1454691"
+    },
+    {
+      "path": "assets/production/png/global-exchange-terminal-premium-night-v2-1280.png",
+      "bytes": 1579834,
+      "sha256": "700822b2529abe23901644d40e35f974767025fae09707b468371daf7726080e"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "apps/web/public/assets/global/global-exchange-terminal-premium-night-v2-320.avif",
+      "bytes": 4737,
+      "sha256": "e8b203641f6e5031a7d497d76569d6e1b3395d495f5bf28adfc341b66d39f439"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-exchange-terminal-premium-night-v2-320.webp",
+      "bytes": 4190,
+      "sha256": "3fecd215b14de0bdaa458defd32f3d5ae2c8efaa341ac9aedd38934a81f62f94"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-exchange-terminal-premium-night-v2-640.avif",
+      "bytes": 14422,
+      "sha256": "4229f4cae6496a23b7864f9c67b68434bb187ee49fc1a5c1f88bf8fa57889d1f"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-exchange-terminal-premium-night-v2-640.webp",
+      "bytes": 13250,
+      "sha256": "0ee3e101d2a888df2fec0f45e06f788094330b2aa3f67fd4546a34c219ba2f91"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-exchange-terminal-premium-night-v2-960.avif",
+      "bytes": 35707,
+      "sha256": "b7392fbbd10f72286155ac984b2275dfc92915dd4b39b3c517bb441787235dd4"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-exchange-terminal-premium-night-v2-960.webp",
+      "bytes": 31876,
+      "sha256": "a2b3d8bd143847ab4156ba7e20d1b1e094d7f9adeab8d6f0b13147b3f3c4117b"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-exchange-terminal-premium-night-v2-1280.avif",
+      "bytes": 58350,
+      "sha256": "5f6956b8df68f10f9999217175bc625c1a35b1d3387e10087b7df7ce29d90a09"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-exchange-terminal-premium-night-v2-1280.webp",
+      "bytes": 49962,
+      "sha256": "9cc7e89eb0f94c85101f828c58dccc41736d71fb2707945f2f11ececc43f097a"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-exchange-terminal-premium-night-v2-1920.avif",
+      "bytes": 108248,
+      "sha256": "243dcbdc5f1fd5a5ad47da4cf4c79d877ec7a1e9fc4afecec42dbc905043036f"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-exchange-terminal-premium-night-v2-1920.webp",
+      "bytes": 87066,
+      "sha256": "66f7038a4376e76283bcf7537691c92189c9265126dfa8fd3d4a19e71be4bb02"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-exchange-terminal-premium-night-v2-2560.avif",
+      "bytes": 153749,
+      "sha256": "ae00ef79964bcb16c03ff79870275f8b919f6d7f6c90b53c67f1fee5ec8c94f6"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-exchange-terminal-premium-night-v2-2560.webp",
+      "bytes": 118518,
+      "sha256": "7f306da71494b03f5e53f195444bd32d3eac81c2217c52b0f18a8df6b67ee279"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-exchange-terminal-premium-night-v2-3840.avif",
+      "bytes": 255673,
+      "sha256": "f20ed64008046cfdfc3a67579120118435e4fd4c38c15a02624afc2e60da1f9d"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-exchange-terminal-premium-night-v2-3840.webp",
+      "bytes": 195976,
+      "sha256": "8f0ff22e659bf8ccad3d6bc72dafa5ea9ffd0c5f93cee5734b2f2b62a1454691"
+    },
+    {
+      "path": "apps/web/public/assets/global/global-exchange-terminal-premium-night-v2-1280.png",
+      "bytes": 1579834,
+      "sha256": "700822b2529abe23901644d40e35f974767025fae09707b468371daf7726080e"
+    },
+    {
+      "path": "apps/web/public/assets/library/global-exchange-terminal-premium-night-v2.webp",
+      "bytes": 4190,
+      "sha256": "3fecd215b14de0bdaa458defd32f3d5ae2c8efaa341ac9aedd38934a81f62f94"
+    },
+    {
+      "path": "apps/mobile/assets/library/global-exchange-terminal-premium-night-v2.webp",
+      "bytes": 4190,
+      "sha256": "3fecd215b14de0bdaa458defd32f3d5ae2c8efaa341ac9aedd38934a81f62f94"
+    }
+  ],
+  "contains_text": false,
+  "contains_real_people": false,
+  "contains_real_logos": false,
+  "moderation_status": "approved",
+  "quality_score": 96.7,
+  "quality_status": "approved",
+  "review_status": "codex-visual-approved",
+  "visual_review": {
+    "realism": 98,
+    "style_consistency": 99,
+    "composition": 97,
+    "material_quality": 99,
+    "lighting_quality": 98,
+    "architecture_plausibility": 96,
+    "ui_suitability": 97,
+    "mobile_suitability": 86,
+    "originality": 97,
+    "safety_compliance": 100,
+    "accepted_prompt": "Use case: stylized-concept\nAsset type: SHADOWGRID Exchange Terminal background, 16:9 responsive game environment\nPrimary request: an ultra-premium institutional trading command floor inside a fictional German high-rise at night, designed for a serious economic strategy game; dark titanium trading desks, smoked glass architecture, an abstract market-data light wall with no readable content, subtle depth layers and disciplined executive luxury\nScene/backdrop: large private capital-market operations room overlooking a fictional Rhine metropolis; no recognizable real landmark or copied photograph\nSubject: environment and market infrastructure only, no people\nStyle/medium: ultra-realistic cinematic architectural visualization, AAA strategy game environment, physically plausible contemporary materials, serious and expensive, not a UI mockup\nComposition/framing: wide 16:9 establishing view; calm darker negative space through the left and central foreground for HTML interface overlays; strongest glass architecture, abstract data reflections and city depth toward the upper-right; clean perspective; safe mobile crop through the center\nLighting/mood: low-key institutional trading atmosphere, controlled volumetric haze, restrained electric-cyan market reflections, sparse champagne-gold practical edge lights, high-stakes but calm\nColor palette: 85 percent obsidian black, carbon and graphite; sparse electric cyan; satin royal gold and champagne highlights; no other saturated colors\nMaterials/textures: smoked glass, dark titanium, brushed steel, black stone, fine metal mesh, realistic microtexture and reflections\nConstraints: no text, no numbers, no logos, no watermark, no floating UI, no readable charts, no people, no weapons, no generic office stock-photo look, original fictional architecture, usable behind accessible web UI\nAvoid: neon overload, blue-dominant wash, purple, cartoon sci-fi, fantasy holograms, trading-floor crowd, visible brand terminals, fake text, flat illustration, bright white office lighting",
+    "reference_images": [],
+    "notes": [
+      "Accepted first built-in generation attempt for the Visual Implementation Run.",
+      "The controlled data wall, titanium desks and Rhine-city depth establish a bespoke institutional Exchange identity.",
+      "The image contains no people, readable text, logos, weapons or identifiable real-world authority marks."
+    ],
+    "provider": "codex-built-in",
+    "license": "project-owned-generated-asset",
+    "provenance": {
+      "source": "codex-built-in-image-generation",
+      "thread": "019fbcc9-ef84-7a11-800a-125a47b84b04"
+    }
+  },
+  "technical_validation": {
+    "ok": true,
+    "issues": [],
+    "technical": {
+      "width": 2048,
+      "height": 1152,
+      "format": "png",
+      "color_space": "srgb",
+      "has_alpha": false,
+      "bytes": 3765023
+    }
+  },
+  "focal_point": {
+    "x": 0.62,
+    "y": 0.44
+  },
+  "safe_area": {
+    "x": 0.08,
+    "y": 0.08,
+    "width": 0.84,
+    "height": 0.76
+  },
+  "created_at": "2026-08-01T21:19:06.234Z",
+  "license": "project-owned-generated-asset",
+  "provenance": {
+    "source": "codex-built-in-image-generation",
+    "thread": "019fbcc9-ef84-7a11-800a-125a47b84b04"
+  },
+  "notes": [
+    "Accepted first built-in generation attempt for the Visual Implementation Run.",
+    "The controlled data wall, titanium desks and Rhine-city depth establish a bespoke institutional Exchange identity.",
+    "The image contains no people, readable text, logos, weapons or identifiable real-world authority marks."
+  ]
+}

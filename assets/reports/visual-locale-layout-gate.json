@@ -1,0 +1,1956 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-01T23:15:44.880Z",
+  "localeCount": 36,
+  "catalogMode": "layout-stress-with-configured-locale-metadata",
+  "routeCount": 3,
+  "profileCount": 2,
+  "resultCount": 216,
+  "passed": true,
+  "results": [
+    {
+      "locale": "en",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "en",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "en",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "zh-Hans",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "zh-Hans",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "zh-Hans",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "es",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "es",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "es",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "hi",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "hi",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "hi",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "fr",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "fr",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "fr",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ar",
+      "direction": "rtl",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ar",
+      "direction": "rtl",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ar",
+      "direction": "rtl",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "bn",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "bn",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "bn",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "pt-BR",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "pt-BR",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "pt-BR",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "id",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "id",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "id",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ur",
+      "direction": "rtl",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ur",
+      "direction": "rtl",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ur",
+      "direction": "rtl",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ru",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ru",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ru",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "de",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "de",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "de",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ja",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ja",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ja",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "pcm",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "pcm",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "pcm",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "arz",
+      "direction": "rtl",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "arz",
+      "direction": "rtl",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "arz",
+      "direction": "rtl",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "mr",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "mr",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "mr",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "vi",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "vi",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "vi",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "te",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "te",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "te",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "sw",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "sw",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "sw",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ha",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ha",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ha",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "tr",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "tr",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "tr",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "pnb",
+      "direction": "rtl",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "pnb",
+      "direction": "rtl",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "pnb",
+      "direction": "rtl",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "fil-PH",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "fil-PH",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "fil-PH",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ta",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ta",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ta",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "yue-Hant",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "yue-Hant",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "yue-Hant",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "wuu-Hans",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "wuu-Hans",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "wuu-Hans",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "fa-IR",
+      "direction": "rtl",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "fa-IR",
+      "direction": "rtl",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "fa-IR",
+      "direction": "rtl",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ko",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ko",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ko",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "am",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "am",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "am",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "th",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "th",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "th",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "jv",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "jv",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "jv",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "it",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "it",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "it",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "gu",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "gu",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "gu",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "kn",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "kn",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "kn",
+      "direction": "ltr",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "apc",
+      "direction": "rtl",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "apc",
+      "direction": "rtl",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "apc",
+      "direction": "rtl",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "apd",
+      "direction": "rtl",
+      "profile": "desktop",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "apd",
+      "direction": "rtl",
+      "profile": "desktop",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "apd",
+      "direction": "rtl",
+      "profile": "desktop",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "en",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "en",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "en",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "zh-Hans",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "zh-Hans",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "zh-Hans",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "es",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "es",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "es",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "hi",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "hi",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "hi",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "fr",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "fr",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "fr",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ar",
+      "direction": "rtl",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ar",
+      "direction": "rtl",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ar",
+      "direction": "rtl",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "bn",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "bn",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "bn",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "pt-BR",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "pt-BR",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "pt-BR",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "id",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "id",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "id",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ur",
+      "direction": "rtl",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ur",
+      "direction": "rtl",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ur",
+      "direction": "rtl",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ru",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ru",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ru",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "de",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "de",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "de",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ja",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ja",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ja",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "pcm",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "pcm",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "pcm",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "arz",
+      "direction": "rtl",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "arz",
+      "direction": "rtl",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "arz",
+      "direction": "rtl",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "mr",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "mr",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "mr",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "vi",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "vi",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "vi",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "te",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "te",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "te",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "sw",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "sw",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "sw",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ha",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ha",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ha",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "tr",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "tr",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "tr",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "pnb",
+      "direction": "rtl",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "pnb",
+      "direction": "rtl",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "pnb",
+      "direction": "rtl",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "fil-PH",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "fil-PH",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "fil-PH",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ta",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ta",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ta",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "yue-Hant",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "yue-Hant",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "yue-Hant",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "wuu-Hans",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "wuu-Hans",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "wuu-Hans",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "fa-IR",
+      "direction": "rtl",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "fa-IR",
+      "direction": "rtl",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "fa-IR",
+      "direction": "rtl",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ko",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ko",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "ko",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "am",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "am",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "am",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "th",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "th",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "th",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "jv",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "jv",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "jv",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "it",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "it",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "it",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "gu",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "gu",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "gu",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "kn",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "kn",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "kn",
+      "direction": "ltr",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "apc",
+      "direction": "rtl",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "apc",
+      "direction": "rtl",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "apc",
+      "direction": "rtl",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "apd",
+      "direction": "rtl",
+      "profile": "mobile",
+      "route": "/",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "apd",
+      "direction": "rtl",
+      "profile": "mobile",
+      "route": "/command",
+      "renderState": "loading",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    },
+    {
+      "locale": "apd",
+      "direction": "rtl",
+      "profile": "mobile",
+      "route": "/exchange",
+      "renderState": "ready",
+      "horizontalOverflow": false,
+      "clippedElements": []
+    }
+  ]
+}

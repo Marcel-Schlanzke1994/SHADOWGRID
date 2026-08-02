@@ -117,6 +117,23 @@ export function LandingPage() {
             {t("register")}
           </Link>
         </div>
+        <ul
+          className="landing-capability-rail"
+          aria-label={t("primaryNavigation")}
+        >
+          <li>
+            <span aria-hidden="true">01</span>
+            <strong>{t("navBusinesses")}</strong>
+          </li>
+          <li>
+            <span aria-hidden="true">02</span>
+            <strong>{t("navExchange")}</strong>
+          </li>
+          <li>
+            <span aria-hidden="true">03</span>
+            <strong>{t("navIntelligence")}</strong>
+          </li>
+        </ul>
         <small>{t("fictionalNotice")}</small>
       </section>
       <div className="hero-grid" aria-hidden="true">

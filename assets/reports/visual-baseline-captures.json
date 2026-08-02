@@ -1,0 +1,451 @@
+{
+  "schema_version": 1,
+  "source": "functioning-local-application",
+  "seeded_account": "advanced-demo-persona",
+  "captures": [
+    {
+      "viewport": "desktop",
+      "route": "/",
+      "file": "assets/previews/visual-run/baseline/desktop/landing.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/login",
+      "file": "assets/previews/visual-run/baseline/desktop/login.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/register",
+      "file": "assets/previews/visual-run/baseline/desktop/register.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/forgot-password",
+      "file": "assets/previews/visual-run/baseline/desktop/forgot-password.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/worlds",
+      "file": "assets/previews/visual-run/baseline/desktop/worlds.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/tutorial",
+      "file": "assets/previews/visual-run/baseline/desktop/tutorial.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/command",
+      "file": "assets/previews/visual-run/baseline/desktop/command.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/engagement",
+      "file": "assets/previews/visual-run/baseline/desktop/engagement.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/legacy",
+      "file": "assets/previews/visual-run/baseline/desktop/legacy.png",
+      "error_state": true
+    },
+    {
+      "viewport": "desktop",
+      "route": "/city",
+      "file": "assets/previews/visual-run/baseline/desktop/city.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/germany",
+      "file": "assets/previews/visual-run/baseline/desktop/germany.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/companies",
+      "file": "assets/previews/visual-run/baseline/desktop/companies.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/exchange",
+      "file": "assets/previews/visual-run/baseline/desktop/exchange.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/facilities",
+      "file": "assets/previews/visual-run/baseline/desktop/facilities.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/specialists",
+      "file": "assets/previews/visual-run/baseline/desktop/specialists.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/operations",
+      "file": "assets/previews/visual-run/baseline/desktop/operations.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/network",
+      "file": "assets/previews/visual-run/baseline/desktop/network.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/intelligence",
+      "file": "assets/previews/visual-run/baseline/desktop/intelligence.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/investigation",
+      "file": "assets/previews/visual-run/baseline/desktop/investigation.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/cartels",
+      "file": "assets/previews/visual-run/baseline/desktop/cartels.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/diplomacy",
+      "file": "assets/previews/visual-run/baseline/desktop/diplomacy.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/pvp",
+      "file": "assets/previews/visual-run/baseline/desktop/pvp.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/territories",
+      "file": "assets/previews/visual-run/baseline/desktop/territories.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/wars",
+      "file": "assets/previews/visual-run/baseline/desktop/wars.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/alliances",
+      "file": "assets/previews/visual-run/baseline/desktop/alliances.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/communications",
+      "file": "assets/previews/visual-run/baseline/desktop/communications.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/market",
+      "file": "assets/previews/visual-run/baseline/desktop/market.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/contracts",
+      "file": "assets/previews/visual-run/baseline/desktop/contracts.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/finance",
+      "file": "assets/previews/visual-run/baseline/desktop/finance.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/bonds",
+      "file": "assets/previews/visual-run/baseline/desktop/bonds.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/real-estate",
+      "file": "assets/previews/visual-run/baseline/desktop/real-estate.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/research",
+      "file": "assets/previews/visual-run/baseline/desktop/research.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/news",
+      "file": "assets/previews/visual-run/baseline/desktop/news.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/rankings",
+      "file": "assets/previews/visual-run/baseline/desktop/rankings.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/settings",
+      "file": "assets/previews/visual-run/baseline/desktop/settings.png",
+      "error_state": false
+    },
+    {
+      "viewport": "desktop",
+      "route": "/admin",
+      "file": "assets/previews/visual-run/baseline/desktop/admin.png",
+      "error_state": true
+    },
+    {
+      "viewport": "desktop",
+      "route": "/moderation",
+      "file": "assets/previews/visual-run/baseline/desktop/moderation.png",
+      "error_state": true
+    },
+    {
+      "viewport": "mobile",
+      "route": "/",
+      "file": "assets/previews/visual-run/baseline/mobile/landing.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/login",
+      "file": "assets/previews/visual-run/baseline/mobile/login.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/register",
+      "file": "assets/previews/visual-run/baseline/mobile/register.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/forgot-password",
+      "file": "assets/previews/visual-run/baseline/mobile/forgot-password.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/worlds",
+      "file": "assets/previews/visual-run/baseline/mobile/worlds.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/tutorial",
+      "file": "assets/previews/visual-run/baseline/mobile/tutorial.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/command",
+      "file": "assets/previews/visual-run/baseline/mobile/command.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/engagement",
+      "file": "assets/previews/visual-run/baseline/mobile/engagement.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/legacy",
+      "file": "assets/previews/visual-run/baseline/mobile/legacy.png",
+      "error_state": true
+    },
+    {
+      "viewport": "mobile",
+      "route": "/city",
+      "file": "assets/previews/visual-run/baseline/mobile/city.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/germany",
+      "file": "assets/previews/visual-run/baseline/mobile/germany.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/companies",
+      "file": "assets/previews/visual-run/baseline/mobile/companies.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/exchange",
+      "file": "assets/previews/visual-run/baseline/mobile/exchange.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/facilities",
+      "file": "assets/previews/visual-run/baseline/mobile/facilities.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/specialists",
+      "file": "assets/previews/visual-run/baseline/mobile/specialists.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/operations",
+      "file": "assets/previews/visual-run/baseline/mobile/operations.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/network",
+      "file": "assets/previews/visual-run/baseline/mobile/network.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/intelligence",
+      "file": "assets/previews/visual-run/baseline/mobile/intelligence.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/investigation",
+      "file": "assets/previews/visual-run/baseline/mobile/investigation.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/cartels",
+      "file": "assets/previews/visual-run/baseline/mobile/cartels.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/diplomacy",
+      "file": "assets/previews/visual-run/baseline/mobile/diplomacy.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/pvp",
+      "file": "assets/previews/visual-run/baseline/mobile/pvp.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/territories",
+      "file": "assets/previews/visual-run/baseline/mobile/territories.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/wars",
+      "file": "assets/previews/visual-run/baseline/mobile/wars.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/alliances",
+      "file": "assets/previews/visual-run/baseline/mobile/alliances.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/communications",
+      "file": "assets/previews/visual-run/baseline/mobile/communications.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/market",
+      "file": "assets/previews/visual-run/baseline/mobile/market.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/contracts",
+      "file": "assets/previews/visual-run/baseline/mobile/contracts.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/finance",
+      "file": "assets/previews/visual-run/baseline/mobile/finance.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/bonds",
+      "file": "assets/previews/visual-run/baseline/mobile/bonds.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/real-estate",
+      "file": "assets/previews/visual-run/baseline/mobile/real-estate.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/research",
+      "file": "assets/previews/visual-run/baseline/mobile/research.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/news",
+      "file": "assets/previews/visual-run/baseline/mobile/news.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/rankings",
+      "file": "assets/previews/visual-run/baseline/mobile/rankings.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/settings",
+      "file": "assets/previews/visual-run/baseline/mobile/settings.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/admin",
+      "file": "assets/previews/visual-run/baseline/mobile/admin.png",
+      "error_state": true
+    },
+    {
+      "viewport": "mobile",
+      "route": "/moderation",
+      "file": "assets/previews/visual-run/baseline/mobile/moderation.png",
+      "error_state": true
+    }
+  ]
+}

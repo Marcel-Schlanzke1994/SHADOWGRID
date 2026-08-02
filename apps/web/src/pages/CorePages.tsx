@@ -804,7 +804,7 @@ export function BusinessesPage() {
     }
   };
   return (
-    <div className="page">
+    <div className="page page--companies">
       <header className="page-header">
         <h1>{t("businessesTitle")}</h1>
         <Link to="/facilities" className="text-link">
@@ -1203,7 +1203,7 @@ export function FacilitiesPage() {
     "compliance_office",
   ];
   return (
-    <div className="page">
+    <div className="page page--companies">
       <header className="page-header">
         <h1>{t("facilitiesTitle")}</h1>
       </header>
@@ -1353,7 +1353,7 @@ export function SpecialistsPage() {
     }
   };
   return (
-    <div className="page">
+    <div className="page page--companies">
       <header className="page-header">
         <h1>{t("specialistsTitle")}</h1>
       </header>

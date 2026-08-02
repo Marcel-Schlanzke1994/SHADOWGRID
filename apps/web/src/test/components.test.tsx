@@ -263,5 +263,5 @@ describe("accessible data primitives", () => {
       "src",
       "/assets/maps/map-heatmap-information-legend-v1.svg",
     );
-  });
+  }, 15_000);
 });

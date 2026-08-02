@@ -1,7 +1,7 @@
 {
   "schema": "shadowgrid/runtime-asset-library/v1",
-  "generated_at": "2026-08-01T19:05:15.236Z",
-  "asset_count": 898,
+  "generated_at": "2026-08-01T21:20:35.507Z",
+  "asset_count": 899,
   "assets": [
     {
       "asset_id": "style-proof-urban-control-center-day-v1",
@@ -16156,6 +16156,24 @@
       "web_path": "apps/web/public/assets/library/global-command-center-premium-day-v2.webp",
       "web_url": "/assets/library/global-command-center-premium-day-v2.webp",
       "mobile_path": "apps/mobile/assets/library/global-command-center-premium-day-v2.webp",
+      "focal_point": {
+        "x": 0.62,
+        "y": 0.44
+      },
+      "safe_area": {
+        "x": 0.08,
+        "y": 0.08,
+        "width": 0.84,
+        "height": 0.76
+      }
+    },
+    {
+      "asset_id": "global-exchange-terminal-premium-night-v2",
+      "category": "global",
+      "batch": "global-backgrounds",
+      "web_path": "apps/web/public/assets/library/global-exchange-terminal-premium-night-v2.webp",
+      "web_url": "/assets/library/global-exchange-terminal-premium-night-v2.webp",
+      "mobile_path": "apps/mobile/assets/library/global-exchange-terminal-premium-night-v2.webp",
       "focal_point": {
         "x": 0.62,
         "y": 0.44

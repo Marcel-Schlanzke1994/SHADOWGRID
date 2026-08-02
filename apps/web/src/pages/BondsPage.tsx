@@ -138,7 +138,7 @@ export function BondsPage() {
   );
 
   return (
-    <div className="page">
+    <div className="page page--finance">
       <header className="page-header">
         <h1>{t("bondsTitle")}</h1>
         <p>{t("bondsDescription")}</p>

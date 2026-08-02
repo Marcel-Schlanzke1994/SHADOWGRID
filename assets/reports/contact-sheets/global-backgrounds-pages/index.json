@@ -1,8 +1,8 @@
 {
   "schema": "shadowgrid/contact-sheet-pages/v1",
   "batch": "global-backgrounds",
-  "generated_at": "2026-08-01T19:02:55.605Z",
-  "asset_count": 18,
+  "generated_at": "2026-08-01T21:19:26.136Z",
+  "asset_count": 19,
   "page_size": 18,
   "pages": [
     {
@@ -27,6 +27,13 @@
         "global-offline-v1",
         "global-command-center-premium-night-v2",
         "global-command-center-premium-day-v2"
+      ]
+    },
+    {
+      "page": 2,
+      "path": "assets/reports/contact-sheets/global-backgrounds-pages/page-002.png",
+      "assets": [
+        "global-exchange-terminal-premium-night-v2"
       ]
     }
   ]

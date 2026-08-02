@@ -112,6 +112,9 @@ export const StateView = ({
         className={`state state--error ${offline ? "state--offline" : ""}`}
         role="alert"
       >
+        <span className="state__emblem state__emblem--error" aria-hidden="true">
+          <span />
+        </span>
         <h2>{t(offline ? "offlineTitle" : "errorTitle")}</h2>
         <p>{offline ? t("offlineBody") : t(errorKey)}</p>
         {apiError?.requestId && (
@@ -134,7 +137,10 @@ export const StateView = ({
   }
   if (empty)
     return (
-      <div className="state">
+      <div className="state state--empty" role="status">
+        <span className="state__emblem" aria-hidden="true">
+          <span />
+        </span>
         <p>{t("empty")}</p>
       </div>
     );

@@ -1,0 +1,29 @@
+Use case: stylized-concept
+Asset type: global asset for a cross-platform strategy game
+Primary request: Create a premium ultra-realistic visual asset for the multiplayer strategy game SHADOWGRID.
+Scene/backdrop: Fictional contemporary German urban environment, geographically and architecturally plausible.
+Subject: Premium institutional exchange terminal, night
+Category: global.
+Gameplay state: normal.
+Style/medium: contemporary Germany; high-end urban economic strategy simulation; cinematic corporate thriller atmosphere; subtle cyber-noir; physically plausible glass, concrete, steel, stone and asphalt; original scene, not a known photograph, film frame, game screenshot or branded design.
+Composition/framing: Wide cinematic establishing composition, human eye-level or plausible elevated viewpoint, controlled depth, and calm negative space on the left for user-interface overlays.
+Lighting/mood: realistic urban night with natural cinematic lighting, realistic reflections and restrained atmosphere.
+Color palette: black and anthracite framing, cool neutral blue-gray, restrained warm gold accents; warning red only if the gameplay state requires danger.
+Materials/textures: physically plausible dark glass, brushed metal, concrete, stone and asphalt with realistic scale.
+Constraints: no embedded captions or interface text; no real brands; no real authorities; no readable plates or addresses; no recognizable private people; no copied landmark-photo angle; space reserved for UI overlays; suitable for desktop and mobile crops; output aspect ratio 16:9.
+Avoid: Do not include: written words, captions, watermarks, signatures, existing game logos, real company logos, real police insignia, real government insignia, readable private license plates, readable private addresses, recognizable private individuals, celebrities, politicians, real criminal organizations, real gang symbols, extremist symbols, Nazi symbols, graphic violence, visible illegal instructions, firearms as the central subject, drug production, crime tutorials, copied photography, copied landmarks from an identical photo angle, fantasy skyscrapers, impossible architecture, distorted buildings, duplicate people, deformed hands, unrealistic vehicles, floating objects, overexposed neon, cartoon style, anime style, comic style, plastic mobile-game appearance, blurry image, low resolution, compression artifacts, unreadable fake text.
+Seed reference: 100899. Style lock: 1.0.0.
+
+Accepted generation prompt:
+Use case: stylized-concept
+Asset type: SHADOWGRID Exchange Terminal background, 16:9 responsive game environment
+Primary request: an ultra-premium institutional trading command floor inside a fictional German high-rise at night, designed for a serious economic strategy game; dark titanium trading desks, smoked glass architecture, an abstract market-data light wall with no readable content, subtle depth layers and disciplined executive luxury
+Scene/backdrop: large private capital-market operations room overlooking a fictional Rhine metropolis; no recognizable real landmark or copied photograph
+Subject: environment and market infrastructure only, no people
+Style/medium: ultra-realistic cinematic architectural visualization, AAA strategy game environment, physically plausible contemporary materials, serious and expensive, not a UI mockup
+Composition/framing: wide 16:9 establishing view; calm darker negative space through the left and central foreground for HTML interface overlays; strongest glass architecture, abstract data reflections and city depth toward the upper-right; clean perspective; safe mobile crop through the center
+Lighting/mood: low-key institutional trading atmosphere, controlled volumetric haze, restrained electric-cyan market reflections, sparse champagne-gold practical edge lights, high-stakes but calm
+Color palette: 85 percent obsidian black, carbon and graphite; sparse electric cyan; satin royal gold and champagne highlights; no other saturated colors
+Materials/textures: smoked glass, dark titanium, brushed steel, black stone, fine metal mesh, realistic microtexture and reflections
+Constraints: no text, no numbers, no logos, no watermark, no floating UI, no readable charts, no people, no weapons, no generic office stock-photo look, original fictional architecture, usable behind accessible web UI
+Avoid: neon overload, blue-dominant wash, purple, cartoon sci-fi, fantasy holograms, trading-floor crowd, visible brand terminals, fake text, flat illustration, bright white office lighting

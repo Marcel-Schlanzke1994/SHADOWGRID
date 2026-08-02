@@ -38,6 +38,7 @@ import {
   Status,
 } from "../components";
 import { formatCents, formatDate, formatNumber } from "../format";
+import { GlobalStaticBackdrop } from "../GlobalBackdrop";
 
 const humanize = translateGameValue;
 
@@ -450,6 +451,10 @@ export function ExchangePage() {
 
   return (
     <div className="page page--exchange">
+      <GlobalStaticBackdrop
+        assetId="global-exchange-terminal-premium-night-v2"
+        variant="exchange"
+      />
       <header className="page-header">
         <p className="eyebrow">{t("exchangeEyebrow")}</p>
         <h1>{t("exchangeTitle")}</h1>
@@ -481,6 +486,29 @@ export function ExchangePage() {
           <StateView error={actionError}>
             <></>
           </StateView>
+        )}
+
+        {listings.data && listings.data.length > 0 && (
+          <nav
+            className="exchange-market-rail"
+            aria-label={t("exchangeListings")}
+          >
+            {listings.data.slice(0, 4).map((listing) => (
+              <Link
+                to={`/exchange/${listing.id}`}
+                aria-current={selected?.id === listing.id ? "page" : undefined}
+                key={listing.id}
+              >
+                <span className="exchange-market-rail__symbol">
+                  {listing.symbol}
+                </span>
+                <strong>
+                  {formatCents(listing.last_price_cents, i18n.language)}
+                </strong>
+                <Status value={listing.status} />
+              </Link>
+            ))}
+          </nav>
         )}
 
         <div className="content-grid exchange-overview">

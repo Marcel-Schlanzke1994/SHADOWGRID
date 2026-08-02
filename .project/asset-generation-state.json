@@ -1,15 +1,15 @@
 {
   "project": "shadowgrid",
   "manifest_version": "1.0.0",
-  "total_assets": 898,
-  "completed_assets": 898,
-  "approved_assets": 898,
+  "total_assets": 899,
+  "completed_assets": 899,
+  "approved_assets": 899,
   "review_required_assets": 0,
   "failed_assets": 0,
   "rejected_assets": 0,
   "pending_assets": 0,
   "current_batch": null,
   "current_asset_id": null,
-  "last_completed_asset_id": "global-command-center-premium-day-v2",
-  "updated_at": "2026-08-01T19:33:45.356Z"
+  "last_completed_asset_id": "global-exchange-terminal-premium-night-v2",
+  "updated_at": "2026-08-01T23:42:57.837Z"
 }

@@ -162,7 +162,7 @@ export function ContractsPage() {
     awardBid.error;
 
   return (
-    <div className="page">
+    <div className="page page--finance">
       <header className="page-header">
         <h1>{t("contractsTitle")}</h1>
         <p>{t("contractsDescription")}</p>

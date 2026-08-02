@@ -117,6 +117,43 @@ export function GlobalDayNightBackdrop({
   );
 }
 
+export function GlobalStaticBackdrop({
+  assetId,
+  variant,
+}: {
+  assetId: string;
+  variant: "exchange";
+}) {
+  return (
+    <>
+      <picture
+        className={`domain-backdrop domain-backdrop--${variant}`}
+        aria-hidden="true"
+      >
+        <source
+          type="image/avif"
+          srcSet={globalAssetSrcSet(assetId, "avif")}
+          sizes="100vw"
+        />
+        <source
+          type="image/webp"
+          srcSet={globalAssetSrcSet(assetId, "webp")}
+          sizes="100vw"
+        />
+        <img
+          src={`/assets/global/${assetId}-1280.png`}
+          alt=""
+          decoding="async"
+        />
+      </picture>
+      <div
+        className={`domain-backdrop__shade domain-backdrop__shade--${variant}`}
+        aria-hidden="true"
+      />
+    </>
+  );
+}
+
 export function GlobalStateBackdrop({
   assetId,
   variant,

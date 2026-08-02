@@ -1,0 +1,2167 @@
+{
+  "schema_version": 1,
+  "source_of_truth": {
+    "web_routes": "apps/web/src/App.tsx",
+    "web_components": "apps/web/src/**/*.tsx",
+    "mobile_routes": "apps/mobile/app/**/*.tsx"
+  },
+  "summary": {
+    "web_route_count": 49,
+    "web_screen_count": 39,
+    "web_dynamic_route_count": 7,
+    "web_redirect_count": 3,
+    "mobile_route_count": 10,
+    "exported_component_count": 55,
+    "component_definition_count": 91,
+    "files_with_visual_primitives": 29,
+    "primitive_totals": {
+      "html_button": 116,
+      "html_input": 78,
+      "html_select": 63,
+      "html_textarea": 9,
+      "html_table": 15,
+      "html_dialog": 1,
+      "html_details": 7,
+      "html_svg": 4,
+      "html_progress": 0,
+      "rn_pressable": 5,
+      "rn_text_input": 6,
+      "rn_scroll_view": 9,
+      "rn_flat_list": 0,
+      "rn_modal": 0,
+      "rn_image": 0,
+      "rn_activity_indicator": 4
+    }
+  },
+  "web_routes": [
+    {
+      "path": "/",
+      "component": "LandingPage",
+      "kind": "screen",
+      "protected": false
+    },
+    {
+      "path": "/login",
+      "component": "LoginPage",
+      "kind": "screen",
+      "protected": false
+    },
+    {
+      "path": "/register",
+      "component": "RegisterPage",
+      "kind": "screen",
+      "protected": false
+    },
+    {
+      "path": "/forgot-password",
+      "component": "ForgotPage",
+      "kind": "screen",
+      "protected": false
+    },
+    {
+      "path": "/verify-email",
+      "component": "TokenPage",
+      "kind": "screen",
+      "protected": false
+    },
+    {
+      "path": "/reset-password",
+      "component": "TokenPage",
+      "kind": "screen",
+      "protected": false
+    },
+    {
+      "path": "/worlds",
+      "component": "WorldPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/tutorial",
+      "component": "TutorialPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/command",
+      "component": "DashboardPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/engagement",
+      "component": "EngagementPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/legacy",
+      "component": "LegacyPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/city",
+      "component": "CityPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/city/:districtId",
+      "component": "CityPage",
+      "kind": "dynamic",
+      "protected": true
+    },
+    {
+      "path": "/germany",
+      "component": "GermanyPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/companies",
+      "component": "BusinessesPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/companies/:companyId",
+      "component": "BusinessesPage",
+      "kind": "dynamic",
+      "protected": true
+    },
+    {
+      "path": "/exchange",
+      "component": "ExchangePage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/exchange/:listingId",
+      "component": "ExchangePage",
+      "kind": "dynamic",
+      "protected": true
+    },
+    {
+      "path": "/businesses",
+      "component": null,
+      "kind": "redirect",
+      "protected": true
+    },
+    {
+      "path": "/businesses/:businessId",
+      "component": "BusinessesPage",
+      "kind": "dynamic",
+      "protected": true
+    },
+    {
+      "path": "/facilities",
+      "component": "FacilitiesPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/specialists",
+      "component": "SpecialistsPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/specialists/:specialistId",
+      "component": "SpecialistsPage",
+      "kind": "dynamic",
+      "protected": true
+    },
+    {
+      "path": "/operations",
+      "component": "OperationsPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/operations/:operationId",
+      "component": "OperationsPage",
+      "kind": "dynamic",
+      "protected": true
+    },
+    {
+      "path": "/network",
+      "component": "NetworkPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/intelligence",
+      "component": "IntelligencePage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/investigation",
+      "component": "InvestigationPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/cartels",
+      "component": "CartelsPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/cartels/:cartelId/*",
+      "component": "CartelsPage",
+      "kind": "dynamic",
+      "protected": true
+    },
+    {
+      "path": "/organizations/*",
+      "component": null,
+      "kind": "redirect",
+      "protected": true
+    },
+    {
+      "path": "/diplomacy",
+      "component": "DiplomacyPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/pvp",
+      "component": "PvpPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/territories",
+      "component": "TerritoriesPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/wars",
+      "component": "WarsPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/alliances",
+      "component": "AlliancesPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/communications",
+      "component": "CommunicationsPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/market",
+      "component": "MarketPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/contracts",
+      "component": "ContractsPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/finance",
+      "component": "FinancePage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/bonds",
+      "component": "BondsPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/real-estate",
+      "component": "RealEstatePage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/research",
+      "component": "ResearchPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/news",
+      "component": "NewsPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/rankings",
+      "component": "RankingsPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/settings",
+      "component": "SettingsPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/admin",
+      "component": "AdminPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "/moderation",
+      "component": "ModerationPage",
+      "kind": "screen",
+      "protected": true
+    },
+    {
+      "path": "*",
+      "component": null,
+      "kind": "redirect",
+      "protected": false
+    }
+  ],
+  "mobile_routes": [
+    "/",
+    "/",
+    "/businesses",
+    "/engagement",
+    "/legacy",
+    "/login",
+    "/multiplayer",
+    "/operations",
+    "/organization",
+    "/settings"
+  ],
+  "reusable_components": [
+    {
+      "name": "AdminPage",
+      "file": "apps/web/src/pages/SocialPages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "AlliancesPage",
+      "file": "apps/web/src/pages/MultiplayerPages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "App",
+      "file": "apps/web/src/App.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "BondsPage",
+      "file": "apps/web/src/pages/BondsPage.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "BusinessesPage",
+      "file": "apps/web/src/pages/CorePages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "CartelsPage",
+      "file": "apps/web/src/pages/CartelsPage.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "CityPage",
+      "file": "apps/web/src/pages/CorePages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "CommunicationsPage",
+      "file": "apps/web/src/pages/MultiplayerPages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "ConfirmDialog",
+      "file": "apps/web/src/components.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "ContractsPage",
+      "file": "apps/web/src/pages/ContractsPage.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "DashboardPage",
+      "file": "apps/web/src/pages/CorePages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "DiplomacyPage",
+      "file": "apps/web/src/pages/SocialPages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "EngagementPage",
+      "file": "apps/web/src/pages/EngagementPage.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "ExchangePage",
+      "file": "apps/web/src/pages/ExchangePage.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "FacilitiesPage",
+      "file": "apps/web/src/pages/CorePages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "Field",
+      "file": "apps/web/src/components.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "FinancePage",
+      "file": "apps/web/src/pages/FinancePage.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "ForgotPage",
+      "file": "apps/web/src/pages/PublicPages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "GermanyPage",
+      "file": "apps/web/src/pages/GermanyPage.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "GlobalBackdrop",
+      "file": "apps/web/src/GlobalBackdrop.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "GlobalDayNightBackdrop",
+      "file": "apps/web/src/GlobalBackdrop.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "GlobalStateBackdrop",
+      "file": "apps/web/src/GlobalBackdrop.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "GlobalStaticBackdrop",
+      "file": "apps/web/src/GlobalBackdrop.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "IntelligencePage",
+      "file": "apps/web/src/pages/IntelligencePage.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "IntelPage",
+      "file": "apps/web/src/pages/CorePages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "InvestigationPage",
+      "file": "apps/web/src/pages/CorePages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "LandingPage",
+      "file": "apps/web/src/pages/PublicPages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "Layout",
+      "file": "apps/web/src/Layout.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "LegacyPage",
+      "file": "apps/web/src/pages/LegacyPage.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "LoginPage",
+      "file": "apps/web/src/pages/PublicPages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "MarketPage",
+      "file": "apps/web/src/pages/MultiplayerPages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "Metric",
+      "file": "apps/web/src/components.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "ModerationPage",
+      "file": "apps/web/src/pages/SocialPages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "NetworkPage",
+      "file": "apps/web/src/pages/CorePages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "NewsPage",
+      "file": "apps/web/src/pages/SocialPages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "OperationsPage",
+      "file": "apps/web/src/pages/CorePages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "OrganizationsPage",
+      "file": "apps/web/src/pages/SocialPages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "Panel",
+      "file": "apps/web/src/components.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "Progress",
+      "file": "apps/web/src/components.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "PvpPage",
+      "file": "apps/web/src/pages/MultiplayerPages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "RankingsPage",
+      "file": "apps/web/src/pages/SocialPages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "RealEstatePage",
+      "file": "apps/web/src/pages/RealEstatePage.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "RegisterPage",
+      "file": "apps/web/src/pages/PublicPages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "ResearchPage",
+      "file": "apps/web/src/pages/SocialPages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "SeasonsAdmin",
+      "file": "apps/web/src/pages/SeasonsAdmin.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "SettingsPage",
+      "file": "apps/web/src/pages/SocialPages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "SpecialistsPage",
+      "file": "apps/web/src/pages/CorePages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "StateView",
+      "file": "apps/web/src/components.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "Status",
+      "file": "apps/web/src/components.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "TerritoriesPage",
+      "file": "apps/web/src/pages/MultiplayerPages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "TokenPage",
+      "file": "apps/web/src/pages/PublicPages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "TutorialPage",
+      "file": "apps/web/src/pages/CorePages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "WarsPage",
+      "file": "apps/web/src/pages/MultiplayerPages.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "WorldEventsAdmin",
+      "file": "apps/web/src/pages/WorldEventsAdmin.tsx",
+      "layer": "web"
+    },
+    {
+      "name": "WorldPage",
+      "file": "apps/web/src/pages/CorePages.tsx",
+      "layer": "web"
+    }
+  ],
+  "files": [
+    {
+      "file": "apps/web/src/App.tsx",
+      "exports": [
+        "App"
+      ],
+      "components": [
+        "App",
+        "Protected"
+      ],
+      "classes": [
+        "fullscreen-state"
+      ],
+      "primitives": {
+        "html_button": 0,
+        "html_input": 0,
+        "html_select": 0,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 0,
+      "layer": "web"
+    },
+    {
+      "file": "apps/web/src/GlobalBackdrop.tsx",
+      "exports": [
+        "GlobalBackdrop",
+        "GlobalDayNightBackdrop",
+        "GlobalStaticBackdrop",
+        "GlobalStateBackdrop"
+      ],
+      "components": [
+        "GlobalBackdrop",
+        "GlobalDayNightBackdrop",
+        "GlobalStateBackdrop",
+        "GlobalStaticBackdrop"
+      ],
+      "classes": [],
+      "primitives": {
+        "html_button": 0,
+        "html_input": 0,
+        "html_select": 0,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 0,
+      "layer": "web"
+    },
+    {
+      "file": "apps/web/src/Layout.tsx",
+      "exports": [
+        "Layout"
+      ],
+      "components": [
+        "Layout",
+        "NavGlyph"
+      ],
+      "classes": [
+        "app-shell",
+        "app-shell__ambient",
+        "brand",
+        "brand__logo",
+        "brand__pulse",
+        "button",
+        "button--ghost",
+        "icon-button",
+        "nav-badge",
+        "nav-glyph",
+        "sidebar__rail",
+        "skip-link",
+        "sr-only",
+        "topbar",
+        "topbar__actions",
+        "topbar__signal",
+        "topbar__user"
+      ],
+      "primitives": {
+        "html_button": 2,
+        "html_input": 0,
+        "html_select": 0,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 1,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 3,
+      "layer": "web"
+    },
+    {
+      "file": "apps/web/src/auth.ts",
+      "exports": [],
+      "components": [],
+      "classes": [],
+      "primitives": {
+        "html_button": 0,
+        "html_input": 0,
+        "html_select": 0,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 0,
+      "layer": "web"
+    },
+    {
+      "file": "apps/web/src/components.tsx",
+      "exports": [
+        "Panel",
+        "Metric",
+        "Progress",
+        "StateView",
+        "Field",
+        "Status",
+        "ConfirmDialog"
+      ],
+      "components": [
+        "ConfirmDialog",
+        "Field",
+        "Metric",
+        "Panel",
+        "Progress",
+        "StateView",
+        "Status"
+      ],
+      "classes": [
+        "button",
+        "button--ghost",
+        "button-row",
+        "confirm-dialog",
+        "field",
+        "field__control",
+        "field__error",
+        "metric__label",
+        "metric__scan",
+        "metric__signal",
+        "panel__edge",
+        "panel__edge--bottom",
+        "panel__edge--top",
+        "panel__heading",
+        "panel__signal",
+        "progress",
+        "progress__text",
+        "progress__track",
+        "spinner",
+        "state",
+        "state--empty",
+        "state__emblem",
+        "state__emblem--error",
+        "state__scan",
+        "system-state",
+        "system-state--offline"
+      ],
+      "primitives": {
+        "html_button": 3,
+        "html_input": 0,
+        "html_select": 0,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 1,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 4,
+      "layer": "web"
+    },
+    {
+      "file": "apps/web/src/format.ts",
+      "exports": [],
+      "components": [],
+      "classes": [],
+      "primitives": {
+        "html_button": 0,
+        "html_input": 0,
+        "html_select": 0,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 0,
+      "layer": "web"
+    },
+    {
+      "file": "apps/web/src/main.tsx",
+      "exports": [],
+      "components": [],
+      "classes": [],
+      "primitives": {
+        "html_button": 0,
+        "html_input": 0,
+        "html_select": 0,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 0,
+      "layer": "web"
+    },
+    {
+      "file": "apps/web/src/pages/BondsPage.tsx",
+      "exports": [
+        "BondsPage"
+      ],
+      "components": [
+        "BondsPage"
+      ],
+      "classes": [
+        "button",
+        "button--small",
+        "content-grid",
+        "list-row",
+        "notice",
+        "notice--success",
+        "notice--warning",
+        "page",
+        "page--finance",
+        "page-header",
+        "stack",
+        "subcard"
+      ],
+      "primitives": {
+        "html_button": 3,
+        "html_input": 4,
+        "html_select": 2,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 9,
+      "layer": "web"
+    },
+    {
+      "file": "apps/web/src/pages/CartelsPage.tsx",
+      "exports": [
+        "CartelsPage"
+      ],
+      "components": [
+        "CartelCreateForm",
+        "CartelsPage",
+        "ContributionForm",
+        "DelegationForm",
+        "DepositForm",
+        "ExpenseForm",
+        "InvitationForm",
+        "PauseForm",
+        "ProjectForm"
+      ],
+      "classes": [
+        "button",
+        "button--danger",
+        "button--ghost",
+        "button--secondary",
+        "button--small",
+        "button-row",
+        "card",
+        "card-grid",
+        "content-grid",
+        "data-card",
+        "eyebrow",
+        "inline-form",
+        "list-row",
+        "list-stack",
+        "metric-grid",
+        "metric-grid--compact",
+        "page",
+        "page--cartels",
+        "page-header",
+        "sr-only",
+        "state",
+        "state--success",
+        "table-wrap",
+        "two-column"
+      ],
+      "primitives": {
+        "html_button": 14,
+        "html_input": 9,
+        "html_select": 8,
+        "html_textarea": 2,
+        "html_table": 1,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 34,
+      "layer": "web"
+    },
+    {
+      "file": "apps/web/src/pages/ContractsPage.tsx",
+      "exports": [
+        "ContractsPage"
+      ],
+      "components": [
+        "ContractsPage"
+      ],
+      "classes": [
+        "button",
+        "button--small",
+        "content-grid",
+        "list-row",
+        "notice",
+        "notice--success",
+        "notice--warning",
+        "page",
+        "page--finance",
+        "page-header",
+        "stack",
+        "subcard"
+      ],
+      "primitives": {
+        "html_button": 4,
+        "html_input": 3,
+        "html_select": 4,
+        "html_textarea": 1,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 12,
+      "layer": "web"
+    },
+    {
+      "file": "apps/web/src/pages/CorePages.tsx",
+      "exports": [
+        "WorldPage",
+        "TutorialPage",
+        "DashboardPage",
+        "CityPage",
+        "BusinessesPage",
+        "FacilitiesPage",
+        "SpecialistsPage",
+        "OperationsPage",
+        "NetworkPage",
+        "IntelPage",
+        "InvestigationPage"
+      ],
+      "components": [
+        "BusinessesPage",
+        "CityPage",
+        "DashboardPage",
+        "EconomyReportChart",
+        "FacilitiesPage",
+        "IntelPage",
+        "InvestigationPage",
+        "NetworkPage",
+        "OperationsPage",
+        "SpecialistsPage",
+        "TutorialPage",
+        "WorldPage"
+      ],
+      "classes": [
+        "brand__logo",
+        "button",
+        "button--danger",
+        "button--ghost",
+        "button--secondary",
+        "button-row",
+        "card-grid",
+        "centered-page",
+        "centered-page--worlds",
+        "city-layout",
+        "city-map",
+        "content-grid",
+        "dashboard-grid",
+        "data-card",
+        "detail-list",
+        "economy-chart",
+        "economy-chart__axis",
+        "economy-chart__legend",
+        "economy-chart__legend-cost",
+        "economy-chart__legend-profit",
+        "economy-chart__legend-revenue",
+        "economy-chart__line",
+        "economy-chart__line--cost",
+        "economy-chart__line--profit",
+        "economy-chart__line--revenue",
+        "economy-status",
+        "eyebrow",
+        "form-row",
+        "investigation-meter",
+        "layer-switch",
+        "list-row",
+        "list-stack",
+        "metric-grid",
+        "metric-grid--compact",
+        "network-graph",
+        "notice",
+        "notice--warning",
+        "outcome",
+        "page",
+        "page--city",
+        "page--command",
+        "page--companies",
+        "page--network",
+        "page-header",
+        "panel",
+        "public-brand",
+        "relation-list",
+        "state",
+        "state-success",
+        "table-wrap",
+        "text-link",
+        "tutorial-step",
+        "tutorial-step__number",
+        "wide-card"
+      ],
+      "primitives": {
+        "html_button": 13,
+        "html_input": 6,
+        "html_select": 11,
+        "html_textarea": 0,
+        "html_table": 4,
+        "html_dialog": 0,
+        "html_details": 4,
+        "html_svg": 2,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 40,
+      "layer": "web"
+    },
+    {
+      "file": "apps/web/src/pages/EngagementPage.tsx",
+      "exports": [
+        "EngagementPage"
+      ],
+      "components": [
+        "EngagementPage",
+        "GoalCard",
+        "PreferenceEditor",
+        "SettingsEditor"
+      ],
+      "classes": [
+        "button",
+        "button--ghost",
+        "button--secondary",
+        "button-row",
+        "card",
+        "card-grid",
+        "check-row",
+        "engagement-goal",
+        "engagement-preference",
+        "eyebrow",
+        "form-grid",
+        "inline-form",
+        "list-row",
+        "mastery-grid",
+        "page",
+        "page-header",
+        "return-briefing",
+        "two-column"
+      ],
+      "primitives": {
+        "html_button": 16,
+        "html_input": 11,
+        "html_select": 4,
+        "html_textarea": 1,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 1,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 33,
+      "layer": "web"
+    },
+    {
+      "file": "apps/web/src/pages/ExchangePage.tsx",
+      "exports": [
+        "ExchangePage"
+      ],
+      "components": [
+        "ExchangePage",
+        "OrderTable",
+        "PriceChart"
+      ],
+      "classes": [
+        "button",
+        "button--ghost",
+        "button--small",
+        "card-grid",
+        "content-grid",
+        "exchange-chart",
+        "exchange-chart__range",
+        "exchange-detail-grid",
+        "exchange-inline-form",
+        "exchange-listing-header",
+        "exchange-market-rail",
+        "exchange-market-rail__symbol",
+        "exchange-overview",
+        "exchange-requirements",
+        "eyebrow",
+        "metric-grid",
+        "page",
+        "page--exchange",
+        "page-header",
+        "state",
+        "state-success",
+        "table-wrap"
+      ],
+      "primitives": {
+        "html_button": 4,
+        "html_input": 9,
+        "html_select": 3,
+        "html_textarea": 0,
+        "html_table": 7,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 1,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 24,
+      "layer": "web"
+    },
+    {
+      "file": "apps/web/src/pages/FinancePage.tsx",
+      "exports": [
+        "FinancePage"
+      ],
+      "components": [
+        "FinancePage"
+      ],
+      "classes": [
+        "button",
+        "button--small",
+        "content-grid",
+        "list-row",
+        "notice",
+        "notice--success",
+        "notice--warning",
+        "page",
+        "page--finance",
+        "page-header",
+        "stack",
+        "subcard"
+      ],
+      "primitives": {
+        "html_button": 2,
+        "html_input": 3,
+        "html_select": 1,
+        "html_textarea": 1,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 7,
+      "layer": "web"
+    },
+    {
+      "file": "apps/web/src/pages/GermanyPage.tsx",
+      "exports": [
+        "GermanyPage"
+      ],
+      "components": [
+        "GermanyPage"
+      ],
+      "classes": [
+        "germany-city-package",
+        "germany-city-package__card",
+        "germany-city-package__hero",
+        "germany-city-package__silhouette",
+        "germany-city-package__supporting",
+        "germany-city-packages",
+        "germany-map-accessibility-grid",
+        "germany-map-attribution",
+        "germany-map-figure",
+        "germany-map-intensity-list",
+        "germany-map-layer-list",
+        "germany-map-legend-preview",
+        "germany-map-marker-catalog",
+        "germany-map-marker-groups",
+        "germany-map-toolbar",
+        "germany-map-viewport",
+        "germany-map__background",
+        "germany-map__layer",
+        "layer-switch",
+        "muted",
+        "page",
+        "page--germany",
+        "page-header",
+        "panel",
+        "sr-only"
+      ],
+      "primitives": {
+        "html_button": 2,
+        "html_input": 0,
+        "html_select": 0,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 2,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 4,
+      "layer": "web"
+    },
+    {
+      "file": "apps/web/src/pages/IntelligencePage.tsx",
+      "exports": [
+        "IntelligencePage"
+      ],
+      "components": [
+        "IntelligencePage",
+        "OperationForm",
+        "ReportOfferForm",
+        "StrategicActionForm"
+      ],
+      "classes": [
+        "button",
+        "button--small",
+        "button-row",
+        "card-grid",
+        "compact-form",
+        "definition-list",
+        "metric-grid",
+        "notice",
+        "notice--success",
+        "page",
+        "page--intelligence",
+        "page-header",
+        "subcard",
+        "table-wrap",
+        "timeline",
+        "two-column"
+      ],
+      "primitives": {
+        "html_button": 4,
+        "html_input": 3,
+        "html_select": 7,
+        "html_textarea": 0,
+        "html_table": 1,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 15,
+      "layer": "web"
+    },
+    {
+      "file": "apps/web/src/pages/LegacyPage.tsx",
+      "exports": [
+        "LegacyPage"
+      ],
+      "components": [
+        "ChronicleCards",
+        "LegacyPage"
+      ],
+      "classes": [
+        "button",
+        "card",
+        "card-grid",
+        "check-row",
+        "definition-list",
+        "eyebrow",
+        "list-row",
+        "page",
+        "page-header",
+        "two-column"
+      ],
+      "primitives": {
+        "html_button": 5,
+        "html_input": 1,
+        "html_select": 2,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 8,
+      "layer": "web"
+    },
+    {
+      "file": "apps/web/src/pages/MultiplayerPages.tsx",
+      "exports": [
+        "PvpPage",
+        "TerritoriesPage",
+        "WarsPage",
+        "AlliancesPage",
+        "CommunicationsPage",
+        "MarketPage"
+      ],
+      "components": [
+        "AlliancesPage",
+        "CommunicationsPage",
+        "MarketPage",
+        "PvpPage",
+        "TerritoriesPage",
+        "WarsPage"
+      ],
+      "classes": [
+        "button",
+        "button--ghost",
+        "button--small",
+        "button-row",
+        "card-grid",
+        "content-grid",
+        "data-card",
+        "data-card--button",
+        "eyebrow",
+        "list-row",
+        "list-stack",
+        "message-list",
+        "metric-grid",
+        "metric-grid--compact",
+        "notice",
+        "notice--warning",
+        "page",
+        "page-header",
+        "report-json"
+      ],
+      "primitives": {
+        "html_button": 16,
+        "html_input": 7,
+        "html_select": 6,
+        "html_textarea": 3,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 32,
+      "layer": "web"
+    },
+    {
+      "file": "apps/web/src/pages/PublicPages.tsx",
+      "exports": [
+        "LandingPage",
+        "LoginPage",
+        "RegisterPage",
+        "TokenPage",
+        "ForgotPage"
+      ],
+      "components": [
+        "ForgotPage",
+        "LandingPage",
+        "LoginPage",
+        "PublicFrame",
+        "RegisterPage",
+        "TokenPage"
+      ],
+      "classes": [
+        "auth-card",
+        "auth-links",
+        "brand__logo",
+        "button",
+        "button--ghost",
+        "checkbox",
+        "eyebrow",
+        "hero",
+        "hero--landing",
+        "hero-grid",
+        "hero__actions",
+        "landing-backdrop",
+        "landing-backdrop__shade",
+        "landing-capability-rail",
+        "notice",
+        "notice--success",
+        "public-brand",
+        "public-shell"
+      ],
+      "primitives": {
+        "html_button": 4,
+        "html_input": 9,
+        "html_select": 0,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 13,
+      "layer": "web"
+    },
+    {
+      "file": "apps/web/src/pages/RealEstatePage.tsx",
+      "exports": [
+        "RealEstatePage"
+      ],
+      "components": [
+        "RealEstatePage"
+      ],
+      "classes": [
+        "button",
+        "button--ghost",
+        "button--small",
+        "button-row",
+        "card-grid",
+        "content-grid",
+        "detail-list",
+        "list-row",
+        "notice",
+        "notice--success",
+        "notice--warning",
+        "page",
+        "page--real-estate",
+        "page-header",
+        "stack",
+        "subcard"
+      ],
+      "primitives": {
+        "html_button": 6,
+        "html_input": 2,
+        "html_select": 6,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 14,
+      "layer": "web"
+    },
+    {
+      "file": "apps/web/src/pages/SeasonsAdmin.tsx",
+      "exports": [
+        "SeasonsAdmin"
+      ],
+      "components": [
+        "SeasonsAdmin"
+      ],
+      "classes": [
+        "button",
+        "button--danger",
+        "button--secondary",
+        "list-row",
+        "notice",
+        "notice--success",
+        "stack"
+      ],
+      "primitives": {
+        "html_button": 4,
+        "html_input": 2,
+        "html_select": 0,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 6,
+      "layer": "web"
+    },
+    {
+      "file": "apps/web/src/pages/SocialPages.tsx",
+      "exports": [
+        "OrganizationsPage",
+        "DiplomacyPage",
+        "ResearchPage",
+        "NewsPage",
+        "RankingsPage",
+        "SettingsPage",
+        "AdminPage",
+        "ModerationPage"
+      ],
+      "components": [
+        "AdminPage",
+        "DiplomacyPage",
+        "ModerationPage",
+        "NewsPage",
+        "OrganizationsPage",
+        "RankingsPage",
+        "ResearchPage",
+        "SettingsPage"
+      ],
+      "classes": [
+        "button",
+        "button--danger",
+        "button--ghost",
+        "button--small",
+        "button-row",
+        "card-grid",
+        "content-grid",
+        "data-card",
+        "eyebrow",
+        "list-row",
+        "list-stack",
+        "metric-grid",
+        "metric-grid--compact",
+        "news-item",
+        "notice",
+        "notice--success",
+        "page",
+        "page--rankings",
+        "page-header",
+        "sr-only",
+        "stack",
+        "table-wrap",
+        "unread-dot"
+      ],
+      "primitives": {
+        "html_button": 12,
+        "html_input": 4,
+        "html_select": 7,
+        "html_textarea": 1,
+        "html_table": 2,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 26,
+      "layer": "web"
+    },
+    {
+      "file": "apps/web/src/pages/WorldEventsAdmin.tsx",
+      "exports": [
+        "WorldEventsAdmin"
+      ],
+      "components": [
+        "WorldEventsAdmin"
+      ],
+      "classes": [
+        "button",
+        "button--danger",
+        "button--small",
+        "list-row",
+        "notice",
+        "notice--success",
+        "stack"
+      ],
+      "primitives": {
+        "html_button": 2,
+        "html_input": 4,
+        "html_select": 2,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 8,
+      "layer": "web"
+    },
+    {
+      "file": "apps/web/src/realtime.ts",
+      "exports": [],
+      "components": [],
+      "classes": [],
+      "primitives": {
+        "html_button": 0,
+        "html_input": 0,
+        "html_select": 0,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 0,
+      "layer": "web"
+    },
+    {
+      "file": "apps/web/src/test/components.test.tsx",
+      "exports": [],
+      "components": [],
+      "classes": [],
+      "primitives": {
+        "html_button": 0,
+        "html_input": 1,
+        "html_select": 0,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 1,
+      "layer": "web"
+    },
+    {
+      "file": "apps/web/src/test/setup.ts",
+      "exports": [],
+      "components": [],
+      "classes": [],
+      "primitives": {
+        "html_button": 0,
+        "html_input": 0,
+        "html_select": 0,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 0,
+      "layer": "web"
+    },
+    {
+      "file": "apps/mobile/app/(tabs)/_layout.tsx",
+      "exports": [],
+      "components": [
+        "DockGlyph",
+        "PremiumTabGlyph",
+        "TabsLayout"
+      ],
+      "classes": [],
+      "primitives": {
+        "html_button": 0,
+        "html_input": 0,
+        "html_select": 0,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 0,
+      "layer": "mobile"
+    },
+    {
+      "file": "apps/mobile/app/(tabs)/businesses.tsx",
+      "exports": [],
+      "components": [
+        "Businesses"
+      ],
+      "classes": [],
+      "primitives": {
+        "html_button": 0,
+        "html_input": 0,
+        "html_select": 0,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 1,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 1,
+      "layer": "mobile"
+    },
+    {
+      "file": "apps/mobile/app/(tabs)/engagement.tsx",
+      "exports": [],
+      "components": [
+        "Engagement",
+        "ErrorNotice"
+      ],
+      "classes": [],
+      "primitives": {
+        "html_button": 0,
+        "html_input": 0,
+        "html_select": 0,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 3,
+        "rn_scroll_view": 1,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 1
+      },
+      "total_primitives": 5,
+      "layer": "mobile"
+    },
+    {
+      "file": "apps/mobile/app/(tabs)/index.tsx",
+      "exports": [],
+      "components": [
+        "Dashboard"
+      ],
+      "classes": [],
+      "primitives": {
+        "html_button": 0,
+        "html_input": 0,
+        "html_select": 0,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 1,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 1
+      },
+      "total_primitives": 2,
+      "layer": "mobile"
+    },
+    {
+      "file": "apps/mobile/app/(tabs)/legacy.tsx",
+      "exports": [],
+      "components": [
+        "Legacy"
+      ],
+      "classes": [],
+      "primitives": {
+        "html_button": 0,
+        "html_input": 0,
+        "html_select": 0,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 1,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 1
+      },
+      "total_primitives": 2,
+      "layer": "mobile"
+    },
+    {
+      "file": "apps/mobile/app/(tabs)/multiplayer.tsx",
+      "exports": [],
+      "components": [
+        "Multiplayer"
+      ],
+      "classes": [],
+      "primitives": {
+        "html_button": 0,
+        "html_input": 0,
+        "html_select": 0,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 5,
+        "rn_text_input": 1,
+        "rn_scroll_view": 2,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 8,
+      "layer": "mobile"
+    },
+    {
+      "file": "apps/mobile/app/(tabs)/operations.tsx",
+      "exports": [],
+      "components": [
+        "Operations"
+      ],
+      "classes": [],
+      "primitives": {
+        "html_button": 0,
+        "html_input": 0,
+        "html_select": 0,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 1,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 1,
+      "layer": "mobile"
+    },
+    {
+      "file": "apps/mobile/app/(tabs)/organization.tsx",
+      "exports": [],
+      "components": [
+        "Organizations"
+      ],
+      "classes": [],
+      "primitives": {
+        "html_button": 0,
+        "html_input": 0,
+        "html_select": 0,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 1,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 1,
+      "layer": "mobile"
+    },
+    {
+      "file": "apps/mobile/app/(tabs)/settings.tsx",
+      "exports": [],
+      "components": [
+        "Settings"
+      ],
+      "classes": [],
+      "primitives": {
+        "html_button": 0,
+        "html_input": 0,
+        "html_select": 0,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 1,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 1,
+      "layer": "mobile"
+    },
+    {
+      "file": "apps/mobile/app/_layout.tsx",
+      "exports": [],
+      "components": [
+        "RootLayout"
+      ],
+      "classes": [],
+      "primitives": {
+        "html_button": 0,
+        "html_input": 0,
+        "html_select": 0,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 0,
+      "layer": "mobile"
+    },
+    {
+      "file": "apps/mobile/app/index.tsx",
+      "exports": [],
+      "components": [
+        "Index"
+      ],
+      "classes": [],
+      "primitives": {
+        "html_button": 0,
+        "html_input": 0,
+        "html_select": 0,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 0,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 1
+      },
+      "total_primitives": 1,
+      "layer": "mobile"
+    },
+    {
+      "file": "apps/mobile/app/login.tsx",
+      "exports": [],
+      "components": [
+        "Login"
+      ],
+      "classes": [],
+      "primitives": {
+        "html_button": 0,
+        "html_input": 0,
+        "html_select": 0,
+        "html_textarea": 0,
+        "html_table": 0,
+        "html_dialog": 0,
+        "html_details": 0,
+        "html_svg": 0,
+        "html_progress": 0,
+        "rn_pressable": 0,
+        "rn_text_input": 2,
+        "rn_scroll_view": 0,
+        "rn_flat_list": 0,
+        "rn_modal": 0,
+        "rn_image": 0,
+        "rn_activity_indicator": 0
+      },
+      "total_primitives": 2,
+      "layer": "mobile"
+    }
+  ]
+}

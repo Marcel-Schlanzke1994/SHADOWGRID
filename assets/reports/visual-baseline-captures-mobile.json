@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "source": "functioning-local-application",
+  "seeded_account": "advanced-demo-persona",
+  "captures": [
+    {
+      "viewport": "mobile",
+      "route": "/",
+      "file": "assets/previews/visual-run/baseline/mobile/landing.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/login",
+      "file": "assets/previews/visual-run/baseline/mobile/login.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/register",
+      "file": "assets/previews/visual-run/baseline/mobile/register.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/forgot-password",
+      "file": "assets/previews/visual-run/baseline/mobile/forgot-password.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/worlds",
+      "file": "assets/previews/visual-run/baseline/mobile/worlds.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/tutorial",
+      "file": "assets/previews/visual-run/baseline/mobile/tutorial.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/command",
+      "file": "assets/previews/visual-run/baseline/mobile/command.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/engagement",
+      "file": "assets/previews/visual-run/baseline/mobile/engagement.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/legacy",
+      "file": "assets/previews/visual-run/baseline/mobile/legacy.png",
+      "error_state": true
+    },
+    {
+      "viewport": "mobile",
+      "route": "/city",
+      "file": "assets/previews/visual-run/baseline/mobile/city.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/germany",
+      "file": "assets/previews/visual-run/baseline/mobile/germany.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/companies",
+      "file": "assets/previews/visual-run/baseline/mobile/companies.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/exchange",
+      "file": "assets/previews/visual-run/baseline/mobile/exchange.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/facilities",
+      "file": "assets/previews/visual-run/baseline/mobile/facilities.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/specialists",
+      "file": "assets/previews/visual-run/baseline/mobile/specialists.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/operations",
+      "file": "assets/previews/visual-run/baseline/mobile/operations.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/network",
+      "file": "assets/previews/visual-run/baseline/mobile/network.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/intelligence",
+      "file": "assets/previews/visual-run/baseline/mobile/intelligence.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/investigation",
+      "file": "assets/previews/visual-run/baseline/mobile/investigation.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/cartels",
+      "file": "assets/previews/visual-run/baseline/mobile/cartels.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/diplomacy",
+      "file": "assets/previews/visual-run/baseline/mobile/diplomacy.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/pvp",
+      "file": "assets/previews/visual-run/baseline/mobile/pvp.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/territories",
+      "file": "assets/previews/visual-run/baseline/mobile/territories.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/wars",
+      "file": "assets/previews/visual-run/baseline/mobile/wars.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/alliances",
+      "file": "assets/previews/visual-run/baseline/mobile/alliances.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/communications",
+      "file": "assets/previews/visual-run/baseline/mobile/communications.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/market",
+      "file": "assets/previews/visual-run/baseline/mobile/market.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/contracts",
+      "file": "assets/previews/visual-run/baseline/mobile/contracts.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/finance",
+      "file": "assets/previews/visual-run/baseline/mobile/finance.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/bonds",
+      "file": "assets/previews/visual-run/baseline/mobile/bonds.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/real-estate",
+      "file": "assets/previews/visual-run/baseline/mobile/real-estate.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/research",
+      "file": "assets/previews/visual-run/baseline/mobile/research.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/news",
+      "file": "assets/previews/visual-run/baseline/mobile/news.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/rankings",
+      "file": "assets/previews/visual-run/baseline/mobile/rankings.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/settings",
+      "file": "assets/previews/visual-run/baseline/mobile/settings.png",
+      "error_state": false
+    },
+    {
+      "viewport": "mobile",
+      "route": "/admin",
+      "file": "assets/previews/visual-run/baseline/mobile/admin.png",
+      "error_state": true
+    },
+    {
+      "viewport": "mobile",
+      "route": "/moderation",
+      "file": "assets/previews/visual-run/baseline/mobile/moderation.png",
+      "error_state": true
+    }
+  ]
+}

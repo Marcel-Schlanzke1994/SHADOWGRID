@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-01T23:24:25.925Z",
+  "passed": true,
+  "checks": {
+    "javascriptGzipBytes": {
+      "actual": 364702,
+      "budget": 471040,
+      "passed": true
+    },
+    "cssGzipBytes": {
+      "actual": 13989,
+      "budget": 24576,
+      "passed": true
+    },
+    "htmlBytes": {
+      "actual": 966,
+      "budget": 6144,
+      "passed": true
+    },
+    "largestReferenceImageBytes": {
+      "actual": 198410,
+      "budget": 409600,
+      "passed": true
+    }
+  },
+  "referenceImages": [
+    {
+      "file": "apps/web/dist/assets/global/global-command-center-day-v1-1280.avif",
+      "extension": ".avif",
+      "bytes": 140596,
+      "gzipBytes": null
+    },
+    {
+      "file": "apps/web/dist/assets/global/global-command-center-day-v1-1280.webp",
+      "extension": ".webp",
+      "bytes": 46000,
+      "gzipBytes": null
+    },
+    {
+      "file": "apps/web/dist/assets/global/global-command-center-night-v1-1280.avif",
+      "extension": ".avif",
+      "bytes": 133325,
+      "gzipBytes": null
+    },
+    {
+      "file": "apps/web/dist/assets/global/global-command-center-night-v1-1280.webp",
+      "extension": ".webp",
+      "bytes": 31724,
+      "gzipBytes": null
+    },
+    {
+      "file": "apps/web/dist/assets/global/global-command-center-premium-day-v2-1280.avif",
+      "extension": ".avif",
+      "bytes": 76252,
+      "gzipBytes": null
+    },
+    {
+      "file": "apps/web/dist/assets/global/global-command-center-premium-day-v2-1280.webp",
+      "extension": ".webp",
+      "bytes": 72778,
+      "gzipBytes": null
+    },
+    {
+      "file": "apps/web/dist/assets/global/global-command-center-premium-night-v2-1280.avif",
+      "extension": ".avif",
+      "bytes": 76731,
+      "gzipBytes": null
+    },
+    {
+      "file": "apps/web/dist/assets/global/global-command-center-premium-night-v2-1280.webp",
+      "extension": ".webp",
+      "bytes": 73590,
+      "gzipBytes": null
+    },
+    {
+      "file": "apps/web/dist/assets/global/global-exchange-terminal-premium-night-v2-1280.avif",
+      "extension": ".avif",
+      "bytes": 58350,
+      "gzipBytes": null
+    },
+    {
+      "file": "apps/web/dist/assets/global/global-exchange-terminal-premium-night-v2-1280.webp",
+      "extension": ".webp",
+      "bytes": 49962,
+      "gzipBytes": null
+    },
+    {
+      "file": "apps/web/dist/assets/global/global-landing-desktop-day-v1-1280.avif",
+      "extension": ".avif",
+      "bytes": 63649,
+      "gzipBytes": null
+    },
+    {
+      "file": "apps/web/dist/assets/global/global-landing-desktop-day-v1-1280.webp",
+      "extension": ".webp",
+      "bytes": 60870,
+      "gzipBytes": null
+    },
+    {
+      "file": "apps/web/dist/assets/global/global-landing-desktop-night-v1-1280.avif",
+      "extension": ".avif",
+      "bytes": 63278,
+      "gzipBytes": null
+    },
+    {
+      "file": "apps/web/dist/assets/global/global-landing-desktop-night-v1-1280.webp",
+      "extension": ".webp",
+      "bytes": 59240,
+      "gzipBytes": null
+    },
+    {
+      "file": "apps/web/dist/assets/global/global-landing-mobile-day-v1-1280.avif",
+      "extension": ".avif",
+      "bytes": 198298,
+      "gzipBytes": null
+    },
+    {
+      "file": "apps/web/dist/assets/global/global-landing-mobile-day-v1-1280.webp",
+      "extension": ".webp",
+      "bytes": 198410,
+      "gzipBytes": null
+    },
+    {
+      "file": "apps/web/dist/assets/global/global-landing-mobile-night-v1-1280.avif",
+      "extension": ".avif",
+      "bytes": 183501,
+      "gzipBytes": null
+    },
+    {
+      "file": "apps/web/dist/assets/global/global-landing-mobile-night-v1-1280.webp",
+      "extension": ".webp",
+      "bytes": 175856,
+      "gzipBytes": null
+    }
+  ],
+  "bundles": [
+    {
+      "file": "apps/web/dist/assets/graph-CKShIO4H.js",
+      "extension": ".js",
+      "bytes": 438674,
+      "gzipBytes": 140014
+    },
+    {
+      "file": "apps/web/dist/assets/i18n-7UxOF9wv.js",
+      "extension": ".js",
+      "bytes": 49707,
+      "gzipBytes": 16348
+    },
+    {
+      "file": "apps/web/dist/assets/index-9LeV3z7K.js",
+      "extension": ".js",
+      "bytes": 353986,
+      "gzipBytes": 89516
+    },
+    {
+      "file": "apps/web/dist/assets/index-D5cTOE-F.css",
+      "extension": ".css",
+      "bytes": 64534,
+      "gzipBytes": 13989
+    },
+    {
+      "file": "apps/web/dist/assets/react-DkK565Lb.js",
+      "extension": ".js",
+      "bytes": 260434,
+      "gzipBytes": 84803
+    },
+    {
+      "file": "apps/web/dist/assets/vendor-kwdOpW5A.js",
+      "extension": ".js",
+      "bytes": 127856,
+      "gzipBytes": 33669
+    },
+    {
+      "file": "apps/web/dist/index.html",
+      "extension": ".html",
+      "bytes": 966,
+      "gzipBytes": 447
+    },
+    {
+      "file": "apps/web/dist/sw.js",
+      "extension": ".js",
+      "bytes": 707,
+      "gzipBytes": 352
+    }
+  ]
+}
