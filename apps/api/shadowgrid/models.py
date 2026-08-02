@@ -274,7 +274,7 @@ class LedgerTransaction(Base):
         ForeignKey("player_profiles.id"), nullable=True, index=True
     )
     transaction_type: Mapped[str] = mapped_column(String(48))
-    idempotency_key: Mapped[str] = mapped_column(String(120))
+    idempotency_key: Mapped[str] = mapped_column(String(160))
     reference_type: Mapped[str] = mapped_column(String(40))
     reference_id: Mapped[str] = mapped_column(String(36))
     metadata_json: Mapped[dict[str, Any]] = mapped_column(JSON, default=dict)
@@ -319,7 +319,7 @@ class LedgerEntry(Base):
     reason: Mapped[str] = mapped_column(String(80))
     reference_type: Mapped[str] = mapped_column(String(40))
     reference_id: Mapped[str] = mapped_column(String(36))
-    idempotency_key: Mapped[str] = mapped_column(String(80))
+    idempotency_key: Mapped[str] = mapped_column(String(160))
     metadata_json: Mapped[dict[str, Any]] = mapped_column(JSON, default=dict)
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
 

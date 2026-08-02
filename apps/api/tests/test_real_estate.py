@@ -166,13 +166,13 @@ def test_system_purchase_resale_and_ownership_are_ledger_backed(
         client,
         first_headers,
         property_id,
-        key="property-buy-first",
+        key="p" * 80,
     )
     repeated = _buy(
         client,
         first_headers,
         property_id,
-        key="property-buy-first",
+        key="p" * 80,
     )
     assert first["id"] == repeated["id"]
     listed = client.post(
@@ -210,6 +210,13 @@ def test_system_purchase_resale_and_ownership_are_ledger_backed(
         )
         assert stored is not None and stored.owner_profile_id == second_profile_id
         assert len(transfers) == 2
+        transactions = [
+            db.get(LedgerTransaction, transfer.transaction_id) for transfer in transfers
+        ]
+        assert any(
+            transaction is not None and 120 < len(transaction.idempotency_key) <= 160
+            for transaction in transactions
+        )
         assert all(
             transaction_balance_cents(db, transfer.transaction_id) == 0 for transfer in transfers
         )

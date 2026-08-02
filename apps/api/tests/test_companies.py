@@ -76,7 +76,7 @@ def test_company_creation_is_idempotent_owned_and_balanced(
     assert config.json()["founding_cost_cents"] == 2_000_000
     assert set(config.json()["industries"]) == {"gastronomy", "logistics", "technology"}
 
-    headers = {**auth_headers, "Idempotency-Key": "company-create-rheincargo"}
+    headers = {**auth_headers, "Idempotency-Key": "c" * 80}
     first = client.post(
         "/api/v1/companies",
         headers=headers,
@@ -109,6 +109,7 @@ def test_company_creation_is_idempotent_owned_and_balanced(
             )
         )
         assert transaction is not None
+        assert 80 < len(transaction.idempotency_key) <= 160
         entries = list(
             db.scalars(
                 select(AccountLedgerEntry).where(

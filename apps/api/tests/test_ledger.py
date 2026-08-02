@@ -6,7 +6,7 @@ from hypothesis import HealthCheck, given, settings
 from hypothesis import strategies as st
 from shadowgrid.database import SessionLocal
 from shadowgrid.domain import apply_profile_resource
-from shadowgrid.models import LedgerEntry, PlayerProfile, ResourceBalance
+from shadowgrid.models import LedgerEntry, LedgerTransaction, PlayerProfile, ResourceBalance
 from sqlalchemy import func, select
 
 
@@ -25,6 +25,11 @@ def test_initial_grant_is_exactly_once(client, auth_headers, joined_profile) -> 
     )
     assert count == 6
     db.close()
+
+
+def test_financial_ledgers_fit_server_derived_idempotency_keys() -> None:
+    assert LedgerTransaction.__table__.c.idempotency_key.type.length == 160
+    assert LedgerEntry.__table__.c.idempotency_key.type.length == 160
 
 
 def test_duplicate_purchase_returns_same_business_and_single_booking(
