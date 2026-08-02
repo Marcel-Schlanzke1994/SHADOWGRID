@@ -896,7 +896,7 @@ export function SettingsPage() {
       <header className="page-header">
         <h1>{t("settingsTitle")}</h1>
         <p>
-          {user?.display_name} · {user?.email}
+          {user?.display_name}
         </p>
       </header>
       {message && (

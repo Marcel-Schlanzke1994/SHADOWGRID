@@ -4,7 +4,7 @@ from datetime import UTC, datetime
 from decimal import Decimal
 from typing import Any, Literal
 
-from pydantic import BaseModel, ConfigDict, EmailStr, Field, field_validator
+from pydantic import BaseModel, ConfigDict, EmailStr, Field, field_validator, model_validator
 
 from shadowgrid.localization import normalize_account_locale
 
@@ -26,7 +26,7 @@ class ErrorResponse(BaseModel):
 
 
 class RegisterRequest(BaseModel):
-    email: EmailStr
+    email: EmailStr | None = None
     display_name: str = Field(min_length=2, max_length=40)
     password: str = Field(min_length=12, max_length=128)
     locale: str = Field(default="en", min_length=2, max_length=16)
@@ -58,9 +58,16 @@ class RegisterRequest(BaseModel):
 
 
 class LoginRequest(BaseModel):
-    email: EmailStr
+    email: EmailStr | None = None
+    display_name: str | None = Field(default=None, min_length=2, max_length=40)
     password: str = Field(min_length=1, max_length=128)
     totp_code: str | None = Field(default=None, pattern=r"^\d{6}$")
+
+    @model_validator(mode="after")
+    def require_identifier(self) -> LoginRequest:
+        if self.email is None and self.display_name is None:
+            raise ValueError("email or display_name is required")
+        return self
 
 
 class RefreshRequest(BaseModel):

@@ -108,6 +108,7 @@ class Settings(BaseSettings):
         default=500_000, ge=100_000, le=100_000_000_000
     )
     local_demo_mode: bool = True
+    alpha_open_registration: bool = False
     web_origins: Annotated[list[str], NoDecode] = ["http://localhost:5173"]
     public_web_url: str | None = None
     smtp_host: str = "localhost"

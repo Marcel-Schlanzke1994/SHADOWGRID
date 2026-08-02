@@ -60,13 +60,18 @@ export const client = new ShadowgridClient({
 
 export const bootstrapAuth = refresh;
 
+export const alphaRegistrationEnabled =
+  import.meta.env.VITE_ALPHA_OPEN_REGISTRATION === "true";
+
 export const login = async (
-  email: string,
+  identifier: string,
   password: string,
   totp?: string,
 ): Promise<void> => {
   const tokens = await client.post<{ access_token: string }>("/auth/login", {
-    email,
+    ...(alphaRegistrationEnabled
+      ? { display_name: identifier }
+      : { email: identifier }),
     password,
     totp_code: totp || undefined,
   });

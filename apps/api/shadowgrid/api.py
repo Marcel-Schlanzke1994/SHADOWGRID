@@ -1,7 +1,9 @@
 from __future__ import annotations
 
+import hashlib
 import secrets
 import threading
+import unicodedata
 from datetime import UTC, datetime, timedelta
 from decimal import Decimal
 from typing import Annotated, Any
@@ -227,6 +229,25 @@ router = APIRouter()
 _operation_resolution_lock = threading.Lock()
 
 
+def _normalize_alpha_name(value: str) -> str:
+    name = " ".join(unicodedata.normalize("NFKC", value).strip().split())
+    if not 2 <= len(name) <= 40:
+        raise HTTPException(
+            status_code=422,
+            detail={
+                "code": "auth.invalid_display_name",
+                "message": "Name must contain between 2 and 40 characters",
+            },
+        )
+    return name
+
+
+def _alpha_account_email(display_name: str) -> str:
+    normalized = _normalize_alpha_name(display_name).casefold()
+    digest = hashlib.sha256(normalized.encode("utf-8")).hexdigest()[:40]
+    return f"alpha-{digest}@accounts.shadowgrid.game"
+
+
 def _cookie(response: Response, token: str, settings: Settings) -> None:
     response.set_cookie(
         "shadowgrid_refresh",
@@ -353,7 +374,20 @@ def readiness(db: Db) -> HealthResponse:
 def register(
     payload: RegisterRequest, request: Request, db: Db, settings: AppSettings
 ) -> MessageResponse:
-    email = payload.email.lower()
+    display_name = _normalize_alpha_name(payload.display_name)
+    if settings.alpha_open_registration:
+        email = (
+            payload.email.lower()
+            if payload.email is not None
+            else _alpha_account_email(display_name)
+        )
+    else:
+        if payload.email is None:
+            raise HTTPException(
+                status_code=422,
+                detail={"code": "auth.email_required", "message": "Email is required"},
+            )
+        email = payload.email.lower()
     _check_auth_action_limit(
         "auth.register",
         email,
@@ -361,17 +395,28 @@ def register(
         window_seconds=settings.auth_email_rate_window_seconds,
     )
     if db.scalar(select(User).where(User.email == email)):
+        if settings.alpha_open_registration and payload.email is None:
+            raise HTTPException(
+                status_code=409,
+                detail={"code": "auth.name_unavailable", "message": "Name is unavailable"},
+            )
         return MessageResponse(
             message="If the address can be registered, a verification email will arrive shortly."
         )
     user = User(
         email=email,
-        display_name=payload.display_name,
+        display_name=display_name,
         password_hash=hash_password(payload.password),
         locale=payload.locale,
+        email_verified=settings.alpha_open_registration,
     )
     db.add(user)
     db.flush()
+    if settings.alpha_open_registration:
+        audit(db, user.id, "auth.alpha_register", "user", user.id, request_id(request))
+        db.commit()
+        return MessageResponse(message="Account created. You can sign in now.")
+
     raw = _issue_one_time_token(db, user, "verify_email", settings)
     subject, body = account_email_copy(
         "verify_email",
@@ -406,15 +451,24 @@ def verify_email(payload: VerifyEmailRequest, db: Db, settings: AppSettings) -> 
 def login(
     payload: LoginRequest, request: Request, response: Response, db: Db, settings: AppSettings
 ) -> TokenPair:
-    _check_login_limit(payload.email, settings)
-    user = db.scalar(select(User).where(User.email == payload.email.lower()))
+    if payload.display_name is not None and settings.alpha_open_registration:
+        email = _alpha_account_email(payload.display_name)
+    elif payload.email is not None:
+        email = payload.email.lower()
+    else:
+        raise HTTPException(
+            status_code=401,
+            detail={"code": "auth.invalid_credentials", "message": "Invalid credentials"},
+        )
+    _check_login_limit(email, settings)
+    user = db.scalar(select(User).where(User.email == email))
     valid = user is not None and verify_password(payload.password, user.password_hash)
     if not valid or user is None or not verify_totp(user, payload.totp_code):
         raise HTTPException(
             status_code=401,
             detail={
                 "code": "auth.invalid_credentials",
-                "message": "Email, password or verification code is invalid",
+                "message": "Name, email, password or verification code is invalid",
             },
         )
     if not user.email_verified:
@@ -430,7 +484,7 @@ def login(
             status_code=403,
             detail={"code": "auth.account_disabled", "message": "Account is disabled"},
         )
-    clear_rate_limit(scope="auth.login", raw_key=payload.email)
+    clear_rate_limit(scope="auth.login", raw_key=email)
     refresh_session, raw = create_refresh_session(
         db, user, settings, request.headers.get("user-agent", "unknown")
     )

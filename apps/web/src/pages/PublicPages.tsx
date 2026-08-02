@@ -7,7 +7,12 @@ import {
   useSearchParams,
 } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { client, login, useAuth } from "../auth";
+import {
+  alphaRegistrationEnabled,
+  client,
+  login,
+  useAuth,
+} from "../auth";
 import { Field, Panel, StateView } from "../components";
 import { GlobalBackdrop } from "../GlobalBackdrop";
 
@@ -163,7 +168,9 @@ export function LoginPage() {
     const data = new FormData(event.currentTarget);
     try {
       await login(
-        String(data.get("email")),
+        String(
+          data.get(alphaRegistrationEnabled ? "displayName" : "email"),
+        ),
         String(data.get("password")),
         String(data.get("totp") ?? ""),
       );
@@ -187,12 +194,20 @@ export function LoginPage() {
         <h1>{t("authWelcome")}</h1>
         <StateView error={error} loading={busy}>
           <form onSubmit={submit}>
-            <Field label={t("email")}>
+            <Field
+              label={t(alphaRegistrationEnabled ? "displayName" : "email")}
+            >
               <input
-                id="field-email-address"
-                name="email"
-                type="email"
-                autoComplete="email"
+                id={
+                  alphaRegistrationEnabled
+                    ? "field-account-name"
+                    : "field-email-address"
+                }
+                name={alphaRegistrationEnabled ? "displayName" : "email"}
+                type={alphaRegistrationEnabled ? "text" : "email"}
+                autoComplete={alphaRegistrationEnabled ? "username" : "email"}
+                minLength={alphaRegistrationEnabled ? 2 : undefined}
+                maxLength={alphaRegistrationEnabled ? 40 : undefined}
                 required
               />
             </Field>
@@ -220,7 +235,9 @@ export function LoginPage() {
           </form>
         </StateView>
         <div className="auth-links">
-          <Link to="/forgot-password">{t("forgotPassword")}</Link>
+          {!alphaRegistrationEnabled && (
+            <Link to="/forgot-password">{t("forgotPassword")}</Link>
+          )}
           <Link to="/register">{t("register")}</Link>
         </div>
         <small>{t("localDemo")}</small>
@@ -231,6 +248,7 @@ export function LoginPage() {
 
 export function RegisterPage() {
   const { t } = useTranslation();
+  const navigate = useNavigate();
   const [state, setState] = useState<{
     busy: boolean;
     error?: unknown;
@@ -241,13 +259,21 @@ export function RegisterPage() {
     const data = new FormData(event.currentTarget);
     setState({ busy: true, done: false });
     try {
+      const displayName = String(data.get("displayName"));
+      const password = String(data.get("password"));
       await client.post("/auth/register", {
-        email: data.get("email"),
-        display_name: data.get("displayName"),
-        password: data.get("password"),
+        ...(alphaRegistrationEnabled ? {} : { email: data.get("email") }),
+        display_name: displayName,
+        password,
         locale: navigator.language,
-        terms_accepted: data.get("terms") === "on",
+        terms_accepted:
+          alphaRegistrationEnabled || data.get("terms") === "on",
       });
+      if (alphaRegistrationEnabled) {
+        await login(displayName, password);
+        navigate("/command");
+        return;
+      }
       setState({ busy: false, done: true });
     } catch (error) {
       setState({ busy: false, done: false, error });
@@ -262,7 +288,7 @@ export function RegisterPage() {
       />
       <Panel className="auth-card">
         <h1>{t("register")}</h1>
-        <p>{t("authRegisterIntro")}</p>
+        {!alphaRegistrationEnabled && <p>{t("authRegisterIntro")}</p>}
         {state.done ? (
           <p className="notice notice--success" role="status">
             {t("authCheckEmail")}
@@ -279,15 +305,17 @@ export function RegisterPage() {
                   required
                 />
               </Field>
-              <Field label={t("email")}>
-                <input
-                  id="field-email-address"
-                  name="email"
-                  type="email"
-                  autoComplete="email"
-                  required
-                />
-              </Field>
+              {!alphaRegistrationEnabled && (
+                <Field label={t("email")}>
+                  <input
+                    id="field-email-address"
+                    name="email"
+                    type="email"
+                    autoComplete="email"
+                    required
+                  />
+                </Field>
+              )}
               <Field label={t("password")}>
                 <input
                   id="field-password"
@@ -298,10 +326,12 @@ export function RegisterPage() {
                   required
                 />
               </Field>
-              <label className="checkbox">
-                <input name="terms" type="checkbox" required />
-                {t("terms")}
-              </label>
+              {!alphaRegistrationEnabled && (
+                <label className="checkbox">
+                  <input name="terms" type="checkbox" required />
+                  {t("terms")}
+                </label>
+              )}
               <button className="button" type="submit">
                 {t("register")}
               </button>

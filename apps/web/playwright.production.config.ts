@@ -1,23 +1,30 @@
 import { defineConfig, devices } from "@playwright/test";
 
+const liveBaseUrl = process.env.PRODUCTION_BASE_URL;
+
 export default defineConfig({
   testDir: "./e2e",
-  testMatch: "production-localization.spec.ts",
+  testMatch: [
+    "production-localization.spec.ts",
+    "alpha-registration-live.spec.ts",
+  ],
   timeout: 60_000,
   expect: { timeout: 15_000 },
   workers: 1,
   retries: 0,
   reporter: "list",
   use: {
-    baseURL: "http://127.0.0.1:4173",
+    baseURL: liveBaseUrl ?? "http://127.0.0.1:4173",
     ...devices["Desktop Chrome"],
   },
-  webServer: {
-    command:
-      "pnpm --filter @shadowgrid/web preview --host 127.0.0.1 --port 4173",
-    url: "http://127.0.0.1:4173",
-    cwd: "../..",
-    reuseExistingServer: false,
-    timeout: 120_000,
-  },
+  webServer: liveBaseUrl
+    ? undefined
+    : {
+        command:
+          "pnpm --filter @shadowgrid/web preview --host 127.0.0.1 --port 4173",
+        url: "http://127.0.0.1:4173",
+        cwd: "../..",
+        reuseExistingServer: false,
+        timeout: 120_000,
+      },
 });

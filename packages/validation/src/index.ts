@@ -1,15 +1,18 @@
 import { z } from "zod";
 
 export const loginSchema = z.object({
-  email: z.string().email(),
+  email: z.string().email().optional(),
+  display_name: z.string().min(2).max(40).optional(),
   password: z.string().min(1),
   totp_code: z
     .string()
     .regex(/^\d{6}$/)
     .optional(),
+}).refine((value) => value.email !== undefined || value.display_name !== undefined, {
+  message: "Email or display name is required.",
 });
 export const registerSchema = z.object({
-  email: z.string().email(),
+  email: z.string().email().optional(),
   display_name: z.string().min(2).max(40),
   password: z
     .string()
