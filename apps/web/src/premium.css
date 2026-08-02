@@ -1555,6 +1555,146 @@ summary::marker {
   backdrop-filter: blur(20px);
 }
 
+.public-header {
+  position: absolute;
+  z-index: 8;
+  inset-block-start: clamp(1rem, 3vw, 2rem);
+  inset-inline: clamp(1rem, 3vw, 2.4rem);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  pointer-events: none;
+}
+
+.public-header .public-brand {
+  position: static;
+  inset: auto;
+  pointer-events: auto;
+}
+
+.language-selector {
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: 0.55rem;
+  min-width: min(100%, 15rem);
+  color: var(--text-primary);
+  pointer-events: auto;
+}
+
+.language-selector__glyph {
+  display: grid;
+  width: 1.35rem;
+  height: 1.35rem;
+  place-items: center;
+  color: var(--accent-cyan);
+  filter: drop-shadow(0 0 7px rgb(57 208 255 / 42%));
+}
+
+.language-selector__glyph svg {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.35;
+}
+
+.language-selector__label {
+  grid-column: 1 / -1;
+  color: var(--text-muted);
+  font-family: var(--font-ui);
+  font-size: 0.68rem;
+  font-weight: 760;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.language-selector select {
+  min-width: 0;
+  min-height: 42px;
+  border: 1px solid rgb(57 208 255 / 28%);
+  border-radius: 2px 9px 2px 9px;
+  padding: 0.55rem 2.35rem 0.55rem 0.75rem;
+  appearance: none;
+  background:
+    linear-gradient(45deg, transparent 50%, var(--accent-cyan) 50%)
+      calc(100% - 15px) 52% / 5px 5px no-repeat,
+    linear-gradient(135deg, var(--accent-cyan) 50%, transparent 50%)
+      calc(100% - 10px) 52% / 5px 5px no-repeat,
+    linear-gradient(135deg, rgb(255 255 255 / 7%), transparent 45%),
+    rgb(4 9 14 / 94%);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 7%),
+    0 10px 24px rgb(0 0 0 / 32%);
+  color: var(--text-primary);
+  cursor: pointer;
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  font-weight: 680;
+  letter-spacing: 0.02em;
+}
+
+.language-selector select:hover:not(:disabled),
+.language-selector select:focus-visible {
+  border-color: rgb(57 208 255 / 68%);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 9%),
+    0 0 0 3px rgb(57 208 255 / 10%),
+    var(--glow-cyan);
+}
+
+.language-selector select:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+.language-selector option {
+  background: #080d13;
+  color: var(--text-primary);
+}
+
+.language-selector--compact {
+  grid-template-columns: auto minmax(0, 1fr);
+  min-width: 0;
+  padding: 0.35rem 0.45rem;
+  border: 1px solid rgb(200 169 107 / 16%);
+  border-radius: 2px 11px 2px 11px;
+  background:
+    linear-gradient(135deg, rgb(255 255 255 / 5%), transparent),
+    rgb(4 7 10 / 76%);
+  box-shadow: var(--shadow-soft), 0 0 22px rgb(57 208 255 / 8%);
+  backdrop-filter: blur(18px);
+}
+
+.language-selector--compact select {
+  width: clamp(6rem, 17vw, 11rem);
+  border: 0;
+  padding-block: 0.35rem;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.language-selector--standalone {
+  position: fixed;
+  z-index: 90;
+  inset-block-start: clamp(1rem, 3vw, 2rem);
+  inset-inline-end: clamp(1rem, 3vw, 2.4rem);
+}
+
+[dir="rtl"] .language-selector select {
+  padding-right: 0.75rem;
+  padding-left: 2.35rem;
+  background-position:
+    15px 52%,
+    10px 52%,
+    100% 100%,
+    100% 100%;
+}
+
 .landing-backdrop img,
 .scene-backdrop img {
   filter: saturate(0.88) contrast(1.08);
@@ -2093,6 +2233,25 @@ summary::marker {
     width: min(11.5rem, 54vw);
   }
 
+  .topbar .brand__logo {
+    width: min(8.5rem, 30vw);
+  }
+
+  .topbar .language-selector--compact {
+    gap: 0.35rem;
+    padding-inline: 0.35rem;
+  }
+
+  .topbar .language-selector__glyph {
+    width: 1.05rem;
+    height: 1.05rem;
+  }
+
+  .topbar .language-selector--compact select {
+    width: clamp(6rem, 24vw, 8rem);
+    font-size: 0.72rem;
+  }
+
   .topbar__signal,
   .topbar__user {
     display: none;
@@ -2221,6 +2380,48 @@ summary::marker {
 }
 
 @media (max-width: 430px) {
+  .public-header {
+    gap: 0.45rem;
+    inset-inline: 0.75rem;
+  }
+
+  .public-header .brand__logo {
+    width: min(7.4rem, 38vw);
+  }
+
+  .public-header .language-selector--compact {
+    gap: 0.25rem;
+    padding-inline: 0.3rem;
+  }
+
+  .public-header .language-selector__glyph {
+    display: none;
+  }
+
+  .public-header .language-selector--compact select,
+  .topbar .language-selector--compact select {
+    width: 6rem;
+    padding-inline-start: 0.45rem;
+    font-size: 0.68rem;
+  }
+
+  .topbar {
+    gap: 0.35rem;
+    padding-inline: 0.55rem;
+  }
+
+  .topbar .brand__logo {
+    width: min(7rem, 28vw);
+  }
+
+  .topbar__actions {
+    gap: 0.35rem;
+  }
+
+  .topbar .language-selector__glyph {
+    display: none;
+  }
+
   .page {
     padding: 0.9rem;
   }

@@ -199,6 +199,7 @@ from shadowgrid.schemas import (
     TreasuryRequest,
     TreatyView,
     TutorialRequest,
+    UpdateLocaleRequest,
     UpdateOrganizationRoleRequest,
     UserView,
     VerifyEmailRequest,
@@ -600,6 +601,19 @@ def reset_password(payload: PasswordResetRequest, db: Db, settings: AppSettings)
 
 @router.get("/auth/me", response_model=UserView, tags=["auth"])
 def me(user: CurrentUser) -> User:
+    return user
+
+
+@router.patch("/auth/me/locale", response_model=UserView, tags=["auth"])
+def update_locale(
+    payload: UpdateLocaleRequest, request: Request, db: Db, user: CurrentUser
+) -> User:
+    if user.locale == payload.locale:
+        return user
+    user.locale = payload.locale
+    audit(db, user.id, "auth.locale_update", "user", user.id, request_id(request))
+    db.commit()
+    db.refresh(user)
     return user
 
 

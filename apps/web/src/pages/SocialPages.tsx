@@ -4,13 +4,7 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useTranslation } from "react-i18next";
 import { createIdempotencyKey } from "@shadowgrid/api-client";
 import { organizationArchetypes } from "@shadowgrid/game-config";
-import {
-  localeMetadata,
-  selectableLocales,
-  setLocale,
-  translateGameValue,
-  type Locale,
-} from "@shadowgrid/i18n";
+import { translateGameValue } from "@shadowgrid/i18n";
 import type {
   AccountReward,
   HallOfFameEntry,
@@ -21,6 +15,7 @@ import type {
   SeasonState,
 } from "@shadowgrid/shared-types";
 import { client, logout, useAuth } from "../auth";
+import { LanguageSelector } from "../LanguageSelector";
 import { SeasonsAdmin } from "./SeasonsAdmin";
 import { WorldEventsAdmin } from "./WorldEventsAdmin";
 import {
@@ -906,22 +901,7 @@ export function SettingsPage() {
       )}
       <div className="content-grid">
         <Panel title={t("language")}>
-          <Field label={t("language")}>
-            <select
-              id="field-language"
-              value={i18n.language}
-              onChange={(event) => void setLocale(event.target.value as Locale)}
-            >
-              {selectableLocales.map((locale) => (
-                <option value={locale} key={locale}>
-                  {locale in localeMetadata
-                    ? localeMetadata[locale as keyof typeof localeMetadata].name
-                    : locale}{" "}
-                  ({locale})
-                </option>
-              ))}
-            </select>
-          </Field>
+          <LanguageSelector id="field-language" />
         </Panel>
         <Panel title={t("sessions")}>
           <StateView loading={sessions.isLoading} error={sessions.error}>

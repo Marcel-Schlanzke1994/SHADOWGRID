@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import type { NotificationCount } from "@shadowgrid/shared-types";
 import { useQuery } from "@tanstack/react-query";
 import { client, logout, useAuth } from "./auth";
+import { LanguageSelector } from "./LanguageSelector";
 import { useMultiplayerRealtime } from "./realtime";
 
 const nav = [
@@ -89,6 +90,7 @@ export function Layout() {
         </NavLink>
         <div className="topbar__actions">
           <span className="topbar__signal" aria-hidden="true" />
+          <LanguageSelector id="app-language-selector" compact />
           <span className="topbar__user">{user?.display_name}</span>
           <button
             className="icon-button"

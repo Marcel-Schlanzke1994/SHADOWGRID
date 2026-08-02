@@ -1,5 +1,11 @@
 import { ShadowgridClient } from "@shadowgrid/api-client";
 import type { User } from "@shadowgrid/shared-types";
+import {
+  resolveLocale,
+  selectableLocales,
+  setLocale,
+  type Locale,
+} from "@shadowgrid/i18n";
 import { create } from "zustand";
 
 type AuthStatus = "loading" | "anonymous" | "authenticated";
@@ -23,6 +29,16 @@ export const useAuth = create<AuthState>((set) => ({
 }));
 
 let refreshPromise: Promise<boolean> | null = null;
+const applyStoredAccountLocale = async (user: User): Promise<void> => {
+  if (
+    typeof localStorage === "undefined" ||
+    localStorage.getItem("shadowgrid.locale") !== null
+  )
+    return;
+  const locale = resolveLocale(user.locale);
+  if (selectableLocales.includes(locale)) await setLocale(locale as Locale);
+};
+
 const refresh = (): Promise<boolean> => {
   if (refreshPromise) return refreshPromise;
   refreshPromise = fetch("/api/v1/auth/refresh", {
@@ -39,6 +55,7 @@ const refresh = (): Promise<boolean> => {
       const tokens = (await response.json()) as { access_token: string };
       useAuth.setState({ accessToken: tokens.access_token });
       const user = await client.get<User>("/auth/me");
+      await applyStoredAccountLocale(user);
       useAuth.getState().setSession(tokens.access_token, user);
       return true;
     })
@@ -77,6 +94,7 @@ export const login = async (
   });
   useAuth.setState({ accessToken: tokens.access_token });
   const user = await client.get<User>("/auth/me");
+  await applyStoredAccountLocale(user);
   useAuth.getState().setSession(tokens.access_token, user);
 };
 

@@ -7,6 +7,7 @@ export default defineConfig({
   testMatch: [
     "production-localization.spec.ts",
     "alpha-registration-live.spec.ts",
+    "language-selection-live.spec.ts",
   ],
   timeout: 60_000,
   expect: { timeout: 15_000 },

@@ -15,6 +15,7 @@ import {
 } from "../auth";
 import { Field, Panel, StateView } from "../components";
 import { GlobalBackdrop } from "../GlobalBackdrop";
+import { LanguageSelector } from "../LanguageSelector";
 
 const globalAssetWidths = [320, 640, 960, 1280, 1920, 2560, 3840];
 const globalAssetSrcSet = (assetId: string, format: "avif" | "webp") =>
@@ -26,13 +27,16 @@ const PublicFrame = ({ children }: { children: React.ReactNode }) => {
   const { t } = useTranslation();
   return (
     <main className="public-shell">
-      <div className="public-brand">
-        <img
-          className="brand__logo"
-          src="/assets/branding/shadowgrid-logo-horizontal-dark.svg"
-          alt={t("appName")}
-        />
-      </div>
+      <header className="public-header">
+        <div className="public-brand">
+          <img
+            className="brand__logo"
+            src="/assets/branding/shadowgrid-logo-horizontal-dark.svg"
+            alt={t("appName")}
+          />
+        </div>
+        <LanguageSelector id="public-language-selector" compact />
+      </header>
       {children}
     </main>
   );
@@ -247,7 +251,7 @@ export function LoginPage() {
 }
 
 export function RegisterPage() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const navigate = useNavigate();
   const [state, setState] = useState<{
     busy: boolean;
@@ -265,7 +269,7 @@ export function RegisterPage() {
         ...(alphaRegistrationEnabled ? {} : { email: data.get("email") }),
         display_name: displayName,
         password,
-        locale: navigator.language,
+        locale: i18n.resolvedLanguage ?? i18n.language,
         terms_accepted:
           alphaRegistrationEnabled || data.get("terms") === "on",
       });

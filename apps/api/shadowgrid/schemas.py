@@ -91,6 +91,15 @@ class UserView(ORMModel):
     is_moderator: bool
 
 
+class UpdateLocaleRequest(BaseModel):
+    locale: str = Field(min_length=2, max_length=16)
+
+    @field_validator("locale")
+    @classmethod
+    def supported_locale(cls, value: str) -> str:
+        return normalize_account_locale(value)
+
+
 class SessionView(ORMModel):
     id: str
     user_agent: str

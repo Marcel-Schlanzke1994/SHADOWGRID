@@ -15,6 +15,9 @@ test("alpha registration requires only name and password", async ({
 
   await page.goto("/register");
 
+  await expect(page.locator("[data-language-selector]")).toBeVisible();
+  await page.locator("#public-language-selector").selectOption("de");
+  await expect(page.locator("html")).toHaveAttribute("lang", "de");
   await expect(page.locator('input[name="displayName"]')).toBeVisible();
   await expect(page.locator('input[name="password"]')).toBeVisible();
   await expect(page.locator('input[type="email"]')).toHaveCount(0);
@@ -32,11 +35,38 @@ test("alpha registration requires only name and password", async ({
   const loginResponse = await loginResponsePromise;
   expect(loginResponse.ok()).toBeTruthy();
   const tokens = (await loginResponse.json()) as { access_token: string };
+  const profileHeaders = { Authorization: `Bearer ${tokens.access_token}` };
 
-  await expect(page).toHaveURL(/\/(?:command|worlds)(?:[/?#]|$)/);
+  try {
+    await expect(page).toHaveURL(/\/(?:command|worlds)(?:[/?#]|$)/);
+    const protectedLanguage = page.locator("[data-language-selector]");
+    await expect(protectedLanguage).toBeVisible();
+    await expect(page.locator("html")).toHaveAttribute("lang", "de");
 
-  const cleanup = await request.delete("/api/v1/privacy/account", {
-    headers: { Authorization: `Bearer ${tokens.access_token}` },
-  });
-  expect(cleanup.ok()).toBeTruthy();
+    const germanProfile = await request.get("/api/v1/auth/me", {
+      headers: profileHeaders,
+    });
+    expect(germanProfile.ok()).toBeTruthy();
+    expect(((await germanProfile.json()) as { locale: string }).locale).toBe(
+      "de",
+    );
+
+    const localeUpdatePromise = page.waitForResponse(
+      (response) =>
+        response.url().includes("/api/v1/auth/me/locale") &&
+        response.request().method() === "PATCH",
+    );
+    await protectedLanguage.locator("select").selectOption("en");
+    const localeUpdate = await localeUpdatePromise;
+    expect(localeUpdate.ok()).toBeTruthy();
+    expect(
+      ((await localeUpdate.json()) as { locale: string }).locale,
+    ).toBe("en");
+    await expect(page.locator("html")).toHaveAttribute("lang", "en");
+  } finally {
+    const cleanup = await request.delete("/api/v1/privacy/account", {
+      headers: profileHeaders,
+    });
+    expect(cleanup.ok()).toBeTruthy();
+  }
 });

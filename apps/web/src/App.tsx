@@ -3,6 +3,7 @@ import { Navigate, Route, Routes, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { bootstrapAuth, useAuth } from "./auth";
 import { Layout } from "./Layout";
+import { LanguageSelector } from "./LanguageSelector";
 import { StateView } from "./components";
 import {
   ForgotPage,
@@ -66,6 +67,19 @@ function Protected({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }
 
+function StandaloneProtected({ children }: { children: React.ReactNode }) {
+  return (
+    <Protected>
+      <LanguageSelector
+        className="language-selector--standalone"
+        id="standalone-language-selector"
+        compact
+      />
+      {children}
+    </Protected>
+  );
+}
+
 export function App() {
   const setStatus = useAuth((state) => state.setStatus);
   useEffect(() => {
@@ -84,17 +98,17 @@ export function App() {
       <Route
         path="/worlds"
         element={
-          <Protected>
+          <StandaloneProtected>
             <WorldPage />
-          </Protected>
+          </StandaloneProtected>
         }
       />
       <Route
         path="/tutorial"
         element={
-          <Protected>
+          <StandaloneProtected>
             <TutorialPage />
-          </Protected>
+          </StandaloneProtected>
         }
       />
       <Route

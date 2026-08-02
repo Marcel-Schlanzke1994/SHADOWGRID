@@ -33,7 +33,7 @@ export const isProductionLocaleBuild =
     ? __SHADOWGRID_PRODUCTION__
     : typeof process !== "undefined" && process.env.NODE_ENV === "production";
 const internalRuntimeLocales: readonly Locale[] = isProductionLocaleBuild
-  ? []
+  ? ["de"]
   : internalSelectableLocales;
 const approvedResources = Object.fromEntries(
   Object.entries(runtimeApprovedCatalogs).map(([locale, catalog]) => [
@@ -111,10 +111,10 @@ void i18n
     resources: {
       ...approvedResources,
       en: { translation: en },
+      de: { translation: de },
       ...(isProductionLocaleBuild
         ? {}
         : {
-            de: { translation: de },
             "en-XA": { translation: enXA },
             "ar-XB": { translation: arXB },
           }),
