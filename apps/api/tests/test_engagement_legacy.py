@@ -7,6 +7,7 @@ from fastapi.testclient import TestClient
 from shadowgrid.config import get_settings
 from shadowgrid.database import SessionLocal
 from shadowgrid.engagement import record_engagement_event
+from shadowgrid.legacy import visible_ranking_profiles_statement
 from shadowgrid.models import (
     CollectionItem,
     EngagementEvent,
@@ -20,6 +21,7 @@ from shadowgrid.models import (
 )
 from shadowgrid.seasons import create_season_from_template, seed_season_template
 from sqlalchemy import func, select
+from sqlalchemy.dialects import postgresql
 
 
 def _record(
@@ -316,6 +318,13 @@ def test_return_contracts_and_parallel_rankings_add_no_economic_reward(
         for category in rankings.json()["categories"]
         for entry in category["entries"]
     )
+
+
+def test_parallel_rankings_lock_only_player_rows_on_postgresql() -> None:
+    statement = visible_ranking_profiles_statement("world-id")
+    compiled = str(statement.compile(dialect=postgresql.dialect()))
+    assert "LEFT OUTER JOIN engagement_settings" in compiled
+    assert "FOR UPDATE OF player_profiles" in compiled
 
 
 @pytest.mark.parametrize("absence_days", [7, 14, 30])

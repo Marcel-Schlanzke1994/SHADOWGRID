@@ -62,8 +62,24 @@ async function mockCartelApi(page: Page) {
       });
       return;
     }
+    if (path === "/profiles/me") {
+      await fulfill(route, {
+        id: "profile-1",
+        user_id: "user-1",
+        world_id: "world-1",
+        city_id: cityId,
+        home_district_id: districtId,
+        codename: "Cartel Leader",
+        archetype: "business_consortium",
+      });
+      return;
+    }
     if (path === "/cartels" && method === "GET") {
       await fulfill(route, [cartel]);
+      return;
+    }
+    if (path === `/cartels/${cartelId}` && method === "GET") {
+      await fulfill(route, cartel);
       return;
     }
     if (path === "/cartels/invitations/me") {
@@ -256,6 +272,18 @@ async function mockCartelApi(page: Page) {
           created_at: "2026-07-27T09:00:00Z",
         },
       ]);
+      return;
+    }
+    if (path === `/engagement/social/cartels/${cartelId}/delegations`) {
+      await fulfill(route, []);
+      return;
+    }
+    if (path === `/engagement/social/cartels/${cartelId}/pause`) {
+      await fulfill(route, null);
+      return;
+    }
+    if (path === `/engagement/social/cartels/${cartelId}/chronicle`) {
+      await fulfill(route, []);
       return;
     }
     if (path === `/influence/cities/${cityId}`) {

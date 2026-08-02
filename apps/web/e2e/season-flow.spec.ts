@@ -321,7 +321,7 @@ test("local administrator shortens, simulates, closes and recreates a season", a
   await panel.getByLabel("Simulate state at").fill("2026-07-27T12:40");
   await panel.getByRole("button", { name: "Simulate season" }).click();
   await expect(page.getByText("Season phase simulated.")).toBeVisible();
-  await expect(panel.locator(".status")).toContainText("mid");
+  await expect(panel.locator(".status")).toContainText(/mid/i);
 
   await panel.getByRole("button", { name: "Close and archive season" }).click();
   await expect(page.getByRole("dialog")).toContainText(

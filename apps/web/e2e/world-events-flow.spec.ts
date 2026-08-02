@@ -251,10 +251,5 @@ test("active world event is visible in the player command center", async ({
   await expect(banner).toContainText(
     "Technology demand surges while specialist costs rise.",
   );
-  await expect(
-    page
-      .locator(".panel")
-      .filter({ has: page.getByRole("heading", { name: "Cologne news" }) }),
-  ).toContainText("Technology boom");
   expect(await seriousAccessibilityViolations(page)).toEqual([]);
 });

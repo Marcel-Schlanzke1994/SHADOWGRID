@@ -4,7 +4,7 @@ from datetime import UTC, datetime
 from threading import RLock
 from typing import Any, Literal
 
-from sqlalchemy import func, select
+from sqlalchemy import Select, func, select
 from sqlalchemy.orm import Session
 
 from shadowgrid.domain import get_idempotent, remember_idempotent
@@ -919,18 +919,20 @@ def rankings(db: Session, profile: PlayerProfile) -> dict[str, object]:
         return _rankings_locked(db, profile)
 
 
-def _rankings_locked(db: Session, profile: PlayerProfile) -> dict[str, object]:
-    visible_profiles = list(
-        db.scalars(
-            select(PlayerProfile)
-            .outerjoin(EngagementSetting, EngagementSetting.profile_id == PlayerProfile.id)
-            .where(
-                PlayerProfile.world_id == profile.world_id,
-                (EngagementSetting.ranking_visible.is_(True)) | (EngagementSetting.id.is_(None)),
-            )
-            .with_for_update()
+def visible_ranking_profiles_statement(world_id: str) -> Select[tuple[PlayerProfile]]:
+    return (
+        select(PlayerProfile)
+        .outerjoin(EngagementSetting, EngagementSetting.profile_id == PlayerProfile.id)
+        .where(
+            PlayerProfile.world_id == world_id,
+            (EngagementSetting.ranking_visible.is_(True)) | (EngagementSetting.id.is_(None)),
         )
+        .with_for_update(of=PlayerProfile)
     )
+
+
+def _rankings_locked(db: Session, profile: PlayerProfile) -> dict[str, object]:
+    visible_profiles = list(db.scalars(visible_ranking_profiles_statement(profile.world_id)))
     values: dict[str, dict[str, int]] = {}
     for item in visible_profiles:
         resources = db.get(ResourceBalance, item.id)

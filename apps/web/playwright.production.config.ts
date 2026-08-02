@@ -9,6 +9,8 @@ export default defineConfig({
     "alpha-registration-live.spec.ts",
     "language-selection-live.spec.ts",
     "production-assets-live.spec.ts",
+    "production-route-matrix-live.spec.ts",
+    "production-mutation-live.spec.ts",
   ],
   timeout: 60_000,
   expect: { timeout: 15_000 },
