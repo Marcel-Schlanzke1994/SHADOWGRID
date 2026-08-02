@@ -1,14 +1,14 @@
 .git
 .github
 .venv
+.local
+.env
+.env.local
 node_modules
 **/node_modules
 **/dist
 **/coverage
 **/__pycache__
-.local
-.env
-.env.local
 *.db
 *.sqlite*
 *.pdf

@@ -25,7 +25,20 @@ TABLES = {
 
 
 def upgrade() -> None:
-    tables = set(sa.inspect(op.get_bind()).get_table_names())
+    bind = op.get_bind()
+    if bind.dialect.name == "postgresql":
+        # Alembic creates version_num as VARCHAR(32), but engagement revision IDs
+        # intentionally carry descriptive names longer than that. Widen the
+        # bookkeeping column before Alembic records this revision.
+        op.alter_column(
+            "alembic_version",
+            "version_num",
+            existing_type=sa.String(length=32),
+            type_=sa.String(length=128),
+            existing_nullable=False,
+        )
+
+    tables = set(sa.inspect(bind).get_table_names())
     existing = TABLES & tables
     if existing and existing != TABLES:
         raise RuntimeError("Engagement competence/social schema is only partially present")

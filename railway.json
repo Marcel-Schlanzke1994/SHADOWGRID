@@ -2,9 +2,24 @@
   "$schema": "https://railway.com/railway.schema.json",
   "build": {
     "builder": "DOCKERFILE",
-    "dockerfilePath": "apps/api/Dockerfile"
+    "dockerfilePath": "apps/api/Dockerfile",
+    "buildCommand": null,
+    "watchPatterns": [
+      "/apps/api/**",
+      "/apps/worker/**",
+      "/apps/web/**",
+      "/packages/**",
+      "/patches/**",
+      "/package.json",
+      "/pnpm-lock.yaml",
+      "/pnpm-workspace.yaml",
+      "/railway.json",
+      "/.dockerignore",
+      "/.railwayignore"
+    ]
   },
   "deploy": {
+    "startCommand": "python -m shadowgrid.production",
     "preDeployCommand": ["python -m shadowgrid.predeploy"],
     "healthcheckPath": "/api/v1/ready",
     "healthcheckTimeout": 300,

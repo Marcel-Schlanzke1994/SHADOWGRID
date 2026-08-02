@@ -2,9 +2,12 @@ FROM node:22.16-alpine AS web-build
 RUN corepack enable && corepack prepare pnpm@11.1.3 --activate
 WORKDIR /app
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
+COPY patches ./patches
 COPY packages ./packages
 COPY apps/web ./apps/web
-RUN pnpm install --frozen-lockfile
+RUN pnpm install --frozen-lockfile --filter @shadowgrid/web...
+ARG ALPHA_OPEN_REGISTRATION=false
+ENV VITE_ALPHA_OPEN_REGISTRATION=$ALPHA_OPEN_REGISTRATION
 RUN pnpm --filter @shadowgrid/web build
 
 FROM python:3.13-slim AS runtime
