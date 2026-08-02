@@ -133,7 +133,7 @@ describe("accessible data primitives", () => {
       container.querySelector<HTMLImageElement>(
         ".system-state-backdrop--offline img",
       ),
-    ).toHaveAttribute("src", "/assets/global/global-offline-v1-1280.png");
+    ).toHaveAttribute("src", "/assets/global/global-offline-v1-1280.webp");
   });
 
   it("provides production paths for server-authoritative system states", () => {
@@ -153,11 +153,11 @@ describe("accessible data primitives", () => {
 
     expect(images[0]).toHaveAttribute(
       "src",
-      "/assets/global/global-maintenance-v1-1280.png",
+      "/assets/global/global-maintenance-v1-1280.webp",
     );
     expect(images[1]).toHaveAttribute(
       "src",
-      "/assets/global/global-season-complete-v1-1280.png",
+      "/assets/global/global-season-complete-v1-1280.webp",
     );
   });
 

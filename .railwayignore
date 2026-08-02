@@ -15,7 +15,9 @@ node_modules
 backups
 playwright-report
 test-results
-assets
+/assets/
+/apps/web/public/assets/**/*.avif
+/apps/web/public/assets/**/*.png
 apps/mobile
 apps/web/e2e
 docs

@@ -336,37 +336,37 @@ export function GermanyPage() {
             <figure>
               <picture>
                 <source
-                  type="image/avif"
+                  type="image/webp"
                   media="(max-width: 600px) and (prefers-color-scheme: dark)"
-                  srcSet={`/assets/cities/city-${slug}-mobile-night-v1-960.avif`}
+                  srcSet={`/assets/cities/city-${slug}-mobile-night-v1-960.webp`}
                 />
                 <source
-                  type="image/avif"
+                  type="image/webp"
                   media="(max-width: 600px)"
-                  srcSet={`/assets/cities/city-${slug}-mobile-day-v1-960.avif`}
+                  srcSet={`/assets/cities/city-${slug}-mobile-day-v1-960.webp`}
                 />
                 <source
-                  type="image/avif"
+                  type="image/webp"
                   media="(min-width: 1400px) and (prefers-color-scheme: dark)"
-                  srcSet={`/assets/cities/city-${slug}-ultrawide-night-v1-1920.avif`}
+                  srcSet={`/assets/cities/city-${slug}-ultrawide-night-v1-1920.webp`}
                 />
                 <source
-                  type="image/avif"
+                  type="image/webp"
                   media="(min-width: 1400px)"
-                  srcSet={`/assets/cities/city-${slug}-ultrawide-day-v1-1920.avif`}
+                  srcSet={`/assets/cities/city-${slug}-ultrawide-day-v1-1920.webp`}
                 />
                 <source
-                  type="image/avif"
+                  type="image/webp"
                   media="(prefers-color-scheme: dark)"
-                  srcSet={`/assets/cities/city-${slug}-desktop-night-v1-1280.avif`}
+                  srcSet={`/assets/cities/city-${slug}-desktop-night-v1-1280.webp`}
                 />
                 <source
-                  type="image/avif"
-                  srcSet={`/assets/cities/city-${slug}-desktop-day-v1-1280.avif`}
+                  type="image/webp"
+                  srcSet={`/assets/cities/city-${slug}-desktop-day-v1-1280.webp`}
                 />
                 <img
                   className="germany-city-package__hero"
-                  src={`/assets/cities/city-${slug}-desktop-day-v1-1280.png`}
+                  src={`/assets/cities/city-${slug}-desktop-day-v1-1280.webp`}
                   alt={t(heroAlt)}
                   decoding="async"
                   loading="lazy"
@@ -377,7 +377,7 @@ export function GermanyPage() {
             <div className="germany-city-package__supporting">
               <img
                 className="germany-city-package__card"
-                src={`/assets/cities/city-${slug}-card-v1-1280.png`}
+                src={`/assets/cities/city-${slug}-card-v1-1280.webp`}
                 alt={t(cardAlt)}
                 decoding="async"
                 loading="lazy"

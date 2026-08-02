@@ -1,8 +1,8 @@
 const globalAssetWidths = [320, 640, 960, 1280, 1920, 2560, 3840];
 
-const globalAssetSrcSet = (assetId: string, format: "avif" | "webp") =>
+const globalAssetSrcSet = (assetId: string) =>
   globalAssetWidths
-    .map((width) => `/assets/global/${assetId}-${width}.${format} ${width}w`)
+    .map((width) => `/assets/global/${assetId}-${width}.webp ${width}w`)
     .join(", ");
 
 export function GlobalBackdrop({
@@ -21,34 +21,18 @@ export function GlobalBackdrop({
         aria-hidden="true"
       >
         <source
-          type="image/avif"
+          type="image/webp"
           media="(max-width: 600px)"
-          srcSet={globalAssetSrcSet(mobileAssetId, "avif")}
-          sizes="100vw"
-        />
-        <source
-          type="image/avif"
-          srcSet={globalAssetSrcSet(desktopAssetId, "avif")}
+          srcSet={globalAssetSrcSet(mobileAssetId)}
           sizes="100vw"
         />
         <source
           type="image/webp"
-          media="(max-width: 600px)"
-          srcSet={globalAssetSrcSet(mobileAssetId, "webp")}
+          srcSet={globalAssetSrcSet(desktopAssetId)}
           sizes="100vw"
-        />
-        <source
-          type="image/webp"
-          srcSet={globalAssetSrcSet(desktopAssetId, "webp")}
-          sizes="100vw"
-        />
-        <source
-          type="image/png"
-          media="(max-width: 600px)"
-          srcSet={`/assets/global/${mobileAssetId}-1152.png`}
         />
         <img
-          src={`/assets/global/${desktopAssetId}-1280.png`}
+          src={`/assets/global/${desktopAssetId}-1280.webp`}
           alt=""
           decoding="async"
         />
@@ -77,34 +61,18 @@ export function GlobalDayNightBackdrop({
         aria-hidden="true"
       >
         <source
-          type="image/avif"
+          type="image/webp"
           media="(prefers-color-scheme: dark)"
-          srcSet={globalAssetSrcSet(nightAssetId, "avif")}
-          sizes="100vw"
-        />
-        <source
-          type="image/avif"
-          srcSet={globalAssetSrcSet(dayAssetId, "avif")}
+          srcSet={globalAssetSrcSet(nightAssetId)}
           sizes="100vw"
         />
         <source
           type="image/webp"
-          media="(prefers-color-scheme: dark)"
-          srcSet={globalAssetSrcSet(nightAssetId, "webp")}
+          srcSet={globalAssetSrcSet(dayAssetId)}
           sizes="100vw"
-        />
-        <source
-          type="image/webp"
-          srcSet={globalAssetSrcSet(dayAssetId, "webp")}
-          sizes="100vw"
-        />
-        <source
-          type="image/png"
-          media="(prefers-color-scheme: dark)"
-          srcSet={`/assets/global/${nightAssetId}-1280.png`}
         />
         <img
-          src={`/assets/global/${dayAssetId}-1280.png`}
+          src={`/assets/global/${dayAssetId}-1280.webp`}
           alt=""
           decoding="async"
         />
@@ -131,17 +99,12 @@ export function GlobalStaticBackdrop({
         aria-hidden="true"
       >
         <source
-          type="image/avif"
-          srcSet={globalAssetSrcSet(assetId, "avif")}
-          sizes="100vw"
-        />
-        <source
           type="image/webp"
-          srcSet={globalAssetSrcSet(assetId, "webp")}
+          srcSet={globalAssetSrcSet(assetId)}
           sizes="100vw"
         />
         <img
-          src={`/assets/global/${assetId}-1280.png`}
+          src={`/assets/global/${assetId}-1280.webp`}
           alt=""
           decoding="async"
         />
@@ -168,17 +131,12 @@ export function GlobalStateBackdrop({
         aria-hidden="true"
       >
         <source
-          type="image/avif"
-          srcSet={globalAssetSrcSet(assetId, "avif")}
-          sizes="100vw"
-        />
-        <source
           type="image/webp"
-          srcSet={globalAssetSrcSet(assetId, "webp")}
+          srcSet={globalAssetSrcSet(assetId)}
           sizes="100vw"
         />
         <img
-          src={`/assets/global/${assetId}-1280.png`}
+          src={`/assets/global/${assetId}-1280.webp`}
           alt=""
           decoding="async"
         />

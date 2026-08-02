@@ -18,9 +18,9 @@ import { GlobalBackdrop } from "../GlobalBackdrop";
 import { LanguageSelector } from "../LanguageSelector";
 
 const globalAssetWidths = [320, 640, 960, 1280, 1920, 2560, 3840];
-const globalAssetSrcSet = (assetId: string, format: "avif" | "webp") =>
+const globalAssetSrcSet = (assetId: string) =>
   globalAssetWidths
-    .map((width) => `/assets/global/${assetId}-${width}.${format} ${width}w`)
+    .map((width) => `/assets/global/${assetId}-${width}.webp ${width}w`)
     .join(", ");
 
 const PublicFrame = ({ children }: { children: React.ReactNode }) => {
@@ -48,68 +48,30 @@ export function LandingPage() {
     <PublicFrame>
       <picture className="landing-backdrop" aria-hidden="true">
         <source
-          type="image/avif"
-          media="(max-width: 600px) and (prefers-color-scheme: dark)"
-          srcSet={globalAssetSrcSet("global-landing-mobile-night-v1", "avif")}
-          sizes="100vw"
-        />
-        <source
-          type="image/avif"
-          media="(max-width: 600px)"
-          srcSet={globalAssetSrcSet("global-landing-mobile-day-v1", "avif")}
-          sizes="100vw"
-        />
-        <source
-          type="image/avif"
-          media="(prefers-color-scheme: dark)"
-          srcSet={globalAssetSrcSet("global-landing-desktop-night-v1", "avif")}
-          sizes="100vw"
-        />
-        <source
-          type="image/avif"
-          srcSet={globalAssetSrcSet("global-landing-desktop-day-v1", "avif")}
-          sizes="100vw"
-        />
-        <source
           type="image/webp"
           media="(max-width: 600px) and (prefers-color-scheme: dark)"
-          srcSet={globalAssetSrcSet("global-landing-mobile-night-v1", "webp")}
+          srcSet={globalAssetSrcSet("global-landing-mobile-night-v1")}
           sizes="100vw"
         />
         <source
           type="image/webp"
           media="(max-width: 600px)"
-          srcSet={globalAssetSrcSet("global-landing-mobile-day-v1", "webp")}
+          srcSet={globalAssetSrcSet("global-landing-mobile-day-v1")}
           sizes="100vw"
         />
         <source
           type="image/webp"
           media="(prefers-color-scheme: dark)"
-          srcSet={globalAssetSrcSet("global-landing-desktop-night-v1", "webp")}
+          srcSet={globalAssetSrcSet("global-landing-desktop-night-v1")}
           sizes="100vw"
         />
         <source
           type="image/webp"
-          srcSet={globalAssetSrcSet("global-landing-desktop-day-v1", "webp")}
+          srcSet={globalAssetSrcSet("global-landing-desktop-day-v1")}
           sizes="100vw"
-        />
-        <source
-          type="image/png"
-          media="(max-width: 600px) and (prefers-color-scheme: dark)"
-          srcSet="/assets/global/global-landing-mobile-night-v1-1152.png"
-        />
-        <source
-          type="image/png"
-          media="(max-width: 600px)"
-          srcSet="/assets/global/global-landing-mobile-day-v1-1152.png"
-        />
-        <source
-          type="image/png"
-          media="(prefers-color-scheme: dark)"
-          srcSet="/assets/global/global-landing-desktop-night-v1-1280.png"
         />
         <img
-          src="/assets/global/global-landing-desktop-day-v1-1280.png"
+          src="/assets/global/global-landing-desktop-day-v1-1280.webp"
           alt=""
         />
       </picture>

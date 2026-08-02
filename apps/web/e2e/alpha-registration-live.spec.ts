@@ -42,6 +42,16 @@ test("alpha registration requires only name and password", async ({
     const protectedLanguage = page.locator("[data-language-selector]");
     await expect(protectedLanguage).toBeVisible();
     await expect(page.locator("html")).toHaveAttribute("lang", "de");
+    const worldBackdrop = page.locator(".scene-backdrop--world img");
+    await expect(worldBackdrop).toBeVisible();
+    await expect
+      .poll(() =>
+        worldBackdrop.evaluate(
+          (image: HTMLImageElement) =>
+            image.complete && image.naturalWidth > 0 && image.naturalHeight > 0,
+        ),
+      )
+      .toBe(true);
 
     const germanProfile = await request.get("/api/v1/auth/me", {
       headers: profileHeaders,
